@@ -1,27 +1,26 @@
 ---
-title: Shape.Document Property (Visio)
+title: Shape.Document property (Visio)
 keywords: vis_sdr.chm11213430
 f1_keywords:
 - vis_sdr.chm11213430
-ms.prod: visio
 api_name:
 - Visio.Shape.Document
 ms.assetid: 235e9100-dd91-cb6b-01e6-893b4f7acdd8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Document Property (Visio)
+# Shape.Document property (Visio)
 
-Gets the  **Document** object that is associated with an object. Read-only.
+Gets the **Document** object that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Document`
+_expression_.**Document**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,16 +30,16 @@ Document
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Document** property of various objects to retrieve data about those objects, and does the following:
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Document** property of various objects to retrieve data about those objects, and does the following:
 
 
 
 
-- It adds a  **Document** object to the **Documents** collection and sets several of the **Document** object's properties.
+- It adds a **Document** object to the **Documents** collection and sets several of the **Document** object's properties.
     
-- It gets the active window and active page, draws a rectangle on the page, and drops a master on the  **Document** object to provide various objects to work on.
+- It gets the active window and active page, draws a rectangle on the page, and drops a master on the **Document** object to provide various objects to work on.
     
-- It uses the  **Document** property to get the **Document** object associated with each of these other objects.
+- It uses the **Document** property to get the **Document** object associated with each of these other objects.
     
 
 

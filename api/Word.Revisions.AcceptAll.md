@@ -3,12 +3,11 @@ title: Revisions.AcceptAll method (Word)
 keywords: vbawd10.chm159383653
 f1_keywords:
 - vbawd10.chm159383653
-ms.prod: word
 api_name:
 - Word.Revisions.AcceptAll
 ms.assetid: bf1fa0d5-22ab-d426-9411-ae3147277448
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Accepts all the tracked changes in a document or range, removes all revision mar
 
 ## Syntax
 
- _expression_. `AcceptAll`
+_expression_. `AcceptAll`
 
- _expression_ Required. A variable that represents a '[Revisions](Word.revisions.md)' collection.
+_expression_ Required. A variable that represents a '[Revisions](Word.revisions.md)' collection.
 
 
 ## Remarks
 
-Use the  **AcceptAllRevisions** method to accept all revisions in a document.
+Use the **AcceptAllRevisions** method to accept all revisions in a document.
 
 
 ## Example

@@ -3,11 +3,10 @@ title: ChartAxis.Name property (Access)
 keywords: vbaac10.chm14771
 f1_keywords:
 - vbaac10.chm14771
-ms.prod: access
 api_name:
 - Access.ChartAxis.Name
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

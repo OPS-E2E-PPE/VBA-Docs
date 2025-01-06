@@ -1,15 +1,14 @@
 ---
-title: MeetingItem.AttachmentAdd Event (Outlook)
-ms.prod: outlook
+title: MeetingItem.AttachmentAdd event (Outlook)
 api_name:
 - Outlook.MeetingItem.AttachmentAdd
 ms.assetid: ea34a56f-abdc-c928-9df8-ba83d3584565
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.AttachmentAdd Event (Outlook)
+# MeetingItem.AttachmentAdd event (Outlook)
 
 Occurs when an attachment has been added to an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been added to an instance of the parent object.
 
 _expression_. `AttachmentAdd`( `_Attachment_` )
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was added to the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was added to the item.|
 
 ## See also
 

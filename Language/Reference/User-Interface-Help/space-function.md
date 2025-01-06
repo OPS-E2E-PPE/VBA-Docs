@@ -3,10 +3,9 @@ title: Space function (Visual Basic for Applications)
 keywords: vblr6.chm1009026
 f1_keywords:
 - vblr6.chm1009026
-ms.prod: office
 ms.assetid: fa531cfb-863f-ede9-34b8-6000711d71ed
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

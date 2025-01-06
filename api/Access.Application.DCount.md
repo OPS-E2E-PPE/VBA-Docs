@@ -3,18 +3,17 @@ title: Application.DCount method (Access)
 keywords: vbaac10.chm12536
 f1_keywords:
 - vbaac10.chm12536
-ms.prod: access
 api_name:
 - Access.Application.DCount
 ms.assetid: 257f0b2a-e23d-2728-afd2-7700b59e5456
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.DCount method (Access)
 
-You can use the **DCount** function to determine the number of records that are in a specified set of records (a domain).
+Use the **DCount** function to determine the number of records that are in a specified set of records (a domain).
 
 
 ## Syntax
@@ -30,7 +29,7 @@ _expression_ A variable that represents an **[Application](Access.Application.md
 |:-----|:-----|:-----|:-----|
 | _Expr_|Required|**String**|An expression that identifies the field for which you want to count records. It can be a string expression identifying a field in a table or query, or it can be an expression that performs a calculation on data in that field. In _expr_, you can include the name of a field in a table, a control on a form, a constant, or a function. If _expr_ includes a function, it can be either built-in or user-defined, but not another domain aggregate or SQL aggregate function.|
 | _Domain_|Required|**String**|A string expression that identifies the set of records that constitutes the domain. It can be a table name or a query name for a query that does not require a parameter.|
-| _Criteria_|Optional|**Variant**|An optional string expression used to restrict the range of data on which the **DCount** function is performed. For example, _criteria_ is often equivalent to the WHERE clause in an SQL expression, without the word WHERE. If _criteria_ is omitted, the **DCount** function evaluates _expr_ against the entire domain. Any field that is included in _criteria_ must also be a field in _domain_; otherwise the **DCount** function returns a **Null**.|
+| _Criteria_|Optional|**Variant**|An optional string expression used to restrict the range of data on which the **DCount** function is performed. For example, _criteria_ is often equivalent to the WHERE clause in an SQL expression, without the word WHERE. If _criteria_ is omitted, the **DCount** function evaluates _expr_ against the entire domain. Any field that is included in _criteria_ must also be a field in _domain_; otherwise, the **DCount** function returns a **Null**.|
 
 ## Return value
 
@@ -53,7 +52,7 @@ If you simply want to count all records in _domain_ without specifying any restr
 
 Use the **DCount** function when you must count records in a domain from within a code module or macro, or in a calculated control.
 
-You can use the **DCount** function to count the number of records containing a particular field that isn't in the record source on which your form or report is based. For example, you could display the number of orders in the Orders table in a calculated control on a form based on the Products table.
+Use the **DCount** function to count the number of records containing a particular field that isn't in the record source on which your form or report is based. For example, you could display the number of orders in the Orders table in a calculated control on a form based on the Products table.
 
 The **DCount** function doesn't count records that contain **Null** values in the field referenced by _expr_ unless _expr_ is the asterisk (*) wildcard character. If you use an asterisk, the **DCount** function calculates the total number of records, including those that contain **Null** fields. The following example calculates the number of records in an Orders table.
 
@@ -90,8 +89,6 @@ Public Function OrdersCount(ByVal strCountry As String, _
                   "' AND [ShippedDate] > #" & dteShipDate & "#") 
 End Function
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DCount** function.
 

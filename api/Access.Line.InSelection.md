@@ -3,18 +3,17 @@ title: Line.InSelection property (Access)
 keywords: vbaac10.chm10346
 f1_keywords:
 - vbaac10.chm10346
-ms.prod: access
 api_name:
 - Access.Line.InSelection
 ms.assetid: eaeac7f9-a452-7121-5950-1c9741c662c2
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Line.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

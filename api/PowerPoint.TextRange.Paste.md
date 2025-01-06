@@ -1,27 +1,26 @@
 ---
-title: TextRange.Paste Method (PowerPoint)
+title: TextRange.Paste method (PowerPoint)
 keywords: vbapp10.chm569030
 f1_keywords:
 - vbapp10.chm569030
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Paste
 ms.assetid: 4bbaa1f3-206e-2009-11f0-5abde24517c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Paste Method (PowerPoint)
+# TextRange.Paste method (PowerPoint)
 
-Pastes the text on the Clipboard into the specified text range, and returns a  **TextRange** object that represents the pasted text.
+Pastes the text on the Clipboard into the specified text range, and returns a **TextRange** object that represents the pasted text.
 
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ TextRange
 
 ## Remarks
 
-Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
+Use the **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
 
 
 

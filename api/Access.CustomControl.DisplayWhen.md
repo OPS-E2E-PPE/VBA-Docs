@@ -3,18 +3,17 @@ title: CustomControl.DisplayWhen property (Access)
 keywords: vbaac10.chm12014
 f1_keywords:
 - vbaac10.chm12014
-ms.prod: access
 api_name:
 - Access.CustomControl.DisplayWhen
 ms.assetid: 5d53befd-6210-12b6-7397-2e1eea8bc5d3
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

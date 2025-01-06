@@ -1,27 +1,27 @@
 ---
-title: Application.AppMove Method (Project)
+title: Application.AppMove method (Project)
 keywords: vbapj.chm2010
 f1_keywords:
 - vbapj.chm2010
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.AppMove
 ms.assetid: 73ab96b7-4985-b25f-d202-89e6230e6e4e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.AppMove Method (Project)
+# Application.AppMove method (Project)
 
 Moves the main Project window.
 
 
 ## Syntax
 
- _expression_. `AppMove`( `_XPosition_`, `_YPosition_`, `_Points_` )
+_expression_. `AppMove`( `_XPosition_`, `_YPosition_`, `_Points_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

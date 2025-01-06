@@ -3,12 +3,11 @@ title: SharedWorkspaceMember object (Office)
 keywords: vbaof11.chm272000
 f1_keywords:
 - vbaof11.chm272000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMember
 ms.assetid: 4d5ec7d9-b7f2-cdcf-5db2-7429b7a08ed9
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -45,13 +44,13 @@ The following example displays the number of members in the active document's sh
 ```vb
     Dim swsMember As Office.SharedWorkspaceMember 
     Dim strMemberInfo As String 
-    strMemberInfo = "The shared workspace contains " &amp; _ 
-        ActiveWorkbook.SharedWorkspace.Members.Count &amp; " member(s)." &amp; vbCrLf 
+    strMemberInfo = "The shared workspace contains " & _ 
+        ActiveWorkbook.SharedWorkspace.Members.Count & " member(s)." & vbCrLf 
     If ActiveWorkbook.SharedWorkspace.Members.Count > 0 Then 
         For Each swsMember In ActiveWorkbook.SharedWorkspace.Members 
-            strMemberInfo = strMemberInfo &amp; swsMember.Name &amp; vbCrLf &amp; _ 
-                " - " &amp; swsMember.DomainName &amp; vbCrLf &amp; _ 
-                " - " &amp; swsMember.Email &amp; vbCrLf 
+            strMemberInfo = strMemberInfo & swsMember.Name & vbCrLf & _ 
+                " - " & swsMember.DomainName & vbCrLf & _ 
+                " - " & swsMember.Email & vbCrLf 
         Next 
     End If 
     MsgBox strMemberInfo, vbInformation + vbOKOnly, _ 

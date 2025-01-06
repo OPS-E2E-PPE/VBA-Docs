@@ -3,12 +3,11 @@ title: PolicyItem.Id property (Office)
 keywords: vbaof11.chm278021
 f1_keywords:
 - vbaof11.chm278021
-ms.prod: office
 api_name:
 - Office.PolicyItem.Id
 ms.assetid: b94f1822-78c9-ecad-e11b-002eae5e9762
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

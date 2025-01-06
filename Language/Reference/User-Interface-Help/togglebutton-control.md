@@ -3,10 +3,9 @@ title: ToggleButton control
 keywords: fm20.chm2000680
 f1_keywords:
 - fm20.chm2000680
-ms.prod: office
 ms.assetid: 7ab852ce-0339-7c8b-1340-f5727cef0f56
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

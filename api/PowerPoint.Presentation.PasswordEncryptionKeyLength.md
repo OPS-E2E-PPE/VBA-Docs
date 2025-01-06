@@ -1,27 +1,26 @@
 ---
-title: Presentation.PasswordEncryptionKeyLength Property (PowerPoint)
+title: Presentation.PasswordEncryptionKeyLength property (PowerPoint)
 keywords: vbapp10.chm583077
 f1_keywords:
 - vbapp10.chm583077
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.PasswordEncryptionKeyLength
 ms.assetid: 4a3d59e4-fd4d-cd8d-8d51-cca6ebd4b758
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.PasswordEncryptionKeyLength Property (PowerPoint)
+# Presentation.PasswordEncryptionKeyLength property (PowerPoint)
 
 Returns the key length of the algorithm Microsoft PowerPoint uses when it encrypts documents with passwords. Read-only.
 
 
 ## Syntax
 
- _expression_. `PasswordEncryptionKeyLength`
+_expression_. `PasswordEncryptionKeyLength`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Long
 
 ## Remarks
 
-Use the  **[SetPasswordEncryptionOptions](PowerPoint.Presentation.SetPasswordEncryptionOptions.md)** method to specify the algorithm PowerPoint uses for encrypting documents with passwords.
+Use the **[SetPasswordEncryptionOptions](PowerPoint.Presentation.SetPasswordEncryptionOptions.md)** method to specify the algorithm PowerPoint uses for encrypting documents with passwords.
 
 
 ## Example

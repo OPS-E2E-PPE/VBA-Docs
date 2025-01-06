@@ -3,18 +3,17 @@ title: Section.DisplayWhen property (Access)
 keywords: vbaac10.chm12196
 f1_keywords:
 - vbaac10.chm12196
-ms.prod: access
 api_name:
 - Access.Section.DisplayWhen
 ms.assetid: cf084727-dab8-9105-c162-7216433eb181
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Section.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's sections you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's sections you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

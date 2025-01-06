@@ -1,9 +1,8 @@
 ---
 title: Cells and Ranges
-ms.prod: excel
 ms.assetid: 8b84060e-8a2c-4754-bd0c-df73e80f38fd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -58,7 +57,7 @@ This topic links to programming tasks (how-to and walkthrough topics) for common
     
 -  [How to: Refer to Cells by Using a Range Object](../Cells-and-Ranges/refer-to-cells-by-using-a-range-object.md)
     
-      - Describes how to refer to cells by using a  **Range** object.
+      - Describes how to refer to cells by using a **Range** object.
     
 -  [How to: Refer to Cells by Using Index Numbers](../Cells-and-Ranges/refer-to-cells-by-using-index-numbers.md)
     

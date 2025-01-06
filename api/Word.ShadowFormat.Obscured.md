@@ -3,12 +3,11 @@ title: ShadowFormat.Obscured property (Word)
 keywords: vbawd10.chm164364389
 f1_keywords:
 - vbawd10.chm164364389
-ms.prod: word
 api_name:
 - Word.ShadowFormat.Obscured
 ms.assetid: 2746b925-a4f1-b5a6-04e5-7380ad79e20a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Obscured`
+_expression_.**Obscured**
 
- _expression_ Required. A variable that represents a '[ShadowFormat](Word.ShadowFormat.md)' object.
+_expression_ Required. A variable that represents a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ColorScale.Parent property (Excel)
 keywords: vbaxl10.chm805075
 f1_keywords:
 - vbaxl10.chm805075
-ms.prod: excel
 api_name:
 - Excel.ColorScale.Parent
 ms.assetid: b07807a7-d11a-679a-e399-05de0fa0460e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/20/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [ColorScale](Excel.ColorScale.md) object.
+_expression_ A variable that represents a **[ColorScale](Excel.ColorScale.md)** object.
 
 
-## See also
 
-
-[ColorScale Object](Excel.ColorScale.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

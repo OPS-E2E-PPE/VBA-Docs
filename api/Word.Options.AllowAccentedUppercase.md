@@ -3,12 +3,11 @@ title: Options.AllowAccentedUppercase property (Word)
 keywords: vbawd10.chm162988033
 f1_keywords:
 - vbawd10.chm162988033
-ms.prod: word
 api_name:
 - Word.Options.AllowAccentedUppercase
 ms.assetid: 69eecdb3-bec1-d0ac-785e-ba1113bc3e0e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AllowAccentedUppercase`
+_expression_. `AllowAccentedUppercase`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-This property affects only text that's been marked as standard French. For all other languages, accents are always retained even if the  **AllowAccentedUppercase** property is set to **False**.
+This property affects only text that's been marked as standard French. For all other languages, accents are always retained even if the **AllowAccentedUppercase** property is set to **False**.
 
 If you change a character back to lowercase after an accent mark has been stripped from it, the accent won't reappear.
 

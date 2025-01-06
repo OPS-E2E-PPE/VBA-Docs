@@ -3,10 +3,9 @@ title: KeyDown, KeyUp events
 keywords: fm20.chm2000120
 f1_keywords:
 - fm20.chm2000120
-ms.prod: office
 ms.assetid: dde8140e-ebd7-2ad1-6585-65ffe65b3c22
 ms.date: 11/15/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -53,7 +52,7 @@ The KeyDown and KeyUp events are typically used to recognize or distinguish betw
     
 - The numeric keypad and keyboard number keys.
     
-The KeyDown and KeyUp events do not occur under the following circumstances:
+The KeyDown and KeyUp events don't occur under the following circumstances:
 
 - The user presses Enter on a form with a command button whose **Default** property is set to **True**.
     
@@ -73,6 +72,7 @@ The sequence of keyboard-related events is:
 
 ## See also
 
+- [Key code constants](keycode-constants.md)
 - [Microsoft Forms examples](examples-microsoft-forms.md)
 - [Microsoft Forms reference](reference-microsoft-forms.md)
 - [Microsoft Forms concepts](concepts-microsoft-forms.md)

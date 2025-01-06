@@ -1,15 +1,15 @@
 ---
-title: PjResourceGraphStyle Enumeration (Project)
-ms.prod: project-server
+title: PjResourceGraphStyle enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjResourceGraphStyle
 ms.assetid: 04e035ee-2f46-ca0c-5699-cd8fe721920a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjResourceGraphStyle Enumeration (Project)
+# PjResourceGraphStyle enumeration (Project)
 
 Contains constants that specify the resource graph style.
 

@@ -3,12 +3,11 @@ title: Control.SmartTags property (Access)
 keywords: vbaac10.chm10153
 f1_keywords:
 - vbaac10.chm10153
-ms.prod: access
 api_name:
 - Access.Control.SmartTags
 ms.assetid: 2f8b1435-31d4-4388-614c-4f26544eed7c
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,19 +3,16 @@ title: AcAxisRange enumeration (Access)
 keywords: vbaac10.chm14763
 f1_keywords:
 - vbaac10.chm14763
-ms.prod: access
 api_name:
 - Access.AcAxisRange
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcAxisRange enumeration (Access)
 
 Specifies the behavior for representing minimum and maximum values on an axis.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

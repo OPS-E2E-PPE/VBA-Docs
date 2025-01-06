@@ -3,18 +3,17 @@ title: ToggleButton.Picture property (Access)
 keywords: vbaac10.chm11702
 f1_keywords:
 - vbaac10.chm11702
-ms.prod: access
 api_name:
 - Access.ToggleButton.Picture
 ms.assetid: 78889614-9916-1265-611a-8ae6932187fd
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.Picture property (Access)
 
-You can use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
+Use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
 
 
 ## Syntax

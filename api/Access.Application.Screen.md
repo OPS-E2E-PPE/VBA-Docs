@@ -3,18 +3,17 @@ title: Application.Screen property (Access)
 keywords: vbaac10.chm12510
 f1_keywords:
 - vbaac10.chm12510
-ms.prod: access
 api_name:
 - Access.Application.Screen
 ms.assetid: d6faa33a-7701-d270-3bc7-04d53ac9303a
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.Screen property (Access)
 
-You can use the **Screen** property to return a reference the **[Screen](Access.Screen.md)** object and its related properties. Read-only.
+Use the **Screen** property to return a reference the **[Screen](Access.Screen.md)** object and its related properties. Read-only.
 
 
 ## Syntax

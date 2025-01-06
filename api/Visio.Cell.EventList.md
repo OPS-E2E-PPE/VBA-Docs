@@ -1,27 +1,26 @@
 ---
-title: Cell.EventList Property (Visio)
+title: Cell.EventList property (Visio)
 keywords: vis_sdr.chm10113480
 f1_keywords:
 - vis_sdr.chm10113480
-ms.prod: visio
 api_name:
 - Visio.Cell.EventList
 ms.assetid: d88186f6-ecf6-c645-5250-46e07862a745
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.EventList Property (Visio)
+# Cell.EventList property (Visio)
 
-Returns the  **EventList** collection of an object or the **EventList** collection that contains an **Event** object. Read-only.
+Returns the **EventList** collection of an object or the **EventList** collection that contains an **Event** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `EventList`
+_expression_.**EventList**
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ EventList
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **EventList** property to add an **Event** object to the **EventList** collection of a **Document** object. When the **Event** object is triggered by adding a shape to the document, the VSL add-on you specify runs.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **EventList** property to add an **Event** object to the **EventList** collection of a **Document** object. When the **Event** object is triggered by adding a shape to the document, the VSL add-on you specify runs.
 
 Before running this macro, replace references to  _fullpath\filename_ and _filename_ with a valid path and name for a Microsoft Visio VSL or executable (EXE) add-on.
 

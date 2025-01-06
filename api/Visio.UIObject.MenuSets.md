@@ -1,27 +1,26 @@
 ---
-title: UIObject.MenuSets Property (Visio)
+title: UIObject.MenuSets property (Visio)
 keywords: vis_sdr.chm14913915
 f1_keywords:
 - vis_sdr.chm14913915
-ms.prod: visio
 api_name:
 - Visio.UIObject.MenuSets
 ms.assetid: 8acecfc4-5a49-e11f-b9e9-07d5a464681a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UIObject.MenuSets Property (Visio)
+# UIObject.MenuSets property (Visio)
 
-Returns the  **MenuSets** collection of a **UIObject** object. Read-only.
+Returns the **MenuSets** collection of a **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `MenuSets`
+_expression_. `MenuSets`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -32,18 +31,19 @@ MenuSets
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-If a  **UIObject** object represents menus and accelerators (for example, if the object was retrieved using the **BuiltInMenus** property of an **Application** or **Document** object), its **MenuSets** collection represents all of the menus for that **UIObject** object.
+If a **UIObject** object represents menus and accelerators (for example, if the object was retrieved using the **BuiltInMenus** property of an **Application** or **Document** object), its **MenuSets** collection represents all of the menus for that **UIObject** object.
 
-Use the  **ItemAtID** property of a **MenuSets** object to retrieve menus for a particular window context such as the drawing window. If a context does not include menus, it has no **MenuSets** collection.
+Use the **ItemAtID** property of a **MenuSets** object to retrieve menus for a particular window context such as the drawing window. If a context does not include menus, it has no **MenuSets** collection.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **MenuSets** property to get the **MenuSets** collection of a **UIObject** object. It adds a menu and menu item to the drawing window menu set and sets the menu and menu item's **Caption** properties.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **MenuSets** property to get the **MenuSets** collection of a **UIObject** object. It adds a menu and menu item to the drawing window menu set and sets the menu and menu item's **Caption** properties.
 
-To restore the built-in menus in Microsoft Visio after you run this macro, call the  **ThisDocument.ClearCustomMenus** method.
+To restore the built-in menus in Microsoft Visio after you run this macro, call the **ThisDocument.ClearCustomMenus** method.
 
 
 

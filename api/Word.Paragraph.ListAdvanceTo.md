@@ -3,12 +3,11 @@ title: Paragraph.ListAdvanceTo method (Word)
 keywords: vbawd10.chm156696912
 f1_keywords:
 - vbawd10.chm156696912
-ms.prod: word
 api_name:
 - Word.Paragraph.ListAdvanceTo
 ms.assetid: 41b60f22-74b1-60f6-40ad-4107074a57ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Sets the list levels for a paragraph in a list.
 
 ## Syntax
 
- _expression_. `ListAdvanceTo`( `_Level1_` , `_Level2_` , `_Level3_` , `_Level4_` , `_Level5_` , `_Level6_` , `_Level7_` , `_Level8_` , `_Level9_` )
+_expression_. `ListAdvanceTo`( `_Level1_` , `_Level2_` , `_Level3_` , `_Level4_` , `_Level5_` , `_Level6_` , `_Level7_` , `_Level8_` , `_Level9_` )
 
  _expression_ An expression that returns a '[Paragraph](Word.Paragraph.md)' object.
 

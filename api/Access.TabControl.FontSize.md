@@ -3,18 +3,17 @@ title: TabControl.FontSize property (Access)
 keywords: vbaac10.chm12091
 f1_keywords:
 - vbaac10.chm12091
-ms.prod: access
 api_name:
 - Access.TabControl.FontSize
 ms.assetid: 19a38410-726a-bbc9-f2f8-b4688b2f7576
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.FontSize property (Access)
 
-You can use the **FontSize** property to specify the point size for text in the following situations:
+Use the **FontSize** property to specify the point size for text in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

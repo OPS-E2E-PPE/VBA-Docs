@@ -1,27 +1,26 @@
 ---
-title: SlideShowSettings.Run Method (PowerPoint)
+title: SlideShowSettings.Run method (PowerPoint)
 keywords: vbapp10.chm514008
 f1_keywords:
 - vbapp10.chm514008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowSettings.Run
 ms.assetid: 497fae3b-b6a3-dc26-20d9-bdc8057ddc09
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowSettings.Run Method (PowerPoint)
+# SlideShowSettings.Run method (PowerPoint)
 
-Runs a slide show of the specified presentation. Returns a  **[SlideShowWindow](PowerPoint.SlideShowWindow.md)** object.
+Runs a slide show of the specified presentation. Returns a **[SlideShowWindow](PowerPoint.SlideShowWindow.md)** object.
 
 
 ## Syntax
 
- _expression_. `Run`
+_expression_.**Run**
 
- _expression_ A variable that represents a [SlideShowSettings](./PowerPoint.SlideShowSettings.md) object.
+_expression_ A variable that represents a [SlideShowSettings](PowerPoint.SlideShowSettings.md) object.
 
 
 ## Return value
@@ -31,7 +30,12 @@ SlideShowWindow
 
 ## Remarks
 
-To run a custom slide show, set the  **RangeType** property to **ppShowNamedSlideShow**, and set the **SlideShowName** property to the name of the custom show you want to run.
+To run a custom slide show, set the **RangeType** property to **ppShowNamedSlideShow**, and set the **SlideShowName** property to the name of the custom show you want to run.
+
+> [!NOTE] 
+> This method has a different set of parameters on Microsoft PowerPoint for Mac:
+> 
+> `Run([pSSWin AS SlideShowWindow], [pPVWin As PresenterViewWindow], [isPresenter As Boolean = False]) As Object`
 
 
 ## Example

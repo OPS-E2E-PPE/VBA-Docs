@@ -3,23 +3,22 @@ title: XMLNode.OwnerDocument property (Word)
 keywords: vbawd10.chm37748747
 f1_keywords:
 - vbawd10.chm37748747
-ms.prod: word
 api_name:
 - Word.XMLNode.OwnerDocument
 ms.assetid: 015559a7-6824-f8dd-edfd-d8d996ac18fc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.OwnerDocument property (Word)
 
-Returns a  **Document** object that represents the parent document of the specified XML element.
+Returns a **Document** object that represents the parent document of the specified XML element.
 
 
 ## Syntax
 
- _expression_. `OwnerDocument`
+_expression_. `OwnerDocument`
 
  _expression_ An expression that returns an '[XMLNode](Word.XMLNode.md)' object.
 

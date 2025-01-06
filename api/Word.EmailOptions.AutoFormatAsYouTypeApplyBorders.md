@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeApplyBorders property (Word)
 keywords: vbawd10.chm165347589
 f1_keywords:
 - vbawd10.chm165347589
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeApplyBorders
 ms.assetid: 24e0f74e-b57e-d81c-2e36-c08adb59bf5e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyBorders`
+_expression_. `AutoFormatAsYouTypeApplyBorders`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example causes sequences of three or more hyphens (-), equal signs (=), or 
 Options.AutoFormatAsYouTypeApplyBorders = True
 ```
 
-This example returns the current setting for the  **Borders** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the current setting for the **Borders** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

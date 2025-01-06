@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeReplaceFractions property (Word)
 keywords: vbawd10.chm165347595
 f1_keywords:
 - vbawd10.chm165347595
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceFractions
 ms.assetid: 41a0273c-11c5-2053-fd7b-aaed13e1d9a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceFractions`
+_expression_. `AutoFormatAsYouTypeReplaceFractions`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example turns off the automatic replacement of typed fractions.
 Options.AutoFormatAsYouTypeReplaceFractions = False
 ```
 
-This example returns the status of the  **Fractions (1/2) with fraction character (½)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Fractions (1/2) with fraction character (½)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

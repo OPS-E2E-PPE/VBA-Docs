@@ -1,27 +1,26 @@
 ---
-title: ValidationRuleSets.Item Property (Visio)
+title: ValidationRuleSets.Item property (Visio)
 keywords: vis_sdr.chm18113765
 f1_keywords:
 - vis_sdr.chm18113765
-ms.prod: visio
 api_name:
 - Visio.ValidationRuleSets.Item
 ms.assetid: a31997bc-b1eb-8ac6-df1d-ebdfffb9bee5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ValidationRuleSets.Item Property (Visio)
+# ValidationRuleSets.Item property (Visio)
 
-Returns the  **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object that has the specified universal name or index position. Read-only.
+Returns the **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object that has the specified universal name or index position. Read-only.
 
 
 ## Syntax
 
- _expression_. `Item`( `_NameUOrIndex_` )
+_expression_.**Item** (_NameUIDOrIndex_)
 
- _expression_ A variable that represents a '[ValidationRuleSets](Visio.ValidationRuleSets.md)' object.
+_expression_ A variable that represents a **[ValidationRuleSets](Visio.ValidationRuleSets.md)** object.
 
 
 ## Parameters
@@ -39,6 +38,6 @@ Returns the  **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object that has
 
 ## Remarks
 
-When retrieving objects from a collection, you can omit  **Item** from the expression because it is the default property for all collections.
+When retrieving objects from a collection, you can omit **Item** from the expression because it is the default property for all collections.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

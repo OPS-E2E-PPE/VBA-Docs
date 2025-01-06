@@ -3,10 +3,10 @@ title: Page
 keywords: vbaac10.chm112879
 f1_keywords:
 - vbaac10.chm112879
-ms.prod: access
+ms.service: access
 ms.assetid: 2c67eea5-2f04-807e-f07b-ebcc82dd1a21
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

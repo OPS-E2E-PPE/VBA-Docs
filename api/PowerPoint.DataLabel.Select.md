@@ -1,22 +1,21 @@
 ---
-title: DataLabel.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: DataLabel.Select method (PowerPoint)
 api_name:
 - PowerPoint.DataLabel.Select
 ms.assetid: 10a8d96c-8646-c65c-76aa-fc80a963c544
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabel.Select Method (PowerPoint)
+# DataLabel.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
 _expression_ A variable that represents a '[DataLabel](PowerPoint.DataLabel.md)' object.
 

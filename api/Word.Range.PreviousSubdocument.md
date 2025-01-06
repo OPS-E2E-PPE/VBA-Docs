@@ -3,12 +3,11 @@ title: Range.PreviousSubdocument method (Word)
 keywords: vbawd10.chm157155548
 f1_keywords:
 - vbawd10.chm157155548
-ms.prod: word
 api_name:
 - Word.Range.PreviousSubdocument
 ms.assetid: 542149f4-1a0c-bf1b-1cf6-9e8097af321e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the range to the previous subdocument.
 
 ## Syntax
 
- _expression_. `PreviousSubdocument`
+_expression_. `PreviousSubdocument`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

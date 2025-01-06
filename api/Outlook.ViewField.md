@@ -1,37 +1,36 @@
 ---
-title: ViewField Object (Outlook)
+title: ViewField object (Outlook)
 keywords: vbaol11.chm3205
 f1_keywords:
 - vbaol11.chm3205
-ms.prod: outlook
 api_name:
 - Outlook.ViewField
 ms.assetid: 997319f0-7ff3-a712-8484-2e442965e187
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewField Object (Outlook)
+# ViewField object (Outlook)
 
 Represents a view field, used to display information in a view.
 
 
 ## Remarks
 
-Use the  **[Add](Outlook.ViewFields.Add.md)** method of the **[ViewFields](Outlook.ViewFields.md)** collection to add an Outlook item property to the following objects derived from the **[View](Outlook.View.md)** object:
+Use the **[Add](Outlook.ViewFields.Add.md)** method of the **[ViewFields](Outlook.ViewFields.md)** collection to add an Outlook item property to the following objects derived from the **[View](Outlook.View.md)** object:
 
 
--  **[CardView](Outlook.CardView.md)**
+- **[CardView](Outlook.CardView.md)**
     
--  **[TableView](Outlook.TableView.md)**
+- **[TableView](Outlook.TableView.md)**
     
-Use the  **[ColumnFormat](Outlook.ViewField.ColumnFormat.md)** property to access the **[ColumnFormat](Outlook.ColumnFormat.md)** object representing the display properties associated with the view field. Use the **[ViewXMLSchemaName](Outlook.ViewField.ViewXMLSchemaName.md)** property to obtain the name of the view field as referenced in the XML definition of the view.
+Use the **[ColumnFormat](Outlook.ViewField.ColumnFormat.md)** property to access the **[ColumnFormat](Outlook.ColumnFormat.md)** object representing the display properties associated with the view field. Use the **[ViewXMLSchemaName](Outlook.ViewField.ViewXMLSchemaName.md)** property to obtain the name of the view field as referenced in the XML definition of the view.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example iterates through the  **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
+The following Visual Basic for Applications (VBA) example iterates through the **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
 
 
 ```vb
@@ -73,9 +72,9 @@ Private Sub DisplayTableViewFields()
  
  With objViewField 
  
- strOutput = strOutput &amp; .ColumnFormat.Label &amp; _ 
+ strOutput = strOutput & .ColumnFormat.Label & _ 
  
- " (" &amp; .ViewXMLSchemaName &amp; ")" &amp; vbCrLf 
+ " (" & .ViewXMLSchemaName & ")" & vbCrLf 
  
  End With 
  
@@ -113,6 +112,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

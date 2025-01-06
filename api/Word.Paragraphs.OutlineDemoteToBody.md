@@ -3,12 +3,11 @@ title: Paragraphs.OutlineDemoteToBody method (Word)
 keywords: vbawd10.chm156762438
 f1_keywords:
 - vbawd10.chm156762438
-ms.prod: word
 api_name:
 - Word.Paragraphs.OutlineDemoteToBody
 ms.assetid: 26eedf4b-fcca-d065-40c2-76e191608678
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Demotes the specified paragraph or paragraphs to body text by applying the Norma
 
 ## Syntax
 
- _expression_. `OutlineDemoteToBody`
+_expression_. `OutlineDemoteToBody`
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Example

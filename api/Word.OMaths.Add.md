@@ -3,23 +3,22 @@ title: OMaths.Add method (Word)
 keywords: vbawd10.chm122355914
 f1_keywords:
 - vbawd10.chm122355914
-ms.prod: word
 api_name:
 - Word.OMaths.Add
 ms.assetid: d1372381-e9b3-b551-41ff-fa908800d683
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OMaths.Add method (Word)
 
-Creates an equation, from the text equation contained within the specified range, and returns a  **Range** object that contains the new equation.
+Creates an equation, from the text equation contained within the specified range, and returns a **Range** object that contains the new equation.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` )
+_expression_.**Add** (_Range_)
 
  _expression_ An expression that returns an [OMaths](./Word.OMaths.md) object.
 

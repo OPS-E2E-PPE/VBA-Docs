@@ -3,12 +3,11 @@ title: Actions.Parent property (Excel)
 keywords: vbaxl10.chm799075
 f1_keywords:
 - vbaxl10.chm799075
-ms.prod: excel
 api_name:
 - Excel.Actions.Parent
 ms.assetid: 33d471eb-81f7-465d-12df-548d04554d96
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/27/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents an [Actions](Excel.Actions.md) object.
+_expression_ A variable that represents an **[Actions](Excel.Actions.md)** object.
 
 
-## See also
 
-
-[Actions Object](Excel.Actions.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

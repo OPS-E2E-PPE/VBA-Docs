@@ -1,27 +1,26 @@
 ---
-title: Application.BeforeFolderSharingDialog Event (Outlook)
+title: Application.BeforeFolderSharingDialog event (Outlook)
 keywords: vbaol11.chm447
 f1_keywords:
 - vbaol11.chm447
-ms.prod: outlook
 api_name:
 - Outlook.Application.BeforeFolderSharingDialog
 ms.assetid: e06257eb-f2d9-63cf-1220-dda55ee0ea14
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BeforeFolderSharingDialog Event (Outlook)
+# Application.BeforeFolderSharingDialog event (Outlook)
 
-Occurs before the  **Sharing** dialog box is displayed for a selected **[Folder](Outlook.Folder.md)** object.
+Occurs before the **Sharing** dialog box is displayed for a selected **[Folder](Outlook.Folder.md)** object.
 
 
 ## Syntax
 
 _expression_. `BeforeFolderSharingDialog`( `_FolderToShare_` , `_Cancel_` )
 
- _expression_ An expression that returns a [Application](./Outlook.Application.md) object.
+ _expression_ An expression that returns an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -30,8 +29,8 @@ _expression_. `BeforeFolderSharingDialog`( `_FolderToShare_` , `_Cancel_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FolderToShare_|Required| **Folder**|The  **Folder** object to be shared.|
-| _Cancel_|Required| **Boolean**|(Not used in VBScript).  **False** when the event occurs. If the event procedure sets this argument to **True** , the dialog box is not displayed.|
+| _FolderToShare_|Required| **Folder**|The **Folder** object to be shared.|
+| _Cancel_|Required| **Boolean**|(Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the dialog box is not displayed.|
 
 ## Remarks
 

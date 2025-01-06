@@ -3,12 +3,11 @@ title: SeriesCollection.Item method (Excel)
 keywords: vbaxl10.chm580077
 f1_keywords:
 - vbaxl10.chm580077
-ms.prod: excel
 api_name:
 - Excel.SeriesCollection.Item
 ms.assetid: 9a1f393b-e0b0-0887-b76e-471982ae0414
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [SeriesCollection](./Excel.SeriesCollection.md) object.
+_expression_ A variable that represents a **[SeriesCollection](Excel.SeriesCollection.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,13 +31,12 @@ _expression_ A variable that represents a [SeriesCollection](./Excel.SeriesColle
 
 ## Return value
 
-A  **[Series](Excel.Series(object).md)** object contained by the collection.
+A **[Series](Excel.Series(object).md)** object contained by the collection.
 
 
 ## Example
 
-This example sets the number of units that the trendline on Chart1 extends forward and backward. The example should be run on a 2-D column chart that contains a single series with a trendline.
-
+This example sets the number of units that the trendline on Chart1 extends forward and backward. The example should be run on a 2D column chart that contains a single series with a trendline.
 
 ```vb
 With Charts("Chart1").SeriesCollection.Item(1).Trendlines.Item(1) 
@@ -50,9 +46,6 @@ End With
 ```
 
 
-## See also
 
-
-[SeriesCollection Object](./Excel.SeriesCollection.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,10 +3,9 @@ title: RSet allowed only on strings
 keywords: vblr6.chm1040145
 f1_keywords:
 - vblr6.chm1040145
-ms.prod: office
 ms.assetid: cf7a404b-de1f-501b-c961-011c46e460c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,11 +15,11 @@ localization_priority: Normal
 
 
 
-- You tried to use the  **RSet** statement on a [variable](../../Glossary/vbe-glossary.md#variable) that isn't a string.
+- You tried to use the **RSet** statement on a [variable](../../Glossary/vbe-glossary.md#variable) that isn't a string.
     
-    If appropriate, try converting the variable to a string. Otherwise, don't use  **RSet**.
+    If appropriate, try converting the variable to a string. Otherwise, don't use **RSet**.
     
-     **Note**  Although the  **LSet** statement can be used to assign the elements of one[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) variable to the elements of a different, but compatible, user-defined type, such assignments are discouraged because they can't be guaranteed to be portable.
+   **Note**  Although the **LSet** statement can be used to assign the elements of one[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) variable to the elements of a different, but compatible, user-defined type, such assignments are discouraged because they can't be guaranteed to be portable.
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 

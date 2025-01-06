@@ -1,11 +1,10 @@
 ---
 title: WdCompatibility enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdCompatibility
 ms.assetid: d9541795-2d77-dfc6-5b1c-d3b0755cf8ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -62,7 +61,7 @@ Specifies a compatibility option.
 | **wdTruncateFontHeight**|24|Truncate font height.|
 | **wdUsePrinterMetrics**|26|Use printer metrics to lay out document.|
 | **wdUseWord2002TableStyleRules**|49|Use Microsoft Word 2002 table style rules.|
-| **wdUseWord2010TableStyleRules**||Use Microsoft Word 2010 table style rules.|
+| **wdUseWord2010TableStyleRules**|69|Use Microsoft Word 2010 table style rules.|
 | **wdUseWord97LineBreakingRules**|42|Use Microsoft Word 97 line breaking rules for Asian text.|
 | **wdWPJustification**|31|Do full justification like WordPerfect 6.x for Windows.|
 | **wdWPSpaceWidth**|30|Set the width of a space like WordPerfect 5.x.|

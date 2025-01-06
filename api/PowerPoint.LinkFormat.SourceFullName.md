@@ -1,27 +1,26 @@
 ---
-title: LinkFormat.SourceFullName Property (PowerPoint)
+title: LinkFormat.SourceFullName property (PowerPoint)
 keywords: vbapp10.chm563003
 f1_keywords:
 - vbapp10.chm563003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.LinkFormat.SourceFullName
 ms.assetid: 6a7fb694-609a-77c5-eabc-d95693a87299
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LinkFormat.SourceFullName Property (PowerPoint)
+# LinkFormat.SourceFullName property (PowerPoint)
 
 Returns or sets the name and path of the source file for the linked OLE object. Read/write.
 
 
 ## Syntax
 
- _expression_. `SourceFullName`
+_expression_. `SourceFullName`
 
- _expression_ A variable that represents a [LinkFormat](./PowerPoint.LinkFormat.md) object.
+_expression_ A variable that represents a [LinkFormat](PowerPoint.LinkFormat.md) object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: SharedWorkspaceLink.ModifiedDate property (Office)
 keywords: vbaof11.chm270007
 f1_keywords:
 - vbaof11.chm270007
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.ModifiedDate
 ms.assetid: 0ad877d1-a1dd-558d-eee0-9502f8242b6b
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

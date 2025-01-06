@@ -1,15 +1,14 @@
 ---
-title: PpChangeCase Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpChangeCase enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpChangeCase
 ms.assetid: 93d2d684-5b5c-64ad-667b-dd60093fb366
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpChangeCase Enumeration (PowerPoint)
+# PpChangeCase enumeration (PowerPoint)
 
 Specifies the way the case of the specified text will be changed.
 

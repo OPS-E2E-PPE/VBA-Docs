@@ -3,31 +3,29 @@ title: Protection.AllowEditRanges property (Excel)
 keywords: vbaxl10.chm719084
 f1_keywords:
 - vbaxl10.chm719084
-ms.prod: excel
 api_name:
 - Excel.Protection.AllowEditRanges
 ms.assetid: 829ec57c-2fe1-27b0-5987-83bd4dd50eed
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/09/2019
+ms.localizationpriority: medium
 ---
 
 
 # Protection.AllowEditRanges property (Excel)
 
-Returns an  **[AllowEditRanges](Excel.AllowEditRanges.md)** object.
+Returns an **[AllowEditRanges](Excel.AllowEditRanges.md)** object.
 
 
 ## Syntax
 
-_expression_. `AllowEditRanges`
+_expression_.**AllowEditRanges**
 
-_expression_ A variable that represents a [Protection](Excel.Protection.md) object.
+_expression_ A variable that represents a **[Protection](Excel.Protection.md)** object.
 
 
 ## Example
 
 In this example, Microsoft Excel allows edits to range A1:A4 on the active worksheet and notifies the user of the title and address of the specified range.
-
 
 ```vb
 Sub UseAllowEditRanges() 
@@ -60,9 +58,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Protection Object](Excel.Protection.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

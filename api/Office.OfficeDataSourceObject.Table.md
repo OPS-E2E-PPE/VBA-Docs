@@ -3,12 +3,11 @@ title: OfficeDataSourceObject.Table property (Office)
 keywords: vbaof11.chm232002
 f1_keywords:
 - vbaof11.chm232002
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject.Table
 ms.assetid: 5c65237a-49fc-3de1-3de7-267ad7db44a1
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ Sub OfficeTest()
  Dim appOffice As OfficeDataSourceObject 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  If appOffice.Table = "" Then 

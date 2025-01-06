@@ -3,18 +3,15 @@ title: Date Format constants
 keywords: vblr6.chm1012531
 f1_keywords:
 - vblr6.chm1012531
-ms.prod: office
 ms.assetid: 091f5a85-70f9-d9a5-8c4e-01b4d0c7b5eb
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Date Format constants
 
 These constants are only available when your project has an explicit reference to the appropriate [type library](../../Glossary/vbe-glossary.md#type-library) containing these constant definitions.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

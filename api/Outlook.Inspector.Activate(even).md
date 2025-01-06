@@ -1,27 +1,26 @@
 ---
-title: Inspector.Activate Event (Outlook)
+title: Inspector.Activate event (Outlook)
 keywords: vbaol11.chm465
 f1_keywords:
 - vbaol11.chm465
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.Activate
 ms.assetid: 5a1021ab-9a55-b039-8c13-d75c9fdb45fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.Activate Event (Outlook)
+# Inspector.Activate event (Outlook)
 
 Occurs when an inspector becomes the active window, either as a result of user action or through program code. 
 
 
 ## Syntax
 
-_expression_. `Activate`
+_expression_.**Activate**
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Remarks

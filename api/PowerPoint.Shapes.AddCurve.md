@@ -1,32 +1,29 @@
 ---
-title: Shapes.AddCurve Method (PowerPoint)
+title: Shapes.AddCurve method (PowerPoint)
 keywords: vbapp10.chm543007
 f1_keywords:
 - vbapp10.chm543007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.AddCurve
 ms.assetid: 47f90182-a71b-a028-c43f-a85d59d2a56b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddCurve Method (PowerPoint)
+# Shapes.AddCurve method (PowerPoint)
 
-Creates a Bézier curve. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the new curve.
+Creates a Bézier curve. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new curve.
 
 
 ## Syntax
 
- _expression_. `AddCurve`( `_SafeArrayOfPoints_` )
+_expression_.**AddCurve** (_SafeArrayOfPoints_)
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

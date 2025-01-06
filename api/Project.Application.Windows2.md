@@ -1,29 +1,29 @@
 ---
-title: Application.Windows2 Property (Project)
-ms.prod: project-server
+title: Application.Windows2 property (Project)
+ms.service: project-server
 api_name:
 - Project.Application.Windows2
 ms.assetid: 038d051c-769d-3a14-c884-7b4b669d3cc8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Windows2 Property (Project)
+# Application.Windows2 property (Project)
 
-Gets a  **[Windows2](Project.windows2(object).md)** collection representing the open windows in the application. Read-only **Windows2**.
+Gets a **[Windows2](Project.windows2(object).md)** collection representing the open windows in the application. Read-only **Windows2**.
 
 
 ## Syntax
 
- _expression_. `Windows2`
+_expression_. `Windows2`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **Windows2** property is recommended, in place of the **Windows** property, for all new development in VBA and external applications developed with the .NET Framework.
+The **Windows2** property is recommended, in place of the **Windows** property, for all new development in VBA and external applications developed with the .NET Framework.
 
 
 ## Example

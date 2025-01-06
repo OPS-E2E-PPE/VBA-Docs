@@ -1,11 +1,10 @@
 ---
 title: WdViewType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdViewType
 ms.assetid: ade8beac-7f70-2923-a40f-d2c0f900c585
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

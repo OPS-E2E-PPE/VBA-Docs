@@ -3,32 +3,31 @@ title: ShapeRange.Top property (Word)
 keywords: vbawd10.chm162857083
 f1_keywords:
 - vbawd10.chm162857083
-ms.prod: word
 api_name:
 - Word.ShapeRange.Top
 ms.assetid: 2bfa4057-2b4e-6ea6-6d0f-3efd6eb3c63d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ShapeRange.Top property (Word)
 
-Returns or sets the vertical position of the specified shape or shape range in points. Read/write  **Single**.
+Returns or sets the vertical position of the specified shape or shape range in points. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_.**Top**
+_expression_.**Top**
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
-The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The  **RelativeVerticalPosition** property controls whether the shape's anchor is positioned alongside the line, the paragraph, the margin, or the edge of the page.
+The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The **RelativeVerticalPosition** property controls whether the shape's anchor is positioned alongside the line, the paragraph, the margin, or the edge of the page.
 
-For a  **ShapeRange** object that contains more than one shape, the **Top** property sets the vertical position of each shape.
+For a **ShapeRange** object that contains more than one shape, the **Top** property sets the vertical position of each shape.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: TabControl.GridlineThemeColorIndex property (Access)
 keywords: vbaac10.chm14635
 f1_keywords:
 - vbaac10.chm14635
-ms.prod: access
 api_name:
 - Access.TabControl.GridlineThemeColorIndex
 ms.assetid: f1b3ef7c-f123-469d-c045-120eb91dedd6
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

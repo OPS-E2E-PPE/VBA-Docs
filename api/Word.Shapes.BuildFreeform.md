@@ -3,12 +3,11 @@ title: Shapes.BuildFreeform method (Word)
 keywords: vbawd10.chm161415188
 f1_keywords:
 - vbawd10.chm161415188
-ms.prod: word
 api_name:
 - Word.Shapes.BuildFreeform
 ms.assetid: 760fe720-3fbc-16a1-c5b3-b78502dbf670
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Builds a freeform object.
 
 ## Syntax
 
- _expression_. `BuildFreeform`( `_EditingType_` , `_X1_` , `_Y1_` )
+_expression_. `BuildFreeform`( `_EditingType_` , `_X1_` , `_Y1_` )
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ Builds a freeform object.
 
 ## Remarks
 
-Use the  **AddNodes** method to add segments to the freeform. After you have added at least one segment to the freeform, you can use the **ConvertToShape** method to convert the **[FreeformBuilder](Word.FreeformBuilder.md)** object into a **Shape** object that has the geometric description you've defined in the **[FreeformBuilder](Word.FreeformBuilder.md)** object.
+Use the **AddNodes** method to add segments to the freeform. After you have added at least one segment to the freeform, you can use the **ConvertToShape** method to convert the **[FreeformBuilder](Word.FreeformBuilder.md)** object into a **Shape** object that has the geometric description you've defined in the **[FreeformBuilder](Word.FreeformBuilder.md)** object.
 
 
 ## Example

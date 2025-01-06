@@ -1,24 +1,23 @@
 ---
-title: Walls.Thickness Property (PowerPoint)
-ms.prod: powerpoint
+title: Walls.Thickness property (PowerPoint)
 api_name:
 - PowerPoint.Walls.Thickness
 ms.assetid: 6aec14a6-2a90-2456-cf27-16e297241e31
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Walls.Thickness Property (PowerPoint)
+# Walls.Thickness property (PowerPoint)
 
-Returns or sets the thickness of the wall. Read/write  **Long**.
+Returns or sets the thickness of the wall. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `Thickness`
+_expression_.**Thickness**
 
- _expression_ A variable that represents a '[Walls](PowerPoint.Walls.md)' object.
+_expression_ A variable that represents a '[Walls](PowerPoint.Walls.md)' object.
 
 
 ## Remarks

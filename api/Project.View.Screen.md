@@ -1,28 +1,28 @@
 ---
-title: View.Screen Property (Project)
-ms.prod: project-server
+title: View.Screen property (Project)
+ms.service: project-server
 api_name:
 - Project.View.Screen
 ms.assetid: 975af43e-76c8-ea69-b6d9-7e6408e22ae0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.Screen Property (Project)
+# View.Screen property (Project)
 
-Gets the screen type for the view. Read-only  **PjViewScreen**.
+Gets the screen type for the view. Read-only **PjViewScreen**.
 
 
 ## Syntax
 
- _expression_. `Screen`
+_expression_. `Screen`
 
- _expression_ A variable that represents a [View](./Project.View.md) object.
+_expression_ A variable that represents a [View](./Project.View.md) object.
 
 
 ## Remarks
 
-The  **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
+The **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

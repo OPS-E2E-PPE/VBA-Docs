@@ -3,12 +3,11 @@ title: Pane.PageScroll method (Word)
 keywords: vbawd10.chm157286505
 f1_keywords:
 - vbawd10.chm157286505
-ms.prod: word
 api_name:
 - Word.Pane.PageScroll
 ms.assetid: d96a9e10-6d57-14d7-5f4c-ab2aeffed22b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scrolls through the specified window page by page.
 
 ## Syntax
 
- _expression_. `PageScroll`( `_Down_` , `_Up_` )
+_expression_. `PageScroll`( `_Down_` , `_Up_` )
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Scrolls through the specified window page by page.
 
 ## Remarks
 
-The  **PageScroll** method is available only if you are in print layout view or Web layout view. This method does not affect the position of the insertion point.
+The **PageScroll** method is available only if you are in print layout view or Web layout view. This method does not affect the position of the insertion point.
 
 If Down and Up are both specified, the window is scrolled by the difference of the arguments. For example, if Down is 2 and Up is 4, the window is scrolled up two pages.
 

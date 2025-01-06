@@ -1,9 +1,8 @@
 ---
 title: Setting Default Properties for a Form
-ms.prod: outlook
 ms.assetid: dd3dd5c6-bc23-70d5-ae6c-b8a2bb4e9a66
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -12,7 +11,7 @@ localization_priority: Priority
 To set the default properties for a custom form that has form pages, use the **Properties** tab in the Forms Designer.
 
 > [!NOTE] 
-> For more information about how to set the default properties in a Microsoft Outlook form that has form regions as opposed to form pages, see  [How to: Create a Form Region](create-a-form-region.md).
+> For more information about how to set the default properties in a Microsoft Outlook form that has form regions as opposed to form pages, see [How to: Create a Form Region](create-a-form-region.md).
 
 
 The following are the default properties for custom forms that have form pages:
@@ -43,7 +42,7 @@ The following are the default properties for custom forms that have form pages:
     
 - **Change Small Icon** Click this button to open the **File Open** dialog box, where you can select a different small icon for your form. Small icons appear in the Outlook folder to represent an item of the type the form creates.
     
-- **Send form definition with item** Instructs Outlook to include the form definition when you send the form. (Note that the form is much larger when it includes the form definition.) When you select this option, Outlook creates a self-contained form that the recipients can use to view the form, even if they do not have access to the same forms library as the sender.
+- **Send form definition with item** Instructs Outlook to include the form definition when you send the form. (Note that the form is much larger when it includes the form definition.) When you select this option, Outlook creates a self-contained form that the recipients can use to view the form, even if they don't have access to the same forms library as the sender.
     
   > [!NOTE] 
   > Because of improvements to security since Office Outlook 2007, this option is not recommended nor is it necessary in most cases. In general, publishing the form is all that is needed.

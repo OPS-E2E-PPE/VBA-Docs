@@ -3,35 +3,34 @@ title: ListFormat.ListType property (Word)
 keywords: vbawd10.chm163577930
 f1_keywords:
 - vbawd10.chm163577930
-ms.prod: word
 api_name:
 - Word.ListFormat.ListType
 ms.assetid: 6a6cf33b-d1a7-25f8-2fe0-ab98760c424e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListFormat.ListType property (Word)
 
-Returns the type of lists that are contained in the range for the specified  **ListFormat** object. Read-only **WdListType**.
+Returns the type of lists that are contained in the range for the specified **ListFormat** object. Read-only **WdListType**.
 
 
 ## Syntax
 
- _expression_. `ListType`
+_expression_. `ListType`
 
- _expression_ Required. A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
+_expression_ Required. A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Remarks
 
-The constant  **wdListListNumOnly** refers to LISTNUM fields, which are fields that can be added within the text of a paragraph.
+The constant **wdListListNumOnly** refers to LISTNUM fields, which are fields that can be added within the text of a paragraph.
 
 
 ## Example
 
-This example checks to see if the first list in the active document is a simple numbered list. If it is, the fourth list template on the  **Numbered** tab of the **Bullets and Numbering** dialog box (**Format** menu) is applied.
+This example checks to see if the first list in the active document is a simple numbered list. If it is, the fourth list template on the **Numbered** tab of the **Bullets and Numbering** dialog box (**Format** menu) is applied.
 
 
 ```vb

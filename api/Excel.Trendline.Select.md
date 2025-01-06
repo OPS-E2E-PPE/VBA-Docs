@@ -3,12 +3,11 @@ title: Trendline.Select method (Excel)
 keywords: vbaxl10.chm594089
 f1_keywords:
 - vbaxl10.chm594089
-ms.prod: excel
 api_name:
 - Excel.Trendline.Select
 ms.assetid: b866a79c-38c1-feb2-e244-31c727e98f46
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/18/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the object.
 
 ## Syntax
 
-_expression_. `Select`
+_expression_.**Select**
 
-_expression_ A variable that represents a [Trendline](./Excel.Trendline-graph-object.md) object.
+_expression_ A variable that represents a **[Trendline](Excel.Trendline(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,6 @@ _expression_ A variable that represents a [Trendline](./Excel.Trendline-graph-ob
 Variant
 
 
-## See also
 
-
-[Trendline Object](Excel.Trendline(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

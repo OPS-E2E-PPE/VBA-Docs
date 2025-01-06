@@ -1,11 +1,10 @@
 ---
 title: CustomXMLValidationError.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.CustomXMLValidationError.Creator
 ms.assetid: ed5558a0-a332-e9e5-1e8f-7bffad0d929a
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -4,10 +4,9 @@ ROBOTS: INDEX
 keywords: acmain11.chm1032167
 f1_keywords:
 - acmain11.chm1032167
-ms.prod: access
 ms.assetid: ed696038-e77f-ce01-a139-d100d17212e5
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -22,15 +21,15 @@ The easiest way to accomplish this is to export the existing Microsoft Access da
 For your application to load the appropriate portion of the Windows Registry key you must specify the location with the DAO **INIPath** property. Your application must set the **INIPath** property before executing any other DAO code. The scope of this setting is limited to your application and cannot be changed without restarting your application.
 
 > [!NOTE] 
-> Although creating a Microsoft Access database engine portion in your application's registry is more flexible than overwriting the Microsoft Access database engine default entries, it requires that you maintain the registry tree. Every time changes are required in the default settings, you will need to edit the Registry.
+> Although creating a Microsoft Access database engine portion in your application's registry is more flexible than overwriting the Microsoft Access database engine default entries, it requires that you maintain the registry tree. Every time changes are required in the default settings, you'll need to edit the Registry.
 
 ## See also
 
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

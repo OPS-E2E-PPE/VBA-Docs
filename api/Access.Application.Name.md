@@ -3,18 +3,17 @@ title: Application.Name property (Access)
 keywords: vbaac10.chm12586
 f1_keywords:
 - vbaac10.chm12586
-ms.prod: access
 api_name:
 - Access.Application.Name
 ms.assetid: 63843be1-da9c-8052-52ee-39ca558b5856
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.Name property (Access)
 
-You can use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
+Use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
 
 
 ## Syntax

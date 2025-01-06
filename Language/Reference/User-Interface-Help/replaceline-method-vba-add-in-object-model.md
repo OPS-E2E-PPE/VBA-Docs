@@ -3,10 +3,9 @@ title: ReplaceLine method (VBA Add-In Object Model)
 keywords: vbob6.chm1098990
 f1_keywords:
 - vbob6.chm1098990
-ms.prod: office
 ms.assetid: ac215802-f730-05d8-c4fb-7f70544d1576
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Replaces an existing line of code with a specified line of code.
 ## Syntax
 
 _object_.**ReplaceLine** (_line_, _code_)
-
-<br/>
 
 The **ReplaceLine** syntax has these parts:
 

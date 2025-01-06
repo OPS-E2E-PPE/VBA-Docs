@@ -1,19 +1,16 @@
 ---
 title: MsoSignatureSubset enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoSignatureSubset
 ms.assetid: a62c91dc-44a1-e70d-01c2-e9a3888ca708
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoSignatureSubset enumeration (Office)
 
 Specifies properties of the signature subset. These settings act as filters for signature sets.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

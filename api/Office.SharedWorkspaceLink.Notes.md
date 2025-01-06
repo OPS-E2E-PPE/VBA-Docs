@@ -3,12 +3,11 @@ title: SharedWorkspaceLink.Notes property (Office)
 keywords: vbaof11.chm270003
 f1_keywords:
 - vbaof11.chm270003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.Notes
 ms.assetid: 5bb05b61-2746-f276-5159-ee8f28a30c66
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -37,10 +36,10 @@ Dim strBuildingLinks As String
 Dim swsLink As Office.SharedWorkspaceLink 
 For Each swsLink In ActiveWorkbook.SharedWorkspace.Links 
    If InStr(swsLink.Notes, "building", vbTextCompare) > 0 Then 
-      strBuildingLinks = strBuildingLinks &amp; swsLink.Description &amp; vbCrLf 
+      strBuildingLinks = strBuildingLinks & swsLink.Description & vbCrLf 
    End If 
 Next 
-MsgBox "Building Links: " &amp; vbCrLf &amp; strBuildingLinks, _ 
+MsgBox "Building Links: " & vbCrLf & strBuildingLinks, _ 
    vbInformation + vbOKOnly, "Building Links in Shared Workspace" 
 
 ```

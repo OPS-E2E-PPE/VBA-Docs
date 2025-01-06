@@ -3,12 +3,11 @@ title: Raise method (Visual Basic for Applications)
 keywords: vblr6.chm1014183
 f1_keywords:
 - vblr6.chm1014183
-ms.prod: office
 api_name:
 - Office.Raise
 ms.assetid: 7e3ddb06-db93-ebce-7562-8a15c49261b1
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Generates a [run-time error](../../Glossary/vbe-glossary.md#run-time-error).
 ## Syntax
 
 _object_.**Raise** _number_, _source_, _description_, _helpfile_, _helpcontext_
-
-<br/>
 
 The **Raise** method has the following object qualifier and [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

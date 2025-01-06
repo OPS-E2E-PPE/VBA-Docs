@@ -1,27 +1,26 @@
 ---
-title: Windows.Arrange Method (Visio)
+title: Windows.Arrange method (Visio)
 keywords: vis_sdr.chm11716080
 f1_keywords:
 - vis_sdr.chm11716080
-ms.prod: visio
 api_name:
 - Visio.Windows.Arrange
 ms.assetid: 0a7f5b76-d2e9-7640-f2e7-ed68ef170f77
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Windows.Arrange Method (Visio)
+# Windows.Arrange method (Visio)
 
-Arranges the windows in a  **Windows** collection.
+Arranges the windows in a **Windows** collection.
 
 
 ## Syntax
 
- _expression_. `Arrange`( `_nArrangeFlags_` )
+_expression_. `Arrange`( `_nArrangeFlags_` )
 
- _expression_ A variable that represents a [Windows](./Visio.Windows.md) object.
+_expression_ A variable that represents a **[Windows](Visio.Windows.md)** object.
 
 
 ## Parameters
@@ -39,15 +38,15 @@ Nothing
 
 ## Remarks
 
-Using the  **Arrange** method is equivalent to clicking **Arrange All** in the **Window** group on the **View** tab. The active window remains active.
+Using the **Arrange** method is equivalent to clicking **Arrange All** in the **Window** group on the **View** tab. The active window remains active.
 
 Visio considers windows from top to bottom and then from left to right. You can influence which windows will end up topmost when tiling horizontally (or leftmost when tiling vertically) by prearranging windows.
 
-The following constants declared by the Visio type library are valid values for  _nArrangeFlags_. These constants are also declared by the Visio type library in  **VisWindowArrange**.
+The following constants declared by the Visio type library are valid values for  _nArrangeFlags_. These constants are also declared by the Visio type library in **VisWindowArrange**.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **VisArrangeTileVertical**|1|
 | **VisArrangeTileHorizontal**|2|

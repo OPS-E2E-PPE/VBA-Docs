@@ -1,22 +1,22 @@
 ---
-title: GroupCriterion2.Delete Method (Project)
-ms.prod: project-server
+title: GroupCriterion2.Delete method (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriterion2.Delete
 ms.assetid: a7ece042-6081-ae12-cfbe-d009f03e06e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriterion2.Delete Method (Project)
+# GroupCriterion2.Delete method (Project)
 
-Deletes a  **GroupCriterion2** object from its containing **GroupCriteria2** collection.
+Deletes a **GroupCriterion2** object from its containing **GroupCriteria2** collection.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
  _expression_ An expression that returns a [GroupCriterion2](./Project.GroupCriterion2.md) object.
 

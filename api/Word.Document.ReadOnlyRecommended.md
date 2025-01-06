@@ -3,12 +3,11 @@ title: Document.ReadOnlyRecommended property (Word)
 keywords: vbawd10.chm158007348
 f1_keywords:
 - vbawd10.chm158007348
-ms.prod: word
 api_name:
 - Word.Document.ReadOnlyRecommended
 ms.assetid: d7190307-c58a-fa7a-7bb0-56478eac8160
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ReadOnlyRecommended`
+_expression_. `ReadOnlyRecommended`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

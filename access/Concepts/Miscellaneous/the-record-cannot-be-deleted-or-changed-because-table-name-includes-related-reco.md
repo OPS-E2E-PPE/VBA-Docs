@@ -3,14 +3,13 @@ title: The record cannot be deleted or changed because table <name> includes rel
 keywords: jeterr40.chm5003200
 f1_keywords:
 - jeterr40.chm5003200
-ms.prod: access
 ms.assetid: e3171406-6a42-5932-35f4-b0a4db616f3a
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# The record cannot be deleted or changed because table <name> includes related records. (Error 3200)
+# The record cannot be deleted or changed because table \<name\> includes related records. (Error 3200)
 
   
 
@@ -25,8 +24,8 @@ If you want to delete or change the record, first delete the related records fro
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

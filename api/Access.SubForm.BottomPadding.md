@@ -3,12 +3,11 @@ title: SubForm.BottomPadding property (Access)
 keywords: vbaac10.chm11969
 f1_keywords:
 - vbaac10.chm11969
-ms.prod: access
 api_name:
 - Access.SubForm.BottomPadding
 ms.assetid: d20ce09c-ef6b-47cb-c437-b9e87169adf2
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

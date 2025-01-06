@@ -3,10 +3,9 @@ title: GetObject function (Visual Basic for Applications)
 keywords: vblr6.chm1010959
 f1_keywords:
 - vblr6.chm1010959
-ms.prod: office
 ms.assetid: 6c313a4c-dac9-9115-95db-3fde52a5e888
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -18,16 +17,12 @@ Returns a reference to an object provided by an ActiveX component.
 
 **GetObject**([ _pathname_ ], [ _class_ ])
 
-<br/>
-
 The **GetObject** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
 |Part|Description|
 |:-----|:-----|
 |_pathname_|Optional; **Variant** (**String**). The full path and name of the file containing the object to retrieve. If _pathname_ is omitted, _class_ is required.|
 |_class_|Optional; **Variant** (**String**). A string representing the [class](../../Glossary/vbe-glossary.md#class) of the object.|
-
-<br/>
 
 The _class_ [argument](../../Glossary/vbe-glossary.md#argument) uses the syntax _appname_._objecttype_ and has these parts:
 
@@ -65,7 +60,7 @@ Set MyObject = GetObject("C:\DRAWINGS\SAMPLE.DRW", "FIGMENT.DRAWING")
 ```
 
 In the example, `FIGMENT` is the name of a drawing application and `DRAWING` is one of the object types it supports.
-After an object is activated, you reference it in code by using the object variable you defined. In the preceding example, you access [properties](../../Glossary/vbe-glossary.md#property) and [methods](../../Glossary/vbe-glossary.md#method) of the new object by using the object variable `MyObject`. For example:
+After an object is activated, you reference it in code by using the object variable you defined. In the preceding example, you access [properties](../../Glossary/vbe-glossary.md#property) and [methods](../../Glossary/vbe-glossary.md#method) of the new object by using the object variable _MyObject_. For example:
 
 ```vb
 MyObject.Line 9, 90

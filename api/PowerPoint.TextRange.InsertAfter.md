@@ -1,27 +1,26 @@
 ---
-title: TextRange.InsertAfter Method (PowerPoint)
+title: TextRange.InsertAfter method (PowerPoint)
 keywords: vbapp10.chm569018
 f1_keywords:
 - vbapp10.chm569018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.InsertAfter
 ms.assetid: 2af4e134-c205-fbe6-a006-3fc1ca8d6a50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.InsertAfter Method (PowerPoint)
+# TextRange.InsertAfter method (PowerPoint)
 
-Appends a string to the end of the specified text range. Returns a  **TextRange** object that represents the appended text. When used without an argument, this method returns a zero-length string at the end of the specified range.
+Appends a string to the end of the specified text range. Returns a **TextRange** object that represents the appended text. When used without an argument, this method returns a zero-length string at the end of the specified range.
 
 
 ## Syntax
 
- _expression_. `InsertAfter`( `_NewText_` )
+_expression_. `InsertAfter`( `_NewText_` )
 
- _expression_ A variable that represents an [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents an [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

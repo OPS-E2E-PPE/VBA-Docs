@@ -3,12 +3,11 @@ title: AutoCorrect.OtherCorrectionsAutoAdd property (Word)
 keywords: vbawd10.chm155779088
 f1_keywords:
 - vbawd10.chm155779088
-ms.prod: word
 api_name:
 - Word.AutoCorrect.OtherCorrectionsAutoAdd
 ms.assetid: ac284578-00af-7143-0573-a75a5557760c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `OtherCorrectionsAutoAdd`
+_expression_. `OtherCorrectionsAutoAdd`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 

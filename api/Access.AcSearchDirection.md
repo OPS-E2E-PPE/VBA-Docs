@@ -3,20 +3,17 @@ title: AcSearchDirection enumeration (Access)
 keywords: vbaac10.chm10026
 f1_keywords:
 - vbaac10.chm10026
-ms.prod: access
 api_name:
 - Access.AcSearchDirection
 ms.assetid: c1222cca-68a0-34ba-f907-2b0567a0a789
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcSearchDirection enumeration (Access)
 
 Used with the [DoCmd.FindRecord method (Access)](Access.DoCmd.FindRecord.md) method to specify the direction to search.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

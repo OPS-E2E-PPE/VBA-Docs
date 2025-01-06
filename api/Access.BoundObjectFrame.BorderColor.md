@@ -3,18 +3,17 @@ title: BoundObjectFrame.BorderColor property (Access)
 keywords: vbaac10.chm10936
 f1_keywords:
 - vbaac10.chm10936
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.BorderColor
 ms.assetid: e3c43808-1254-2635-264e-2f3e79cb2c8a
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

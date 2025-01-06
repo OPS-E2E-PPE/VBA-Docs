@@ -3,18 +3,17 @@ title: Form.Undo method (Access)
 keywords: vbaac10.chm13492
 f1_keywords:
 - vbaac10.chm13492
-ms.prod: access
 api_name:
 - Access.Form.Undo
 ms.assetid: 65c71211-8138-40cf-9b59-ceb087d2d7f0
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Form.Undo method (Access)
 
-You can use the **Undo** method to reset a control or form when its value has been changed.
+Use the **Undo** method to reset a control or form when its value has been changed.
 
 
 ## Syntax
@@ -44,8 +43,6 @@ Private Sub LastName_Change()
  Me!LastName.Undo 
 End Sub
 ```
-
-<br/>
 
 The next example uses the **Undo** method to reset all changes to a form before the form is updated.
 

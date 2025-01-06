@@ -3,12 +3,11 @@ title: Font.Subscript property (Word)
 keywords: vbawd10.chm156369034
 f1_keywords:
 - vbawd10.chm156369034
-ms.prod: word
 api_name:
 - Word.Font.Subscript
 ms.assetid: 51226088-218d-4848-1358-d524fb2fe56a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Subscript`
+_expression_.**Subscript**
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**.
+Returns **True**, **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
-Setting the  **Subscript** property to **True** sets the **[Superscript](Word.Font.Superscript.md)** property to **False** , and vice versa.
+Setting the **Subscript** property to **True** sets the **[Superscript](Word.Font.Superscript.md)** property to **False**, and vice versa.
 
 
 ## Example

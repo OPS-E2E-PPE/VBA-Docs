@@ -1,27 +1,26 @@
 ---
-title: TextFrame2.WordArtFormat Property (PowerPoint)
+title: TextFrame2.WordArtFormat property (PowerPoint)
 keywords: vbapp10.chm678011
 f1_keywords:
 - vbapp10.chm678011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.WordArtFormat
 ms.assetid: 7ab4d90b-aae1-d98e-50d2-14b181d370ba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.WordArtFormat Property (PowerPoint)
+# TextFrame2.WordArtFormat property (PowerPoint)
 
 Returns or sets the WordArt type for the specified text frame. Read/write.
 
 
 ## Syntax
 
- _expression_. `WordArtFormat`
+_expression_. `WordArtFormat`
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoPresetTextEffect
 
 ## Remarks
 
-The value of the  **WordArtFormat** property can be one of these **[MsoPresetTextEffect](Office.MsoPresetTextEffect.md)** constants.
+The value of the **WordArtFormat** property can be one of these **[MsoPresetTextEffect](Office.MsoPresetTextEffect.md)** constants.
 
 
 ## Example

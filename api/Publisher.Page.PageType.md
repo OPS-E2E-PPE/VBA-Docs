@@ -1,27 +1,26 @@
 ---
-title: Page.PageType Property (Publisher)
+title: Page.PageType property (Publisher)
 keywords: vbapb10.chm393221
 f1_keywords:
 - vbapb10.chm393221
-ms.prod: publisher
 api_name:
 - Publisher.Page.PageType
 ms.assetid: 0bb34de5-ac3e-386c-3b9f-814a476c9695
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Page.PageType Property (Publisher)
+# Page.PageType property (Publisher)
 
-Returns a  **PbPageType** constant that represents the page type. Read-only.
+Returns a **[PbPageType](publisher.pbpagetype.md)** constant that represents the page type. Read-only.
 
 
 ## Syntax
 
- _expression_. **PageType**
+_expression_.**PageType**
 
- _expression_ A variable that represents a  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
 ## Return value
@@ -31,19 +30,11 @@ PbPageType
 
 ## Remarks
 
-The  **PageType** property value can be one of the following **PbPageType** constants declared in the Microsoft Publisher type library.
-
-
-
-| **pbPageLeftPage**|
-| **pbPageMasterPage**|
-| **pbPageRightPage**|
-| **pbPageScratchPage**|
+The **PageType** property value can be one of the **PbPageType** constants declared in the Microsoft Publisher type library.
 
 ## Example
 
 This example adds a shape on alternating corners of each page in the active publication.
-
 
 ```vb
 Sub GetPageType() 

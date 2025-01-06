@@ -1,15 +1,15 @@
 ---
-title: PjMailField Enumeration (Project)
-ms.prod: project-server
+title: PjMailField enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjMailField
 ms.assetid: 431e1115-431d-aab2-0f48-c55aa655284e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjMailField Enumeration (Project)
+# PjMailField enumeration (Project)
 
 Contains constants that specify the mail field. Obsolete.
 

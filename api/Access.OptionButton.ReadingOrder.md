@@ -3,18 +3,17 @@ title: OptionButton.ReadingOrder property (Access)
 keywords: vbaac10.chm10622
 f1_keywords:
 - vbaac10.chm10622
-ms.prod: access
 api_name:
 - Access.OptionButton.ReadingOrder
 ms.assetid: 52dab78d-5c67-4031-06b4-f7fa43207f4c
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

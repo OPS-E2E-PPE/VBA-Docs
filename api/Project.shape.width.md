@@ -1,20 +1,20 @@
 ---
-title: Shape.Width Property (Project)
-ms.prod: project-server
+title: Shape.Width property (Project)
+ms.service: project-server
 ms.assetid: ddf3de99-8667-3d12-10dc-5d355542ae3e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Width Property (Project)
-Gets or sets the width, in points, of the shape. Read/write  **Long**.
+# Shape.Width property (Project)
+Gets or sets the width, in [points](../language/glossary/vbe-glossary.md#point), of the shape. Read/write **Long**.
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

@@ -3,10 +3,9 @@ title: Remove method (Visual Basic for Applications)
 keywords: vblr6.chm1014020
 f1_keywords:
 - vblr6.chm1014020
-ms.prod: office
 ms.assetid: ad45eba6-eb95-3cdc-03c2-7c94e8a38d48
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ Removes a [member](../../Glossary/vbe-glossary.md#member) from a **[Collection](
 
 ## Syntax
 
-_object_.**Remove** _index_
+_object_.**Remove** (_index_)
 
 The **Remove** method syntax has the following object qualifier and part:
 
@@ -31,8 +30,7 @@ If the value provided as _index_ doesn't match an existing member of the collect
 
 ## Example
 
-This example illustrates the use of the **Remove** method to remove objects from a **Collection** object, `MyClasses`. This code removes the object whose index is 1 on each iteration of the loop.
-
+This example illustrates the use of the **Remove** method to remove objects from a **Collection** object, _MyClasses_. This code removes the object whose index is 1 on each iteration of the loop.
 
 ```vb
 Dim Num, MyClasses

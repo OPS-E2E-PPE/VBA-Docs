@@ -3,30 +3,29 @@ title: ChartColorFormat.Application property (Word)
 keywords: vbawd10.chm12058772
 f1_keywords:
 - vbawd10.chm12058772
-ms.prod: word
 api_name:
 - Word.ChartColorFormat.Application
 ms.assetid: ca8d6709-c65b-fca9-1061-b23c6107eba2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartColorFormat.Application property (Word)
 
-When used without an object qualifier, returns an  **[Application](Word.Application.md)** object that represents the Microsoft Word application. When used with an object qualifier, returns an **Application** object that represents the creator of the specified object (you can use this property with an Automation object to return the application of that object). Read-only.
+When used without an object qualifier, returns an **[Application](Word.Application.md)** object that represents the Microsoft Word application. When used with an object qualifier, returns an **Application** object that represents the creator of the specified object (you can use this property with an Automation object to return the application of that object). Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a '[ChartColorFormat](Word.ChartColorFormat.md)' object.
+_expression_ A variable that represents a '[ChartColorFormat](Word.ChartColorFormat.md)' object.
 
 
 ## Example
 
-The following example displays a message about the application that created  `myObject`.
+The following example displays a message about the application that created _myObject_.
 
 
 ```vb

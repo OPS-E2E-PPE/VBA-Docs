@@ -3,12 +3,11 @@ title: Paragraph.HangingPunctuation property (Word)
 keywords: vbawd10.chm156696695
 f1_keywords:
 - vbawd10.chm156696695
-ms.prod: word
 api_name:
 - Word.Paragraph.HangingPunctuation
 ms.assetid: 89287cb7-1b12-4fd0-4a02-b6d4dd371d70
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HangingPunctuation`
+_expression_. `HangingPunctuation`
 
- _expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: Workbook.BreakLink method (Excel)
 keywords: vbaxl10.chm199198
 f1_keywords:
 - vbaxl10.chm199198
-ms.prod: excel
 api_name:
 - Excel.Workbook.BreakLink
 ms.assetid: 1e9d70c1-908e-92eb-26b8-d6ac753cc9c2
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/29/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,31 +18,21 @@ Converts formulas linked to other Microsoft Excel sources or OLE sources to valu
 
 ## Syntax
 
-_expression_. `BreakLink`( `_Name_` , `_Type_` )
+_expression_.**BreakLink** (_Name_, _Type_)
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name of the link.|
-| _Type_|Required| **[xlLinkType](Excel.XlLinkType.md)**|The type of link.|
+| _Type_|Required| **[XlLinkType](Excel.XlLinkType.md)**|The type of link.|
 
 ## Example
 
-In this example, Microsoft Excel converts the first link (an Excel link type) in the active workbook. 
-
-
-
-
- **Note**  This example assumes at least one formula exists in the active workbook that links to another Excel source.
-
-
-
+In this example, Microsoft Excel converts the first link (an Excel link type) in the active workbook. This example assumes that at least one formula exists in the active workbook that links to another Excel source.
 
 ```vb
 Sub UseBreakLink() 
@@ -62,9 +51,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

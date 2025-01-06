@@ -3,12 +3,11 @@ title: Cells.SetWidth method (Word)
 keywords: vbawd10.chm155844810
 f1_keywords:
 - vbawd10.chm155844810
-ms.prod: word
 api_name:
 - Word.Cells.SetWidth
 ms.assetid: 0dbb76d5-f30a-30f6-48f7-c0993c750e6e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the width of columns or cells in a table.
 
 ## Syntax
 
- _expression_. `SetWidth`( `_ColumnWidth_` , `_RulerStyle_` )
+_expression_. `SetWidth`( `_ColumnWidth_` , `_RulerStyle_` )
 
- _expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
+_expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Sets the width of columns or cells in a table.
 
 ## Remarks
 
-The  **WdRulerStyle** behavior described above applies to left-aligned tables. The **WdRulerStyle** behavior for center- and right-aligned tables can be unexpected; in these cases, the **SetWidth** method should be used with care.
+The **WdRulerStyle** behavior described above applies to left-aligned tables. The **WdRulerStyle** behavior for center- and right-aligned tables can be unexpected; in these cases, the **SetWidth** method should be used with care.
 
 
 ## Example

@@ -3,10 +3,9 @@ title: Character set (0 - 127)
 keywords: vblr6.chm1008853
 f1_keywords:
 - vblr6.chm1008853
-ms.prod: office
 ms.assetid: b9c97363-89a8-c8bb-f5b9-38f607a6811a
 ms.date: 08/24/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -47,8 +46,6 @@ localization_priority: Priority
 |29||61|=|93|]|125|}|
 |30||62|>|94|^|126|~|
 |31||63|?|95|_|127||
-
-<br/>
 
 The values with blanks are control characters, not characters displayed or printed by Windows.
 

@@ -1,32 +1,31 @@
 ---
-title: DistListItem.MemberCount Property (Outlook)
+title: DistListItem.MemberCount property (Outlook)
 keywords: vbaol11.chm1149
 f1_keywords:
 - vbaol11.chm1149
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.MemberCount
 ms.assetid: 56e3aa96-4e2a-bdf9-93a1-daa206fb8d30
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.MemberCount Property (Outlook)
+# DistListItem.MemberCount property (Outlook)
 
-Returns a  **Long** indicating the number of members in a distribution list. Read-only.
+Returns a **Long** indicating the number of members in a distribution list. Read-only.
 
 
 ## Syntax
 
 _expression_. `MemberCount`
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Remarks
 
-The value returned represents all members of the distribution list, including member distribution lists. Each member distribution list is counted as a single member. That is,  **MemberCount** is not an aggregate sum of the recipients in the distribution list plus recipients in member distribution lists. For example, if a distribution list contains 10 recipients plus one distribution list containing 15 recipients, **MemberCount** returns 11.
+The value returned represents all members of the distribution list, including member distribution lists. Each member distribution list is counted as a single member. That is, **MemberCount** is not an aggregate sum of the recipients in the distribution list plus recipients in member distribution lists. For example, if a distribution list contains 10 recipients plus one distribution list containing 15 recipients, **MemberCount** returns 11.
 
 
 ## Example

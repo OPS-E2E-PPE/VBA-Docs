@@ -3,12 +3,11 @@ title: ShortPath property (Visual Basic for Applications)
 keywords: vblr6.chm2181998
 f1_keywords:
 - vblr6.chm2181998
-ms.prod: office
 api_name:
 - Office.ShortPath
 ms.assetid: 9d473ea7-d555-0d79-9dfc-4822aa99ccd8
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ The _object_ is always a **[File](file-object.md)** or **[Folder](folder-object.
 
 ## Remarks
 
-The following code illustrates the use of the **ShortName** property with a **File** object.
+The following code illustrates the use of the **ShortPath** property with a **File** object.
 
 ```vb
 Sub ShowShortPath(filespec)

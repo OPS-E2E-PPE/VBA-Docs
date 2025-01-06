@@ -1,37 +1,37 @@
 ---
-title: Resource.AccrueAt Property (Project)
+title: Resource.AccrueAt property (Project)
 keywords: vbapj.chm131366
 f1_keywords:
 - vbapj.chm131366
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Resource.AccrueAt
 ms.assetid: 760e1f6f-04b9-39e0-61a9-43af3813c473
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.AccrueAt Property (Project)
+# Resource.AccrueAt property (Project)
 
-Gets or sets the way a task accrues the cost of a resource assigned to it. Read/write  **Variant**.
+Gets or sets the way a task accrues the cost of a resource assigned to it. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `AccrueAt`
+_expression_. `AccrueAt`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **AccrueAt** property can be one of the **[PjAccrueAt](Project.PjAccrueAt.md)** constants.
+The **AccrueAt** property can be one of the **[PjAccrueAt](Project.PjAccrueAt.md)** constants.
 
 
 ## Example
 
-The following example sets the  **AccrueAt** property to **pjProrated** for each resource in the active project.
+The following example sets the **AccrueAt** property to **pjProrated** for each resource in the active project.
 
 
 ```vb

@@ -3,12 +3,11 @@ title: PickerResults.Add method (Office)
 keywords: vbaof11.chm339003
 f1_keywords:
 - vbaof11.chm339003
-ms.prod: office
 api_name:
 - Office.PickerResults.Add
 ms.assetid: cf6e4f0f-4373-3caa-ddb3-512ca5c4675f
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,9 +30,9 @@ _expression_ An expression that returns a **[PickerResults](Office.PickerResults
 | _Id_|Required|**String**|Represents an identifier of the **PickerResult**.|
 | _DisplayName_|Required|**String**|Represents a display name of the **PickerResult**. |
 | _Type_|Required|**String**|Represents a type of the **PickerResult**.|
-| _SIPId_|Optional|**String**|Currently not supported. The **SIPId** is the identifier for Office Communication Server. It is used only for the people picking scenario.|
+| _SIPId_|Optional|**String**|Currently not supported. The **SIPId** is the identifier for Office Communication Server. It's used only for the people picking scenario.|
 | _ItemData_|Optional|**Variant**|Non-displaying item binding data.|
-| _SubItems_|Optional|**Variant**|Displays the purpose or non-display purpose field data of the **PickerResult**. It is used for passing column values in the **PickerDialog**.|
+| _SubItems_|Optional|**Variant**|Displays the purpose or non-display purpose field data of the **PickerResult**. It's used for passing column values in the **PickerDialog**.|
 
 ## Return value
 

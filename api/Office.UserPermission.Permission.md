@@ -3,12 +3,11 @@ title: UserPermission.Permission property (Office)
 keywords: vbaof11.chm260002
 f1_keywords:
 - vbaof11.chm260002
-ms.prod: office
 api_name:
 - Office.UserPermission.Permission
 ms.assetid: 6350051e-c87f-f44d-2347-eab10775683b
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -52,11 +51,11 @@ The following example uses the bitwise **And** operator with the **Permission** 
  Set irmPermission = ActiveWorkbook.Permission 
  Set irmUserPerm = irmPermission.Item(2) 
  If irmUserPerm.Permission And Office.msoPermissionSave Then 
- MsgBox "User " &amp; irmUserPerm.UserId &amp; _ 
+ MsgBox "User " & irmUserPerm.UserId & _ 
  " has permission to save this document.", _ 
  vbInformation + vbOKOnly, "IRM Information" 
  Else 
- MsgBox "User " &amp; irmUserPerm.UserId &amp; _ 
+ MsgBox "User " & irmUserPerm.UserId & _ 
  " does NOT have permission to save this document.", _ 
  vbInformation + vbOKOnly, "IRM Information" 
  End If 

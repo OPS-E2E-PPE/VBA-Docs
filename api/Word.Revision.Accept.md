@@ -3,12 +3,11 @@ title: Revision.Accept method (Word)
 keywords: vbawd10.chm159449189
 f1_keywords:
 - vbawd10.chm159449189
-ms.prod: word
 api_name:
 - Word.Revision.Accept
 ms.assetid: 3e98b15a-edc3-dc85-0297-288886d8c479
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Accepts the specified tracked change, removes the revision mark, and incorporate
 
 ## Syntax
 
- _expression_. `Accept`
+_expression_. `Accept`
 
- _expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
+_expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
 
 
 ## Example

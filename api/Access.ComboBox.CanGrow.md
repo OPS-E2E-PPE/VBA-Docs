@@ -3,12 +3,11 @@ title: ComboBox.CanGrow property (Access)
 keywords: vbaac10.chm11496
 f1_keywords:
 - vbaac10.chm11496
-ms.prod: access
 api_name:
 - Access.ComboBox.CanGrow
 ms.assetid: 0abc0d9c-35dc-ea5f-dcb1-dbfe37b7a143
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The **CanGrow** property uses the following settings.
 
 This property setting is read-only in a macro or Visual Basic in any view but Design view.
 
-You can use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control grows, the controls below it move down the page.
+Use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control grows, the controls below it move down the page.
 
 If you set a control's **CanGrow** property to Yes, Microsoft Access automatically sets the **CanGrow** property of the section containing the control to Yes.
 

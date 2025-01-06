@@ -1,18 +1,17 @@
 ---
-title: OlFormRegionMode Enumeration (Outlook)
+title: OlFormRegionMode enumeration (Outlook)
 keywords: vbaol11.chm3103
 f1_keywords:
 - vbaol11.chm3103
-ms.prod: outlook
 api_name:
 - Outlook.OlFormRegionMode
 ms.assetid: 6fea8606-7465-0fdf-204d-f3562b6cc916
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormRegionMode Enumeration (Outlook)
+# OlFormRegionMode enumeration (Outlook)
 
 Identifies the mode that the form region is being loaded into, which corresponds with the container displaying the form region.
 

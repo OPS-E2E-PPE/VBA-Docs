@@ -1,13 +1,12 @@
 ---
-title: PpPlayerState Enumeration (PowerPoint)
+title: PpPlayerState enumeration (PowerPoint)
 ms.assetid: ea70a230-a2bf-604f-e326-68b9f1beec00
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpPlayerState Enumeration (PowerPoint)
+# PpPlayerState enumeration (PowerPoint)
 
 Indicates the current state of the player.
 
@@ -22,9 +21,6 @@ Indicates the current state of the player.
 |**ppPaused**|1|Paused|
 |**ppStopped**|2|Stopped|
 |**ppNotReady**|3|Not ready|
-|**ppNotReady**|**3**||
-|**ppPaused**|**1**||
-|**ppPlaying**|**0**||
-|**ppStopped**|**2**||
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

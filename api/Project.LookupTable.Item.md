@@ -1,24 +1,24 @@
 ---
-title: LookupTable.Item Property (Project)
-ms.prod: project-server
+title: LookupTable.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.LookupTable.Item
 ms.assetid: d22476e1-404b-75ca-b2da-7fbd9797f4bf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LookupTable.Item Property (Project)
+# LookupTable.Item property (Project)
 
-Gets a single  **LookupTableEntry** object from the **LookupTable** collection object. Read-only **LookupTableEntry**.
+Gets a single **LookupTableEntry** object from the **LookupTable** collection object. Read-only **LookupTableEntry**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'LookupTable' object.
+_expression_ A variable that represents a 'LookupTable' object.
 
 
 ## Parameters

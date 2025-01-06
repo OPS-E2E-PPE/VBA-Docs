@@ -1,17 +1,16 @@
 ---
-title: XlBarShape Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlBarShape enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlBarShape
 ms.assetid: 3e3e515e-1bd4-f8ee-262b-848e4ad7da77
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlBarShape Enumeration (PowerPoint)
+# XlBarShape enumeration (PowerPoint)
 
-Specifies the shape used with the 3-D bar or column chart.
+Specifies the shape used with the 3D bar or column chart.
 
 
 

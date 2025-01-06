@@ -3,12 +3,11 @@ title: Paragraph.OpenUp method (Word)
 keywords: vbawd10.chm156696878
 f1_keywords:
 - vbawd10.chm156696878
-ms.prod: word
 api_name:
 - Word.Paragraph.OpenUp
 ms.assetid: 660d5595-cf12-db3d-e4d2-0d4880d3df7a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Sets spacing before the specified paragraphs to 12 points.
 
 ## Syntax
 
- _expression_. `OpenUp`
+_expression_. `OpenUp`
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Remarks
 
-You can also use the  **[SpaceBefore](Word.Paragraph.SpaceBefore.md)** property to set the spacing for a paragraph. The following two statements are equivalent:
+You can also use the **[SpaceBefore](Word.Paragraph.SpaceBefore.md)** property to set the spacing for a paragraph. The following two statements are equivalent:
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: Window.AllowEditing Property (Visio)
+title: Window.AllowEditing property (Visio)
 keywords: vis_sdr.chm11650505
 f1_keywords:
 - vis_sdr.chm11650505
-ms.prod: visio
 api_name:
 - Visio.Window.AllowEditing
 ms.assetid: 805ed8a9-1835-0d7b-9bbe-717ff21af3c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.AllowEditing Property (Visio)
+# Window.AllowEditing property (Visio)
 
-Determines whether the  **Edit Stencil** command is enabled or disabled in a stencil window. Read/write.
+Determines whether the **Edit Stencil** command is enabled or disabled in a stencil window. Read/write.
 
 
 ## Syntax
 
- _expression_. `AllowEditing`
+_expression_. `AllowEditing`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,11 +30,12 @@ Boolean
 
 ## Remarks
 
-Use the  **AllowEditing** property to prevent unintentional editing in stencils. Setting the value of this property for stencils that are already open for editing has no effect. This property has no effect on Visio stencils (stencils that are shipped on the Microsoft Visio CD) or on other stencils that have been published to Visio by using an .msi file.
+Use the **AllowEditing** property to prevent unintentional editing in stencils. Setting the value of this property for stencils that are already open for editing has no effect. This property has no effect on Visio stencils (stencils that are shipped on the Microsoft Visio CD) or on other stencils that have been published to Visio by using an .msi file.
 
 
 
 
- **Note**  Only user-created stencils are editable. By default, Visio stencils are not editable.
+> [!NOTE] 
+> Only user-created stencils are editable. By default, Visio stencils are not editable.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,10 +3,9 @@ title: InsertLines method (VBA Add-In Object Model)
 keywords: vbob6.chm1098975
 f1_keywords:
 - vbob6.chm1098975
-ms.prod: office
 ms.assetid: 6a719fb8-cb52-6a18-c0dc-a8cd09a4814d
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Inserts a line or lines of code at a specified location in a block of code.
 ## Syntax
 
 _object_.**InsertLines** (_line_, _code_)
-
-<br/>
 
 The **InsertLines** syntax has these parts:
 

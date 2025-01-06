@@ -1,17 +1,16 @@
 ---
-title: PpTextUnitEffect Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpTextUnitEffect enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpTextUnitEffect
 ms.assetid: e6bd9c0b-5490-6b43-857d-5144a91c9cdb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpTextUnitEffect Enumeration (PowerPoint)
+# PpTextUnitEffect enumeration (PowerPoint)
 
-Constants that specify how text-unit effects are animated, passed to and returned by the  **TextUnitEffect** property of the **AnimationSettings** object.
+Constants that specify how text-unit effects are animated, passed to and returned by the **TextUnitEffect** property of the **AnimationSettings** object.
 
 
 

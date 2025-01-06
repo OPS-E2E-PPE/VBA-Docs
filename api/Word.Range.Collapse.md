@@ -3,12 +3,11 @@ title: Range.Collapse method (Word)
 keywords: vbawd10.chm157155429
 f1_keywords:
 - vbawd10.chm157155429
-ms.prod: word
 api_name:
 - Word.Range.Collapse
 ms.assetid: fa5cae70-f047-e300-52f7-bd75d9c613da
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Collapses a range or selection to the starting or ending position. After a range
 
 ## Syntax
 
- _expression_. `Collapse`( `_Direction_` )
+_expression_. `Collapse`( `_Direction_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,11 +29,11 @@ Collapses a range or selection to the starting or ending position. After a range
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Direction_|Optional| **Variant**|The direction in which to collapse the range or selection. Can be either of the following  **WdCollapseDirection** constants: **wdCollapseEnd** or **wdCollapseStart**. The default value is **wdCollapseStart**.|
+| _Direction_|Optional| **Variant**|The direction in which to collapse the range or selection. Can be either of the following **WdCollapseDirection** constants: **wdCollapseEnd** or **wdCollapseStart**. The default value is **wdCollapseStart**.|
 
 ## Remarks
 
-If you use  **wdCollapseEnd** to collapse a range that refers to an entire paragraph, the range is located after the ending paragraph mark (the beginning of the next paragraph). However, you can move the range back one character by using the **MoveEnd** method after the range is collapsed, as shown in the following example.
+If you use **wdCollapseEnd** to collapse a range that refers to an entire paragraph, the range is located after the ending paragraph mark (the beginning of the next paragraph). However, you can move the range back one character by using the **MoveEnd** method after the range is collapsed, as shown in the following example.
 
 
 ```vb

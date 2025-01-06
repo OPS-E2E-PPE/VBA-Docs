@@ -3,10 +3,9 @@ title: TimeSerial function (Visual Basic for Applications)
 keywords: vblr6.chm1009044
 f1_keywords:
 - vblr6.chm1009044
-ms.prod: office
 ms.assetid: 5b08df07-bffb-ba69-7336-53067775fbf5
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**Date**) containing the time for a specific hour, minute
 ## Syntax
 
 **TimeSerial**(_hour_, _minute_, _second_)
-
-<br/>
 
 The **TimeSerial** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

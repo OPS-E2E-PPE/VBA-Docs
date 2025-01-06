@@ -1,27 +1,26 @@
 ---
-title: TextEffectFormat.NormalizedHeight Property (PowerPoint)
+title: TextEffectFormat.NormalizedHeight property (PowerPoint)
 keywords: vbapp10.chm556009
 f1_keywords:
 - vbapp10.chm556009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextEffectFormat.NormalizedHeight
 ms.assetid: 89b1799f-c037-5a37-caad-3344292df6e8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextEffectFormat.NormalizedHeight Property (PowerPoint)
+# TextEffectFormat.NormalizedHeight property (PowerPoint)
 
 Determines whether the characters (both uppercase and lowercase) in the specified WordArt are the same height. Read/write.
 
 
 ## Syntax
 
- _expression_. `NormalizedHeight`
+_expression_. `NormalizedHeight`
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **NormalizedHeight** property can be one of these **MsoTriState** constants.
+The value of the **NormalizedHeight** property can be one of these **MsoTriState** constants.
 
 
 
@@ -42,7 +41,7 @@ The value of the  **NormalizedHeight** property can be one of these **MsoTriStat
 
 ## Example
 
-This example adds WordArt that contains the text "Test Effect" to  `myDocument` and gives the new WordArt the name "texteff1." The code then makes all characters in the shape named "texteff1" the same height.
+This example adds WordArt that contains the text "Test Effect" to _myDocument_ and gives the new WordArt the name "texteff1." The code then makes all characters in the shape named "texteff1" the same height.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: AppointmentItem.BillingInformation Property (Outlook)
+title: AppointmentItem.BillingInformation property (Outlook)
 keywords: vbaol11.chm844
 f1_keywords:
 - vbaol11.chm844
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.BillingInformation
 ms.assetid: f6d1c066-dfda-0267-e4b9-ca65345bcc6e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.BillingInformation Property (Outlook)
+# AppointmentItem.BillingInformation property (Outlook)
 
-Returns or sets a  **String** representing the billing information associated with the Outlook item. Read/write.
+Returns or sets a **String** representing the billing information associated with the Outlook item. Read/write.
 
 
 ## Syntax
 
 _expression_. `BillingInformation`
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Remarks

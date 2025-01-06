@@ -1,27 +1,26 @@
 ---
-title: PropertyPages.Item Method (Outlook)
+title: PropertyPages.Item method (Outlook)
 keywords: vbaol11.chm166
 f1_keywords:
 - vbaol11.chm166
-ms.prod: outlook
 api_name:
 - Outlook.PropertyPages.Item
 ms.assetid: 43aab870-10e9-eede-ad04-7d9d19857da4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PropertyPages.Item Method (Outlook)
+# PropertyPages.Item method (Outlook)
 
-Returns a  **[PropertyPage](Outlook.PropertyPage.md)** object from the collection.
+Returns a **[PropertyPage](Outlook.PropertyPage.md)** object from the collection.
 
 
 ## Syntax
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [PropertyPages](./Outlook.PropertyPages.md) object.
+_expression_ A variable that represents a [PropertyPages](Outlook.PropertyPages.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [PropertyPages](./Outlook.PropertyPage
 
 ## Return value
 
-An  **Object** value that represents the specified object.
+An **Object** value that represents the specified object.
 
 
 ## See also

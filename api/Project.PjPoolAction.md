@@ -1,15 +1,15 @@
 ---
-title: PjPoolAction Enumeration (Project)
-ms.prod: project-server
+title: PjPoolAction enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjPoolAction
 ms.assetid: 316088e3-33b2-a010-05c8-4453ede8c360
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjPoolAction Enumeration (Project)
+# PjPoolAction enumeration (Project)
 
 Contains constants that specify actions to perform on the resource pool.
 

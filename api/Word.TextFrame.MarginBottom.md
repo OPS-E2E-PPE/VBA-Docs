@@ -3,25 +3,24 @@ title: TextFrame.MarginBottom property (Word)
 keywords: vbawd10.chm162660452
 f1_keywords:
 - vbawd10.chm162660452
-ms.prod: word
 api_name:
 - Word.TextFrame.MarginBottom
 ms.assetid: 16e2f8ef-d28b-c61c-8a82-25c18c1252e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextFrame.MarginBottom property (Word)
 
-Returns or sets the distance (in points) between the bottom of the text frame and the bottom of the inscribed rectangle of the shape that contains the text. Read/write  **Single**.
+Returns or sets the distance (in [points](../language/glossary/vbe-glossary.md#point)) between the bottom of the text frame and the bottom of the inscribed rectangle of the shape that contains the text. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `MarginBottom`
+_expression_.**MarginBottom**
 
- _expression_ An expression that returns a '[TextFrame](Word.TextFrame.md)' object.
+ _expression_ An expression that returns a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Example

@@ -3,23 +3,22 @@ title: LinkFormat.SourceName property (Word)
 keywords: vbawd10.chm154206212
 f1_keywords:
 - vbawd10.chm154206212
-ms.prod: word
 api_name:
 - Word.LinkFormat.SourceName
 ms.assetid: 1befe8a0-29f4-21cc-e2cb-03ce018db620
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LinkFormat.SourceName property (Word)
 
-Returns the name of the source file for the specified linked OLE object, picture, or field. Read-only  **String**.
+Returns the name of the source file for the specified linked OLE object, picture, or field. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `SourceName`
+_expression_.**SourceName**
 
  _expression_ An expression that returns a '[LinkFormat](Word.LinkFormat.md)' object.
 

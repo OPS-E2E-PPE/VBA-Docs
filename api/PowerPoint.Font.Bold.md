@@ -1,27 +1,26 @@
 ---
-title: Font.Bold Property (PowerPoint)
+title: Font.Bold property (PowerPoint)
 keywords: vbapp10.chm575004
 f1_keywords:
 - vbapp10.chm575004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Font.Bold
 ms.assetid: 13e81c46-5ae7-21ee-58e1-5ab23de552d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.Bold Property (PowerPoint)
+# Font.Bold property (PowerPoint)
 
 Determines whether the character format is bold. Read/write.
 
 
 ## Syntax
 
- _expression_. `Bold`
+_expression_.**Bold**
 
- _expression_ A variable that represents a [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents a [Font](PowerPoint.Font.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Bold** property can be one of these **MsoTriState** constants.
+The value of the **Bold** property can be one of these **MsoTriState** constants.
 
 
 

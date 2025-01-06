@@ -3,10 +3,9 @@ title: String function (Visual Basic for Applications)
 keywords: vblr6.chm1011358
 f1_keywords:
 - vblr6.chm1011358
-ms.prod: office
 ms.assetid: d6c5c054-21b9-f777-acae-ac31710ba5c5
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**String**) containing a repeating character string of th
 ## Syntax
 
 **String**(_number_, _character_)
-
-<br/>
 
 The **String** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

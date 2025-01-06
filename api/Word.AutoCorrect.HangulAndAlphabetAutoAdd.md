@@ -3,12 +3,11 @@ title: AutoCorrect.HangulAndAlphabetAutoAdd property (Word)
 keywords: vbawd10.chm155779086
 f1_keywords:
 - vbawd10.chm155779086
-ms.prod: word
 api_name:
 - Word.AutoCorrect.HangulAndAlphabetAutoAdd
 ms.assetid: dbb1f1b7-21be-423a-e375-543c0c689034
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HangulAndAlphabetAutoAdd`
+_expression_. `HangulAndAlphabetAutoAdd`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 
 
 ## Remarks
 
-The list of Hangul and alphabet AutoCorrect exceptions is located on the  **Korean** tab in the **AutoCorrect Exceptions** dialog box. Word adds a word to this list if you delete and then retype a word that you didn't want Word to correct.
+The list of Hangul and alphabet AutoCorrect exceptions is located on the **Korean** tab in the **AutoCorrect Exceptions** dialog box. Word adds a word to this list if you delete and then retype a word that you didn't want Word to correct.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: Shape.Select Method (PowerPoint)
+title: Shape.Select method (PowerPoint)
 keywords: vbapp10.chm547052
 f1_keywords:
 - vbapp10.chm547052
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.Select
 ms.assetid: 9fcf0ba4-ee6e-ecca-7948-7542db03ee99
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Select Method (PowerPoint)
+# Shape.Select method (PowerPoint)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. `Select`( `_Replace_` )
+_expression_.**Select** (_Replace_)
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Parameters

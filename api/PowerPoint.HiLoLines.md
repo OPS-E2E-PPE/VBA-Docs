@@ -1,27 +1,26 @@
 ---
-title: HiLoLines Object (PowerPoint)
+title: HiLoLines object (PowerPoint)
 keywords: vbapp10.chm706000
 f1_keywords:
 - vbapp10.chm706000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.HiLoLines
 ms.assetid: 77a7ae91-daf3-4c35-1f39-067d2698fb43
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# HiLoLines Object (PowerPoint)
+# HiLoLines object (PowerPoint)
 
 Represents the high-low lines in a chart group.
 
 
 ## Remarks
 
- High-low lines connect the highest point with the lowest point in every category in the chart group. Only 2-D line groups can have high-low lines. This object is not a collection. There is no object that represents a single high-low line; you either enable high-low lines for all points in a chart group or disable them.
+ High-low lines connect the highest point with the lowest point in every category in the chart group. Only 2D line groups can have high-low lines. This object is not a collection. There is no object that represents a single high-low line; you either enable high-low lines for all points in a chart group or disable them.
 
-If the  **[HasHiLoLines](PowerPoint.ChartGroup.HasHiLoLines.md)** property is **False**, most properties of the **HiLoLines** object are disabled.
+If the **[HasHiLoLines](PowerPoint.ChartGroup.HasHiLoLines.md)** property is **False**, most properties of the **HiLoLines** object are disabled.
 
 
 ## Example
@@ -29,9 +28,10 @@ If the  **[HasHiLoLines](PowerPoint.ChartGroup.HasHiLoLines.md)** property is **
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-Use the  **[HiLoLines](PowerPoint.ChartGroup.HiLoLines.md)** property to return the **HiLoLines** object. The following example uses the **HasHiLowLines** property to add high-low lines to the first chart (the chart must be a line chart) in the active document. The example then makes the high-low lines blue.
+Use the **[HiLoLines](PowerPoint.ChartGroup.HiLoLines.md)** property to return the **HiLoLines** object. The following example uses the **HasHiLowLines** property to add high-low lines to the first chart (the chart must be a line chart) in the active document. The example then makes the high-low lines blue.
 
 
 

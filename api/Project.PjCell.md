@@ -1,15 +1,15 @@
 ---
-title: PjCell Enumeration (Project)
-ms.prod: project-server
+title: PjCell enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCell
 ms.assetid: c723eac4-6a19-ae9e-19e9-5b203a2dcf54
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCell Enumeration (Project)
+# PjCell enumeration (Project)
 
 Contains constants that specify a cell.
 

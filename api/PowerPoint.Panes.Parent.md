@@ -1,27 +1,26 @@
 ---
-title: Panes.Parent Property (PowerPoint)
+title: Panes.Parent property (PowerPoint)
 keywords: vbapp10.chm630003
 f1_keywords:
 - vbapp10.chm630003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Panes.Parent
 ms.assetid: 292c6849-c9a7-9965-accc-01ee61cb7539
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Panes.Parent Property (PowerPoint)
+# Panes.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [Panes](./PowerPoint.Panes.md) object.
+_expression_ A variable that represents a [Panes](PowerPoint.Panes.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

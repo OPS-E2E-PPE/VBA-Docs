@@ -1,25 +1,24 @@
 ---
-title: OlkInfoBar Object (Outlook)
+title: OlkInfoBar object (Outlook)
 keywords: vbaol11.chm1000304
 f1_keywords:
 - vbaol11.chm1000304
-ms.prod: outlook
 api_name:
 - Outlook.OlkInfoBar
 ms.assetid: 1aec19db-d28b-ef9b-3227-45aa4a296de6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkInfoBar Object (Outlook)
+# OlkInfoBar object (Outlook)
 
 A control that provides an area to display specific information on a custom form.
 
 
 ## Remarks
 
-Before you use this control for the first time in the forms designer, add the Microsoft Outlook InfoBar Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic  **UserForm** object in the Visual Basic Editor.
+Before you use this control for the first time in the forms designer, add the Microsoft Outlook InfoBar Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic **UserForm** object in the Visual Basic Editor.
 
 The following is an example of this control at runtime. This control supports Microsoft Windows themes.
 
@@ -59,6 +58,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

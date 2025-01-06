@@ -1,27 +1,27 @@
 ---
-title: Application.BoxLinkStyleToggle Method (Project)
+title: Application.BoxLinkStyleToggle method (Project)
 keywords: vbapj.chm48
 f1_keywords:
 - vbapj.chm48
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BoxLinkStyleToggle
 ms.assetid: 8367a55b-9a7e-3272-49b2-486c0a284f7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BoxLinkStyleToggle Method (Project)
+# Application.BoxLinkStyleToggle method (Project)
 
 Toggles the box link style between rectilinear links and straight links.
 
 
 ## Syntax
 
- _expression_. `BoxLinkStyleToggle`( `_StraightLinks_` )
+_expression_. `BoxLinkStyleToggle`( `_StraightLinks_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

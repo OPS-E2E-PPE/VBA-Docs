@@ -1,27 +1,27 @@
 ---
-title: Application.GotoTaskDates Method (Project)
+title: Application.GotoTaskDates method (Project)
 keywords: vbapj.chm2054
 f1_keywords:
 - vbapj.chm2054
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.GotoTaskDates
 ms.assetid: d9d3de8d-e4d7-89f4-0dcf-be132287e19e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.GotoTaskDates Method (Project)
+# Application.GotoTaskDates method (Project)
 
 Scrolls the Gantt Chart, Resource Usage, or Task Usage view to display the starting date of the active task, or scrolls the Calendar to view the month containing the starting date of the active task.
 
 
 ## Syntax
 
- _expression_. `GotoTaskDates`
+_expression_. `GotoTaskDates`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Scrolls the Gantt Chart, Resource Usage, or Task Usage view to display the start
 
 ## Remarks
 
-When you record a macro and click the  **Scroll to Task** command in the **Editing** group of the **Task** tab on the Ribbon, or use the Ctrl+Shift+F5 shortcut, the macro records the **GotoTaskDates** method.
+When you record a macro and click the **Scroll to Task** command in the **Editing** group of the **Task** tab on the Ribbon, or use the Ctrl+Shift+F5 shortcut, the macro records the **GotoTaskDates** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

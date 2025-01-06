@@ -1,27 +1,26 @@
 ---
-title: Chart.Select Method (PowerPoint)
+title: Chart.Select method (PowerPoint)
 keywords: vbapp10.chm684042
 f1_keywords:
 - vbapp10.chm684042
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.Select
 ms.assetid: 5ea52965-ecf4-7a24-1b74-0e5ebc8d48a5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.Select Method (PowerPoint)
+# Chart.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`( `_Replace_` )
+_expression_.**Select** (_Replace_)
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Parameters

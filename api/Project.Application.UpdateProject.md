@@ -1,27 +1,27 @@
 ---
-title: Application.UpdateProject Method (Project)
+title: Application.UpdateProject method (Project)
 keywords: vbapj.chm611
 f1_keywords:
 - vbapj.chm611
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.UpdateProject
 ms.assetid: a6f80334-7faf-ca95-b5ed-0a9fba516169
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.UpdateProject Method (Project)
+# Application.UpdateProject method (Project)
 
 Updates progress information and reschedules work for tasks in a project.
 
 
 ## Syntax
 
- _expression_. `UpdateProject`( `_All_`, `_UpdateDate_`, `_Action_` )
+_expression_. `UpdateProject`( `_All_`, `_UpdateDate_`, `_Action_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ Updates progress information and reschedules work for tasks in a project.
 |:-----|:-----|:-----|:-----|
 | _All_|Optional|**Boolean**|**True** if all tasks in the active project are updated. **False** if only the selected tasks are updated. The default value is **True**.|
 | _UpdateDate_|Optional|**Variant**|The update date to use for the specified action. |
-| _action_|Optional|**Integer**|The action to take with the specified tasks. Can be one of the following  **[PjProjectUpdate](Project.PjProjectUpdate.md)** constants: **pj0or100Percent**, **pj0to100Percent**, or **pjReschedule**. The default is **pj0to100Percent**.|
+| _action_|Optional|**Integer**|The action to take with the specified tasks. Can be one of the following **[PjProjectUpdate](Project.PjProjectUpdate.md)** constants: **pj0or100Percent**, **pj0to100Percent**, or **pjReschedule**. The default is **pj0to100Percent**.|
 
 ## Return value
 
@@ -41,9 +41,9 @@ Updates progress information and reschedules work for tasks in a project.
 
 ## Remarks
 
-Running the  **UpdateProject** method with no arguments displays the **Update Project** dialog box.
+Running the **UpdateProject** method with no arguments displays the **Update Project** dialog box.
 
-The  **UpdateProject** method corresponds to the **Update Project** command on the **PROJECT** tab of the ribbon.
+The **UpdateProject** method corresponds to the **Update Project** command on the **PROJECT** tab of the ribbon.
 
 
 ## Example

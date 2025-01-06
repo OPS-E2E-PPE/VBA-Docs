@@ -3,12 +3,11 @@ title: FileDialogSelectedItems object (Office)
 keywords: vbaof11.chm253000
 f1_keywords:
 - vbaof11.chm253000
-ms.prod: office
 api_name:
 - Office.FileDialogSelectedItems
 ms.assetid: a72b1d99-8881-0a5f-9814-3e1b8360d011
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -51,9 +50,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'The user pressed Cancel. 

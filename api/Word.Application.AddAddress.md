@@ -3,12 +3,11 @@ title: Application.AddAddress method (Word)
 keywords: vbawd10.chm158335297
 f1_keywords:
 - vbawd10.chm158335297
-ms.prod: word
 api_name:
 - Word.Application.AddAddress
 ms.assetid: 9114f213-9e43-a65c-7513-631820481967
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +17,7 @@ Adds an entry to the address book. Each entry has values for one or more tag IDs
 
 ## Syntax
 
-_expression_. **AddAddress** (**_TagID_**, **_Value_**)
+_expression_.**AddAddress** (**_TagID_**, **_Value_**)
 
 _expression_ Required. A variable that represents an **[Application](Word.Application.md)** object.
 

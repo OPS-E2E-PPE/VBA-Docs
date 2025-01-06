@@ -1,15 +1,15 @@
 ---
-title: PjProfileConnectionState Enumeration (Project)
-ms.prod: project-server
+title: PjProfileConnectionState enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjProfileConnectionState
 ms.assetid: bc1cb909-7eb1-ec5b-7a2a-dcf20e2c0f2b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjProfileConnectionState Enumeration (Project)
+# PjProfileConnectionState enumeration (Project)
 
 Contains constants that specify the connection state.
 

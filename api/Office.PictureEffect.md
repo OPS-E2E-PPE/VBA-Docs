@@ -1,11 +1,10 @@
 ---
 title: PictureEffect object (Office)
-ms.prod: office
 api_name:
 - Office.PictureEffect
 ms.assetid: af3f742a-e082-1abd-7df2-d1fb2f57c8a2
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -51,7 +50,7 @@ End Sub
 ## See also
 
 - [PictureEffect object members](overview/Library-Reference/pictureeffect-members-office.md)
-- [Object Model Reference](./overview/Library-Reference/reference-object-library-reference-for-office.md)
+- [Object Model Reference](overview/Library-Reference/reference-object-library-reference-for-office.md)
 
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

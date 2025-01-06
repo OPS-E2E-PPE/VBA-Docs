@@ -3,18 +3,17 @@ title: TextBox.FormatConditions property (Access)
 keywords: vbaac10.chm11038
 f1_keywords:
 - vbaac10.chm11038
-ms.prod: access
 api_name:
 - Access.TextBox.FormatConditions
 ms.assetid: 6c643d8b-9b90-2b50-2ba0-c46bb821d38d
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.FormatConditions property (Access)
 
-You can use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
+Use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
 
 
 ## Syntax

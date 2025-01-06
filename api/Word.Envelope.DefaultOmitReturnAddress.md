@@ -3,12 +3,11 @@ title: Envelope.DefaultOmitReturnAddress property (Word)
 keywords: vbawd10.chm152567817
 f1_keywords:
 - vbawd10.chm152567817
-ms.prod: word
 api_name:
 - Word.Envelope.DefaultOmitReturnAddress
 ms.assetid: d1ef3e8d-4410-61b4-0631-6d458dcb14b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DefaultOmitReturnAddress`
+_expression_. `DefaultOmitReturnAddress`
 
- _expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
+_expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
 
 
 ## Example

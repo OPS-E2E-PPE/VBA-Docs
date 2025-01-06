@@ -3,18 +3,17 @@ title: TempVars.Item property (Access)
 keywords: vbaac10.chm14067
 f1_keywords:
 - vbaac10.chm14067
-ms.prod: access
 api_name:
 - Access.TempVars.Item
 ms.assetid: b2b71b6c-cfb4-0b1d-2417-a71725584642
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TempVars.Item property (Access)
 
-The **Item** property returns a specific member of a collection either by position or by index. Read-only **TempVar**.
+The **Item** property returns a specific member of a collection either by position or by index. Read-only **[TempVar](Access.TempVar.md)**.
 
 
 ## Syntax

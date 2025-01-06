@@ -3,12 +3,11 @@ title: Selection.SelectColumn method (Word)
 keywords: vbawd10.chm158663172
 f1_keywords:
 - vbawd10.chm158663172
-ms.prod: word
 api_name:
 - Word.Selection.SelectColumn
 ms.assetid: a8e742df-0a8e-739d-e71a-da2536b6abec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the column that contains the insertion point, or selects all columns tha
 
 ## Syntax
 
- _expression_. `SelectColumn`
+_expression_. `SelectColumn`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks

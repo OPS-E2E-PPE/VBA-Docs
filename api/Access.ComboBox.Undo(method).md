@@ -3,18 +3,17 @@ title: ComboBox.Undo method (Access)
 keywords: vbaac10.chm11358
 f1_keywords:
 - vbaac10.chm11358
-ms.prod: access
 api_name:
 - Access.ComboBox.Undo
 ms.assetid: f5d21af8-0e6d-1517-baf8-020bde595b76
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.Undo method (Access)
 
-You can use the **Undo** method to reset a control or form when its value has been changed.
+Use the **Undo** method to reset a control or form when its value has been changed.
 
 
 ## Syntax
@@ -44,8 +43,6 @@ Private Sub LastName_Change()
  Me!LastName.Undo 
 End Sub
 ```
-
-<br/>
 
 The next example uses the **Undo** method to reset all changes to a form before the form is updated.
 

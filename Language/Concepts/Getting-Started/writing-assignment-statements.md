@@ -3,10 +3,9 @@ title: Writing assignment statements (VBA)
 keywords: vbcn6.chm1076692
 f1_keywords:
 - vbcn6.chm1076692
-ms.prod: office
 ms.assetid: 7699bec2-c5a2-6f35-3ec0-8aa7cefa622d
 ms.date: 12/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,9 +17,9 @@ The following example assigns the return value of the **InputBox** function to t
 
 ```vb
 Sub Question() 
- Dim yourName As String 
- yourName = InputBox("What is your name?") 
- MsgBox "Your name is " & yourName 
+    Dim yourName As String 
+    yourName = InputBox("What is your name?") 
+    MsgBox "Your name is " & yourName 
 End Sub
 ```
 
@@ -32,16 +31,16 @@ Let yourName = InputBox("What is your name?").
 
 ```
 
-The **[Set](../../reference/user-interface-help/set-statement.md)** statement is used to assign an object to a variable that has been declared as an object. The **Set** keyword is required. In the following example, the **Set** statement assigns a range on `Sheet1` to the object variable `myCell`.
+The **[Set](../../reference/user-interface-help/set-statement.md)** statement is used to assign an object to a variable that has been declared as an object. The **Set** keyword is required. In the following example, the **Set** statement assigns a range on Sheet1 to the object variable `myCell`.
 
 ```vb
 Sub ApplyFormat() 
-Dim myCell As Range 
-Set myCell = Worksheets("Sheet1").Range("A1") 
- With myCell.Font 
- .Bold = True 
- .Italic = True 
- End With 
+    Dim myCell As Range 
+    Set myCell = Worksheets("Sheet1").Range("A1") 
+    With myCell.Font 
+        .Bold = True 
+        .Italic = True 
+    End With 
 End Sub
 ```
 

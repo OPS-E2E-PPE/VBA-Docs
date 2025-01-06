@@ -1,27 +1,27 @@
 ---
-title: Application.OutlineHideSubTasks Method (Project)
+title: Application.OutlineHideSubTasks method (Project)
 keywords: vbapj.chm2020
 f1_keywords:
 - vbapj.chm2020
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.OutlineHideSubTasks
 ms.assetid: 79e79b71-aa4d-eb17-7f27-96d4dd382547
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.OutlineHideSubTasks Method (Project)
+# Application.OutlineHideSubTasks method (Project)
 
 Hides the subtasks of the selected task or tasks.
 
 
 ## Syntax
 
- _expression_. `OutlineHideSubTasks`
+_expression_. `OutlineHideSubTasks`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

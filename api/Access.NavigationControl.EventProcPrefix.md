@@ -3,12 +3,11 @@ title: NavigationControl.EventProcPrefix property (Access)
 keywords: vbaac10.chm11040
 f1_keywords:
 - vbaac10.chm11040
-ms.prod: access
 api_name:
 - Access.NavigationControl.EventProcPrefix
 ms.assetid: d59c7baf-7614-821b-92ce-582d6f90441c
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

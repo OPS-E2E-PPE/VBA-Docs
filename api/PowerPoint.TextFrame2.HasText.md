@@ -1,27 +1,26 @@
 ---
-title: TextFrame2.HasText Property (PowerPoint)
+title: TextFrame2.HasText property (PowerPoint)
 keywords: vbapp10.chm678015
 f1_keywords:
 - vbapp10.chm678015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.HasText
 ms.assetid: 50b2c7fa-49f9-6aeb-dcb0-8acaf7aefec7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.HasText Property (PowerPoint)
+# TextFrame2.HasText property (PowerPoint)
 
  Indicates whether the shape that contains the specified text frame has text associated with it. Read-only.
 
 
 ## Syntax
 
- _expression_. `HasText`
+_expression_.**HasText**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **HasText** property can be one of the following **MsoTriState** constants.
+The value of the **HasText** property can be one of the following **MsoTriState** constants.
 
 
 

@@ -3,12 +3,11 @@ title: Paragraph.OutlinePromote method (Word)
 keywords: vbawd10.chm156696902
 f1_keywords:
 - vbawd10.chm156696902
-ms.prod: word
 api_name:
 - Word.Paragraph.OutlinePromote
 ms.assetid: 7612c321-0f0f-0a9b-8272-5328617c327a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Applies the previous heading level style (Heading 1 through Heading 8) to the sp
 
 ## Syntax
 
- _expression_. `OutlinePromote`
+_expression_. `OutlinePromote`
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Remarks

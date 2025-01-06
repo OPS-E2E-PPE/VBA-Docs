@@ -3,10 +3,9 @@ title: With statement (VBA)
 keywords: vblr6.chm1009555
 f1_keywords:
 - vblr6.chm1009555
-ms.prod: office
 ms.assetid: cd548bae-ce3d-e044-7bb8-85b051a8f4a5
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Executes a series of [statements](../../Glossary/vbe-glossary.md#statement) on a
 ## Syntax
 
 **With** _object_ [ _statements_ ] **End With**
-
-<br/>
 
 The **With** statement syntax has these parts:
 

@@ -1,27 +1,26 @@
 ---
-title: Design.Index Property (PowerPoint)
+title: Design.Index property (PowerPoint)
 keywords: vbapp10.chm644007
 f1_keywords:
 - vbapp10.chm644007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Design.Index
 ms.assetid: 16a9ca67-4db4-c7a4-118b-553f0d7efc98
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Design.Index Property (PowerPoint)
+# Design.Index property (PowerPoint)
 
-Returns a  **Long** that represents the index number for an animation effect or design. Read-only.
+Returns a **Long** that represents the index number for an animation effect or design. Read-only.
 
 
 ## Syntax
 
- _expression_. `Index`
+_expression_.**Index**
 
-_expression_ A variable that represents a [Design](./PowerPoint.Design.md) object.
+_expression_ A variable that represents a [Design](PowerPoint.Design.md) object.
 
 
 ## Return value

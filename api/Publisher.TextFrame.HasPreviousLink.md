@@ -1,38 +1,36 @@
 ---
-title: TextFrame.HasPreviousLink Property (Publisher)
+title: TextFrame.HasPreviousLink property (Publisher)
 keywords: vbapb10.chm3866641
 f1_keywords:
 - vbapb10.chm3866641
-ms.prod: publisher
 api_name:
 - Publisher.TextFrame.HasPreviousLink
 ms.assetid: 85e0b497-55c9-d49f-2b65-e199361c121a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame.HasPreviousLink Property (Publisher)
+# TextFrame.HasPreviousLink property (Publisher)
 
-Returns  **msoTrue** if the specified text frame has a valid link to a backward text box and **msoFalse** if it does not. Read-only.
+Returns **msoTrue** if the specified text frame has a valid link to a backward text box, and returns **msoFalse** if it does not. Read-only.
 
 
 ## Syntax
 
- _expression_. **HasPreviousLink**
+_expression_.**HasPreviousLink**
 
- _expression_ A variable that represents a  **TextFrame** object.
+_expression_ A variable that represents a **[TextFrame](Publisher.TextFrame.md)** object.
 
 
 ## Return value
 
-MsoTriState
+**[MsoTriState](office.msotristate.md)**
 
 
 ## Example
 
 This example breaks all links in the document to the first specified text frame if links exist. This example assumes that there is at least one shape on the first page of the active publication.
-
 
 ```vb
 Sub AddPreviousNextLinkPages() 

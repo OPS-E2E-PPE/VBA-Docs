@@ -3,12 +3,11 @@ title: ListBox.InheritValueList property (Access)
 keywords: vbaac10.chm11337
 f1_keywords:
 - vbaac10.chm11337
-ms.prod: access
 api_name:
 - Access.ListBox.InheritValueList
 ms.assetid: 7b5e0af5-4648-ff09-04a6-25b050dc1861
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

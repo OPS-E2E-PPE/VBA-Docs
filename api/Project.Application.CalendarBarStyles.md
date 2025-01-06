@@ -1,27 +1,27 @@
 ---
-title: Application.CalendarBarStyles Method (Project)
+title: Application.CalendarBarStyles method (Project)
 keywords: vbapj.chm2326
 f1_keywords:
 - vbapj.chm2326
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CalendarBarStyles
 ms.assetid: bf168abd-3033-f187-ee3e-19e672be4aac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CalendarBarStyles Method (Project)
+# Application.CalendarBarStyles method (Project)
 
 Turns bar rounding on or off in the Calendar.
 
 
 ## Syntax
 
- _expression_. `CalendarBarStyles`( `_BarRounding_` )
+_expression_. `CalendarBarStyles`( `_BarRounding_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ Turns bar rounding on or off in the Calendar.
 
 ## Remarks
 
-The default start and default end times can be set with the  **OptionsCalendar** method.
+The default start and default end times can be set with the **OptionsCalendar** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

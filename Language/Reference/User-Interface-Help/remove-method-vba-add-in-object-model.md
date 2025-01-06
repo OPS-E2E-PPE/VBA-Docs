@@ -3,10 +3,9 @@ title: Remove method (VBA Add-In Object Model)
 keywords: vbob6.chm100142
 f1_keywords:
 - vbob6.chm100142
-ms.prod: office
 ms.assetid: acc163b9-e5ad-ef39-013a-614fc24bcde1
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,14 +17,12 @@ Removes an item from a [collection](../../Glossary/vbe-glossary.md#collection).
 
 _object_.**Remove** (_component_)
 
-<br/>
-
 The **Remove** syntax has these parts:
 
 |Part|Description|
 |:-----|:-----|
 | _object_|Required. An [object expression](../../Glossary/vbe-glossary.md#object-expression) that evaluates to an object in the **Applies To** list.|
-| _component_|Required. For the **LinkedWindows** collection, an object.<br/><br/>For the **References** collection, a reference to a [type library](../../Glossary/vbe-glossary.md#type-library) or a [project](../../Glossary/vbe-glossary.md#project).<br/><br/>For the **VBComponents** collection, an enumerated[constant](../../Glossary/vbe-glossary.md#constant) representing a [class module](../../Glossary/vbe-glossary.md#class-module), a form, or a [standard module](../../Glossary/vbe-glossary.md#standard-module).<br/><br/>For the **VBProjects** collection, a standalone project.|
+| _component_|Required. For the **LinkedWindows** collection, an object.<br/><br/>For the **References** collection, a reference to a [type library](../../Glossary/vbe-glossary.md#type-library) or a [project](../../Glossary/vbe-glossary.md#project).<br/><br/>For the **VBComponents** collection, an enumerated [constant](../../Glossary/vbe-glossary.md#constant) representing a [class module](../../Glossary/vbe-glossary.md#class-module), a form, or a [standard module](../../Glossary/vbe-glossary.md#standard-module).<br/><br/>For the **VBProjects** collection, a standalone project.|
 
 ## Remarks
 

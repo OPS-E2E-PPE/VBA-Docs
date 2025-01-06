@@ -1,22 +1,21 @@
 ---
 title: ContentControls object (Word)
-ms.prod: word
 api_name:
 - Word.ContentControls
 ms.assetid: 2595eea9-df68-edce-3a51-069cad14bb87
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ContentControls object (Word)
 
-A collection of  **[ContentControl](Word.ContentControl.md)** objects. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content. Individual content controls may contain content such as dates, lists, or paragraphs of formatted text.
+A collection of **[ContentControl](Word.ContentControl.md)** objects. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content. Individual content controls may contain content such as dates, lists, or paragraphs of formatted text.
 
 
 ## Remarks
 
-Use the  **[Add](Word.ContentControls.Add.md)** method to create a new content control and insert it into a document. The following example creates a new drop-down list content control and adds several items to the list.
+Use the **[Add](Word.ContentControls.Add.md)** method to create a new content control and insert it into a document. The following example creates a new drop-down list content control and adds several items to the list.
 
 
 ```vb
@@ -37,7 +36,7 @@ objcc.DropdownListEntries.Add "Snake"
 objcc.DropdownListEntries.Add "Other"
 ```
 
-Use the  **[Item](Word.ContentControls.Item.md)** method to access a specific content control in the collection. The following example accesses the third content control in the active document and, if the control is a drop-down list or a combo box, moves the first item to the bottom of the list and the last item to the top of the list.
+Use the **[Item](Word.ContentControls.Item.md)** method to access a specific content control in the collection. The following example accesses the third content control in the active document, and if the control is a drop-down list or a combo box, moves the first item to the bottom of the list and the last item to the top of the list.
 
 
 
@@ -70,7 +69,7 @@ If objcc.Type = wdContentControlComboBox Or _
 End If
 ```
 
-Use the  **ContentControl** object to work with individual content controls. For more information, see [Working with Content Controls](../word/Concepts/Working-with-Word/working-with-content-controls.md).
+Use the **ContentControl** object to work with individual content controls. For more information, see [Working with Content Controls](../word/Concepts/Working-with-Word/working-with-content-controls.md).
 
 
 ## Methods
@@ -96,6 +95,6 @@ Use the  **ContentControl** object to work with individual content controls. For
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

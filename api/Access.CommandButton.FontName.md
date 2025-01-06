@@ -3,18 +3,17 @@ title: CommandButton.FontName property (Access)
 keywords: vbaac10.chm10472
 f1_keywords:
 - vbaac10.chm10472
-ms.prod: access
 api_name:
 - Access.CommandButton.FontName
 ms.assetid: 0e1099d3-92fb-a077-9148-e2f64305faee
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

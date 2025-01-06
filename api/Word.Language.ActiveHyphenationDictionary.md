@@ -3,30 +3,29 @@ title: Language.ActiveHyphenationDictionary property (Word)
 keywords: vbawd10.chm158138382
 f1_keywords:
 - vbawd10.chm158138382
-ms.prod: word
 api_name:
 - Word.Language.ActiveHyphenationDictionary
 ms.assetid: 355462bc-c39e-2e2c-0d2e-af5d4ee8c5a7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Language.ActiveHyphenationDictionary property (Word)
 
-Returns a  **[Dictionary](Word.Dictionary.md)** object that represents the active hyphenation dictionary for the specified language. Read-only.
+Returns a **[Dictionary](Word.Dictionary.md)** object that represents the active hyphenation dictionary for the specified language. Read-only.
 
 
 ## Syntax
 
- _expression_. `ActiveHyphenationDictionary`
+_expression_. `ActiveHyphenationDictionary`
 
- _expression_ A variable that represents a '[Language](Word.Language.md)' object.
+_expression_ A variable that represents a '[Language](Word.Language.md)' object.
 
 
 ## Remarks
 
-If there is no hyphenation dictionary installed for the specified language, this property returns  **Nothing**.
+If there is no hyphenation dictionary installed for the specified language, this property returns **Nothing**.
 
 
 ## Example

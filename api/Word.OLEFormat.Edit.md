@@ -3,12 +3,11 @@ title: OLEFormat.Edit method (Word)
 keywords: vbawd10.chm154337386
 f1_keywords:
 - vbawd10.chm154337386
-ms.prod: word
 api_name:
 - Word.OLEFormat.Edit
 ms.assetid: 666c20f2-33cf-0655-16f1-914ec0268a1a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Opens the specified OLE object for editing in the application it was created in.
 
 ## Syntax
 
- _expression_. `Edit`
+_expression_.**Edit**
 
- _expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
+_expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
 
 
 ## Example

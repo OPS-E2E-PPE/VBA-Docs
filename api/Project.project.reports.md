@@ -1,25 +1,25 @@
 ---
-title: Project.Reports Property (Project)
-ms.prod: project-server
+title: Project.Reports property (Project)
+ms.service: project-server
 ms.assetid: dc725fac-a25e-c134-6017-d73060c51e83
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Reports Property (Project)
-Gets the collection of custom reports in the project. Read-only  **Reports**.
+# Project.Reports property (Project)
+Gets the collection of custom reports in the project. Read-only **Reports**.
 
 ## Syntax
 
- _expression_. `Reports`
+_expression_. `Reports`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The  **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**,  **Critical Tasks**, or  **Milestone Report**. Use the  **Project.Reports** property to get the **Reports** collection object, as in the following example:
+The **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**, **Critical Tasks**, or **Milestone Report**. Use the **Project.Reports** property to get the **Reports** collection object, as in the following example:
 
 
 ```vb

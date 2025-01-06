@@ -1,37 +1,36 @@
 ---
-title: Hyperlink.Application Property (Visio)
+title: Hyperlink.Application property (Visio)
 keywords: vis_sdr.chm15013090
 f1_keywords:
 - vis_sdr.chm15013090
-ms.prod: visio
 api_name:
 - Visio.Hyperlink.Application
 ms.assetid: e966d22e-7041-8dde-1bca-7d890d3cc982
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.Application Property (Visio)
+# Hyperlink.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

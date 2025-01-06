@@ -1,33 +1,31 @@
 ---
-title: TextFrame.Story Property (Publisher)
+title: TextFrame.Story property (Publisher)
 keywords: vbapb10.chm3866663
 f1_keywords:
 - vbapb10.chm3866663
-ms.prod: publisher
 api_name:
 - Publisher.TextFrame.Story
 ms.assetid: 7bbe0967-83aa-745b-ad13-8a7dfe61811c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame.Story Property (Publisher)
+# TextFrame.Story property (Publisher)
 
-Returns a  **Story** object that represents the story properties in a text range.
+Returns a **[Story](publisher.story.md)** object that represents the story properties in a text range.
 
 
 ## Syntax
 
- _expression_. **Story**
+_expression_.**Story**
 
- _expression_ A variable that represents a  **TextFrame** object.
+_expression_ A variable that represents a **[TextFrame](Publisher.TextFrame.md)** object.
 
 
 ## Example
 
-This example returns the story in the selected text range and, if it is in a text frame, inserts text into the text range.
-
+This example returns the story in the selected text range, and if it is in a text frame, inserts text into the text range.
 
 ```vb
 Sub AddTextToStory() 

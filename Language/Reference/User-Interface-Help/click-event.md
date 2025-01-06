@@ -3,12 +3,11 @@ title: Click event
 keywords: fm20.chm2000070
 f1_keywords:
 - fm20.chm2000070
-ms.prod: office
 api_name:
 - Office.Click
 ms.assetid: 655b57b1-74fc-75e9-eb8d-debb83afaea9
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,8 +25,6 @@ For MultiPage, TabStrip:<br/>
 
 For all other controls:<br/>
 **Private Sub**_object_ _**Click( )**
-
-<br/>
 
 The **Click** event syntax has these parts:
 

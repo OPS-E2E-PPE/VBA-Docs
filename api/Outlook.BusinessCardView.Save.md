@@ -1,32 +1,31 @@
 ---
-title: BusinessCardView.Save Method (Outlook)
+title: BusinessCardView.Save method (Outlook)
 keywords: vbaol11.chm2925
 f1_keywords:
 - vbaol11.chm2925
-ms.prod: outlook
 api_name:
 - Outlook.BusinessCardView.Save
 ms.assetid: 9d3d85b7-4ed1-fea3-abb1-7506a0851b50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BusinessCardView.Save Method (Outlook)
+# BusinessCardView.Save method (Outlook)
 
 Saves the view, or saves the changes to a view.
 
 
 ## Syntax
 
-_expression_. `Save`
+_expression_.**Save**
 
- _expression_ An expression that returns a [BusinessCardView](./Outlook.BusinessCardView.md) object.
+ _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates, saves, and applies a new  **BusinessCardView** object.
+The following Visual Basic for Applications (VBA) example creates, saves, and applies a new **BusinessCardView** object.
 
 
 ```vb

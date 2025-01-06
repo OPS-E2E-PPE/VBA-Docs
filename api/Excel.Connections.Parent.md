@@ -3,12 +3,11 @@ title: Connections.Parent property (Excel)
 keywords: vbaxl10.chm775075
 f1_keywords:
 - vbaxl10.chm775075
-ms.prod: excel
 api_name:
 - Excel.Connections.Parent
 ms.assetid: 835a90d5-d838-6347-19d9-6b6be3e960fe
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Connections](Excel.Connections.md) object.
+_expression_ A variable that represents a **[Connections](Excel.Connections.md)** object.
 
 
-## See also
 
-
-[Connections Object](Excel.Connections.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

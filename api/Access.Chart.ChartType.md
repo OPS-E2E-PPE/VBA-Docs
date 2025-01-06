@@ -3,11 +3,10 @@ title: Chart.ChartType property (Access)
 keywords: vbaac10.chm6124
 f1_keywords:
 - vbaac10.chm6124
-ms.prod: access
 api_name:
 - Access.Chart.ChartType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

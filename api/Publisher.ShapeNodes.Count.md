@@ -1,33 +1,31 @@
 ---
-title: ShapeNodes.Count Property (Publisher)
+title: ShapeNodes.Count property (Publisher)
 keywords: vbapb10.chm3473411
 f1_keywords:
 - vbapb10.chm3473411
-ms.prod: publisher
 api_name:
 - Publisher.ShapeNodes.Count
 ms.assetid: 5b259584-0aad-57bd-4848-cc7f6e96d430
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeNodes.Count Property (Publisher)
+# ShapeNodes.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **ShapeNodes** object.
+_expression_ A variable that represents a **[ShapeNodes](Publisher.ShapeNodes.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

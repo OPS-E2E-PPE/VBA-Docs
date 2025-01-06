@@ -3,10 +3,9 @@ title: GoSub...Return statement (VBA)
 keywords: vblr6.chm1008934
 f1_keywords:
 - vblr6.chm1008934
-ms.prod: office
 ms.assetid: 5aafb93f-0baf-f319-d8dd-96a14095d62d
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -21,13 +20,11 @@ Branches to and returns from a subroutine within a [procedure](../../Glossary/vb
 _line_ `...` <br/>
 **Return**
 
-<br/>
-
 The _line_ [argument](../../Glossary/vbe-glossary.md#argument) can be any [line label](../../Glossary/vbe-glossary.md#line-label) or [line number](../../Glossary/vbe-glossary.md#line-number).
 
 ## Remarks
 
-You can use **GoSub** and **Return** anywhere in a procedure, but **GoSub** and the corresponding **Return** statement must be in the same procedure. A subroutine can contain more than one **Return** statement, but the first **Return** statement encountered causes the flow of execution to branch back to the [statement](../../Glossary/vbe-glossary.md#statement) immediately following the most recently executed **GoSub** statement.
+Use **GoSub** and **Return** anywhere in a procedure, but **GoSub** and the corresponding **Return** statement must be in the same procedure. A subroutine can contain more than one **Return** statement, but the first **Return** statement encountered causes the flow of execution to branch back to the [statement](../../Glossary/vbe-glossary.md#statement) immediately following the most recently executed **GoSub** statement.
 
 > [!NOTE] 
 > You can't enter or exit **Sub** procedures with **GoSub...Return**.

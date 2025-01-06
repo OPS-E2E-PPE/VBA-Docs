@@ -3,25 +3,24 @@ title: WebOptions.OptimizeForBrowser property (Word)
 keywords: vbawd10.chm165937153
 f1_keywords:
 - vbawd10.chm165937153
-ms.prod: word
 api_name:
 - Word.WebOptions.OptimizeForBrowser
 ms.assetid: c7b9f987-d13e-a95d-e40d-3b1c9b7f9fa0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebOptions.OptimizeForBrowser property (Word)
 
- **True** if Word optimizes the specified Web page for the Web browser specified by the **[BrowserLevel](Word.WebOptions.BrowserLevel.md)** property. Read/write **Boolean**.
+ **True** if Word optimizes the specified Web page for the web browser specified by the **[BrowserLevel](Word.WebOptions.BrowserLevel.md)** property. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `OptimizeForBrowser`
+_expression_. `OptimizeForBrowser`
 
- _expression_ Required. A variable that represents a '[WebOptions](Word.WebOptions.md)' collection.
+_expression_ Required. A variable that represents a **[WebOptions](Word.WebOptions.md)** collection.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: Cells.Shading property (Word)
 keywords: vbawd10.chm155844709
 f1_keywords:
 - vbawd10.chm155844709
-ms.prod: word
 api_name:
 - Word.Cells.Shading
 ms.assetid: ea9f4c8a-254d-6197-0f90-fa79465f940f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Cells.Shading property (Word)
 
-Returns a  **[Shading](Word.Shading.md)** object that refers to the shading formatting for the specified object.
+Returns a **[Shading](Word.Shading.md)** object that refers to the shading formatting for the specified object.
 
 
 ## Syntax
 
- _expression_. `Shading`
+_expression_. `Shading`
 
- _expression_ A variable that represents a '[Cells](Word.cells.md)' object.
+_expression_ A variable that represents a '[Cells](Word.cells.md)' object.
 
 
 ## Example

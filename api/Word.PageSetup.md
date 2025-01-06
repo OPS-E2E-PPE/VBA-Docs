@@ -3,23 +3,22 @@ title: PageSetup object (Word)
 keywords: vbawd10.chm2417
 f1_keywords:
 - vbawd10.chm2417
-ms.prod: word
 api_name:
 - Word.PageSetup
 ms.assetid: 1879d601-80ad-4fc0-1a87-92e999b59f88
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup object (Word)
 
-Represents the page setup description. The  **PageSetup** object contains all the page setup attributes of a document (such as left margin, bottom margin, and paper size) as properties.
+Represents the page setup description. The **PageSetup** object contains all the page setup attributes of a document (such as left margin, bottom margin, and paper size) as properties.
 
 
 ## Remarks
 
-Use the  **PageSetup** property to return the **PageSetup** object. The following example sets the first section in the active document to landscape orientation and then prints the document.
+Use the **PageSetup** property to return the **PageSetup** object. The following example sets the first section in the active document to landscape orientation and then prints the document.
 
 
 ```vb
@@ -46,6 +45,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

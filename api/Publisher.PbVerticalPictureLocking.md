@@ -1,18 +1,17 @@
 ---
-title: PbVerticalPictureLocking Enumeration (Publisher)
+title: PbVerticalPictureLocking enumeration (Publisher)
 keywords: vbapb10.chm65569
 f1_keywords:
 - vbapb10.chm65569
-ms.prod: publisher
 api_name:
 - Publisher.PbVerticalPictureLocking
 ms.assetid: fdfef20e-6e61-ce7d-373d-aaee37b24577
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbVerticalPictureLocking Enumeration (Publisher)
+# PbVerticalPictureLocking enumeration (Publisher)
 
 Indicates where newly inserted pictures appear in relation to the specified frame.
 

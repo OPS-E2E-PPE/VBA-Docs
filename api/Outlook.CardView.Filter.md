@@ -1,27 +1,26 @@
 ---
-title: CardView.Filter Property (Outlook)
+title: CardView.Filter property (Outlook)
 keywords: vbaol11.chm2596
 f1_keywords:
 - vbaol11.chm2596
-ms.prod: outlook
 api_name:
 - Outlook.CardView.Filter
 ms.assetid: 2ac2ed8b-9ce9-60a1-7b6a-b136c0d0ffff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CardView.Filter Property (Outlook)
+# CardView.Filter property (Outlook)
 
-Returns or sets a  **String** value that represents the filter for a view. Read/write.
+Returns or sets a **String** value that represents the filter for a view. Read/write.
 
 
 ## Syntax
 
 _expression_. `Filter`
 
-_expression_ A variable that represents a [CardView](./Outlook.CardView.md) object.
+_expression_ A variable that represents a [CardView](Outlook.CardView.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ The value of this property is a string, in DAV Searching and Locating (DASL) syn
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example obtains a  **[View](Outlook.View.md)** object by using the **[CurrentView](Outlook.Explorer.CurrentView.md)** property of the **[Explorer](Outlook.Explorer.md)** object, then sets the **[Filter](Outlook.View.Filter.md)** property of the **View** object to display only those Outlook items that were received last week.
+The following Visual Basic for Applications (VBA) example obtains a **[View](Outlook.View.md)** object by using the **[CurrentView](Outlook.Explorer.CurrentView.md)** property of the **[Explorer](Outlook.Explorer.md)** object, then sets the **[Filter](Outlook.View.Filter.md)** property of the **View** object to display only those Outlook items that were received last week.
 
 
 ```vb

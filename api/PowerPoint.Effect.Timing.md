@@ -1,27 +1,26 @@
 ---
-title: Effect.Timing Property (PowerPoint)
+title: Effect.Timing property (PowerPoint)
 keywords: vbapp10.chm652009
 f1_keywords:
 - vbapp10.chm652009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.Timing
 ms.assetid: 88b4f9a5-62aa-6844-e784-f74a1d78aa82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.Timing Property (PowerPoint)
+# Effect.Timing property (PowerPoint)
 
-Returns a  **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
+Returns a **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
 
 
 ## Syntax
 
- _expression_. `Timing`
+_expression_. `Timing`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

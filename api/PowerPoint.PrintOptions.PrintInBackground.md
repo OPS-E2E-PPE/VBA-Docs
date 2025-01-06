@@ -1,27 +1,26 @@
 ---
-title: PrintOptions.PrintInBackground Property (PowerPoint)
+title: PrintOptions.PrintInBackground property (PowerPoint)
 keywords: vbapp10.chm517010
 f1_keywords:
 - vbapp10.chm517010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintOptions.PrintInBackground
 ms.assetid: d3a734a3-fa17-2321-1c29-6167f0110bd7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintOptions.PrintInBackground Property (PowerPoint)
+# PrintOptions.PrintInBackground property (PowerPoint)
 
 Determines whether the specified presentation is printed in the background. Read/write.
 
 
 ## Syntax
 
- _expression_. `PrintInBackground`
+_expression_. `PrintInBackground`
 
- _expression_ A variable that represents a [PrintOptions](./PowerPoint.PrintOptions.md) object.
+_expression_ A variable that represents a [PrintOptions](PowerPoint.PrintOptions.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **PrintInBackground** property can be one of these **MsoTriState** constants.
+The value of the **PrintInBackground** property can be one of these **MsoTriState** constants.
 
 
 

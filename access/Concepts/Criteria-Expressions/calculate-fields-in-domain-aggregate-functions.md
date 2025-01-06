@@ -3,16 +3,15 @@ title: Calculate fields in domain aggregate functions
 keywords: vbaac10.chm5187048
 f1_keywords:
 - vbaac10.chm5187048
-ms.prod: access
 ms.assetid: 73c27d1c-0a3c-03e4-c17c-337133d7b316
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Calculate fields in domain aggregate functions
 
-You can use the string expression argument (the  _expr_ argument) in a domain aggregate function to perform a calculation on values in a field. For example, you can calculate a percentage (such as a surcharge or sales tax) by dividing a field value by a number.
+Use the string expression argument (the  _expr_ argument) in a domain aggregate function to perform a calculation on values in a field. For example, you can calculate a percentage (such as a surcharge or sales tax) by dividing a field value by a number.
 
 The following table provides examples of calculations on fields from an Orders table and an Order Details table.
 

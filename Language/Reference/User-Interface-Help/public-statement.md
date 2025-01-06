@@ -3,10 +3,9 @@ title: Public statement (VBA)
 keywords: vblr6.chm1008831
 f1_keywords:
 - vblr6.chm1008831
-ms.prod: office
 ms.assetid: c8c8771b-d4cf-d5dc-4160-110472e252b4
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Used at the [module level](../../Glossary/vbe-glossary.md#module-level) to decla
 
 **Public** [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ]<br/>
 [ , [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ]] **. . .**
-
-<br/>
 
 The **Public** statement syntax has these parts:
 

@@ -3,18 +3,17 @@ title: NavigationButton.FontBold property (Access)
 keywords: vbaac10.chm10478
 f1_keywords:
 - vbaac10.chm10478
-ms.prod: access
 api_name:
 - Access.NavigationButton.FontBold
 ms.assetid: bdf44cca-eae9-34d7-50a3-d3ac52c9ae39
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.FontBold property (Access)
 
-You can use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
+Use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

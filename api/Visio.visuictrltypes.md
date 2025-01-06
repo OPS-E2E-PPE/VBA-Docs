@@ -1,21 +1,21 @@
 ---
-title: VisUICtrlTypes Enumeration (Visio)
+title: VisUICtrlTypes enumeration (Visio)
 keywords: vis_sdr.chm70180
 f1_keywords:
 - vis_sdr.chm70180
-ms.prod: visio
 ms.assetid: acc20b0d-cd3b-0268-61cd-c17a628a4fdb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisUICtrlTypes Enumeration (Visio)
+# VisUICtrlTypes enumeration (Visio)
 
-Constants that describe control types, used in conjuction with the  **CntrlType** property of the **Menu** , **MenuItem** , and **ToolbarItem** objects.
+Constants that describe control types, used in conjuction with the **CntrlType** property of the **Menu**, **MenuItem**, and **ToolbarItem** objects.
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 

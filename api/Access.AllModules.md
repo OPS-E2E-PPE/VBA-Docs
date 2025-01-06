@@ -3,12 +3,11 @@ title: AllModules object (Access)
 keywords: vbaac10.chm12686
 f1_keywords:
 - vbaac10.chm12686
-ms.prod: access
 api_name:
 - Access.AllModules
 ms.assetid: 322815ae-3afd-f299-0ce9-2e9dbbb8536a
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ The **AllModules** collection contains an **[AccessObject](Access.AccessObject.m
 
 The **CurrentProject** or **CodeProject** object has an **AllModules** collection containing **AccessObject** objects that describe instances of all the **Module** objects specified by **CurrentProject** or **CodeProject**. For example, you can enumerate the **AllModules** collection in Visual Basic to set or return the values of properties of individual **AccessObject** objects in the collection.
 
-You can refer to an individual **AccessObject** object in the **AllModules** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllModules** collection, it's better to refer to the module by name because a module's collection index may change.
+Refer to an individual **AccessObject** object in the **AllModules** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllModules** collection, it's better to refer to the module by name because a module's collection index may change.
 
 The **AllModules** collection is indexed beginning with zero. If you refer to a module by its index, the first module is AllModules(0), the second module is AllModules(1), and so on.
 

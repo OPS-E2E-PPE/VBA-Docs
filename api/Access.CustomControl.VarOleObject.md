@@ -3,12 +3,11 @@ title: CustomControl.VarOleObject property (Access)
 keywords: vbaac10.chm10954
 f1_keywords:
 - vbaac10.chm10954
-ms.prod: access
 api_name:
 - Access.CustomControl.VarOleObject
 ms.assetid: 7de5433c-a2da-bb8e-35d2-9c7aae1ff2cd
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -29,7 +28,7 @@ _expression_ A variable that represents a **[CustomControl](Access.CustomControl
 > [!NOTE] 
 > The **VarOleObject** property is compatible with 32-bit and 64-bit OLE objects. It replaces the **LpOLEObject**, which was available in earlier versions of Microsoft Access.
 
-You can use the **VarOleObject** property to refer to the address of the active OLE object. If no object is displayed, the setting is 0.
+Use the **VarOleObject** property to refer to the address of the active OLE object. If no object is displayed, the setting is 0.
 
 This property setting is not available in Design view and is read-only in other views.
 

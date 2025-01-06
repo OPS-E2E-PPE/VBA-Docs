@@ -1,23 +1,23 @@
 ---
-title: Task.Number9 Property (Project)
-ms.prod: project-server
+title: Task.Number9 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Number9
 ms.assetid: a56cb1f9-62fd-680f-5383-f08925381a5d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Number9 Property (Project)
+# Task.Number9 property (Project)
 
-Gets or sets a Number local custom field for a task. Read/write  **Double**.
+Gets or sets a Number local custom field for a task. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `Number9`
+_expression_. `Number9`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

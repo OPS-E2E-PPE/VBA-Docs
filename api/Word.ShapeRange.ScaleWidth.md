@@ -3,12 +3,11 @@ title: ShapeRange.ScaleWidth method (Word)
 keywords: vbawd10.chm162856984
 f1_keywords:
 - vbawd10.chm162856984
-ms.prod: word
 api_name:
 - Word.ShapeRange.ScaleWidth
 ms.assetid: 3742c9a7-7a97-9e24-299c-b7567eedb9d1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Scales the width of a shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleWidth`( `_Factor_` , `_RelativeToOriginalSize_` , `_Scale_` )
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _Scale_)
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

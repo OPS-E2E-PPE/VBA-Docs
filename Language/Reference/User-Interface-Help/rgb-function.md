@@ -3,10 +3,9 @@ title: RGB function (Visual Basic for Applications)
 keywords: vblr6.chm1009005
 f1_keywords:
 - vblr6.chm1009005
-ms.prod: office
 ms.assetid: 5e9956de-ba18-56cd-0556-715774055cf4
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns a [Long](../../Glossary/vbe-glossary.md#long-data-type) whole number rep
 ## Syntax
 
 **RGB**(_red_, _green_, _blue_)
-
-<br/>
 
 The **RGB** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -54,7 +51,7 @@ The following table lists some standard colors and the red, green, and blue valu
 
 ## Example
 
-This example shows how the **RGB** function is used to return a whole number representing an **RGB** color value. It is used for those application methods and properties that accept a color specification. The object `MyObject` and its property are used for illustration purposes only. If `MyObject` does not exist, or if it does not have a **Color** property, an error occurs.
+This example shows how the **RGB** function is used to return a whole number representing an **RGB** color value. It's used for those application methods and properties that accept a color specification. The object _MyObject_ and its property are used for illustration purposes only. If _MyObject_ does not exist, or if it does not have a **Color** property, an error occurs.
 
 
 ```vb

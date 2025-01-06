@@ -1,26 +1,26 @@
 ---
-title: Application.TextStyles32Ex Method (Project)
+title: Application.TextStyles32Ex method (Project)
 keywords: vbapj.chm2150
 f1_keywords:
 - vbapj.chm2150
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TextStyles32Ex
 ms.assetid: 8e1ed2bb-dac4-42d7-616b-a67984dcffa4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TextStyles32Ex Method (Project)
+# Application.TextStyles32Ex method (Project)
 
 Sets the text styles for tasks and resources in the active view, where colors can be hexadecimal RGB values.
 
 ## Syntax
 
-_expression_. **TextStyles32Ex** (**_Item_**, **_Font_**, **_Size_**, **_Bold_**, **_Italic_**, **_Underline_**, **_Color_**, **_CellColor_**, **_Pattern_**)
+_expression_.**TextStyles32Ex** (_Item_, _Font_, _Size_, _Bold_, _Italic_, _Underline_, _Color_, _CellColor_, _Pattern_)
 
-_expression_ An expression that returns an **Application** object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -37,11 +37,10 @@ _expression_ An expression that returns an **Application** object.
 | _CellColor_|Optional|**Long**|The background color of the cell. Can be a hexadecimal value for the RGB color.|
 | _Pattern_|Optional|**Integer**|The background pattern of the cell. Can be one of the **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.|
 
-<br/>
 
 ### If the Gantt Chart is active
 
-|||
+|Gantt Chart Active|Gantt Chart Active Continued|
 |:-----|:-----|
 |**pjAll**|**pjGanttMajorTimescale**|
 |**pjNoncritical**|**pjGanttMinorTimescale**|
@@ -53,11 +52,10 @@ _expression_ An expression that returns an **Application** object.
 |**pjTaskFilterHighlight**|**pjGanttExternalTask**|
 |**pjTaskRowColumnTitles**||
 
-<br/>
 
 ### If the Task Usage view is active
 
-|||
+|Task Usage|Task Usage Continued|
 |:-----|:-----|
 |**pjAll**|**pjTaskFilterHighlight**|
 |**pjCritical**|**pjTaskMajorTimescale**|
@@ -67,11 +65,10 @@ _expression_ An expression that returns an **Application** object.
 |**pjProjectSummary**|**pjTaskUsageExternalTask**|
 |**pjSummary**||
 
-<br/>
 
 ### If the Task Sheet is active
 
-|||
+|Task Sheet 1|Task Sheet 2|
 |:-----|:-----|
 |**pjAll**|**pjGanttMajorTimescale**|
 |**pjNoncritical**|**pjGanttMinorTimescale**|
@@ -83,7 +80,7 @@ _expression_ An expression that returns an **Application** object.
 |**pjTaskFilterHighlight**|**pjGanttExternalTask**|
 |**pjTaskRowColumnTitles**||
 
-|||
+|Task Sheet 3|Task Sheet 4|
 |:-----|:-----|
 |**pjAll**|**pjTaskFilterHighlight**|
 |**pjCritical**|**pjTaskMajorTimescale**|
@@ -93,7 +90,7 @@ _expression_ An expression that returns an **Application** object.
 |**pjProjectSummary**|**pjTaskUsageExternalTask**|
 |**pjSummary**||
 
-|||
+|Task Sheet 5|Task Sheet 6|
 |:-----|:-----|
 |**pjAll**|**pjProjectSummary**|
 |**pjCritical**|**pjSummary**|
@@ -101,7 +98,7 @@ _expression_ An expression that returns an **Application** object.
 |**pjMilestone**|**pjTaskFilterHighlight**|
 |**pjNoncritical**|**pjTaskRowColumnTitles**|
 
-<br/>
+
 
 ## Return value
 

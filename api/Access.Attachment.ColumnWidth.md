@@ -3,18 +3,17 @@ title: Attachment.ColumnWidth property (Access)
 keywords: vbaac10.chm14008
 f1_keywords:
 - vbaac10.chm14008
-ms.prod: access
 api_name:
 - Access.Attachment.ColumnWidth
 ms.assetid: 1827efbf-f481-7e26-0638-775a522b2c46
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.ColumnWidth property (Access)
 
-You can use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
+Use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax

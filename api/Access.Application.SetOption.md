@@ -3,12 +3,11 @@ title: Application.SetOption method (Access)
 keywords: vbaac10.chm12504
 f1_keywords:
 - vbaac10.chm12504
-ms.prod: access
 api_name:
 - Access.Application.SetOption
 ms.assetid: 6cb1f036-01c2-16bf-f62a-e5235dfb3c65
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -47,23 +46,17 @@ For options that the user sets by selecting or clearing a check box, using the *
 Application.SetOption "Show Status Bar", True
 ```
 
-<br/>
-
 To set a type of option by using the **SetOption** method, specify the string or numeric value that would be typed in the dialog box. The following example sets the default form template to OrderTemplate.
 
 ```vb
 Application.SetOption "Form Template", "OrderTemplate"
 ```
 
-<br/>
-
 For options with settings that are choices in list boxes or combo boxes, specify the option's numeric position within the list as the setting argument for the **SetOption** method. The following example sets the **Default Field Type** option to AutoNumber.
 
 ```vb
 Application.SetOption "Default Field Type", 5
 ```
-
-<br/>
 
 To set an option that's a member of an option group, specify the index number of the option within the group. The following example sets **Selection Behavior** to Fully Enclosed:
 

@@ -3,30 +3,29 @@ title: PlotArea.InsideLeft property (Word)
 keywords: vbawd10.chm53479043
 f1_keywords:
 - vbawd10.chm53479043
-ms.prod: word
 api_name:
 - Word.PlotArea.InsideLeft
 ms.assetid: 30cd15c4-6d97-4742-3ff8-cf8d820bc070
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PlotArea.InsideLeft property (Word)
 
-Returns or sets the distance, in points, from the chart edge to the inside left edge of the plot area. Read/write  **Double**.
+Returns or sets the distance, in [points](../language/glossary/vbe-glossary.md#point), from the chart edge to the inside left edge of the plot area. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `InsideLeft`
+_expression_.**InsideLeft**
 
- _expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
 
 
 ## Remarks
 
-The plot area used for this measurement does not include the axis labels. The  **[Left](Word.PlotArea.Left.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
+The plot area used for this measurement does not include the axis labels. The **[Left](Word.PlotArea.Left.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
 
 
 ## Example

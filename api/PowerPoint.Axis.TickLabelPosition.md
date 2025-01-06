@@ -1,25 +1,24 @@
 ---
-title: Axis.TickLabelPosition Property (PowerPoint)
+title: Axis.TickLabelPosition property (PowerPoint)
 keywords: vbapp10.chm682028
 f1_keywords:
 - vbapp10.chm682028
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.TickLabelPosition
 ms.assetid: 439b3da0-37d1-1fd8-b810-66accac03001
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.TickLabelPosition Property (PowerPoint)
+# Axis.TickLabelPosition property (PowerPoint)
 
-Describes the position of tick-mark labels on the specified axis. Read/write  **[xlTickLabelPosition](PowerPoint.XlTickLabelPosition.md)**.
+Describes the position of tick-mark labels on the specified axis. Read/write **[XlTickLabelPosition](PowerPoint.XlTickLabelPosition.md)**.
 
 
 ## Syntax
 
- _expression_. `TickLabelPosition`
+_expression_. `TickLabelPosition`
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
@@ -29,7 +28,8 @@ _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets tick-mark labels to the high position (above the chart) on the category axis for the first chart in the active document.
 

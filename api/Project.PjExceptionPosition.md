@@ -1,15 +1,15 @@
 ---
-title: PjExceptionPosition Enumeration (Project)
-ms.prod: project-server
+title: PjExceptionPosition enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjExceptionPosition
 ms.assetid: 08e2393a-53dc-13e4-f1ca-c6b507a1434c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjExceptionPosition Enumeration (Project)
+# PjExceptionPosition enumeration (Project)
 
 Contains constants that specify the week in a month in which an exception occurs.
 

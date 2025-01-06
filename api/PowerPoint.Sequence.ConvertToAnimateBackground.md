@@ -1,27 +1,26 @@
 ---
-title: Sequence.ConvertToAnimateBackground Method (PowerPoint)
+title: Sequence.ConvertToAnimateBackground method (PowerPoint)
 keywords: vbapp10.chm651010
 f1_keywords:
 - vbapp10.chm651010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Sequence.ConvertToAnimateBackground
 ms.assetid: 75fd5a43-f8cf-5ba9-de92-3031eb938eb7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Sequence.ConvertToAnimateBackground Method (PowerPoint)
+# Sequence.ConvertToAnimateBackground method (PowerPoint)
 
-Determines whether the background will be animated separately from, or in addition to, its accompanying text. Returns an  **[Effect](PowerPoint.Effect.md)** object representing the newly-modified animation effect.
+Determines whether the background will be animated separately from, or in addition to, its accompanying text. Returns an **[Effect](PowerPoint.Effect.md)** object representing the newly-modified animation effect.
 
 
 ## Syntax
 
- _expression_. `ConvertToAnimateBackground`( `_Effect_`, `_AnimateBackground_` )
+_expression_. `ConvertToAnimateBackground`( `_Effect_`, `_AnimateBackground_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

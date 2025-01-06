@@ -1,18 +1,17 @@
 ---
-title: NameSpace.GetFolderFromID Method (Outlook)
+title: NameSpace.GetFolderFromID method (Outlook)
 keywords: vbaol11.chm762
 f1_keywords:
 - vbaol11.chm762
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.GetFolderFromID
 ms.assetid: 0fb2d3b5-2967-1943-922a-7ec03e514e62
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.GetFolderFromID Method (Outlook)
+# NameSpace.GetFolderFromID method (Outlook)
 
 Returns a **[Folder](Outlook.Folder.md)** object identified by the specified entry ID (if valid).
 

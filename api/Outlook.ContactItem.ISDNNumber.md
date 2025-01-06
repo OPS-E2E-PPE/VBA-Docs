@@ -1,27 +1,26 @@
 ---
-title: ContactItem.ISDNNumber Property (Outlook)
+title: ContactItem.ISDNNumber property (Outlook)
 keywords: vbaol11.chm1023
 f1_keywords:
 - vbaol11.chm1023
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.ISDNNumber
 ms.assetid: 98e27ef6-0af7-948c-8f62-49bc01d42c11
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.ISDNNumber Property (Outlook)
+# ContactItem.ISDNNumber property (Outlook)
 
-Returns or sets a  **String** representing the ISDN number for the contact. Read/write.
+Returns or sets a **String** representing the ISDN number for the contact. Read/write.
 
 
 ## Syntax
 
 _expression_. `ISDNNumber`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## See also

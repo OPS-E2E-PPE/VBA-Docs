@@ -1,27 +1,26 @@
 ---
-title: Page.Shapes Property (Visio)
+title: Page.Shapes property (Visio)
 keywords: vis_sdr.chm10914330
 f1_keywords:
 - vis_sdr.chm10914330
-ms.prod: visio
 api_name:
 - Visio.Page.Shapes
 ms.assetid: b6a5c174-c1d6-049b-8aec-8337c47341d7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.Shapes Property (Visio)
+# Page.Shapes property (Visio)
 
-Returns the  **Shapes** collection for a page, master, or group. Read-only.
+Returns the **Shapes** collection for a page, master, or group. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shapes`
+_expression_.**Shapes**
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Return value
@@ -31,15 +30,15 @@ Shapes
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019&preserve-view=true) reference, this property maps to the following types:
 
 
--  **Microsoft.Office.Interop.Visio.IVPage.Shapes**
+- **Microsoft.Office.Interop.Visio.IVPage.Shapes**
     
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Shapes** property to get the **Shapes** collection. It prints the names of all shapes on Page1 in the Immediate window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Shapes** property to get the **Shapes** collection. It prints the names of all shapes on Page1 in the Immediate window.
 
 To run this macro, make sure the active document has shapes on Page1.
 

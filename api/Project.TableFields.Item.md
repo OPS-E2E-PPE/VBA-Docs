@@ -1,24 +1,24 @@
 ---
-title: TableFields.Item Property (Project)
-ms.prod: project-server
+title: TableFields.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.TableFields.Item
 ms.assetid: 42f07d86-960b-4b4f-edba-57bf65ad2d60
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableFields.Item Property (Project)
+# TableFields.Item property (Project)
 
-Gets a single  **TableField** object from the **TableFields** collection. Read-only **TableField**.
+Gets a single **TableField** object from the **TableFields** collection. Read-only **TableField**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'TableFields' object.
+_expression_ A variable that represents a 'TableFields' object.
 
 
 ## Parameters

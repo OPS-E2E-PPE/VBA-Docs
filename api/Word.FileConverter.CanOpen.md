@@ -3,12 +3,11 @@ title: FileConverter.CanOpen property (Word)
 keywords: vbawd10.chm161021957
 f1_keywords:
 - vbawd10.chm161021957
-ms.prod: word
 api_name:
 - Word.FileConverter.CanOpen
 ms.assetid: 0fe665dc-fe64-a61d-f6a5-a7ba2ff7b2d6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CanOpen`
+_expression_. `CanOpen`
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Remarks
 
-The  **[CanSave](Word.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
+The **[CanSave](Word.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
 
 
 ## Example

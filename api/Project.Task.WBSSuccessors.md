@@ -1,27 +1,27 @@
 ---
-title: Task.WBSSuccessors Property (Project)
+title: Task.WBSSuccessors property (Project)
 keywords: vbapj.chm132816
 f1_keywords:
 - vbapj.chm132816
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.WBSSuccessors
 ms.assetid: 4d435645-8437-af81-ad38-eca0c27cfd80
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.WBSSuccessors Property (Project)
+# Task.WBSSuccessors property (Project)
 
-Gets the work breakdown structure (WBS) codes of the task successors, separated by the list separator. Read-only  **String**.
+Gets the work breakdown structure (WBS) codes of the task successors, separated by the list separator. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `WBSSuccessors`
+_expression_. `WBSSuccessors`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

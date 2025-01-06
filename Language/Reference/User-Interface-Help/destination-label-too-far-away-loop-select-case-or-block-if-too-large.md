@@ -3,10 +3,9 @@ title: Destination label too far away; loop, Select Case, or block If too large
 keywords: vblr6.chm1011341
 f1_keywords:
 - vblr6.chm1011341
-ms.prod: office
 ms.assetid: 56644b8d-3a38-874d-1e5e-0091bcd86f0b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ localization_priority: Normal
     
 - You have a very large loop structure that occupies more than 32K of memory from beginning to end. Make the loop smaller.
     
-- You have a very large block  **If** structure that contains a **Then** or **Else** clause that occupies more than 32K of memory from beginning to end. Reduce the size of the offending portion of the structure.
+- You have a very large block **If** structure that contains a **Then** or **Else** clause that occupies more than 32K of memory from beginning to end. Reduce the size of the offending portion of the structure.
     
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).

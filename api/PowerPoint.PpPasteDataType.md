@@ -1,15 +1,14 @@
 ---
-title: PpPasteDataType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpPasteDataType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpPasteDataType
 ms.assetid: 451539a2-e04a-9222-67a1-6089ca00e63c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpPasteDataType Enumeration (PowerPoint)
+# PpPasteDataType enumeration (PowerPoint)
 
 Specifies a format for the Clipboard contents when they are inserted into the document.
 

@@ -3,25 +3,24 @@ title: Document.GridOriginHorizontal property (Word)
 keywords: vbawd10.chm158007600
 f1_keywords:
 - vbawd10.chm158007600
-ms.prod: word
 api_name:
 - Word.Document.GridOriginHorizontal
 ms.assetid: e4315f83-a89c-59c1-094d-4945ae2d1ce2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.GridOriginHorizontal property (Word)
 
-Returns or sets a  **Single** that represents the point, relative to the left edge of the page, where you want the invisible grid for drawing, moving, and resizing AutoShapes or East Asian characters to begin in the specified document. Read/write.
+Returns or sets a **Single** that represents the point, relative to the left edge of the page, where you want the invisible grid for drawing, moving, and resizing AutoShapes or East Asian characters to begin in the specified document. Read/write.
 
 
 ## Syntax
 
- _expression_. `GridOriginHorizontal`
+_expression_. `GridOriginHorizontal`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

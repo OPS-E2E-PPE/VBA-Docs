@@ -1,18 +1,17 @@
 ---
-title: PbMailMergeDestination Enumeration (Publisher)
+title: PbMailMergeDestination enumeration (Publisher)
 keywords: vbapb10.chm65597
 f1_keywords:
 - vbapb10.chm65597
-ms.prod: publisher
 api_name:
 - Publisher.PbMailMergeDestination
 ms.assetid: 7e060743-941c-c899-1601-778e51d66bea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbMailMergeDestination Enumeration (Publisher)
+# PbMailMergeDestination enumeration (Publisher)
 
 The destination of the mail merge or catalog merge results.
 

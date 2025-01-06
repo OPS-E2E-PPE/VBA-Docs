@@ -3,30 +3,29 @@ title: ShadowFormat.OffsetX property (Word)
 keywords: vbawd10.chm164364390
 f1_keywords:
 - vbawd10.chm164364390
-ms.prod: word
 api_name:
 - Word.ShadowFormat.OffsetX
 ms.assetid: 5556921b-b96b-7e28-8cd4-7be3475f6a6f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ShadowFormat.OffsetX property (Word)
 
-Returns or sets the horizontal offset (in points) of the shadow from the specified shape. A positive value offsets the shadow to the right of the shape; a negative value offsets it to the left. Read/write  **Single**.
+Returns or sets the horizontal offset (in points) of the shadow from the specified shape. A positive value offsets the shadow to the right of the shape; a negative value offsets it to the left. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `OffsetX`
+_expression_.**OffsetX**
 
- _expression_ An expression that returns a '[ShadowFormat](Word.ShadowFormat.md)' object.
+ _expression_ An expression that returns a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Remarks
 
-If you want to nudge a shadow horizontally or vertically from its current position without having to specify an absolute position, use the  **[IncrementOffsetX](Word.ShadowFormat.IncrementOffsetX.md)** or **[IncrementOffsetY](Word.ShadowFormat.IncrementOffsetY.md)** method.
+If you want to nudge a shadow horizontally or vertically from its current position without having to specify an absolute position, use the **[IncrementOffsetX](Word.ShadowFormat.IncrementOffsetX.md)** or **[IncrementOffsetY](Word.ShadowFormat.IncrementOffsetY.md)** method.
 
 
 ## Example

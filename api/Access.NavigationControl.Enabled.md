@@ -3,18 +3,17 @@ title: NavigationControl.Enabled property (Access)
 keywords: vbaac10.chm11060
 f1_keywords:
 - vbaac10.chm11060
-ms.prod: access
 api_name:
 - Access.NavigationControl.Enabled
 ms.assetid: 6296dabf-95a3-6751-7572-95522f7bd57c
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

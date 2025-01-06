@@ -3,37 +3,31 @@ title: OLEFormat.ProgID property (Word)
 keywords: vbawd10.chm154337302
 f1_keywords:
 - vbawd10.chm154337302
-ms.prod: word
 api_name:
 - Word.OLEFormat.ProgID
 ms.assetid: f3e99411-ebea-9135-e25d-66948f53e037
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OLEFormat.ProgID property (Word)
 
-Returns the programmatic identifier (ProgID) for the specified OLE object. Read-only  **String**.
+Returns the programmatic identifier (ProgID) for the specified OLE object. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `ProgID`
+_expression_. `ProgID`
 
- _expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
+_expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
 
 
 ## Remarks
 
-The  **ProgID** and **ClassType** properties will (by default) return the same string. However, you can change the **ClassType** property for DDE links.
+The **ProgID** and **ClassType** properties will (by default) return the same string. However, you can change the **ClassType** property for DDE links.
 
-
- **Security Note**  
-
-
-
-For information about programmatic identifiers, see [OLE Programmatic Identifiers](./overview/Word.md).
+For information about programmatic identifiers, see [OLE Programmatic Identifiers](overview/Word.md).
 
 
 ## Example

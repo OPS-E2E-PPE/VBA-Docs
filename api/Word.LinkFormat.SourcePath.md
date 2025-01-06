@@ -3,30 +3,29 @@ title: LinkFormat.SourcePath property (Word)
 keywords: vbawd10.chm154206213
 f1_keywords:
 - vbawd10.chm154206213
-ms.prod: word
 api_name:
 - Word.LinkFormat.SourcePath
 ms.assetid: c5aa7b91-7c65-b9d7-3e5e-8eb203340d08
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LinkFormat.SourcePath property (Word)
 
-Returns the path of the source file for the specified linked OLE object, picture, or field. Read-only  **String**.
+Returns the path of the source file for the specified linked OLE object, picture, or field. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `SourcePath`
+_expression_.**SourcePath**
 
  _expression_ An expression that returns a '[LinkFormat](Word.LinkFormat.md)' object.
 
 
 ## Remarks
 
-The path doesn't include a trailing character (for example, "C:\MSOffice"). Use the  **[PathSeparator](Word.Application.PathSeparator.md)** property to add the character that separates folders and drive letters. Use the **[SourceName](Word.LinkFormat.SourceName.md)** property to return the file name without the path and use the **[SourceFullName](Word.LinkFormat.SourceFullName.md)** property to return the path and file name together.
+The path doesn't include a trailing character (for example, "C:\MSOffice"). Use the **[PathSeparator](Word.Application.PathSeparator.md)** property to add the character that separates folders and drive letters. Use the **[SourceName](Word.LinkFormat.SourceName.md)** property to return the file name without the path and use the **[SourceFullName](Word.LinkFormat.SourceFullName.md)** property to return the path and file name together.
 
 
 ## Example

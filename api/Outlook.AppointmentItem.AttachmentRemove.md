@@ -1,15 +1,14 @@
 ---
-title: AppointmentItem.AttachmentRemove Event (Outlook)
-ms.prod: outlook
+title: AppointmentItem.AttachmentRemove event (Outlook)
 api_name:
 - Outlook.AppointmentItem.AttachmentRemove
 ms.assetid: db3778f6-3cf4-0830-909a-0b3171b6d605
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.AttachmentRemove Event (Outlook)
+# AppointmentItem.AttachmentRemove event (Outlook)
 
 Occurs when an attachment has been removed from an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been removed from an instance of the parent object
 
 _expression_. `AttachmentRemove`( `_Attachment_` )
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents an [AppointmentItem](./Outlook.Appointme
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was removed from the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was removed from the item.|
 
 ## See also
 

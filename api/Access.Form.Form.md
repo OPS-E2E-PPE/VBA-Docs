@@ -3,18 +3,17 @@ title: Form.Form property (Access)
 keywords: vbaac10.chm13499
 f1_keywords:
 - vbaac10.chm13499
-ms.prod: access
 api_name:
 - Access.Form.Form
 ms.assetid: 5e18dd48-f288-2b75-f42c-3a8b42f75b33
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Form.Form property (Access)
 
-You can use the **Form** property to refer to a form or to refer to the form associated with a subformcontrol. Read-only **Form**.
+Use the **Form** property to refer to a form or to refer to the form associated with a subformcontrol. Read-only **Form**.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 ## Remarks
 
-This property refers to a form object. It is read-only in all views.
+This property refers to a form object. It's read-only in all views.
 
 This property is typically used to refer to the form or report contained in a subform control. For example, the following code uses the **Form** property to access the **OrderID** control on a subform contained in the **OrderDetails** subform control.
 

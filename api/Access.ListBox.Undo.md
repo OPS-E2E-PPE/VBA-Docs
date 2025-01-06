@@ -3,18 +3,17 @@ title: ListBox.Undo method (Access)
 keywords: vbaac10.chm11205
 f1_keywords:
 - vbaac10.chm11205
-ms.prod: access
 api_name:
 - Access.ListBox.Undo
 ms.assetid: ec3947ec-69f2-ec23-ef25-1a9b50e1f901
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.Undo method (Access)
 
-You can use the **Undo** method to reset a control or form when its value has been changed.
+Use the **Undo** method to reset a control or form when its value has been changed.
 
 
 ## Syntax
@@ -44,8 +43,6 @@ Private Sub LastName_Change()
  Me!LastName.Undo 
 End Sub
 ```
-
-<br/>
 
 The next example uses the **Undo** method to reset all changes to a form before the form is updated.
 

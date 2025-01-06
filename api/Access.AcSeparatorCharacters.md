@@ -3,20 +3,17 @@ title: AcSeparatorCharacters enumeration (Access)
 keywords: vbaac10.chm14042
 f1_keywords:
 - vbaac10.chm14042
-ms.prod: access
 api_name:
 - Access.AcSeparatorCharacters
 ms.assetid: f6f0c881-d092-b68a-ea1f-bd4e28b730a8
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcSeparatorCharacters enumeration (Access)
 
 Used with the [ComboBox.SeparatorCharacters property (Access)](Access.ComboBox.SeparatorCharacters.md) property to specify the separator displayed between values in combo boxes that are linked to multi-valued fields.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

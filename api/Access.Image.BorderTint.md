@@ -3,12 +3,11 @@ title: Image.BorderTint property (Access)
 keywords: vbaac10.chm14602
 f1_keywords:
 - vbaac10.chm14602
-ms.prod: access
 api_name:
 - Access.Image.BorderTint
 ms.assetid: f1dd7a66-941b-7ff6-eb99-208e28d27767
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

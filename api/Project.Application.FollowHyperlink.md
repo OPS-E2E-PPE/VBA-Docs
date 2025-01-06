@@ -1,27 +1,27 @@
 ---
-title: Application.FollowHyperlink Method (Project)
+title: Application.FollowHyperlink method (Project)
 keywords: vbapj.chm1307
 f1_keywords:
 - vbapj.chm1307
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FollowHyperlink
 ms.assetid: d612e80b-93c1-7312-d164-be552b580370
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FollowHyperlink Method (Project)
+# Application.FollowHyperlink method (Project)
 
 Opens the document specified by a hyperlink address.
 
 
 ## Syntax
 
- _expression_. `FollowHyperlink`( `_Address_`, `_SubAddress_`, `_AddHistory_`, `_NewWindow_` )
+_expression_. `FollowHyperlink`( `_Address_`, `_SubAddress_`, `_AddHistory_`, `_NewWindow_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Opens the document specified by a hyperlink address.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Address_|Optional|**String**|The address of the target document. If  **Address** is omitted and a text field is selected, the text of the selected field is used. If **Address** is omitted and a text field is not selected, Project returns an error.|
+| _Address_|Optional|**String**|The address of the target document. If **Address** is omitted and a text field is selected, the text of the selected field is used. If **Address** is omitted and a text field is not selected, Project returns an error.|
 | _SubAddress_|Optional|**String**|A location within the target document.|
 | _AddHistory_|Optional|**Boolean**|**True** if the target document should be added to the History folder. The default value is **True**.|
 | _NewWindow_|Optional|**Boolean**|**True** if the target document should display in a new window. The default value is **False**.|

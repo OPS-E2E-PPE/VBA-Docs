@@ -3,16 +3,15 @@ title: Custom methods and properties
 keywords: vbaac10.chm5187125
 f1_keywords:
 - vbaac10.chm5187125
-ms.prod: access
 ms.assetid: 2915eacb-240f-6876-0afb-1db038c4ecba
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Custom methods and properties
 
-You can use a class module to create a definition for a new custom object. When you create a new instance of a class, you create a new object and return a reference to it.
+Use a class module to create a definition for a new custom object. When you create a new instance of a class, you create a new object and return a reference to it.
 
 Any public procedures defined within the class module become methods of the new object. The **Sub** statement defines a method that doesn't return a value; the **Function** statement defines a method that may return a value of a specified type.
 

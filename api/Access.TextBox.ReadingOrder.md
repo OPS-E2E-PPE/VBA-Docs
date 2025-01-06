@@ -3,18 +3,17 @@ title: TextBox.ReadingOrder property (Access)
 keywords: vbaac10.chm11130
 f1_keywords:
 - vbaac10.chm11130
-ms.prod: access
 api_name:
 - Access.TextBox.ReadingOrder
 ms.assetid: 1b53bb00-9252-ca99-c3b7-3a97d06552c4
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

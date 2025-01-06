@@ -3,12 +3,11 @@ title: Document.RemoveDocumentInformation method (Word)
 keywords: vbawd10.chm158007791
 f1_keywords:
 - vbawd10.chm158007791
-ms.prod: word
 api_name:
 - Word.Document.RemoveDocumentInformation
 ms.assetid: 64bd3aa6-1e7f-13c1-bcc6-a9488362d7aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Removes sensitive information, properties, comments, and other metadata from a d
 
 ## Syntax
 
- _expression_. `RemoveDocumentInformation`( `_RemoveDocInfoType_` )
+_expression_. `RemoveDocumentInformation`( `_RemoveDocInfoType_` )
 
  _expression_ An expression that returns a [Document](Word.Document.md) object.
 

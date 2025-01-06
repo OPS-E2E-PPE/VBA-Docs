@@ -1,15 +1,14 @@
 ---
 title: Name a Worksheet By Using a Cell Value
-ms.prod: excel
 ms.assetid: a5553191-cfe1-4d5b-b69e-8052d466c8db
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Name a Worksheet By Using a Cell Value
 
-This example shows how to name a worksheet by using the value in cell A1 on that sheet. This example verifies that the value in cell A1 is a valid worksheet name, and if it is a valid name, renames the active worksheet to equal the value of cell A1 by using the  **[Name](../../../api/Excel.Worksheet.Name.md)** property of the **[Worksheet](../../../api/Excel.Worksheet.md)** object.
+This example shows how to name a worksheet by using the value in cell A1 on that sheet. This example verifies that the value in cell A1 is a valid worksheet name, and if it is a valid name, renames the active worksheet to equal the value of cell A1 by using the **[Name](../../../api/Excel.Worksheet.Name.md)** property of the **[Worksheet](../../../api/Excel.Worksheet.md)** object.
 
  **Sample code provided by:** Tom Urtis, [Atlas Programming Management](https://www.atlaspm.com/)
 
@@ -19,7 +18,7 @@ This example shows how to name a worksheet by using the value in cell A1 on that
 Private Sub Worksheet_Change(ByVal Target As Range)
     'Specify the target cell whose entry shall be the sheet tab name.
     If Target.Address <> "$A$1" Then Exit Sub
-        'If the target cell is empty (contents cleared) then do not change the sheet name
+        'If the target cell is empty (contents cleared) then don't change the sheet name
     If IsEmpty(Target) Then Exit Sub
 
     'If the length of the target cell's entry is greater than 31 characters, disallow the entry.

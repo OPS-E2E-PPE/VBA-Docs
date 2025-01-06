@@ -3,12 +3,11 @@ title: Field.Cut method (Word)
 keywords: vbawd10.chm154075242
 f1_keywords:
 - vbawd10.chm154075242
-ms.prod: word
 api_name:
 - Word.Field.Cut
 ms.assetid: 594b6538-fd90-a969-decd-1468b9ba0c03
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Removes the specified field from the document and places it on the Clipboard.
 
 ## Syntax
 
- _expression_. `Cut`
+_expression_.**Cut**
 
- _expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## Example

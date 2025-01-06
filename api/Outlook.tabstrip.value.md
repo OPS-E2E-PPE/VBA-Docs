@@ -1,22 +1,21 @@
 ---
 title: TabStrip.Value Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 28de6cc4-6b30-fed1-5f17-a15e572f6f9d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabStrip.Value Property (Outlook Forms Script)
 
-Returns or sets a  **Variant** that indicates the currently active tab. Read/write.
+Returns or sets a **Variant** that indicates the currently active tab. Read/write.
 
 
 ## Syntax
 
-_expression_. **Value**
+_expression_.**Value**
 
-_expression_ A variable that represents a  **TabStrip** object.
+_expression_ A variable that represents a **TabStrip** object.
 
 
 ## Remarks

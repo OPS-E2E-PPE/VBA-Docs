@@ -3,18 +3,17 @@ title: Image.Picture property (Access)
 keywords: vbaac10.chm10366
 f1_keywords:
 - vbaac10.chm10366
-ms.prod: access
 api_name:
 - Access.Image.Picture
 ms.assetid: 7844c00d-d56d-0473-31d6-7278f9e4d10f
 ms.date: 03/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Image.Picture property (Access)
 
-You can use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
+Use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
 
 
 ## Syntax

@@ -3,11 +3,10 @@ title: ChartSeries.MissingDataPolicy property (Access)
 keywords: vbaac10.chm14788
 f1_keywords:
 - vbaac10.chm14788
-ms.prod: access
 api_name:
 - Access.ChartSeries.MissingDataPolicy
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

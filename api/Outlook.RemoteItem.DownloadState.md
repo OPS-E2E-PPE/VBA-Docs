@@ -1,32 +1,31 @@
 ---
-title: RemoteItem.DownloadState Property (Outlook)
+title: RemoteItem.DownloadState property (Outlook)
 keywords: vbaol11.chm1625
 f1_keywords:
 - vbaol11.chm1625
-ms.prod: outlook
 api_name:
 - Outlook.RemoteItem.DownloadState
 ms.assetid: 30e87940-f365-113c-dad4-c17775db7cdb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem.DownloadState Property (Outlook)
+# RemoteItem.DownloadState property (Outlook)
 
-Returns a constant that belongs to the  **[OlDownloadState](Outlook.OlDownloadState.md)** enumeration indicating the download state of the item. Read-only.
+Returns a constant that belongs to the **[OlDownloadState](Outlook.OlDownloadState.md)** enumeration indicating the download state of the item. Read-only.
 
 
 ## Syntax
 
 _expression_. `DownloadState`
 
-_expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) object.
+_expression_ A variable that represents a [RemoteItem](Outlook.RemoteItem.md) object.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example searches through the user's  **Inbox** for items that have not yet been fully downloaded. If any not yet fully downloaded items are found, a message is displayed to the user, and the item is marked for download.
+The following Microsoft Visual Basic for Applications (VBA) example searches through the user's **Inbox** for items that have not yet been fully downloaded. If any not yet fully downloaded items are found, a message is displayed to the user, and the item is marked for download.
 
 
 ```vb

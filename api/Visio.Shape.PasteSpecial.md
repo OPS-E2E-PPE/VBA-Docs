@@ -1,32 +1,29 @@
 ---
-title: Shape.PasteSpecial Method (Visio)
+title: Shape.PasteSpecial method (Visio)
 keywords: vis_sdr.chm11251020
 f1_keywords:
 - vis_sdr.chm11251020
-ms.prod: visio
 api_name:
 - Visio.Shape.PasteSpecial
 ms.assetid: 0e3a1006-1664-3b60-5d75-d7d4f77d364d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.PasteSpecial Method (Visio)
+# Shape.PasteSpecial method (Visio)
 
 Inserts the contents of the Clipboard, allowing you to control the format of the pasted information and (optionally) establish a link to the source file (for example, a Microsoft Word document).
 
 
 ## Syntax
 
- _expression_. `PasteSpecial`( `_Format_` , `_Link_` , `_DisplayAsIcon_` )
+_expression_.**PasteSpecial** (_Format_, _Link_, _DisplayAsIcon_)
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,27 +38,28 @@ Nothing
 
 ## Remarks
 
-To simply paste the contents of the Clipboard into an object, use the  **Paste** method.
+To simply paste the contents of the Clipboard into an object, use the **Paste** method.
 
-The  **PasteSpecial** method of a **Shape** object works only with **Shape** objects that are group shapes. Use the **Type** property of a shape to determine whether it is a group.
+The **PasteSpecial** method of a **Shape** object works only with **Shape** objects that are group shapes. Use the **Type** property of a shape to determine whether it is a group.
 
 The value of the  _Format_ argument can be any of the following:
 
 
 
 
-- A value from  **VisPasteSpecialCodes** (see the following table).
+- A value from **VisPasteSpecialCodes** (see the following table).
     
 - Any of the standard Clipboard formats, for example, CF_TEXT. For more information, see the Microsoft Platform SDK on MSDN, the Microsoft Developer Network Web site.
     
-- Any value returned from a call to the  **RegisterClipboardFormat** function. For details, see the Microsoft Platform SDK on MSDN.
+- Any value returned from a call to the **RegisterClipboardFormat** function. For details, see the Microsoft Platform SDK on MSDN.
     
 
 
 
 
 
- **Note**  Before calling Microsoft Windows functions, you should understand how arguments and data types are handled by the Windows API DLLs. Incorrectly calling Windows functions may result in invalid page faults or other unexpected behaviors. For more information on calling Windows functions, search for "Windows API" on MSDN.
+> [!NOTE] 
+> Before calling Microsoft Windows functions, you should understand how arguments and data types are handled by the Windows API DLLs. Incorrectly calling Windows functions may result in invalid page faults or other unexpected behaviors. For more information on calling Windows functions, search for "Windows API" on MSDN.
 
 Possible values for  _Format_ declared by the Visio type library in **VisPasteSpecialCodes** are described in the following table.
 

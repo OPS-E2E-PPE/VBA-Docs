@@ -1,45 +1,44 @@
 ---
-title: AutoFormatRules Object (Outlook)
+title: AutoFormatRules object (Outlook)
 keywords: vbaol11.chm3210
 f1_keywords:
 - vbaol11.chm3210
-ms.prod: outlook
 api_name:
 - Outlook.AutoFormatRules
 ms.assetid: 74514b71-964c-f17b-4df6-e1a5c5ed2b52
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AutoFormatRules Object (Outlook)
+# AutoFormatRules object (Outlook)
 
-Represents the collection of  **[AutoFormatRule](Outlook.AutoFormatRule.md)** objects in a view.
+Represents the collection of **[AutoFormatRule](Outlook.AutoFormatRule.md)** objects in a view.
 
 
 ## Remarks
 
-Use the  **[Add](Outlook.AutoFormatRules.Add.md)** method or the **[Insert](Outlook.AutoFormatRules.Insert.md)** method of the **AutoFormatRules** collection to create a new formatting rule for the following objects derived from the **[View](Outlook.View.md)** object:
+Use the **[Add](Outlook.AutoFormatRules.Add.md)** method or the **[Insert](Outlook.AutoFormatRules.Insert.md)** method of the **AutoFormatRules** collection to create a new formatting rule for the following objects derived from the **[View](Outlook.View.md)** object:
 
 
--  **[BusinessCardView](Outlook.businessCardView.md)**
+- **[BusinessCardView](Outlook.businessCardView.md)**
     
--  **[CalendarView](Outlook.CalendarView.md)**
+- **[CalendarView](Outlook.CalendarView.md)**
     
--  **[CardView](Outlook.CardView.md)**
+- **[CardView](Outlook.CardView.md)**
     
--  **[IconView](Outlook.IconView.md)**
+- **[IconView](Outlook.IconView.md)**
     
--  **[TableView](Outlook.TableView.md)**
+- **[TableView](Outlook.TableView.md)**
     
--  **[TimelineView Object](Outlook.TimelineView.md)**
+- **[TimelineView Object](Outlook.TimelineView.md)**
     
  **AutoFormatRule** objects contained in an **AutoFormatRules** collection are applied to each Outlook item in the order in which they are contained in the collection. Changes to **AutoFormatRule** objects are persisted only if the **[Save](Outlook.AutoFormatRules.Save.md)** method of the **AutoFormatRules** collection is called.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example enumerates the  **AutoFormatRules** collection for the current **TableView** object, disabling any custom formatting rule contained by the collection.
+The following Visual Basic for Applications (VBA) example enumerates the **AutoFormatRules** collection for the current **TableView** object, disabling any custom formatting rule contained by the collection.
 
 
 ```vb
@@ -123,6 +122,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: Borders.EnableFirstPageInSection property (Word)
 keywords: vbawd10.chm154927134
 f1_keywords:
 - vbawd10.chm154927134
-ms.prod: word
 api_name:
 - Word.Borders.EnableFirstPageInSection
 ms.assetid: 89eae9eb-25ef-f068-1098-f00389b10a22
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EnableFirstPageInSection`
+_expression_. `EnableFirstPageInSection`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Example

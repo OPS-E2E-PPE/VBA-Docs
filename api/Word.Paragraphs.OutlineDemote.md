@@ -3,12 +3,11 @@ title: Paragraphs.OutlineDemote method (Word)
 keywords: vbawd10.chm156762437
 f1_keywords:
 - vbawd10.chm156762437
-ms.prod: word
 api_name:
 - Word.Paragraphs.OutlineDemote
 ms.assetid: 24650317-73a4-67a3-d7f4-dfc25bd75d2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Applies the next heading level style (Heading 1 through Heading 8) to the specif
 
 ## Syntax
 
- _expression_. `OutlineDemote`
+_expression_. `OutlineDemote`
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks

@@ -3,25 +3,24 @@ title: Global.KeyBindings property (Word)
 keywords: vbawd10.chm163119173
 f1_keywords:
 - vbawd10.chm163119173
-ms.prod: word
 api_name:
 - Word.Global.KeyBindings
 ms.assetid: 76b3fb80-9169-06b6-8aa6-d70d960ea2f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.KeyBindings property (Word)
 
-Returns a  **KeyBindings** collection that represents customized key assignments, which include a key code, a key category, and a command.
+Returns a **KeyBindings** collection that represents customized key assignments, which include a key code, a key category, and a command.
 
 
 ## Syntax
 
- _expression_. `KeyBindings`
+_expression_. `KeyBindings`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example
@@ -36,7 +35,7 @@ KeyBindings.Add KeyCode:=BuildKeyCode(wdKeyControl, wdKeyAlt, _
  Command:="FileClose"
 ```
 
-This example inserts the command name and key combination string for each item in the  **KeyBindings** collection.
+This example inserts the command name and key combination string for each item in the **KeyBindings** collection.
 
 
 

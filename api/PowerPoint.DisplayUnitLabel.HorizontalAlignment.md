@@ -1,43 +1,42 @@
 ---
-title: DisplayUnitLabel.HorizontalAlignment Property (PowerPoint)
+title: DisplayUnitLabel.HorizontalAlignment property (PowerPoint)
 keywords: vbapp10.chm699004
 f1_keywords:
 - vbapp10.chm699004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DisplayUnitLabel.HorizontalAlignment
 ms.assetid: 1ea8341b-b718-e5f7-5f32-20b833d600ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DisplayUnitLabel.HorizontalAlignment Property (PowerPoint)
+# DisplayUnitLabel.HorizontalAlignment property (PowerPoint)
 
-Returns or sets the horizontal alignment for the specified object. Read/write  **Variant**.
+Returns or sets the horizontal alignment for the specified object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `HorizontalAlignment`
+_expression_.**HorizontalAlignment**
 
- _expression_ A variable that represents a '[DisplayUnitLabel](PowerPoint.DisplayUnitLabel.md)' object.
+_expression_ A variable that represents a '[DisplayUnitLabel](PowerPoint.DisplayUnitLabel.md)' object.
 
 
 ## Remarks
 
-You can set the value of this property to one of the following  **[xlConstants](PowerPoint.XlConstants.md)** constants:
+You can set the value of this property to one of the following **[XlConstants](PowerPoint.XlConstants.md)** constants:
 
 
--  **xlCenter**
+- **xlCenter**
     
--  **xlDistributed**
+- **xlDistributed**
     
--  **xlJustify**
+- **xlJustify**
     
--  **xlLeft**
+- **xlLeft**
     
--  **xlRight**
+- **xlRight**
     
 
 

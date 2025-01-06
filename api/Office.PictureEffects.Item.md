@@ -1,11 +1,10 @@
 ---
 title: PictureEffects.Item property (Office)
-ms.prod: office
 api_name:
 - Office.PictureEffects.Item
 ms.assetid: bd92a68a-059b-d96c-a86f-7c6754b23026
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

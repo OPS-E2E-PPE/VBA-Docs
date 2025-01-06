@@ -1,40 +1,39 @@
 ---
-title: DataLabel.VerticalAlignment Property (PowerPoint)
-ms.prod: powerpoint
+title: DataLabel.VerticalAlignment property (PowerPoint)
 api_name:
 - PowerPoint.DataLabel.VerticalAlignment
 ms.assetid: 2be75c8e-9859-688d-689b-7ce935333664
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabel.VerticalAlignment Property (PowerPoint)
+# DataLabel.VerticalAlignment property (PowerPoint)
 
-Returns or sets the vertical alignment of the specified object. Read/write  **Variant**.
+Returns or sets the vertical alignment of the specified object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `VerticalAlignment`
+_expression_.**VerticalAlignment**
 
 _expression_ A variable that represents a '[DataLabel](PowerPoint.DataLabel.md)' object.
 
 
 ## Remarks
 
-You can set the value of this property to one of the following  **[xlConstants](PowerPoint.XlConstants.md)** constants:
+You can set the value of this property to one of the following **[XlConstants](PowerPoint.XlConstants.md)** constants:
 
 
--  **xlBottom**
+- **xlBottom**
     
--  **xlCenter**
+- **xlCenter**
     
--  **xlDistributed**
+- **xlDistributed**
     
--  **xlJustify**
+- **xlJustify**
     
--  **xlTop**
+- **xlTop**
     
 
 

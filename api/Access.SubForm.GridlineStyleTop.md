@@ -3,12 +3,11 @@ title: SubForm.GridlineStyleTop property (Access)
 keywords: vbaac10.chm11971
 f1_keywords:
 - vbaac10.chm11971
-ms.prod: access
 api_name:
 - Access.SubForm.GridlineStyleTop
 ms.assetid: 44907fd4-2458-01f8-58e7-95c732de6f7a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Application.Visible Property (Visio)
+title: Application.Visible property (Visio)
 keywords: vis_sdr.chm10014650
 f1_keywords:
 - vis_sdr.chm10014650
-ms.prod: visio
 api_name:
 - Visio.Application.Visible
 ms.assetid: 48b0a402-3655-b6aa-19da-145d2c7ceadf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Visible Property (Visio)
+# Application.Visible property (Visio)
 
 Determines whether an object is visible. Read/write.
 
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value

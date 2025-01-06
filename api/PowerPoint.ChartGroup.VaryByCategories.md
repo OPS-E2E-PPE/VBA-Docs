@@ -1,24 +1,23 @@
 ---
-title: ChartGroup.VaryByCategories Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroup.VaryByCategories property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroup.VaryByCategories
 ms.assetid: 3be6fc39-772e-89a9-fdcc-962b904ab694
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.VaryByCategories Property (PowerPoint)
+# ChartGroup.VaryByCategories property (PowerPoint)
 
  **True** if Microsoft Word assigns a different color or pattern to each data marker. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `VaryByCategories`
+_expression_.**VaryByCategories**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -31,9 +30,10 @@ The chart must contain only one series.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example assigns a different color or pattern to each data marker in chart group one. You should run the example on a 2-D line chart that has data markers on a series.
+The following example assigns a different color or pattern to each data marker in chart group one. You should run the example on a 2D line chart that has data markers on a series.
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: Month Object (Project)
-ms.prod: project-server
+title: Month object (Project)
+ms.service: project-server
 api_name:
 - Project.Month
 ms.assetid: 5ee32f12-72aa-fa16-ead2-97949005cd7c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Month Object (Project)
+# Month object (Project)
 
-Represents a month in a year. The  **Month** object is a member of the **[Months](Project.months.md)** collection.
+Represents a month in a year. The **Month** object is a member of the **[Months](Project.months.md)** collection.
  
 
 
@@ -21,7 +21,7 @@ Represents a month in a year. The  **Month** object is a member of the **[Months
  
 
  
-Use  **Months** (*Index* ), where*Index* is the month index number, month name, or **PjMonth** constant, to return a single **Month** object. The following example counts the number of working days in each month of 2012 for each selected resource.
+Use **Months** (*Index* ), where*Index* is the month index number, month name, or **PjMonth** constant, to return a single **Month** object. The following example counts the number of working days in each month of 2012 for each selected resource.
  
 
  
@@ -44,8 +44,8 @@ For Each R In ActiveSelection.Resources()
                 End If 
             Next D 
 
-            MsgBox "There are " &amp; WorkingDays &amp; " working days in " &amp; _
-                .Months(M).Name &amp; " for " &amp; R.Name &amp; "." 
+            MsgBox "There are " & WorkingDays & " working days in " & _
+                .Months(M).Name & " for " & R.Name & "." 
         Next M 
     End With 
 Next R
@@ -55,7 +55,7 @@ Next R
  
 
  
-Use the  **[Months](Project.Year.Months.md)** property to return a **Months** collection. The following example counts the number of months in 2012.
+Use the **[Months](Project.Year.Months.md)** property to return a **Months** collection. The following example counts the number of months in 2012.
  
 
  

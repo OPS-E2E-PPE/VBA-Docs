@@ -1,18 +1,17 @@
 ---
-title: Explorer.BeforeViewSwitch Event (Outlook)
+title: Explorer.BeforeViewSwitch event (Outlook)
 keywords: vbaol11.chm453
 f1_keywords:
 - vbaol11.chm453
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.BeforeViewSwitch
 ms.assetid: 5b7ac070-ba4d-6fa8-94e5-20370efe7343
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.BeforeViewSwitch Event (Outlook)
+# Explorer.BeforeViewSwitch event (Outlook)
 
 Occurs before the explorer changes to a new view, either as a result of user action or through program code. 
 
@@ -21,7 +20,7 @@ Occurs before the explorer changes to a new view, either as a result of user act
 
 _expression_. `BeforeViewSwitch`( `_NewView_` , `_Cancel_` )
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Parameters
@@ -31,7 +30,7 @@ _expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) obj
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _NewView_|Required| **Variant**|The name of the view the explorer is switching to.|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the switch is cancelled and the current view is not changed.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the switch is cancelled and the current view is not changed.|
 
 ## Remarks
 
@@ -40,7 +39,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example confirms that the user wants to switch views and cancels the switch if the user answers No. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Microsoft Visual Basic for Applications (VBA) example confirms that the user wants to switch views and cancels the switch if the user answers No. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

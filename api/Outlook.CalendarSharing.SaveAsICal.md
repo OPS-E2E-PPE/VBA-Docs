@@ -1,27 +1,26 @@
 ---
-title: CalendarSharing.SaveAsICal Method (Outlook)
+title: CalendarSharing.SaveAsICal method (Outlook)
 keywords: vbaol11.chm2411
 f1_keywords:
 - vbaol11.chm2411
-ms.prod: outlook
 api_name:
 - Outlook.CalendarSharing.SaveAsICal
 ms.assetid: 2314f751-77c5-9b95-05fb-c3075f512508
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarSharing.SaveAsICal Method (Outlook)
+# CalendarSharing.SaveAsICal method (Outlook)
 
-Exports calendar information from the parent  **[Folder](Outlook.Folder.md)** of the **[CalendarSharing](Outlook.CalendarSharing.md)** object as an iCalendar calendar (.ics) file.
+Exports calendar information from the parent **[Folder](Outlook.Folder.md)** of the **[CalendarSharing](Outlook.CalendarSharing.md)** object as an iCalendar calendar (.ics) file.
 
 
 ## Syntax
 
 _expression_. `SaveAsICal`( `_Path_` )
 
- _expression_ An expression that returns a [CalendarSharing](./Outlook.CalendarSharing.md) object.
+ _expression_ An expression that returns a [CalendarSharing](Outlook.CalendarSharing.md) object.
 
 
 ## Parameters
@@ -34,23 +33,23 @@ _expression_. `SaveAsICal`( `_Path_` )
 
 ## Remarks
 
-The level of detail provided in the iCalendar file is determined by a combination of values in the following  **CalendarSharing** properties:
+The level of detail provided in the iCalendar file is determined by a combination of values in the following **CalendarSharing** properties:
 
 
--  **[CalendarDetail](Outlook.CalendarSharing.CalendarDetail.md)**
+- **[CalendarDetail](Outlook.CalendarSharing.CalendarDetail.md)**
     
--  **[IncludeAttachments](Outlook.CalendarSharing.IncludeAttachments.md)**
+- **[IncludeAttachments](Outlook.CalendarSharing.IncludeAttachments.md)**
     
--  **[IncludePrivateDetails](Outlook.CalendarSharing.IncludePrivateDetails.md)**
+- **[IncludePrivateDetails](Outlook.CalendarSharing.IncludePrivateDetails.md)**
     
--  **[RestrictToWorkingHours](Outlook.CalendarSharing.RestrictToWorkingHours.md)**
+- **[RestrictToWorkingHours](Outlook.CalendarSharing.RestrictToWorkingHours.md)**
     
-You can set the  **[IncludeWholeCalendar](Outlook.CalendarSharing.IncludeWholeCalendar.md)** property to **True** to export all items contained in the folder, or you can set the **[StartDate](Outlook.CalendarSharing.StartDate.md)** and **[EndDate](Outlook.CalendarSharing.EndDate.md)** properties to limit the exported items to a date range between a specified start date and end date, respectively.
+You can set the **[IncludeWholeCalendar](Outlook.CalendarSharing.IncludeWholeCalendar.md)** property to **True** to export all items contained in the folder, or you can set the **[StartDate](Outlook.CalendarSharing.StartDate.md)** and **[EndDate](Outlook.CalendarSharing.EndDate.md)** properties to limit the exported items to a date range between a specified start date and end date, respectively.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates a  **CalendarSharing** object for the Calendar folder, then exports the contents of the entire folder (including attachments and private items) to an iCalendar calendar (.ics) file.
+The following Visual Basic for Applications (VBA) example creates a **CalendarSharing** object for the Calendar folder, then exports the contents of the entire folder (including attachments and private items) to an iCalendar calendar (.ics) file.
 
 
 ```vb

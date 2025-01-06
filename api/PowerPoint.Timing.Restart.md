@@ -1,27 +1,26 @@
 ---
-title: Timing.Restart Property (PowerPoint)
+title: Timing.Restart property (PowerPoint)
 keywords: vbapp10.chm653016
 f1_keywords:
 - vbapp10.chm653016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Timing.Restart
 ms.assetid: 0dd82d15-aa92-1de9-6406-957710c26fb6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Timing.Restart Property (PowerPoint)
+# Timing.Restart property (PowerPoint)
 
 Represents whether the animation effect restarts after the effect has started once. Read/write.
 
 
 ## Syntax
 
- _expression_. `Restart`
+_expression_. `Restart`
 
- _expression_ A variable that represents a [Timing](./PowerPoint.Timing.md) object.
+_expression_ A variable that represents a [Timing](PowerPoint.Timing.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoAnimEffectRestart
 
 ## Remarks
 
-The value of the  **Restart** property can be one of these **MsoAnimEffectRestart** constants. The default is **msoAnimEffectRestartNever**.
+The value of the **Restart** property can be one of these **MsoAnimEffectRestart** constants. The default is **msoAnimEffectRestartNever**.
 
 
 ||

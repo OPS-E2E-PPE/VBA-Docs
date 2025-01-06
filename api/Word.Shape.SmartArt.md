@@ -3,12 +3,11 @@ title: Shape.SmartArt property (Word)
 keywords: vbawd10.chm161480860
 f1_keywords:
 - vbawd10.chm161480860
-ms.prod: word
 api_name:
 - Word.Shape.SmartArt
 ms.assetid: d2f3fd89-288d-ac1e-18bb-00e2d043d4cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns a [SmartArt](Office.SmartArt.md) object that provides a way to work with
 
 ## Syntax
 
- _expression_. `SmartArt`
+_expression_.**SmartArt**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-The  **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the shape.
+The **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the shape.
 
 
 ## Example

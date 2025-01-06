@@ -3,12 +3,11 @@ title: CoAuthor.EmailAddress property (Word)
 keywords: vbawd10.chm81068037
 f1_keywords:
 - vbawd10.chm81068037
-ms.prod: word
 api_name:
 - Word.CoAuthor.EmailAddress
 ms.assetid: 48d33e56-78a3-172f-177e-3b250bbec130
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns a string that specifies the email address of the specified co author. Re
 
 ## Syntax
 
- _expression_. `EmailAddress`
+_expression_. `EmailAddress`
 
  _expression_ An expression that returns a '[CoAuthor](Word.CoAuthor.md)' object.
 

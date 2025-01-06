@@ -3,30 +3,29 @@ title: Document.MailMerge property (Word)
 keywords: vbawd10.chm158007323
 f1_keywords:
 - vbawd10.chm158007323
-ms.prod: word
 api_name:
 - Word.Document.MailMerge
 ms.assetid: 71c144ab-b1fb-c031-2e8d-54e9802fab5d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.MailMerge property (Word)
 
-Returns a  **[MailMerge](Word.MailMerge.md)** object that represents the mail merge functionality for the specified document. Read-only.
+Returns a **[MailMerge](Word.MailMerge.md)** object that represents the mail merge functionality for the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `MailMerge`
+_expression_. `MailMerge`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **MailMerge** object is available regardless of whether the specified document is a mail merge main document. Use the **State** property to determine the current state of the mail merge operation.
+The **MailMerge** object is available regardless of whether the specified document is a mail merge main document. Use the **State** property to determine the current state of the mail merge operation.
 
 
 ## Example

@@ -1,9 +1,8 @@
 ---
 title: ViewCtl.CollapseGroup Method (Outlook View Control)
-ms.prod: outlook
 ms.assetid: a6f2cad7-0d95-01ec-7ad2-dc7f70a5a244
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,9 +13,9 @@ Collapses (closes) the group that is currently selected in the control.
 
 ## Syntax
 
- _expression_. **CollapseGroup**
+_expression_.**CollapseGroup**
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

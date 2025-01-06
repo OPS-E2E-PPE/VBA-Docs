@@ -1,18 +1,17 @@
 ---
-title: Application.Startup Event (Outlook)
+title: Application.Startup event (Outlook)
 keywords: vbaol11.chm433
 f1_keywords:
 - vbaol11.chm433
-ms.prod: outlook
 api_name:
 - Outlook.Application.Startup
 ms.assetid: d4724d96-2572-b1e3-e202-0bfffb5cf7d5
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Application.Startup Event (Outlook)
+# Application.Startup event (Outlook)
 
 Occurs when Microsoft Outlook is starting, but after all add-in programs have been loaded. 
 
@@ -21,7 +20,7 @@ Occurs when Microsoft Outlook is starting, but after all add-in programs have be
 
 _expression_. `Startup`
 
-_expression_ A variable that represents an [Application](./Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Remarks

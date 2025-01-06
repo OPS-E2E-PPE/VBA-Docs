@@ -3,10 +3,9 @@ title: Enum statement (VBA)
 keywords: vblr6.chm1103514
 f1_keywords:
 - vblr6.chm1103514
-ms.prod: office
 ms.assetid: 22dbc78e-5ce7-f6ea-21dd-67d5db0d64d8
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,13 +15,11 @@ Declares a type for an enumeration.
 
 ## Syntax
 
-[ **Public** | **Private** ] **Enum**_name_ <br/>
-_membername_ [= _constantexpression_ ] <br/>
-_membername_ [= _constantexpression_ ] <br/>
-**. . .** <br/>
+[ **Public** | **Private** ] **Enum**_name_
+_membername_ [= _constantexpression_ ]
+_membername_ [= _constantexpression_ ]
+**. . .**
 **End Enum**
-
-<br/>
 
 The **Enum** statement has these parts:
 

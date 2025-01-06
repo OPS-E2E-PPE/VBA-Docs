@@ -3,12 +3,11 @@ title: ToggleButton.GridlineStyleTop property (Access)
 keywords: vbaac10.chm11785
 f1_keywords:
 - vbaac10.chm11785
-ms.prod: access
 api_name:
 - Access.ToggleButton.GridlineStyleTop
 ms.assetid: 119f981d-a6a5-c4d7-613b-cef36699a172
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

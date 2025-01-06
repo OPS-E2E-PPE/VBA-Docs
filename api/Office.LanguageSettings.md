@@ -3,12 +3,11 @@ title: LanguageSettings object (Office)
 keywords: vbaof11.chm231000
 f1_keywords:
 - vbaof11.chm231000
-ms.prod: office
 api_name:
 - Office.LanguageSettings
 ms.assetid: 936f7d61-87e5-e153-08d4-f8c5c8ef0710
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,16 +26,14 @@ Use **Application.LanguageSettings.LanguageID**(_MsoAppLanguageID_), where [MsoA
 The following example returns the install language, user interface language, and Help language LCIDs in a message box.
 
 ```vb
-MsgBox "The following locale IDs are registered " &amp; _ 
- "for this application: Install Language - " &amp; _ 
- Application.LanguageSettings.LanguageID(msoLanguageIDInstall) &amp; _ 
- " User Interface Language - " &amp; _ 
- Application.LanguageSettings.LanguageID(msoLanguageIDUI) &amp; _ 
- " Help Language - " &amp; _ 
+MsgBox "The following locale IDs are registered " & _ 
+ "for this application: Install Language - " & _ 
+ Application.LanguageSettings.LanguageID(msoLanguageIDInstall) & _ 
+ " User Interface Language - " & _ 
+ Application.LanguageSettings.LanguageID(msoLanguageIDUI) & _ 
+ " Help Language - " & _ 
  Application.LanguageSettings.LanguageID(msoLanguageIDHelp)
 ```
-
-<br/>
 
 Use **Application.LanguageSettings.LanguagePreferredForEditing** to determine which LCIDs are registered as preferred editing languages for the application, as in the following example.
 

@@ -1,15 +1,15 @@
 ---
-title: PjUnit Enumeration (Project)
-ms.prod: project-server
+title: PjUnit enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjUnit
 ms.assetid: 5b50960f-cc02-3d6f-b095-82deadd11295
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjUnit Enumeration (Project)
+# PjUnit enumeration (Project)
 
 Contains constants that specify a unit of time.
 

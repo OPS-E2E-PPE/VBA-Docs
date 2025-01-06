@@ -3,30 +3,29 @@ title: Borders.DistanceFromLeft property (Word)
 keywords: vbawd10.chm154927124
 f1_keywords:
 - vbawd10.chm154927124
-ms.prod: word
 api_name:
 - Word.Borders.DistanceFromLeft
 ms.assetid: 614f44d6-3214-ad4b-42e5-f42c09f180f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Borders.DistanceFromLeft property (Word)
 
-Returns or sets the space (in points) between the text and the left border. Read/write  **Long**.
+Returns or sets the space (in points) between the text and the left border. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `DistanceFromLeft`
+_expression_. `DistanceFromLeft`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks
 
-Using this property with a page border, you can set either the space between the text and the left page border or the space between the left edge of the page and the left page border. Where the distance is measured from depends on the value of the  **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
+Using this property with a page border, you can set either the space between the text and the left page border or the space between the left edge of the page and the left page border. Where the distance is measured from depends on the value of the **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
 
 
 ## Example

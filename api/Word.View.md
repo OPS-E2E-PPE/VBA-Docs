@@ -3,12 +3,11 @@ title: View object (Word)
 keywords: vbawd10.chm2469
 f1_keywords:
 - vbawd10.chm2469
-ms.prod: word
 api_name:
 - Word.View
 ms.assetid: 8bf5b26b-14c0-1985-65b2-3e034360baeb
 ms.date: 08/15/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Contains the view attributes (such as show all, field shading, and table gridlin
 
 ## Remarks
 
-Use the  **View** property to return the **View** object. The following example sets view options for the active window.
+Use the **View** property to return the **View** object. The following example sets view options for the active window.
 
 
 ```vb
@@ -30,7 +29,7 @@ With ActiveDocument.ActiveWindow.View
 End With
 ```
 
-Use the  **Type** property to change the view. The following example switches the active window to normal view.
+Use the **Type** property to change the view. The following example switches the active window to normal view.
 
 
 
@@ -39,7 +38,7 @@ Use the  **Type** property to change the view. The following example switches th
 ActiveDocument.ActiveWindow.View.Type = wdNormalView
 ```
 
-Use the  **Percentage** property to change the size of the text on-screen. The following example enlarges the on-screen text to 120 percent.
+Use the **Percentage** property to change the size of the text on-screen. The following example enlarges the on-screen text to 120 percent.
 
 
 
@@ -48,7 +47,7 @@ Use the  **Percentage** property to change the size of the text on-screen. The f
 ActiveDocument.ActiveWindow.View.Zoom.Percentage = 120
 ```
 
-Use the  **SeekView** property to view comments, endnotes, footnotes, or the document header or footer. The following example displays the current footer in the active window in print layout view.
+Use the **SeekView** property to view comments, endnotes, footnotes, or the document header or footer. The following example displays the current footer in the active window in print layout view.
 
 
 
@@ -71,8 +70,8 @@ End With
 |[CollapseOutline](Word.View.CollapseOutline.md)|
 |[ExpandAllHeadings](Word.view.expandallheadings.md)|
 |[ExpandOutline](Word.View.ExpandOutline.md)|
-|[ForceLowresUpdate](./overview/Word.md)|
-|[ForceOffscreenUpdate](./overview/Word.md)|
+|[ForceLowresUpdate](overview/Word.md)|
+|[ForceOffscreenUpdate](overview/Word.md)|
 |[NextHeaderFooter](Word.View.NextHeaderFooter.md)|
 |[PreviousHeaderFooter](Word.View.PreviousHeaderFooter.md)|
 |[ShowAllHeadings](Word.View.ShowAllHeadings.md)|
@@ -145,6 +144,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

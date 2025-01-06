@@ -1,20 +1,19 @@
 ---
-title: RuleAction Object (Outlook)
+title: RuleAction object (Outlook)
 keywords: vbaol11.chm3163
 f1_keywords:
 - vbaol11.chm3163
-ms.prod: outlook
 api_name:
 - Outlook.RuleAction
 ms.assetid: 6451788f-e5ed-239c-a34d-b564b52d8955
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RuleAction Object (Outlook)
+# RuleAction object (Outlook)
 
-Represents an action that is run when a  **[Rule](Outlook.Rule.md)** object executes.
+Represents an action that is run when a **[Rule](Outlook.Rule.md)** object executes.
 
 
 ## Remarks
@@ -22,17 +21,17 @@ Represents an action that is run when a  **[Rule](Outlook.Rule.md)** object exec
  **RuleAction** is the base class for rule actions that are supported in programmatic rule creation. The classes derived from **RuleAction** include:
 
 
--  **[AssignToCategoryRuleAction](Outlook.AssignToCategoryRuleAction.md)**
+- **[AssignToCategoryRuleAction](Outlook.AssignToCategoryRuleAction.md)**
     
--  **[MarkAsTaskRuleAction](Outlook.MarkAsTaskRuleAction.md)**
+- **[MarkAsTaskRuleAction](Outlook.MarkAsTaskRuleAction.md)**
     
--  **[MoveOrCopyRuleAction](Outlook.MoveOrCopyRuleAction.md)**
+- **[MoveOrCopyRuleAction](Outlook.MoveOrCopyRuleAction.md)**
     
--  **[NewItemAlertRuleAction](Outlook.NewItemAlertRuleAction.md)**
+- **[NewItemAlertRuleAction](Outlook.NewItemAlertRuleAction.md)**
     
--  **[PlaySoundRuleAction](Outlook.PlaySoundRuleAction.md)**
+- **[PlaySoundRuleAction](Outlook.PlaySoundRuleAction.md)**
     
--  **[SendRuleAction](Outlook.SendRuleAction.md)**
+- **[SendRuleAction](Outlook.SendRuleAction.md)**
     
 
 
@@ -57,6 +56,6 @@ For more information on rule actions, see [Specifying Rule Actions](../outlook/H
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

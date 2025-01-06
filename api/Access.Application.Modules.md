@@ -3,18 +3,17 @@ title: Application.Modules property (Access)
 keywords: vbaac10.chm12565
 f1_keywords:
 - vbaac10.chm12565
-ms.prod: access
 api_name:
 - Access.Application.Modules
 ms.assetid: eb99e25f-9a31-82cd-1b61-41c8a227b859
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.Modules property (Access)
 
-You can use the **Modules** property to access the **[Modules](Access.Modules.md)** collection and its related properties. Read-only **Modules** object.
+Use the **Modules** property to access the **[Modules](Access.Modules.md)** collection and its related properties. Read-only **Modules** object.
 
 
 ## Syntax

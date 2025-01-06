@@ -3,12 +3,11 @@ title: Envelope.DefaultFaceUp property (Word)
 keywords: vbawd10.chm152567828
 f1_keywords:
 - vbawd10.chm152567828
-ms.prod: word
 api_name:
 - Word.Envelope.DefaultFaceUp
 ms.assetid: ce745551-4385-420d-1790-464bf03da3d9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DefaultFaceUp`
+_expression_. `DefaultFaceUp`
 
- _expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
+_expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
 
 
 ## Example

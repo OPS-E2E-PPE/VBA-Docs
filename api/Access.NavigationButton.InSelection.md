@@ -3,18 +3,17 @@ title: NavigationButton.InSelection property (Access)
 keywords: vbaac10.chm10492
 f1_keywords:
 - vbaac10.chm10492
-ms.prod: access
 api_name:
 - Access.NavigationButton.InSelection
 ms.assetid: 7d548660-a6ff-50f3-7bb6-71f7b9fe343e
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

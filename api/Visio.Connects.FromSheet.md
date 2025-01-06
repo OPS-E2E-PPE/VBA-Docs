@@ -1,27 +1,26 @@
 ---
-title: Connects.FromSheet Property (Visio)
+title: Connects.FromSheet property (Visio)
 keywords: vis_sdr.chm10413590
 f1_keywords:
 - vis_sdr.chm10413590
-ms.prod: visio
 api_name:
 - Visio.Connects.FromSheet
 ms.assetid: c9fa472c-9f5f-ea4f-adbc-e8741dda1482
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Connects.FromSheet Property (Visio)
+# Connects.FromSheet property (Visio)
 
 Returns the shape from which a connection or connections originate. Read-only.
 
 
 ## Syntax
 
- _expression_. `FromSheet`
+_expression_.**FromSheet**
 
- _expression_ A variable that represents a [Connects](./Visio.Connects.md) object.
+_expression_ A variable that represents a **[Connects](Visio.Connects.md)** object.
 
 
 ## Return value
@@ -31,16 +30,16 @@ Shape
 
 ## Remarks
 
-The  **FromSheet** property for a **Connect** object is straightforward. It always returns the shape from which the **Connect** object originates.
+The **FromSheet** property for a **Connect** object is straightforward. It always returns the shape from which the **Connect** object originates.
 
-A  **Connects** collection represents several connections. If every connection represented by the collection originates from the same shape, the **FromSheet** property for the collection returns that shape. Otherwise, the **FromSheet** property returns **Nothing** and does not raise an exception.
+A **Connects** collection represents several connections. If every connection represented by the collection originates from the same shape, the **FromSheet** property for the collection returns that shape. Otherwise, the **FromSheet** property returns **Nothing** and does not raise an exception.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **FromSheet** property to find the shape a **Connect** object originates from in a Microsoft Visio drawing. The example displays the connection information in the Immediate window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **FromSheet** property to find the shape a **Connect** object originates from in a Microsoft Visio drawing. The example displays the connection information in the Immediate window.
 
-This example assumes there is an active document that contains at least two connected shapes. For best results, connect two shapes from the  **Organization Chart Shapes** stencil.
+This example assumes there is an active document that contains at least two connected shapes. For best results, connect two shapes from the **Organization Chart Shapes** stencil.
 
 
 

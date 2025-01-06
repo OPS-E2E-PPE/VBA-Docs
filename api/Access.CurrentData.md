@@ -3,12 +3,11 @@ title: CurrentData object (Access)
 keywords: vbaac10.chm12740
 f1_keywords:
 - vbaac10.chm12740
-ms.prod: access
 api_name:
 - Access.CurrentData
 ms.assetid: c8d3f74f-050d-e1be-9496-2f1e20996066
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -20,8 +19,6 @@ The **CurrentData** object refers to the objects stored in the current database 
 ## Remarks
 
 The **CurrentData** object has several collections that contain specific **[AccessObject](Access.AccessObject.md)** objects within the current database. The following table lists the name of each collection defined by the database and the types of objects it contains.
-
-<br/>
 
 |Collections|Object type|Available in Access database|Available in Access Project (.adp)|
 |:-----|:-----|:-----|:-----|
@@ -35,16 +32,14 @@ The **CurrentData** object has several collections that contain specific **[Acce
 > [!NOTE] 
 > The collections in the preceding table contain all of the respective objects in the database regardless if they are opened or closed.
 
-For example, an **AccessObject** representing a table is a member of the **AllTables** collection, which is a collection of **AccessObject** objects within the current database. Within the **AllTables** collection, individual tables are indexed beginning with zero. You can refer to an individual **AccessObject** object in the **AllTables** collection either by referring to the table by name, or by referring to its index within the collection. If you want to refer to a specific item in the **AllTables** collection, it's better to refer to it by name because the item's index may change. If the object name includes a space, the name must be surrounded by brackets ([ ]).
-
-<br/>
+For example, an **AccessObject** representing a table is a member of the **AllTables** collection, which is a collection of **AccessObject** objects within the current database. Within the **AllTables** collection, individual tables are indexed beginning with zero. Refer to an individual **AccessObject** object in the **AllTables** collection either by referring to the table by name, or by referring to its index within the collection. If you want to refer to a specific item in the **AllTables** collection, it's better to refer to it by name because the item's index may change. If the object name includes a space, the name must be surrounded by brackets ([ ]).
 
 |Syntax|Example|
 |:-----|:-----|
-|**AllTables** !_tablename_|AllTables!OrderTable|
-|**AllTables** ![_table name_]|AllTables![Order Table]|
-|**AllTables** ("_tablename_")|AllTables("OrderTable")|
-|**AllTables** (_index_)|AllTables(0)|
+|**AllTables**!_tablename_|AllTables!OrderTable|
+|**AllTables**![_table name_]|AllTables![Order Table]|
+|**AllTables**("_tablename_")|AllTables("OrderTable")|
+|**AllTables**(_index_)|AllTables(0)|
 
 ## Properties
 

@@ -3,12 +3,11 @@ title: BoundObjectFrame.GridlineStyleRight property (Access)
 keywords: vbaac10.chm11001
 f1_keywords:
 - vbaac10.chm11001
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.GridlineStyleRight
 ms.assetid: 498ba715-b84b-d5d9-51a1-5e085a67422b
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

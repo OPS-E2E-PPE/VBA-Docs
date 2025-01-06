@@ -1,27 +1,26 @@
 ---
-title: Application.MailMergeAfterRecordMerge Event (Word)
+title: Application.MailMergeAfterRecordMerge event (Word)
 keywords: vbawd10.chm4000017
 f1_keywords:
 - vbawd10.chm4000017
-ms.prod: word
 api_name:
 - Word.Application.MailMergeAfterRecordMerge
 ms.assetid: 6f483874-3999-815d-28b3-69fef89ed2be
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.MailMergeAfterRecordMerge Event (Word)
+# Application.MailMergeAfterRecordMerge event (Word)
 
 Occurs after each record in the data source successfully merges in a mail merge.
 
 
 ## Syntax
 
- _expression_. `Private Sub object_MailMergeAfterRecordMerge`( `_ByVal Doc As Document_` )
+_expression_.**MailMergeAfterRecordMerge** (_Doc_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Parameters

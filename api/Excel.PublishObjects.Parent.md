@@ -3,12 +3,11 @@ title: PublishObjects.Parent property (Excel)
 keywords: vbaxl10.chm649075
 f1_keywords:
 - vbaxl10.chm649075
-ms.prod: excel
 api_name:
 - Excel.PublishObjects.Parent
 ms.assetid: 9018477d-ef54-fc1b-fd99-2457830a86d5
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/09/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [PublishObjects](Excel.PublishObjects.md) object.
+_expression_ A variable that represents a **[PublishObjects](Excel.PublishObjects.md)** object.
 
 
-## See also
 
-
-[PublishObjects Object](Excel.PublishObjects.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

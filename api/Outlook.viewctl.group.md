@@ -1,15 +1,14 @@
 ---
 title: ViewCtl.GroupBy Method (Outlook View Control)
-ms.prod: outlook
 ms.assetid: 19daa0ac-f8b0-4c08-a8fd-d2f63797818f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ViewCtl.GroupBy Method (Outlook View Control)
 
-Displays the Microsoft Outlook  **Group By** dialog box.
+Displays the Microsoft Outlook **Group By** dialog box.
 
 
 ## Version Information
@@ -19,9 +18,9 @@ Displays the Microsoft Outlook  **Group By** dialog box.
 
 ## Syntax
 
- _expression_. **GroupBy**
+_expression_.**GroupBy**
 
- _expression_ A variable that represents a **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

@@ -1,24 +1,24 @@
 ---
-title: ChildDrivers.Item Property (Project)
-ms.prod: project-server
+title: ChildDrivers.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.ChildDrivers.Item
 ms.assetid: dd79c6c2-feef-a1fe-c91f-9b354832150c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChildDrivers.Item Property (Project)
+# ChildDrivers.Item property (Project)
 
-Gets a single  **Task** object from the **ChildDrivers** collection. Read-only **Task**.
+Gets a single **Task** object from the **ChildDrivers** collection. Read-only **Task**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'ChildDrivers' object.
+_expression_ A variable that represents a 'ChildDrivers' object.
 
 
 ## Parameters

@@ -1,24 +1,24 @@
 ---
-title: Months.Item Property (Project)
-ms.prod: project-server
+title: Months.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Months.Item
 ms.assetid: 1045ef3e-7d08-0390-008c-36c7b5b5a2ce
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Months.Item Property (Project)
+# Months.Item property (Project)
 
-Gets a single  **Month** object from the **Months** collection. Read-only **Month**.
+Gets a single **Month** object from the **Months** collection. Read-only **Month**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Months' object.
+_expression_ A variable that represents a 'Months' object.
 
 
 ## Parameters

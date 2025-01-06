@@ -3,12 +3,11 @@ title: FormatCondition.Parent property (Excel)
 keywords: vbaxl10.chm511075
 f1_keywords:
 - vbaxl10.chm511075
-ms.prod: excel
 api_name:
 - Excel.FormatCondition.Parent
 ms.assetid: 06618d2d-3ba9-9701-96f5-1927b8c7b5b1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/26/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [FormatCondition](Excel.FormatCondition.md) object.
+_expression_ A variable that represents a **[FormatCondition](Excel.FormatCondition.md)** object.
 
 
-## See also
 
-
-[FormatCondition Object](Excel.FormatCondition.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

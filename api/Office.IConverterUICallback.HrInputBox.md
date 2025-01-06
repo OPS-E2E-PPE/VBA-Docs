@@ -3,18 +3,17 @@ title: IConverterUICallback.HrInputBox method (Office)
 keywords: vbaof11.chm332003
 f1_keywords:
 - vbaof11.chm332003
-ms.prod: office
 api_name:
 - Office.IConverterUICallback.HrInputBox
 ms.assetid: 5767b5cc-98f4-3855-796d-dfc4ccc77f9a
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterUICallback.HrInputBox method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

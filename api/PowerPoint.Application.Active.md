@@ -1,39 +1,33 @@
 ---
-title: Application.Active Property (PowerPoint)
+title: Application.Active property (PowerPoint)
 keywords: vbapp10.chm502033
 f1_keywords:
 - vbapp10.chm502033
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.Active
 ms.assetid: 94eb9039-ac4a-b8e0-dc66-c508521e3604
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Active Property (PowerPoint)
+# Application.Active property (PowerPoint)
 
 Returns whether the specified pane or window is active. Read-only.
 
-
 ## Syntax
 
- _expression_. `Active`
+_expression_.**Active**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 ## Return value
 
 MsoTriState
 
-
 ## Remarks
 
-The value returned by the  **Active** property can be one of these **MsoTriState** constants.
-
-
+The value returned by the **Active** property can be one of these **MsoTriState** constants.
 
 |Constant|Description|
 |:-----|:-----|
@@ -42,8 +36,7 @@ The value returned by the  **Active** property can be one of these **MsoTriState
 
 ## Example
 
-This example checks to see if the presentation file  _"test.ppt"_ is in the active window. If not, it saves the name of the presentation that is currently active in the variable `oldWin` and activates the _"test.ppt"_ presentation.
-
+This example checks to see if the presentation file _"test.ppt"_ is in the active window. If not, it saves the name of the presentation that is currently active in the variable `oldWin` and activates the _"test.ppt"_ presentation.
 
 ```vb
 With Application.Presentations("test.ppt").Windows(1)
@@ -59,9 +52,7 @@ With Application.Presentations("test.ppt").Windows(1)
 End With
 ```
 
-
 ## See also
-
 
 [Application Object](PowerPoint.Application.md)
 

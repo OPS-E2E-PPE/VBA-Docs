@@ -3,18 +3,17 @@ title: Application.CurrentData property (Access)
 keywords: vbaac10.chm12577
 f1_keywords:
 - vbaac10.chm12577
-ms.prod: access
 api_name:
 - Access.Application.CurrentData
 ms.assetid: 47ddbd6e-cf91-1ccf-e53c-ee999e94d002
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CurrentData property (Access)
 
-You can use the **CurrentData** property to access the **[CurrentData](Access.CurrentData.md)** object and its related collections. Read-only **CurrentData** object.
+Use the **CurrentData** property to access the **[CurrentData](Access.CurrentData.md)** object and its related collections. Read-only **CurrentData** object.
 
 
 ## Syntax

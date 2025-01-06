@@ -1,27 +1,26 @@
 ---
-title: Layer.Page Property (Visio)
+title: Layer.Page property (Visio)
 keywords: vis_sdr.chm11813980
 f1_keywords:
 - vis_sdr.chm11813980
-ms.prod: visio
 api_name:
 - Visio.Layer.Page
 ms.assetid: 7b49a510-e080-55cc-c793-24519cddb077
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Layer.Page Property (Visio)
+# Layer.Page property (Visio)
 
 Gets the page that contains the layer. Read-only.
 
 
 ## Syntax
 
- _expression_. `Page`
+_expression_. `Page`
 
- _expression_ A variable that represents a [Layer](./Visio.Layer.md) object.
+_expression_ A variable that represents a **[Layer](Visio.Layer.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Page
 
 ## Remarks
 
-If the  **Layer** object is in a master rather than in a page, the **Page** property returns **Nothing**. You cannot set the **Page** property of a **Layer** object.
+If the **Layer** object is in a master rather than in a page, the **Page** property returns **Nothing**. You cannot set the **Page** property of a **Layer** object.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Page** property to return a **Page** object from various other objects.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Page** property to return a **Page** object from various other objects.
 
 
 ```vb

@@ -3,32 +3,31 @@ title: Document.DisableFeaturesIntroducedAfter property (Word)
 keywords: vbawd10.chm158007639
 f1_keywords:
 - vbawd10.chm158007639
-ms.prod: word
 api_name:
 - Word.Document.DisableFeaturesIntroducedAfter
 ms.assetid: 5714062c-ffca-8feb-6b25-52f71568ae12
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.DisableFeaturesIntroducedAfter property (Word)
 
-Disables all features introduced after a specified version of Microsoft Word in the document only. Read/write  **WdDisableFeaturesIntroducedAfter**.
+Disables all features introduced after a specified version of Microsoft Word in the document only. Read/write **WdDisableFeaturesIntroducedAfter**.
 
 
 ## Syntax
 
- _expression_. `DisableFeaturesIntroducedAfter`
+_expression_. `DisableFeaturesIntroducedAfter`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **DisableFeatures** property must be set to **True** prior to setting the **DisableFeaturesIntroducedAfter** property. Otherwise, the setting will not take effect and will remain at its default setting of Word 97 for Windows.
+The **DisableFeatures** property must be set to **True** prior to setting the **DisableFeaturesIntroducedAfter** property. Otherwise, the setting will not take effect and will remain at its default setting of Word 97 for Windows.
 
-The  **DisableFeaturesIntroducedAfter** property only affects the document for which the property is set. If you want to set a global option for the application to disable features for all documents, use the **DisableFeaturesIntroducedAfterByDefault** property.
+The **DisableFeaturesIntroducedAfter** property only affects the document for which the property is set. If you want to set a global option for the application to disable features for all documents, use the **DisableFeaturesIntroducedAfterByDefault** property.
 
 
 ## Example

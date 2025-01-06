@@ -1,27 +1,26 @@
 ---
-title: ConnectorFormat.BeginConnectedShape Property (PowerPoint)
+title: ConnectorFormat.BeginConnectedShape property (PowerPoint)
 keywords: vbapp10.chm555007
 f1_keywords:
 - vbapp10.chm555007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ConnectorFormat.BeginConnectedShape
 ms.assetid: 7456899e-3f1c-3af8-e942-a6de1abeeca3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConnectorFormat.BeginConnectedShape Property (PowerPoint)
+# ConnectorFormat.BeginConnectedShape property (PowerPoint)
 
-Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the shape that the beginning of the specified connector is attached to. Read-only.
+Returns a **[Shape](PowerPoint.Shape.md)** object that represents the shape that the beginning of the specified connector is attached to. Read-only.
 
 
 ## Syntax
 
- _expression_. `BeginConnectedShape`
+_expression_. `BeginConnectedShape`
 
-_expression_ A variable that represents a [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
+_expression_ A variable that represents a [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
 ## Return value

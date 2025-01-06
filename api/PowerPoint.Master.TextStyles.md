@@ -1,27 +1,26 @@
 ---
-title: Master.TextStyles Property (PowerPoint)
+title: Master.TextStyles property (PowerPoint)
 keywords: vbapp10.chm533011
 f1_keywords:
 - vbapp10.chm533011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Master.TextStyles
 ms.assetid: 713b6f60-5c20-6ddf-9660-4f5f2d27546d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.TextStyles Property (PowerPoint)
+# Master.TextStyles property (PowerPoint)
 
-Returns a  **[TextStyles](PowerPoint.TextStyles.md)** collection that represents three text styles — title text, body text, and default text — for the specified slide master. Read-only.
+Returns a **[TextStyles](PowerPoint.TextStyles.md)** collection that represents three text styles — title text, body text, and default text — for the specified slide master. Read-only.
 
 
 ## Syntax
 
- _expression_. `TextStyles`
+_expression_. `TextStyles`
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ TextStyles
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../powerpoint/How-to/return-objects-from-collections.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../powerpoint/How-to/return-objects-from-collections.md).
 
 
 ## Example

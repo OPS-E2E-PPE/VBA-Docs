@@ -1,20 +1,19 @@
 ---
-title: AppointmentItem.RTFBody Property (Outlook)
+title: AppointmentItem.RTFBody property (Outlook)
 keywords: vbaol11.chm3524
 f1_keywords:
 - vbaol11.chm3524
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.RTFBody
 ms.assetid: 12af0270-e9bc-88ce-1d36-eafadf698406
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.RTFBody Property (Outlook)
+# AppointmentItem.RTFBody property (Outlook)
 
-Returns or sets a  **Byte** array that represents the body of the Microsoft Outlook item in Rich Text Format. Read/write.
+Returns or sets a **Byte** array that represents the body of the Microsoft Outlook item in Rich Text Format. Read/write.
 
 
 ## Syntax
@@ -26,12 +25,12 @@ _expression_ A variable that represents an '[AppointmentItem](Outlook.Appointmen
 
 ## Remarks
 
-You can use the  **StrConv** function in Microsoft Visual Basic for Applications (VBA), or the **System.Text.Encoding.AsciiEncoding.GetString()** method in C# or Visual Basic to convert an array of bytes to a string.
+Use the **StrConv** function in Microsoft Visual Basic for Applications (VBA), or the **System.Text.Encoding.AsciiEncoding.GetString()** method in C# or Visual Basic to convert an array of bytes to a string.
 
 
 ## Example
 
-The following code samples in Microsoft Visual Basic for Applications (VBA) and C# displays the Rich Text Format body of the appointment in the active inspector. An  **AppointmentItem** must be the active inspector for this code to work.
+The following code samples in Microsoft Visual Basic for Applications (VBA) and C# displays the Rich Text Format body of the appointment in the active inspector. An **AppointmentItem** must be the active inspector for this code to work.
 
 
 ```vb

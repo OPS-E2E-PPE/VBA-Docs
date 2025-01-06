@@ -1,27 +1,27 @@
 ---
-title: Application.FontStrikethrough Method (Project)
+title: Application.FontStrikethrough method (Project)
 keywords: vbapj.chm2294
 f1_keywords:
 - vbapj.chm2294
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FontStrikethrough
 ms.assetid: e8689bfe-1c74-5582-8bf1-97b089207321
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FontStrikethrough Method (Project)
+# Application.FontStrikethrough method (Project)
 
 Applies or removes strikethrough formatting from the selected text.
 
 
 ## Syntax
 
- _expression_. `FontStrikethrough`( `_Set_` )
+_expression_. `FontStrikethrough`( `_Set_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

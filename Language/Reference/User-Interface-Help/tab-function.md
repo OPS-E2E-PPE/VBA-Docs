@@ -3,10 +3,9 @@ title: Tab function (Visual Basic for Applications)
 keywords: vblr6.chm1009039
 f1_keywords:
 - vblr6.chm1009039
-ms.prod: office
 ms.assetid: 609036b5-08c8-fb5c-4959-3e1a4e108f8d
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,8 +47,6 @@ Print #1, "Hello"; Tab; "World"
 Close #1    ' Close file.
 
 ```
-
-<br/>
 
 The **Tab** function can also be used with the **Print** method. The following statement prints text starting at column 10.
 

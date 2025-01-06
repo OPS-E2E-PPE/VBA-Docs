@@ -1,21 +1,21 @@
 ---
-title: VisUIBarRow Enumeration (Visio)
+title: VisUIBarRow enumeration (Visio)
 keywords: vis_sdr.chm70301
 f1_keywords:
 - vis_sdr.chm70301
-ms.prod: visio
 ms.assetid: dfd3a026-e18f-cfd0-fada-e1c9ac0676f3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisUIBarRow Enumeration (Visio)
+# VisUIBarRow enumeration (Visio)
 
-Values passed to and returned by the  **MenuSet.RowIndex** and **Toolbar.RowIndex** properties.
+Values passed to and returned by the **MenuSet.RowIndex** and **Toolbar.RowIndex** properties.
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 

@@ -3,12 +3,11 @@ title: SharedWorkspaceMember.DomainName property (Office)
 keywords: vbaof11.chm272001
 f1_keywords:
 - vbaof11.chm272001
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMember.DomainName
 ms.assetid: 2cbbea6f-7b2c-9ddc-7a37-2e2b6be10405
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,7 +38,7 @@ The following example extracts the domain name from the **DomainName** property 
  strDomain = UCase(Left(swsMember.DomainName, _ 
  InStr(swsMember.DomainName, "\") - 1)) 
  If strDomain = "MYCOMPANY" Then 
- strMemberList = strMemberList &amp; swsMember.Name &amp; vbCrLf 
+ strMemberList = strMemberList & swsMember.Name & vbCrLf 
  End If 
  Next 
  MsgBox strMemberList, vbInformation + vbOKOnly, _ 

@@ -3,23 +3,22 @@ title: ListLevel.NumberPosition property (Word)
 keywords: vbawd10.chm160235525
 f1_keywords:
 - vbawd10.chm160235525
-ms.prod: word
 api_name:
 - Word.ListLevel.NumberPosition
 ms.assetid: 444df40d-4165-54b9-3456-ca4dfbdb8053
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListLevel.NumberPosition property (Word)
 
-Returns or sets the position (in points) of the number or bullet for the specified  **ListLevel** object. Read/write **Single**.
+Returns or sets the position (in points) of the number or bullet for the specified **ListLevel** object. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `NumberPosition`
+_expression_. `NumberPosition`
 
  _expression_ An expression that returns a '[ListLevel](Word.ListLevel.md)' object.
 

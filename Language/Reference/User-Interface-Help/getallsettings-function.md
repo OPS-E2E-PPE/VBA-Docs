@@ -3,10 +3,9 @@ title: GetAllSettings function (Visual Basic for Applications)
 keywords: vblr6.chm1020903
 f1_keywords:
 - vblr6.chm1020903
-ms.prod: office
 ms.assetid: f87675b2-d14e-593d-94ab-259ab8da094d
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a list of key settings and their respective values (originally created w
 ## Syntax
 
 **GetAllSettings**(_appname_, _section_)
-
-<br/>
 
 The **GetAllSettings** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

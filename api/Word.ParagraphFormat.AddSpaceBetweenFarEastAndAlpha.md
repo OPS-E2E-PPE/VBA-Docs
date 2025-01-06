@@ -3,12 +3,11 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property (Word)
 keywords: vbawd10.chm156434553
 f1_keywords:
 - vbawd10.chm156434553
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 ms.assetid: 3575dab1-4a59-b20e-46e2-971389a3ec95
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AddSpaceBetweenFarEastAndAlpha`
+_expression_. `AddSpaceBetweenFarEastAndAlpha`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

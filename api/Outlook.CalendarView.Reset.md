@@ -1,18 +1,17 @@
 ---
-title: CalendarView.Reset Method (Outlook)
+title: CalendarView.Reset method (Outlook)
 keywords: vbaol11.chm2614
 f1_keywords:
 - vbaol11.chm2614
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.Reset
 ms.assetid: 222b2537-4d70-6a12-97f2-5034a262655b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.Reset Method (Outlook)
+# CalendarView.Reset method (Outlook)
 
 Resets a built-in Microsoft Outlook view to its original settings.
 
@@ -21,7 +20,7 @@ Resets a built-in Microsoft Outlook view to its original settings.
 
 _expression_. `Reset`
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This method works only on built-in Outlook views.
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example resets all built-in views in the user's  **Inbox** default folder to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
+The following Visual Basic for Applications (VBA) example resets all built-in views in the user's **Inbox** default folder to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
 
 
 ```vb

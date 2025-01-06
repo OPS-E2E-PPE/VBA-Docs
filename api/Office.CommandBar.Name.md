@@ -3,12 +3,11 @@ title: CommandBar.Name property (Office)
 keywords: vbaof11.chm3010
 f1_keywords:
 - vbaof11.chm3010
-ms.prod: office
 api_name:
 - Office.CommandBar.Name
 ms.assetid: 4d578782-b59d-3dd7-be99-b9d79f8f3eaa
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

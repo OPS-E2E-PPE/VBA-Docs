@@ -1,24 +1,24 @@
 ---
-title: Window.Width Property (Project)
-ms.prod: project-server
+title: Window.Width property (Project)
+ms.service: project-server
 api_name:
 - Project.Window.Width
 ms.assetid: 17623ed8-1d96-1b43-56f0-119e7a7b51d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.Width Property (Project)
+# Window.Width property (Project)
 
-Gets or sets the width in points of the window. Read/write  **Long**.
+Gets or sets the width in points of the window. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a [Window](./Project.Window.md) object.
+_expression_ A variable that represents a [Window](./Project.Window.md) object.
 
 
 ## Remarks

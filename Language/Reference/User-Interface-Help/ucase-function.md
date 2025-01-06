@@ -3,10 +3,9 @@ title: UCase function (Visual Basic for Applications)
 keywords: vblr6.chm1009051
 f1_keywords:
 - vblr6.chm1009051
-ms.prod: office
 ms.assetid: 444bd68b-a2bf-11b2-e6b7-76edf9b03ecd
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: IBlogExtensibility.GetCategories method (Office)
 keywords: vbaof11.chm328008
 f1_keywords:
 - vbaof11.chm328008
-ms.prod: office
 api_name:
 - Office.IBlogExtensibility.GetCategories
 ms.assetid: f263594c-db27-86bd-8597-35a3148a5ea7
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,13 +15,11 @@ localization_priority: Normal
 
 This method returns the list of blog categories for an account so that Microsoft Word can populate the categories drop-down list.
 
-
 ## Syntax
 
 _expression_.**GetCategories** (_Account_, _ParentWindow_, _Document_, _userName_, _Password_, _Categories()_)
 
 _expression_ An expression that returns an **[IBlogExtensibility](Office.IBlogExtensibility.md)** object.
-
 
 ## Parameters
 
@@ -38,7 +35,6 @@ _expression_ An expression that returns an **[IBlogExtensibility](Office.IBlogEx
 ## Remarks
 
 Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.
-
 
 ## See also
 

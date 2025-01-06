@@ -1,17 +1,16 @@
 ---
 title: TextRange2.BoundLeft property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.BoundLeft
 ms.assetid: 8af6b9b9-4ecf-c127-87db-b87cabe9184b
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextRange2.BoundLeft property (Office)
 
-Gets the left coordinate, in points, of the text bounding box for the specified text. Read-only.
+Gets the left coordinate, in [points](../language/glossary/vbe-glossary.md#point), of the text bounding box for the specified text. Read-only.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: Options.ConfirmConversions property (Word)
 keywords: vbawd10.chm162988054
 f1_keywords:
 - vbawd10.chm162988054
-ms.prod: word
 api_name:
 - Word.Options.ConfirmConversions
 ms.assetid: 4bdea504-e8c7-193c-c671-1a8ec84d93ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ConfirmConversions`
+_expression_. `ConfirmConversions`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example
 
-This example sets Word to display the  **Convert File** dialog box whenever a file that isn't a Word document or template is opened.
+This example sets Word to display the **Convert File** dialog box whenever a file that isn't a Word document or template is opened.
 
 
 ```vb
 Options.ConfirmConversions = True
 ```
 
-This example returns the current status of the  **Confirm conversion at Open** option on the **General** tab in the **Options** dialog box.
+This example returns the current status of the **Confirm conversion at Open** option on the **General** tab in the **Options** dialog box.
 
 
 

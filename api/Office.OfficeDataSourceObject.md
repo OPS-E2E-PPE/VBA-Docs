@@ -3,12 +3,11 @@ title: OfficeDataSourceObject object (Office)
 keywords: vbaof11.chm232000
 f1_keywords:
 - vbaof11.chm232000
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject
 ms.assetid: d5e5401b-643e-c12c-2648-f281af481f45
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,7 +31,7 @@ Sub SetDataSortOrder()
  Dim appOffice As OfficeDataSourceObject 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  appOffice.SetSortOrder SortField1:="ZipCode", _ 
@@ -41,16 +40,14 @@ Sub SetDataSortOrder()
 End Sub
 ```
 
-<br/>
-
-Use the **[Column](office.odsofilter.column.md)**, **[Comparison](office.odsofilter.comparison.md)**, **[CompareTo](office.odsofilter.compareto.md)**, and **[Conjunction](office.odsofilter.conjunction.md)** properties to return or set the data source query criterion. The following example changes an existing filter to remove from the mail merge all records that do not have a **Region** field equal to "WA".
+Use the **[Column](office.odsofilter.column.md)**, **[Comparison](office.odsofilter.comparison.md)**, **[CompareTo](office.odsofilter.compareto.md)**, and **[Conjunction](office.odsofilter.conjunction.md)** properties to return or set the data source query criterion. The following example changes an existing filter to remove from the mail merge all records that don't have a **Region** field equal to "WA".
 
 ```vb
 Sub SetQueryCriterion() 
  Dim appOffice As Office.OfficeDataSourceObject 
  Dim intItem As Integer 
  
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  With appOffice.Filters 

@@ -3,12 +3,11 @@ title: ShapeNodes.SetPosition method (Word)
 keywords: vbawd10.chm164495374
 f1_keywords:
 - vbawd10.chm164495374
-ms.prod: word
 api_name:
 - Word.ShapeNodes.SetPosition
 ms.assetid: 0675ff22-1717-5fc6-2c07-c7ac53196c88
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the location of the node specified by Index.
 
 ## Syntax
 
- _expression_. `SetPosition`( `_Index_` , `_X1_` , `_Y1_` )
+_expression_. `SetPosition`( `_Index_` , `_X1_` , `_Y1_` )
 
- _expression_ Required. A variable that represents a '[ShapeNodes](Word.shapenodes.md)' collection.
+_expression_ Required. A variable that represents a **[ShapeNodes](Word.shapenodes.md)** collection.
 
 
 ## Parameters

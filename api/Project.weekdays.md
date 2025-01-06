@@ -1,15 +1,15 @@
 ---
-title: WeekDays Object (Project)
-ms.prod: project-server
+title: WeekDays object (Project)
+ms.service: project-server
 ms.assetid: 757437a0-e2ff-0027-f044-87d1cb357f62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WeekDays Object (Project)
+# WeekDays object (Project)
 
-Contains a collection of  **[Weekday](Project.WeekDay.md)** objects.
+Contains a collection of **[Weekday](Project.WeekDay.md)** objects.
  
 
 
@@ -19,7 +19,7 @@ Contains a collection of  **[Weekday](Project.WeekDay.md)** objects.
  
 
  
-Use  **Weekdays** (*Index* ), where*Index* is the weekday index number, three-letter abbreviation of the day name, or **PjWeekday** constant, to return a single **Weekday** object. The following example sets Friday (the sixth day of a week starting on Sunday) as a half-day by setting the start and finish times for the first shift and clearing the values of the second and third shifts.
+Use **Weekdays** (*Index* ), where*Index* is the weekday index number, three-letter abbreviation of the day name, or **PjWeekday** constant, to return a single **Weekday** object. The following example sets Friday (the sixth day of a week starting on Sunday) as a half-day by setting the start and finish times for the first shift and clearing the values of the second and third shifts.
  
 
  
@@ -55,7 +55,7 @@ With ActiveProject.Calendar.WeekDays(pjFriday)
  
 
  
-Use the  **[Weekdays](Project.Calendar.WeekDays.md)** property to return a **Weekdays** collection.
+Use the **[Weekdays](Project.Calendar.WeekDays.md)** property to return a **Weekdays** collection.
  
 
  

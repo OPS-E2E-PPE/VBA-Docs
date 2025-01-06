@@ -3,12 +3,11 @@ title: Selection.RtlRun method (Word)
 keywords: vbawd10.chm158663256
 f1_keywords:
 - vbawd10.chm158663256
-ms.prod: word
 api_name:
 - Word.Selection.RtlRun
 ms.assetid: 759a16cd-24d7-7c0a-6315-47d395560c73
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ Sets the reading order and alignment of the specified run to right-to-left.
 
 ## Syntax
 
- _expression_. `RtlRun`
+_expression_. `RtlRun`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
 For the specified run, this method sets the reading order to right-to-left. If a paragraph in the run with a left-to-right reading order is also left-aligned, this method reverses its reading order and sets its paragraph alignment to right-aligned.
 
-Use the  **ReadingOrder** property to change the reading order without affecting paragraph alignment.
+Use the **ReadingOrder** property to change the reading order without affecting paragraph alignment.
 
 
 ## Example

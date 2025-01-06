@@ -3,25 +3,24 @@ title: CubeField.PivotFields property (Excel)
 keywords: vbaxl10.chm668088
 f1_keywords:
 - vbaxl10.chm668088
-ms.prod: excel
 api_name:
 - Excel.CubeField.PivotFields
 ms.assetid: d3da6064-a4b2-7075-cc3e-033896f5b4a9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
 # CubeField.PivotFields property (Excel)
 
-Returns the  **[PivotFields](Excel.PivotFields.md)** collection. This collection contains all PivotTable fields, including those that aren't currently visible on-screen. Read-only **PivotFields** object.
+Returns the **[PivotFields](Excel.PivotFields.md)** collection. This collection contains all PivotTable fields, including those that aren't currently visible on-screen. Read-only **PivotFields** object.
 
 
 ## Syntax
 
-_expression_. `PivotFields`
+_expression_.**PivotFields**
 
- _expression_ An expression that returns a [CubeField](Excel.CubeField.md) object.
+_expression_ An expression that returns a **[CubeField](Excel.CubeField.md)** object.
 
 
 ## Return value
@@ -38,7 +37,6 @@ For Online Analytical Processing (OLAP) data sources, there are no hidden fields
 
 This example creates a list of all the PivotTable field names used in the first PivotChart report.
 
-
 ```vb
 Set objNewSheet = Worksheets.Add 
 objNewSheet.Activate 
@@ -51,9 +49,5 @@ Next objPF
 ```
 
 
-## See also
-
-
-[CubeField Object](Excel.CubeField.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

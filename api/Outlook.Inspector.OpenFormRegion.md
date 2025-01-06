@@ -1,18 +1,17 @@
 ---
-title: Inspector.OpenFormRegion Method (Outlook)
+title: Inspector.OpenFormRegion method (Outlook)
 keywords: vbaol11.chm2982
 f1_keywords:
 - vbaol11.chm2982
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.OpenFormRegion
 ms.assetid: c574d034-6c8e-388b-f93f-cf899db24ae6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.OpenFormRegion Method (Outlook)
+# Inspector.OpenFormRegion method (Outlook)
 
 Opens a page in design mode in the inspector for the specified form region.
 
@@ -21,7 +20,7 @@ Opens a page in design mode in the inspector for the specified form region.
 
 _expression_. `OpenFormRegion`( `_Path_` )
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) o
 
 ## Return value
 
-An  **Object** that represents the page displaying the form region in the inspector.
+An **Object** that represents the page displaying the form region in the inspector.
 
 
 ## Remarks
 
-If the inspector is not already in design mode,  **OpenFormRegion** will put it in design mode.
+If the inspector is not already in design mode, **OpenFormRegion** will put it in design mode.
 
 
 ## See also

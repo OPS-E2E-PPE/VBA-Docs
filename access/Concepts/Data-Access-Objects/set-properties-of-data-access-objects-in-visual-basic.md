@@ -3,10 +3,9 @@ title: Set properties of Data Access Objects in Visual Basic
 keywords: vbaac10.chm5188066
 f1_keywords:
 - vbaac10.chm5188066
-ms.prod: access
 ms.assetid: 8942307f-950d-f39d-cab2-ba4fa387b438
 ms.date: 09/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,6 @@ Most of the properties you can set for DAO objects are DAO properties. These pro
 
 To set a property that's defined by the Access database engine, refer to the object in the DAO hierarchy. The easiest and fastest way to do this is to create object variables that represent the different objects you need to work with, and refer to the object variables in subsequent steps in your code. For example, the following code creates a new **TableDef** object and sets its **Name** property:
 
-
 ```vb
 Dim dbs As DAO.Database 
 Dim tdf As DAO.TableDef 
@@ -30,7 +28,6 @@ Set dbs = CurrentDb
 Set tdf = dbs.CreateTableDef 
 tdf.Name = "Contacts"
 ```
-
 
 ## Set Microsoft Access properties for DAO objects
 
@@ -47,8 +44,6 @@ Keep in mind that when you create the property, you must correctly specify its *
 |A string|**dbText**|
 |**True** / **False**|**dbBoolean**|
 |An integer|**dbInteger**|
-
-<br/>
 
 The following table lists some Microsoft Access-defined properties that apply to DAO objects.
 

@@ -3,10 +3,9 @@ title: Or operator
 keywords: vblr6.chm1008993
 f1_keywords:
 - vblr6.chm1008993
-ms.prod: office
 ms.assetid: 3b0e4886-2f84-1296-9428-69338d033c6c
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,8 +40,6 @@ If either or both expressions evaluate to **True**, _result_ is **True**. The fo
 |**Null**|**True**|**True**|
 |**Null**|**False**|**Null**|
 |**Null**|**Null**|**Null**|
-
-<br/>
 
 The **Or** operator also performs a [bitwise comparison](../../Glossary/vbe-glossary.md#bitwise-comparison) of identically positioned bits in two [numeric expressions](../../Glossary/vbe-glossary.md#numeric-expression) and sets the corresponding bit in _result_ according to the following table.
 

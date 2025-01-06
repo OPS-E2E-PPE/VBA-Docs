@@ -1,18 +1,17 @@
 ---
-title: Reminder.Snooze Method (Outlook)
+title: Reminder.Snooze method (Outlook)
 keywords: vbaol11.chm559
 f1_keywords:
 - vbaol11.chm559
-ms.prod: outlook
 api_name:
 - Outlook.Reminder.Snooze
 ms.assetid: bb417d32-d69b-7f9d-4ca3-b85888421e7b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reminder.Snooze Method (Outlook)
+# Reminder.Snooze method (Outlook)
 
 Delays the reminder by a specified time. 
 
@@ -21,7 +20,7 @@ Delays the reminder by a specified time.
 
 _expression_. `Snooze`( `_SnoozeTime_` )
 
- _expression_ An expression that returns a [Reminder](./Outlook.Reminder.md) object.
+ _expression_ An expression that returns a [Reminder](Outlook.Reminder.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_. `Snooze`( `_SnoozeTime_` )
 
 ## Remarks
 
-This is equivalent to the user clicking the  **Snooze** button.
+This is equivalent to the user clicking the **Snooze** button.
 
 This method will fail if the current reminder is not active.
 

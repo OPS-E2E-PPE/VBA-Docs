@@ -1,17 +1,16 @@
 ---
 title: Font2.DoubleStrikeThrough property (Office)
-ms.prod: office
 api_name:
 - Office.Font2.DoubleStrikeThrough
 ms.assetid: 494bc4ab-8de5-d63b-c508-8ed0aa4fca6c
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font2.DoubleStrikeThrough property (Office)
 
-True if the specified font is formatted as double strikethrough text. Read/write.
+**True** if the specified font is formatted as double strikethrough text. Read/write.
 
 
 ## Syntax

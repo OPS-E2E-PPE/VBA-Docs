@@ -3,16 +3,15 @@ title: Column property (Microsoft Forms)
 keywords: fm20.chm2000930
 f1_keywords:
 - fm20.chm2000930
-ms.prod: office
 api_name:
 - Office.Column
 ms.assetid: 989f9e98-8764-ca23-c90d-a64966568f86
-ms.date: 11/15/2018
-localization_priority: Normal
+ms.date: 09/15/2021
+ms.localizationpriority: medium
 ---
 
 
-# Column property
+# Column property (Microsoft Forms)
 
 Specifies one or more items in a **[ListBox](listbox-control.md)** or **[ComboBox](combobox-control.md)**.
 
@@ -39,7 +38,7 @@ If you specify only the column value, the **Column** property reads or writes th
 
 ## Remarks
 
-You can use **Column** to assign the contents of a combo box or list box to another control, such as a text box. For example, you can set the **ControlSource** property of a text box to the value in the second column of a list box.
+Use **Column** to assign the contents of a combo box or list box to another control, such as a text box. For example, you can set the **ControlSource** property of a text box to the value in the second column of a list box.
 If the user makes no selection when you refer to a column in a combo box or list box, the **Column** setting is **Null**. You can check for this condition by using the IsNull function.
 
 You can also use **Column** to copy an entire two-dimensional [array](../../Glossary/vbe-glossary.md#array) of values to a control. This syntax lets you quickly load a list of choices rather than individually loading each element of the list using **AddItem**.

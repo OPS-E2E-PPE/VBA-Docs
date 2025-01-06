@@ -3,12 +3,11 @@ title: Document.UserControl property (Word)
 keywords: vbawd10.chm158007388
 f1_keywords:
 - vbawd10.chm158007388
-ms.prod: word
 api_name:
 - Word.Document.UserControl
 ms.assetid: 34ab71eb-397e-4c14-dfbe-d3f29f84c753
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,22 +18,23 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `UserControl`
+_expression_. `UserControl`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-This property returns  **False** if the document was created or opened programmatically from another Microsoft Office application with the **Open** method or the Visual Basic **CreateObject** or **GetObject** command.
+This property returns **False** if the document was created or opened programmatically from another Microsoft Office application with the **Open** method or the Visual Basic **CreateObject** or **GetObject** command.
 
 
- **Note**  If Word is visible to the user or if you call the  **UserControl** property from within a Word code module, this property will always return **True**.
+> [!NOTE] 
+> If Word is visible to the user or if you call the **UserControl** property from within a Word code module, this property will always return **True**.
 
 
 ## Example
 
-This example displays the status of the  **UserControl** property for the active document. This example will only work correctly when run from another Office application with the Word object library loaded.
+This example displays the status of the **UserControl** property for the active document. This example will only work correctly when run from another Office application with the Word object library loaded.
 
 
 ```vb

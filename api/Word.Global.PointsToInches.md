@@ -3,30 +3,25 @@ title: Global.PointsToInches method (Word)
 keywords: vbawd10.chm163119484
 f1_keywords:
 - vbawd10.chm163119484
-ms.prod: word
 api_name:
 - Word.Global.PointsToInches
 ms.assetid: e3d6ab40-3919-55e0-5829-603fca24c226
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.PointsToInches method (Word)
 
-Converts a measurement from points to inches (1 inch = 72 points). Returns the converted measurement as a  **Single**.
-
+Converts a measurement from points to inches (1 inch = 72 points). Returns the converted measurement as a **Single**.
 
 ## Syntax
 
- _expression_. `PointsToInches`( `_Points_` )
+_expression_. `PointsToInches`( `_Points_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
-
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,21 +31,16 @@ Converts a measurement from points to inches (1 inch = 72 points). Returns the c
 
 Single
 
-
 ## Example
 
 This example converts the measurement of the top margin for the active document to inches and displays the result in a message box.
-
 
 ```vb
 MsgBox PointsToInches(ActiveDocument.Sections(1) _ 
  .PageSetup.TopMargin)
 ```
 
-This example converts the value of the variable  `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
-
-
-
+This example converts the value of the variable `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
 
 ```vb
 Function ConvertPoints(ByVal intUnit As Integer, _ 
@@ -74,9 +64,7 @@ Function ConvertPoints(ByVal intUnit As Integer, _
 End Function
 ```
 
-
 ## See also
-
 
 [Global Object](Word.Global.md)
 

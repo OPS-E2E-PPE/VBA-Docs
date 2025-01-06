@@ -3,10 +3,9 @@ title: Delete a watch expression (VBA)
 keywords: vbhw6.chm1010978
 f1_keywords:
 - vbhw6.chm1010978
-ms.prod: office
 ms.assetid: cab9f2e8-ccdd-0794-cae4-7a7bb1a1091e
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

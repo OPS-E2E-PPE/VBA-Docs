@@ -1,24 +1,23 @@
 ---
-title: UpBars.Name Property (PowerPoint)
-ms.prod: powerpoint
+title: UpBars.Name property (PowerPoint)
 api_name:
 - PowerPoint.UpBars.Name
 ms.assetid: 756dc379-ce00-7417-9ab0-1ca44a82f5a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UpBars.Name Property (PowerPoint)
+# UpBars.Name property (PowerPoint)
 
-Returns the name of the object. Read-only  **String**.
+Returns the name of the object. Read-only **String**.
 
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
- _expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
+_expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
 
 
 ## See also

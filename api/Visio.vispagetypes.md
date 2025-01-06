@@ -1,18 +1,17 @@
 ---
-title: VisPageTypes Enumeration (Visio)
+title: VisPageTypes enumeration (Visio)
 keywords: vis_sdr.chm70425
 f1_keywords:
 - vis_sdr.chm70425
-ms.prod: visio
 ms.assetid: 87bfc806-d7b7-dbaf-d968-0e83928e851f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisPageTypes Enumeration (Visio)
+# VisPageTypes enumeration (Visio)
 
-Type codes returned by the  **Page.Type** property.
+Type codes returned by the **Page.Type** property.
 
 
 

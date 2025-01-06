@@ -3,25 +3,24 @@ title: Selection.StoryType property (Word)
 keywords: vbawd10.chm158662663
 f1_keywords:
 - vbawd10.chm158662663
-ms.prod: word
 api_name:
 - Word.Selection.StoryType
 ms.assetid: 17709b74-ea6b-9d58-885d-01e6b2ddac55
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.StoryType property (Word)
 
-Returns the story type for the specified selection. Read-only  **WdStoryType**.
+Returns the story type for the specified selection. Read-only **WdStoryType**.
 
 
 ## Syntax
 
- _expression_. `StoryType`
+_expression_. `StoryType`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

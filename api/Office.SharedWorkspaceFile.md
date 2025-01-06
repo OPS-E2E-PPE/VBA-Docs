@@ -3,12 +3,11 @@ title: SharedWorkspaceFile object (Office)
 keywords: vbaof11.chm266000
 f1_keywords:
 - vbaof11.chm266000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile
 ms.assetid: 44e0bbfa-145d-df71-928f-2333b54f1829
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,7 +26,7 @@ Use the **SharedWorkspaceFile** object to manage documents and files saved in a 
 
 ## Example
 
-Although the **SharedWorkspaceFile** object has a **URL** property that returns the file's complete path and filename, it does not have a **FileName** property. Use a simple function to extract the filename from the file's URL as in the following example. An additional supporting function decodes escaped space characters in the URL.
+Although the **SharedWorkspaceFile** object has a **URL** property that returns the file's complete path and filename, it does not have a **FileName** property. Use a simple function to extract the file name from the file's URL as in the following example. An additional supporting function decodes escaped space characters in the URL.
 
 
 ```vb
@@ -44,22 +43,20 @@ End Function
 
 ```
 
-<br/>
-
 Use the **Item** (_index_) property of the **SharedWorkspaceFiles** collection to return a specific **SharedWorkspaceFile** object. Use the **CreatedBy**, **CreatedDate**, **ModifiedBy**, and **ModifiedDate** properties to return information about the history of each file. The following example returns the number of files in the shared workspace and information about each file, by using the supporting functions shown earlier.
 
 ```vb
     Dim swsFile As Office.SharedWorkspaceFile 
     Dim strFileInfo As String 
-    strFileInfo = "The shared workspace contains " &amp; _ 
-    ActiveWorkbook.SharedWorkspace.Files.Count &amp; " File(s)." &amp; vbCrLf 
+    strFileInfo = "The shared workspace contains " & _ 
+    ActiveWorkbook.SharedWorkspace.Files.Count & " File(s)." & vbCrLf 
     For Each swsFile In ActiveWorkbook.SharedWorkspace.Files 
-        strFileInfo = strFileInfo &amp; FilenameFromURL(swsFile.URL) &amp; vbCrLf &amp; _ 
-            " - URL: " &amp; swsFile.URL &amp; vbCrLf &amp; _ 
-            " - Created by: " &amp; swsFile.CreatedBy &amp; vbCrLf &amp; _ 
-            " - Created on: " &amp; swsFile.CreatedDate &amp; vbCrLf &amp; _ 
-            " - Modified by: " &amp; swsFile.ModifiedBy &amp; vbCrLf &amp; _ 
-            " - Modified on: " &amp; swsFile.ModifiedDate &amp; vbCrLf 
+        strFileInfo = strFileInfo & FilenameFromURL(swsFile.URL) & vbCrLf & _ 
+            " - URL: " & swsFile.URL & vbCrLf & _ 
+            " - Created by: " & swsFile.CreatedBy & vbCrLf & _ 
+            " - Created on: " & swsFile.CreatedDate & vbCrLf & _ 
+            " - Modified by: " & swsFile.ModifiedBy & vbCrLf & _ 
+            " - Modified on: " & swsFile.ModifiedDate & vbCrLf 
     Next 
     MsgBox strFileInfo, vbInformation + vbOKOnly, _ 
         "Files in Shared Workspace" 

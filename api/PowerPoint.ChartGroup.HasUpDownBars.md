@@ -1,24 +1,23 @@
 ---
-title: ChartGroup.HasUpDownBars Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroup.HasUpDownBars property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroup.HasUpDownBars
 ms.assetid: fbc2efef-d3dd-cd26-fe90-3888425b7401
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.HasUpDownBars Property (PowerPoint)
+# ChartGroup.HasUpDownBars property (PowerPoint)
 
  **True** if a line chart has up and down bars. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `HasUpDownBars`
+_expression_.**HasUpDownBars**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -31,9 +30,10 @@ This property applies only to line charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example enables up and down bars for chart group one of the first chart in the active document and then sets their colors. You should run the example on a 2-D line chart that contains two series that cross each other at one or more data points.
+The following example enables up and down bars for chart group one of the first chart in the active document and then sets their colors. You should run the example on a 2D line chart that contains two series that cross each other at one or more data points.
 
 
 

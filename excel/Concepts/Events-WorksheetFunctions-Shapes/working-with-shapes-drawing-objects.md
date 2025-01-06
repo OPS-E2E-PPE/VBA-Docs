@@ -3,10 +3,9 @@ title: Working with shapes (drawing objects)
 keywords: vbaxl10.chm5206010
 f1_keywords:
 - vbaxl10.chm5206010
-ms.prod: excel
 ms.assetid: aef5dc81-d54f-a01a-f949-a30688a3cf23
 ms.date: 11/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -44,7 +43,7 @@ In Visual Basic, there are two ways to apply properties and methods to a set of 
     
 Many properties and methods that apply to the **Shape** object and **ShapeRange** collection fail if applied to certain kinds of shapes. For example, the **TextFrame** property fails if applied to a shape that cannot contain text. 
 
-If you are not positive that each of the shapes in a **ShapeRange** collection can have a certain property or method applied to it, do not apply the property or method to the **ShapeRange** collection. If you want to apply one of these properties or methods to a collection of shapes, you must loop through the collection and test each individual shape to make sure it is an appropriate type of shape before applying the property or method to it.
+If you are not positive that each of the shapes in a **ShapeRange** collection can have a certain property or method applied to it, don't apply the property or method to the **ShapeRange** collection. If you want to apply one of these properties or methods to a collection of shapes, you must loop through the collection and test each individual shape to make sure it is an appropriate type of shape before applying the property or method to it.
 
 
 ## Creating a ShapeRange collection that contains all shapes on a sheet
@@ -82,7 +81,7 @@ The following are general guidelines for how properties and methods behave when 
     
 - The value of some properties can be returned or set only if there is exactly one shape in the collection. If the collection contains more than one shape, a run-time error occurs. This is generally the case for returning or setting properties when the equivalent action in the user interface is possible only with a single shape (actions such as editing text in a shape or editing the points of a freeform).
     
-The preceding guidelines also apply when you are setting properties of shapes that are grouped under secondary objects of the **ShapeRange** collection, such as the **FillFormat** object. If the secondary object represents operations that can be performed on multiple selected objects in the user interface, you will be able to return the object from a **ShapeRange** collection and set its properties. 
+The preceding guidelines also apply when you are setting properties of shapes that are grouped under secondary objects of the **ShapeRange** collection, such as the **FillFormat** object. If the secondary object represents operations that can be performed on multiple selected objects in the user interface, you'll be able to return the object from a **ShapeRange** collection and set its properties. 
 
 For example, you can use the **Fill** property to return the **FillFormat** object that represents the fills of all the shapes in the **ShapeRange** collection. Setting the properties of this **FillFormat** object will set the same properties for all the individual shapes in the **ShapeRange** collection.
 

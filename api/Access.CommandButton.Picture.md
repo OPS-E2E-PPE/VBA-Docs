@@ -3,18 +3,17 @@ title: CommandButton.Picture property (Access)
 keywords: vbaac10.chm10451
 f1_keywords:
 - vbaac10.chm10451
-ms.prod: access
 api_name:
 - Access.CommandButton.Picture
 ms.assetid: 1d0d5956-719e-13eb-e6ca-319f8da78754
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Picture property (Access)
 
-You can use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
+Use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
 
 
 ## Syntax

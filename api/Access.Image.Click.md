@@ -3,12 +3,11 @@ title: Image.Click event (Access)
 keywords: vbaac10.chm14166
 f1_keywords:
 - vbaac10.chm14166
-ms.prod: access
 api_name:
 - Access.Image.Click
 ms.assetid: 1bca7597-b536-908e-c3fd-25f9dd5e1ab8
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,6 +15,8 @@ localization_priority: Normal
 
 The **Click** event occurs when the user presses and then releases a mouse button over an object.
 
+> [!NOTE] 
+> The functionality for the **Image** object's **Click** and **DoubleClick** events has been deprecated. If you want an image with click/double-click events, use instead a **Button** control and associate an image with that control to provide better accessibility. **Button** controls are part of the Tab Order loop, but **Image** controls are not. Existing applications will not be affected by this change.
 
 ## Syntax
 
@@ -47,7 +48,7 @@ For a control, this event occurs when the user:
 
 Typically, you attach a **Click** event procedure or macro to a command button to carry out commands and command-like actions. For the other applicable controls, use this event to trigger actions in response to one of the occurrences discussed earlier in this topic.
 
-You can use a **CancelEvent** action in a DblClick macro to cancel the second **Click** event. For more information, see the **[DblClick](access.image.dblclick.md)** event topic.
+Use a CancelEvent action in a DblClick macro to cancel the second **Click** event. For more information, see the **[DblClick](access.image.dblclick.md)** event topic.
 
 To distinguish between the left, right, and middle mouse buttons, use the **MouseDown** and **MouseUp** events.
 

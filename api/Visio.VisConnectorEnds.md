@@ -1,20 +1,19 @@
 ---
-title: VisConnectorEnds Enumeration (Visio)
+title: VisConnectorEnds enumeration (Visio)
 keywords: vis_sdr.chm70585
 f1_keywords:
 - vis_sdr.chm70585
-ms.prod: visio
 api_name:
 - Visio.VisConnectorEnds
 ms.assetid: 21dca3ff-f11d-951b-b644-9a5a8e9eb7cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisConnectorEnds Enumeration (Visio)
+# VisConnectorEnds enumeration (Visio)
 
-Specifies constants that define the end points of a connector; passed to the  **[Shape.Disconnect](Visio.Shape.Disconnect.md)** method.
+Specifies constants that define the end points of a connector; passed to the **[Shape.Disconnect](Visio.Shape.Disconnect.md)** method.
 
 
 

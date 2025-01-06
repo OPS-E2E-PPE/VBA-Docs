@@ -3,12 +3,11 @@ title: Envelope.DefaultPrintFIMA property (Word)
 keywords: vbawd10.chm152567813
 f1_keywords:
 - vbawd10.chm152567813
-ms.prod: word
 api_name:
 - Word.Envelope.DefaultPrintFIMA
 ms.assetid: 13cba63f-dc2a-722e-1bc2-21db8c0e82cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DefaultPrintFIMA`
+_expression_. `DefaultPrintFIMA`
 
- _expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
+_expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
 
 
 ## Remarks

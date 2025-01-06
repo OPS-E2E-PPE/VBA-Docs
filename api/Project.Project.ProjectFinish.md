@@ -1,28 +1,28 @@
 ---
-title: Project.ProjectFinish Property (Project)
-ms.prod: project-server
+title: Project.ProjectFinish property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.ProjectFinish
 ms.assetid: ff56a629-5a83-0a13-6312-b91803b30d53
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ProjectFinish Property (Project)
+# Project.ProjectFinish property (Project)
 
-Gets or sets the finish date for a project. Read/write  **Variant**.
+Gets or sets the finish date for a project. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ProjectFinish`
+_expression_. `ProjectFinish`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Setting  **ProjectFinish** also causes the project to be scheduled from its finish date. This has the same effect as setting the **ScheduleFromStart** property to **False**.
+Setting **ProjectFinish** also causes the project to be scheduled from its finish date. This has the same effect as setting the **ScheduleFromStart** property to **False**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

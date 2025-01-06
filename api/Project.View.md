@@ -1,25 +1,25 @@
 ---
-title: View Object (Project)
+title: View object (Project)
 keywords: vbapj.chm131348
 f1_keywords:
 - vbapj.chm131348
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.View
 ms.assetid: 39d793f4-2e31-d07b-a563-b213cced0c28
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View Object (Project)
+# View object (Project)
 
-Represents a view in Project. The  **View** object is a member of the **[Views](Project.views(object).md)** collection.
+Represents a view in Project. The **View** object is a member of the **[Views](Project.views(object).md)** collection.
 
 
 ## Remarks
 
-The  **[Pane.View](./Project.Pane.View.md)** method returns the **View** object.
+The **[Pane.View](./Project.Pane.View.md)** method returns the **View** object.
 
 
 ## Methods

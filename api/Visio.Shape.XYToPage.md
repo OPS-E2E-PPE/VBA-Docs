@@ -1,49 +1,43 @@
 ---
-title: Shape.XYToPage Method (Visio)
+title: Shape.XYToPage method (Visio)
 keywords: vis_sdr.chm11216650
 f1_keywords:
 - vis_sdr.chm11216650
-ms.prod: visio
 api_name:
 - Visio.Shape.XYToPage
 ms.assetid: 4a230d63-57a8-3b69-6425-2dca6a2014eb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.XYToPage Method (Visio)
+# Shape.XYToPage method (Visio)
 
-Transforms a point expressed in the local coordinate system of a  **Shape** object to an equivalent point expressed in the local coordinate system of its **Page** or **Master** object.
-
+Transforms a point expressed in the local coordinate system of a **Shape** object to an equivalent point expressed in the local coordinate system of its **Page** or **Master** object.
 
 ## Syntax
 
- _expression_. `XYToPage`( `_x_` , `_y_` , `_xprime_` , `_yprime_` )
+_expression_. `XYToPage`( `_x_` , `_y_` , `_xprime_` , `_yprime_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _x_|Required| **Double**| _x_-coordinate in coordinate system of  _object._|
-| _y_|Required| **Double**| _y_-coordinate in coordinate system of  _object._|
-| _xprime_|Required| **Double**| _x_-coordinate corresponding to  _x_ in the **Page** or **Master** object's coordinate system.|
-| _yprime_|Required| **Double**| _y_-coordinate corresponding to  _y_ in the **Page** or **Master** object's coordinate system.|
+| _x_|Required| **Double**| _x_-coordinate in coordinate system of _object._|
+| _y_|Required| **Double**| _y_-coordinate in coordinate system of _object._|
+| _xprime_|Required| **Double**| _x_-coordinate corresponding to _x_ in the **Page** or **Master** object's coordinate system.|
+| _yprime_|Required| **Double**| _y_-coordinate corresponding to _y_ in the **Page** or **Master** object's coordinate system.|
 
 ## Return value
 
 Nothing
 
-
 ## Remarks
 
-The points  _x_,  _y_,  _xprime_, and  _yprime_ are all treated as internal drawing units.
+The points _x_, _y_, _xprime_, and _yprime_ are all treated as internal drawing units.
 
-An exception is raised if object is not a  **Shape** object of a **Page** or **Master** object.
+An exception is raised if object is not a **Shape** object of a **Page** or **Master** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

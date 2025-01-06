@@ -3,10 +3,9 @@ title: Integer data type
 keywords: vblr6.chm1008948
 f1_keywords:
 - vblr6.chm1008948
-ms.prod: office
 ms.assetid: 5ecb70cf-d8fb-770f-a175-30db4aa3fb9f
 ms.date: 11/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +17,7 @@ The [type-declaration character](../../Glossary/vbe-glossary.md#type-declaration
 
 You can also use **Integer** variables to represent enumerated values. An enumerated value can contain a finite set of unique whole numbers, each of which has special meaning in the context in which it is used. Enumerated values provide a convenient way to select among a known number of choices, for example, black = 0, white = 1, and so on. 
 
-It is a good programming practice to define [constants](../../Glossary/vbe-glossary.md#constant) by using the **[Const](const-statement.md)** statement for each enumerated value.
+It's a good programming practice to define [constants](../../Glossary/vbe-glossary.md#constant) by using the **[Const](const-statement.md)** statement for each enumerated value.
 
 ## See also
 

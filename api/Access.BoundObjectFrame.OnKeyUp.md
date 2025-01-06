@@ -3,12 +3,11 @@ title: BoundObjectFrame.OnKeyUp property (Access)
 keywords: vbaac10.chm10974
 f1_keywords:
 - vbaac10.chm10974
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.OnKeyUp
 ms.assetid: 527a0034-31e1-af3f-d518-3c3b7cb62c8b
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **KeyUp** event occurs when a user releases a key while a form or control ha
 
 The **OnKeyUp** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Key Up** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Key Up** box is blank, the property value is an empty string.
 

@@ -3,12 +3,11 @@ title: DoCmd.Requery method (Access)
 keywords: vbaac10.chm4170
 f1_keywords:
 - vbaac10.chm4170
-ms.prod: access
 api_name:
 - Access.DoCmd.Requery
 ms.assetid: 6869c39f-b43f-ad83-4140-67b763342605
-ms.date: 02/20/2019
-localization_priority: Priority
+ms.date: 03/07/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -32,7 +31,7 @@ _expression_ A variable that represents a **[DoCmd](Access.DoCmd.md)** object.
 
 ## Remarks
 
-You can use the Requery action to update the data in a specified control on the active object by requerying the source of the control. If no control is specified, this action requeries the source of the object itself. Use this action to ensure that the active object or one of its controls displays the most current data.
+Use the Requery action to update the data in a specified control on the active object by requerying the source of the control. If no control is specified, this action requeries the source of the object itself. Use this action to ensure that the active object or one of its controls displays the most current data.
 
 If you leave the _ControlName_ argument blank, the Requery action has the same effect as pressing Shift+F9 when the object has the focus. If a subform control has the focus, this action requeries only the source of the subform (just as pressing Shift+F9 does).
 
@@ -44,7 +43,6 @@ In addition, when you use the Requery action or the **DoCmd.Requery** method, Mi
 ## Example
 
 The following example uses the **Requery** method to update the **EmployeeList** control.
-
 
 ```vb
 DoCmd.Requery "EmployeeList"

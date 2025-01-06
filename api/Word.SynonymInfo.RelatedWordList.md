@@ -3,23 +3,22 @@ title: SynonymInfo.RelatedWordList property (Word)
 keywords: vbawd10.chm161153034
 f1_keywords:
 - vbawd10.chm161153034
-ms.prod: word
 api_name:
 - Word.SynonymInfo.RelatedWordList
 ms.assetid: 7126c71c-6308-9b4b-89c7-6762e01fc591
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SynonymInfo.RelatedWordList property (Word)
 
-Returns a list of words related to the specified word or phrase. The list is returned as an array of strings. Read-only  **Variant**.
+Returns a list of words related to the specified word or phrase. The list is returned as an array of strings. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `RelatedWordList`
+_expression_. `RelatedWordList`
 
  _expression_ An expression that returns a '[SynonymInfo](Word.SynonymInfo.md)' object.
 

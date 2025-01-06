@@ -1,29 +1,28 @@
 ---
-title: Row Object (Outlook)
+title: Row object (Outlook)
 keywords: vbaol11.chm3167
 f1_keywords:
 - vbaol11.chm3167
-ms.prod: outlook
 api_name:
 - Outlook.Row
 ms.assetid: 06db3fa4-1649-48bf-3b86-ffdf99a47305
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Row Object (Outlook)
+# Row object (Outlook)
 
-Represents a row of data in the  **[Table](Outlook.Table.md)** object.
+Represents a row of data in the **[Table](Outlook.Table.md)** object.
 
 
 ## Remarks
 
-A  **Table** is composed of rows and columns. It represents a read-only dynamic rowset of data in a **[Folder](Outlook.Folder.md)** or **[Search](Outlook.Search.md)** object. You can regard each row of a **Table** as an item in the folder, and each column as a property of the item. By default, the **Table** contains only a subset of properties for items in the folder. This makes the **Table** an in-memory lightweight rowset that supports fast enumeration and filtering of items in the folder.
+A **Table** is composed of rows and columns. It represents a read-only dynamic rowset of data in a **[Folder](Outlook.Folder.md)** or **[Search](Outlook.Search.md)** object. You can regard each row of a **Table** as an item in the folder, and each column as a property of the item. By default, the **Table** contains only a subset of properties for items in the folder. This makes the **Table** an in-memory lightweight rowset that supports fast enumeration and filtering of items in the folder.
 
  If the **Table** object is obtained from **[Folder.GetTable](Outlook.Folder.GetTable.md)**, you can further specify a filter (in **[Table.Restrict](Outlook.Table.Restrict.md)**) to obtain a more restricted set of rows in the **Table**.
 
- You can use the Table methods: **[FindRow](Outlook.Table.FindRow.md)**, **[FindNextRow](Outlook.Table.FindNextRow.md)**, **[GetNextRow](Outlook.Table.GetNextRow.md)**, and **[MoveToStart](Outlook.Table.MoveToStart.md)** to obtain a specific row in a **Table**.
+ Use the Table methods: **[FindRow](Outlook.Table.FindRow.md)**, **[FindNextRow](Outlook.Table.FindNextRow.md)**, **[GetNextRow](Outlook.Table.GetNextRow.md)**, and **[MoveToStart](Outlook.Table.MoveToStart.md)** to obtain a specific row in a **Table**.
 
  Use **[Row.GetValues](Outlook.Row.GetValues.md)** to obtain an array of values that correspond to column values at that row in the **Table**.
 
@@ -34,7 +33,7 @@ A  **Table** is composed of rows and columns. It represents a read-only dynamic 
 
 ## Example
 
-The following code sample illustrates how to obtain a  **Table** object based on the **LastModificationTime** of items in the Inbox. It also shows how to customize columns in the **Table**, and how to enumerate and print the values of the corresponding properties of these items.
+The following code sample illustrates how to obtain a **Table** object based on the **LastModificationTime** of items in the Inbox. It also shows how to customize columns in the **Table**, and how to enumerate and print the values of the corresponding properties of these items.
 
 
 ```vb
@@ -132,6 +131,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

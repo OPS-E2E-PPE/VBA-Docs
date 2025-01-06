@@ -1,29 +1,29 @@
 ---
-title: Subprojects.Parent Property (Project)
-ms.prod: project-server
+title: Subprojects.Parent property (Project)
+ms.service: project-server
 api_name:
 - Project.Subprojects.Parent
 ms.assetid: 86af8044-cc92-fbf3-d98c-1d3b6ba7ca2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Subprojects.Parent Property (Project)
+# Subprojects.Parent property (Project)
 
-Gets the parent of the  **Subprojects** object. Read-only **Project**.
+Gets the parent of the **Subprojects** object. Read-only **Project**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a 'Subprojects' object.
+_expression_ A variable that represents a 'Subprojects' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

@@ -3,12 +3,11 @@ title: FileDialog object (Office)
 keywords: vbaof11.chm256000
 f1_keywords:
 - vbaof11.chm256000
-ms.prod: office
 api_name:
 - Office.FileDialog
 ms.assetid: 71a030f2-3b02-21e1-c156-0514ff5eddb7
 ms.date: 01/09/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Provides file dialog box functionality similar to the functionality of the stand
 
 ## Remarks
 
-Use the **FileDialog** property to return a **FileDialog** object. The **FileDialog** property is located in each individual Office application's **Application** object. The property takes a single argument, _DialogType_, that determines the type of **FileDialog** object that the property returns. There are four types of **FileDialog** object:
+Use the **FileDialog** property to return a **FileDialog** object. The **FileDialog** property is located in each individual Office application's **Application** object. The property takes a single argument, [MsoFileDialogType](Office.MsoFileDialogType.md), that determines the type of **FileDialog** object that the property returns. There are four types of **FileDialog** object:
 
 - **Open** dialog box: lets users select one or more files that you can then open in the host application by using the **Execute** method.
     
@@ -63,9 +62,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "The path is: " &amp; vrtSelectedItem 
+ MsgBox "The path is: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'The user pressed Cancel. 

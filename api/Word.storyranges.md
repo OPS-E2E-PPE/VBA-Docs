@@ -3,21 +3,20 @@ title: StoryRanges object (Word)
 keywords: vbawd10.chm2444
 f1_keywords:
 - vbawd10.chm2444
-ms.prod: word
 ms.assetid: 131b04b0-e4a8-8969-0a4b-e5b3793af03d
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # StoryRanges object (Word)
 
-A collection of  **Range** objects that represent stories in a document.
+A collection of **Range** objects that represent stories in a document.
 
 
 ## Remarks
 
-Use the  **StoryRanges** property to return the **StoryRanges** collection. The following example removes manual character formatting from the text in all stories other than the main text story in the active document.
+Use the **StoryRanges** property to return the **StoryRanges** collection. The following example removes manual character formatting from the text in all stories other than the main text story in the active document.
 
 
 ```vb
@@ -26,9 +25,9 @@ For Each aStory In ActiveDocument.StoryRanges
 Next aStory
 ```
 
-The  **Add** method is not available for the **StoryRanges** collection. The number of stories in the **StoryRanges** collection is finite.
+The **Add** method is not available for the **StoryRanges** collection. The number of stories in the **StoryRanges** collection is finite.
 
-Use  **StoryRanges** (Index), where Index is a **WdStoryType** constant, to return a single story as a **[Range](Word.Range.md)** object. The following example adds text to the primary header story and then displays the text.
+Use **StoryRanges** (Index), where Index is a **[WdStoryType](word.wdstorytype.md)** constant, to return a single story as a **[Range](Word.Range.md)** object. The following example adds text to the primary header story and then displays the text.
 
 
 
@@ -63,7 +62,7 @@ errhandler:
 If Err = 5941 Then MsgBox "The footnotes story is not available."
 ```
 
-Use the  **NextStoryRange** property to loop through all stories in a document. The following example searches each story in the active document for the text "Microsoft Word." When the text is found, it is formatted as italic.
+Use the **NextStoryRange** property to loop through all stories in a document. The following example searches each story in the active document for the text "Microsoft Word." When the text is found, it is formatted as italic.
 
 
 
@@ -113,6 +112,6 @@ Next myStoryRange
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

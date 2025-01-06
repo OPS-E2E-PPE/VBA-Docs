@@ -3,18 +3,17 @@ title: Application.CreateAccessProject method (Access)
 keywords: vbaac10.chm12582
 f1_keywords:
 - vbaac10.chm12582
-ms.prod: access
 api_name:
 - Access.Application.CreateAccessProject
 ms.assetid: 66628c62-20db-e3a3-5d27-9da3846f0514
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CreateAccessProject method (Access)
 
-You can use the **CreateAccessProject** method to create a new Microsoft Access project (.adp) on disk.
+Use the **CreateAccessProject** method to create a new Microsoft Access project (.adp) on disk.
 
 ## Syntax
 

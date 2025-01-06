@@ -1,15 +1,14 @@
 ---
 title: Find a record in a dynaset-type or snapshot-type DAO Recordset
-ms.prod: access
 ms.assetid: f79f47e1-63a9-774d-4d07-32759ac30c8b
 ms.date: 09/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Find a record in a dynaset-type or snapshot-type DAO Recordset
 
-You can use the Find methods to locate a record in a dynaset-type or snapshot-type **[Recordset](../../../api/overview/Access.md)** object. DAO provides the following Find methods:
+Use the Find methods to locate a record in a dynaset-type or snapshot-type **[Recordset](../../../api/overview/Access.md)** object. DAO provides the following Find methods:
 
 
 - The **[FindFirst](../../../api/overview/Access.md)** method finds the first record that satisfies the specified criteria.

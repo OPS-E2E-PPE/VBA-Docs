@@ -3,23 +3,22 @@ title: Envelope.RecipientNamefromTop property (Word)
 keywords: vbawd10.chm152567832
 f1_keywords:
 - vbawd10.chm152567832
-ms.prod: word
 api_name:
 - Word.Envelope.RecipientNamefromTop
 ms.assetid: 5e18b493-63e7-fc7d-c875-48958477c0b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.RecipientNamefromTop property (Word)
 
-Returns or sets a  **Single** that represents the position, measured in points, of the recipient's name from the top edge of the envelope. Read/write.
+Returns or sets a **Single** that represents the position, measured in points, of the recipient's name from the top edge of the envelope. Read/write.
 
 
 ## Syntax
 
- _expression_. `RecipientNamefromTop`
+_expression_. `RecipientNamefromTop`
 
  _expression_ An expression that returns an '[Envelope](Word.Envelope.md)' object.
 

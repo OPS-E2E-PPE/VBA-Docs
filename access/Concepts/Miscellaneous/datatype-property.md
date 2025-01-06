@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm10085
 f1_keywords:
 - vbaac10.chm10085
-ms.prod: access
 api_name:
 - Access.DataType
 ms.assetid: 507dc426-afa4-783c-835d-5fdcb23a0e8d
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: high
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Priority
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the **DataType** property to specify the type of data stored in a table field. Each field can store data consisting of only a single data type.
+Use the **DataType** property to specify the type of data stored in a table field. Each field can store data consisting of only a single data type.
 
 
 ## Setting
@@ -62,8 +61,8 @@ Set the **Format** property to specify a predefined display format for Number, D
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

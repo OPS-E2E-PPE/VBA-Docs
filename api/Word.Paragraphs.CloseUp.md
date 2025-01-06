@@ -3,12 +3,11 @@ title: Paragraphs.CloseUp method (Word)
 keywords: vbawd10.chm156762413
 f1_keywords:
 - vbawd10.chm156762413
-ms.prod: word
 api_name:
 - Word.Paragraphs.CloseUp
 ms.assetid: 0fa0afb7-fbdf-ab26-1b49-312f526d69c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Removes any spacing before the specified paragraphs.
 
 ## Syntax
 
- _expression_. `CloseUp`
+_expression_. `CloseUp`
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks

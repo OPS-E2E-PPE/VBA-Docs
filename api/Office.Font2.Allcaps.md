@@ -1,17 +1,16 @@
 ---
 title: Font2.Allcaps property (Office)
-ms.prod: office
 api_name:
 - Office.Font2.Allcaps
 ms.assetid: 66a576ef-d765-38ea-26e7-5bc06ff29907
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font2.Allcaps property (Office)
 
-True if the font is formatted as all capital letters. Read/write.
+**True** if the font is formatted as all capital letters. Read/write.
 
 
 ## Syntax

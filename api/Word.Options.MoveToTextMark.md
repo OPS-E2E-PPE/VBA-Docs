@@ -3,12 +3,11 @@ title: Options.MoveToTextMark property (Word)
 keywords: vbawd10.chm162988492
 f1_keywords:
 - vbawd10.chm162988492
-ms.prod: word
 api_name:
 - Word.Options.MoveToTextMark
 ms.assetid: 39ba110d-bd19-a63a-b759-5057ed3f1852
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MoveToTextMark`
+_expression_. `MoveToTextMark`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## See also

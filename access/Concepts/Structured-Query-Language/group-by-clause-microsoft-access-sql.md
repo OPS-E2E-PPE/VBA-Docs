@@ -3,10 +3,9 @@ title: GROUP BY clause (Microsoft Access SQL)
 keywords: jetsql40.chm5277569
 f1_keywords:
 - jetsql40.chm5277569
-ms.prod: access
 ms.assetid: fe7d5e27-a47a-1229-232c-cf6a0cbad761
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 # GROUP BY clause (Microsoft Access SQL)
@@ -36,7 +35,7 @@ Summary values are omitted if there is no SQL aggregate function in the SELECT s
 
 **Null** values in GROUP BY fields are grouped and are not omitted. However, **Null** values are not evaluated in any SQL aggregate function.
 
-Use the WHERE clause to exclude rows you do not want grouped, and use the [HAVING](having-clause-microsoft-access-sql.md) clause to filter records after they have been grouped.
+Use the WHERE clause to exclude rows you don't want grouped, and use the [HAVING](having-clause-microsoft-access-sql.md) clause to filter records after they have been grouped.
 
 Unless it contains Memo or OLE Object data, a field in the GROUP BY field list can refer to any field in any table listed in the FROM clause, even if the field is not included in the SELECT statement, provided the SELECT statement includes at least one SQL aggregate function. The Microsoft® Jet database engine cannot group on Memo or OLE Object fields.
 
@@ -75,8 +74,6 @@ Sub GroupByX1()
 End Sub 
 
 ```
-
-<br/>
 
 For each unique job title, this example calculates the number of employees in Washington who have that title.
 

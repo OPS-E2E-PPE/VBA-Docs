@@ -1,9 +1,8 @@
 ---
 title: Miscellaneous tasks
-ms.prod: word
 ms.assetid: 5e690651-b220-88d4-f9a1-a7901cb14ec1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -111,7 +110,7 @@ For more information, see [Looping through a collection](looping-through-a-colle
 
 ## Customizing menus and toolbars
 
-The **CommandBar** object represents both menus and toolbars (in versions of Word that do not use the ribbon). Use the **[CommandBars](../../../api/Word.Application.CommandBars.md)** property with a menu or toolbar name to return a single **CommandBar** object. The **Controls** property returns a **CommandBarControls** object that refers to the items on the specified command bar. The following example adds the **Word Count** command to the **Standard** menu.
+The **CommandBar** object represents both menus and toolbars (in versions of Word that don't use the ribbon). Use the **[CommandBars](../../../api/Word.Application.CommandBars.md)** property with a menu or toolbar name to return a single **CommandBar** object. The **Controls** property returns a **CommandBarControls** object that refers to the items on the specified command bar. The following example adds the **Word Count** command to the **Standard** menu.
 
 
 ```vb

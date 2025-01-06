@@ -3,10 +3,9 @@ title: Creating recursive procedures (VBA)
 keywords: vbcn6.chm1010995
 f1_keywords:
 - vbcn6.chm1010995
-ms.prod: office
 ms.assetid: 5458afe3-63ec-d2c2-8278-f6b5ce1734d3
 ms.date: 12/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ localization_priority: Normal
 
 ```vb
 Function RunOut(Maximum) 
- RunOut = RunOut(Maximum) 
+    RunOut = RunOut(Maximum) 
 End Function
 ```
 
@@ -24,11 +23,11 @@ This error may be less obvious when two procedures call each other indefinitely,
 
 ```vb
 Function Factorial (N) 
- If N <= 1 Then ' Reached end of recursive calls. 
- Factorial = 1 ' (N = 0) so climb back out of calls. 
- Else ' Call Factorial again if N > 0. 
- Factorial = Factorial(N - 1) * N 
- End If 
+    If N <= 1 Then ' Reached end of recursive calls. 
+        Factorial = 1 ' (N = 0) so climb back out of calls. 
+    Else ' Call Factorial again if N > 0. 
+        Factorial = Factorial(N - 1) * N 
+    End If 
 End Function
 ```
 

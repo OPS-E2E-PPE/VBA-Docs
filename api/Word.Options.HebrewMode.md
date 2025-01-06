@@ -3,25 +3,24 @@ title: Options.HebrewMode property (Word)
 keywords: vbawd10.chm162988443
 f1_keywords:
 - vbawd10.chm162988443
-ms.prod: word
 api_name:
 - Word.Options.HebrewMode
 ms.assetid: 8a98159e-099d-299c-c955-2190d683d450
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options.HebrewMode property (Word)
 
-Returns or sets the mode for the Hebrew spelling checker. Read/write  **WdHebSpellStart**.
+Returns or sets the mode for the Hebrew spelling checker. Read/write **WdHebSpellStart**.
 
 
 ## Syntax
 
- _expression_. `HebrewMode`
+_expression_. `HebrewMode`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

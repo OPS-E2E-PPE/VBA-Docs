@@ -1,27 +1,26 @@
 ---
-title: Application.IsSearchSynchronous Method (Outlook)
+title: Application.IsSearchSynchronous method (Outlook)
 keywords: vbaol11.chm729
 f1_keywords:
 - vbaol11.chm729
-ms.prod: outlook
 api_name:
 - Outlook.Application.IsSearchSynchronous
 ms.assetid: cd757b43-5e3f-1504-9944-7431bda6f004
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsSearchSynchronous Method (Outlook)
+# Application.IsSearchSynchronous method (Outlook)
 
-Returns a  **Boolean** indicating if a search will be synchronous or asynchronous.
+Returns a **Boolean** indicating if a search will be synchronous or asynchronous.
 
 
 ## Syntax
 
 _expression_. `IsSearchSynchronous`( `_LookInFolders_` )
 
-_expression_ A variable that represents an '[Application](Outlook.Application.md)' object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ _expression_ A variable that represents an '[Application](Outlook.Application.md
 
 ## Remarks
 
-If the search is synchronous, the  **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method will not return until the search has completed. Conversely, if the search is asynchronous, the **AdvancedSearch** method will immediately return. In order to get meaningful results from an asynchronous search, use the **[AdvancedSearchComplete](Outlook.Application.AdvancedSearchComplete.md)** event to notify you when the search has finished.
+If the search is synchronous, the **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method will not return until the search has completed. Conversely, if the search is asynchronous, the **AdvancedSearch** method will immediately return. In order to get meaningful results from an asynchronous search, use the **[AdvancedSearchComplete](Outlook.Application.AdvancedSearchComplete.md)** event to notify you when the search has finished.
 
 
 ## Example

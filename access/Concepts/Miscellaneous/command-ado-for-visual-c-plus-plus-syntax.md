@@ -1,9 +1,8 @@
 ---
 title: Command (ADO for Visual C++ syntax)
-ms.prod: access
 ms.assetid: a397daf5-2bcd-6c1a-3fb6-667c1309d0e3
 ms.date: 10/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -13,7 +12,7 @@ localization_priority: Normal
 
 ## Methods
 
-[Cancel](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/cancel-method-ado)(void)
+[Cancel](/office/client-developer/access/desktop-database-reference/cancel-method-ado)(void)
 
 [CreateParameter](https://msdn.microsoft.com/library/cf080a0b-75d2-dcdf-2715-10af147358e9%28Office.15%29.aspx)(BSTR  _Name,_ DataTypeEnum _Type,_ ParameterDirectionEnum _Direction,_ long _Size,_ VARIANT _Value,_ _ADOParameter ** _ppiprm_ )
 
@@ -42,8 +41,8 @@ localization_priority: Normal
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

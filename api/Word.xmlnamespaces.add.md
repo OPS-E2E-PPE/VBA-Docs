@@ -3,10 +3,9 @@ title: XMLNamespaces.Add method (Word)
 keywords: vbawd10.chm248971365
 f1_keywords:
 - vbawd10.chm248971365
-ms.prod: word
 ms.assetid: 2b70fb44-adf0-31e9-0528-bda1189b85f5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Add`( `_Path_` , `_NamespaceURI_` , `_Alias_` , `_InstallForAllUsers_` )
+_expression_.**Add** (_Path_, _NamespaceURI_, _Alias_, _InstallForAllUsers_)
 
- _expression_ Required. A variable that represents a '' collection.
+_expression_ Required. A variable that represents a '' collection.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ localization_priority: Normal
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The path and file name of the schema. This may be a local file path, a network path, or an Internet address.|
 | _NamespaceURI_|Optional| **String**|The namespace Uniform Resource Indicator as specified in the schema. The NamespaceURI parameter is case-sensitive and must be spelled exactly as specified in schema.|
-| _Alias_|Optional| **String**|The name of the schema as it appears on the  **Schemas** tab in the **Templates and Add-ins** dialog box.|
+| _Alias_|Optional| **String**|The name of the schema as it appears on the **Schemas** tab in the **Templates and Add-ins** dialog box.|
 | _InstallForAllUsers_|Optional| **Boolean**| **True** if all users that log on to a computer can access and use the new schema. The default is **False**.|
 
 ## Return value
@@ -54,7 +53,5 @@ Sub AddSchema()
 End Sub
 ```
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

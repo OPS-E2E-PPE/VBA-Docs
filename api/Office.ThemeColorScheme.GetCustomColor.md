@@ -1,11 +1,10 @@
 ---
 title: ThemeColorScheme.GetCustomColor method (Office)
-ms.prod: office
 api_name:
 - Office.ThemeColorScheme.GetCustomColor
 ms.assetid: 67ac156e-19ab-245e-b6f8-03514f802acb
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -29,7 +28,7 @@ _expression_ An expression that returns a **[ThemeColorScheme](Office.ThemeColor
 
 ## Return value
 
-MsoRGBType
+**[MsoThemeColorSchemeIndex](office.msothemecolorschemeindex.md)**
 
 
 ## Remarks
@@ -45,7 +44,7 @@ The following example creates a variable representing the color scheme in an Off
 ```vb
 Dim tTheme As OfficeTheme 
 Dim tcsThemeColorScheme As ThemeColorScheme 
-Dim csCustomColor As MsoRGBType 
+Dim csCustomColor As MsoThemeColorSchemeIndex 
 Set tcsThemeColorScheme = tTheme.ThemeColorScheme 
 csCustomColor = tcsThemeColorScheme.GetCustomColor("CheerfulColor") 
 

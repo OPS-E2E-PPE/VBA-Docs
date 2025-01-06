@@ -1,11 +1,10 @@
 ---
 title: XlCalcFor enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.xlCalcFor
 ms.assetid: 81a6cf29-8ecb-1153-d908-587d3ffe87da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

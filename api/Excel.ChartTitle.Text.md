@@ -3,25 +3,24 @@ title: ChartTitle.Text property (Excel)
 keywords: vbaxl10.chm563087
 f1_keywords:
 - vbaxl10.chm563087
-ms.prod: excel
 api_name:
 - Excel.ChartTitle.Text
 ms.assetid: 22e073e3-06be-4888-cac3-7daad2a9cb33
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/20/2019
+ms.localizationpriority: medium
 ---
 
 
 # ChartTitle.Text property (Excel)
 
-Returns or sets the text for the specified object. Read/write  **String**.
+Returns or sets the text for the specified object. Read/write **String**.
 
 
 ## Syntax
 
-_expression_. `Text`
+_expression_.**Text**
 
-_expression_ A variable that represents a [ChartTitle](Excel.ChartTitle-graph-property.md) object.
+_expression_ A variable that represents a **[ChartTitle](Excel.ChartTitle(object).md)** object.
 
 
 ## Example
@@ -37,9 +36,6 @@ End With
 ```
 
 
-## See also
 
-
-[ChartTitle Object](Excel.ChartTitle(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

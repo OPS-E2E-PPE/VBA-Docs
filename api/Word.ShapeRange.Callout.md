@@ -3,30 +3,29 @@ title: ShapeRange.Callout property (Word)
 keywords: vbawd10.chm162857063
 f1_keywords:
 - vbawd10.chm162857063
-ms.prod: word
 api_name:
 - Word.ShapeRange.Callout
 ms.assetid: 87cc8811-497d-17b9-4483-682cdd1fbce3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ShapeRange.Callout property (Word)
 
-Returns a  **[CalloutFormat](Word.CalloutFormat.md)** object that contains callout formatting properties for the specified shape. Read-only.
+Returns a **[CalloutFormat](Word.CalloutFormat.md)** object that contains callout formatting properties for the specified shape. Read-only.
 
 
 ## Syntax
 
- _expression_. `Callout`
+_expression_.**Callout**
 
- _expression_ A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
-This property applies to  **ShapeRange** objects that represent callouts.
+This property applies to **ShapeRange** objects that represent callouts.
 
 
 ## Example

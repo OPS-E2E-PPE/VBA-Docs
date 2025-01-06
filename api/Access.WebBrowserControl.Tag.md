@@ -3,12 +3,11 @@ title: WebBrowserControl.Tag property (Access)
 keywords: vbaac10.chm14685
 f1_keywords:
 - vbaac10.chm14685
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Tag
 ms.assetid: 540e37bb-db7b-4b5d-9713-b4829a8acd57
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,7 +29,7 @@ You can enter a string expression up to 2048 characters long. The default settin
 
 Unlike other properties, the **Tag** property setting doesn't affect any of an object's attributes.
 
-You can use this property to assign an identification string to an object without affecting any of its other property settings or causing other side effects. The **Tag** property is useful when you need to check the identity of a form, report, section, or control that is passed as a variable to a procedure.
+Use this property to assign an identification string to an object without affecting any of its other property settings or causing other side effects. The **Tag** property is useful when you need to check the identity of a form, report, section, or control that is passed as a variable to a procedure.
 
 
 ## Example

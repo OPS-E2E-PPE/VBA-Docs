@@ -3,18 +3,15 @@ title: StrConv constants
 keywords: vblr6.chm1012530
 f1_keywords:
 - vblr6.chm1012530
-ms.prod: office
 ms.assetid: bac42216-f443-439a-d346-f74da2d98edd
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # StrConv constants
 
 The following [constants](../../Glossary/vbe-glossary.md#constant) can be used anywhere in your code in place of the actual values.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

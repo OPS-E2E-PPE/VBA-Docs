@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeApplyTables property (Word)
 keywords: vbawd10.chm165347618
 f1_keywords:
 - vbawd10.chm165347618
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeApplyTables
 ms.assetid: e7435efc-b4a1-97a3-a7b1-d6e1fabfd0c2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyTables`
+_expression_. `AutoFormatAsYouTypeApplyTables`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example sets Word to automatically create tables as you type.
 Options.AutoFormatAsYouTypeApplyTables = True
 ```
 
-This example returns the status of the  **Tables** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Tables** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

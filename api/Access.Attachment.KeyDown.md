@@ -3,12 +3,11 @@ title: Attachment.KeyDown event (Access)
 keywords: vbaac10.chm14032
 f1_keywords:
 - vbaac10.chm14032
-ms.prod: access
 api_name:
 - Access.Attachment.KeyDown
 ms.assetid: 91a000e2-0a4e-4dd0-2715-b1987eb7212a
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -29,7 +28,7 @@ _expression_ A variable that represents an **[Attachment](Access.Attachment.md)*
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyCode_|Required|**Integer**|A key code, such as **vbKeyF1** (the F1 key) or **vbKeyHome** (the Home key). To specify key codes, use the intrinsic constants shown in the Object Browser. You can prevent an object from receiving a keystroke by setting _KeyCode_ to 0.|
-| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys at the time of the event. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p><b>acShiftMask</b>  The bit mask for the Shift key.</p></li><li><p><b>acCtrlMask</b>  The bit mask for the Ctrl key.</p></li><li><p><b>acAltMask</b>  The bit mask for the Alt key.</p></li></ul> |
+| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys at the time of the event. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p>**acShiftMask**  The bit mask for the Shift key.</p></li><li><p>**acCtrlMask**  The bit mask for the Ctrl key.</p></li><li><p>**acAltMask**  The bit mask for the Alt key.</p></li></ul> |
 
 ## Remarks
 

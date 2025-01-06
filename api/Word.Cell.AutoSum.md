@@ -3,12 +3,11 @@ title: Cell.AutoSum method (Word)
 keywords: vbawd10.chm156106958
 f1_keywords:
 - vbawd10.chm156106958
-ms.prod: word
 api_name:
 - Word.Cell.AutoSum
 ms.assetid: 5f8c36c3-2e26-8e5f-16c4-49d4c04144c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Inserts an = (Formula) field that calculates and displays the sum of the values 
 
 ## Syntax
 
- _expression_. `AutoSum`
+_expression_. `AutoSum`
 
- _expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-For information about how Word determines which values to add, see the  **[Formula](Word.Cell.Formula.md)** method.
+For information about how Word determines which values to add, see the **[Formula](Word.Cell.Formula.md)** method.
 
 
 ## Example

@@ -1,9 +1,8 @@
 ---
 title: ADO for Visual C++ syntax index with import
-ms.prod: access
 ms.assetid: 68821c65-a96d-2524-d77c-030215db8e53
-ms.date: 10/12/2018
-localization_priority: Normal
+ms.date: 09/12/2021
+ms.localizationpriority: medium
 ---
 
 
@@ -15,7 +14,7 @@ This index is a cross-reference to the ADO Language Reference based on Microsoft
 
 This particular index was derived by compiling a program with the **#import** directive against the ADO .dll, and then reformatting the *.tlh file that was generated. Only information about methods, properties, and events was preserved. The alternative syntax declared for each property is listed by the corresponding "" directive.
 
-We recommend that you read [Visual C++ ADO Programming](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/visual-c-ado-programming) for more information.
+We recommend that you read [Visual C++ ADO Programming](/office/client-developer/access/desktop-database-reference/visual-c-ado-programming) for more information.
 
 Method and property syntax in Visual C++ with the **#import** directive is listed for the following elements:
 
@@ -37,8 +36,8 @@ Method and property syntax in Visual C++ with the **#import** directive is liste
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

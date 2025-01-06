@@ -3,18 +3,17 @@ title: AccessObject.IsLoaded property (Access)
 keywords: vbaac10.chm12750
 f1_keywords:
 - vbaac10.chm12750
-ms.prod: access
 api_name:
 - Access.AccessObject.IsLoaded
 ms.assetid: 5e68398c-8a95-f3e1-87ec-e2d637f34429
 ms.date: 02/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # AccessObject.IsLoaded property (Access)
 
-You can use the **IsLoaded** property to determine if an **AccessObject** object is currently loaded. Read-only **Boolean**.
+Use the **IsLoaded** property to determine if an **AccessObject** object is currently loaded. Read-only **Boolean**.
 
 
 ## Syntax
@@ -40,7 +39,7 @@ The following example shows how to prevent a user from opening a particular form
 ```vb
 'Don't let this form be opened from the Navigator
 If Not CurrentProject.AllForms(cFormUsage).IsLoaded Then
-    MsgBox "This form cannot be opened from the Navigation Pane.", _
+    MsgBox "This form cannot be opened from the navigation pane.", _
         vbInformation + vbOKOnly, "Invalid form usage"
     Cancel = True
     Exit Sub

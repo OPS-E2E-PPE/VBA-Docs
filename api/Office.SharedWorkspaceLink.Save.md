@@ -3,12 +3,11 @@ title: SharedWorkspaceLink.Save method (Office)
 keywords: vbaof11.chm270008
 f1_keywords:
 - vbaof11.chm270008
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.Save
 ms.assetid: 5e5f2d01-19dd-a7fb-04aa-25cacb53c02e
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

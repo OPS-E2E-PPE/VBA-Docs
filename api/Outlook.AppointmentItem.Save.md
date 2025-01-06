@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.Save Method (Outlook)
+title: AppointmentItem.Save method (Outlook)
 keywords: vbaol11.chm874
 f1_keywords:
 - vbaol11.chm874
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.Save
 ms.assetid: 177980e8-96cc-a72e-ede3-7aad3a98cf68
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.Save Method (Outlook)
+# AppointmentItem.Save method (Outlook)
 
 Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.
 
 
 ## Syntax
 
-_expression_. `Save`
+_expression_.**Save**
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example creates an appointment item and sets the  **[AppointmentItem.ReminderSet](Outlook.AppointmentItem.ReminderSet.md)** property before saving it.
+This Microsoft Visual Basic for Applications (VBA) example creates an appointment item and sets the **[AppointmentItem.ReminderSet](Outlook.AppointmentItem.ReminderSet.md)** property before saving it.
 
 
 ```vb

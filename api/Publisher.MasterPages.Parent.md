@@ -1,33 +1,31 @@
 ---
-title: MasterPages.Parent Property (Publisher)
+title: MasterPages.Parent property (Publisher)
 keywords: vbapb10.chm589826
 f1_keywords:
 - vbapb10.chm589826
-ms.prod: publisher
 api_name:
 - Publisher.MasterPages.Parent
 ms.assetid: 55a82ec9-7a1c-efd7-a316-85f103018b2c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# MasterPages.Parent Property (Publisher)
+# MasterPages.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **MasterPages** object.
+_expression_ A variable that represents a **[MasterPages](Publisher.MasterPages.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

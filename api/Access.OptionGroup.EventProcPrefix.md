@@ -3,12 +3,11 @@ title: OptionGroup.EventProcPrefix property (Access)
 keywords: vbaac10.chm10819
 f1_keywords:
 - vbaac10.chm10819
-ms.prod: access
 api_name:
 - Access.OptionGroup.EventProcPrefix
 ms.assetid: a1a47d5b-5ba9-5071-bdc5-a5ea13d8d78a
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

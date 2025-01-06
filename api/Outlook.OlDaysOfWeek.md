@@ -1,18 +1,17 @@
 ---
-title: OlDaysOfWeek Enumeration (Outlook)
+title: OlDaysOfWeek enumeration (Outlook)
 keywords: vbaol11.chm3054
 f1_keywords:
 - vbaol11.chm3054
-ms.prod: outlook
 api_name:
 - Outlook.OlDaysOfWeek
 ms.assetid: 49712ccf-4ff7-bfdc-c023-94bcd0d97046
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlDaysOfWeek Enumeration (Outlook)
+# OlDaysOfWeek enumeration (Outlook)
 
 Constants representing days of the week.
 

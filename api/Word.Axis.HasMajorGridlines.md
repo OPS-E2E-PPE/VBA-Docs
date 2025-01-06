@@ -3,12 +3,11 @@ title: Axis.HasMajorGridlines property (Word)
 keywords: vbawd10.chm113049611
 f1_keywords:
 - vbawd10.chm113049611
-ms.prod: word
 api_name:
 - Word.Axis.HasMajorGridlines
 ms.assetid: bd207374-f9b1-ed1d-f309-30c07ebf1e70
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasMajorGridlines`
+_expression_.**HasMajorGridlines**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks

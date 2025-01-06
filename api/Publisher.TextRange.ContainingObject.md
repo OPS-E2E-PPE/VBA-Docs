@@ -1,27 +1,26 @@
 ---
-title: TextRange.ContainingObject Property (Publisher)
+title: TextRange.ContainingObject property (Publisher)
 keywords: vbapb10.chm5308465
 f1_keywords:
 - vbapb10.chm5308465
-ms.prod: publisher
 api_name:
 - Publisher.TextRange.ContainingObject
 ms.assetid: f15c81b5-d03f-0d83-323b-6ec6f57b4f26
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.ContainingObject Property (Publisher)
+# TextRange.ContainingObject property (Publisher)
 
-Returns an  **Object** that represents the object that contains the text range. Read-only.
+Returns an **Object** that represents the object that contains the text range. Read-only.
 
 
 ## Syntax
 
- _expression_. **ContainingObject**
+_expression_.**ContainingObject**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Object
 ## Example
 
 This example returns the name of the object containing the specified text range.
-
 
 ```vb
 Sub NameOfContainingObject() 

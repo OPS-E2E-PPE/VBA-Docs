@@ -1,31 +1,31 @@
 ---
-title: Project.HyperlinkColor Property (Project)
+title: Project.HyperlinkColor property (Project)
 keywords: vbapj.chm132343
 f1_keywords:
 - vbapj.chm132343
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.HyperlinkColor
 ms.assetid: de3fac1b-b422-39f2-1163-124700bae03a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.HyperlinkColor Property (Project)
+# Project.HyperlinkColor property (Project)
 
-Gets or sets the color used to denote unfollowed hyperlinks. Read/write  **PjColor**.
+Gets or sets the color used to denote unfollowed hyperlinks. Read/write **PjColor**.
 
 
 ## Syntax
 
- _expression_. `HyperlinkColor`
+_expression_. `HyperlinkColor`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **HyperlinkColor** property is one of the **[PjColor](Project.PjColor.md)** constants. To get a hexadecimal RGB value for the color, use the **[HyperlinkColorEx](Project.Project.HyperlinkColorEx.md)** property.
+The **HyperlinkColor** property is one of the **[PjColor](Project.PjColor.md)** constants. To get a hexadecimal RGB value for the color, use the **[HyperlinkColorEx](Project.Project.HyperlinkColorEx.md)** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

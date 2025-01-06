@@ -1,33 +1,31 @@
 ---
-title: CellRange.Row Property (Publisher)
+title: CellRange.Row property (Publisher)
 keywords: vbapb10.chm5177350
 f1_keywords:
 - vbapb10.chm5177350
-ms.prod: publisher
 api_name:
 - Publisher.CellRange.Row
 ms.assetid: ac5bccf0-6c9b-ce0e-20e5-f06ef29886c6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# CellRange.Row Property (Publisher)
+# CellRange.Row property (Publisher)
 
-Returns a  **Long** that represents the row number containing the specified cell. Read-only.
+Returns a **Long** that represents the row number containing the specified cell. Read-only.
 
 
 ## Syntax
 
- _expression_. **Row**
+_expression_.**Row**
 
- _expression_ A variable that represents a  **CellRange** object.
+_expression_ A variable that represents a **[CellRange](Publisher.CellRange.md)** object.
 
 
 ## Example
 
-This example enters the fill for all even-numbered rows and clears the fill for all odd-numbered rows in the specified table. This example assumes the specified shape is a table and not another type of shape.
-
+This example enters the fill for all even-numbered rows and clears the fill for all odd-numbered rows in the specified table. This example assumes that the specified shape is a table and not another type of shape.
 
 ```vb
 Sub FillCellsByRow() 

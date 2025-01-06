@@ -1,15 +1,14 @@
 ---
-title: PpBaselineAlignment Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpBaselineAlignment enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpBaselineAlignment
 ms.assetid: 0a7a5ae6-c0e9-8652-01af-6b2f287d41a7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpBaselineAlignment Enumeration (PowerPoint)
+# PpBaselineAlignment enumeration (PowerPoint)
 
 Specifies the base line alignment for a paragraph.
 

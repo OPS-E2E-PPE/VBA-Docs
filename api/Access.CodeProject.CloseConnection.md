@@ -3,18 +3,17 @@ title: CodeProject.CloseConnection method (Access)
 keywords: vbaac10.chm12716
 f1_keywords:
 - vbaac10.chm12716
-ms.prod: access
 api_name:
 - Access.CodeProject.CloseConnection
 ms.assetid: 850a09c8-45a8-26e4-79f5-e688599a990a
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CodeProject.CloseConnection method (Access)
 
-You can use the **CloseConnection** method to close the current connection between the **CodeProject** object in a Microsoft Access project (.adp) or Access database and the database specified in the project's base connection string.
+Use the **CloseConnection** method to close the current connection between the **CodeProject** object in a Microsoft Access project (.adp) or Access database and the database specified in the project's base connection string.
 
 
 ## Syntax

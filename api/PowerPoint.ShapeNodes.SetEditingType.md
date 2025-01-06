@@ -1,27 +1,26 @@
 ---
-title: ShapeNodes.SetEditingType Method (PowerPoint)
+title: ShapeNodes.SetEditingType method (PowerPoint)
 keywords: vbapp10.chm560007
 f1_keywords:
 - vbapp10.chm560007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeNodes.SetEditingType
 ms.assetid: ae048107-b416-53f3-ad8b-11a917f7e3dc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeNodes.SetEditingType Method (PowerPoint)
+# ShapeNodes.SetEditingType method (PowerPoint)
 
 Sets the editing type of the specified node.
 
 
 ## Syntax
 
- _expression_. `SetEditingType`( `_Index_`, `_EditingType_` )
+_expression_. `SetEditingType`( `_Index_`, `_EditingType_` )
 
- _expression_ A variable that represents a [ShapeNodes](./PowerPoint.ShapeNodes.md) object.
+_expression_ A variable that represents a **[ShapeNodes](PowerPoint.ShapeNodes.md)** object.
 
 
 ## Parameters
@@ -49,7 +48,7 @@ The  _EditingType_ parameter value can be one of these **MsoEditingType** consta
 
 ## Example
 
-This example changes all corner nodes to smooth nodes in shape three on  `myDocument`. Shape three must be a freeform drawing.
+This example changes all corner nodes to smooth nodes in shape three on _myDocument_. Shape three must be a freeform drawing.
 
 
 ```vb

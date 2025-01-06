@@ -1,27 +1,26 @@
 ---
-title: AxisTitle Object (PowerPoint)
+title: AxisTitle object (PowerPoint)
 keywords: vbapp10.chm683000
 f1_keywords:
 - vbapp10.chm683000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AxisTitle
 ms.assetid: 8eddc95c-2353-43fa-c055-ee76de28009d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AxisTitle Object (PowerPoint)
+# AxisTitle object (PowerPoint)
 
 Represents a chart axis title.
 
 
 ## Remarks
 
-Use the  **[AxisTitle](PowerPoint.Axis.AxisTitle.md)** property to return an **AxisTitle** object.
+Use the **[AxisTitle](PowerPoint.Axis.AxisTitle.md)** property to return an **AxisTitle** object.
 
-The  **AxisTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Axis.HasTitle.md)** property for the axis is **True**.
+The **AxisTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Axis.HasTitle.md)** property for the axis is **True**.
 
 
 ## Example
@@ -29,7 +28,8 @@ The  **AxisTitle** object does not exist and cannot be used unless the **[HasTit
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the caption, sets the font to Bookman 10 point, and formats the word "millions" as italic for the axis title of the value axis for the first chart in the active document.
 

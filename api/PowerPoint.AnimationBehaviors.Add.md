@@ -1,32 +1,29 @@
 ---
-title: AnimationBehaviors.Add Method (PowerPoint)
+title: AnimationBehaviors.Add method (PowerPoint)
 keywords: vbapp10.chm656004
 f1_keywords:
 - vbapp10.chm656004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationBehaviors.Add
 ms.assetid: 427e7faa-1fc7-a145-98bc-1954054c2aec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationBehaviors.Add Method (PowerPoint)
+# AnimationBehaviors.Add method (PowerPoint)
 
-Returns an  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object that represents a new animation behavior.
+Returns an **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object that represents a new animation behavior.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Type_`, `_Index_` )
+_expression_.**Add** (_Type_, _Index_)
 
-_expression_ A variable that represents an [AnimationBehaviors](./PowerPoint.AnimationBehaviors.md) object.
+_expression_ A variable that represents an [AnimationBehaviors](PowerPoint.AnimationBehaviors.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

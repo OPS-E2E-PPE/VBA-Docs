@@ -3,12 +3,11 @@ title: TabControl.KeyPress event (Access)
 keywords: vbaac10.chm14276
 f1_keywords:
 - vbaac10.chm14276
-ms.prod: access
 api_name:
 - Access.TabControl.KeyPress
 ms.assetid: 4b67dc83-b7fe-4f76-c785-e9b576f51500
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ A form will also receive all keyboard events, even those that occur for controls
 
 If you press and hold down an ANSI key, the **KeyDown** and **KeyPress** events alternate repeatedly (**KeyDown**, **KeyPress**, **KeyDown**, **KeyPress**, and so on) until you release the key, and then the **KeyUp** event occurs.
 
-A **KeyPress** event can involve any printable keyboard character, the Ctrl key combined with a character from the standard alphabet or a special character, and the Enter or Backspace key. You can use the **KeyDown** and **KeyUp** event procedures to handle any keystroke not recognized by the **KeyPress** event, such as function keys, navigation keys, and any combinations of these with keyboard modifiers (Alt, Shift, or Ctrl keys). Unlike the **KeyDown** and **KeyUp** events, the **KeyPress** event doesn't indicate the physical state of the keyboard; instead, it indicates the ANSI character that corresponds to the pressed key or key combinations.
+A **KeyPress** event can involve any printable keyboard character, the Ctrl key combined with a character from the standard alphabet or a special character, and the Enter or Backspace key. Use the **KeyDown** and **KeyUp** event procedures to handle any keystroke not recognized by the **KeyPress** event, such as function keys, navigation keys, and any combinations of these with keyboard modifiers (Alt, Shift, or Ctrl keys). Unlike the **KeyDown** and **KeyUp** events, the **KeyPress** event doesn't indicate the physical state of the keyboard; instead, it indicates the ANSI character that corresponds to the pressed key or key combinations.
 
 **KeyPress** interprets the uppercase and lowercase of each character as separate key codes and, therefore, as two separate characters.
 

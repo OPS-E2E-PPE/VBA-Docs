@@ -1,22 +1,22 @@
 ---
-title: GroupCriterion2.CellColorEx Property (Project)
-ms.prod: project-server
+title: GroupCriterion2.CellColorEx property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriterion2.CellColorEx
 ms.assetid: 7078cdff-c17b-8e56-f667-04e467b54d62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriterion2.CellColorEx Property (Project)
+# GroupCriterion2.CellColorEx property (Project)
 
-Gets or sets the color of the cell background for a field used as a criterion in a group definition. Read/write  **Long**.
+Gets or sets the color of the cell background for a field used as a criterion in a group definition. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `CellColorEx`
+_expression_. `CellColorEx`
 
  _expression_ An expression that returns a [GroupCriterion2](./Project.GroupCriterion2.md) object.
 

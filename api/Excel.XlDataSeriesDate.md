@@ -1,11 +1,10 @@
 ---
 title: XlDataSeriesDate enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlDataSeriesDate
 ms.assetid: dd5a729b-ce3c-eb9c-e251-33fc83db50fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

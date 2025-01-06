@@ -1,11 +1,10 @@
 ---
 title: TextFrame2.MarginRight property (Office)
-ms.prod: office
 api_name:
 - Office.TextFrame2.MarginRight
 ms.assetid: 82f3bd91-5250-b627-1a3a-780da3c9fc66
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: CardView.MultiLineFieldHeight Property (Outlook)
+title: CardView.MultiLineFieldHeight property (Outlook)
 keywords: vbaol11.chm2601
 f1_keywords:
 - vbaol11.chm2601
-ms.prod: outlook
 api_name:
 - Outlook.CardView.MultiLineFieldHeight
 ms.assetid: 71b87b15-ef48-9214-295c-731bb9fbc808
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CardView.MultiLineFieldHeight Property (Outlook)
+# CardView.MultiLineFieldHeight property (Outlook)
 
-Returns or sets a  **Long** value that determines the minimum number of lines for multiline fields displayed in the **[CardView](Outlook.CardView.md)** object. Read/write.
+Returns or sets a **Long** value that determines the minimum number of lines for multiline fields displayed in the **[CardView](Outlook.CardView.md)** object. Read/write.
 
 
 ## Syntax
 
 _expression_. `MultiLineFieldHeight`
 
-_expression_ A variable that represents a [CardView](./Outlook.CardView.md) object.
+_expression_ A variable that represents a [CardView](Outlook.CardView.md) object.
 
 
 ## Remarks

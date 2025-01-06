@@ -1,18 +1,17 @@
 ---
-title: VisGlueSettings Enumeration (Visio)
+title: VisGlueSettings enumeration (Visio)
 keywords: vis_sdr.chm70330
 f1_keywords:
 - vis_sdr.chm70330
-ms.prod: visio
 ms.assetid: 8b8f0e7e-d9d0-ade4-6738-2b74631ace57
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisGlueSettings Enumeration (Visio)
+# VisGlueSettings enumeration (Visio)
 
-Flags passed to or returned by the  **Document.GlueSettings** property.
+Flags passed to or returned by the **Document.GlueSettings** property.
 
 
 

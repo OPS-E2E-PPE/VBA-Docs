@@ -1,15 +1,14 @@
 ---
-title: TaskItem.AttachmentAdd Event (Outlook)
-ms.prod: outlook
+title: TaskItem.AttachmentAdd event (Outlook)
 api_name:
 - Outlook.TaskItem.AttachmentAdd
 ms.assetid: 989c0e3c-ad11-8017-3b0f-f5e3636c3de6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.AttachmentAdd Event (Outlook)
+# TaskItem.AttachmentAdd event (Outlook)
 
 Occurs when an attachment has been added to an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been added to an instance of the parent object.
 
 _expression_. `AttachmentAdd`( `_Attachment_` )
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was added to the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was added to the item.|
 
 ## Example
 
-This Visual Basic for Applications (VBA) example checks the size of the item after an attachment has been added and displays a warning if the size exceeds 500,000 bytes. The sample code must be placed in a class module such as  `ThisOutlookSession`, and the  `TestAttachAdd()` procedure should be called before the event procedure can be called by Microsoft Outlook.
+This Visual Basic for Applications (VBA) example checks the size of the item after an attachment has been added and displays a warning if the size exceeds 500,000 bytes. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `TestAttachAdd()` procedure should be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

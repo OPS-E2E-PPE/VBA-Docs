@@ -1,17 +1,16 @@
 ---
 title: TextRange2.BoundWidth property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.BoundWidth
 ms.assetid: a5668c93-0206-c26f-41bc-771c1ceef7e6
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextRange2.BoundWidth property (Office)
 
-Gets the width, in points, of the text bounding box for the specified text. Read-only.
+Gets the width, in [points](../language/glossary/vbe-glossary.md#point), of the text bounding box for the specified text. Read-only.
 
 
 ## Syntax

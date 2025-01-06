@@ -1,27 +1,26 @@
 ---
-title: ScaleEffect.Parent Property (PowerPoint)
+title: ScaleEffect.Parent property (PowerPoint)
 keywords: vbapp10.chm660002
 f1_keywords:
 - vbapp10.chm660002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ScaleEffect.Parent
 ms.assetid: d95ae142-5fd5-114f-a200-6a7d23b0b2fd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ScaleEffect.Parent Property (PowerPoint)
+# ScaleEffect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [ScaleEffect](./PowerPoint.ScaleEffect.md) object.
+_expression_ A variable that represents a [ScaleEffect](PowerPoint.ScaleEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

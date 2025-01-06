@@ -1,20 +1,19 @@
 ---
-title: Master.DataGraphicHorizontalPosition Property (Visio)
+title: Master.DataGraphicHorizontalPosition property (Visio)
 keywords: vis_sdr.chm10760125
 f1_keywords:
 - vis_sdr.chm10760125
-ms.prod: visio
 api_name:
 - Visio.Master.DataGraphicHorizontalPosition
 ms.assetid: d9c98a41-ffc0-152e-2150-0915bd38bcac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.DataGraphicHorizontalPosition Property (Visio)
+# Master.DataGraphicHorizontalPosition property (Visio)
 
-Gets or sets the default horizontal callout position for members of the  **GraphicItems** collection of the **Master** object of type **visTypeDataGraphic**. Read/write.
+Gets or sets the default horizontal callout position for members of the **GraphicItems** collection of the **Master** object of type **visTypeDataGraphic**. Read/write.
 
 > [!NOTE] 
 > This Visio object or member is available only to licensed users of Visio Professional 2013.
@@ -22,9 +21,9 @@ Gets or sets the default horizontal callout position for members of the  **Graph
 
 ## Syntax
 
- _expression_. `DataGraphicHorizontalPosition`
+_expression_. `DataGraphicHorizontalPosition`
 
- _expression_ An expression that returns a [Master](./Visio.Master.md) object.
+ _expression_ An expression that returns a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -34,13 +33,13 @@ VisGraphicPositionHorizontal
 
 ## Remarks
 
-The default horizontal callout position for graphic items in the  **GraphicItems** collection of a **Master** object of type **visTypeDataGraphic** , commonly called a data graphic master, is specified by the settings of the **Master.DataGraphicHorizontalPosition** property. If **GraphicItem.UseDataGraphicPosition** is **True** , the graphic item is positioned according to the default setting. If **UseDataGraphicPosition** is **False** , its horizontal position is determined by the settings of the **GraphicItem.HorizontalPosition** property.
+The default horizontal callout position for graphic items in the **GraphicItems** collection of a **Master** object of type **visTypeDataGraphic**, commonly called a data graphic master, is specified by the settings of the **Master.DataGraphicHorizontalPosition** property. If **GraphicItem.UseDataGraphicPosition** is **True**, the graphic item is positioned according to the default setting. If **UseDataGraphicPosition** is **False**, its horizontal position is determined by the settings of the **GraphicItem.HorizontalPosition** property.
 
 Note, however, that users can manually re-position a data graphic that was applied to a shape by using the control handle of the data graphic. A position set in this manner takes precedence over the position specified by property settings.
 
-The setting of the  **DataGraphicHorizontalPosition** property corresponds to the setting of the **Horizontal** box under **Default position** in the **New Data Graphic** or **Edit Data Graphic** dialog box in the Microsoft Visio user interface (UI).
+The setting of the **DataGraphicHorizontalPosition** property corresponds to the setting of the **Horizontal** box under **Default position** in the **New Data Graphic** or **Edit Data Graphic** dialog box in the Microsoft Visio user interface (UI).
 
-The following possible values for the  **DataGraphicHorizontalPosition** property are from the **VisGraphicPositionHorizontal** enumeration, which is declared in the Visio type library.
+The following possible values for the **DataGraphicHorizontalPosition** property are from the **VisGraphicPositionHorizontal** enumeration, which is declared in the Visio type library.
 
 
 
@@ -55,6 +54,6 @@ The following possible values for the  **DataGraphicHorizontalPosition** propert
 | **visGraphicFarRight**|6|The left edge of the graphic item's alignment box is aligned with the right edge of the shape's alignment box.|
 
 > [!NOTE] 
-> Before you can set any property of a graphic item, you must use the  **[Master.Open](Visio.Master.Open.md)** method to open for editing a copy of the data graphic master whose **GraphicItems** collection the graphic item belongs to. When you are finished setting properties, use the **Master.Close** method to commit changes.
+> Before you can set any property of a graphic item, you must use the **[Master.Open](Visio.Master.Open.md)** method to open for editing a copy of the data graphic master whose **GraphicItems** collection the graphic item belongs to. When you are finished setting properties, use the **Master.Close** method to commit changes.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

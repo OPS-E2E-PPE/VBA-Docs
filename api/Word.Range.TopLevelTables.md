@@ -3,32 +3,31 @@ title: Range.TopLevelTables property (Word)
 keywords: vbawd10.chm157155652
 f1_keywords:
 - vbawd10.chm157155652
-ms.prod: word
 api_name:
 - Word.Range.TopLevelTables
 ms.assetid: 43cd13b8-f779-69cd-ee60-d4ba734008f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.TopLevelTables property (Word)
 
-Returns a  **Tables** collection that represents the tables at the outermost nesting level in the current range. Read-only.
+Returns a **Tables** collection that represents the tables at the outermost nesting level in the current range. Read-only.
 
 
 ## Syntax
 
- _expression_. `TopLevelTables`
+_expression_. `TopLevelTables`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
 This method returns a collection containing only those tables at the outermost nesting level within the context of the current range. These tables may not be at the outermost nesting level within the entire set of nested tables.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

@@ -1,27 +1,27 @@
 ---
-title: Application.Layout Method (Project)
+title: Application.Layout method (Project)
 keywords: vbapj.chm941
 f1_keywords:
 - vbapj.chm941
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.Layout
 ms.assetid: 0b1aaddf-503b-37ff-f9f4-eb102a6ca885
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Layout Method (Project)
+# Application.Layout method (Project)
 
-Displays the  **Layout** dialog box, which allows the user to set layout options for the active view.
+Displays the **Layout** dialog box, which allows the user to set layout options for the active view.
 
 
 ## Syntax
 
- _expression_.**Layout**
+_expression_.**Layout**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Displays the  **Layout** dialog box, which allows the user to set layout options
 
 ## Remarks
 
-The  **Layout** method is only available when a Gantt, Network Diagram, or Calendar view is active.
+The **Layout** method is only available when a Gantt, Network Diagram, or Calendar view is active.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

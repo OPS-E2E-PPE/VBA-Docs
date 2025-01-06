@@ -1,27 +1,26 @@
 ---
-title: OutlookBarGroups.BeforeGroupAdd Event (Outlook)
+title: OutlookBarGroups.BeforeGroupAdd event (Outlook)
 keywords: vbaol11.chm356
 f1_keywords:
 - vbaol11.chm356
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarGroups.BeforeGroupAdd
 ms.assetid: 7bce246a-69fa-0dcd-4c43-fbfc43385864
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarGroups.BeforeGroupAdd Event (Outlook)
+# OutlookBarGroups.BeforeGroupAdd event (Outlook)
 
-Occurs before a new group is added to the  **Shortcuts** pane, either as a result of user action or through program code.
+Occurs before a new group is added to the **Shortcuts** pane, either as a result of user action or through program code.
 
 
 ## Syntax
 
 _expression_. `BeforeGroupAdd`( `_Cancel_` )
 
-_expression_ A variable that represents an [OutlookBarGroups](./Outlook.OutlookBarGroups.md) object.
+_expression_ A variable that represents an [OutlookBarGroups](Outlook.OutlookBarGroups.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ _expression_ A variable that represents an [OutlookBarGroups](./Outlook.OutlookB
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the group is not added to the **Shortcuts** pane.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the group is not added to the **Shortcuts** pane.|
 
 ## Remarks
 
@@ -39,7 +38,7 @@ _expression_ A variable that represents an [OutlookBarGroups](./Outlook.OutlookB
 
 ## Example
 
-This Visual Basic for Applications (VBA) example prevents the user from adding a group to the  **Shortcuts** pane. The sample code must be placed in a class module such as `ThisOutlookSession`, and the  `Initialize_handler` routine must be called before the event procedure can be called by Outlook.
+This Visual Basic for Applications (VBA) example prevents the user from adding a group to the **Shortcuts** pane. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `Initialize_handler` routine must be called before the event procedure can be called by Outlook.
 
 
 ```vb

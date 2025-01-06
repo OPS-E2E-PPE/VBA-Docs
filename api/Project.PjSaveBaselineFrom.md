@@ -1,15 +1,15 @@
 ---
-title: PjSaveBaselineFrom Enumeration (Project)
-ms.prod: project-server
+title: PjSaveBaselineFrom enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjSaveBaselineFrom
 ms.assetid: eef21c4e-77e8-d4c2-42fb-18ceb14bbddc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjSaveBaselineFrom Enumeration (Project)
+# PjSaveBaselineFrom enumeration (Project)
 
 Contains constants that specify which fields to copy from.
 

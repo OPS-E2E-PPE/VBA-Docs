@@ -3,34 +3,33 @@ title: Border.LineStyle property (Word)
 keywords: vbawd10.chm154861571
 f1_keywords:
 - vbawd10.chm154861571
-ms.prod: word
 api_name:
 - Word.Border.LineStyle
 ms.assetid: 1e95d9b9-1293-753a-efbd-8fc95e9dd8b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Border.LineStyle property (Word)
 
-Returns or sets the border line style for the specified object. Read/write  **WdLineStyle**.
+Returns or sets the border line style for the specified object. Read/write **WdLineStyle**.
 
 
 ## Syntax
 
- _expression_. `LineStyle`
+_expression_.**LineStyle**
 
- _expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
+_expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
 
 
 ## Remarks
 
-Setting the  **LineStyle** property for a range that refers to individual characters or words applies a character border.
+Setting the **LineStyle** property for a range that refers to individual characters or words applies a character border.
 
-Setting the  **LineStyle** property for a paragraph or range of paragraphs applies a paragraph border. Use the **InsideLineStyle** property to apply a border between consecutive paragraphs.
+Setting the **LineStyle** property for a paragraph or range of paragraphs applies a paragraph border. Use the **InsideLineStyle** property to apply a border between consecutive paragraphs.
 
-Setting the  **LineStyle** property for a section applies a page border around the pages in the section.
+Setting the **LineStyle** property for a section applies a page border around the pages in the section.
 
 
 ## Example

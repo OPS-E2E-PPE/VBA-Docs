@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Delete Method (Project)
-ms.prod: project-server
+title: ShapeRange.Delete method (Project)
+ms.service: project-server
 ms.assetid: 6f130a5d-5833-5bdb-d169-029061edf22b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Delete Method (Project)
+# ShapeRange.Delete method (Project)
 Deletes the shape range.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value

@@ -1,24 +1,23 @@
 ---
-title: TextStyleLevels.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: TextStyleLevels.Count property (PowerPoint)
 api_name:
 - PowerPoint.TextStyleLevels.Count
 ms.assetid: ec2c4c53-482d-725a-5d86-3869d55dda38
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextStyleLevels.Count Property (PowerPoint)
+# TextStyleLevels.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [TextStyleLevels](./PowerPoint.TextStyleLevels.md) object.
+_expression_ A variable that represents a [TextStyleLevels](PowerPoint.TextStyleLevels.md) object.
 
 
 ## Return value

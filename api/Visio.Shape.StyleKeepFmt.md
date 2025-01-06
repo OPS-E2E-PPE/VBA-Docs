@@ -1,27 +1,26 @@
 ---
-title: Shape.StyleKeepFmt Property (Visio)
+title: Shape.StyleKeepFmt property (Visio)
 keywords: vis_sdr.chm11214450
 f1_keywords:
 - vis_sdr.chm11214450
-ms.prod: visio
 api_name:
 - Visio.Shape.StyleKeepFmt
 ms.assetid: 22403064-fa5d-c0cf-8ee7-0f8ae2895d3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.StyleKeepFmt Property (Visio)
+# Shape.StyleKeepFmt property (Visio)
 
 Applies a style to an object while preserving local formatting. Read/write.
 
 
 ## Syntax
 
- _expression_. `StyleKeepFmt`
+_expression_. `StyleKeepFmt`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,6 +30,6 @@ String
 
 ## Remarks
 
-Beginning with Microsoft Visio 2002, setting  **StyleKeepFmt** to an empty string ("") will cause the master's style to be reapplied to the shape. (Earlier versions generate a "no such style" exception.) If the shape has no master, its style remains unchanged.
+Beginning with Microsoft Visio 2002, setting **StyleKeepFmt** to an empty string ("") will cause the master's style to be reapplied to the shape. (Earlier versions generate a "no such style" exception.) If the shape has no master, its style remains unchanged.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

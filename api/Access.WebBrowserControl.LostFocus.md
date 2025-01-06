@@ -3,12 +3,11 @@ title: WebBrowserControl.LostFocus event (Access)
 keywords: vbaac10.chm143131
 f1_keywords:
 - vbaac10.chm143131
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.LostFocus
 ms.assetid: 4daa5867-d8c1-b423-b1a8-c178bcfbb575
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

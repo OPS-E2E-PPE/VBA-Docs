@@ -3,12 +3,11 @@ title: AccessObjectProperties object (Access)
 keywords: vbaac10.chm12698
 f1_keywords:
 - vbaac10.chm12698
-ms.prod: access
 api_name:
 - Access.AccessObjectProperties
 ms.assetid: 2df86891-6038-d147-2a32-f1c77b841067
 ms.date: 02/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -25,7 +24,7 @@ Use the **AccessObjectProperties** collection in Visual Basic or in an expressio
 
 To add a user-defined property to an existing instance of an object, first define its characteristics and add it to the collection with the **[Add](Access.AccessObjectProperties.Add.md)** method. Referencing a user-defined **AccessObjectProperty** object that has not yet been appended to an **AccessObjectProperties** collection will cause an error, as will appending a user-defined **AccessObjectProperty** object to an **AccessObjectProperties** collection containing an **AccessObjectProperty** object of the same name.
 
-You can use the **[Remove](Access.AccessObjectProperties.Remove.md)** method to remove user-defined properties from the **AccessObjectProperties** collection.
+Use the **[Remove](Access.AccessObjectProperties.Remove.md)** method to remove user-defined properties from the **AccessObjectProperties** collection.
 
 > [!NOTE] 
 > A built-in or user-defined **AccessObjectProperty** object is associated only with the specific instance of an object. The property isn't defined for all instances of objects of the selected type.

@@ -1,29 +1,28 @@
 ---
-title: PostItem Object (Outlook)
+title: PostItem object (Outlook)
 keywords: vbaol11.chm3005
 f1_keywords:
 - vbaol11.chm3005
-ms.prod: outlook
 api_name:
 - Outlook.PostItem
 ms.assetid: de44065d-4e93-315a-279f-7b92f09c0465
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem Object (Outlook)
+# PostItem object (Outlook)
 
 Represents a post in a public folder that others may browse.
 
 
 ## Remarks
 
-Unlike a  **[MailItem](Outlook.MailItem.md)** object, a **PostItem** object is not sent to a recipient. You use the **[Post](Outlook.PostItem.Post.md)** method, which is analogous to the **[Send](Outlook.MailItem.Send(method).md)** method for the **MailItem** object, to save the **PostItem** to the target public folder instead of mailing it.
+Unlike a **[MailItem](Outlook.MailItem.md)** object, a **PostItem** object is not sent to a recipient. You use the **[Post](Outlook.PostItem.Post.md)** method, which is analogous to the **[Send](Outlook.MailItem.Send(method).md)** method for the **MailItem** object, to save the **PostItem** to the target public folder instead of mailing it.
 
-Use the  **[CreateItem](Outlook.Application.CreateItem.md)** or **[CreateItemFromTemplate](Outlook.Application.CreateItemFromTemplate.md)** method to create a **PostItem** object that represents a new post.
+Use the **[CreateItem](Outlook.Application.CreateItem.md)** or **[CreateItemFromTemplate](Outlook.Application.CreateItemFromTemplate.md)** method to create a **PostItem** object that represents a new post.
 
-Use  **[Items](Outlook.Items.md)** ( _index_ ), where _index_ is the index number of a post or a value used to match the default property of a post, to return a single **PostItem** object from a public folder.
+Use **[Items](Outlook.Items.md)** (_index_), where _index_ is the index number of a post or a value used to match the default property of a post, to return a single **PostItem** object from a public folder.
 
 
 ## Example
@@ -160,6 +159,6 @@ Set myItem = myOlApp.CreateItem(olPostItem)
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

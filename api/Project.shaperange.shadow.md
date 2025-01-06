@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Shadow Property (Project)
-ms.prod: project-server
+title: ShapeRange.Shadow property (Project)
+ms.service: project-server
 ms.assetid: 900d4206-a21b-19ea-4e41-149a9d5b373c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Shadow Property (Project)
-Gets or sets the shadow formatting properties for the shape range. Read-only  **[ShadowFormat](https://msdn.microsoft.com/library/office/ff195339%28v=office.15%29)**.
+# ShapeRange.Shadow property (Project)
+Gets or sets the shadow formatting properties for the shape range. Read-only **[ShadowFormat](https://msdn.microsoft.com/library/office/ff195339%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `Shadow`
+_expression_.**Shadow**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

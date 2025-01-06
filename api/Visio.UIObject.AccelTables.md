@@ -1,27 +1,26 @@
 ---
-title: UIObject.AccelTables Property (Visio)
+title: UIObject.AccelTables property (Visio)
 keywords: vis_sdr.chm14913005
 f1_keywords:
 - vis_sdr.chm14913005
-ms.prod: visio
 api_name:
 - Visio.UIObject.AccelTables
 ms.assetid: 01cdfc77-47b3-b160-fbaa-9e7d615abff2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UIObject.AccelTables Property (Visio)
+# UIObject.AccelTables property (Visio)
 
-Returns the  **AccelTables** collection of a **UIObject** object. Read-only.
+Returns the **AccelTables** collection of a **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `AccelTables`
+_expression_. `AccelTables`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -32,18 +31,19 @@ AccelTables
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-If a  **UIObject** object represents menu items and accelerators (for example, if you used the **BuiltInMenus** property of an **Application** object to retrieve the **UIObject** object), its **AccelTables** collection represents tables of accelerator keys for that **UIObject** object.
+If a **UIObject** object represents menu items and accelerators (for example, if you used the **BuiltInMenus** property of an **Application** object to retrieve the **UIObject** object), its **AccelTables** collection represents tables of accelerator keys for that **UIObject** object.
 
-To retrieve accelerators for a particular window context, for example, the drawing window, use the  **ItemAtID** property of an **AccelTables** collection. If a window context does not include accelerators, it has no **AccelTables** collection. Valid window context IDs are declared in **[VisUIObjSets](Visio.visuiobjsets.md)** in the Visio type library.
+To retrieve accelerators for a particular window context, for example, the drawing window, use the **ItemAtID** property of an **AccelTables** collection. If a window context does not include accelerators, it has no **AccelTables** collection. Valid window context IDs are declared in **[VisUIObjSets](Visio.visuiobjsets.md)** in the Visio type library.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **AccelTables** property to delete an accelerator key from a built-in menu.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **AccelTables** property to delete an accelerator key from a built-in menu.
 
-To restore the built-in menus in Microsoft Visio after you run this macro, call the  **ThisDocument.ClearCustomMenus** method.
+To restore the built-in menus in Microsoft Visio after you run this macro, call the **ThisDocument.ClearCustomMenus** method.
 
 
 

@@ -3,12 +3,11 @@ title: Borders.SurroundFooter property (Word)
 keywords: vbawd10.chm154927129
 f1_keywords:
 - vbawd10.chm154927129
-ms.prod: word
 api_name:
 - Word.Borders.SurroundFooter
 ms.assetid: 890b0ba3-6815-6836-591d-f73d90758c4b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SurroundFooter`
+_expression_. `SurroundFooter`
 
  _expression_ An expression that returns a '[Borders](Word.borders.md)' collection object.
 

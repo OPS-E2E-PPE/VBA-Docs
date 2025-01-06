@@ -3,12 +3,11 @@ title: ListBox.OnDblClick property (Access)
 keywords: vbaac10.chm11285
 f1_keywords:
 - vbaac10.chm11285
-ms.prod: access
 api_name:
 - Access.ListBox.OnDblClick
 ms.assetid: 4271eff9-1d13-209a-9d7b-965893e36f59
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **DblClick** event occurs when a user presses and releases the left mouse bu
 
 The **OnDblClick** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Dbl Click** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Dbl Click** box is blank, the property value is an empty string.
 

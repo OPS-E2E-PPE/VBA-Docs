@@ -1,17 +1,17 @@
 ---
-title: ViewCombination Object (Project)
-ms.prod: project-server
+title: ViewCombination object (Project)
+ms.service: project-server
 api_name:
 - Project.ViewCombination
 ms.assetid: 34e4559a-5eb4-02be-8ad6-bdd3839d91db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewCombination Object (Project)
+# ViewCombination object (Project)
 
-Represents a combination view in Project. The  **ViewCombination** object is a member of the **[ViewsCombination](Project.viewscombination(object).md)** collection.
+Represents a combination view in Project. The **ViewCombination** object is a member of the **[ViewsCombination](Project.viewscombination(object).md)** collection.
  
 
 

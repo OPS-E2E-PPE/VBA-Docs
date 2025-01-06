@@ -1,27 +1,26 @@
 ---
-title: Shapes.Paste Method (PowerPoint)
+title: Shapes.Paste method (PowerPoint)
 keywords: vbapp10.chm543026
 f1_keywords:
 - vbapp10.chm543026
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.Paste
 ms.assetid: 8aa534f8-bd59-3945-cc1f-45ffc3883bf7
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.Paste Method (PowerPoint)
+# Shapes.Paste method (PowerPoint)
 
-Pastes the shapes, slides, or text on the Clipboard into the specified  **Shapes** collection, at the top of the z-order. Each pasted object becomes a member of the specified **Shapes** collection. If the Clipboard contains entire slides, the slides will be pasted as shapes that contain the images of the slides. If the Clipboard contains a text range, the text will be pasted into a newly created **TextFrame** shape. Returns a **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the pasted objects.
+Pastes the shapes, slides, or text on the Clipboard into the specified **Shapes** collection, at the top of the z-order. Each pasted object becomes a member of the specified **Shapes** collection. If the Clipboard contains entire slides, the slides will be pasted as shapes that contain the images of the slides. If the Clipboard contains a text range, the text will be pasted into a newly created **TextFrame** shape. Returns a **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the pasted objects.
 
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ ShapeRange
 
 ## Remarks
 
-Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
+Use the **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
 
 
 
@@ -40,6 +39,8 @@ Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set t
 |Slide view or notes page view|Shapes, text, or entire slides. If you paste a slide from the Clipboard, an image of the slide will be inserted onto the slide, master, or notes page as an embedded object. If one shape is selected, the pasted text will be appended to the shape's text; if text is selected, the pasted text will replace the selection; if anything else is selected, the pasted text will be placed in it is own text frame. Pasted shapes will be added to the top of the z-order and won't replace selected shapes.|
 |Outline view|Text or entire slides. You cannot paste shapes into outline view. A pasted slide will be inserted before the slide that contains the cursor.|
 |Slide sorter view|Entire slides. You cannot paste shapes or text into slide sorter view. A pasted slide will be inserted at the cursor or after the last slide selected in the presentation.|
+
+If the source content is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
 
 ## Example
 
@@ -76,5 +77,7 @@ End With
 
 
 [Shapes Object](PowerPoint.Shapes.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

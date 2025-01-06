@@ -3,12 +3,11 @@ title: Borders.OutsideLineWidth property (Word)
 keywords: vbawd10.chm154927113
 f1_keywords:
 - vbawd10.chm154927113
-ms.prod: word
 api_name:
 - Word.Borders.OutsideLineWidth
 ms.assetid: 4f2c2f67-7a0e-e06a-c49c-30e8446bebe2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns or sets the line width of the outside border of an object. Read/write.
 
 ## Syntax
 
- _expression_. `OutsideLineWidth`
+_expression_. `OutsideLineWidth`
 
- _expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
+_expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
 
 
 ## Remarks
 
-This property returns  **wdUndefined** if the object has outside borders with more than one line width; otherwise, returns **False** or a **WdLineWidth** constant. Can be set to **True** , **False** , or a **WdLineWidth** constant.
+This property returns **wdUndefined** if the object has outside borders with more than one line width; otherwise, returns **False** or a **WdLineWidth** constant. Can be set to **True**, **False**, or a **WdLineWidth** constant.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: WebBrowserControl.Enter event (Access)
 keywords: vbaac10.chm143126
 f1_keywords:
 - vbaac10.chm143126
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Enter
 ms.assetid: 4461f1ac-3880-42c5-8414-0d5f0fd56d4a
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

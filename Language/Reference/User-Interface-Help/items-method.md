@@ -3,12 +3,11 @@ title: Items method (Visual Basic for Applications)
 keywords: vblr6.chm2181950
 f1_keywords:
 - vblr6.chm2181950
-ms.prod: office
 api_name:
 - Office.Items
 ms.assetid: ba058f8d-d0b1-c93f-95fc-7d2e8744808c
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

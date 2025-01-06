@@ -1,27 +1,26 @@
 ---
-title: Font.ObjectType Property (Visio)
+title: Font.ObjectType property (Visio)
 keywords: vis_sdr.chm12013960
 f1_keywords:
 - vis_sdr.chm12013960
-ms.prod: visio
 api_name:
 - Visio.Font.ObjectType
 ms.assetid: ed363d74-0158-ea77-72b2-d7a1beaa0c3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.ObjectType Property (Visio)
+# Font.ObjectType property (Visio)
 
 Returns an object's type. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a [Font](./Visio.Font.md) object.
+_expression_ A variable that represents a **[Font](Visio.Font.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Integer
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Example
 
-This example shows how to use the  **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
+This example shows how to use the **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
 
 
 ```vb

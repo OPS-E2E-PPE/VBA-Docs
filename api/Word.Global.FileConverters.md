@@ -3,30 +3,29 @@ title: Global.FileConverters property (Word)
 keywords: vbawd10.chm163119121
 f1_keywords:
 - vbawd10.chm163119121
-ms.prod: word
 api_name:
 - Word.Global.FileConverters
 ms.assetid: 1112fe8e-5a32-bbef-d02f-f17f0603f539
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.FileConverters property (Word)
 
-Returns a  **[FileConverters](Word.fileconverters.md)** collection that represents all the file converters available to Microsoft Word. Read-only.
+Returns a **[FileConverters](Word.fileconverters.md)** collection that represents all the file converters available to Microsoft Word. Read-only.
 
 
 ## Syntax
 
- _expression_. `FileConverters`
+_expression_. `FileConverters`
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

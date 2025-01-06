@@ -1,27 +1,26 @@
 ---
-title: Timing.Accelerate Property (PowerPoint)
+title: Timing.Accelerate property (PowerPoint)
 keywords: vbapp10.chm653010
 f1_keywords:
 - vbapp10.chm653010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Timing.Accelerate
 ms.assetid: 3e1a7b53-e398-e814-56ed-9df19bb26a0d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Timing.Accelerate Property (PowerPoint)
+# Timing.Accelerate property (PowerPoint)
 
 Returns or sets the percentage of the duration over which a timing acceleration should take place. Read/write.
 
 
 ## Syntax
 
- _expression_. `Accelerate`
+_expression_. `Accelerate`
 
- _expression_ A variable that represents an [Timing](./PowerPoint.Timing.md) object.
+_expression_ A variable that represents an [Timing](PowerPoint.Timing.md) object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Single
 
 For example, a value of 0.9 means that an acceleration should start slower than the default speed for 90% of the total animation time, with the last 10% of the animation at the default speed. 
 
-To slow down an animation at the end, use the  **[Decelerate](PowerPoint.Timing.Decelerate.md)** property.
+To slow down an animation at the end, use the **[Decelerate](PowerPoint.Timing.Decelerate.md)** property.
 
 
 ## Example

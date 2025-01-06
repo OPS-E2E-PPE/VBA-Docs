@@ -1,11 +1,10 @@
 ---
 title: WdRemoveDocInfoType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdRemoveDocInfoType
 ms.assetid: 5c3fb81d-3db9-2e9c-5b46-efe074b948c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -25,7 +24,7 @@ Specifies the type of information to remove from a document.
 | **wdRDIDocumentServerProperties**|14|Removes document server properties.|
 | **wdRDIDocumentWorkspace**|10|Removes document workspace information.|
 | **wdRDIEmailHeader**|5|Removes email header information.|
-| **wdRDIInkAnnotTations**|11|Removes ink annotations.|
+| **wdRDIInkAnnotations**|11|Removes ink annotations.|
 | **wdRDIRemovePersonalInformation**|4|Removes personal information.|
 | **wdRDIRevisions**|2|Removes revision marks.|
 | **wdRDIRoutingSlip**|6|Removes routing slip information.|

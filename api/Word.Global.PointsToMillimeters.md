@@ -3,25 +3,24 @@ title: Global.PointsToMillimeters method (Word)
 keywords: vbawd10.chm163119486
 f1_keywords:
 - vbawd10.chm163119486
-ms.prod: word
 api_name:
 - Word.Global.PointsToMillimeters
 ms.assetid: 0b7c9c70-4352-e427-db1b-4a1b5b2af426
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.PointsToMillimeters method (Word)
 
-Converts a measurement from points to millimeters (1 millimeter = 2.835 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from points to millimeters (1 millimeter = 2.835 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `PointsToMillimeters`( `_Points_` )
+_expression_. `PointsToMillimeters`( `_Points_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters

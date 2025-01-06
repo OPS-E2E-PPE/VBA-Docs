@@ -1,27 +1,26 @@
 ---
-title: PictureFormat.CropTop Property (PowerPoint)
+title: PictureFormat.CropTop property (PowerPoint)
 keywords: vbapp10.chm551010
 f1_keywords:
 - vbapp10.chm551010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PictureFormat.CropTop
 ms.assetid: dc9ef14a-99e0-6d5d-3df8-d7818569f31a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PictureFormat.CropTop Property (PowerPoint)
+# PictureFormat.CropTop property (PowerPoint)
 
 Returns or sets the number of points that are cropped off the top of the specified picture or OLE object. Read/write. 
 
 
 ## Syntax
 
- _expression_. `CropTop`
+_expression_.**CropTop**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Single
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the  **CropTop** property to 50, 100 points (not 50) will be cropped off the top of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the **CropTop** property to 50, 100 points (not 50) will be cropped off the top of your picture.
 
 
 ## Example
 
-This example crops 20 points off the top of shape three on  `myDocument`. For the example to work, shape three must be either a picture or an OLE object.
+This example crops 20 points off the top of shape three on _myDocument_. For the example to work, shape three must be either a picture or an OLE object.
 
 
 ```vb

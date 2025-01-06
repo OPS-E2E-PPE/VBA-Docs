@@ -3,10 +3,9 @@ title: Min, Max functions (Microsoft Access SQL)
 keywords: jetsql40.chm5278826
 f1_keywords:
 - jetsql40.chm5278826
-ms.prod: access
 ms.assetid: 5ac77377-1f6a-7b4f-ecbb-5480bc5a3187
 ms.date: 09/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -22,15 +21,13 @@ Return the minimum or maximum of a set of values contained in a specified field 
 
 **Max(_expr_)**
 
-The  _expr_ placeholder represents a string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in _expr_ can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).
-
+The   _expr_ placeholder represents a string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in _expr_ can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).
 
 ## Remarks
 
-You can use **Min** and **Max** to determine the smallest and largest values in a field based on the specified aggregation, or grouping. For example, you could use these functions to return the lowest and highest freight cost. If there is no aggregation specified, the entire table is used.
+Use **Min** and **Max** to determine the smallest and largest values in a field based on the specified aggregation, or grouping. For example, you could use these functions to return the lowest and highest freight cost. If there is no aggregation specified, the entire table is used.
 
-You can use **Min** and **Max** in a query expression and in the **SQL** property of a **QueryDef** object or when creating a **Recordset** object based on an SQL query.
-    
+Use **Min** and **Max** in a query expression and in the **SQL** property of a **QueryDef** object or when creating a **Recordset** object based on an SQL query.
 
 ## Example
 
@@ -67,8 +64,6 @@ Sub MinMaxX()
 End Sub 
 
 ```
-
-
 
 ### About the contributors
 

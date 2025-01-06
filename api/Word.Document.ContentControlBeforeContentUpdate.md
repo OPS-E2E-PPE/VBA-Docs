@@ -1,27 +1,26 @@
 ---
-title: Document.ContentControlBeforeContentUpdate Event (Word)
+title: Document.ContentControlBeforeContentUpdate event (Word)
 keywords: vbawd10.chm4001015
 f1_keywords:
 - vbawd10.chm4001015
-ms.prod: word
 api_name:
 - Word.Document.ContentControlBeforeContentUpdate
 ms.assetid: 297241e3-fda9-1947-8b09-9dca97930dcf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.ContentControlBeforeContentUpdate Event (Word)
+# Document.ContentControlBeforeContentUpdate event (Word)
 
 Occurs before updating the content in a content control, but only when the content comes from the Office XML data store.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlBeforeContentUpdate'(**_ContentControl_** , **_Content_**)
+_expression_.**ContentControlBeforeContentUpdate'(**_ContentControl_**, **_Content_**)
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -36,9 +35,10 @@ Private Sub  _expression_ _'ContentControlBeforeContentUpdate'(**_ContentControl
 ## Remarks
 
 
- **Note**  This event does not occur for repeating content controls.
+> [!NOTE] 
+> This event does not occur for repeating content controls.
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

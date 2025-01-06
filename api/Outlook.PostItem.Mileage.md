@@ -1,27 +1,26 @@
 ---
-title: PostItem.Mileage Property (Outlook)
+title: PostItem.Mileage property (Outlook)
 keywords: vbaol11.chm1529
 f1_keywords:
 - vbaol11.chm1529
-ms.prod: outlook
 api_name:
 - Outlook.PostItem.Mileage
 ms.assetid: b19b0a68-3a75-cda3-49bf-58232a102628
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.Mileage Property (Outlook)
+# PostItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Remarks

@@ -3,12 +3,11 @@ title: Application.Echo method (Access)
 keywords: vbaac10.chm12505
 f1_keywords:
 - vbaac10.chm12505
-ms.prod: access
 api_name:
 - Access.Application.Echo
 ms.assetid: ce94d774-ef06-7cf4-0e91-b5affa41a437
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

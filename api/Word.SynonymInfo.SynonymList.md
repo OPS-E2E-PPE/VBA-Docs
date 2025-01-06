@@ -3,23 +3,22 @@ title: SynonymInfo.SynonymList property (Word)
 keywords: vbawd10.chm161153031
 f1_keywords:
 - vbawd10.chm161153031
-ms.prod: word
 api_name:
 - Word.SynonymInfo.SynonymList
 ms.assetid: c51a5a79-9724-531b-acca-7e8b6c3feff9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SynonymInfo.SynonymList property (Word)
 
-Returns a list of synonyms for a specified meaning of a word or phrase. The list is returned as an array of strings. Read-only  **Variant**.
+Returns a list of synonyms for a specified meaning of a word or phrase. The list is returned as an array of strings. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `SynonymList`( `_Meaning_` )
+_expression_. `SynonymList`( `_Meaning_` )
 
  _expression_ An expression that returns a '[SynonymInfo](Word.SynonymInfo.md)' object.
 

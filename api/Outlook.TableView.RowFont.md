@@ -1,32 +1,31 @@
 ---
-title: TableView.RowFont Property (Outlook)
+title: TableView.RowFont property (Outlook)
 keywords: vbaol11.chm2533
 f1_keywords:
 - vbaol11.chm2533
-ms.prod: outlook
 api_name:
 - Outlook.TableView.RowFont
 ms.assetid: 691be8dc-8811-64d0-7473-93a0fe8b4749
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableView.RowFont Property (Outlook)
+# TableView.RowFont property (Outlook)
 
-Returns a  **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying rows in the **[TableView](Outlook.TableView.md)** object. Read-only.
+Returns a **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying rows in the **[TableView](Outlook.TableView.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `RowFont`
 
-_expression_ A variable that represents a [TableView](./Outlook.TableView.md) object.
+_expression_ A variable that represents a [TableView](Outlook.TableView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) sample increments the value of the  **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **RowFont** property for the current **TableView** object.
+The following Visual Basic for Applications (VBA) sample increments the value of the **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **RowFont** property for the current **TableView** object.
 
 
 ```vb

@@ -1,24 +1,24 @@
 ---
-title: Subproject.ReadOnly Property (Project)
-ms.prod: project-server
+title: Subproject.ReadOnly property (Project)
+ms.service: project-server
 api_name:
 - Project.Subproject.ReadOnly
 ms.assetid: a42bc4d7-bd50-5846-76c8-27c32713bfab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Subproject.ReadOnly Property (Project)
+# Subproject.ReadOnly property (Project)
 
  **True** if changes in the subproject affect its master project. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ReadOnly`
+_expression_.**ReadOnly**
 
- _expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
+_expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
 
 
 ## Example

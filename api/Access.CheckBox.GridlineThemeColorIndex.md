@@ -3,12 +3,11 @@ title: CheckBox.GridlineThemeColorIndex property (Access)
 keywords: vbaac10.chm14635
 f1_keywords:
 - vbaac10.chm14635
-ms.prod: access
 api_name:
 - Access.CheckBox.GridlineThemeColorIndex
 ms.assetid: 85f36c8d-e62e-8d41-331f-ec8abd509992
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

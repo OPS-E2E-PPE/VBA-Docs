@@ -1,27 +1,26 @@
 ---
-title: Chart.ApplyLayout Method (PowerPoint)
+title: Chart.ApplyLayout method (PowerPoint)
 keywords: vbapp10.chm68004
 f1_keywords:
 - vbapp10.chm68004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.ApplyLayout
 ms.assetid: 94368674-4ecb-a3aa-da91-8e92980d3cc8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ApplyLayout Method (PowerPoint)
+# Chart.ApplyLayout method (PowerPoint)
 
 Applies the layouts shown in the Ribbon.
 
 
 ## Syntax
 
- _expression_. `ApplyLayout`( `_Layout_`, `_ChartType_` )
+_expression_. `ApplyLayout`( `_Layout_`, `_ChartType_` )
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Parameters
@@ -31,7 +30,7 @@ _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Layout_|Required|**Long**|The type of layout. The type of layout is denoted by a number from 1 to 10.|
-| _ChartType_|Optional|**Variant**|An  **[xlChartType](./Excel.XlChartType.md)** constant that represents the type of chart.|
+| _ChartType_|Optional|**Variant**|An **[XlChartType](Excel.XlChartType.md)** constant that represents the type of chart.|
 
 ## Remarks
 

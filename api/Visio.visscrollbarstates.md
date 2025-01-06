@@ -1,18 +1,17 @@
 ---
-title: VisScrollbarStates Enumeration (Visio)
+title: VisScrollbarStates enumeration (Visio)
 keywords: vis_sdr.chm70210
 f1_keywords:
 - vis_sdr.chm70210
-ms.prod: visio
 ms.assetid: b95f1706-8bc9-c7c6-efa3-1e9b823ac099
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisScrollbarStates Enumeration (Visio)
+# VisScrollbarStates enumeration (Visio)
 
-Constants passed to and returned by the  **Window.ShowScrollBars** property.
+Constants passed to and returned by the **Window.ShowScrollBars** property.
 
 
 

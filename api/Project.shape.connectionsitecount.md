@@ -1,20 +1,20 @@
 ---
-title: Shape.ConnectionSiteCount Property (Project)
-ms.prod: project-server
+title: Shape.ConnectionSiteCount property (Project)
+ms.service: project-server
 ms.assetid: 86727754-1d50-f10d-ec8e-91923c09d388
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ConnectionSiteCount Property (Project)
-Gets the number of connection sites on the shape. Read-only  **Long**.
+# Shape.ConnectionSiteCount property (Project)
+Gets the number of connection sites on the shape. Read-only **Long**.
 
 ## Syntax
 
- _expression_. `ConnectionSiteCount`
+_expression_.**ConnectionSiteCount**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

@@ -1,36 +1,33 @@
 ---
-title: MailMergeMappedDataFields.Item Method (Publisher)
+title: MailMergeMappedDataFields.Item method (Publisher)
 keywords: vbapb10.chm6488064
 f1_keywords:
 - vbapb10.chm6488064
-ms.prod: publisher
 api_name:
 - Publisher.MailMergeMappedDataFields.Item
 ms.assetid: c1c9acde-d1e5-25d3-1b59-3e848f3881b6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# MailMergeMappedDataFields.Item Method (Publisher)
+# MailMergeMappedDataFields.Item method (Publisher)
 
 Returns an individual object in a specified collection.
 
 
 ## Syntax
 
- _expression_. **Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **MailMergeMappedDataFields** object.
+_expression_ A variable that represents a **[MailMergeMappedDataFields](Publisher.MailMergeMappedDataFields.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Variant**|The number or name of the field or list box item to return.|
+|_Index_|Required| **Variant**|The number or name of the field or list box item to return.|
 
 ## Return value
 
@@ -39,8 +36,7 @@ MailMergeMappedDataField
 
 ## Example
 
-This example returns the "City" field from a mapped data fields object.
-
+This example returns the City field from a mapped data fields object.
 
 ```vb
 Dim mmfTemp As MailMergeMappedDataField 

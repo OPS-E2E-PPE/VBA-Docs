@@ -1,32 +1,31 @@
 ---
-title: Application.Settings Property (Visio)
+title: Application.Settings property (Visio)
 keywords: vis_sdr.chm10051635
 f1_keywords:
 - vis_sdr.chm10051635
-ms.prod: visio
 api_name:
 - Visio.Application.Settings
 ms.assetid: b62413cb-a038-2679-8701-47ba700a93c4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Settings Property (Visio)
+# Application.Settings property (Visio)
 
 Returns an **ApplicationSettings** object, which you can use to set Microsoft Visio application properties. Read-only.
 
 
 ## Syntax
 
- _expression_. `Settings`
+_expression_.**Settings**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
 
- **ApplicationSettings**
+**ApplicationSettings**
 
 
 ## Remarks
@@ -37,7 +36,6 @@ Use the **Settings** property of the **Application** object to get an **Applicat
 ## Example
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Settings** property to get an **ApplicationSettings** object. It also shows how to use the **RecentFilesListSize** property to get the number of entries in the list of recently used files in Visio.
-
 
 ```vb
 Public Sub Settings_Example() 

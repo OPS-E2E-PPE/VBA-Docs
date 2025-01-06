@@ -3,10 +3,9 @@ title: Lock, Unlock statements (VBA)
 keywords: vblr6.chm1008796
 f1_keywords:
 - vblr6.chm1008796
-ms.prod: office
 ms.assetid: 83bef5d8-55f9-10cf-5092-66b21529aa43
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,10 +15,8 @@ Controls access by other processes to all or part of a file opened by using the 
 
 ## Syntax
 
-**Lock** [ # ] _filenumber_, [ _recordrange_ ] **. . .** <br/>
+**Lock** [ # ] _filenumber_, [ _recordrange_ ] **. . .**
 **Unlock** [ # ] _filenumber_, [ _recordrange_ ]
-
-<br/>
 
 The **Lock** and **Unlock** statement syntax has these parts:
 
@@ -33,8 +30,6 @@ The **Lock** and **Unlock** statement syntax has these parts:
 The _recordrange_ [argument](../../Glossary/vbe-glossary.md#argument) settings are:
 
 _recnumber_ | [ _start_ ] **To** _end_
-
-<br/>
 
 |Setting|Description|
 |:-----|:-----|
@@ -52,9 +47,8 @@ The first record or byte in a file is at position 1, the second record or byte i
 
 If the file has been opened for sequential input or output, **Lock** and **Unlock** affect the entire file, regardless of the range specified by _start_ and _end_.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Be sure to remove all locks with an **Unlock** statement before closing a file or quitting your program. Failure to remove locks produces unpredictable results.
-
 
 ## Example
 
@@ -79,7 +73,6 @@ Unlock #1, RecordNumber    ' Unlock current record.
 Close #1    ' Close file. 
 
 ```
-
 
 ## See also
 

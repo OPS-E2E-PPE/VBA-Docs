@@ -3,30 +3,29 @@ title: Global.NormalTemplate property (Word)
 keywords: vbawd10.chm163119112
 f1_keywords:
 - vbawd10.chm163119112
-ms.prod: word
 api_name:
 - Word.Global.NormalTemplate
 ms.assetid: ddfcd859-5d4c-e5f7-a04e-70102c1780d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.NormalTemplate property (Word)
 
-Returns a  **Template** object that represents the Normal template.
+Returns a **Template** object that represents the Normal template.
 
 
 ## Syntax
 
- _expression_. `NormalTemplate`
+_expression_. `NormalTemplate`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example
 
-This example inserts the AutoText entry named "Test" from the Normal template, if this entry is contained in the  **AutoTextEntries** collection.
+This example inserts the AutoText entry named "Test" from the Normal template, if this entry is contained in the **AutoTextEntries** collection.
 
 
 ```vb

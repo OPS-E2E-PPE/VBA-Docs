@@ -3,25 +3,24 @@ title: LineFormat.DashStyle property (Word)
 keywords: vbawd10.chm164233320
 f1_keywords:
 - vbawd10.chm164233320
-ms.prod: word
 api_name:
 - Word.LineFormat.DashStyle
 ms.assetid: 1dd61d77-d7fc-cb8d-5d44-38aca7073a68
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LineFormat.DashStyle property (Word)
 
-Returns or sets the dash style for the specified line. Read/write  **MsoLineDashStyle**.
+Returns or sets the dash style for the specified line. Read/write **MsoLineDashStyle**.
 
 
 ## Syntax
 
- _expression_. `DashStyle`
+_expression_.**DashStyle**
 
- _expression_ Required. A variable that represents a '[LineFormat](Word.LineFormat.md)' object.
+_expression_ Required. A variable that represents a **[LineFormat](Word.LineFormat.md)** object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ControlTipText property
 keywords: fm20.chm2000990
 f1_keywords:
 - fm20.chm2000990
-ms.prod: office
 api_name:
 - Office.ControlTipText
 ms.assetid: 879e93e6-7646-1707-ff43-1b66882da4cd
 ms.date: 11/15/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

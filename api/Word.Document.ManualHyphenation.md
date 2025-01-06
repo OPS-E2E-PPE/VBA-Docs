@@ -3,12 +3,11 @@ title: Document.ManualHyphenation method (Word)
 keywords: vbawd10.chm158007401
 f1_keywords:
 - vbawd10.chm158007401
-ms.prod: word
 api_name:
 - Word.Document.ManualHyphenation
 ms.assetid: ffd4aace-f9e3-a7ef-9dab-5694891a68ab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Initiates manual hyphenation of a document, one line at a time.
 
 ## Syntax
 
- _expression_. `ManualHyphenation`
+_expression_. `ManualHyphenation`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-When you use the  **ManualHyphenation** method, Word prompts he user to accept or decline suggested hyphenations.
+When you use the **ManualHyphenation** method, Word prompts he user to accept or decline suggested hyphenations.
 
 
 ## Example

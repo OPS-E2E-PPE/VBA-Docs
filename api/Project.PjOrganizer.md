@@ -1,15 +1,15 @@
 ---
-title: PjOrganizer Enumeration (Project)
-ms.prod: project-server
+title: PjOrganizer enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjOrganizer
 ms.assetid: d176be88-4df9-3826-c806-f7f650fffb39
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjOrganizer Enumeration (Project)
+# PjOrganizer enumeration (Project)
 
 Contains constants that specify the type of items in the Organizer.
 
@@ -32,7 +32,7 @@ Contains constants that specify the type of items in the Organizer.
 
 ## Remarks
 
-Several methods use the  **PjOrganizer** enumeration. See the following:
+Several methods use the **PjOrganizer** enumeration. See the following:
 
 
 - [Application.Organizer](Project.Application.Organizer.md) method

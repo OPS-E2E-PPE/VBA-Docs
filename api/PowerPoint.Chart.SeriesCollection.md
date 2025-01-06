@@ -1,32 +1,31 @@
 ---
-title: Chart.SeriesCollection Method (PowerPoint)
+title: Chart.SeriesCollection method (PowerPoint)
 keywords: vbapp10.chm684043
 f1_keywords:
 - vbapp10.chm684043
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.SeriesCollection
 ms.assetid: 8adeb8b4-ba4f-6cdf-33bf-dceb1845dfb8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.SeriesCollection Method (PowerPoint)
+# Chart.SeriesCollection method (PowerPoint)
 
 Returns all the series in the chart.
 
 
 ## Syntax
 
- _expression_. `SeriesCollection`( `_Index_` )
+_expression_.**SeriesCollection** (_Index_)
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Return value
 
-A  **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents all the series in the chart.
+A **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents all the series in the chart.
 
 
 ## Example
@@ -34,7 +33,8 @@ A  **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example turns on data labels for series one of the first chart in the active document.
 

@@ -1,24 +1,23 @@
 ---
-title: RemoteItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: RemoteItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.RemoteItem.PropertyChange
 ms.assetid: 630d4423-cb56-eef0-e1b1-1afe227c140d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem.PropertyChange Event (Outlook)
+# RemoteItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) object.
+_expression_ A variable that represents a [RemoteItem](Outlook.RemoteItem.md) object.
 
 
 ## Parameters

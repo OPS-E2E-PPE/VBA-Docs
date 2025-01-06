@@ -3,16 +3,15 @@ title: The remote server machine does not exist or is unavailable (Error 462)
 keywords: vblr6.chm1000462
 f1_keywords:
 - vblr6.chm1000462
-ms.prod: office
 ms.assetid: b7a74e81-f700-a278-2f83-8faed4dd069f
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # The remote server machine does not exist or is unavailable (Error 462)
 
-The  **CreateObject** function requires a valid server. This error has the following cause and solution:
+The **CreateObject** function requires a valid server. This error has the following cause and solution:
 
 
 

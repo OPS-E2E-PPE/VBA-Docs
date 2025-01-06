@@ -1,24 +1,24 @@
 ---
-title: Exceptions.Item Property (Project)
-ms.prod: project-server
+title: Exceptions.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Exceptions.Item
 ms.assetid: 3e579cad-5061-933e-3096-3638c9dc04ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exceptions.Item Property (Project)
+# Exceptions.Item property (Project)
 
-Gets a single  **Exception** object from the **Exceptions** collection. Read-only **Exception**.
+Gets a single **Exception** object from the **Exceptions** collection. Read-only **Exception**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents an 'Exceptions' object.
+_expression_ A variable that represents an 'Exceptions' object.
 
 
 ## Parameters

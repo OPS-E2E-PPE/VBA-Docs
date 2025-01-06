@@ -3,18 +3,17 @@ title: BoundObjectFrame.AutoActivate property (Access)
 keywords: vbaac10.chm10915
 f1_keywords:
 - vbaac10.chm10915
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.AutoActivate
 ms.assetid: 162dcc86-818c-dc84-48cd-97fbfb85b77c
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.AutoActivate property (Access)
 
-You can use the **AutoActivate** property to specify how the user can activate an OLE object. Read/write **Integer**.
+Use the **AutoActivate** property to specify how the user can activate an OLE object. Read/write **Integer**.
 
 
 ## Syntax
@@ -27,8 +26,6 @@ _expression_ A variable that represents a **[BoundObjectFrame](Access.BoundObjec
 ## Remarks
 
 The **AutoActivate** property uses the following settings.
-
-<br/>
 
 |Setting|Constant|Description|
 |:-----|:-----|:-----|

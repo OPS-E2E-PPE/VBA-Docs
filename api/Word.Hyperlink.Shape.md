@@ -3,25 +3,24 @@ title: Hyperlink.Shape property (Word)
 keywords: vbawd10.chm161285103
 f1_keywords:
 - vbawd10.chm161285103
-ms.prod: word
 api_name:
 - Word.Hyperlink.Shape
 ms.assetid: bee91eb6-fc38-e2b9-ca90-e9a34062c9f5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Hyperlink.Shape property (Word)
 
-Returns a  **Shape** object for the specified hyperlink or diagram node.
+Returns a **Shape** object for the specified hyperlink or diagram node.
 
 
 ## Syntax
 
- _expression_. `Shape`
+_expression_.**Shape**
 
- _expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
+_expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
 
 
 ## Remarks

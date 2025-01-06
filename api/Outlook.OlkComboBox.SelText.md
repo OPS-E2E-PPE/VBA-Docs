@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.SelText Property (Outlook)
+title: OlkComboBox.SelText property (Outlook)
 keywords: vbaol11.chm1000223
 f1_keywords:
 - vbaol11.chm1000223
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.SelText
 ms.assetid: 595b3e85-7d30-72bc-c1d4-b45c4492c221
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.SelText Property (Outlook)
+# OlkComboBox.SelText property (Outlook)
 
-Returns a  **String** that represents the selected portion of the value of the combo box. Read-only.
+Returns a **String** that represents the selected portion of the value of the combo box. Read-only.
 
 
 ## Syntax
 
 _expression_. `SelText`
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Remarks

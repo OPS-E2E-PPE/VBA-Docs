@@ -3,12 +3,11 @@ title: SharedWorkspace.CreateNew method (Office)
 keywords: vbaof11.chm276008
 f1_keywords:
 - vbaof11.chm276008
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.CreateNew
 ms.assetid: 67fbf788-bca0-f83d-acb5-a756bf0ddfb4
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ _expression_ A variable that represents a **[SharedWorkspace](Office.SharedWorks
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _URL_|Optional|**Variant**|The URL for the parent folder in which the new shared workspace is to be created. If you do not supply a URL, the site is created in the user's default server location.|
+| _URL_|Optional|**Variant**|The URL for the parent folder in which the new shared workspace is to be created. If you don't supply a URL, the site is created in the user's default server location.|
 | _Name_|Optional|**Variant**| The name of the new shared workspace site. The default value is the name of the active document without its file name extension. For example, if you create a workspace site for `"Budget.xls"`, the name of the new site becomes `"Budget"`.|
 
 ## Remarks
@@ -54,9 +53,9 @@ The following example creates a shared workspace site at the URL https://server/
     Dim strSWSInfo As String 
     Set sws = ActiveWorkbook.SharedWorkspace 
     sws.CreateNew "https://server/sites/mysite/", "My Shared Budget Document" 
-    strSWSInfo = "Name: " &amp; sws.Name &amp; vbCrLf &amp; _ 
-        "URL: " &amp; sws.URL &amp; vbCrLf &amp; _ 
-        "File(s): " &amp; sws.Files.Count 
+    strSWSInfo = "Name: " & sws.Name & vbCrLf & _ 
+        "URL: " & sws.URL & vbCrLf & _ 
+        "File(s): " & sws.Files.Count 
     MsgBox strSWSInfo, vbInformation + vbOKOnly, _ 
         "New Shared Workspace Information" 
     Set sws = Nothing 

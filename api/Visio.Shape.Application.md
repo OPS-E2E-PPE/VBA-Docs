@@ -1,45 +1,44 @@
 ---
-title: Shape.Application Property (Visio)
+title: Shape.Application property (Visio)
 keywords: vis_sdr.chm11213090
 f1_keywords:
 - vis_sdr.chm11213090
-ms.prod: visio
 api_name:
 - Visio.Shape.Application
 ms.assetid: 01ad1b62-5a69-9c70-3735-f678a6fa537d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Application Property (Visio)
+# Shape.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019&preserve-view=true) reference, this property maps to the following types:
 
 
--  **Microsoft.Office.Interop.Visio.IVShape.Application**
+- **Microsoft.Office.Interop.Visio.IVShape.Application**
     
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

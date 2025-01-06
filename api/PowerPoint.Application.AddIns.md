@@ -1,39 +1,38 @@
 ---
-title: Application.AddIns Property (PowerPoint)
+title: Application.AddIns property (PowerPoint)
 keywords: vbapp10.chm502019
 f1_keywords:
 - vbapp10.chm502019
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.AddIns
 ms.assetid: 5a5a030f-45cd-3b82-f41a-eab53b1ed48f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.AddIns Property (PowerPoint)
+# Application.AddIns property (PowerPoint)
 
-Returns the program-specific  **AddIns** collection that represents all the add-ins listed in the **Add-Ins** dialog box (click the **Office** button, click **PowerPoint Options**, click  **Add-Ins**, click  **PowerPoint Add-Ins** on the **Manage** list). Read-only.
+Returns the program-specific **AddIns** collection that represents all the add-ins listed in the **Add-Ins** dialog box (click the **Office** button, click **PowerPoint Options**, click **Add-Ins**, click **PowerPoint Add-Ins** on the **Manage** list). Read-only.
 
 
 ## Syntax
 
- _expression_. `AddIns`
+_expression_. `AddIns`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Remarks
 
 Microsoft Office PowerPoint-specific add-ins are identified by a .ppa or .ppam file name extension. Component Object Model (COM) add-ins can be used universally across Microsoft programming products and have a .dll or .exe file name extension.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../powerpoint/How-to/return-objects-from-collections.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../powerpoint/How-to/return-objects-from-collections.md).
 
 
 ## Example
 
-This example adds the add-in named "Myaddin.ppa" to the list in the  **Add-Ins** dialog box and loads the add-in automatically.
+This example adds the add-in named "Myaddin.ppa" to the list in the **Add-Ins** dialog box and loads the add-in automatically.
 
 
 ```vb

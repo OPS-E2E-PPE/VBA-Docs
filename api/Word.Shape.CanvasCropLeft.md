@@ -3,12 +3,11 @@ title: Shape.CanvasCropLeft method (Word)
 keywords: vbawd10.chm161480844
 f1_keywords:
 - vbawd10.chm161480844
-ms.prod: word
 api_name:
 - Word.Shape.CanvasCropLeft
 ms.assetid: d25b5c0e-82e7-1a33-9889-7b3df7f22802
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Crops a percentage of the width of a drawing canvas from the left side of the ca
 
 ## Syntax
 
- _expression_. `CanvasCropBottom`( `_Increment_` )
+_expression_. `CanvasCropBottom`( `_Increment_` )
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters

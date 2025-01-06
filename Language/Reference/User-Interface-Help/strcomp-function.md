@@ -3,10 +3,9 @@ title: StrComp function (Visual Basic for Applications)
 keywords: vblr6.chm1009035
 f1_keywords:
 - vblr6.chm1009035
-ms.prod: office
 ms.assetid: 96b0e82d-e080-0c60-94d1-ddff10d6ee86
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**Integer**) indicating the result of a [string compariso
 ## Syntax
 
 **StrComp**(_string1_, _string2_, [ _compare_ ])
-
-<br/>
 
 The **StrComp** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

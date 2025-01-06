@@ -3,18 +3,17 @@ title: WebPageFonts object (Office)
 keywords: vbaof11.chm225000
 f1_keywords:
 - vbaof11.chm225000
-ms.prod: office
 api_name:
 - Office.WebPageFonts
 ms.assetid: c42bd65d-7c5c-148a-6f52-7aacd75be06a
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebPageFonts object (Office)
 
-A collection of **[WebPageFont](office.webpagefont.md)** objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as web pages. You can specify a different set of web page font properties for each available character set.
+A collection of **[WebPageFont](office.webpagefont.md)** objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as webpages. You can specify a different set of webpage font properties for each available character set.
 
 
 ## Remarks

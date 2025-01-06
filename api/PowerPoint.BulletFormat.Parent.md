@@ -1,27 +1,26 @@
 ---
-title: BulletFormat.Parent Property (PowerPoint)
+title: BulletFormat.Parent property (PowerPoint)
 keywords: vbapp10.chm577002
 f1_keywords:
 - vbapp10.chm577002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat.Parent
 ms.assetid: 95829267-e354-828b-5034-7da64dc5d5d7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat.Parent Property (PowerPoint)
+# BulletFormat.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [BulletFormat](./PowerPoint.BulletFormat.md) object.
+_expression_ A variable that represents a **[BulletFormat](PowerPoint.BulletFormat.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

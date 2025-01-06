@@ -3,18 +3,17 @@ title: ListBox.RowSourceType property (Access)
 keywords: vbaac10.chm11222
 f1_keywords:
 - vbaac10.chm11222
-ms.prod: access
 api_name:
 - Access.ListBox.RowSourceType
 ms.assetid: a98a44d4-b2a5-d591-9295-3222d708ee88
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.RowSourceType property (Access)
 
-You can use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
+Use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
 
 
 ## Syntax

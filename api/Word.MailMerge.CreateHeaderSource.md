@@ -3,12 +3,11 @@ title: MailMerge.CreateHeaderSource method (Word)
 keywords: vbawd10.chm153092198
 f1_keywords:
 - vbawd10.chm153092198
-ms.prod: word
 api_name:
 - Word.MailMerge.CreateHeaderSource
 ms.assetid: 607c668d-5f81-ecbe-d4c8-fbf509444683
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Creates a Microsoft Word document that stores a header record that is used inste
 
 ## Syntax
 
- _expression_. `CreateHeaderSource`( `_Name_` , `_PasswordDocument_` , `_WritePasswordDocument_` , `_HeaderRecord_` )
+_expression_. `CreateHeaderSource`( `_Name_` , `_PasswordDocument_` , `_WritePasswordDocument_` , `_HeaderRecord_` )
 
- _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
+_expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
 ## Parameters
@@ -33,11 +32,12 @@ Creates a Microsoft Word document that stores a header record that is used inste
 | _Name_|Required| **String**|The path and file name for the new header source.|
 | _PasswordDocument_|Optional| **Variant**|The password required to open the new header source.|
 | _WritePasswordDocument_|Optional| **Variant**|The password required to save changes to the new header source.|
-| _HeaderRecord_|Optional| **Variant**|A string that specifies the field names for the header record. If this argument is omitted, the standard header record is used: "Title, FirstName, LastName, JobTitle, Company, Address1, Address2, City, State, PostalCode, Country, HomePhone, WorkPhone." To separate field names in Microsoft Windows, use the list separator specified in  **Regional Settings** in **Control Panel**.|
+| _HeaderRecord_|Optional| **Variant**|A string that specifies the field names for the header record. If this argument is omitted, the standard header record is used: "Title, FirstName, LastName, JobTitle, Company, Address1, Address2, City, State, PostalCode, Country, HomePhone, WorkPhone." To separate field names in Microsoft Windows, use the list separator specified in **Regional Settings** in **Control Panel**.|
 
 ## Security
 
-Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security Notes for Microsoft Office Solution Developers](https://msdn.microsoft.com/library/office/ff860261.aspx). 
+> [!IMPORTANT] 
+> Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security notes for Office solution developers](../Library-Reference/Concepts/security-notes-for-microsoft-office-solution-developers.md). 
 
 
 ## Remarks

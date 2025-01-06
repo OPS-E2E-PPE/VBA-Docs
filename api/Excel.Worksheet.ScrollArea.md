@@ -3,25 +3,24 @@ title: Worksheet.ScrollArea property (Excel)
 keywords: vbaxl10.chm175124
 f1_keywords:
 - vbaxl10.chm175124
-ms.prod: excel
 api_name:
 - Excel.Worksheet.ScrollArea
 ms.assetid: 7421676d-3a98-3826-31f9-80e7c8946777
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/30/2019
+ms.localizationpriority: medium
 ---
 
 
 # Worksheet.ScrollArea property (Excel)
 
-Returns or sets the range where scrolling is allowed, as an A1-style range reference. Cells outside the scroll area cannot be selected. Read/write  **String**.
+Returns or sets the range where scrolling is allowed, as an A1-style range reference. Cells outside the scroll area cannot be selected. Read/write **String**.
 
 
 ## Syntax
 
-_expression_. `ScrollArea`
+_expression_.**ScrollArea**
 
-_expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+_expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Remarks
@@ -33,15 +32,11 @@ Set this property to the empty string ("") to enable cell selection for the enti
 
 This example sets the scroll area for worksheet one.
 
-
 ```vb
 Worksheets(1).ScrollArea = "a1:f10"
 ```
 
 
-## See also
 
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

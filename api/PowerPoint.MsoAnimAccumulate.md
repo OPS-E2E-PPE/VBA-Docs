@@ -1,18 +1,17 @@
 ---
-title: MsoAnimAccumulate Enumeration (PowerPoint)
+title: MsoAnimAccumulate enumeration (PowerPoint)
 keywords: vbapp10.chm0
 f1_keywords:
 - vbapp10.chm0
-ms.prod: powerpoint
 api_name:
 - PowerPoint.MsoAnimAccumulate
 ms.assetid: 45e3dbc8-0785-ec94-07f7-7f45b409a809
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MsoAnimAccumulate Enumeration (PowerPoint)
+# MsoAnimAccumulate enumeration (PowerPoint)
 
 Specifies whether animation behaviors accumulate. 
 

@@ -3,10 +3,9 @@ title: HAVING clause (Microsoft Access SQL)
 keywords: jetsql40.chm5277570
 f1_keywords:
 - jetsql40.chm5277570
-ms.prod: access
 ms.assetid: 4fc4655b-c8a6-2ca2-509e-ac98d9a1c776
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

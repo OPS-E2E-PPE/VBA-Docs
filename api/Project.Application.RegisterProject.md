@@ -1,27 +1,27 @@
 ---
-title: Application.RegisterProject Method (Project)
+title: Application.RegisterProject method (Project)
 keywords: vbapj.chm131250
 f1_keywords:
 - vbapj.chm131250
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.RegisterProject
 ms.assetid: 66cc4443-2adc-ff66-976e-da52c6d4f7ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.RegisterProject Method (Project)
+# Application.RegisterProject method (Project)
 
 Registers the active project on Project Server.
 
 
 ## Syntax
 
- _expression_. `RegisterProject`( `_WaitForCompletion_` )
+_expression_. `RegisterProject`( `_WaitForCompletion_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ Registers the active project on Project Server.
 
 ## Remarks
 
-The  **RegisterProject** method is available only in Project Professional.
+The **RegisterProject** method is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

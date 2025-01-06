@@ -3,18 +3,17 @@ title: NavigationControl.TabStop property (Access)
 keywords: vbaac10.chm11064
 f1_keywords:
 - vbaac10.chm11064
-ms.prod: access
 api_name:
 - Access.NavigationControl.TabStop
 ms.assetid: 40aeb05f-b94f-ee88-5e98-0f77599c7a14
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.TabStop property (Access)
 
-You can use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
+Use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
 
 
 ## Syntax

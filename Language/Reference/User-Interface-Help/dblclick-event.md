@@ -3,12 +3,11 @@ title: DblClick event
 keywords: fm20.chm5224940
 f1_keywords:
 - fm20.chm5224940
-ms.prod: office
 api_name:
 - Office.DblClick
 ms.assetid: 52ee3887-6634-ed57-fb9b-757543ea6e29
-ms.date: 11/15/2018
-localization_priority: Normal
+ms.date: 02/07/2022
+ms.localizationpriority: medium
 ---
 
 
@@ -18,11 +17,11 @@ Occurs when the user points to an object and then clicks a mouse button twice.
 
 ## Syntax
 
-For MultiPage, TabStrip  <br/>
-**Private Sub**_object_ _**DblClick(**_index_**As Long**,  <br/>
+For MultiPage, TabStrip:
+**Private Sub**_object_ _**DblClick(**_index_**As Long**,
 **ByVal**_Cancel_**As MSForms.ReturnBoolean)**
 
-For other controls  <br/>
+For other controls:
 **Private Sub**_object_ _**DblClick( ByVal**_Cancel_**As MSForms.ReturnBoolean)**
 
 The **DblClick** event syntax has these parts:
@@ -39,11 +38,11 @@ For this event to occur, the two clicks must occur within the time span specifie
 
 For controls that support Click, the following sequence of events leads to the DblClick event:
 
-1. MouseDown   
-2. MouseUp    
-3. Click    
+1. MouseDown
+2. MouseUp
+3. Click
 4. DblClick
-    
+
 If a control, such as **[TextBox](textbox-control.md)**, does not support Click, Click is omitted from the order of events leading to the DblClick event.
 
 If the return value of _Cancel_ is **True** when the user clicks twice, the control ignores the second click. This is useful if the second click reverses the effect of the first, such as double-clicking a toggle button. The _Cancel_ argument allows your form to ignore the second click, so that either clicking or double-clicking the button has the same effect.

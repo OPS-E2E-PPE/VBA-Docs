@@ -3,18 +3,17 @@ title: IBlogExtensibility.Open method (Office)
 keywords: vbaof11.chm328005
 f1_keywords:
 - vbaof11.chm328005
-ms.prod: office
 api_name:
 - Office.IBlogExtensibility.Open
 ms.assetid: 34bae5c9-cc29-b1b8-746b-bc2630cf8bc0
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IBlogExtensibility.Open method (Office)
 
-Opens the blog specified by the blog ID. It is called by the **Open Existing Post** dialog based on the item selected by the user.
+Opens the blog specified by the blog ID. It's called by the **Open Existing Post** dialog based on the item selected by the user.
 
 
 ## Syntax

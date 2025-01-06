@@ -1,10 +1,10 @@
 ---
 title: PickerResult members (Office)
 description: Represents a resolved or selected item of data.
-ms.prod: office
+ms.service: office
 ms.assetid: 3d04c242-a306-c3f6-34e4-6c5a590a369f
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -25,7 +25,7 @@ Represents a resolved or selected item of data.
 |[Id](../../Office.PickerResult.Id.md)|Retrieves the unique Id of the associated **PickerResult** object. Read-only.|
 |[ItemData](../../Office.PickerResult.ItemData.md)|Gets or sets a non-display purpose item binding to data. Read/write.|
 |[SIPId](../../Office.PickerResult.SIPId.md)|Is the identifier for Office Communication Server. It's used only for the people picking scenario. Read/write.|
-|[SubItems](../../Office.PickerResult.SubItems.md)|Display purpose or non-display purpose field data of a **PickerResult** object. It is used for passing column values in a **Picker** dialog. Read/write.|
+|[SubItems](../../Office.PickerResult.SubItems.md)|Display purpose or non-display purpose field data of a **PickerResult** object. It's used for passing column values in a **Picker** dialog. Read/write.|
 |[Type](../../Office.PickerResult.Type.md)|Represents the type of a **PickerResult** object. Read/write.|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

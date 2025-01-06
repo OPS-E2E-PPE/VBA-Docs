@@ -1,18 +1,17 @@
 ---
-title: OlMatchEntry Enumeration (Outlook)
+title: OlMatchEntry enumeration (Outlook)
 keywords: vbaol11.chm1000029
 f1_keywords:
 - vbaol11.chm1000029
-ms.prod: outlook
 api_name:
 - Outlook.OlMatchEntry
 ms.assetid: b4c8aa72-747a-df06-4b92-5f54461164a3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlMatchEntry Enumeration (Outlook)
+# OlMatchEntry enumeration (Outlook)
 
 Specifies if and how extensive entry matching is applied while the user types in a control.
 

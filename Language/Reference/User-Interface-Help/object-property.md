@@ -3,12 +3,11 @@ title: Object property
 keywords: fm20.chm2001610
 f1_keywords:
 - fm20.chm2001610
-ms.prod: office
 api_name:
 - Office.Object
 ms.assetid: 94762c71-9ab8-98dd-5357-8ddb8b7b0156
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

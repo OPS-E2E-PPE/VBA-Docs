@@ -3,18 +3,17 @@ title: Report.FontUnderline property (Access)
 keywords: vbaac10.chm13752
 f1_keywords:
 - vbaac10.chm13752
-ms.prod: access
 api_name:
 - Access.Report.FontUnderline
 ms.assetid: 37f62220-069d-939d-7ad0-e9f25ae6bf36
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Report.FontUnderline property (Access)
 
-You can use the **FontUnderline** property to specify whether text is underlined in the following situations:
+Use the **FontUnderline** property to specify whether text is underlined in the following situations:
 
 - When displaying or printing controls on forms and reports. 
 - When using the **[Print](Access.Report.Print.md)** method on a report.

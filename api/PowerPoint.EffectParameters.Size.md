@@ -1,27 +1,26 @@
 ---
-title: EffectParameters.Size Property (PowerPoint)
+title: EffectParameters.Size property (PowerPoint)
 keywords: vbapp10.chm654005
 f1_keywords:
 - vbapp10.chm654005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.EffectParameters.Size
 ms.assetid: cdc1845d-0c6e-36f8-f22e-296aefcc974a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EffectParameters.Size Property (PowerPoint)
+# EffectParameters.Size property (PowerPoint)
 
 Returns or sets the character size, in points. Read/write.
 
 
 ## Syntax
 
- _expression_. `Size`
+_expression_.**Size**
 
-_expression_ A variable that represents an [EffectParameters](./PowerPoint.EffectParameters.md) object.
+_expression_ A variable that represents an [EffectParameters](PowerPoint.EffectParameters.md) object.
 
 
 ## Return value

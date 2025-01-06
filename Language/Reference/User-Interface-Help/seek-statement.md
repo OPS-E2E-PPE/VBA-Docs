@@ -3,10 +3,9 @@ title: Seek statement (VBA)
 keywords: vblr6.chm1009013
 f1_keywords:
 - vblr6.chm1009013
-ms.prod: office
 ms.assetid: 08fff310-85a2-d860-2198-3a0b032c77bc
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Sets the position for the next read/write operation within a file opened by usin
 ## Syntax
 
 **Seek** [ **#** ] _filenumber_, _position_
-
-<br/>
 
 The **Seek** statement syntax has these parts:
 
@@ -45,8 +42,6 @@ End Type
 
 ```
 
-<br/>
-
 For files opened in Random mode, **Seek** sets the next record.
 
 ```vb
@@ -62,8 +57,6 @@ Next RecordNumber
 Close #1 ' Close file. 
 
 ```
-
-<br/>
 
 For files opened in modes other than Random mode, **Seek** sets the byte position at which the next operation takes place. This example assumes that `TESTFILE` is a file containing a few lines of text.
 

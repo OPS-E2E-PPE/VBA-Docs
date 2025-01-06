@@ -1,27 +1,27 @@
 ---
-title: Application.ChangeWorkingTimeEx Method (Project)
+title: Application.ChangeWorkingTimeEx method (Project)
 keywords: vbapj.chm625
 f1_keywords:
 - vbapj.chm625
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ChangeWorkingTimeEx
 ms.assetid: 4608fdab-0b39-9918-522a-71d502ba7e3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ChangeWorkingTimeEx Method (Project)
+# Application.ChangeWorkingTimeEx method (Project)
 
-Displays the  **Change Working Time** dialog box, which prompts the user to change a calendar.
+Displays the **Change Working Time** dialog box, which prompts the user to change a calendar.
 
 
 ## Syntax
 
- _expression_. `ChangeWorkingTimeEx`( `_CalendarName_`, `_Locked_`, `_SelectedDate_`, `_ProjectName_` )
+_expression_. `ChangeWorkingTimeEx`( `_CalendarName_`, `_Locked_`, `_SelectedDate_`, `_ProjectName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,6 +42,6 @@ Displays the  **Change Working Time** dialog box, which prompts the user to chan
 
 ## Remarks
 
-The  **ChangeWorkingTime** method has the same effect as the **Change Working Time** command on the **Project** tab in the Project Ribbon.
+The **ChangeWorkingTime** method has the same effect as the **Change Working Time** command on the **Project** tab in the Project Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

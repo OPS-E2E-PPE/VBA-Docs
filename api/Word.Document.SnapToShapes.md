@@ -3,12 +3,11 @@ title: Document.SnapToShapes property (Word)
 keywords: vbawd10.chm158007597
 f1_keywords:
 - vbawd10.chm158007597
-ms.prod: word
 api_name:
 - Word.Document.SnapToShapes
 ms.assetid: b74e7a58-deee-aed2-8956-3911dd54d9ba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SnapToShapes`
+_expression_. `SnapToShapes`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-This property creates additional invisible gridlines for each AutoShape.  **SnapToShapes** works independently of the **[SnapToGrid](Word.Document.SnapToGrid.md)** property.
+This property creates additional invisible gridlines for each AutoShape. **SnapToShapes** works independently of the **[SnapToGrid](Word.Document.SnapToGrid.md)** property.
 
 
 ## Example

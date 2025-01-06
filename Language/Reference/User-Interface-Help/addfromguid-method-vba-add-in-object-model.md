@@ -3,10 +3,9 @@ title: AddFromGuid method (VBA Add-In Object Model)
 keywords: vbob6.chm104045
 f1_keywords:
 - vbob6.chm104045
-ms.prod: office
 ms.assetid: d36637d5-6fc6-dbf3-5a2f-7de3c59e8c8c
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Adds a reference to the **References** collection by using the globally unique i
 ## Syntax
 
 _object_.**AddFromGuid** (_guid_, _major_, _minor_) **As Reference**
-
-<br/>
 
 The **AddFromGuid** syntax has these parts:
 

@@ -1,18 +1,17 @@
 ---
-title: OlkCommandButton Object (Outlook)
+title: OlkCommandButton object (Outlook)
 keywords: vbaol11.chm1000132
 f1_keywords:
 - vbaol11.chm1000132
-ms.prod: outlook
 api_name:
 - Outlook.OlkCommandButton
 ms.assetid: bb150211-d50a-130b-91f0-1129dba8f378
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkCommandButton Object (Outlook)
+# OlkCommandButton object (Outlook)
 
 A control that supports a user action specified as a command.
 
@@ -72,6 +71,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

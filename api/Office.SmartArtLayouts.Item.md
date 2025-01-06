@@ -1,11 +1,10 @@
 ---
 title: SmartArtLayouts.Item method (Office)
-ms.prod: office
 api_name:
 - Office.SmartArtLayouts.Item
 ms.assetid: 8741eb7f-21d4-dfff-ef02-a87959d8a841
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

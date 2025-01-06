@@ -1,17 +1,16 @@
 ---
 title: XlBarShape enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.xlBarShape
 ms.assetid: 63a7cea6-e741-8e5b-94f3-16acfe22cb34
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlBarShape enumeration (Excel)
 
-Specifies the shape used with the 3-D bar or column chart.
+Specifies the shape used with the 3D bar or column chart.
 
 
 

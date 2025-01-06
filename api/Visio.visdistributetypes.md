@@ -1,23 +1,22 @@
 ---
-title: VisDistributeTypes Enumeration (Visio)
+title: VisDistributeTypes enumeration (Visio)
 keywords: vis_sdr.chm70395
 f1_keywords:
 - vis_sdr.chm70395
-ms.prod: visio
 ms.assetid: 01572010-ffc5-5fea-d554-84abdc59c5fc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisDistributeTypes Enumeration (Visio)
+# VisDistributeTypes enumeration (Visio)
 
 Shape distribution types.
 
 
 ## Remarks
 
-These constants correspond to the options available in the  **Distribute Shapes** dialog box. (Select three or more shapes, and on the **Home** tab, in the **Arrange** group, click **Position**, point to  **Space Shapes**, and then click  **More Distribute Options**.)
+These constants correspond to the options available in the **Distribute Shapes** dialog box. (Select three or more shapes, and on the **Home** tab, in the **Arrange** group, click **Position**, point to **Space Shapes**, and then click **More Distribute Options**.)
 
 
 

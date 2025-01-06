@@ -3,12 +3,11 @@ title: TextBox.Requery method (Access)
 keywords: vbaac10.chm11034
 f1_keywords:
 - vbaac10.chm11034
-ms.prod: access
 api_name:
 - Access.TextBox.Requery
 ms.assetid: b1f8991e-7ccc-4f0b-c50f-1d51a0abda7e
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[TextBox](Access.TextBox.md)** objec
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

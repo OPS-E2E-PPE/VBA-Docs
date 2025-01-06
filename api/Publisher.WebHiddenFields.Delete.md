@@ -1,35 +1,33 @@
 ---
-title: WebHiddenFields.Delete Method (Publisher)
+title: WebHiddenFields.Delete method (Publisher)
 keywords: vbapb10.chm3997701
 f1_keywords:
 - vbapb10.chm3997701
-ms.prod: publisher
 api_name:
 - Publisher.WebHiddenFields.Delete
 ms.assetid: 7911f9fb-b578-ee20-b9fc-d1bca99b88e0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebHiddenFields.Delete Method (Publisher)
+# WebHiddenFields.Delete method (Publisher)
 
-Deletes the specified hidden Web field or Web list box item object.
+Deletes the specified hidden web field or web list box item object.
 
 
 ## Syntax
 
- _expression_. **Delete**(**_Index_**)
+_expression_.**Delete** (_Index_)
 
- _expression_ A variable that represents a  **WebHiddenFields** object.
+_expression_ A variable that represents a **[WebHiddenFields](Publisher.WebHiddenFields.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Long**|The number of the Web field or list box item to delete.|
+|_Index_|Required| **Long**|The number of the web field or list box item to delete.|
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

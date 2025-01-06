@@ -3,18 +3,17 @@ title: ToggleButton.BorderWidth property (Access)
 keywords: vbaac10.chm10207
 f1_keywords:
 - vbaac10.chm10207
-ms.prod: access
 api_name:
 - Access.ToggleButton.BorderWidth
 ms.assetid: cbfd0285-9332-743c-a446-dfbff4dc7443
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax
@@ -31,7 +30,7 @@ The **BorderWidth** property uses the following settings.
 |Setting|Visual Basic|Description|
 |:-----|:-----|:-----|
 |Hairline|0|(Default) The narrowest border possible on your system.|
-|1 pt to 6 pt|1 to 6|The width as indicated in points.|
+|1 pt to 6 pt|1 to 6|The width as indicated in [points](../language/glossary/vbe-glossary.md#point).|
 
 You can set the default for this property by using the control's default control style or the **[DefaultControl](access.form.defaultcontrol.md)** property in Visual Basic.
 

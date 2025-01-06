@@ -1,24 +1,23 @@
 ---
-title: SharingItem.Write Event (Outlook)
-ms.prod: outlook
+title: SharingItem.Write event (Outlook)
 api_name:
 - Outlook.SharingItem.Write
 ms.assetid: 22cfb332-d9e9-005a-fb6c-e77ff098a444
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.Write Event (Outlook)
+# SharingItem.Write event (Outlook)
 
-Occurs when an instance of the parent object is saved, either explicitly (for example, using the  **[Save](Outlook.SharingItem.Save.md)** or **[SaveAs](Outlook.SharingItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
+Occurs when an instance of the parent object is saved, either explicitly (for example, using the **[Save](Outlook.SharingItem.Save.md)** or **[SaveAs](Outlook.SharingItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
 
 
 ## Syntax
 
 _expression_. `Write`( `_Cancel_` )
 
- _expression_ An expression that returns a [SharingItem](./Outlook.SharingItem.md) object.
+ _expression_ An expression that returns a [SharingItem](Outlook.SharingItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_. `Write`( `_Cancel_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True** , the save operation is not completed.|
+| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the save operation is not completed.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the save operation is not completed.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the save operation is not completed.
 
 
 ## See also

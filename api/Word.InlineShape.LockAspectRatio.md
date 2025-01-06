@@ -3,12 +3,11 @@ title: InlineShape.LockAspectRatio property (Word)
 keywords: vbawd10.chm162005004
 f1_keywords:
 - vbawd10.chm162005004
-ms.prod: word
 api_name:
 - Word.InlineShape.LockAspectRatio
 ms.assetid: 4c310dae-d0ec-40ea-c4c1-191474c0f21e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LockAspectRatio`
+_expression_.**LockAspectRatio**
 
- _expression_ Required. A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ Required. A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## See also

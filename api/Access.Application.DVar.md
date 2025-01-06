@@ -3,12 +3,11 @@ title: Application.DVar method (Access)
 keywords: vbaac10.chm12531
 f1_keywords:
 - vbaac10.chm12531
-ms.prod: access
 api_name:
 - Access.Application.DVar
 ms.assetid: e1566391-4aac-548f-6475-6a8ee63a2bb7
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -45,10 +44,10 @@ If _domain_ refers to fewer than two records, or if fewer than two records satis
 
 Whether you use the **DVar** function in a macro, module, query expression, or calculated control, you must construct the _criteria_ argument carefully to ensure that it will be evaluated correctly.
 
-You can use the **DVar** function to specify criteria in the **Criteria** row of a select query, in a calculated field expression in a query, or in the **Update To** row of an update query.
+Use the **DVar** function to specify criteria in the **Criteria** row of a select query, in a calculated field expression in a query, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use the **DVar** function or the **Var** function in a calculated field expression in a totals query. If you use the **DVar** function, values are calculated before data is grouped. If you use the **Var** function, the data is grouped before values in the field expression are evaluated.
+> Use the **DVar** function or the **Var** function in a calculated field expression in a totals query. If you use the **DVar** function, values are calculated before data is grouped. If you use the **Var** function, the data is grouped before values in the field expression are evaluated.
 
 Use the **DVar** function in a calculated control when you need to specify _criteria_ to restrict the range of data on which the function is performed. For example, to display a variance for orders to be shipped to California, set the **ControlSource** property of a text box to the following expression:
 
@@ -74,8 +73,6 @@ dblX = DVar("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 dblY = DVarP("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
 
-<br/>
-
 The next example returns estimates by using the variable `strCountry` in the _criteria_ argument. Note that single quotation marks (') are included in the string expression, so that when the strings are concatenated, the string literal `UK` will be enclosed in single quotation marks.
 
 ```vb
@@ -87,8 +84,6 @@ strCountry = "UK"
 dblX = DVar("[Freight]", "Orders", "[ShipCountry] = '" _ 
     & strCountry & "'")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DVar** function.
 

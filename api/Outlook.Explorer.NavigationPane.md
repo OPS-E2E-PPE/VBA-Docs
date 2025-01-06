@@ -1,37 +1,36 @@
 ---
-title: Explorer.NavigationPane Property (Outlook)
+title: Explorer.NavigationPane property (Outlook)
 keywords: vbaol11.chm2782
 f1_keywords:
 - vbaol11.chm2782
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.NavigationPane
 ms.assetid: 9ff92a76-d1cd-e338-2f45-e3e5c79c136e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.NavigationPane Property (Outlook)
+# Explorer.NavigationPane property (Outlook)
 
-Returns a  **[NavigationPane](Outlook.NavigationPane.md)** object that represents the Navigation Pane for an **[Explorer](Outlook.Explorer.md)** object. Read-only.
+Returns a **[NavigationPane](Outlook.NavigationPane.md)** object that represents the navigation pane for an **[Explorer](Outlook.Explorer.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `NavigationPane`
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Remarks
 
-Some  **Explorer** objects may not have an associated **NavigationPane** object. In such cases, this property returns **Null** (**Nothing** in Visual Basic.)
+Some **Explorer** objects may not have an associated **NavigationPane** object. In such cases, this property returns **Null** (**Nothing** in Visual Basic.)
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) sample retrieves the  **NavigationPane** object from the active **Explorer** object and then displays information about the number of navigation modules contained and displayed by the object.
+The following Visual Basic for Applications (VBA) sample retrieves the **NavigationPane** object from the active **Explorer** object and then displays information about the number of navigation modules contained and displayed by the object.
 
 
 ```vb

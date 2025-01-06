@@ -3,10 +3,9 @@ title: Is operator
 keywords: vblr6.chm1008950
 f1_keywords:
 - vblr6.chm1008950
-ms.prod: office
 ms.assetid: c84836c1-7b21-a659-9d34-3bef8784c5a3
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ The **Is** operator syntax has these parts:
 
 ## Remarks
 
-If _object1_ and _object2_ both refer to the same object, _result_ is **True**; if they do not, _result_ is **False**. Two variables can be made to refer to the same object in several ways.
+If _object1_ and _object2_ both refer to the same object, _result_ is **True**; if they don't, _result_ is **False**. Two variables can be made to refer to the same object in several ways.
 
 In the following example, A has been set to refer to the same object as B:
 

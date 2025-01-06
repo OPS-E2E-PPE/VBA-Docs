@@ -3,18 +3,17 @@ title: Control.Report property (Access)
 keywords: vbaac10.chm10140
 f1_keywords:
 - vbaac10.chm10140
-ms.prod: access
 api_name:
 - Access.Control.Report
 ms.assetid: 1c1f4703-bda7-de97-eb13-830238a5170a
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Control.Report property (Access)
 
-You can use the **Report** property to refer to a report or to refer to the report associated with a subreport control. Read-only **Report**.
+Use the **Report** property to refer to a report or to refer to the report associated with a subreport control. Read-only **Report**.
 
 
 ## Syntax

@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.Copy Method (Outlook)
+title: AppointmentItem.Copy method (Outlook)
 keywords: vbaol11.chm869
 f1_keywords:
 - vbaol11.chm869
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.Copy
 ms.assetid: 947f1cfd-f60c-a47e-ba4d-3ffde8c13c91
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.Copy Method (Outlook)
+# AppointmentItem.Copy method (Outlook)
 
 Creates another instance of an object.
 
 
 ## Syntax
 
-_expression_. `Copy`
+_expression_.**Copy**
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications example creates an email message, sets the  **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
+This Visual Basic for Applications example creates an email message, sets the **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
 
 
 ```vb

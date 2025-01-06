@@ -1,27 +1,26 @@
 ---
 title: OptionButton.TextAlign Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 462a3612-fae0-ce47-4d9f-24523cd88369
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.TextAlign Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies how text is aligned in a control. Read/write.
+Returns or sets an **Integer** that specifies how text is aligned in a control. Read/write.
 
 
 ## Syntax
 
-_expression_. **TextAlign**
+_expression_.**TextAlign**
 
-_expression_ A variable that represents an  **OptionButton** object.
+_expression_ A variable that represents an **OptionButton** object.
 
 
 ## Remarks
 
-The settings for  **TextAlign** are:
+The settings for **TextAlign** are:
 
 
 

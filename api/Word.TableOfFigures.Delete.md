@@ -3,12 +3,11 @@ title: TableOfFigures.Delete method (Word)
 keywords: vbawd10.chm153157732
 f1_keywords:
 - vbawd10.chm153157732
-ms.prod: word
 api_name:
 - Word.TableOfFigures.Delete
 ms.assetid: cd35bd01-1a2f-b14b-c1ef-f6279458d592
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Deletes the specified table of figures.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
+_expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
 
 
 ## See also

@@ -1,18 +1,18 @@
 ---
-title: EventInfo Object (Project)
+title: EventInfo object (Project)
 keywords: vbapj.chm131286
 f1_keywords:
 - vbapj.chm131286
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.EventInfo
 ms.assetid: 97a51ee0-f7eb-5215-0686-1944c537e8fc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EventInfo Object (Project)
+# EventInfo object (Project)
 
 Represents cancellation information for an event.
  
@@ -20,7 +20,7 @@ Represents cancellation information for an event.
 
 ## Remarks
 
-The  **EventInfo** object has one **Boolean** property, named **Cancel**. Project uses the **EventInfo** object instead of the _Cancel_ parameter that is used for events in some previous versions of Project.
+The **EventInfo** object has one **Boolean** property, named **Cancel**. Project uses the **EventInfo** object instead of the _Cancel_ parameter that is used for events in some previous versions of Project.
  
 
  

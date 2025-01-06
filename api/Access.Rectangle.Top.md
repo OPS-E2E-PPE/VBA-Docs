@@ -3,18 +3,17 @@ title: Rectangle.Top property (Access)
 keywords: vbaac10.chm10284
 f1_keywords:
 - vbaac10.chm10284
-ms.prod: access
 api_name:
 - Access.Rectangle.Top
 ms.assetid: ae012c86-a595-9804-c9ac-3bade01d480f
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

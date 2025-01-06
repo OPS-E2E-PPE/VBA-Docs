@@ -1,20 +1,20 @@
 ---
-title: Shapes.SelectAll Method (Project)
-ms.prod: project-server
+title: Shapes.SelectAll method (Project)
+ms.service: project-server
 ms.assetid: f85eb8ea-770f-ba13-b7d4-794d162bd598
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.SelectAll Method (Project)
-Selects all shapes in the  **Shapes** collection.
+# Shapes.SelectAll method (Project)
+Selects all shapes in the **Shapes** collection.
 
 ## Syntax
 
- _expression_. `SelectAll`
+_expression_.**SelectAll**
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Return value

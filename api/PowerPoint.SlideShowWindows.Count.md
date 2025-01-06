@@ -1,24 +1,23 @@
 ---
-title: SlideShowWindows.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: SlideShowWindows.Count property (PowerPoint)
 api_name:
 - PowerPoint.SlideShowWindows.Count
 ms.assetid: 19f91cd6-c12d-92b1-21e9-a3a0916bf4df
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowWindows.Count Property (PowerPoint)
+# SlideShowWindows.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [SlideShowWindows](./PowerPoint.SlideShowWindows.md) object.
+_expression_ A variable that represents a [SlideShowWindows](PowerPoint.SlideShowWindows.md) object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: Pane.AutoScroll method (Word)
 keywords: vbawd10.chm157286504
 f1_keywords:
 - vbawd10.chm157286504
-ms.prod: word
 api_name:
 - Word.Pane.AutoScroll
 ms.assetid: c0f35128-c98e-2a9e-0ce4-3386c9db89ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scrolls automatically through the specified pane.
 
 ## Syntax
 
- _expression_. `AutoScroll`( `_Velocity_` )
+_expression_. `AutoScroll`( `_Velocity_` )
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Scrolls automatically through the specified pane.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Velocity_|Required| **Long**|The speed for scrolling. Can be a number from ? 100 through 100. Use ? 100 for full-speed backward scrolling, and use 100 for full-speed forward scrolling.|
+| _Velocity_|Required| **Long**|The speed for scrolling. Can be a number from -100 through 100. Use -100 for full-speed backward scrolling, and use 100 for full-speed forward scrolling.|
 
 ## Remarks
 

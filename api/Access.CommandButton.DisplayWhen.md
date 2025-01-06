@@ -3,18 +3,17 @@ title: CommandButton.DisplayWhen property (Access)
 keywords: vbaac10.chm10463
 f1_keywords:
 - vbaac10.chm10463
-ms.prod: access
 api_name:
 - Access.CommandButton.DisplayWhen
 ms.assetid: 3775036c-c483-1c2d-6845-cd999104925d
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

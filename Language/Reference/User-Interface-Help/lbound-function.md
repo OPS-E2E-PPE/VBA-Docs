@@ -3,10 +3,9 @@ title: LBound function (Visual Basic for Applications)
 keywords: vblr6.chm1008956
 f1_keywords:
 - vblr6.chm1008956
-ms.prod: office
 ms.assetid: 49520e9d-305b-4f5b-3ae6-df92f875d1eb
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Long](../../Glossary/vbe-glossary.md#long-data-type) containing the s
 ## Syntax
 
 **LBound**(_arrayname_, [ _dimension_ ])
-
-<br/>
 
 The **LBound** function syntax has these parts:
 

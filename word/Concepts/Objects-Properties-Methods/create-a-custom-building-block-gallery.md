@@ -1,9 +1,8 @@
 ---
 title: Create a Custom Building Block Gallery
-ms.prod: word
 ms.assetid: 472688b6-205c-c88d-5a7e-26334ec5eeeb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -58,6 +57,6 @@ End Sub
 
 ## See also
 
--  [Working with Building Blocks](../Working-with-Word/working-with-building-blocks.md)
+- [Working with Building Blocks](../Working-with-Word/working-with-building-blocks.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

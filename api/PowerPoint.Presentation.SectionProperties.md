@@ -1,27 +1,26 @@
 ---
-title: Presentation.SectionProperties Property (PowerPoint)
+title: Presentation.SectionProperties property (PowerPoint)
 keywords: vbapp10.chm583111
 f1_keywords:
 - vbapp10.chm583111
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.SectionProperties
 ms.assetid: 4b114cc6-83ef-c86d-eecc-dc39f1837a42
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.SectionProperties Property (PowerPoint)
+# Presentation.SectionProperties property (PowerPoint)
 
-Returns a  **SectionProperties** object. Read-only.
+Returns a **SectionProperties** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `SectionProperties`
+_expression_. `SectionProperties`
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

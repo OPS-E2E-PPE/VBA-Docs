@@ -3,10 +3,9 @@ title: WeekdayName function (Visual Basic for Applications)
 keywords: vblr6.chm1008932
 f1_keywords:
 - vblr6.chm1008932
-ms.prod: office
 ms.assetid: 84a92bec-1e65-4f97-fdf9-cd524dd04081
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a string indicating the specified day of the week.
 ## Syntax
 
 **WeekdayName**(_weekday_, _abbreviate_, _firstdayofweek_)
-
-<br/>
 
 The **WeekdayName** function syntax has these parts:
 

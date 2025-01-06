@@ -3,30 +3,29 @@ title: Axis.MinimumScale property (Word)
 keywords: vbawd10.chm113049632
 f1_keywords:
 - vbawd10.chm113049632
-ms.prod: word
 api_name:
 - Word.Axis.MinimumScale
 ms.assetid: ccc3eb87-4839-5952-263b-00aad68b3521
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MinimumScale property (Word)
 
-Returns or sets the minimum value on the value axis. Read/write  **Double**.
+Returns or sets the minimum value on the value axis. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `MinimumScale`
+_expression_. `MinimumScale`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting this property sets the  **[MinimumScaleIsAuto](Word.Axis.MinimumScaleIsAuto.md)** property to **False**.
+Setting this property sets the **[MinimumScaleIsAuto](Word.Axis.MinimumScaleIsAuto.md)** property to **False**.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ThreeDFormat.Visible property (Word)
 keywords: vbawd10.chm164626543
 f1_keywords:
 - vbawd10.chm164626543
-ms.prod: word
 api_name:
 - Word.ThreeDFormat.Visible
 ms.assetid: 6e5cfe87-c2e4-7ee0-2574-cb33b2cacf96
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
+_expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
 
 
 ## Remarks
 
-Some methods and properties may be unavailable if the  **Visible** property is **False**.
+Some methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## See also

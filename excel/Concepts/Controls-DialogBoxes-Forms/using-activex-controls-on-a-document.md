@@ -3,10 +3,9 @@ title: Using ActiveX Controls on a Document
 keywords: vbaxl10.chm5205772
 f1_keywords:
 - vbaxl10.chm5205772
-ms.prod: excel
 ms.assetid: 063c3f84-3826-1bc2-5e60-12ff5760c8d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,11 +16,11 @@ Just as you can add ActiveX controls to  [custom dialog boxes](create-a-custom-d
 
 1.  [Add Controls to a Document](add-controls-to-a-document.md)
     
-    Display the  **Control Toolbox**, click the control you want to add, and then click the document.
+    Display the **Control Toolbox**, click the control you want to add, and then click the document.
     
 2.  [Set control properties](setting-control-properties.md)
     
-    Right-click a control in design mode and click  **Properties** to display the Properties window.
+    Right-click a control in design mode and click **Properties** to display the Properties window.
     
 3.  [Initialize the controls](initializing-control-properties.md)
     

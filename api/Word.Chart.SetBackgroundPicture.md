@@ -3,12 +3,11 @@ title: Chart.SetBackgroundPicture method (Word)
 keywords: vbawd10.chm79364161
 f1_keywords:
 - vbawd10.chm79364161
-ms.prod: word
 api_name:
 - Word.Chart.SetBackgroundPicture
 ms.assetid: 6bc2d271-86dd-cd4f-a7b8-323f6f7fe332
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the background graphic for a chart.
 
 ## Syntax
 
- _expression_. `SetBackgroundPicture`( `_FileName_` )
+_expression_.**SetBackgroundPicture** (_FileName_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters

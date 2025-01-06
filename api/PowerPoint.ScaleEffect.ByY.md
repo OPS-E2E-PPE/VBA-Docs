@@ -1,27 +1,26 @@
 ---
-title: ScaleEffect.ByY Property (PowerPoint)
+title: ScaleEffect.ByY property (PowerPoint)
 keywords: vbapp10.chm660004
 f1_keywords:
 - vbapp10.chm660004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ScaleEffect.ByY
 ms.assetid: c77a59cb-dc68-120b-8750-3088ccb12d73
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ScaleEffect.ByY Property (PowerPoint)
+# ScaleEffect.ByY property (PowerPoint)
 
-Sets or returns a  **Single** that represents scaling or moving an object vertically by a specified percentage of the screen width, depending on whether it is used in conjunction with a **[ScaleEffect](PowerPoint.ScaleEffect.md)** or **[MotionEffect](PowerPoint.MotionEffect.md)** object, respectively. Read/write.
+Sets or returns a **Single** that represents scaling or moving an object vertically by a specified percentage of the screen width, depending on whether it is used in conjunction with a **[ScaleEffect](PowerPoint.ScaleEffect.md)** or **[MotionEffect](PowerPoint.MotionEffect.md)** object, respectively. Read/write.
 
 
 ## Syntax
 
- _expression_. `ByY`
+_expression_. `ByY`
 
- _expression_ A variable that represents a [ScaleEffect](./PowerPoint.ScaleEffect.md) object.
+_expression_ A variable that represents a [ScaleEffect](PowerPoint.ScaleEffect.md) object.
 
 
 ## Return value
@@ -33,11 +32,11 @@ Single
 
 Negative numbers move the object horizontally to the left. Floating point numbers (for example, 55.5) are allowed.
 
-To scale or move an object horizontally, use the  **ByX** property.
+To scale or move an object horizontally, use the **ByX** property.
 
-If both the  **ByX** and **ByY** properties are set, then the object is scaled or moves both horizontally and vertically.
+If both the **ByX** and **ByY** properties are set, then the object is scaled or moves both horizontally and vertically.
 
-Do not confuse this property with the  **By** property of the **[ColorEffect](PowerPoint.ColorEffect.md)**, **[RotationEffect](PowerPoint.RotationEffect.md)**, or **[PropertyEffect](PowerPoint.PropertyEffect.md)** objects, which is used to set colors, rotations, or other properties of an animation behavior, respectively.
+Do not confuse this property with the **By** property of the **[ColorEffect](PowerPoint.ColorEffect.md)**, **[RotationEffect](PowerPoint.RotationEffect.md)**, or **[PropertyEffect](PowerPoint.PropertyEffect.md)** objects, which is used to set colors, rotations, or other properties of an animation behavior, respectively.
 
 
 ## Example

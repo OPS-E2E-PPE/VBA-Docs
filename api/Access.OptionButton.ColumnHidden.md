@@ -3,18 +3,17 @@ title: OptionButton.ColumnHidden property (Access)
 keywords: vbaac10.chm10597
 f1_keywords:
 - vbaac10.chm10597
-ms.prod: access
 api_name:
 - Access.OptionButton.ColumnHidden
 ms.assetid: 962a7bf7-8898-d2e5-f26a-691b8c9b5d71
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.ColumnHidden property (Access)
 
-You can use the **ColumnHidden** property to show or hide a specified column in Datasheet view. Read/write **Boolean**.
+Use the **ColumnHidden** property to show or hide a specified column in Datasheet view. Read/write **Boolean**.
 
 
 ## Syntax
@@ -35,7 +34,7 @@ Hiding a column with the **ColumnHidden** property in Datasheet view doesn't hid
 > [!NOTE] 
 > To set or change this property for a table or query by using Visual Basic, you must use a column's **Properties** collection. For more information about using the **Properties** collection, see **[Properties](Access.OptionButton.properties.md)**.
 
-You can display a field in a query even though the column for the field is hidden in table Datasheet view. You can use values from a hidden column as the criteria for a filter even though the column remains hidden after the filter is applied.
+You can display a field in a query even though the column for the field is hidden in table Datasheet view. Use values from a hidden column as the criteria for a filter even though the column remains hidden after the filter is applied.
 
 Setting a field's **ColumnWidth** property to 0, or resizing the field to a zero width in Datasheet view, causes Microsoft Access to set the corresponding **ColumnHidden** property to **True**. Unhiding a column restores the **ColumnWidth** property to the value it had before the field was hidden.
 
@@ -49,8 +48,6 @@ The following example hides the **ProductID** field in Datasheet view of the **P
 ```vb
 Forms!Products!ProductID.ColumnHidden = -1
 ```
-
-<br/>
 
 The next example hides the **ProductID** field in Datasheet view of the **Products** table.
 

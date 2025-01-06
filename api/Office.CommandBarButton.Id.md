@@ -1,11 +1,10 @@
 ---
 title: CommandBarButton.Id property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarButton.Id
 ms.assetid: d559a98c-b9b2-a987-c7af-278734a9545d
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ Gets the ID for a built-in **CommandBarButton** control. Read-only.
 
 _expression_.**Id**
 
- _expression_ Required. A variable that represents a **[CommandBarButton](Office.CommandBarButton.md)** object.
+_expression_ Required. A variable that represents a **[CommandBarButton](Office.CommandBarButton.md)** object.
 
 
 ## Remarks
@@ -43,8 +42,6 @@ With ctrl
     End If 
 End With
 ```
-
-<br/>
 
 The following example changes the caption of every control on the toolbar named **Standard** to the current value of the **Id** property for that control.
 

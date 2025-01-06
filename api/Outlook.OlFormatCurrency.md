@@ -1,18 +1,17 @@
 ---
-title: OlFormatCurrency Enumeration (Outlook)
+title: OlFormatCurrency enumeration (Outlook)
 keywords: vbaol11.chm3132
 f1_keywords:
 - vbaol11.chm3132
-ms.prod: outlook
 api_name:
 - Outlook.OlFormatCurrency
 ms.assetid: 8fd3dbad-66cc-fd76-ac88-54e5d7612a25
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormatCurrency Enumeration (Outlook)
+# OlFormatCurrency enumeration (Outlook)
 
 Indicates the format used to display currency Outlook item properties.
 

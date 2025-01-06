@@ -3,12 +3,11 @@ title: TripleState property
 keywords: fm20.chm5225110
 f1_keywords:
 - fm20.chm5225110
-ms.prod: office
 api_name:
 - Office.TripleState
 ms.assetid: f009f524-76db-526f-7bd6-a7358b53fc31
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

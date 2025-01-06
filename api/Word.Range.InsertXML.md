@@ -3,12 +3,11 @@ title: Range.InsertXML method (Word)
 keywords: vbawd10.chm157155744
 f1_keywords:
 - vbawd10.chm157155744
-ms.prod: word
 api_name:
 - Word.Range.InsertXML
 ms.assetid: daee0fee-01cb-5ad7-f61d-ea6ebec1d04a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Inserts the specified XML into the document at the specified range, replacing an
 
 ## Syntax
 
- _expression_. `InsertXML`( `_XML_` , `_Transform_` )
+_expression_.**InsertXML** (_XML_, _Transform_)
 
- _expression_ An expression that returns a [Range](./Word.Range.md) object.
+_expression_ An expression that returns a [Range](./Word.Range.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +43,7 @@ The following example inserts the specified XML string into the document at the 
 ```vb
 Dim strXML As String 
  
-strXML = "<?xml version=""1.0""?><abc:books xmlns:abc=""urn:books"" " & _ 
+strXML = "<"xml version=""1.0""><abc:books xmlns:abc=""urn:books"" " & _ 
  "xmlns:xsi=""https://www.w3.org/2001/XMLSchema-instance"" " & _ 
  "xsi:schemaLocation=""urn:books books.xsd""><book>" & _ 
  "<author>Matt Hink</author><title>Migration Paths of the Red " & _ 
@@ -61,9 +58,6 @@ ActiveDocument.Paragraphs(5).Range.InsertXML strXML
 ```
 
 
-## See also
 
-
-[Range Object](Word.Range.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,11 +1,10 @@
 ---
 title: CommandBarControl.OnAction property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarControl.OnAction
 ms.assetid: 05e40fcb-ff67-049f-6386-a9ef20b48c87
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,8 +47,6 @@ With myControl
 End With 
 myBar.Visible = True
 ```
-
-<br/>
 
 This example adds a command bar control to the command bar named **Custom**. The COM add-in named **FinanceAddIn** will run each time the control is clicked.
 

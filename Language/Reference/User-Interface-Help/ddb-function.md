@@ -3,10 +3,9 @@ title: DDB function (Visual Basic for Applications)
 keywords: vblr6.chm1009279
 f1_keywords:
 - vblr6.chm1009279
-ms.prod: office
 ms.assetid: e6ae2093-222c-01cd-86bc-73a3cb79d075
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Double](../../Glossary/vbe-glossary.md#double-data-type) specifying t
 ## Syntax
 
 **DDB**(_cost_, _salvage_, _life_, _period_, [ _factor_ ])
-
-<br/>
 
 The **DDB** function has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

@@ -3,25 +3,24 @@ title: WrapFormat.Side property (Word)
 keywords: vbawd10.chm163774565
 f1_keywords:
 - vbawd10.chm163774565
-ms.prod: word
 api_name:
 - Word.WrapFormat.Side
 ms.assetid: eb4aec92-a51b-df53-1643-bd5dca45c9b5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WrapFormat.Side property (Word)
 
-Returns or sets a value that indicates whether the document text should wrap on both sides of the specified shape, on either the left or right side only, or on the side of the shape that's farthest from the page margin.Read/write  **WdWrapSideType**.
+Returns or sets a value that indicates whether the document text should wrap on both sides of the specified shape, on either the left or right side only, or on the side of the shape that's farthest from the page margin.Read/write **WdWrapSideType**.
 
 
 ## Syntax
 
- _expression_. `Side`
+_expression_. `Side`
 
- _expression_ Required. A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
+_expression_ Required. A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
 
 
 ## Remarks

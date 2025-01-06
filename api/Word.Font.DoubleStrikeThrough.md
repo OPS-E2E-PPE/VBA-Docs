@@ -3,12 +3,11 @@ title: Font.DoubleStrikeThrough property (Word)
 keywords: vbawd10.chm156369032
 f1_keywords:
 - vbawd10.chm156369032
-ms.prod: word
 api_name:
 - Word.Font.DoubleStrikeThrough
 ms.assetid: 153d23c7-d5ee-4004-c540-ff23e263d9c5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DoubleStrikeThrough`
+_expression_. `DoubleStrikeThrough`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** , or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**. Read/write **Long**.To set or return single-line strikethrough formatting, use the **[StrikeThrough](Word.Font.StrikeThrough.md)** property. Setting **DoubleStrikeThrough** to **True** sets **StrikeThrough** to **False** , and vice versa.
+Returns **True**, **False**, or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**. Read/write **Long**.To set or return single-line strikethrough formatting, use the **[StrikeThrough](Word.Font.StrikeThrough.md)** property. Setting **DoubleStrikeThrough** to **True** sets **StrikeThrough** to **False**, and vice versa.
 
 
 ## Example

@@ -3,10 +3,9 @@ title: Open statement (VBA)
 keywords: vblr6.chm1008800
 f1_keywords:
 - vblr6.chm1008800
-ms.prod: office
 ms.assetid: 359a24b9-6dbb-3648-0ce4-98ec38441ccf
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Enables input/output (I/O) to a file.
 ## Syntax
 
 **Open** _pathname_ **For** _mode_ [ **Access** _access_ ] [ _lock_ ] **As** [ **#** ] _filenumber_ [ **Len** = _reclength_ ]
-
-<br/>
 
 The **Open** statement syntax has these parts:
 
@@ -52,13 +49,11 @@ This example illustrates various uses of the **Open** statement to enable input 
 The following code opens the file in sequential-input mode.
 
 ```vb
-Open "TESTFILE" For InputAs#1 
+Open "TESTFILE" For Input As #1 
 ' Close before reopening in another mode. 
 Close #1 
 
 ```
-
-<br/>
 
 This example opens the file in Binary mode for writing operations only.
 
@@ -68,8 +63,6 @@ Open "TESTFILE" For Binary Access Write As #1
 Close #1 
 
 ```
-
-<br/>
 
 The following example opens the file in Random mode. The file contains records of the user-defined type.
 
@@ -86,8 +79,6 @@ Close #1
 
 ```
 
-<br/>
-
 This code example opens the file for sequential output; any process can read or write to the file.
 
 ```vb
@@ -95,8 +86,6 @@ Open "TESTFILE" For Output Shared As #1
 ' Close before reopening in another mode. 
 Close #1 
 ```
-
-<br/>
 
 This code example opens the file in Binary mode for reading; other processes can't read the file.
 

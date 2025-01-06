@@ -1,29 +1,29 @@
 ---
-title: CostRateTables.Parent Property (Project)
-ms.prod: project-server
+title: CostRateTables.Parent property (Project)
+ms.service: project-server
 api_name:
 - Project.CostRateTables.Parent
 ms.assetid: 0a9a2729-0b7e-3d8c-acab-7996c9e86e7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CostRateTables.Parent Property (Project)
+# CostRateTables.Parent property (Project)
 
-Gets the parent of the  **CostRateTables** object. Read-only **Resource**.
+Gets the parent of the **CostRateTables** object. Read-only **Resource**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a 'CostRateTables' object.
+_expression_ A variable that represents a 'CostRateTables' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

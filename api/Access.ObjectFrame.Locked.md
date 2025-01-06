@@ -3,12 +3,11 @@ title: ObjectFrame.Locked property (Access)
 keywords: vbaac10.chm11584
 f1_keywords:
 - vbaac10.chm11584
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Locked
 ms.assetid: 0769b9c9-ea0b-33c8-b258-e7d775bee9e6
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

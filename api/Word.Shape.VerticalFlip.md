@@ -3,12 +3,11 @@ title: Shape.VerticalFlip property (Word)
 keywords: vbawd10.chm161480829
 f1_keywords:
 - vbawd10.chm161480829
-ms.prod: word
 api_name:
 - Word.Shape.VerticalFlip
 ms.assetid: f14d27b2-99f5-ddf5-a6b9-4163c20c0715
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `VerticalFlip`
+_expression_.**VerticalFlip**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example restores each shape on  _myDocument_ to its original state if it has been flipped horizontally or vertically.
+This example restores each shape on _myDocument_ to its original state if it has been flipped horizontally or vertically.
 
 
 ```vb

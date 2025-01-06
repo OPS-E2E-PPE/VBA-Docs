@@ -3,12 +3,11 @@ title: Style.NoProofing property (Word)
 keywords: vbawd10.chm153878546
 f1_keywords:
 - vbawd10.chm153878546
-ms.prod: word
 api_name:
 - Word.Style.NoProofing
 ms.assetid: dbfc95ea-160a-bda9-e7e8-b73ae2314228
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `NoProofing`
+_expression_. `NoProofing`
 
- _expression_ A variable that represents a '[Style](Word.Style.md)' object.
+_expression_ A variable that represents a '[Style](Word.Style.md)' object.
 
 
 ## Example

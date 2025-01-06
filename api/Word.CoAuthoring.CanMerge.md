@@ -3,23 +3,22 @@ title: CoAuthoring.CanMerge property (Word)
 keywords: vbawd10.chm254869513
 f1_keywords:
 - vbawd10.chm254869513
-ms.prod: word
 api_name:
 - Word.CoAuthoring.CanMerge
 ms.assetid: c74efdfe-9f8b-e524-14fb-7866ae0e34ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CoAuthoring.CanMerge property (Word)
 
-Returns a  **Boolean** that specifies whether the document can be auto-merged. Read-only.
+Returns a **Boolean** that specifies whether the document can be auto-merged. Read-only.
 
 
 ## Syntax
 
- _expression_. `CanMerge`
+_expression_. `CanMerge`
 
  _expression_ An expression that returns a '[CoAuthoring](Word.CoAuthoring.md)' object.
 
@@ -43,11 +42,11 @@ Only documents stored on a server that supports the File Synchronization via SOA
     
 - Framesets
     
-- Object Linking and Embedding (OLE) objects that do not have Revision Save IDs (RSIDs)
+- Object Linking and Embedding (OLE) objects that don't have Revision Save IDs (RSIDs)
     
 - ActiveX controls
     
-- OfficeArt Engine 2.0 Charts and ink objects, and SmartArt that do not have corresponding IDs in the document
+- OfficeArt Engine 2.0 Charts and ink objects, and SmartArt that don't have corresponding IDs in the document
     
 - Documents with file name extensions other than .docx, .doc, and .odt
     

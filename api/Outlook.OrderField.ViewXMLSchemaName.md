@@ -1,37 +1,36 @@
 ---
-title: OrderField.ViewXMLSchemaName Property (Outlook)
+title: OrderField.ViewXMLSchemaName property (Outlook)
 keywords: vbaol11.chm2687
 f1_keywords:
 - vbaol11.chm2687
-ms.prod: outlook
 api_name:
 - Outlook.OrderField.ViewXMLSchemaName
 ms.assetid: a88c22ff-3d30-a4f2-87f6-6c32c1c2acb7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OrderField.ViewXMLSchemaName Property (Outlook)
+# OrderField.ViewXMLSchemaName property (Outlook)
 
-Returns a  **String** value that represents the XML schema name for the property referenced by the **[OrderField](Outlook.OrderField.md)** object. Read-only.
+Returns a **String** value that represents the XML schema name for the property referenced by the **[OrderField](Outlook.OrderField.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `ViewXMLSchemaName`
 
-_expression_ A variable that represents an [OrderField](./Outlook.OrderField.md) object.
+_expression_ A variable that represents an [OrderField](Outlook.OrderField.md) object.
 
 
 ## Remarks
 
-The value of this property contains the name of the property as it is included within the XML definition of the view containing the  **ViewField** object. This value may not match the name used to refer to the property when the **OrderField** object was defined.
+The value of this property contains the name of the property as it is included within the XML definition of the view containing the **ViewField** object. This value may not match the name used to refer to the property when the **OrderField** object was defined.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example iterates through the  **[SortFields](Outlook.TableView.SortFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **OrderField** object in the collection.
+The following Visual Basic for Applications (VBA) example iterates through the **[SortFields](Outlook.TableView.SortFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **OrderField** object in the collection.
 
 
 ```vb

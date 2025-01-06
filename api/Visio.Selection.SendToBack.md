@@ -1,27 +1,26 @@
 ---
-title: Selection.SendToBack Method (Visio)
+title: Selection.SendToBack method (Visio)
 keywords: vis_sdr.chm11116545
 f1_keywords:
 - vis_sdr.chm11116545
-ms.prod: visio
 api_name:
 - Visio.Selection.SendToBack
 ms.assetid: 00417838-455b-c915-8879-64a83b0f1233
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.SendToBack Method (Visio)
+# Selection.SendToBack method (Visio)
 
 Moves the shape or selected shapes to the back of the z-order.
 
 
 ## Syntax
 
- _expression_. `SendToBack`
+_expression_.**SendToBack**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value

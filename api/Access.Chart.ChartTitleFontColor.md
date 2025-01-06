@@ -3,11 +3,10 @@ title: Chart.ChartTitleFontColor property (Access)
 keywords: vbaac10.chm6145
 f1_keywords:
 - vbaac10.chm6145
-ms.prod: access
 api_name:
 - Access.Chart.ChartTitleFontColor
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -15,7 +14,7 @@ localization_priority: Normal
 
 Returns or sets the font color used by the chart subtitle. Read/write **Long**.
 
-You can use a **[system color constant](../language/reference/user-interface-help/system-color-constants.md)** or the RGB function to set a color programmatically as shown in the example. You can also browse and select a color from the Design View palette.
+Use a **[system color constant](../language/reference/user-interface-help/system-color-constants.md)** or the RGB function to set a color programmatically as shown in the example. You can also browse and select a color from the Design view palette.
 
 
 ## Syntax

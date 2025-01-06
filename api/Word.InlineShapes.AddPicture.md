@@ -3,25 +3,24 @@ title: InlineShapes.AddPicture method (Word)
 keywords: vbawd10.chm162070628
 f1_keywords:
 - vbawd10.chm162070628
-ms.prod: word
 api_name:
 - Word.InlineShapes.AddPicture
 ms.assetid: 89c5f587-d591-d56b-d52a-fd21073f76fb
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # InlineShapes.AddPicture method (Word)
 
-Adds a picture to a document. Returns an  **[InlineShape](Word.InlineShape.md)** object that represents the picture.
+Adds a picture to a document. Returns an **[InlineShape](Word.InlineShape.md)** object that represents the picture.
 
 
 ## Syntax
 
- _expression_. `AddPicture`( `_FileName_` , `_LinkToFile_` , `_SaveWithDocument_` , `_Range_` )
+_expression_. `AddPicture`( `_FileName_` , `_LinkToFile_` , `_SaveWithDocument_` , `_Range_` )
 
- _expression_ Required. A variable that represents an '[InlineShapes](Word.inlineshapes.md)' collection.
+_expression_ Required. A variable that represents an '[InlineShapes](Word.inlineshapes.md)' collection.
 
 
 ## Parameters

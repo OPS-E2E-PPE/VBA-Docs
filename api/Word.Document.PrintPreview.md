@@ -3,12 +3,11 @@ title: Document.PrintPreview method (Word)
 keywords: vbawd10.chm158007410
 f1_keywords:
 - vbawd10.chm158007410
-ms.prod: word
 api_name:
 - Word.Document.PrintPreview
 ms.assetid: 534e3a03-b26c-5144-f6f5-09235830ec4f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Switches the view to print preview.
 
 ## Syntax
 
- _expression_. `PrintPreview`
+_expression_. `PrintPreview`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-In addition to using the  **PrintPreview** method, you can set the **[PrintPreview](Word.Application.PrintPreview.md)** property to **True** or **False** to switch to or from print preview, respectively. You can also change the view by setting the **[Type](Word.Document.Type.md)** property for the **View** object to **wdPrintPreview**.
+In addition to using the **PrintPreview** method, you can set the **[PrintPreview](Word.Application.PrintPreview.md)** property to **True** or **False** to switch to or from print preview, respectively. You can also change the view by setting the **[Type](Word.Document.Type.md)** property for the **View** object to **wdPrintPreview**.
 
 
 ## Example

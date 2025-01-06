@@ -1,37 +1,37 @@
 ---
-title: Task.Rollup Property (Project)
+title: Task.Rollup property (Project)
 keywords: vbapj.chm132588
 f1_keywords:
 - vbapj.chm132588
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.Rollup
 ms.assetid: 8f29afc1-85ec-d835-bc08-7311e9063ae4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Rollup Property (Project)
+# Task.Rollup property (Project)
 
  **True** if the dates of a subtask appear on its corresponding summary task bar. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Rollup`
+_expression_. `Rollup`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The  **Rollup** property must be **True** on the summary task as well as the subtasks for the rollup to occur.
+The **Rollup** property must be **True** on the summary task as well as the subtasks for the rollup to occur.
 
 
 ## Example
 
-The following example sets the  **Rollup** property to **True** for milestone tasks, and to **False** for other tasks in the active project.
+The following example sets the **Rollup** property to **True** for milestone tasks, and to **False** for other tasks in the active project.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: Sub, Function, or Property not defined (Error 35)
 keywords: vblr6.chm1011291
 f1_keywords:
 - vblr6.chm1011291
-ms.prod: office
 ms.assetid: 3f770754-8929-b15e-5bcc-d07fb2c353f4
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ A **Sub**, **Function**, or **Property** procedure must be defined to be called.
     
 - You tried to call a procedure from another [project](../../Glossary/vbe-glossary.md#project) without explicitly adding a reference to that project in the **References** dialog box.
     
-  **To add a reference**
+ **To add a reference**
     
   1. Display the **References** dialog box.
     

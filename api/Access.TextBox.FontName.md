@@ -3,18 +3,17 @@ title: TextBox.FontName property (Access)
 keywords: vbaac10.chm11084
 f1_keywords:
 - vbaac10.chm11084
-ms.prod: access
 api_name:
 - Access.TextBox.FontName
 ms.assetid: 4eb7cbbe-1e7d-9e29-cbff-867a83605741
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

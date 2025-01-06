@@ -3,12 +3,11 @@ title: ODSOFilters.Delete method (Office)
 keywords: vbaof11.chm241005
 f1_keywords:
 - vbaof11.chm241005
-ms.prod: office
 api_name:
 - Office.ODSOFilters.Delete
 ms.assetid: 0c2e8b91-e14d-1303-2239-986162ff038b
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

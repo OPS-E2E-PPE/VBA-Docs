@@ -3,12 +3,11 @@ title: Application.Keyboard method (Word)
 keywords: vbawd10.chm158335422
 f1_keywords:
 - vbawd10.chm158335422
-ms.prod: word
 api_name:
 - Word.Application.Keyboard
 ms.assetid: 67745d17-3dec-b4d9-919e-49925f2a7e34
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns or sets the keyboard language and layout settings.
 
 ## Syntax
 
- _expression_. `Keyboard`( `_LangId_` )
+_expression_. `Keyboard`( `_LangId_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters

@@ -3,18 +3,17 @@ title: Image.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10399
 f1_keywords:
 - vbaac10.chm10399
-ms.prod: access
 api_name:
 - Access.Image.ShortcutMenuBar
 ms.assetid: 1d85ddc5-3aa7-2267-778d-e96f1e1148b0
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Image.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

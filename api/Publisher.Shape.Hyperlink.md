@@ -1,33 +1,31 @@
 ---
-title: Shape.Hyperlink Property (Publisher)
+title: Shape.Hyperlink property (Publisher)
 keywords: vbapb10.chm2228323
 f1_keywords:
 - vbapb10.chm2228323
-ms.prod: publisher
 api_name:
 - Publisher.Shape.Hyperlink
 ms.assetid: 0990ab32-b4a3-6c89-cb9f-8f8c64ef804f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Hyperlink Property (Publisher)
+# Shape.Hyperlink property (Publisher)
 
-Returns a  **[Hyperlink](Publisher.Hyperlink.md)** object representing the hyperlink associated with the specified shape.
+Returns a **[Hyperlink](Publisher.Hyperlink.md)** object representing the hyperlink associated with the specified shape.
 
 
 ## Syntax
 
- _expression_. **Hyperlink**
+_expression_.**Hyperlink**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
-This example sets shape one on page one in the active publication to jump to the specified Web site when the shape is clicked.
-
+This example sets shape one on page one in the active publication to jump to the specified website when the shape is chosen.
 
 ```vb
 Dim hypTemp As Hyperlink 

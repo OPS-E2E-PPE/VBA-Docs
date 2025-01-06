@@ -1,27 +1,26 @@
 ---
-title: ActionSetting.ShowAndReturn Property (PowerPoint)
+title: ActionSetting.ShowAndReturn property (PowerPoint)
 keywords: vbapp10.chm567010
 f1_keywords:
 - vbapp10.chm567010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ActionSetting.ShowAndReturn
 ms.assetid: 76797234-161d-50a5-cbc3-b1a169bc6719
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ActionSetting.ShowAndReturn Property (PowerPoint)
+# ActionSetting.ShowAndReturn property (PowerPoint)
 
 Determines if and under what circumstances Microsoft PowerPoint returns to the initiating slide show. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowAndReturn`
+_expression_. `ShowAndReturn`
 
-_expression_ A variable that represents an [ActionSetting](./PowerPoint.ActionSetting.md) object.
+_expression_ A variable that represents an **[ActionSetting](PowerPoint.ActionSetting.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **ShowAndReturn** property can be one of these **MsoTriState** constants.
+The value of the **ShowAndReturn** property can be one of these **MsoTriState** constants.
 
 
 

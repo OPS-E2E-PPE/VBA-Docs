@@ -3,12 +3,11 @@ title: DeleteFile method (Visual Basic for Applications)
 keywords: vblr6.chm2182036
 f1_keywords:
 - vblr6.chm2182036
-ms.prod: office
 api_name:
 - Office.DeleteFile
 ms.assetid: e036b009-4fd9-297a-de24-acc0dbc96c7a
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Deletes a specified file.
 ## Syntax
 
 _object_.**DeleteFile** _filespec_, [ _force_ ]
-
-<br/>
 
 The **DeleteFile** method syntax has these parts:
 

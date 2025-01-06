@@ -3,12 +3,11 @@ title: Rectangle.HorizontalAnchor property (Access)
 keywords: vbaac10.chm10313
 f1_keywords:
 - vbaac10.chm10313
-ms.prod: access
 api_name:
 - Access.Rectangle.HorizontalAnchor
 ms.assetid: f00173af-cb55-516f-de3e-293414d8fd08
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

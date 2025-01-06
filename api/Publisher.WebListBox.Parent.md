@@ -1,33 +1,31 @@
 ---
-title: WebListBox.Parent Property (Publisher)
+title: WebListBox.Parent property (Publisher)
 keywords: vbapb10.chm4063234
 f1_keywords:
 - vbapb10.chm4063234
-ms.prod: publisher
 api_name:
 - Publisher.WebListBox.Parent
 ms.assetid: e5759e97-39d8-cea0-fdb4-902e1f8c6db4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebListBox.Parent Property (Publisher)
+# WebListBox.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **WebListBox** object.
+_expression_ A variable that represents a **[WebListBox](Publisher.WebListBox.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

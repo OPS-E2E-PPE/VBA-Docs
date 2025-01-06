@@ -1,17 +1,17 @@
 ---
-title: OverAllocatedAssignments.Item Property (Project)
-ms.prod: project-server
+title: OverAllocatedAssignments.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.OverAllocatedAssignments.Item
 ms.assetid: 5939e712-0abd-cb4b-31fe-ad2fa61835d6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OverAllocatedAssignments.Item Property (Project)
+# OverAllocatedAssignments.Item property (Project)
 
-Gets a single  **Assignment** object from the **OverAllocatedAssignments** collection. Read-only **[Assignment](Project.Assignment.md)**.
+Gets a single **Assignment** object from the **OverAllocatedAssignments** collection. Read-only **[Assignment](Project.Assignment.md)**.
 
 
 ## Syntax
@@ -27,11 +27,11 @@ _expression_ An expression that returns an 'OverAllocatedAssignments' object.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required|**Long**|The index number of the  **Assignment** to return.|
+| _Index_|Required|**Long**|The index number of the **Assignment** to return.|
 
 ## Example
 
-The following example finds assignments where the resource is overallocated. When the overPeak argument is  **False**, the overallocation is not greater than the maximum resource time available (100%). If you set overPeak to **True**, the example finds overallocated assignments that exceed maximum resource time available, such as 150%.
+The following example finds assignments where the resource is overallocated. When the overPeak argument is **False**, the overallocation is not greater than the maximum resource time available (100%). If you set overPeak to **True**, the example finds overallocated assignments that exceed maximum resource time available, such as 150%.
 
 
 ```vb

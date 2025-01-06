@@ -3,12 +3,11 @@ title: ZOrder method (Microsoft Forms)
 keywords: fm20.chm5224976
 f1_keywords:
 - fm20.chm5224976
-ms.prod: office
 api_name:
 - Office.ZOrder
 ms.assetid: dcf6f2b8-9f00-a8a7-2911-bfee9027a6f3
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,15 +1,15 @@
 ---
-title: PjInformationTab Enumeration (Project)
-ms.prod: project-server
+title: PjInformationTab enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjInformationTab
 ms.assetid: 6d66b730-d4b7-7718-59d1-6af49465b7d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjInformationTab Enumeration (Project)
+# PjInformationTab enumeration (Project)
 
 Contains constants that specify which information tab to display.
 

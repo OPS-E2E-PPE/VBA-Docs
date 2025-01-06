@@ -1,27 +1,26 @@
 ---
-title: ConnectorFormat.BeginConnected Property (PowerPoint)
+title: ConnectorFormat.BeginConnected property (PowerPoint)
 keywords: vbapp10.chm555006
 f1_keywords:
 - vbapp10.chm555006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ConnectorFormat.BeginConnected
 ms.assetid: c7c2c448-590c-b1b6-8dc5-9fcb44974fee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConnectorFormat.BeginConnected Property (PowerPoint)
+# ConnectorFormat.BeginConnected property (PowerPoint)
 
 Determines whether the beginning of the specified connector is connected to a shape. Read/write.
 
 
 ## Syntax
 
- _expression_. `BeginConnected`
+_expression_. `BeginConnected`
 
-_expression_ A variable that represents a [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
+_expression_ A variable that represents a [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **BeginConnected** property can be one of these **MsoTriState** constants.
+The value of the **BeginConnected** property can be one of these **MsoTriState** constants.
 
 
 
@@ -42,7 +41,7 @@ The value of the  **BeginConnected** property can be one of these **MsoTriState*
 
 ## Example
 
-If shape three on the first slide in the active presentation is a connector whose beginning is connected to a shape, this example stores the connection site number in the variable  `oldBeginConnSite`, stores a reference to the connected shape in the object variable  `oldBeginConnShape`, and then disconnects the beginning of the connector from the shape.
+If shape three on the first slide in the active presentation is a connector whose beginning is connected to a shape, this example stores the connection site number in the variable `oldBeginConnSite`, stores a reference to the connected shape in the object variable `oldBeginConnShape`, and then disconnects the beginning of the connector from the shape.
 
 
 ```vb

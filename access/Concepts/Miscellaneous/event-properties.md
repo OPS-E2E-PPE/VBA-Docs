@@ -4,10 +4,9 @@ ROBOTS: INDEX
 keywords: vbaac10.chm4998
 f1_keywords:
 - vbaac10.chm4998
-ms.prod: access
 ms.assetid: 26c849e7-d433-8d7d-641a-d3171b20d8bd
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ To run the event procedure associated with the event, select **[Event Procedure]
 You can set event properties in the [property sheet](https://msdn.microsoft.com/library/03349d86-f107-9e49-89df-62f55f3a0735%28Office.15%29.aspx) for an object, in a macro, or by using Visual Basic. Note that you can't set any event properties while you are formatting or printing a form or report.
 
 > [!TIP] 
-> You can use builders to help you set an event property. To use them, click the **Build** button
+> Use builders to help you set an event property. To use them, click the **Build** button
 ![Builder button](../../../images/buildbut_ZA06047218.gif) to the right of the property box, or right-click the property box and then click **Build** on the shortcut menu. In the **Choose Builder** dialog box, select:
 
 
@@ -69,8 +68,8 @@ End Sub
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

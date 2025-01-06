@@ -3,12 +3,11 @@ title: SharedWorkspaceTasks.Count property (Office)
 keywords: vbaof11.chm265002
 f1_keywords:
 - vbaof11.chm265002
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceTasks.Count
 ms.assetid: 6db8223c-a4c3-1e63-ddc5-f0412828c6e9
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

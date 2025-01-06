@@ -1,27 +1,27 @@
 ---
-title: Application.SelectBeginning Method (Project)
+title: Application.SelectBeginning method (Project)
 keywords: vbapj.chm2041
 f1_keywords:
 - vbapj.chm2041
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectBeginning
 ms.assetid: 4adf20ae-4fd2-818a-da8c-133c08cad7fb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectBeginning Method (Project)
+# Application.SelectBeginning method (Project)
 
 Selects the first cell in the active table or view.
 
 
 ## Syntax
 
- _expression_. `SelectBeginning`( `_Extend_` )
+_expression_. `SelectBeginning`( `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Selects the first cell in the active table or view.
 
 ## Remarks
 
-In the Resource Graph,  **SelectBeginning** selects the resource with the lowest identification number. In the Network Diagram, **SelectBeginning** selects the box closest to the upper-left corner of the view.
+In the Resource Graph, **SelectBeginning** selects the resource with the lowest identification number. In the Network Diagram, **SelectBeginning** selects the box closest to the upper-left corner of the view.
 
 
 ## Example

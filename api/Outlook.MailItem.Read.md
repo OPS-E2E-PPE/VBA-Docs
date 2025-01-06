@@ -1,15 +1,14 @@
 ---
-title: MailItem.Read Event (Outlook)
-ms.prod: outlook
+title: MailItem.Read event (Outlook)
 api_name:
 - Outlook.MailItem.Read
 ms.assetid: f20ec6d1-a2b4-9af3-66be-5398dc059c90
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Read Event (Outlook)
+# MailItem.Read event (Outlook)
 
 Occurs when an instance of the parent object is opened for editing by the user. 
 
@@ -18,17 +17,17 @@ Occurs when an instance of the parent object is opened for editing by the user.
 
 _expression_. `Read`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks
 
-The  **Read** event differs from the **[Open](Outlook.MailItem.Open.md)** event in that **Read** occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an **[Inspector](Outlook.Inspector.md)**.
+The **Read** event differs from the **[Open](Outlook.MailItem.Open.md)** event in that **Read** occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an **[Inspector](Outlook.Inspector.md)**.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **Read** event to increment a counter that tracks how often an item is read.
+This Visual Basic for Applications (VBA) example uses the **Read** event to increment a counter that tracks how often an item is read.
 
 
 ```vb

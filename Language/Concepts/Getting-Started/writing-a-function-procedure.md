@@ -3,10 +3,9 @@ title: Writing a Function procedure (VBA)
 keywords: vbcn6.chm1076690
 f1_keywords:
 - vbcn6.chm1076690
-ms.prod: office
 ms.assetid: 80e2ad00-a12f-2f40-3cb8-9878a595dde3
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,13 +19,13 @@ In the following example, the **Celsius** function calculates degrees Celsius fr
 
 ```vb
 Sub Main() 
- temp = Application.InputBox(Prompt:= _ 
- "Please enter the temperature in degrees F.", Type:=1) 
- MsgBox "The temperature is " & Celsius(temp) & " degrees C." 
+    temp = Application.InputBox(Prompt:= _ 
+        "Please enter the temperature in degrees F.", Type:=1) 
+    MsgBox "The temperature is " & Celsius(temp) & " degrees C." 
 End Sub 
  
 Function Celsius(fDegrees) 
- Celsius = (fDegrees - 32) * 5 / 9 
+    Celsius = (fDegrees - 32) * 5 / 9 
 End Function
 ```
 

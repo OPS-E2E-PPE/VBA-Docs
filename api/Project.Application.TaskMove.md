@@ -1,27 +1,27 @@
 ---
-title: Application.TaskMove Method (Project)
+title: Application.TaskMove method (Project)
 keywords: vbapj.chm2289
 f1_keywords:
 - vbapj.chm2289
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TaskMove
 ms.assetid: 7a847c59-b07c-6bf2-90a3-b62d0d080cc6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TaskMove Method (Project)
+# Application.TaskMove method (Project)
 
 Moves the start date of one or more selected tasks the specified number of days.
 
 
 ## Syntax
 
- _expression_. `TaskMove`( `_MoveForward_`, `_IsWorkingDuration_`, `_MoveDays_` )
+_expression_. `TaskMove`( `_MoveForward_`, `_IsWorkingDuration_`, `_MoveDays_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,9 +41,9 @@ Moves the start date of one or more selected tasks the specified number of days.
 
 ## Remarks
 
-The  **TaskMove** method does not override a predecessor task constraint for automatically scheduled tasks.
+The **TaskMove** method does not override a predecessor task constraint for automatically scheduled tasks.
 
-The  **TaskMove** method corresponds to various commands in the **Move Task** drop-down menu on the **TASK** ribbon. To move incomplete or complete parts of a task to the status date, use the **[TaskMoveToStatusDate](Project.Application.TaskMoveToStatusDate.md)** method.
+The **TaskMove** method corresponds to various commands in the **Move Task** drop-down menu on the **TASK** ribbon. To move incomplete or complete parts of a task to the status date, use the **[TaskMoveToStatusDate](Project.Application.TaskMoveToStatusDate.md)** method.
 
 
 ## Example

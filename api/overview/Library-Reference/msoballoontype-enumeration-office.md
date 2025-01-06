@@ -2,8 +2,8 @@
 title: MsoBalloonType enumeration (Office)
 ms.assetid: 0cee5492-6ec1-8289-7329-769ffea02fe8
 ms.date: 01/31/2019
-ms.prod: office
-localization_priority: Normal
+ms.service: office
+ms.localizationpriority: medium
 ---
 
 

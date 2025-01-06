@@ -3,12 +3,11 @@ title: SharedWorkspace.Tasks property (Office)
 keywords: vbaof11.chm276003
 f1_keywords:
 - vbaof11.chm276003
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Tasks
 ms.assetid: 9f7fa28d-f442-cbec-de7c-9109cc3e6f2e
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The following example lists the tasks in the current shared workspace.
 ```vb
    Dim swsTasks As Office.SharedWorkspaceTasks 
     Set swsTasks = ActiveWorkbook.SharedWorkspace.Tasks 
-    MsgBox "There are " &amp; swsTasks.Count &amp; _ 
+    MsgBox "There are " & swsTasks.Count & _ 
         " task(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

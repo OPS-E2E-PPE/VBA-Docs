@@ -1,20 +1,20 @@
 ---
-title: Shape.Duplicate Method (Project)
-ms.prod: project-server
+title: Shape.Duplicate method (Project)
+ms.service: project-server
 ms.assetid: 19917b35-589e-1cd3-e9eb-5efa13e02793
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Duplicate Method (Project)
+# Shape.Duplicate method (Project)
 Duplicates a shape and returns a reference to the copy.
 
 ## Syntax
 
- _expression_. `Duplicate`
+_expression_.**Duplicate**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ Duplicates a shape and returns a reference to the copy.
 
 ## Example
 
-The following example uses the report created by the code example in the  **[Shape.Apply](Project.shape.apply.md)** method. The example duplicates a shape, and then rotates, horizontally flips, and selects the new shape. The horizontal offset and vertical offset of the new shape are both 12 points.
+The following example uses the report created by the code example in the **[Shape.Apply](Project.shape.apply.md)** method. The example duplicates a shape, and then rotates, horizontally flips, and selects the new shape. The horizontal offset and vertical offset of the new shape are both 12 points.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: OLEFormat.ObjectVerbs Property (PowerPoint)
+title: OLEFormat.ObjectVerbs property (PowerPoint)
 keywords: vbapp10.chm562003
 f1_keywords:
 - vbapp10.chm562003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.OLEFormat.ObjectVerbs
 ms.assetid: 895becb3-de86-638c-88e9-b9e72b6c713e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OLEFormat.ObjectVerbs Property (PowerPoint)
+# OLEFormat.ObjectVerbs property (PowerPoint)
 
-Returns a  **[ObjectVerbs](PowerPoint.ObjectVerbs.md)** collection that contains all the OLE verbs for the specified OLE object. Read-only.
+Returns a **[ObjectVerbs](PowerPoint.ObjectVerbs.md)** collection that contains all the OLE verbs for the specified OLE object. Read-only.
 
 
 ## Syntax
 
- _expression_.**ObjectVerbs** 
+_expression_.**ObjectVerbs** 
 
- _expression_ A variable that represents an [OLEFormat](./PowerPoint.OLEFormat.md) object.
+_expression_ A variable that represents an [OLEFormat](PowerPoint.OLEFormat.md) object.
 
 
 ## Return value

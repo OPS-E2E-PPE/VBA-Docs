@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.Follow Method (Visio)
+title: Hyperlink.Follow method (Visio)
 keywords: vis_sdr.chm15016290
 f1_keywords:
 - vis_sdr.chm15016290
-ms.prod: visio
 api_name:
 - Visio.Hyperlink.Follow
 ms.assetid: e415caa8-68b9-5c96-71f0-599655dc6cf3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.Follow Method (Visio)
+# Hyperlink.Follow method (Visio)
 
 Causes Microsoft Visio to navigate to a hyperlink.
 
 
 ## Syntax
 
- _expression_. `Follow`
+_expression_.**Follow**
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Nothing
 
 ## Example
 
-The following example draws a rectangle shape, adds a  **Hyperlink** object to the shape, sets its **Address** and **NewWindow** properties, and then uses the **Follow** method to navigate the hyperlink.
+The following example draws a rectangle shape, adds a **Hyperlink** object to the shape, sets its **Address** and **NewWindow** properties, and then uses the **Follow** method to navigate the hyperlink.
 
 Before running this code, replace  _address_ with a valid Internet or intranet address.
 

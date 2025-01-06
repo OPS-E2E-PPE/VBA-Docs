@@ -1,18 +1,17 @@
 ---
-title: VisDocCleanActions Enumeration (Visio)
+title: VisDocCleanActions enumeration (Visio)
 keywords: vis_sdr.chm70310
 f1_keywords:
 - vis_sdr.chm70310
-ms.prod: visio
 ms.assetid: 78189c36-976b-6bcc-95fd-b38e2a74a285
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisDocCleanActions Enumeration (Visio)
+# VisDocCleanActions enumeration (Visio)
 
-Flags passed to the  **Document.Clean** method that indicate which document conditions to detect, report, and fix.
+Flags passed to the **Document.Clean** method that indicate which document conditions to detect, report, and fix.
 
 
 

@@ -1,24 +1,24 @@
 ---
-title: Resource.AppendNotes Method (Project)
-ms.prod: project-server
+title: Resource.AppendNotes method (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.AppendNotes
 ms.assetid: b11bc28f-147f-0591-056b-87e9f6c2db71
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.AppendNotes Method (Project)
+# Resource.AppendNotes method (Project)
 
 Appends text to the Notes field.
 
 
 ## Syntax
 
- _expression_. `AppendNotes`( `_Value_` )
+_expression_. `AppendNotes`( `_Value_` )
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Parameters

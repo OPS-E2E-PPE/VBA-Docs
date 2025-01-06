@@ -3,18 +3,17 @@ title: Label.Name property (Access)
 keywords: vbaac10.chm10233
 f1_keywords:
 - vbaac10.chm10233
-ms.prod: access
 api_name:
 - Access.Label.Name
 ms.assetid: 5d452246-b13f-af03-b733-c0f4cb207c89
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

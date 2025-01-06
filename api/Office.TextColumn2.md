@@ -1,11 +1,10 @@
 ---
 title: TextColumn2 object (Office)
-ms.prod: office
 api_name:
 - Office.TextColumn2
 ms.assetid: 631387c1-2b7a-6c98-d05f-c054434c8b9d
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ Represents a single text column. The **TextColumn2** object is a member of the *
 
 ## Remarks
 
-Use **TextColumns2**(_Index_), where _Index_ is the index number, to return a single **TextColumn2** object. The index number represents the position of the column in the **TextColumns2** collection (counting from left to right).
+Use **TextColumns2**(_index_), where _index_ is the index number, to return a single **TextColumn2** object. The index number represents the position of the column in the **TextColumns2** collection (counting from left to right).
 
 
 ## Example

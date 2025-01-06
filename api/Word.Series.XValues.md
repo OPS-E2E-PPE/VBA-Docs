@@ -3,30 +3,29 @@ title: Series.XValues property (Word)
 keywords: vbawd10.chm123733079
 f1_keywords:
 - vbawd10.chm123733079
-ms.prod: word
 api_name:
 - Word.Series.XValues
 ms.assetid: 4f558f99-dc9a-a979-9c21-a9b625716cce
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Series.XValues property (Word)
 
-Returns or sets an array of x values for a chart series. Read/write  **Variant**.
+Returns or sets an array of x values for a chart series. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `XValues`
+_expression_.**XValues**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks
 
-You can set the  **XValues** property to a range on a worksheet or to an array of values, but not to a combination of both.
+You can set the **XValues** property to a range on a worksheet or to an array of values, but not to a combination of both.
 
 For PivotChart reports, this property is read-only.
 

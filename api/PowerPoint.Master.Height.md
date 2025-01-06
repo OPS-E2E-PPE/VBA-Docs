@@ -1,27 +1,26 @@
 ---
-title: Master.Height Property (PowerPoint)
+title: Master.Height property (PowerPoint)
 keywords: vbapp10.chm533009
 f1_keywords:
 - vbapp10.chm533009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Master.Height
 ms.assetid: 758cfe5a-c42c-73af-b3ed-56149275ceaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Height Property (PowerPoint)
+# Master.Height property (PowerPoint)
 
 Returns or sets the height of the specified object, in points. Read-only.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Single
 
 ## Remarks
 
-The  **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3-D effects.
+The **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3D effects.
 
 
 ## Example

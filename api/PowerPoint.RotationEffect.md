@@ -1,32 +1,31 @@
 ---
-title: RotationEffect Object (PowerPoint)
+title: RotationEffect object (PowerPoint)
 keywords: vbapp10.chm661000
 f1_keywords:
 - vbapp10.chm661000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.RotationEffect
 ms.assetid: d0fc5520-dbbd-a44a-b811-51fd299c4587
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RotationEffect Object (PowerPoint)
+# RotationEffect object (PowerPoint)
 
-Represents a rotation effect for an  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object.
+Represents a rotation effect for an **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object.
 
 
 ## Example
 
-Use the [RotationEffect](PowerPoint.AnimationBehavior.RotationEffect.md)property of the  **AnimationBehavior** object to return a **RotationEffect** object. The following example refers to the rotation effect for a given animation behavior.
+Use the [RotationEffect](PowerPoint.AnimationBehavior.RotationEffect.md) property of the **AnimationBehavior** object to return a **RotationEffect** object. The following example refers to the rotation effect for a given animation behavior.
 
 
 ```vb
 ActivePresentation.Slides(1).TimeLine.MainSequence.Item.Behaviors(1).RotationEffect
 ```
 
-Use the [By](PowerPoint.RotationEffect.By.md), [From](PowerPoint.RotationEffect.From.md), and [To](PowerPoint.RotationEffect.To.md)properties of the  **RotationEffect** object to affect an object's animation rotation. The following example adds a new shape to the first slide and sets the rotation animation behavior.
+Use the [By](PowerPoint.RotationEffect.By.md), [From](PowerPoint.RotationEffect.From.md), and [To](PowerPoint.RotationEffect.To.md) properties of the **RotationEffect** object to affect an object's animation rotation. The following example adds a new shape to the first slide and sets the rotation animation behavior.
 
 
 

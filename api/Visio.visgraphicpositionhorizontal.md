@@ -1,21 +1,21 @@
 ---
-title: VisGraphicPositionHorizontal Enumeration (Visio)
+title: VisGraphicPositionHorizontal enumeration (Visio)
 keywords: vis_sdr.chm70510
 f1_keywords:
 - vis_sdr.chm70510
-ms.prod: visio
 ms.assetid: a86d0039-d54c-d23b-7c89-82343666898e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisGraphicPositionHorizontal Enumeration (Visio)
+# VisGraphicPositionHorizontal enumeration (Visio)
 
-Constants passed to and returned by the  **GraphicItem.HorizontalPosition** property. Used to determine the horizontal position of a graphic item relative to its container or to a shape.
+Constants passed to and returned by the **GraphicItem.HorizontalPosition** property. Used to determine the horizontal position of a graphic item relative to its container or to a shape.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 

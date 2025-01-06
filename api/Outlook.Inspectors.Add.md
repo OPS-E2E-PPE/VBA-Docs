@@ -1,27 +1,26 @@
 ---
-title: Inspectors.Add Method (Outlook)
+title: Inspectors.Add method (Outlook)
 keywords: vbaol11.chm139
 f1_keywords:
 - vbaol11.chm139
-ms.prod: outlook
 api_name:
 - Outlook.Inspectors.Add
 ms.assetid: f83a1cac-8103-003b-4389-d4f596e78aaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspectors.Add Method (Outlook)
+# Inspectors.Add method (Outlook)
 
 Creates a new inspector window.
 
 
 ## Syntax
 
-_expression_. `Add` `_Item_`
+_expression_.**Add** `_Item_`
 
-_expression_ A variable that represents an [Inspectors](./Outlook.Inspectors.md) object.
+_expression_ A variable that represents an [Inspectors](Outlook.Inspectors.md) object.
 
 
 ## Parameters
@@ -34,17 +33,17 @@ _expression_ A variable that represents an [Inspectors](./Outlook.Inspectors.md)
 
 ## Return value
 
-An  **[Inspector](Outlook.Inspector.md)** object that represents a new inspector window.
+An **[Inspector](Outlook.Inspector.md)** object that represents a new inspector window.
 
 
 ## Remarks
 
-This method is essentially identical to the  **GetInspector** property of an Outlook item, such as **[MailItem](Outlook.MailItem.md)**.
+This method is essentially identical to the **GetInspector** property of an Outlook item, such as **[MailItem](Outlook.MailItem.md)**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example prompts the user for a company name, uses the  **[Restrict](Outlook.Items.Restrict.md)** method to locate all contact items in the Contacts folder with that name, and displays each one.
+This Microsoft Visual Basic for Applications (VBA) example prompts the user for a company name, uses the **[Restrict](Outlook.Items.Restrict.md)** method to locate all contact items in the Contacts folder with that name, and displays each one.
 
 
 ```vb

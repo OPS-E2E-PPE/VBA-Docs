@@ -3,12 +3,11 @@ title: DataLabel.ShowBubbleSize property (Word)
 keywords: vbawd10.chm233900010
 f1_keywords:
 - vbawd10.chm233900010
-ms.prod: word
 api_name:
 - Word.DataLabel.ShowBubbleSize
 ms.assetid: f3126ab6-7f58-d8f3-c0c4-6ace5e7dd8b7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowBubbleSize`
+_expression_.**ShowBubbleSize**
 
- _expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
+_expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: TabControl.ForeShade property (Access)
 keywords: vbaac10.chm14606
 f1_keywords:
 - vbaac10.chm14606
-ms.prod: access
 api_name:
 - Access.TabControl.ForeShade
 ms.assetid: a17b6a7e-d943-f785-459b-43a2c7998ff7
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

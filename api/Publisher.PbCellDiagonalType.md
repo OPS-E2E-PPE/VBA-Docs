@@ -1,18 +1,17 @@
 ---
-title: PbCellDiagonalType Enumeration (Publisher)
+title: PbCellDiagonalType enumeration (Publisher)
 keywords: vbapb10.chm65576
 f1_keywords:
 - vbapb10.chm65576
-ms.prod: publisher
 api_name:
 - Publisher.PbCellDiagonalType
 ms.assetid: faa801d1-d8fb-95e3-e33e-183aef7132d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbCellDiagonalType Enumeration (Publisher)
+# PbCellDiagonalType enumeration (Publisher)
 
 Represents a cell that is diagonally split.
 

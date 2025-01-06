@@ -1,32 +1,29 @@
 ---
-title: Application.DefaultView Property (Project)
-ms.prod: project-server
+title: Application.DefaultView property (Project)
+ms.service: project-server
 api_name:
 - Project.Application.DefaultView
 ms.assetid: 19f3cc23-6267-0b1f-7db5-7783d6936533
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DefaultView Property (Project)
+# Application.DefaultView property (Project)
 
-Gets or sets the name of the view that appears when you start Project. Read/write  **String**.
-
+Gets or sets the name of the view that appears when you start Project. Read/write **String**.
 
 ## Syntax
 
- _expression_. `DefaultView`
+_expression_. `DefaultView`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 ## Remarks
 
-The  **DefaultView** property can be the name of a custom view or one of the following built-in views:
+The **DefaultView** property can be the name of a custom view or one of the following built-in views:
 
-
-|||
+|View name|View name|
 |:-----|:-----|
 |"Bar Rollup"|"Resource Graph"|
 |"Calendar"|"Resource Name Form"|

@@ -1,24 +1,24 @@
 ---
-title: Application.ProjectBeforeAssignmentDelete Event (Project)
-ms.prod: project-server
+title: Application.ProjectBeforeAssignmentDelete event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.ProjectBeforeAssignmentDelete
 ms.assetid: f0db513e-3dec-e9d6-8385-ac0117e8f28e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ProjectBeforeAssignmentDelete Event (Project)
+# Application.ProjectBeforeAssignmentDelete event (Project)
 
 Occurs before an assignment is removed or replaced.
 
 
 ## Syntax
 
- _expression_. `ProjectBeforeAssignmentDelete`( `_asg_`, `_Cancel_` )
+_expression_. `ProjectBeforeAssignmentDelete`( `_asg_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,15 +32,15 @@ Occurs before an assignment is removed or replaced.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-The  **ProjectBeforeAssignmentDelete** event also fires when assigning a resource to a task with no resource assignments, because an "Unassigned Resource" assignment is removed before the new assignment is created.
+The **ProjectBeforeAssignmentDelete** event also fires when assigning a resource to a task with no resource assignments, because an "Unassigned Resource" assignment is removed before the new assignment is created.
 
-Project events do not occur when the project is embedded in another document or application. 
+Project events don't occur when the project is embedded in another document or application. 
 
-The  **ProjectBeforeAssignmentDelete** event doesn't occur when an assignment is deleted as the result of a drag-and-drop operation in the **Resource Usage** view, or when changes have been made using a custom form.
+The **ProjectBeforeAssignmentDelete** event doesn't occur when an assignment is deleted as the result of a drag-and-drop operation in the **Resource Usage** view, or when changes have been made using a custom form.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

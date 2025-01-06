@@ -3,12 +3,11 @@ title: CommandBar.RowIndex property (Office)
 keywords: vbaof11.chm3014
 f1_keywords:
 - vbaof11.chm3014
-ms.prod: office
 api_name:
 - Office.CommandBar.RowIndex
 ms.assetid: 6dd5576c-0a46-9a72-9c4e-fcf685097b77
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

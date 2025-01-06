@@ -3,12 +3,11 @@ title: FileDialog.FilterIndex property (Office)
 keywords: vbaof11.chm256003
 f1_keywords:
 - vbaof11.chm256003
-ms.prod: office
 api_name:
 - Office.FileDialog.FilterIndex
 ms.assetid: 102d3266-caab-1101-2234-68d975e11348
 ms.date: 01/09/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -66,9 +65,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'If the user presses Cancel... 

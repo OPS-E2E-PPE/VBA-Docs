@@ -3,10 +3,9 @@ title: Control and dialog box events
 keywords: vbaxl10.chm5200101
 f1_keywords:
 - vbaxl10.chm5200101
-ms.prod: excel
 ms.assetid: c494c76d-a712-d3fc-1eb2-37680b2239c3
 ms.date: 11/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,7 @@ Event procedures include the name of the control. For example, the name of the *
 
 If you add code to an event procedure and then change the name of the control, your code remains in procedures with the previous name.
 
-For example, assume you add code to the **Click** event for `Command1` and then rename the control to `Command2`. When you double-click  `Command2`, you will not see any code in the **Click** event procedure. You will need to move code from `Command1_Click` to `Command2_Click`.
+For example, assume you add code to the **Click** event for `Command1` and then rename the control to `Command2`. When you double-click `Command2`, you'll not see any code in the **Click** event procedure. You'll need to move code from `Command1_Click` to `Command2_Click`.
 
 To simplify development, it is a good practice to name your controls before writing code.
 

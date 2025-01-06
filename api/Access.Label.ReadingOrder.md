@@ -3,18 +3,17 @@ title: Label.ReadingOrder property (Access)
 keywords: vbaac10.chm10231
 f1_keywords:
 - vbaac10.chm10231
-ms.prod: access
 api_name:
 - Access.Label.ReadingOrder
 ms.assetid: f6d9642b-b482-8300-e66a-5f320547fdfa
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

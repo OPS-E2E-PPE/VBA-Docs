@@ -3,23 +3,22 @@ title: Style.Table property (Word)
 keywords: vbawd10.chm153878549
 f1_keywords:
 - vbawd10.chm153878549
-ms.prod: word
 api_name:
 - Word.Style.Table
 ms.assetid: bc078a71-232f-b2c0-e9be-df9bda492e5e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Style.Table property (Word)
 
-Returns a  **[TableStyle](Word.tableStyle.md)** object representing properties that can be applied to a table using a table style.
+Returns a **[TableStyle](Word.tableStyle.md)** object representing properties that can be applied to a table using a table style.
 
 
 ## Syntax
 
- _expression_. `Table`
+_expression_. `Table`
 
  _expression_ An expression that returns a '[Style](Word.Style.md)' object.
 

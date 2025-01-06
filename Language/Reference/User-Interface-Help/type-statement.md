@@ -3,10 +3,9 @@ title: Type statement (VBA)
 keywords: vblr6.chm1009049
 f1_keywords:
 - vblr6.chm1009049
-ms.prod: office
 ms.assetid: e253420f-2074-6c2a-49c3-6474d2439d5f
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,11 +15,9 @@ Used at the [module level](../../Glossary/vbe-glossary.md#module-level) to defin
 
 ## Syntax
 
-[ **Private** | **Public** ] **Type** _varname_ _elementname_ [ ( [ _subscripts_ ] ) ] **As** _type_ <br/>
-[ _elementname_ [ ( [ _subscripts_ ] ) ] **As** _type_ ] **. . .** <br/> 
+[ **Private** | **Public** ] **Type** _varname_<br><ul> _elementname_ [ ( [ _subscripts_ ] ) ] **As** _type_ <br>
+[ _elementname_ [ ( [ _subscripts_ ] ) ] **As** _type_ ]<br> **. . .** </ul> 
 **End Type** 
-
-<br/>
 
 The **Type** statement syntax has these parts:
 

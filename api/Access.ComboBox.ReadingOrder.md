@@ -3,18 +3,17 @@ title: ComboBox.ReadingOrder property (Access)
 keywords: vbaac10.chm11463
 f1_keywords:
 - vbaac10.chm11463
-ms.prod: access
 api_name:
 - Access.ComboBox.ReadingOrder
 ms.assetid: 83989cec-fcab-0b83-5b5a-5dedc1a77aea
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

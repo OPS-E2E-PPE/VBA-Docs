@@ -3,10 +3,9 @@ title: AddFromFile method (VBA Add-In Object Model)
 keywords: vbob6.chm1098957
 f1_keywords:
 - vbob6.chm1098957
-ms.prod: office
 ms.assetid: 5169e5ee-d5a6-82d3-5a03-dcc84819a752
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ For the **References** collection, adds a reference to a [project](../../Glossar
 ## Syntax
 
 _object_.**AddFromFile** (_filename_)
-
-<br/>
 
 The **AddFromFile** syntax has these parts:
 

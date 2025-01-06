@@ -1,29 +1,29 @@
 ---
-title: PredecessorDrivers.Count Property (Project)
-ms.prod: project-server
+title: PredecessorDrivers.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.PredecessorDrivers.Count
 ms.assetid: c236b441-dd44-4ce4-5069-ba3c2209f6a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PredecessorDrivers.Count Property (Project)
+# PredecessorDrivers.Count property (Project)
 
-Gets the number of items in the  **[PredecessorDrivers](Project.predecessordrivers.md)** collection. Read-only **Long**.
+Gets the number of items in the **[PredecessorDrivers](Project.predecessordrivers.md)** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'PredecessorDrivers' object.
+_expression_ A variable that represents a 'PredecessorDrivers' object.
 
 
 ## Remarks
 
-If  **TotalDetectedCount** is greater than 5 then count is 0.
+If **TotalDetectedCount** is greater than 5 then count is 0.
 
 
 ## See also

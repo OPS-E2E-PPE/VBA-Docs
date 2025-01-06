@@ -3,20 +3,17 @@ title: AcWebUserGroupsDisplay enumeration (Access)
 keywords: vbaac10.chm14600
 f1_keywords:
 - vbaac10.chm14600
-ms.prod: access
 api_name:
 - Access.AcWebUserGroupsDisplay
 ms.assetid: f9036c50-5fa3-63ec-f569-a058e48057da
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcWebUserGroupsDisplay enumeration (Access)
 
 Specifies the type of information to return about the group membership of the current user of a Web database.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

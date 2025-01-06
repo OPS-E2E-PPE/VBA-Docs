@@ -1,15 +1,14 @@
 ---
 title: Delete Duplicate Entries in a Range
-ms.prod: excel
 ms.assetid: 22ca07fd-1f69-409a-85e1-247740d87e8e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Delete Duplicate Entries in a Range
 
-The following example shows how to take a range of data in column A and delete duplicate entries. This example uses the  **[AdvancedFilter](../../../api/Excel.Range.AdvancedFilter.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object with theUnique parameter equal to **True** to get the unique list of data. TheAction parameter equals **xlFilterInPlace**, specifying that the data is filtered in place. If you want to retain your original data, set the Action parameter equal to **xlFilterCopy** and specify the location where you want the filtered data copied in theCopyToRange parameter. Once the unique values are filtered, this example uses the **[SpecialCells](../../../api/Excel.Range.SpecialCells.md)** method of the **Range** object to find any remaining blank rows and deletes them.
+The following example shows how to take a range of data in column A and delete duplicate entries. This example uses the **[AdvancedFilter](../../../api/Excel.Range.AdvancedFilter.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object with theUnique parameter equal to **True** to get the unique list of data. TheAction parameter equals **xlFilterInPlace**, specifying that the data is filtered in place. If you want to retain your original data, set the Action parameter equal to **xlFilterCopy** and specify the location where you want the filtered data copied in theCopyToRange parameter. Once the unique values are filtered, this example uses the **[SpecialCells](../../../api/Excel.Range.SpecialCells.md)** method of the **Range** object to find any remaining blank rows and deletes them.
 
  **Sample code provided by:** Tom Urtis, [Atlas Programming Management](https://www.atlaspm.com/)
 

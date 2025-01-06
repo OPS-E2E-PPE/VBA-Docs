@@ -3,12 +3,11 @@ title: DeleteFolder method (Visual Basic for Applications)
 keywords: vblr6.chm2182037
 f1_keywords:
 - vblr6.chm2182037
-ms.prod: office
 api_name:
 - Office.DeleteFolder
 ms.assetid: 2eec70c2-7558-1dd1-898a-95ea36de8d36
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,8 +19,6 @@ Deletes a specified folder and its contents.
 
 _object_.**DeleteFolder** _folderspec_, [ _force_ ]
 
-<br/>
-
 The **DeleteFolder** method syntax has these parts:
 
 |Part|Description|
@@ -32,7 +29,7 @@ The **DeleteFolder** method syntax has these parts:
 
 ## Remarks
 
-The **DeleteFolder** method does not distinguish between folders that have contents and those that do not. The specified folder is deleted regardless of whether or not it has contents.
+The **DeleteFolder** method does not distinguish between folders that have contents and those that don't. The specified folder is deleted regardless of whether or not it has contents.
 
 An error occurs if no matching folders are found. The **DeleteFolder** method stops on the first error it encounters. No attempt is made to roll back or undo any changes that were made before an error occurred.
 

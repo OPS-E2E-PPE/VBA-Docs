@@ -3,16 +3,15 @@ title: Argument required for Property Let or Property Set
 keywords: vblr6.chm1040125
 f1_keywords:
 - vblr6.chm1040125
-ms.prod: office
 ms.assetid: bbefad41-c17c-d1d3-52ac-32389acb3b7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Argument required for Property Let or Property Set
 
-The purpose of  **Property Let** and **Property Set** procedures is to give a new value to a [property](../../Glossary/vbe-glossary.md#property). This error has the following causes and solutions:
+The purpose of **Property Let** and **Property Set** procedures is to give a new value to a [property](../../Glossary/vbe-glossary.md#property). This error has the following causes and solutions:
 
 
 

@@ -1,11 +1,10 @@
 ---
 title: PickerProperty.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.PickerProperty.Creator
 ms.assetid: 76de1a78-b40c-11d0-27bf-22c934c56ac9
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

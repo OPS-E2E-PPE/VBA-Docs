@@ -1,27 +1,26 @@
 ---
-title: ScaleEffect.ToY Property (PowerPoint)
+title: ScaleEffect.ToY property (PowerPoint)
 keywords: vbapp10.chm660008
 f1_keywords:
 - vbapp10.chm660008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ScaleEffect.ToY
 ms.assetid: 987b5456-ea44-0fa8-3f2b-7bc0c9dccbe0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ScaleEffect.ToY Property (PowerPoint)
+# ScaleEffect.ToY property (PowerPoint)
 
-Returns or sets a  **Single** that represents the ending height of a **[ScaleEffect](PowerPoint.ScaleEffect.md)** object, specified as a percentage of the screen width. Read/write.
+Returns or sets a **Single** that represents the ending height of a **[ScaleEffect](PowerPoint.ScaleEffect.md)** object, specified as a percentage of the screen width. Read/write.
 
 
 ## Syntax
 
- _expression_. `ToY`
+_expression_. `ToY`
 
- _expression_ A variable that represents a [ScaleEffect](./PowerPoint.ScaleEffect.md) object.
+_expression_ A variable that represents a [ScaleEffect](PowerPoint.ScaleEffect.md) object.
 
 
 ## Return value
@@ -31,11 +30,11 @@ Single
 
 ## Remarks
 
-The default value of this property is  **Empty**, in which case the current position of the object is used.
+The default value of this property is **Empty**, in which case the current position of the object is used.
 
-Use this property in conjunction with the  **FromY** property to resize or jump from one position to another.
+Use this property in conjunction with the **FromY** property to resize or jump from one position to another.
 
-Do not confuse this property with the  **To** property of the **[ColorEffect](PowerPoint.ColorEffect.md)**, **[RotationEffect](PowerPoint.RotationEffect.md)**, or **[PropertyEffect](PowerPoint.PropertyEffect.md)** objects, which is used to set or change colors, rotations, or other properties of an animation behavior, respectively.
+Do not confuse this property with the **To** property of the **[ColorEffect](PowerPoint.ColorEffect.md)**, **[RotationEffect](PowerPoint.RotationEffect.md)**, or **[PropertyEffect](PowerPoint.PropertyEffect.md)** objects, which is used to set or change colors, rotations, or other properties of an animation behavior, respectively.
 
 
 ## Example

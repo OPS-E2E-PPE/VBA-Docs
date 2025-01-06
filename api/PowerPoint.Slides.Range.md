@@ -1,27 +1,26 @@
 ---
-title: Slides.Range Method (PowerPoint)
+title: Slides.Range method (PowerPoint)
 keywords: vbapp10.chm530007
 f1_keywords:
 - vbapp10.chm530007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slides.Range
 ms.assetid: f3950ce5-7873-86e8-5625-7ad2a0cb77dd
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Slides.Range Method (PowerPoint)
+# Slides.Range method (PowerPoint)
 
-Returns a  **[SlideRange](PowerPoint.SlideRange.md)** object that represents a subset of the slides in a **[Slides](PowerPoint.Slides.md)** collection.
+Returns a **[SlideRange](PowerPoint.SlideRange.md)** object that represents a subset of the slides in a **[Slides](PowerPoint.Slides.md)** collection.
 
 
 ## Syntax
 
- _expression_. `Range`( `_Index_` )
+_expression_.**Range** (_Index_)
 
- _expression_ A variable that represents a [Slides](./PowerPoint.Slides.md) object.
+_expression_ A variable that represents a [Slides](PowerPoint.Slides.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a  **[SlideRange](PowerPoint.SlideRange.md)** object that represents a s
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Optional|**Variant**|The individual slides that are to be included in the range. Can be an  **Integer** that specifies the index number of the slide, a **String** that specifies the name of the slide, or an array that contains either integers or strings. If this argument is omitted, the **Range** method returns all the objects in the specified collection.|
+| _Index_|Optional|**Variant**|The individual slides that are to be included in the range. Can be an **Integer** that specifies the index number of the slide, a **String** that specifies the name of the slide, or an array that contains either integers or strings. If this argument is omitted, the **Range** method returns all the objects in the specified collection.|
 
 ## Return value
 
@@ -39,9 +38,9 @@ SlideRange
 
 ## Remarks
 
-Although you can use the  **Range** method to return any number of shapes or slides, it is simpler to use the **Item** method if you only want to return a single member of the collection. For example, `Shapes(1)` is simpler than `Shapes.Range(1)`, and  `Slides(2)` is simpler than `Slides.Range(2)`.
+Although you can use the **Range** method to return any number of shapes or slides, it is simpler to use the **Item** method if you only want to return a single member of the collection. For example, `Shapes(1)` is simpler than `Shapes.Range(1)`, and `Slides(2)` is simpler than `Slides.Range(2)`.
 
-To specify an array of integers or strings for  **Index**, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
+To specify an array of integers or strings for **Index**, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
 
  `Dim myArray() As Variant, myRange As Object myArray = Array("Oval 4", "Rectangle 5") Set myRange = ActivePresentation.Slides(1).Shapes.Range(myArray)`
 

@@ -3,12 +3,11 @@ title: TableOfAuthorities.Passim property (Word)
 keywords: vbawd10.chm152109057
 f1_keywords:
 - vbawd10.chm152109057
-ms.prod: word
 api_name:
 - Word.TableOfAuthorities.Passim
 ms.assetid: 5df50485-69c7-ff9e-710c-7cdfdaaaeada
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Passim`
+_expression_. `Passim`
 
  _expression_ An expression that returns a '[TableOfAuthorities](Word.TableOfAuthorities.md)' object.
 

@@ -3,30 +3,27 @@ title: Shapes.AddPicture method (Word)
 keywords: vbawd10.chm161415183
 f1_keywords:
 - vbawd10.chm161415183
-ms.prod: word
 api_name:
 - Word.Shapes.AddPicture
 ms.assetid: 198d5663-7e35-b0e4-3729-48f156ddd8bf
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Shapes.AddPicture method (Word)
 
-Adds a picture to a drawing canvas. Returns a  **Shape** object that represents the picture and adds it to the **CanvasShapes** collection.
+Adds a picture to a document. Returns a **Shape** object that represents the picture and adds it to the **Shapes** collection.
 
 
 ## Syntax
 
- _expression_. `AddPicture`( `_FileName_` , `_LinkToFile_` , `_SaveWithDocument_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_.**AddPicture** (_FileName_, _LinkToFile_, _SaveWithDocument_, _Left_, _Top_, _Width_, _Height_, _Anchor_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,6 +34,7 @@ Adds a picture to a drawing canvas. Returns a  **Shape** object that represents 
 | _Top_|Optional| **Variant**|The position, measured in points, of the top edge of the new picture relative to the drawing canvas.|
 | _Width_|Optional| **Variant**|The width of the picture, in points.|
 | _Height_|Optional| **Variant**|The height of the picture, in points.|
+| _Anchor_|Optional| **Range**|A Range in the document.|
 
 ## Return value
 
@@ -66,9 +64,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Shapes Collection Object](Word.shapes.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

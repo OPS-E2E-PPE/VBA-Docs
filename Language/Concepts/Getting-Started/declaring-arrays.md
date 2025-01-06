@@ -3,10 +3,9 @@ title: Declaring arrays (VBA)
 keywords: vbcn6.chm1076697
 f1_keywords:
 - vbcn6.chm1076697
-ms.prod: office
 ms.assetid: 3efbbe80-ee1a-e660-de4b-ffb3602ac31b
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -65,9 +64,9 @@ Dim sngArray() As Single
 ```
 
 > [!NOTE] 
-> You can use the **[ReDim](../../reference/user-interface-help/redim-statement.md)** statement to declare an array implicitly within a procedure. Be careful not to misspell the name of the array when you use the **ReDim** statement. Even if the **[Option Explicit](../../reference/user-interface-help/option-explicit-statement.md)** statement is included in the module, a second array will be created.
+> Use the **[ReDim](../../reference/user-interface-help/redim-statement.md)** statement to declare an array implicitly within a procedure. Be careful not to misspell the name of the array when you use the **ReDim** statement. Even if the **[Option Explicit](../../reference/user-interface-help/option-explicit-statement.md)** statement is included in the module, a second array will be created.
 
-In a procedure within the array's [scope](../../Glossary/vbe-glossary.md#scope), use the **ReDim** statement to change the number of dimensions, to define the number of elements, and to define the upper and lower bounds for each dimension. You can use the **ReDim** statement to change the dynamic array as often as necessary. However, each time you do this, the existing values in the array are lost. Use **ReDim Preserve** to expand an array while preserving existing values in the array. 
+In a procedure within the array's [scope](../../Glossary/vbe-glossary.md#scope), use the **ReDim** statement to change the number of dimensions, to define the number of elements, and to define the upper and lower bounds for each dimension. Use the **ReDim** statement to change the dynamic array as often as necessary. However, each time you do this, the existing values in the array are lost. Use **ReDim Preserve** to expand an array while preserving existing values in the array. 
 
 For example, the following statement enlarges the array by 10 elements without losing the current values of the original elements.
 

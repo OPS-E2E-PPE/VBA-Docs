@@ -3,12 +3,11 @@ title: Range.InStory method (Word)
 keywords: vbawd10.chm157155453
 f1_keywords:
 - vbawd10.chm157155453
-ms.prod: word
 api_name:
 - Word.Range.InStory
 ms.assetid: 62452309-4d4a-5207-3e1b-28b109ca1b1e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `InStory`( `_Range_` )
+_expression_. `InStory`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ localization_priority: Normal
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Range_|Required| **Range**|Specifies the range that this method uses to determine if it is contained within the specified  **Range** object.|
+| _Range_|Required| **Range**|Specifies the range that this method uses to determine if it is contained within the specified **Range** object.|
 
 ## Return value
 
@@ -44,7 +43,7 @@ A range can belong to only one story.
 
 ## Example
 
-This example determines whether  _Range1_ and _Range2_ are in the same story. If they are, bold formatting is applied to _Range1_ .
+This example determines whether  _Range1_ and _Range2_ are in the same story. If they are, bold formatting is applied to _Range1_.
 
 
 ```vb

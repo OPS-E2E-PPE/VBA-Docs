@@ -3,12 +3,11 @@ title: TabControl.PressedShade property (Access)
 keywords: vbaac10.chm14622
 f1_keywords:
 - vbaac10.chm14622
-ms.prod: access
 api_name:
 - Access.TabControl.PressedShade
 ms.assetid: 842c93bf-7350-9f12-229c-6eec383dc9d9
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

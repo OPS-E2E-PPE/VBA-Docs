@@ -1,22 +1,21 @@
 ---
-title: ChartGroups.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroups.Count property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroups.Count
 ms.assetid: 184188d8-37b8-d057-5378-a1d649d528da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroups.Count Property (PowerPoint)
+# ChartGroups.Count property (PowerPoint)
 
-Returns the number of objects in the collection. Read-only  **Long**.
+Returns the number of objects in the collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
 _expression_ A variable that represents a '[ChartGroups](PowerPoint.ChartGroups.md)' object.
 

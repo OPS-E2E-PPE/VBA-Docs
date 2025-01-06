@@ -3,12 +3,11 @@ title: Remove method (Microsoft Forms)
 keywords: fm20.chm2000360
 f1_keywords:
 - fm20.chm2000360
-ms.prod: office
 api_name:
 - Office.Remove
 ms.assetid: 16ee4145-3e1e-9e44-7af1-2ecd3a92c9e3
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +17,7 @@ Removes a member from a [collection](../../Glossary/vbe-glossary.md#collection) 
 
 ## Syntax
 
-_object_. **Remove(**_collectionindex_**)**
+_object_.**Remove** (_collectionindex_)
 
 The **Remove** method syntax has these parts:
 

@@ -3,10 +3,10 @@ title: HeadersFooters Object, Word [vbawd10.chm2436]
 keywords: vbawd10.chm2436
 f1_keywords:
 - vbawd10.chm2436
-ms.prod: office
+ms.service: office
 ms.assetid: 5a1c20e2-f8e6-4a0b-9313-eda65e1eb531
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,8 +14,8 @@ localization_priority: Normal
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[HeadersFooters object (Word)](http://msdn.microsoft.com/library/41dbbaa7-f139-3d3c-54d4-03a57ab8417a%28Office.15%29.aspx)
+[HeadersFooters object (Word)](https://msdn.microsoft.com/library/41dbbaa7-f139-3d3c-54d4-03a57ab8417a%28Office.15%29.aspx)
 
-[HeadersFooters object (Word)7e85bb4c-0945-2e92-a069-a0027d95556a](http://msdn.microsoft.com/library/7e85bb4c-0945-2e92-a069-a0027d95556a%28Office.15%29.aspx)
+[HeadersFooters object (Word)7e85bb4c-0945-2e92-a069-a0027d95556a](https://msdn.microsoft.com/library/7e85bb4c-0945-2e92-a069-a0027d95556a%28Office.15%29.aspx)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

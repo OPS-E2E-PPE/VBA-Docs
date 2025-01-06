@@ -1,27 +1,26 @@
 ---
-title: RecurrencePattern.Duration Property (Outlook)
+title: RecurrencePattern.Duration property (Outlook)
 keywords: vbaol11.chm275
 f1_keywords:
 - vbaol11.chm275
-ms.prod: outlook
 api_name:
 - Outlook.RecurrencePattern.Duration
 ms.assetid: 91cceed3-fd56-bae3-ee00-16f4b02eb2e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RecurrencePattern.Duration Property (Outlook)
+# RecurrencePattern.Duration property (Outlook)
 
-Returns or sets a  **Long** indicating the duration (in minutes) of the **[RecurrencePattern](Outlook.RecurrencePattern.md)**. Read/write.
+Returns or sets a **Long** indicating the duration (in minutes) of the **[RecurrencePattern](Outlook.RecurrencePattern.md)**. Read/write.
 
 
 ## Syntax
 
 _expression_. `Duration`
 
-_expression_ A variable that represents a [RecurrencePattern](./Outlook.RecurrencePattern.md) object.
+_expression_ A variable that represents a [RecurrencePattern](Outlook.RecurrencePattern.md) object.
 
 
 ## Remarks

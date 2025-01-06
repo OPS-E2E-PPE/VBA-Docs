@@ -1,23 +1,23 @@
 ---
-title: Task.RemainingOvertimeWork Property (Project)
-ms.prod: project-server
+title: Task.RemainingOvertimeWork property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.RemainingOvertimeWork
 ms.assetid: 31dd461e-7332-ba6a-3966-323fe33fed3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.RemainingOvertimeWork Property (Project)
+# Task.RemainingOvertimeWork property (Project)
 
-Gets the remaining overtime work (in minutes) for the task. Read-only  **Variant**.
+Gets the remaining overtime work (in minutes) for the task. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `RemainingOvertimeWork`
+_expression_. `RemainingOvertimeWork`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

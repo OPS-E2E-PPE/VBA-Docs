@@ -1,27 +1,26 @@
 ---
-title: Page.DrawOval Method (Visio)
+title: Page.DrawOval method (Visio)
 keywords: vis_sdr.chm10916210
 f1_keywords:
 - vis_sdr.chm10916210
-ms.prod: visio
 api_name:
 - Visio.Page.DrawOval
 ms.assetid: 9e3afc60-b14d-c831-5271-be782366a2d6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.DrawOval Method (Visio)
+# Page.DrawOval method (Visio)
 
-Adds an oval (ellipse) to the  **Shapes** collection of a page.
+Adds an oval (ellipse) to the **Shapes** collection of a page.
 
 
 ## Syntax
 
- _expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
+_expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ Shape
 
 ## Remarks
 
-Using the  **DrawOval** method is equivalent to using the **Ellipse** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the ellipse is being placed.
+Using the **DrawOval** method is equivalent to using the **Ellipse** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the ellipse is being placed.
 
 
 ## Example

@@ -1,23 +1,22 @@
 ---
-title: VisDefaultSaveFormats Enumeration (Visio)
+title: VisDefaultSaveFormats enumeration (Visio)
 keywords: vis_sdr.chm70415
 f1_keywords:
 - vis_sdr.chm70415
-ms.prod: visio
 ms.assetid: 0e2b7c41-c1ec-6c9e-b9a2-76f2fe52abd5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisDefaultSaveFormats Enumeration (Visio)
+# VisDefaultSaveFormats enumeration (Visio)
 
-Default  **Save** format options.
+Default **Save** format options.
 
 
 ## Remarks
 
-These options correspond to those available in the  **Save files in this format** list on the **Save** tab of the **Options** dialog box (click the **File** tab, and then click **Options**).
+These options correspond to those available in the **Save files in this format** list on the **Save** tab of the **Options** dialog box (click the **File** tab, and then click **Options**).
 
 
 

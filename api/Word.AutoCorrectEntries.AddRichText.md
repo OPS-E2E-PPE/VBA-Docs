@@ -3,25 +3,24 @@ title: AutoCorrectEntries.AddRichText method (Word)
 keywords: vbawd10.chm155713638
 f1_keywords:
 - vbawd10.chm155713638
-ms.prod: word
 api_name:
 - Word.AutoCorrectEntries.AddRichText
 ms.assetid: e03f37ca-1011-825f-5a79-29a23f2371f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AutoCorrectEntries.AddRichText method (Word)
 
-Creates a formatted AutoCorrect entry, preserving all text attributes of the specified range. Returns an  **AutoCorrectEntry** object.
+Creates a formatted AutoCorrect entry, preserving all text attributes of the specified range. Returns an **AutoCorrectEntry** object.
 
 
 ## Syntax
 
- _expression_. `AddRichText`( `_Name_` , `_Range_` )
+_expression_. `AddRichText`( `_Name_` , `_Range_` )
 
- _expression_ Required. A variable that represents an '[AutoCorrectEntries](Word.autocorrectentries.md)' collection.
+_expression_ Required. A variable that represents an '[AutoCorrectEntries](Word.autocorrectentries.md)' collection.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ AutoCorrectEntry
 
 ## Remarks
 
-The  **RichText** property for entries added by using this method returns **True**. If **AddRichText** isn't used, inserted **AutoCorrect** entries conform to the current style.
+The **RichText** property for entries added by using this method returns **True**. If **AddRichText** isn't used, inserted **AutoCorrect** entries conform to the current style.
 
 
 ## Example

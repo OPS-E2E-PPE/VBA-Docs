@@ -3,12 +3,11 @@ title: UserPermission.UserId property (Office)
 keywords: vbaof11.chm260001
 f1_keywords:
 - vbaof11.chm260001
-ms.prod: office
 api_name:
 - Office.UserPermission.UserId
 ms.assetid: 63c7f01b-3b41-6245-7d3f-5c6440703ccf
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,7 +40,7 @@ The following example lists the users who have permissions on the active documen
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
  For Each irmUserPerm In irmPermission 
- strUsers = strUsers &amp; irmUserPerm.UserId &amp; vbCrLf 
+ strUsers = strUsers & irmUserPerm.UserId & vbCrLf 
  Next 
  MsgBox strUsers, _ 
  vbInformation + vbOKOnly, "IRM Information" 

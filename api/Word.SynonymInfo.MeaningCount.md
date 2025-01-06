@@ -3,23 +3,22 @@ title: SynonymInfo.MeaningCount property (Word)
 keywords: vbawd10.chm161153027
 f1_keywords:
 - vbawd10.chm161153027
-ms.prod: word
 api_name:
 - Word.SynonymInfo.MeaningCount
 ms.assetid: 8b4913e2-eed1-f69c-470b-1f6b3ea8c192
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SynonymInfo.MeaningCount property (Word)
 
-Returns the number of entries in the list of meanings found in the thesaurus for the word or phrase. Returns 0 (zero) if no meanings were found. Read-only  **Long**.
+Returns the number of entries in the list of meanings found in the thesaurus for the word or phrase. Returns 0 (zero) if no meanings were found. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `MeaningCount`
+_expression_. `MeaningCount`
 
  _expression_ An expression that returns a '[SynonymInfo](Word.SynonymInfo.md)' object.
 

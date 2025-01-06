@@ -3,12 +3,11 @@ title: OptionGroup.BackShade property (Access)
 keywords: vbaac10.chm14633
 f1_keywords:
 - vbaac10.chm14633
-ms.prod: access
 api_name:
 - Access.OptionGroup.BackShade
 ms.assetid: 8e0d3930-4520-f759-1a12-543bcbaac693
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

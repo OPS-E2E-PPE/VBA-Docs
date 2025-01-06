@@ -3,32 +3,31 @@ title: Options.DisableFeaturesIntroducedAfterbyDefault property (Word)
 keywords: vbawd10.chm162988469
 f1_keywords:
 - vbawd10.chm162988469
-ms.prod: word
 api_name:
 - Word.Options.DisableFeaturesIntroducedAfterbyDefault
 ms.assetid: a7cf788b-f5c1-2d7e-b3de-1261b2a65c45
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options.DisableFeaturesIntroducedAfterbyDefault property (Word)
 
-Disables all features introduced after a the specified version for all documents. Read/write  **WdDisableFeaturesIntroducedAfter**.
+Disables all features introduced after a the specified version for all documents. Read/write **WdDisableFeaturesIntroducedAfter**.
 
 
 ## Syntax
 
- _expression_. `DisableFeaturesIntroducedAfterbyDefault`
+_expression_. `DisableFeaturesIntroducedAfterbyDefault`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-The  **DisableFeaturesByDefault** property must be set to **True** prior to setting the **DisableFeaturesIntroducedAfterByDefault** property. Otherwise, the setting will not take effect and will remain at its default setting of Word 97 for Windows.
+The **DisableFeaturesByDefault** property must be set to **True** prior to setting the **DisableFeaturesIntroducedAfterByDefault** property. Otherwise, the setting will not take effect and will remain at its default setting of Word 97 for Windows.
 
-The  **DisableFeaturesIntroducedAfterByDefault** property sets a global option for the application and affects all documents. If you want to disable features introduced after a specified version for a document only, use the **DisableFeaturesIntroducedAfter** property.
+The **DisableFeaturesIntroducedAfterByDefault** property sets a global option for the application and affects all documents. If you want to disable features introduced after a specified version for a document only, use the **DisableFeaturesIntroducedAfter** property.
 
 
 ## Example

@@ -3,18 +3,17 @@ title: OptionButton.InSelection property (Access)
 keywords: vbaac10.chm10607
 f1_keywords:
 - vbaac10.chm10607
-ms.prod: access
 api_name:
 - Access.OptionButton.InSelection
 ms.assetid: ed6d0f6f-a8d5-0a31-342b-9def542a7e78
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

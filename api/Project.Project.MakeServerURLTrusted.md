@@ -1,27 +1,27 @@
 ---
-title: Project.MakeServerURLTrusted Method (Project)
+title: Project.MakeServerURLTrusted method (Project)
 keywords: vbapj.chm132401
 f1_keywords:
 - vbapj.chm132401
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.MakeServerURLTrusted
 ms.assetid: 8ef5ae1c-f22f-325c-07a9-253e64c62cb0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.MakeServerURLTrusted Method (Project)
+# Project.MakeServerURLTrusted method (Project)
 
-Adds the URL specified in the  **[ServerURL](./overview/Project.md)** property to the **Trusted sites** zone in the **Security** tab of the **Internet Options** dialog box in Internet Explorer.
+Adds the URL specified in the **[ServerURL](overview/Project.md)** property to the **Trusted sites** zone in the **Security** tab of the **Internet Options** dialog box in Internet Explorer.
 
 
 ## Syntax
 
- _expression_. `MakeServerURLTrusted`
+_expression_. `MakeServerURLTrusted`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
@@ -31,7 +31,7 @@ If no Project Server URL is specified for the project, Project Professional disp
 
 ## Example
 
-The following sample adds the URL specified in  **Collaboration Options** (**Collaborate** menu) to the list of trusted sites in Internet Explorer. Upon confirmation, Project switches to a **Resource Sheet** view and displays the displays the **Build Team for <Project Name>** dialog box when connected to Project Server .
+The following sample adds the URL specified in **Collaboration Options** (**Collaborate** menu) to the list of trusted sites in Internet Explorer. Upon confirmation, Project switches to a **Resource Sheet** view and displays the displays the **Build Team for \<Project Name>\** dialog box when connected to Project Server .
 
 
 ```vb

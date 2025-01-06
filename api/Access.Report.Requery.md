@@ -3,12 +3,11 @@ title: Report.Requery method (Access)
 keywords: vbaac10.chm13827
 f1_keywords:
 - vbaac10.chm13827
-ms.prod: access
 api_name:
 - Access.Report.Requery
 ms.assetid: d078d523-3bbd-fa70-44ac-116cdcedfebd
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[Report](Access.Report.md)** object.
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

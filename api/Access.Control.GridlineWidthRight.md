@@ -3,12 +3,11 @@ title: Control.GridlineWidthRight property (Access)
 keywords: vbaac10.chm10166
 f1_keywords:
 - vbaac10.chm10166
-ms.prod: access
 api_name:
 - Access.Control.GridlineWidthRight
 ms.assetid: 12df6aff-9e00-35ff-47ca-40be9622ee8a
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

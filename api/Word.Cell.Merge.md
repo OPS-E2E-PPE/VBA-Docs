@@ -3,12 +3,11 @@ title: Cell.Merge method (Word)
 keywords: vbawd10.chm156106956
 f1_keywords:
 - vbawd10.chm156106956
-ms.prod: word
 api_name:
 - Word.Cell.Merge
 ms.assetid: 79d929bd-9578-e937-405f-8ad970ae883c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Merges the specified table cell with another table cell. The result is a single 
 
 ## Syntax
 
- _expression_. `Merge`( `_MergeTo_` )
+_expression_.**Merge** (_MergeTo_)
 
- _expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

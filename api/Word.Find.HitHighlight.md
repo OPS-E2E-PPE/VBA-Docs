@@ -3,12 +3,11 @@ title: Find.HitHighlight method (Word)
 keywords: vbawd10.chm162529725
 f1_keywords:
 - vbawd10.chm162529725
-ms.prod: word
 api_name:
 - Word.Find.HitHighlight
 ms.assetid: 11f6a7e5-7aba-a374-db39-327f6427364b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +17,7 @@ Highlights all found matches and returns a **Boolean** that represents whether m
 
 ## Syntax
 
-_expression_. **HitHighlight** (**_FindText_**, **_HighlightColor_**, **_TextColor_**, **_MatchCase_**, **_MatchWholeWord_**, **_MatchPrefix_**, **_MatchSuffix_**, **_MatchPhrase_**, **_MatchWildcards_**, **_MatchSoundsLike_**, **_MatchAllWordForms_**, **_MatchByte_**, **_MatchFuzzy_**, **_MatchKashida_**, **_MatchDiacritics_**, **_MatchAlefHamza_**, **_MatchControl_**, **_IgnoreSpace_**, **_IgnorePunct_**, **_HanjaPhoneticHangul_**)
+_expression_.**HitHighlight** (**_FindText_**, **_HighlightColor_**, **_TextColor_**, **_MatchCase_**, **_MatchWholeWord_**, **_MatchPrefix_**, **_MatchSuffix_**, **_MatchPhrase_**, **_MatchWildcards_**, **_MatchSoundsLike_**, **_MatchAllWordForms_**, **_MatchByte_**, **_MatchFuzzy_**, **_MatchKashida_**, **_MatchDiacritics_**, **_MatchAlefHamza_**, **_MatchControl_**, **_IgnoreSpace_**, **_IgnorePunct_**, **_HanjaPhoneticHangul_**)
 
 _expression_ An expression that returns a **Find** object.
 

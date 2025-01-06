@@ -3,10 +3,10 @@ title: SaveCompletedToServer Event, Project [vbapj.chm131180]
 keywords: vbapj.chm131180
 f1_keywords:
 - vbapj.chm131180
-ms.prod: office
+ms.service: office
 ms.assetid: 0af8b633-5fb4-4349-8069-665d7a653bc2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,8 +14,8 @@ localization_priority: Normal
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[Application.SaveCompletedToServer Event (Project)](http://msdn.microsoft.com/library/05ca27a0-a6cd-efbd-eff8-4f457c3de5c0%28Office.15%29.aspx)
+[Application.SaveCompletedToServer Event (Project)](https://msdn.microsoft.com/library/05ca27a0-a6cd-efbd-eff8-4f457c3de5c0%28Office.15%29.aspx)
 
-[Application.ApplicationBeforeClose Event (Project)](http://msdn.microsoft.com/library/9523a793-b4c1-fd79-303e-b167d7f80025%28Office.15%29.aspx)
+[Application.ApplicationBeforeClose Event (Project)](https://msdn.microsoft.com/library/9523a793-b4c1-fd79-303e-b167d7f80025%28Office.15%29.aspx)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

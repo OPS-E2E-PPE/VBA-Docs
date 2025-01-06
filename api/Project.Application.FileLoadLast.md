@@ -1,27 +1,27 @@
 ---
-title: Application.FileLoadLast Method (Project)
+title: Application.FileLoadLast method (Project)
 keywords: vbapj.chm117
 f1_keywords:
 - vbapj.chm117
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FileLoadLast
 ms.assetid: c775d573-d184-d3ac-ed81-3552cc9b045b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FileLoadLast Method (Project)
+# Application.FileLoadLast method (Project)
 
 Opens one of the recently used files.
 
 
 ## Syntax
 
- _expression_. `FileLoadLast`( `_Number_` )
+_expression_. `FileLoadLast`( `_Number_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Opens one of the recently used files.
 
 ## Remarks
 
-To specify the number of files to show on the  **Recent** tab of the Backstage view, change the value in the **Show this number of recent documents** drop-down list in the **Display** section of the **Advanced** tab of the **Project Options** dialog box. The maximum number possible is 50.
+To specify the number of files to show on the **Recent** tab of the Backstage view, change the value in the **Show this number of recent documents** drop-down list in the **Display** section of the **Advanced** tab of the **Project Options** dialog box. The maximum number possible is 50.
 
 
 ## Example

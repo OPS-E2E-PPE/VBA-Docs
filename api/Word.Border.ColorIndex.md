@@ -3,30 +3,29 @@ title: Border.ColorIndex property (Word)
 keywords: vbawd10.chm154861569
 f1_keywords:
 - vbawd10.chm154861569
-ms.prod: word
 api_name:
 - Word.Border.ColorIndex
 ms.assetid: 649e96e8-b815-2a9e-bebe-d38c847c2e93
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Border.ColorIndex property (Word)
 
-Returns or sets the color for the specified border or font object. Read/write  **WdColorIndex**.
+Returns or sets the color for the specified border or font object. Read/write **WdColorIndex**.
 
 
 ## Syntax
 
- _expression_. `ColorIndex`
+_expression_.**ColorIndex**
 
- _expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
+_expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
 
 
 ## Remarks
 
-The  **wdByAuthor** constant is not valid for border and font objects.
+The **wdByAuthor** constant is not valid for border and font objects.
 
 
 ## Example

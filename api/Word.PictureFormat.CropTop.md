@@ -3,30 +3,29 @@ title: PictureFormat.CropTop property (Word)
 keywords: vbawd10.chm164298858
 f1_keywords:
 - vbawd10.chm164298858
-ms.prod: word
 api_name:
 - Word.PictureFormat.CropTop
 ms.assetid: 724fbcad-20e9-896f-c832-1105b4e4d4d0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PictureFormat.CropTop property (Word)
 
-Returns or sets the number of points that are cropped off the top of the specified picture or OLE object. Read/write  **Single**.
+Returns or sets the number of points that are cropped off the top of the specified picture or OLE object. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `CropTop`
+_expression_.**CropTop**
 
- _expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
+_expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the  **CropTop** property to 50, 100 points (not 50) will be cropped off the top of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the **CropTop** property to 50, 100 points (not 50) will be cropped off the top of your picture.
 
 
 ## Example

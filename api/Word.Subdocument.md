@@ -3,23 +3,22 @@ title: Subdocument object (Word)
 keywords: vbawd10.chm2441
 f1_keywords:
 - vbawd10.chm2441
-ms.prod: word
 api_name:
 - Word.Subdocument
 ms.assetid: ed966369-34f6-ef0c-d6d6-4c86baff4793
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Subdocument object (Word)
 
-Represents a subdocument within a document or range. The  **Subdocument** object is a member of the **[Subdocuments](Word.subdocuments.md)** collection. The **Subdocuments** collection includes all the subdocuments in the a range or document.
+Represents a subdocument within a document or range. The **Subdocument** object is a member of the **[Subdocuments](Word.subdocuments.md)** collection. The **Subdocuments** collection includes all the subdocuments in the a range or document.
 
 
 ## Remarks
 
-Use  **Subdocuments** (Index), where Index is the index number, to return a single **Subdocument** object. The following example displays the path and file name of the first subdocument in the active document.
+Use **Subdocuments** (Index), where Index is the index number, to return a single **Subdocument** object. The following example displays the path and file name of the first subdocument in the active document.
 
 
 ```vb
@@ -30,7 +29,7 @@ If ActiveDocument.Subdocuments(1).HasFile = True Then
 End If
 ```
 
-Use the  **AddFromFile** or **AddFromRange** method to add a subdocument to a document. The following example adds a subdocument named "Setup.doc" at the end of the active document.
+Use the **AddFromFile** or **AddFromRange** method to add a subdocument to a document. The following example adds a subdocument named "Setup.doc" at the end of the active document.
 
 
 
@@ -59,6 +58,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

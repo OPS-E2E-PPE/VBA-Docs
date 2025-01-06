@@ -3,12 +3,11 @@ title: Table.SortAscending method (Word)
 keywords: vbawd10.chm156303372
 f1_keywords:
 - vbawd10.chm156303372
-ms.prod: word
 api_name:
 - Word.Table.SortAscending
 ms.assetid: 5a73ac7a-917d-7559-99c1-cb20f39b864d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Sorts paragraphs or table rows in ascending alphanumeric order.
 
 ## Syntax
 
- _expression_. `SortAscending`
+_expression_. `SortAscending`
 
- _expression_ Required. A variable that represents a '[Table](Word.Table.md)' object.
+_expression_ Required. A variable that represents a '[Table](Word.Table.md)' object.
 
 
 ## Remarks
 
-The first table row is considered a header record and isn't included in the sort. Use the  **Sort** method to include the first row in a sort. This method offers a simplified form of sorting intended for mail merge data sources that contain columns of data. For most sorting tasks, use the **Sort** method.
+The first table row is considered a header record and isn't included in the sort. Use the **Sort** method to include the first row in a sort. This method offers a simplified form of sorting intended for mail merge data sources that contain columns of data. For most sorting tasks, use the **Sort** method.
 
 
 ## Example

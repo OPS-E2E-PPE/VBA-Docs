@@ -3,20 +3,17 @@ title: AcFormatBarLimits enumeration (Access)
 keywords: vbaac10.chm14529
 f1_keywords:
 - vbaac10.chm14529
-ms.prod: access
 api_name:
 - Access.AcFormatBarLimits
 ms.assetid: 15cc7bb2-ef78-1b55-910c-fbc8b9f95c61
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcFormatBarLimits enumeration (Access)
 
 Specifies how the threshold values for a Data Bar is determined.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

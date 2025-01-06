@@ -1,24 +1,24 @@
 ---
-title: Application.ConnectionStatusChanged Event (Project)
-ms.prod: project-server
+title: Application.ConnectionStatusChanged event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.ConnectionStatusChanged
 ms.assetid: ffc6fc8a-f5b7-3a3d-4829-712a8305ed17
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ConnectionStatusChanged Event (Project)
+# Application.ConnectionStatusChanged event (Project)
 
 Occurs when the status of the connection with Project Server changes. Available only in Project Professional.
 
 
 ## Syntax
 
- _expression_. `ConnectionStatusChanged`( `_online_` )
+_expression_. `ConnectionStatusChanged`( `_online_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,6 +31,6 @@ Occurs when the status of the connection with Project Server changes. Available 
 
 ## Return value
 
-nothing
+**Nothing**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

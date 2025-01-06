@@ -1,32 +1,31 @@
 ---
-title: TaskRequestDeclineItem.DownloadState Property (Outlook)
+title: TaskRequestDeclineItem.DownloadState property (Outlook)
 keywords: vbaol11.chm1859
 f1_keywords:
 - vbaol11.chm1859
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestDeclineItem.DownloadState
 ms.assetid: ad8fd89f-b07c-1981-7a89-5b2658e9b6d9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.DownloadState Property (Outlook)
+# TaskRequestDeclineItem.DownloadState property (Outlook)
 
-Returns a constant that belongs to the  **[OlDownloadState](Outlook.OlDownloadState.md)** enumeration indicating the download state of the item. Read-only.
+Returns a constant that belongs to the **[OlDownloadState](Outlook.OlDownloadState.md)** enumeration indicating the download state of the item. Read-only.
 
 
 ## Syntax
 
 _expression_. `DownloadState`
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example searches through the user's  **Inbox** for items that have not yet been fully downloaded. If any not yet fully downloaded items are found, a message is displayed to the user, and the item is marked for download.
+The following Microsoft Visual Basic for Applications (VBA) example searches through the user's **Inbox** for items that have not yet been fully downloaded. If any not yet fully downloaded items are found, a message is displayed to the user, and the item is marked for download.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: QBColor function (Visual Basic for Applications)
 keywords: vblr6.chm1012946
 f1_keywords:
 - vblr6.chm1012946
-ms.prod: office
 ms.assetid: fa9c0598-8454-fd05-a34c-be5e25158816
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

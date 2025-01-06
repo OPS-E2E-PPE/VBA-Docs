@@ -3,12 +3,11 @@ title: Application.RefreshDatabaseWindow method (Access)
 keywords: vbaac10.chm12563
 f1_keywords:
 - vbaac10.chm12563
-ms.prod: access
 api_name:
 - Access.Application.RefreshDatabaseWindow
 ms.assetid: 63825d35-b24e-ae68-3214-5727dc97eb79
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ Nothing
 
 ## Remarks
 
-You can use the **RefreshDatabaseWindow** method to immediately reflect changes to objects in Microsoft Access in the Database window. For example, if you add a new form from Visual Basic and save it, you can use the **RefreshDatabaseWindow** method to display the name of the new form on the **Forms** tab of the Database window immediately after it has been saved.
+Use the **RefreshDatabaseWindow** method to immediately reflect changes to objects in Microsoft Access in the Database window. For example, if you add a new form from Visual Basic and save it, you can use the **RefreshDatabaseWindow** method to display the name of the new form on the **Forms** tab of the Database window immediately after it has been saved.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: Shape.GeometryCount Property (Visio)
+title: Shape.GeometryCount property (Visio)
 keywords: vis_sdr.chm11213600
 f1_keywords:
 - vis_sdr.chm11213600
-ms.prod: visio
 api_name:
 - Visio.Shape.GeometryCount
 ms.assetid: 4dffe649-3629-6e3e-bcc0-d860eb1efdbe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.GeometryCount Property (Visio)
+# Shape.GeometryCount property (Visio)
 
 Returns the number of Geometry sections for a shape. Read-only.
 
 
 ## Syntax
 
- _expression_. `GeometryCount`
+_expression_. `GeometryCount`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **GeometryCount** property to determine the number of Geometry sections a shape has.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **GeometryCount** property to determine the number of Geometry sections a shape has.
 
 
 

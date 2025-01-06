@@ -1,27 +1,26 @@
 ---
-title: ParagraphFormat.SpaceWithin Property (PowerPoint)
+title: ParagraphFormat.SpaceWithin property (PowerPoint)
 keywords: vbapp10.chm576010
 f1_keywords:
 - vbapp10.chm576010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ParagraphFormat.SpaceWithin
 ms.assetid: 523fa767-e5af-0d7f-d16a-b11dd7d3799d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ParagraphFormat.SpaceWithin Property (PowerPoint)
+# ParagraphFormat.SpaceWithin property (PowerPoint)
 
 Returns or sets the amount of space between base lines in the specified text, in points or lines. Read/write.
 
 
 ## Syntax
 
- _expression_. `SpaceWithin`
+_expression_. `SpaceWithin`
 
- _expression_ A variable that represents a [ParagraphFormat](./PowerPoint.ParagraphFormat.md) object.
+_expression_ A variable that represents a [ParagraphFormat](PowerPoint.ParagraphFormat.md) object.
 
 
 ## Return value

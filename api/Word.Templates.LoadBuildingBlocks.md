@@ -3,12 +3,11 @@ title: Templates.LoadBuildingBlocks method (Word)
 keywords: vbawd10.chm161611876
 f1_keywords:
 - vbawd10.chm161611876
-ms.prod: word
 api_name:
 - Word.Templates.LoadBuildingBlocks
 ms.assetid: c886722a-b970-870b-066b-e99ebd12b042
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Loads the building blocks for all templates into Microsoft Word.
 
 ## Syntax
 
- _expression_. `LoadBuildingBlocks`
+_expression_. `LoadBuildingBlocks`
 
  _expression_ An expression that returns a '[Templates](Word.templates.md)' object.
 

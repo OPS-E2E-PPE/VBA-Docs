@@ -3,30 +3,29 @@ title: Selection.Bookmarks property (Word)
 keywords: vbawd10.chm158662731
 f1_keywords:
 - vbawd10.chm158662731
-ms.prod: word
 api_name:
 - Word.Selection.Bookmarks
 ms.assetid: 32e25786-512a-5bee-4ba6-42c801b49176
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.Bookmarks property (Word)
 
-Returns a  **[Bookmarks](Word.bookmarks.md)** collection that represents all the bookmarks in a document, range, or selection. Read-only.
+Returns a **[Bookmarks](Word.bookmarks.md)** collection that represents all the bookmarks in a document, range, or selection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Bookmarks`
+_expression_. `Bookmarks`
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

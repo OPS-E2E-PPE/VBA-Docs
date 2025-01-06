@@ -3,10 +3,9 @@ title: Variable not yet created in this context
 keywords: vblr6.chm1040363
 f1_keywords:
 - vblr6.chm1040363
-ms.prod: office
 ms.assetid: 93dc4805-7ce4-0240-7bc7-e5bc593dfbf5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ A [variable](../../Glossary/vbe-glossary.md#variable) has to be created before i
 
 
 
-- You tried to display the value of a local variable that you just entered in your code before executing at least a  **Single Step** command in [break mode](../../Glossary/vbe-glossary.md#break-mode).
+- You tried to display the value of a local variable that you just entered in your code before executing at least a **Single Step** command in [break mode](../../Glossary/vbe-glossary.md#break-mode).
     
     Step into the code to force compilation of the new statement.
     

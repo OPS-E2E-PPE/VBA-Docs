@@ -1,20 +1,19 @@
 ---
-title: NameSpace.ExchangeMailboxServerVersion Property (Outlook)
+title: NameSpace.ExchangeMailboxServerVersion property (Outlook)
 keywords: vbaol11.chm792
 f1_keywords:
 - vbaol11.chm792
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.ExchangeMailboxServerVersion
 ms.assetid: 01e83a30-f574-1ff6-34de-85c14ecc09c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.ExchangeMailboxServerVersion Property (Outlook)
+# NameSpace.ExchangeMailboxServerVersion property (Outlook)
 
-Returns a  **String** value that represents the full version number of the Exchange server that hosts the primary Exchange account mailbox. Read-only.
+Returns a **String** value that represents the full version number of the Exchange server that hosts the primary Exchange account mailbox. Read-only.
 
 
 ## Syntax

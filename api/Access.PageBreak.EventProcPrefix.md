@@ -3,12 +3,11 @@ title: PageBreak.EventProcPrefix property (Access)
 keywords: vbaac10.chm11671
 f1_keywords:
 - vbaac10.chm11671
-ms.prod: access
 api_name:
 - Access.PageBreak.EventProcPrefix
 ms.assetid: abb7dc97-7bc9-8ab3-95ed-3b39a731df30
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

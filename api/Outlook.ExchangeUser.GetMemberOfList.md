@@ -1,32 +1,31 @@
 ---
-title: ExchangeUser.GetMemberOfList Method (Outlook)
+title: ExchangeUser.GetMemberOfList method (Outlook)
 keywords: vbaol11.chm2084
 f1_keywords:
 - vbaol11.chm2084
-ms.prod: outlook
 api_name:
 - Outlook.ExchangeUser.GetMemberOfList
 ms.assetid: 1f4e8910-8998-85ab-05dc-d06f6fd323c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ExchangeUser.GetMemberOfList Method (Outlook)
+# ExchangeUser.GetMemberOfList method (Outlook)
 
-Returns an  **[AddressEntries](Outlook.AddressEntries.md)** collection object that contains the **[AddressEntry](Outlook.AddressEntry.md)** objects representing all the Exchange distribution lists to which the user belongs.
+Returns an **[AddressEntries](Outlook.AddressEntries.md)** collection object that contains the **[AddressEntry](Outlook.AddressEntry.md)** objects representing all the Exchange distribution lists to which the user belongs.
 
 
 ## Syntax
 
 _expression_. `GetMemberOfList`
 
-_expression_ A variable that represents an [ExchangeUser](./Outlook.ExchangeUser.md) object.
+_expression_ A variable that represents an [ExchangeUser](Outlook.ExchangeUser.md) object.
 
 
 ## Return value
 
-An  **AddressEntries** collection object that represents the Exchange distribution lists to which the **[ExchangeUser](Outlook.ExchangeUser.md)** belongs. Returns an **AddressEntries** collection object with a count of zero (0) if the **ExchangeUser** is not a member of any Exchange distribution list.
+An **AddressEntries** collection object that represents the Exchange distribution lists to which the **[ExchangeUser](Outlook.ExchangeUser.md)** belongs. Returns an **AddressEntries** collection object with a count of zero (0) if the **ExchangeUser** is not a member of any Exchange distribution list.
 
 
 ## Remarks
@@ -36,7 +35,7 @@ An  **AddressEntries** collection object that represents the Exchange distributi
 
 ## Example
 
-The following code sample shows how to obtain the names of the Exchange distribution lists to which the manager of the current user belongs. It uses the  **ExchangeUser** object to obtain specific Exchange user information such as the user's Exchange account alias, details about the user's manager, and the distribution lists that the user's manager has joined.
+The following code sample shows how to obtain the names of the Exchange distribution lists to which the manager of the current user belongs. It uses the **ExchangeUser** object to obtain specific Exchange user information such as the user's Exchange account alias, details about the user's manager, and the distribution lists that the user's manager has joined.
 
 
 ```vb

@@ -1,19 +1,16 @@
 ---
 title: MsoCalloutType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoCalloutType
 ms.assetid: 65548284-0241-f013-ea54-93099fdbf1cc
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoCalloutType enumeration (Office)
 
 Specifies the type of callout line.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

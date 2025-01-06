@@ -3,12 +3,11 @@ title: ComboBox.AddColon property (Access)
 keywords: vbaac10.chm11429
 f1_keywords:
 - vbaac10.chm11429
-ms.prod: access
 api_name:
 - Access.ComboBox.AddColon
 ms.assetid: b4d2c2b4-f638-0327-bbe3-da0f7fb1502c
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

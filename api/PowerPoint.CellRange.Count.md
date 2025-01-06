@@ -1,24 +1,23 @@
 ---
-title: CellRange.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: CellRange.Count property (PowerPoint)
 api_name:
 - PowerPoint.CellRange.Count
 ms.assetid: 9f81da2d-1b5d-9650-0631-19319dcc4bc0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CellRange.Count Property (PowerPoint)
+# CellRange.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents a [CellRange](./PowerPoint.CellRange.md) object.
+_expression_ A variable that represents a [CellRange](PowerPoint.CellRange.md) object.
 
 
 ## Return value

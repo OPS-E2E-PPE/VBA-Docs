@@ -1,24 +1,23 @@
 ---
 title: HeaderFooter.Index property (Word)
-ms.prod: word
 api_name:
 - Word.HeaderFooter.Index
 ms.assetid: 5281c150-1a61-670f-6b1f-37c43b717126
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HeaderFooter.Index property (Word)
 
-Returns a  **WdHeaderFooterIndex** that represents the specified header or footer in a document or section. Read-only.
+Returns a **WdHeaderFooterIndex** that represents the specified header or footer in a document or section. Read-only.
 
 
 ## Syntax
 
- _expression_. `Index`
+_expression_.**Index**
 
- _expression_ Required. A variable that represents a '[HeaderFooter](Word.HeaderFooter.md)' object.
+_expression_ Required. A variable that represents a '[HeaderFooter](Word.HeaderFooter.md)' object.
 
 
 ## Example

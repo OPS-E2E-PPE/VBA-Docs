@@ -1,20 +1,19 @@
 ---
-title: OlPermissionService Enumeration (Outlook)
+title: OlPermissionService enumeration (Outlook)
 keywords: vbaol11.chm3102
 f1_keywords:
 - vbaol11.chm3102
-ms.prod: outlook
 api_name:
 - Outlook.OlPermissionService
 ms.assetid: df5e5041-7303-e042-0821-a73c11d68db7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlPermissionService Enumeration (Outlook)
+# OlPermissionService enumeration (Outlook)
 
-Specifies the permission service used when sending an Information Rights Management (IRM) protected  **MailItem** object.
+Specifies the permission service used when sending an Information Rights Management (IRM) protected **MailItem** object.
 
 
 
@@ -26,6 +25,6 @@ Specifies the permission service used when sending an Information Rights Managem
 
 ## Remarks
 
-See [SharingItem.PermissionService Property (Outlook)](Outlook.SharingItem.PermissionService.md) and [MailItem.PermissionService Property (Outlook)](Outlook.MailItem.PermissionService.md).
+See [SharingItem.PermissionService property (Outlook)](Outlook.SharingItem.PermissionService.md) and [MailItem.PermissionService property (Outlook)](Outlook.MailItem.PermissionService.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

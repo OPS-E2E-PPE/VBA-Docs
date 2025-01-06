@@ -3,12 +3,11 @@ title: OptionGroup.Move method (Access)
 keywords: vbaac10.chm10872
 f1_keywords:
 - vbaac10.chm10872
-ms.prod: access
 api_name:
 - Access.OptionGroup.Move
 ms.assetid: 49f4a11d-ab81-7b81-cb28-904eba61048c
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

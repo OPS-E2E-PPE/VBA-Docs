@@ -1,18 +1,17 @@
 ---
-title: OlkListBox.SetItem Method (Outlook)
+title: OlkListBox.SetItem method (Outlook)
 keywords: vbaol11.chm1000269
 f1_keywords:
 - vbaol11.chm1000269
-ms.prod: outlook
 api_name:
 - Outlook.OlkListBox.SetItem
 ms.assetid: 95232643-c547-f553-1d92-0f3fead18de9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkListBox.SetItem Method (Outlook)
+# OlkListBox.SetItem method (Outlook)
 
 Sets the item at the specified location in the list to the specified value.
 
@@ -21,7 +20,7 @@ Sets the item at the specified location in the list to the specified value.
 
 _expression_. `SetItem`( `_Index_` , `_Item_` )
 
-_expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
 ## Parameters

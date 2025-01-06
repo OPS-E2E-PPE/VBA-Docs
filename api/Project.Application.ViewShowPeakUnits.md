@@ -1,27 +1,27 @@
 ---
-title: Application.ViewShowPeakUnits Method (Project)
+title: Application.ViewShowPeakUnits method (Project)
 keywords: vbapj.chm923
 f1_keywords:
 - vbapj.chm923
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ViewShowPeakUnits
 ms.assetid: d2027dc0-f763-1e26-c036-d6cc130072c5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ViewShowPeakUnits Method (Project)
+# Application.ViewShowPeakUnits method (Project)
 
 Displays peak units information in the active Resource Graph view.
 
 
 ## Syntax
 
- _expression_. `ViewShowPeakUnits`
+_expression_. `ViewShowPeakUnits`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Displays peak units information in the active Resource Graph view.
 
 ## Remarks
 
-The  **ViewShowPeakUnits** method has no effect unless the active window contains the Resource Graph view.
+The **ViewShowPeakUnits** method has no effect unless the active window contains the Resource Graph view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

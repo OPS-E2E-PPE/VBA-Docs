@@ -3,23 +3,22 @@ title: BuildingBlock.Insert method (Word)
 keywords: vbawd10.chm203620454
 f1_keywords:
 - vbawd10.chm203620454
-ms.prod: word
 api_name:
 - Word.BuildingBlock.Insert
 ms.assetid: e2f3fd61-624b-fd18-3b5a-2c9f16fa6bd2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BuildingBlock.Insert method (Word)
 
-Inserts the value of a building block into a document and returns a  **[Range](Word.Range.md)** object that represents the contents of the building block within the document.
+Inserts the value of a building block into a document and returns a **[Range](Word.Range.md)** object that represents the contents of the building block within the document.
 
 
 ## Syntax
 
- _expression_. `Insert`( `_Where_` , `_RichText_` )
+_expression_.**Insert** (_Where_, _RichText_)
 
  _expression_ An expression that returns a '[BuildingBlock](Word.BuildingBlock.md)' object.
 

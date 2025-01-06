@@ -3,12 +3,11 @@ title: OpenAsTextStream method (Visual Basic for Applications)
 keywords: vblr6.chm2182007
 f1_keywords:
 - vblr6.chm2182007
-ms.prod: office
 api_name:
 - Office.OpenAsTextStream
 ms.assetid: 11bdf601-368b-7d95-a7db-394271d59da6
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Opens a specified file and returns a **[TextStream](textstream-object.md)** obje
 ## Syntax
 
 _object_.**OpenAsTextStream** ([ _iomode_, [ _format_ ]])
-
-<br/>
 
 The **OpenAsTextStream** method syntax has these parts:
 
@@ -39,8 +36,6 @@ The _iomode_ argument can have any of the following settings:
 |**ForReading**|1|Open a file for reading only. You can't write to this file.|
 |**ForWriting**|2|Open a file for writing. If a file with the same name exists, its previous contents are overwritten.|
 |**ForAppending**|8|Open a file and write to the end of the file.|
-
-<br/>
 
 The _format_ argument can have any of the following settings:
 

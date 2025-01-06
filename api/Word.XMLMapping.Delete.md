@@ -3,12 +3,11 @@ title: XMLMapping.Delete method (Word)
 keywords: vbawd10.chm199688196
 f1_keywords:
 - vbawd10.chm199688196
-ms.prod: word
 api_name:
 - Word.XMLMapping.Delete
 ms.assetid: 72864b8d-5b59-66c3-b9e3-b970f8adf7aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Deletes the XML mapping from the parent content control.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 

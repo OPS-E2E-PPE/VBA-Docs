@@ -3,12 +3,11 @@ title: MousePointer property
 keywords: fm20.chm2001550
 f1_keywords:
 - fm20.chm2001550
-ms.prod: office
 api_name:
 - Office.MousePointer
 ms.assetid: ae574d87-e218-4d03-d423-0192768e82dc
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

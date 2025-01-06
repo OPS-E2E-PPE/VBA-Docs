@@ -1,27 +1,26 @@
 ---
-title: Chart.Paste Method (PowerPoint)
+title: Chart.Paste method (PowerPoint)
 keywords: vbapp10.chm684004
 f1_keywords:
 - vbapp10.chm684004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.Paste
 ms.assetid: b94ee91d-5b7c-c0b3-340d-b8eba4f3710f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.Paste Method (PowerPoint)
+# Chart.Paste method (PowerPoint)
 
 Pastes chart data from the Clipboard into the chart.
 
 
 ## Syntax
 
- _expression_. `Paste`( `_Type_` )
+_expression_.**Paste** (_Type_)
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Parameters
@@ -43,7 +42,8 @@ _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example activates the Microsoft Excel workbook associated with the first chart in the active document. If the Excel workbook has multiple windows, the example activates the first window. The example then copies the contents of cells B1 through B5 and pastes the cell contents into the chart.
 

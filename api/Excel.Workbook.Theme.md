@@ -3,12 +3,11 @@ title: Workbook.Theme property (Excel)
 keywords: vbaxl10.chm199254
 f1_keywords:
 - vbaxl10.chm199254
-ms.prod: excel
 api_name:
 - Excel.Workbook.Theme
 ms.assetid: 1208f610-8c6f-9a62-3378-9566a7ee6b37
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/29/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Returns the theme applied to the current workbook. Read-only.
 
 ## Syntax
 
-_expression_. `Theme`
+_expression_.**Theme**
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
-[Workbook Object](Excel.Workbook.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

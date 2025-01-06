@@ -1,20 +1,19 @@
 ---
-title: PbCommandButtonType Enumeration (Publisher)
+title: PbCommandButtonType enumeration (Publisher)
 keywords: vbapb10.chm65593
 f1_keywords:
 - vbapb10.chm65593
-ms.prod: publisher
 api_name:
 - Publisher.PbCommandButtonType
 ms.assetid: 3255741c-8afd-7c81-7d47-f66ada991ca3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbCommandButtonType Enumeration (Publisher)
+# PbCommandButtonType enumeration (Publisher)
 
-Indicates whether a Web command button will clear or submit form data.
+Indicates whether a web command button will clear or submit form data.
 
 
 

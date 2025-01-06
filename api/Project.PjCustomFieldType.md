@@ -1,15 +1,15 @@
 ---
-title: PjCustomFieldType Enumeration (Project)
-ms.prod: project-server
+title: PjCustomFieldType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCustomFieldType
 ms.assetid: fd15a89f-862b-6da0-4057-d32af4d4955e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCustomFieldType Enumeration (Project)
+# PjCustomFieldType enumeration (Project)
 
 Contains constants that specify the type of a custom field.
 

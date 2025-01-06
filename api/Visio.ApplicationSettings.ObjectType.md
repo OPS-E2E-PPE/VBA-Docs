@@ -1,27 +1,26 @@
 ---
-title: ApplicationSettings.ObjectType Property (Visio)
+title: ApplicationSettings.ObjectType property (Visio)
 keywords: vis_sdr.chm16213960
 f1_keywords:
 - vis_sdr.chm16213960
-ms.prod: visio
 api_name:
 - Visio.ApplicationSettings.ObjectType
 ms.assetid: f3bce466-0497-6744-f96a-5c4bb7afca08
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ApplicationSettings.ObjectType Property (Visio)
+# ApplicationSettings.ObjectType property (Visio)
 
 Returns an object's type. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ VisObjectTypes
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Example
 
-This example shows how to use the  **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
+This example shows how to use the **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
 
 
 ```vb

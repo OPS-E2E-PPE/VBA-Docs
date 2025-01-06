@@ -1,24 +1,24 @@
 ---
-title: WeekDay.Shift3 Property (Project)
-ms.prod: project-server
+title: WeekDay.Shift3 property (Project)
+ms.service: project-server
 api_name:
 - Project.WeekDay.Shift3
 ms.assetid: c09fde08-3f8d-71e8-5c5d-f0ebbb0069ce
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WeekDay.Shift3 Property (Project)
+# WeekDay.Shift3 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the third work shift in a weekday. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the third work shift in a weekday. Read-only **Shift**.
 
 
 ## Syntax
 
- _expression_. `Shift3`
+_expression_. `Shift3`
 
- _expression_ A variable that represents a [WeekDay](./Project.WeekDay.md) object.
+_expression_ A variable that represents a [WeekDay](./Project.WeekDay.md) object.
 
 
 ## Example

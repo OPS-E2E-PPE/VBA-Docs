@@ -1,11 +1,10 @@
 ---
 title: GradientStops.Application property (Office)
-ms.prod: office
 api_name:
 - Office.GradientStops.Application
 ms.assetid: f4c9ca0c-9796-8290-438f-8ce0a174cb18
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Object
 
 ## Remarks
 
-You can use this property with an OLE **Automation** object to return the application of that object.
+Use this property with an OLE **Automation** object to return the application of that object.
 
 
 ## See also

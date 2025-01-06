@@ -3,12 +3,11 @@ title: Selection.HasChildShapeRange property (Word)
 keywords: vbawd10.chm158663678
 f1_keywords:
 - vbawd10.chm158663678
-ms.prod: word
 api_name:
 - Word.Selection.HasChildShapeRange
 ms.assetid: 1917754f-6080-8303-533e-b62607b87d41
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasChildShapeRange`
+_expression_. `HasChildShapeRange`
 
- _expression_ An expression that returns a '[Selection](Word.Selection.md)' object.
+ _expression_ An expression that returns a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

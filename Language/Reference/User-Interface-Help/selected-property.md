@@ -3,12 +3,11 @@ title: Selected property
 keywords: fm20.chm2001830
 f1_keywords:
 - fm20.chm2001830
-ms.prod: office
 api_name:
 - Office.Selected
 ms.assetid: 5a286e96-d250-089a-1682-da00112157aa
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,7 +38,7 @@ The settings for _Boolean_ are:
 
 ## Remarks
 
-The **Selected** property is useful when users can make multiple selections. You can use this property to determine the selected rows in a multi-select list box. You can also use this property to select or deselect rows in a list from code.
+The **Selected** property is useful when users can make multiple selections. Use this property to determine the selected rows in a multi-select list box. You can also use this property to select or deselect rows in a list from code.
 
 The default value of this property is based on the current selection state of the **ListBox**.
 

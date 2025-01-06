@@ -3,12 +3,11 @@ title: Attachment.Click event (Access)
 keywords: vbaac10.chm14027
 f1_keywords:
 - vbaac10.chm14027
-ms.prod: access
 api_name:
 - Access.Attachment.Click
 ms.assetid: cdeff1db-5d95-dab5-79ae-d02ac25d5659
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -53,7 +52,7 @@ For a control, this event occurs when the user:
     
 Typically, you attach a **Click** event procedure or macro to a command button to carry out commands and command-like actions. For the other applicable controls, use this event to trigger actions in response to one of the occurrences discussed earlier in this topic.
 
-You can use a **CancelEvent** action in a DblClick macro to cancel the second **Click** event. For more information, see the **[DblClick](access.attachment.dblclick.md)** event topic.
+Use a CancelEvent action in a DblClick macro to cancel the second **Click** event. For more information, see the **[DblClick](access.attachment.dblclick.md)** event topic.
 
 To distinguish between the left, right, and middle mouse buttons, use the **MouseDown** and **MouseUp** events.
 

@@ -1,19 +1,16 @@
 ---
 title: MsoFontLanguageIndex enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoFontLanguageIndex
 ms.assetid: 1fb87874-d5d4-263e-056b-ab80e1093070
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoFontLanguageIndex enumeration (Office)
 
 Represents one of the three language fonts contained in the **ThemeFonts** collection.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

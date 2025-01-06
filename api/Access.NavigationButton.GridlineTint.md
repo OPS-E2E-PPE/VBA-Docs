@@ -3,12 +3,11 @@ title: NavigationButton.GridlineTint property (Access)
 keywords: vbaac10.chm14636
 f1_keywords:
 - vbaac10.chm14636
-ms.prod: access
 api_name:
 - Access.NavigationButton.GridlineTint
 ms.assetid: a6434bb1-88bb-1287-2fcb-c82922c8c868
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

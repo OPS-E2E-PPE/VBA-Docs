@@ -3,12 +3,11 @@ title: CalloutFormat.PresetDrop method (Word)
 keywords: vbawd10.chm163905549
 f1_keywords:
 - vbawd10.chm163905549
-ms.prod: word
 api_name:
 - Word.CalloutFormat.PresetDrop
 ms.assetid: 3bd6f39f-a5b6-95be-b8de-c60137694d42
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Specifies whether the callout line attaches to the top, bottom, or center of the
 
 ## Syntax
 
- _expression_. `PresetDrop`( `_DropType_` )
+_expression_.**PresetDrop** (_DropType_)
 
- _expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Specifies whether the callout line attaches to the top, bottom, or center of the
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _DropType_|Required| **MsoCalloutDropType**|The starting position of the callout line relative to the text bounding box. If you specify  **msoCalloutDropCustom** , the values of the **Drop** and **AutoAttach** properties and the relative positions of the callout text box and callout line origin (the place that the callout points to) are used to determine where the callout line attaches to the text box.|
+| _DropType_|Required| **MsoCalloutDropType**|The starting position of the callout line relative to the text bounding box. If you specify **msoCalloutDropCustom**, the values of the **Drop** and **AutoAttach** properties and the relative positions of the callout text box and callout line origin (the place that the callout points to) are used to determine where the callout line attaches to the text box.|
 
 ## Example
 

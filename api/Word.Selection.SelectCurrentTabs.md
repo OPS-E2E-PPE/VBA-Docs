@@ -3,12 +3,11 @@ title: Selection.SelectCurrentTabs method (Word)
 keywords: vbawd10.chm158663177
 f1_keywords:
 - vbawd10.chm158663177
-ms.prod: word
 api_name:
 - Word.Selection.SelectCurrentTabs
 ms.assetid: 38b0ba64-eedc-9ef5-5622-5499b50bbd3e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Extends the selection forward until a paragraph with different tab stops is enco
 
 ## Syntax
 
- _expression_. `SelectCurrentTabs`
+_expression_. `SelectCurrentTabs`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

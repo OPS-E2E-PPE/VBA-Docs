@@ -3,12 +3,11 @@ title: Application.OnTime method (Word)
 keywords: vbawd10.chm158335326
 f1_keywords:
 - vbawd10.chm158335326
-ms.prod: word
 api_name:
 - Word.Application.OnTime
 ms.assetid: 732d03cc-9dd6-5961-9763-048f72dea4d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Starts a background timer that runs a macro at a specified time.
 
 ## Syntax
 
- _expression_. `OnTime`( `_When_` , `_Name_` , `_Tolerance_` )
+_expression_. `OnTime`( `_When_` , `_Name_` , `_Tolerance_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -36,13 +35,13 @@ Starts a background timer that runs a macro at a specified time.
 
 ## Remarks
 
-The When parameter can be a string that specifies a time (for example,  `"4:30 pm"` or `"16:30"`), or it can be a serial number returned by a function such as  **TimeValue** or **TimeSerial** (for example, `TimeValue("2:30 pm")` or `TimeSerial(14, 30, 00)`). You can also include the date (for example,  `"6/30 4:15 pm"` or `TimeValue("6/30 4:15 pm")`).
+The When parameter can be a string that specifies a time (for example, `"4:30 pm"` or `"16:30"`), or it can be a serial number returned by a function such as **TimeValue** or **TimeSerial** (for example, `TimeValue("2:30 pm")` or `TimeSerial(14, 30, 00)`). You can also include the date (for example, `"6/30 4:15 pm"` or `TimeValue("6/30 4:15 pm")`).
 
-For the Name parameter, use the complete macro path to ensure that the correct macro is run (for example,  `"Project.Module1.Macro1"`). For the macro to run, the document or template must be available both when the  **OnTime** instruction is run and when the time specified by When arrives. For this reason, it is best to store the macro in Normal.dot or another global template that's loaded automatically.
+For the Name parameter, use the complete macro path to ensure that the correct macro is run (for example, `"Project.Module1.Macro1"`). For the macro to run, the document or template must be available both when the **OnTime** instruction is run and when the time specified by When arrives. For this reason, it is best to store the macro in Normal.dot or another global template that's loaded automatically.
 
-Use the sum of the return values of the  **Now** function and either the **TimeValue** or **TimeSerial** function to set a timer to run a macro a specified amount of time after the statement is run. For example, use `Now+TimeValue("00:05:30")` to run a macro 5 minutes and 30 seconds after the statement is run.
+Use the sum of the return values of the **Now** function and either the **TimeValue** or **TimeSerial** function to set a timer to run a macro a specified amount of time after the statement is run. For example, use `Now+TimeValue("00:05:30")` to run a macro 5 minutes and 30 seconds after the statement is run.
 
-Word can maintain only one background timer set by  **OnTime**. If you start another timer before an existing timer runs, the existing timer is canceled.
+Word can maintain only one background timer set by **OnTime**. If you start another timer before an existing timer runs, the existing timer is canceled.
 
 
 ## Example

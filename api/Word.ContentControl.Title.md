@@ -3,23 +3,22 @@ title: ContentControl.Title property (Word)
 keywords: vbawd10.chm266534924
 f1_keywords:
 - vbawd10.chm266534924
-ms.prod: word
 api_name:
 - Word.ContentControl.Title
 ms.assetid: 3bfd7bd5-2477-95ed-a334-bb3e7e450036
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControl.Title property (Word)
 
-Returns or sets a  **String** that represents the title for a content control. Read/write.
+Returns or sets a **String** that represents the title for a content control. Read/write.
 
 
 ## Syntax
 
- _expression_. `Title`
+_expression_.**Title**
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 

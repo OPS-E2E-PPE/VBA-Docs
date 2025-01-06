@@ -1,15 +1,14 @@
 ---
-title: SharingItem.BeforeAttachmentPreview Event (Outlook)
-ms.prod: outlook
+title: SharingItem.BeforeAttachmentPreview event (Outlook)
 api_name:
 - Outlook.SharingItem.BeforeAttachmentPreview
 ms.assetid: e5a0ec4a-d6b2-c717-85a2-6a022f9ee325
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.BeforeAttachmentPreview Event (Outlook)
+# SharingItem.BeforeAttachmentPreview event (Outlook)
 
 Occurs before an attachment associated with an instance of the parent object is previewed.
 
@@ -18,7 +17,7 @@ Occurs before an attachment associated with an instance of the parent object is 
 
 _expression_. `BeforeAttachmentPreview`( `_Attachment_` , `_Cancel_` )
 
- _expression_ An expression that returns a [SharingItem](./Outlook.SharingItem.md) object.
+ _expression_ An expression that returns a [SharingItem](Outlook.SharingItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_. `BeforeAttachmentPreview`( `_Attachment_` , `_Cancel_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be previewed.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be previewed.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
 
 ## See also
 

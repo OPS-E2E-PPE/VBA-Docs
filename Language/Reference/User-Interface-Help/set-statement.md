@@ -3,10 +3,9 @@ title: Set statement (VBA)
 keywords: vblr6.chm1009016
 f1_keywords:
 - vblr6.chm1009016
-ms.prod: office
 ms.assetid: 59de2927-b338-0038-50b9-3379d7331935
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,9 +15,7 @@ Assigns an object reference to a [variable](../../Glossary/vbe-glossary.md#varia
 
 ## Syntax
 
-**Set**_objectvar_ **=** {[ **New** ] _objectexpression_ | **Nothing** }
-
-<br/>
+**Set** _objectvar_ **=** {[ **New** ] _objectexpression_ | **Nothing** }
 
 The **Set** statement syntax has these parts:
 
@@ -50,7 +47,7 @@ Generally, when you use **Set** to assign an object reference to a variable, no 
 
 ## Example
 
-This example uses the **Set** statement to assign object references to variables. `YourObject` is assumed to be a valid object with a **Text** property.
+This example uses the **Set** statement to assign object references to variables. _YourObject_ is assumed to be a valid object with a **Text** property.
 
 
 ```vb

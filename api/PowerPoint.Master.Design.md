@@ -1,27 +1,26 @@
 ---
-title: Master.Design Property (PowerPoint)
+title: Master.Design property (PowerPoint)
 keywords: vbapp10.chm533014
 f1_keywords:
 - vbapp10.chm533014
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Master.Design
 ms.assetid: 78035fbd-e2f3-9089-2263-c04ce72394db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Design Property (PowerPoint)
+# Master.Design property (PowerPoint)
 
-Returns a  **Design** object representing a design.
+Returns a **Design** object representing a design.
 
 
 ## Syntax
 
- _expression_. `Design`
+_expression_. `Design`
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value

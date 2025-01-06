@@ -3,12 +3,11 @@ title: View.ShowMainTextLayer property (Word)
 keywords: vbawd10.chm161808411
 f1_keywords:
 - vbawd10.chm161808411
-ms.prod: word
 api_name:
 - Word.View.ShowMainTextLayer
 ms.assetid: 0e2b3dd8-8e42-5f53-abc0-849daa5683bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowMainTextLayer`
+_expression_. `ShowMainTextLayer`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

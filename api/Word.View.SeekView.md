@@ -3,25 +3,24 @@ title: View.SeekView property (Word)
 keywords: vbawd10.chm161808412
 f1_keywords:
 - vbawd10.chm161808412
-ms.prod: word
 api_name:
 - Word.View.SeekView
 ms.assetid: 94b026a0-92f9-32c4-0394-d2b02fbcb942
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # View.SeekView property (Word)
 
-Returns or sets the document element displayed in print layout view. Read/write  **WdSeekView**.
+Returns or sets the document element displayed in print layout view. The property may be set to any of the **[WdSeekView](Word.WdSeekView.md)** constants. Read/write **WdSeekView**.
 
 
 ## Syntax
 
- _expression_. `SeekView`
+_expression_. `SeekView`
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks

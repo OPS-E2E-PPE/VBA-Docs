@@ -1,20 +1,20 @@
 ---
-title: Shape.Delete Method (Project)
-ms.prod: project-server
+title: Shape.Delete method (Project)
+ms.service: project-server
 ms.assetid: b8e01778-85d4-a8bc-5ebe-1489bb79ce7b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Delete Method (Project)
+# Shape.Delete method (Project)
 Deletes the shape.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Return value

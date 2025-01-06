@@ -3,12 +3,11 @@ title: ShapeRange.ScaleHeight method (Word)
 keywords: vbawd10.chm162856983
 f1_keywords:
 - vbawd10.chm162856983
-ms.prod: word
 api_name:
 - Word.ShapeRange.ScaleHeight
 ms.assetid: 54697d85-1305-de17-dce5-aeccaa73b634
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scales the height of a range of shapes by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight`( `_Factor_` , `_RelativeToOriginalSize_` , `_Scale_` )
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _Scale_)
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Parameters

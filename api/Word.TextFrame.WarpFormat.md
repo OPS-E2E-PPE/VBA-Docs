@@ -3,12 +3,11 @@ title: TextFrame.WarpFormat property (Word)
 keywords: vbawd10.chm162665366
 f1_keywords:
 - vbawd10.chm162665366
-ms.prod: word
 api_name:
 - Word.TextFrame.WarpFormat
 ms.assetid: 2ea707b9-0ed1-1196-2bf9-a32ae87d456a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns or sets the warp format (how the text is warped) for the specified text 
 
 ## Syntax
 
- _expression_. `WarpFormat`
+_expression_. `WarpFormat`
 
- _expression_ A variable that represents a '[TextFrame](Word.TextFrame.md)' object.
+_expression_ A variable that represents a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Example

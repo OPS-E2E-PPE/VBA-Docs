@@ -1,18 +1,17 @@
 ---
-title: Explorer.SelectionChange Event (Outlook)
+title: Explorer.SelectionChange event (Outlook)
 keywords: vbaol11.chm455
 f1_keywords:
 - vbaol11.chm455
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.SelectionChange
 ms.assetid: ef0d976f-b9f6-2080-7657-e48d1c64ccb1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.SelectionChange Event (Outlook)
+# Explorer.SelectionChange event (Outlook)
 
 Occurs when the user selects a different or additional Microsoft Outlook item programmatically or by interacting with the user interface.
 
@@ -31,7 +30,7 @@ This event also occurs when the user (either programmatically or via the user in
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the number of items that are selected in the active explorer window whenever the selection changes. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example displays the number of items that are selected in the active explorer window whenever the selection changes. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

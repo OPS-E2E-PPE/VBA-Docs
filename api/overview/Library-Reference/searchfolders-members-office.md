@@ -1,9 +1,9 @@
 ---
 title: SearchFolders members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 9d383fde-dffb-8008-eb5a-757694975d20
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

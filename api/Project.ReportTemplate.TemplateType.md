@@ -1,29 +1,29 @@
 ---
-title: ReportTemplate.TemplateType Property (Project)
-ms.prod: project-server
+title: ReportTemplate.TemplateType property (Project)
+ms.service: project-server
 api_name:
 - Project.ReportTemplate.TemplateType
 ms.assetid: 5461ae85-0168-f31b-1c04-878afed001e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportTemplate.TemplateType Property (Project)
+# ReportTemplate.TemplateType property (Project)
 
-Gets the Visual Report template type. Read-only  **PjVisualReportsTemplateType**.
+Gets the Visual Report template type. Read-only **PjVisualReportsTemplateType**.
 
 
 ## Syntax
 
- _expression_. `TemplateType`
+_expression_. `TemplateType`
 
- _expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
+_expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
 
 
 ## Remarks
 
-The TemplateType property can be one of the  **[PjVisualReportsTemplateType](Project.PjVisualReportsTemplateType.md)** constants.
+The TemplateType property can be one of the **[PjVisualReportsTemplateType](Project.PjVisualReportsTemplateType.md)** constants.
 
 
 ## Example

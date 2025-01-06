@@ -3,23 +3,22 @@ title: XMLSchemaReferences object (Word)
 keywords: vbawd10.chm1772
 f1_keywords:
 - vbawd10.chm1772
-ms.prod: word
 api_name:
 - Word.XMLSchemaReferences
 ms.assetid: 56bef973-805c-c77a-6d2a-54a39fbd1206
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLSchemaReferences object (Word)
 
-A collection of  **XMLSchemaReference** objects that represent the unique namespaces that are attached to a document.
+A collection of **XMLSchemaReference** objects that represent the unique namespaces that are attached to a document.
 
 
 ## Remarks
 
-Use the  **XMLSchemaReferences** property to return a collection of schemas attached to a document. The following example loops through the schemas attached to a document. If it finds the specified schema, it reloads it; if it doesn't find the specified schema, it attaches the schema to the document.
+Use the **XMLSchemaReferences** property to return a collection of schemas attached to a document. The following example loops through the schemas attached to a document. If it finds the specified schema, it reloads it; if it doesn't find the specified schema, it attaches the schema to the document.
 
 
 ```vb
@@ -46,12 +45,13 @@ End Sub
 ```
 
 
- **Note**  The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
+> [!NOTE] 
+> The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
 
 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

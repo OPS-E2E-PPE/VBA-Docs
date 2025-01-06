@@ -1,15 +1,14 @@
 ---
-title: PpChartUnitEffect Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpChartUnitEffect enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpChartUnitEffect
 ms.assetid: dd38d29d-5836-b684-5b46-a002e54a9c92
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpChartUnitEffect Enumeration (PowerPoint)
+# PpChartUnitEffect enumeration (PowerPoint)
 
 Specifies whether the graph range is animated by series, category, or element.
 

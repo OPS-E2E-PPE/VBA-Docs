@@ -3,12 +3,11 @@ title: SharedWorkspaceFolders object (Office)
 keywords: vbaof11.chm269000
 f1_keywords:
 - vbaof11.chm269000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFolders
 ms.assetid: a9020edc-f199-6bab-75d1-c2bdc2a547d3
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Use the **Folders** property of the **SharedWorkspace** object to return a **Sha
 ```vb
     Dim swsFolders As Office.SharedWorkspaceFolders 
     Set swsFolders = ActiveWorkbook.SharedWorkspace.Folders 
-    MsgBox "There are " &amp; swsFolders.Count &amp; _ 
+    MsgBox "There are " & swsFolders.Count & _ 
         " folder(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

@@ -3,18 +3,17 @@ title: TextBox.FontItalic property (Access)
 keywords: vbaac10.chm11087
 f1_keywords:
 - vbaac10.chm11087
-ms.prod: access
 api_name:
 - Access.TextBox.FontItalic
 ms.assetid: f982c1ce-ad47-a05e-6b12-1eb51dbc0eb7
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.FontItalic property (Access)
 
-You can use the **FontItalic** property to specify whether text is italic in the following situations:
+Use the **FontItalic** property to specify whether text is italic in the following situations:
 
 - When displaying or printing controls on forms and reports.    
 - When using the **[Print](Access.Report.Print.md)** method on a report.

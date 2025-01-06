@@ -1,15 +1,15 @@
 ---
-title: PjResourceGraphPattern Enumeration (Project)
-ms.prod: project-server
+title: PjResourceGraphPattern enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjResourceGraphPattern
 ms.assetid: d852fc68-d1c1-4df7-b3e4-6bead6e2c09f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjResourceGraphPattern Enumeration (Project)
+# PjResourceGraphPattern enumeration (Project)
 
 Contains constants that specify the pattern of a resource graph.
 

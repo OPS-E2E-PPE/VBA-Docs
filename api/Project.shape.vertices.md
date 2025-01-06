@@ -1,29 +1,27 @@
 ---
-title: Shape.Vertices Property (Project)
-ms.prod: project-server
+title: Shape.Vertices property (Project)
+ms.service: project-server
 ms.assetid: 3db780f4-5407-f83b-f379-e9cdcc6c4946
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Vertices Property (Project)
-Gets the coordinates of the vertices (and control points for a Bézier curve) as a series of coordinate pairs, for a shape that is a drawing. Read-only  **Variant**.
+# Shape.Vertices property (Project)
+Gets the coordinates of the vertices (and control points for a Bézier curve) as a series of coordinate pairs, for a shape that is a drawing. Read-only **Variant**.
 
 ## Syntax
 
- _expression_. `Vertices`
+_expression_.**Vertices**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Remarks
 
-You can use the array returned by the  **Vertices** property as an argument for the [AddCurve](Project.shapes.addcurve.md) method or the [AddPolyLine](Project.shapes.addpolyline.md) method.
+Use the array returned by the **Vertices** property as an argument for the [AddCurve](Project.shapes.addcurve.md) method or the [AddPolyLine](Project.shapes.addpolyline.md) method.
 
-For an array of vertices named  `vertArray`, the following table shows how the  **Vertices** property associates values in the array with the coordinates of vertices in a triangle.
-
-
+For an array of vertices named `vertArray`, the following table shows how the **Vertices** property associates values in the array with the coordinates of vertices in a triangle.
 
 |**Element in the array**|**Value of the element (in points)**|
 |:-----|:-----|

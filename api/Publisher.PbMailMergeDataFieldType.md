@@ -1,18 +1,17 @@
 ---
-title: PbMailMergeDataFieldType Enumeration (Publisher)
+title: PbMailMergeDataFieldType enumeration (Publisher)
 keywords: vbapb10.chm65627
 f1_keywords:
 - vbapb10.chm65627
-ms.prod: publisher
 api_name:
 - Publisher.PbMailMergeDataFieldType
 ms.assetid: eafdbc17-fb9e-aa8b-248e-4ed4157b41c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbMailMergeDataFieldType Enumeration (Publisher)
+# PbMailMergeDataFieldType enumeration (Publisher)
 
 Represents the type of data contained in the data field.
 

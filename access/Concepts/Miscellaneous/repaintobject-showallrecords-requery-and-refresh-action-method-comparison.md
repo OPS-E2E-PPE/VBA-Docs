@@ -3,10 +3,9 @@ title: RepaintObject, ShowAllRecords, Requery, and Refresh action/method compari
 keywords: vbaac10.chm5257635
 f1_keywords:
 - vbaac10.chm5257635
-ms.prod: access
 ms.assetid: ef1eec86-54d1-5b86-323f-48fb4f7d3897
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

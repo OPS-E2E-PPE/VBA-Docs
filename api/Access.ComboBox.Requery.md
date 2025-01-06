@@ -3,12 +3,11 @@ title: ComboBox.Requery method (Access)
 keywords: vbaac10.chm11365
 f1_keywords:
 - vbaac10.chm11365
-ms.prod: access
 api_name:
 - Access.ComboBox.Requery
 ms.assetid: 25203ee2-5e4b-4f23-a596-ff3a7ddb0014
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ _expression_ A variable that represents a **[ComboBox](Access.ComboBox.md)** obj
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

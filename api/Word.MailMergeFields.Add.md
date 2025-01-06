@@ -3,25 +3,24 @@ title: MailMergeFields.Add method (Word)
 keywords: vbawd10.chm153026661
 f1_keywords:
 - vbawd10.chm153026661
-ms.prod: word
 api_name:
 - Word.MailMergeFields.Add
 ms.assetid: a90cca41-15d7-92e0-2f60-9268d1579271
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeFields.Add method (Word)
 
-Returns a  **MailMergeField** object that represents a mail merge field added to the data source document.
+Returns a **MailMergeField** object that represents a mail merge field added to the data source document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` , `_Name_` )
+_expression_.**Add** (_Range_, _Name_)
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
 ## Parameters

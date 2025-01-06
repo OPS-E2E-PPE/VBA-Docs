@@ -3,20 +3,17 @@ title: AcDataTransferType enumeration (Access)
 keywords: vbaac10.chm10013
 f1_keywords:
 - vbaac10.chm10013
-ms.prod: access
 api_name:
 - Access.AcDataTransferType
 ms.assetid: cbd51e58-3873-ac1c-b494-55d43f1b2e25
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcDataTransferType enumeration (Access)
 
 Specifies the type of transfer that you want to make with the **TransferDatabase** or **TransferSpreadsheet** method.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

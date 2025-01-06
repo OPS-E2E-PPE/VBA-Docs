@@ -1,27 +1,26 @@
 ---
-title: AnimationPoint.Time Property (PowerPoint)
+title: AnimationPoint.Time property (PowerPoint)
 keywords: vbapp10.chm664004
 f1_keywords:
 - vbapp10.chm664004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationPoint.Time
 ms.assetid: 19df62b1-b898-fdba-d5e4-86ac5a68cecf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationPoint.Time Property (PowerPoint)
+# AnimationPoint.Time property (PowerPoint)
 
 Sets or returns the time at a given animation point. Read/write.
 
 
 ## Syntax
 
- _expression_. `Time`
+_expression_.**Time** 
 
-_expression_ A variable that represents a [SlideShowTransition](./PowerPoint.SlideShowTransition.md) object.
+_expression_ A variable that represents a [SlideShowTransition](PowerPoint.SlideShowTransition.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Single
 
 ## Remarks
 
-The value of the  **Time** property can be any floating-point value between 0 and 1, representing a percentage of the entire timeline from 0% to 100%. For example, a value of 0.2 would correspond to a point in time at 20% of the entire timeline duration from left to right.
+The value of the **Time** property can be any floating-point value between 0 and 1, representing a percentage of the entire timeline from 0% to 100%. For example, a value of 0.2 would correspond to a point in time at 20% of the entire timeline duration from left to right.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: MailMergeDataSource.FirstRecord property (Word)
 keywords: vbawd10.chm152895496
 f1_keywords:
 - vbawd10.chm152895496
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.FirstRecord
 ms.assetid: c94e1581-a6eb-84e0-6acc-f8ca6ae7575b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataSource.FirstRecord property (Word)
 
-Returns or sets the number of the first record to be merged in a mail merge operation. Read/write  **Long**.
+Returns or sets the number of the first record to be merged in a mail merge operation. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `FirstRecord`
+_expression_. `FirstRecord`
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Example

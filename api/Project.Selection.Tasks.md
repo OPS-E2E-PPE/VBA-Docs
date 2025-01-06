@@ -1,24 +1,24 @@
 ---
-title: Selection.Tasks Property (Project)
-ms.prod: project-server
+title: Selection.Tasks property (Project)
+ms.service: project-server
 api_name:
 - Project.Selection.Tasks
 ms.assetid: 8f58ea8e-a3a1-f5aa-ad5d-6447fe777453
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Tasks Property (Project)
+# Selection.Tasks property (Project)
 
-Gets a  **[Tasks](Project.Task.md)** collection representing the tasks in the selection. Read-only **Tasks**.
+Gets a **[Tasks](Project.Task.md)** collection representing the tasks in the selection. Read-only **Tasks**.
 
 
 ## Syntax
 
- _expression_. `Tasks`
+_expression_. `Tasks`
 
- _expression_ A variable that represents a [Selection](./Project.Selection.md) object.
+_expression_ A variable that represents a [Selection](./Project.Selection.md) object.
 
 
 ## Example

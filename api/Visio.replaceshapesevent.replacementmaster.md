@@ -1,22 +1,21 @@
 ---
-title: ReplaceShapesEvent.ReplacementMaster Property (Visio)
-ms.prod: visio
+title: ReplaceShapesEvent.ReplacementMaster property (Visio)
 ms.assetid: 326a1889-8952-b4ac-c5c0-ac4470257c06
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReplaceShapesEvent.ReplacementMaster Property (Visio)
+# ReplaceShapesEvent.ReplacementMaster property (Visio)
 
 Returns the replacement shape to drop. Read-only.
 
 
 ## Syntax
 
- _expression_. `ReplacementMaster`
+_expression_. `ReplacementMaster`
 
- _expression_ A variable that represents a 'ReplaceShapesEvent' object.
+_expression_ A variable that represents a **[ReplaceShapesEvent](Visio.ReplaceShapesEvent.md)** object.
 
 
 ## Remarks

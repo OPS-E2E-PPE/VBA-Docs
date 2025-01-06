@@ -3,12 +3,11 @@ title: ParagraphFormat.SpaceBeforeAuto property (Word)
 keywords: vbawd10.chm156434564
 f1_keywords:
 - vbawd10.chm156434564
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.SpaceBeforeAuto
 ms.assetid: c3c86ee1-c62f-d921-2dc7-d7201b181622
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SpaceBeforeAuto`
+_expression_. `SpaceBeforeAuto`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Remarks
 
-Returns  **wdUndefined** if the **SpaceBeforeAuto** property is set to **True** for only some of the specified paragraphs. Can be set to either **True** or **False**.
+Returns **wdUndefined** if the **SpaceBeforeAuto** property is set to **True** for only some of the specified paragraphs. Can be set to either **True** or **False**.
 
-If  **SpaceBeforeAuto** is set to **True** , the **SpaceBefore** property is ignored.
+If **SpaceBeforeAuto** is set to **True**, the **SpaceBefore** property is ignored.
 
 
 ## Example
 
-This example displays a report showing the  **SpaceBeforeAuto** settings for the active document.
+This example displays a report showing the **SpaceBeforeAuto** settings for the active document.
 
 
 ```vb

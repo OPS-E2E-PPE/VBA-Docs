@@ -3,12 +3,11 @@ title: Attachment.GridlineThemeColorIndex property (Access)
 keywords: vbaac10.chm14635
 f1_keywords:
 - vbaac10.chm14635
-ms.prod: access
 api_name:
 - Access.Attachment.GridlineThemeColorIndex
 ms.assetid: 195122c2-c972-8d39-aea6-bf2b531b1f84
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

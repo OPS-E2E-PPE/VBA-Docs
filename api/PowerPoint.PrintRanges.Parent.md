@@ -1,27 +1,26 @@
 ---
-title: PrintRanges.Parent Property (PowerPoint)
+title: PrintRanges.Parent property (PowerPoint)
 keywords: vbapp10.chm518005
 f1_keywords:
 - vbapp10.chm518005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintRanges.Parent
 ms.assetid: 95bacc46-413d-2694-6ac2-7883609e26c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintRanges.Parent Property (PowerPoint)
+# PrintRanges.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PrintRanges](./PowerPoint.PrintRanges.md) object.
+_expression_ A variable that represents a [PrintRanges](PowerPoint.PrintRanges.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

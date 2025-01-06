@@ -1,32 +1,31 @@
 ---
-title: MailItem.Copy Method (Outlook)
+title: MailItem.Copy method (Outlook)
 keywords: vbaol11.chm1321
 f1_keywords:
 - vbaol11.chm1321
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.Copy
 ms.assetid: a9356844-e31e-eb0f-c0f5-a2923ad127db
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Copy Method (Outlook)
+# MailItem.Copy method (Outlook)
 
 Creates another instance of an object.
 
 
 ## Syntax
 
-_expression_. `Copy`
+_expression_.**Copy**
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications example creates an email message, sets the  **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
+This Visual Basic for Applications example creates an email message, sets the **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
 
 
 ```vb

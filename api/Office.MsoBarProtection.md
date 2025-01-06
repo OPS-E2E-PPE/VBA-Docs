@@ -1,19 +1,16 @@
 ---
 title: MsoBarProtection enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoBarProtection
 ms.assetid: 5475758e-32c8-98bc-e07e-613668b6f20e
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoBarProtection enumeration (Office)
 
 Specifies how a command bar is protected from user customization.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

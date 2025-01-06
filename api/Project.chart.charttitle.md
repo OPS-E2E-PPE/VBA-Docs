@@ -1,25 +1,25 @@
 ---
-title: Chart.ChartTitle Property (Project)
-ms.prod: project-server
+title: Chart.ChartTitle property (Project)
+ms.service: project-server
 ms.assetid: eb2e9c18-1dcc-3d66-e73c-b5d0dfa88472
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ChartTitle Property (Project)
-Gets an  **Office.IMsoChartTitle** object that represents the title of the specified chart. Read-only **IMsoChartTitle**.
+# Chart.ChartTitle property (Project)
+Gets an **Office.IMsoChartTitle** object that represents the title of the specified chart. Read-only **IMsoChartTitle**.
 
 ## Syntax
 
- _expression_. `ChartTitle`
+_expression_. `ChartTitle`
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Remarks
 
-To manually edit the text of a chart title, click in the title area. To change the title format, select the chart, and then, on the ribbon under  **CHART TOOLS**, choose the  **FORMAT** tab.
+To manually edit the text of a chart title, click in the title area. To change the title format, select the chart, and then, on the ribbon under **CHART TOOLS**, choose the **FORMAT** tab.
 
 
 ## Example

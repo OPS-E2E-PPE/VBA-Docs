@@ -3,12 +3,11 @@ title: CommandBarControl object (Office)
 keywords: vbaof11.chm5000
 f1_keywords:
 - vbaof11.chm5000
-ms.prod: office
 api_name:
 - Office.CommandBarControl
 ms.assetid: b104ec00-beeb-a927-4b7b-108f4e3164f5
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,8 +38,8 @@ Set lbl = CommandBars.FindControl(Type:= msoControlGauge)
 If lbl Is Nothing Then 
     MsgBox "A control of type msoControlGauge was not found." 
 Else 
-    MsgBox "Control " &amp; lbl.Index &amp; " on command bar " _ 
-        &amp; lbl.Parent.Name &amp; " is type msoControlGauge" 
+    MsgBox "Control " & lbl.Index & " on command bar " _ 
+        & lbl.Parent.Name & " is type msoControlGauge" 
 End If
 ```
 

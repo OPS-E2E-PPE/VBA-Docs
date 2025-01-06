@@ -1,27 +1,26 @@
 ---
-title: ToolbarSet.Toolbars Property (Visio)
+title: ToolbarSet.Toolbars property (Visio)
 keywords: vis_sdr.chm13914555
 f1_keywords:
 - vis_sdr.chm13914555
-ms.prod: visio
 api_name:
 - Visio.ToolbarSet.Toolbars
 ms.assetid: ad345f3e-a000-6a6d-55bd-ed593678c3ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ToolbarSet.Toolbars Property (Visio)
+# ToolbarSet.Toolbars property (Visio)
 
-Returns the  **Toolbars** collection of a **ToolbarSet** object. Read-only.
+Returns the **Toolbars** collection of a **ToolbarSet** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Toolbars`
+_expression_. `Toolbars`
 
- _expression_ A variable that represents a [ToolbarSet](./Visio.ToolbarSet.md) object.
+_expression_ A variable that represents a **[ToolbarSet](Visio.ToolbarSet.md)** object.
 
 
 ## Return value
@@ -31,13 +30,13 @@ Toolbars
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Toolbars** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Toolbars** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
 
 
 
-Before running this code, replace  _path\filename_ with the full path to and name of a valid icon (.ico) file on your computer.
+Before running this code, replace `path\filename` with the full path to and name of a valid icon (.ico) file on your computer.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 
@@ -72,7 +71,7 @@ Public Sub Toolbars_Example()
  vsoToolbarItem.CmdNum = visCmdPanZoom 
  
  'Set the toolbar button icon. 
- vsoToolbarItem.IconFileName "path\filename " 
+ vsoToolbarItem.IconFileName "path\filename" 
  
  'Use the new custom UI. 
  ThisDocument.SetCustomToolbars vsoUIObject 

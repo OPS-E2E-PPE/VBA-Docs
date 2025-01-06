@@ -3,20 +3,17 @@ title: AcQuitOption enumeration (Access)
 keywords: vbaac10.chm10009
 f1_keywords:
 - vbaac10.chm10009
-ms.prod: access
 api_name:
 - Access.AcQuitOption
 ms.assetid: 6a712a0f-1964-8c1d-f5b2-b552c042efe8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcQuitOption enumeration (Access)
 
 Used with the [Quit](Access.Application.Quit.md) method to specify whether or not to save changes to the database when quitting Microsoft Access.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

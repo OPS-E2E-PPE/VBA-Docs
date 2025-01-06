@@ -3,10 +3,9 @@ title: Declaring constants (VBA)
 keywords: vbcn6.chm1076698
 f1_keywords:
 - vbcn6.chm1076698
-ms.prod: office
 ms.assetid: c1b65bc4-1e94-828c-67bf-357a75261657
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

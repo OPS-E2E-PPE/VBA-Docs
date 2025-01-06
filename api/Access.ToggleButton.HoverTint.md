@@ -3,12 +3,11 @@ title: ToggleButton.HoverTint property (Access)
 keywords: vbaac10.chm14613
 f1_keywords:
 - vbaac10.chm14613
-ms.prod: access
 api_name:
 - Access.ToggleButton.HoverTint
 ms.assetid: fbdb27bb-8a21-729c-17d6-a0e9b43826ae
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

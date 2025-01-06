@@ -3,12 +3,11 @@ title: CheckBox.AddColon property (Access)
 keywords: vbaac10.chm10726
 f1_keywords:
 - vbaac10.chm10726
-ms.prod: access
 api_name:
 - Access.CheckBox.AddColon
 ms.assetid: 16a1bdf0-3290-a465-e275-25a1097d01fc
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

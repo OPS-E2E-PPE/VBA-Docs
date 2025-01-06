@@ -3,12 +3,11 @@ title: CustomControl.Parent property (Access)
 keywords: vbaac10.chm11996
 f1_keywords:
 - vbaac10.chm11996
-ms.prod: access
 api_name:
 - Access.CustomControl.Parent
 ms.assetid: 04bd9bf4-a19e-83c0-b5c5-d78449a22f97
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

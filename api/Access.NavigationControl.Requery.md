@@ -3,12 +3,11 @@ title: NavigationControl.Requery method (Access)
 keywords: vbaac10.chm11034
 f1_keywords:
 - vbaac10.chm11034
-ms.prod: access
 api_name:
 - Access.NavigationControl.Requery
 ms.assetid: 613e89e1-5e02-d2da-4881-c77f3d8cb55e
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[NavigationControl](Access.Navigatio
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

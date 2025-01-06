@@ -3,12 +3,11 @@ title: Label.GridlineColor property (Access)
 keywords: vbaac10.chm10257
 f1_keywords:
 - vbaac10.chm10257
-ms.prod: access
 api_name:
 - Access.Label.GridlineColor
 ms.assetid: f6982726-825a-1ef2-286d-b1f567678002
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ _expression_ A variable that represents a **[Label](Access.Label.md)** object.
 
 The **GridlineColor** property setting is a numeric expression that corresponds to the color that you want to use for a control's gridline.
 
-You can use the Color Builder to set this property by choosing the **Build** button to the right of the property box in the property sheet. Using the Color Builder enables you to define custom border colors for controls.
+Use the Color Builder to set this property by choosing the **Build** button to the right of the property box in the property sheet. Using the Color Builder enables you to define custom border colors for controls.
 
 
 

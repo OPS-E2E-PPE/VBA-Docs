@@ -1,24 +1,23 @@
 ---
-title: DocumentItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: DocumentItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.DocumentItem.PropertyChange
 ms.assetid: ec757f98-db44-585e-1a4a-5b3044428dec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentItem.PropertyChange Event (Outlook)
+# DocumentItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [DocumentItem](./Outlook.DocumentItem.md) object.
+_expression_ A variable that represents a [DocumentItem](Outlook.DocumentItem.md) object.
 
 
 ## Parameters

@@ -1,27 +1,26 @@
 ---
-title: Slide.Background Property (PowerPoint)
+title: Slide.Background property (PowerPoint)
 keywords: vbapp10.chm531007
 f1_keywords:
 - vbapp10.chm531007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.Background
 ms.assetid: 8af622b9-029a-6839-7a44-fdf96fe75dc9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.Background Property (PowerPoint)
+# Slide.Background property (PowerPoint)
 
-Returns a  **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the slide background.
+Returns a **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the slide background.
 
 
 ## Syntax
 
- _expression_. `Background`
+_expression_.**Background**
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ ShapeRange
 
 ## Remarks
 
-If you use the  **Background** property to set the background for an individual slide without changing the slide master, the **FollowMasterBackground** property for that slide must be set to **False**.
+If you use the **Background** property to set the background for an individual slide without changing the slide master, the **FollowMasterBackground** property for that slide must be set to **False**.
 
 
 ## Example

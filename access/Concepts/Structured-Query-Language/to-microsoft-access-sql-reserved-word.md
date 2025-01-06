@@ -3,10 +3,9 @@ title: TO (Microsoft Access SQL reserved word)
 keywords: jetsql40.chm5277483
 f1_keywords:
 - jetsql40.chm5277483
-ms.prod: access
 ms.assetid: 24702b66-ec52-54d1-834d-cbbe45a52f2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,8 +15,8 @@ localization_priority: Normal
 
 The TO keyword is used in these contexts:
 
-- [ADD USER statement](http://msdn.microsoft.com/library/1FEB631F-CB8C-14AE-6214-276F1FAF1A55%28Office.15%29.aspx)
-- [GRANT statement](http://msdn.microsoft.com/library/50AE97AE-D5BE-57E5-D9DA-F3FC42F01D83%28Office.15%29.aspx)
+- [ADD USER statement](https://msdn.microsoft.com/library/1FEB631F-CB8C-14AE-6214-276F1FAF1A55%28Office.15%29.aspx)
+- [GRANT statement](https://msdn.microsoft.com/library/50AE97AE-D5BE-57E5-D9DA-F3FC42F01D83%28Office.15%29.aspx)
 
 
 ## See also

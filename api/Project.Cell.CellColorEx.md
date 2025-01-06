@@ -1,25 +1,25 @@
 ---
-title: Cell.CellColorEx Property (Project)
+title: Cell.CellColorEx property (Project)
 keywords: vbapj.chm131602
 f1_keywords:
 - vbapj.chm131602
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Cell.CellColorEx
 ms.assetid: a4ab73b9-0428-3564-6652-51baee12939e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.CellColorEx Property (Project)
+# Cell.CellColorEx property (Project)
 
-Gets or sets the color of the cell background. Read/write  **Long**.
+Gets or sets the color of the cell background. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `CellColorEx`
+_expression_. `CellColorEx`
 
  _expression_ An expression that returns a [Cell](./Project.Cell.md) object.
 

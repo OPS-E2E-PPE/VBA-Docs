@@ -3,23 +3,22 @@ title: CoAuthor.Name property (Word)
 keywords: vbawd10.chm81068032
 f1_keywords:
 - vbawd10.chm81068032
-ms.prod: word
 api_name:
 - Word.CoAuthor.Name
 ms.assetid: d9d27cd8-e152-b5a3-286f-3e1b13d09696
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CoAuthor.Name property (Word)
 
-Returns a  **String** that contains the display name of the specified co author. Read-only.
+Returns a **String** that contains the display name of the specified co author. Read-only.
 
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
  _expression_ An expression that returns a [CoAuthor](./Word.CoAuthor.md) object.
 

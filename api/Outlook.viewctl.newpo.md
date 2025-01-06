@@ -1,9 +1,8 @@
 ---
 title: ViewCtl.NewPost Method (Outlook View Control)
-ms.prod: outlook
 ms.assetid: 69a11cf3-608a-4cea-6d93-be2e44aeab00
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,9 +13,9 @@ Creates and displays a new post item.
 
 ## Syntax
 
- _expression_. **NewPost**
+_expression_.**NewPost**
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

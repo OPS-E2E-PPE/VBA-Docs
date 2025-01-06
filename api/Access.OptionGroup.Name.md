@@ -3,18 +3,17 @@ title: OptionGroup.Name property (Access)
 keywords: vbaac10.chm10871
 f1_keywords:
 - vbaac10.chm10871
-ms.prod: access
 api_name:
 - Access.OptionGroup.Name
 ms.assetid: 065ce5dd-8589-ee21-b850-d5ee95fb11ba
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

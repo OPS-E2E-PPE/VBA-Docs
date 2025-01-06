@@ -1,22 +1,21 @@
 ---
 title: Font.Italic Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 6039a14a-0d45-c170-e03c-1fc5dbe640a0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font.Italic Property (Outlook Forms Script)
 
-Returns or sets a  **Boolean** that specifies whether text is normal or italic. Read/write.
+Returns or sets a **Boolean** that specifies whether text is normal or italic. Read/write.
 
 
 ## Syntax
 
-_expression_. **Italic**
+_expression_.**Italic**
 
-_expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **Font** object.
 
 
 ## Remarks

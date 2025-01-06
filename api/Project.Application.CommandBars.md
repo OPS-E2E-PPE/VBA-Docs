@@ -1,29 +1,29 @@
 ---
-title: Application.CommandBars Property (Project)
-ms.prod: project-server
+title: Application.CommandBars property (Project)
+ms.service: project-server
 api_name:
 - Project.Application.CommandBars
 ms.assetid: 80f57057-9bb3-018b-0e45-fd1423368091
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CommandBars Property (Project)
+# Application.CommandBars property (Project)
 
-Gets a  **CommandBars** collection that represents all the command bars in the application. Read-only **CommandBars**.
+Gets a **CommandBars** collection that represents all the command bars in the application. Read-only **CommandBars**.
 
 
 ## Syntax
 
- _expression_. `CommandBars`
+_expression_.**CommandBars**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-For more information, see the  **CommandBars** collection object in the Microsoft Office Visual Basic Reference.
+For more information, see the **CommandBars** collection object in the Microsoft Office Visual Basic Reference.
 
 
 ## Example

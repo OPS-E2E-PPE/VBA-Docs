@@ -1,21 +1,21 @@
 ---
-title: OutlineCodes Object (Project)
-ms.prod: project-server
+title: OutlineCodes object (Project)
+ms.service: project-server
 ms.assetid: a2e6d0c7-0741-91c6-61aa-f4bcc299e66f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlineCodes Object (Project)
+# OutlineCodes object (Project)
 
-Contains a collection of  **[OutlineCode](Project.OutlineCode.md)** objects.
+Contains a collection of **[OutlineCode](Project.OutlineCode.md)** objects.
  
 
 
 ## Remarks
 
-An outline code is a type of local custom field that has a hierarchical text lookup table. Enterprise custom fields of type  **Text** that have hierarchical lookup tables act as outline codes. Use the **[OutlineCodes](Project.Project.OutlineCodes.md)** property to return an **OutlineCodes** collection. Use the **[Add](Project.OutlineCodes.Add.md)** method to add a local outline code to the **OutlineCodes** collection. To add an enterprise custom field, you must use Project Web App or the Project Server Interface (PSI).
+An outline code is a type of local custom field that has a hierarchical text lookup table. Enterprise custom fields of type **Text** that have hierarchical lookup tables act as outline codes. Use the **[OutlineCodes](Project.Project.OutlineCodes.md)** property to return an **OutlineCodes** collection. Use the **[Add](Project.OutlineCodes.Add.md)** method to add a local outline code to the **OutlineCodes** collection. To add an enterprise custom field, you must use Project Web App or the Project Server Interface (PSI).
  
 
  
@@ -31,7 +31,8 @@ The following example adds a custom outline code to store the location of resour
 
  
 
- **Note**  The  **OnlyLookUpTableCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyLookUpTableCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
+> [!NOTE] 
+> The **OnlyLookUpTableCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyLookUpTableCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
  
 
 

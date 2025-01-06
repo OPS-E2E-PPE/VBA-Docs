@@ -3,10 +3,9 @@ title: SaveAs method (VBA Add-In Object Model)
 keywords: vbob6.chm102017
 f1_keywords:
 - vbob6.chm102017
-ms.prod: office
 ms.assetid: 622aa652-8093-be64-4128-9ad2c7fd1fe8
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Saves a project to a given location by using a new filename.
 ## Syntax
 
 _object_.**SaveAs** (_newfilename_) **As String**
-
-<br/>
 
 The **SaveAs** method syntax has these parts.
 

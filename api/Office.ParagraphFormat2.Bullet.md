@@ -1,11 +1,10 @@
 ---
 title: ParagraphFormat2.Bullet property (Office)
-ms.prod: office
 api_name:
 - Office.ParagraphFormat2.Bullet
 ms.assetid: b47552ad-3519-b466-eeb8-a15bbeac18f7
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

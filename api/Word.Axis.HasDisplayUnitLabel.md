@@ -3,12 +3,11 @@ title: Axis.HasDisplayUnitLabel property (Word)
 keywords: vbawd10.chm113049675
 f1_keywords:
 - vbawd10.chm113049675
-ms.prod: word
 api_name:
 - Word.Axis.HasDisplayUnitLabel
 ms.assetid: 0d5f02d5-241d-691b-4505-1eda392d6feb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasDisplayUnitLabel`
+_expression_.**HasDisplayUnitLabel**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Example

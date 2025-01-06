@@ -3,18 +3,17 @@ title: OptionGroup.Enabled property (Access)
 keywords: vbaac10.chm10829
 f1_keywords:
 - vbaac10.chm10829
-ms.prod: access
 api_name:
 - Access.OptionGroup.Enabled
 ms.assetid: 7c8a10cc-6277-778c-e7c2-c8274019e3ad
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

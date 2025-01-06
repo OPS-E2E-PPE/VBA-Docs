@@ -3,18 +3,17 @@ title: Label.InSelection property (Access)
 keywords: vbaac10.chm10223
 f1_keywords:
 - vbaac10.chm10223
-ms.prod: access
 api_name:
 - Access.Label.InSelection
 ms.assetid: 97632974-4ff9-9f21-9501-d66a300d302b
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

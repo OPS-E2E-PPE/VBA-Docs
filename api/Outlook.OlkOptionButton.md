@@ -1,18 +1,17 @@
 ---
-title: OlkOptionButton Object (Outlook)
+title: OlkOptionButton object (Outlook)
 keywords: vbaol11.chm1000192
 f1_keywords:
 - vbaol11.chm1000192
-ms.prod: outlook
 api_name:
 - Outlook.OlkOptionButton
 ms.assetid: a7aab427-a2f0-a153-f558-c13559610c99
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkOptionButton Object (Outlook)
+# OlkOptionButton object (Outlook)
 
 A control that supports a single exclusive selection within a defined group of option button choices.
 
@@ -76,6 +75,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

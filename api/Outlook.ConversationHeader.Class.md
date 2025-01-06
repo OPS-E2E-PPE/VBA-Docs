@@ -1,20 +1,19 @@
 ---
-title: ConversationHeader.Class Property (Outlook)
+title: ConversationHeader.Class property (Outlook)
 keywords: vbaol11.chm3547
 f1_keywords:
 - vbaol11.chm3547
-ms.prod: outlook
 api_name:
 - Outlook.ConversationHeader.Class
 ms.assetid: 45f08b3f-157d-5d2b-8b0e-1e9bdd360e74
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConversationHeader.Class Property (Outlook)
+# ConversationHeader.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the class of the object. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the class of the object. Read-only.
 
 
 ## Syntax

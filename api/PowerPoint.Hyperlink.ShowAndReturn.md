@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.ShowAndReturn Property (PowerPoint)
+title: Hyperlink.ShowAndReturn property (PowerPoint)
 keywords: vbapp10.chm526010
 f1_keywords:
 - vbapp10.chm526010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlink.ShowAndReturn
 ms.assetid: 5d08a3ff-8352-0523-2d8c-629f996b296a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.ShowAndReturn Property (PowerPoint)
+# Hyperlink.ShowAndReturn property (PowerPoint)
 
 Determines if and under what circumstances Microsoft PowerPoint returns to the initiating slide show. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowAndReturn`
+_expression_. `ShowAndReturn`
 
- _expression_ A variable that represents a [Hyperlink](./PowerPoint.Hyperlink.md) object.
+_expression_ A variable that represents a [Hyperlink](PowerPoint.Hyperlink.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **ShowAndReturn** property can be one of these **MsoTriState** constants.
+The value of the **ShowAndReturn** property can be one of these **MsoTriState** constants.
 
 
 

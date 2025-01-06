@@ -3,10 +3,9 @@ title: IsMissing function (Visual Basic for Applications)
 keywords: vblr6.chm1010101
 f1_keywords:
 - vblr6.chm1010101
-ms.prod: office
 ms.assetid: 63193fae-038a-b95c-1776-ac820f62fbb2
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

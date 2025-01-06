@@ -3,10 +3,9 @@ title: Adjust horizontal and vertical spacing between controls
 keywords: fm20.chm5225245
 f1_keywords:
 - fm20.chm5225245
-ms.prod: office
 ms.assetid: cf285cee-8ef1-c7ca-1fb1-408f2ad74f1d
 ms.date: 12/29/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ localization_priority: Priority
     
    - **Decrease**, to decrease the space between controls by one grid block.
     
-   - **Remove**, to remove the space between controls. The controls do not overlap, but are immediately adjacent to each other.
+   - **Remove**, to remove the space between controls. The controls don't overlap, but are immediately adjacent to each other.
     
 ## See also
 

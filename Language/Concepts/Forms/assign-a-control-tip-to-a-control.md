@@ -3,10 +3,9 @@ title: Assign a control tip to a control
 keywords: fm20.chm5225226
 f1_keywords:
 - fm20.chm5225226
-ms.prod: office
 ms.assetid: 16e62c73-2822-50c5-915f-12cf7eda3806
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

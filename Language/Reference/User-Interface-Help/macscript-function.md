@@ -3,10 +3,9 @@ title: MacScript function (Visual Basic for Applications)
 keywords: vblr6.chm1010848
 f1_keywords:
 - vblr6.chm1010848
-ms.prod: office
 ms.assetid: d845de85-a0d8-e10e-1174-8571e42bb8d2
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # MacScript function

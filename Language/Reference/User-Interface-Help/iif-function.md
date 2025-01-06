@@ -3,10 +3,9 @@ title: IIf function (Visual Basic for Applications)
 keywords: vblr6.chm1012957
 f1_keywords:
 - vblr6.chm1012957
-ms.prod: office
 ms.assetid: a31d9f49-1f5a-324b-77a2-276eb573552a
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns one of two parts, depending on the evaluation of an [expression](../../G
 ## Syntax
 
 **IIf**(_expr_, _truepart_, _falsepart_)
-
-<br/>
 
 The **IIf** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

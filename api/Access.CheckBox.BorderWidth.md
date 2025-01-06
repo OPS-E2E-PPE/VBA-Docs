@@ -3,18 +3,17 @@ title: CheckBox.BorderWidth property (Access)
 keywords: vbaac10.chm10716
 f1_keywords:
 - vbaac10.chm10716
-ms.prod: access
 api_name:
 - Access.CheckBox.BorderWidth
 ms.assetid: c10ee0fd-10b8-e35e-d042-b319276b50f8
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax
@@ -31,7 +30,7 @@ The **BorderWidth** property uses the following settings.
 |Setting|Visual Basic|Description|
 |:-----|:-----|:-----|
 |Hairline|0|(Default) The narrowest border possible on your system.|
-|1 pt to 6 pt|1 to 6|The width as indicated in points.|
+|1 pt to 6 pt|1 to 6|The width as indicated in [points](../language/glossary/vbe-glossary.md#point).|
 
 You can set the default for this property by using the control's default control style or the **[DefaultControl](access.form.defaultcontrol.md)** property in Visual Basic.
 

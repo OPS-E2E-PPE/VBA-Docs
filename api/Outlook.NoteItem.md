@@ -1,31 +1,30 @@
 ---
-title: NoteItem Object (Outlook)
+title: NoteItem object (Outlook)
 keywords: vbaol11.chm3001
 f1_keywords:
 - vbaol11.chm3001
-ms.prod: outlook
 api_name:
 - Outlook.NoteItem
 ms.assetid: ddf5baaa-6e13-a6fb-96e8-311e7761fa98
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NoteItem Object (Outlook)
+# NoteItem object (Outlook)
 
 Represents a note in a Notes folder.
 
 
 ## Remarks
 
-A  **NoteItem** is not customizable. If you open a new note, you will notice that it is not possible to place it in design time.
+A **NoteItem** is not customizable. If you open a new note, you'll notice that it is not possible to place it in design time.
 
-The  **[Subject](Outlook.NoteItem.Subject.md)** property of a **NoteItem** object is read-only because it is calculated from the body text of the note. Also, the **NoteItem** **[Body](Outlook.NoteItem.Body.md)** can only be rich text, so the properties that correspond to HTML and Microsoft Word content do not apply. Although the **[GetInspector](Outlook.NoteItem.GetInspector.md)** property will work on notes, because notes can't be customized, some of the **[Inspector](Outlook.Inspector.md)** properties, methods, and events will not apply to **NoteItem** objects.
+The **[Subject](Outlook.NoteItem.Subject.md)** property of a **NoteItem** object is read-only because it is calculated from the body text of the note. Also, the **NoteItem** **[Body](Outlook.NoteItem.Body.md)** can only be rich text, so the properties that correspond to HTML and Microsoft Word content don't apply. Although the **[GetInspector](Outlook.NoteItem.GetInspector.md)** property will work on notes, because notes can't be customized, some of the **[Inspector](Outlook.Inspector.md)** properties, methods, and events will not apply to **NoteItem** objects.
 
-Use the  **[CreateItem](Outlook.Application.CreateItem.md)** method to create a **NoteItem** object that represents a new note.
+Use the **[CreateItem](Outlook.Application.CreateItem.md)** method to create a **NoteItem** object that represents a new note.
 
-Use  **[Items](Outlook.Items.Item.md)** ( _index_ ), where _index_ is the index number of a note or a value used to match the default property of a note, to return a single **NoteItem** object from a Notes folder.
+Use **[Items](Outlook.Items.Item.md)** (_index_), where _index_ is the index number of a note or a value used to match the default property of a note, to return a single **NoteItem** object from a Notes folder.
 
 
 ## Example
@@ -88,6 +87,6 @@ Set myItem = Application.CreateItem(olNoteItem)
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

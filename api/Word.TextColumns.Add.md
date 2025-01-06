@@ -3,25 +3,24 @@ title: TextColumns.Add method (Word)
 keywords: vbawd10.chm158531785
 f1_keywords:
 - vbawd10.chm158531785
-ms.prod: word
 api_name:
 - Word.TextColumns.Add
 ms.assetid: 09e01558-9efc-ac84-684b-63ce459705fd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextColumns.Add method (Word)
 
-Returns a  **TextColumn** object that represents a new text column added to a section or document.
+Returns a **TextColumn** object that represents a new text column added to a section or document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Width_` , `_Spacing_` , `_EvenlySpaced_` )
+_expression_.**Add** (_Width_, _Spacing_, _EvenlySpaced_)
 
- _expression_ Required. A variable that represents a '[TextColumns](Word(textcolumns).md)' collection.
+_expression_ Required. A variable that represents a '[TextColumns](Word(textcolumns).md)' collection.
 
 
 ## Parameters

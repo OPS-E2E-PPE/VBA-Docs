@@ -1,27 +1,26 @@
 ---
-title: Toolbar.Top Property (Visio)
+title: Toolbar.Top property (Visio)
 keywords: vis_sdr.chm13714570
 f1_keywords:
 - vis_sdr.chm13714570
-ms.prod: visio
 api_name:
 - Visio.Toolbar.Top
 ms.assetid: 63adeae5-c962-4e83-67de-d89035ee9bce
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Toolbar.Top Property (Visio)
+# Toolbar.Top property (Visio)
 
-Gets the distance between the top of an object and the top of the docking area or the top of the screen if the object isn't docked; it sets the distance between the top of a  **Toolbar** object and the top of the screen. Read/write.
+Gets the distance between the top of an object and the top of the docking area or the top of the screen if the object isn't docked; it sets the distance between the top of a **Toolbar** object and the top of the screen. Read/write.
 
 
 ## Syntax
 
- _expression_.**Top**
+_expression_.**Top**
 
- _expression_ A variable that represents a [Toolbar](./Visio.Toolbar.md) object.
+_expression_ A variable that represents a **[Toolbar](Visio.Toolbar.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ Integer
 
 ## Example
 
-This example shows how to use the  **Top** property to set the position of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **Top** property to set the position of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
 
-To restore Visio's built-in toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore Visio's built-in toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

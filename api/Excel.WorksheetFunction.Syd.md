@@ -3,12 +3,11 @@ title: WorksheetFunction.Syd method (Excel)
 keywords: vbaxl10.chm137134
 f1_keywords:
 - vbaxl10.chm137134
-ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Syd
 ms.assetid: 5d63250b-5002-b159-e1b8-f47752b85e73
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/25/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Returns the sum-of-years' digits depreciation of an asset for a specified period
 
 ## Syntax
 
-_expression_. `Syd`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
+_expression_.**Syd** (_Arg1_, _Arg2_, _Arg3_, _Arg4_)
 
-_expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,23 +34,13 @@ _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetF
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
+SYD is calculated as follows: &nbsp; ![Formula](../images/awfsyd_ZA06051253.gif)
 
 
-
-- SYD is calculated as follows:
-![Formula](../images/awfsyd_ZA06051253.gif)
-
-
-    
-
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

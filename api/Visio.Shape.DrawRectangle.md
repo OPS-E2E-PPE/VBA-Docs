@@ -1,27 +1,26 @@
 ---
-title: Shape.DrawRectangle Method (Visio)
+title: Shape.DrawRectangle method (Visio)
 keywords: vis_sdr.chm11216220
 f1_keywords:
 - vis_sdr.chm11216220
-ms.prod: visio
 api_name:
 - Visio.Shape.DrawRectangle
 ms.assetid: 2d02da32-0938-b019-0fa0-c4ef07d1a318
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.DrawRectangle Method (Visio)
+# Shape.DrawRectangle method (Visio)
 
-Adds a rectangle to the  **Shapes** collection of a page, master, or group.
+Adds a rectangle to the **Shapes** collection of a page, master, or group.
 
 
 ## Syntax
 
- _expression_. `DrawRectangle`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
+_expression_. `DrawRectangle`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ Shape
 
 ## Remarks
 
-Using the  **DrawRectangle** method is equivalent to using the **Rectangle** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the rectangle is being placed.
+Using the **DrawRectangle** method is equivalent to using the **Rectangle** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the rectangle is being placed.
 
 
 ## Example

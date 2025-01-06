@@ -3,18 +3,17 @@ title: AdditionalData.Name property (Access)
 keywords: vbaac10.chm13255
 f1_keywords:
 - vbaac10.chm13255
-ms.prod: access
 api_name:
 - Access.AdditionalData.Name
 ms.assetid: cd54396d-e885-d765-8242-81aef07d0927
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AdditionalData.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: InlineShapes.AddSmartArt method (Word)
 keywords: vbawd10.chm162070636
 f1_keywords:
 - vbawd10.chm162070636
-ms.prod: word
 api_name:
 - Word.InlineShapes.AddSmartArt
 ms.assetid: 7ece8207-2bb9-d88d-25c4-e2f29f3abb38
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Inserts a SmartArt graphic as an inline shape into the active document.
 
 ## Syntax
 
- _expression_. `AddSmartArt`( `_Layout_` , `_Range_` )
+_expression_. `AddSmartArt`( `_Layout_` , `_Range_` )
 
  _expression_ An expression that returns a '[InlineShapes](Word.inlineshapes.md)' object.
 

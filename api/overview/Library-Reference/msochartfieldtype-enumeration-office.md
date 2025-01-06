@@ -2,8 +2,8 @@
 title: MsoChartFieldType enumeration (Office)
 ms.assetid: ce6b367d-d09f-4345-33e3-f181b1a9a41d
 ms.date: 01/31/2019
-ms.prod: office
-localization_priority: Normal
+ms.service: office
+ms.localizationpriority: medium
 ---
 
 

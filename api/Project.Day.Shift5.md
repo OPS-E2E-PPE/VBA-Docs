@@ -1,24 +1,24 @@
 ---
-title: Day.Shift5 Property (Project)
-ms.prod: project-server
+title: Day.Shift5 property (Project)
+ms.service: project-server
 api_name:
 - Project.Day.Shift5
 ms.assetid: fcefb5c5-c1c1-31a6-d6d1-2bd3676dbc4f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Day.Shift5 Property (Project)
+# Day.Shift5 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the fifth work shift in a day. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the fifth work shift in a day. Read-only **Shift**.
 
 
 ## Syntax
 
- _expression_. `Shift5`
+_expression_. `Shift5`
 
- _expression_ A variable that represents a [Day](./Project.Day.md) object.
+_expression_ A variable that represents a [Day](./Project.Day.md) object.
 
 
 ## Example

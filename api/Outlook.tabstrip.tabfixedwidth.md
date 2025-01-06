@@ -1,22 +1,21 @@
 ---
 title: TabStrip.TabFixedWidth Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 3db4e0d2-c97b-a75b-3af6-b1678a1d5116
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabStrip.TabFixedWidth Property (Outlook Forms Script)
 
-Returns or sets a  **Single** that represents the width in points of the tabs on a **[TabStrip](Outlook.tabstrip.md)**. Read/write.
+Returns or sets a **Single** that represents the width in points of the tabs on a **[TabStrip](Outlook.tabstrip.md)**. Read/write.
 
 
 ## Syntax
 
-_expression_. **TabFixedWidth**
+_expression_.**TabFixedWidth**
 
-_expression_ A variable that represents a  **TabStrip** object.
+_expression_ A variable that represents a **TabStrip** object.
 
 
 ## Remarks

@@ -1,32 +1,32 @@
 ---
-title: Resource.Availabilities Property (Project)
+title: Resource.Availabilities property (Project)
 keywords: vbapj.chm131411
 f1_keywords:
 - vbapj.chm131411
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Resource.Availabilities
 ms.assetid: 1525ba2e-49c1-216a-0b45-008e866163d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Availabilities Property (Project)
+# Resource.Availabilities property (Project)
 
-Returns an  **[Availabilities](Project.availabilities.md)** collection representing all the available periods defined for the resource in the **Resource Availability** grid. Read-only **Availabilities**.
+Returns an **[Availabilities](Project.availabilities.md)** collection representing all the available periods defined for the resource in the **Resource Availability** grid. Read-only **Availabilities**.
 
 
 ## Syntax
 
- _expression_. `Availabilities`
+_expression_. `Availabilities`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **Availabilities** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
+The **Availabilities** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
 
 
 ## Example

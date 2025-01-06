@@ -1,16 +1,16 @@
 ---
 title: WebPageFonts members (Office)
-description: A collection of WebPageFont objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as web pages.
-ms.prod: office
+description: A collection of WebPageFont objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as webpages.
+ms.service: office
 ms.assetid: e5e9941a-1f41-3d1b-1e31-420fcec7e951
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebPageFonts members (Office)
 
-A collection of **WebPageFont** objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as web pages. You can specify a different set of web page font properties for each available character set.
+A collection of **WebPageFont** objects that describe the proportional font, proportional font size, fixed-width font, and fixed-width font size used when documents are saved as webpages. You can specify a different set of webpage font properties for each available character set.
 
 
 ## Properties

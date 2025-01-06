@@ -1,15 +1,15 @@
 ---
-title: PjProjectUpdate Enumeration (Project)
-ms.prod: project-server
+title: PjProjectUpdate enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjProjectUpdate
 ms.assetid: 345fc72f-8d15-353b-5b96-2153ed80507f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjProjectUpdate Enumeration (Project)
+# PjProjectUpdate enumeration (Project)
 
 Contains constants that specify the action to take with the specified tasks.
 

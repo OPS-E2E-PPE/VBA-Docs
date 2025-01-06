@@ -3,12 +3,11 @@ title: ToggleButton.Section property (Access)
 keywords: vbaac10.chm11741
 f1_keywords:
 - vbaac10.chm11741
-ms.prod: access
 api_name:
 - Access.ToggleButton.Section
 ms.assetid: 65d3f3af-3c21-edb6-bff2-79737231424d
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

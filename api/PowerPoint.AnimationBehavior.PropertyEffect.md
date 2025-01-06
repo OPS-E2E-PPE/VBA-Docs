@@ -1,27 +1,26 @@
 ---
-title: AnimationBehavior.PropertyEffect Property (PowerPoint)
+title: AnimationBehavior.PropertyEffect property (PowerPoint)
 keywords: vbapp10.chm657010
 f1_keywords:
 - vbapp10.chm657010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationBehavior.PropertyEffect
 ms.assetid: a053462c-6ff6-52b4-2852-def0528780b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationBehavior.PropertyEffect Property (PowerPoint)
+# AnimationBehavior.PropertyEffect property (PowerPoint)
 
-Returns a  **[PropertyEffect](PowerPoint.PropertyEffect.md)** object for a given animation behavior. Read-only.
+Returns a **[PropertyEffect](PowerPoint.PropertyEffect.md)** object for a given animation behavior. Read-only.
 
 
 ## Syntax
 
- _expression_. `PropertyEffect`
+_expression_. `PropertyEffect`
 
-_expression_ A variable that represents an [AnimationBehavior](./PowerPoint.AnimationBehavior.md) object.
+_expression_ A variable that represents an [AnimationBehavior](PowerPoint.AnimationBehavior.md) object.
 
 
 ## Return value

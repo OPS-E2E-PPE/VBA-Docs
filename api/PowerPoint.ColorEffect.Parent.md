@@ -1,27 +1,26 @@
 ---
-title: ColorEffect.Parent Property (PowerPoint)
+title: ColorEffect.Parent property (PowerPoint)
 keywords: vbapp10.chm659002
 f1_keywords:
 - vbapp10.chm659002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorEffect.Parent
 ms.assetid: 9268ba5b-e07b-8919-dcdd-cba134cf4173
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorEffect.Parent Property (PowerPoint)
+# ColorEffect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [ColorEffect](./PowerPoint.ColorEffect.md) object.
+_expression_ A variable that represents a [ColorEffect](PowerPoint.ColorEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

@@ -1,6 +1,5 @@
 ---
 title: Collections (Visual Basic Add-In Model)
-ms.prod: office
 keywords: vbob6.chm1070949
 f1_keywords:
 - vbob6.chm1070949
@@ -14,7 +13,7 @@ f1_keywords:
 - vbob6.chm1070945
 ms.assetid: 45e5f192-c698-4805-9ba8-cbe52f313732
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -44,7 +43,7 @@ Contains the active [code panes](../../Glossary/vbe-glossary.md#code-pane) in th
 
 Use the **CodePanes** collection to access the open code panes in a [project](../../Glossary/vbe-glossary.md#project). 
 
-You can use the **[Count](properties-visual-basic-add-in-model.md#count)** property to return the number of active code panes in a collection.
+Use the **[Count](properties-visual-basic-add-in-model.md#count)** property to return the number of active code panes in a collection.
 
 ## CommandBars
 
@@ -73,7 +72,7 @@ If all the panes from one linked window frame are moved to another window, the l
 
 Use the **[Visible](properties-visual-basic-add-in-model.md#visible)** property to check or set the visibility of a window.
 
-You can use the **[Add](../user-interface-help/add-method-vba-add-in-object-model.md)** method to add a window to the collection of currently linked windows. A window that is a pane in one linked window frame can be added to another linked window frame. Use the **[Remove](../user-interface-help/remove-method-vba-add-in-object-model.md)** method to remove a window from the collection of currently linked windows; this results in the window being unlinked or undocked.
+Use the **[Add](../user-interface-help/add-method-vba-add-in-object-model.md)** method to add a window to the collection of currently linked windows. A window that is a pane in one linked window frame can be added to another linked window frame. Use the **[Remove](../user-interface-help/remove-method-vba-add-in-object-model.md)** method to remove a window from the collection of currently linked windows; this results in the window being unlinked or undocked.
 
 The **LinkedWindows** collection is used to dock and undock windows from the main window frame.
 
@@ -103,7 +102,7 @@ Represents the components contained in a project.
 
 Use the **VBComponents** collection to access, add, or remove components in a project. A component can be a [form](../../Glossary/vbe-glossary.md#form), [module](../../Glossary/vbe-glossary.md#module), or [class](../../Glossary/vbe-glossary.md#class). The **VBComponents** collection is a standard collection that can be used in a **For...Each** block.
 
-You can use the **[Parent](properties-visual-basic-add-in-model.md#parent)** property to return the project that the **VBComponents** collection is in.
+Use the **[Parent](properties-visual-basic-add-in-model.md#parent)** property to return the project that the **VBComponents** collection is in.
 
 For more information, see the **[VBComponents](properties-visual-basic-add-in-model.md#vbcomponents)** property and the **[VBProject](objects-visual-basic-add-in-model.md#vbproject)** object.
 
@@ -143,6 +142,6 @@ Opening a code or designer window adds a new member to the **Windows** collectio
 - [Collections (Microsoft Forms)](../user-interface-help/objects-microsoft-forms.md)
 - [Visual Basic Add-in Model reference](../user-interface-help/visual-basic-add-in-model-reference.md)
 - [Visual Basic language reference](../user-interface-help/visual-basic-language-reference.md)
-- [Office client development reference](https://docs.microsoft.com/office/client-developer/office-client-development)
+- [Office client development reference](/office/client-developer/office-client-development)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

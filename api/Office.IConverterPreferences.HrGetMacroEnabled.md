@@ -3,18 +3,17 @@ title: IConverterPreferences.HrGetMacroEnabled method (Office)
 keywords: vbaof11.chm330001
 f1_keywords:
 - vbaof11.chm330001
-ms.prod: office
 api_name:
 - Office.IConverterPreferences.HrGetMacroEnabled
 ms.assetid: 9691bd3f-ba8d-87d8-cf2c-7e6b4cdce68d
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterPreferences.HrGetMacroEnabled method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

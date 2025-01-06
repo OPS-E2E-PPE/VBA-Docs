@@ -3,12 +3,11 @@ title: View.ShowParagraphs property (Word)
 keywords: vbawd10.chm161808401
 f1_keywords:
 - vbawd10.chm161808401
-ms.prod: word
 api_name:
 - Word.View.ShowParagraphs
 ms.assetid: 17b2ea55-14d3-1606-1d45-da601009a209
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowParagraphs`
+_expression_. `ShowParagraphs`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

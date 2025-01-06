@@ -1,33 +1,31 @@
 ---
-title: WebListBoxItems.Count Property (Publisher)
+title: WebListBoxItems.Count property (Publisher)
 keywords: vbapb10.chm4128771
 f1_keywords:
 - vbapb10.chm4128771
-ms.prod: publisher
 api_name:
 - Publisher.WebListBoxItems.Count
 ms.assetid: a306e5d1-c0e4-86f3-745a-720f91bf1f25
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebListBoxItems.Count Property (Publisher)
+# WebListBoxItems.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **WebListBoxItems** object.
+_expression_ A variable that represents a **[WebListBoxItems](Publisher.WebListBoxItems.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

@@ -3,12 +3,11 @@ title: CustomXMLValidationError.ErrorCode property (Office)
 keywords: vbaof11.chm307007
 f1_keywords:
 - vbaof11.chm307007
-ms.prod: office
 api_name:
 - Office.CustomXMLValidationError.ErrorCode
 ms.assetid: 037a4f90-3b79-7daf-02b8-a6229c8cd2cd
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

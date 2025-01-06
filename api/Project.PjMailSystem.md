@@ -1,15 +1,15 @@
 ---
-title: PjMailSystem Enumeration (Project)
-ms.prod: project-server
+title: PjMailSystem enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjMailSystem
 ms.assetid: d32f0e55-52fc-75b2-34d9-237447d26fe1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjMailSystem Enumeration (Project)
+# PjMailSystem enumeration (Project)
 
 Contains constants that specify the type of email system.
 

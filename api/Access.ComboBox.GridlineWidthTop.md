@@ -3,12 +3,11 @@ title: ComboBox.GridlineWidthTop property (Access)
 keywords: vbaac10.chm11490
 f1_keywords:
 - vbaac10.chm11490
-ms.prod: access
 api_name:
 - Access.ComboBox.GridlineWidthTop
 ms.assetid: 0da57905-51fd-f9fe-374d-2289ad38ff9c
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

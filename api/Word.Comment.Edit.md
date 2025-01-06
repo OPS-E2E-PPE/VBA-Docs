@@ -3,12 +3,11 @@ title: Comment.Edit method (Word)
 keywords: vbawd10.chm154993651
 f1_keywords:
 - vbawd10.chm154993651
-ms.prod: word
 api_name:
 - Word.Comment.Edit
 ms.assetid: 94bc4a2e-0b73-af0d-cdac-dec76b1806da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Opens the specified OLE object for editing in the application it was created in.
 
 ## Syntax
 
- _expression_. `Edit`
+_expression_.**Edit**
 
- _expression_ Required. A variable that represents a '[Comment](Word.Comment.md)' object.
+_expression_ Required. A variable that represents a '[Comment](Word.Comment.md)' object.
 
 
 ## Example

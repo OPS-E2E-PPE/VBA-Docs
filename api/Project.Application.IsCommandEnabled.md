@@ -1,27 +1,27 @@
 ---
-title: Application.IsCommandEnabled Method (Project)
+title: Application.IsCommandEnabled method (Project)
 keywords: vbapj.chm131102
 f1_keywords:
 - vbapj.chm131102
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.IsCommandEnabled
 ms.assetid: 22202fed-7531-0f87-0e38-3ee703717ec1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsCommandEnabled Method (Project)
+# Application.IsCommandEnabled method (Project)
 
 Shows whether the specified command is enabled.
 
 
 ## Syntax
 
- _expression_. `IsCommandEnabled`( `_CommandName_` )
+_expression_. `IsCommandEnabled`( `_CommandName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,16 +39,16 @@ Shows whether the specified command is enabled.
 
 ## Remarks
 
-Valid commands are VBA method names in the  **MSProject** library. The return value can be one of the **[PjIsCommandEnabled](Project.PjIsCommandEnabled.md)** constants.
+Valid commands are VBA method names in the **MSProject** library. The return value can be one of the **[PjIsCommandEnabled](Project.PjIsCommandEnabled.md)** constants.
 
 
 ## Example
 
-When the Team Planner view is not visible, the  **TestCommandEnabled** macro returns the following results:
+When the Team Planner view is not visible, the **TestCommandEnabled** macro returns the following results:
 
 
 
-The  **FileOpen** method is available in most cases. The **IsCommandEnabled** method is undefined because it is not included in the internal list of methods. The **ResetTPStyle** method is disabled because it is only available when the Team Planner view is open.
+The **FileOpen** method is available in most cases. The **IsCommandEnabled** method is undefined because it is not included in the internal list of methods. The **ResetTPStyle** method is disabled because it is only available when the Team Planner view is open.
 
 
 

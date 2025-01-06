@@ -1,34 +1,30 @@
 ---
-title: Application.AutomationSecurity Property (Publisher)
-ms.prod: publisher
+title: Application.AutomationSecurity property (Publisher)
 api_name:
 - Publisher.Application.AutomationSecurity
 ms.assetid: 610f6300-0335-4fa1-7574-14afcf0e96e6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/04/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.AutomationSecurity Property (Publisher)
+# Application.AutomationSecurity property (Publisher)
 
 Specifies the security mode that Microsoft Publisher uses when programmatically opening files. Read/write.
 
 
 ## Syntax
 
- _expression_. **AutomationSecurity**
+_expression_.**AutomationSecurity**
 
- _expression_ A variable that represents an  **Application** object.
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
 ## Return value
 
-MsoAutomationSecurity
+**[MsoAutomationSecurity](office.msoautomationsecurity.md)**
 
 
-## See also
 
-
- [Application Object](Publisher.Application.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

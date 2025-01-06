@@ -1,22 +1,22 @@
 ---
-title: WorkWeekDays.Application Property (Project)
-ms.prod: project-server
+title: WorkWeekDays.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDays.Application
 ms.assetid: 4276d05d-761e-d7cc-b330-9c81674f60e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDays.Application Property (Project)
+# WorkWeekDays.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Object**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
  _expression_ An expression that returns a 'WorkWeekDays' object.
 

@@ -3,18 +3,17 @@ title: Application.CurrentUser method (Access)
 keywords: vbaac10.chm12538
 f1_keywords:
 - vbaac10.chm12538
-ms.prod: access
 api_name:
 - Access.Application.CurrentUser
 ms.assetid: 1cf7ee61-459c-1224-cfdf-a0b051eeb06e
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.CurrentUser method (Access)
 
-You can use the **CurrentUser** method to return the name of the current user of the database.
+Use the **CurrentUser** method to return the name of the current user of the database.
 
 
 ## Syntax

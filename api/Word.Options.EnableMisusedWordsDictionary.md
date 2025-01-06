@@ -3,12 +3,11 @@ title: Options.EnableMisusedWordsDictionary property (Word)
 keywords: vbawd10.chm162988370
 f1_keywords:
 - vbawd10.chm162988370
-ms.prod: word
 api_name:
 - Word.Options.EnableMisusedWordsDictionary
 ms.assetid: 53ec74bd-d1fb-39ee-6ddb-4cca840c13dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EnableMisusedWordsDictionary`
+_expression_. `EnableMisusedWordsDictionary`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks

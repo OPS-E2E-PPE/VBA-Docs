@@ -3,12 +3,11 @@ title: NavigationButton.Layout property (Access)
 keywords: vbaac10.chm10523
 f1_keywords:
 - vbaac10.chm10523
-ms.prod: access
 api_name:
 - Access.NavigationButton.Layout
 ms.assetid: 345bd2bf-1f4f-21d5-c4cf-b5fb41f280ea
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.Address Property (Publisher)
+title: Hyperlink.Address property (Publisher)
 keywords: vbapb10.chm4587523
 f1_keywords:
 - vbapb10.chm4587523
-ms.prod: publisher
 api_name:
 - Publisher.Hyperlink.Address
 ms.assetid: 784a9213-38bc-c5fd-f215-abeb174ec628
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.Address Property (Publisher)
+# Hyperlink.Address property (Publisher)
 
-Returns or sets a  **String** that represents the URL address for a hyperlink. Read/write.
+Returns or sets a **String** that represents the URL address for a hyperlink. Read/write.
 
 
 ## Syntax
 
- _expression_. **Address**
+_expression_.**Address**
 
- _expression_ A variable that represents a  **Hyperlink** object.
+_expression_ A variable that represents a **[Hyperlink](Publisher.Hyperlink.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ String
 ## Example
 
 This example displays the URL addresses for all hyperlinks in the active publication.
-
 
 ```vb
 Sub ShowHyperlinkAddresses() 

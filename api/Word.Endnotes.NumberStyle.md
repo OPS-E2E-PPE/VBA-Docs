@@ -3,23 +3,22 @@ title: Endnotes.NumberStyle property (Word)
 keywords: vbawd10.chm155254885
 f1_keywords:
 - vbawd10.chm155254885
-ms.prod: word
 api_name:
 - Word.Endnotes.NumberStyle
 ms.assetid: 9157acf1-6452-ec85-5032-66cf960b94f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Endnotes.NumberStyle property (Word)
 
-Returns or sets the number style. Read/write  **WdNoteNumberStyle**.
+Returns or sets the number style. Read/write **WdNoteNumberStyle**.
 
 
 ## Syntax
 
- _expression_. `NumberStyle`
+_expression_. `NumberStyle`
 
  _expression_ An expression that represents a '[Endnotes](Word.endnotes.md)' object.
 

@@ -3,23 +3,22 @@ title: Pane.Pages property (Word)
 keywords: vbawd10.chm157286419
 f1_keywords:
 - vbawd10.chm157286419
-ms.prod: word
 api_name:
 - Word.Pane.Pages
 ms.assetid: 18390c33-fd07-73a3-324f-37d09e1c99c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Pane.Pages property (Word)
 
-Returns a  **[Pages](Word.pages.md)** collection that represents the pages in a document.
+Returns a **[Pages](Word.pages.md)** collection that represents the pages in a document.
 
 
 ## Syntax
 
- _expression_. `Pages`
+_expression_.**Pages**
 
  _expression_ An expression that returns a '[Pane](Word.Pane.md)' object.
 

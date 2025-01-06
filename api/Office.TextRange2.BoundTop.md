@@ -1,17 +1,16 @@
 ---
 title: TextRange2.BoundTop property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.BoundTop
 ms.assetid: b225b65e-04a0-1938-9520-ea71eed13b04
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextRange2.BoundTop property (Office)
 
-Gets the top coordinate, in points, of the text bounding box for the specified text. Read-only.
+Gets the top coordinate, in [points](../language/glossary/vbe-glossary.md#point), of the text bounding box for the specified text. Read-only.
 
 
 ## Syntax

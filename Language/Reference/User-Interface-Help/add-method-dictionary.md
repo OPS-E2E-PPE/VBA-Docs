@@ -1,24 +1,21 @@
 ---
-title: Add method (Dictionary)
+title: Add method (Dictionary object)
 keywords: vblr6.chm2181948
 f1_keywords:
 - vblr6.chm2181948
-ms.prod: office
 ms.assetid: 87a5c49b-f67e-cf4a-0603-3f6a6e8afcbf
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Add method (Dictionary)
+# Add method
 
 Adds a key and item pair to a **[Dictionary](dictionary-object.md)** object.
 
 ## Syntax
 
 _object_.**Add** _key_, _item_
-
-<br/>
 
 The **Add** method has the following parts:
 

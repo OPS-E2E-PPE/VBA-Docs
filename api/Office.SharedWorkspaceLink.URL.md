@@ -3,12 +3,11 @@ title: SharedWorkspaceLink.URL property (Office)
 keywords: vbaof11.chm270001
 f1_keywords:
 - vbaof11.chm270001
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.URL
 ms.assetid: 92104c43-43b8-5f59-e0c0-91313d8f5e35
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -47,7 +46,7 @@ The following example displays the URL of the link to the shared workspace.
 
 
 ```vb
-MsgBox "URL: " &amp; ActiveWorkbook.SharedWorkspaceLink.URL, _ 
+MsgBox "URL: " & ActiveWorkbook.SharedWorkspaceLink.URL, _ 
         vbInformation + vbOKOnly, "Shared Workspace Link URL"
 ```
 

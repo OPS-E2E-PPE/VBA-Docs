@@ -1,17 +1,17 @@
 ---
-title: Project Object (Project)
-ms.prod: project-server
+title: Project object (Project)
+ms.service: project-server
 api_name:
 - Project.Project
 ms.assetid: 855c1ad9-0e84-f274-9e0e-2424e7cab447
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project Object (Project)
+# Project object (Project)
 
-Represents one project in the set of open projects. The  **Project** object is a member of the **[Projects](Project.projects.md)** collection.
+Represents one project in the set of open projects. The **Project** object is a member of the **[Projects](Project.projects.md)** collection.
 
 
 ## Events

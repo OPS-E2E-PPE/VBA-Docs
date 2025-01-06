@@ -1,24 +1,24 @@
 ---
-title: Exception.Delete Method (Project)
-ms.prod: project-server
+title: Exception.Delete method (Project)
+ms.service: project-server
 api_name:
 - Project.Exception.Delete
 ms.assetid: 0e311cea-411b-9600-1970-b5a4dccf0e5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exception.Delete Method (Project)
+# Exception.Delete method (Project)
 
-Deletes the  **Exception** object from an **Exceptions** collection.
+Deletes the **Exception** object from an **Exceptions** collection.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## See also

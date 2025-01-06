@@ -1,24 +1,24 @@
 ---
-title: Task.Resources Property (Project)
-ms.prod: project-server
+title: Task.Resources property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Resources
 ms.assetid: 72f4535f-39f1-81eb-7400-47fbca9cccd4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Resources Property (Project)
+# Task.Resources property (Project)
 
-Gets a  **[Resources](Project.Resource.md)** collection that contains the resources assigned to the task. Read-only **Resources**.
+Gets a **[Resources](Project.Resource.md)** collection that contains the resources assigned to the task. Read-only **Resources**.
 
 
 ## Syntax
 
- _expression_. `Resources`
+_expression_. `Resources`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

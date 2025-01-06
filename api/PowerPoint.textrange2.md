@@ -1,20 +1,19 @@
 ---
-title: TextRange2 Object (PowerPoint)
+title: TextRange2 object (PowerPoint)
 ms.assetid: 88e2de08-3d15-406d-99a0-93c3cd661eda
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange2 Object (PowerPoint)
+# TextRange2 object (PowerPoint)
 
-Represents the text frame in a  **Shape** or **ShapeRange** objects.
+Represents the text frame in a **Shape** or **ShapeRange** objects.
 
 
 ## Remarks
 
-This object contains the text in the text frame as well as the properties and methods that control the alignment and anchoring of the text frame. Use the  **TextFrame2** property to return a **TextFrame2** object.
+This object contains the text in the text frame as well as the properties and methods that control the alignment and anchoring of the text frame. Use the **TextFrame2** property to return a **TextFrame2** object.
 
 
 ## Example
@@ -35,7 +34,5 @@ End With
 
 ```
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

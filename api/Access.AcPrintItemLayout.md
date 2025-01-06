@@ -3,20 +3,17 @@ title: AcPrintItemLayout enumeration (Access)
 keywords: vbaac10.chm13248
 f1_keywords:
 - vbaac10.chm13248
-ms.prod: access
 api_name:
 - Access.AcPrintItemLayout
 ms.assetid: b2a3cbe7-b3ba-0635-b3ac-9c0ee3602e98
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPrintItemLayout enumeration (Access)
 
 Used with the **ItemLayout** property to specify how columns are laid out when printing.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

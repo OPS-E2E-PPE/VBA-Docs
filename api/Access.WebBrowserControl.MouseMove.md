@@ -3,12 +3,11 @@ title: WebBrowserControl.MouseMove event (Access)
 keywords: vbaac10.chm143135
 f1_keywords:
 - vbaac10.chm143135
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.MouseMove
 ms.assetid: 1a135ded-e0b2-1926-4d3e-701649a15371
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

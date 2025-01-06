@@ -1,11 +1,10 @@
 ---
 title: MetaProperties.Application property (Office)
-ms.prod: office
 api_name:
 - Office.MetaProperties.Application
 ms.assetid: 40f520da-9408-06f9-f51d-1b4dda0d452b
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

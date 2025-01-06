@@ -3,10 +3,9 @@ title: Work with Tables
 keywords: vbapp10.chm5278659
 f1_keywords:
 - vbapp10.chm5278659
-ms.prod: powerpoint
 ms.assetid: 1c962e26-8a16-0d88-92bc-58462b31fca9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 

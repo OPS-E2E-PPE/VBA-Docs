@@ -3,18 +3,17 @@ title: OptionButton.TripleState property (Access)
 keywords: vbaac10.chm10578
 f1_keywords:
 - vbaac10.chm10578
-ms.prod: access
 api_name:
 - Access.OptionButton.TripleState
 ms.assetid: f2764290-00be-38f7-f078-fc0059340455
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.TripleState property (Access)
 
-You can use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
+Use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
 
 
 ## Syntax

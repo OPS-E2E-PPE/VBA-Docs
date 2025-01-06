@@ -3,25 +3,24 @@ title: Global.ActiveWindow property (Word)
 keywords: vbawd10.chm163119108
 f1_keywords:
 - vbawd10.chm163119108
-ms.prod: word
 api_name:
 - Word.Global.ActiveWindow
 ms.assetid: 645913c3-0724-1604-9ac0-4e1b4e81439d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.ActiveWindow property (Word)
 
-Returns a  **[Window](Word.Window.md)** object that represents the active window (the window with the focus). Read-only.
+Returns a **[Window](Word.Window.md)** object that represents the active window (the window with the focus). Read-only.
 
 
 ## Syntax
 
- _expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks

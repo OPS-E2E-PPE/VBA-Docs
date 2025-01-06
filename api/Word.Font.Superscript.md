@@ -3,12 +3,11 @@ title: Font.Superscript property (Word)
 keywords: vbawd10.chm156369035
 f1_keywords:
 - vbawd10.chm156369035
-ms.prod: word
 api_name:
 - Word.Font.Superscript
 ms.assetid: 07a1f270-263e-00af-ed8f-3b9d2904e78b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Superscript`
+_expression_.**Superscript**
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** , or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**.
+Returns **True**, **False**, or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
-Setting the  **Superscript** property to **True** sets the **[Subscript](Word.Font.Subscript.md)** property to **False** , and vice versa.
+Setting the **Superscript** property to **True** sets the **[Subscript](Word.Font.Subscript.md)** property to **False**, and vice versa.
 
 
 ## Example

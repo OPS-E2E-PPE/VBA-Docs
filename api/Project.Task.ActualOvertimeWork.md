@@ -1,24 +1,24 @@
 ---
-title: Task.ActualOvertimeWork Property (Project)
-ms.prod: project-server
+title: Task.ActualOvertimeWork property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.ActualOvertimeWork
 ms.assetid: bbd2c42a-f6bb-1e0f-7e23-a76f78fe3a2e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.ActualOvertimeWork Property (Project)
+# Task.ActualOvertimeWork property (Project)
 
-Gets the actual overtime work (in minutes) for a task. Read-only  **Variant**.
+Gets the actual overtime work (in minutes) for a task. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `ActualOvertimeWork`
+_expression_. `ActualOvertimeWork`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

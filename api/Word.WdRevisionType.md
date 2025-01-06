@@ -1,11 +1,10 @@
 ---
 title: WdRevisionType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdRevisionType
 ms.assetid: da4bf509-04f1-f220-ae77-c3bb575dd5d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

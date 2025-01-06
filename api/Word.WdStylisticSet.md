@@ -1,11 +1,10 @@
 ---
 title: WdStylisticSet enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdStylisticSet
 ms.assetid: e67291a0-5193-db3c-68da-3e3576da75c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,6 +43,7 @@ Specifies the stylistic set to apply to the font.
 Some OpenType fonts provide stylistic sets. A stylistic set defines a set of characters within the font that are intended to be used together, usually for the purpose of visual harmony, such as in headings. 20 stylistic sets are possible per font. 
 
 
- **Note**  Not all OpenType fonts provide stylistic sets. Setting a font's **[StylisticSet](Word.Font.StylisticSet.md)** property to a WdStylisticSet constant that is not provided by the font has no effect.
+> [!NOTE] 
+> Not all OpenType fonts provide stylistic sets. Setting a font's **[StylisticSet](Word.Font.StylisticSet.md)** property to a WdStylisticSet constant that is not provided by the font has no effect.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

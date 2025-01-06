@@ -1,27 +1,26 @@
 ---
-title: View.ZoomToFit Property (PowerPoint)
+title: View.ZoomToFit property (PowerPoint)
 keywords: vbapp10.chm512009
 f1_keywords:
 - vbapp10.chm512009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.View.ZoomToFit
 ms.assetid: b35e3466-c135-bc5f-40d6-0331cf642b12
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.ZoomToFit Property (PowerPoint)
+# View.ZoomToFit property (PowerPoint)
 
 Determines whether the view is zoomed to fit the dimensions of the document window every time the document window is resized. Read/write.
 
 
 ## Syntax
 
- _expression_. `ZoomToFit`
+_expression_. `ZoomToFit`
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Return value
@@ -33,9 +32,9 @@ MsoTriState
 
 This property applies only to slide view, notes page view, or master view.
 
-When the value of the  **[Zoom](PowerPoint.View.Zoom.md)** property is explicitly set, the value of the **ZoomToFit** property is automatically set to **msoFalse**.
+When the value of the **[Zoom](PowerPoint.View.Zoom.md)** property is explicitly set, the value of the **ZoomToFit** property is automatically set to **msoFalse**.
 
-The value of the  **ZoomToFit** property can be one of these **MsoTriState** constants.
+The value of the **ZoomToFit** property can be one of these **MsoTriState** constants.
 
 
 

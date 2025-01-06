@@ -3,10 +3,9 @@ title: Set form, report, and control properties in Visual Basic
 keywords: vbaac10.chm5188061
 f1_keywords:
 - vbaac10.chm5188061
-ms.prod: access
 ms.assetid: 1f5b5f6b-b424-f35e-4add-21c45b5d74c4
 ms.date: 09/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,7 +31,7 @@ Me.RecordSource = "SELECT * FROM Customers " _
 
 ## Set a property of a control
 
-Refer to the control in the **[Controls](../../../api/Access.Controls.md)** collection of the **Form** or **Report** object on which it resides. You can refer to the **Controls** collection either implicitly or explicitly, but the code executes faster if you use an implicit reference. The following examples set the **Visible** property of a text box called CustomerID on the Customers form:
+Refer to the control in the **[Controls](../../../api/Access.Controls.md)** collection of the **Form** or **Report** object on which it resides. Refer to the **Controls** collection either implicitly or explicitly, but the code executes faster if you use an implicit reference. The following examples set the **Visible** property of a text box called CustomerID on the Customers form:
 
 
 ```vb
@@ -77,8 +76,8 @@ Me!Section(acPageHeader).Visible = False
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

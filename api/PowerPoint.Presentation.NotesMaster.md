@@ -1,27 +1,26 @@
 ---
-title: Presentation.NotesMaster Property (PowerPoint)
+title: Presentation.NotesMaster property (PowerPoint)
 keywords: vbapp10.chm583009
 f1_keywords:
 - vbapp10.chm583009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.NotesMaster
 ms.assetid: 0889b69b-4c51-82cf-ccc2-ccb211d8a34e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.NotesMaster Property (PowerPoint)
+# Presentation.NotesMaster property (PowerPoint)
 
-Returns a  **[Master](PowerPoint.Master.md)** object that represents the notes master. Read-only.
+Returns a **[Master](PowerPoint.Master.md)** object that represents the notes master. Read-only.
 
 
 ## Syntax
 
- _expression_. `NotesMaster`
+_expression_. `NotesMaster`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

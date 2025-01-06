@@ -3,30 +3,29 @@ title: PageSetup.PageHeight property (Word)
 keywords: vbawd10.chm158400618
 f1_keywords:
 - vbawd10.chm158400618
-ms.prod: word
 api_name:
 - Word.PageSetup.PageHeight
 ms.assetid: f1c557af-65d2-96e6-c796-a9af33dc1730
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup.PageHeight property (Word)
 
-Returns or sets the height of the page in points. Read/write  **Single**.
+Returns or sets the height of the page in points. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `PageHeight`
+_expression_. `PageHeight`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-Setting the  **PageHeight** property changes the **[PaperSize](Word.PageSetup.PaperSize.md)** property to **wdPaperCustom**. Use the **PaperSize** property to set the page height and width to those of a predefined paper size, such as Letter or A4.
+Setting the **PageHeight** property changes the **[PaperSize](Word.PageSetup.PaperSize.md)** property to **wdPaperCustom**. Use the **PaperSize** property to set the page height and width to those of a predefined paper size, such as Letter or A4.
 
 
 ## Example

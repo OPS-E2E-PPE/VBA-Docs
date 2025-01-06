@@ -3,12 +3,11 @@ title: CommandBarComboBox.RemoveItem method (Office)
 keywords: vbaof11.chm8009
 f1_keywords:
 - vbaof11.chm8009
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.RemoveItem
 ms.assetid: 8a40dcca-c320-c27f-ae91-97c195d4f821
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

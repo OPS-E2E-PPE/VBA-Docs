@@ -3,12 +3,11 @@ title: TextFrame.HasText property (Word)
 keywords: vbawd10.chm162665360
 f1_keywords:
 - vbawd10.chm162665360
-ms.prod: word
 api_name:
 - Word.TextFrame.HasText
 ms.assetid: eb3d99ed-b65f-e0d3-b18f-388cec86bd3d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasText`
+_expression_.**HasText**
 
- _expression_ A variable that represents a '[TextFrame](Word.TextFrame.md)' object.
+_expression_ A variable that represents a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Example

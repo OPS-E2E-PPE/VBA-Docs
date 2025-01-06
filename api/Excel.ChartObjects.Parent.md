@@ -3,12 +3,11 @@ title: ChartObjects.Parent property (Excel)
 keywords: vbaxl10.chm497073
 f1_keywords:
 - vbaxl10.chm497073
-ms.prod: excel
 api_name:
 - Excel.ChartObjects.Parent
 ms.assetid: 4c5453db-8e90-1ae0-2fb2-990c1d336f20
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/20/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [ChartObjects](Excel.ChartObjects.md) object.
+_expression_ A variable that represents a **[ChartObjects](Excel.ChartObjects.md)** object.
 
 
-## See also
 
-
-[ChartObjects Object](Excel.ChartObjects.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

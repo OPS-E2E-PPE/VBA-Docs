@@ -3,23 +3,22 @@ title: Zoom.Percentage property (Word)
 keywords: vbawd10.chm161873920
 f1_keywords:
 - vbawd10.chm161873920
-ms.prod: word
 api_name:
 - Word.Zoom.Percentage
 ms.assetid: 4d49583f-6991-3c6d-fcf4-535e6663c3b7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Zoom.Percentage property (Word)
 
-Returns or sets the magnification for a window as a percentage. Read/write  **Long**.
+Returns or sets the magnification for a window as a percentage. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `Percentage`
+_expression_. `Percentage`
 
  _expression_ An expression that returns a '[Zoom](Word.Zoom.md)' object.
 

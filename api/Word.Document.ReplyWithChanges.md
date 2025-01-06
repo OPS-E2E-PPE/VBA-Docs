@@ -3,12 +3,11 @@ title: Document.ReplyWithChanges method (Word)
 keywords: vbawd10.chm158007650
 f1_keywords:
 - vbawd10.chm158007650
-ms.prod: word
 api_name:
 - Word.Document.ReplyWithChanges
 ms.assetid: ad476bde-0240-ab4b-b246-d5b143207fa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sends an email message to the author of a document that has been sent out for re
 
 ## Syntax
 
- _expression_. `ReplyWithChanges`( `_ShowMessage_` )
+_expression_. `ReplyWithChanges`( `_ShowMessage_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Sends an email message to the author of a document that has been sent out for re
 
 ## Remarks
 
-Use the  **SendForReview** method to start a collaborative review of a document. If the **ReplyWithChanges** method is executed on a document that is not part of a collaborative review cycle, Microsoft Word displays an error message.
+Use the **SendForReview** method to start a collaborative review of a document. If the **ReplyWithChanges** method is executed on a document that is not part of a collaborative review cycle, Microsoft Word displays an error message.
 
 
 ## Example

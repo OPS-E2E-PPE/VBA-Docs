@@ -1,27 +1,26 @@
 ---
-title: Shape.DrawLine Method (Visio)
+title: Shape.DrawLine method (Visio)
 keywords: vis_sdr.chm11216200
 f1_keywords:
 - vis_sdr.chm11216200
-ms.prod: visio
 api_name:
 - Visio.Shape.DrawLine
 ms.assetid: 8793104a-0ded-e2ca-54e8-acf987b9c797
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.DrawLine Method (Visio)
+# Shape.DrawLine method (Visio)
 
-Adds a line to the  **Shapes** collection of a group shape.
+Adds a line to the **Shapes** collection of a group shape.
 
 
 ## Syntax
 
- _expression_. `DrawLine`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` )
+_expression_. `DrawLine`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ Shape
 
 ## Remarks
 
-Using the  **DrawLine** method is equivalent to using the **Line** tool in Microsoft Visio. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the line is being placed.
+Using the **DrawLine** method is equivalent to using the **Line** tool in Microsoft Visio. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the line is being placed.
 
 
 ## Example

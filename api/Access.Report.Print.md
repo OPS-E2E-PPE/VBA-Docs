@@ -3,12 +3,11 @@ title: Report.Print method (Access)
 keywords: vbaac10.chm13788
 f1_keywords:
 - vbaac10.chm13788
-ms.prod: access
 api_name:
 - Access.Report.Print
 ms.assetid: 6f8523cc-7b17-ec27-e2c9-a7ae3d5a8c3f
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -37,7 +36,7 @@ Nothing
 
 ## Remarks
 
-You can use this method only in an event procedure or macro specified by a section's **OnPrint** event property setting.
+Use this method only in an event procedure or macro specified by a section's **OnPrint** event property setting.
 
 The expressions specified by the _Expr_ argument are printed on the object starting at the position indicated by the **[CurrentX](Access.Report.CurrentX.md)** and **[CurrentY](Access.Report.CurrentY.md)** property settings.
 

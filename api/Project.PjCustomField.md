@@ -1,15 +1,15 @@
 ---
-title: PjCustomField Enumeration (Project)
-ms.prod: project-server
+title: PjCustomField enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCustomField
 ms.assetid: eed248af-bde2-8299-3737-253cf96411e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCustomField Enumeration (Project)
+# PjCustomField enumeration (Project)
 
 Contains constants that specify a custom field in Project.
 

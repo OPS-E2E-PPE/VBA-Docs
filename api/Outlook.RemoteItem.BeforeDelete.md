@@ -1,24 +1,23 @@
 ---
-title: RemoteItem.BeforeDelete Event (Outlook)
-ms.prod: outlook
+title: RemoteItem.BeforeDelete event (Outlook)
 api_name:
 - Outlook.RemoteItem.BeforeDelete
 ms.assetid: 0f1f4b6d-7a5a-2302-2b71-eea7bf7f1af9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem.BeforeDelete Event (Outlook)
+# RemoteItem.BeforeDelete event (Outlook)
 
 Occurs before an item (which is an instance of the parent object) is deleted.
 
 
 ## Syntax
 
-_expression_. `BeforeDelete`( `_Item_` , `_Cancel_` )
+_expression_.**BeforeDelete** (_Item_, _Cancel_)
 
-_expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) object.
+_expression_ A variable that represents a [RemoteItem](Outlook.RemoteItem.md) object.
 
 
 ## Parameters
@@ -28,7 +27,7 @@ _expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required| **Object**|The item being deleted.|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the item is not deleted.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the item is not deleted.|
 
 ## Remarks
 

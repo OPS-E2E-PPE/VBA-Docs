@@ -3,12 +3,11 @@ title: MailMergeDataSource object (Word)
 keywords: vbawd10.chm2333
 f1_keywords:
 - vbawd10.chm2333
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource
 ms.assetid: f86f7d3c-d7ab-45e8-21e7-fd5a426e0391
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Represents the mail merge data source in a mail merge operation.
 
 ## Remarks
 
-Use the  **DataSource** property to return the **MailMergeDataSource** object. The following example displays the name of the data source associated with the active document.
+Use the **DataSource** property to return the **MailMergeDataSource** object. The following example displays the name of the data source associated with the active document.
 
 
 ```vb
@@ -95,6 +94,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

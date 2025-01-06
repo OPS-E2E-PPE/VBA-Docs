@@ -3,23 +3,22 @@ title: XMLMapping.SetMappingByNode method (Word)
 keywords: vbawd10.chm199688197
 f1_keywords:
 - vbawd10.chm199688197
-ms.prod: word
 api_name:
 - Word.XMLMapping.SetMappingByNode
 ms.assetid: 8eab3471-e1dc-f7ec-9b45-9fb459088190
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLMapping.SetMappingByNode method (Word)
 
-Allows creating or changing the XML data mapping on a content control. Returns  **True** if Microsoft Word maps the content control to a custom XML node in the document?s custom XML data store.
+Allows creating or changing the XML data mapping on a content control. Returns **True** if Microsoft Word maps the content control to a custom XML node in the document's custom XML data store.
 
 
 ## Syntax
 
- _expression_. `SetMappingByNode`( `_Node_` )
+_expression_. `SetMappingByNode`( `_Node_` )
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 
@@ -39,10 +38,11 @@ Boolean
 
 ## Remarks
 
-If the XML mapping already exists, then Word replaces the existing XML mapping, and the contents of the new mapped XML node replaces the text of the content control. See also the  **[SetMapping](Word.XMLMapping.SetMapping.md)** method.
+If the XML mapping already exists, then Word replaces the existing XML mapping, and the contents of the new mapped XML node replaces the text of the content control. See also the **[SetMapping](Word.XMLMapping.SetMapping.md)** method.
 
 
- **Note**  Creating a mapping for a rich-text content control causes a run-time error.
+> [!NOTE] 
+> Creating a mapping for a rich-text content control causes a run-time error.
 
 
 ## Example

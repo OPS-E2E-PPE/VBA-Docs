@@ -3,14 +3,13 @@ title: Path property (FileSystemObject object)
 keywords: vblr6.chm2181960
 f1_keywords:
 - vblr6.chm2181960
-ms.prod: office
 ms.assetid: 15eed13b-9252-e195-0c54-9e3c82ce987f
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Path property (FileSystemObject)
+# Path property 
 
 Returns the path for a specified file, folder, or drive.
 
@@ -23,6 +22,8 @@ The _object_ is always a **[File](file-object.md)**, **[Folder](folder-object.md
 ## Remarks
 
 For drive letters, the root drive is not included. For example, the path for the C drive is `C:`, not `C:\`.
+
+For files, the **Path** property includes the filename and extension.
 
 The following code illustrates the use of the **Path** property with a **File** object.
 
@@ -37,6 +38,16 @@ Sub ShowFileAccessInfo(filespec)
     s = s & "Last Modified: " & f.DateLastModified  
     MsgBox s, 0, "File Access Info"
 End Sub
+```
+
+This will return a Message Box with content in the format:
+
+```
+**File Access Info**
+C:\MY\PATH\MYFILENAME.PDF
+Created: 6/6/2022 1:30:42 PM
+Last Accessed: 6/6/2022 4:30:23 PM
+Last Modified: 6/6/2022 4:30:23 PM
 ```
 
 ## See also

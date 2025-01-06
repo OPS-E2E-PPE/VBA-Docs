@@ -3,25 +3,24 @@ title: Application.FindKey property (Word)
 keywords: vbawd10.chm158335047
 f1_keywords:
 - vbawd10.chm158335047
-ms.prod: word
 api_name:
 - Word.Application.FindKey
 ms.assetid: f648e9a5-626b-3923-46e4-a0c9c1dfc815
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.FindKey property (Word)
 
-Returns a  **[KeyBinding](Word.KeyBinding.md)** object that represents the specified key combination. Read-only.
+Returns a **[KeyBinding](Word.KeyBinding.md)** object that represents the specified key combination. Read-only.
 
 
 ## Syntax
 
- _expression_. `FindKey`( `_KeyCode_` , `_ KeyCode2_` )
+_expression_. `FindKey`( `_KeyCode_` , `_ KeyCode2_` )
 
- _expression_ Optional. An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ Optional. An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,17 +29,17 @@ Returns a  **[KeyBinding](Word.KeyBinding.md)** object that represents the speci
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _KeyCode_|Required| **Long**|A key you specify by using one of the  **WdKey** constants.|
-| _KeyCode2_|Optional| **Variant**|A second key you specify by using one of the  **WdKey** constants.|
+| _KeyCode_|Required| **Long**|A key you specify by using one of the **WdKey** constants.|
+| _KeyCode2_|Optional| **Variant**|A second key you specify by using one of the **WdKey** constants.|
 
 ## Remarks
 
-You can use the  **[BuildKeyCode](Word.Application.BuildKeyCode.md)** method to create the _KeyCode_ or _KeyCode2_ argument.
+Use the **[BuildKeyCode](Word.Application.BuildKeyCode.md)** method to create the _KeyCode_ or _KeyCode2_ argument.
 
 
 ## Example
 
-This example disables the ALT+SHIFT+F12 key combination in the template attached to the active document. To return a  **KeyBinding** object that includes more than two keys, use the **BuildKeyCode** method, as shown in the example.
+This example disables the ALT+SHIFT+F12 key combination in the template attached to the active document. To return a **KeyBinding** object that includes more than two keys, use the **BuildKeyCode** method, as shown in the example.
 
 
 ```vb

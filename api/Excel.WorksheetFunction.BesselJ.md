@@ -3,12 +3,11 @@ title: WorksheetFunction.BesselJ method (Excel)
 keywords: vbaxl10.chm137302
 f1_keywords:
 - vbaxl10.chm137302
-ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.BesselJ
 ms.assetid: 9d6d4059-4c84-a79a-2143-eef4953cbf19
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/22/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Returns the Bessel function.
 
 ## Syntax
 
-_expression_. `BesselJ`( `_Arg1_` , `_Arg2_` )
+_expression_.**BesselJ** (_Arg1_, _Arg2_)
 
-_expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,28 +32,20 @@ _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetF
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
-
-
-
-- If x is nonnumeric, BesselJ generates an error value.
+If x is nonnumeric, **BesselJ** generates an error value.
     
-- If n is nonnumeric, BesselJ returns the generates an error value.
+If n is nonnumeric, **BesselJ** generates an error value.
     
-- If n < 0, BesselJ generates an error value.
+If n < 0, **BesselJ** generates an error value.
     
-- The n-th order Bessel function of the variable x is:
-![Bessel function](../images/awfbslj1_ZA06051116.gif)where: 
-![Bessel function](../images/awfbslj2_ZA06051117.gif)is the Gamma function. 
+The n-th order Bessel function of the variable x is ![Screenshot of the Bessel function.](../images/awfbslj1_ZA06051116.gif) where ![Screenshot of the Gamma function.](../images/awfbslj2_ZA06051117.gif) is the Gamma function. 
     
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

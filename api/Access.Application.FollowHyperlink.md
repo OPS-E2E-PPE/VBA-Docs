@@ -3,18 +3,17 @@ title: Application.FollowHyperlink method (Access)
 keywords: vbaac10.chm12561
 f1_keywords:
 - vbaac10.chm12561
-ms.prod: access
 api_name:
 - Access.Application.FollowHyperlink
 ms.assetid: b5142ca6-8d67-c42b-81a4-5417265a50b0
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.FollowHyperlink method (Access)
 
-The **FollowHyperlink** method opens the document or web page specified by a hyperlink address.
+The **FollowHyperlink** method opens the document or webpage specified by a hyperlink address.
 
 
 ## Syntax
@@ -40,9 +39,9 @@ _expression_ A variable that represents an **[Application](Access.Application.md
 
 By using the **FollowHyperlink** method, you can follow a hyperlink that doesn't exist in a control. This hyperlink may be supplied by you or by the user. For example, you can prompt a user to enter a hyperlink address in a dialog box, and then use the **FollowHyperlink** method to follow that hyperlink.
 
-You can use the _extrainfo_ and _method_ arguments to supply additional information when navigating to a hyperlink. For example, you can supply parameters to a search engine.
+Use the _extrainfo_ and _method_ arguments to supply additional information when navigating to a hyperlink. For example, you can supply parameters to a search engine.
 
-You can use the **[Follow](Access.Hyperlink.Follow.md)** method to follow a hyperlink associated with a control.
+Use the **[Follow](Access.Hyperlink.Follow.md)** method to follow a hyperlink associated with a control.
 
 
 ## Example
@@ -67,8 +66,6 @@ Error_GetUserAddress:
     Resume Exit_GetUserAddress 
 End Function
 ```
-
-<br/>
 
 You could call this function with a procedure such as the following.
 

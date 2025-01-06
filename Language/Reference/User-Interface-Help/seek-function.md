@@ -1,9 +1,8 @@
 ---
 title: Seek function (Visual Basic for Applications)
-ms.prod: office
 ms.assetid: 870aba03-b7ad-c931-928d-33aaf9cf5ab6
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -39,8 +38,6 @@ Type Record    ' Define user-defined type.
 End Type
 ```
 
-<br/>
-
 For files opened in Random mode, **Seek** returns the number of the next record.
 
 ```vb
@@ -53,8 +50,6 @@ Loop
 Close #1    ' Close file.
 
 ```
-
-<br/>
 
 For files opened in modes other than Random mode, **Seek** returns the byte position at which the next operation takes place. Assume that `TESTFILE` is a file containing a few lines of text.
 

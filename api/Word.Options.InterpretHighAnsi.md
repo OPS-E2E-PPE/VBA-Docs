@@ -3,25 +3,24 @@ title: Options.InterpretHighAnsi property (Word)
 keywords: vbawd10.chm162988450
 f1_keywords:
 - vbawd10.chm162988450
-ms.prod: word
 api_name:
 - Word.Options.InterpretHighAnsi
 ms.assetid: c093469b-c9ef-0b37-fc40-7b1ae17ce72e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options.InterpretHighAnsi property (Word)
 
-Returns or sets the high-ANSI text interpretation behavior. Read/write  **WdHighAnsiText**.
+Returns or sets the high-ANSI text interpretation behavior. Read/write **WdHighAnsiText**.
 
 
 ## Syntax
 
- _expression_. `InterpretHighAnsi`
+_expression_. `InterpretHighAnsi`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: PbRulerGuideType Enumeration (Publisher)
+title: PbRulerGuideType enumeration (Publisher)
 keywords: vbapb10.chm65594
 f1_keywords:
 - vbapb10.chm65594
-ms.prod: publisher
 api_name:
 - Publisher.PbRulerGuideType
 ms.assetid: 99c0fb25-750a-8095-2178-88d06cdd1f41
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbRulerGuideType Enumeration (Publisher)
+# PbRulerGuideType enumeration (Publisher)
 
 Represents the ruler guide type.
 

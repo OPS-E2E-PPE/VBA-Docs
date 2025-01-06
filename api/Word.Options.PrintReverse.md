@@ -3,12 +3,11 @@ title: Options.PrintReverse property (Word)
 keywords: vbawd10.chm162988320
 f1_keywords:
 - vbawd10.chm162988320
-ms.prod: word
 api_name:
 - Word.Options.PrintReverse
 ms.assetid: bdbe8ff9-5d9b-a8b6-e479-338f4d2b67dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintReverse`
+_expression_. `PrintReverse`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.PrintReverse = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Reverse print order** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Reverse print order** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

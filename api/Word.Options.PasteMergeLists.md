@@ -3,12 +3,11 @@ title: Options.PasteMergeLists property (Word)
 keywords: vbawd10.chm162988482
 f1_keywords:
 - vbawd10.chm162988482
-ms.prod: word
 api_name:
 - Word.Options.PasteMergeLists
 ms.assetid: 82989419-32c6-6a70-685f-eae11de50cae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteMergeLists`
+_expression_. `PasteMergeLists`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

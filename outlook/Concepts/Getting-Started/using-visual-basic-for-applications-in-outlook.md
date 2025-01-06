@@ -3,10 +3,9 @@ title: Using Visual Basic for Applications in Outlook
 keywords: vbaol11.chm5274249
 f1_keywords:
 - vbaol11.chm5274249
-ms.prod: outlook
 ms.assetid: 3dd39c7c-7b90-9c19-490f-258d795787e2
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,7 @@ You use the Visual Basic Editor to create and remove modules, to design User For
 
 ## Managing Multiple Visual Basic for Applications Projects
 
-Outlook supports only one Visual Basic for Applications project, Project1, at a time. You cannot add and run another project in the Visual Basic Editor at the same time. Project1 is stored on your hard disk as VbaProject.OTM; each user on the same computer can have a copy of VbaProject.OTM stored for him or her. On a computer running Windows XP, VbaProject.OTM is in <drive>:\Documents and Settings\<user>\Application Data\Microsoft\Outlook.
+Outlook supports only one Visual Basic for Applications project, Project1, at a time. You cannot add and run another project in the Visual Basic Editor at the same time. Project1 is stored on your hard disk as VbaProject.OTM; each user on the same computer can have a copy of VbaProject.OTM stored for him or her. On a computer running Windows XP, VbaProject.OTM is in \<drive>:\Documents and Settings\<user>\Application Data\Microsoft\Outlook.
 
 Because you can run only one Visual Basic for Applications project at a time, before you run a different project, you should exit Outlook, rename the current VbaProject.OTM with a different file name, name the project you want to run as VbaProject.OTM, and restart Outlook to run it. If appropriate, you can also manually integrate the projects to form one VbaProject.OTM to avoid the file naming and renaming.
 

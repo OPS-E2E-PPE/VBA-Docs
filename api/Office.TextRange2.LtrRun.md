@@ -1,11 +1,10 @@
 ---
 title: TextRange2.LtrRun method (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.LtrRun
 ms.assetid: 519f23a7-550f-b155-9e49-113933ce0434
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

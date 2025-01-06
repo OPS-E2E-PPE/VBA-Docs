@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.AutoShapeType Property (Project)
-ms.prod: project-server
+title: ShapeRange.AutoShapeType property (Project)
+ms.service: project-server
 ms.assetid: d51dc0bc-eb86-a20b-1bb6-b530e2ca448e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.AutoShapeType Property (Project)
-Gets or sets the shape type for the  **ShapeRange** object, which must represent an AutoShape other than a line, freeform drawing, or connector. Read/write **MsoAutoShapeType**.
+# ShapeRange.AutoShapeType property (Project)
+Gets or sets the shape type for the **ShapeRange** object, which must represent an AutoShape other than a line, freeform drawing, or connector. Read/write **MsoAutoShapeType**.
 
 ## Syntax
 
- _expression_. `AutoShapeType`
+_expression_.**AutoShapeType**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Remarks

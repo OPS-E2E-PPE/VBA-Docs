@@ -3,12 +3,11 @@ title: Exists method (Visual Basic for Applications)
 keywords: vblr6.chm2181949
 f1_keywords:
 - vblr6.chm2181949
-ms.prod: office
 api_name:
 - Office.Exists
 ms.assetid: 2892065c-f892-5337-c789-e1e5b556768b
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns **True** if a specified key exists in the **[Dictionary](dictionary-obje
 ## Syntax
 
 _object_.**Exists** (_key_)
-
-<br/>
 
 The **Exists** method syntax has these parts:
 

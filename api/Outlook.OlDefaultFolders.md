@@ -1,18 +1,17 @@
 ---
-title: OlDefaultFolders Enumeration (Outlook)
+title: OlDefaultFolders enumeration (Outlook)
 keywords: vbaol11.chm3055
 f1_keywords:
 - vbaol11.chm3055
-ms.prod: outlook
 api_name:
 - Outlook.OlDefaultFolders
 ms.assetid: 1a17abd8-09b9-d3e1-2d93-0a4d5580a950
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# OlDefaultFolders Enumeration (Outlook)
+# OlDefaultFolders enumeration (Outlook)
 
 Specifies the folder type for a specified folder.
 

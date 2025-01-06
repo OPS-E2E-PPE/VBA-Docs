@@ -3,12 +3,11 @@ title: CommandButton.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.CommandButton.BorderThemeColorIndex
 ms.assetid: 497b2f7a-9b17-79ed-1ad9-fc990f6b9c7d
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

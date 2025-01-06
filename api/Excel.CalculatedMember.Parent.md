@@ -3,12 +3,11 @@ title: CalculatedMember.Parent property (Excel)
 keywords: vbaxl10.chm685075
 f1_keywords:
 - vbaxl10.chm685075
-ms.prod: excel
 api_name:
 - Excel.CalculatedMember.Parent
 ms.assetid: a4286ebc-cbcb-98e5-0f05-26ec32e04fba
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [CalculatedMember](Excel.CalculatedMember.md) object.
+_expression_ A variable that represents a **[CalculatedMember](Excel.CalculatedMember.md)** object.
 
 
-## See also
 
-
-[CalculatedMember Object](Excel.CalculatedMember.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

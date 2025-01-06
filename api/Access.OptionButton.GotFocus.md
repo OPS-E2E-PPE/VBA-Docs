@@ -3,12 +3,11 @@ title: OptionButton.GotFocus event (Access)
 keywords: vbaac10.chm14138
 f1_keywords:
 - vbaac10.chm14138
-ms.prod: access
 api_name:
 - Access.OptionButton.GotFocus
 ms.assetid: f0a02ae3-b90e-2193-3c59-c0f018ace680
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Attachment.Dirty event (Access)
 keywords: vbaac10.chm14023
 f1_keywords:
 - vbaac10.chm14023
-ms.prod: access
 api_name:
 - Access.Attachment.Dirty
 ms.assetid: d211238b-cbe4-f0ef-471b-33c1ced1aa9b
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ This event applies only to bound forms, not an unbound form or report.
     
 To run a macro or event procedure when this event occurs, set the **[OnDirty](access.attachment.ondirty.md)** property to the name of the macro or to [Event Procedure].
 
-Canceling the **Dirty** event will cause the changes to the current record to be rolled back. It is equivalent to pressing the Esc key.
+Canceling the **Dirty** event will cause the changes to the current record to be rolled back. It's equivalent to pressing the Esc key.
 
 
 

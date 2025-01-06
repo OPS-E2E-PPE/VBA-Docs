@@ -1,10 +1,10 @@
 ---
 title: SmartDocument members (Office)
 description: The SmartDocument property of the Document object in Word and the Workbook object in Excel returns a  SmartDocument object.
-ms.prod: office
+ms.service: office
 ms.assetid: 980de42d-6992-6107-a3fb-33e8c78da202
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

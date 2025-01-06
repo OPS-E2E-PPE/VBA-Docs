@@ -3,10 +3,9 @@ title: FileAttr function (Visual Basic for Applications)
 keywords: vblr6.chm1008919
 f1_keywords:
 - vblr6.chm1008919
-ms.prod: office
 ms.assetid: 368baa57-40ed-306c-3371-96691d071aed
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Long](../../Glossary/vbe-glossary.md#long-data-type) representing the
 ## Syntax
 
 **FileAttr**(_filenumber_, _returntype_)
-
-<br/>
 
 The **FileAttr** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

@@ -3,18 +3,17 @@ title: Page.Name property (Access)
 keywords: vbaac10.chm12173
 f1_keywords:
 - vbaac10.chm12173
-ms.prod: access
 api_name:
 - Access.Page.Name
 ms.assetid: fcf25a8e-3dc8-77e8-1969-3b672b8b94ec
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Page.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -3,10 +3,9 @@ title: TopIndex property example
 keywords: fm20.chm5225130
 f1_keywords:
 - fm20.chm5225130
-ms.prod: office
 ms.assetid: 6b88e7dd-1b2f-0b1a-2348-986bf97461c9
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

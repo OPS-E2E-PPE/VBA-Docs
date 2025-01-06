@@ -1,27 +1,26 @@
 ---
-title: DocumentWindow.LargeScroll Method (PowerPoint)
+title: DocumentWindow.LargeScroll method (PowerPoint)
 keywords: vbapp10.chm511017
 f1_keywords:
 - vbapp10.chm511017
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DocumentWindow.LargeScroll
 ms.assetid: b74ecd74-acec-0d36-68c7-1848a99fe4c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentWindow.LargeScroll Method (PowerPoint)
+# DocumentWindow.LargeScroll method (PowerPoint)
 
 Scrolls through the specified document window by pages.
 
 
 ## Syntax
 
- _expression_. `LargeScroll`( `_Down_`, `_Up_`, `_ToRight_`, `_ToLeft_` )
+_expression_.**LargeScroll** (_Down_, _Up_, _ToRight_, _ToLeft_)
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Parameters

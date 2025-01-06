@@ -3,12 +3,11 @@ title: Borders.Parent property (Excel)
 keywords: vbaxl10.chm180075
 f1_keywords:
 - vbaxl10.chm180075
-ms.prod: excel
 api_name:
 - Excel.Borders.Parent
 ms.assetid: 43a8a82d-d2b9-59d3-36b2-97ffffea6cdb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Borders](Excel.Borders.md) object.
+_expression_ A variable that represents a **[Borders](Excel.Borders.md)** object.
 
 
-## See also
 
-
-[Borders Collection](Excel.Borders.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

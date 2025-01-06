@@ -3,12 +3,11 @@ title: Document.AcceptAllRevisionsShown method (Word)
 keywords: vbawd10.chm158007668
 f1_keywords:
 - vbawd10.chm158007668
-ms.prod: word
 api_name:
 - Word.Document.AcceptAllRevisionsShown
 ms.assetid: bd9634cf-239a-2543-3681-579d4dd2f202
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Accepts all revisions in the specified document that are displayed on the screen
 
 ## Syntax
 
- _expression_. `AcceptAllRevisionsShown`
+_expression_. `AcceptAllRevisionsShown`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **RejectAllRevisionsShown** method to reject all revisions in a specified document that are displayed on the screen.
+Use the **RejectAllRevisionsShown** method to reject all revisions in a specified document that are displayed on the screen.
 
 
 ## Example

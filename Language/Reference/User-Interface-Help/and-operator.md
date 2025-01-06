@@ -3,10 +3,9 @@ title: And operator
 keywords: vblr6.chm1008852
 f1_keywords:
 - vblr6.chm1008852
-ms.prod: office
 ms.assetid: 523e8cd3-f27c-2ec5-62e8-e95686a9f9ac
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,8 +40,6 @@ If both expressions evaluate to **True**, _result_ is **True**. If either expres
 |**Null**|**True**|**Null**|
 |**Null**|**False**|**False**|
 |**Null**|**Null**|**Null**|
-
-<br/>
 
 The **And** operator also performs a [bitwise comparison](../../Glossary/vbe-glossary.md#bitwise-comparison) of identically positioned bits in two [numeric expressions](../../Glossary/vbe-glossary.md#numeric-expression) and sets the corresponding bit in _result_ according to the following table:
 

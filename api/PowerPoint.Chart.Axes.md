@@ -1,38 +1,36 @@
 ---
-title: Chart.Axes Method (PowerPoint)
+title: Chart.Axes method (PowerPoint)
 keywords: vbapp10.chm684016
 f1_keywords:
 - vbapp10.chm684016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.Axes
 ms.assetid: 6f740a9e-2baa-5a84-ea51-6a39452e227e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.Axes Method (PowerPoint)
+# Chart.Axes method (PowerPoint)
 
 Returns a collection of axes on the chart.
 
 
 ## Syntax
 
- _expression_. `Axes`( `_Type_`, `_AxisGroup_` )
+_expression_.**Axes** (_Type_, _AxisGroup_)
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Optional|**Variant**|The axis to return. Can be one of the following  **[xlAxisType](PowerPoint.XlAxisType.md)** constants: **xlValue**, **xlCategory**, or **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3-D charts).|
-| _AxisGroup_|Optional|**[xlAxisGroup](PowerPoint.XlAxisGroup.md)**|One of the enumeration values that specifies the axis group. The default is  **xlPrimary**.
- **Note**  3-D charts have only one axis group.
+| _Type_|Optional|**Variant**|The axis to return. Can be one of the following **[XlAxisType](PowerPoint.XlAxisType.md)** constants: **xlValue**, **xlCategory**, or **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3D charts).|
+| _AxisGroup_|Optional|**[XlAxisGroup](PowerPoint.XlAxisGroup.md)**|One of the enumeration values that specifies the axis group. The default is **xlPrimary**.
+> [!NOTE] 
+> 3D charts have only one axis group.
 
 |
 
@@ -46,7 +44,8 @@ An [Axes](PowerPoint.Axes.md) object that contains the selected axes from the ch
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds an axis label to the category axis for the first chart in the active document.
 

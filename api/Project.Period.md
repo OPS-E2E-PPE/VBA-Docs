@@ -1,24 +1,24 @@
 ---
-title: Period Object (Project)
-ms.prod: project-server
+title: Period object (Project)
+ms.service: project-server
 api_name:
 - Project.Period
 ms.assetid: 84358c72-024f-e608-9424-8e9c6bad7259
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Period Object (Project)
+# Period object (Project)
 
 
  
 
-Represents a period in a calendar. There is no collection for  **Period** objects.
+Represents a period in a calendar. There is no collection for **Period** objects.
  
  **Using the Period Object**
  
-Use the  **[Period](Project.Calendar.Period.md)** method to return a **Period** object. The following example sets P as an object reference to the last week in September 2002.
+Use the **[Period](Project.Calendar.Period.md)** method to return a **Period** object. The following example sets P as an object reference to the last week in September 2002.
  
 
 ## Methods

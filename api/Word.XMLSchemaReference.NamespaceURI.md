@@ -3,23 +3,22 @@ title: XMLSchemaReference.NamespaceURI property (Word)
 keywords: vbawd10.chm32505858
 f1_keywords:
 - vbawd10.chm32505858
-ms.prod: word
 api_name:
 - Word.XMLSchemaReference.NamespaceURI
 ms.assetid: 4081b67e-45d9-13f4-4faa-bcd92c2533b6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLSchemaReference.NamespaceURI property (Word)
 
-Returns a  **String** that represents the Uniform Resource Identifier (URI) of the schema namespace for the specified object. Read-only.
+Returns a **String** that represents the Uniform Resource Identifier (URI) of the schema namespace for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `NamespaceURI`
+_expression_. `NamespaceURI`
 
  _expression_ An expression that returns a [XMLSchemaReference](./Word.XMLSchemaReference.md) object.
 
@@ -34,7 +33,8 @@ If you are authoring XML schemas for use with Microsoft Word, it is highly recom
 The following example reloads the SimpleSample schema or, if the schema is not attached to the active document, attaches it.
 
 
- **Note**  The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
+> [!NOTE] 
+> The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
 
 
 ```vb

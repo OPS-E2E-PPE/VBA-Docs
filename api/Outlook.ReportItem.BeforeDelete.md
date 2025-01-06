@@ -1,24 +1,23 @@
 ---
-title: ReportItem.BeforeDelete Event (Outlook)
-ms.prod: outlook
+title: ReportItem.BeforeDelete event (Outlook)
 api_name:
 - Outlook.ReportItem.BeforeDelete
 ms.assetid: 2fca7e89-39b3-73c4-715a-003921a055cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportItem.BeforeDelete Event (Outlook)
+# ReportItem.BeforeDelete event (Outlook)
 
 Occurs before an item (which is an instance of the parent object) is deleted.
 
 
 ## Syntax
 
-_expression_. `BeforeDelete`( `_Item_` , `_Cancel_` )
+_expression_.**BeforeDelete** (_Item_, _Cancel_)
 
-_expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) object.
+_expression_ A variable that represents a [ReportItem](Outlook.ReportItem.md) object.
 
 
 ## Parameters
@@ -28,7 +27,7 @@ _expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required| **Object**|The item being deleted.|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the item is not deleted.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the item is not deleted.|
 
 ## Remarks
 

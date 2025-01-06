@@ -3,12 +3,11 @@ title: Paragraphs.KeepTogether property (Word)
 keywords: vbawd10.chm156762214
 f1_keywords:
 - vbawd10.chm156762214
-ms.prod: word
 api_name:
 - Word.Paragraphs.KeepTogether
 ms.assetid: 9134a865-5157-a911-417e-190f8b2072cc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `KeepTogether`
+_expression_. `KeepTogether`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-This property can be  **True** , **False** , or **wdUndefined**.
+This property can be **True**, **False**, or **wdUndefined**.
 
 
 ## Example

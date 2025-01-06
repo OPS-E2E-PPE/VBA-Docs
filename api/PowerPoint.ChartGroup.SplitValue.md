@@ -1,27 +1,26 @@
 ---
-title: ChartGroup.SplitValue Property (PowerPoint)
+title: ChartGroup.SplitValue property (PowerPoint)
 keywords: vbapp10.chm692004
 f1_keywords:
 - vbapp10.chm692004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroup.SplitValue
 ms.assetid: a5698b4c-3833-d1e5-98d6-d49b19c7cbb5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.SplitValue Property (PowerPoint)
+# ChartGroup.SplitValue property (PowerPoint)
 
-Returns or sets the threshold value separating the two sections of either a pie-of-pie chart or a bar-of-pie chart. Read/write  **Variant**.
+Returns or sets the threshold value separating the two sections of either a pie-of-pie chart or a bar-of-pie chart. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `SplitValue`
+_expression_.**SplitValue**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Example
@@ -29,7 +28,8 @@ _expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example splits the two sections of the chart by value, combining all values under 10 in the primary pie and displaying them in the secondary section. You must run this example on either a pie-of-pie chart or a bar-of-pie chart. 
 

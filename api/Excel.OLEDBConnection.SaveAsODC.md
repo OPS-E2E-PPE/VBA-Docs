@@ -3,30 +3,27 @@ title: OLEDBConnection.SaveAsODC method (Excel)
 keywords: vbaxl10.chm794089
 f1_keywords:
 - vbaxl10.chm794089
-ms.prod: excel
 api_name:
 - Excel.OLEDBConnection.SaveAsODC
 ms.assetid: da83acf3-c935-c36f-944e-35b46e54cabf
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/02/2019
+ms.localizationpriority: medium
 ---
 
 
 # OLEDBConnection.SaveAsODC method (Excel)
 
-Saves the OLE DB connection as an Microsoft Office Data Connection file.
+Saves the OLE DB connection as a Microsoft Office Data Connection file.
 
 
 ## Syntax
 
-_expression_. `SaveAsODC`( `_ODCFileName_` , `_Description_` , `_Keywords_` )
+_expression_.**SaveAsODC** (_ODCFileName_, _Description_, _Keywords_)
 
-_expression_ A variable that represents an [OLEDBConnection](Excel.OLEDBConnection.md) object.
+_expression_ A variable that represents an **[OLEDBConnection](Excel.OLEDBConnection.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,8 +33,7 @@ _expression_ A variable that represents an [OLEDBConnection](Excel.OLEDBConnecti
 
 ## Example
 
-The following example saves the connection as an ODC file titled "ODCFile". This example assumes an OLE DB connection exists on the active worksheet.
-
+The following example saves the connection as an ODC file titled ODCFile. This example assumes that an OLE DB connection exists on the active worksheet.
 
 ```vb
 Sub UseSaveAsODC() 
@@ -48,9 +44,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[OLEDBConnection Object](Excel.OLEDBConnection.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

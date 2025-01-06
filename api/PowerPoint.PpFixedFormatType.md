@@ -1,17 +1,16 @@
 ---
-title: PpFixedFormatType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpFixedFormatType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpFixedFormatType
 ms.assetid: f7fcd263-8c00-65f8-cd66-cd22af7e2e87
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpFixedFormatType Enumeration (PowerPoint)
+# PpFixedFormatType enumeration (PowerPoint)
 
-Constants that specify the type of fixed-format file to export, passed to the  **ExportAsFixedFormat** method of the **Presentation** object.
+Constants that specify the type of fixed-format file to export, passed to the **ExportAsFixedFormat** method of the **Presentation** object.
 
 
 

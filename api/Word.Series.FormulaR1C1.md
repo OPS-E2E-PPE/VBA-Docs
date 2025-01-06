@@ -3,25 +3,24 @@ title: Series.FormulaR1C1 property (Word)
 keywords: vbawd10.chm123732232
 f1_keywords:
 - vbawd10.chm123732232
-ms.prod: word
 api_name:
 - Word.Series.FormulaR1C1
 ms.assetid: 6bca114d-91fc-8808-dda3-b5ae3621f535
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Series.FormulaR1C1 property (Word)
 
-Returns or sets the formula for the object, using R1C1-style notation in the language of the macro. Read/write  **String**.
+Returns or sets the formula for the object, using R1C1-style notation in the language of the macro. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaR1C1`
+_expression_.**FormulaR1C1**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks

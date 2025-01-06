@@ -3,12 +3,11 @@ title: PageNumbers.RestartNumberingAtSection property (Word)
 keywords: vbawd10.chm159776774
 f1_keywords:
 - vbawd10.chm159776774
-ms.prod: word
 api_name:
 - Word.PageNumbers.RestartNumberingAtSection
 ms.assetid: b960fc7d-78f7-ec23-d429-7ee9820e8340
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `RestartNumberingAtSection`
+_expression_. `RestartNumberingAtSection`
 
  _expression_ An expression that returns a '[PageNumbers](Word.pagenumbers.md)' collection object.
 
 
 ## Remarks
 
-If set to  **False** , the **RestartNumberingAtSection** property will override the **[StartingNumber](Word.PageNumbers.StartingNumber.md)** property so that page numbering can continue from the previous section.
+If set to **False**, the **RestartNumberingAtSection** property will override the **[StartingNumber](Word.PageNumbers.StartingNumber.md)** property so that page numbering can continue from the previous section.
 
 
 ## Example

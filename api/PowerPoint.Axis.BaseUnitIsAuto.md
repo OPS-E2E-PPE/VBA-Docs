@@ -1,25 +1,24 @@
 ---
-title: Axis.BaseUnitIsAuto Property (PowerPoint)
+title: Axis.BaseUnitIsAuto property (PowerPoint)
 keywords: vbapp10.chm682034
 f1_keywords:
 - vbapp10.chm682034
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.BaseUnitIsAuto
 ms.assetid: 3cc90d1a-a87f-ac57-b2a2-bf3ccc964a8e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.BaseUnitIsAuto Property (PowerPoint)
+# Axis.BaseUnitIsAuto property (PowerPoint)
 
  **True** if Microsoft Word chooses appropriate base units for the specified category axis. The default is **True**. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `BaseUnitIsAuto`
+_expression_.**BaseUnitIsAuto**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
@@ -34,7 +33,8 @@ You cannot set this property for a value axis.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the category axis for the first chart in the active document to use a time scale, with the base unit automatically chosen by Word.
 

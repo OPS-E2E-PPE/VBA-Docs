@@ -3,12 +3,11 @@ title: TextBox.KeyUp event (Access)
 keywords: vbaac10.chm14208
 f1_keywords:
 - vbaac10.chm14208
-ms.prod: access
 api_name:
 - Access.TextBox.KeyUp
 ms.assetid: 2219075d-92e5-a472-c16a-8a99dfd991c2
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

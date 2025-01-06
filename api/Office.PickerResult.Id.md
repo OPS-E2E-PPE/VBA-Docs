@@ -3,12 +3,11 @@ title: PickerResult.Id property (Office)
 keywords: vbaof11.chm338001
 f1_keywords:
 - vbaof11.chm338001
-ms.prod: office
 api_name:
 - Office.PickerResult.Id
 ms.assetid: aed3a8be-416d-757d-7fee-d22a96d8295f
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

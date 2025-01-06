@@ -1,18 +1,14 @@
 ---
 title: WdRevisionsMarkup enumeration (Word)
-ms.prod: word
 ms.assetid: 034785ce-5dc5-1f99-3d4d-cd41fc486c31
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WdRevisionsMarkup enumeration (Word)
 
-Constants that represent the extent of markup visible in the document, returned by and passed to the [RevisionsFilter.Markup](Word.revisionsfilter.markup.md) property.
-
-
-## Members
+Specifies the extent of markup visible in the document, returned by and passed to the [RevisionsFilter.Markup](Word.revisionsfilter.markup.md) property.
 
 
 

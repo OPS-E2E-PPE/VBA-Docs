@@ -3,25 +3,24 @@ title: HeadingStyle.Level property (Word)
 keywords: vbawd10.chm160104450
 f1_keywords:
 - vbawd10.chm160104450
-ms.prod: word
 api_name:
 - Word.HeadingStyle.Level
 ms.assetid: 6a322568-ebcb-4ee4-2123-a94b3f97bc1a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HeadingStyle.Level property (Word)
 
-Returns or sets the level for the heading style in a table of contents or table of figures. Read/write  **Integer**.
+Returns or sets the level for the heading style in a table of contents or table of figures. Read/write **Integer**.
 
 
 ## Syntax
 
- _expression_. `Level`
+_expression_. `Level`
 
- _expression_ Required. A variable that represents a '[HeadingStyle](Word.HeadingStyle.md)' object.
+_expression_ Required. A variable that represents a '[HeadingStyle](Word.HeadingStyle.md)' object.
 
 
 ## Example

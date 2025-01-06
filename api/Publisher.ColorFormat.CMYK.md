@@ -1,27 +1,26 @@
 ---
-title: ColorFormat.CMYK Property (Publisher)
+title: ColorFormat.CMYK property (Publisher)
 keywords: vbapb10.chm2555907
 f1_keywords:
 - vbapb10.chm2555907
-ms.prod: publisher
 api_name:
 - Publisher.ColorFormat.CMYK
 ms.assetid: 28d7ad65-c63c-3b11-3ecc-c77a1a586b84
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# ColorFormat.CMYK Property (Publisher)
+# ColorFormat.CMYK property (Publisher)
 
-Returns a  **ColorCMYK** object that represents CMYK color properties.
+Returns a **[ColorCMYK](Publisher.ColorCMYK.md)** object that represents CMYK color properties.
 
 
 ## Syntax
 
- _expression_. **CMYK**
+_expression_.**CMYK**
 
- _expression_ A variable that represents a  **ColorFormat** object.
+_expression_ A variable that represents a **[ColorFormat](Publisher.ColorFormat.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ ColorCMYK
 
 ## Example
 
-This example creates two new shapes and then sets the CMYK fill color for one shape and sets the CMYK values of the second shape to the same CMYK values.
-
+This example creates two new shapes, and then sets the CMYK fill color for one shape and the CMYK values of the second shape to the same CMYK values.
 
 ```vb
 Sub ReturnAndSetCMYK() 

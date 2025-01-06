@@ -1,29 +1,29 @@
 ---
-title: PredecessorDrivers.Parent Property (Project)
-ms.prod: project-server
+title: PredecessorDrivers.Parent property (Project)
+ms.service: project-server
 api_name:
 - Project.PredecessorDrivers.Parent
 ms.assetid: ef4efae1-c5d7-4fe0-0841-2506a2b1a4db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PredecessorDrivers.Parent Property (Project)
+# PredecessorDrivers.Parent property (Project)
 
-Gets the parent of the  **PredecessorDrivers** object. Read-only **Task**.
+Gets the parent of the **PredecessorDrivers** object. Read-only **Task**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a 'PredecessorDrivers' object.
+_expression_ A variable that represents a 'PredecessorDrivers' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

@@ -3,12 +3,11 @@ title: Paragraphs.IncreaseSpacing method (Word)
 keywords: vbawd10.chm156762447
 f1_keywords:
 - vbawd10.chm156762447
-ms.prod: word
 api_name:
 - Word.Paragraphs.IncreaseSpacing
 ms.assetid: d0416601-5616-0e93-540f-f09e192b0c91
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Increases the spacing before and after paragraphs in six-point increments.
 
 ## Syntax
 
- _expression_. `IncreaseSpacing`
+_expression_. `IncreaseSpacing`
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Example

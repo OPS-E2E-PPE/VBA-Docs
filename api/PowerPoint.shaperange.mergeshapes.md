@@ -1,25 +1,24 @@
 ---
-title: ShapeRange.MergeShapes Method (PowerPoint)
+title: ShapeRange.MergeShapes method (PowerPoint)
 keywords: vbapp10.chm547093
 f1_keywords:
 - vbapp10.chm547093
 ms.assetid: fea16a4d-9ee2-83fb-e5f5-00640d133d3b
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.MergeShapes Method (PowerPoint)
+# ShapeRange.MergeShapes method (PowerPoint)
 
 Combines all of the shapes in the range to create a single new shape.
 
 
 ## Syntax
 
- _expression_. `MergeShapes`_(MergeCmd,_ _PrimaryShape)_
+_expression_. `MergeShapes`_(MergeCmd,_ _PrimaryShape)_
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Parameters

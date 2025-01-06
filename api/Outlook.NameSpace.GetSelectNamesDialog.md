@@ -1,20 +1,19 @@
 ---
-title: NameSpace.GetSelectNamesDialog Method (Outlook)
+title: NameSpace.GetSelectNamesDialog method (Outlook)
 keywords: vbaol11.chm781
 f1_keywords:
 - vbaol11.chm781
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.GetSelectNamesDialog
 ms.assetid: 883d90e0-b3cc-e76e-cbe6-cb271e9ccb37
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.GetSelectNamesDialog Method (Outlook)
+# NameSpace.GetSelectNamesDialog method (Outlook)
 
-Obtains a  **[SelectNamesDialog](Outlook.SelectNamesDialog.md)** object for the current session.
+Obtains a **[SelectNamesDialog](Outlook.SelectNamesDialog.md)** object for the current session.
 
 
 ## Syntax
@@ -26,12 +25,12 @@ _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' ob
 
 ## Return value
 
-A  **SelectNamesDialog** object for the current session. The **SelectNamesDialog** object supports displaying the **Select Names** dialog box for the user to select entries from one or more address lists in the current session.
+A **SelectNamesDialog** object for the current session. The **SelectNamesDialog** object supports displaying the **Select Names** dialog box for the user to select entries from one or more address lists in the current session.
 
 
 ## Example
 
-The following code sample shows how to instantiate an instance of  **SelectNamesDialog** for the current session, and use it to display entries from the Contacts folder in a dialog box that resembles the **Select Names** dialog box in the Outlook user interface.
+The following code sample shows how to instantiate an instance of **SelectNamesDialog** for the current session, and use it to display entries from the Contacts folder in a dialog box that resembles the **Select Names** dialog box in the Outlook user interface.
 
 
 ```vb

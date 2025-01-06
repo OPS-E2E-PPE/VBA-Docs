@@ -3,18 +3,17 @@ title: DoCmd object (Access)
 keywords: vbaac10.chm4241
 f1_keywords:
 - vbaac10.chm4241
-ms.prod: access
 api_name:
 - Access.DoCmd
 ms.assetid: 3ce44cca-9979-0a1e-9787-079a52ce528f
 ms.date: 03/06/2019
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
 # DoCmd object (Access)
 
-You can use the methods of the **DoCmd** object to run Microsoft Office Access actions from Visual Basic. An action performs tasks such as closing windows, opening forms, and setting the value of controls.
+Use the methods of the **DoCmd** object to run Microsoft Office Access actions from Visual Basic. An action performs tasks such as closing windows, opening forms, and setting the value of controls.
 
 
 ## Remarks

@@ -3,12 +3,11 @@ title: PivotTables.Parent property (Excel)
 keywords: vbaxl10.chm237075
 f1_keywords:
 - vbaxl10.chm237075
-ms.prod: excel
 api_name:
 - Excel.PivotTables.Parent
 ms.assetid: f05e06c9-f465-e1d3-3b5a-d1afa847d25e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/07/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [PivotTables](Excel.PivotTables.md) object.
+_expression_ A variable that represents a **[PivotTables](Excel.PivotTables.md)** object.
 
 
-## See also
 
-
-[PivotTables Object](Excel.PivotTables.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

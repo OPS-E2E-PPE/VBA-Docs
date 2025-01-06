@@ -1,15 +1,15 @@
 ---
-title: PjBarShape Enumeration (Project)
-ms.prod: project-server
+title: PjBarShape enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjBarShape
 ms.assetid: 057356dc-9cab-fbdc-563e-f81cc54a2c33
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjBarShape Enumeration (Project)
+# PjBarShape enumeration (Project)
 
 Contains constants that specify the middle shape of a bar.
 

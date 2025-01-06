@@ -3,12 +3,11 @@ title: Range.PrintPreview method (Excel)
 keywords: vbaxl10.chm144182
 f1_keywords:
 - vbaxl10.chm144182
-ms.prod: excel
 api_name:
 - Excel.Range.PrintPreview
 ms.assetid: b429a45c-864f-1c48-0775-1cf240f6e7ac
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/11/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,18 +18,16 @@ Shows a preview of the object as it would look when printed.
 
 ## Syntax
 
-_expression_. `PrintPreview`( `_EnableChanges_` )
+_expression_.**PrintPreview** (_EnableChanges_)
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _EnableChanges_|Optional| **Variant**|Pass a  **Boolean** value to specify if the user can change the margins and other page setup options available in print preview.|
+| _EnableChanges_|Optional| **Variant**|Pass a **Boolean** value to specify if the user can change the margins and other page setup options available in print preview.|
 
 ## Return value
 
@@ -41,15 +38,11 @@ Variant
 
 This example displays Sheet1 in print preview.
 
-
 ```vb
 Worksheets("Sheet1").PrintPreview
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: Selection.GetIDs method (Visio)
 keywords: vis_sdr.chm11160200
 f1_keywords:
 - vis_sdr.chm11160200
-ms.prod: visio
 api_name:
 - Visio.Selection.GetIDs
 ms.assetid: 79b1fb3f-eb53-2640-a988-6e79b067f228
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ Gets the shape IDs of the shapes in the selection.
 
 _expression_.**GetIDs**(_ShapeIDs()_)
 
-_expression_ An expression that returns a [Selection](Visio.Selection.md) object.
+_expression_ An expression that returns a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters

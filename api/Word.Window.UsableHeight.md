@@ -3,30 +3,29 @@ title: Window.UsableHeight property (Word)
 keywords: vbawd10.chm157417504
 f1_keywords:
 - vbawd10.chm157417504
-ms.prod: word
 api_name:
 - Word.Window.UsableHeight
 ms.assetid: 7b6458ba-41fa-d742-74e7-a606eb862a70
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Window.UsableHeight property (Word)
 
-Returns the height (in points) of the active working area in the specified document window. Read-only  **Long**. .
+Returns the height (in points) of the active working area in the specified document window. Read-only **Long**. .
 
 
 ## Syntax
 
- _expression_. `UsableHeight`
+_expression_.**UsableHeight**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-If none of the working area is visible in the document window,  **UsableHeight** returns 1. To determine the actual available height, subtract 1 from the **UsableHeight** value.
+If none of the working area is visible in the document window, **UsableHeight** returns 1. To determine the actual available height, subtract 1 from the **UsableHeight** value.
 
 
 ## Example

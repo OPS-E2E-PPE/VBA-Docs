@@ -3,12 +3,11 @@ title: Row.IsFirst property (Word)
 keywords: vbawd10.chm156237835
 f1_keywords:
 - vbawd10.chm156237835
-ms.prod: word
 api_name:
 - Word.Row.IsFirst
 ms.assetid: 5efc4afa-cd5d-e9f2-b77e-b1375fa258d7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsFirst`
+_expression_. `IsFirst`
 
- _expression_ Required. A variable that represents a '[Row](Word.Row.md)' object.
+_expression_ Required. A variable that represents a '[Row](Word.Row.md)' object.
 
 
 ## Example

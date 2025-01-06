@@ -1,27 +1,26 @@
 ---
-title: ThreeDFormat.RotationX Property (PowerPoint)
+title: ThreeDFormat.RotationX property (PowerPoint)
 keywords: vbapp10.chm557016
 f1_keywords:
 - vbapp10.chm557016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ThreeDFormat.RotationX
 ms.assetid: 8c434ef8-1364-5989-71da-e96ddfbd15ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ThreeDFormat.RotationX Property (PowerPoint)
+# ThreeDFormat.RotationX property (PowerPoint)
 
 Returns or sets the rotation of the extruded shape around the x-axis, in degrees. Read/write.
 
 
 ## Syntax
 
- _expression_. `RotationX`
+_expression_. `RotationX`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -33,16 +32,16 @@ Single
 
 Can be a value from - 90 through 90. A positive value indicates upward rotation; a negative value indicates downward rotation.
 
-To set the rotation of the extruded shape around the y-axis, use the  **[RotationY](PowerPoint.ThreeDFormat.RotationY.md)** property of the **ThreeDFormat** object.
+To set the rotation of the extruded shape around the y-axis, use the **[RotationY](PowerPoint.ThreeDFormat.RotationY.md)** property of the **ThreeDFormat** object.
 
-To set the rotation of the extruded shape around the z-axis, use the  **[Rotation](PowerPoint.Shape.Rotation.md)** property of the **[Shape](PowerPoint.Shape.md)** object.
+To set the rotation of the extruded shape around the z-axis, use the **[Rotation](PowerPoint.Shape.Rotation.md)** property of the **[Shape](PowerPoint.Shape.md)** object.
 
-To change the direction of the extrusion's sweep path without rotating the front face of the extrusion, use the  **[SetExtrusionDirection](PowerPoint.ThreeDFormat.SetExtrusionDirection.md)** method.
+To change the direction of the extrusion's sweep path without rotating the front face of the extrusion, use the **[SetExtrusionDirection](PowerPoint.ThreeDFormat.SetExtrusionDirection.md)** method.
 
 
 ## Example
 
-This example adds three identical extruded ovals to  `myDocument` and sets their rotation around the x-axis to - 30, 0, and 30 degrees, respectively.
+This example adds three identical extruded ovals to _myDocument_ and sets their rotation around the x-axis to - 30, 0, and 30 degrees, respectively.
 
 
 ```vb

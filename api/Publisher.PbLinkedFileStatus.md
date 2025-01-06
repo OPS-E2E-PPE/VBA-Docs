@@ -1,18 +1,17 @@
 ---
-title: PbLinkedFileStatus Enumeration (Publisher)
+title: PbLinkedFileStatus enumeration (Publisher)
 keywords: vbapb10.chm65582
 f1_keywords:
 - vbapb10.chm65582
-ms.prod: publisher
 api_name:
 - Publisher.PbLinkedFileStatus
 ms.assetid: 269a265e-a1b6-7497-cc44-9605d0f0a490
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbLinkedFileStatus Enumeration (Publisher)
+# PbLinkedFileStatus enumeration (Publisher)
 
 Indicates the status of the file linked to the specified picture. 
 

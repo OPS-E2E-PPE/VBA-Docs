@@ -1,11 +1,10 @@
 ---
 title: CommandBarControl.Tag property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarControl.Tag
 ms.assetid: d528c260-09dc-9cb2-d8ce-8476f91ebc7b
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ To avoid duplicate calls of the same class when triggered with events, define th
 Public WithEvents oBtn As CommandBarButton 
  
 Private Sub oBtn_click(ByVal ctrl As Office.CommandBarButton, CancelDefault As Boolean) 
-    MsgBox "Clicked " &amp; ctrl.Caption 
+    MsgBox "Clicked " & ctrl.Caption 
  
 End Sub 
  
@@ -53,17 +52,15 @@ Sub Use_Tag()
         Set oEvt = New CBtnEvent 
         Set oEvt.oBtn = Application.CommandBars("Worksheet Menu Bar").Controls.Add(msoControlButton) 
         With oEvt.oBtn 
-            .Caption = "Btn" &amp; i 
+            .Caption = "Btn" & i 
             .Style = msoButtonCaption 
-            .Tag = "Hello" &amp; i 
+            .Tag = "Hello" & i 
         End With 
         oBtns.Add oEvt 
     Next 
       
 End Sub
 ```
-
-<br/>
 
 This example sets the tag for the button on the custom command bar to **Spelling Button** and displays the tag in a message box.
 

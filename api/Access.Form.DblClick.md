@@ -3,12 +3,11 @@ title: Form.DblClick event (Access)
 keywords: vbaac10.chm13651
 f1_keywords:
 - vbaac10.chm13651
-ms.prod: access
 api_name:
 - Access.Form.DblClick
 ms.assetid: bac58ee6-3fd8-696e-67d2-ab533760de11
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -56,7 +55,7 @@ When you double-click a command button, the following events occur in this order
 
 > **MouseDown** → **MouseUp** → **Click** → **DblClick** → **MouseUp** → **Click**
 
-The second click may have no effect (for example, if the **Click** macro or event procedure opens a modal dialog box in response to the first **Click** event). To prevent the second **Click** macro or event procedure from running, put a **CancelEvent** action in the **DblClick** macro, or use the _Cancel_ argument in the **DblClick** event procedure. Note that, generally speaking, double-clicking a command button should be discouraged.
+The second click may have no effect (for example, if the **Click** macro or event procedure opens a modal dialog box in response to the first **Click** event). To prevent the second **Click** macro or event procedure from running, put a CancelEvent action in the **DblClick** macro, or use the _Cancel_ argument in the **DblClick** event procedure. Note that, generally speaking, double-clicking a command button should be discouraged.
 
 If you double-click any other control besides a command button, the second **Click** event doesn't occur.
 

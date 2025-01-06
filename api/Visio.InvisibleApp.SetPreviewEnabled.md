@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.SetPreviewEnabled Method (Visio)
+title: InvisibleApp.SetPreviewEnabled method (Visio)
 keywords: vis_sdr.chm17562105
 f1_keywords:
 - vis_sdr.chm17562105
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.SetPreviewEnabled
 ms.assetid: c84a2f51-0019-8f3b-26b6-ecd593a4cbe5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.SetPreviewEnabled Method (Visio)
+# InvisibleApp.SetPreviewEnabled method (Visio)
 
 Turns preview on or off for a gallery in the Microsoft Visio user interface.
 
 
 ## Syntax
 
- _expression_. `SetPreviewEnabled`( `_GalleryName_` , `_OnOrOff_` )
+_expression_.**SetPreviewEnabled** (_GalleryName_, _OnOrOff_)
 
- _expression_ A variable that represents an '[InvisibleApp](Visio.InvisibleApp.md)' object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Parameters

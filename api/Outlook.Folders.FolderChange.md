@@ -1,27 +1,26 @@
 ---
-title: Folders.FolderChange Event (Outlook)
+title: Folders.FolderChange event (Outlook)
 keywords: vbaol11.chm309
 f1_keywords:
 - vbaol11.chm309
-ms.prod: outlook
 api_name:
 - Outlook.Folders.FolderChange
 ms.assetid: cd379b87-6fb7-bfa4-544a-0c406a170832
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Folders.FolderChange Event (Outlook)
+# Folders.FolderChange event (Outlook)
 
-Occurs when a folder in the specified  **[Folders](Outlook.Folders.md)** collection is changed.
+Occurs when a folder in the specified **[Folders](Outlook.Folders.md)** collection is changed.
 
 
 ## Syntax
 
 _expression_. `FolderChange`( `_Folder_` )
 
-_expression_ A variable that represents a [Folders](./Outlook.Folders.md) object.
+_expression_ A variable that represents a [Folders](Outlook.Folders.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [Folders](./Outlook.Folders.md) object
 
 ## Remarks
 
-The  **FolderChange** event fires when a folder in a **Folders** collection object is changed, either through user action or program code. The change can be a user or program code renaming the folder, or adding, changing, or removing an item in the folder. This event is not available in Microsoft Visual Basic Scripting Edition (VBScript).
+The **FolderChange** event fires when a folder in a **Folders** collection object is changed, either through user action or program code. The change can be a user or program code renaming the folder, or adding, changing, or removing an item in the folder. This event is not available in Microsoft Visual Basic Scripting Edition (VBScript).
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example prompts the user to remove a folder from the  **Deleted Items** folder if the folder is empty. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Microsoft Visual Basic for Applications (VBA) example prompts the user to remove a folder from the **Deleted Items** folder if the folder is empty. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

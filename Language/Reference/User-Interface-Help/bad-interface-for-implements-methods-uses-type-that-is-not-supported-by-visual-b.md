@@ -3,16 +3,15 @@ title: "Bad interface for Implements: methods uses type that is not supported by
 keywords: vblr6.chm1057164
 f1_keywords:
 - vblr6.chm1057164
-ms.prod: office
 ms.assetid: b932f58b-b15b-ee6a-e1ca-973ff2060717
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bad interface for Implements: methods uses type that is not supported by Visual Basic
 
-The  **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
+The **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
 
 
 

@@ -1,29 +1,29 @@
 ---
-title: Project.Type Property (Project)
-ms.prod: project-server
+title: Project.Type property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Type
 ms.assetid: 13393b8e-283d-d816-283e-f363b83eac91
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Type Property (Project)
+# Project.Type property (Project)
 
-Gets the type of a project. Read-only  **PjProjectType**.
+Gets the type of a project. Read-only **PjProjectType**.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **Type** property can be one of the **[PjProjectType](Project.PjProjectType.md)** constants.
+The **Type** property can be one of the **[PjProjectType](Project.PjProjectType.md)** constants.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: CanvasShapes.AddPicture method (Word)
 keywords: vbawd10.chm7536655
 f1_keywords:
 - vbawd10.chm7536655
-ms.prod: word
 api_name:
 - Word.CanvasShapes.AddPicture
 ms.assetid: 445a19cf-1388-34d7-69d8-778d889d917f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CanvasShapes.AddPicture method (Word)
 
-Adds a picture to a drawing canvas. Returns a  **Shape** object that represents the picture and adds it to the **CanvasShapes** collection.
+Adds a picture to a drawing canvas. Returns a **Shape** object that represents the picture and adds it to the **CanvasShapes** collection.
 
 
 ## Syntax
 
- _expression_. `AddPicture`( `_FileName_` , `_LinkToFile_` , `_SaveWithDocument_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_. `AddPicture`( `_FileName_` , `_LinkToFile_` , `_SaveWithDocument_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
 
- _expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## Parameters

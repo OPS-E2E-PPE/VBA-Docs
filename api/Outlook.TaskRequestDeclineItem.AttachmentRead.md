@@ -1,15 +1,14 @@
 ---
-title: TaskRequestDeclineItem.AttachmentRead Event (Outlook)
-ms.prod: outlook
+title: TaskRequestDeclineItem.AttachmentRead event (Outlook)
 api_name:
 - Outlook.TaskRequestDeclineItem.AttachmentRead
 ms.assetid: 96131b01-5d23-d5d6-e6d4-df6c2e88fe3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.AttachmentRead Event (Outlook)
+# TaskRequestDeclineItem.AttachmentRead event (Outlook)
 
 Occurs when an attachment in an instance of the parent object has been opened for reading.
 
@@ -18,7 +17,7 @@ Occurs when an attachment in an instance of the parent object has been opened fo
 
 _expression_. `AttachmentRead`( `_Attachment_` )
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.Tas
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was opened.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was opened.|
 
 ## Example
 
-This Visual Basic for Applications (VBA) example displays a message when the user tries to read an attachment. The sample code must be placed in a class module such as  `ThisOutlookSession`, and the  `TestAttachRead()` procedure should be called before the event procedure can be called by Microsoft Outlook. For this example to run, there has to be at least one item in the Inbox with subject as 'Test' and containing at least one attachment.
+This Visual Basic for Applications (VBA) example displays a message when the user tries to read an attachment. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `TestAttachRead()` procedure should be called before the event procedure can be called by Microsoft Outlook. For this example to run, there has to be at least one item in the Inbox with subject as 'Test' and containing at least one attachment.
 
 
 ```vb

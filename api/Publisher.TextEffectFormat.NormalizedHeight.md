@@ -1,27 +1,26 @@
 ---
-title: TextEffectFormat.NormalizedHeight Property (Publisher)
+title: TextEffectFormat.NormalizedHeight property (Publisher)
 keywords: vbapb10.chm3735814
 f1_keywords:
 - vbapb10.chm3735814
-ms.prod: publisher
 api_name:
 - Publisher.TextEffectFormat.NormalizedHeight
 ms.assetid: 2b62fe23-9204-7449-1d4e-73e73def5df0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextEffectFormat.NormalizedHeight Property (Publisher)
+# TextEffectFormat.NormalizedHeight property (Publisher)
 
 Specifies whether all characters (both uppercase and lowercase) in the specified WordArt are the same height. Read/write.
 
 
 ## Syntax
 
- _expression_. **NormalizedHeight**
+_expression_.**NormalizedHeight**
 
- _expression_ A variable that represents a  **TextEffectFormat** object.
+_expression_ A variable that represents a **[TextEffectFormat](Publisher.TextEffectFormat.md)** object.
 
 
 ## Return value
@@ -31,9 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The  **NormalizedHeight** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library and shown in the following table.
-
-
+The **NormalizedHeight** property value can be one of the **[MsoTriState](Office.MsoTriState.md)** constants declared in the Microsoft Office type library and shown in the following table.
 
 |Constant|Description|
 |:-----|:-----|
@@ -42,8 +39,7 @@ The  **NormalizedHeight** property value can be one of the **MsoTriState** const
 
 ## Example
 
-This example creates a new WordArt shape on the first page of the active publication and then sets each character in the shape to be the same height.
-
+This example creates a new WordArt shape on the first page of the active publication, and then sets each character in the shape to be the same height.
 
 ```vb
 Sub SetNormalHeight() 

@@ -3,12 +3,11 @@ title: Bookmark.Column property (Word)
 keywords: vbawd10.chm157810693
 f1_keywords:
 - vbawd10.chm157810693
-ms.prod: word
 api_name:
 - Word.Bookmark.Column
 ms.assetid: 09c819bf-e7cd-caa0-106f-8a149b4c42f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Column`
+_expression_.**Column**
 
- _expression_ Required. A variable that represents a '[Bookmark](Word.Bookmark.md)' object.
+_expression_ Required. A variable that represents a **[Bookmark](Word.Bookmark.md)** object.
 
 
 ## Example

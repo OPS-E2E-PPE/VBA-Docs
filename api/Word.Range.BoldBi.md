@@ -3,25 +3,24 @@ title: Range.BoldBi property (Word)
 keywords: vbawd10.chm157155728
 f1_keywords:
 - vbawd10.chm157155728
-ms.prod: word
 api_name:
 - Word.Range.BoldBi
 ms.assetid: 80a4e893-0337-41ef-5a45-506deea43f29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.BoldBi property (Word)
 
- **True** if the font or range is formatted as bold. Returns **True** , **False** , or **wdUndefined** (for a mixture of bold and non-bold text). Can be set to **True** , **False** , or **wdToggle**. Read/write **Long**.
+**True** if the font or range is formatted as bold. Returns **True**, **False**, or **wdUndefined** (for a mixture of bold and non-bold text). Can be set to **True**, **False**, or **wdToggle**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `BoldBi`
+_expression_.**BoldBi**
 
- _expression_ An expression that returns a '[Range](Word.Range.md)' object.
+_expression_ An expression that returns a **[Range](Word.Range.md)** object.
 
 
 ## Example

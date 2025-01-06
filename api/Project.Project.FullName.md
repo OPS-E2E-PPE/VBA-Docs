@@ -1,29 +1,29 @@
 ---
-title: Project.FullName Property (Project)
-ms.prod: project-server
+title: Project.FullName property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.FullName
 ms.assetid: ae8cea25-f365-d8ae-e119-929a61a9c110
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.FullName Property (Project)
+# Project.FullName property (Project)
 
-Gets the path and file name of a project. Read-only  **String**.
+Gets the path and file name of a project. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `FullName`
+_expression_.**FullName**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **FullName** property returns the project name (as seen in the title bar) for an unsaved project.
+The **FullName** property returns the project name (as seen in the title bar) for an unsaved project.
 
 
 ## Example

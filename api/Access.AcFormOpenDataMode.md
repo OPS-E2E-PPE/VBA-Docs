@@ -3,20 +3,17 @@ title: AcFormOpenDataMode enumeration (Access)
 keywords: vbaac10.chm10021
 f1_keywords:
 - vbaac10.chm10021
-ms.prod: access
 api_name:
 - Access.AcFormOpenDataMode
 ms.assetid: 24c39abb-154c-39cd-3097-77be75fe917c
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcFormOpenDataMode enumeration (Access)
 
 Specifies the data entry mode of a form.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

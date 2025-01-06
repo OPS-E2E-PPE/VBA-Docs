@@ -3,10 +3,9 @@ title: TakeFocusOnClick property example
 keywords: fm20.chm5225119
 f1_keywords:
 - fm20.chm5225119
-ms.prod: office
 ms.assetid: fdc5a590-eee9-0ab2-aead-f3c02abf0eab
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

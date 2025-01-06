@@ -3,10 +3,9 @@ title: Find a variable definition
 keywords: vbhw6.chm1105208
 f1_keywords:
 - vbhw6.chm1105208
-ms.prod: office
 ms.assetid: 4fe8a696-b99e-238e-257e-f69b93d48cb4
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

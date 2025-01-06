@@ -3,10 +3,9 @@ title: UPDATEIDENTITY (Microsoft Access SQL reserved word)
 keywords: jetsql40.chm5277493
 f1_keywords:
 - jetsql40.chm5277493
-ms.prod: access
 ms.assetid: f227996b-a666-5015-03f5-03936dc42ca1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,8 +15,8 @@ localization_priority: Normal
 
 The UPDATEIDENTITY keyword is used in these contexts:
 
-- [GRANT statement](http://msdn.microsoft.com/library/50ae97ae-d5be-57e5-d9da-f3fc42f01d83%28Office.15%29.aspx)
-- [REVOKE statement](http://msdn.microsoft.com/library/69399fd6-c4e8-f2e2-e5f4-48ae779323f5%28Office.15%29.aspx)
+- [GRANT statement](https://msdn.microsoft.com/library/50ae97ae-d5be-57e5-d9da-f3fc42f01d83%28Office.15%29.aspx)
+- [REVOKE statement](https://msdn.microsoft.com/library/69399fd6-c4e8-f2e2-e5f4-48ae779323f5%28Office.15%29.aspx)
 
 
 ## See also

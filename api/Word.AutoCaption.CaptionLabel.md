@@ -3,30 +3,29 @@ title: AutoCaption.CaptionLabel property (Word)
 keywords: vbawd10.chm159055875
 f1_keywords:
 - vbawd10.chm159055875
-ms.prod: word
 api_name:
 - Word.AutoCaption.CaptionLabel
 ms.assetid: 8e4864e4-e42b-ccc0-9611-eda7753089f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AutoCaption.CaptionLabel property (Word)
 
-Returns or sets the caption label ("Figure," "Table," or "Equation," for example) of the specified caption. Read/write  **Variant**.
+Returns or sets the caption label ("Figure," "Table," or "Equation," for example) of the specified caption. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `CaptionLabel`
+_expression_. `CaptionLabel`
 
- _expression_ A variable that represents an '[AutoCaption](Word.AutoCaption.md)' object.
+_expression_ A variable that represents an '[AutoCaption](Word.AutoCaption.md)' object.
 
 
 ## Remarks
 
-This property can be set to a string or a  **WdCaptionLabelID** constant.
+This property can be set to a string or a **WdCaptionLabelID** constant.
 
 
 ## Example

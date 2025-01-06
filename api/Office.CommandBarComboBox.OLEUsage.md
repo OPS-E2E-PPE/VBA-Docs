@@ -1,11 +1,10 @@
 ---
 title: CommandBarComboBox.OLEUsage property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.OLEUsage
 ms.assetid: 3da25257-6ffe-a00e-bada-79c6245286b7
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

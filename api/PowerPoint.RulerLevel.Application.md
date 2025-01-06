@@ -1,27 +1,26 @@
 ---
-title: RulerLevel.Application Property (PowerPoint)
+title: RulerLevel.Application property (PowerPoint)
 keywords: vbapp10.chm572001
 f1_keywords:
 - vbapp10.chm572001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.RulerLevel.Application
 ms.assetid: e55c46d0-4929-3ab5-4e36-ce0f706c1588
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RulerLevel.Application Property (PowerPoint)
+# RulerLevel.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [RulerLevel](./PowerPoint.RulerLevel.md) object.
+_expression_ A variable that represents a [RulerLevel](PowerPoint.RulerLevel.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

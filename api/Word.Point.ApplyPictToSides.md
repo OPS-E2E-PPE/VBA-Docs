@@ -3,12 +3,11 @@ title: Point.ApplyPictToSides property (Word)
 keywords: vbawd10.chm262145659
 f1_keywords:
 - vbawd10.chm262145659
-ms.prod: word
 api_name:
 - Word.Point.ApplyPictToSides
 ms.assetid: 6f12c8f9-ec8f-18ca-9e77-ddc09a9be167
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ApplyPictToSides`
+_expression_.**ApplyPictToSides**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Example

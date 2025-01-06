@@ -3,12 +3,11 @@ title: Files collection
 keywords: vblr6.chm2181926
 f1_keywords:
 - vblr6.chm2181926
-ms.prod: office
 api_name:
 - Office.Files
 ms.assetid: 1c69f6df-debc-448a-6f22-a2a41d069dc4
 ms.date: 11/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

@@ -1,32 +1,29 @@
 ---
-title: ContainerProperties.GetMemberState Method (Visio)
+title: ContainerProperties.GetMemberState method (Visio)
 keywords: vis_sdr.chm17662330
 f1_keywords:
 - vis_sdr.chm17662330
-ms.prod: visio
 api_name:
 - Visio.ContainerProperties.GetMemberState
 ms.assetid: 04103f79-7f28-7584-3bab-0c1d140f6b52
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContainerProperties.GetMemberState Method (Visio)
+# ContainerProperties.GetMemberState method (Visio)
 
 Returns the membership state of the specified shape with respect to the container shape.
 
 
 ## Syntax
 
- _expression_. `GetMemberState`( `_Shape_` )
+_expression_.**GetMemberState** (_Shape_)
 
- _expression_ A variable that represents a '[ContainerProperties](Visio.ContainerProperties.md)' object.
+_expression_ A variable that represents a **[ContainerProperties](Visio.ContainerProperties.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,9 +36,7 @@ Returns the membership state of the specified shape with respect to the containe
 
 ## Remarks
 
- **GetMemberState** can return one of the following **VisContainerMemberState** constants.
-
-
+**GetMemberState** can return one of the following **VisContainerMemberState** constants.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

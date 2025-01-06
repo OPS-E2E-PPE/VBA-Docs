@@ -3,10 +3,9 @@ title: Collections, controls, and objects (Microsoft Forms)
 keywords: fm20.chm5225255
 f1_keywords:
 - fm20.chm5225255
-ms.prod: office
 ms.assetid: dafc5e84-6a80-4822-86f5-f502b402b3c2
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,11 +3,10 @@ title: Chart.SecondaryValuesAxisTitle property (Access)
 keywords: vbaac10.chm6163
 f1_keywords:
 - vbaac10.chm6163
-ms.prod: access
 api_name:
 - Access.Chart.SecondaryValuesAxisTitle
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

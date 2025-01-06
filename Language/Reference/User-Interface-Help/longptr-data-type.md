@@ -3,10 +3,9 @@ title: LongPtr data type
 keywords: vblr6.chm1009053
 f1_keywords:
 - vblr6.chm1009053
-ms.prod: office
 ms.assetid: 10ee4c07-b686-5b86-5cea-250a9218e7ba
 ms.date: 11/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

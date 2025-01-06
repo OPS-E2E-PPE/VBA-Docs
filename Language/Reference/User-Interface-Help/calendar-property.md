@@ -3,12 +3,11 @@ title: Calendar property (Visual Basic for Applications)
 keywords: vblr6.chm1117202
 f1_keywords:
 - vblr6.chm1117202
-ms.prod: office
 api_name:
 - Office.Calendar
 ms.assetid: ca321712-934e-2aee-46b8-b2895be362ea
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ localization_priority: Normal
 
 Returns or sets a value specifying the type of calendar to use with your [project](../../Glossary/vbe-glossary.md#project).
 
-You can use one of two settings for **Calendar**.
+Use one of two settings for **Calendar**.
 
 |Setting|Value|Description|
 |:-----|:-----|:-----|

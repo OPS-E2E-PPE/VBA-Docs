@@ -3,12 +3,11 @@ title: Application.ResetIgnoreAll method (Word)
 keywords: vbawd10.chm158335302
 f1_keywords:
 - vbawd10.chm158335302
-ms.prod: word
 api_name:
 - Word.Application.ResetIgnoreAll
 ms.assetid: 8a6dcb30-23bb-70bb-e257-e519bc63a289
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Clears the list of words that were previously ignored during a spelling check.
 
 ## Syntax
 
- _expression_. `ResetIgnoreAll`
+_expression_. `ResetIgnoreAll`
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks

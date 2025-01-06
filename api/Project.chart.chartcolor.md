@@ -1,28 +1,29 @@
 ---
-title: Chart.ChartColor Property (Project)
-ms.prod: project-server
+title: Chart.ChartColor property (Project)
+ms.service: project-server
 ms.assetid: bd8b5b9c-abfe-761b-a4bd-2978c43b9565
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ChartColor Property (Project)
-Gets or sets the index of chart colors for the active chart. Read/write  **Variant**.
+# Chart.ChartColor property (Project)
+Gets or sets the index of chart colors for the active chart. Read/write **Variant**.
 
 ## Syntax
 
- _expression_. `ChartColor`
+_expression_. `ChartColor`
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Remarks
 
-The  **ChartColor** property corresponds to a selection in the **Change Colors** drop-down list, which is on the ribbon under **Chart Tools**, on the  **Format** tab, in the **ChartStyles** group.
+The **ChartColor** property corresponds to a selection in the **Change Colors** drop-down list, which is on the ribbon under **Chart Tools**, on the **Format** tab, in the **ChartStyles** group.
 
 
- **Note**  The  **Colors** drop-down list on the ribbon under **REPORT TOOLS**, on the  **DESIGN** tab, in the **Themes** group, changes the color theme of the entire report, including any charts on the report. The VBA object model in Project does not support the control for report theme colors.
+> [!NOTE] 
+> The **Colors** drop-down list on the ribbon under **REPORT TOOLS**, on the **DESIGN** tab, in the **Themes** group, changes the color theme of the entire report, including any charts on the report. The VBA object model in Project does not support the control for report theme colors.
 
 
 ## Example

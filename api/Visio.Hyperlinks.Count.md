@@ -1,27 +1,26 @@
 ---
-title: Hyperlinks.Count Property (Visio)
+title: Hyperlinks.Count property (Visio)
 keywords: vis_sdr.chm15613330
 f1_keywords:
 - vis_sdr.chm15613330
-ms.prod: visio
 api_name:
 - Visio.Hyperlinks.Count
 ms.assetid: c460e4ee-679c-b6ed-3c60-e0735bc81815
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks.Count Property (Visio)
+# Hyperlinks.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Hyperlinks](./Visio.Hyperlinks.md) object.
+_expression_ A variable that represents a **[Hyperlinks](Visio.Hyperlinks.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb

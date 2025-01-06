@@ -1,33 +1,31 @@
 ---
-title: Plates.Count Property (Publisher)
+title: Plates.Count property (Publisher)
 keywords: vbapb10.chm2818050
 f1_keywords:
 - vbapb10.chm2818050
-ms.prod: publisher
 api_name:
 - Publisher.Plates.Count
 ms.assetid: f042ff71-c649-e4a9-eb69-9d2b084b6e56
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Plates.Count Property (Publisher)
+# Plates.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **Plates** object.
+_expression_ A variable that represents a **[Plates](Publisher.Plates.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

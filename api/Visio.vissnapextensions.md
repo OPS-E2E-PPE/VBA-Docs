@@ -1,23 +1,22 @@
 ---
-title: VisSnapExtensions Enumeration (Visio)
+title: VisSnapExtensions enumeration (Visio)
 keywords: vis_sdr.chm70325
 f1_keywords:
 - vis_sdr.chm70325
-ms.prod: visio
 ms.assetid: 6d5ee226-abdf-b513-22ef-78c9063acadf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisSnapExtensions Enumeration (Visio)
+# VisSnapExtensions enumeration (Visio)
 
-Flags passed to or returned by the  **Document.SnapExtensions** property.
+Flags passed to or returned by the **Document.SnapExtensions** property.
 
 
 ## Remarks
 
-The  **VisSnapExtensions** constants specify the snap extensions currently active in the document.
+The **VisSnapExtensions** constants specify the snap extensions currently active in the document.
 
 
 

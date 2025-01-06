@@ -3,12 +3,11 @@ title: ScopeFolder.Name property (Office)
 keywords: vbaof11.chm259001
 f1_keywords:
 - vbaof11.chm259001
-ms.prod: office
 api_name:
 - Office.ScopeFolder.Name
 ms.assetid: da1cc239-2988-2b57-11d1-8313ae3d5566
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -46,7 +45,7 @@ Dim sf As ScopeFolder
  Set sf = SearchScopes.Item(1).ScopeFolder 
  strScopeFolder = sf.Name 
  
- MsgBox ("The name of the folder that will be searched is " &amp; strScopeFolder) 
+ MsgBox ("The name of the folder that will be searched is " & strScopeFolder) 
 
 ```
 

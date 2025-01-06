@@ -1,15 +1,14 @@
 ---
-title: XlConstants Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlConstants enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlConstants
 ms.assetid: fe30391f-83ee-3259-620f-d1224ab92d5f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlConstants Enumeration (PowerPoint)
+# XlConstants enumeration (PowerPoint)
 
 Specifies a miscellaneous constant in Microsoft Word.
 

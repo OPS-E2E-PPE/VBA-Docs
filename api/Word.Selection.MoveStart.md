@@ -3,12 +3,11 @@ title: Selection.MoveStart method (Word)
 keywords: vbawd10.chm158662766
 f1_keywords:
 - vbawd10.chm158662766
-ms.prod: word
 api_name:
 - Word.Selection.MoveStart
 ms.assetid: c58f4dd5-791b-ac0f-8445-29e0ade48d7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the start position of the specified selection.
 
 ## Syntax
 
- _expression_. `MoveStart`( `_Unit_` , `_Count_` )
+_expression_. `MoveStart`( `_Unit_` , `_Count_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Moves the start position of the specified selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **WdUnits**|The unit by which start position of the specified selection is to be moved. Can be one of the  **WdUnits** constants. The default value is **wdCharacter**.|
+| _Unit_|Optional| **WdUnits**|The unit by which start position of the specified selection is to be moved. Can be one of the **WdUnits** constants. The default value is **wdCharacter**.|
 | _Count_|Optional| **Variant**|The maximum number of units by which the specified selection is to be moved. If Count is a positive number, the start position of the selection is moved forward in the document. If it is a negative number, the start position is moved backward. If the start position is moved forward to a position beyond the end position, the selection is collapsed and both the start and end positions are moved together. The default value is 1.|
 
 ## Return value

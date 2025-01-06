@@ -1,11 +1,10 @@
 ---
 title: RulerLevels2.Application property (Office)
-ms.prod: office
 api_name:
 - Office.RulerLevels2.Application
 ms.assetid: 174eba7d-38d8-6389-5a83-bb5a2cd2613b
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,10 +3,9 @@ title: "'item' designers must be public and cannot be used in Standard EXE proje
 keywords: vblr6.chm50338
 f1_keywords:
 - vblr6.chm50338
-ms.prod: office
 ms.assetid: 11ede297-c49f-1a3c-60f4-32bff25174d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ This error has the following causes and solutions:
 
 
 
-- The indicated designer's  **Instancing** property must be set to **Public**. The designer cannot be used in standard .exe projects.
+- The indicated designer's **Instancing** property must be set to **Public**. The designer cannot be used in standard .exe projects.
     
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).

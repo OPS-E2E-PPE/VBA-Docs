@@ -3,25 +3,24 @@ title: GroupShapes.Range method (Word)
 keywords: vbawd10.chm162922506
 f1_keywords:
 - vbawd10.chm162922506
-ms.prod: word
 api_name:
 - Word.GroupShapes.Range
 ms.assetid: 6d1b5a69-686a-b384-d6cc-cb79201b28d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # GroupShapes.Range method (Word)
 
-Returns a  **ShapeRange** object.
+Returns a **ShapeRange** object.
 
 
 ## Syntax
 
- _expression_. `Range`( `_Index_` )
+_expression_.**Range** (_Index_)
 
- _expression_ Required. A variable that represents a '[GroupShapes](Word.groupshapes.md)' collection.
+_expression_ Required. A variable that represents a '[GroupShapes](Word.groupshapes.md)' collection.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a  **ShapeRange** object.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required| **Variant**|Specifies which shapes are to be included in the specified range. Can be an integer that specifies the index number of a shape within the  **Shapes** collection, a string that specifies the name of a shape, or a array that contains integers or strings.|
+| _Index_|Required| **Variant**|Specifies which shapes are to be included in the specified range. Can be an integer that specifies the index number of a shape within the **Shapes** collection, a string that specifies the name of a shape, or a array that contains integers or strings.|
 
 ## Return value
 
@@ -41,7 +40,7 @@ ShapeRange
 
  **ShapeRange** objects don't include **InlineShape** objects. An **InlineShape** object is equivalent to a character and is positioned as a character within a range of text. **Shape** objects are anchored to a range of text (the selection, by default), but they can be positioned anywhere on the page. A **Shape** object will always appear on the same page as the range it is anchored to.
 
-Most operations that you can do with a  **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
+Most operations that you can do with a **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
 
 
 ## Example

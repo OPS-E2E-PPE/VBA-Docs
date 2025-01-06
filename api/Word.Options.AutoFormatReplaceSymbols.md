@@ -3,12 +3,11 @@ title: Options.AutoFormatReplaceSymbols property (Word)
 keywords: vbawd10.chm162988287
 f1_keywords:
 - vbawd10.chm162988287
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatReplaceSymbols
 ms.assetid: 58a1c811-2fd8-92a9-1f85-6d9beb4223ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatReplaceSymbols`
+_expression_. `AutoFormatReplaceSymbols`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.AutoFormatReplaceSymbols = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the Symbol characters (--) with symbols (—) option on the  **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the Symbol characters (--) with symbols (—) option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

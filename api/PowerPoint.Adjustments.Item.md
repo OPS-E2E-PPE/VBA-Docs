@@ -1,27 +1,26 @@
 ---
-title: Adjustments.Item Property (PowerPoint)
+title: Adjustments.Item property (PowerPoint)
 keywords: vbapp10.chm550003
 f1_keywords:
 - vbapp10.chm550003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Adjustments.Item
 ms.assetid: 54cc6850-0fe8-8887-2acc-dc91085b7451
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Adjustments.Item Property (PowerPoint)
+# Adjustments.Item property (PowerPoint)
 
 Returns or sets the adjustment value specified by the Index argument. Read/write.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [Adjustments](./PowerPoint.Adjustments.md) object.
+_expression_ A variable that represents an [Adjustments](PowerPoint.Adjustments.md) object.
 
 
 ## Parameters
@@ -39,14 +38,14 @@ Single
 
 ## Remarks
 
-For linear adjustments, an adjustment value of 0.0 generally corresponds to the left or top edge of the shape, and a value of 1.0 generally corresponds to the right or bottom edge of the shape. However, adjustments can pass beyond shape boundaries for some shapes. For radial adjustments, an adjustment value of 1.0 corresponds to the width of the shape. For angular adjustments, the adjustment value is specified in degrees. The  **Item** property applies only to shapes that have adjustments.
+For linear adjustments, an adjustment value of 0.0 generally corresponds to the left or top edge of the shape, and a value of 1.0 generally corresponds to the right or bottom edge of the shape. However, adjustments can pass beyond shape boundaries for some shapes. For radial adjustments, an adjustment value of 1.0 corresponds to the width of the shape. For angular adjustments, the adjustment value is specified in degrees. The **Item** property applies only to shapes that have adjustments.
 
 AutoShapes, connectors, and WordArt objects can have up to eight adjustments.
 
 
 ## Example
 
-This example adds two crosses to  `myDocument` and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
+This example adds two crosses to _myDocument_ and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
 
 
 ```vb
@@ -61,7 +60,7 @@ With myDocument.Shapes
 End With
 ```
 
-This example has the same result as the previous example even though it doesn't explicitly use the  **Item** property.
+This example has the same result as the previous example even though it doesn't explicitly use the **Item** property.
 
 
 

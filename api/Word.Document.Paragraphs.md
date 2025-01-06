@@ -3,30 +3,29 @@ title: Document.Paragraphs property (Word)
 keywords: vbawd10.chm158007312
 f1_keywords:
 - vbawd10.chm158007312
-ms.prod: word
 api_name:
 - Word.Document.Paragraphs
 ms.assetid: ad60de6b-6287-8ea0-142e-8795f623aa29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Paragraphs property (Word)
 
-Returns a  **Paragraphs** collection that represents all the paragraphs in the specified document. Read-only.
+Returns a **Paragraphs** collection that represents all the paragraphs in the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Paragraphs`
+_expression_. `Paragraphs`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

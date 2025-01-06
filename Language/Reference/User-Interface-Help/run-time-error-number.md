@@ -3,14 +3,13 @@ title: "Run-time error <number>:"
 keywords: vblr6.chm1040195
 f1_keywords:
 - vblr6.chm1040195
-ms.prod: office
 ms.assetid: 2ab42a36-2a83-e092-c6ec-11679af0f4b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Run-time error <number>:
+# Run-time error \<number>:
 
 This error is user-defined, and has the following cause and solution:
 

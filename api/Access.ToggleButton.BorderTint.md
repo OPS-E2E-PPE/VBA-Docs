@@ -3,12 +3,11 @@ title: ToggleButton.BorderTint property (Access)
 keywords: vbaac10.chm14602
 f1_keywords:
 - vbaac10.chm14602
-ms.prod: access
 api_name:
 - Access.ToggleButton.BorderTint
 ms.assetid: 5d60c105-a765-5865-66b5-b236de827960
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

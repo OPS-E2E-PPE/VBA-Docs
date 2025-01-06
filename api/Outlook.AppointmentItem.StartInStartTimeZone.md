@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.StartInStartTimeZone Property (Outlook)
+title: AppointmentItem.StartInStartTimeZone property (Outlook)
 keywords: vbaol11.chm3273
 f1_keywords:
 - vbaol11.chm3273
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.StartInStartTimeZone
 ms.assetid: 4735816e-2c3b-816c-434d-8d7ea42fec81
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.StartInStartTimeZone Property (Outlook)
+# AppointmentItem.StartInStartTimeZone property (Outlook)
 
-Returns or sets a  **Date** value that represents the start date and time of the appointment expressed in the **[AppointmentItem.StartTimeZone](Outlook.AppointmentItem.StartTimeZone.md)**. Read/write.
+Returns or sets a **Date** value that represents the start date and time of the appointment expressed in the **[AppointmentItem.StartTimeZone](Outlook.AppointmentItem.StartTimeZone.md)**. Read/write.
 
 
 ## Syntax
 
 _expression_. `StartInStartTimeZone`
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Remarks
 
-This is the value displayed as  **Start time** in the appointment inspector user interface.
+This is the value displayed as **Start time** in the appointment inspector user interface.
 
 
 ## See also

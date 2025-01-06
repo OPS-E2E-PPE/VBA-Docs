@@ -1,27 +1,26 @@
 ---
-title: NameSpace.CreateRecipient Method (Outlook)
+title: NameSpace.CreateRecipient method (Outlook)
 keywords: vbaol11.chm760
 f1_keywords:
 - vbaol11.chm760
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.CreateRecipient
 ms.assetid: 7134c0d7-5f60-c63c-2dde-492d52b78fbe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.CreateRecipient Method (Outlook)
+# NameSpace.CreateRecipient method (Outlook)
 
-Creates a  **[Recipient](Outlook.Recipient.md)** object.
+Creates a **[Recipient](Outlook.Recipient.md)** object.
 
 
 ## Syntax
 
 _expression_. `CreateRecipient`( `_RecipientName_` )
 
-_expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) ob
 
 ## Return value
 
-A  **Recipient** object that represents the new recipient.
+A **Recipient** object that represents the new recipient.
 
 
 ## Remarks
@@ -44,7 +43,7 @@ A  **Recipient** object that represents the new recipient.
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[GetSharedDefaultFolder](Outlook.NameSpace.GetSharedDefaultFolder.md)** method to resolve the **[Recipient](Outlook.Recipient.md)** object representing Dan Wilson, and then returns Dan's shared default **Calendar** folder. To run this example, replace 'Dan Wilson' with a valid recipient name and make sure the calendar is shared and you have permissions to view the calendar.
+This Visual Basic for Applications (VBA) example uses the **[GetSharedDefaultFolder](Outlook.NameSpace.GetSharedDefaultFolder.md)** method to resolve the **[Recipient](Outlook.Recipient.md)** object representing Dan Wilson, and then returns Dan's shared default **Calendar** folder. To run this example, replace 'Dan Wilson' with a valid recipient name and make sure the calendar is shared and you have permissions to view the calendar.
 
 
 ```vb

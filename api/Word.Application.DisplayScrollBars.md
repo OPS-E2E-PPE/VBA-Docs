@@ -3,12 +3,11 @@ title: Application.DisplayScrollBars property (Word)
 keywords: vbawd10.chm158335058
 f1_keywords:
 - vbawd10.chm158335058
-ms.prod: word
 api_name:
 - Word.Application.DisplayScrollBars
 ms.assetid: 23b3957a-e4c1-b422-836a-074f84ff2f8e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayScrollBars`
+_expression_. `DisplayScrollBars`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Setting the  **DisplayScrollBars** property to **True** displays horizontal and vertical scroll bars in all windows. Setting this property to **False** turns off all scroll bars in all windows.
+Setting the **DisplayScrollBars** property to **True** displays horizontal and vertical scroll bars in all windows. Setting this property to **False** turns off all scroll bars in all windows.
 
-Use the  **DisplayHorizontalScrollBar** and **DisplayVerticalScrollBar** properties to display individual scroll bars in the specified window.
+Use the **DisplayHorizontalScrollBar** and **DisplayVerticalScrollBar** properties to display individual scroll bars in the specified window.
 
 
 ## Example
@@ -40,7 +39,7 @@ This example displays horizontal and vertical scroll bars in all windows.
 Application.DisplayScrollBars = True
 ```
 
-This example returns True if there is a scroll bar currently displayed in any window.
+This example returns **True** if there is a scroll bar currently displayed in any window.
 
 
 

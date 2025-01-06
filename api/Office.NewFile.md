@@ -3,12 +3,11 @@ title: NewFile object (Office)
 keywords: vbaof11.chm235000
 f1_keywords:
 - vbaof11.chm235000
-ms.prod: office
 api_name:
 - Office.NewFile
 ms.assetid: 6f53ced5-4488-b67f-ca1f-729aeb790eb1
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,7 @@ Represents items listed on the **New Item** task pane available in several Micro
 
 ## Remarks
 
-You can use the **Application** property or the **Creator** property to access the **NewFile** object in each of the applications.
+Use the **Application** property or the **Creator** property to access the **NewFile** object in each of the applications.
 
 
 ## Example
@@ -36,8 +35,6 @@ Sub AddNewDocToTaskPane()
     CommandBars("Task Pane").Visible = True  
 End Sub
 ```
-
-<br/>
 
 Use the **Remove** method to remove an item from the **New Item** task pane. The following example removes the document added in the above example from Word's **New Document** task pane.
 

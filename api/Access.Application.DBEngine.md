@@ -3,18 +3,17 @@ title: Application.DBEngine property (Access)
 keywords: vbaac10.chm12545
 f1_keywords:
 - vbaac10.chm12545
-ms.prod: access
 api_name:
 - Access.Application.DBEngine
 ms.assetid: ad4638e4-0c72-ce24-e322-e147e2f0cfc2
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DBEngine property (Access)
 
-You can use the **DBEngine** property in [Visual Basic](../access/Concepts/Settings/set-properties-by-using-visual-basic.md) to access the current **DBEngine** object and its related properties. Read-only **DBEngine**.
+Use the **DBEngine** property in [Visual Basic](../access/Concepts/Settings/set-properties-by-using-visual-basic.md) to access the current **DBEngine** object and its related properties. Read-only **DBEngine**.
 
 
 ## Syntax

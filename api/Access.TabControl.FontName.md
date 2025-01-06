@@ -3,18 +3,17 @@ title: TabControl.FontName property (Access)
 keywords: vbaac10.chm12090
 f1_keywords:
 - vbaac10.chm12090
-ms.prod: access
 api_name:
 - Access.TabControl.FontName
 ms.assetid: 1ce68bee-4655-b3f8-839e-a8eeb92103e9
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

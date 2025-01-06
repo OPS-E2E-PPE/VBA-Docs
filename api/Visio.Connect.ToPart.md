@@ -1,27 +1,26 @@
 ---
-title: Connect.ToPart Property (Visio)
+title: Connect.ToPart property (Visio)
 keywords: vis_sdr.chm10314575
 f1_keywords:
 - vis_sdr.chm10314575
-ms.prod: visio
 api_name:
 - Visio.Connect.ToPart
 ms.assetid: 37044045-f911-872e-4f72-68fa265fb6f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Connect.ToPart Property (Visio)
+# Connect.ToPart property (Visio)
 
 Returns the part of a shape to which a connection is made. Read-only.
 
 
 ## Syntax
 
- _expression_. `ToPart`
+_expression_.**ToPart**
 
- _expression_ A variable that represents a [Connect](./Visio.Connect.md) object.
+_expression_ A variable that represents a **[Connect](Visio.Connect.md)** object.
 
 
 ## Return value
@@ -31,11 +30,11 @@ Integer
 
 ## Remarks
 
-The  **ToPart** property identifies the part of a shape to which another shape is glued, such as its begin point or endpoint, one of its edges, or a connection point. The following constants declared by the Visio type library in member **VisToParts** show possible return values for the **ToPart** property.
+The **ToPart** property identifies the part of a shape to which another shape is glued, such as its begin point or endpoint, one of its edges, or a connection point. The following constants declared by the Visio type library in member **VisToParts** show possible return values for the **ToPart** property.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visConnectToError**|-1|
 | **visToNone**|0|

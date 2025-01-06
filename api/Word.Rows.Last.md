@@ -3,25 +3,24 @@ title: Rows.Last property (Word)
 keywords: vbawd10.chm155975691
 f1_keywords:
 - vbawd10.chm155975691
-ms.prod: word
 api_name:
 - Word.Rows.Last
 ms.assetid: ae7432c5-6ea8-23eb-6f24-727c79fdd632
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rows.Last property (Word)
 
-Returns the last item in the  **Rows** collection as a **Row** object.
+Returns the last item in the **Rows** collection as a **Row** object.
 
 
 ## Syntax
 
- _expression_. `Last`
+_expression_. `Last`
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Example

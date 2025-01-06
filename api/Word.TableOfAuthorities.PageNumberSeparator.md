@@ -3,23 +3,22 @@ title: TableOfAuthorities.PageNumberSeparator property (Word)
 keywords: vbawd10.chm152109066
 f1_keywords:
 - vbawd10.chm152109066
-ms.prod: word
 api_name:
 - Word.TableOfAuthorities.PageNumberSeparator
 ms.assetid: dad85c42-e819-1067-552e-e4387f344570
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableOfAuthorities.PageNumberSeparator property (Word)
 
-Returns of sets the characters (up to five) that separate individual page references in a table of authorities. Read/write  **String**.
+Returns or sets the characters (up to five) that separate individual page references in a table of authorities. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `PageNumberSeparator`
+_expression_. `PageNumberSeparator`
 
  _expression_ An expression that returns a '[TableOfAuthorities](Word.TableOfAuthorities.md)' object.
 

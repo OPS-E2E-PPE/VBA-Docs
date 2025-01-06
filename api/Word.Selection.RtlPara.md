@@ -3,12 +3,11 @@ title: Selection.RtlPara method (Word)
 keywords: vbawd10.chm158663261
 f1_keywords:
 - vbawd10.chm158663261
-ms.prod: word
 api_name:
 - Word.Selection.RtlPara
 ms.assetid: b417897d-de70-6c3a-12cd-8786e12bdb43
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ Sets the reading order and alignment of the specified paragraphs to right-to-lef
 
 ## Syntax
 
- _expression_. `RtlPara`
+_expression_. `RtlPara`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
 For all selected paragraphs, this method sets the reading order to right-to-left. If a paragraph with a left-to-right reading order is also left-aligned, this method reverses its reading order and sets its paragraph alignment to right-aligned.
 
-Use the  **ReadingOrder** property to change the reading order without affecting paragraph alignment.
+Use the **ReadingOrder** property to change the reading order without affecting paragraph alignment.
 
 
 ## Example

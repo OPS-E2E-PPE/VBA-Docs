@@ -3,25 +3,24 @@ title: HangulAndAlphabetExceptions.Add method (Word)
 keywords: vbawd10.chm164692069
 f1_keywords:
 - vbawd10.chm164692069
-ms.prod: word
 api_name:
 - Word.HangulAndAlphabetExceptions.Add
 ms.assetid: 6cbfb762-4e14-a31a-1619-e8ad725b58c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HangulAndAlphabetExceptions.Add method (Word)
 
-Returns a  **HangulAndAlphabetException** object that represents a new exception to the list of AutoCorrect exceptions.
+Returns a **HangulAndAlphabetException** object that represents a new exception to the list of AutoCorrect exceptions.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` )
+_expression_.**Add** (_Name_)
 
- _expression_ Required. A variable that represents a '[HangulAndAlphabetExceptions](Word.hangulandalphabetexceptions.md)' collection.
+_expression_ Required. A variable that represents a '[HangulAndAlphabetExceptions](Word.hangulandalphabetexceptions.md)' collection.
 
 
 ## Parameters
@@ -39,14 +38,14 @@ HangulAndAlphabetException
 
 ## Remarks
 
-If the  **HangulAndAlphabetAutoAdd** property is set to **True** , words are automatically added to the list of hangul and alphabet AutoCorrect exceptions.
+If the **HangulAndAlphabetAutoAdd** property is set to **True**, words are automatically added to the list of hangul and alphabet AutoCorrect exceptions.
 
 For more information on using Word with East Asian languages, see Word features for East Asian languages .
 
 
 ## Example
 
-This example adds test to the list of hangul and alphabet AutoCorrect exceptions on the  **Korean** tab in the **AutoCorrect Exceptions** dialog box.
+This example adds test to the list of hangul and alphabet AutoCorrect exceptions on the **Korean** tab in the **AutoCorrect Exceptions** dialog box.
 
 
 ```vb

@@ -1,32 +1,29 @@
 ---
-title: Curve.Points Method (Visio)
+title: Curve.Points method (Visio)
 keywords: vis_sdr.chm15514090
 f1_keywords:
 - vis_sdr.chm15514090
-ms.prod: visio
 api_name:
 - Visio.Curve.Points
 ms.assetid: 2dbd66cd-cc63-4635-3caf-29c8ae45c08e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Curve.Points Method (Visio)
+# Curve.Points method (Visio)
 
-Returns an array of points that defines a polyline that approximates a  **Path** or **Curve** object within a given tolerance.
+Returns an array of points that defines a polyline that approximates a **Path** or **Curve** object within a given tolerance.
 
 
 ## Syntax
 
- _expression_. `Points`( `_Tolerance_` , `_xyArray()_` )
+_expression_.**Points** (_Tolerance_, _xyArray()_)
 
- _expression_ A variable that represents a [Curve](./Visio.Curve.md) object.
+_expression_ A variable that represents a **[Curve](Visio.Curve.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -40,9 +37,9 @@ Nothing
 
 ## Remarks
 
-Use the  **Points** method of the **Path** or **Curve** object to obtain an array of _x,y_ coordinates specifying points along the path or curve within a given tolerance. The tolerance and returned _x,y_ values are expressed in internal drawing units (inches).
+Use the **Points** method of the **Path** or **Curve** object to obtain an array of _x,y_ coordinates specifying points along the path or curve within a given tolerance. The tolerance and returned _x,y_ values are expressed in internal drawing units (inches).
 
-If you used the  **Paths** property of a **Shapes** object to obtain the **Path** or **Curve** object being queried, the coordinates are expressed in the parent's coordinate system. If you used the **PathsLocal** property of a **Shape** object to obtain the **Path** or **Curve** object, the coordinates are expressed in the local coordinate system.
+If you used the **Paths** property of a **Shapes** object to obtain the **Path** or **Curve** object being queried, the coordinates are expressed in the parent's coordinate system. If you used the **PathsLocal** property of a **Shape** object to obtain the **Path** or **Curve** object, the coordinates are expressed in the local coordinate system.
 
 If Microsoft Visio is unable to achieve the requested tolerance, Visio approximates the points as close to the requested tolerance as possible. Generally speaking, the lower the tolerance, the more points Visio returns. Visio doesn't accept a tolerance of zero (0).
 
@@ -51,7 +48,7 @@ The array returned includes both the starting and ending points of the path or c
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro places a shape on the page, retrieves its  **Paths** collection, and then uses the **Points** method of the **Path** object to return an array of points that defines a polyline approximating the **Path** object.
+This Microsoft Visual Basic for Applications (VBA) macro places a shape on the page, retrieves its **Paths** collection, and then uses the **Points** method of the **Path** object to return an array of points that defines a polyline approximating the **Path** object.
 
 
 ```vb

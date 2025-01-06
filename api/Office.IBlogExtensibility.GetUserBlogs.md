@@ -3,12 +3,11 @@ title: IBlogExtensibility.GetUserBlogs method (Office)
 keywords: vbaof11.chm328003
 f1_keywords:
 - vbaof11.chm328003
-ms.prod: office
 api_name:
 - Office.IBlogExtensibility.GetUserBlogs
 ms.assetid: 00e76f3d-59f2-8580-6f7e-6df8fe51d345
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,11 +1,10 @@
 ---
 title: CommandBarControl.SetFocus method (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarControl.SetFocus
 ms.assetid: e20065eb-a1a3-f750-5585-6e38a328b946
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[CommandBarControl](Office.CommandBa
 
 ## Remarks
 
-The focus on the control is subtle. After you use this method, you will notice a three-dimensional highlight on the control. Pressing the arrow keys will navigate in the toolbars, as if you had arrived at the control by pressing only keyboard controls.
+The focus on the control is subtle. After you use this method, you'll notice a three-dimensional highlight on the control. Pressing the arrow keys will navigate in the toolbars, as if you had arrived at the control by pressing only keyboard controls.
 
 
 ## Example

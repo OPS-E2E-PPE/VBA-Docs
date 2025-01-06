@@ -1,15 +1,14 @@
 ---
-title: TaskRequestAcceptItem.BeforeAutoSave Event (Outlook)
-ms.prod: outlook
+title: TaskRequestAcceptItem.BeforeAutoSave event (Outlook)
 api_name:
 - Outlook.TaskRequestAcceptItem.BeforeAutoSave
 ms.assetid: 03c76bb7-b267-7c5f-37aa-dd28576b6a65
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.BeforeAutoSave Event (Outlook)
+# TaskRequestAcceptItem.BeforeAutoSave event (Outlook)
 
 Occurs before the item is automatically saved by Outlook.
 
@@ -18,7 +17,7 @@ Occurs before the item is automatically saved by Outlook.
 
 _expression_. `BeforeAutoSave`( `_Cancel_` )
 
-_expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.TaskRequestAcceptItem.md) object.
+_expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.Task
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **[TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md)** to be saved.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **[TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md)** to be saved.|
 
 ## See also
 

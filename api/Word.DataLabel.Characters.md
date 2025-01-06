@@ -3,25 +3,24 @@ title: DataLabel.Characters property (Word)
 keywords: vbawd10.chm233898587
 f1_keywords:
 - vbawd10.chm233898587
-ms.prod: word
 api_name:
 - Word.DataLabel.Characters
 ms.assetid: 9e880613-ca12-4a8e-24b9-4e0142445140
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DataLabel.Characters property (Word)
 
-Returns a  **[ChartCharacters](Word.ChartCharacters.md)** object that represents a range of characters within the object text. You can use the **ChartCharacters** object to format characters within a text string.
+Returns a **[ChartCharacters](Word.ChartCharacters.md)** object that represents a range of characters within the object text. Use the **ChartCharacters** object to format characters within a text string.
 
 
 ## Syntax
 
- _expression_. `Characters`( `_Start_` , `_Length_` )
+_expression_.**Characters** (_Start_, _Length_)
 
- _expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
+_expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Returns a  **[ChartCharacters](Word.ChartCharacters.md)** object that represents
 
 ## Remarks
 
-The  **ChartCharacters** object is not a collection.
+The **ChartCharacters** object is not a collection.
 
 
 ## See also

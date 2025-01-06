@@ -3,12 +3,11 @@ title: Rows.Height property (Word)
 keywords: vbawd10.chm155975687
 f1_keywords:
 - vbawd10.chm155975687
-ms.prod: word
 api_name:
 - Word.Rows.Height
 ms.assetid: c111c7e3-0502-118d-035c-be290ea4d83b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns or sets the height of the specified rows in a table. Read/write Single.
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks
 
-If the  **HeightRule** property of the specified row is **wdRowHeightAuto** , **Height** returns **wdUndefined** ; setting the **Height** property sets **HeightRule** to **wdRowHeightAtLeast**.
+If the **HeightRule** property of the specified row is **wdRowHeightAuto**, **Height** returns **wdUndefined**; setting the **Height** property sets **HeightRule** to **wdRowHeightAtLeast**.
 
 
 ## Example

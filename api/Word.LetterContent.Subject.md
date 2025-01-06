@@ -3,25 +3,24 @@ title: LetterContent.Subject property (Word)
 keywords: vbawd10.chm161546356
 f1_keywords:
 - vbawd10.chm161546356
-ms.prod: word
 api_name:
 - Word.LetterContent.Subject
 ms.assetid: cfdf65ed-7a92-6462-b868-74c4cd3b17e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LetterContent.Subject property (Word)
 
-Returns or sets the subject text of a letter created by the Letter Wizard. Read/write  **String**.
+Returns or sets the subject text of a letter created by the Letter Wizard. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Subject`
+_expression_. `Subject`
 
- _expression_ Required. A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ Required. A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: CustomControl.Updated event (Access)
 keywords: vbaac10.chm14114
 f1_keywords:
 - vbaac10.chm14114
-ms.prod: access
 api_name:
 - Access.CustomControl.Updated
 ms.assetid: 4c7820ba-d712-7ace-483f-8c943eec16f6
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -33,7 +32,7 @@ _expression_ A variable that represents a **[CustomControl](Access.CustomControl
 
 To run a macro or event procedure when this event occurs, set the **OnUpdated** property to the name of the macro or to [Event Procedure].
 
-You can use this event to determine if an object's data has been changed since it was last saved.
+Use this event to determine if an object's data has been changed since it was last saved.
 
 The **Updated** event occurs when the data in an OLE object has been modified. This update can come from the application in which the object was created or from one of the linked copies of this object. As a result, this event is asynchronous with other Microsoft Access control events.
 

@@ -1,27 +1,26 @@
 ---
-title: Application.Width Property (PowerPoint)
+title: Application.Width property (PowerPoint)
 keywords: vbapp10.chm502028
 f1_keywords:
 - vbapp10.chm502028
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.Width
 ms.assetid: ba9c122d-4283-1865-63f1-07bf746f1606
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Width Property (PowerPoint)
+# Application.Width property (PowerPoint)
 
 Returns or sets the width of the specified object, in points. Read/write.
 
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

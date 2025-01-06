@@ -3,12 +3,11 @@ title: MetaProperties.GetItemByInternalName method (Office)
 keywords: vbaof11.chm274002
 f1_keywords:
 - vbaof11.chm274002
-ms.prod: office
 api_name:
 - Office.MetaProperties.GetItemByInternalName
 ms.assetid: 27c6bcd8-8631-1dbe-5df1-67c33b757c03
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

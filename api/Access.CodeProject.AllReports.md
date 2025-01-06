@@ -3,18 +3,17 @@ title: CodeProject.AllReports property (Access)
 keywords: vbaac10.chm12708
 f1_keywords:
 - vbaac10.chm12708
-ms.prod: access
 api_name:
 - Access.CodeProject.AllReports
 ms.assetid: 92536101-c4ec-e1a8-723c-ee912a24bdee
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CodeProject.AllReports property (Access)
 
-You can use the **AllReports** property to reference the **[AllReports](Access.AllReports.md)** collection and its related properties. Read-only **AllReports** object.
+Use the **AllReports** property to reference the **[AllReports](Access.AllReports.md)** collection and its related properties. Read-only **AllReports** object.
 
 
 ## Syntax

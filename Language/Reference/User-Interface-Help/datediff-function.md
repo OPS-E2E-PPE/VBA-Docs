@@ -3,10 +3,9 @@ title: DateDiff function (Visual Basic for Applications)
 keywords: vblr6.chm1012950
 f1_keywords:
 - vblr6.chm1012950
-ms.prod: office
 ms.assetid: 15c9df5f-1403-b6a5-71b9-611e9820d804
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -44,8 +43,6 @@ The _interval_ [argument](../../Glossary/vbe-glossary.md#argument) has these set
 |n|Minute|
 |s|Second|
 
-<br/>
-
 The _firstdayofweek_ argument has these settings:
 
 |Constant|Value|Description|
@@ -59,7 +56,7 @@ The _firstdayofweek_ argument has these settings:
 |**vbFriday**|6|Friday|
 |**vbSaturday**|7|Saturday|
 
-<br/>
+The _firstweekofyear_ argument has these settings:
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -70,7 +67,7 @@ The _firstdayofweek_ argument has these settings:
 
 ## Remarks
 
-You can use the **DateDiff** function to determine how many specified time intervals exist between two dates. For example, you might use **DateDiff** to calculate the number of days between two dates, or the number of weeks between today and the end of the year.
+Use the **DateDiff** function to determine how many specified time intervals exist between two dates. For example, you might use **DateDiff** to calculate the number of days between two dates, or the number of weeks between today and the end of the year.
 
 To calculate the number of days between _date1_ and _date2_, you can use either Day of year ("y") or Day ("d"). When _interval_ is Weekday ("w"), **DateDiff** returns the number of weeks between the two dates. If _date1_ falls on a Monday, **DateDiff** counts the number of Mondays until _date2_. It counts _date2_ but not _date1_. 
 

@@ -3,12 +3,11 @@ title: Find.CorrectHangulEndings property (Word)
 keywords: vbawd10.chm162529341
 f1_keywords:
 - vbawd10.chm162529341
-ms.prod: word
 api_name:
 - Word.Find.CorrectHangulEndings
 ms.assetid: 814affac-ba96-7e93-6c58-6d063c15b79c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CorrectHangulEndings`
+_expression_. `CorrectHangulEndings`
 
  _expression_ An expression that returns a '[Find](Word.Find.md)' object.
 

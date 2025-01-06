@@ -1,18 +1,17 @@
 ---
-title: OlRuleType Enumeration (Outlook)
+title: OlRuleType enumeration (Outlook)
 keywords: vbaol11.chm3112
 f1_keywords:
 - vbaol11.chm3112
-ms.prod: outlook
 api_name:
 - Outlook.OlRuleType
 ms.assetid: a9ef16ad-78cf-8c26-0897-39a0bf1a25b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlRuleType Enumeration (Outlook)
+# OlRuleType enumeration (Outlook)
 
 Indicates if a rule is applied to messages that are being sent or received.
 

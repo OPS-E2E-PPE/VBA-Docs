@@ -3,12 +3,11 @@ title: Document.SpellingChecked property (Word)
 keywords: vbawd10.chm158007367
 f1_keywords:
 - vbawd10.chm158007367
-ms.prod: word
 api_name:
 - Word.Document.SpellingChecked
 ms.assetid: 053f8fbd-30cd-038f-e36f-d55fdd26fe13
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SpellingChecked`
+_expression_. `SpellingChecked`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-To recheck the spelling in a range or document, set the  **SpellingChecked** property to **False**.
+To recheck the spelling in a range or document, set the **SpellingChecked** property to **False**.
 
-To see whether the range or document contains spelling errors, use the  **SpellingErrors** property.
+To see whether the range or document contains spelling errors, use the **SpellingErrors** property.
 
 
 ## Example
 
-This example sets the  **SpellingChecked** property to **False** for MyDocument.doc, and then it runs another spelling check on the document.
+This example sets the **SpellingChecked** property to **False** for MyDocument.doc, and then it runs another spelling check on the document.
 
 
 ```vb

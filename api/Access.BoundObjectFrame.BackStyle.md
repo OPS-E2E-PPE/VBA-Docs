@@ -3,18 +3,17 @@ title: BoundObjectFrame.BackStyle property (Access)
 keywords: vbaac10.chm10931
 f1_keywords:
 - vbaac10.chm10931
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.BackStyle
 ms.assetid: 335ce425-d682-831a-ecfa-4c46b9bf5a28
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

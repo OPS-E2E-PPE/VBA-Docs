@@ -1,18 +1,17 @@
 ---
-title: CalendarView.SelectedStartTime Property (Outlook)
+title: CalendarView.SelectedStartTime property (Outlook)
 keywords: vbaol11.chm3313
 f1_keywords:
 - vbaol11.chm3313
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.SelectedStartTime
 ms.assetid: e1e376de-606a-83cb-680f-cdbf7a714b73
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.SelectedStartTime Property (Outlook)
+# CalendarView.SelectedStartTime property (Outlook)
 
 Returns a **Date** that represents the start time of a selection in the **[CalendarView](Outlook.CalendarView.md)** object. Read-only.
 
@@ -21,7 +20,7 @@ Returns a **Date** that represents the start time of a selection in the **[Calen
 
 _expression_. `SelectedStartTime`
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Remarks
@@ -77,7 +76,7 @@ Sub CreateAppointmentUsingSelectedTime()
 End Sub
 ```
 
-The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the  `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
+The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
 
 
 

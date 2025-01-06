@@ -1,20 +1,19 @@
 ---
-title: Account.ExchangeMailboxServerVersion Property (Outlook)
+title: Account.ExchangeMailboxServerVersion property (Outlook)
 keywords: vbaol11.chm3551
 f1_keywords:
 - vbaol11.chm3551
-ms.prod: outlook
 api_name:
 - Outlook.Account.ExchangeMailboxServerVersion
 ms.assetid: 5bfd2c63-5a87-9225-a9a8-1771fc480f21
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Account.ExchangeMailboxServerVersion Property (Outlook)
+# Account.ExchangeMailboxServerVersion property (Outlook)
 
-Returns a  **String** value that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox. Read-only.
+Returns a **String** value that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox. Read-only.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents an '[Account](Outlook.Account.md)' objec
 
 ## Remarks
 
-This property is similar to the  **[ExchangeMailboxServerVersion](Outlook.NameSpace.ExchangeMailboxServerVersion.md)** property of the **[NameSpace](Outlook.NameSpace.md)** object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.
+This property is similar to the **[ExchangeMailboxServerVersion](Outlook.NameSpace.ExchangeMailboxServerVersion.md)** property of the **[NameSpace](Outlook.NameSpace.md)** object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.
 
 This property returns a string that contains the version number of the Exchange server for the account. The version number has the following four parts. 
 

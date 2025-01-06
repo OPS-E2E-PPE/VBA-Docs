@@ -1,11 +1,10 @@
 ---
 title: TextFrame2.ThreeD property (Office)
-ms.prod: office
 api_name:
 - Office.TextFrame2.ThreeD
 ms.assetid: f6c001a7-a006-9a71-6210-297c088c055d
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

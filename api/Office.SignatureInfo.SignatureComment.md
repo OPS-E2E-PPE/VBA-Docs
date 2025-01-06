@@ -3,12 +3,11 @@ title: SignatureInfo.SignatureComment property (Office)
 keywords: vbaof11.chm286005
 f1_keywords:
 - vbaof11.chm286005
-ms.prod: office
 api_name:
 - Office.SignatureInfo.SignatureComment
 ms.assetid: 2cd03ccf-4291-ff80-ef13-4c03590aa10b
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

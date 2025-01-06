@@ -3,12 +3,11 @@ title: Cell.Delete method (Word)
 keywords: vbawd10.chm156106952
 f1_keywords:
 - vbawd10.chm156106952
-ms.prod: word
 api_name:
 - Word.Cell.Delete
 ms.assetid: 01e6d989-e86c-9a3b-b0e3-d6eb1f2a7183
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Deletes a table cell or cells and optionally controls how the remaining cells ar
 
 ## Syntax
 
- _expression_. `Delete`( `_ShiftCells_` )
+_expression_.**Delete**( `_ShiftCells_` )
 
- _expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Deletes a table cell or cells and optionally controls how the remaining cells ar
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ShiftCells_|Optional| **Variant**|The direction in which the remaining cells are to be shifted. Can be any  **[WdDeleteCells](Word.WdDeleteCells.md)** constant. If omitted, cells to the right of the last deleted cell are shifted left.|
+| _ShiftCells_|Optional| **Variant**|The direction in which the remaining cells are to be shifted. Can be any **[WdDeleteCells](Word.WdDeleteCells.md)** constant. If omitted, cells to the right of the last deleted cell are shifted left.|
 
 ## Example
 

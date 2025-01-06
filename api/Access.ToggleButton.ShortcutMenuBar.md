@@ -3,18 +3,17 @@ title: ToggleButton.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm11730
 f1_keywords:
 - vbaac10.chm11730
-ms.prod: access
 api_name:
 - Access.ToggleButton.ShortcutMenuBar
 ms.assetid: ba7ac65f-644c-b75c-12cc-565cd27a7162
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

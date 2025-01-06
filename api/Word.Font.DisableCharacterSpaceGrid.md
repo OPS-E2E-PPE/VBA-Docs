@@ -3,12 +3,11 @@ title: Font.DisableCharacterSpaceGrid property (Word)
 keywords: vbawd10.chm156369051
 f1_keywords:
 - vbawd10.chm156369051
-ms.prod: word
 api_name:
 - Word.Font.DisableCharacterSpaceGrid
 ms.assetid: b608a477-03a2-c1e0-eaa0-841a12665865
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisableCharacterSpaceGrid`
+_expression_. `DisableCharacterSpaceGrid`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-This property returns  **wdUndefined** if the **DisableCharacterSpaceGrid** property is set to **True** for only some of the specified text.
+This property returns **wdUndefined** if the **DisableCharacterSpaceGrid** property is set to **True** for only some of the specified text.
 
 
 ## Example

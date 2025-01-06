@@ -1,24 +1,23 @@
 ---
-title: TabStops.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: TabStops.Count property (PowerPoint)
 api_name:
 - PowerPoint.TabStops.Count
 ms.assetid: e6dcd68c-d811-e8e8-b17d-bc05d866d018
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TabStops.Count Property (PowerPoint)
+# TabStops.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [TabStops](./PowerPoint.TabStops.md) object.
+_expression_ A variable that represents a [TabStops](PowerPoint.TabStops.md) object.
 
 
 ## Return value

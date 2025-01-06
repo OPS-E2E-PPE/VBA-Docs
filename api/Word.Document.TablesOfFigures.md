@@ -3,30 +3,29 @@ title: Document.TablesOfFigures property (Word)
 keywords: vbawd10.chm158007321
 f1_keywords:
 - vbawd10.chm158007321
-ms.prod: word
 api_name:
 - Word.Document.TablesOfFigures
 ms.assetid: 1c386611-82f9-0a0d-71ce-dfe006d8eab5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.TablesOfFigures property (Word)
 
-Returns a  **[TablesOfFigures](Word.Document.TablesOfFigures.md)** collection that represents the tables of figures in the specified document. Read-only.
+Returns a **[TablesOfFigures](Word.Document.TablesOfFigures.md)** collection that represents the tables of figures in the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `TablesOfFigures`
+_expression_. `TablesOfFigures`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

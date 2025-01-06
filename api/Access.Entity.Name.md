@@ -3,18 +3,17 @@ title: Entity.Name property (Access)
 keywords: vbaac10.chm14567
 f1_keywords:
 - vbaac10.chm14567
-ms.prod: access
 api_name:
 - Access.Entity.Name
 ms.assetid: a72be228-43e2-d275-5b17-c9831f763ff7
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Entity.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -1,24 +1,23 @@
 ---
-title: PostItem.Close Event (Outlook)
-ms.prod: outlook
+title: PostItem.Close event (Outlook)
 api_name:
 - Outlook.PostItem.Close
 ms.assetid: 60d3027a-49ae-8425-6414-4987e5568040
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.Close Event (Outlook)
+# PostItem.Close event (Outlook)
 
 Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.
 
 
 ## Syntax
 
-_expression_. `Close`( `_Cancel_` )
+_expression_.**Close** (_Cancel_)
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Parameters
@@ -27,13 +26,13 @@ _expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**|(Not used in VBScript).  **False** when the event occurs. If the event procedure sets this argument to **True** , the close operation is not completed and the inspector is left open.|
+| _Cancel_|Required| **Boolean**|(Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the close operation is not completed and the inspector is left open.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the close operation isn't completed and the inspector is left open.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the close operation isn't completed and the inspector is left open.
 
-If you use the  **[Close](Outlook.PostItem.Close(method).md)** method to fire this event, it can only be canceled if the **Close** method uses the **olPromptForSave** argument.
+If you use the **[Close](Outlook.PostItem.Close(method).md)** method to fire this event, it can only be canceled if the **Close** method uses the **olPromptForSave** argument.
 
 
 ## See also

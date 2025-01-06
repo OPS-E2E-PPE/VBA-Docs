@@ -1,22 +1,22 @@
 ---
-title: ResourceGroups Object (Project)
-ms.prod: project-server
+title: ResourceGroups object (Project)
+ms.service: project-server
 ms.assetid: 37bd0f3a-4d0e-1311-4409-ed31e0fe2e3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ResourceGroups Object (Project)
+# ResourceGroups object (Project)
 
 
  
 
-Represents all of the resource-based group definitions.  **ResourceGroups** is a collection of **[Group](Project.Group.md)** objects.
+Represents all of the resource-based group definitions. **ResourceGroups** is a collection of **[Group](Project.Group.md)** objects.
  
  **Using the ResourceGroups Collection**
  
-Use the  **[ResourceGroups](Project.Project.ResourceGroups.md)** property to return a **ResourceGroups** collection. The following example lists the names of all the resource groups in the active project.
+Use the **[ResourceGroups](Project.Project.ResourceGroups.md)** property to return a **ResourceGroups** collection. The following example lists the names of all the resource groups in the active project.
  
 
 
@@ -26,13 +26,13 @@ Dim rg As Group
 Dim rGroups As String 
  
 For Each rg in ActiveProject.ResourceGroups 
- rGroups = rGroups &amp; rg.Name &amp; vbCrLf 
+ rGroups = rGroups & rg.Name & vbCrLf 
 Next rg 
  
 MsgBox rGroups
 ```
 
-Use the  **[Add](Project.ResourceGroups.Add.md)** method to add a **Group** object to the **ResourceGroups** collection. The following example creates a new group that groups resources by their standard rate and then modifies the criterion so that the resources are sorted in descending order.
+Use the **[Add](Project.ResourceGroups.Add.md)** method to add a **Group** object to the **ResourceGroups** collection. The following example creates a new group that groups resources by their standard rate and then modifies the criterion so that the resources are sorted in descending order.
  
 
 
@@ -45,7 +45,7 @@ ActiveProject.ResourceGroups("Resources by Rate").GroupCriteria(1).Ascending = F
 
 ## Remarks
 
-For resource groups where the group hierarchy can be maintained and cell color can be a hexadecimal value, use the  **[ResourceGroups2](Project.resourcegroups2(object).md)** collection object.
+For resource groups where the group hierarchy can be maintained and cell color can be a hexadecimal value, use the **[ResourceGroups2](Project.resourcegroups2(object).md)** collection object.
  
 
  

@@ -1,37 +1,36 @@
 ---
-title: ApplicationSettings.Application Property (Visio)
+title: ApplicationSettings.Application property (Visio)
 keywords: vis_sdr.chm16213090
 f1_keywords:
 - vis_sdr.chm16213090
-ms.prod: visio
 api_name:
 - Visio.ApplicationSettings.Application
 ms.assetid: 5a8f32a8-4e27-1924-8c67-9be08e38ad66
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ApplicationSettings.Application Property (Visio)
+# ApplicationSettings.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

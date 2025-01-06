@@ -1,23 +1,23 @@
 ---
-title: PayRate.StandardRate Property (Project)
-ms.prod: project-server
+title: PayRate.StandardRate property (Project)
+ms.service: project-server
 api_name:
 - Project.PayRate.StandardRate
 ms.assetid: ad4d498b-2a64-d821-cf93-4d5fefda6da8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PayRate.StandardRate Property (Project)
+# PayRate.StandardRate property (Project)
 
-Gets or sets the standard rate of the pay rate. Read/write  **Variant**.
+Gets or sets the standard rate of the pay rate. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `StandardRate`
+_expression_. `StandardRate`
 
- _expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
+_expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

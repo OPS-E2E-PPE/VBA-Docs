@@ -3,18 +3,17 @@ title: Application.DefaultWorkspaceClone method (Access)
 keywords: vbaac10.chm12550
 f1_keywords:
 - vbaac10.chm12550
-ms.prod: access
 api_name:
 - Access.Application.DefaultWorkspaceClone
 ms.assetid: f72522e5-dd8d-2cd1-df40-4457ef7f94a6
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DefaultWorkspaceClone method (Access)
 
-You can use the **DefaultWorkspaceClone** method to create a new **Workspace** object without requiring the user to sign in again. For example, if you need to conduct two sets of transactions simultaneously in separate workspaces, you can use the **DefaultWorkspaceClone** method to create a second **Workspace** object with the same user name and password without prompting the user for this information again.
+Use the **DefaultWorkspaceClone** method to create a new **Workspace** object without requiring the user to sign in again. For example, if you need to conduct two sets of transactions simultaneously in separate workspaces, you can use the **DefaultWorkspaceClone** method to create a second **Workspace** object with the same user name and password without prompting the user for this information again.
 
 
 ## Syntax

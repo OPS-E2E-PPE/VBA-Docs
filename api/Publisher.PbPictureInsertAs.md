@@ -1,22 +1,21 @@
 ---
-title: PbPictureInsertAs Enumeration (Publisher)
+title: PbPictureInsertAs enumeration (Publisher)
 keywords: vbapb10.chm65628
 f1_keywords:
 - vbapb10.chm65628
-ms.prod: publisher
 api_name:
 - Publisher.PbPictureInsertAs
 ms.assetid: 210c5813-fd62-f736-779e-85975f6536f2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbPictureInsertAs Enumeration (Publisher)
+# PbPictureInsertAs enumeration (Publisher)
 
 The manner in which you want the picture file inserted into the document: linked or embedded.
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

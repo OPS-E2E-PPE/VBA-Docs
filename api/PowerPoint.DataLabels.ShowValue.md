@@ -1,22 +1,21 @@
 ---
-title: DataLabels.ShowValue Property (PowerPoint)
-ms.prod: powerpoint
+title: DataLabels.ShowValue property (PowerPoint)
 api_name:
 - PowerPoint.DataLabels.ShowValue
 ms.assetid: e0c739f6-286b-1267-49c0-484b7d1bca16
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabels.ShowValue Property (PowerPoint)
+# DataLabels.ShowValue property (PowerPoint)
 
  **True** to display the data label values for a specified chart. **False** to hide the values. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ShowValue`
+_expression_.**ShowValue**
 
 _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md)' object.
 
@@ -26,7 +25,8 @@ _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables the value to be shown for the data labels of the first series in the first chart.
 

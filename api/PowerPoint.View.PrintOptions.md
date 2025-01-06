@@ -1,27 +1,26 @@
 ---
-title: View.PrintOptions Property (PowerPoint)
+title: View.PrintOptions property (PowerPoint)
 keywords: vbapp10.chm512011
 f1_keywords:
 - vbapp10.chm512011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.View.PrintOptions
 ms.assetid: ee0aeece-e1f9-36ce-1d5d-cec9e0e4046b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.PrintOptions Property (PowerPoint)
+# View.PrintOptions property (PowerPoint)
 
-Returns a  **[PrintOptions](PowerPoint.PrintOptions.md)** object that represents print options that are saved with the specified presentation. Read-only.
+Returns a **[PrintOptions](PowerPoint.PrintOptions.md)** object that represents print options that are saved with the specified presentation. Read-only.
 
 
 ## Syntax
 
- _expression_. `PrintOptions`
+_expression_. `PrintOptions`
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Return value

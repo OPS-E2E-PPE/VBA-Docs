@@ -3,12 +3,11 @@ title: Selection.SelectCurrentIndent method (Word)
 keywords: vbawd10.chm158663176
 f1_keywords:
 - vbawd10.chm158663176
-ms.prod: word
 api_name:
 - Word.Selection.SelectCurrentIndent
 ms.assetid: 3a71080e-935c-fc3c-40b9-e82acf9d28cc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Extends the selection forward until text with different left or right paragraph 
 
 ## Syntax
 
- _expression_. `SelectCurrentIndent`
+_expression_. `SelectCurrentIndent`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

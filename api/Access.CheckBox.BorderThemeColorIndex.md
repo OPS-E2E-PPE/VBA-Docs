@@ -3,12 +3,11 @@ title: CheckBox.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.CheckBox.BorderThemeColorIndex
 ms.assetid: 5b7fd629-a896-ab01-b965-2a2f0d7724a7
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

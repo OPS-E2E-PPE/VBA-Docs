@@ -3,28 +3,27 @@ title: CheckBox.Value Property (Outlook Forms Script)
 keywords: olfm10.chm2002180
 f1_keywords:
 - olfm10.chm2002180
-ms.prod: outlook
 ms.assetid: 24b3b4ab-e7cc-f024-c8b4-32db5dd389c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.Value Property (Outlook Forms Script)
 
-Returns or sets a  **Variant** that specifies whether the check box is selected. Read/write.
+Returns or sets a **Variant** that specifies whether the check box is selected. Read/write.
 
 
 ## Syntax
 
-_expression_. **Value**
+_expression_.**Value**
 
-_expression_ A variable that represents a  **CheckBox** object.
+_expression_ A variable that represents a **CheckBox** object.
 
 
 ## Remarks
 
-The settings for  **Value** are:
+The settings for **Value** are:
 
 
 

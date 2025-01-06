@@ -1,11 +1,10 @@
 ---
 title: TextFrame2.WordArtFormat property (Office)
-ms.prod: office
 api_name:
 - Office.TextFrame2.WordArtformat
 ms.assetid: b9d6c36d-e353-940f-4984-1f5ed3cf165c
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

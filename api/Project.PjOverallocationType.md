@@ -1,15 +1,15 @@
 ---
-title: PjOverallocationType Enumeration (Project)
-ms.prod: project-server
+title: PjOverallocationType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjOverallocationType
 ms.assetid: b2eaea51-6884-194c-9a68-75669fcc8283
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjOverallocationType Enumeration (Project)
+# PjOverallocationType enumeration (Project)
 
 Contains constants that specify the type of resource overallocation.
 

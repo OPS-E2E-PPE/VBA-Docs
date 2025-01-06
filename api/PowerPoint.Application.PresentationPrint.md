@@ -1,27 +1,26 @@
 ---
-title: Application.PresentationPrint Event (PowerPoint)
+title: Application.PresentationPrint event (PowerPoint)
 keywords: vbapp10.chm621015
 f1_keywords:
 - vbapp10.chm621015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.PresentationPrint
 ms.assetid: 41a420b7-c5db-7869-6763-da9cec710d83
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.PresentationPrint Event (PowerPoint)
+# Application.PresentationPrint event (PowerPoint)
 
 Occurs before a presentation is printed.
 
 
 ## Syntax
 
- _expression_. `PresentationPrint`( `_Pres_` )
+_expression_. `PresentationPrint`( `_Pres_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
 
-This example sets the  **PrintHiddenSlides** property to **True** so that every time the active presentation is printed, the hidden slides are printed as well.
+This example sets the **PrintHiddenSlides** property to **True** so that every time the active presentation is printed, the hidden slides are printed as well.
 
 
 ```vb

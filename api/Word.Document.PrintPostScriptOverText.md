@@ -3,12 +3,11 @@ title: Document.PrintPostScriptOverText property (Word)
 keywords: vbawd10.chm158007376
 f1_keywords:
 - vbawd10.chm158007376
-ms.prod: word
 api_name:
 - Word.Document.PrintPostScriptOverText
 ms.assetid: 614e3776-c3e7-a4ca-3148-2f285229ecb2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintPostScriptOverText`
+_expression_. `PrintPostScriptOverText`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **PrintPostScriptOverText** property controls whether postscript code is printed in a converted Microsoft Word for Macintosh document. If the document contains no PRINT fields, this property has no effect.
+The **PrintPostScriptOverText** property controls whether postscript code is printed in a converted Microsoft Word for Macintosh document. If the document contains no PRINT fields, this property has no effect.
 
 
 ## Example

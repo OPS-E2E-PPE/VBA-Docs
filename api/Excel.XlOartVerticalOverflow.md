@@ -1,11 +1,10 @@
 ---
 title: XlOartVerticalOverflow enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlOartVerticalOverflow
 ms.assetid: af5196c6-6753-a9c8-bed3-a143690c0a63
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

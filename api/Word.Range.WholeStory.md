@@ -3,12 +3,11 @@ title: Range.WholeStory method (Word)
 keywords: vbawd10.chm157155456
 f1_keywords:
 - vbawd10.chm157155456
-ms.prod: word
 api_name:
 - Word.Range.WholeStory
 ms.assetid: bb55c363-b3c0-e1aa-5e25-74cf2a1954c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Expands a range to include the entire story.
 
 ## Syntax
 
- _expression_. `WholeStory`
+_expression_. `WholeStory`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

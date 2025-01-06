@@ -1,22 +1,22 @@
 ---
-title: GroupCriteria2.Item Property (Project)
-ms.prod: project-server
+title: GroupCriteria2.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriteria2.Item
 ms.assetid: ce9c6980-3c3f-97a3-e6d0-3420ac08b389
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriteria2.Item Property (Project)
+# GroupCriteria2.Item property (Project)
 
-Gets a single item from a collection. Read-only  **GroupCriterion2**.
+Gets a single item from a collection. Read-only **GroupCriterion2**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
  _expression_ An expression that returns a 'GroupCriteria2' object.
 

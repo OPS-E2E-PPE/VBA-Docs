@@ -3,10 +3,9 @@ title: Language-Specific Properties and Methods (PowerPoint)
 keywords: vbapp10.chm5277558
 f1_keywords:
 - vbapp10.chm5277558
-ms.prod: powerpoint
 ms.assetid: 5eccac7d-20ae-f74a-e96d-d955765fe452
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 

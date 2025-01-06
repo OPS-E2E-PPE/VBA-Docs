@@ -1,9 +1,8 @@
 ---
 title: Customizing Forms Using Form Regions
-ms.prod: outlook
 ms.assetid: 131de9d1-9d56-4eb7-b7fc-7a997333fc20
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -12,8 +11,8 @@ localization_priority: Normal
 ## In this section
 
 
--  [Form Regions](form-regions.md)
+- [Form Regions](form-regions.md)
     
--  [Create a Form Region](create-a-form-region.md)
+- [Create a Form Region](create-a-form-region.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

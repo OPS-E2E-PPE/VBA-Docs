@@ -1,27 +1,26 @@
 ---
-title: Shape.AddNamedRow Method (Visio)
+title: Shape.AddNamedRow method (Visio)
 keywords: vis_sdr.chm11216045
 f1_keywords:
 - vis_sdr.chm11216045
-ms.prod: visio
 api_name:
 - Visio.Shape.AddNamedRow
 ms.assetid: c18380b1-418d-454f-3c90-fa4624291628
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.AddNamedRow Method (Visio)
+# Shape.AddNamedRow method (Visio)
 
 Adds a row that has the specified name to the specified ShapeSheet section.
 
 
 ## Syntax
 
- _expression_. `AddNamedRow`( `_Section_` , `_RowName_` , `_RowTag_` )
+_expression_. `AddNamedRow`( `_Section_` , `_RowName_` , `_RowTag_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -45,7 +44,7 @@ You can add named rows to the Actions (**visSectionAction**), Controls (**visSec
 
 An empty row name string ("") creates a row with a default name.
 
-Passing a value of  **visTagDefault** (0) in the _RowTag_ argument generates the default row type for the section. Explicit tags are useful when adding rows to a Connection Points section. See the **RowType** property for descriptions of valid row types for each section. Passing an invalid row type generates an error.
+Passing a value of **visTagDefault** (0) in the _RowTag_ argument generates the default row type for the section. Explicit tags are useful when adding rows to a Connection Points section. See the **RowType** property for descriptions of valid row types for each section. Passing an invalid row type generates an error.
 
 Adding a named row to a Connection Points section automatically converts any existing unnamed rows in the section into named rows, assigning them default names (Row_1, Row_2, and so on).
 

@@ -3,10 +3,9 @@ title: Item Types and Message Classes
 keywords: olfm10.chm1044391
 f1_keywords:
 - olfm10.chm1044391
-ms.prod: outlook
 ms.assetid: 15b709cc-7486-b6c7-88a3-4a4d8e0ab292
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -45,7 +44,7 @@ localization_priority: Priority
 |IPM.Note.Secure.Sign|Digitally signed notes to other people|
 |IPM.Task| Tasks|
 |IPM.TaskRequest.Accept|Responses to accept task requests|
-|IPM.TaskRequest.Decline|Responses to desline task requests|
+|IPM.TaskRequest.Decline|Responses to decline task requests|
 |IPM.TaskRequest|Task requests|
 |IPM.TaskRequest.Update| Updates to requested tasks|
 

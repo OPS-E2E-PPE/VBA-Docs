@@ -3,18 +3,17 @@ title: ComboBox.ColumnWidths property (Access)
 keywords: vbaac10.chm11382
 f1_keywords:
 - vbaac10.chm11382
-ms.prod: access
 api_name:
 - Access.ComboBox.ColumnWidths
 ms.assetid: cd7894fd-e989-4f17-d779-073c8ef6c664
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ColumnWidths property (Access)
 
-You can use the **ColumnWidths** property to specify the width of each column in a multiple-column combo box. Read/write **String**.
+Use the **ColumnWidths** property to specify the width of each column in a multiple-column combo box. Read/write **String**.
 
 ## Syntax
 

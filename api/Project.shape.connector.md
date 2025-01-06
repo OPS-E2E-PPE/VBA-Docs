@@ -1,20 +1,20 @@
 ---
-title: Shape.Connector Property (Project)
-ms.prod: project-server
+title: Shape.Connector property (Project)
+ms.service: project-server
 ms.assetid: 6085e8e1-1132-ccf7-b37c-3ca86252f656
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Connector Property (Project)
-Gets a value that indicates whether the shape is a connector. Read-only  **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**
+# Shape.Connector property (Project)
+Gets a value that indicates whether the shape is a connector. Read-only **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**
 
 ## Syntax
 
- _expression_. `Connector`
+_expression_.**Connector**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

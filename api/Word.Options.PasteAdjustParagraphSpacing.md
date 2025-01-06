@@ -3,12 +3,11 @@ title: Options.PasteAdjustParagraphSpacing property (Word)
 keywords: vbawd10.chm162988462
 f1_keywords:
 - vbawd10.chm162988462
-ms.prod: word
 api_name:
 - Word.Options.PasteAdjustParagraphSpacing
 ms.assetid: 0aab4ca9-f453-fdb4-8d2e-f37d1d1dde09
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteAdjustParagraphSpacing`
+_expression_. `PasteAdjustParagraphSpacing`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

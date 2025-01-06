@@ -3,12 +3,11 @@ title: Range.PhoneticGuide method (Word)
 keywords: vbawd10.chm157155552
 f1_keywords:
 - vbawd10.chm157155552
-ms.prod: word
 api_name:
 - Word.Range.PhoneticGuide
 ms.assetid: f720cf42-4d61-977c-8e09-6346a48afecf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adds phonetic guides to the specified range.
 
 ## Syntax
 
- _expression_. `PhoneticGuide`( `_Text_` , `_Alignment_` , `_Raise_` , `_FontSize_` , `_FontName_` )
+_expression_. `PhoneticGuide`( `_Text_` , `_Alignment_` , `_Raise_` , `_FontSize_` , `_FontName_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters

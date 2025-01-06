@@ -3,18 +3,17 @@ title: BoundObjectFrame.SpecialEffect property (Access)
 keywords: vbaac10.chm10933
 f1_keywords:
 - vbaac10.chm10933
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.SpecialEffect
 ms.assetid: 29bcf6e1-880a-9e32-840f-75a54bed18ab
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

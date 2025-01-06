@@ -3,12 +3,11 @@ title: DriveExists method (Visual Basic for Applications)
 keywords: vblr6.chm2182038
 f1_keywords:
 - vblr6.chm2182038
-ms.prod: office
 api_name:
 - Office.DriveExists
 ms.assetid: ddba70e5-8b60-4ce6-631f-fb10f81a6d93
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns **True** if the specified drive exists; **False** if it does not.
 ## Syntax
 
 _object_.**DriveExists** (_drivespec_)
-
-<br/>
 
 The **DriveExists** method syntax has these parts:
 

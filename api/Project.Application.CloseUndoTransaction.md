@@ -1,27 +1,27 @@
 ---
-title: Application.CloseUndoTransaction Method (Project)
+title: Application.CloseUndoTransaction method (Project)
 keywords: vbapj.chm131794
 f1_keywords:
 - vbapj.chm131794
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CloseUndoTransaction
 ms.assetid: 704bde43-803d-fd63-68a6-7b4058e5d3b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CloseUndoTransaction Method (Project)
+# Application.CloseUndoTransaction method (Project)
 
-Closes an undo set for a series of operations previously created by  **[OpenUndoTransaction](Project.Application.OpenUndoTransaction.md)** method.
+Closes an undo set for a series of operations previously created by **[OpenUndoTransaction](Project.Application.OpenUndoTransaction.md)** method.
 
 
 ## Syntax
 
- _expression_. `CloseUndoTransaction`
+_expression_. `CloseUndoTransaction`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks

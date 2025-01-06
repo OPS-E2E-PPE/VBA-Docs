@@ -1,19 +1,16 @@
 ---
 title: MsoNumberedBulletStyle enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoNumberedBulletStyle
 ms.assetid: 195901ed-5ce0-b552-c4a0-f63e0c8673c0
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoNumberedBulletStyle enumeration (Office)
 
 Specifies numbered bullet styles.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

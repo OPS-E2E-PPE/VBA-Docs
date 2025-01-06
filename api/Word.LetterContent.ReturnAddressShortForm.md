@@ -3,23 +3,22 @@ title: LetterContent.ReturnAddressShortForm property (Word)
 keywords: vbawd10.chm161546368
 f1_keywords:
 - vbawd10.chm161546368
-ms.prod: word
 api_name:
 - Word.LetterContent.ReturnAddressShortForm
 ms.assetid: 7e2a8691-6324-c4d6-f230-b192c1cd6bc6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LetterContent.ReturnAddressShortForm property (Word)
 
-Returns or sets the short form address. Read/write  **String**.
+Returns or sets the short form address. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `ReturnAddressShortForm`
+_expression_. `ReturnAddressShortForm`
 
  _expression_ An expression that returns a '[LetterContent](Word.LetterContent.md)' object.
 

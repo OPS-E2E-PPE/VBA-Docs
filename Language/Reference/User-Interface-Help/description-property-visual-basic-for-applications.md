@@ -3,10 +3,9 @@ title: Description property (Visual Basic for Applications)
 keywords: vblr6.chm1014191
 f1_keywords:
 - vblr6.chm1014191
-ms.prod: office
 ms.assetid: cab35a69-b45a-2d96-f495-2fae208fca6a
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

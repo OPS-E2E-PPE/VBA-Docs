@@ -3,18 +3,17 @@ title: NavigationButton.DisplayWhen property (Access)
 keywords: vbaac10.chm10463
 f1_keywords:
 - vbaac10.chm10463
-ms.prod: access
 api_name:
 - Access.NavigationButton.DisplayWhen
 ms.assetid: 58e02cb9-b161-3116-4905-5989ce9a1f75
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

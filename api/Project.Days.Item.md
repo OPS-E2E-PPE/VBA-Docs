@@ -1,24 +1,24 @@
 ---
-title: Days.Item Property (Project)
-ms.prod: project-server
+title: Days.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Days.Item
 ms.assetid: e96a19ad-fdd4-1094-5fc2-cc5c27a735d3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Days.Item Property (Project)
+# Days.Item property (Project)
 
-Gets a single  **Day** object from the **Days** collection. Read-only **Day**.
+Gets a single **Day** object from the **Days** collection. Read-only **Day**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Days' object.
+_expression_ A variable that represents a 'Days' object.
 
 
 ## Parameters

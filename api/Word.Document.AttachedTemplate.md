@@ -3,30 +3,29 @@ title: Document.AttachedTemplate property (Word)
 keywords: vbawd10.chm158007363
 f1_keywords:
 - vbawd10.chm158007363
-ms.prod: word
 api_name:
 - Word.Document.AttachedTemplate
 ms.assetid: e7489e88-ec82-ff16-558b-1dd5470f83c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.AttachedTemplate property (Word)
 
-Returns a  **[Template](Word.Template.md)** object that represents the template attached to the specified document. Read/write **Variant**.
+Returns a **[Template](Word.Template.md)** object that represents the template attached to the specified document. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `AttachedTemplate`
+_expression_. `AttachedTemplate`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-To set this property, specify either the name of the template or an expression that returns a  **Template** object.
+To set this property, specify either the name of the template or an expression that returns a **Template** object.
 
 
 ## Example

@@ -1,15 +1,15 @@
 ---
-title: PjCustomOutlineCodeSequence Enumeration (Project)
-ms.prod: project-server
+title: PjCustomOutlineCodeSequence enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCustomOutlineCodeSequence
 ms.assetid: cf97c557-2676-0e3f-1ce7-4db80309696d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCustomOutlineCodeSequence Enumeration (Project)
+# PjCustomOutlineCodeSequence enumeration (Project)
 
 Contains constants that specify the type of the outline code sequence.
 

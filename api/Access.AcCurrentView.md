@@ -3,20 +3,17 @@ title: AcCurrentView enumeration (Access)
 keywords: vbaac10.chm13237
 f1_keywords:
 - vbaac10.chm13237
-ms.prod: access
 api_name:
 - Access.AcCurrentView
 ms.assetid: 1df75bec-f24b-6f53-3af5-bea736fc2df6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcCurrentView enumeration (Access)
 
 Used with the **CurrentView** property to determine the current view of an object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

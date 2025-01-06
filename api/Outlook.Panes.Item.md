@@ -1,18 +1,17 @@
 ---
-title: Panes.Item Method (Outlook)
+title: Panes.Item method (Outlook)
 keywords: vbaol11.chm79
 f1_keywords:
 - vbaol11.chm79
-ms.prod: outlook
 api_name:
 - Outlook.Panes.Item
 ms.assetid: 1c4129d3-220b-accb-f547-afa973b7048b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Panes.Item Method (Outlook)
+# Panes.Item method (Outlook)
 
 Returns a pane from a collection.
 
@@ -21,7 +20,7 @@ Returns a pane from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [Panes](./Outlook.Panes.md) object.
+_expression_ A variable that represents a [Panes](Outlook.Panes.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [Panes](./Outlook.Panes.md) object.
 
 ## Return value
 
-An  **Object** value that represents the specified object.
+An **Object** value that represents the specified object.
 
 
 ## See also

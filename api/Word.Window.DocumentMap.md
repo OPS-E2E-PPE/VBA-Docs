@@ -3,12 +3,11 @@ title: Window.DocumentMap property (Word)
 keywords: vbawd10.chm157417497
 f1_keywords:
 - vbawd10.chm157417497
-ms.prod: word
 api_name:
 - Word.Window.DocumentMap
 ms.assetid: e7f084f8-303b-d710-00fc-522eab6e3814
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DocumentMap`
+_expression_. `DocumentMap`
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example

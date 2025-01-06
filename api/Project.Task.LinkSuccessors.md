@@ -1,24 +1,24 @@
 ---
-title: Task.LinkSuccessors Method (Project)
-ms.prod: project-server
+title: Task.LinkSuccessors method (Project)
+ms.service: project-server
 api_name:
 - Project.Task.LinkSuccessors
 ms.assetid: 397fff8c-3ff3-4725-2938-fdaecddf624b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.LinkSuccessors Method (Project)
+# Task.LinkSuccessors method (Project)
 
 Adds one or more successors to the task.
 
 
 ## Syntax
 
- _expression_. `LinkSuccessors`( `_Tasks_`, `_Link_`, `_Lag_` )
+_expression_. `LinkSuccessors`( `_Tasks_`, `_Link_`, `_Lag_` )
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Parameters
@@ -27,9 +27,9 @@ Adds one or more successors to the task.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Tasks_|Required|**Object**|The  **Task** or **Tasks** object specified becomes a successor of the task specified with **expression**.|
+| _Tasks_|Required|**Object**|The **Task** or **Tasks** object specified becomes a successor of the task specified with **expression**.|
 | _Link_|Optional|**Long**| A constant that specifies the relationship between tasks that become linked. Can be one of the [PjTaskLinkType](Project.PjTaskLinkType.md) constants. The default value is **pjFinishToStart**.|
-| _Lag_|Optional|**Variant**|A string that specifies the duration of lag time between linked tasks. To specify lead time between tasks, use an expression for  **Lag** that evaluates to a negative value.|
+| _Lag_|Optional|**Variant**|A string that specifies the duration of lag time between linked tasks. To specify lead time between tasks, use an expression for **Lag** that evaluates to a negative value.|
 
 ## Return value
 

@@ -1,22 +1,22 @@
 ---
-title: WorkWeek.WeekDays Property (Project)
-ms.prod: project-server
+title: WorkWeek.WeekDays property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeek.WeekDays
 ms.assetid: 6348f47c-5d15-0bd9-cd50-de70a66c7674
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeek.WeekDays Property (Project)
+# WorkWeek.WeekDays property (Project)
 
-Gets a  **[WorkWeekDays](Project.Year.md)** collection representing the days in the work week. Read-only **WorkWeekDays**.
+Gets a **[WorkWeekDays](Project.Year.md)** collection representing the days in the work week. Read-only **WorkWeekDays**.
 
 
 ## Syntax
 
- _expression_. `WeekDays`
+_expression_. `WeekDays`
 
  _expression_ An expression that returns a [WorkWeek](./Project.WorkWeek.md) object.
 

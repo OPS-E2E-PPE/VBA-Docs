@@ -1,30 +1,30 @@
 ---
-title: Shape.GetCustomPropertyLinkedColumn Method (Visio)
+title: Shape.GetCustomPropertyLinkedColumn method (Visio)
 keywords: vis_sdr.chm11260235
 f1_keywords:
 - vis_sdr.chm11260235
-ms.prod: visio
 api_name:
 - Visio.Shape.GetCustomPropertyLinkedColumn
 ms.assetid: 0d6e3577-d918-1d33-135a-37a3f09f3eaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.GetCustomPropertyLinkedColumn Method (Visio)
+# Shape.GetCustomPropertyLinkedColumn method (Visio)
 
 Gets the name of the data column linked to the shape data (custom property) row in the shape's ShapeSheet spreadsheet specified by the custom property index.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `GetCustomPropertyLinkedColumn`( `_DataRecordsetID_` , `_CustomPropertyIndex_` )
+_expression_. `GetCustomPropertyLinkedColumn`( `_DataRecordsetID_` , `_CustomPropertyIndex_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -43,17 +43,18 @@ String
 
 ## Remarks
 
-If the method fails, call the  **[Shape.IsCustomPropertyLinked](Visio.Shape.IsCustomPropertyLinked.md)** method to make sure that the shape data item (custom property row) was actually linked to the data column.
+If the method fails, call the **[Shape.IsCustomPropertyLinked](Visio.Shape.IsCustomPropertyLinked.md)** method to make sure that the shape data item (custom property row) was actually linked to the data column.
 
 
- **Note**  In some previous versions of Visio, shape data were called custom properties.
+> [!NOTE] 
+> In some previous versions of Visio, shape data were called custom properties.
 
 
 ## Example
 
  The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **GetCustomPropertyLinkedColumn** method to get the name of the data recordset column linked to a particular shape data item.
 
-Before running this macro, add at least one data recordset to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the data recordset most recently added to the collection, and then tests to make sure the linking is successful. If it is, it prints the name of the data recordset column linked to the specified shape data item (custom property) in the **Immediate** window.
+Before running this macro, add at least one data recordset to the **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the data recordset most recently added to the collection, and then tests to make sure the linking is successful. If it is, it prints the name of the data recordset column linked to the specified shape data item (custom property) in the Immediate window.
 
 
 

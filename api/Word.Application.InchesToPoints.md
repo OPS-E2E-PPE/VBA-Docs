@@ -3,25 +3,24 @@ title: Application.InchesToPoints method (Word)
 keywords: vbawd10.chm158335346
 f1_keywords:
 - vbawd10.chm158335346
-ms.prod: word
 api_name:
 - Word.Application.InchesToPoints
 ms.assetid: 67a7e59c-bc61-be03-852d-05fadebef148
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.InchesToPoints method (Word)
 
-Converts a measurement from inches to points (1 inch = 72 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from inches to points (1 inch = 72 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `InchesToPoints`( `_Inches_` )
+_expression_. `InchesToPoints`( `_Inches_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters

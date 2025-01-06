@@ -3,12 +3,11 @@ title: Application.OrganizerRename method (Word)
 keywords: vbawd10.chm158335296
 f1_keywords:
 - vbawd10.chm158335296
-ms.prod: word
 api_name:
 - Word.Application.OrganizerRename
 ms.assetid: abbe323c-b882-e497-608f-80004e166c8a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Renames the specified style, AutoText entry, toolbar, or macro project item in a
 
 ## Syntax
 
- _expression_. `OrganizerRename`( `_Source_` , `_Name_` , `_NewName_` , `_Object_` )
+_expression_. `OrganizerRename`( `_Source_` , `_Name_` , `_NewName_` , `_Object_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters

@@ -3,12 +3,11 @@ title: Paragraph.IndentCharWidth method (Word)
 keywords: vbawd10.chm156696896
 f1_keywords:
 - vbawd10.chm156696896
-ms.prod: word
 api_name:
 - Word.Paragraph.IndentCharWidth
 ms.assetid: dba8182e-eb09-64dd-42c8-1e7e0e3af777
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Indents a paragraphs by a specified number of characters.
 
 ## Syntax
 
- _expression_. `IndentCharWidth`( `_Count_` )
+_expression_. `IndentCharWidth`( `_Count_` )
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Indents a paragraphs by a specified number of characters.
 
 ## Remarks
 
-This method is equivalent to clicking the  **Increase Indent** button on the **Formatting** toolbar.
+This method is equivalent to clicking the **Increase Indent** button on the **Formatting** toolbar.
 
 
 ## Example

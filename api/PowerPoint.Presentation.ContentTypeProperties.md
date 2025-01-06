@@ -1,27 +1,26 @@
 ---
-title: Presentation.ContentTypeProperties Property (PowerPoint)
+title: Presentation.ContentTypeProperties property (PowerPoint)
 keywords: vbapp10.chm583087
 f1_keywords:
 - vbapp10.chm583087
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.ContentTypeProperties
 ms.assetid: 66bc557e-f9ca-16ca-2830-3ce5eef9a9ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.ContentTypeProperties Property (PowerPoint)
+# Presentation.ContentTypeProperties property (PowerPoint)
 
-Returns the Microsoft Office  **MetaProperties** collection that describes the metadata stored in the presentation. Read-only.
+Returns the Microsoft Office **MetaProperties** collection that describes the metadata stored in the presentation. Read-only.
 
 
 ## Syntax
 
- _expression_. `ContentTypeProperties`
+_expression_. `ContentTypeProperties`
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

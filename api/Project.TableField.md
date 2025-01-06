@@ -1,19 +1,19 @@
 ---
-title: TableField Object (Project)
-ms.prod: project-server
+title: TableField object (Project)
+ms.service: project-server
 api_name:
 - Project.TableField
 ms.assetid: 7f749404-0723-7a17-b83f-f43725c45fc5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableField Object (Project)
+# TableField object (Project)
 
 
 
-Represents a field of a table in Project. The  **TableField** object is a member of the **[TableFields](./Project.tablefields.md)** collection.
+Represents a field of a table in Project. The **TableField** object is a member of the **[TableFields](./Project.tablefields.md)** collection.
 
 ## Methods
 

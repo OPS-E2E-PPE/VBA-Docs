@@ -3,18 +3,17 @@ title: CurrentProject.AccessConnection property (Access)
 keywords: vbaac10.chm12726
 f1_keywords:
 - vbaac10.chm12726
-ms.prod: access
 api_name:
 - Access.CurrentProject.AccessConnection
 ms.assetid: c2bf2846-c5ab-34a2-4b24-33c9cc9820c4
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CurrentProject.AccessConnection property (Access)
 
-You can use the **AccessConnection** property to return a reference to the current Microsoft ActiveX Data Objects (ADO) **Connection** object and its related properties. Read-only **Connection**.
+Use the **AccessConnection** property to return a reference to the current Microsoft ActiveX Data Objects (ADO) **Connection** object and its related properties. Read-only **Connection**.
 
 
 ## Syntax

@@ -3,18 +3,17 @@ title: ObjectFrame.OLEClass property (Access)
 keywords: vbaac10.chm11561
 f1_keywords:
 - vbaac10.chm11561
-ms.prod: access
 api_name:
 - Access.ObjectFrame.OLEClass
 ms.assetid: ed32f15c-77da-0bd6-46da-38373ea37cc1
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.OLEClass property (Access)
 
-You can use the **OLEClass** property to obtain a description of the kind of OLE object contained in a chart control or an unbound object frame. Read-only **String**.
+Use the **OLEClass** property to obtain a description of the kind of OLE object contained in a chart control or an unbound object frame. Read-only **String**.
 
 
 ## Syntax
@@ -31,7 +30,8 @@ This property is set automatically in the control's property sheet to a string e
 > [!NOTE] 
 > If you are using Automation (formerly called OLE Automation) and need to specify a name to refer to the OLE object, use the **Class** property.
 
-The **OLEClass** property and the **Class** property are similar but not identical. The **OLEClass** property setting is a general description of the OLE object, whereas the **Class** property setting is the name used to refer to the OLE object in Visual Basic. Examples of **OLEClass** property settings are Microsoft Excel Chart, Microsoft Word Document, and Paintbrush Picture.
+> [!NOTE] 
+> The **OLEClass** property and the **Class** property are similar but not identical. The **OLEClass** property setting is a general description of the OLE object, whereas the **Class** property setting is the name used to refer to the OLE object in Visual Basic. Examples of **OLEClass** property settings are Microsoft Excel Chart, Microsoft Word Document, and Paintbrush Picture.
 
 
 ## Example

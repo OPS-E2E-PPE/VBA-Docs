@@ -3,12 +3,11 @@ title: Label.BottomMargin property (Access)
 keywords: vbaac10.chm10238
 f1_keywords:
 - vbaac10.chm10238
-ms.prod: access
 api_name:
 - Access.Label.BottomMargin
 ms.assetid: 0d2a1de9-0aea-5bbd-22b7-5b99678240be
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

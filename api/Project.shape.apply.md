@@ -1,20 +1,20 @@
 ---
-title: Shape.Apply Method (Project)
-ms.prod: project-server
+title: Shape.Apply method (Project)
+ms.service: project-server
 ms.assetid: 8d7a29f0-6a69-f643-6726-0c85247fb957
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Apply Method (Project)
-Applies formatting to a shape, where the formatting information has been copied by using the  **[PickUp](Project.shape.pickup.md)** method.
+# Shape.Apply method (Project)
+Applies formatting to a shape, where the formatting information has been copied by using the **[PickUp](Project.shape.pickup.md)** method.
 
 ## Syntax
 
- _expression_. `Apply`
+_expression_.**Apply**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Return value

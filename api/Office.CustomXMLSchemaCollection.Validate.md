@@ -3,12 +3,11 @@ title: CustomXMLSchemaCollection.Validate method (Office)
 keywords: vbaof11.chm292007
 f1_keywords:
 - vbaof11.chm292007
-ms.prod: office
 api_name:
 - Office.CustomXMLSchemaCollection.Validate
 ms.assetid: c1358676-9df7-83fe-1b6c-8ef70f9d9c4b
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

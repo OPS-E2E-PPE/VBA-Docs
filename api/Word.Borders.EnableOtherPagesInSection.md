@@ -3,12 +3,11 @@ title: Borders.EnableOtherPagesInSection property (Word)
 keywords: vbawd10.chm154927135
 f1_keywords:
 - vbawd10.chm154927135
-ms.prod: word
 api_name:
 - Word.Borders.EnableOtherPagesInSection
 ms.assetid: 288caacd-e8c8-fa27-fda0-0d02932b90aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EnableOtherPagesInSection`
+_expression_. `EnableOtherPagesInSection`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Example

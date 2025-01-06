@@ -3,12 +3,11 @@ title: Axis.HasMinorGridlines property (Word)
 keywords: vbawd10.chm113049613
 f1_keywords:
 - vbawd10.chm113049613
-ms.prod: word
 api_name:
 - Word.Axis.HasMinorGridlines
 ms.assetid: f835dab5-1256-bd4c-0219-2e3016120d18
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasMinorGridlines`
+_expression_.**HasMinorGridlines**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks

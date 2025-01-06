@@ -3,25 +3,24 @@ title: Selection.BookmarkID property (Word)
 keywords: vbawd10.chm158662964
 f1_keywords:
 - vbawd10.chm158662964
-ms.prod: word
 api_name:
 - Word.Selection.BookmarkID
 ms.assetid: f48d317c-b5ed-ff0e-4a22-13b68aa10be1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.BookmarkID property (Word)
 
-Returns the number of the bookmark that encloses the beginning of the specified selection. Read-only  **Long**.
+Returns the number of the bookmark that encloses the beginning of the specified selection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `BookmarkID`
+_expression_. `BookmarkID`
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks

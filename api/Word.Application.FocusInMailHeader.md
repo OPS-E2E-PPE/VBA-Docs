@@ -3,12 +3,11 @@ title: Application.FocusInMailHeader property (Word)
 keywords: vbawd10.chm158335362
 f1_keywords:
 - vbawd10.chm158335362
-ms.prod: word
 api_name:
 - Word.Application.FocusInMailHeader
 ms.assetid: fba9d08b-1950-b825-5f1a-14d671181b22
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `FocusInMailHeader`
+_expression_. `FocusInMailHeader`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: CategoryRuleCondition.ConditionType Property (Outlook)
+title: CategoryRuleCondition.ConditionType property (Outlook)
 keywords: vbaol11.chm2445
 f1_keywords:
 - vbaol11.chm2445
-ms.prod: outlook
 api_name:
 - Outlook.CategoryRuleCondition.ConditionType
 ms.assetid: 155e8920-479e-fed7-833f-5aaf3eb12d2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CategoryRuleCondition.ConditionType Property (Outlook)
+# CategoryRuleCondition.ConditionType property (Outlook)
 
-Returns a constant,  **olConditionCategory** , from the **[OlRuleConditionType](Outlook.OlRuleConditionType.md)** enumeration that indicates the type of rule condition. Read-only.
+Returns a constant, **olConditionCategory**, from the **[OlRuleConditionType](Outlook.OlRuleConditionType.md)** enumeration that indicates the type of rule condition. Read-only.
 
 
 ## Syntax
 
 _expression_. `ConditionType`
 
-_expression_ A variable that represents a [CategoryRuleCondition](./Outlook.CategoryRuleCondition.md) object.
+_expression_ A variable that represents a [CategoryRuleCondition](Outlook.CategoryRuleCondition.md) object.
 
 
 ## Remarks

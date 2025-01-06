@@ -1,45 +1,38 @@
 ---
-title: Application.WindowDeactivate Event (Publisher)
+title: Application.WindowDeactivate event (Publisher)
 keywords: vbapb10.chm268435458
 f1_keywords:
 - vbapb10.chm268435458
-ms.prod: publisher
 api_name:
 - Publisher.Application.WindowDeactivate
 ms.assetid: 84473784-7c03-4c9e-3e1b-9bf6ec7e1fbc
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/05/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowDeactivate Event (Publisher)
+# Application.WindowDeactivate event (Publisher)
 
 Occurs when the application window is deactivated.
 
 
 ## Syntax
 
- _expression_. **WindowDeactivate**(**_Wn_**, )
+_expression_.**WindowDeactivate** (_Wn_)
 
- _expression_ A variable that represents an  **Application** object.
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Wn|Required| **Window**|The window that is being deactivated.|
-
-## Remarks
-
-For information about using events with the Application object, see  [Using Events with the Application Object](../publisher/Concepts/using-events-with-the-application-object-publisher.md).
+|_Wn_|Required| **Window**|The window that is being deactivated.|
 
 
 ## Example
 
-This example minimizes the window when it is deactivated. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work; see  [Using Events with the Application Object](../publisher/Concepts/using-events-with-the-application-object-publisher.md)for directions on how to accomplish this.
+This example minimizes the Microsoft Publisher window when it is deactivated. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work. For directions about how to accomplish this, see [Using events with the Application object](../publisher/Concepts/using-events-with-the-application-object-publisher.md). 
 
 
 ```vb
@@ -52,9 +45,5 @@ End Sub
 ```
 
 
-## See also
-
-
- [Application Object](Publisher.Application.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

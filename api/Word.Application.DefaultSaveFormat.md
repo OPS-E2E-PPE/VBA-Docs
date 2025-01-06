@@ -3,23 +3,22 @@ title: Application.DefaultSaveFormat property (Word)
 keywords: vbawd10.chm158335040
 f1_keywords:
 - vbawd10.chm158335040
-ms.prod: word
 api_name:
 - Word.Application.DefaultSaveFormat
 ms.assetid: e15d8cc9-f6da-ccb0-784f-02fe9dc7ee6a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DefaultSaveFormat property (Word)
 
-Returns or sets the default format that will appear in the  **Save as type** box in the **Save As** dialog box. Read/write **String**.
+Returns or sets the default format that will appear in the **Save as type** box in the **Save As** dialog box. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `DefaultSaveFormat`
+_expression_. `DefaultSaveFormat`
 
  _expression_ An expression that represents a '[Application](Word.Application.md)' object.
 
@@ -41,7 +40,7 @@ The string used with this property is the file converter class name. The class n
 |Rich Text Format|"Rtf"|
 |Unicode Text|"Unicode"|
 
-Use the  **[ClassName](Word.FileConverter.ClassName.md)** property of the **[FileConverter](Word.FileConverter.md)** object to determine the class name of an external file converter.
+Use the **[ClassName](Word.FileConverter.ClassName.md)** property of the **[FileConverter](Word.FileConverter.md)** object to determine the class name of an external file converter.
 
 
 ## Example

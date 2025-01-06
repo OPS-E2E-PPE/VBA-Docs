@@ -3,10 +3,9 @@ title: Shell function (Visual Basic for Applications)
 keywords: vblr6.chm1009023
 f1_keywords:
 - vblr6.chm1009023
-ms.prod: office
 ms.assetid: 033bffb0-540f-2c17-2aed-d25d10bedd8c
-ms.date: 12/13/2018
-localization_priority: Priority
+ms.date: 12/29/2020
+ms.localizationpriority: high
 ---
 
 
@@ -18,16 +17,12 @@ Runs an executable program and returns a **Variant** (**Double**) representing t
 
 **Shell**(_pathname_, [ _windowstyle_ ])
 
-<br/>
-
 The **Shell** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
 |Part|Description|
 |:-----|:-----|
 |_pathname_|Required; **Variant** (**String**). Name of the program to execute and any required [arguments](../../Glossary/vbe-glossary.md#argument) or [command-line](../../Glossary/vbe-glossary.md#command-line) switches; may include directory or folder and drive. On the Macintosh, you can use the **MacID** function to specify an application's signature instead of its name. The following example uses the signature for Microsoft Word: `Shell MacID("MSWD")`|
 |_windowstyle_|Optional. **Variant** (**Integer**) corresponding to the style of the window in which the program is to be run. If _windowstyle_ is omitted, the program is started minimized with focus. On the Macintosh (System 7.0 or later), _windowstyle_ only determines whether or not the application gets the focus when it is run.|
-
-<br/>
 
 The _windowstyle_ named argument has these values:
 
@@ -47,17 +42,17 @@ If the **Shell** function successfully executes the named file, it returns the t
 On the Macintosh, **vbNormalFocus**, **vbMinimizedFocus**, and **vbMaximizedFocus** all place the application in the foreground; **vbHide**, **vbNoFocus**, and **vbMinimizeFocus** all place the application in the background.
 
 > [!NOTE] 
-> By default, the **Shell** function runs other programs asynchronously. This means that a program started with **Shell** might not finish executing before the statements following the **Shell** function are executed.
+> By default, the **Shell** function runs other programs asynchronously. This means that a program started with **Shell** might not finish executing before the statements following the **Shell** function are executed. To wait for a program to finish, see [Determine when a shelled process ends](/office/vba/access/concepts/windows-api/determine-when-a-shelled-process-ends).
 
 ## Example
 
-This example uses the **Shell** function to run an application specified by the user. On the MacIntosh, the default drive name is "HD" and portions of the pathname are separated by colons instead of backslashes. Similarly, you would specify Macintosh folders instead of `\WINDOWS`.
+This example uses the **Shell** function to run an application specified by the user. On the Macintosh, the default drive name is "HD" and portions of the pathname are separated by colons instead of backslashes. Similarly, you would specify Macintosh folders instead of `\WINDOWS`.
 
 ```vb
 ' Specifying 1 as the second argument opens the application in 
 ' normal size and gives it the focus.
 Dim RetVal
-RetVal = Shell("C:\WINDOWS\CALC.EXE", 1)    ' Run Calculator.
+RetVal = Shell("C:\WINDOWS\NOTEPAD.EXE", 1)    ' Open Notepad.
 
 ```
 

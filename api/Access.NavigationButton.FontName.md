@@ -3,18 +3,17 @@ title: NavigationButton.FontName property (Access)
 keywords: vbaac10.chm10472
 f1_keywords:
 - vbaac10.chm10472
-ms.prod: access
 api_name:
 - Access.NavigationButton.FontName
 ms.assetid: 52fe8d6b-9631-76b3-f210-e3b98c405549
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

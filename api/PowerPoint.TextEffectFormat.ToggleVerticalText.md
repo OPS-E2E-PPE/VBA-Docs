@@ -1,39 +1,38 @@
 ---
-title: TextEffectFormat.ToggleVerticalText Method (PowerPoint)
+title: TextEffectFormat.ToggleVerticalText method (PowerPoint)
 keywords: vbapp10.chm556002
 f1_keywords:
 - vbapp10.chm556002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextEffectFormat.ToggleVerticalText
 ms.assetid: f9b71bae-4432-c4bd-4b47-1294520e33d1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextEffectFormat.ToggleVerticalText Method (PowerPoint)
+# TextEffectFormat.ToggleVerticalText method (PowerPoint)
 
 Switches the text flow in the specified WordArt from horizontal to vertical, or vice versa.
 
 
 ## Syntax
 
- _expression_. `ToggleVerticalText`
+_expression_. `ToggleVerticalText`
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Remarks
 
-Using the  **ToggleVerticalText** method swaps the values of the **Width** and **Height** properties of the **Shape** object that represents the WordArt and leaves the **Left** and **Top** properties unchanged.
+Using the **ToggleVerticalText** method swaps the values of the **Width** and **Height** properties of the **Shape** object that represents the WordArt and leaves the **Left** and **Top** properties unchanged.
 
-The  **[Flip](PowerPoint.Shape.Flip.md)** method and **[Rotation](PowerPoint.Shape.Rotation.md)** property of the **[Shape](PowerPoint.Shape.md)** object and the **[RotatedChars](PowerPoint.TextEffectFormat.RotatedChars.md)** property and **ToggleVerticalText** method of the **TextEffectFormat** object all affect the character orientation and the direction of text flow in a **Shape** object that represents WordArt. You may have to experiment to find out how to combine the effects of these properties and methods to get the result you want.
+The **[Flip](PowerPoint.Shape.Flip.md)** method and **[Rotation](PowerPoint.Shape.Rotation.md)** property of the **[Shape](PowerPoint.Shape.md)** object and the **[RotatedChars](PowerPoint.TextEffectFormat.RotatedChars.md)** property and **ToggleVerticalText** method of the **TextEffectFormat** object all affect the character orientation and the direction of text flow in a **Shape** object that represents WordArt. You may have to experiment to find out how to combine the effects of these properties and methods to get the result you want.
 
 
 ## Example
 
-This example adds WordArt that contains the text "Test" to  `myDocument`, and switches from horizontal text flow (the default for the specified WordArt style,  **msoTextEffect1**) to vertical text flow.
+This example adds WordArt that contains the text "Test" to _myDocument_, and switches from horizontal text flow (the default for the specified WordArt style, **msoTextEffect1**) to vertical text flow.
 
 
 ```vb

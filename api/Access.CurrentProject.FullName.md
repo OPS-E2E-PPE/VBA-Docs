@@ -3,12 +3,11 @@ title: CurrentProject.FullName property (Access)
 keywords: vbaac10.chm12719
 f1_keywords:
 - vbaac10.chm12719
-ms.prod: access
 api_name:
 - Access.CurrentProject.FullName
 ms.assetid: 43fa4260-4e70-c314-c02d-1328b7c1b2a2
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

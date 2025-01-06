@@ -1,11 +1,10 @@
 ---
 title: XlCVError enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlCVError
 ms.assetid: 652a8f26-b80d-a555-6ff2-58da3f219090
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -24,5 +23,6 @@ Specifies the cell error number and value.
 | **xlErrNum**|2036|Error number: 2036|
 | **xlErrRef**|2023|Error number: 2023|
 | **xlErrValue**|2015|Error number: 2015|
+| **xlErrSpill**|2045|Error number: 2045|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

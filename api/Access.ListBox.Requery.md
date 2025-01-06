@@ -3,12 +3,11 @@ title: ListBox.Requery method (Access)
 keywords: vbaac10.chm11212
 f1_keywords:
 - vbaac10.chm11212
-ms.prod: access
 api_name:
 - Access.ListBox.Requery
 ms.assetid: 8daf0608-a2ce-75c3-2601-4071f6f498a5
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[ListBox](Access.ListBox.md)** objec
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

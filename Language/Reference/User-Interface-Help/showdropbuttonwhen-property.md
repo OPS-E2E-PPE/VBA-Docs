@@ -3,12 +3,11 @@ title: ShowDropButtonWhen property
 keywords: fm20.chm2001900
 f1_keywords:
 - fm20.chm2001900
-ms.prod: office
 api_name:
 - Office.ShowDropButtonWhen
 ms.assetid: 82c7a038-a4fa-7253-ec24-c97e6841293e
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: MailMergeDataSource.InvalidAddress property (Word)
 keywords: vbawd10.chm152895502
 f1_keywords:
 - vbawd10.chm152895502
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.InvalidAddress
 ms.assetid: ac84a87e-2125-851d-90ab-42359898edcc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `InvalidAddress`
+_expression_. `InvalidAddress`
 
  _expression_ An expression that returns a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Remarks
 
-Use the  **[SetAllErrorFlags](Word.MailMergeDataSource.SetAllErrorFlags.md)** method to set both the **InvalidAddress** and **[InvalidComments](Word.MailMergeDataSource.InvalidComments.md)** properties for all records in a data source.
+Use the **[SetAllErrorFlags](Word.MailMergeDataSource.SetAllErrorFlags.md)** method to set both the **InvalidAddress** and **[InvalidComments](Word.MailMergeDataSource.InvalidComments.md)** properties for all records in a data source.
 
 
 ## Example

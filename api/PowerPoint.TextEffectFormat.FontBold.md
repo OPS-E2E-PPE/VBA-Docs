@@ -1,27 +1,26 @@
 ---
-title: TextEffectFormat.FontBold Property (PowerPoint)
+title: TextEffectFormat.FontBold property (PowerPoint)
 keywords: vbapp10.chm556004
 f1_keywords:
 - vbapp10.chm556004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextEffectFormat.FontBold
 ms.assetid: 3166f581-63f6-c2c1-1902-c6b3a511f244
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextEffectFormat.FontBold Property (PowerPoint)
+# TextEffectFormat.FontBold property (PowerPoint)
 
 Determines whether the font in the specified WordArt is bold. Read/write.
 
 
 ## Syntax
 
- _expression_.**FontBold**
+_expression_.**FontBold**
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **FontBold** property can be one of these **MsoTriState** constants.
+The value of the **FontBold** property can be one of these **MsoTriState** constants.
 
 
 
@@ -42,7 +41,7 @@ The value of the  **FontBold** property can be one of these **MsoTriState** cons
 
 ## Example
 
-This example sets the font to bold for shape three on  `myDocument` if the shape is WordArt.
+This example sets the font to bold for shape three on _myDocument_ if the shape is WordArt.
 
 
 ```vb

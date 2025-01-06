@@ -3,30 +3,25 @@ title: Report.CurrentRecord property (Access)
 keywords: vbaac10.chm13771
 f1_keywords:
 - vbaac10.chm13771
-ms.prod: access
 api_name:
 - Access.Report.CurrentRecord
 ms.assetid: da19aa9e-6192-1e51-3c07-aadd2d8ebe4c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/15/2019
+ms.localizationpriority: medium
 ---
 
 
 # Report.CurrentRecord property (Access)
 
-You can use the  **CurrentRecord** property to identify the current record in the recordset being viewed. Read/write **Long**.
+Use the **CurrentRecord** property to identify the current record in the recordset being viewed. Read/write **Long**.
 
 
 ## Syntax
 
-_expression_. `CurrentRecord`
+_expression_.**CurrentRecord**
 
 _expression_ A variable that represents a **[Report](Access.Report.md)** object.
 
 
-## See also
-
-
-[Report Object](Access.Report.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

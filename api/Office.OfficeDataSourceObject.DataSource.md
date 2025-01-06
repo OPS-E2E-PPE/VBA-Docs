@@ -3,12 +3,11 @@ title: OfficeDataSourceObject.DataSource property (Office)
 keywords: vbaof11.chm232003
 f1_keywords:
 - vbaof11.chm232003
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject.DataSource
 ms.assetid: 280e4d63-14d1-8b3c-b735-0190dba12ba1
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ Sub SetAndReturnDataSourceName()
  
  Set appOffice = Application.OfficeDataSourceObject 
  With appOffice 
- .Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ .Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  If .DataSource = "" Then 

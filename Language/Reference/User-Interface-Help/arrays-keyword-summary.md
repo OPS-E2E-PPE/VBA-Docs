@@ -3,16 +3,13 @@ title: Arrays keyword summary
 keywords: vblr6.chm1074266
 f1_keywords:
 - vblr6.chm1074266
-ms.prod: office
 ms.assetid: 076aa4c2-251a-901e-1cd7-c58f69ac55f7
 ms.date: 11/29/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Arrays keyword summary
-
-<br/>
 
 |Action|Keywords|
 |:-----|:-----|

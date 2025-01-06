@@ -1,15 +1,15 @@
 ---
-title: PjTextItem Enumeration (Project)
-ms.prod: project-server
+title: PjTextItem enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjTextItem
 ms.assetid: 0ebefb9f-91f0-56c5-b7f8-a11fade79eb9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjTextItem Enumeration (Project)
+# PjTextItem enumeration (Project)
 
 Contains constants that specify the text item in the Project database. For more information about working with fields in Project, see the "Fields reference" topics in Project Help.
 

@@ -3,25 +3,24 @@ title: Shape.OLEFormat property (Word)
 keywords: vbawd10.chm161481204
 f1_keywords:
 - vbawd10.chm161481204
-ms.prod: word
 api_name:
 - Word.Shape.OLEFormat
 ms.assetid: d558bd26-207c-c308-889e-7316f5027c7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.OLEFormat property (Word)
 
-Returns an  **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified shape, inline shape, or field. Read-only.
+Returns an **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified shape, inline shape, or field. Read-only.
 
 
 ## Syntax
 
- _expression_. `OLEFormat`
+_expression_.**OLEFormat**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: Effect.Application Property (PowerPoint)
+title: Effect.Application property (PowerPoint)
 keywords: vbapp10.chm652001
 f1_keywords:
 - vbapp10.chm652001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.Application
 ms.assetid: 031db407-eb15-2092-24b0-91bab5aab8c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.Application Property (PowerPoint)
+# Effect.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

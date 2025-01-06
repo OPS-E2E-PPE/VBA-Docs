@@ -3,12 +3,11 @@ title: Document.DisableFeatures property (Word)
 keywords: vbawd10.chm158007633
 f1_keywords:
 - vbawd10.chm158007633
-ms.prod: word
 api_name:
 - Word.Document.DisableFeatures
 ms.assetid: 40a62de3-f74e-d604-d3fc-dfb26abeb313
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisableFeatures`
+_expression_. `DisableFeatures`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **DisableFeatures** property only affects the document for which you set the property. Use this property if you plan on sharing a document between users with earlier versions of Microsoft Word so that you don't end up introducing into a document features that are not available in their versions.
+The **DisableFeatures** property only affects the document for which you set the property. Use this property if you plan on sharing a document between users with earlier versions of Microsoft Word so that you don't end up introducing into a document features that are not available in their versions.
 
 
 ## Example

@@ -1,24 +1,24 @@
 ---
-title: TimeScaleValues.Item Property (Project)
-ms.prod: project-server
+title: TimeScaleValues.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.TimeScaleValues.Item
 ms.assetid: 8bbd6389-53ac-9f03-d155-c53e6a3dc681
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimeScaleValues.Item Property (Project)
+# TimeScaleValues.Item property (Project)
 
-Gets a single  **TimeScaleValue** object from the **TimeScaleValues** collection. Read-only **TimeScaleValue**.
+Gets a single **TimeScaleValue** object from the **TimeScaleValues** collection. Read-only **TimeScaleValue**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'TimeScaleValues' object.
+_expression_ A variable that represents a 'TimeScaleValues' object.
 
 
 ## Parameters

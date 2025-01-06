@@ -3,18 +3,17 @@ title: CheckBox.BorderColor property (Access)
 keywords: vbaac10.chm10718
 f1_keywords:
 - vbaac10.chm10718
-ms.prod: access
 api_name:
 - Access.CheckBox.BorderColor
 ms.assetid: 21f40b75-756c-df56-11bc-824ef796797e
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**. 
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**. 
 
 
 ## Syntax

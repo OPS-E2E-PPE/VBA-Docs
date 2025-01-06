@@ -3,10 +3,10 @@ title: Bound Object Frame Control
 keywords: vbaac10.chm5186601
 f1_keywords:
 - vbaac10.chm5186601
-ms.prod: access
+ms.service: access
 ms.assetid: 9d087a78-278d-1b87-d1b4-22f836707efa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

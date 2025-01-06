@@ -1,11 +1,10 @@
 ---
 title: CommandBarPopup.Parameter property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarPopup.Parameter
 ms.assetid: 3ad7783e-3afd-0019-1cf9-eae93992479b
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

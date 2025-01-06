@@ -1,27 +1,26 @@
 ---
-title: ReplaceShapesEvent.Application Property (Visio)
-ms.prod: visio
+title: ReplaceShapesEvent.Application property (Visio)
 ms.assetid: 0013ed13-7912-ecaf-7962-73c5145a3dd5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReplaceShapesEvent.Application Property (Visio)
+# ReplaceShapesEvent.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'ReplaceShapesEvent' object.
-
-
-## See also
+_expression_ A variable that represents a **[ReplaceShapesEvent](Visio.ReplaceShapesEvent.md)** object.
 
 
-[ReplaceShapesEvent Object](Visio.replaceshapesevent.md)
+
+
+
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

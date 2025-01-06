@@ -1,27 +1,27 @@
 ---
-title: Application.CalendarShowBarSplits Method (Project)
+title: Application.CalendarShowBarSplits method (Project)
 keywords: vbapj.chm2382
 f1_keywords:
 - vbapj.chm2382
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CalendarShowBarSplits
 ms.assetid: d52f7a1e-ec74-3804-4bbd-3e27ae362e26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CalendarShowBarSplits Method (Project)
+# Application.CalendarShowBarSplits method (Project)
 
 Shows or hides task splits on the Calendar.
 
 
 ## Syntax
 
- _expression_. `CalendarShowBarSplits`( `_Display_` )
+_expression_. `CalendarShowBarSplits`( `_Display_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

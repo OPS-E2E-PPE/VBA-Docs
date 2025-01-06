@@ -3,10 +3,9 @@ title: Tan function (Visual Basic for Applications)
 keywords: vblr6.chm1009040
 f1_keywords:
 - vblr6.chm1009040
-ms.prod: office
 ms.assetid: 4f567334-c397-ccd3-48c9-c42cc630cc79
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

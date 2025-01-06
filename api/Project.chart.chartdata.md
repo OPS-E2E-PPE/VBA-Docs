@@ -1,20 +1,20 @@
 ---
-title: Chart.ChartData Property (Project)
-ms.prod: project-server
+title: Chart.ChartData property (Project)
+ms.service: project-server
 ms.assetid: 02cca9fd-00e1-a4c0-78e9-edabda0c160b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ChartData Property (Project)
-Gets an  **Office.IMsoChartData** object that enables the user to show, hide, or unlink the Field List pane for the selected chart. Read-only **IMsoChartData**.
+# Chart.ChartData property (Project)
+Gets an **Office.IMsoChartData** object that enables the user to show, hide, or unlink the Field List pane for the selected chart. Read-only **IMsoChartData**.
 
 ## Syntax
 
- _expression_. `ChartData`
+_expression_. `ChartData`
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Property value

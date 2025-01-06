@@ -3,25 +3,24 @@ title: Global.PointsToCentimeters method (Word)
 keywords: vbawd10.chm163119485
 f1_keywords:
 - vbawd10.chm163119485
-ms.prod: word
 api_name:
 - Word.Global.PointsToCentimeters
 ms.assetid: 82f64aa2-3c9c-a3e0-5326-8d4227cee170
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.PointsToCentimeters method (Word)
 
-Converts a measurement from points to centimeters (1 centimeter = 28.35 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from points to centimeters (1 centimeter = 28.35 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `PointsToCentimeters`( `_Points_` )
+_expression_. `PointsToCentimeters`( `_Points_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters

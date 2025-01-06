@@ -3,12 +3,11 @@ title: Selection.MoveRight method (Word)
 keywords: vbawd10.chm158663157
 f1_keywords:
 - vbawd10.chm158663157
-ms.prod: word
 api_name:
 - Word.Selection.MoveRight
 ms.assetid: fcac96c7-7189-87b2-d800-9d161edb1e09
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the selection to the right and returns the number of units it has been mov
 
 ## Syntax
 
- _expression_. `MoveRight`( `_Unit_` , `_Count_` , `_Extend_` )
+_expression_. `MoveRight`( `_Unit_` , `_Count_` , `_Extend_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,9 +29,9 @@ Moves the selection to the right and returns the number of units it has been mov
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **WdUnits**|The unit by which the selection is to be moved.The default value is  **wdCharacter**.|
+| _Unit_|Optional| **WdUnits**|The unit by which the selection is to be moved.The default value is **wdCharacter**.|
 | _Count_|Optional| **Variant**|The number of units the selection is to be moved. The default value is 1.|
-| _Extend_|Optional| **Variant**|Can be either  **wdMove** or **wdExtend**. If **wdMove** is used, the selection is collapsed to the endpoint and moved to the right. If **wdExtend** is used, the selection is extended to the right. The default value is **wdMove**.|
+| _Extend_|Optional| **Variant**|Can be either **wdMove** or **wdExtend**. If **wdMove** is used, the selection is collapsed to the endpoint and moved to the right. If **wdExtend** is used, the selection is extended to the right. The default value is **wdMove**.|
 
 ## Return value
 
@@ -41,7 +40,7 @@ Long
 
 ## Remarks
 
-When the Unit is  **wdCell** , the Extend argument can only be **wdMove**.
+When the Unit is **wdCell**, the Extend argument can only be **wdMove**.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: MenuItem.Caption Property (Visio)
+title: MenuItem.Caption property (Visio)
 keywords: vis_sdr.chm12913170
 f1_keywords:
 - vis_sdr.chm12913170
-ms.prod: visio
 api_name:
 - Visio.MenuItem.Caption
 ms.assetid: f7b3e372-4963-8086-e2fd-b48f49f422e9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MenuItem.Caption Property (Visio)
+# MenuItem.Caption property (Visio)
 
 Gets or sets the caption for a menu item. Read/write.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
 ## Return value
@@ -32,7 +31,8 @@ String
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 

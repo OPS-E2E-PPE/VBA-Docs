@@ -1,11 +1,10 @@
 ---
 title: ODSOFilter.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.ODSOFilter.Creator
 ms.assetid: 4929faa2-515e-cf81-484f-59c33f8d3c86
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

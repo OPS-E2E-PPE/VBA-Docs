@@ -3,30 +3,25 @@ title: Indexes.MarkAllEntries method (Word)
 keywords: vbawd10.chm159121510
 f1_keywords:
 - vbawd10.chm159121510
-ms.prod: word
 api_name:
 - Word.Indexes.MarkAllEntries
 ms.assetid: bd2fb9b9-7a10-6f35-b691-f8c11542a711
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Indexes.MarkAllEntries method (Word)
 
-Inserts an XE (Index Entry) field after all instances of the text in  **Range**.
-
+Inserts an XE (Index Entry) field after all instances of the text in **Range**.
 
 ## Syntax
 
- _expression_. `MarkAllEntries`( `_Range_` , `_Entry_` , `_EntryAutoText_` , `_CrossReference_` , `_CrossReferenceAutoText_` , `_BookmarkName_` , `_Bold_` , `_Italic_` )
+_expression_. `MarkAllEntries`( `_Range_` , `_Entry_` , `_EntryAutoText_` , `_CrossReference_` , `_CrossReferenceAutoText_` , `_BookmarkName_` , `_Bold_` , `_Italic_` )
 
- _expression_ Required. A variable that represents an '[Indexes](Word.indexes.md)' collection.
-
+_expression_ Required. A variable that represents an '[Indexes](Word.indexes.md)' collection.
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -43,7 +38,6 @@ Inserts an XE (Index Entry) field after all instances of the text in  **Range**.
 
 This example marks the selected text with TA fields throughout the active document and then updates the first index in the document. The entry text in the index matches the selected text.
 
-
 ```vb
 If Selection.Type = wdSelectionNormal Then 
  ActiveDocument.Indexes.MarkAllEntries _ 
@@ -53,9 +47,7 @@ If Selection.Type = wdSelectionNormal Then
 End If
 ```
 
-
 ## See also
-
 
 [Indexes Collection Object](Word.indexes.md)
 

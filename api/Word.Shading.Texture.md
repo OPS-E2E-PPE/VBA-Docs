@@ -3,25 +3,24 @@ title: Shading.Texture property (Word)
 keywords: vbawd10.chm154796035
 f1_keywords:
 - vbawd10.chm154796035
-ms.prod: word
 api_name:
 - Word.Shading.Texture
 ms.assetid: 97fac431-4e0a-fd92-9845-47ee99196a78
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shading.Texture property (Word)
 
-Returns or sets the shading texture for the specified object. Read/write  **WdTextureIndex**.
+Returns or sets the shading texture for the specified object. Read/write **WdTextureIndex**.
 
 
 ## Syntax
 
- _expression_. `Texture`
+_expression_. `Texture`
 
- _expression_ Required. A variable that represents a '[Shading](Word.Shading.md)' object.
+_expression_ Required. A variable that represents a '[Shading](Word.Shading.md)' object.
 
 
 ## Example

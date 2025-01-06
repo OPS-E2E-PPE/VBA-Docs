@@ -1,27 +1,26 @@
 ---
-title: PictureFormat.VerticalScale Property (Publisher)
+title: PictureFormat.VerticalScale property (Publisher)
 keywords: vbapb10.chm3604784
 f1_keywords:
 - vbapb10.chm3604784
-ms.prod: publisher
 api_name:
 - Publisher.PictureFormat.VerticalScale
 ms.assetid: ff83d1bc-798b-5b42-7087-9b45f3ff573d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# PictureFormat.VerticalScale Property (Publisher)
+# PictureFormat.VerticalScale property (Publisher)
 
-Returns a  **Long** that represents the scaling of the picture along its vertical axis. The scaling is expressed as a percentage (for example, 200 equals 200 percent scaling). Read-only.
+Returns a **Long** that represents the scaling of the picture along its vertical axis. The scaling is expressed as a percentage (for example, 200 equals 200 percent scaling). Read-only.
 
 
 ## Syntax
 
- _expression_. **VerticalScale**
+_expression_.**VerticalScale**
 
- _expression_ A variable that represents a  **PictureFormat** object.
+_expression_ A variable that represents a **[PictureFormat](Publisher.PictureFormat.md)** object.
 
 
 ## Return value
@@ -33,13 +32,12 @@ Long
 
 The effective resolution of a picture is inversely proportional to the scaling at which the picture is printed. The larger the scaling, the lower the effective resolution. For example, suppose a picture measuring 4 inches by 4 inches was originally scanned at 300 dpi. If that picture is scaled to 2 inches by 2 inches, its effective resolution is 600 dpi.
 
-Use the  **[EffectiveResolution](Publisher.PictureFormat.EffectiveResolution.md)** property of the **[PictureFormat](Publisher.PictureFormat.md)** object to determine the resolution at which the picture or OLE object prints in the specified document.
+Use the **[EffectiveResolution](Publisher.PictureFormat.EffectiveResolution.md)** property to determine the resolution at which the picture or OLE object prints in the specified document.
 
 
 ## Example
 
 The following example prints selected image properties for each picture in the active publication.
-
 
 ```vb
 Dim pgLoop As Page 
@@ -65,7 +63,6 @@ For Each pgLoop In ActiveDocument.Pages
  Next shpLoop 
 Next pgLoop 
  
-
 ```
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

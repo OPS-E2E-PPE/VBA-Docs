@@ -3,12 +3,11 @@ title: Range.GrammarChecked property (Word)
 keywords: vbawd10.chm157155588
 f1_keywords:
 - vbawd10.chm157155588
-ms.prod: word
 api_name:
 - Word.Range.GrammarChecked
 ms.assetid: f10af296-28f0-dd4b-fdab-70bad8d3e924
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `GrammarChecked`
+_expression_. `GrammarChecked`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

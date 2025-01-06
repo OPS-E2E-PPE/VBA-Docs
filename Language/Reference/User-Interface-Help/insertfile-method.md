@@ -1,11 +1,10 @@
 ---
 title: InsertFile method (VBA)
-ms.prod: office
 api_name:
 - Office.InsertFile
 ms.assetid: 65a8fc84-0f4e-b900-16ff-f5547df48018
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,8 +13,6 @@ localization_priority: Normal
 Inserts code from a file into a code module.
 
 _object_.**InsertFile** (_filename_) **As String**
-
-<br/>
 
 The **InsertFile** syntax has these parts:
 

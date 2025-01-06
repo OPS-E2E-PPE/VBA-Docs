@@ -1,27 +1,27 @@
 ---
-title: Application.DetailStylesProperties Method (Project)
+title: Application.DetailStylesProperties method (Project)
 keywords: vbapj.chm952
 f1_keywords:
 - vbapj.chm952
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.DetailStylesProperties
 ms.assetid: f066f826-eef2-7f97-dafa-998f7bd70f42
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DetailStylesProperties Method (Project)
+# Application.DetailStylesProperties method (Project)
 
 Sets the format of details in a usage view.
 
 
 ## Syntax
 
- _expression_. `DetailStylesProperties`( `_AlignCellData_`, `_RepeatRowLabel_`, `_ShortLabels_`, `_DisplayDetailsColumn_` )
+_expression_. `DetailStylesProperties`( `_AlignCellData_`, `_RepeatRowLabel_`, `_ShortLabels_`, `_DisplayDetailsColumn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,10 +30,10 @@ Sets the format of details in a usage view.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _AlignCellData_|Optional|**Long**|Specifies the alignment of data in cells. Can be one of the following  **PjAlignment** constants: **pjCenter**, **pjLeft**, or **pjRight**. The default value is **pjRight**.|
+| _AlignCellData_|Optional|**Long**|Specifies the alignment of data in cells. Can be one of the following **PjAlignment** constants: **pjCenter**, **pjLeft**, or **pjRight**. The default value is **pjRight**.|
 | _RepeatRowLabel_|Optional|**Boolean**|**True** if details headers are repeated on all assignment rows. The default value is **True**.|
 | _ShortLabels_|Optional|**Boolean**|**True** if Project displays short details header names. The default value is **True**.|
-| _DisplayDetailsColumn_|Optional|**Long**|Specifies whether a details column displays. Can be one of the following  **PjYesNoAutomatic** constants: **pjAuto**, **pjNo**, or **pjYes**. The default value is **pjYes**.|
+| _DisplayDetailsColumn_|Optional|**Long**|Specifies whether a details column displays. Can be one of the following **PjYesNoAutomatic** constants: **pjAuto**, **pjNo**, or **pjYes**. The default value is **pjYes**.|
 
 ## Return value
 
@@ -42,7 +42,7 @@ Sets the format of details in a usage view.
 
 ## Remarks
 
-Using the  **DetailStylesProperties** method without specifying any arguments displays the **Detail Styles** dialog box with the **Usage Properties** tab selected.
+Using the **DetailStylesProperties** method without specifying any arguments displays the **Detail Styles** dialog box with the **Usage Properties** tab selected.
 
 
 ## Example

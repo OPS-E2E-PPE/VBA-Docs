@@ -3,12 +3,11 @@ title: CustomXMLSchemaCollection.Add method (Office)
 keywords: vbaof11.chm292005
 f1_keywords:
 - vbaof11.chm292005
-ms.prod: office
 api_name:
 - Office.CustomXMLSchemaCollection.Add
 ms.assetid: d5df782b-0e8b-e827-4cb4-40ddb9731e9b
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Allows you to add one or more schemas to a schema collection that can then be ad
 
 ## Syntax
 
-_expression_.**Add**(_NamespaceURI_, _Alias_, _FileName_, _InstallForAllUsers_)
+_expression_.**Add** (_NamespaceURI_, _Alias_, _FileName_, _InstallForAllUsers_)
 
 _expression_ An expression that returns a **[CustomXMLSchemaCollection](Office.CustomXMLSchemaCollection.md)** object.
 

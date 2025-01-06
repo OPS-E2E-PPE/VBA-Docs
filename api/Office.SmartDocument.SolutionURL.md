@@ -3,12 +3,11 @@ title: SmartDocument.SolutionURL property (Office)
 keywords: vbaof11.chm262002
 f1_keywords:
 - vbaof11.chm262002
-ms.prod: office
 api_name:
 - Office.SmartDocument.SolutionURL
 ms.assetid: f4e8af50-9c14-bcc1-ef61-9af3a7c8c65d
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,7 +43,7 @@ The following example determines whether an XML expansion pack is attached to th
  If objSmartDoc.SolutionID = "None" Or objSmartDoc.SolutionID = "" Then 
  MsgBox "No XML expansion pack attached." 
  Else 
- MsgBox "Smart document Solution URL: " &amp; _ 
+ MsgBox "Smart document Solution URL: " & _ 
  objSmartDoc.SolutionURL 
  End If 
  Set objSmartDoc = Nothing

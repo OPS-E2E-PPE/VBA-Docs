@@ -3,25 +3,24 @@ title: Range.HighlightColorIndex property (Word)
 keywords: vbawd10.chm157155629
 f1_keywords:
 - vbawd10.chm157155629
-ms.prod: word
 api_name:
 - Word.Range.HighlightColorIndex
 ms.assetid: ff6e0f1a-8b37-1bdd-8da6-ac492d399ad2
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Range.HighlightColorIndex property (Word)
 
-Returns or sets the highlight color for the specified range. Read/write  **WdColorIndex**.
+Returns or sets the highlight color for the specified range. Read/write **WdColorIndex**.
 
 
 ## Syntax
 
- _expression_. `HighlightColorIndex`
+_expression_. `HighlightColorIndex`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

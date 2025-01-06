@@ -1,32 +1,30 @@
 ---
-title: Project.Open Event (Project)
+title: Project.Open event (Project)
 keywords: vbapj.chm131191
 f1_keywords:
 - vbapj.chm131191
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.Open
 ms.assetid: ff66a69b-4190-ddef-ad39-12a3f9f85b9c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Open Event (Project)
+# Project.Open event (Project)
 
-Occurs when the project opens, but before the  **Activate** event.
+Occurs when the project opens, but before the **Activate** event.
 
 
 ## Syntax
 
- _expression_. `Open`( `_pj_` )
+_expression_.**Open** (_pj_)
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,17 +32,17 @@ Occurs when the project opens, but before the  **Activate** event.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 
 ## Example
 
-This example adds the user's email alias and the current date to the project  **Comments** field whenever the project is opened. Placing this example in the **Open** event of a project provides a simple access history for the file.
+This example adds the user's email alias and the current date to the project **Comments** field whenever the project is opened. Placing this example in the **Open** event of a project provides a simple access history for the file.
 
 
 ```vb

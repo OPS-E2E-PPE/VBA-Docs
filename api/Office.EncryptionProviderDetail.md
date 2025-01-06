@@ -1,19 +1,16 @@
 ---
 title: EncryptionProviderDetail enumeration (Office)
-ms.prod: office
 api_name:
 - Office.EncryptionProviderDetail
 ms.assetid: 4992510d-b693-4961-fd53-fdb618541e7f
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EncryptionProviderDetail enumeration (Office)
 
 Specifies details about encryption providers.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

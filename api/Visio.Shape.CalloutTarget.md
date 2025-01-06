@@ -1,27 +1,26 @@
 ---
-title: Shape.CalloutTarget Property (Visio)
+title: Shape.CalloutTarget property (Visio)
 keywords: vis_sdr.chm11262470
 f1_keywords:
 - vis_sdr.chm11262470
-ms.prod: visio
 api_name:
 - Visio.Shape.CalloutTarget
 ms.assetid: 4366753a-c8e2-ba85-54fd-9c74cd21d762
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.CalloutTarget Property (Visio)
+# Shape.CalloutTarget property (Visio)
 
 Gets or sets the target shape that is associated with the callout shape by a callout relationship. Read/write.
 
 
 ## Syntax
 
- _expression_. `CalloutTarget`
+_expression_. `CalloutTarget`
 
- _expression_ A variable that represents a '[Shape](Visio.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,14 +30,14 @@ Gets or sets the target shape that is associated with the callout shape by a cal
 
 ## Remarks
 
-If you attempt to get or set the  **CalloutTarget** property value on a shape that is not a callout, Microsoft Visio will return an **Inappropriate Source Object** error.
+If you attempt to get or set the **CalloutTarget** property value on a shape that is not a callout, Microsoft Visio will return an **Inappropriate Source Object** error.
 
-If no target shape is associated with the callout shape, the  **CalloutTarget** property returns **Nothing**. Setting the property value to **Nothing** removes any target shapes that are associated with the callout shape.
+If no target shape is associated with the callout shape, the **CalloutTarget** property returns **Nothing**. Setting the property value to **Nothing** removes any target shapes that are associated with the callout shape.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example shows how to use the  **CalloutTarget** property to set the target shape of a callout.
+The following Visual Basic for Applications (VBA) example shows how to use the **CalloutTarget** property to set the target shape of a callout.
 
 
 ```vb

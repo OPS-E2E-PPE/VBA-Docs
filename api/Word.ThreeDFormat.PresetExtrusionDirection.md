@@ -3,30 +3,29 @@ title: ThreeDFormat.PresetExtrusionDirection property (Word)
 keywords: vbawd10.chm164626536
 f1_keywords:
 - vbawd10.chm164626536
-ms.prod: word
 api_name:
 - Word.ThreeDFormat.PresetExtrusionDirection
 ms.assetid: 8fc0cd0a-1d62-64ae-8757-851207aae56f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ThreeDFormat.PresetExtrusionDirection property (Word)
 
-Returns the direction taken by the extrusion's sweep path leading away from the extruded shape (the front face of the extrusion). Read/write  **MsoPresetExtrusionDirection**.
+Returns the direction taken by the extrusion's sweep path leading away from the extruded shape (the front face of the extrusion). Read/write **MsoPresetExtrusionDirection**.
 
 
 ## Syntax
 
- _expression_. `PresetExtrusionDirection`
+_expression_. `PresetExtrusionDirection`
 
- _expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
+_expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
 
 
 ## Remarks
 
-This property is read-only. To set the value of this property, use the  **SetExtrusionDirection** method.
+This property is read-only. To set the value of this property, use the **SetExtrusionDirection** method.
 
 
 ## Example

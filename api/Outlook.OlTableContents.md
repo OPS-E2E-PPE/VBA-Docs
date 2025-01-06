@@ -1,18 +1,17 @@
 ---
-title: OlTableContents Enumeration (Outlook)
+title: OlTableContents enumeration (Outlook)
 keywords: vbaol11.chm3247
 f1_keywords:
 - vbaol11.chm3247
-ms.prod: outlook
 api_name:
 - Outlook.OlTableContents
 ms.assetid: 45d7ba3e-64ef-450f-8c72-914499269192
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlTableContents Enumeration (Outlook)
+# OlTableContents enumeration (Outlook)
 
 Specifies the type of items in a folder.
 

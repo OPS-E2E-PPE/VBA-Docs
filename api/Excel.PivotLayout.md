@@ -3,12 +3,11 @@ title: PivotLayout object (Excel)
 keywords: vbaxl10.chm663072
 f1_keywords:
 - vbaxl10.chm663072
-ms.prod: excel
 api_name:
 - Excel.PivotLayout
 ms.assetid: cfef617e-f49a-e969-7873-40593412a32e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,9 @@ Represents the placement of fields in a PivotChart report.
 
 ## Example
 
-Use the  **[PivotLayout](Excel.Chart.PivotLayout.md)** property to return a **PivotLayout** object. The following example creates a list of PivotTable field names used in the first PivotChart report.
+Use the **[PivotLayout](Excel.Chart.PivotLayout.md)** property of the **Chart** object to return a **PivotLayout** object. 
 
+The following example creates a list of PivotTable field names used in the first PivotChart report.
 
 ```vb
 Sub ListFieldNames 
@@ -45,10 +45,15 @@ Sub ListFieldNames
 End Sub
 ```
 
+## Properties
+
+- [Application](Excel.PivotLayout.Application.md)
+- [Creator](Excel.PivotLayout.Creator.md)
+- [Parent](Excel.PivotLayout.Parent.md)
+- [PivotTable](Excel.PivotLayout.PivotTable.md)
 
 ## See also
 
-
-[Excel Object Model Reference](overview/Excel/object-model.md)
+- [Excel Object Model Reference](overview/Excel/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

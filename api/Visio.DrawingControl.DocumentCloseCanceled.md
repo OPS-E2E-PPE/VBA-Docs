@@ -1,24 +1,23 @@
 ---
-title: DrawingControl.DocumentCloseCanceled Event (Visio)
-ms.prod: visio
+title: DrawingControl.DocumentCloseCanceled event (Visio)
 api_name:
 - Visio.DrawingControl.DocumentCloseCanceled
 ms.assetid: 0de2255a-49c6-88cf-04f0-7e32705c329e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DrawingControl.DocumentCloseCanceled Event (Visio)
+# DrawingControl.DocumentCloseCanceled event (Visio)
 
-Occurs after an event handler has returned  **True** (cancel) to a **QueryCancelDocumentClose** event.
+Occurs after an event handler has returned **True** (cancel) to a **QueryCancelDocumentClose** event.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'DocumentCloseCanceled'(**_ByVal doc As [IVDOCUMENT]_**)
+_expression_.**DocumentCloseCanceled** (_doc_)
 
- _expression_ A variable that represents a [DrawingControl](./Visio.DrawingControl.md) object.
+_expression_ A variable that represents a **[DrawingControl](Visio.DrawingControl.md)** object.
 
 
 ## Parameters
@@ -33,6 +32,12 @@ Private Sub  _expression_ _'DocumentCloseCanceled'(**_ByVal doc As [IVDOCUMENT]_
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,27 +1,27 @@
 ---
-title: Application.SetActiveCell Method (Project)
+title: Application.SetActiveCell method (Project)
 keywords: vbapj.chm6
 f1_keywords:
 - vbapj.chm6
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SetActiveCell
 ms.assetid: fcc225b7-98a6-7b3d-ff3b-22392f09920b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetActiveCell Method (Project)
+# Application.SetActiveCell method (Project)
 
 Sets the value of the active cell.
 
 
 ## Syntax
 
- _expression_. `SetActiveCell`( `_Value_`, `_Create_` )
+_expression_. `SetActiveCell`( `_Value_`, `_Create_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ Sets the value of the active cell.
 
 ## Remarks
 
-The  **SetActiveCell** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SetActiveCell** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 
 ## Example

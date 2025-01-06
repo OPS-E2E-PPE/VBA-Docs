@@ -3,12 +3,11 @@ title: ComboBox.CanShrink property (Access)
 keywords: vbaac10.chm11497
 f1_keywords:
 - vbaac10.chm11497
-ms.prod: access
 api_name:
 - Access.ComboBox.CanShrink
 ms.assetid: 6f74e442-0b65-1d15-b247-6e12b9a08f1e
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The **CanShrink** property uses the following settings.
 
 This property setting is read-only in a macro or Visual Basic in any view but Design view.
 
-You can use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control shrinks, the controls below it move up the page.
+Use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control shrinks, the controls below it move up the page.
 
 If you set a control's **CanShrink** property to Yes, Microsoft Access does not set the section's **CanShrink** property to Yes.
 

@@ -3,12 +3,11 @@ title: Label.BackShade property (Access)
 keywords: vbaac10.chm14633
 f1_keywords:
 - vbaac10.chm14633
-ms.prod: access
 api_name:
 - Access.Label.BackShade
 ms.assetid: 22d97aa2-572a-9398-c2bf-d0b5b492f9e7
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

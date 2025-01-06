@@ -1,18 +1,17 @@
 ---
-title: VisProtection Enumeration (Visio)
+title: VisProtection enumeration (Visio)
 keywords: vis_sdr.chm70335
 f1_keywords:
 - vis_sdr.chm70335
-ms.prod: visio
 ms.assetid: e998fe58-94a4-4191-70ba-1cdc25058f37
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisProtection Enumeration (Visio)
+# VisProtection enumeration (Visio)
 
-Flags to be passed to or returned by the  **Document.Protection** property.
+Flags to be passed to or returned by the **Document.Protection** property.
 
 
 

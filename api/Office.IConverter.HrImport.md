@@ -3,18 +3,17 @@ title: IConverter.HrImport method (Office)
 keywords: vbaof11.chm333003
 f1_keywords:
 - vbaof11.chm333003
-ms.prod: office
 api_name:
 - Office.IConverter.HrImport
 ms.assetid: cc329008-286a-81aa-d9c6-b5cd3bf05e37
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverter.HrImport method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

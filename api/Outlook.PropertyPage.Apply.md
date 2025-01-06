@@ -1,27 +1,26 @@
 ---
-title: PropertyPage.Apply Method (Outlook)
+title: PropertyPage.Apply method (Outlook)
 keywords: vbaol11.chm383
 f1_keywords:
 - vbaol11.chm383
-ms.prod: outlook
 api_name:
 - Outlook.PropertyPage.Apply
 ms.assetid: fdb35048-2471-4402-8137-c75994680b3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PropertyPage.Apply Method (Outlook)
+# PropertyPage.Apply method (Outlook)
 
 Applies the changes that have been made in a custom property page.
 
 
 ## Syntax
 
-_expression_. `Apply`
+_expression_.**Apply**
 
-_expression_ A variable that represents a [PropertyPage](./Outlook.PropertyPage.md) object.
+_expression_ A variable that represents a [PropertyPage](Outlook.PropertyPage.md) object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ Because the [PropertyPage](Outlook.PropertyPage.md) is an abstract object that i
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example sets two global variables to reflect the values in controls on a form and then sets a global variable representing the  **[Dirty](Outlook.PropertyPage.Dirty.md)** property to **False**.
+This Microsoft Visual Basic for Applications (VBA) example sets two global variables to reflect the values in controls on a form and then sets a global variable representing the **[Dirty](Outlook.PropertyPage.Dirty.md)** property to **False**.
 
 
 ```vb

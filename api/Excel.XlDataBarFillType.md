@@ -1,11 +1,10 @@
 ---
 title: XlDataBarFillType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlDataBarFillType
 ms.assetid: 3019f5f1-6435-bdad-db93-c1bc4cb88d55
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

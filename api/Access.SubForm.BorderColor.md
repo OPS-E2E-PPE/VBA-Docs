@@ -3,18 +3,17 @@ title: SubForm.BorderColor property (Access)
 keywords: vbaac10.chm11947
 f1_keywords:
 - vbaac10.chm11947
-ms.prod: access
 api_name:
 - Access.SubForm.BorderColor
 ms.assetid: 30970cd2-7fc9-be57-3124-806cfbe76a2c
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

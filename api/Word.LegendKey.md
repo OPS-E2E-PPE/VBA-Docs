@@ -3,12 +3,11 @@ title: LegendKey object (Word)
 keywords: vbawd10.chm4062
 f1_keywords:
 - vbawd10.chm4062
-ms.prod: word
 api_name:
 - Word.LegendKey
 ms.assetid: 07578528-3e73-7898-47dc-296aefb854f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ Represents a legend key in a chart legend.
 
 ## Example
 
-Use the  **[LegendKey](Word.LegendEntry.LegendKey.md)** property to return the **LegendKey** object. The following example changes the marker background color for the legend entry at the top of the legend for the first chart in the active document. This simultaneously changes the format of every point in the series associated with this legend entry. The associated series must support data markers.
+Use the **[LegendKey](Word.LegendEntry.LegendKey.md)** property to return the **LegendKey** object. The following example changes the marker background color for the legend entry at the top of the legend for the first chart in the active document. This simultaneously changes the format of every point in the series associated with this legend entry. The associated series must support data markers.
 
 
 ```vb
@@ -41,6 +40,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

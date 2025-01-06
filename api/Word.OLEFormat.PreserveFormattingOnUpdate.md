@@ -3,12 +3,11 @@ title: OLEFormat.PreserveFormattingOnUpdate property (Word)
 keywords: vbawd10.chm154337392
 f1_keywords:
 - vbawd10.chm154337392
-ms.prod: word
 api_name:
 - Word.OLEFormat.PreserveFormattingOnUpdate
 ms.assetid: 2292fee8-42c6-274c-2ef8-de21af16314a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PreserveFormattingOnUpdate`
+_expression_. `PreserveFormattingOnUpdate`
 
- _expression_ A variable that represents a '[OLEFormat](Word.OLEFormat.md)' object.
+_expression_ A variable that represents a '[OLEFormat](Word.OLEFormat.md)' object.
 
 
 ## Remarks
 
-When  **PreserveFormattingOnUpdate** is set to **True** , formatting changes made to the object in Word is preserved when the object is updated. Word updates only the content in the linked object.
+When **PreserveFormattingOnUpdate** is set to **True**, formatting changes made to the object in Word is preserved when the object is updated. Word updates only the content in the linked object.
 
 
 ## Example

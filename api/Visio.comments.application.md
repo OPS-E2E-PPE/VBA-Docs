@@ -1,22 +1,21 @@
 ---
-title: Comments.Application Property (Visio)
-ms.prod: visio
+title: Comments.Application property (Visio)
 ms.assetid: 7b283c24-aa66-9d78-b50b-da55763add84
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comments.Application Property (Visio)
+# Comments.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'Comments' object.
+_expression_ A variable that represents a **[Comments](Visio.Comments.md)** object.
 
 
 ## See also

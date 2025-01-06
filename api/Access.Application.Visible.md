@@ -3,12 +3,11 @@ title: Application.Visible property (Access)
 keywords: vbaac10.chm12513
 f1_keywords:
 - vbaac10.chm12513
-ms.prod: access
 api_name:
 - Access.Application.Visible
 ms.assetid: ac1558c1-68c4-fdf1-4f59-77343b7b5e59
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

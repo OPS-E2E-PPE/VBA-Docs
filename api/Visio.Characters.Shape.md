@@ -1,27 +1,26 @@
 ---
-title: Characters.Shape Property (Visio)
+title: Characters.Shape property (Visio)
 keywords: vis_sdr.chm10214320
 f1_keywords:
 - vis_sdr.chm10214320
-ms.prod: visio
 api_name:
 - Visio.Characters.Shape
 ms.assetid: 24565a24-3b95-2a89-1903-ae1759d3d8e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Characters.Shape Property (Visio)
+# Characters.Shape property (Visio)
 
-Returns the  **Shape** object that owns a **Cell** , **Characters** , **Row** , or **Section** object or that is associated with a **Hyperlink** or **OLEObject** object or with the **Hyperlinks** collection. Read-only.
+Returns the **Shape** object that owns a **Cell**, **Characters**, **Row**, or **Section** object or that is associated with a **Hyperlink** or **OLEObject** object or with the **Hyperlinks** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shape`
+_expression_.**Shape**
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Shape
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Shape** property to get the **Shape** objects that own a **Cell** and a **Characters** object.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Shape** property to get the **Shape** objects that own a **Cell** and a **Characters** object.
 
 
 ```vb

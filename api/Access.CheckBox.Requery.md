@@ -3,12 +3,11 @@ title: CheckBox.Requery method (Access)
 keywords: vbaac10.chm10688
 f1_keywords:
 - vbaac10.chm10688
-ms.prod: access
 api_name:
 - Access.CheckBox.Requery
 ms.assetid: 0385fddc-7a97-1bf3-50d2-61f0978ea359
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[CheckBox](Access.CheckBox.md)** obj
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

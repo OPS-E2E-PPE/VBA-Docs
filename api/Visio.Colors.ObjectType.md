@@ -1,27 +1,26 @@
 ---
-title: Colors.ObjectType Property (Visio)
+title: Colors.ObjectType property (Visio)
 keywords: vis_sdr.chm12313960
 f1_keywords:
 - vis_sdr.chm12313960
-ms.prod: visio
 api_name:
 - Visio.Colors.ObjectType
 ms.assetid: 30557a74-1f69-bc68-1fb7-a51ed956563d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Colors.ObjectType Property (Visio)
+# Colors.ObjectType property (Visio)
 
 Returns an object's type. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a [Colors](./Visio.Colors.md) object.
+_expression_ A variable that represents a **[Colors](Visio.Colors.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Integer
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Example
 
-This example shows how to use the  **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
+This example shows how to use the **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
 
 
 ```vb

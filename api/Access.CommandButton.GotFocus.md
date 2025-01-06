@@ -3,12 +3,11 @@ title: CommandButton.GotFocus event (Access)
 keywords: vbaac10.chm14080
 f1_keywords:
 - vbaac10.chm14080
-ms.prod: access
 api_name:
 - Access.CommandButton.GotFocus
 ms.assetid: b8ad669d-6353-ff62-5b06-5fda93d50327
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Trendline.DisplayEquation property (Word)
 keywords: vbawd10.chm26345662
 f1_keywords:
 - vbawd10.chm26345662
-ms.prod: word
 api_name:
 - Word.Trendline.DisplayEquation
 ms.assetid: c5534224-f7ff-2899-0d45-2c9fca8afbd8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayEquation`
+_expression_. `DisplayEquation`
 
- _expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
 
 
 ## Remarks
 
-Setting this property to  **True** automatically enables data labels.
+Setting this property to **True** automatically enables data labels.
 
 
 ## Example
 
-The following example displays the R-squared value and equation for the first trendline of the first chart in the active document. You should run the example on a 2-D column chart that has a trendline for the first series.
+The following example displays the R-squared value and equation for the first trendline of the first chart in the active document. You should run the example on a 2D column chart that has a trendline for the first series.
 
 
 ```vb

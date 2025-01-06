@@ -3,23 +3,22 @@ title: CoAuthoring.PendingUpdates property (Word)
 keywords: vbawd10.chm254869507
 f1_keywords:
 - vbawd10.chm254869507
-ms.prod: word
 api_name:
 - Word.CoAuthoring.PendingUpdates
 ms.assetid: ddc669ca-89dd-d321-4544-cc24e18270c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CoAuthoring.PendingUpdates property (Word)
 
-Returns  **true** if the document has pending updates that have not been accepted. Read-only.
+Returns **True** if the document has pending updates that have not been accepted. Read-only.
 
 
 ## Syntax
 
- _expression_. `PendingUpdates`
+_expression_. `PendingUpdates`
 
  _expression_ An expression that returns a '[CoAuthoring](Word.CoAuthoring.md)' object.
 

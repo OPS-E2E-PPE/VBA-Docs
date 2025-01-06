@@ -3,12 +3,11 @@ title: ScopeFolders object (Office)
 keywords: vbaof11.chm249000
 f1_keywords:
 - vbaof11.chm249000
-ms.prod: office
 api_name:
 - Office.ScopeFolders
 ms.assetid: 25faab39-5309-3560-81a8-e969591cfddb
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

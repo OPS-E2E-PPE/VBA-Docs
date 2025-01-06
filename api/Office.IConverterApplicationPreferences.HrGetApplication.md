@@ -3,18 +3,17 @@ title: IConverterApplicationPreferences.HrGetApplication method (Office)
 keywords: vbaof11.chm331003
 f1_keywords:
 - vbaof11.chm331003
-ms.prod: office
 api_name:
 - Office.IConverterApplicationPreferences.HrGetApplication
 ms.assetid: c6fbc21b-49a1-c407-b37d-bf00a4a16bba
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterApplicationPreferences.HrGetApplication method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

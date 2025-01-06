@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm4470
 f1_keywords:
 - vbaac10.chm4470
-ms.prod: access
 api_name:
 - Access.Primary
 ms.assetid: 782e3341-f47a-2054-9884-1feb2e68496c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the Primary property to specify the primary key field for a table. A primary key field holds data that uniquely identifies each record in a table.
+Use the Primary property to specify the primary key field for a table. A primary key field holds data that uniquely identifies each record in a table.
 
 ## Setting
 
@@ -49,8 +48,8 @@ A table with no primary key can't be used in a relationship and can be slower to
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

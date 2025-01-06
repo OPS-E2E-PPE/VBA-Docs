@@ -3,23 +3,22 @@ title: OMath object (Word)
 keywords: vbawd10.chm2691
 f1_keywords:
 - vbawd10.chm2691
-ms.prod: word
 api_name:
 - Word.OMath
 ms.assetid: 82f2f81b-e2d5-140f-bdcc-8b52b821b24d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OMath object (Word)
 
-Represents an equation.  **OMath** objects are members of the **OMaths** collection.
+Represents an equation. **OMath** objects are members of the **OMaths** collection.
 
 
 ## Remarks
 
-Use the  **Add** method of the **OMaths** collection to create an equation and add it to a document, selection, or range. The following example creates an equation and uses the **BuildUp** method to convert the equation to professional format.
+Use the **Add** method of the **OMaths** collection to create an equation and add it to a document, selection, or range. The following example creates an equation and uses the **BuildUp** method to convert the equation to professional format.
 
 
 ```vb
@@ -74,6 +73,6 @@ objEq.BuildUp
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

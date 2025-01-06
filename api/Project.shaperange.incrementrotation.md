@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.IncrementRotation Method (Project)
-ms.prod: project-server
+title: ShapeRange.IncrementRotation method (Project)
+ms.service: project-server
 ms.assetid: 404bd4de-7c5f-3107-baa1-63c4c3362537
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.IncrementRotation Method (Project)
+# ShapeRange.IncrementRotation method (Project)
 Rotates each shape in the shape range around the z-axis by the specified number of degrees.
 
 ## Syntax
 
- _expression_. `IncrementRotation` _(Increment)_
+_expression_. `IncrementRotation` _(Increment)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ The  _Increment_ parameter can be a value from -3600 to 3600.
 
 ## Example
 
-The following example shows the difference between rotating a shape and rotating a shape range. The example creates a shape range that contains two cylinders, rotates the shape range 30 degrees clockwise, and then rotates the second shape in the range 30 degrees counterclockwise. If you set a breakpoint on the last  **IncrementRotation** statement, and then step through the code, you can see how the rotation works.
+The following example shows the difference between rotating a shape and rotating a shape range. The example creates a shape range that contains two cylinders, rotates the shape range 30 degrees clockwise, and then rotates the second shape in the range 30 degrees counterclockwise. If you set a breakpoint on the last **IncrementRotation** statement, and then step through the code, you can see how the rotation works.
 
 
 ```vb

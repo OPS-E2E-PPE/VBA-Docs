@@ -3,12 +3,11 @@ title: Mailer.WhichAddress property (Excel)
 keywords: vbaxl10.chm499081
 f1_keywords:
 - vbaxl10.chm499081
-ms.prod: excel
 api_name:
 - Excel.Mailer.WhichAddress
 ms.assetid: a7b86825-326b-80f9-6d20-63eeb8010919
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ You have requested Help for a Visual Basic keyword used only on the Macintosh. F
 
 ## Syntax
 
-_expression_. `WhichAddress`
+_expression_.**WhichAddress**
 
-_expression_ A variable that represents a [Mailer](Excel.Mailer.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Mailer](Excel.Mailer.md)** object.
 
 
-[Mailer Object](Excel.Mailer.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

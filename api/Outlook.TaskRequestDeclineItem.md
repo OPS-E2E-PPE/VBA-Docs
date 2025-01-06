@@ -1,29 +1,28 @@
 ---
-title: TaskRequestDeclineItem Object (Outlook)
+title: TaskRequestDeclineItem object (Outlook)
 keywords: vbaol11.chm3009
 f1_keywords:
 - vbaol11.chm3009
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestDeclineItem
 ms.assetid: e842c7c0-7943-9219-329b-30b892ab99b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem Object (Outlook)
+# TaskRequestDeclineItem object (Outlook)
 
-Represents a response to a  **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
+Represents a response to a **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
 
 
 ## Remarks
 
-If the delegated user declines the task, the  **[ResponseState](Outlook.TaskItem.ResponseState.md)** property is set to **olTaskDecline**. The associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestDeclineItem** object.
+If the delegated user declines the task, the **[ResponseState](Outlook.TaskItem.ResponseState.md)** property is set to **olTaskDecline**. The associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestDeclineItem** object.
 
 Unlike other Microsoft Outlook objects, you cannot create this object.
 
-Use the  **[GetAssociatedTask](Outlook.TaskRequestDeclineItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestDeclineItem**. Work directly with the **TaskItem** object.
+Use the **[GetAssociatedTask](Outlook.TaskRequestDeclineItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestDeclineItem**. Work directly with the **TaskItem** object.
 
 
 ## Events
@@ -125,6 +124,6 @@ Use the  **[GetAssociatedTask](Outlook.TaskRequestDeclineItem.GetAssociatedTask.
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,27 +1,26 @@
 ---
-title: PublishObjects.Application Property (PowerPoint)
+title: PublishObjects.Application property (PowerPoint)
 keywords: vbapp10.chm634001
 f1_keywords:
 - vbapp10.chm634001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PublishObjects.Application
 ms.assetid: 501a6b40-6281-6de0-8d84-89383b2807fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PublishObjects.Application Property (PowerPoint)
+# PublishObjects.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [PublishObjects](./PowerPoint.PublishObjects.md) object.
+_expression_ A variable that represents a [PublishObjects](PowerPoint.PublishObjects.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

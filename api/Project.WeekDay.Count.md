@@ -1,24 +1,24 @@
 ---
-title: WeekDay.Count Property (Project)
-ms.prod: project-server
+title: WeekDay.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.WeekDay.Count
 ms.assetid: 91828803-9d2f-a7ea-f917-f1e26147f177
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WeekDay.Count Property (Project)
+# WeekDay.Count property (Project)
 
-Gets the value 1 for the number of days in the  **WeekDay** object. Read-only **Integer**.
+Gets the value 1 for the number of days in the **WeekDay** object. Read-only **Integer**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [WeekDay](./Project.WeekDay.md) object.
+_expression_ A variable that represents a [WeekDay](./Project.WeekDay.md) object.
 
 
 ## Example

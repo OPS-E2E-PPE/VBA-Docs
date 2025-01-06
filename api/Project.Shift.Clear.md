@@ -1,24 +1,24 @@
 ---
-title: Shift.Clear Method (Project)
-ms.prod: project-server
+title: Shift.Clear method (Project)
+ms.service: project-server
 api_name:
 - Project.Shift.Clear
 ms.assetid: 89243732-8c83-ba1e-01ff-fdbfa4d4c4d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shift.Clear Method (Project)
+# Shift.Clear method (Project)
 
 Clears the start and finish times of a work shift.
 
 
 ## Syntax
 
- _expression_. `Clear`
+_expression_.**Clear**
 
- _expression_ A variable that represents a [Shift](./Project.Shift.md) object.
+_expression_ A variable that represents a [Shift](./Project.Shift.md) object.
 
 
 ## Example

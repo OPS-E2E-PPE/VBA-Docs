@@ -1,13 +1,12 @@
 ---
 title: Project <name> has been modified. Do you wish to save the changes now?
-ms.prod: office
 ms.assetid: b1b83129-19ef-393c-8e95-02f46cc3f015
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project <name> has been modified. Do you wish to save the changes now?
+# Project \<name> has been modified. Do you wish to save the changes now?
 
 This error has the following causes and solutions:
 

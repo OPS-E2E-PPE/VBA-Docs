@@ -3,25 +3,24 @@ title: CanvasShapes.AddShape method (Word)
 keywords: vbawd10.chm7536657
 f1_keywords:
 - vbawd10.chm7536657
-ms.prod: word
 api_name:
 - Word.CanvasShapes.AddShape
 ms.assetid: b23c69f1-8653-a98f-d7f4-6648e0e214fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CanvasShapes.AddShape method (Word)
 
-Adds an AutoShape to a drawing canvas. Returns a  **[Shape](Word.Shape.md)** object that represents the AutoShape.
+Adds an AutoShape to a drawing canvas. Returns a **[Shape](Word.Shape.md)** object that represents the AutoShape.
 
 
 ## Syntax
 
- _expression_. `AddShape`( `_Type_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_. `AddShape`( `_Type_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
 
- _expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Adds an AutoShape to a drawing canvas. Returns a  **[Shape](Word.Shape.md)** obj
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Required| **Long**|The type of shape to be returned. Can be any  **MsoAutoShape** constant.|
+| _Type_|Required| **Long**|The type of shape to be returned. Can be any **MsoAutoShape** constant.|
 | _Left_|Required| **Single**|The position, measured in points, of the left edge of the AutoShape.|
 | _Top_|Required| **Single**|The position, measured in points, of the top edge of the AutoShape.|
 | _Width_|Required| **Single**|The width, measured in points, of the AutoShape.|
@@ -38,7 +37,7 @@ Adds an AutoShape to a drawing canvas. Returns a  **[Shape](Word.Shape.md)** obj
 
 ## Remarks
 
-To change the type of an AutoShape that you've added, set the  **AutoShapeType** property.
+To change the type of an AutoShape that you've added, set the **AutoShapeType** property.
 
 
 ## Example

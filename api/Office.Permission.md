@@ -3,19 +3,16 @@ title: Permission object (Office)
 keywords: vbaof11.chm261000
 f1_keywords:
 - vbaof11.chm261000
-ms.prod: office
 api_name:
 - Office.Permission
 ms.assetid: 4bdf7058-d4ba-0bd4-c5cd-141d67245ced
-ms.date: 01/22/2019
-localization_priority: Normal
+ms.date: 06/01/2022
+ms.localizationpriority: medium
 ---
-
 
 # Permission object (Office)
 
 The **Permission** property of the **Document** object in Microsoft Word, a **Workbook** object in Microsoft Excel, and a **Presentation** object in Microsoft PowerPoint returns a **Permission** object.
-
 
 ## Remarks
 
@@ -29,32 +26,30 @@ The **Permission** object model is available whether permissions are restricted 
 
 Use of the **Permission** object raises an error when the Windows Rights Management client is not installed.
 
-
 ## Example
 
 The following example returns information about the permissions settings on the active document.
-
 
 ```vb
 Dim irmPermission As Office.Permission 
  Dim strIRMInfo As String 
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
- strIRMInfo = "Permissions are restricted on this document." &amp; vbCrLf 
- strIRMInfo = strIRMInfo &amp; " View in trusted browser: " &amp; _ 
- irmPermission.EnableTrustedBrowser &amp; vbCrLf &amp; _ 
- " Document author: " &amp; irmPermission.DocumentAuthor &amp; vbCrLf &amp; _ 
- " Users with permissions: " &amp; irmPermission.Count &amp; vbCrLf &amp; _ 
- " Cache licenses: " &amp; irmPermission.StoreLicenses &amp; vbCrLf &amp; _ 
- " Request permission URL: " &amp; irmPermission.RequestPermissionURL &amp; vbCrLf 
+ strIRMInfo = "Permissions are restricted on this document." & vbCrLf 
+ strIRMInfo = strIRMInfo & " View in trusted browser: " & _ 
+ irmPermission.EnableTrustedBrowser & vbCrLf & _ 
+ " Document author: " & irmPermission.DocumentAuthor & vbCrLf & _ 
+ " Users with permissions: " & irmPermission.Count & vbCrLf & _ 
+ " Cache licenses: " & irmPermission.StoreLicenses & vbCrLf & _ 
+ " Request permission URL: " & irmPermission.RequestPermissionURL & vbCrLf 
  If irmPermission.PermissionFromPolicy Then 
- strIRMInfo = strIRMInfo &amp; " Permissions applied from policy:" &amp; vbCrLf &amp; _ 
- " Policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Permissions applied from policy:" & vbCrLf & _ 
+ " Policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Policy description: " & irmPermission.PolicyDescription 
  Else 
- strIRMInfo = strIRMInfo &amp; " Default permissions applied." &amp; vbCrLf &amp; _ 
- " Default policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Default policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Default permissions applied." & vbCrLf & _ 
+ " Default policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Default policy description: " & irmPermission.PolicyDescription 
  End If 
  Else 
  strIRMInfo = "Permissions are NOT restricted on this document." 
@@ -63,12 +58,9 @@ Dim irmPermission As Office.Permission
  Set irmPermission = Nothing
 ```
 
-
 ## See also
 
 - [Permission object members](overview/library-reference/permission-members-office.md)
 - [Object Model Reference](overview/Library-Reference/reference-object-library-reference-for-office.md)
-
-
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

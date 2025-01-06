@@ -4,9 +4,8 @@ keywords: vbawd10.chm263457616
 f1_keywords:
 - vbawd10.chm263457616
 ms.assetid: 7ffe9878-2462-8d05-7158-24ba45107b31
-ms.prod: word
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ Specifies whether a bin for values below the [BinsUnderflowValue](Word.chartgrou
 
 ## Syntax
 
- _expression_. `BinsUnderflowEnabled`
+_expression_.**BinsUnderflowEnabled**
 
- _expression_ A variable that represents a [ChartGroup](./Word.ChartGroup.md) object.
+_expression_ A variable that represents a [ChartGroup](./Word.ChartGroup.md) object.
 
 
 ## See also

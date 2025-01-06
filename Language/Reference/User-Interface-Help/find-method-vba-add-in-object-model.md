@@ -3,10 +3,9 @@ title: Find method (VBA Add-In Object Model)
 keywords: vbob6.chm1098972
 f1_keywords:
 - vbob6.chm1098972
-ms.prod: office
 ms.assetid: cf7a4b4e-89e7-91ea-2f9b-880384cd3339
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Searches the active [module](../../Glossary/vbe-glossary.md#module) for a specif
 ## Syntax
 
 _object_.**Find** (_target_, _startline_, _startcol_, _endline_, _endcol_, [ _wholeword_ ], [ _matchcase_ ], [ _patternsearch_ ]) **As Boolean**
-
-<br/>
 
 The **Find** syntax has these parts:
 
@@ -32,7 +29,7 @@ The **Find** syntax has these parts:
 | _endcol_|Required. A **Long** specifying the last line of the match if one is found. The last column may be designated as -1.|
 | _wholeword_|Optional. A [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type) value specifying whether to only match whole words. If **True**, only matches whole words. **False** is the default.|
 | _matchcase_|Optional. A **Boolean** value specifying whether to match case. If **True**, the search is case sensitive. **False** is the default.|
-| _patternsearch_|Optional. A **Boolean** value specifying whether or not the target string is a regular expression pattern. If **True**, the target string is a regular expression pattern. **False** is the default.|
+| _patternsearch_|Optional. A **Boolean** value specifying whether or not the target string is a pattern, which may contain wildcard characters such as an asterisk (*) or a question mark (?). If **True**, the target string is a pattern. **False** is the default.|
 
 ## Remarks
 

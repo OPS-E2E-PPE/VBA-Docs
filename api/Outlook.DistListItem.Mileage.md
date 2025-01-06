@@ -1,27 +1,26 @@
 ---
-title: DistListItem.Mileage Property (Outlook)
+title: DistListItem.Mileage property (Outlook)
 keywords: vbaol11.chm1130
 f1_keywords:
 - vbaol11.chm1130
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.Mileage
 ms.assetid: 126d7522-9e69-2b38-c01f-677d28ed5a68
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.Mileage Property (Outlook)
+# DistListItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Remarks

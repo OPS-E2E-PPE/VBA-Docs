@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.ShowProgress Property (Visio)
+title: InvisibleApp.ShowProgress property (Visio)
 keywords: vis_sdr.chm17514370
 f1_keywords:
 - vis_sdr.chm17514370
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.ShowProgress
 ms.assetid: ab756913-7ecc-5565-98dd-c52b5edbee7b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.ShowProgress Property (Visio)
+# InvisibleApp.ShowProgress property (Visio)
 
 Determines whether a progress indicator is shown while performing certain operations. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowProgress`
+_expression_.**ShowProgress**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -31,14 +30,14 @@ Integer
 
 ## Remarks
 
-If you want to perform an operation, such as printing, that typically displays a progress indicator but you don't want the progress indicator to appear, set the  **ShowProgress** property to **False** (0). By default, the **ShowProgress** property is **True** (non-zero).
+If you want to perform an operation, such as printing, that typically displays a progress indicator but you don't want the progress indicator to appear, set the **ShowProgress** property to **False** (0). By default, the **ShowProgress** property is **True** (non-zero).
 
 In most cases you should restore the setting to its prior value when you've completed the operation.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **ShowProgress** property of the **Application** object. It switches the display of the progress indicator on and off and displays the state of the property in the Immediate window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **ShowProgress** property of the **Application** object. It switches the display of the progress indicator on and off and displays the state of the property in the Immediate window.
 
 
 ```vb

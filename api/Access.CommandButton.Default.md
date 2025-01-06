@@ -3,18 +3,17 @@ title: CommandButton.Default property (Access)
 keywords: vbaac10.chm10455
 f1_keywords:
 - vbaac10.chm10455
-ms.prod: access
 api_name:
 - Access.CommandButton.Default
 ms.assetid: b643350e-9a89-a0ff-b8dd-f1c2c1392992
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Default property (Access)
 
-You can use the **Default** property to specify whether a command button is the default button on a form. Read/write **Boolean**.
+Use the **Default** property to specify whether a command button is the default button on a form. Read/write **Boolean**.
 
 
 ## Syntax

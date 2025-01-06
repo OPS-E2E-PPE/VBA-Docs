@@ -3,12 +3,11 @@ title: SignatureSet.AddNonVisibleSignature method (Office)
 keywords: vbaof11.chm247006
 f1_keywords:
 - vbaof11.chm247006
-ms.prod: office
 api_name:
 - Office.SignatureSet.AddNonVisibleSignature
 ms.assetid: f8d3a749-9507-628f-2192-552bd4cbb00c
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

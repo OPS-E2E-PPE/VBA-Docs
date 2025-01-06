@@ -3,25 +3,24 @@ title: Tables.Add method (Word)
 keywords: vbawd10.chm156041416
 f1_keywords:
 - vbawd10.chm156041416
-ms.prod: word
 api_name:
 - Word.Tables.Add
 ms.assetid: 127b5f74-876f-1307-5d25-a04c99debd6b
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Tables.Add method (Word)
 
-Returns a  **Table** object that represents a new, blank table added to a document.
+Returns a **Table** object that represents a new, blank table added to a document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` , `_NumRows_` , `_NumColumns_` , `_DefaultTableBehavior_` , `_AutoFitBehavior_` )
+_expression_.**Add** (_Range_, _NumRows_, _NumColumns_, _DefaultTableBehavior_, _AutoFitBehavior_)
 
- _expression_ Required. A variable that represents a '[Tables](Word.tables.md)' collection.
+_expression_ Required. A variable that represents a '[Tables](Word.tables.md)' collection.
 
 
 ## Parameters
@@ -33,8 +32,8 @@ Returns a  **Table** object that represents a new, blank table added to a docume
 | _Range_|Required| **Range object**|The range where you want the table to appear. The table replaces the range, if the range isn't collapsed.|
 | _NumRows_|Required| **Long**|The number of rows you want to include in the table.|
 | _NumColumns_|Required| **Long**|The number of columns you want to include in the table.|
-| _DefaultTableBehavior_|Optional| **Variant**|Sets a value that specifies whether Microsoft Word automatically resizes cells in tables to fit the cells? contents (AutoFit). Can be either of the following constants:  **wdWord8TableBehavior** (AutoFit disabled) or **wdWord9TableBehavior** (AutoFit enabled). The default constant is **wdWord8TableBehavior**.|
-| _AutoFitBehavior_|Optional| **Variant**|Sets the AutoFit rules for how Word sizes tables. Can be one of the  **WdAutoFitBehavior** constants.|
+| _DefaultTableBehavior_|Optional| **Variant**|Sets a value that specifies whether Microsoft Word automatically resizes cells in tables to fit the cells' contents (AutoFit). Can be either of the following constants: **wdWord8TableBehavior** (AutoFit disabled) or **wdWord9TableBehavior** (AutoFit enabled). The default constant is **wdWord8TableBehavior**.|
+| _AutoFitBehavior_|Optional| **Variant**|Sets the AutoFit rules for how Word sizes tables. Can be one of the **WdAutoFitBehavior** constants.|
 
 ## Return value
 

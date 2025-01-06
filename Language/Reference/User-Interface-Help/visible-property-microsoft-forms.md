@@ -3,10 +3,9 @@ title: Visible property (Microsoft Forms)
 keywords: fm20.chm2002200
 f1_keywords:
 - fm20.chm2002200
-ms.prod: office
 ms.assetid: a81f2ebc-2d35-ca33-dce9-05256a1491c5
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

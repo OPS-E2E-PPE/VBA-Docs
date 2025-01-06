@@ -3,18 +3,17 @@ title: ObjectFrame.GridlineWidthLeft property (Access)
 keywords: vbaac10.chm11647
 f1_keywords:
 - vbaac10.chm11647
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineWidthLeft
 ms.assetid: 86e7166f-ca94-83de-06fd-5182113fbbe7
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.GridlineWidthLeft property (Access)
 
-Gets or sets the width of the left gridline for the specified frame. Read/write **Byte**.
+Gets or sets the width of the left gridline for the specified object frame. Read/write **Byte**.
 
 
 ## Syntax

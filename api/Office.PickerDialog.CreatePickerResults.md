@@ -3,12 +3,11 @@ title: PickerDialog.CreatePickerResults method (Office)
 keywords: vbaof11.chm340004
 f1_keywords:
 - vbaof11.chm340004
-ms.prod: office
 api_name:
 - Office.PickerDialog.CreatePickerResults
 ms.assetid: 39954f3e-53ef-f33c-9e90-a2247fd7882a
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -57,7 +56,7 @@ Set objPickerResults = objPickerDialog.Show(True, objPickerExistingResult)
 ## See also
 
 - [PickerDialog object members](overview/Library-Reference/pickerdialog-members-office.md)
-- [PickerDialog interface](https://docs.microsoft.com/dotnet/api/microsoft.office.core.pickerdialog?view=office-pia)
-- [Object Picker dialog box interfaces](https://docs.microsoft.com/windows/desktop/ad/object-picker-dialog-box-interfaces)
+- [PickerDialog interface](/dotnet/api/microsoft.office.core.pickerdialog)
+- [Object Picker dialog box interfaces](/windows/desktop/ad/object-picker-dialog-box-interfaces)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

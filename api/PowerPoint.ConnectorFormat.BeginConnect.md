@@ -1,27 +1,26 @@
 ---
-title: ConnectorFormat.BeginConnect Method (PowerPoint)
+title: ConnectorFormat.BeginConnect method (PowerPoint)
 keywords: vbapp10.chm555002
 f1_keywords:
 - vbapp10.chm555002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ConnectorFormat.BeginConnect
 ms.assetid: d8762e6c-e628-b290-9847-a60bdd1f297e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConnectorFormat.BeginConnect Method (PowerPoint)
+# ConnectorFormat.BeginConnect method (PowerPoint)
 
 Attaches the beginning of the specified connector to a specified shape. 
 
 
 ## Syntax
 
- _expression_. `BeginConnect`( `_ConnectedShape_`, `_ConnectionSite_` )
+_expression_. `BeginConnect`( `_ConnectedShape_`, `_ConnectionSite_` )
 
-_expression_ A variable that represents a [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
+_expression_ A variable that represents a [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
 ## Parameters
@@ -30,19 +29,19 @@ _expression_ A variable that represents a [ConnectorFormat](./PowerPoint.Connect
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ConnectedShape_|Required|**[Shape](PowerPoint.Shape.md)**|The shape to attach the beginning of the connector to. The specified  **Shape** object must be in the same **Shapes** collection as the connector.|
-| _ConnectionSite_|Required|**Long**|A connection site on the shape specified by ConnectedShape. Must be an integer between 1 and the integer returned by the  **ConnectionSiteCount** property of the specified shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the **RerouteConnections** method after the connector is attached to shapes at both ends.|
+| _ConnectedShape_|Required|**[Shape](PowerPoint.Shape.md)**|The shape to attach the beginning of the connector to. The specified **Shape** object must be in the same **Shapes** collection as the connector.|
+| _ConnectionSite_|Required|**Long**|A connection site on the shape specified by ConnectedShape. Must be an integer between 1 and the integer returned by the **ConnectionSiteCount** property of the specified shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the **RerouteConnections** method after the connector is attached to shapes at both ends.|
 
 ## Remarks
 
-If there's already a connection between the beginning of the connector and another shape, that connection is broken. If the beginning of the connector isn't already positioned at the specified connecting site, this method moves the beginning of the connector to the connecting site and adjusts the size and position of the connector. Use the  **[EndConnect](PowerPoint.ConnectorFormat.EndConnect.md)** method to attach the end of the connector to a shape.
+If there's already a connection between the beginning of the connector and another shape, that connection is broken. If the beginning of the connector isn't already positioned at the specified connecting site, this method moves the beginning of the connector to the connecting site and adjusts the size and position of the connector. Use the **[EndConnect](PowerPoint.ConnectorFormat.EndConnect.md)** method to attach the end of the connector to a shape.
 
 When you attach a connector to an object, the size and position of the connector are automatically adjusted, if necessary.
 
 
 ## Example
 
-This example adds two rectangles to the first slide in the active presentation and connects them with a curved connector. Notice that the  **RerouteConnections** method makes it irrelevant what values you supply for the ConnectionSite arguments used with the **BeginConnect** and **EndConnect** methods.
+This example adds two rectangles to the first slide in the active presentation and connects them with a curved connector. Notice that the **RerouteConnections** method makes it irrelevant what values you supply for the ConnectionSite arguments used with the **BeginConnect** and **EndConnect** methods.
 
 
 ```vb

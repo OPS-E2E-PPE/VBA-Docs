@@ -3,12 +3,11 @@ title: ListRow.Delete method (Excel)
 keywords: vbaxl10.chm742073
 f1_keywords:
 - vbaxl10.chm742073
-ms.prod: excel
 api_name:
 - Excel.ListRow.Delete
 ms.assetid: fdba9c37-b1a7-3ed7-2665-9f2720ac7d8a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Deletes the cells of the list row and shifts upward any remaining cells below th
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents a [ListRow](Excel.ListRow.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[ListRow](Excel.ListRow.md)** object.
 
 
-[ListRow Object](Excel.ListRow.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

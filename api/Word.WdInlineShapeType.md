@@ -1,11 +1,10 @@
 ---
 title: WdInlineShapeType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdInlineShapeType
 ms.assetid: 2843a994-6016-b07f-3bc3-70a5c6205cf3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,10 +16,12 @@ Specifies a shape type for inline shapes.
 
 |Name|Value|Description|
 |:-----|:-----|:-----|
+| **wdInlineShape3DModel**|19|3D Model.|
 | **wdInlineShapeChart**|12|Inline chart.|
 | **wdInlineShapeDiagram**|13|Inline diagram.|
 | **wdInlineShapeEmbeddedOLEObject**|1|Embedded OLE object.|
 | **wdInlineShapeHorizontalLine**|6|Horizontal line.|
+| **wdInlineShapeLinked3DModel**|20|Linked 3D Model.|
 | **wdInlineShapeLinkedOLEObject**|2|Linked OLE object.|
 | **wdInlineShapeLinkedPicture**|4|Linked picture.|
 | **wdInlineShapeLinkedPictureHorizontalLine**|8|Linked picture with horizontal line.|

@@ -3,12 +3,11 @@ title: IDocumentInspector object (Office)
 keywords: vbaof11.chm284000
 f1_keywords:
 - vbaof11.chm284000
-ms.prod: office
 api_name:
 - Office.IDocumentInspector
 ms.assetid: 5787941b-86be-a95c-0e01-5003fc585158
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

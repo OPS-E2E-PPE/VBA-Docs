@@ -1,17 +1,16 @@
 ---
 title: XlWebSelectionType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlWebSelectionType
 ms.assetid: 8624f03a-6192-a783-307a-6bd16e479866
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlWebSelectionType enumeration (Excel)
 
-Specifies whether an entire web page, all tables on the web page, or only a specific table is imported into a query table.
+Specifies whether an entire webpage, all tables on the webpage, or only a specific table is imported into a query table.
 
 
 

@@ -3,12 +3,11 @@ title: Font.Engrave property (Word)
 keywords: vbawd10.chm156369046
 f1_keywords:
 - vbawd10.chm156369046
-ms.prod: word
 api_name:
 - Word.Font.Engrave
 ms.assetid: 9d062637-05c8-d1c9-2231-23439bed30b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Engrave`
+_expression_. `Engrave`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**. Setting **Engrave** to **True** sets **[Emboss](Word.Font.Emboss.md)** to **False** , and vice versa.
+Returns **True**, **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**. Setting **Engrave** to **True** sets **[Emboss](Word.Font.Emboss.md)** to **False**, and vice versa.
 
 
 ## Example

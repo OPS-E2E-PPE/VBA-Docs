@@ -3,23 +3,22 @@ title: Cell.RowIndex property (Word)
 keywords: vbawd10.chm156106756
 f1_keywords:
 - vbawd10.chm156106756
-ms.prod: word
 api_name:
 - Word.Cell.RowIndex
 ms.assetid: 745fabed-ba99-2e69-0d87-a7b520ac78cf
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Cell.RowIndex property (Word)
 
-Returns the number of the row that contains the specified cell. Read-only  **Long**.
+Returns the number of the row that contains the specified cell. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `RowIndex`
+_expression_. `RowIndex`
 
  _expression_ An expression that returns a '[Cell](Word.Cell.md)' object.
 

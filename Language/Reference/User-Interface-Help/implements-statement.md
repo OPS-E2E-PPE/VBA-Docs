@@ -3,10 +3,9 @@ title: Implements statement (VBA)
 keywords: vblr6.chm1103517
 f1_keywords:
 - vblr6.chm1103517
-ms.prod: office
 ms.assetid: 9d0fe592-e945-649a-d277-fe882fe8cf67
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 # Implements statement
@@ -44,8 +43,6 @@ The following code for the interface declarations is in a class called **Persona
 Public Name As String 
 Public Address As String 
 ```
-
-<br/>
 
 The code supporting the customer data is in a class module called **Customer**. Note that the PersonalData interface is implemented with members that are named with the interface name `PersonalData_` as a prefix.
 
@@ -88,8 +85,6 @@ End Sub
 ```
 
 
-<br/>
-
 The code supporting the supplier data is in a class module called **Supplier**:
 
 ```vb
@@ -131,8 +126,6 @@ End Sub
 
 ```
 
-<br/>
-
 The following code supports the **Selector** form:
 
 ```vb
@@ -151,8 +144,6 @@ Dim frm As New DataEntryForm
  frm.Show 1 
 End Sub
 ```
-
-<br/>
 
 The following code supports the **Data Entry** form:
 
@@ -181,13 +172,11 @@ End Sub
 
 ```
 
-<br/>
-
 Note how, in the data entry form, the *m_pd* variable is declared by using the PersonalData interface, and it can be assigned objects of either the **Customer** or **Supplier** class because both classes implement the PersonalData interface.
 
 Also note that the *m_pd* variable can only access the members of the PersonalData interface. If a **Customer** object is assigned to it, the **Customer-specific member CustomerAgentId** is not available. Similarly, if a **Supplier** object is assigned to it, the Supplier-specific member **NumberOfProductLines** is not available. Assigning an object to variables declared by using different interfaces provides a polymorphic behavior.
 
-Also note that the **Customer** and **Supplier** classes, as defined earlier, do not expose the members of the PersonalData interface. The only way to access the PersonalData members is to assign a **Customer** or **Supplier** object to a variable declared as _PersonalData_. If an inheritance-like behavior is desired, with the **Customer** or **Supplier** class exposing the PersonalData members, public members must be added to the class. These can be implemented by delegating to the PersonalData interface implementations. 
+Also note that the **Customer** and **Supplier** classes, as defined earlier, don't expose the members of the PersonalData interface. The only way to access the PersonalData members is to assign a **Customer** or **Supplier** object to a variable declared as _PersonalData_. If an inheritance-like behavior is desired, with the **Customer** or **Supplier** class exposing the PersonalData members, public members must be added to the class. These can be implemented by delegating to the PersonalData interface implementations. 
 
 For example, the **Customer** class could be extended with the following:
 

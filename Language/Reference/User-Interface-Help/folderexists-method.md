@@ -3,12 +3,11 @@ title: FolderExists method (Visual Basic for Applications)
 keywords: vblr6.chm2182042
 f1_keywords:
 - vblr6.chm2182042
-ms.prod: office
 api_name:
 - Office.FolderExists
 ms.assetid: 5a4e9c53-7561-3065-f2b3-545e9efc503d
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns **True** if a specified folder exists; **False** if it does not.
 ## Syntax
 
 _object_.**FolderExists** (_folderspec_)
-
-<br/>
 
 The **FolderExists** method syntax has these parts:
 

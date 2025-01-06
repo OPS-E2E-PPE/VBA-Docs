@@ -3,23 +3,22 @@ title: ComboBox.IMEMode Property (Outlook Forms Script)
 keywords: olfm10.chm2012300
 f1_keywords:
 - olfm10.chm2012300
-ms.prod: outlook
 ms.assetid: 47b8139d-fae3-eecc-d991-d0ab4ffd6319
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.IMEMode Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
+Returns or sets an **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
 
 
 ## Syntax
 
-_expression_. **IMEMode**
+_expression_.**IMEMode**
 
-_expression_ A variable that represents a  **ComboBox** object.
+_expression_ A variable that represents a **ComboBox** object.
 
 
 ## Remarks
@@ -44,6 +43,6 @@ The settings for fmIMEMode are:
 |9|IME on with Full-width Hangul mode.|
 |10|IME on with Half-width Hangul mode.|
 
-A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the  **IMEMode** property when the control receives focus at run time.
+A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the **IMEMode** property when the control receives focus at run time.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,24 +1,24 @@
 ---
-title: Project.GetDisplayNameFromObjectMatchingID Method (Project)
-ms.prod: project-server
+title: Project.GetDisplayNameFromObjectMatchingID method (Project)
+ms.service: project-server
 api_name:
 - Project.Project.GetDisplayNameFromObjectMatchingID
 ms.assetid: 5e535f7b-fbd9-2989-57ed-583f491a448b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.GetDisplayNameFromObjectMatchingID Method (Project)
+# Project.GetDisplayNameFromObjectMatchingID method (Project)
 
 Returns the display name of an object.
 
 
 ## Syntax
 
- _expression_. `GetDisplayNameFromObjectMatchingID`( `_ObjectType_`, `_MatchingID_` )
+_expression_. `GetDisplayNameFromObjectMatchingID`( `_ObjectType_`, `_MatchingID_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ Returns the display name of an object.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ObjectType_|Required|**Long**|The type of object. Can be one of the  **[PjOrganizer](Project.PjOrganizer.md)** constants.|
+| _ObjectType_|Required|**Long**|The type of object. Can be one of the **[PjOrganizer](Project.PjOrganizer.md)** constants.|
 | _MatchingID_|Required|**String**|String specifying the matching name of the object.|
 
 ## Return value
@@ -37,7 +37,7 @@ Returns the display name of an object.
 
 ## Remarks
 
-You can use the  **GetDisplayNameFromObjectMatchingID** method to get the display name in a multilanguage environment that uses Object Matching Identifier (OMID) fields. For more information, see the **[UseOMIDs](Project.Application.UseOMIDs.md)** property.
+Use the **GetDisplayNameFromObjectMatchingID** method to get the display name in a multilanguage environment that uses Object Matching Identifier (OMID) fields. For more information, see the **[UseOMIDs](Project.Application.UseOMIDs.md)** property.
 
 
 ## Example

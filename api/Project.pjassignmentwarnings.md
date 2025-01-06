@@ -1,13 +1,13 @@
 ---
-title: PjAssignmentWarnings Enumeration (Project)
+title: PjAssignmentWarnings enumeration (Project)
 ms.assetid: ecc27ae7-cc86-21aa-8c7f-aed8a7d22d38
 ms.date: 06/08/2017
-ms.prod: project-server
-localization_priority: Normal
+ms.service: project-server
+ms.localizationpriority: medium
 ---
 
 
-# PjAssignmentWarnings Enumeration (Project)
+# PjAssignmentWarnings enumeration (Project)
 
 Defines the different types of warnings that may appear on assignments triggering indicators in the indicator column in sheet views. Introduced in Office 2016.
 

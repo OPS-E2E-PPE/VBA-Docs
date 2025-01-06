@@ -1,20 +1,19 @@
 ---
 title: GroupShapes object (Word)
-ms.prod: word
 ms.assetid: de29d571-476b-fa8b-619e-f7d0181d9756
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # GroupShapes object (Word)
 
-Represents the individual shapes within a grouped shape. Each shape contained within a group of shapes is represented by a  **Shape** object.
+Represents the individual shapes within a grouped shape. Each shape contained within a group of shapes is represented by a **Shape** object.
 
 
 ## Remarks
 
-Use the  **GroupItems** property to return the **GroupShapes** collection. Use **GroupItems** (Index), where Index is the number of the individual shape within the grouped shape, to return a single shape from the **GroupShapes** collection. The following example adds three triangles to the active document, groups them, sets a color for the entire group, and then changes the color for the second triangle only.
+Use the **GroupItems** property to return the **GroupShapes** collection. Use **GroupItems** (Index), where Index is the number of the individual shape within the grouped shape, to return a single shape from the **GroupShapes** collection. The following example adds three triangles to the active document, groups them, sets a color for the entire group, and then changes the color for the second triangle only.
 
 
 ```vb
@@ -37,6 +36,6 @@ End With
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

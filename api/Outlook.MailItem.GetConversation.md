@@ -1,20 +1,19 @@
 ---
-title: MailItem.GetConversation Method (Outlook)
+title: MailItem.GetConversation method (Outlook)
 keywords: vbaol11.chm3387
 f1_keywords:
 - vbaol11.chm3387
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.GetConversation
 ms.assetid: f2017571-087c-1e83-4003-cb95097d43da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.GetConversation Method (Outlook)
+# MailItem.GetConversation method (Outlook)
 
-Obtains a  **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
+Obtains a **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[MailItem](Outlook.MailItem.md)' obje
 
 ## Return value
 
-A  **Conversation** object that represents the conversation to which this item belongs.
+A **Conversation** object that represents the conversation to which this item belongs.
 
 
 ## Remarks
@@ -40,16 +39,16 @@ A  **Conversation** object that represents the conversation to which this item b
     
 - Conversations have been disabled through the Windows registry.
     
-- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the  **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
+- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
     
 
 
 
 ## Example
 
-The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the  `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the  **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
+The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
 
-The following code example assumes that the selected item in the explorer window is a mail item. The code example gets the conversation that the selected mail item is associated with, and enumerates each item in that conversation, displaying the subject of the item. The  `DemoConversation` method calls the **GetConversation** method of the selected mail item to get the associated **Conversation** object. `DemoConversation` then calls the **[GetTable](Outlook.Conversation.GetTable.md)** and **[GetRootItems](Outlook.Conversation.GetRootItems.md)** methods of the **Conversation** object to get a **[Table](Outlook.Table.md)** object and **[SimpleItems](Outlook.SimpleItems.md)** collection, respectively. `DemoConversation` calls the recurrent method `EnumerateConversation` to enumerate and display the subject of each item in that conversation.
+The following code example assumes that the selected item in the explorer window is a mail item. The code example gets the conversation that the selected mail item is associated with, and enumerates each item in that conversation, displaying the subject of the item. The `DemoConversation` method calls the **GetConversation** method of the selected mail item to get the associated **Conversation** object. `DemoConversation` then calls the **[GetTable](Outlook.Conversation.GetTable.md)** and **[GetRootItems](Outlook.Conversation.GetRootItems.md)** methods of the **Conversation** object to get a **[Table](Outlook.Table.md)** object and **[SimpleItems](Outlook.SimpleItems.md)** collection, respectively. `DemoConversation` calls the recurrent method `EnumerateConversation` to enumerate and display the subject of each item in that conversation.
 
 
 

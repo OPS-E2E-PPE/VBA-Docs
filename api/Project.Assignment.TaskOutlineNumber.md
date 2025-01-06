@@ -1,24 +1,24 @@
 ---
-title: Assignment.TaskOutlineNumber Property (Project)
-ms.prod: project-server
+title: Assignment.TaskOutlineNumber property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.TaskOutlineNumber
 ms.assetid: 0e356f68-76a8-11df-a723-718c93e61a2c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.TaskOutlineNumber Property (Project)
+# Assignment.TaskOutlineNumber property (Project)
 
-Gets the task outline number of the assignment. Read-only  **String**.
+Gets the task outline number of the assignment. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `TaskOutlineNumber`
+_expression_. `TaskOutlineNumber`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks

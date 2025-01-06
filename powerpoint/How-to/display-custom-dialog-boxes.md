@@ -3,10 +3,9 @@ title: Display Custom Dialog Boxes
 keywords: vbapp10.chm5192406
 f1_keywords:
 - vbapp10.chm5192406
-ms.prod: powerpoint
 ms.assetid: 25e27f90-d0d0-9d9c-fdf6-fc07c17c5da6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ To display a dialog box from Visual Basic, use the **Show** method. The followin
 
 ```vb
 Private Sub GetUserName()
-    UserForm1.Show
+  UserForm1.Show
 End Sub
 ```
 

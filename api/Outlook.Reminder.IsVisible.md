@@ -1,37 +1,36 @@
 ---
-title: Reminder.IsVisible Property (Outlook)
+title: Reminder.IsVisible property (Outlook)
 keywords: vbaol11.chm561
 f1_keywords:
 - vbaol11.chm561
-ms.prod: outlook
 api_name:
 - Outlook.Reminder.IsVisible
 ms.assetid: e99f8fab-32fa-94ef-be9b-523b580fa551
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reminder.IsVisible Property (Outlook)
+# Reminder.IsVisible property (Outlook)
 
-Returns a  **Boolean** that determines if the reminder is currently visible. Read-only.
+Returns a **Boolean** that determines if the reminder is currently visible. Read-only.
 
 
 ## Syntax
 
 _expression_.**IsVisible**
 
-_expression_ A variable that represents a [Reminder](./Outlook.Reminder.md) object.
+_expression_ A variable that represents a [Reminder](Outlook.Reminder.md) object.
 
 
 ## Remarks
 
- Outlook determines the return value of this property based on the state of the current reminder. All active reminders are visible. If **IsVisible** is **True** , the reminder is visible.
+ Outlook determines the return value of this property based on the state of the current reminder. All active reminders are visible. If **IsVisible** is **True**, the reminder is visible.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example dismisses all reminders that are currently visible. For example, if the current reminder is active, the  **IsVisible** property will return **True**.
+The following Microsoft Visual Basic for Applications (VBA) example dismisses all reminders that are currently visible. For example, if the current reminder is active, the **IsVisible** property will return **True**.
 
 
 ```vb

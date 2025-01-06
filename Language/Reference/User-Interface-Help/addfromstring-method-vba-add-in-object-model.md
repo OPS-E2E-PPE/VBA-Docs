@@ -3,10 +3,9 @@ title: AddFromString method (VBA Add-In Object Model)
 keywords: vbob6.chm1098959
 f1_keywords:
 - vbob6.chm1098959
-ms.prod: office
 ms.assetid: a3ad95b2-6327-ba69-71d5-17d4f693462c
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

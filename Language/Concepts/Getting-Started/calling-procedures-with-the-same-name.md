@@ -3,10 +3,9 @@ title: Calling procedures with the same name (VBA)
 keywords: vbcn6.chm1076672
 f1_keywords:
 - vbcn6.chm1076672
-ms.prod: office
 ms.assetid: 5d310675-136b-58bb-29e2-ca09726b8ce0
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Sub Main()
     Module1.MyProcedure 
 End Sub
 ```
-
-<br/>
 
 If you give the same name to two different procedures in two different projects, you must specify a project name when you call that procedure. For example, the following procedure calls the `Main` procedure in the `MyModule` module in the `MyProject.vbp` project.
 
@@ -35,7 +32,7 @@ End Sub
 
 
 > [!TIP] 
-> - If you rename a module or project, be sure to change the module or project name wherever it appears in calling [statements](../../Glossary/vbe-glossary.md#statement); otherwise, Visual Basic will not be able to find the called procedure. You can use the **Replace** command on the **[Edit](../../reference/user-interface-help/edit-menu.md)** menu to find and replace text in a module.
+> - If you rename a module or project, be sure to change the module or project name wherever it appears in calling [statements](../../Glossary/vbe-glossary.md#statement); otherwise, Visual Basic will not be able to find the called procedure. Use the **Replace** command on the **[Edit](../../reference/user-interface-help/edit-menu.md)** menu to find and replace text in a module.
 > - To avoid naming conflicts among referenced projects, give your procedures unique names so you can call a procedure without specifying a project or module.
     
 ## See also

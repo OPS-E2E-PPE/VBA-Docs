@@ -1,15 +1,15 @@
 ---
-title: PjTimelineInsertTaskType Enumeration (Project)
-ms.prod: project-server
+title: PjTimelineInsertTaskType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjTimelineInsertTaskType
 ms.assetid: cbb0c320-e9ef-3b3e-5b60-3c97940083ec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjTimelineInsertTaskType Enumeration (Project)
+# PjTimelineInsertTaskType enumeration (Project)
 
 Contains constants that specify the type of task to insert on the Timeline view in Project.
 

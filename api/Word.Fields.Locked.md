@@ -3,12 +3,11 @@ title: Fields.Locked property (Word)
 keywords: vbawd10.chm154140674
 f1_keywords:
 - vbawd10.chm154140674
-ms.prod: word
 api_name:
 - Word.Fields.Locked
 ms.assetid: 9ecebbac-fc22-0474-ed2e-a17a549d6722
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Locked**
+_expression_.**Locked**
 
- _expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
+_expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
 
 
 ## Remarks
 
-This property can be  **True** , **False** , or **wdUndefined** (if some of the fields in the collection are locked and others are not).
+This property can be **True**, **False**, or **wdUndefined** (if some of the fields in the collection are locked and others are not).
 
 
 ## Example

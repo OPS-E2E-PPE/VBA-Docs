@@ -3,12 +3,11 @@ title: Options.UseCharacterUnit property (Word)
 keywords: vbawd10.chm162988378
 f1_keywords:
 - vbawd10.chm162988378
-ms.prod: word
 api_name:
 - Word.Options.UseCharacterUnit
 ms.assetid: ce6e6c23-91ec-7bbc-d4fa-b2d85dcdce76
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `UseCharacterUnit`
+_expression_. `UseCharacterUnit`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

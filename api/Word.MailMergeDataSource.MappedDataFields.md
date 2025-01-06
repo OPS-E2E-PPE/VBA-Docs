@@ -3,23 +3,22 @@ title: MailMergeDataSource.MappedDataFields property (Word)
 keywords: vbawd10.chm152895504
 f1_keywords:
 - vbawd10.chm152895504
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.MappedDataFields
 ms.assetid: 9fcebccf-976b-b57a-6cc3-c4d20fffea5c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataSource.MappedDataFields property (Word)
 
-Returns a  **[MappedDataFields](Word.MappedDataFields.md)** collection that represents the mapped data fields available in Microsoft Word.
+Returns a **[MappedDataFields](Word.MappedDataFields.md)** collection that represents the mapped data fields available in Microsoft Word.
 
 
 ## Syntax
 
- _expression_. `MappedDataFields`
+_expression_. `MappedDataFields`
 
  _expression_ An expression that returns a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 

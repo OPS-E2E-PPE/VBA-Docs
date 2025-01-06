@@ -3,25 +3,24 @@ title: Font.Spacing property (Word)
 keywords: vbawd10.chm156369040
 f1_keywords:
 - vbawd10.chm156369040
-ms.prod: word
 api_name:
 - Word.Font.Spacing
 ms.assetid: 50e380cd-1126-c2bd-18ff-40249efa0b9f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font.Spacing property (Word)
 
-Returns or sets the spacing (in points) between characters. Read/write  **Single**.
+Returns or sets the spacing (in points) between characters. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `Spacing`
+_expression_. `Spacing`
 
- _expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Example

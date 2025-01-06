@@ -3,18 +3,17 @@ title: NavigationButton.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10479
 f1_keywords:
 - vbaac10.chm10479
-ms.prod: access
 api_name:
 - Access.NavigationButton.ShortcutMenuBar
 ms.assetid: bfc92fea-48ef-e995-53c4-be0354de1550
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

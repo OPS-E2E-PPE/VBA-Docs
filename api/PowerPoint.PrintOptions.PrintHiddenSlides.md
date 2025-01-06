@@ -1,27 +1,26 @@
 ---
-title: PrintOptions.PrintHiddenSlides Property (PowerPoint)
+title: PrintOptions.PrintHiddenSlides property (PowerPoint)
 keywords: vbapp10.chm517009
 f1_keywords:
 - vbapp10.chm517009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintOptions.PrintHiddenSlides
 ms.assetid: 39b5845e-7fd0-6759-bf1c-e2497acc1c61
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintOptions.PrintHiddenSlides Property (PowerPoint)
+# PrintOptions.PrintHiddenSlides property (PowerPoint)
 
 Determines whether hidden slides in the specified presentation will be printed. Read/write.
 
 
 ## Syntax
 
- _expression_. `PrintHiddenSlides`
+_expression_. `PrintHiddenSlides`
 
- _expression_ A variable that represents a [PrintOptions](./PowerPoint.PrintOptions.md) object.
+_expression_ A variable that represents a [PrintOptions](PowerPoint.PrintOptions.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **PrintHiddenSlides** property can be one of these **MsoTriState** constants.
+The value of the **PrintHiddenSlides** property can be one of these **MsoTriState** constants.
 
 
 

@@ -1,24 +1,23 @@
 ---
-title: DistListItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: DistListItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.DistListItem.PropertyChange
 ms.assetid: 932a2ded-1e92-e40d-8f88-9044cccb7863
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.PropertyChange Event (Outlook)
+# DistListItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Parameters

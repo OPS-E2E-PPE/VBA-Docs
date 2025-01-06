@@ -1,27 +1,26 @@
 ---
-title: Application.SlideSelectionChanged Event (PowerPoint)
+title: Application.SlideSelectionChanged event (PowerPoint)
 keywords: vbapp10.chm621016
 f1_keywords:
 - vbapp10.chm621016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.SlideSelectionChanged
 ms.assetid: a7bbdc4c-31e3-2072-8590-bced8bff6517
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SlideSelectionChanged Event (PowerPoint)
+# Application.SlideSelectionChanged event (PowerPoint)
 
 Occurs at different times depending on the current view.
 
 
 ## Syntax
 
- _expression_. `SlideSelectionChanged`( `_SldRange_` )
+_expression_. `SlideSelectionChanged`( `_SldRange_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-To access the  **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+To access the **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 The following table describes when the event occurs in each of the views. 
 
@@ -49,7 +48,7 @@ The following table describes when the event occurs in each of the views.
 
 ## Example
 
-This example displays a message every time a user selects a different slide. This example assumes that an  **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
+This example displays a message every time a user selects a different slide. This example assumes that an **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
 
 
 ```vb

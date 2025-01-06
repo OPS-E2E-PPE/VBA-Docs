@@ -3,20 +3,17 @@ title: MsoPickerField enumeration (Office)
 keywords: vbaof11.chm100124
 f1_keywords:
 - vbaof11.chm100124
-ms.prod: office
 api_name:
 - Office.MsoPickerField
 ms.assetid: 9f38a257-223e-8dfe-8856-094717d5b513
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoPickerField enumeration (Office)
 
 Specifies contact-picker field types.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

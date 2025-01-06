@@ -3,18 +3,17 @@ title: PageBreak.Left property (Access)
 keywords: vbaac10.chm11674
 f1_keywords:
 - vbaac10.chm11674
-ms.prod: access
 api_name:
 - Access.PageBreak.Left
 ms.assetid: 358f0688-6507-3ee5-bfcf-f266d405a064
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageBreak.Left property (Access)
 
-You can use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
+Use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ For reports, you can set these properties only by using a macro or event procedu
 
 For reports, the **Left** property setting is the amount that the current section is offset from the left of the page. This property is expressed in twips. 
 
-You can use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
+Use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
 
 
 ## Example

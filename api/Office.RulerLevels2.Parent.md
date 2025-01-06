@@ -1,11 +1,10 @@
 ---
 title: RulerLevels2.Parent property (Office)
-ms.prod: office
 api_name:
 - Office.RulerLevels2.Parent
 ms.assetid: 000d8a65-c798-33d2-adc0-d38c44643aae
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

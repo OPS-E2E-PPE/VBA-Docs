@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: acmain11.chm6173
 f1_keywords:
 - acmain11.chm6173
-ms.prod: access
 api_name:
 - Access.Unique
 ms.assetid: 283e5d33-b281-150f-9766-6ecc0da6a09a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the Unique property to specify that an index enforces uniqueness of the data in the table's key index.
+Use the Unique property to specify that an index enforces uniqueness of the data in the table's key index.
 
 ## Setting
 
@@ -45,8 +44,8 @@ An index is the primary index for a table if its **Primary** property is set to 
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -4,9 +4,8 @@ keywords: vbawd10.chm162988548
 f1_keywords:
 - vbawd10.chm162988548
 ms.assetid: ea75d46c-ee8b-41b5-8964-b31433c9f599
-ms.prod: word
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,14 +16,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CloudSignInOption`
+_expression_. `CloudSignInOption`
 
- _expression_ A variable that represents a [Options](./Word.Options.md) object.
+_expression_ A variable that represents a [Options](./Word.Options.md) object.
 
 
 ## Remarks
 
-The setting of  **CloudSignInOption** corresponds to that of the **Show additional places for saving, even if sign-in may be required** option on the **Save** tab of the **Word Options** dialog box. (Choose **Options** on the **File** tab.)
+The setting of **CloudSignInOption** corresponds to that of the **Show additional places for saving, even if sign-in may be required** option on the **Save** tab of the **Word Options** dialog box. (Choose **Options** on the **File** tab.)
 
 
 ## Property value

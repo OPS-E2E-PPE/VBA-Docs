@@ -1,31 +1,31 @@
 ---
-title: Application.UseOMIDs Property (Project)
+title: Application.UseOMIDs property (Project)
 keywords: vbapj.chm132781
 f1_keywords:
 - vbapj.chm132781
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.UseOMIDs
 ms.assetid: 15339e09-0b65-d939-df47-eb538dee7c38
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.UseOMIDs Property (Project)
+# Application.UseOMIDs property (Project)
 
-Gets or sets the corresponding  **Use internal IDs** option on the **Advanced** tab of the **Project Options** dialog box. Read/write **Boolean**.
+Gets or sets the corresponding **Use internal IDs** option on the **Advanced** tab of the **Project Options** dialog box. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `UseOMIDs`
+_expression_. `UseOMIDs`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Object Matching Identifier (OMID) fields are added to objects that can be shared across multilanguage versions. OMIDs are supported for  **Calendar**, **Filter**, **Group**, **Table**, and **View** objects. OMIDs are not supported for **Form** and **Report** objects. Project uses OMIDs to match similar elements in a multilanguage installation and avoid multiple language elements in the UI.
+Object Matching Identifier (OMID) fields are added to objects that can be shared across multilanguage versions. OMIDs are supported for **Calendar**, **Filter**, **Group**, **Table**, and **View** objects. OMIDs are not supported for **Form** and **Report** objects. Project uses OMIDs to match similar elements in a multilanguage installation and avoid multiple language elements in the UI.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

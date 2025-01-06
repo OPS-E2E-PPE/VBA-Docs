@@ -1,27 +1,27 @@
 ---
-title: Application.MailRoutingSlip Method (Project)
+title: Application.MailRoutingSlip method (Project)
 keywords: vbapj.chm125
 f1_keywords:
 - vbapj.chm125
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.MailRoutingSlip
 ms.assetid: 1ac860a4-b3fc-9305-5b9f-bf0f8b4ea6e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.MailRoutingSlip Method (Project)
+# Application.MailRoutingSlip method (Project)
 
 Adds a mail routing slip for the active project.
 
 
 ## Syntax
 
- _expression_. `MailRoutingSlip`( `_To_`, `_Subject_`, `_Body_`, `_AllAtOnce_`, `_ReturnWhenDone_`, `_TrackStatus_`, `_Clear_`, `_SendNow_` )
+_expression_. `MailRoutingSlip`( `_To_`, `_Subject_`, `_Body_`, `_AllAtOnce_`, `_ReturnWhenDone_`, `_TrackStatus_`, `_Clear_`, `_SendNow_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -46,7 +46,7 @@ Adds a mail routing slip for the active project.
 
 ## Remarks
 
-Using the  **MailRoutingSlip** method without specifying any arguments displays the **Routing Slip** dialog box when a mail profile is set up on the user's system. If no mail profile is set up, using the **MailRoutingSlip** method without specifying any arguments displays the **Internet Connection Wizard**.
+Using the **MailRoutingSlip** method without specifying any arguments displays the **Routing Slip** dialog box when a mail profile is set up on the user's system. If no mail profile is set up, using the **MailRoutingSlip** method without specifying any arguments displays the **Internet Connection Wizard**.
 
 
 ## Example

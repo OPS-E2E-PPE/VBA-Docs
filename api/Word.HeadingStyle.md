@@ -3,23 +3,22 @@ title: HeadingStyle object (Word)
 keywords: vbawd10.chm2443
 f1_keywords:
 - vbawd10.chm2443
-ms.prod: word
 api_name:
 - Word.HeadingStyle
 ms.assetid: d57e68ce-4c8b-0063-5077-82462451f336
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HeadingStyle object (Word)
 
-Represents a style used to build a table of contents or figures. The  **HeadingStyle** object is a member of the **[HeadingStyles](Word.headingstyles.md)** collection.
+Represents a style used to build a table of contents or figures. The **HeadingStyle** object is a member of the **[HeadingStyles](Word.headingstyles.md)** collection.
 
 
 ## Remarks
 
-Use  **HeadingStyles** (Index), where Index is the index number, to return a single **HeadingStyle** object. The index number represents the position of the style in the **HeadingStyles** collection. The following example adds (at the beginning of the active document) a table of figures built from the Title style, and then displays the name of the first style in the **HeadingStyles** collection.
+Use **HeadingStyles** (Index), where Index is the index number, to return a single **HeadingStyle** object. The index number represents the position of the style in the **HeadingStyles** collection. The following example adds (at the beginning of the active document) a table of figures built from the Title style, and then displays the name of the first style in the **HeadingStyles** collection.
 
 
 ```vb
@@ -28,7 +27,7 @@ Set myTOF = ActiveDocument.TablesOfFigures.Add _
 MsgBox myTOF.HeadingStyles(1).Style
 ```
 
-Use the  **Add** method to add a style to the **HeadingStyles** collection. The following example adds a table of contents at the beginning of the active document and then adds the Title style to the list of styles used to build a table of contents.
+Use the **Add** method to add a style to the **HeadingStyles** collection. The following example adds a table of contents at the beginning of the active document and then adds the Title style to the list of styles used to build a table of contents.
 
 
 
@@ -45,6 +44,6 @@ myToc.HeadingStyles.Add Style:="Title", Level:=2
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,25 +3,24 @@ title: List.CanContinuePreviousList method (Word)
 keywords: vbawd10.chm160563305
 f1_keywords:
 - vbawd10.chm160563305
-ms.prod: word
 api_name:
 - Word.List.CanContinuePreviousList
 ms.assetid: 5e235969-27ee-22eb-61ba-2b52a23447aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # List.CanContinuePreviousList method (Word)
 
-Returns a  **[WdContinue](Word.WdContinue.md)** constant (**wdContinueDisabled** , **wdResetList** , or **wdContinueList**) that indicates whether the formatting from the previous list can be continued.
+Returns a **[WdContinue](Word.WdContinue.md)** constant (**wdContinueDisabled**, **wdResetList**, or **wdContinueList**) that indicates whether the formatting from the previous list can be continued.
 
 
 ## Syntax
 
- _expression_. `CanContinuePreviousList`( `_ListTemplate_` )
+_expression_. `CanContinuePreviousList`( `_ListTemplate_` )
 
- _expression_ Required. A variable that represents a '[List](Word.List.md)' object.
+_expression_ Required. A variable that represents a '[List](Word.List.md)' object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Returns a  **[WdContinue](Word.WdContinue.md)** constant (**wdContinueDisabled**
 
 ## Remarks
 
-This method returns the state of the  **Continue previous list** and **Restart numbering** options in the **Bullets and Numbering** dialog box for a specified list format. To change the settings of these options, set the ContinuePreviousList argument of the **ApplyListTemplate** method.
+This method returns the state of the **Continue previous list** and **Restart numbering** options in the **Bullets and Numbering** dialog box for a specified list format. To change the settings of these options, set the ContinuePreviousList argument of the **ApplyListTemplate** method.
 
 
 ## Example

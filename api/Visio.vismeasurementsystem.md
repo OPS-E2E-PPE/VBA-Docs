@@ -1,18 +1,17 @@
 ---
-title: VisMeasurementSystem Enumeration (Visio)
+title: VisMeasurementSystem enumeration (Visio)
 keywords: vis_sdr.chm70375
 f1_keywords:
 - vis_sdr.chm70375
-ms.prod: visio
 ms.assetid: 922d853c-e0c4-467f-481f-963322b1f345
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisMeasurementSystem Enumeration (Visio)
+# VisMeasurementSystem enumeration (Visio)
 
-Measurement system types to be passed to the  **Documents.AddEx** method.
+Measurement system types to be passed to the **Documents.AddEx** method.
 
 
 

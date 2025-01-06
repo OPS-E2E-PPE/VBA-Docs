@@ -3,18 +3,17 @@ title: CheckBox.ControlSource property (Access)
 keywords: vbaac10.chm10696
 f1_keywords:
 - vbaac10.chm10696
-ms.prod: access
 api_name:
 - Access.CheckBox.ControlSource
 ms.assetid: 167d8da3-0489-ca23-2821-e455b8ac2d53
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.ControlSource property (Access)
 
-You can use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
+Use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
 
 
 ## Syntax
@@ -55,8 +54,6 @@ The following example sets the **ControlSource** property for a text box named *
 ```vb
 Forms!Customers!AddressPart.ControlSource = "City"
 ```
-
-<br/>
 
 The following example sets the **ControlSource** property for a text box named **Expected** to the expression `=Date() + 7`.
 

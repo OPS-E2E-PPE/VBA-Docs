@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetupMargins Method (Project)
+title: Application.FilePageSetupMargins method (Project)
 keywords: vbapj.chm2356
 f1_keywords:
 - vbapj.chm2356
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetupMargins
 ms.assetid: c36099a7-4ed2-0f0c-c3bb-9af35c88eb35
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetupMargins Method (Project)
+# Application.FilePageSetupMargins method (Project)
 
 Sets up margins for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupMargins`( `_Name_`, `_Top_`, `_Bottom_`, `_Left_`, `_Right_`, `_Borders_` )
+_expression_. `FilePageSetupMargins`( `_Name_`, `_Top_`, `_Bottom_`, `_Left_`, `_Right_`, `_Borders_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ Sets up margins for printing.
 | _Bottom_|Optional|**Long**| The size of the bottom margin in inches or centimeters.|
 | _Left_|Optional|**Long**|The size of the left margin in inches or centimeters.|
 | _Right_|Optional|**Long**|The size of the right margin in inches or centimeters.|
-| _Borders_|Optional|**Long**|Where to print borders. Can be one of the following  **PjBorder** constants: **pjNoBorder**, **pjAroundEveryPage**, or **pjOutsidePages**.|
+| _Borders_|Optional|**Long**|Where to print borders. Can be one of the following **PjBorder** constants: **pjNoBorder**, **pjAroundEveryPage**, or **pjOutsidePages**.|
 
 ## Return value
 
@@ -44,6 +44,6 @@ Sets up margins for printing.
 
 ## Remarks
 
-Using the  **FilePageSetupMargins** method without specifying any arguments displays the **Page Setup** dialog box with the **Margins** tab selected.
+Using the **FilePageSetupMargins** method without specifying any arguments displays the **Page Setup** dialog box with the **Margins** tab selected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

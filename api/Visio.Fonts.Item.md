@@ -1,32 +1,27 @@
 ---
-title: Fonts.Item Property (Visio)
+title: Fonts.Item property (Visio)
 keywords: vis_sdr.chm12113765
 f1_keywords:
 - vis_sdr.chm12113765
-ms.prod: visio
 api_name:
 - Visio.Fonts.Item
 ms.assetid: 3ac06ea3-d2ce-4ced-c54a-ed23df1a26f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Fonts.Item Property (Visio)
+# Fonts.Item property (Visio)
 
-Returns an item from a collection. The  **Item** property is the default property for all collections. Read-only.
-
+Returns an item from a collection. The **Item** property is the default property for all collections. Read-only.
 
 ## Syntax
 
- _expression_. `Item`( `_NameOrIndex_` )
+_expression_.**Item** (_NameOrIndex_)
 
- _expression_ A variable that represents a [Fonts](./Visio.Fonts.md) collection.
-
+_expression_ A variable that represents a **[Fonts](Visio.Fonts.md)** object.
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,11 +31,9 @@ Returns an item from a collection. The  **Item** property is the default propert
 
 Font
 
-
 ## Remarks
 
-When retrieving objects from a collection, you can omit  **Item** from the expression because it is the default property for all collections. The following statements are equivalent to the syntax example given above:
-
+When retrieving objects from a collection, you can omit **Item** from the expression because it is the default property for all collections. The following statements are equivalent to the syntax example given above:
 
 ```vb
 objRet = object(index) 
@@ -48,15 +41,13 @@ objRet = object(stringExpression)
 
 ```
 
-You can retrieve an object in an  **Addons** , **Documents** , **Fonts** , **Hyperlinks** , **Layers** , **Masters** , **MasterShortcuts** , **OLEObjects** , **Pages** , **Shapes** , or **Styles** collection by passing the object's name as a string expression in a **Variant**.
+You can retrieve an object in an **Addons**, **Documents**, **Fonts**, **Hyperlinks**, **Layers**, **Masters**, **MasterShortcuts**, **OLEObjects**, **Pages**, **Shapes**, or **Styles** collection by passing the object's name as a string expression in a **Variant**.
 
-For more information about passing ID strings to the  **Item** property, see the topic for the **[UniqueID](Visio.Shape.UniqueID.md)** property in this Automation Reference.
+For more information about passing ID strings to the **Item** property, see the topic for the **[UniqueID](Visio.Shape.UniqueID.md)** property in this reference.
 
+> [!NOTE]
+> Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.)
 
- **Note**  
-
-Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
-
-As a developer, you can use universal names in a program when you don't want to change a name each time a solution is localized. Use the  **Item** property to access an object in the **Masters** , **Pages** , **Shapes** , **Styles** , **Layers** , or **MasterShortcuts** collection by using its local name. Use the **ItemU** property to access an object from one of these collections by using the object's universal name.
+As a developer, you can use universal names in a program when you don't want to change a name each time a solution is localized. Use the **Item** property to access an object in the **Masters**, **Pages**, **Shapes**, **Styles**, **Layers**, or **MasterShortcuts** collection by using its local name. Use the **ItemU** property to access an object from one of these collections by using the object's universal name.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

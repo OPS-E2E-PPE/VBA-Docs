@@ -3,10 +3,9 @@ title: Font object (Microsoft Forms)
 keywords: fm20.chm2000520
 f1_keywords:
 - fm20.chm2000520
-ms.prod: office
 ms.assetid: f3f05b2d-bb5b-5a6a-a7ad-43fd43934d9e
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

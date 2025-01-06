@@ -1,24 +1,24 @@
 ---
-title: GroupCriteria.Count Property (Project)
-ms.prod: project-server
+title: GroupCriteria.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriteria.Count
 ms.assetid: 01a84f58-8a8f-ac89-3950-b4ab4a9a3d81
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriteria.Count Property (Project)
+# GroupCriteria.Count property (Project)
 
-Gets the number of items in the  **GroupCriteria** collection. Read-only **Long**.
+Gets the number of items in the **GroupCriteria** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'GroupCriteria' object.
+_expression_ A variable that represents a 'GroupCriteria' object.
 
 
 ## Example

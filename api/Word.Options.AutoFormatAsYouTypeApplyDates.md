@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeApplyDates property (Word)
 keywords: vbawd10.chm162988330
 f1_keywords:
 - vbawd10.chm162988330
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeApplyDates
 ms.assetid: b31f13fa-9a76-3a86-c4c2-4720fec1b66b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyDates`
+_expression_. `AutoFormatAsYouTypeApplyDates`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

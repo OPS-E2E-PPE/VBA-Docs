@@ -1,27 +1,27 @@
 ---
-title: Application.SetTaskFieldByID Method (Project)
+title: Application.SetTaskFieldByID method (Project)
 keywords: vbapj.chm95
 f1_keywords:
 - vbapj.chm95
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SetTaskFieldByID
 ms.assetid: b4c74d96-d25b-707e-15f1-5e7f05363360
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetTaskFieldByID Method (Project)
+# Application.SetTaskFieldByID method (Project)
 
 Sets the value of a task field specified by the field identification number.
 
 
 ## Syntax
 
- _expression_. `SetTaskFieldByID`( `_FieldID_`, `_Value_`, `_AllSelectedTasks_`, `_Create_`, `_TaskID_`, `_ProjectName_` )
+_expression_. `SetTaskFieldByID`( `_FieldID_`, `_Value_`, `_AllSelectedTasks_`, `_Create_`, `_TaskID_`, `_ProjectName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Sets the value of a task field specified by the field identification number.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**PjField**|Field identification number. Can be one of the task fields specified by a  **[PjField](Project.PjField.md)** constant or a number returned by the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.|
+| _FieldID_|Required|**PjField**|Field identification number. Can be one of the task fields specified by a **[PjField](Project.PjField.md)** constant or a number returned by the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.|
 | _Value_|Required|**String**|The value of the task field.|
 | _AllSelectedTasks_|Optional|**Variant**|**True** if the value of the field is set for all selected tasks. **False** if the value is set for the active task. The default value is **False**.|
 | _Create_|Optional|**Variant**|**True** if Project creates a task when the active cell is on an empty row. The default value is **True**.|
@@ -44,6 +44,6 @@ Sets the value of a task field specified by the field identification number.
 
 ## Remarks
 
-To set a task field by name, use the  **[SetTaskField](Project.Application.SetTaskField.md)** method.
+To set a task field by name, use the **[SetTaskField](Project.Application.SetTaskField.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

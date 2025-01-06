@@ -3,11 +3,10 @@ title: Range.ConvertToLinkedDataType method (Excel)
 keywords: vbaxl10.chm144263
 f1_keywords:
 - vbaxl10.chm144263
-ms.prod: excel
 api_name:
 - Excel.Range.ConvertToLinkedDataType
-ms.date: 03/01/2019
-localization_priority: Normal
+ms.date: 05/10/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -27,11 +26,11 @@ _expression_ A variable that represents a **[Range](Excel.Range(Object).md)** ob
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ServiceID_|Required| **Long**|The ID of the service that will provide the linked entity.|
-| _LanguageCulture_|Required| **String**|A string representing the [LCID](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c) of the language and culture that you would like to use for the linked entity. |
+| _LanguageCulture_|Required| **String**|A string representing the [LCID](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c) of the language and culture that you would like to use for the linked entity. |
 
 ## Remarks
 
-The method will fail and throw a runtime exception '1004' if the specified locale is not supported on the specified service.
+The method will fail and throw a runtime exception 1004 if the specified locale is not supported on the specified service.
 
 It will have no effect (and throw no exception) in these cases:
 
@@ -41,24 +40,18 @@ It will have no effect (and throw no exception) in these cases:
 
 ## Example
 
-This code will convert cell `E5` to a "Stocks" Linked data type in the US-English locale:
+This code will convert cell E5 to a _Stocks_ Linked data type in the US-English locale.
 
 ```vb
 Range("E5").ConvertToLinkedDataType ServiceID:=268435456, LanguageCulture:= "en-US"
 ```
 
-This code will convert cell `E6` to a "Geography" Linked data type in the US-English locale:
+This code will convert cell E6 to a _Geography_ Linked data type in the US-English locale.
 
 ```vb
 Range("E6").ConvertToLinkedDataType ServiceID:=536870912, LanguageCulture:= "en-US"
 ```
 
-## See also
 
-- [Range.SetCellDataTypeFromCell](Excel.Range.SetCellDataTypeFromCell.md)
-- [Range.DataTypeToText](Excel.Range.DataTypeToText.md)
-- [Range.HasRichDataType](Excel.Range.HasRichDataType.md)
-- [Range.LinkedDataTypeState](Excel.Range.LinkedDataTypeState.md)
-- [Range.ShowCard](Excel.Range.ShowCard.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

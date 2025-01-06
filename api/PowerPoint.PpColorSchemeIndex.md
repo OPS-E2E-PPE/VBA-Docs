@@ -1,15 +1,14 @@
 ---
-title: PpColorSchemeIndex Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpColorSchemeIndex enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpColorSchemeIndex
 ms.assetid: 1c1c01c5-90ab-6645-35cb-d5e198c40826
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpColorSchemeIndex Enumeration (PowerPoint)
+# PpColorSchemeIndex enumeration (PowerPoint)
 
 Specifies the color in the applied color scheme that is associated with the specified object. 
 

@@ -1,24 +1,23 @@
 ---
-title: Panes.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Panes.Count property (PowerPoint)
 api_name:
 - PowerPoint.Panes.Count
 ms.assetid: 450fb25b-46b5-00e5-4e26-f08974ca14e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Panes.Count Property (PowerPoint)
+# Panes.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Panes](./PowerPoint.Panes.md) object.
+_expression_ A variable that represents a [Panes](PowerPoint.Panes.md) object.
 
 
 ## Return value

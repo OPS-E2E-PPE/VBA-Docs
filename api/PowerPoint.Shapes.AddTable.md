@@ -1,27 +1,26 @@
 ---
-title: Shapes.AddTable Method (PowerPoint)
+title: Shapes.AddTable method (PowerPoint)
 keywords: vbapp10.chm543027
 f1_keywords:
 - vbapp10.chm543027
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.AddTable
 ms.assetid: 77ce193e-10f7-25f4-a6f8-99d7d2b781ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddTable Method (PowerPoint)
+# Shapes.AddTable method (PowerPoint)
 
 Adds a table shape to a slide.
 
 
 ## Syntax
 
- _expression_. `AddTable`( `_NumRows_`, `_NumColumns_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
+_expression_. `AddTable`( `_NumRows_`, `_NumColumns_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Parameters
@@ -44,7 +43,7 @@ Shape
 
 ## Example
 
-This example creates a new table on slide two of the active presentation. The table has three rows and four columns. It is 10 points from the left edge of the slide, and 10 points from the top edge. The width of the new table is 288 points, which makes each of the four columns one inch wide (there are 72 points per inch). The height is set to 216 points, which makes each of the three rows one inch tall.
+This example creates a new table on slide two of the active presentation. The table has three rows and four columns. It's 10 points from the left edge of the slide, and 10 points from the top edge. The width of the new table is 288 points, which makes each of the four columns one inch wide (there are 72 points per inch). The height is set to 216 points, which makes each of the three rows one inch tall.
 
 
 ```vb

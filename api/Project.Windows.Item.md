@@ -1,24 +1,24 @@
 ---
-title: Windows.Item Property (Project)
-ms.prod: project-server
+title: Windows.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Windows.Item
 ms.assetid: c0f8bffd-5e91-721a-d47e-f4daa4d0bf80
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Windows.Item Property (Project)
+# Windows.Item property (Project)
 
-Gets a single  **Window** object from the **Windows** collection. Read-only **Window**.
+Gets a single **Window** object from the **Windows** collection. Read-only **Window**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Windows' object.
+_expression_ A variable that represents a 'Windows' object.
 
 
 ## Parameters

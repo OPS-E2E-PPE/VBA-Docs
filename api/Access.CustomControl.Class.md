@@ -3,18 +3,17 @@ title: CustomControl.Class property (Access)
 keywords: vbaac10.chm12012
 f1_keywords:
 - vbaac10.chm12012
-ms.prod: access
 api_name:
 - Access.CustomControl.Class
 ms.assetid: c745856b-c447-af0a-ed9e-9945d3917d10
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Class property (Access)
 
-You can use the **Class** property to specify or determine the class name of an embedded OLE object. Read/write **String**.
+Use the **Class** property to specify or determine the class name of an embedded OLE object. Read/write **String**.
 
 
 ## Syntax

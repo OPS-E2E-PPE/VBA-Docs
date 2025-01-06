@@ -3,18 +3,17 @@ title: Line.BorderColor property (Access)
 keywords: vbaac10.chm10339
 f1_keywords:
 - vbaac10.chm10339
-ms.prod: access
 api_name:
 - Access.Line.BorderColor
 ms.assetid: d809fd7e-63a2-3142-c9ae-2572b1910d48
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Line.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

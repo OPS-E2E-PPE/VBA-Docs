@@ -1,13 +1,13 @@
 ---
-title: WorkWeekDays Object (Project)
-ms.prod: project-server
+title: WorkWeekDays object (Project)
+ms.service: project-server
 ms.assetid: 70ef7283-1dc1-7b19-5d84-5b3d5698e169
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDays Object (Project)
+# WorkWeekDays object (Project)
 
  Contains a collection of **[WorkWeekDay](Project.WorkWeekDay.md)** objects.
  
@@ -15,7 +15,7 @@ localization_priority: Normal
 
 ## Remarks
 
-Use the  **[Item](Project.WorkWeekDays.Item.md)** property return a single **WorkWeekDay** object.
+Use the **[Item](Project.WorkWeekDays.Item.md)** property return a single **WorkWeekDay** object.
  
 
  

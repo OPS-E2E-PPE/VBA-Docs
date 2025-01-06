@@ -1,27 +1,26 @@
 ---
-title: TextRange.Sentences Method (PowerPoint)
+title: TextRange.Sentences method (PowerPoint)
 keywords: vbapp10.chm569011
 f1_keywords:
 - vbapp10.chm569011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Sentences
 ms.assetid: c3640cb8-f78a-2934-bbe0-506cb8d2534c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Sentences Method (PowerPoint)
+# TextRange.Sentences method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text sentences.
+Returns a **TextRange** object that represents the specified subset of text sentences.
 
 
 ## Syntax
 
- _expression_. `Sentences`( `_Start_`, `_Length_` )
+_expression_. `Sentences`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters
@@ -50,7 +49,7 @@ If Start is greater than the number of sentences in the specified text, the retu
 
 If Length is greater than the number of sentences from the specified starting sentence to the end of the text, the returned range contains all those sentences.
 
-For information about counting or looping through the sentences in a text range, see the  **[TextRange](PowerPoint.TextRange.md)** object.
+For information about counting or looping through the sentences in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
 
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: VisSelectionTypes Enumeration (Visio)
+title: VisSelectionTypes enumeration (Visio)
 keywords: vis_sdr.chm70370
 f1_keywords:
 - vis_sdr.chm70370
-ms.prod: visio
 ms.assetid: f8e4b32b-a37c-d1a3-a1bb-9202a2555470
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisSelectionTypes Enumeration (Visio)
+# VisSelectionTypes enumeration (Visio)
 
-Selection types to be passed to the  **CreateSelection** method of the **Master** , **Page** , and **Shape** objects.
+Selection types to be passed to the **CreateSelection** method of the **Master**, **Page**, and **Shape** objects.
 
 
 

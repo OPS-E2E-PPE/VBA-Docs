@@ -3,30 +3,29 @@ title: ContentControl.Type property (Word)
 keywords: vbawd10.chm266534917
 f1_keywords:
 - vbawd10.chm266534917
-ms.prod: word
 api_name:
 - Word.ContentControl.Type
 ms.assetid: 24f4099d-b4ad-c7be-60a4-e23ede378208
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControl.Type property (Word)
 
-Returns or sets a  **[WdContentControlType](Word.WdContentControlType.md)** that represents the type for a content control. Read/write.
+Returns or sets a **[WdContentControlType](Word.WdContentControlType.md)** that represents the type for a content control. Read/write.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-You can use the  **Type** property to change the type of a content control from one type to another. However, the ability to change the type of control depends on the original type and on the content inside the content control at the time of the change. All content controls can be changed to rich text or building block gallery type content controls because these types allow arbitrary content. For other types, if the content is valid for the type that you want to change to, then changing the type is allowed. Otherwise, the change is rejected, resulting in a run-time error.
+Use the **Type** property to change the type of a content control from one type to another. However, the ability to change the type of control depends on the original type and on the content inside the content control at the time of the change. All content controls can be changed to rich text or building block gallery type content controls because these types allow arbitrary content. For other types, if the content is valid for the type that you want to change to, then changing the type is allowed. Otherwise, the change is rejected, resulting in a run-time error.
 
 
 ## Example

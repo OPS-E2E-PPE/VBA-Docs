@@ -3,12 +3,11 @@ title: Form.BeforeUpdate property (Access)
 keywords: vbaac10.chm13434
 f1_keywords:
 - vbaac10.chm13434
-ms.prod: access
 api_name:
 - Access.Form.BeforeUpdate
 ms.assetid: b4b39ab8-e37c-8803-b6c3-032707342c92
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,13 +25,13 @@ _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 ## Remarks
 
-Valid values for this property are: 
+Valid values for this property are:
 
 - _macroname_, where _macroname_ is the name of a macro.
 
 - [Event Procedure], which indicates the event procedure associated with the **BeforeUpdate** event for the specified object.
 
-- **=** _functionname_ **()**, where _functionname_ is the name of a user-defined function.
+- _=functionname()_, where _functionname_ is the name of a user-defined function.
 
 
 

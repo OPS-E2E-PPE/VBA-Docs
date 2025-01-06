@@ -3,12 +3,11 @@ title: ComboBox.Width property (Access)
 keywords: vbaac10.chm11403
 f1_keywords:
 - vbaac10.chm11403
-ms.prod: access
 api_name:
 - Access.ComboBox.Width
 ms.assetid: e5d7c087-c226-8c85-627f-d63c6b526f20
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

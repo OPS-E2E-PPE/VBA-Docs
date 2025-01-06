@@ -3,30 +3,27 @@ title: Task.Activate method (Word)
 keywords: vbawd10.chm159514634
 f1_keywords:
 - vbawd10.chm159514634
-ms.prod: word
 api_name:
 - Word.Task.Activate
 ms.assetid: 99c9750a-35f4-ac84-649b-fc8788dc0904
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Task.Activate method (Word)
 
-Activates the  **Task** object.
+Activates the **Task** object.
 
 
 ## Syntax
 
- _expression_. `Activate`( `_Wait_` )
+_expression_.**Activate** (_Wait_)
 
- _expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
+_expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +31,7 @@ Activates the  **Task** object.
 
 ## Example
 
-This example activates the Notepad application if Notepad is in the  **Tasks** collection.
+This example activates the Notepad application if Notepad is in the **Tasks** collection.
 
 
 ```vb

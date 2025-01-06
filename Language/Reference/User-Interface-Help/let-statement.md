@@ -3,10 +3,9 @@ title: Let statement (VBA)
 keywords: vblr6.chm1008960
 f1_keywords:
 - vblr6.chm1008960
-ms.prod: office
 ms.assetid: da1ec875-3c6a-b66d-a85f-bbf33f9a307a
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Assigns the value of an [expression](../../Glossary/vbe-glossary.md#expression) 
 ## Syntax
 
 [ **Let** ] _varname_ **=** _expression_
-
-<br/>
 
 The **Let** statement syntax has these parts:
 
@@ -49,8 +46,6 @@ Let MyStr = "Hello World"
 Let MyInt = 5 
 
 ```
-
-<br/>
 
 The following are the same assignments without the **Let** statement.
 

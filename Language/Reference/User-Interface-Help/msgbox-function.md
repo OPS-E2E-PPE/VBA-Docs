@@ -3,28 +3,27 @@ title: MsgBox function (Visual Basic for Applications)
 keywords: vblr6.chm1008978
 f1_keywords:
 - vblr6.chm1008978
-ms.prod: office
 ms.assetid: 715595a7-4286-a0cb-dec9-2d2e79bda102
-ms.date: 12/13/2018
-localization_priority: Priority
+ms.date: 08/14/2019
+ms.localizationpriority: high
 ---
 
 # MsgBox function
 
 Displays a message in a dialog box, waits for the user to click a button, and returns an **Integer** indicating which button the user clicked.
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
+
 ## Syntax
 
 **MsgBox** (_prompt_, [ _buttons_, ] [ _title_, ] [ _helpfile_, _context_ ])
-
-<br/>
 
 The **MsgBox** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
 |Part|Description|
 |:-----|:-----|
 |_prompt_|Required. [String expression](../../Glossary/vbe-glossary.md#string-expression) displayed as the message in the dialog box. The maximum length of _prompt_ is approximately 1024 characters, depending on the width of the characters used. If _prompt_ consists of more than one line, you can separate the lines by using a carriage return character (**Chr**(13)), a linefeed character (**Chr**(10)), or carriage return - linefeed character combination (**Chr**(13) & **Chr**(10)) between each line.|
-|_buttons_|Optional. [Numeric expression](../../Glossary/vbe-glossary.md#numeric-expression) that is the sum of values specifying the number and type of buttons to display, the icon style to use, the identity of the default button, and the modality of the message box. If omitted, the default value for _buttons_ is 0.|
+|_buttons_|Optional. [Numeric expression](../../Glossary/vbe-glossary.md#numeric-expression) that is the combination of values specifying the number and type of buttons to display, the icon style to use, the identity of the default button, and the modality of the message box. If omitted, the default value for _buttons_ is 0.|
 |_title_|Optional. String expression displayed in the title bar of the dialog box. If you omit _title_, the application name is placed in the title bar.|
 |_helpfile_|Optional. String expression that identifies the Help file to use to provide context-sensitive Help for the dialog box. If _helpfile_ is provided, _context_ must also be provided.|
 |_context_|Optional. Numeric expression that is the Help context number assigned to the appropriate Help topic by the Help author. If _context_ is provided, _helpfile_ must also be provided.|
@@ -56,14 +55,13 @@ The _buttons_ [argument](../../Glossary/vbe-glossary.md#argument) settings are:
 |**vbMsgBoxRight**|524288|Text is right-aligned.|
 |**vbMsgBoxRtlReading**|1048576|Specifies text should appear as right-to-left reading on Hebrew and Arabic systems.|
 
-<br/>
-
-The first group of values (0-5) describes the number and type of buttons displayed in the dialog box; the second group (16, 32, 48, 64) describes the icon style; the third group (0, 256, 512) determines which button is the default; and the fourth group (0, 4096) determines the modality of the message box. When adding numbers to create a final value for the _buttons_ argument, use only one number from each group.
+The first group of values (0-5) describes the number and type of buttons displayed in the dialog box; the second group (16, 32, 48, 64) describes the icon style; the third group (0, 256, 512) determines which button is the default; and the fourth group (0, 4096) determines the modality of the message box. When combining numbers to create a final value for the _buttons_ argument, use only one number from each group.
 
 > [!NOTE] 
-> These [constants](../../Glossary/vbe-glossary.md#constant) are specified by Visual Basic for Applications. As a result, the names can be used anywhere in your code in place of the actual values.
+> These [constants](../../Glossary/vbe-glossary.md#constant) are specified by Visual Basic for Applications in the **VbMsgBoxStyle** enumeration. As a result, the names can be used anywhere in your code in place of the actual values.
 
 ## Return values
+The return values are defined in the **VbMsgBoxResult** enumeration.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -93,7 +91,7 @@ This example uses the **MsgBox** function to display a critical-error message in
 ```vb
 Dim Msg, Style, Title, Help, Ctxt, Response, MyString
 Msg = "Do you want to continue ?"    ' Define message.
-Style = vbYesNo + vbCritical + vbDefaultButton2    ' Define buttons.
+Style = vbYesNo Or vbCritical Or vbDefaultButton2    ' Define buttons.
 Title = "MsgBox Demonstration"    ' Define title.
 Help = "DEMO.HLP"    ' Define Help file.
 Ctxt = 1000    ' Define topic context. 

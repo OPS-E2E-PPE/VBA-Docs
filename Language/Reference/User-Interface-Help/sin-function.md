@@ -3,10 +3,9 @@ title: Sin function (Visual Basic for Applications)
 keywords: vblr6.chm1009024
 f1_keywords:
 - vblr6.chm1009024
-ms.prod: office
 ms.assetid: 94829038-6b78-3dbf-cfe0-558caf343ff1
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,17 +1,16 @@
 ---
 title: WdCheckInVersionType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdCheckInVersionType
 ms.assetid: 8971af1b-b175-c51e-9f93-aace75ac7009
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WdCheckInVersionType enumeration (Word)
 
-Specifies the type of version for the document checked in when using the  **CheckIn** method. Applies to documents stored in a SharePoint library.
+Specifies the type of version for the document checked in when using the **CheckIn** method. Applies to documents stored in a SharePoint library.
 
 
 

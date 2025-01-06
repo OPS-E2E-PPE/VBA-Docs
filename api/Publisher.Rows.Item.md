@@ -1,36 +1,33 @@
 ---
-title: Rows.Item Method (Publisher)
+title: Rows.Item method (Publisher)
 keywords: vbapb10.chm4915200
 f1_keywords:
 - vbapb10.chm4915200
-ms.prod: publisher
 api_name:
 - Publisher.Rows.Item
 ms.assetid: c91a6253-6130-be2f-4e93-29de44b5055c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Rows.Item Method (Publisher)
+# Rows.Item method (Publisher)
 
-Returns an individual object in a specified collection.
+Returns an individual **[Row](Publisher.Row.md)** object in the **Rows** collection.
 
 
 ## Syntax
 
- _expression_. **Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **Rows** object.
+_expression_ A variable that represents a **[Rows](Publisher.Rows.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Long**|The number of the object to return.|
+|_Index_|Required| **Long**|The number of the object to return.|
 
 ## Return value
 

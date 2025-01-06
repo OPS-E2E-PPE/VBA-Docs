@@ -3,18 +3,17 @@ title: Application.DLookup method (Access)
 keywords: vbaac10.chm12529
 f1_keywords:
 - vbaac10.chm12529
-ms.prod: access
 api_name:
 - Access.Application.DLookup
 ms.assetid: cbe1fc56-e4d7-cb74-02df-48fc379cf432
-ms.date: 02/05/2019
-localization_priority: Priority
+ms.date: 12/17/2019
+ms.localizationpriority: medium
 ---
 
 
 # Application.DLookup method (Access)
 
-You can use the **DLookup** function to get the value of a particular field from a specified set of records (a domain).
+Use the **DLookup** function to get the value of a particular field from a specified set of records (a domain).
 
 
 ## Syntax
@@ -39,7 +38,7 @@ Variant
 
 ## Remarks
 
-You can use the **DLookup** function to display the value of a field that isn't in the record source for your form or report. For example, suppose you have a form based on an Order Details table. The form displays the **OrderID**, **ProductID**, **UnitPrice**, **Quantity**, and **Discount** fields. However, the **ProductName** field is in another table, the Products table. You could use the **DLookup** function in a calculated control to display the **ProductName** on the same form.
+Use the **DLookup** function to display the value of a field that isn't in the record source for your form or report. For example, suppose you have a form based on an Order Details table. The form displays the **OrderID**, **ProductID**, **UnitPrice**, **Quantity**, and **Discount** fields. However, the **ProductName** field is in another table, the Products table. You could use the **DLookup** function in a calculated control to display the **ProductName** on the same form.
 
 The **DLookup** function returns a single field value based on the information specified in _criteria_. Although  _criteria_ is an optional argument, if you don't supply a value for _criteria_, the **DLookup** function returns a random value in the domain.
 
@@ -54,7 +53,7 @@ varX = DLookup("[LastName]", "Employees", "[EmployeeID] = 1")
 
 Whether you use the **DLookup** function in a macro or module, a query expression, or a calculated control, you must construct the _criteria_ argument carefully to ensure that it will be evaluated correctly.
 
-You can use the **DLookup** function to specify criteria in the **Criteria** row of a query, within a calculated field expression in a query, or in the **Update To** row in an update query.
+Use the **DLookup** function to specify criteria in the **Criteria** row of a query, within a calculated field expression in a query, or in the **Update To** row in an update query.
 
 You can also use the **DLookup** function in an expression in a calculated control on a form or report if the field that you need to display isn't in the record source on which your form or report is based. For example, suppose you have an Order Details form based on an Order Details table with a text box called ProductID that displays the **ProductID** field. To look up **ProductName** from a Products table based on the value in the text box, you could create another text box and set its **ControlSource** property to the following expression:
 
@@ -77,8 +76,6 @@ Dim varX As Variant
 varX = DLookup("[CompanyName]", "Shippers", "[ShipperID] = 1")
 ```
 
-<br/>
-
 The next example from the Shippers table uses the form control ShipperID to provide criteria for the **DLookup** function. Note that the reference to the control isn't included in the quotation marks that denote the strings. This ensures that each time the **DLookup** function is called, Microsoft Access will obtain the current value from the control.
 
 ```vb
@@ -86,8 +83,6 @@ Dim varX As Variant
 varX = DLookup("[CompanyName]", "Shippers", "[ShipperID] = " _ 
     & Forms!Shippers!ShipperID)
 ```
-
-<br/>
 
 The next example uses a variable, `intSearch`, to get the value.
 
@@ -99,8 +94,6 @@ intSearch = 1
 varX = DLookup("[CompanyName]", "Shippers", _ 
     "[ShipperID] = " & intSearch)
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DLookup** function.
 
@@ -146,6 +139,33 @@ The following examples show how to use various types of criteria with the **DLoo
     ' Control Structures
     variable = DLookup("IIf([LastName] Like 'Smith', 'True', 'False')", "tableName", "[PrimaryKey] = 7")
     ' ***************************
+```The following example shows how to use **DLookUp** in a Do Loop. It demonstrates how to build the Criteria string on each pass through the loop.
+
+```vba
+' The loop verifies data from an input data set, in this case Operating System names, 
+' against those contained in a Master List.
+
+Do Until I1 &gt; NRec1
+    ' An apostrophe is concatenated at the beginning and at the end of a datum referenced by "rs1!OS", 
+    ' which is then concatenated to build the entire criteria string.
+    Str_2 = "'" & rs1!OS & "'"
+    Str_1 = "[OS] = " & Str_2
+    
+    J1 = DLookup("[ID]", "tbl_81_Operating_Systems_Master_List", Str_1)
+    
+    If IsNull(J1) = True Then
+        ' If an OS name is not found, then a flag is set and the name of the unknown OS is output to a table.
+        rs3.AddNew
+        rs3.OS = rs1!OS
+        rs3.Update
+        Err_Fl = False
+
+    End If
+
+    rs1.MoveNext
+    I1 = I1 + 1
+
+Loop
 ```
 
 

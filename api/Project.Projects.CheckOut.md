@@ -1,27 +1,27 @@
 ---
-title: Projects.CheckOut Method (Project)
+title: Projects.CheckOut method (Project)
 keywords: vbapj.chm132593
 f1_keywords:
 - vbapj.chm132593
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Projects.CheckOut
 ms.assetid: 2de8fef7-150b-4f67-4677-507f5d2a258f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Projects.CheckOut Method (Project)
+# Projects.CheckOut method (Project)
 
 Checks out the specified file if it is stored in a SharePoint document library.
 
 
 ## Syntax
 
- _expression_. `CheckOut`( `_Filename_` )
+_expression_.**CheckOut** (_FileName_)
 
- _expression_ A variable that represents a 'Projects' object.
+_expression_ A variable that represents a 'Projects' object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Checks out the specified file if it is stored in a SharePoint document library.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Filename_|Required|**String**|The name of the file to check out.|
+| _FileName_|Required|**String**|The name of the file to check out.|
 
 ## Return value
 

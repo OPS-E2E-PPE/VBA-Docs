@@ -3,12 +3,11 @@ title: CommandBar.Delete method (Office)
 keywords: vbaof11.chm3004
 f1_keywords:
 - vbaof11.chm3004
-ms.prod: office
 api_name:
 - Office.CommandBar.Delete
 ms.assetid: 6976f273-dbd4-5f3d-52ef-0d6d5cc886c9
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,14 +43,14 @@ For Each bar In CommandBars
     If (bar.BuiltIn = False) And _ 
     (bar.Visible = False) Then 
         bar.Delete 
-        foundFlag =   
+        foundFlag = True
         delBars = delBars + 1 
     End If 
 Next bar 
 If Not foundFlag Then 
     MsgBox "No command bars have been deleted." 
 Else 
-    MsgBox delBars &amp; " custom bar(s) deleted." 
+    MsgBox delBars & " custom bar(s) deleted." 
 End If
 ```
 

@@ -1,27 +1,26 @@
 ---
-title: TextRange.InsertSymbol Method (PowerPoint)
+title: TextRange.InsertSymbol method (PowerPoint)
 keywords: vbapp10.chm569022
 f1_keywords:
 - vbapp10.chm569022
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.InsertSymbol
 ms.assetid: a424e011-1bfe-f690-cbc0-604f89718831
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.InsertSymbol Method (PowerPoint)
+# TextRange.InsertSymbol method (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents a symbol inserted into the specified text range.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents a symbol inserted into the specified text range.
 
 
 ## Syntax
 
- _expression_. `InsertSymbol`( `_FontName_`, `_CharNumber_`, `_UniCode_` )
+_expression_. `InsertSymbol`( `_FontName_`, `_CharNumber_`, `_UniCode_` )
 
- _expression_ A variable that represents an [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents an [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

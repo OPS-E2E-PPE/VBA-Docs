@@ -3,12 +3,11 @@ title: OptionGroup.BorderStyle property (Access)
 keywords: vbaac10.chm10841
 f1_keywords:
 - vbaac10.chm10841
-ms.prod: access
 api_name:
 - Access.OptionGroup.BorderStyle
 ms.assetid: 96d90ffb-9cff-6678-9c2a-58e812c97a79
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

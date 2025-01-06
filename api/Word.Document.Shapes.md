@@ -3,32 +3,31 @@ title: Document.Shapes property (Word)
 keywords: vbawd10.chm158007358
 f1_keywords:
 - vbawd10.chm158007358
-ms.prod: word
 api_name:
 - Word.Document.Shapes
 ms.assetid: 638ab04b-2e82-afe9-3817-740f464542cc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Shapes property (Word)
 
-Returns a  **[Shapes](Word.shapes.md)** collection that represents all the **Shape** objects in the specified document. Read-only.
+Returns a **[Shapes](Word.shapes.md)** collection that represents all the **Shape** objects in the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shapes`
+_expression_.**Shapes**
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts. For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts. For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
-The  **Shapes** property, when applied to a document, returns all the **Shape** objects in the main story of the document, excluding the headers and footers.
+The **Shapes** property, when applied to a document, returns all the **Shape** objects in the main story of the document, excluding the headers and footers.
 
 
 ## Example

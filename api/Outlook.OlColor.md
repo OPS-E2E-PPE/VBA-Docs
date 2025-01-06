@@ -1,18 +1,17 @@
 ---
-title: OlColor Enumeration (Outlook)
+title: OlColor enumeration (Outlook)
 keywords: vbaol11.chm3130
 f1_keywords:
 - vbaol11.chm3130
-ms.prod: outlook
 api_name:
 - Outlook.OlColor
 ms.assetid: b2a457b5-d331-58c4-f9cc-2d56c8edd5e4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlColor Enumeration (Outlook)
+# OlColor enumeration (Outlook)
 
 Constants that represent colors.
 
@@ -40,6 +39,6 @@ Constants that represent colors.
 
 ## Remarks
 
-Used by the [Color](Outlook.ViewFont.Color.md) property of the [ViewFont Object (Outlook)](Outlook.ViewFont.md) to indicate the font color.
+Used by the [Color](Outlook.ViewFont.Color.md) property of the [ViewFont object (Outlook)](Outlook.ViewFont.md) to indicate the font color.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: OMathArgs.Add method (Word)
 keywords: vbawd10.chm156958920
 f1_keywords:
 - vbawd10.chm156958920
-ms.prod: word
 api_name:
 - Word.OMathArgs.Add
 ms.assetid: acea02ca-c1e9-cffc-c28e-e5a7be0f983a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Inserts an argument into an equation with variable number of arguments (**OMathD
 
 ## Syntax
 
- _expression_. `Add`( `_BeforeArg_` )
+_expression_.**Add** (_BeforeArg_)
 
  _expression_ An expression that returns a [OMathArgs](./Word.OMathArgs.md) object.
 

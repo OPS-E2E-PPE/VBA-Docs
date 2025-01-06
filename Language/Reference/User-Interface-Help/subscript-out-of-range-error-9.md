@@ -3,10 +3,9 @@ title: Subscript out of range (Error 9)
 keywords: vblr6.chm1011240
 f1_keywords:
 - vblr6.chm1011240
-ms.prod: office
 ms.assetid: 37b59913-9318-35eb-0646-19cd72d4f459
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 08/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -31,5 +30,7 @@ Elements of [arrays](../../Glossary/vbe-glossary.md#array) and members of [colle
     
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
+
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

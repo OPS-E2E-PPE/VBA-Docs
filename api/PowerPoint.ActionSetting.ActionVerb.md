@@ -1,32 +1,31 @@
 ---
-title: ActionSetting.ActionVerb Property (PowerPoint)
+title: ActionSetting.ActionVerb property (PowerPoint)
 keywords: vbapp10.chm567004
 f1_keywords:
 - vbapp10.chm567004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ActionSetting.ActionVerb
 ms.assetid: f7b57e12-0c70-bc62-b94d-7ae8f65f7de0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ActionSetting.ActionVerb Property (PowerPoint)
+# ActionSetting.ActionVerb property (PowerPoint)
 
 Returns or sets a string that contains the OLE verb that will be run when the user clicks the specified shape or passes the mouse pointer over it during a slide show. Read/write.
 
 
 ## Syntax
 
- _expression_. `ActionVerb`
+_expression_. `ActionVerb`
 
-_expression_ A variable that represents an [ActionSetting](./PowerPoint.ActionSetting.md) object.
+_expression_ A variable that represents an **[ActionSetting](PowerPoint.ActionSetting.md)** object.
 
 
 ## Remarks
 
-The  **[Action](PowerPoint.ActionSetting.Action.md)** property must be set to **ppActionOLEVerb** first for this property to affect the slide show action.
+The **[Action](PowerPoint.ActionSetting.Action.md)** property must be set to **ppActionOLEVerb** first for this property to affect the slide show action.
 
 
 ## Example

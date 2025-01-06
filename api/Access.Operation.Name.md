@@ -3,18 +3,17 @@ title: Operation.Name property (Access)
 keywords: vbaac10.chm14576
 f1_keywords:
 - vbaac10.chm14576
-ms.prod: access
 api_name:
 - Access.Operation.Name
 ms.assetid: e063d3d1-35dc-87eb-8c87-2ed21228f8e2
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Operation.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

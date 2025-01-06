@@ -1,24 +1,23 @@
 ---
-title: LegendKey.MarkerBackgroundColorIndex Property (PowerPoint)
-ms.prod: powerpoint
+title: LegendKey.MarkerBackgroundColorIndex property (PowerPoint)
 api_name:
 - PowerPoint.LegendKey.MarkerBackgroundColorIndex
 ms.assetid: 882d5408-9d75-d452-ea53-1f7f2d575752
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendKey.MarkerBackgroundColorIndex Property (PowerPoint)
+# LegendKey.MarkerBackgroundColorIndex property (PowerPoint)
 
-Returns or sets the marker background color as an index into the current color palette, or as one of the following  **[xlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
+Returns or sets the marker background color as an index into the current color palette, or as one of the following **[XlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `MarkerBackgroundColorIndex`
+_expression_.**MarkerBackgroundColorIndex**
 
- _expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
+_expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
 
 
 ## Remarks

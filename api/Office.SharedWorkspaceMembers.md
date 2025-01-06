@@ -3,12 +3,11 @@ title: SharedWorkspaceMembers object (Office)
 keywords: vbaof11.chm273000
 f1_keywords:
 - vbaof11.chm273000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMembers
 ms.assetid: 2d0e6ce0-79ef-3030-b1af-465428314b15
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Use the **[Members](Office.SharedWorkspace.Members.md)** property of the **[Shar
 ```vb
     Dim swsMembers As Office.SharedWorkspaceMembers 
     Set swsMembers = ActiveWorkbook.SharedWorkspace.Members 
-    MsgBox "There are " &amp; swsMembers.Count &amp; _ 
+    MsgBox "There are " & swsMembers.Count & _ 
         " member(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

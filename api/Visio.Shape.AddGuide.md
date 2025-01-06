@@ -1,27 +1,26 @@
 ---
-title: Shape.AddGuide Method (Visio)
+title: Shape.AddGuide method (Visio)
 keywords: vis_sdr.chm11216035
 f1_keywords:
 - vis_sdr.chm11216035
-ms.prod: visio
 api_name:
 - Visio.Shape.AddGuide
 ms.assetid: 1155354e-3855-4def-bafb-0d70c933a57a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.AddGuide Method (Visio)
+# Shape.AddGuide method (Visio)
 
 Adds a guide to a group shape.
 
 
 ## Syntax
 
- _expression_. `AddGuide`( `_Type_` , `_xPos_` , `_yPos_` )
+_expression_. `AddGuide`( `_Type_` , `_xPos_` , `_yPos_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -43,7 +42,7 @@ Shape
 
 You can add a guide only to a group shape.
 
-To view guides that you add to a group shape by using the  **AddGuide** method, use the **OpenDrawWindow** method to open the **Group Editing** window.
+To view guides that you add to a group shape by using the **AddGuide** method, use the **OpenDrawWindow** method to open the **Group Editing** window.
 
 The following constants declared by the Visio type library are valid values for guide types.
 

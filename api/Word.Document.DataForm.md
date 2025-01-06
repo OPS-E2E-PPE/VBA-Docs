@@ -3,30 +3,29 @@ title: Document.DataForm method (Word)
 keywords: vbawd10.chm158007402
 f1_keywords:
 - vbawd10.chm158007402
-ms.prod: word
 api_name:
 - Word.Document.DataForm
 ms.assetid: 138f8b31-f076-8573-510f-0295fb612226
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.DataForm method (Word)
 
-Displays the  **Data Form** dialog box, in which you can add, delete, or modify records.
+Displays the **Data Form** dialog box, in which you can add, delete, or modify records.
 
 
 ## Syntax
 
- _expression_. `DataForm`
+_expression_. `DataForm`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-You can use this method with a mail merge main document, a mail merge data source, or any document that contains data delimited by table cells or separator characters.
+Use this method with a mail merge main document, a mail merge data source, or any document that contains data delimited by table cells or separator characters.
 
 
 ## Example

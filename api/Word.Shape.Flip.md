@@ -3,12 +3,11 @@ title: Shape.Flip method (Word)
 keywords: vbawd10.chm161480717
 f1_keywords:
 - vbawd10.chm161480717
-ms.prod: word
 api_name:
 - Word.Shape.Flip
 ms.assetid: 6da14b0b-9e75-7891-dd92-db771cc242a4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Flips a shape horizontally or vertically.
 
 ## Syntax
 
- _expression_. `Flip`( `_FlipCmd_` )
+_expression_.**Flip** (_FlipCmd_)
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters

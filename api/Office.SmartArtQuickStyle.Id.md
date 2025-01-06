@@ -1,11 +1,10 @@
 ---
 title: SmartArtQuickStyle.Id property (Office)
-ms.prod: office
 api_name:
 - Office.SmartArtQuickStyle.Id
 ms.assetid: d7f67aa8-af0f-f805-b9eb-c856f72fd5f0
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

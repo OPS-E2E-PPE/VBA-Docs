@@ -3,12 +3,11 @@ title: TableOfAuthorities.IncludeCategoryHeader property (Word)
 keywords: vbawd10.chm152109065
 f1_keywords:
 - vbawd10.chm152109065
-ms.prod: word
 api_name:
 - Word.TableOfAuthorities.IncludeCategoryHeader
 ms.assetid: 63118a82-28ac-f5c9-790d-0a8ea4926858
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IncludeCategoryHeader`
+_expression_. `IncludeCategoryHeader`
 
  _expression_ An expression that returns a '[TableOfAuthorities](Word.TableOfAuthorities.md)' object.
 

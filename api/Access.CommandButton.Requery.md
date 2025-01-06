@@ -3,12 +3,11 @@ title: CommandButton.Requery method (Access)
 keywords: vbaac10.chm10443
 f1_keywords:
 - vbaac10.chm10443
-ms.prod: access
 api_name:
 - Access.CommandButton.Requery
 ms.assetid: 9a8fed17-aec2-c592-c003-92bc832d5da0
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[CommandButton](Access.CommandButton
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

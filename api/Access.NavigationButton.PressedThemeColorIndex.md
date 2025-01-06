@@ -3,12 +3,11 @@ title: NavigationButton.PressedThemeColorIndex property (Access)
 keywords: vbaac10.chm14620
 f1_keywords:
 - vbaac10.chm14620
-ms.prod: access
 api_name:
 - Access.NavigationButton.PressedThemeColorIndex
 ms.assetid: 82db8953-4344-8d4e-8bd6-9c9cedba6657
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,11 +1,11 @@
 ---
 title: PjAutoFilterType enumeration (Project)
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.PjAutoFilterType
 ms.assetid: f7bd2ed9-90a1-63e9-493c-28c9c944795b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,8 +48,8 @@ Contains constants that specify how to set the automatic filter.
 |**pjAutoFilterNextYear**|15|Filter for items within the next year.|
 |**pjAutoFilterNoDate**|21|Filter for items that have no date.|
 |**pjAutoFilterNoDuration**|25|Filter for items that have no duration.|
-|**pjAutoFilterNotContains**|48|Filter for items that do not contain the specified value.|
-|**pjAutoFilterNotEquals**|41|Filter for items that do not equal the specified value.|
+|**pjAutoFilterNotContains**|48|Filter for items that don't contain the specified value.|
+|**pjAutoFilterNotEquals**|41|Filter for items that don't equal the specified value.|
 |**pjAutoFilterNotStarted**|30|Filter for items that are not started.|
 |**pjAutoFilterNoWork**|29|Filter for items that contain no work.|
 |**pjAutoFilterPhonetic0**|49|Filter for items that have the base phonetic value.|

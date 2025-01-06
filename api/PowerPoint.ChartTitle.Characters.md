@@ -1,25 +1,24 @@
 ---
-title: ChartTitle.Characters Property (PowerPoint)
+title: ChartTitle.Characters property (PowerPoint)
 keywords: vbapp10.chm694002
 f1_keywords:
 - vbapp10.chm694002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartTitle.Characters
 ms.assetid: 38d03ba1-54dd-4bcb-1da3-37ad9b4f9b4c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartTitle.Characters Property (PowerPoint)
+# ChartTitle.Characters property (PowerPoint)
 
-Returns a  **[ChartCharacters](PowerPoint.ChartCharacters.md)** object that represents a range of characters within the object text. You can use the **ChartCharacters** object to format characters within a text string.
+Returns a **[ChartCharacters](PowerPoint.ChartCharacters.md)** object that represents a range of characters within the object text. Use the **ChartCharacters** object to format characters within a text string.
 
 
 ## Syntax
 
- _expression_. `Characters`( `_Start_`, `_Length_` )
+_expression_. `Characters`( `_Start_`, `_Length_` )
 
 _expression_ A variable that represents a '[ChartTitle](PowerPoint.ChartTitle.md)' object.
 
@@ -35,7 +34,7 @@ _expression_ A variable that represents a '[ChartTitle](PowerPoint.ChartTitle.md
 
 ## Remarks
 
-The  **ChartCharacters** object is not a collection.
+The **ChartCharacters** object is not a collection.
 
 
 ## See also

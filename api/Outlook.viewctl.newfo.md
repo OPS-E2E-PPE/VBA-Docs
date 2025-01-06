@@ -1,22 +1,21 @@
 ---
 title: ViewCtl.NewForm Method (Outlook View Control)
-ms.prod: outlook
 ms.assetid: 196834c0-eb2b-56a1-3f40-d2ed7e0fa792
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ViewCtl.NewForm Method (Outlook View Control)
 
-Displays the Microsoft Outlook  **Choose Form** dialog box.
+Displays the Microsoft Outlook **Choose Form** dialog box.
 
 
 ## Syntax
 
- _expression_. **NewForm**
+_expression_.**NewForm**
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

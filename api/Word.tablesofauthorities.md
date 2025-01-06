@@ -3,28 +3,27 @@ title: TablesOfAuthorities object (Word)
 keywords: vbawd10.chm2322
 f1_keywords:
 - vbawd10.chm2322
-ms.prod: word
 ms.assetid: c0fd88b1-b737-2811-ec4c-1fc274fc3e20
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TablesOfAuthorities object (Word)
 
-A collection of  **[TableOfAuthorities](Word.TableOfAuthorities.md)** objects (TOA fields) that represents the tables of authorities in a document.
+A collection of **[TableOfAuthorities](Word.TableOfAuthorities.md)** objects (TOA fields) that represents the tables of authorities in a document.
 
 
 ## Remarks
 
-Use the  **TablesOfAuthorities** property to return the **TablesOfAuthorities** collection. The following example applies the Classic built-in format to all the tables of authorities in the active document.
+Use the **TablesOfAuthorities** property to return the **TablesOfAuthorities** collection. The following example applies the Classic built-in format to all the tables of authorities in the active document.
 
 
 ```vb
 ActiveDocument.TablesOfAuthorities.Format = wdTOAClassic
 ```
 
-Use the  **Add** method to add a table of authorities to a document. A table of authorities is built from TA (Table of Authorities Entry) fields in a document. The following example adds a table of authorities that includes all categories at the beginning of the active document.
+Use the **Add** method to add a table of authorities to a document. A table of authorities is built from TA (Table of Authorities Entry) fields in a document. The following example adds a table of authorities that includes all categories at the beginning of the active document.
 
 
 
@@ -35,7 +34,7 @@ ActiveDocument.TablesOfAuthorities.Add Range:=myRange, _
  Passim:=True, Category:=0, EntrySeparator:= ", "
 ```
 
-Use  **TablesOfAuthorities** (Index), where Index is the index number, to return a single **TableOfAuthorities** object. The index number represents the position of the table of authorities in the document. The following example includes category headers in the first table of authorities in the active document and then updates the table.
+Use **TablesOfAuthorities** (Index), where Index is the index number, to return a single **TableOfAuthorities** object. The index number represents the position of the table of authorities in the document. The following example includes category headers in the first table of authorities in the active document and then updates the table.
 
 
 
@@ -52,6 +51,6 @@ End With
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

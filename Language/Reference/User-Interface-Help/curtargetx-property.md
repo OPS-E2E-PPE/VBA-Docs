@@ -3,12 +3,11 @@ title: CurTargetX property
 keywords: fm20.chm5225027
 f1_keywords:
 - fm20.chm5225027
-ms.prod: office
 api_name:
 - Office.CurTargetX
 ms.assetid: b0365f58-22db-34d2-9751-6c9d36598e08
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,7 +35,7 @@ The [target](../../Glossary/glossary-vba.md#target) position is relative to the 
 
 The return value is valid when the object has [focus](../../Glossary/vbe-glossary.md#focus).
 
-You can use **CurTargetX** and **CurX** to move the insertion point as the user scrolls through the contents of a multiline **TextBox** or **ComboBox**. When the user moves the insertion point to another line of text by scrolling the content of the object, **CurTargetX** specifies the preferred position for the insertion point. **CurX** is set to this value if the line of text is longer than the value of **CurTargetX**. Otherwise, **CurX** is set to the end of the line of text.
+Use **CurTargetX** and **CurX** to move the insertion point as the user scrolls through the contents of a multiline **TextBox** or **ComboBox**. When the user moves the insertion point to another line of text by scrolling the content of the object, **CurTargetX** specifies the preferred position for the insertion point. **CurX** is set to this value if the line of text is longer than the value of **CurTargetX**. Otherwise, **CurX** is set to the end of the line of text.
 
 ## See also
 

@@ -3,12 +3,11 @@ title: View.ShowRevisionsAndComments property (Word)
 keywords: vbawd10.chm161808418
 f1_keywords:
 - vbawd10.chm161808418
-ms.prod: word
 api_name:
 - Word.View.ShowRevisionsAndComments
 ms.assetid: b59de20c-cff0-0621-cb0d-aa04d77f1347
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowRevisionsAndComments`
+_expression_. `ShowRevisionsAndComments`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

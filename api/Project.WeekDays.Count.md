@@ -1,24 +1,24 @@
 ---
-title: WeekDays.Count Property (Project)
-ms.prod: project-server
+title: WeekDays.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.WeekDays.Count
 ms.assetid: 6343346c-dbfc-b36b-eaf4-ddcc2e6f745d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WeekDays.Count Property (Project)
+# WeekDays.Count property (Project)
 
-Gets the number of items in the  **WeekDays** collection. Read-only **Integer**.
+Gets the number of items in the **WeekDays** collection. Read-only **Integer**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'WeekDays' object.
+_expression_ A variable that represents a 'WeekDays' object.
 
 
 ## Example

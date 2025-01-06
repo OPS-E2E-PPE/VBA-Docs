@@ -1,22 +1,21 @@
 ---
-title: PbWizardNavBarDesign Enumeration (Publisher)
+title: PbWizardNavBarDesign enumeration (Publisher)
 keywords: vbapb10.chm65613
 f1_keywords:
 - vbapb10.chm65613
-ms.prod: publisher
 api_name:
 - Publisher.PbWizardNavBarDesign
 ms.assetid: 444da94f-a0e9-4630-bbe0-7c1832029f32
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbWizardNavBarDesign Enumeration (Publisher)
+# PbWizardNavBarDesign enumeration (Publisher)
 
-Represents the design of the specified Web navigation bar set.
+Represents the design of the specified web navigation bar set.
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

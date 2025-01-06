@@ -3,25 +3,24 @@ title: Shape.Nodes property (Word)
 keywords: vbawd10.chm161480820
 f1_keywords:
 - vbawd10.chm161480820
-ms.prod: word
 api_name:
 - Word.Shape.Nodes
 ms.assetid: 90904836-e4c4-bbf5-c306-982c9f839ebe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.Nodes property (Word)
 
-Returns a  **[ShapeNodes](Word.shapenodes.md)** collection that represents the geometric description of the specified shape.
+Returns a **[ShapeNodes](Word.shapenodes.md)** collection that represents the geometric description of the specified shape.
 
 
 ## Syntax
 
- _expression_. `Nodes`
+_expression_.**Nodes**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example

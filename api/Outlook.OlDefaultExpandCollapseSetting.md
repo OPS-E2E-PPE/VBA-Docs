@@ -1,20 +1,19 @@
 ---
-title: OlDefaultExpandCollapseSetting Enumeration (Outlook)
+title: OlDefaultExpandCollapseSetting enumeration (Outlook)
 keywords: vbaol11.chm3121
 f1_keywords:
 - vbaol11.chm3121
-ms.prod: outlook
 api_name:
 - Outlook.OlDefaultExpandCollapseSetting
 ms.assetid: b05310dc-0bb6-2f78-d3f2-56c02402bbf9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlDefaultExpandCollapseSetting Enumeration (Outlook)
+# OlDefaultExpandCollapseSetting enumeration (Outlook)
 
-Specifies the expand/collapse default value specified in the  **[DefaultExpandCollapseSetting](Outlook.TableView.DefaultExpandCollapseSetting.md)** property of the **[TableView](Outlook.TableView.md)** and **[TimelineView](Outlook.TimelineView.md)** objects.
+Specifies the expand/collapse default value specified in the **[DefaultExpandCollapseSetting](Outlook.TableView.DefaultExpandCollapseSetting.md)** property of the **[TableView](Outlook.TableView.md)** and **[TimelineView](Outlook.TimelineView.md)** objects.
 
 
 

@@ -3,12 +3,11 @@ title: Comment.Delete method (Excel)
 keywords: vbaxl10.chm516077
 f1_keywords:
 - vbaxl10.chm516077
-ms.prod: excel
 api_name:
 - Excel.Comment.Delete
 ms.assetid: c0289c56-cf93-5c86-b62f-cb33083c2c1d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Deletes the object.
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents a [Comment](Excel.Comment.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Comment](Excel.Comment.md)** object.
 
 
-[Comment Object](Excel.Comment.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

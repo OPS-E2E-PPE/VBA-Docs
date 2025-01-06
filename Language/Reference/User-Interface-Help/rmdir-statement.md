@@ -3,10 +3,9 @@ title: RmDir statement (VBA)
 keywords: vblr6.chm1009007
 f1_keywords:
 - vblr6.chm1009007
-ms.prod: office
 ms.assetid: 7bc350d2-7d1a-7c8c-95a8-8dbf5c8f7953
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: Rectangle.DisplayWhen property (Access)
 keywords: vbaac10.chm10282
 f1_keywords:
 - vbaac10.chm10282
-ms.prod: access
 api_name:
 - Access.Rectangle.DisplayWhen
 ms.assetid: b8aaae52-6f39-82ad-9eec-f4d0e5b885ff
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

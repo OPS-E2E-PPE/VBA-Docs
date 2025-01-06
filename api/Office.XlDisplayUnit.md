@@ -1,19 +1,16 @@
 ---
 title: XlDisplayUnit enumeration (Office)
-ms.prod: office
 api_name:
 - Office.XlDisplayUnit
 ms.assetid: 156f8f0b-01a6-283f-8b03-99e599d41431
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlDisplayUnit enumeration (Office)
 
 Indicates numeric units of measurement.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

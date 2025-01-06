@@ -1,27 +1,27 @@
 ---
-title: Application.ResourceSharing Method (Project)
+title: Application.ResourceSharing method (Project)
 keywords: vbapj.chm105
 f1_keywords:
 - vbapj.chm105
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ResourceSharing
 ms.assetid: c11f9715-83c2-7872-1d53-fb538ed21c74
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ResourceSharing Method (Project)
+# Application.ResourceSharing method (Project)
 
 Controls resource sharing, for local resources and projects.
 
 
 ## Syntax
 
- _expression_. `ResourceSharing`( `_Share_`, `_Name_`, `_Pool_` )
+_expression_. `ResourceSharing`( `_Share_`, `_Name_`, `_Pool_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,10 +41,11 @@ Controls resource sharing, for local resources and projects.
 
 ## Remarks
 
-Using the  **ResourceSharing** method without specifying any arguments displays the **ShareResources** dialog box.
+Using the **ResourceSharing** method without specifying any arguments displays the **ShareResources** dialog box.
 
 
- **Note**  Project Professional can share local resources only when not logged on Project Server. If Project Professional is using a Project Server profile, local resource sharing is unavailable.
+> [!NOTE] 
+> Project Professional can share local resources only when not logged on Project Server. If Project Professional is using a Project Server profile, local resource sharing is unavailable.
 
 
 ## Example

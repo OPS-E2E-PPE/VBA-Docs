@@ -3,12 +3,11 @@ title: Report.OnMouseMove property (Access)
 keywords: vbaac10.chm13864
 f1_keywords:
 - vbaac10.chm13864
-ms.prod: access
 api_name:
 - Access.Report.OnMouseMove
 ms.assetid: 260c8b56-2985-1da4-7c3f-1398b54666b3
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **MouseMove** event occurs when the user moves the mouse over the report.
 
 The **OnMouseMove** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Mouse Move** box in the report's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Mouse Move** box is blank, the property value is an empty string.
 

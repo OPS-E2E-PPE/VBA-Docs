@@ -3,12 +3,11 @@ title: Shape.LockAspectRatio property (Word)
 keywords: vbawd10.chm161480817
 f1_keywords:
 - vbawd10.chm161480817
-ms.prod: word
 api_name:
 - Word.Shape.LockAspectRatio
 ms.assetid: dd408737-405f-4b91-0eae-73161fe38425
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LockAspectRatio`
+_expression_.**LockAspectRatio**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example adds a cube to  _myDocument_ . The cube can be moved and resized but not reproportioned.
+This example adds a cube to _myDocument_. The cube can be moved and resized but not reproportioned.
 
 
 ```vb

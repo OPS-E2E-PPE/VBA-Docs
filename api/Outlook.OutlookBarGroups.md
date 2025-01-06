@@ -1,32 +1,31 @@
 ---
-title: OutlookBarGroups Object (Outlook)
+title: OutlookBarGroups object (Outlook)
 keywords: vbaol11.chm3002
 f1_keywords:
 - vbaol11.chm3002
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarGroups
 ms.assetid: bb5fef46-b15a-51c3-0adf-f94e9da6c921
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarGroups Object (Outlook)
+# OutlookBarGroups object (Outlook)
 
-Contains a set of  **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** objects representing all groups in the Outlook Bar.
+Contains a set of **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** objects representing all groups in the Outlook Bar.
 
 
 ## Remarks
 
-Use the  **[Groups](Outlook.OutlookBarStorage.Groups.md)** property to return the **OutlookBarGroups** object from the **[OutlookBarStorage](Outlook.OutlookBarStorage.md)** object.
+Use the **[Groups](Outlook.OutlookBarStorage.Groups.md)** property to return the **OutlookBarGroups** object from the **[OutlookBarStorage](Outlook.OutlookBarStorage.md)** object.
 
-Use  **Groups** ( _index_ ), where _index_ is the name of an available group, to return a single **OutlookBarGroup** object.
+Use **Groups** (_index_), where _index_ is the name of an available group, to return a single **OutlookBarGroup** object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example retrieves the  **OutlookBarGroups** collection from an **OutlookBarStorage** object.
+The following Visual Basic for Applications (VBA) example retrieves the **OutlookBarGroups** collection from an **OutlookBarStorage** object.
 
 
 ```vb
@@ -69,6 +68,6 @@ Set myGroups = myOutlookBarStorage.Groups
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

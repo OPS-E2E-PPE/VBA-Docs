@@ -1,40 +1,38 @@
 ---
-title: ConnectorFormat.EndDisconnect Method (Publisher)
+title: ConnectorFormat.EndDisconnect method (Publisher)
 keywords: vbapb10.chm3211283
 f1_keywords:
 - vbapb10.chm3211283
-ms.prod: publisher
 api_name:
 - Publisher.ConnectorFormat.EndDisconnect
 ms.assetid: cf46820e-99fc-cdd2-999a-f30117b5616f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# ConnectorFormat.EndDisconnect Method (Publisher)
+# ConnectorFormat.EndDisconnect method (Publisher)
 
 Detaches the end of the specified connector from the shape to which it is attached.
 
 
 ## Syntax
 
- _expression_. **EndDisconnect**
+_expression_.**EndDisconnect**
 
- _expression_ A variable that represents a  **ConnectorFormat** object.
+_expression_ A variable that represents a **[ConnectorFormat](Publisher.ConnectorFormat.md)** object.
 
 
 ## Remarks
 
 This method doesn't alter the size or position of the connector; the end of the connector remains positioned at a connection site but is no longer connected.
 
-Use the  **[BeginDisconnect](Publisher.ConnectorFormat.BeginDisconnect.md)** method to detach the beginning of the connector from a shape.
+Use the **[BeginDisconnect](Publisher.ConnectorFormat.BeginDisconnect.md)** method to detach the beginning of the connector from a shape.
 
 
 ## Example
 
 This example adds two rectangles to the first page in the active publication, attaches them with a connector, automatically reroutes the connector along the shortest path, and then detaches the connector from the rectangles.
-
 
 ```vb
 Dim shpRect1 As Shape 

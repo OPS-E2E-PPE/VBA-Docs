@@ -3,25 +3,24 @@ title: Application.GenerateGetPivotData property (Excel)
 keywords: vbaxl10.chm133275
 f1_keywords:
 - vbaxl10.chm133275
-ms.prod: excel
 api_name:
 - Excel.Application.GenerateGetPivotData
 ms.assetid: 83effd5f-5101-ba1b-ab45-722e26074ea7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/04/2019
+ms.localizationpriority: medium
 ---
 
 
 # Application.GenerateGetPivotData property (Excel)
 
-Returns  **True** when Microsoft Excel can get PivotTable report data. Read/write **Boolean**.
+Returns **True** when Microsoft Excel can get PivotTable report data. Read/write **Boolean**.
 
 
 ## Syntax
 
-_expression_. `GenerateGetPivotData`
+_expression_.**GenerateGetPivotData**
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Example
@@ -43,9 +42,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

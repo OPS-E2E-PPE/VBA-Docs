@@ -3,12 +3,11 @@ title: Columns.DistributeWidth method (Word)
 keywords: vbawd10.chm155910347
 f1_keywords:
 - vbawd10.chm155910347
-ms.prod: word
 api_name:
 - Word.Columns.DistributeWidth
 ms.assetid: 91123d8e-faf0-79e5-ecc4-fabe68911b6c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adjusts the width of the specified columns so that they are equal.
 
 ## Syntax
 
- _expression_. `DistributeWidth`
+_expression_. `DistributeWidth`
 
- _expression_ Required. A variable that represents a '[Columns](Word.columns.md)' collection.
+_expression_ Required. A variable that represents a '[Columns](Word.columns.md)' collection.
 
 
 ## Example

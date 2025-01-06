@@ -1,24 +1,24 @@
 ---
-title: Task.TotalSlack Property (Project)
-ms.prod: project-server
+title: Task.TotalSlack property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.TotalSlack
 ms.assetid: 6a9246c7-7d94-534e-28f2-403c2587976e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.TotalSlack Property (Project)
+# Task.TotalSlack property (Project)
 
-Gets the total slack time for a task in minutes. Read-only  **Variant**.
+Gets the total slack time for a task in minutes. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `TotalSlack`
+_expression_. `TotalSlack`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks

@@ -2,8 +2,8 @@
 title: MsoBalloonButtonType enumeration (Office)
 ms.assetid: 47f9ffd1-7a7d-e419-6b57-82c1df63df28
 ms.date: 01/31/2019
-ms.prod: office
-localization_priority: Normal
+ms.service: office
+ms.localizationpriority: medium
 ---
 
 

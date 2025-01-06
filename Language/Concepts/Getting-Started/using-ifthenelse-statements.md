@@ -3,16 +3,15 @@ title: Using If...Then...Else statements (VBA)
 keywords: vbcn6.chm1076684
 f1_keywords:
 - vbcn6.chm1076684
-ms.prod: office
 ms.assetid: 5b138720-aad6-df90-305e-72adb644d7dd
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
 # Using If...Then...Else statements
 
-You can use the **[If...Then...Else](../../reference/user-interface-help/ifthenelse-statement.md)** statement to run a specific [statement](../../Glossary/vbe-glossary.md#statement) or a block of statements, depending on the value of a condition. **If...Then...Else** statements can be nested to as many levels as you need. 
+Use the **[If...Then...Else](../../reference/user-interface-help/ifthenelse-statement.md)** statement to run a specific [statement](../../Glossary/vbe-glossary.md#statement) or a block of statements, depending on the value of a condition. **If...Then...Else** statements can be nested to as many levels as you need. 
 
 However, for readability, you may want to use a **[Select Case](../../reference/user-interface-help/select-case-statement.md)** statement rather than multiple levels of nested **If...Then...Else** statements.
 
@@ -24,8 +23,8 @@ To run only one statement when a condition is **True**, use the single-line synt
 
 ```vb
 Sub FixDate() 
- myDate = #2/13/95# 
- If myDate < Now Then myDate = Now 
+    myDate = #2/13/95# 
+    If myDate < Now Then myDate = Now 
 End Sub
 ```
 
@@ -33,11 +32,11 @@ To run more than one line of code, you must use the multiple-line syntax. This s
 
 ```vb
 Sub AlertUser(value as Long) 
- If value = 0 Then 
- AlertLabel.ForeColor = "Red" 
- AlertLabel.Font.Bold = True 
- AlertLabel.Font.Italic = True 
- End If 
+    If value = 0 Then 
+        AlertLabel.ForeColor = "Red" 
+        AlertLabel.Font.Bold = True 
+        AlertLabel.Font.Italic = True 
+    End If 
 End Sub
 ```
 
@@ -49,15 +48,15 @@ Use an **If...Then...Else** statement to define two blocks of executable stateme
 
 ```vb
 Sub AlertUser(value as Long) 
- If value = 0 Then 
- AlertLabel.ForeColor = vbRed 
- AlertLabel.Font.Bold = True 
- AlertLabel.Font.Italic = True 
- Else 
- AlertLabel.Forecolor = vbBlack 
- AlertLabel.Font.Bold = False 
- AlertLabel.Font.Italic = False 
- End If 
+    If value = 0 Then 
+        AlertLabel.ForeColor = vbRed 
+        AlertLabel.Font.Bold = True 
+        AlertLabel.Font.Italic = True 
+    Else 
+        AlertLabel.Forecolor = vbBlack 
+        AlertLabel.Font.Bold = False 
+        AlertLabel.Font.Italic = False 
+    End If 
 End Sub
 ```
 
@@ -69,15 +68,15 @@ You can add **ElseIf** statements to an **If...Then...Else** statement to test a
 
 ```vb
 Function Bonus(performance, salary) 
- If performance = 1 Then 
- Bonus = salary * 0.1 
- ElseIf performance = 2 Then 
- Bonus = salary * 0.09 
- ElseIf performance = 3 Then 
- Bonus = salary * 0.07 
- Else 
- Bonus = 0 
- End If 
+    If performance = 1 Then 
+        Bonus = salary * 0.1 
+    ElseIf performance = 2 Then 
+        Bonus = salary * 0.09 
+    ElseIf performance = 3 Then 
+        Bonus = salary * 0.07 
+    Else 
+        Bonus = 0 
+    End If 
 End Function
 ```
 

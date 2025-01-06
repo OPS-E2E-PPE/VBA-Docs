@@ -3,12 +3,11 @@ title: Field.Select method (Word)
 keywords: vbawd10.chm154140671
 f1_keywords:
 - vbawd10.chm154140671
-ms.prod: word
 api_name:
 - Word.Field.Select
 ms.assetid: 03fa304c-acc7-30a5-7dfa-06098bbdac7a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Selects the specified field.
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## Remarks
 
-After using this method, use the  **[Selection](Word.Selection.md)** object to work with the selected items. For more information, see [Working with the Selection Object](../word/Concepts/Working-with-Word/working-with-the-selection-object.md).
+After using this method, use the **[Selection](Word.Selection.md)** object to work with the selected items. For more information, see [Working with the Selection Object](../word/Concepts/Working-with-Word/working-with-the-selection-object.md).
 
 
 ## Example

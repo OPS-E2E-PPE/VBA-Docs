@@ -3,10 +3,9 @@ title: Date statement (VBA)
 keywords: vblr6.chm1008887
 f1_keywords:
 - vblr6.chm1008887
-ms.prod: office
 ms.assetid: 61cbe51b-f9a6-8d51-eba3-6d27a155b7c3
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

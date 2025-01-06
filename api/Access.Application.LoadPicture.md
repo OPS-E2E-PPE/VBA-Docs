@@ -3,12 +3,11 @@ title: Application.LoadPicture method (Access)
 keywords: vbaac10.chm12555
 f1_keywords:
 - vbaac10.chm12555
-ms.prod: access
 api_name:
 - Access.Application.LoadPicture
 ms.assetid: d7e64367-c8f2-22c3-6e6e-18eaae9ed07a
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,10 +3,9 @@ title: RightToLeft property (Microsoft Forms)
 keywords: fm20.chm5282668
 f1_keywords:
 - fm20.chm5282668
-ms.prod: office
 ms.assetid: 2bd069aa-dd3a-c764-5b6c-6d49d381bd5c
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ The following table describes the two possible settings for this property.
 
 ## Remarks
 
-Microsoft Forms 2.0 controls that have the ability to exhibit bidirectional characteristics do so when the **RightToLeft** property of the form is set to **True**. When this property is set to **False**, forms and controls do not exhibit bidirectional characteristics. Bidirectional features of the **RightToLeft** property are listed in the following table.
+Microsoft Forms 2.0 controls that have the ability to exhibit bidirectional characteristics do so when the **RightToLeft** property of the form is set to **True**. When this property is set to **False**, forms and controls don't exhibit bidirectional characteristics. Bidirectional features of the **RightToLeft** property are listed in the following table.
 
 
 |Microsoft Forms 2.0 components|RightToLeft = True behavior|

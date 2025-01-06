@@ -1,27 +1,27 @@
 ---
-title: Project.CheckIn Method (Project)
+title: Project.CheckIn method (Project)
 keywords: vbapj.chm132592
 f1_keywords:
 - vbapj.chm132592
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.CheckIn
 ms.assetid: 9620bd94-4b75-5c7e-2993-5018c5bb84e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.CheckIn Method (Project)
+# Project.CheckIn method (Project)
 
 Checks in the working copy of the project from a local computer to the SharePoint document library, and sets the local project to read-only so that it cannot be edited locally.
 
 
 ## Syntax
 
- _expression_. `CheckIn`( `_SaveChanges_`, `_Comment_`, `_MakePublic_` )
+_expression_. `CheckIn`( `_SaveChanges_`, `_Comment_`, `_MakePublic_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Checks in the working copy of the project from a local computer to the SharePoin
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SaveChanges_|Optional|**Boolean**|**True** saves changes and checks in the document. **False** returns the document to a checked-in status without saving revisions.|
-| _Comment_|Optional|**String**|Comments for the revision of the project being checked in (applies only if SaveChanges equals  **True**).|
+| _Comment_|Optional|**String**|Comments for the revision of the project being checked in (applies only if SaveChanges equals **True**).|
 | _MakePublic_|Optional|**Boolean**|**True** allows the user to publish the project after it has been checked in. This submits the project for the approval process, which can eventually result in a version of the project being published to users with read-only rights to the project (applies only if SaveChanges equals **True**).|
 
 ## Remarks

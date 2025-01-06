@@ -1,30 +1,30 @@
 ---
-title: Page.ShapeLinkAdded Event (Visio)
+title: Page.ShapeLinkAdded event (Visio)
 keywords: vis_sdr.chm10962015
 f1_keywords:
 - vis_sdr.chm10962015
-ms.prod: visio
 api_name:
 - Visio.Page.ShapeLinkAdded
 ms.assetid: 3d49ffc4-9d08-c228-ba3c-d4d97362bb62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.ShapeLinkAdded Event (Visio)
+# Page.ShapeLinkAdded event (Visio)
 
 Occurs after a shape is linked to a data row.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'ShapeLinkAdded'(**_ByVal Shape As [IVSHAPE]_** , **_ByVal DataRecordsetID As Long_** , **_ByVal DataRowID As Long_**)
+_expression_.**ShapeLinkAdded** (_Shape_, _DataRecordsetID_, _DataRowID_)
 
- _expression_ An expression that returns a [Page](./Visio.Page.md) object.
+ _expression_ An expression that returns a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -39,9 +39,9 @@ Private Sub  _expression_ _'ShapeLinkAdded'(**_ByVal Shape As [IVSHAPE]_** , **_
 
 ## Remarks
 
-The  **ShapeLinkAdded** event is one of a group of events for which the **EventInfo** property of the **Application** object contains extra information.
+The **ShapeLinkAdded** event is one of a group of events for which the **EventInfo** property of the **Application** object contains extra information.
 
-When the  **ShapeLinkAdded** event is fired, the **EventInfo** property returns the following string:
+When the **ShapeLinkAdded** event is fired, the **EventInfo** property returns the following string:
 
  `/DataRecordsetID = n /DataRowID = m`
 
@@ -49,6 +49,12 @@ where  _n_ and _m_ represent the IDs of the data recordset and data row, respect
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

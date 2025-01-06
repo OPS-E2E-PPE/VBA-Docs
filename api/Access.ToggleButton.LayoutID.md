@@ -3,12 +3,11 @@ title: ToggleButton.LayoutID property (Access)
 keywords: vbaac10.chm11795
 f1_keywords:
 - vbaac10.chm11795
-ms.prod: access
 api_name:
 - Access.ToggleButton.LayoutID
 ms.assetid: af440e04-2046-507d-1d66-e8287ae5bbf8
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

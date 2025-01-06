@@ -1,23 +1,23 @@
 ---
-title: Task.Cost5 Property (Project)
-ms.prod: project-server
+title: Task.Cost5 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Cost5
 ms.assetid: 81357a35-2bae-9cd2-35ea-9de07cffa182
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Cost5 Property (Project)
+# Task.Cost5 property (Project)
 
-Gets or sets the value of the  **Cost5** custom field for the task. Read/write **Variant**.
+Gets or sets the value of the **Cost5** custom field for the task. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Cost5`
+_expression_. `Cost5`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

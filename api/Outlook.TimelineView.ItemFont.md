@@ -1,32 +1,31 @@
 ---
-title: TimelineView.ItemFont Property (Outlook)
+title: TimelineView.ItemFont property (Outlook)
 keywords: vbaol11.chm2669
 f1_keywords:
 - vbaol11.chm2669
-ms.prod: outlook
 api_name:
 - Outlook.TimelineView.ItemFont
 ms.assetid: 7f01e8b1-cd9e-eb19-e481-35b98029320c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimelineView.ItemFont Property (Outlook)
+# TimelineView.ItemFont property (Outlook)
 
-Returns a  **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying Outlook items in the **[TimelineView](Outlook.TimelineView.md)** object. Read-only.
+Returns a **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying Outlook items in the **[TimelineView](Outlook.TimelineView.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ItemFont`
+_expression_. `ItemFont`
 
-_expression_ A variable that represents a [TimelineView](./Outlook.TimelineView.md) object.
+_expression_ A variable that represents a [TimelineView](Outlook.TimelineView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) sample increments the value of the  **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **ItemFont** property for the current **TimelineView** object.
+The following Visual Basic for Applications (VBA) sample increments the value of the **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **ItemFont** property for the current **TimelineView** object.
 
 
 ```vb

@@ -3,18 +3,17 @@ title: ObjectFrame.Enabled property (Access)
 keywords: vbaac10.chm11583
 f1_keywords:
 - vbaac10.chm11583
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Enabled
 ms.assetid: 1b70cc10-3132-f8e4-5a82-19396551f1a7
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

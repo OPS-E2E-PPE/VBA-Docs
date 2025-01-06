@@ -1,20 +1,19 @@
 ---
-title: SimpleItems.Class Property (Outlook)
+title: SimpleItems.Class property (Outlook)
 keywords: vbaol11.chm3394
 f1_keywords:
 - vbaol11.chm3394
-ms.prod: outlook
 api_name:
 - Outlook.SimpleItems.Class
 ms.assetid: 80b27d14-49e4-bdba-b1ea-57263dfef680
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SimpleItems.Class Property (Outlook)
+# SimpleItems.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the object's class. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the object's class. Read-only.
 
 
 ## Syntax

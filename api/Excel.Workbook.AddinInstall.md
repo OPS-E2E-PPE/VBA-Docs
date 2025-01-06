@@ -1,38 +1,36 @@
 ---
-title: Workbook.AddinInstall Event (Excel)
+title: Workbook.AddinInstall event (Excel)
 keywords: vbaxl10.chm503080
 f1_keywords:
 - vbaxl10.chm503080
-ms.prod: excel
 api_name:
 - Excel.Workbook.AddinInstall
 ms.assetid: 671117b2-590e-9d6f-29ae-5f0bf30d4e99
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# Workbook.AddinInstall Event (Excel)
+# Workbook.AddinInstall event (Excel)
 
-Occurs when the workbook is installed as an add-in
+Occurs when the workbook is installed as an add-in.
 
 
 ## Syntax
 
-_expression_. `AddinInstall`
+_expression_.**AddinInstall**
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Return value
 
-Nothing
+**Nothing**
 
 
 ## Example
 
 This example adds a control to the standard toolbar when the workbook is installed as an add-in.
-
 
 ```vb
 Private Sub Workbook_AddinInstall() 
@@ -44,9 +42,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,27 +1,26 @@
 ---
-title: Store.DisplayName Property (Outlook)
+title: Store.DisplayName property (Outlook)
 keywords: vbaol11.chm800
 f1_keywords:
 - vbaol11.chm800
-ms.prod: outlook
 api_name:
 - Outlook.Store.DisplayName
 ms.assetid: 785ec583-3553-6002-41b6-d0c6d0028b5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Store.DisplayName Property (Outlook)
+# Store.DisplayName property (Outlook)
 
-Returns a  **String** representing the display name of the **[Store](Outlook.Store.md)** object. Read-only.
+Returns a **String** representing the display name of the **[Store](Outlook.Store.md)** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `DisplayName`
+_expression_.**DisplayName**
 
-_expression_ A variable that represents a [Store](./Outlook.Store.md) object.
+_expression_ A variable that represents a [Store](Outlook.Store.md) object.
 
 
 ## Remarks

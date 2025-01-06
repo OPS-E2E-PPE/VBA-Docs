@@ -1,27 +1,27 @@
 ---
-title: Application.SegmentBorderColor Method (Project)
+title: Application.SegmentBorderColor method (Project)
 keywords: vbapj.chm72
 f1_keywords:
 - vbapj.chm72
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SegmentBorderColor
 ms.assetid: 99c2d2ba-f0c5-b462-5801-ac9c7ee75a02
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SegmentBorderColor Method (Project)
+# Application.SegmentBorderColor method (Project)
 
 Sets the border color for the assignment segments of a selected task in the Team Planner view.
 
 
 ## Syntax
 
- _expression_. `SegmentBorderColor`( `_Color_` )
+_expression_. `SegmentBorderColor`( `_Color_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Sets the border color for the assignment segments of a selected task in the Team
 
 ## Example
 
-In the following example, a task is assigned to two resources. After selecting either of the assignments, running the  **ChangeSegmentColor** macro shows all assignments for the task as light red with a blue border.
+In the following example, a task is assigned to two resources. After selecting either of the assignments, running the **ChangeSegmentColor** macro shows all assignments for the task as light red with a blue border.
 
 
 ```vb

@@ -3,30 +3,29 @@ title: FillFormat.TextureName property (Word)
 keywords: vbawd10.chm164102253
 f1_keywords:
 - vbawd10.chm164102253
-ms.prod: word
 api_name:
 - Word.FillFormat.TextureName
 ms.assetid: 9eb01e1b-3cd1-16ad-4a7b-a430e27782d9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FillFormat.TextureName property (Word)
 
-Returns the name of the custom texture file for the specified fill. Read-only  **String**.
+Returns the name of the custom texture file for the specified fill. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `TextureName`
+_expression_.**TextureName**
 
- _expression_ An expression that returns a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ An expression that returns a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture file for the fill.
+Use the **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture file for the fill.
 
 
 ## Example

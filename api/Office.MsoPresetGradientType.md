@@ -1,19 +1,16 @@
 ---
 title: MsoPresetGradientType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoPresetGradientType
 ms.assetid: d0ee19e7-bdd3-3102-61b4-dbb17d5c0363
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoPresetGradientType enumeration (Office)
 
 Specifies which predefined gradient to use to fill a shape.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

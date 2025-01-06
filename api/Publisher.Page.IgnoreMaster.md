@@ -1,27 +1,26 @@
 ---
-title: Page.IgnoreMaster Property (Publisher)
+title: Page.IgnoreMaster property (Publisher)
 keywords: vbapb10.chm393233
 f1_keywords:
 - vbapb10.chm393233
-ms.prod: publisher
 api_name:
 - Publisher.Page.IgnoreMaster
 ms.assetid: 53cd7b4b-4164-c6d3-766f-885a056d9b2b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Page.IgnoreMaster Property (Publisher)
+# Page.IgnoreMaster property (Publisher)
 
- **True** for Microsoft Publisher to ignore the master page formatting for the specified page. Read/write **Boolean**.
+**True** for Microsoft Publisher to ignore the master page formatting for the specified page. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **IgnoreMaster**
+_expression_.**IgnoreMaster**
 
- _expression_ A variable that represents an  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ Boolean
 
 ## Example
 
-This example adds a red star in the upper left corner of the master page so that it shows up on each page; then it adds a couple of new pages and sets one of the pages to ignore the master page so that the shape doesn't show on it.
-
+This example adds a red star in the upper-left corner of the master page so that it shows up on each page; it then adds a few new pages and sets one of the pages to ignore the master page so that the shape doesn't show on it.
 
 ```vb
 Sub AddNewPageIgnoreMaster() 

@@ -1,24 +1,23 @@
 ---
-title: Comments.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Comments.Count property (PowerPoint)
 api_name:
 - PowerPoint.Comments.Count
 ms.assetid: b03db1bc-f969-8a27-bfd2-4327e699c08a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comments.Count Property (PowerPoint)
+# Comments.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents a [Comments](./PowerPoint.Comments.md) object.
+_expression_ A variable that represents a **[Comments](PowerPoint.Comments.md)** object.
 
 
 ## Return value

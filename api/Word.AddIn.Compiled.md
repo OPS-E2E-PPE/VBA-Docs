@@ -3,12 +3,11 @@ title: AddIn.Compiled property (Word)
 keywords: vbawd10.chm159252485
 f1_keywords:
 - vbawd10.chm159252485
-ms.prod: word
 api_name:
 - Word.AddIn.Compiled
 ms.assetid: 812402c2-8755-cb40-beb8-e46cfba3e0ea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Compiled`
+_expression_. `Compiled`
 
- _expression_ A variable that represents a '[AddIn](Word.AddIn.md)' object.
+_expression_ A variable that represents a '[AddIn](Word.AddIn.md)' object.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: ToolbarItem.Enabled Property (Visio)
+title: ToolbarItem.Enabled property (Visio)
 keywords: vis_sdr.chm13513455
 f1_keywords:
 - vis_sdr.chm13513455
-ms.prod: visio
 api_name:
 - Visio.ToolbarItem.Enabled
 ms.assetid: ef634f6d-ce50-4f88-c90f-75fbfaa02a29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ToolbarItem.Enabled Property (Visio)
+# ToolbarItem.Enabled property (Visio)
 
 Determines whether or not an object is currently enabled. Read/write.
 
 
 ## Syntax
 
- _expression_.**Enabled**
+_expression_.**Enabled**
 
- _expression_ A variable that represents a [ToolbarItem](./Visio.ToolbarItem.md) object.
+_expression_ A variable that represents a **[ToolbarItem](Visio.ToolbarItem.md)** object.
 
 
 ## Return value
@@ -34,14 +33,15 @@ Boolean
 
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 ## Example
 
-This example shows how to use the  **Enabled** property to enable hiding or showing a toolbar. The example adds a custom toolbar to the **Toolbars** collection. This toolbar appears in the Visio user interface and is available while the document is active.
+This example shows how to use the **Enabled** property to enable hiding or showing a toolbar. The example adds a custom toolbar to the **Toolbars** collection. This toolbar appears in the Visio user interface and is available while the document is active.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

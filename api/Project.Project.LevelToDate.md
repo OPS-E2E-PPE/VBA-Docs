@@ -1,29 +1,29 @@
 ---
-title: Project.LevelToDate Property (Project)
-ms.prod: project-server
+title: Project.LevelToDate property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.LevelToDate
 ms.assetid: b697db71-8f8e-9caf-345c-59899f4024a3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.LevelToDate Property (Project)
+# Project.LevelToDate property (Project)
 
-Gets or sets the ending date of a range in which overallocated resources are leveled. The default is the project finish date or the last entered date value. Read/write  **Variant**.
+Gets or sets the ending date of a range in which overallocated resources are leveled. The default is the project finish date or the last entered date value. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `LevelToDate`
+_expression_. `LevelToDate`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-You can also set the  **LevelToDate** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click the **Level** option and set the **To** date.
+You can also set the **LevelToDate** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click the **Level** option and set the **To** date.
 
 
 ## Example

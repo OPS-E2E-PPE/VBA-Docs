@@ -1,37 +1,36 @@
 ---
-title: OLEObject.Application Property (Visio)
+title: OLEObject.Application property (Visio)
 keywords: vis_sdr.chm15213090
 f1_keywords:
 - vis_sdr.chm15213090
-ms.prod: visio
 api_name:
 - Visio.OLEObject.Application
 ms.assetid: 402c270d-445d-a067-00cf-5f809eb23e01
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OLEObject.Application Property (Visio)
+# OLEObject.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents an [OLEObject](./Visio.OLEObject.md) object.
+_expression_ A variable that represents an **[OLEObject](Visio.OLEObject.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

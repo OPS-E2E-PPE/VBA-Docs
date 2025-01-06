@@ -1,17 +1,16 @@
 ---
 title: XlPieSliceLocation enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlPieSliceLocation
 ms.assetid: d0a2df51-6ab1-8f33-9cdb-29fddc98c058
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlPieSliceLocation enumeration (Excel)
 
-Specifies the horizontal or vertical position of a point on a pie chart, in points, from the top or left edge of the object to the top or left edge of the chart area.
+Specifies the horizontal or vertical position of a point on a pie chart, in [points](../language/glossary/vbe-glossary.md#point), from the top or left edge of the object to the top or left edge of the chart area.
 
 
 

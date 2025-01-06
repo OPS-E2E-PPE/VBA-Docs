@@ -3,25 +3,24 @@ title: Fields.Unlink method (Word)
 keywords: vbawd10.chm154140774
 f1_keywords:
 - vbawd10.chm154140774
-ms.prod: word
 api_name:
 - Word.Fields.Unlink
 ms.assetid: 18b72e38-8a03-90fc-76f0-2f4e9d768dd9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Fields.Unlink method (Word)
 
-Replaces all the fields in the  **Fields** collection with their most recent results.
+Replaces all the fields in the **Fields** collection with their most recent results.
 
 
 ## Syntax
 
- _expression_. `Unlink`
+_expression_. `Unlink`
 
- _expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
+_expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
 
 
 ## Remarks

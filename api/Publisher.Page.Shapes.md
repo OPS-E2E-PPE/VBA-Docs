@@ -1,38 +1,36 @@
 ---
-title: Page.Shapes Property (Publisher)
+title: Page.Shapes property (Publisher)
 keywords: vbapb10.chm393219
 f1_keywords:
 - vbapb10.chm393219
-ms.prod: publisher
 api_name:
 - Publisher.Page.Shapes
 ms.assetid: 4e48d4cf-d7b6-9099-ddee-46a79e7eb7bf
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Page.Shapes Property (Publisher)
+# Page.Shapes property (Publisher)
 
-Returns a  **[Shapes](Publisher.Shapes.md)** collection that represents all the  **Shape** objects in the specified publication. This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts.
+Returns a **[Shapes](Publisher.Shapes.md)** collection that represents all the **Shape** objects in the specified publication. This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts.
 
 
 ## Syntax
 
- _expression_. **Shapes**
+_expression_.**Shapes**
 
- _expression_ A variable that represents a  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see  **Returning an Object from a Collection**.
+For information about returning a single member of a collection, see [Returning an object from a collection](../publisher/concepts/returning-an-object-from-a-collection-publisher.md).
 
 
 ## Example
 
 This example adds a rectangle to the first page in the active publication.
-
 
 ```vb
 Sub AddNewRectangle() 
@@ -41,10 +39,9 @@ Sub AddNewRectangle()
 End Sub
 ```
 
-This example sets the fill texture for all the shapes in the active publication. This example assumes there is at least one shape in the active publication.
+<br/>
 
-
-
+This example sets the fill texture for all the shapes in the active publication. This example assumes that there is at least one shape in the active publication.
 
 ```vb
 Sub SetNewTextureForAllShapes() 
@@ -55,10 +52,9 @@ Sub SetNewTextureForAllShapes()
 End Sub
 ```
 
-This example adds a shadow to the first shape in the active publication. This example assumes there is at least one shape in the active publication.
+<br/>
 
-
-
+This example adds a shadow to the first shape in the active publication. This example assumes that there is at least one shape in the active publication.
 
 ```vb
 Sub SetShadowForFirstShape() 
@@ -66,10 +62,9 @@ Sub SetShadowForFirstShape()
 End Sub
 ```
 
-This example displays a count of all shapes on the first page of the active publication. This example assumes there is at least one shape in the active publication.
+<br/>
 
-
-
+This example displays a count of all shapes on the first page of the active publication. This example assumes that there is at least one shape in the active publication.
 
 ```vb
 Sub CountShapesOnFirstPage() 

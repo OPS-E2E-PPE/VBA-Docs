@@ -3,18 +3,17 @@ title: Report.PictureType property (Access)
 keywords: vbaac10.chm13705
 f1_keywords:
 - vbaac10.chm13705
-ms.prod: access
 api_name:
 - Access.Report.PictureType
 ms.assetid: 96a8ab1c-42d2-2322-927f-4b2cf8822c56
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Report.PictureType property (Access)
 
-You can use the **PictureType** property to specify whether Microsoft Access stores an object's picture as a linked or an embedded object. Read/write **Byte**.
+Use the **PictureType** property to specify whether Microsoft Access stores an object's picture as a linked or an embedded object. Read/write **Byte**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: Borders.HasHorizontal property (Word)
 keywords: vbawd10.chm154927131
 f1_keywords:
 - vbawd10.chm154927131
-ms.prod: word
 api_name:
 - Word.Borders.HasHorizontal
 ms.assetid: 5a5863c8-8f0d-67f9-6e1f-2a4dd6b4fbc6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasHorizontal`
+_expression_. `HasHorizontal`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks

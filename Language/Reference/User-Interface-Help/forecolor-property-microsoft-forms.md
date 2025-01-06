@@ -3,10 +3,9 @@ title: ForeColor property (Microsoft Forms)
 keywords: fm20.chm2001220
 f1_keywords:
 - fm20.chm2001220
-ms.prod: office
 ms.assetid: 00b455d1-adce-ebb2-bb15-34cafebc5b75
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,7 +26,7 @@ The **ForeColor** property syntax has these parts:
 
 ## Settings
 
-You can use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as red, green, and blue color components 15, 200, 75.
+Use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as red, green, and blue color components 15, 200, 75.
 
 ## Remarks
 

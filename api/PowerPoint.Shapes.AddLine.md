@@ -1,27 +1,26 @@
 ---
-title: Shapes.AddLine Method (PowerPoint)
+title: Shapes.AddLine method (PowerPoint)
 keywords: vbapp10.chm543009
 f1_keywords:
 - vbapp10.chm543009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.AddLine
 ms.assetid: 9dbe640b-5ba4-a620-d3c6-4a2d0cc2bc27
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddLine Method (PowerPoint)
+# Shapes.AddLine method (PowerPoint)
 
-Creates a line. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the new line.
+Creates a line. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new line.
 
 
 ## Syntax
 
- _expression_. `AddLine`( `_BeginX_`, `_BeginY_`, `_EndX_`, `_EndY_` )
+_expression_. `AddLine`( `_BeginX_`, `_BeginY_`, `_EndX_`, `_EndY_` )
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Parameters

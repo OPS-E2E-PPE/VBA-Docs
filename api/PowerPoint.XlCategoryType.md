@@ -1,15 +1,14 @@
 ---
-title: XlCategoryType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlCategoryType enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlCategoryType
 ms.assetid: bef63c67-c329-4430-49c1-63ca37b8ba29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlCategoryType Enumeration (PowerPoint)
+# XlCategoryType enumeration (PowerPoint)
 
 Specifies the type of the category axis.
 

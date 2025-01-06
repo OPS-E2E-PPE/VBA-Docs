@@ -3,23 +3,22 @@ title: OMathEqArray.MaxDist property (Word)
 keywords: vbawd10.chm174129256
 f1_keywords:
 - vbawd10.chm174129256
-ms.prod: word
 api_name:
 - Word.OMathEqArray.MaxDist
 ms.assetid: 04c3ce5e-afc3-8565-0d1c-21c899f40302
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OMathEqArray.MaxDist property (Word)
 
-Returns or sets a  **Boolean** that represents that the equations in an equation array are distributed equally within the margins of its container, such as a column, cell, or page width. Read/write.
+Returns or sets a **Boolean** that represents that the equations in an equation array are distributed equally within the margins of its container, such as a column, cell, or page width. Read/write.
 
 
 ## Syntax
 
- _expression_. `MaxDist`
+_expression_. `MaxDist`
 
  _expression_ An expression that returns an '[OMathEqArray](Word.OMathEqArray.md)' object.
 

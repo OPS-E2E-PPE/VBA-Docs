@@ -3,12 +3,11 @@ title: PageNumbers.IncludeChapterNumber property (Word)
 keywords: vbawd10.chm159776771
 f1_keywords:
 - vbawd10.chm159776771
-ms.prod: word
 api_name:
 - Word.PageNumbers.IncludeChapterNumber
 ms.assetid: 0ab2dbb4-4bf3-f878-1fd9-abca20dd790a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IncludeChapterNumber`
+_expression_. `IncludeChapterNumber`
 
- _expression_ A variable that represents a '[PageNumbers](Word.pagenumbers.md)' object.
+_expression_ A variable that represents a '[PageNumbers](Word.pagenumbers.md)' object.
 
 
 ## Example

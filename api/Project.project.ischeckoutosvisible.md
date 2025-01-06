@@ -1,25 +1,25 @@
 ---
-title: Project.IsCheckoutOSVisible Property (Project)
-ms.prod: project-server
+title: Project.IsCheckoutOSVisible property (Project)
+ms.service: project-server
 ms.assetid: 1b240231-dfa1-2cd3-310e-11c8c58791eb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.IsCheckoutOSVisible Property (Project)
-Gets whether the  **Check Out** button is visible in the Backstage view. Read-only **Boolean**.
+# Project.IsCheckoutOSVisible property (Project)
+Gets whether the **Check Out** button is visible in the Backstage view. Read-only **Boolean**.
 
 ## Syntax
 
- _expression_. `IsCheckoutOSVisible`
+_expression_. `IsCheckoutOSVisible`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-If the active project is not checked out, the Backstage view shows a  **Check Out** button. The **IsCheckoutOSVisible** property is **True** if the **Check Out** button is visible in the Backstage view; otherwise, **False**.
+If the active project is not checked out, the Backstage view shows a **Check Out** button. The **IsCheckoutOSVisible** property is **True** if the **Check Out** button is visible in the Backstage view; otherwise, **False**.
 
 
 ## Example

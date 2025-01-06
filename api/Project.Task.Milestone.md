@@ -1,27 +1,27 @@
 ---
-title: Task.Milestone Property (Project)
+title: Task.Milestone property (Project)
 keywords: vbapj.chm132409
 f1_keywords:
 - vbapj.chm132409
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.Milestone
 ms.assetid: 246b3d92-43d7-850b-ab7c-8c314ca42aa9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Milestone Property (Project)
+# Task.Milestone property (Project)
 
  **True** if the task is a milestone. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Milestone`
+_expression_. `Milestone`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

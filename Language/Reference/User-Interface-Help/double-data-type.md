@@ -3,10 +3,9 @@ title: Double data type
 keywords: vblr6.chm1008901
 f1_keywords:
 - vblr6.chm1008901
-ms.prod: office
 ms.assetid: 34504bb6-cbc0-42f7-d328-10da50299018
 ms.date: 11/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

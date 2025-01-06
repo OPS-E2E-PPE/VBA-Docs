@@ -1,32 +1,32 @@
 ---
-title: Project.Template Property (Project)
+title: Project.Template property (Project)
 keywords: vbapj.chm132720
 f1_keywords:
 - vbapj.chm132720
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.Template
 ms.assetid: 8f73cf7a-e900-2951-6491-edc0ef78c0f5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Template Property (Project)
+# Project.Template property (Project)
 
-Gets the name of the template associated with a project. Read-only  **String**.
+Gets the name of the template associated with a project. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Template`
+_expression_.**Template**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-If the project was not created from a template, the  **Template** property returns an empty string ("").
+If the project was not created from a template, the **Template** property returns an empty string ("").
 
 
 ## Example

@@ -3,25 +3,24 @@ title: MappedDataFields.Item method (Word)
 keywords: vbawd10.chm135528448
 f1_keywords:
 - vbawd10.chm135528448
-ms.prod: word
 api_name:
 - Word.MappedDataFields.Item
 ms.assetid: 65af7865-37bb-c3bc-5381-9cc7a56e3901
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MappedDataFields.Item method (Word)
 
-Returns an individual  **MappedDataField** object.
+Returns an individual **MappedDataField** object.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ Required. A variable that represents a '[MappedDataFields](Word.MappedDataFields.md)' collection.
+_expression_ Required. A variable that represents a '[MappedDataFields](Word.MappedDataFields.md)' collection.
 
 
 ## Parameters

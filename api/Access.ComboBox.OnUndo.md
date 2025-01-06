@@ -3,18 +3,17 @@ title: ComboBox.OnUndo property (Access)
 keywords: vbaac10.chm11474
 f1_keywords:
 - vbaac10.chm11474
-ms.prod: access
 api_name:
 - Access.ComboBox.OnUndo
 ms.assetid: 848f5228-7238-6e56-af49-8334c821ec04
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.OnUndo property (Access)
 
-Returns or sets a **String** indicating which macro, event procedure, or user-defined function runs when the **Undo** event occurs. Read/write.
+Returns or sets a **String** indicating which macro, event procedure, or user-defined function runs when the **[Undo](access.combobox.undo(even).md)** event occurs. Read/write.
 
 
 ## Syntax
@@ -34,7 +33,7 @@ Valid values for this property are:
 
 - [Event Procedure], which indicates the event procedure associated with the **Undo** event for the specified object.
 
-- = _functionname_(), where _functionname_ is the name of a user-defined function.
+- =_functionname_(), where _functionname_ is the name of a user-defined function.
 
 
 ## Example
@@ -44,8 +43,6 @@ The following example specifies that when the **Undo** event occurs on the first
 ```vb
 Forms(0).OnUndo = "[Event Procedure]"
 ```
-
-<br/>
 
 The following example specifies that when the **Undo** event occurs in any text box on the first form of the current project, the associated event procedure should run.
 

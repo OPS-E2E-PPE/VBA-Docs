@@ -3,12 +3,11 @@ title: ColumnWidths property
 keywords: fm20.chm2000960
 f1_keywords:
 - fm20.chm2000960
-ms.prod: office
 api_name:
 - Office.ColumnWidths
 ms.assetid: acc57c41-fcd1-dde4-bc9d-2c25d426fdc7
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

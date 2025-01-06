@@ -3,12 +3,11 @@ title: Shape.ZOrder method (Word)
 keywords: vbawd10.chm161480728
 f1_keywords:
 - vbawd10.chm161480728
-ms.prod: word
 api_name:
 - Word.Shape.ZOrder
 ms.assetid: b6729719-44b0-a069-0cbe-b694b88ab65a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the specified shape in front of or behind other shapes in the collection (
 
 ## Syntax
 
- _expression_. `ZOrder`( `_ZOrderCmd_` )
+_expression_.**ZOrder** (_ZOrderCmd_)
 
- _expression_ An expression that returns a '[Shape](Word.Shape.md)' object.
+ _expression_ An expression that returns a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Nothing
 
 ## Remarks
 
-Use the  **[ZOrderPosition](Word.Shape.ZOrderPosition.md)** property to determine a shape's current position in the z-order.
+Use the **[ZOrderPosition](Word.Shape.ZOrderPosition.md)** property to determine a shape's current position in the z-order.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ChartFont.Bold property (Word)
 keywords: vbawd10.chm255918082
 f1_keywords:
 - vbawd10.chm255918082
-ms.prod: word
 api_name:
 - Word.ChartFont.Bold
 ms.assetid: e203868f-5234-354e-6488-159351041083
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Bold`
+_expression_.**Bold**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: Cell.SetHeight method (Word)
 keywords: vbawd10.chm156106955
 f1_keywords:
 - vbawd10.chm156106955
-ms.prod: word
 api_name:
 - Word.Cell.SetHeight
 ms.assetid: 1c26425e-66f0-0558-5981-7161d730e8e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the height of table cells.
 
 ## Syntax
 
- _expression_. `SetHeight`( `_RowHeight_` , `_HeightRule_` )
+_expression_. `SetHeight`( `_RowHeight_` , `_HeightRule_` )
 
- _expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Sets the height of table cells.
 
 ## Remarks
 
-Setting the  **SetHeight** property of a **Cell** object automatically sets the property for the entire row.
+Setting the **SetHeight** property of a **Cell** object automatically sets the property for the entire row.
 
 
 ## Example

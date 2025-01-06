@@ -1,17 +1,16 @@
 ---
-title: PpPublishSourceType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpPublishSourceType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpPublishSourceType
 ms.assetid: d11ed6c3-e43a-712a-af43-6d290ef2a8e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpPublishSourceType Enumeration (PowerPoint)
+# PpPublishSourceType enumeration (PowerPoint)
 
-Constants that specify the type of source material to be published, passed to and returned by the  **SourceType** property of the **PublishObject** object.
+Constants that specify the type of source material to be published, passed to and returned by the **SourceType** property of the **PublishObject** object.
 
 
 

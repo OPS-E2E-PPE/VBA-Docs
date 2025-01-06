@@ -3,25 +3,24 @@ title: Words.Count property (Word)
 keywords: vbawd10.chm157024258
 f1_keywords:
 - vbawd10.chm157024258
-ms.prod: word
 api_name:
 - Word.Words.Count
 ms.assetid: abbb4293-0ffb-f845-cdda-acbbe0ff477b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Words.Count property (Word)
 
-Returns a  **Long** that represents the number of words in the collection. Read-only.
+Returns a **Long** that represents the number of words in the collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ Required. A variable that represents a '[Words](Word.words.md)' collection.
+_expression_ Required. A variable that represents a '[Words](Word.words.md)' collection.
 
 
 ## Example

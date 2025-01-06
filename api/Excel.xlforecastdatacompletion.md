@@ -2,14 +2,13 @@
 title: XlForecastDataCompletion enumeration (Excel)
 ms.assetid: 0407a50c-2efe-1522-7666-b5a8b4e72a83
 ms.date: 06/08/2017
-ms.prod: excel
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlForecastDataCompletion enumeration (Excel)
 
-Constants passed to various  **WorksheetFunction** and **Workbook** statistical forecasting methods.
+Constants passed to various **WorksheetFunction** and **Workbook** statistical forecasting methods.
 
 
 ## Members

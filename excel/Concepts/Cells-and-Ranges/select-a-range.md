@@ -1,21 +1,20 @@
 ---
 title: Select a Range
-ms.prod: excel
 ms.assetid: 4ec2e533-74b3-448d-90aa-1e2a624490b8
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Select a Range
 
-These examples show how to select the used range, which includes formatted cells that do not contain data, and how to select a data range, which includes cells that contains actual data.
+These examples show how to select the used range, which includes formatted cells that don't contain data, and how to select a data range, which includes cells that contains actual data.
 
  **Sample code provided by:** Tom Urtis, [Atlas Programming Management](https://www.atlaspm.com/)
 
 ## Selecting the Used Range
 
-This example shows how to select the used range on the current sheet, which includes formatted cells that do not contain data, by using the  **[UsedRange](../../../api/Excel.Worksheet.UsedRange.md)** property of the **[Worksheet](../../../api/Excel.Worksheet.md)** object and the **[Select](../../../api/Excel.Range.Select.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object. Then it displays the address of the range to the user.
+This example shows how to select the used range on the current sheet, which includes formatted cells that don't contain data, by using the **[UsedRange](../../../api/Excel.Worksheet.UsedRange.md)** property of the **[Worksheet](../../../api/Excel.Worksheet.md)** object and the **[Select](../../../api/Excel.Range.Select.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object. Then it displays the address of the range to the user.
 
 
 ```vb
@@ -28,7 +27,7 @@ End Sub
 
 ## Selecting a Data Range Starting at Cell A1
 
-This example shows how to select a data range on the current sheet, starting at cell A1, and display the address of the range to the user. The data range does not include cells that are formatted that do not contain data. To get the data range, this example finds the last row and the last column that contain actual data by using the  **[Find](../../../api/Excel.Range.Find.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object.
+This example shows how to select a data range on the current sheet, starting at cell A1, and display the address of the range to the user. The data range does not include cells that are formatted that don't contain data. To get the data range, this example finds the last row and the last column that contain actual data by using the **[Find](../../../api/Excel.Range.Find.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object.
 
 
 ```vb
@@ -44,7 +43,7 @@ End Sub
 
 ## Selecting a Data Range of Unknown Starting Location
 
-This example shows how to select a data range on the current sheet when you do not know the starting location, and display the address of the range to the user. The data range does not include cells that are formatted that do not contain data. To get the data range, this example finds the first and last row and column that contain actual data by using the  **[Find](../../../api/Excel.Range.Find.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object.
+This example shows how to select a data range on the current sheet when you don't know the starting location, and display the address of the range to the user. The data range does not include cells that are formatted that don't contain data. To get the data range, this example finds the first and last row and column that contain actual data by using the **[Find](../../../api/Excel.Range.Find.md)** method of the **[Range](../../../api/Excel.Range(object).md)** object.
 
 
 ```vb

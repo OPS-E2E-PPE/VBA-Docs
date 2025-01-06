@@ -1,15 +1,15 @@
 ---
-title: PjViewScreen Enumeration (Project)
-ms.prod: project-server
+title: PjViewScreen enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjViewScreen
 ms.assetid: a345e016-ef13-0605-7b2a-5e91c748743e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjViewScreen Enumeration (Project)
+# PjViewScreen enumeration (Project)
 
 Contains constants that specify the screen type for a view in Project.
 

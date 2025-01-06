@@ -3,10 +3,9 @@ title: TabStrip control
 keywords: fm20.chm2000660
 f1_keywords:
 - fm20.chm2000660
-ms.prod: office
 ms.assetid: 281a6f4a-059b-5d34-3855-f4d07b436ee4
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ Presents a set of related controls as a visual group.
 
 ## Remarks
 
-You can use a **TabStrip** to view different sets of information for related controls.
+Use a **TabStrip** to view different sets of information for related controls.
 
 For example, the controls might represent information about a daily schedule for a group of individuals, with each set of information corresponding to a different individual in the group. Set the title of each tab to show one individual's name. You can then write code that, when you click a tab, updates the controls to show information about the person identified on the tab.
 

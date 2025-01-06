@@ -1,32 +1,31 @@
 ---
-title: TimelineView.TimelineViewMode Property (Outlook)
+title: TimelineView.TimelineViewMode property (Outlook)
 keywords: vbaol11.chm2670
 f1_keywords:
 - vbaol11.chm2670
-ms.prod: outlook
 api_name:
 - Outlook.TimelineView.TimelineViewMode
 ms.assetid: 597facd9-74c4-266a-329d-c90bc77f8585
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimelineView.TimelineViewMode Property (Outlook)
+# TimelineView.TimelineViewMode property (Outlook)
 
-Returns or sets an  **[OlTimelineViewMode](Outlook.OlTimelineViewMode.md)** constant that indicates the view mode for the **[TimelineView](Outlook.TimelineView.md)** object. Read/write.
+Returns or sets an **[OlTimelineViewMode](Outlook.OlTimelineViewMode.md)** constant that indicates the view mode for the **[TimelineView](Outlook.TimelineView.md)** object. Read/write.
 
 
 ## Syntax
 
- _expression_. `TimelineViewMode`
+_expression_. `TimelineViewMode`
 
-_expression_ A variable that represents a [TimelineView](./Outlook.TimelineView.md) object.
+_expression_ A variable that represents a [TimelineView](Outlook.TimelineView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example configures the current  **TimelineView** object to display Outlook items by month, with week number labels on the lower portion of the timeline scale, with labels no longer than 40 characters.
+The following Visual Basic for Applications (VBA) example configures the current **TimelineView** object to display Outlook items by month, with week number labels on the lower portion of the timeline scale, with labels no longer than 40 characters.
 
 
 ```vb

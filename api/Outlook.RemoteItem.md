@@ -1,35 +1,34 @@
 ---
-title: RemoteItem Object (Outlook)
+title: RemoteItem object (Outlook)
 keywords: vbaol11.chm3006
 f1_keywords:
 - vbaol11.chm3006
-ms.prod: outlook
 api_name:
 - Outlook.RemoteItem
 ms.assetid: 6302aaff-cdcf-4d86-60f1-4bed15540d9f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem Object (Outlook)
+# RemoteItem object (Outlook)
 
 Represents a remote item in an Inbox folder.
 
 
 ## Remarks
 
-The  **RemoteItem** object is similar to the **[MailItem](Outlook.MailItem.md)** object, but it contains only the **Subject**,  **Received Date** and **Time**,  **Sender**,  **Size**, and the first 256 characters of the body of the message. It is used to give someone connecting in remote mode enough information to decide whether or not to download the corresponding mail message. However, the headers in items contained in an Offline Folders file (.ost) cannot be accessed using the  **RemoteItem** object.
+The **RemoteItem** object is similar to the **[MailItem](Outlook.MailItem.md)** object, but it contains only the **Subject**, **Received Date** and **Time**, **Sender**, **Size**, and the first 256 characters of the body of the message. It's used to give someone connecting in remote mode enough information to decide whether or not to download the corresponding mail message. However, the headers in items contained in an Offline Folders file (.ost) cannot be accessed using the **RemoteItem** object.
 
-Unlike other Microsoft Outlook objects, you cannot create this object. Remote items are created by Outlook automatically when you use a Remote Access System (RAS) connection. Each  **RemoteItem** object created on the local system corresponds to a preexisting **MailItem** object on the remote system.
+Unlike other Microsoft Outlook objects, you cannot create this object. Remote items are created by Outlook automatically when you use a Remote Access System (RAS) connection. Each **RemoteItem** object created on the local system corresponds to a preexisting **MailItem** object on the remote system.
 
-The  **RemoteItem** object inherits a number of properties, methods, and events that, because of the nature of the object, have no function. The **Object Browser** shows these properties, methods, and events as belonging to the **RemoteItem** object, but trying to use them will produce no effect.
+The **RemoteItem** object inherits a number of properties, methods, and events that, because of the nature of the object, have no function. The **Object Browser** shows these properties, methods, and events as belonging to the **RemoteItem** object, but trying to use them will produce no effect.
 
-The methods that do not work for the  **RemoteItem** object include **Close**, **Copy**, **Display**, **Move**, and **Save**.
+The methods that don't work for the **RemoteItem** object include **Close**, **Copy**, **Display**, **Move**, and **Save**.
 
-The properties that do not work for the  **RemoteItem** object include **BillingInformation**, **Body**, **Categories**, **Companies**, and **Mileage**.
+The properties that don't work for the **RemoteItem** object include **BillingInformation**, **Body**, **Categories**, **Companies**, and **Mileage**.
 
-The events that do not work for the  **RemoteItem** object include **Open**, **Close**, **Forward**, **Reply**, **ReplyAll**, and **Send**.
+The events that don't work for the **RemoteItem** object include **Open**, **Close**, **Forward**, **Reply**, **ReplyAll**, and **Send**.
 
 
 ## Events
@@ -133,6 +132,6 @@ The events that do not work for the  **RemoteItem** object include **Open**, **C
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

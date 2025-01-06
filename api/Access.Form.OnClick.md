@@ -3,12 +3,11 @@ title: Form.OnClick property (Access)
 keywords: vbaac10.chm13449
 f1_keywords:
 - vbaac10.chm13449
-ms.prod: access
 api_name:
 - Access.Form.OnClick
 ms.assetid: a02c677d-d96b-754f-3ca8-0089a27a7e84
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **Click** event occurs when a user presses and releases the left mouse butto
 
 The **OnClick** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Click** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Click** box is blank, the property value is an empty string.
 

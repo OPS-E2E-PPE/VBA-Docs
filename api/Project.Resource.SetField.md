@@ -1,24 +1,24 @@
 ---
-title: Resource.SetField Method (Project)
-ms.prod: project-server
+title: Resource.SetField method (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.SetField
 ms.assetid: 9ac1e770-8716-2954-4459-7f5ff090e2ed
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.SetField Method (Project)
+# Resource.SetField method (Project)
 
 Sets the value of the specified resource custom field.
 
 
 ## Syntax
 
- _expression_. `SetField`( `_FieldID_`, `_Value_` )
+_expression_. `SetField`( `_FieldID_`, `_Value_` )
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Parameters
@@ -27,27 +27,27 @@ Sets the value of the specified resource custom field.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|For a local custom field, can be one of the  **[PjField](Project.PjField.md)** constants for resource custom fields. For an enterprise custom field, use the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method to get the FieldID.|
+| _FieldID_|Required|**Long**|For a local custom field, can be one of the **[PjField](Project.PjField.md)** constants for resource custom fields. For an enterprise custom field, use the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method to get the FieldID.|
 | _Value_|Required|**String**|The value of the field.|
 
 ## Example
 
-The following example shows how to access an enterprise resource custom field by using the  **SetField** method and the **GetField** method for the **Resource** object together with the **FieldNameToFieldConstant** and **FieldConstantToFieldName** methods.
+The following example shows how to access an enterprise resource custom field by using the **SetField** method and the **GetField** method for the **Resource** object together with the **FieldNameToFieldConstant** and **FieldConstantToFieldName** methods.
 
 
-1. To use the example, use Project Web App to create an enterprise resource text custom field named, for example,  **TestEntResText**. 
+1. To use the example, use Project Web App to create an enterprise resource text custom field named, for example, **TestEntResText**. 
     
 2. Restart Project Professional with a Project Server profile, so that it includes the new custom field.
     
 3. Create a project, build the team from enterprise resources, and then assign a resource to the first task.
     
-4. The  **TestEnterpriseResourceCF** macro uses the **FieldNameToFieldConstant** method to find the resourceField number, for example, 205553667.
+4. The **TestEnterpriseResourceCF** macro uses the **FieldNameToFieldConstant** method to find the resourceField number, for example, 205553667.
     
-5. The macro shows the number and text value in a message box, by using the  **GetField** method.
+5. The macro shows the number and text value in a message box, by using the **GetField** method.
     
-6. The macro sets a new value for the custom field, by using the  **SetField** method.
+6. The macro sets a new value for the custom field, by using the **SetField** method.
     
-7. The macro gets the field name by using the  **FieldConstantToFieldName** method, and then shows the field name and new value in another message box.
+7. The macro gets the field name by using the **FieldConstantToFieldName** method, and then shows the field name and new value in another message box.
     
 
 
@@ -71,7 +71,7 @@ Sub TestEnterpriseResourceCF()
     MsgBox message & "Field value: " & resourceFieldValue 
  
     ' Set a value for the enterprise resource custom field. 
-    ' You can use either the Resources collection or the Assignments collection 
+    ' Use either the Resources collection or the Assignments collection 
     ' to access the resource custom field. 
     ' Here, use the Assignments collection. 
     ActiveProject.Tasks(1).Assignments(1).Resource.SetField _
@@ -89,6 +89,6 @@ Sub TestEnterpriseResourceCF()
 End Sub
 ```
 
-For an example that uses a local resource custom field, see the  **[GetField](Project.Resource.GetField.md)** method.
+For an example that uses a local resource custom field, see the **[GetField](Project.Resource.GetField.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

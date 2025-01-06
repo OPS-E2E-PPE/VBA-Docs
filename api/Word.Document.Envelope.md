@@ -3,25 +3,24 @@ title: Document.Envelope property (Word)
 keywords: vbawd10.chm158007324
 f1_keywords:
 - vbawd10.chm158007324
-ms.prod: word
 api_name:
 - Word.Document.Envelope
 ms.assetid: 00978466-69b0-a6b8-6111-5b133dd820d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Envelope property (Word)
 
-Returns an  **[Envelope](Word.Envelope.md)** object that represents an envelope and envelope features in a document. Read-only.
+Returns an **[Envelope](Word.Envelope.md)** object that represents an envelope and envelope features in a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Envelope`
+_expression_. `Envelope`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

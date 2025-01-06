@@ -1,27 +1,27 @@
 ---
-title: Application.ZoomTimescale Method (Project)
+title: Application.ZoomTimescale method (Project)
 keywords: vbapj.chm307
 f1_keywords:
 - vbapj.chm307
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ZoomTimescale
 ms.assetid: d20b2c8a-bef2-5456-73f1-a6fa417b427e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ZoomTimescale Method (Project)
+# Application.ZoomTimescale method (Project)
 
 Zooms in on or out from the Gantt Chart, Resource Graph, Resource Usage, or Task Usage view to show information about tasks or resources in a certain duration.
 
 
 ## Syntax
 
- _expression_. `ZoomTimescale`( `_Duration_`, `_Entire_`, `_Selection_`, `_Reset_` )
+_expression_. `ZoomTimescale`( `_Duration_`, `_Entire_`, `_Selection_`, `_Reset_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

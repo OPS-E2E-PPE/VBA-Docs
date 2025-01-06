@@ -1,17 +1,16 @@
 ---
 title: TextRange2.BoundHeight property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.BoundHeight
 ms.assetid: 078ff3f3-745d-05f7-c81e-f78f603a45df
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextRange2.BoundHeight property (Office)
 
-Gets the height, in points, of the text bounding box for the specified text. Read-only.
+Gets the height, in [points](../language/glossary/vbe-glossary.md#point), of the text bounding box for the specified text. Read-only.
 
 
 ## Syntax

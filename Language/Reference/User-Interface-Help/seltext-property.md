@@ -3,12 +3,11 @@ title: SelText property
 keywords: fm20.chm2001890
 f1_keywords:
 - fm20.chm2001890
-ms.prod: office
 api_name:
 - Office.SelText
 ms.assetid: 75b9c27f-f6f7-6445-6d86-a53f046c1db6
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

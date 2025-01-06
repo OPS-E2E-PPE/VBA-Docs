@@ -1,20 +1,19 @@
 ---
 title: Revisions object (Word)
-ms.prod: word
 ms.assetid: 7f267a64-885a-cb4c-008a-e8545cea94d2
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Revisions object (Word)
 
-A collection of  **[Revision](Word.Revision.md)** objects that represent the changes marked with revision marks in a range or document.
+A collection of **[Revision](Word.Revision.md)** objects that represent the changes marked with revision marks in a range or document.
 
 
 ## Remarks
 
-Use the  **Revisions** property to return the **Revisions** collection. The following code example displays the number of revisions in the main text story.
+Use the **Revisions** property to return the **Revisions** collection. The following code example displays the number of revisions in the main text story.
 
 
 ```vb
@@ -42,7 +41,7 @@ Set myRange = Selection.Paragraphs(1).Range
 myRange.Revisions.AcceptAll
 ```
 
-The  **Add** method is not available for the **Revisions** collection. **Revision** objects are added when change tracking is enabled. Set the **TrackRevisions** property to **True** to track revisions made to the document text. The following code example enables revision tracking in the active document and then inserts "The " before the selection.
+The **Add** method is not available for the **Revisions** collection. **Revision** objects are added when change tracking is enabled. Set the **TrackRevisions** property to **True** to track revisions made to the document text. The following code example enables revision tracking in the active document and then inserts "The " before the selection.
 
 
 
@@ -52,7 +51,7 @@ ActiveDocument.TrackRevisions = True
 Selection.InsertBefore "The "
 ```
 
-Use  **Revisions** (Index), where Index is the index number, to return a single **Revision** object. The index number represents the position of the revision in the range or document. The following code example displays the author name for the first revision in the first section.
+Use **Revisions** (Index), where Index is the index number, to return a single **Revision** object. The index number represents the position of the revision in the range or document. The following code example displays the author name for the first revision in the first section.
 
 
 
@@ -61,7 +60,7 @@ Use  **Revisions** (Index), where Index is the index number, to return a single 
 MsgBox ActiveDocument.Sections(1).Range.Revisions(1).Author
 ```
 
-The  **Count** property for this collection in a document returns the number of items in the main story only. To count items in other stories use the collection with the **Range** object.
+The **Count** property for this collection in a document returns the number of items in the main story only. To count items in other stories use the collection with the **Range** object.
 
 
 ## Methods
@@ -88,6 +87,6 @@ The  **Count** property for this collection in a document returns the number of 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

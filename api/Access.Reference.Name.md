@@ -3,18 +3,17 @@ title: Reference.Name property (Access)
 keywords: vbaac10.chm12630
 f1_keywords:
 - vbaac10.chm12630
-ms.prod: access
 api_name:
 - Access.Reference.Name
 ms.assetid: ba0e186c-14d6-3c94-c5f2-a54320ae0de9
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Reference.Name property (Access)
 
-You can use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
+Use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
 
 
 ## Syntax

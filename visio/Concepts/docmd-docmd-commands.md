@@ -3,18 +3,17 @@ title: DoCmd/DOCMD Commands
 keywords: vis_sdr.chm1046209
 f1_keywords:
 - vis_sdr.chm1046209
-ms.prod: visio
 ms.assetid: b8390f44-607c-c32a-5200-e1559c51b2a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DoCmd/DOCMD Commands
 
-The following table contains the list of supported commands for use with the DOCMD function (ShapeSheet interface) and the  **DoCmd** method (Automation interface), along with information about the contexts in which they are supported.
+The following table contains the list of supported commands for use with the DOCMD function (ShapeSheet interface) and the **DoCmd** method (Automation interface), along with information about the contexts in which they are supported.
 
-The DOCMD function takes a numeric argument only; the  **DoCmd** method takes either a constant or numeric value.
+The DOCMD function takes a numeric argument only; the **DoCmd** method takes either a constant or numeric value.
 
 
 |**Member of VisUICmds**|**Value**|**Automation**|**ShapeSheet**|

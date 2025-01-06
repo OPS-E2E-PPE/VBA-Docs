@@ -1,27 +1,26 @@
 ---
-title: DocumentWindow.BlackAndWhite Property (PowerPoint)
+title: DocumentWindow.BlackAndWhite property (PowerPoint)
 keywords: vbapp10.chm511007
 f1_keywords:
 - vbapp10.chm511007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DocumentWindow.BlackAndWhite
 ms.assetid: 1363b7df-8de5-955f-60a7-682cd6b4c848
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentWindow.BlackAndWhite Property (PowerPoint)
+# DocumentWindow.BlackAndWhite property (PowerPoint)
 
 Determines whether the document window display is black and white. Read/write.
 
 
 ## Syntax
 
- _expression_. `BlackAndWhite`
+_expression_.**BlackAndWhite**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **BlackAndWhite** property can be one of these **MsoTriState** constants.
+The value of the **BlackAndWhite** property can be one of these **MsoTriState** constants.
 
 
 

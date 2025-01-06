@@ -3,12 +3,11 @@ title: Style.LinkToListTemplate method (Word)
 keywords: vbawd10.chm153878629
 f1_keywords:
 - vbawd10.chm153878629
-ms.prod: word
 api_name:
 - Word.Style.LinkToListTemplate
 ms.assetid: 1b938b1b-aa8f-655b-123e-fb6f00229e23
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Links the specified style to a list template so that the style's formatting can 
 
 ## Syntax
 
- _expression_. `LinkToListTemplate`( `_ListTemplate_` , `_ListLevelNumber_` )
+_expression_. `LinkToListTemplate`( `_ListTemplate_` , `_ListLevelNumber_` )
 
- _expression_ Required. A variable that represents a '[Style](Word.Style.md)' object.
+_expression_ Required. A variable that represents a '[Style](Word.Style.md)' object.
 
 
 ## Parameters

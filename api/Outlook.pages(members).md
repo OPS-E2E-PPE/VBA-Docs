@@ -1,15 +1,14 @@
 ---
 title: Pages Members (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 1c010b2b-5ab5-4293-8dfe-8fa2f792eaaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Pages Members (Outlook Forms Script)
 
-Represents all the pages of a  [MultiPage](Outlook.multipage.md).
+Represents all the pages of a [MultiPage](Outlook.multipage.md).
 
 
 ## Methods
@@ -31,6 +30,6 @@ Represents all the pages of a  [MultiPage](Outlook.multipage.md).
 
 |Name|Description|
 |:-----|:-----|
-| [Count](Outlook.Pages.count.md)|Returns a  **Long** that represents the number of objects in a collection. Read-only.|
+| [Count](Outlook.Pages.count.md)|Returns a **Long** that represents the number of objects in a collection. Read-only.|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

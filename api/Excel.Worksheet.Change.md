@@ -1,51 +1,48 @@
 ---
-title: Worksheet.Change Event (Excel)
+title: Worksheet.Change event (Excel)
 keywords: vbaxl10.chm502079
 f1_keywords:
 - vbaxl10.chm502079
-ms.prod: excel
 api_name:
 - Excel.Worksheet.Change
 ms.assetid: d9e11d08-41ba-f0a8-dc55-6c6cd4e76dd0
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/30/2019
+ms.localizationpriority: medium
 ---
 
 
-# Worksheet.Change Event (Excel)
+# Worksheet.Change event (Excel)
 
 Occurs when cells on the worksheet are changed by the user or by an external link.
 
 
 ## Syntax
 
-_expression_. `Change`( `_Target_` )
+_expression_.**Change** (_Target_)
 
-_expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+_expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Target_|Required| **[Range](Excel.Range(object).md)**|The changed range. Can be more than one cell.|
 
+
 ## Return value
 
-Nothing
+**Nothing**
 
 
 ## Remarks
 
-This event does not occur when cells change during a recalculation. Use the  **[Calculate](Excel.Chart.Calculate.md)** event to trap a sheet recalculation.
+This event does not occur when cells change during a recalculation. Use the **[Calculate](excel.worksheet.calculate(even).md)** event to trap a sheet recalculation.
 
 
 ## Example
 
 The following code example changes the color of changed cells to blue.
-
 
 ```vb
 Private Sub Worksheet_Change(ByVal Target as Range) 
@@ -53,14 +50,7 @@ Private Sub Worksheet_Change(ByVal Target as Range)
 End Sub
 ```
 
-
-
- **Sample code provided by** Bill Jelen, [MrExcel.com](https://www.mrexcel.com/) | [About the Contributors](#about-the-contributors)
-
 The following code example verifies that, when a cell value changes, the changed cell is in column A, and if the changed value of the cell is greater than 100. If the value is greater than 100, the adjacent cell in column B is changed to the color red.
-
-
-
 
 ```vb
 Private Sub Worksheet_Change(ByVal Target As Excel.Range) 
@@ -76,13 +66,7 @@ End Sub
 ```
 
 
-
- **Sample code provided by** Tom Urtis, [Atlas Programming Management](https://www.atlaspm.com/) | [About the Contributors](#about-the-contributors)
-
 The following code example sets the values in the range A1:A10 to be uppercase as the data is entered into the cell.
-
-
-
 
 ```vb
 Private Sub Worksheet_Change(ByVal Target As Range)
@@ -95,16 +79,6 @@ End Sub
 ```
 
 
-### About the contributors
 
-MVP Bill Jelen is the author of more than two dozen books about Microsoft Excel. He is a regular guest on TechTV with Leo Laporte and is the host of MrExcel.com, which includes more than 300,000 questions and answers about Excel. 
-
-MVP Tom Urtis is the founder of Atlas Programming Management, a full-service Microsoft Office and Excel business solutions company in Silicon Valley. Tom has over 25 years of experience in business management and developing Microsoft Office applications, and is the co author of "Holy Macro! It's 2,500 Excel VBA Examples." 
-
-
-## See also
-
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,29 +1,29 @@
 ---
-title: CalendarDrivers.TotalDetectedCount Property (Project)
-ms.prod: project-server
+title: CalendarDrivers.TotalDetectedCount property (Project)
+ms.service: project-server
 api_name:
 - Project.CalendarDrivers.TotalDetectedCount
 ms.assetid: 4795fd3b-ed28-651a-ac86-abe055489832
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarDrivers.TotalDetectedCount Property (Project)
+# CalendarDrivers.TotalDetectedCount property (Project)
 
-Gets the total number of calendar drivers that affect the dates of a task. Read-only  **Long**.
+Gets the total number of calendar drivers that affect the dates of a task. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `TotalDetectedCount`
+_expression_. `TotalDetectedCount`
 
- _expression_ A variable that represents a 'CalendarDrivers' object.
+_expression_ A variable that represents a 'CalendarDrivers' object.
 
 
 ## Remarks
 
-For an example that uses actual start drivers, see  **[TotalDetectedCount](Project.ActualStartDrivers.TotalDetectedCount.md)** for the **ActualStartDrivers** object.
+For an example that uses actual start drivers, see **[TotalDetectedCount](Project.ActualStartDrivers.TotalDetectedCount.md)** for the **ActualStartDrivers** object.
 
 
 ## See also

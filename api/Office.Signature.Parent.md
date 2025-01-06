@@ -3,12 +3,11 @@ title: Signature.Parent property (Office)
 keywords: vbaof11.chm248007
 f1_keywords:
 - vbaof11.chm248007
-ms.prod: office
 api_name:
 - Office.Signature.Parent
 ms.assetid: 0b30078a-8f03-48b6-2b72-b3f2ddfaa76f
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

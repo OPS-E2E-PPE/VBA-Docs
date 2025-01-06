@@ -3,30 +3,29 @@ title: Global.LandscapeFontNames property (Word)
 keywords: vbawd10.chm163119116
 f1_keywords:
 - vbawd10.chm163119116
-ms.prod: word
 api_name:
 - Word.Global.LandscapeFontNames
 ms.assetid: 7c99f031-9290-1ff2-f2b6-da038a1c423b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.LandscapeFontNames property (Word)
 
-Returns a  **FontNames** object that includes the names of all the available landscape fonts.
+Returns a **FontNames** object that includes the names of all the available landscape fonts.
 
 
 ## Syntax
 
- _expression_. `LandscapeFontNames`
+_expression_. `LandscapeFontNames`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example
 
-This example creates a sorted list in a new document of the landscape font names in the  **FontNames** object.
+This example creates a sorted list in a new document of the landscape font names in the **FontNames** object.
 
 
 ```vb

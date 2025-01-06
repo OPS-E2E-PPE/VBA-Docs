@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Name Property (Project)
-ms.prod: project-server
+title: ShapeRange.Name property (Project)
+ms.service: project-server
 ms.assetid: aff8caaf-a2bc-b530-69e5-7212ba771acd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Name Property (Project)
-Gets or sets the name of the shape range. Read-write  **String**.
+# ShapeRange.Name property (Project)
+Gets or sets the name of the shape range. Read/write **String**.
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

@@ -1,18 +1,18 @@
 ---
-title: Timeline Object (Project)
+title: Timeline object (Project)
 keywords: vbapj.chm131347
 f1_keywords:
 - vbapj.chm131347
 ms.assetid: 8e02e775-1999-edf8-e724-02e4a0d59bad
 ms.date: 06/08/2017
-ms.prod: project-server
-localization_priority: Normal
+ms.service: project-server
+ms.localizationpriority: medium
 ---
 
 
-# Timeline Object (Project)
+# Timeline object (Project)
 
-Contains a collection of [Timeline](./overview/Project.md) objects. Introduced in Office 2016.
+Contains a collection of [Timeline](overview/Project.md) objects. Introduced in Office 2016.
 
 
 ## Remarks

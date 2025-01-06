@@ -3,10 +3,10 @@ title: Chart Control
 keywords: vbaac10.chm5186602
 f1_keywords:
 - vbaac10.chm5186602
-ms.prod: access
+ms.service: access
 ms.assetid: 05e55ac2-f891-f008-18d8-173c3eed6c7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,7 +14,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the chart control to embed a chart that displays Microsoft Access data from a form or report. You can then edit the chart by using Microsoft Graph from within the form or report.
+Use the chart control to embed a chart that displays Microsoft Access data from a form or report. You can then edit the chart by using Graph from within the form or report.
 
 
 ## Remarks

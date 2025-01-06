@@ -1,55 +1,43 @@
 ---
-title: Shape.Flip Method (Publisher)
+title: Shape.Flip method (Publisher)
 keywords: vbapb10.chm2228245
 f1_keywords:
 - vbapb10.chm2228245
-ms.prod: publisher
 api_name:
 - Publisher.Shape.Flip
 ms.assetid: 6d0004a5-2d76-955a-64ff-140dfbc313f3
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Flip Method (Publisher)
+# Shape.Flip method (Publisher)
 
 Flips the specified shape around its horizontal or vertical axis, or flips all the shapes in the specified shape range around their horizontal or vertical axes.
 
 
 ## Syntax
 
- _expression_. **Flip**(**_FlipCmd_**)
+_expression_.**Flip** (_FlipCmd_)
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|FlipCmd|Required| **MsoFlipCmd**| Specifies whether the shape is flipped horizontally or vertically.|
+|_FlipCmd_|Required| **[MsoFlipCmd](office.msoflipcmd.md)**| Specifies whether the shape is flipped horizontally or vertically. Can be one of the **MsoFlipCmd** constants declared in the Microsoft Office type library. |
 
 ## Return value
 
 Nothing
 
 
-## Remarks
-
-The FlipCmd parameter can be one of the following  **MsoFlipCmd** constants declared in the Microsoft Office type library.
-
-
-
-| **msoFlipHorizontal**|
-| **msoFlipVertical**|
 
 ## Example
 
 This example adds a triangle to the first page of the active publication, duplicates the triangle, and then flips the duplicate triangle vertically and makes it red.
-
 
 ```vb
 With ActiveDocument.Pages(1).Shapes _ 

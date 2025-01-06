@@ -3,12 +3,11 @@ title: Form.BeforeUpdate event (Access)
 keywords: vbaac10.chm13637
 f1_keywords:
 - vbaac10.chm13637
-ms.prod: access
 api_name:
 - Access.Form.BeforeUpdate
 ms.assetid: b783fcab-f697-a464-820c-712eac46cb4b
 ms.date: 02/12/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -60,7 +59,7 @@ You often use the **BeforeUpdate** event to validate data, especially when you p
 > [!NOTE] 
 > To perform simple validations, or more complex validations such as requiring a value in a field or validating more than one control on a form, you can use the **ValidationRule** property for controls and the **ValidationRule** and **Required** properties for fields and records in tables.
 
-A run-time error will occur if you attempt to modify the data contained in the control that fired the **BeforeUpdate** event in the event's procedure.
+A run-time error occurs if you attempt to modify the data contained in the control that fired the **BeforeUpdate** event in the event's procedure.
 
 
 ## Example
@@ -81,8 +80,6 @@ Private Sub ProductName_BeforeUpdate(Cancel As Integer)
 End Sub
 ```
 
-<br/>
-
 The following example shows how to display a message when a control is empty on a continuous form when a user moves to another record.
 
 ```vb
@@ -97,8 +94,6 @@ Private Sub Form_BeforeUpdate(Cancel As Integer)
     Next oContr
 End Sub
 ```
-
-<br/>
 
 The following example shows how to use the **BeforeUpdate** event of a form to require that a value be entered into one control when another control also has data.
 

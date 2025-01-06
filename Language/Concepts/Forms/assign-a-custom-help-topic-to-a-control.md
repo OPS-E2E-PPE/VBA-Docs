@@ -3,10 +3,9 @@ title: Assign a custom Help topic to a control
 keywords: fm20.chm5225221
 f1_keywords:
 - fm20.chm5225221
-ms.prod: office
 ms.assetid: 5f4b7503-86c7-b50c-7ea3-bcc6a16e6026
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

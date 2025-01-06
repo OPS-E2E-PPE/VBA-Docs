@@ -1,27 +1,26 @@
 ---
-title: Connects.ToSheet Property (Visio)
+title: Connects.ToSheet property (Visio)
 keywords: vis_sdr.chm10414585
 f1_keywords:
 - vis_sdr.chm10414585
-ms.prod: visio
 api_name:
 - Visio.Connects.ToSheet
 ms.assetid: a5884fda-45cb-9b2b-da19-788db429e6f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Connects.ToSheet Property (Visio)
+# Connects.ToSheet property (Visio)
 
 Returns the shape to which one or more connections are made. Read-only.
 
 
 ## Syntax
 
- _expression_. `ToSheet`
+_expression_.**ToSheet**
 
- _expression_ A variable that represents a [Connects](./Visio.Connects.md) object.
+_expression_ A variable that represents a **[Connects](Visio.Connects.md)** object.
 
 
 ## Return value
@@ -31,16 +30,16 @@ Shape
 
 ## Remarks
 
-The  **ToSheet** property for a **Connect** object always returns the shape to which the connection is made.
+The **ToSheet** property for a **Connect** object always returns the shape to which the connection is made.
 
-The  **Connects** collection represents several connections. If every connection represented by the collection is made to the same shape, the **ToSheet** property returns that shape. Otherwise, it returns **Nothing** and does not raise an exception.
+The **Connects** collection represents several connections. If every connection represented by the collection is made to the same shape, the **ToSheet** property returns that shape. Otherwise, it returns **Nothing** and does not raise an exception.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **ToSheet** property to find the shape a **Connect** object originates from in a Microsoft Visio drawing. The example displays the connection information in the Immediate window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **ToSheet** property to find the shape a **Connect** object originates from in a Microsoft Visio drawing. The example displays the connection information in the Immediate window.
 
-This example assumes there is an active document that contains at least two connected shapes. For best results, connect two shapes from the  **Organization Chart Shapes** stencil.
+This example assumes there is an active document that contains at least two connected shapes. For best results, connect two shapes from the **Organization Chart Shapes** stencil.
 
 
 

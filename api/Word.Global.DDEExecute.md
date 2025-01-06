@@ -3,12 +3,11 @@ title: Global.DDEExecute method (Word)
 keywords: vbawd10.chm163119414
 f1_keywords:
 - vbawd10.chm163119414
-ms.prod: word
 api_name:
 - Word.Global.DDEExecute
 ms.assetid: f1ae9960-59b9-e637-c507-606c13e36c92
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sends a command or series of commands to an application through the specified dy
 
 ## Syntax
 
- _expression_. `DDEExecute`( `_Channel_` , `_Command_` )
+_expression_. `DDEExecute`( `_Channel_` , `_Command_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters
@@ -30,15 +29,8 @@ Sends a command or series of commands to an application through the specified dy
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Channel_|Required| **Long**|The channel number returned by the  **DDEInitiate** method.|
+| _Channel_|Required| **Long**|The channel number returned by the **DDEInitiate** method.|
 | _Command_|Required| **String**|A command or series of commands recognized by the receiving application (the DDE server). If the receiving application cannot perform the specified command, an error occurs.|
-
-## Remarks
-
-
- **Security Note**  
-
-
 
 
 ## Example

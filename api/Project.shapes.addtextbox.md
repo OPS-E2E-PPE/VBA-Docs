@@ -1,20 +1,20 @@
 ---
-title: Shapes.AddTextbox Method (Project)
-ms.prod: project-server
+title: Shapes.AddTextbox method (Project)
+ms.service: project-server
 ms.assetid: ee8c619f-8b35-6f94-e680-86dbeedd6d19
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddTextbox Method (Project)
-Adds a text box to the report, and returns a  **Shape** object that represents the new text box.
+# Shapes.AddTextbox method (Project)
+Adds a text box to the report, and returns a **Shape** object that represents the new text box.
 
 ## Syntax
 
- _expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
+_expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -24,10 +24,10 @@ Adds a text box to the report, and returns a  **Shape** object that represents t
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Orientation_|Required|**MsoTextOrientation**|The orientation of the text box. Some constants may not be available, depending on the language that is installed.|
-| _Left_|Required|**Single**|The position, in points, of the left edge of the text box.|
-| _Top_|Required|**Single**|The position, in points, of the top edge of the text box.|
-| _Width_|Required|**Single**|The width, in points, of the text box.|
-| _Height_|Required|**Single**|The height, in points, of the text box.|
+| _Left_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the left edge of the text box.|
+| _Top_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the top edge of the text box.|
+| _Width_|Required|**Single**|The width, in [points](../language/glossary/vbe-glossary.md#point), of the text box.|
+| _Height_|Required|**Single**|The height, in [points](../language/glossary/vbe-glossary.md#point), of the text box.|
 | _Orientation_|Required|MSOTEXTORIENTATION||
 | _Left_|Required|FLOAT||
 | _Top_|Required|FLOAT||
@@ -42,7 +42,7 @@ Adds a text box to the report, and returns a  **Shape** object that represents t
 
 ## Example
 
-The following example adds a text box with a light yellow background and a visible border. The text string is formatted and manipulated by using members of the  **TextFrame2** object.
+The following example adds a text box with a light yellow background and a visible border. The text string is formatted and manipulated by using members of the **TextFrame2** object.
 
 
 ```vb
@@ -56,7 +56,7 @@ Sub AddTextBoxShape()
     Set theReport = ActiveProject.Reports.Add(reportName)
     Set textShape = theReport.Shapes.AddTextbox(msoTextOrientationHorizontal, 30, 50, 300, 100)
     
-    textShape.TextFrame2.TextRange.Characters.Text = "This is a test. It is only a test. " _
+    textShape.TextFrame2.TextRange.Characters.Text = "This is a test. It's only a test. " _
         & "If it had been real information, there would be some real text here."
     textShape.TextFrame2.TextRange.Characters(1, 15).ParagraphFormat.FirstLineIndent = 10
     textShape.TextFrame2.TextRange.Characters(16).InsertBefore vbCrLf

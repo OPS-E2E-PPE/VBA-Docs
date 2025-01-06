@@ -3,23 +3,22 @@ title: ProtectedViewWindow.Activate method (Word)
 keywords: vbawd10.chm231735396
 f1_keywords:
 - vbawd10.chm231735396
-ms.prod: word
 api_name:
 - Word.ProtectedViewWindow.Activate
 ms.assetid: a784fceb-38b9-2fc4-6c71-fcfb17b53dfe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ProtectedViewWindow.Activate method (Word)
 
-Activates the specified protected view window.
+Activates the specified Protected View window.
 
 
 ## Syntax
 
- _expression_. `Activate`
+_expression_.**Activate**
 
  _expression_ An expression that returns a '[ProtectedViewWindow Object](Word.ProtectedViewWindow.md)' object.
 
@@ -31,7 +30,7 @@ Nothing
 
 ## Example
 
-The following code example activates the next protected view window in the [ProtectedViewWindows](Word.ProtectedViewWindows.md) collection.
+The following code example activates the next Protected View window in the [ProtectedViewWindows](Word.ProtectedViewWindows.md) collection.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: Switch function (Visual Basic for Applications)
 keywords: vblr6.chm1010096
 f1_keywords:
 - vblr6.chm1010096
-ms.prod: office
 ms.assetid: 458ebfcb-af87-1c3b-3f4b-5f308aefa7d9
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Evaluates a list of [expressions](../../Glossary/vbe-glossary.md#expression) and
 ## Syntax
 
 **Switch**(_expr-1_, _value-1_, [ _expr-2_, _value-2_…, [ _expr-n_, _value-n_ ]])
-
-<br/>
 
 The **Switch** function syntax has these parts:
 

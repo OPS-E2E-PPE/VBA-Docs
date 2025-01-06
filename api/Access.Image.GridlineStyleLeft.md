@@ -3,18 +3,17 @@ title: Image.GridlineStyleLeft property (Access)
 keywords: vbaac10.chm10417
 f1_keywords:
 - vbaac10.chm10417
-ms.prod: access
 api_name:
 - Access.Image.GridlineStyleLeft
 ms.assetid: 830eac6e-9992-057c-5905-92a17bb1d628
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # Image.GridlineStyleLeft property (Access)
 
-Gets or sets the left gridline style of the specified image. Read/write **Byte**.
+Gets or sets the left gridline style of the specified image control. Read/write **Byte**.
 
 
 ## Syntax

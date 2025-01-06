@@ -3,12 +3,11 @@ title: Document.CheckSpelling method (Word)
 keywords: vbawd10.chm158007428
 f1_keywords:
 - vbawd10.chm158007428
-ms.prod: word
 api_name:
 - Word.Document.CheckSpelling
 ms.assetid: a61a9c8b-0dee-f6e4-cefc-daca612c99c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Begins a spelling check for the specified document or range. .
 
 ## Syntax
 
- _expression_. `CheckSpelling`( `_CustomDictionary_` , `_IgnoreUppercase_` , `_AlwaysSuggest_` , `_CustomDictionary2_` , `_CustomDictionary3_` , `_CustomDictionary4_` , `_CustomDictionary5_` , `_CustomDictionary6_` , `_CustomDictionary7_` , `_CustomDictionary8_` , `_CustomDictionary9_` , `_CustomDictionary10_` )
+_expression_.**CheckSpelling** (_CustomDictionary_, _IgnoreUppercase_, _AlwaysSuggest_, _CustomDictionary2_, _CustomDictionary3_, _CustomDictionary4_, _CustomDictionary5_, _CustomDictionary6_, _CustomDictionary7_, _CustomDictionary8_, _CustomDictionary9_, _CustomDictionary10_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +32,7 @@ Begins a spelling check for the specified document or range. .
 
 ## Remarks
 
-If the document or range contains errors, this method displays the  **Spelling and Grammar** dialog box (**Tools** menu), with the **Check grammar** check box cleared. For a document, this method checks all available stories (such as headers, footers, and text boxes).
+If the document or range contains errors, this method displays the **Spelling and Grammar** dialog box (**Tools** menu), with the **Check grammar** check box cleared. For a document, this method checks all available stories (such as headers, footers, and text boxes).
 
 
 ## Example

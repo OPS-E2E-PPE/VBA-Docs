@@ -3,25 +3,24 @@ title: Document.JustificationMode property (Word)
 keywords: vbawd10.chm158007606
 f1_keywords:
 - vbawd10.chm158007606
-ms.prod: word
 api_name:
 - Word.Document.JustificationMode
 ms.assetid: 17d1a45f-eab7-b9f4-99d7-b5a12c7acc10
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.JustificationMode property (Word)
 
-Returns or sets the character spacing adjustment for the specified document. Read/write  **[WdJustificationMode](Word.WdJustificationMode.md)**.
+Returns or sets the character spacing adjustment for the specified document. Read/write **[WdJustificationMode](Word.WdJustificationMode.md)**.
 
 
 ## Syntax
 
- _expression_. `JustificationMode`
+_expression_. `JustificationMode`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

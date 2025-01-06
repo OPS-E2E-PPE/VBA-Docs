@@ -1,27 +1,26 @@
 ---
-title: SlideShowView.PointerType Property (PowerPoint)
+title: SlideShowView.PointerType property (PowerPoint)
 keywords: vbapp10.chm513005
 f1_keywords:
 - vbapp10.chm513005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowView.PointerType
 ms.assetid: 58f40da1-ae25-4604-86bc-6fb884b8fd16
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowView.PointerType Property (PowerPoint)
+# SlideShowView.PointerType property (PowerPoint)
 
 Returns or sets the type of pointer used in the slide show. Read/write.
 
 
 ## Syntax
 
- _expression_. `PointerType`
+_expression_. `PointerType`
 
- _expression_ A variable that represents a [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents a [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpSlideShowPointerType
 
 ## Remarks
 
-The value of the  **PointerType** property can be one of these **PpSlideShowPointerType** constants.
+The value of the **PointerType** property can be one of these **PpSlideShowPointerType** constants.
 
 
 ||

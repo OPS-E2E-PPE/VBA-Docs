@@ -3,25 +3,24 @@ title: Global.FontNames property (Word)
 keywords: vbawd10.chm163119115
 f1_keywords:
 - vbawd10.chm163119115
-ms.prod: word
 api_name:
 - Word.Global.FontNames
 ms.assetid: aa70c33b-2ca3-849a-54b0-fe050072f9ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.FontNames property (Word)
 
-Returns a  **[FontNames](Word.FontNames.md)** object that includes the names of all the available fonts. Read-only.
+Returns a **[FontNames](Word.FontNames.md)** object that includes the names of all the available fonts. Read-only.
 
 
 ## Syntax
 
- _expression_. `FontNames`
+_expression_. `FontNames`
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example

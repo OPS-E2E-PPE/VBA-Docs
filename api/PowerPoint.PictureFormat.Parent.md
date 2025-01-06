@@ -1,27 +1,26 @@
 ---
-title: PictureFormat.Parent Property (PowerPoint)
+title: PictureFormat.Parent property (PowerPoint)
 keywords: vbapp10.chm551001
 f1_keywords:
 - vbapp10.chm551001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PictureFormat.Parent
 ms.assetid: bb25c345-3b60-0484-1c21-4f2af88cc20f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PictureFormat.Parent Property (PowerPoint)
+# PictureFormat.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

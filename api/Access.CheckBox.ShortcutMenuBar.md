@@ -3,18 +3,17 @@ title: CheckBox.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10719
 f1_keywords:
 - vbaac10.chm10719
-ms.prod: access
 api_name:
 - Access.CheckBox.ShortcutMenuBar
 ms.assetid: 1f9bf8b4-d0c7-ddd3-9c4f-cb9bd863463e
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

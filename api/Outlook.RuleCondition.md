@@ -1,20 +1,19 @@
 ---
-title: RuleCondition Object (Outlook)
+title: RuleCondition object (Outlook)
 keywords: vbaol11.chm3173
 f1_keywords:
 - vbaol11.chm3173
-ms.prod: outlook
 api_name:
 - Outlook.RuleCondition
 ms.assetid: e03f91c2-2c08-b036-104a-d6246f28bc2d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RuleCondition Object (Outlook)
+# RuleCondition object (Outlook)
 
-The  **RuleCondition** object represents either a condition that must be met before a rule executes, or an exception condition that must not be met before a rule executes.
+The **RuleCondition** object represents either a condition that must be met before a rule executes, or an exception condition that must not be met before a rule executes.
 
 
 ## Remarks
@@ -22,23 +21,23 @@ The  **RuleCondition** object represents either a condition that must be met bef
  **RuleCondition** is the base class for rule conditions that are supported in programmatic rule creation. The classes derived from **RuleCondition** include:
 
 
--  **[AccountRuleCondition](Outlook.AccountRuleCondition.md)**
+- **[AccountRuleCondition](Outlook.AccountRuleCondition.md)**
     
--  **[AddressRuleCondition](Outlook.AddressRuleCondition.md)**
+- **[AddressRuleCondition](Outlook.AddressRuleCondition.md)**
     
--  **[CategoryRuleCondition](Outlook.CategoryRuleCondition.md)**
+- **[CategoryRuleCondition](Outlook.CategoryRuleCondition.md)**
     
--  **[FromRssFeedRuleCondition](Outlook.FromRssFeedRuleCondition.md)**
+- **[FromRssFeedRuleCondition](Outlook.FromRssFeedRuleCondition.md)**
     
--  **[FormNameRuleCondition](Outlook.FormNameRuleCondition.md)**
+- **[FormNameRuleCondition](Outlook.FormNameRuleCondition.md)**
     
--  **[ImportanceRuleCondition](Outlook.ImportanceRuleCondition.md)**
+- **[ImportanceRuleCondition](Outlook.ImportanceRuleCondition.md)**
     
--  **[SenderInAddressListRuleCondition](Outlook.SenderInAddressListRuleCondition.md)**
+- **[SenderInAddressListRuleCondition](Outlook.SenderInAddressListRuleCondition.md)**
     
--  **[TextRuleCondition](Outlook.TextRuleCondition.md)**
+- **[TextRuleCondition](Outlook.TextRuleCondition.md)**
     
--  **[ToOrFromRuleCondition](Outlook.ToOrFromRuleCondition.md)**
+- **[ToOrFromRuleCondition](Outlook.ToOrFromRuleCondition.md)**
     
 
 
@@ -63,6 +62,6 @@ For more information on rule conditions, see [Specifying Rule Conditions](../out
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

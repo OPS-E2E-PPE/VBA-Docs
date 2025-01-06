@@ -1,15 +1,14 @@
 ---
-title: XlRgbColor Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlRgbColor enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlRgbColor
 ms.assetid: 46ecfb82-2b84-2c22-1ac9-0aa67ad78975
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlRgbColor Enumeration (PowerPoint)
+# XlRgbColor enumeration (PowerPoint)
 
 Specifies the RGB color.
 

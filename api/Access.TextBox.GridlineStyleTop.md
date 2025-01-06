@@ -3,12 +3,11 @@ title: TextBox.GridlineStyleTop property (Access)
 keywords: vbaac10.chm11157
 f1_keywords:
 - vbaac10.chm11157
-ms.prod: access
 api_name:
 - Access.TextBox.GridlineStyleTop
 ms.assetid: 57a47306-5b85-06e0-e59f-f86e617d9c75
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

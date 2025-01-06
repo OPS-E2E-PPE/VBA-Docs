@@ -3,30 +3,27 @@ title: Document.Redo method (Word)
 keywords: vbawd10.chm158007413
 f1_keywords:
 - vbawd10.chm158007413
-ms.prod: word
 api_name:
 - Word.Document.Redo
 ms.assetid: 0fb5671e-c933-50e6-e1fa-fe146666ad80
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Redo method (Word)
 
-Redoes the last action that was undone (reverses the  **Undo** method). Returns **True** if the actions were redone successfully.
+Redoes the last action that was undone (reverses the **Undo** method). Returns **True** if the actions were redone successfully.
 
 
 ## Syntax
 
- _expression_. `Redo`( `_Times_` )
+_expression_.**Redo** (_Times_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -3,32 +3,31 @@ title: Axis.MajorUnit property (Word)
 keywords: vbawd10.chm113049620
 f1_keywords:
 - vbawd10.chm113049620
-ms.prod: word
 api_name:
 - Word.Axis.MajorUnit
 ms.assetid: abfe244f-2718-dc5d-ebc0-d276ee274231
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MajorUnit property (Word)
 
-Returns or sets the major units for the value axis. Read/write  **Double**.
+Returns or sets the major units for the value axis. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `MajorUnit`
+_expression_. `MajorUnit`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting this property sets the  **[MajorUnitIsAuto](Word.Axis.MajorUnitIsAuto.md)** property to **False**.
+Setting this property sets the **[MajorUnitIsAuto](Word.Axis.MajorUnitIsAuto.md)** property to **False**.
 
-Use the  **[TickMarkSpacing](Word.Axis.TickMarkSpacing.md)** property to set tick mark spacing on the category axis.
+Use the **[TickMarkSpacing](Word.Axis.TickMarkSpacing.md)** property to set tick mark spacing on the category axis.
 
 
 ## Example

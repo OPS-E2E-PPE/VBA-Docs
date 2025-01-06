@@ -1,24 +1,23 @@
 ---
-title: PlotArea.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: PlotArea.Select method (PowerPoint)
 api_name:
 - PowerPoint.PlotArea.Select
 ms.assetid: e723e99f-5e86-b33f-a340-50c75971f956
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlotArea.Select Method (PowerPoint)
+# PlotArea.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
 
 
 ## See also

@@ -3,18 +3,17 @@ title: CodeProject.BaseConnectionString property (Access)
 keywords: vbaac10.chm12713
 f1_keywords:
 - vbaac10.chm12713
-ms.prod: access
 api_name:
 - Access.CodeProject.BaseConnectionString
 ms.assetid: 118da929-8e30-25eb-c940-27ce924a88f7
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CodeProject.BaseConnectionString property (Access)
 
-You can use the **BaseConnectionString** property to return the base connection string for the specified object. Read-only **String**.
+Use the **BaseConnectionString** property to return the base connection string for the specified object. Read-only **String**.
 
 
 ## Syntax

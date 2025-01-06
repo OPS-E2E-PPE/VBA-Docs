@@ -3,12 +3,11 @@ title: Options.AutoFormatReplaceHyperlinks property (Word)
 keywords: vbawd10.chm162988305
 f1_keywords:
 - vbawd10.chm162988305
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatReplaceHyperlinks
 ms.assetid: affbc523-15c2-e029-22a7-a08c5d8c8410
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatReplaceHyperlinks`
+_expression_. `AutoFormatReplaceHyperlinks`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ Options.AutoFormatReplaceHyperlinks = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Internet and network paths with hyperlinks** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Internet and network paths with hyperlinks** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

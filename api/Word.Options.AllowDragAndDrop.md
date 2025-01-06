@@ -3,12 +3,11 @@ title: Options.AllowDragAndDrop property (Word)
 keywords: vbawd10.chm162988100
 f1_keywords:
 - vbawd10.chm162988100
-ms.prod: word
 api_name:
 - Word.Options.AllowDragAndDrop
 ms.assetid: f3cea42e-5fba-7415-bb7a-f214882cc566
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AllowDragAndDrop`
+_expression_. `AllowDragAndDrop`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

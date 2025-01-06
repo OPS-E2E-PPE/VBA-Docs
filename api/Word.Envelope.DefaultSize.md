@@ -3,30 +3,29 @@ title: Envelope.DefaultSize property (Word)
 keywords: vbawd10.chm152567808
 f1_keywords:
 - vbawd10.chm152567808
-ms.prod: word
 api_name:
 - Word.Envelope.DefaultSize
 ms.assetid: 2365a10b-229c-141b-49ab-7d6a0e2247b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.DefaultSize property (Word)
 
-Returns or sets the default envelope size. Read/write  **String**.
+Returns or sets the default envelope size. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `DefaultSize`
+_expression_. `DefaultSize`
 
- _expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
+_expression_ A variable that represents a '[Envelope](Word.Envelope.md)' object.
 
 
 ## Remarks
 
-The string that is returned corresponds to the right side of the string that appears in the  **Envelope Size** box in the **Envelope Options** dialog box. If you set either the **[DefaultHeight](Word.Envelope.DefaultHeight.md)** or **[DefaultWidth](Word.Envelope.DefaultWidth.md)** property, the envelope size is automatically changed to **Custom Size** in the **Envelope Options** dialog box (**Tools** menu) and this property returns "Custom size."
+The string that is returned corresponds to the right side of the string that appears in the **Envelope Size** box in the **Envelope Options** dialog box. If you set either the **[DefaultHeight](Word.Envelope.DefaultHeight.md)** or **[DefaultWidth](Word.Envelope.DefaultWidth.md)** property, the envelope size is automatically changed to **Custom Size** in the **Envelope Options** dialog box (**Tools** menu) and this property returns "Custom size."
 
 
 ## Example

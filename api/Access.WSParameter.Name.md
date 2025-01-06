@@ -3,18 +3,17 @@ title: WSParameter.Name property (Access)
 keywords: vbaac10.chm14584
 f1_keywords:
 - vbaac10.chm14584
-ms.prod: access
 api_name:
 - Access.WSParameter.Name
 ms.assetid: 437dd29f-9f63-2d68-d974-03ae6f1df001
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WSParameter.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -1,18 +1,17 @@
 ---
-title: VisSpatialRelationCodes Enumeration (Visio)
+title: VisSpatialRelationCodes enumeration (Visio)
 keywords: vis_sdr.chm70225
 f1_keywords:
 - vis_sdr.chm70225
-ms.prod: visio
 ms.assetid: 4834dcb7-48e4-14c4-272f-3531892a0ccd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisSpatialRelationCodes Enumeration (Visio)
+# VisSpatialRelationCodes enumeration (Visio)
 
-Codes for spatial relationships between shapes to be passed to the  **Shape.SpatialRelation** property.
+Codes for spatial relationships between shapes to be passed to the **Shape.SpatialRelation** property.
 
 
 ## Remarks

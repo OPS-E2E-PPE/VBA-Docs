@@ -3,12 +3,11 @@ title: SubForm.GridlineShade property (Access)
 keywords: vbaac10.chm14637
 f1_keywords:
 - vbaac10.chm14637
-ms.prod: access
 api_name:
 - Access.SubForm.GridlineShade
 ms.assetid: 404019d4-27c5-abf5-8015-c58d6ea5a3dc
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: ShadowFormat.IncrementOffsetY Method (PowerPoint)
+title: ShadowFormat.IncrementOffsetY method (PowerPoint)
 keywords: vbapp10.chm554003
 f1_keywords:
 - vbapp10.chm554003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShadowFormat.IncrementOffsetY
 ms.assetid: a220a04d-90d1-1788-b4d9-5b9af5739c69
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShadowFormat.IncrementOffsetY Method (PowerPoint)
+# ShadowFormat.IncrementOffsetY method (PowerPoint)
 
 Changes the vertical offset of the shadow by the specified number of points. 
 
 
 ## Syntax
 
- _expression_. `IncrementOffsetY`( `_Increment_` )
+_expression_.**IncrementOffsetY** (_Increment_)
 
- _expression_ A variable that represents an [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents an [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ Changes the vertical offset of the shadow by the specified number of points.
 
 ## Remarks
 
-Use the  **[OffsetY](PowerPoint.ShadowFormat.OffsetY.md)** property to set the absolute vertical shadow offset.
+Use the **[OffsetY](PowerPoint.ShadowFormat.OffsetY.md)** property to set the absolute vertical shadow offset.
 
 
 ## Example
 
-This example moves the shadow for shape three on  `myDocument` up by 3 points.
+This example moves the shadow for shape three on _myDocument_ up by 3 points.
 
 
 ```vb

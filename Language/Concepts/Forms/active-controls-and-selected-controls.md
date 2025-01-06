@@ -3,10 +3,9 @@ title: Active controls and selected controls
 keywords: fm20.chm5225272
 f1_keywords:
 - fm20.chm5225272
-ms.prod: office
 ms.assetid: 8d3c1a5b-c811-d714-5c69-c5d8dcb77e4b
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

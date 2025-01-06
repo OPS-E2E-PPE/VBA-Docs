@@ -3,12 +3,11 @@ title: ComboBox.ForeShade property (Access)
 keywords: vbaac10.chm14606
 f1_keywords:
 - vbaac10.chm14606
-ms.prod: access
 api_name:
 - Access.ComboBox.ForeShade
 ms.assetid: 7bf41b29-6f65-d82d-bea7-1f988381c946
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

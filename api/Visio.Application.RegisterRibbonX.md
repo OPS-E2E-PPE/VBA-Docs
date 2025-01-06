@@ -1,32 +1,29 @@
 ---
-title: Application.RegisterRibbonX Method (Visio)
+title: Application.RegisterRibbonX method (Visio)
 keywords: vis_sdr.chm10062090
 f1_keywords:
 - vis_sdr.chm10062090
-ms.prod: visio
 api_name:
 - Visio.Application.RegisterRibbonX
 ms.assetid: 178db1c3-b3af-aa3f-af03-1aec1eab549a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.RegisterRibbonX Method (Visio)
+# Application.RegisterRibbonX method (Visio)
 
-Registers the  **[IRibbonExtensibility](Office.IRibbonExtensibility.md)** interface that is implemented by the specified add-on to populate the custom user interface (UI).
+Registers the **[IRibbonExtensibility](Office.IRibbonExtensibility.md)** interface that is implemented by the specified add-on to populate the custom user interface (UI).
 
 
 ## Syntax
 
- _expression_. `RegisterRibbonX`( `_SourceAddOn_` , `_TargetDocument_` , `_TargetModes_` , `_FriendlyName_` )
+_expression_.**RegisterRibbonX** (_SourceAddOn_, _TargetDocument_, _TargetModes_, _FriendlyName_)
 
- _expression_ A variable that represents an '[Application](Visio.Application.md)' object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -1,11 +1,10 @@
 ---
 title: WdFieldShading enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdFieldShading
 ms.assetid: b5964c3d-6025-4637-5d1f-f483e997801e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

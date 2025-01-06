@@ -1,27 +1,27 @@
 ---
-title: Application.CustomFieldGetFormula Method (Project)
+title: Application.CustomFieldGetFormula method (Project)
 keywords: vbapj.chm131199
 f1_keywords:
 - vbapj.chm131199
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CustomFieldGetFormula
 ms.assetid: ce741a1a-1227-b3ae-f45e-0d1f3a048311
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CustomFieldGetFormula Method (Project)
+# Application.CustomFieldGetFormula method (Project)
 
 Returns the formula associated with a custom field.
 
 
 ## Syntax
 
- _expression_. `CustomFieldGetFormula`( `_FieldID_` )
+_expression_. `CustomFieldGetFormula`( `_FieldID_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

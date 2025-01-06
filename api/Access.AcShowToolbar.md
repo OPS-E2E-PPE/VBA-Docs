@@ -3,20 +3,17 @@ title: AcShowToolbar enumeration (Access)
 keywords: vbaac10.chm10038
 f1_keywords:
 - vbaac10.chm10038
-ms.prod: access
 api_name:
 - Access.AcShowToolbar
 ms.assetid: b8546ec8-fd58-a2b7-24a0-ee678bfa3f33
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcShowToolbar enumeration (Access)
 
 Used with the [DoCmd.ShowToolbar method (Access)](Access.DoCmd.ShowToolbar.md) method to specify whether to display a particular custom toolbar.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

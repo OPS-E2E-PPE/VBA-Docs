@@ -3,10 +3,9 @@ title: GetAttr function (Visual Basic for Applications)
 keywords: vblr6.chm1008929
 f1_keywords:
 - vblr6.chm1008929
-ms.prod: office
 ms.assetid: e64ff896-0fae-8a77-7b4c-9d21e83ff919
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

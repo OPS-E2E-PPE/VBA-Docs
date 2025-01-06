@@ -1,27 +1,26 @@
 ---
-title: Selection.DeleteEx Method (Visio)
+title: Selection.DeleteEx method (Visio)
 keywords: vis_sdr.chm11162730
 f1_keywords:
 - vis_sdr.chm11162730
-ms.prod: visio
 api_name:
 - Visio.Selection.DeleteEx
 ms.assetid: 8935a2de-2fab-0b2e-1595-a78d3dc2fd90
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.DeleteEx Method (Visio)
+# Selection.DeleteEx method (Visio)
 
 Deletes additional shapes associated with the selection, such as connectors and unselected container members, when the selection is deleted.
 
 
 ## Syntax
 
- _expression_. `DeleteEx`( `_DelFlags_` )
+_expression_. `DeleteEx`( `_DelFlags_` )
 
- _expression_ A variable that represents a '[Selection](Visio.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters

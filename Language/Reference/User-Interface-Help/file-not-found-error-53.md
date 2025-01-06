@@ -3,10 +3,9 @@ title: File not found (Error 53)
 keywords: vblr6.chm50012
 f1_keywords:
 - vblr6.chm50012
-ms.prod: office
 ms.assetid: 7161c105-4859-2b1b-bddf-b390deeb710c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -16,9 +15,9 @@ The file was not found where specified. This error has the following causes and 
 
 
 
-- A statement, for example,  **Kill**, **Name**, or **Open**, refers to a file that doesn't exist. Check the spelling of the file name and the path specification.
+- A statement, for example, **Kill**, **Name**, or **Open**, refers to a file that doesn't exist. Check the spelling of the file name and the path specification.
     
-- An attempt has been made to call a procedure in a [dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll), but the library or resource file name specified in the  **Lib** clause of the **Declare** statement can't be found.
+- An attempt has been made to call a procedure in a [dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll), but the library or resource file name specified in the **Lib** clause of the **Declare** statement can't be found.
     
     Check the spelling of the file name and the path specification.
     

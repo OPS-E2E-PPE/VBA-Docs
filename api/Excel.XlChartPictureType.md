@@ -1,19 +1,16 @@
 ---
 title: XlChartPictureType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlChartPictureType
 ms.assetid: 7d4f70ea-4a66-1b88-49cf-85200c8eebff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlChartPictureType enumeration (Excel)
 
 Specifies how pictures are displayed on a column, bar picture chart, or legend key.
-
-
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -1,18 +1,17 @@
 ---
-title: VisUniqueIDArgs Enumeration (Visio)
+title: VisUniqueIDArgs enumeration (Visio)
 keywords: vis_sdr.chm70075
 f1_keywords:
 - vis_sdr.chm70075
-ms.prod: visio
 ms.assetid: 7268c074-3de9-72c8-d20e-1f6008aff347
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisUniqueIDArgs Enumeration (Visio)
+# VisUniqueIDArgs enumeration (Visio)
 
-Action codes to be passed to the  **Shape.UniqueID** property.
+Action codes to be passed to the **Shape.UniqueID** property.
 
 
 

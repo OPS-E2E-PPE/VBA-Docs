@@ -3,20 +3,17 @@ title: AcCommand enumeration (Access)
 keywords: vbaac10.chm10037
 f1_keywords:
 - vbaac10.chm10037
-ms.prod: access
 api_name:
 - Access.AcCommand
 ms.assetid: a78f91cc-3b40-5f45-c737-4d3abb2e979f
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcCommand enumeration (Access)
 
 Used with the **[RunCommand](Access.Application.RunCommand.md)** method to run built-in commands.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

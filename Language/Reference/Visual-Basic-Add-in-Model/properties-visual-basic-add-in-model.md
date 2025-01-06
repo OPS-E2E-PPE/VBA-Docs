@@ -1,12 +1,11 @@
 ---
 title: Properties (Visual Basic Add-In Model)
-ms.prod: office
 keywords: vbob6.chm100096
 f1_keywords:
 - vbob6.chm100096
 ms.assetid: 278f8774-d259-4212-ba80-326841106aa1
 ms.date: 12/26/2018 
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -353,7 +352,7 @@ Returns a **[Window](objects-visual-basic-add-in-model.md#window)** object repre
 
 ### Remarks
 
-You can use the **Window** object returned by the **MainWindow** property to add or remove [docked windows](../../Glossary/vbe-glossary.md#docked-window), and to maximize, minimize, hide, or restore the main window of the Visual Basic development environment.
+Use the **Window** object returned by the **MainWindow** property to add or remove [docked windows](../../Glossary/vbe-glossary.md#docked-window), and to maximize, minimize, hide, or restore the main window of the Visual Basic development environment.
 
 > [!IMPORTANT] 
 > Objects, properties, and methods for controlling linked windows, linked window frames, and docked windows are included on the Macintosh for compatibility with code written in Windows. However, these language elements will generate run-time errors when run on the Macintosh.
@@ -443,8 +442,6 @@ Returns the first line of a [procedure](../../Glossary/vbe-glossary.md#procedure
 
 _object_.**ProcBodyLine** (_procname_, _prockind_) **As Long**
 
-<br/>
-
 The **ProcBodyLine** syntax has these parts:
 
 |Part|Description|
@@ -453,9 +450,7 @@ The **ProcBodyLine** syntax has these parts:
 | _procname_|Required. A [String](../../Glossary/vbe-glossary.md#string-data-type) containing the name of the procedure.|
 | _prockind_|Required. Specifies the kind of procedure to locate. Because [property procedures](../../Glossary/vbe-glossary.md#property-procedure) can have multiple representations in the [module](../../Glossary/vbe-glossary.md#module), you must specify the kind of procedure you want to locate. All procedures other than property procedures (that is, **[Sub](../user-interface-help/sub-statement.md)** and **[Function](../user-interface-help/function-statement.md)** procedures) use **vbext_pk_Proc**.|
 
-<br/>
-
-You can use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
+Use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
 
 |Constant|Description|
 |:-----|:-----|
@@ -476,8 +471,6 @@ Returns the number of lines in the specified [procedure](../../Glossary/vbe-glos
 
 _object_.**ProcCountLines** (_procname_, _prockind_) **As Long**
 
-<br/>
-
 The **ProcCountLines** syntax has these parts:
 
 |Part|Description|
@@ -486,9 +479,7 @@ The **ProcCountLines** syntax has these parts:
 | _procname_|Required. A [String](../../Glossary/vbe-glossary.md#string-data-type) containing the name of the procedure.|
 | _prockind_|Required. Specifies the kind of procedure to locate. Because [property procedures](../../Glossary/vbe-glossary.md#property-procedure) can have multiple representations in the [module](../../Glossary/vbe-glossary.md#module), you must specify the kind of procedure you want to locate. All procedures other than property procedures (that is, **[Sub](../user-interface-help/sub-statement.md)** and **[Function](../user-interface-help/function-statement.md)** procedures) use **vbext_pk_Proc**.|
 
-<br/>
-
-You can use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
+Use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
 
 |Constant|Description|
 |:-----|:-----|
@@ -510,8 +501,6 @@ Returns the name of the [procedure](../../Glossary/vbe-glossary.md#procedure) th
 
 _object_.**ProcOfLine** (_line_, _prockind_) **As String**
 
-<br/>
-
 The **ProcOfLine** syntax has these parts:
 
 |Part|Description|
@@ -520,9 +509,7 @@ The **ProcOfLine** syntax has these parts:
 | _line_|Required. A [Long](../../Glossary/vbe-glossary.md#long-data-type) specifying the line to check.|
 | _prockind_|Required. Specifies the kind of procedure to locate. Because [property procedures](../../Glossary/vbe-glossary.md#property-procedure) can have multiple representations in the [module](../../Glossary/vbe-glossary.md#module), you must specify the kind of procedure you want to locate. All procedures other than property procedures (that is, **[Sub](../user-interface-help/sub-statement.md)** and **[Function](../user-interface-help/function-statement.md)** procedures) use **vbext_pk_Proc**.|
 
-<br/>
-
-You can use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
+Use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
 
 |Constant|Description|
 |:-----|:-----|
@@ -543,8 +530,6 @@ Returns the line at which the specified [procedure](../../Glossary/vbe-glossary.
 
 _object_.**ProcStartLine** (_procname_, _prockind_) **As Long**
 
-<br/>
-
 The **ProcStartLine** syntax has these parts:
 
 |Part|Description|
@@ -553,9 +538,7 @@ The **ProcStartLine** syntax has these parts:
 | _procname_|Required. A [String](../../Glossary/vbe-glossary.md#string-data-type) containing the name of the procedure.|
 | _prockind_|Required. Specifies the kind of procedure to locate. Because [property procedures](../../Glossary/vbe-glossary.md#property-procedure) can have multiple representations in the [module](../../Glossary/vbe-glossary.md#module), you must specify the kind of procedure you want to locate. All procedures other than property procedures (that is, **[Sub](../user-interface-help/sub-statement.md)** and **[Function](../user-interface-help/function-statement.md)** procedures) use **vbext_pk_Proc**.|
 
-<br/>
-
-You can use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
+Use one of the following [constants](../../Glossary/vbe-glossary.md#constant) for the _prockind_ [argument](../../Glossary/vbe-glossary.md#argument).
 
 |Constant|Description|
 |:-----|:-----|
@@ -699,8 +682,6 @@ The **Type** property settings for the **[Window](objects-visual-basic-add-in-mo
 > [!IMPORTANT] 
 > Objects, properties, and methods for controlling linked windows, linked window frames, and docked windows are included on the Macintosh for compatibility with code written in Windows. However, these language elements will generate run-time errors when run on the Macintosh.
 
-<br/>
-
 The **Type** property settings for the **[VBComponent](objects-visual-basic-add-in-model.md#vbcomponent)** object are described in the following table.
 
 |Constant|Value|Description|
@@ -711,16 +692,12 @@ The **Type** property settings for the **[VBComponent](objects-visual-basic-add-
 |**vbext_ct_ActiveXDesigner**|11|ActiveX Designer|
 |**vbext_ct_Document**|100|Document Module|
 
-<br/>
-
 The **Type** property settings for the **[Reference](objects-visual-basic-add-in-model.md#reference)** object are described in the following table.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
 |**vbext_rk_TypeLib**|0|[Type library](../../Glossary/vbe-glossary.md#type-library)|
 |**vbext_rk_Project**|1|[Project](../../Glossary/vbe-glossary.md#project)|
-
-<br/>
 
 The **Type** property settings for the **[VBProject](objects-visual-basic-add-in-model.md#vbproject)** object are described in the following table.
 
@@ -749,7 +726,7 @@ Returns a collection of the components contained in a project.
 
 Use the **[VBComponents](collections-visual-basic-add-in-model.md#vbcomponents)** collection to access, add, or remove components in a project. A component can be a [form](../../Glossary/vbe-glossary.md#form), [module](../../Glossary/vbe-glossary.md#module), or [class](../../Glossary/vbe-glossary.md#class). The **VBComponents** collection is a standard [collection](../../Glossary/vbe-glossary.md#collection) that can be used in a **For… Each** block.
 
-You can use the **[Parent](#parent)** property to return the project that the **VBComponents** collection is in.
+Use the **[Parent](#parent)** property to return the project that the **VBComponents** collection is in.
 
 In Visual Basic for Applications, you can use the **[Import](../user-interface-help/import-method-vba-add-in-object-model.md)** method to add a component to a project from a file.
 
@@ -841,6 +818,6 @@ The **WindowState** property returns or sets the following values:
 - [Objects, methods, and properties (Visual Basic for Applications)](../objects-visual-basic-for-applications.md)
 - [Visual Basic Add-in Model reference](../user-interface-help/visual-basic-add-in-model-reference.md)
 - [Visual Basic language reference](../user-interface-help/visual-basic-language-reference.md)
-- [Office client development reference](https://docs.microsoft.com/office/client-developer/office-client-development)
+- [Office client development reference](/office/client-developer/office-client-development)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

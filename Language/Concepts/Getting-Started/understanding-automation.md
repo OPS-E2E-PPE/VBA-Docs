@@ -3,10 +3,9 @@ title: Understanding automation (VBA)
 keywords: vbcn6.chm1076677
 f1_keywords:
 - vbcn6.chm1076677
-ms.prod: office
 ms.assetid: 5b45f6f3-1459-ff25-51e1-32c475f11153
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,13 +19,11 @@ When an application supports Automation, the objects the application exposes can
 MyObj.Insert "Hello, world." ' Place text. 
 MyObj.Bold = True ' Format text. 
 If Mac = True ' Check your platform constant 
- MyObj.SaveAs "HD:\WORDPROC\DOCS\TESTOBJ.DOC" ' Save the object (Macintosh). 
+    MyObj.SaveAs "HD:\WORDPROC\DOCS\TESTOBJ.DOC" ' Save the object (Macintosh). 
 Else 
- MyObj.SaveAs "C:\WORDPROC\DOCS\TESTOBJ.DOC" ' Save the object (Windows). 
-
+    MyObj.SaveAs "C:\WORDPROC\DOCS\TESTOBJ.DOC" ' Save the object (Windows). 
+End If
 ```
-
-<br/>
 
 Use the following functions to access an Automation object.
 

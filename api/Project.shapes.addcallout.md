@@ -1,20 +1,20 @@
 ---
-title: Shapes.AddCallout Method (Project)
-ms.prod: project-server
+title: Shapes.AddCallout method (Project)
+ms.service: project-server
 ms.assetid: 6c183677-d869-f493-7226-14cca4329aae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddCallout Method (Project)
-Creates a borderless line callout in a report. Returns a  **Shape** object that represents the new callout.
+# Shapes.AddCallout method (Project)
+Creates a borderless line callout in a report. Returns a **Shape** object that represents the new callout.
 
 ## Syntax
 
- _expression_. `AddCallout` _(Type,_ _Left,_ _Top,_ _Width,_ _Height)_
+_expression_. `AddCallout` _(Type,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -24,10 +24,10 @@ Creates a borderless line callout in a report. Returns a  **Shape** object that 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required|**MsoCalloutType**|The type of callout.|
-| _Left_|Required|**Single**|The position, in points, of the left edge of the bounding box for the callout.|
-| _Top_|Required|**Single**|The position, in points, of the top edge of the bounding box for the callout.|
-| _Width_|Required|**Single**|The width, in points, of the bounding box for the callout.|
-| _Height_|Required|**Single**|The height, in points, of the bounding box for the callout.|
+| _Left_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the left edge of the bounding box for the callout.|
+| _Top_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the top edge of the bounding box for the callout.|
+| _Width_|Required|**Single**|The width, in [points](../language/glossary/vbe-glossary.md#point), of the bounding box for the callout.|
+| _Height_|Required|**Single**|The height, in [points](../language/glossary/vbe-glossary.md#point), of the bounding box for the callout.|
 | _Type_|Required|MSOCALLOUTTYPE||
 | _Left_|Required|FLOAT||
 | _Top_|Required|FLOAT||
@@ -52,7 +52,7 @@ The  _Type_ parameter can be one of the following **MsoCalloutType** constants:
 |**msoCalloutThree**: A two-segment line, where the segment ends can be dragged to different positions.|
 |**msoCalloutFour**: A three-segment line.|
 
-You can insert a greater variety of callouts, such as balloons and clouds, by using the  **[AddShape](Project.shapes.addshape.md)** method.
+You can insert a greater variety of callouts, such as balloons and clouds, by using the **[AddShape](Project.shapes.addshape.md)** method.
 
 
 ### Example

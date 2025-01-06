@@ -3,12 +3,11 @@ title: Paragraph.WidowControl property (Word)
 keywords: vbawd10.chm156696690
 f1_keywords:
 - vbawd10.chm156696690
-ms.prod: word
 api_name:
 - Word.Paragraph.WidowControl
 ms.assetid: 5bf158e5-02e4-03f8-0f48-c596d53dc13a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `WidowControl`
+_expression_. `WidowControl`
 
- _expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Remarks
 
-This property can be  **True** , **False** or **wdUndefined**.
+This property can be **True**, **False** or **wdUndefined**.
 
 
 ## Example

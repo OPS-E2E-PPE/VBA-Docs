@@ -1,27 +1,26 @@
 ---
-title: Application.Version Property (Visio)
+title: Application.Version property (Visio)
 keywords: vis_sdr.chm10014640
 f1_keywords:
 - vis_sdr.chm10014640
-ms.prod: visio
 api_name:
 - Visio.Application.Version
 ms.assetid: c2e3b022-507d-c73c-6fa4-9689cc5600f3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Version Property (Visio)
+# Application.Version property (Visio)
 
 Returns the version of a running Microsoft Visio instance. Read-only.
 
 
 ## Syntax
 
- _expression_. `Version`
+_expression_.**Version**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ String
 
 ## Remarks
 
-Use the  **Version** property of the **Application** object to verify the version of a particular Visio instance. This information is helpful if your program requires a particular version. Both the major and minor version numbers are returned. The string returned by Visio is 15.0.
+Use the **Version** property of the **Application** object to verify the version of a particular Visio instance. This information is helpful if your program requires a particular version. Both the major and minor version numbers are returned. The string returned by Visio is 15.0.
 
 
 ## Example

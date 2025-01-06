@@ -1,26 +1,26 @@
 ---
-title: ShapeRange.Width Property (Publisher)
+title: ShapeRange.Width property (Publisher)
 keywords: vbapb10.chm2293847
 f1_keywords:
 - vbapb10.chm2293847
-ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.Width
 ms.assetid: 8d512930-a908-f0e5-cd0d-dc8554acf0d5
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Width Property (Publisher)
+# ShapeRange.Width property (Publisher)
 
-Returns a  **Variant** that represents the width (in points) of a specified range of shapes. Read-only.
+Returns a **Variant** that represents the width (in [points](../language/glossary/vbe-glossary.md#point)) of a specified range of shapes. Read-only.
 
 
 ## Syntax
 
- _expression_. **Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

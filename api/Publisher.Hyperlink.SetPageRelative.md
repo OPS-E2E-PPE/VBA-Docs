@@ -1,56 +1,38 @@
 ---
-title: Hyperlink.SetPageRelative Method (Publisher)
+title: Hyperlink.SetPageRelative method (Publisher)
 keywords: vbapb10.chm4587542
 f1_keywords:
 - vbapb10.chm4587542
-ms.prod: publisher
 api_name:
 - Publisher.Hyperlink.SetPageRelative
 ms.assetid: 4b2f2e84-09ce-cef6-6f22-b82642cc71fe
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.SetPageRelative Method (Publisher)
+# Hyperlink.SetPageRelative method (Publisher)
 
 Sets the target type for the specified hyperlink.
 
 
 ## Syntax
 
- _expression_. **SetPageRelative**(**_RelativePage_**)
+_expression_.**SetPageRelative** (_RelativePage_)
 
- _expression_ A variable that represents a  **Hyperlink** object.
+_expression_ A variable that represents a **[Hyperlink](Publisher.Hyperlink.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|RelativePage|Required| **PbHlinkTargetType**|The target type of the hyperlink.|
+|_RelativePage_|Required| **[PbHlinkTargetType](publisher.pbhlinktargettype.md)**|The target type of the hyperlink. Can be one of the **PbHlinkTargetType** constants declared in the Microsoft Publisher type library.|
 
-## Remarks
-
-The RelativePage parameter can be one of the following  **PbHlinkTargetType** constants declared in the Microsoft Publisher type library.
-
-
-
-| **pbHlinkTargetTypeEmail**|
-| **pbHlinkTargetTypeFirstPage**|
-| **pbHlinkTargetTypeLastPage**|
-| **pbHlinkTargetTypeNextPage**|
-| **pbHlinkTargetTypeNone**|
-| **pbHlinkTargetTypePageID**|
-| **pbHlinkTargetTypePreviousPage**|
-| **pbHlinkTargetTypeURL**|
 
 ## Example
 
 The following example adds four new hyperlinks to shape one on page one of the active publication and sets their targets accordingly.
-
 
 ```vb
 Sub SetHyperlinkRelativeTarget() 

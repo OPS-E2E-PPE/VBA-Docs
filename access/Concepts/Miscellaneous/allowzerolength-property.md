@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm4268
 f1_keywords:
 - vbaac10.chm4268
-ms.prod: access
 api_name:
 - Access.AllowZeroLength
 ms.assetid: e65dd834-7daa-ad78-0560-87aad5efa1a8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the **AllowZeroLength** property to specify whether a zero-length string (" ") is a valid entry in a table field.
+Use the **AllowZeroLength** property to specify whether a zero-length string (" ") is a valid entry in a table field.
 
 > [!NOTE] 
 > The **AllowZeroLength** property applies only to Text, Memo, and Hyperlink table fields.
@@ -51,7 +50,7 @@ The following table shows the results of combining the settings of the **AllowZe
 |Yes|Yes|Presses ENTER<br/>Presses SPACEBAR<br/>Enters a zero-length string|(not allowed)<br/>Zero-length string<br/>Zero-length string|
 
 > [!NOTE] 
-> You can use the **Format** property to distinguish between the display of a **Null** value and a zero-length string. For example, the string "None" can be displayed when a zero-length string is entered.
+> Use the **Format** property to distinguish between the display of a **Null** value and a zero-length string. For example, the string "None" can be displayed when a zero-length string is entered.
 
 The **AllowZeroLength** property works independently of the **Required** property. The **Required** property determines only whether a **Null** value is valid for the field. If the **AllowZeroLength** property is set to Yes, a zero-length string will be a valid value for the field regardless of the setting of the **Required** property.
 
@@ -60,8 +59,8 @@ The **AllowZeroLength** property works independently of the **Required** propert
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,30 +3,29 @@ title: Shading.BackgroundPatternColor property (Word)
 keywords: vbawd10.chm154796037
 f1_keywords:
 - vbawd10.chm154796037
-ms.prod: word
 api_name:
 - Word.Shading.BackgroundPatternColor
 ms.assetid: 0d78f926-0fe6-aa37-bd39-c7233a5bf3e8
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Shading.BackgroundPatternColor property (Word)
 
-Returns or sets the 24-bit color that's applied to the background of the  **Shading** object. Read/write.
+Returns or sets the 24-bit color that's applied to the background of the **Shading** object. Read/write.
 
 
 ## Syntax
 
- _expression_. `BackgroundPatternColor`
+_expression_. `BackgroundPatternColor`
 
- _expression_ Required. A variable that represents a '[Shading](Word.Shading.md)' object.
+_expression_ Required. A variable that represents a '[Shading](Word.Shading.md)' object.
 
 
 ## Remarks
 
-This property can be any valid  **WdColor** constant or a value returned by Visual Basic's **RGB** function.
+This property can be any valid **WdColor** constant or a value returned by Visual Basic's **RGB** function.
 
 
 ## Example

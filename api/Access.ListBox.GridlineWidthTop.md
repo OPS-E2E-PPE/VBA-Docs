@@ -3,12 +3,11 @@ title: ListBox.GridlineWidthTop property (Access)
 keywords: vbaac10.chm11315
 f1_keywords:
 - vbaac10.chm11315
-ms.prod: access
 api_name:
 - Access.ListBox.GridlineWidthTop
 ms.assetid: bef39115-4e27-f291-3ae5-d9eab3a04ace
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

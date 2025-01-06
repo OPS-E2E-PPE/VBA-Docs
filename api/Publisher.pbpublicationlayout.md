@@ -1,16 +1,15 @@
 ---
-title: PbPublicationLayout Enumeration (Publisher)
+title: PbPublicationLayout enumeration (Publisher)
 keywords: vbapb10.chm65617
 f1_keywords:
 - vbapb10.chm65617
-ms.prod: publisher
 ms.assetid: 8f43c884-d4cb-b2e2-ec24-804281d99107
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbPublicationLayout Enumeration (Publisher)
+# PbPublicationLayout enumeration (Publisher)
 
 Represents the layout type of the specified publication.
 

@@ -1,27 +1,26 @@
 ---
-title: SlideRange.SlideID Property (PowerPoint)
+title: SlideRange.SlideID property (PowerPoint)
 keywords: vbapp10.chm532009
 f1_keywords:
 - vbapp10.chm532009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.SlideID
 ms.assetid: e634a278-c7ff-bff1-d66c-7e12d2063af6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.SlideID Property (PowerPoint)
+# SlideRange.SlideID property (PowerPoint)
 
 Returns a unique ID number for the specified slide. Read-only.
 
 
 ## Syntax
 
- _expression_. `SlideID`
+_expression_. `SlideID`
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Long
 
 ## Remarks
 
-Unlike the  **SlideIndex** property, the **SlideID** property of a **Slide** object won't change when you add slides to the presentation or rearrange the slides in the presentation. Therefore, using the **[FindBySlideID](PowerPoint.Slides.FindBySlideID.md)** method with the slide's ID number can be a more reliable way to return a specific **Slide** object from a **Slides** collection than using the **Item** method with the slide's index number.
+Unlike the **SlideIndex** property, the **SlideID** property of a **Slide** object won't change when you add slides to the presentation or rearrange the slides in the presentation. Therefore, using the **[FindBySlideID](PowerPoint.Slides.FindBySlideID.md)** method with the slide's ID number can be a more reliable way to return a specific **Slide** object from a **Slides** collection than using the **Item** method with the slide's index number.
 
 
 ## Example
 
-This example demonstrates how to retrieve the unique ID number for a  **Slide** object and then use this number to return that **Slide** object from the **Slides** collection.
+This example demonstrates how to retrieve the unique ID number for a **Slide** object and then use this number to return that **Slide** object from the **Slides** collection.
 
 
 ```vb

@@ -3,12 +3,11 @@ title: Paragraphs.Indent method (Word)
 keywords: vbawd10.chm156762445
 f1_keywords:
 - vbawd10.chm156762445
-ms.prod: word
 api_name:
 - Word.Paragraphs.Indent
 ms.assetid: d6b4471a-5b51-45ce-5420-9e2c97ddfe45
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Indents one or more paragraphs by one level.
 
 ## Syntax
 
- _expression_. `Indent`
+_expression_. `Indent`
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-This method is equivalent to clicking the  **Increase Indent** button on the **Formatting** toolbar.
+This method is equivalent to clicking the **Increase Indent** button on the **Formatting** toolbar.
 
 
 ## Example

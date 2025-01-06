@@ -1,22 +1,22 @@
 ---
-title: WorkWeekDays.Count Property (Project)
-ms.prod: project-server
+title: WorkWeekDays.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDays.Count
 ms.assetid: 236d6836-05da-889c-ac76-5876d908e16f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDays.Count Property (Project)
+# WorkWeekDays.Count property (Project)
 
-Gets the number of items in the  **WorkWeekDays** collection. Read-only **Integer**.
+Gets the number of items in the **WorkWeekDays** collection. Read-only **Integer**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
  _expression_ An expression that returns a 'WorkWeekDays' object.
 

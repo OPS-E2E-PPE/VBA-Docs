@@ -1,33 +1,31 @@
 ---
-title: Sections.Count Property (Publisher)
+title: Sections.Count property (Publisher)
 keywords: vbapb10.chm7340034
 f1_keywords:
 - vbapb10.chm7340034
-ms.prod: publisher
 api_name:
 - Publisher.Sections.Count
 ms.assetid: 39a8848b-e528-7635-8f02-57f200f6a4c9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Sections.Count Property (Publisher)
+# Sections.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **Sections** object.
+_expression_ A variable that represents a **[Sections](Publisher.Sections.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

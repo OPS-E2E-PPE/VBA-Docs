@@ -1,29 +1,28 @@
 ---
-title: DataLabels.AutoText Property (PowerPoint)
-ms.prod: powerpoint
+title: DataLabels.AutoText property (PowerPoint)
 api_name:
 - PowerPoint.DataLabels.AutoText
 ms.assetid: 6e964058-3cfa-ba02-b324-fc1e82beb3d3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabels.AutoText Property (PowerPoint)
+# DataLabels.AutoText property (PowerPoint)
 
  **True** if all objects in the collection automatically generate appropriate text based on context. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `AutoText`
+_expression_.**AutoText**
 
 _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md)' object.
 
 
 ## Remarks
 
-Setting the value of this property sets the  **[AutoText](PowerPoint.DataLabel.AutoText.md)** property of all **[DataLabel](PowerPoint.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True**; otherwise, this property returns **False**.
+Setting the value of this property sets the **[AutoText](PowerPoint.DataLabel.AutoText.md)** property of all **[DataLabel](PowerPoint.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True**; otherwise, this property returns **False**.
 
 
 ## Example
@@ -31,7 +30,8 @@ Setting the value of this property sets the  **[AutoText](PowerPoint.DataLabel.A
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the data labels for series one of the first chart in the active document to automatically generate appropriate text.
 

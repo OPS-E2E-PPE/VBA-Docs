@@ -1,20 +1,19 @@
 ---
 title: Comments object (Word)
-ms.prod: word
 ms.assetid: e384b37a-50e3-a214-52a8-6fda2acc4991
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Comments object (Word)
 
-A collection of  **[Comment](Word.Comment.md)** objects that represent the comments in a selection, range, or document.
+A collection of **[Comment](Word.Comment.md)** objects that represent the comments in a selection, range, or document.
 
 
 ## Remarks
 
-Use the  **Comments** property to return the **Comments** collection. The following example displays comments made by Don Funk in the active document.
+Use the **Comments** property to return the **Comments** collection. The following example displays comments made by Don Funk in the active document.
 
 
 ```vb
@@ -22,7 +21,7 @@ ActiveDocument.ActiveWindow.View.SplitSpecial = wdPaneComments
 ActiveDocument.Comments.ShowBy = "Don Funk"
 ```
 
-Use the  **[Add](Word.Comments.Add.md)** method to add a comment at the specified range. The following example adds a comment immediately after the selection.
+Use the **[Add](Word.Comments.Add.md)** method to add a comment at the specified range. The following example adds a comment immediately after the selection.
 
 
 
@@ -33,7 +32,7 @@ ActiveDocument.Comments.Add Range:=Selection.Range, _
  Text:="review this"
 ```
 
-Use  **Comments** (Index), where Index is the index number, to return a single **Comment** object. The index number represents the position of the comment in the specified selection, range, or document. The following example displays the author of the first comment in the active document.
+Use **Comments** (Index), where Index is the index number, to return a single **Comment** object. The index number represents the position of the comment in the specified selection, range, or document. The following example displays the author of the first comment in the active document.
 
 
 
@@ -77,6 +76,6 @@ If Selection.Comments.Count >= 1 Then MsgBox _
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,25 +3,24 @@ title: Pane.VerticalPercentScrolled property (Word)
 keywords: vbawd10.chm157286414
 f1_keywords:
 - vbawd10.chm157286414
-ms.prod: word
 api_name:
 - Word.Pane.VerticalPercentScrolled
 ms.assetid: 1e63b432-cef1-7a3f-acef-db0d2f6221db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Pane.VerticalPercentScrolled property (Word)
 
-Returns or sets the vertical scroll position as a percentage of the document length. Read/write  **Long**.
+Returns or sets the vertical scroll position as a percentage of the document length. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `VerticalPercentScrolled`
+_expression_. `VerticalPercentScrolled`
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: FormField.CalculateOnExit property (Word)
 keywords: vbawd10.chm153616400
 f1_keywords:
 - vbawd10.chm153616400
-ms.prod: word
 api_name:
 - Word.FormField.CalculateOnExit
 ms.assetid: d92a165b-3138-9aae-bb98-08b7b01e52f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CalculateOnExit`
+_expression_. `CalculateOnExit`
 
- _expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Remarks

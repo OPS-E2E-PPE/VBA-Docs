@@ -3,30 +3,27 @@ title: Application.PointsToLines method (Word)
 keywords: vbawd10.chm158335360
 f1_keywords:
 - vbawd10.chm158335360
-ms.prod: word
 api_name:
 - Word.Application.PointsToLines
 ms.assetid: 8393f70f-4c2e-d74b-6add-f1d7f40ea75c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.PointsToLines method (Word)
 
-Converts a measurement from points to lines (1 line = 12 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from points to lines (1 line = 12 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `PointsToLines`( `_Points_` )
+_expression_. `PointsToLines`( `_Points_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -47,10 +44,7 @@ MsgBox PointsToLines(Selection.Paragraphs(1).LineSpacing) _
  & " lines"
 ```
 
-This example converts the value of the variable  `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
-
-
-
+This example converts the value of the variable `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
 
 ```vb
 Function ConvertPoints(ByVal intUnit As Integer, _ 

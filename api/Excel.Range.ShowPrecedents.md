@@ -3,12 +3,11 @@ title: Range.ShowPrecedents method (Excel)
 keywords: vbaxl10.chm144198
 f1_keywords:
 - vbaxl10.chm144198
-ms.prod: excel
 api_name:
 - Excel.Range.ShowPrecedents
 ms.assetid: 02b8ca94-d251-a6be-1551-1ba769c3c0fa
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/11/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Draws tracer arrows to the direct precedents of the range.
 
 ## Syntax
 
-_expression_. `ShowPrecedents`( `_Remove_` )
+_expression_.**ShowPrecedents** (_Remove_)
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,7 +38,6 @@ Variant
 
 This example draws tracer arrows to the precedents of the active cell on Sheet1.
 
-
 ```vb
 Worksheets("Sheet1").Activate 
 ActiveCell.ShowPrecedents
@@ -49,18 +45,11 @@ ActiveCell.ShowPrecedents
 
 This example removes the tracer arrow for one level of precedents of the active cell on Sheet1.
 
-
-
-
 ```vb
 Worksheets("Sheet1").Activate 
 ActiveCell.ShowPrecedents remove:=True
 ```
 
 
-## See also
-
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

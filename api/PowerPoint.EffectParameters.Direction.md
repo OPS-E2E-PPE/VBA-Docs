@@ -1,27 +1,26 @@
 ---
-title: EffectParameters.Direction Property (PowerPoint)
+title: EffectParameters.Direction property (PowerPoint)
 keywords: vbapp10.chm654003
 f1_keywords:
 - vbapp10.chm654003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.EffectParameters.Direction
 ms.assetid: 39ef6eaf-79fb-f70f-20fe-7ec07715d59c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EffectParameters.Direction Property (PowerPoint)
+# EffectParameters.Direction property (PowerPoint)
 
 Determines the direction used for an animation effect. This property can be used only if the effect uses a direction. Read/write.
 
 
 ## Syntax
 
- _expression_. `Direction`
+_expression_. `Direction`
 
-_expression_ A variable that represents a [EffectParameters](./PowerPoint.EffectParameters.md) object.
+_expression_ A variable that represents a [EffectParameters](PowerPoint.EffectParameters.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoAnimDirection
 
 ## Remarks
 
-The value of the  **Direction** property can be one of these **MsoAnimDirection** constants.
+The value of the **Direction** property can be one of these **MsoAnimDirection** constants.
 
 
 ||

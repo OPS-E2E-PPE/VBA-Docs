@@ -1,27 +1,26 @@
 ---
-title: ValidationRuleSets.AddCopy Method (Visio)
+title: ValidationRuleSets.AddCopy method (Visio)
 keywords: vis_sdr.chm18160420
 f1_keywords:
 - vis_sdr.chm18160420
-ms.prod: visio
 api_name:
 - Visio.ValidationRuleSets.AddCopy
 ms.assetid: a9510a97-7a85-3e68-6493-2a43840ef934
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ValidationRuleSets.AddCopy Method (Visio)
+# ValidationRuleSets.AddCopy method (Visio)
 
-Adds a copy of an existing  **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object to the **[ValidationRuleSets](Visio.ValidationRuleSets.md)** collection of the document.
+Adds a copy of an existing **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object to the **[ValidationRuleSets](Visio.ValidationRuleSets.md)** collection of the document.
 
 
 ## Syntax
 
- _expression_. `AddCopy`( `_RuleSet_` , `_NameU_` )
+_expression_. `AddCopy`( `_RuleSet_` , `_NameU_` )
 
- _expression_ A variable that represents a [ValidationRuleSet](./Visio.ValidationRuleSet.md) object.
+_expression_ A variable that represents a **[ValidationRuleSets](Visio.ValidationRuleSets.md)** object.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ Adds a copy of an existing  **[ValidationRuleSet](Visio.ValidationRuleSet.md)** 
 
 ## Remarks
 
-If you pass a value for the optional  _NameU_ parameter, both the **[Name](Visio.ValidationRuleSet.Name.md)** and **[NameU](Visio.ValidationRuleSet.NameU.md)** properties of the new rule set are assigned the value. If you do not pass a value, Microsoft Visio assigns the new rule set the local and universal name of the existing rule set. In that case, if you copy a rule set within a document, Visio overwrites the existing rule set. However, if you copy a rule set to another document, Visio adds a new rule set to the other document and leaves the existing rule set unchanged.
+If you pass a value for the optional  _NameU_ parameter, both the **[Name](Visio.ValidationRuleSet.Name.md)** and **[NameU](Visio.ValidationRuleSet.NameU.md)** properties of the new rule set are assigned the value. If you don't pass a value, Microsoft Visio assigns the new rule set the local and universal name of the existing rule set. In that case, if you copy a rule set within a document, Visio overwrites the existing rule set. However, if you copy a rule set to another document, Visio adds a new rule set to the other document and leaves the existing rule set unchanged.
 
 Similarly, if the value that you pass for the  _NameU_ matches the universal name of an existing rule set in the document, Visio overwrites the existing rule set.
 

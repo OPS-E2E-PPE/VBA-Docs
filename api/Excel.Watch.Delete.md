@@ -3,12 +3,11 @@ title: Watch.Delete method (Excel)
 keywords: vbaxl10.chm690073
 f1_keywords:
 - vbaxl10.chm690073
-ms.prod: excel
 api_name:
 - Excel.Watch.Delete
 ms.assetid: ed9c57a3-c52c-9ebe-922f-db057d8eefe1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/18/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,10 @@ Deletes the object.
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents a [Watch](./Excel.Watch.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Watch](Excel.Watch.md)** object.
 
 
-[Watch Object](Excel.Watch.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

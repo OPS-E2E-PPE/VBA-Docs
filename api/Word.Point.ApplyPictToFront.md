@@ -3,25 +3,24 @@ title: Point.ApplyPictToFront property (Word)
 keywords: vbawd10.chm262145660
 f1_keywords:
 - vbawd10.chm262145660
-ms.prod: word
 api_name:
 - Word.Point.ApplyPictToFront
 ms.assetid: 19a8549e-0d5d-7537-a32b-be1e1ae7178e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Point.ApplyPictToFront property (Word)
 
- **True** if a picture is applied to the front of the point or all points in the series. Read/write **Boolean**.
+**True** if a picture is applied to the front of the point or all points in the series. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ApplyPictToFront`
+_expression_.**ApplyPictToFront**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Example

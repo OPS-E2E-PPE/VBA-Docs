@@ -3,10 +3,9 @@ title: Parent property (Microsoft Forms)
 keywords: fm20.chm5225075
 f1_keywords:
 - fm20.chm5225075
-ms.prod: office
 ms.assetid: a8289266-cb45-8458-ba09-c0efd19665f9
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

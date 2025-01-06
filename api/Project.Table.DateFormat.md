@@ -1,38 +1,38 @@
 ---
-title: Table.DateFormat Property (Project)
+title: Table.DateFormat property (Project)
 keywords: vbapj.chm132681
 f1_keywords:
 - vbapj.chm132681
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Table.DateFormat
 ms.assetid: 69e0d08b-698e-8354-a583-b08122762f3f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Table.DateFormat Property (Project)
+# Table.DateFormat property (Project)
 
-Gets or sets the date format of the table. Read/write  **PjDateFormat**.
+Gets or sets the date format of the table. Read/write **PjDateFormat**.
 
 
 ## Syntax
 
- _expression_. `DateFormat`
+_expression_. `DateFormat`
 
- _expression_ A variable that represents a [Table](./Project.Table.md) object.
+_expression_ A variable that represents a [Table](./Project.Table.md) object.
 
 
 ## Remarks
 
-The  **DateFormat** property can be one of the following **[PjDateFormat](Project.PjDateFormat.md)** constants.
+The **DateFormat** property can be one of the following **[PjDateFormat](Project.PjDateFormat.md)** constants.
 
 
 
 |**Constant**|**Date format applied to 9/30/02 (12:33 PM)**|
 |:-----|:-----|
-|**pjDateDefault**|The default format, as specified on the  **General** tab of the **Project Options** dialog box.|
+|**pjDateDefault**|The default format, as specified on the **General** tab of the **Project Options** dialog box.|
 |**pjDate_mm_dd_yy_hh_mmAM**|9/30/02 12:33 PM|
 |**pjDate_mm_dd_yy**|9/30/02|
 |**pjDate_mm_dd_yyyy**|9/30/2002|

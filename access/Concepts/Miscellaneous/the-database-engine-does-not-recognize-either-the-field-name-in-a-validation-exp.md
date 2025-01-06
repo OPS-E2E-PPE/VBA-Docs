@@ -3,14 +3,13 @@ title: The database engine does not recognize either the field <name> in a valid
 keywords: jeterr40.chm5003344
 f1_keywords:
 - jeterr40.chm5003344
-ms.prod: access
 ms.assetid: 044f5acf-3bfe-7e89-f0cd-9d8c45655348
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# The database engine does not recognize either the field <name> in a validation expression, or the default value in the table <name>. (Error 3344)
+# The database engine does not recognize either the field \<name\> in a validation expression, or the default value in the table \<name\>. (Error 3344)
 
   
 
@@ -23,8 +22,8 @@ Your expression refers to a field incorrectly, or to a field that does not exist
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

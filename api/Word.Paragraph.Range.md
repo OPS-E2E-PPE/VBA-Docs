@@ -3,25 +3,24 @@ title: Paragraph.Range property (Word)
 keywords: vbawd10.chm156696576
 f1_keywords:
 - vbawd10.chm156696576
-ms.prod: word
 api_name:
 - Word.Paragraph.Range
 ms.assetid: 6da6e452-b938-9e02-3d22-6f0cb0544b82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraph.Range property (Word)
 
-Returns a  **Range** object that represents the portion of a document that is contained within the specified paragraph.
+Returns a **Range** object that represents the portion of a document that is contained within the specified paragraph.
 
 
 ## Syntax
 
- _expression_. `Range`
+_expression_.**Range**
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Example

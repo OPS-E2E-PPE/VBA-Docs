@@ -3,12 +3,11 @@ title: Attributes property (Visual Basic for Applications)
 keywords: vblr6.chm2181972
 f1_keywords:
 - vblr6.chm2181972
-ms.prod: office
 api_name:
 - Office.Attributes
 ms.assetid: 965b8844-33b8-2358-5bdd-cc814987132f
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Sets or returns the attributes of files or folders. Read/write or read-only, dep
 ## Syntax
 
 _object_.**Attributes** [= _newattributes_ ]
-
-<br/>
 
 The **Attributes** property has these parts:
 

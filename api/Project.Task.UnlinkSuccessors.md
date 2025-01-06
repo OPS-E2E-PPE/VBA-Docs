@@ -1,24 +1,24 @@
 ---
-title: Task.UnlinkSuccessors Method (Project)
-ms.prod: project-server
+title: Task.UnlinkSuccessors method (Project)
+ms.service: project-server
 api_name:
 - Project.Task.UnlinkSuccessors
 ms.assetid: ad3148f3-604c-aea9-f592-1f76372dffee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.UnlinkSuccessors Method (Project)
+# Task.UnlinkSuccessors method (Project)
 
 Removes one or more successors from the task.
 
 
 ## Syntax
 
- _expression_. `UnlinkSuccessors`( `_Tasks_` )
+_expression_. `UnlinkSuccessors`( `_Tasks_` )
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Parameters

@@ -1,15 +1,14 @@
 ---
-title: XlPivotFieldOrientation Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlPivotFieldOrientation enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlPivotFieldOrientation
 ms.assetid: deb292f0-c0c6-2ab4-1c35-a36776e5a057
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlPivotFieldOrientation Enumeration (PowerPoint)
+# XlPivotFieldOrientation enumeration (PowerPoint)
 
 Specifies the location of the field in a PivotTable report.
 

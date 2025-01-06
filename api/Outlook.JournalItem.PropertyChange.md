@@ -1,24 +1,23 @@
 ---
-title: JournalItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: JournalItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.JournalItem.PropertyChange
 ms.assetid: a04a13ea-85ce-f93e-37af-fa7b77757204
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# JournalItem.PropertyChange Event (Outlook)
+# JournalItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [JournalItem](./Outlook.JournalItem.md) object.
+_expression_ A variable that represents a [JournalItem](Outlook.JournalItem.md) object.
 
 
 ## Parameters

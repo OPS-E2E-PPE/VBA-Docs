@@ -1,15 +1,15 @@
 ---
-title: PjResourceRequestType Enumeration (Project)
-ms.prod: project-server
+title: PjResourceRequestType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjResourceRequestType
 ms.assetid: 4709e570-b0b7-7052-0fb9-fd1c4cca071d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjResourceRequestType Enumeration (Project)
+# PjResourceRequestType enumeration (Project)
 
 Contains constants that specify the type of resource request.
 

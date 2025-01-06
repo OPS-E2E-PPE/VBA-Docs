@@ -3,20 +3,17 @@ title: AcHyperlinkPart enumeration (Access)
 keywords: vbaac10.chm10035
 f1_keywords:
 - vbaac10.chm10035
-ms.prod: access
 api_name:
 - Access.AcHyperlinkPart
 ms.assetid: 9b093af7-b629-75d1-0186-dd7e7e302b36
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcHyperlinkPart enumeration (Access)
 
 Specifies the information you want returned by the **HyperlinkPart** method.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

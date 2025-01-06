@@ -1,11 +1,10 @@
 ---
 title: Crop.ShapeWidth property (Office)
-ms.prod: office
 api_name:
 - Office.Crop.ShapeWidth
 ms.assetid: 4ee0ec53-1da8-b981-ec03-bb0ce4b616da
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

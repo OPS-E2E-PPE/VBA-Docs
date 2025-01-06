@@ -1,24 +1,24 @@
 ---
-title: ViewsCombination.Application Property (Project)
-ms.prod: project-server
+title: ViewsCombination.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.ViewsCombination.Application
 ms.assetid: dadab211-97e4-da77-4a1d-3c5ca35d9ae5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewsCombination.Application Property (Project)
+# ViewsCombination.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'ViewsCombination' object.
+_expression_ A variable that represents a 'ViewsCombination' object.
 
 
 ## See also

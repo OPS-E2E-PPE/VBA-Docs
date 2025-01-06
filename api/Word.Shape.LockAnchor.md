@@ -3,12 +3,11 @@ title: Shape.LockAnchor property (Word)
 keywords: vbawd10.chm161481006
 f1_keywords:
 - vbawd10.chm161481006
-ms.prod: word
 api_name:
 - Word.Shape.LockAnchor
 ms.assetid: dc153260-5e5d-75f6-c776-481020778cc9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LockAnchor`
+_expression_. `LockAnchor`
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-When a shape has a locked anchor, you cannot move the shape's anchor by dragging it. The anchor does not move as the shape is moved. A  **Shape** object is anchored to a range of text, but you can position it anywhere on the page. The shape is anchored to the beginning of the first paragraph that contains the anchoring range. A shape will always remain on the same page as its anchor.
+When a shape has a locked anchor, you cannot move the shape's anchor by dragging it. The anchor does not move as the shape is moved. A **Shape** object is anchored to a range of text, but you can position it anywhere on the page. The shape is anchored to the beginning of the first paragraph that contains the anchoring range. A shape will always remain on the same page as its anchor.
 
 
 ## Example

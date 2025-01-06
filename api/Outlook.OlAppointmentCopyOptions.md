@@ -1,20 +1,19 @@
 ---
-title: OlAppointmentCopyOptions Enumeration (Outlook)
+title: OlAppointmentCopyOptions enumeration (Outlook)
 keywords: vbaol11.chm3513
 f1_keywords:
 - vbaol11.chm3513
-ms.prod: outlook
 api_name:
 - Outlook.OlAppointmentCopyOptions
 ms.assetid: b2ea721d-f800-6102-c893-28f265e70b88
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlAppointmentCopyOptions Enumeration (Outlook)
+# OlAppointmentCopyOptions enumeration (Outlook)
 
-Specifies what actions to take when copying an  **[AppointmentItem](Outlook.AppointmentItem.md)** object to a folder.
+Specifies what actions to take when copying an **[AppointmentItem](Outlook.AppointmentItem.md)** object to a folder.
 
 
 

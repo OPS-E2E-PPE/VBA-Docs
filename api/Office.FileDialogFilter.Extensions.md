@@ -3,12 +3,11 @@ title: FileDialogFilter.Extensions property (Office)
 keywords: vbaof11.chm254002
 f1_keywords:
 - vbaof11.chm254002
-ms.prod: office
 api_name:
 - Office.FileDialogFilter.Extensions
 ms.assetid: ee80ebef-8214-8cef-9676-e6293e5d2a3f
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -54,14 +53,14 @@ Sub Main()
  'Display the description of filters that include 
  'Microsoft Excel files. 
  If InStr(1, fdf.Extensions, "xls", vbTextCompare) > 0 Then 
- MsgBox "Description of filter: " &amp; fdf.Description 
+ MsgBox "Description of filter: " & fdf.Description 
  End If 
  Next fdf 
 End Sub
 ```
 
 
-# See also
+## See also
 
 - [FileDialogFilter object members](overview/library-reference/filedialogfilter-members-office.md)
 

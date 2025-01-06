@@ -3,18 +3,17 @@ title: ListBox.InSelection property (Access)
 keywords: vbaac10.chm11277
 f1_keywords:
 - vbaac10.chm11277
-ms.prod: access
 api_name:
 - Access.ListBox.InSelection
 ms.assetid: 4c0d3434-752e-c96e-32ce-78a29d4da1e7
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

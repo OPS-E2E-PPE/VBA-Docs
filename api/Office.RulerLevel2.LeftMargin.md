@@ -1,11 +1,10 @@
 ---
 title: RulerLevel2.LeftMargin property (Office)
-ms.prod: office
 api_name:
 - Office.RulerLevel2.LeftMargin
 ms.assetid: 61de525b-7127-7408-13e8-09d0df0c33c0
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

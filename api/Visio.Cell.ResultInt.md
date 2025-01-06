@@ -1,32 +1,29 @@
 ---
-title: Cell.ResultInt Property (Visio)
+title: Cell.ResultInt property (Visio)
 keywords: vis_sdr.chm10114215
 f1_keywords:
 - vis_sdr.chm10114215
-ms.prod: visio
 api_name:
 - Visio.Cell.ResultInt
 ms.assetid: f3e2ef7d-cde1-a0d4-3d02-f5bf329cd0c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.ResultInt Property (Visio)
+# Cell.ResultInt property (Visio)
 
 Gets the value of a cell expressed as an integer. Read-only.
 
 
 ## Syntax
 
- _expression_. `ResultInt`( `_UnitsNameOrCode_` , `_fRound_` )
+_expression_.**ResultInt** (_UnitsNameOrCode_, _fRound_)
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -40,19 +37,19 @@ Long
 
 ## Remarks
 
-Getting the  **ResultInt** property is similar to a getting a cell's **Result** property. The difference is that the **ResultInt** property returns an integer for the value of the cell, whereas the **Result** property returns a floating point number.
+Getting the **ResultInt** property is similar to a getting a cell's **Result** property. The difference is that the **ResultInt** property returns an integer for the value of the cell, whereas the **Result** property returns a floating point number.
 
 You can specify  _UnitsNameOrCode_ as an integer or a string value. If the string is invalid, an error is generated. For example, the following statements all set _UnitsNameOrCode_ to inches.
 
- _lngRet_ = **Cell.ResultInt** (**visInches** , _fRound_)
+ _lngRet_ = **Cell.ResultInt** (**visInches**, _fRound_)
 
  _lngRet_ = **Cell.ResultInt** (65, _fRound_)
 
  _lngRet_ = **Cell.ResultInt** ("in", _fRound_) where "in" can also be any of the alternate strings representing inches, such as "inch", "in.", or "intCounter".
 
-For a complete list of valid unit strings along with their corresponding Automation constants (integer values), see [About Units of Measure](../visio/Concepts/about-units-of-measure-visio.md).
+For a complete list of valid unit strings along with their corresponding Automation constants (integer values), see [About units of measure](../visio/Concepts/about-units-of-measure-visio.md).
 
-Automation constants for representing units are declared by the Visio type library in member  **[VisUnitCodes](Visio.visunitcodes.md)**.
+Automation constants for representing units are declared by the Visio type library in member **[VisUnitCodes](Visio.visunitcodes.md)**.
 
 The following constants for  _fRound_ are declared in the Visio type library in member **VisRoundFlags**.
 

@@ -3,12 +3,11 @@ title: BoundObjectFrame.LabelY property (Access)
 keywords: vbaac10.chm10948
 f1_keywords:
 - vbaac10.chm10948
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.LabelY
 ms.assetid: 1c68016d-9be5-b550-1b97-1840ed36f974
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

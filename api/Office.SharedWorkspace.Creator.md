@@ -1,11 +1,10 @@
 ---
 title: SharedWorkspace.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Creator
 ms.assetid: 167fdd22-50ab-9b27-f594-27c38d88a4a9
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

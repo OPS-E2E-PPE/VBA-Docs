@@ -1,37 +1,36 @@
 ---
-title: Actions.Add Method (Outlook)
+title: Actions.Add method (Outlook)
 keywords: vbaol11.chm151
 f1_keywords:
 - vbaol11.chm151
-ms.prod: outlook
 api_name:
 - Outlook.Actions.Add
 ms.assetid: aaf539c4-d60a-867f-086b-3cef7632a6f2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Actions.Add Method (Outlook)
+# Actions.Add method (Outlook)
 
-Creates a new action in the  **[Actions](Outlook.Actions.md)** collection.
+Creates a new action in the **[Actions](Outlook.Actions.md)** collection.
 
 
 ## Syntax
 
-_expression_. `Add`
+_expression_.**Add**
 
-_expression_ A variable that represents an [Actions](./Outlook.Actions.md) object.
+_expression_ A variable that represents an [Actions](Outlook.Actions.md) object.
 
 
 ## Return value
 
-An  **[Action](Outlook.Action.md)** object that represents the new action.
+An **[Action](Outlook.Action.md)** object that represents the new action.
 
 
 ## Example
 
-This VBA example creates a new mail message and uses the  **Add** method to add an **[Action](Outlook.Action.md)** to it. To run this example without any errors, replace 'Dan Wilson' with a valid recipient name.
+This VBA example creates a new mail message and uses the **Add** method to add an **[Action](Outlook.Action.md)** to it. To run this example without any errors, replace 'Dan Wilson' with a valid recipient name.
 
 
 ```vb

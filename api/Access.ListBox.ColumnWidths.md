@@ -3,18 +3,17 @@ title: ListBox.ColumnWidths property (Access)
 keywords: vbaac10.chm11226
 f1_keywords:
 - vbaac10.chm11226
-ms.prod: access
 api_name:
 - Access.ListBox.ColumnWidths
 ms.assetid: 4ac2a001-8084-37aa-9f8e-ec3d373f7161
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.ColumnWidths property (Access)
 
-You can use the **ColumnWidths** property to specify the width of each column in a multiple-column list box. Read/write **String**.
+Use the **ColumnWidths** property to specify the width of each column in a multiple-column list box. Read/write **String**.
 
 
 ## Syntax

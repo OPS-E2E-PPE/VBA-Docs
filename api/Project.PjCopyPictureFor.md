@@ -1,15 +1,15 @@
 ---
-title: PjCopyPictureFor Enumeration (Project)
-ms.prod: project-server
+title: PjCopyPictureFor enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCopyPictureFor
 ms.assetid: 2fcbc75a-0d38-c857-d9ac-2f27100b9b01
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCopyPictureFor Enumeration (Project)
+# PjCopyPictureFor enumeration (Project)
 
 Contains constants that specify the intended target of the copy of a picture.
 

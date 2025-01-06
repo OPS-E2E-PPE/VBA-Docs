@@ -3,12 +3,11 @@ title: ComboBox.BeforeUpdate property (Access)
 keywords: vbaac10.chm11447
 f1_keywords:
 - vbaac10.chm11447
-ms.prod: access
 api_name:
 - Access.ComboBox.BeforeUpdate
 ms.assetid: ce748fb1-4f8d-9e96-f77c-5dfc54dfee48
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,13 +25,13 @@ _expression_ A variable that represents a **[ComboBox](Access.ComboBox.md)** obj
 
 ## Remarks
 
-Valid values for this property are: 
+Valid values for this property are:
 
 - _macroname_, where _macroname_ is the name of a macro.
 
 - [Event Procedure], which indicates the event procedure associated with the **BeforeUpdate** event for the specified object.
 
-- **=** _functionname_ **()**, where _functionname_ is the name of a user-defined function.
+- _=functionname()_, where _functionname_ is the name of a user-defined function.
 
     
 

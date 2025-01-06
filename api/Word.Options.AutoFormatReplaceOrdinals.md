@@ -3,12 +3,11 @@ title: Options.AutoFormatReplaceOrdinals property (Word)
 keywords: vbawd10.chm162988288
 f1_keywords:
 - vbawd10.chm162988288
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatReplaceOrdinals
 ms.assetid: 7dd6d253-53e5-5fec-aafa-181899afe02b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatReplaceOrdinals`
+_expression_. `AutoFormatReplaceOrdinals`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.AutoFormatReplaceOrdinals = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the Ordinals (1st) with superscript option on the  **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the Ordinals (1st) with superscript option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

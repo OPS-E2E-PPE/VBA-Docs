@@ -1,24 +1,24 @@
 ---
-title: Project.Tasks Property (Project)
-ms.prod: project-server
+title: Project.Tasks property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Tasks
 ms.assetid: 08bfaadd-9cce-84a2-0ff3-c4b29d9e18cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Tasks Property (Project)
+# Project.Tasks property (Project)
 
-Gets a  **[Tasks](Project.Task.md)** collection representing the tasks in the project. Read-only **Tasks**.
+Gets a **[Tasks](Project.Task.md)** collection representing the tasks in the project. Read-only **Tasks**.
 
 
 ## Syntax
 
- _expression_. `Tasks`
+_expression_. `Tasks`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

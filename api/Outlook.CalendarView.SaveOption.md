@@ -1,37 +1,36 @@
 ---
-title: CalendarView.SaveOption Property (Outlook)
+title: CalendarView.SaveOption property (Outlook)
 keywords: vbaol11.chm2619
 f1_keywords:
 - vbaol11.chm2619
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.SaveOption
 ms.assetid: fce87049-1d50-464b-1359-cbcd8c195193
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.SaveOption Property (Outlook)
+# CalendarView.SaveOption property (Outlook)
 
-Returns an  **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
+Returns an **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
 
 
 ## Syntax
 
 _expression_. `SaveOption`
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Remarks
 
-The value of the  **SaveOption** property is set when the **[CalendarView](Outlook.calendarView.md)** object is created by using the **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection.
+The value of the **SaveOption** property is set when the **[CalendarView](Outlook.calendarView.md)** object is created by using the **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example locks the user interface for all views that are available to all users. The subroutine  `LockView` accepts the **[View](Outlook.View.md)** object and a **Boolean** value that indicates if the **View** user interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
+The following Visual Basic for Applications (VBA) example locks the user interface for all views that are available to all users. The subroutine `LockView` accepts the **[View](Outlook.View.md)** object and a **Boolean** value that indicates if the **View** user interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
 
 
 ```vb

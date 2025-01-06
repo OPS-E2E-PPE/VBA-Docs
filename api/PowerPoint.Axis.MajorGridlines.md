@@ -1,25 +1,24 @@
 ---
-title: Axis.MajorGridlines Property (PowerPoint)
+title: Axis.MajorGridlines property (PowerPoint)
 keywords: vbapp10.chm682011
 f1_keywords:
 - vbapp10.chm682011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.MajorGridlines
 ms.assetid: d0ec2384-8503-0198-388c-c74231137bf0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.MajorGridlines Property (PowerPoint)
+# Axis.MajorGridlines property (PowerPoint)
 
-Returns the major gridlines for the specified axis. Read-only  **[Gridlines](PowerPoint.GridLines.md)**.
+Returns the major gridlines for the specified axis. Read-only **[Gridlines](PowerPoint.GridLines.md)**.
 
 
 ## Syntax
 
- _expression_. `MajorGridlines`
+_expression_.**MajorGridlines**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
@@ -34,7 +33,8 @@ Only axes in the primary axis group can have gridlines.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the color of the major gridlines for the value axis of the first chart in the active document.
 

@@ -3,12 +3,11 @@ title: TabControl.Pages property (Access)
 keywords: vbaac10.chm12070
 f1_keywords:
 - vbaac10.chm12070
-ms.prod: access
 api_name:
 - Access.TabControl.Pages
 ms.assetid: dc628cfa-9550-36e6-0aa1-06cf5e80fa25
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

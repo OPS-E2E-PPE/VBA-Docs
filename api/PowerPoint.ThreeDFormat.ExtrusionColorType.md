@@ -1,27 +1,26 @@
 ---
-title: ThreeDFormat.ExtrusionColorType Property (PowerPoint)
+title: ThreeDFormat.ExtrusionColorType property (PowerPoint)
 keywords: vbapp10.chm557009
 f1_keywords:
 - vbapp10.chm557009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ThreeDFormat.ExtrusionColorType
 ms.assetid: 2e6acc19-fcdf-70e2-6ddd-7142e904d225
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ThreeDFormat.ExtrusionColorType Property (PowerPoint)
+# ThreeDFormat.ExtrusionColorType property (PowerPoint)
 
 Returns or sets a value that indicates whether the extrusion color is based on the extruded shape's fill (the front face of the extrusion) and automatically changes when the shape's fill changes, or whether the extrusion color is independent of the shape's fill. Read/write.
 
 
 ## Syntax
 
- _expression_. `ExtrusionColorType`
+_expression_. `ExtrusionColorType`
 
- _expression_ A variable that represents an [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents an [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoExtrusionColorType
 
 ## Remarks
 
-The value of the  **ExtrusionColorType** property can be one of these **MsoExtrusionColorType** constants.
+The value of the **ExtrusionColorType** property can be one of these **MsoExtrusionColorType** constants.
 
 
 
@@ -43,7 +42,7 @@ The value of the  **ExtrusionColorType** property can be one of these **MsoExtru
 
 ## Example
 
-If shape one on  `myDocument` has an automatic extrusion color, this example gives the extrusion a custom yellow color.
+If shape one on _myDocument_ has an automatic extrusion color, this example gives the extrusion a custom yellow color.
 
 
 ```vb

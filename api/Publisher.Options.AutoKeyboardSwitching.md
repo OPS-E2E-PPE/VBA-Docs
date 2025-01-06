@@ -1,27 +1,26 @@
 ---
-title: Options.AutoKeyboardSwitching Property (Publisher)
+title: Options.AutoKeyboardSwitching property (Publisher)
 keywords: vbapb10.chm1048627
 f1_keywords:
 - vbapb10.chm1048627
-ms.prod: publisher
 api_name:
 - Publisher.Options.AutoKeyboardSwitching
 ms.assetid: 05f22aa6-332d-e033-ab9d-550eb08f1018
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Options.AutoKeyboardSwitching Property (Publisher)
+# Options.AutoKeyboardSwitching property (Publisher)
 
- **True** for Microsoft Publisher to automatically switch the keyboard language to the language used for the text at the cursor position. Read/write **Boolean**.
+**True** for Microsoft Publisher to automatically switch the keyboard language to the language used for the text at the cursor position. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **AutoKeyboardSwitching**
+_expression_.**AutoKeyboardSwitching**
 
- _expression_ A variable that represents an  **Options** object.
+_expression_ A variable that represents an **[Options](Publisher.Options.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Boolean
 ## Example
 
 This example enables automatically switching the keyboard language to the necessary language.
-
 
 ```vb
 Sub SetGlobalOptions() 

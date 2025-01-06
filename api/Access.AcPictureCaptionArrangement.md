@@ -3,20 +3,17 @@ title: AcPictureCaptionArrangement enumeration (Access)
 keywords: vbaac10.chm14291
 f1_keywords:
 - vbaac10.chm14291
-ms.prod: access
 api_name:
 - Access.AcPictureCaptionArrangement
 ms.assetid: e77a758f-4139-343f-9f1c-5e29db3fe5a3
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPictureCaptionArrangement enumeration (Access)
 
 Used with the **[PictureCaptionArrangement](Access.CommandButton.PictureCaptionArrangement.md)** property to determine how a button's caption is arranged in relation to its picture.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

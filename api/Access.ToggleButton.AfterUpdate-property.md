@@ -3,12 +3,11 @@ title: ToggleButton.AfterUpdate property (Access)
 keywords: vbaac10.chm11748
 f1_keywords:
 - vbaac10.chm11748
-ms.prod: access
 api_name:
 - Access.ToggleButton.AfterUpdate
 ms.assetid: 58e20c71-189c-d2df-54a0-42b8fad6ec07
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,13 +25,13 @@ _expression_ A variable that represents a **[ToggleButton](Access.ToggleButton.m
 
 ## Remarks
 
-Valid values for this property are: 
+Valid values for this property are:
 
 - _macroname_, where _macroname_ is the name of a macro.
 
 - [Event Procedure], which indicates the event procedure associated with the **AfterUpdate** event for the specified object.
 
-- **=** _functionname_ **()**, where _functionname_ is the name of a user-defined function.
+- _=functionname()_, where _functionname_ is the name of a user-defined function.
 
 
 ## Example

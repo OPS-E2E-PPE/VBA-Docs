@@ -3,30 +3,29 @@ title: Document.Container property (Word)
 keywords: vbawd10.chm158007378
 f1_keywords:
 - vbawd10.chm158007378
-ms.prod: word
 api_name:
 - Word.Document.Container
 ms.assetid: f2a0ebbe-98dc-dfc4-5879-da2b79e75b7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Container property (Word)
 
-Returns the object that represents the container application for the specified document. Read-only  **Object**.
+Returns the object that represents the container application for the specified document. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_. `Container`
+_expression_. `Container`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **Container** property provides access to the specified document's container application if the document is embedded in another application as an OLE object. This property also provides a pathway into the object model of the container application if a Word document is opened as an ActiveX document — for example, when a Word document is opened in Microsoft Office Binder or Internet Explorer.
+The **Container** property provides access to the specified document's container application if the document is embedded in another application as an OLE object. This property also provides a pathway into the object model of the container application if a Word document is opened as an ActiveX document — for example, when a Word document is opened in Microsoft Office Binder or Internet Explorer.
 
 
 ## Example

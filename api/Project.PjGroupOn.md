@@ -1,15 +1,15 @@
 ---
-title: PjGroupOn Enumeration (Project)
-ms.prod: project-server
+title: PjGroupOn enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjGroupOn
 ms.assetid: 72b06ac4-6028-2845-7bac-d4cde3c79c33
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjGroupOn Enumeration (Project)
+# PjGroupOn enumeration (Project)
 
 Contains constants that specify the type of grouping.
 

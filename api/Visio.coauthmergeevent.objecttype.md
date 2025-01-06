@@ -1,27 +1,26 @@
 ---
-title: CoauthMergeEvent.ObjectType Property (Visio)
-ms.prod: visio
+title: CoauthMergeEvent.ObjectType property (Visio)
 ms.assetid: 01baa0c2-75b7-2713-9732-1e7a8a7b33aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CoauthMergeEvent.ObjectType Property (Visio)
+# CoauthMergeEvent.ObjectType property (Visio)
 
 Returns the type of an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a 'CoauthMergeEvent' object.
+_expression_ A variable that represents a **[CoauthMergeEvent](visio.coauthmergeevent.md)** object.
 
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Property value

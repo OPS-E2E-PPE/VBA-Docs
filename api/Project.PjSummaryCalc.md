@@ -1,15 +1,15 @@
 ---
-title: PjSummaryCalc Enumeration (Project)
-ms.prod: project-server
+title: PjSummaryCalc enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjSummaryCalc
 ms.assetid: 90f7ebf7-cc66-c92d-e1d5-6f3d7cd942be
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjSummaryCalc Enumeration (Project)
+# PjSummaryCalc enumeration (Project)
 
 Contains constants that specify the type of calculation to be performed for summary.
 

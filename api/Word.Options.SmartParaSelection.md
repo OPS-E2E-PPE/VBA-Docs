@@ -3,12 +3,11 @@ title: Options.SmartParaSelection property (Word)
 keywords: vbawd10.chm162988484
 f1_keywords:
 - vbawd10.chm162988484
-ms.prod: word
 api_name:
 - Word.Options.SmartParaSelection
 ms.assetid: 3c3aeb77-febe-b071-03ab-70407ddb58f7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SmartParaSelection`
+_expression_. `SmartParaSelection`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

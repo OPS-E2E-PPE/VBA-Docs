@@ -1,38 +1,36 @@
 ---
-title: Page.PageID Property (Publisher)
+title: Page.PageID property (Publisher)
 keywords: vbapb10.chm393223
 f1_keywords:
 - vbapb10.chm393223
-ms.prod: publisher
 api_name:
 - Publisher.Page.PageID
 ms.assetid: 07a87780-fb97-93ff-6f7d-1f1b72d3cb6a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Page.PageID Property (Publisher)
+# Page.PageID property (Publisher)
 
-Returns a  **Long** indicating the unique identifier for a page in a publication. Read-only.
+Returns a **Long** indicating the unique identifier for a page in a publication. Read-only.
 
 
 ## Syntax
 
- _expression_. **PageID**
+_expression_.**PageID**
 
- _expression_ A variable that represents a  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
 ## Remarks
 
- **PageID** values are random numbers assigned to pages when they are added. These unique numbers do not change when pages are added or deleted. Also, these numbers do not start with 1, nor are they contiguous.
+**PageID** values are random numbers assigned to pages when they are added. These unique numbers don't change when pages are added or deleted. Also, these numbers don't start with 1, nor are they contiguous.
 
 
 ## Example
 
-The following example displays the  **PageIndex**,  **PageNumber**, and  **PageID** properties for all the pages in the active publication.
-
+The following example displays the **PageIndex**, **PageNumber**, and **PageID** properties for all the pages in the active publication.
 
 ```vb
 Dim lngLoop As Long 

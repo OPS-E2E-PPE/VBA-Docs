@@ -3,12 +3,11 @@ title: Template.Saved property (Word)
 keywords: vbawd10.chm157941765
 f1_keywords:
 - vbawd10.chm157941765
-ms.prod: word
 api_name:
 - Word.Template.Saved
 ms.assetid: 334069e0-f419-ddf7-0327-6c875bf3b7cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Saved`
+_expression_.**Saved**
 
- _expression_ A variable that represents a '[Template](Word.Template.md)' object.
+_expression_ A variable that represents a '[Template](Word.Template.md)' object.
 
 
 ## Example

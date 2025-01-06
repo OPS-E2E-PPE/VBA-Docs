@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeApplyHeadings property (Word)
 keywords: vbawd10.chm165347588
 f1_keywords:
 - vbawd10.chm165347588
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeApplyHeadings
 ms.assetid: 299897d1-1132-4ba2-d3e6-47d34a4c38ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyHeadings`
+_expression_. `AutoFormatAsYouTypeApplyHeadings`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example sets Word to automatically apply the Heading1 through Heading 9 sty
 Options.AutoFormatAsYouTypeApplyHeadings = True
 ```
 
-This example returns the status of the  **Headings** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Headings** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

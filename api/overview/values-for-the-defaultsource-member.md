@@ -3,10 +3,10 @@ title: Values for the DefaultSource Member
 keywords: vbaac10.chm5188249
 f1_keywords:
 - vbaac10.chm5188249
-ms.prod: access
+ms.service: access
 ms.assetid: 3c3c1c0d-5a96-4d59-d607-c8f0751725ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,7 +14,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-|**Value**|**Meaning**|
+|Value|Description|
 |:-----|:-----|
 |1|Upper or only one bin|
 |2|Lower bin|

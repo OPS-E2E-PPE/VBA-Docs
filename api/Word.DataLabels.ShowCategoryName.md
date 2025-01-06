@@ -3,12 +3,11 @@ title: DataLabels.ShowCategoryName property (Word)
 keywords: vbawd10.chm207488999
 f1_keywords:
 - vbawd10.chm207488999
-ms.prod: word
 api_name:
 - Word.DataLabels.ShowCategoryName
 ms.assetid: 725deb0e-0b55-8c3d-7893-46d9c25e7b0d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowCategoryName`
+_expression_.**ShowCategoryName**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Example

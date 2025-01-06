@@ -3,12 +3,11 @@ title: DataTable.HasBorderHorizontal property (Word)
 keywords: vbawd10.chm46399490
 f1_keywords:
 - vbawd10.chm46399490
-ms.prod: word
 api_name:
 - Word.DataTable.HasBorderHorizontal
 ms.assetid: d0e943dc-179b-c070-dd5b-2d58cc354b09
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasBorderHorizontal`
+_expression_.**HasBorderHorizontal**
 
- _expression_ A variable that represents a '[DataTable](Word.DataTable.md)' object.
+_expression_ A variable that represents a '[DataTable](Word.DataTable.md)' object.
 
 
 ## Example

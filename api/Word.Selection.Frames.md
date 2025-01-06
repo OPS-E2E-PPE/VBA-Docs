@@ -3,30 +3,29 @@ title: Selection.Frames property (Word)
 keywords: vbawd10.chm158662722
 f1_keywords:
 - vbawd10.chm158662722
-ms.prod: word
 api_name:
 - Word.Selection.Frames
 ms.assetid: cc589559-858a-2ebb-00dd-64f97966859f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.Frames property (Word)
 
-Returns a  **[Frames](Word.Frames.md)** collection that represents all the frames in a selection. Read-only.
+Returns a **[Frames](Word.Frames.md)** collection that represents all the frames in a selection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Frames`
+_expression_. `Frames`
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

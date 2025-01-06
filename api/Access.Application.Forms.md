@@ -3,18 +3,17 @@ title: Application.Forms property (Access)
 keywords: vbaac10.chm12508
 f1_keywords:
 - vbaac10.chm12508
-ms.prod: access
 api_name:
 - Access.Application.Forms
 ms.assetid: fbc85a70-538d-b7bf-15e8-c1c7821dc9de
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.Forms property (Access)
 
-You can use the **Forms** property to return a read-only reference to the **[Forms](Access.Forms.md)** collection and its related properties.
+Use the **Forms** property to return a read-only reference to the **[Forms](Access.Forms.md)** collection and its related properties.
 
 ## Syntax
 

@@ -1,22 +1,21 @@
 ---
-title: PbPageNumberFormat Enumeration (Publisher)
+title: PbPageNumberFormat enumeration (Publisher)
 keywords: vbapb10.chm65618
 f1_keywords:
 - vbapb10.chm65618
-ms.prod: publisher
 api_name:
 - Publisher.PbPageNumberFormat
 ms.assetid: 0c23a61f-4267-fb6e-7483-ef366fd0c772
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbPageNumberFormat Enumeration (Publisher)
+# PbPageNumberFormat enumeration (Publisher)
 
 Represents the formatting of the page numbering.
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

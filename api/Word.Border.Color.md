@@ -3,30 +3,29 @@ title: Border.Color property (Word)
 keywords: vbawd10.chm154861575
 f1_keywords:
 - vbawd10.chm154861575
-ms.prod: word
 api_name:
 - Word.Border.Color
 ms.assetid: ac9d1db8-ab9a-04b9-fa07-491b14bccabd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Border.Color property (Word)
 
-Returns or sets the 24-bit color for the specified  **Border** object.
+Returns or sets the 24-bit color for the specified **Border** object.
 
 
 ## Syntax
 
- _expression_. `Color`
+_expression_.**Color**
 
- _expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
+_expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
 
 
 ## Remarks
 
-This property can be any valid  **WdColor** constant or a value returned by Visual Basic's **RGB** function.
+This property can be any valid **WdColor** constant or a value returned by Visual Basic's **RGB** function.
 
 
 ## Example

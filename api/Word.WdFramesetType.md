@@ -1,11 +1,10 @@
 ---
 title: WdFramesetType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdFramesetType
 ms.assetid: 9179515a-ec08-1881-2b85-6623d2836f60
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

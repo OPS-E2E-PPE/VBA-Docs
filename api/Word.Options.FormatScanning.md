@@ -3,12 +3,11 @@ title: Options.FormatScanning property (Word)
 keywords: vbawd10.chm162988481
 f1_keywords:
 - vbawd10.chm162988481
-ms.prod: word
 api_name:
 - Word.Options.FormatScanning
 ms.assetid: 7557b88e-2f16-47e9-cc3b-05019dba9896
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `FormatScanning`
+_expression_. `FormatScanning`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Enabling the  **FormatScanning** property allows you to identify all unique formatting in your document, so you can easily apply the same formatting to new text and quickly replace or modify all instances of a given formatting within a document.
+Enabling the **FormatScanning** property allows you to identify all unique formatting in your document, so you can easily apply the same formatting to new text and quickly replace or modify all instances of a given formatting within a document.
 
 
 ## Example

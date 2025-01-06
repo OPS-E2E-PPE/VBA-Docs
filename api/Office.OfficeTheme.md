@@ -1,11 +1,10 @@
 ---
 title: OfficeTheme object (Office)
-ms.prod: office
 api_name:
 - Office.OfficeTheme
 ms.assetid: 0cdffd48-30cb-b0e7-d9f6-a4c882f82c8a
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

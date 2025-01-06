@@ -1,17 +1,16 @@
 ---
 title: WdBrowseTarget enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdBrowseTarget
 ms.assetid: 3fe1ffab-84d9-3e76-eceb-32d166e05bad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WdBrowseTarget enumeration (Word)
 
-Specifies the document item that the  **[Next](Word.Browser.Next.md)** or **[Previous](Word.Browser.Previous.md)** method locates, and places the insertion point before the next or previous instance of the item.
+Specifies the document item that the **[Next](Word.Browser.Next.md)** or **[Previous](Word.Browser.Previous.md)** method locates, and places the insertion point before the next or previous instance of the item.
 
 
 

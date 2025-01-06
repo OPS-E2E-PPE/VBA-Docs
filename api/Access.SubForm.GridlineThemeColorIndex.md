@@ -3,12 +3,11 @@ title: SubForm.GridlineThemeColorIndex property (Access)
 keywords: vbaac10.chm14635
 f1_keywords:
 - vbaac10.chm14635
-ms.prod: access
 api_name:
 - Access.SubForm.GridlineThemeColorIndex
 ms.assetid: acc96cf5-c024-9024-9e12-76d73b2cd267
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

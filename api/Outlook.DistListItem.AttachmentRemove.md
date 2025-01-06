@@ -1,15 +1,14 @@
 ---
-title: DistListItem.AttachmentRemove Event (Outlook)
-ms.prod: outlook
+title: DistListItem.AttachmentRemove event (Outlook)
 api_name:
 - Outlook.DistListItem.AttachmentRemove
 ms.assetid: 08462397-4ba9-c62b-4bf7-b6856648083a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.AttachmentRemove Event (Outlook)
+# DistListItem.AttachmentRemove event (Outlook)
 
 Occurs when an attachment has been removed from an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been removed from an instance of the parent object
 
 _expression_. `AttachmentRemove`( `_Attachment_` )
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was removed from the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was removed from the item.|
 
 ## See also
 

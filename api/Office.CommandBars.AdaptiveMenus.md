@@ -3,12 +3,11 @@ title: CommandBars.AdaptiveMenus property (Office)
 keywords: vbaof11.chm2013
 f1_keywords:
 - vbaof11.chm2013
-ms.prod: office
 api_name:
 - Office.CommandBars.AdaptiveMenus
 ms.assetid: 1b8c1a2a-9fe1-4148-6e03-5bf48f137d6f
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

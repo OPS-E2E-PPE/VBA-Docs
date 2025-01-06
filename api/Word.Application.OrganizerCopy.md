@@ -3,12 +3,11 @@ title: Application.OrganizerCopy method (Word)
 keywords: vbawd10.chm158335294
 f1_keywords:
 - vbawd10.chm158335294
-ms.prod: word
 api_name:
 - Word.Application.OrganizerCopy
 ms.assetid: a23452aa-7372-ca58-291f-164e6000162d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Copies the specified AutoText entry, toolbar, style, or macro project item from 
 
 ## Syntax
 
- _expression_. `OrganizerCopy`( `_Source_` , `_Destination_` , `_Name_` , `_Object_` )
+_expression_. `OrganizerCopy`( `_Source_` , `_Destination_` , `_Name_` , `_Object_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters

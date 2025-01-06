@@ -1,21 +1,21 @@
 ---
-title: VisUIBarProtection Enumeration (Visio)
+title: VisUIBarProtection enumeration (Visio)
 keywords: vis_sdr.chm70290
 f1_keywords:
 - vis_sdr.chm70290
-ms.prod: visio
 ms.assetid: 36b850c6-3684-917e-49a1-8801b0d4e703
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisUIBarProtection Enumeration (Visio)
+# VisUIBarProtection enumeration (Visio)
 
-Values passed to and returned by the  **MenuSet.Protection** and **Toolbar.Protection** properties.
+Values passed to and returned by the **MenuSet.Protection** and **Toolbar.Protection** properties.
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 

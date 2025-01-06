@@ -3,12 +3,11 @@ title: CopyFile method (Visual Basic for Applications)
 keywords: vblr6.chm2182032
 f1_keywords:
 - vblr6.chm2182032
-ms.prod: office
 api_name:
 - Office.CopyFile
 ms.assetid: 2ab700b1-0827-c277-6af5-93a86ed05cc1
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Copies one or more files from one location to another.
 ## Syntax
 
 _object_.**CopyFile** _source_, _destination_, [ _overwrite_ ]
-
-<br/>
 
 The **CopyFile** method syntax has these parts:
 
@@ -57,6 +54,12 @@ If _source_ contains wildcard characters, or _destination_ ends with a path sepa
     
 
 An error also occurs if a _source_ using wildcard characters doesn't match any files. The **CopyFile** method stops on the first error it encounters. No attempt is made to roll back or undo any changes made before an error occurs.
+
+Files copied to a new destination path will keep the same file name. To rename the copied file, simply include the new file name in the destination path. For example, this will copy the file to a new location _and_ the file in the new location will have a different name:
+
+```vb
+FileSystemObject.CopyFile "c:\mydocuments\letters\sample.doc", "c:\tempfolder\sample_new.doc"
+```
 
 ## See also
 

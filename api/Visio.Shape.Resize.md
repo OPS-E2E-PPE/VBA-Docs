@@ -1,27 +1,26 @@
 ---
-title: Shape.Resize Method (Visio)
+title: Shape.Resize method (Visio)
 keywords: vis_sdr.chm11262205
 f1_keywords:
 - vis_sdr.chm11262205
-ms.prod: visio
 api_name:
 - Visio.Shape.Resize
 ms.assetid: ce8e9253-e1bb-e542-30eb-f9ac2e4305da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Resize Method (Visio)
+# Shape.Resize method (Visio)
 
 Resizes the shape by moving shape handles as specified.
 
 
 ## Syntax
 
- _expression_. `Resize`( `_Direction_` , `_Distance_` , `_UnitCode_` )
+_expression_.**Resize** (_Direction_, _Distance_, _UnitCode_)
 
- _expression_ A variable that represents a '[Shape](Visio.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters

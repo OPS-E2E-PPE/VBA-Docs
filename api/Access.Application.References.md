@@ -3,18 +3,17 @@ title: Application.References property (Access)
 keywords: vbaac10.chm12564
 f1_keywords:
 - vbaac10.chm12564
-ms.prod: access
 api_name:
 - Access.Application.References
 ms.assetid: da78f26f-1127-796d-bba1-f1c0d98a582e
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.References property (Access)
 
-You can use the **References** property to access the **[References](Access.References.md)** collection and its related properties, methods, and events. Read-only **References** collection.
+Use the **References** property to access the **[References](Access.References.md)** collection and its related properties, methods, and events. Read-only **References** collection.
 
 
 ## Syntax

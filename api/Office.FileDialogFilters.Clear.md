@@ -3,12 +3,11 @@ title: FileDialogFilters.Clear method (Office)
 keywords: vbaof11.chm255005
 f1_keywords:
 - vbaof11.chm255005
-ms.prod: office
 api_name:
 - Office.FileDialogFilters.Clear
 ms.assetid: 1d5fa55e-6a61-d808-51a4-86116420f89f
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -49,7 +48,7 @@ Sub Main()
  'Display the description of filters that include 
  'Microsoft Excel files 
  If InStr(1, fdf.Extensions, "xls", vbTextCompare) > 0 Then 
- MsgBox "Description of filter: " &amp; fdf.Description 
+ MsgBox "Description of filter: " & fdf.Description 
  End If 
  Next fdf 
  

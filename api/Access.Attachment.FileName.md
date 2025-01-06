@@ -3,12 +3,11 @@ title: Attachment.FileName property (Access)
 keywords: vbaac10.chm13981
 f1_keywords:
 - vbaac10.chm13981
-ms.prod: access
 api_name:
 - Access.Attachment.FileName
 ms.assetid: 4d39020e-b21f-35b5-f5dc-4d8d5b4fdc88
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

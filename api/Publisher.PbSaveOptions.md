@@ -1,18 +1,17 @@
 ---
-title: PbSaveOptions Enumeration (Publisher)
+title: PbSaveOptions enumeration (Publisher)
 keywords: vbapb10.chm65538
 f1_keywords:
 - vbapb10.chm65538
-ms.prod: publisher
 api_name:
 - Publisher.PbSaveOptions
 ms.assetid: 0fa89e13-7e0c-8552-c88f-cf9a051a89ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbSaveOptions Enumeration (Publisher)
+# PbSaveOptions enumeration (Publisher)
 
 Specifies what Microsoft Publisher should do if there is already an open publication with unsaved changes.
 

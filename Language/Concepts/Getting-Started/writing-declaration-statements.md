@@ -3,10 +3,9 @@ title: Writing declaration statements (VBA)
 keywords: vbcn6.chm1076693
 f1_keywords:
 - vbcn6.chm1076693
-ms.prod: office
 ms.assetid: 9aaee08c-09d3-b70b-0d8f-9ca949fbd04a
 ms.date: 12/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

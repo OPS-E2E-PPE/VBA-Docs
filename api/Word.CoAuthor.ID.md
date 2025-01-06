@@ -3,30 +3,29 @@ title: CoAuthor.ID property (Word)
 keywords: vbawd10.chm81068033
 f1_keywords:
 - vbawd10.chm81068033
-ms.prod: word
 api_name:
 - Word.CoAuthor.ID
 ms.assetid: a3118c4d-c4c7-9084-3182-8a449f32b020
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CoAuthor.ID property (Word)
 
-Returns a  **String** that specifies a unique identifier for the specified author. Read-only.
+Returns a **String** that specifies a unique identifier for the specified author. Read-only.
 
 
 ## Syntax
 
- _expression_. `ID`
+_expression_.**ID**
 
  _expression_ An expression that returns a [CoAuthor](./Word.CoAuthor.md) object.
 
 
 ## Remarks
 
-The unique identifier returned by the  **ID** property should not be assumed to have a particular length or format.
+The unique identifier returned by the **ID** property should not be assumed to have a particular length or format.
 
 
 ## Example

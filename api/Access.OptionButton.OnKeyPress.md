@@ -3,12 +3,11 @@ title: OptionButton.OnKeyPress property (Access)
 keywords: vbaac10.chm10621
 f1_keywords:
 - vbaac10.chm10621
-ms.prod: access
 api_name:
 - Access.OptionButton.OnKeyPress
 ms.assetid: 6adf4d90-7922-bdb4-c09e-397f1c8c8a42
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **KeyPress** event occurs when a user presses a key while a form or control 
 
 The **OnKeyPress** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Key Press** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Key Press** box is blank, the property value is an empty string.
 

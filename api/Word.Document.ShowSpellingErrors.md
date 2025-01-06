@@ -3,12 +3,11 @@ title: Document.ShowSpellingErrors property (Word)
 keywords: vbawd10.chm158007369
 f1_keywords:
 - vbawd10.chm158007369
-ms.prod: word
 api_name:
 - Word.Document.ShowSpellingErrors
 ms.assetid: 75b24653-f694-a5d7-bbb7-3f75f52d9e60
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowSpellingErrors`
+_expression_. `ShowSpellingErrors`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-To view spelling errors in a document, you must set the  **[CheckSpellingAsYouType](Word.Options.CheckSpellingAsYouType.md)** property to **True**.
+To view spelling errors in a document, you must set the **[CheckSpellingAsYouType](Word.Options.CheckSpellingAsYouType.md)** property to **True**.
 
 
 ## Example

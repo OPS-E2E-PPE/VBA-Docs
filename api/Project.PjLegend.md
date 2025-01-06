@@ -1,15 +1,15 @@
 ---
-title: PjLegend Enumeration (Project)
-ms.prod: project-server
+title: PjLegend enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjLegend
 ms.assetid: f80075d7-d984-129f-5f83-099ca6c07cdf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjLegend Enumeration (Project)
+# PjLegend enumeration (Project)
 
 Contains constants that specify the pages on which the legend appears.
 

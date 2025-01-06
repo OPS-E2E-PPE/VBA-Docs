@@ -1,19 +1,16 @@
 ---
 title: MsoButtonStyle enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoButtonStyle
 ms.assetid: da6a0258-5cef-1745-793d-ead1ac4e9006
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoButtonStyle enumeration (Office)
 
 Specifies the style of a command bar button.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

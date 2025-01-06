@@ -3,12 +3,11 @@ title: CommandBars.FindControls method (Office)
 keywords: vbaof11.chm2014
 f1_keywords:
 - vbaof11.chm2014
-ms.prod: office
 api_name:
 - Office.CommandBars.FindControls
 ms.assetid: 79c46884-816d-def6-2bff-85b59b0831ea
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -54,7 +53,7 @@ This example uses the **FindControls** method to return all members of the **Com
 ```vb
 Dim myControls As CommandBarControls 
 Set myControls = CommandBars.FindControls(Type:=msoControlButton, ID:=18) 
-MsgBox "There are " &amp; myControls.Count &amp; _ 
+MsgBox "There are " & myControls.Count & _ 
     " controls that meet the search criteria."
 ```
 

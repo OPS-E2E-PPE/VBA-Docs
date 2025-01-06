@@ -1,15 +1,15 @@
 ---
-title: PjCompareVersionItems Enumeration (Project)
-ms.prod: project-server
+title: PjCompareVersionItems enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCompareVersionItems
 ms.assetid: 1d5a4372-259c-2bd1-e967-bcab2485950f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCompareVersionItems Enumeration (Project)
+# PjCompareVersionItems enumeration (Project)
 
 Contains constants that specify how to compare items when comparing two project versions.
 

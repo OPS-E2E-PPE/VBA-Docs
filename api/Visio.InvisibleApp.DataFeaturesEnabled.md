@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.DataFeaturesEnabled Property (Visio)
+title: InvisibleApp.DataFeaturesEnabled property (Visio)
 keywords: vis_sdr.chm17560055
 f1_keywords:
 - vis_sdr.chm17560055
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.DataFeaturesEnabled
 ms.assetid: e8603042-2b3d-be0d-6790-911c92ec37b6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.DataFeaturesEnabled Property (Visio)
+# InvisibleApp.DataFeaturesEnabled property (Visio)
 
 Gets whether the data features in Microsoft Visio are enabled for the current instance of Visio. Read-only.
 
 
 ## Syntax
 
- _expression_. `DataFeaturesEnabled`
+_expression_.**DataFeaturesEnabled**
 
- _expression_ An expression that returns a [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ An expression that returns an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value

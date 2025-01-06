@@ -3,10 +3,9 @@ title: Search for text in code (VBA)
 keywords: vbhw6.chm1009010
 f1_keywords:
 - vbhw6.chm1009010
-ms.prod: office
 ms.assetid: a9ae0e4e-fb4b-87eb-9883-6c1b434fa70b
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

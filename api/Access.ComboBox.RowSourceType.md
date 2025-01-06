@@ -3,18 +3,17 @@ title: ComboBox.RowSourceType property (Access)
 keywords: vbaac10.chm11378
 f1_keywords:
 - vbaac10.chm11378
-ms.prod: access
 api_name:
 - Access.ComboBox.RowSourceType
 ms.assetid: dd1d6ea8-5479-4bf9-3317-0b95282c7d74
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.RowSourceType property (Access)
 
-You can use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
+Use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
 
 
 ## Syntax

@@ -1,33 +1,31 @@
 ---
-title: Shape.Top Property (Publisher)
+title: Shape.Top property (Publisher)
 keywords: vbapb10.chm2228306
 f1_keywords:
 - vbapb10.chm2228306
-ms.prod: publisher
 api_name:
 - Publisher.Shape.Top
 ms.assetid: 76ab84a9-651c-ddc6-6f7f-f98e2b71074f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Top Property (Publisher)
+# Shape.Top property (Publisher)
 
-Returns or sets a  **Variant** that represents the distance between the top of the page and the top of a shape. Read/write.
+Returns or sets a **Variant** that represents the distance between the top of the page and the top of a shape. Read/write.
 
 
 ## Syntax
 
- _expression_. **Top**
+_expression_.**Top**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
-This example changes the position, size, and type of shape of the first shape on the first page of the active publication. This example assumes there is at least one shape on the first page of the active publication.
-
+This example changes the position, size, and type of shape of the first shape on the first page of the active publication. This example assumes that there is at least one shape on the first page of the active publication.
 
 ```vb
 Sub MoveSizeChangeShape() 

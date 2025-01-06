@@ -3,12 +3,11 @@ title: Options.MatchFuzzyProlongedSoundMark property (Word)
 keywords: vbawd10.chm162988349
 f1_keywords:
 - vbawd10.chm162988349
-ms.prod: word
 api_name:
 - Word.Options.MatchFuzzyProlongedSoundMark
 ms.assetid: ec86cda2-3002-ff44-7657-bb70f1bf1a79
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchFuzzyProlongedSoundMark`
+_expression_. `MatchFuzzyProlongedSoundMark`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

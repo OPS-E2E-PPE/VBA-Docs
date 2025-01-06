@@ -1,18 +1,17 @@
 ---
-title: DistListItem.AddMembers Method (Outlook)
+title: DistListItem.AddMembers method (Outlook)
 keywords: vbaol11.chm1154
 f1_keywords:
 - vbaol11.chm1154
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.AddMembers
 ms.assetid: 42e3e9f2-0c73-f612-049a-aa477add03fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.AddMembers Method (Outlook)
+# DistListItem.AddMembers method (Outlook)
 
 Adds new members to a distribution list.
 
@@ -21,7 +20,7 @@ Adds new members to a distribution list.
 
 _expression_. `AddMembers`( `_Recipients_` )
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example creates a new distribution list and adds the current user and 'Dan Wilson' to the list. If the specified recipient is not valid, the  **AddMember** method will fail. Therefore, to run this example, replace 'Dan Wilson' with a valid recipient name.
+This Microsoft Visual Basic for Applications (VBA) example creates a new distribution list and adds the current user and 'Dan Wilson' to the list. If the specified recipient is not valid, the **AddMember** method will fail. Therefore, to run this example, replace 'Dan Wilson' with a valid recipient name.
 
 
 ```vb

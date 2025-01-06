@@ -3,12 +3,12 @@ title: Application.BoxSet method (Project)
 keywords: vbapj.chm49
 f1_keywords:
 - vbapj.chm49
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BoxSet
 ms.assetid: 06bcae73-5208-824d-4f55-119f35b37718
 ms.date: 11/09/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,9 +18,9 @@ Creates, selects, or moves a task in the Network Diagram view.
 
 ## Syntax
 
-_expression_. BoxSet( _action_, _TaskID_, _XPosition_, _YPosition_, _ProjectName_ )
+_expression_.**BoxSet** (_action_, _TaskID_, _XPosition_, _YPosition_, _ProjectName_)
 
-_expression_ A variable that represents an [Application](Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

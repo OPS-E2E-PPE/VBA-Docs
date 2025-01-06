@@ -1,27 +1,26 @@
 ---
-title: RemoteItem.Companies Property (Outlook)
+title: RemoteItem.Companies property (Outlook)
 keywords: vbaol11.chm1591
 f1_keywords:
 - vbaol11.chm1591
-ms.prod: outlook
 api_name:
 - Outlook.RemoteItem.Companies
 ms.assetid: f1394ba5-c9e8-8cc0-587e-efb1bd39d81a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem.Companies Property (Outlook)
+# RemoteItem.Companies property (Outlook)
 
-Returns or sets a  **String** representing the names of the companies associated with the Outlook item. Read/write.
+Returns or sets a **String** representing the names of the companies associated with the Outlook item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Companies`
 
-_expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) object.
+_expression_ A variable that represents a [RemoteItem](Outlook.RemoteItem.md) object.
 
 
 ## Remarks

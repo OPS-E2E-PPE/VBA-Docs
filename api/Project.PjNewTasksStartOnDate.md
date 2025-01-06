@@ -1,15 +1,15 @@
 ---
-title: PjNewTasksStartOnDate Enumeration (Project)
-ms.prod: project-server
+title: PjNewTasksStartOnDate enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjNewTasksStartOnDate
 ms.assetid: d2f48f35-3783-168e-9d54-d7287203c1b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjNewTasksStartOnDate Enumeration (Project)
+# PjNewTasksStartOnDate enumeration (Project)
 
 Contains constants that specify the type of date that new tasks start on.
 

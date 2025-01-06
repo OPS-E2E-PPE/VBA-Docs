@@ -1,22 +1,21 @@
 ---
-title: ChartArea.Copy Method (PowerPoint)
-ms.prod: powerpoint
+title: ChartArea.Copy method (PowerPoint)
 api_name:
 - PowerPoint.ChartArea.Copy
 ms.assetid: 32dc2527-1fd0-2043-c8a6-93af4c7ffc3d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartArea.Copy Method (PowerPoint)
+# ChartArea.Copy method (PowerPoint)
 
 Copies the object to the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Copy`
+_expression_.**Copy**
 
 _expression_ A variable that represents a '[ChartArea](PowerPoint.ChartArea.md)' object.
 

@@ -1,21 +1,21 @@
 ---
-title: Profiles Object (Project)
-ms.prod: project-server
+title: Profiles object (Project)
+ms.service: project-server
 ms.assetid: 0e25c828-6482-4d68-f482-ae72c919f338
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Profiles Object (Project)
+# Profiles object (Project)
 
-Contains a collection of  **[Profile](Project.Profile.md)** objects, which are local or Project Server accounts that are defined in Project Professional.
+Contains a collection of **[Profile](Project.Profile.md)** objects, which are local or Project Server accounts that are defined in Project Professional.
  
 
 
 ## Remarks
 
-The  **Project Server Accounts** dialog box shows the number and order of profiles. Use `Profiles.Count` to programmatically determine the number of account profiles.
+The **Project Server Accounts** dialog box shows the number and order of profiles. Use `Profiles.Count` to programmatically determine the number of account profiles.
  
 
  

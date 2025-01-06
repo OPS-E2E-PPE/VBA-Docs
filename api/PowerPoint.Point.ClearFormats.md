@@ -1,24 +1,23 @@
 ---
-title: Point.ClearFormats Method (PowerPoint)
-ms.prod: powerpoint
+title: Point.ClearFormats method (PowerPoint)
 api_name:
 - PowerPoint.Point.ClearFormats
 ms.assetid: 02c805e5-5d5b-745e-f272-4c4dcdd209a5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Point.ClearFormats Method (PowerPoint)
+# Point.ClearFormats method (PowerPoint)
 
 Clears the formatting of the object.
 
 
 ## Syntax
 
- _expression_. `ClearFormats`
+_expression_.**ClearFormats**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## See also

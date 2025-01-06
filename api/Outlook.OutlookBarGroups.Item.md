@@ -1,27 +1,26 @@
 ---
-title: OutlookBarGroups.Item Method (Outlook)
+title: OutlookBarGroups.Item method (Outlook)
 keywords: vbaol11.chm351
 f1_keywords:
 - vbaol11.chm351
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarGroups.Item
 ms.assetid: 443bfb94-28c0-3977-8edd-e2630acd91be
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarGroups.Item Method (Outlook)
+# OutlookBarGroups.Item method (Outlook)
 
-Returns an  **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** object from the collection.
+Returns an **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** object from the collection.
 
 
 ## Syntax
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [OutlookBarGroups](./Outlook.OutlookBarGroups.md) object.
+_expression_ A variable that represents an [OutlookBarGroups](Outlook.OutlookBarGroups.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [OutlookBarGroups](./Outlook.OutlookB
 
 ## Return value
 
-An  **OutlookBarGroup** object that represents the specified object.
+An **OutlookBarGroup** object that represents the specified object.
 
 
 ## See also

@@ -3,18 +3,17 @@ title: NavigationButton.AutoRepeat property (Access)
 keywords: vbaac10.chm10457
 f1_keywords:
 - vbaac10.chm10457
-ms.prod: access
 api_name:
 - Access.NavigationButton.AutoRepeat
 ms.assetid: 2348359a-3d49-7ad1-2afe-21e2b73c4923
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.AutoRepeat property (Access)
 
-You can use the **AutoRepeat** property to specify whether an event procedure or macro runs repeatedly while a command button on a form remains pressed in. Read/write **Boolean**.
+Use the **AutoRepeat** property to specify whether an event procedure or macro runs repeatedly while a command button on a form remains pressed in. Read/write **Boolean**.
 
 
 ## Syntax

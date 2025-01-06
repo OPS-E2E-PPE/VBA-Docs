@@ -3,12 +3,11 @@ title: CustomXMLPart.NodeAfterDelete event (Office)
 keywords: vbaof11.chm296002
 f1_keywords:
 - vbaof11.chm296002
-ms.prod: office
 api_name:
 - Office.CustomXMLPart.NodeAfterDelete
 ms.assetid: 430d2eed-afc3-8798-1478-2146351cefcc
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ The following example displays a message telling the user the results of deletin
 
 ```vb
 Sub CustomXMLParts_NodeAfterDelete(newNode As CustomXMLNode, boolInUndoRedo As Boolean) 
-   MsgBox ("The node " &amp; newNode.BaseName &amp; " was just deleted.") 
+   MsgBox ("The node " & newNode.BaseName & " was just deleted.") 
 End Sub
 ```
 

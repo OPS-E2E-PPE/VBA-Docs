@@ -3,12 +3,11 @@ title: ParagraphFormat.Hyphenation property (Word)
 keywords: vbawd10.chm156434545
 f1_keywords:
 - vbawd10.chm156434545
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.Hyphenation
 ms.assetid: 185d00c0-3f19-bc98-9790-823b49d289b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Hyphenation`
+_expression_. `Hyphenation`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Remarks
 
-This property can be  **True** , **False** or **wdUndefined**.
+This property can be **True**, **False** or **wdUndefined**.
 
 
 ## Example

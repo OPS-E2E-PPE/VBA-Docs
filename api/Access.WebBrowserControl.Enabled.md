@@ -3,18 +3,17 @@ title: WebBrowserControl.Enabled property (Access)
 keywords: vbaac10.chm14361
 f1_keywords:
 - vbaac10.chm14361
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Enabled
 ms.assetid: 6da2553d-0ad9-4741-c89f-fc19dfacb5a2
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the [FormatCondition](Access.FormatCondition.md)object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

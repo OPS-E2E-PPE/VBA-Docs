@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetupHeader Method (Project)
+title: Application.FilePageSetupHeader method (Project)
 keywords: vbapj.chm2357
 f1_keywords:
 - vbapj.chm2357
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetupHeader
 ms.assetid: e41ff9e1-d656-14fe-3d81-deef3065d11d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetupHeader Method (Project)
+# Application.FilePageSetupHeader method (Project)
 
 Sets up headers for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupHeader`( `_Name_`, `_Alignment_`, `_Text_` )
+_expression_. `FilePageSetupHeader`( `_Name_`, `_Alignment_`, `_Text_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Sets up headers for printing.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the view or report for which to set up headers for printing.|
-| _Alignment_|Optional|**Long**|The alignment of the text in the header. Can be one of the following  **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**. The default value is **pjCenter**.|
+| _Alignment_|Optional|**Long**|The alignment of the text in the header. Can be one of the following **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**. The default value is **pjCenter**.|
 | _Text_|Optional|**String**|The text to display in the header. The following special format codes may be included as part of the header:
 
 |**Format Code**|**Description**|
@@ -71,7 +71,7 @@ Sets up headers for printing.
 
 ## Remarks
 
-Using the  **FilePageSetupHeader** method without specifying any arguments displays the **Page Setup** dialog box with the **Header** tab selected.
+Using the **FilePageSetupHeader** method without specifying any arguments displays the **Page Setup** dialog box with the **Header** tab selected.
 
 
 ## Example

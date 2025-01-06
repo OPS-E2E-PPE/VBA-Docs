@@ -1,25 +1,25 @@
 ---
-title: Chart.DataTable Property (Project)
-ms.prod: project-server
+title: Chart.DataTable property (Project)
+ms.service: project-server
 ms.assetid: 858ba41c-a96c-0c3d-0faf-dcfcc448c6f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.DataTable Property (Project)
-Gets an  **Office.IMsoDataTable** object that represents the chart data table. Read-only **IMsoDataTable**.
+# Chart.DataTable property (Project)
+Gets an **Office.IMsoDataTable** object that represents the chart data table. Read-only **IMsoDataTable**.
 
 ## Syntax
 
- _expression_. `DataTable`
+_expression_.**DataTable**
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Remarks
 
-To see the  **IMsoDataTable** object, right-click in the Object Browser, and then choose **Show Hidden Members**.
+To see the **IMsoDataTable** object, right-click in the Object Browser, and then choose **Show Hidden Members**.
 
 
 ## Example

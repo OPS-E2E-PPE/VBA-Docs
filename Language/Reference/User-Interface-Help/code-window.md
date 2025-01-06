@@ -1,9 +1,8 @@
 ---
 title: Code window
-ms.prod: office
 ms.assetid: 1c4607d7-60ab-be9d-7579-ef6e1a6a7513
 ms.date: 11/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ You can drag selected text to:
 
 ## Keyboard shortcuts
 
-You can use the following shortcut keys to access commands in the Code window.
+Use the following shortcut keys to access commands in the Code window.
 
 |Description|Shortcut keys|
 |:-----|:-----|

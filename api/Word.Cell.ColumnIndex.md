@@ -3,25 +3,24 @@ title: Cell.ColumnIndex property (Word)
 keywords: vbawd10.chm156106757
 f1_keywords:
 - vbawd10.chm156106757
-ms.prod: word
 api_name:
 - Word.Cell.ColumnIndex
 ms.assetid: cb30b08a-b95f-da3f-ceae-7c83a5d2ec9e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Cell.ColumnIndex property (Word)
 
-Returns the number of the table column that contains the specified cell. Read-only  **Long**.
+Returns the number of the table column that contains the specified cell. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `ColumnIndex`
+_expression_. `ColumnIndex`
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Example

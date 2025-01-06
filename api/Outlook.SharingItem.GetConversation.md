@@ -1,20 +1,19 @@
 ---
-title: SharingItem.GetConversation Method (Outlook)
+title: SharingItem.GetConversation method (Outlook)
 keywords: vbaol11.chm3496
 f1_keywords:
 - vbaol11.chm3496
-ms.prod: outlook
 api_name:
 - Outlook.SharingItem.GetConversation
 ms.assetid: 20e0b147-b963-3be3-55a2-7075675bb727
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.GetConversation Method (Outlook)
+# SharingItem.GetConversation method (Outlook)
 
-Obtains a  **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
+Obtains a **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[SharingItem](Outlook.SharingItem.md)
 
 ## Return value
 
-A  **Conversation** object that represents the conversation to which this item belongs.
+A **Conversation** object that represents the conversation to which this item belongs.
 
 
 ## Remarks
@@ -40,7 +39,7 @@ A  **Conversation** object that represents the conversation to which this item b
     
 - Conversations have been disabled through the Windows registry.
     
-- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the  **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
+- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
     
 
 

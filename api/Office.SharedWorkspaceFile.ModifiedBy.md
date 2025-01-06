@@ -3,12 +3,11 @@ title: SharedWorkspaceFile.ModifiedBy property (Office)
 keywords: vbaof11.chm266004
 f1_keywords:
 - vbaof11.chm266004
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile.ModifiedBy
 ms.assetid: d6533854-ddd9-3a41-b74b-94f282779236
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,11 +47,11 @@ The following example lists the files in a shared workspace site that were last 
  Set swsOwner = ActiveWorkbook.SharedWorkspace.Members(1) 
  For Each swsFile In ActiveWorkbook.SharedWorkspace.Files 
  If swsFile.ModifiedBy <> swsOwner.Name Then 
- strMemberFiles = strMemberFiles &amp; swsFile.URL &amp; vbCrLf 
+ strMemberFiles = strMemberFiles & swsFile.URL & vbCrLf 
  End If 
  Next 
- MsgBox "These files were last modified by other users:" &amp; _ 
- vbCrLf &amp; strMemberFiles, _ 
+ MsgBox "These files were last modified by other users:" & _ 
+ vbCrLf & strMemberFiles, _ 
  vbInformation + vbOKOnly, "Files Modified by Other Users" 
  Set swsOwner = Nothing 
  Set swsFile = Nothing 

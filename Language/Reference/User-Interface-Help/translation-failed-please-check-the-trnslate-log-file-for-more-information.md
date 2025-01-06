@@ -1,9 +1,8 @@
 ---
 title: Translation failed. Please check the trnslate.log file for more information.
-ms.prod: office
 ms.assetid: adfda3bc-b5fd-45e4-9a59-a1db0fec0e8a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

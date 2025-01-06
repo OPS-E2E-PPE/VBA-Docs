@@ -1,20 +1,19 @@
 ---
-title: ToOrFromRuleCondition Object (Outlook)
+title: ToOrFromRuleCondition object (Outlook)
 keywords: vbaol11.chm3181
 f1_keywords:
 - vbaol11.chm3181
-ms.prod: outlook
 api_name:
 - Outlook.ToOrFromRuleCondition
 ms.assetid: ec5cae2a-cde8-5681-6a49-74e2f0226a4f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ToOrFromRuleCondition Object (Outlook)
+# ToOrFromRuleCondition object (Outlook)
 
-Represents a rule condition that the sender or the recipients of the message, as specified by  **[ToOrFromRuleCondition.ConditionType](Outlook.ToOrFromRuleCondition.ConditionType.md)**, is in the recipients list specified in **[ToOrFromRuleCondition.Recipients](Outlook.ToOrFromRuleCondition.Recipients.md)**.
+Represents a rule condition that the sender or the recipients of the message, as specified by **[ToOrFromRuleCondition.ConditionType](Outlook.ToOrFromRuleCondition.ConditionType.md)**, is in the recipients list specified in **[ToOrFromRuleCondition.Recipients](Outlook.ToOrFromRuleCondition.Recipients.md)**.
 
 
 ## Remarks
@@ -41,6 +40,6 @@ For more information on specifying rule conditions, see [Specify Rule Conditions
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

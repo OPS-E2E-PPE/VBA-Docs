@@ -3,25 +3,24 @@ title: PageSetup.LinesPage property (Word)
 keywords: vbawd10.chm158400636
 f1_keywords:
 - vbawd10.chm158400636
-ms.prod: word
 api_name:
 - Word.PageSetup.LinesPage
 ms.assetid: e063f2e4-d7de-48b4-15b0-db75ca9fb6e4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup.LinesPage property (Word)
 
-Returns or sets the number of lines per page in the document grid. Read/write  **Single**.
+Returns or sets the number of lines per page in the document grid. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `LinesPage`
+_expression_. `LinesPage`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example

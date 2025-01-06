@@ -3,25 +3,24 @@ title: Paragraph.OutlineLevel property (Word)
 keywords: vbawd10.chm156696778
 f1_keywords:
 - vbawd10.chm156696778
-ms.prod: word
 api_name:
 - Word.Paragraph.OutlineLevel
 ms.assetid: 657141b2-c02c-b3f5-5cf3-f92c5720bb28
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraph.OutlineLevel property (Word)
 
-Returns or sets the outline level for the specified paragraph. Read/write  **[WdOutlineLevel](Word.WdOutlineLevel.md)**.
+Returns or sets the outline level for the specified paragraph. Read/write **[WdOutlineLevel](Word.WdOutlineLevel.md)**.
 
 
 ## Syntax
 
- _expression_. `OutlineLevel`
+_expression_.**OutlineLevel**
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example returns the outline level of the first paragraph in the active docu
 temp = ActiveDocument.Paragraphs(1).OutlineLevel
 ```
 
-This example sets the outline level for each paragraph in the active document. First the Normal style is applied to all paragraphs. The  **Mod** operator is used to determine which outline level (1, 2, or 3) to apply to successive paragraphs in the document, and then the view is changed to outline view.
+This example sets the outline level for each paragraph in the active document. First the Normal style is applied to all paragraphs. The **Mod** operator is used to determine which outline level (1, 2, or 3) to apply to successive paragraphs in the document, and then the view is changed to outline view.
 
 
 

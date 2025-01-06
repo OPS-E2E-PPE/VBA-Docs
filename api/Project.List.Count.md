@@ -1,24 +1,24 @@
 ---
-title: List.Count Property (Project)
-ms.prod: project-server
+title: List.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.List.Count
 ms.assetid: d417857d-99f9-3c82-f211-4dd0241deb44
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# List.Count Property (Project)
+# List.Count property (Project)
 
-Gets the number of items in the  **List** collection. Read-only **Long**.
+Gets the number of items in the **List** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [List](./Project.List.md) object.
+_expression_ A variable that represents a [List](./Project.List.md) object.
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: GlowFormat object (Office)
-ms.prod: office
 api_name:
 - Office.GlowFormat
 ms.assetid: b89e2245-e3a4-4a8c-cd4f-86396ad71a5b
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

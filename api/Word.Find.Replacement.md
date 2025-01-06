@@ -3,30 +3,29 @@ title: Find.Replacement property (Word)
 keywords: vbawd10.chm162529305
 f1_keywords:
 - vbawd10.chm162529305
-ms.prod: word
 api_name:
 - Word.Find.Replacement
 ms.assetid: b0c728d6-4f2e-6c01-da95-ab59c79ce752
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Find.Replacement property (Word)
 
-Returns a  **[Replacement](Word.Replacement.md)** object that contains the criteria for a replace operation.
+Returns a **[Replacement](Word.Replacement.md)** object that contains the criteria for a replace operation.
 
 
 ## Syntax
 
- _expression_. `Replacement`
+_expression_. `Replacement`
 
  _expression_ An expression that returns a '[Find](Word.Find.md)' object.
 
 
 ## Example
 
-This example removes bold formatting from the active document. The  **Bold** property of the **Font** object is **True** for the **Find** object and **False** for the **Replacement** object.
+This example removes bold formatting from the active document. The **Bold** property of the **Font** object is **True** for the **Find** object and **False** for the **Replacement** object.
 
 
 ```vb

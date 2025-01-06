@@ -1,27 +1,26 @@
 ---
-title: FillFormat.GradientStyle Property (PowerPoint)
+title: FillFormat.GradientStyle property (PowerPoint)
 keywords: vbapp10.chm552015
 f1_keywords:
 - vbapp10.chm552015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.GradientStyle
 ms.assetid: dca37bf2-1219-d815-7584-97a8665e3420
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.GradientStyle Property (PowerPoint)
+# FillFormat.GradientStyle property (PowerPoint)
 
 Returns the gradient style for the specified fill. Read-only.
 
 
 ## Syntax
 
- _expression_. `GradientStyle`
+_expression_.**GradientStyle**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoGradientStyle
 
 ## Remarks
 
-Use the [OneColorGradient](PowerPoint.FillFormat.OneColorGradient.md), [PresetGradient](PowerPoint.FillFormat.PresetGradient.md), or  **[TwoColorGradient](PowerPoint.FillFormat.TwoColorGradient.md)** method to set the gradient style for the fill. Attempting to return this property for a fill that doesn't have a gradient generates an error. Use the **[Type](PowerPoint.FilterEffect.Type.md)** property to determine whether the fill has a gradient.
+Use the [OneColorGradient](PowerPoint.FillFormat.OneColorGradient.md), [PresetGradient](PowerPoint.FillFormat.PresetGradient.md), or **[TwoColorGradient](PowerPoint.FillFormat.TwoColorGradient.md)** method to set the gradient style for the fill. Attempting to return this property for a fill that doesn't have a gradient generates an error. Use the **[Type](PowerPoint.FilterEffect.Type.md)** property to determine whether the fill has a gradient.
 
-The value returned by the  **GradientStyle** property can be one of these **MsoGradientStyle** constants.
+The value returned by the **GradientStyle** property can be one of these **MsoGradientStyle** constants.
 
 
 ||
@@ -49,7 +48,7 @@ The value returned by the  **GradientStyle** property can be one of these **MsoG
 
 ## Example
 
-This example adds a rectangle to  `myDocument` and sets its fill gradient style to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
+This example adds a rectangle to _myDocument_ and sets its fill gradient style to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
 
 
 ```vb

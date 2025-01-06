@@ -1,32 +1,29 @@
 ---
-title: Items.Find Method (Outlook)
+title: Items.Find method (Outlook)
 keywords: vbaol11.chm62
 f1_keywords:
 - vbaol11.chm62
-ms.prod: outlook
 api_name:
 - Outlook.Items.Find
 ms.assetid: e7a791d8-b80b-df07-84a3-a85acabfcf80
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Items.Find Method (Outlook)
+# Items.Find method (Outlook)
 
-Locates and returns a Microsoft Outlook item object that satisfies the given  _Filter_ .
+Locates and returns a Microsoft Outlook item object that satisfies the given  _Filter_.
 
 
 ## Syntax
 
-_expression_. `Find`( `_Filter_` )
+_expression_.**Find** (_Filter_)
 
- _expression_ An expression that returns a [Items](./Outlook.Items.md) object.
+_expression_ An expression that returns a [Items](Outlook.Items.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -77,9 +74,6 @@ The syntax for the filter varies depending on the type of field you are filterin
 
 When filtering text fields, you can use either a pair of single quotes (') or a pair of double quotes (") to delimit the values that are part of the filter. For example, all of the following lines function correctly when the field is of type **String** :
 
-
-
-
 ```vb
 sFilter = "[CompanyName] = 'Microsoft'"  
 sFilter = "[CompanyName] = ""Microsoft"""  
@@ -88,19 +82,13 @@ sFilter = "[CompanyName] = " & Chr(34) & "Microsoft" & Chr(34)
 
 In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote. 
 
-For example, in the DASL filter string that filters for the **Subject** property being equal to the word `can't`, the entire filter string is delimited by a pair of double quotes, and the embedded string  `can't` is delimited by a pair of single quotes. There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of `http://schemas.microsoft.com/mapi/proptag/0x0037001f`, and the apostrophe in the value condition for the word  `can't`. Applying the appropriate escape characters, you can express the filter string as follows: 
-
-
-
+For example, in the DASL filter string that filters for the **Subject** property being equal to the word `can't`, the entire filter string is delimited by a pair of double quotes, and the embedded string `can't` is delimited by a pair of single quotes. There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of `http://schemas.microsoft.com/mapi/proptag/0x0037001f`, and the apostrophe in the value condition for the word `can't`. Applying the appropriate escape characters, you can express the filter string as follows: 
 
 ```vb
 filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"
 ```
 
-Alternatively, you can use the  `chr(34)` function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the `chr(34)` substitution for a double-quote escape character, you can express the last example as follows:
-
-
-
+Alternatively, you can use the `chr(34)` function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the `chr(34)` substitution for a double-quote escape character, you can express the last example as follows:
 
 ```vb
 filter = "@SQL= " & Chr(34) & "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _& Chr(34) & " = " & "'can''t'"
@@ -108,17 +96,11 @@ filter = "@SQL= " & Chr(34) & "http://schemas.microsoft.com/mapi/proptag/0x00370
 
 Escaping single and double quote characters is also required for DASL queries with the **ci_startswith** or **ci_phrasematch** operators. For example, the following query performs a phrase match query for `can't` in the message subject:
 
-
-
-
 ```vb
 filter = "@SQL=" & Chr(34) & "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _& Chr(34) & " ci_phrasematch " & "'can''t'"
 ```
 
-Another example is a DASL filter string that filters for the **Subject** property being equal to the words `the right stuff`, where the word  `stuff` is enclosed by double quotes. In this case, you must escape the enclosing double quotes as follows:
-
-
-
+Another example is a DASL filter string that filters for the **Subject** property being equal to the words `the right stuff`, where the word `stuff` is enclosed by double quotes. In this case, you must escape the enclosing double quotes as follows:
 
 ```vb
 filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"
@@ -129,9 +111,6 @@ A different set of escaping rules apply to a property reference for named proper
  **Date**
 
 Although dates and times are typically stored with a **Date** format, the **Find** and **Restrict** methods require that the date and time be converted to a string representation. To make sure that the date is formatted as Outlook expects, use the **Format** function. The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M.
-
-
-
 
 ```vb
 sFilter = "[LastModificationTime] > '" & Format("1/15/99 3:30pm", "ddddd h:nn AMPM") & "'"
@@ -149,14 +128,16 @@ sFilter = "[Journal] = True"
 ```
 
 
- **Note**  If you use quotation marks as delimiters with **Boolean** fields, then an empty string will find items whose fields are **False** and all non-empty strings will find items whose fields are **True**.
+> [!NOTE] 
+> If you use quotation marks as delimiters with **Boolean** fields, then an empty string will find items whose fields are **False** and all non-empty strings will find items whose fields are **True**.
 
  **Keywords (or Categories)**
 
 The **Categories** field is of type keywords, which is designed to hold multiple values. When accessing it programmatically, the **Categories** field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the **Find** and **Restrict** methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the **Find** and **Restrict** methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the **Instr** function to test whether the string "Business" is contained within the entire keywords field.
 
 
- **Note**  A possible exception is if you limit the **Categories** field to two, or a low number of values. Then you can use the **Find** and **Restrict** methods with the OR logical operator to retrieve all Business contacts. For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business." Category strings are not case sensitive.
+> [!NOTE] 
+> A possible exception is if you limit the **Categories** field to two, or a low number of values. Then you can use the **Find** and **Restrict** methods with the OR logical operator to retrieve all Business contacts. For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business." Category strings are not case-sensitive.
 
  **Integer**
 
@@ -232,7 +213,7 @@ sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"
 
  **Additional Notes**
 
-If you are trying to use the **Find** or **Restrict** methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur. There is no way to perform a "contains" operation. For example, you cannot use **Find** or **Restrict** to search for items that have a particular word in the **Subject** field. Instead, you can use the **AdvancedSearch** method, or you can loop through all of the items in the folder and use the **InStr** function to perform a search within a field. You can use the **Restrict** method to search for items that begin within a certain range of characters. For example, to search for all contacts with a last name beginning with the letter M, use this filter:
+If you are trying to use the **Find** or **Restrict** methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur. There is no way to perform a "contains" operation. For example, you cannot use **Find** or **Restrict** to search for items that have a particular word in the **Subject** field. Instead, you can use the **AdvancedSearch** method, or you can loop through all of the items in the folder and use the **InStr** function to perform a search within a field. Use the **Restrict** method to search for items that begin within a certain range of characters. For example, to search for all contacts with a last name beginning with the letter M, use this filter:
 
 
 

@@ -3,22 +3,19 @@ title: Move method (FileSystemObject object)
 keywords: vblr6.chm2182006
 f1_keywords:
 - vblr6.chm2182006
-ms.prod: office
 ms.assetid: 9191e310-2b92-fd13-f04a-e34ca2743b7e
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Move method (FileSystemObject)
+# Move method 
 
 Moves a specified file or folder from one location to another.
 
 ## Syntax
 
 _object_.**Move** _destination_
-
-<br/>
 
 The **Move** method syntax has these parts:
 

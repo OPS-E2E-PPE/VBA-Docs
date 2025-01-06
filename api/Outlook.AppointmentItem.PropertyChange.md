@@ -1,24 +1,23 @@
 ---
-title: AppointmentItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: AppointmentItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.AppointmentItem.PropertyChange
 ms.assetid: 82bb6104-ce62-8fb6-1472-d84fd36e94ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.PropertyChange Event (Outlook)
+# AppointmentItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Parameters
@@ -36,7 +35,7 @@ The property name is passed to the event so that you can determine which propert
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **PropertyChange** event to prevent someone from disabling a reminder on an item.
+This Visual Basic for Applications (VBA) example uses the **PropertyChange** event to prevent someone from disabling a reminder on an item.
 
 
 ```vb

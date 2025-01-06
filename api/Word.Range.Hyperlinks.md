@@ -3,30 +3,29 @@ title: Range.Hyperlinks property (Word)
 keywords: vbawd10.chm157155484
 f1_keywords:
 - vbawd10.chm157155484
-ms.prod: word
 api_name:
 - Word.Range.Hyperlinks
 ms.assetid: c8eb84af-b090-82ee-8001-b251c6cc1f24
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Hyperlinks property (Word)
 
-Returns a  **Hyperlinks** collection that represents all the hyperlinks in the specified range. Read-only.
+Returns a **Hyperlinks** collection that represents all the hyperlinks in the specified range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Hyperlinks`
+_expression_.**Hyperlinks**
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

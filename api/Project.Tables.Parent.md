@@ -1,29 +1,29 @@
 ---
-title: Tables.Parent Property (Project)
-ms.prod: project-server
+title: Tables.Parent property (Project)
+ms.service: project-server
 api_name:
 - Project.Tables.Parent
 ms.assetid: a673c887-b328-0759-a259-689f9ccfca87
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tables.Parent Property (Project)
+# Tables.Parent property (Project)
 
-Gets the parent of the  **Tables** object. Read-only **Project**.
+Gets the parent of the **Tables** object. Read-only **Project**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a 'Tables' object.
+_expression_ A variable that represents a 'Tables' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

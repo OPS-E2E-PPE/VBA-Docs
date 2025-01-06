@@ -3,12 +3,11 @@ title: Range.Style property (Excel)
 keywords: vbaxl10.chm144204
 f1_keywords:
 - vbaxl10.chm144204
-ms.prod: excel
 api_name:
 - Excel.Range.Style
 ms.assetid: 78c536c9-7fda-3171-2a93-5c4e57bb8207
-ms.date: 01/09/2019
-localization_priority: Priority
+ms.date: 05/11/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -33,15 +32,11 @@ Worksheets("Sheet1").Range("A1").Style = "Normal"
 
 ```
 
-<br/>
-
-An alternative is the following:
+An alternative is the following.
 
 ```vb
 Worksheets("Sheet1").Range("A1").Style = ThisWorkbook.Styles("Normal")
 ```
-
-<br/>
 
 If cell B4 on Sheet1 currently has the Normal style applied, this example applies the Percent style.
 
@@ -51,5 +46,7 @@ If Worksheets("Sheet1").Range("B4").Style = "Normal" Then
 End If
 
 ```
+
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

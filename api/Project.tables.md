@@ -1,15 +1,15 @@
 ---
-title: Tables Object (Project)
-ms.prod: project-server
+title: Tables object (Project)
+ms.service: project-server
 ms.assetid: 0a8b7dd0-b42b-ed96-4d66-c5d35ddeb8ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tables Object (Project)
+# Tables object (Project)
 
-Contains a collection of  **[Table](Project.Table.md)** objects.
+Contains a collection of **[Table](Project.Table.md)** objects.
 
 
 ## Methods

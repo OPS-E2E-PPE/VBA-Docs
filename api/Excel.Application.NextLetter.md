@@ -3,12 +3,11 @@ title: Application.NextLetter method (Excel)
 keywords: vbaxl10.chm133172
 f1_keywords:
 - vbaxl10.chm133172
-ms.prod: excel
 api_name:
 - Excel.Application.NextLetter
 ms.assetid: 002ace38-48f1-cac2-6bbb-428b119c8ed0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/05/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ You have requested Help for a Visual Basic keyword used only on the Macintosh. F
 
 ## Syntax
 
-_expression_. `NextLetter`
+_expression_.**NextLetter**
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,5 @@ _expression_ A variable that represents an [Application](Excel.Application-graph
 Workbook
 
 
-## See also
-
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

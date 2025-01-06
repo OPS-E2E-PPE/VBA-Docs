@@ -1,29 +1,29 @@
 ---
-title: Resource.OvertimeRate Property (Project)
-ms.prod: project-server
+title: Resource.OvertimeRate property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.OvertimeRate
 ms.assetid: 889226c3-8493-3d61-d31d-56cccab8c07c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.OvertimeRate Property (Project)
+# Resource.OvertimeRate property (Project)
 
-Gets or sets the overtime rate of a resource. Read/write  **Variant**.
+Gets or sets the overtime rate of a resource. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `OvertimeRate`
+_expression_. `OvertimeRate`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **OvertimeRate** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
+The **OvertimeRate** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
 
 
 ## Example

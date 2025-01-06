@@ -3,12 +3,11 @@ title: Cell.FitText property (Word)
 keywords: vbawd10.chm156106862
 f1_keywords:
 - vbawd10.chm156106862
-ms.prod: word
 api_name:
 - Word.Cell.FitText
 ms.assetid: ba600e01-1892-557d-95e8-fc9cdea8ef6b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `FitText`
+_expression_. `FitText`
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-If the  **FitText** property is set to **True** , the font size of the text is not changed, but the visual width of the characters is adjusted to fit all the typed text into the cell.
+If the **FitText** property is set to **True**, the font size of the text is not changed, but the visual width of the characters is adjusted to fit all the typed text into the cell.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: SignatureProvider.ShowSignatureSetup method (Office)
 keywords: vbaof11.chm287002
 f1_keywords:
 - vbaof11.chm287002
-ms.prod: office
 api_name:
 - Office.SignatureProvider.ShowSignatureSetup
 ms.assetid: 458efe65-acb8-f329-7ca4-b0a316869c13
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ _expression_ An expression that returns a **[SignatureProvider](Office.Signature
 
 This method is used for both the insertion time configuration process and if a user later wants to re-configure the signature line. You display the **Signature Setup** dialog box during this callback and wait for the user to select **OK** or **Cancel**. 
 
-It is not necessary to display a dialog box for signature setup unless you specifically need information from the author about the signature line. If you can provide all of the necessary details back to Microsoft Office without user input, no dialog is necessary.
+It's not necessary to display a dialog box for signature setup unless you specifically need information from the author about the signature line. If you can provide all of the necessary details back to Microsoft Office without user input, no dialog is necessary.
 
 
 ## Example
@@ -47,7 +46,7 @@ The following example, written in C#, shows the implementation of the **ShowSign
  public void ShowSignatureSetup(object parentWindow, SignatureSetup sigsetup) 
  { 
  bool firstInit = string.IsNullOrEmpty(sigsetup.AdditionalXml); 
- if (sigsetup != null &amp;&amp; !sigsetup.ReadOnly &amp;&amp; firstInit) 
+ if (sigsetup != null && !sigsetup.ReadOnly && firstInit) 
  { 
  sigsetup.SigningInstructions = "Please sign this document."; 
  sigsetup.ShowSignDate = true; 
@@ -59,7 +58,7 @@ The following example, written in C#, shows the implementation of the **ShowSign
  using (SignatureSetupForm sigsetupForm = new SignatureSetupForm(sigsetup)) 
  { 
  sigsetupForm.ShowDialog(window); 
- if (!sigsetupForm.success &amp;&amp; firstInit) 
+ if (!sigsetupForm.success && firstInit) 
  throw new System.Runtime.InteropServices.COMException("Canceled", -2147467260 /*E_ABORT*/); 
  } 
  } 

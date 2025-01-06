@@ -3,12 +3,11 @@ title: ToggleButton.LostFocus event (Access)
 keywords: vbaac10.chm14153
 f1_keywords:
 - vbaac10.chm14153
-ms.prod: access
 api_name:
 - Access.ToggleButton.LostFocus
 ms.assetid: 3dd094a9-403b-3591-9853-349b3ed761dc
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

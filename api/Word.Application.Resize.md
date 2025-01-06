@@ -3,12 +3,11 @@ title: Application.Resize method (Word)
 keywords: vbawd10.chm158335337
 f1_keywords:
 - vbawd10.chm158335337
-ms.prod: word
 api_name:
 - Word.Application.Resize
 ms.assetid: 6614a0d8-eb2a-01fc-eeb6-4f8abc510bf8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sizes the Word application window or the specified task window.
 
 ## Syntax
 
- _expression_. `Resize`( `_Width_` , `_Height_` )
+_expression_.**Resize** (_Width_, _Height_)
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Sizes the Word application window or the specified task window.
 
 ## Remarks
 
-If the window is maximized or minimized, an error occurs. Use the  **Width** or **Height** property to set the window width and height independently.
+If the window is maximized or minimized, an error occurs. Use the **Width** or **Height** property to set the window width and height independently.
 
 
 ## Example

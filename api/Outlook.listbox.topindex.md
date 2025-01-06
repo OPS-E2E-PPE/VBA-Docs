@@ -1,22 +1,21 @@
 ---
 title: ListBox.TopIndex Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: cc8b411b-25f5-80c9-77f3-a623a958e2fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.TopIndex Property (Outlook Forms Script)
 
-Returns or sets a  **Long** that represents the index of the list item displayed in the topmost position in the list. Read/write.
+Returns or sets a **Long** that represents the index of the list item displayed in the topmost position in the list. Read/write.
 
 
 ## Syntax
 
-_expression_. **TopIndex**
+_expression_.**TopIndex**
 
-_expression_ A variable that represents a  **ListBox** object.
+_expression_ A variable that represents a **ListBox** object.
 
 
 ## Remarks

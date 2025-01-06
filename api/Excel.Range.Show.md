@@ -3,12 +3,11 @@ title: Range.Show method (Excel)
 keywords: vbaxl10.chm144194
 f1_keywords:
 - vbaxl10.chm144194
-ms.prod: excel
 api_name:
 - Excel.Range.Show
 ms.assetid: c04cbae7-c424-befd-df73-e92bbe9e2e41
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/11/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scrolls through the contents of the active window to move the range into view. T
 
 ## Syntax
 
-_expression_. `Show`
+_expression_.**Show**
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,6 @@ _expression_ A variable that represents a [Range](excel.range-graph-property.md)
 Variant
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

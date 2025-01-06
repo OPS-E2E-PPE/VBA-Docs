@@ -1,29 +1,29 @@
 ---
-title: Application.UsableHeight Property (Project)
-ms.prod: project-server
+title: Application.UsableHeight property (Project)
+ms.service: project-server
 api_name:
 - Project.Application.UsableHeight
 ms.assetid: f0cd8b86-a619-022a-5e26-8d4c5e815af3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.UsableHeight Property (Project)
+# Application.UsableHeight property (Project)
 
-Gets the maximum height available for a project window in points. Read-only  **Double**.
+Gets the maximum height available for a project window in points. Read-only **Double**.
 
 
 ## Syntax
 
- _expression_. `UsableHeight`
+_expression_.**UsableHeight**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **UsableHeight** property equals the total amount of vertical space inside the main window minus the space taken up by the Ribbon, status bars, scroll bars, and the title bar.
+The **UsableHeight** property equals the total amount of vertical space inside the main window minus the space taken up by the Ribbon, status bars, scroll bars, and the title bar.
 
 
 ## Example

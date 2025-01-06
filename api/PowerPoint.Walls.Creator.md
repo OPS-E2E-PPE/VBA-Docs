@@ -1,24 +1,23 @@
 ---
-title: Walls.Creator Property (PowerPoint)
-ms.prod: powerpoint
+title: Walls.Creator property (PowerPoint)
 api_name:
 - PowerPoint.Walls.Creator
 ms.assetid: 450b34ce-e4cf-6f83-4220-17f47630fd18
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Walls.Creator Property (PowerPoint)
+# Walls.Creator property (PowerPoint)
 
-Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only  **Long**.
+Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `Creator`
+_expression_.**Creator**
 
- _expression_ A variable that represents a '[Walls](PowerPoint.Walls.md)' object.
+_expression_ A variable that represents a '[Walls](PowerPoint.Walls.md)' object.
 
 
 ## See also

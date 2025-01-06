@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeInsertClosings property (Word)
 keywords: vbawd10.chm162988335
 f1_keywords:
 - vbawd10.chm162988335
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeInsertClosings
 ms.assetid: 8e51f053-03df-84c3-cd08-d53281602646
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeInsertClosings`
+_expression_. `AutoFormatAsYouTypeInsertClosings`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

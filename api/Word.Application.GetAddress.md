@@ -3,12 +3,11 @@ title: Application.GetAddress method (Word)
 keywords: vbawd10.chm158335298
 f1_keywords:
 - vbawd10.chm158335298
-ms.prod: word
 api_name:
 - Word.Application.GetAddress
 ms.assetid: b0081a05-be87-d0e4-31a6-b0aab02a3371
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns an address from the default address book.
 
 ## Syntax
 
-_expression_. **GetAddress** (**_Name_**, **_AddressProperties_**, **_UseAutoText_**, **_DisplaySelectDialog_**, **_SelectDialog_**, **_CheckNamesDialog_**, **_RecentAddressesChoice_**, **_UpdateRecentAddresses_**)
+_expression_.**GetAddress** (**_Name_**, **_AddressProperties_**, **_UseAutoText_**, **_DisplaySelectDialog_**, **_SelectDialog_**, **_CheckNamesDialog_**, **_RecentAddressesChoice_**, **_UpdateRecentAddresses_**)
 
 _expression_ Required. A variable that represents an **[Application](Word.Application.md)** object.
 

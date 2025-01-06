@@ -1,27 +1,26 @@
 ---
-title: SlideRange.MoveTo Method (PowerPoint)
+title: SlideRange.MoveTo method (PowerPoint)
 keywords: vbapp10.chm532034
 f1_keywords:
 - vbapp10.chm532034
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.MoveTo
 ms.assetid: 42be6065-244f-ba03-1f96-5f953258bdb9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.MoveTo Method (PowerPoint)
+# SlideRange.MoveTo method (PowerPoint)
 
 Moves the specified object to a specific location within the same collection, renumbering all other items in the collection appropriately.
 
 
 ## Syntax
 
- _expression_. `MoveTo`( `_toPos_` )
+_expression_. `MoveTo`( `_toPos_` )
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Parameters

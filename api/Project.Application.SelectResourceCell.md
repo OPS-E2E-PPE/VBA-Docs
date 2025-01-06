@@ -1,27 +1,27 @@
 ---
-title: Application.SelectResourceCell Method (Project)
+title: Application.SelectResourceCell method (Project)
 keywords: vbapj.chm2069
 f1_keywords:
 - vbapj.chm2069
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectResourceCell
 ms.assetid: 3bae94f3-5661-63ef-47a6-12824d5426d0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectResourceCell Method (Project)
+# Application.SelectResourceCell method (Project)
 
 Selects a cell containing resource information.
 
 
 ## Syntax
 
- _expression_. `SelectResourceCell`( `_Row_`, `_Column_`, `_RowRelative_` )
+_expression_. `SelectResourceCell`( `_Row_`, `_Column_`, `_RowRelative_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Selects a cell containing resource information.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Row_|Optional|**Long**|The row number (RowRelative is  **False**) or the relative row position (RowRelative is **True**) of the cell to select.|
+| _Row_|Optional|**Long**|The row number (RowRelative is **False**) or the relative row position (RowRelative is **True**) of the cell to select.|
 | _Column_|Optional|**String**|The field name of the cell to select.|
 | _RowRelative_|Optional|**Boolean**|**True** if the row number is relative to the active cell. The default value is **True**.|
 
@@ -41,12 +41,12 @@ Selects a cell containing resource information.
 
 ## Remarks
 
-Using the  **SelectResourceCell** method without specifying any arguments retains the current cell as the active cell. The **SelectResourceCell** method is only available when the Resource Sheet or Resource Usage view is the active view.
+Using the **SelectResourceCell** method without specifying any arguments retains the current cell as the active cell. The **SelectResourceCell** method is only available when the Resource Sheet or Resource Usage view is the active view.
 
 
 ## Example
 
-The following example selects the third row in the  **Name** column of the Resource Sheet.
+The following example selects the third row in the **Name** column of the Resource Sheet.
 
 
 ```vb

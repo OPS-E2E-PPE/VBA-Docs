@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.AddItem Method (Outlook)
+title: OlkComboBox.AddItem method (Outlook)
 keywords: vbaol11.chm1000230
 f1_keywords:
 - vbaol11.chm1000230
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.AddItem
 ms.assetid: 8670b0ba-b715-e00d-0eb9-fa7279ae52b7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.AddItem Method (Outlook)
+# OlkComboBox.AddItem method (Outlook)
 
 Adds an item to the list, optionally specifying an index for the new item to appear in the list.
 
 
 ## Syntax
 
-_expression_. `AddItem`( `_ItemText_` , `_Index_` )
+_expression_.**AddItem** (_ItemText_, _Index_)
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Parameters

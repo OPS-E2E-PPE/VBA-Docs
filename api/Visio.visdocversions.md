@@ -1,18 +1,17 @@
 ---
-title: VisDocVersions Enumeration (Visio)
+title: VisDocVersions enumeration (Visio)
 keywords: vis_sdr.chm70150
 f1_keywords:
 - vis_sdr.chm70150
-ms.prod: visio
 ms.assetid: a5148553-30f9-8538-b40d-4259815a36a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisDocVersions Enumeration (Visio)
+# VisDocVersions enumeration (Visio)
 
-Return values for the  **Document.Version** property.
+Return values for the **Document.Version** property.
 
 
 

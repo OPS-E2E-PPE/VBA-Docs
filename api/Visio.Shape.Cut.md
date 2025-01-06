@@ -1,27 +1,26 @@
 ---
-title: Shape.Cut Method (Visio)
+title: Shape.Cut method (Visio)
 keywords: vis_sdr.chm11216160
 f1_keywords:
 - vis_sdr.chm11216160
-ms.prod: visio
 api_name:
 - Visio.Shape.Cut
 ms.assetid: fda7a58c-233b-5864-880e-cfa17f20c175
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Cut Method (Visio)
+# Shape.Cut method (Visio)
 
 Deletes an object or selection and places it on the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Cut`( `_Flags_` )
+_expression_.**Cut** (_Flags_)
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Nothing
 
 ## Remarks
 
-Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes** , and are described in the following table.
+Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes**, and are described in the following table.
 
 
 
@@ -59,7 +58,7 @@ Setting  _Flags_ to **visCopyPasteNormal** is the equivalent of the behavior in 
 
 ## Example
 
-The following example shows how to use the  **Cut** method. It draws a rectangle and then cuts it from the page (and places it on the Clipboard).
+The following example shows how to use the **Cut** method. It draws a rectangle and then cuts it from the page (and places it on the Clipboard).
 
 
 ```vb

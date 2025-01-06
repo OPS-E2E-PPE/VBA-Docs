@@ -3,14 +3,13 @@ title: Size property (FileSystemObject object)
 keywords: vblr6.chm2182000
 f1_keywords:
 - vblr6.chm2182000
-ms.prod: office
 ms.assetid: 8ddecf14-adda-70bd-4d96-42ac0fa18745
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Size property (FileSystemObject)
+# Size property
 
 For files, returns the size, in bytes, of the specified file. For folders, returns the size, in bytes, of all files and subfolders contained in the folder.
 

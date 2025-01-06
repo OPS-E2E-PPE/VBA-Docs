@@ -1,24 +1,24 @@
 ---
-title: Task.Hyperlink Property (Project)
-ms.prod: project-server
+title: Task.Hyperlink property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Hyperlink
 ms.assetid: 72138942-5e4b-3fe5-abd1-f907b2ee315d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Hyperlink Property (Project)
+# Task.Hyperlink property (Project)
 
-Gets or sets a friendly name representing a hyperlink address. The name may also be a URL or UNC path. Read/write  **String**.
+Gets or sets a friendly name representing a hyperlink address. The name may also be a URL or UNC path. Read/write **String**.
 
 
 ## Syntax
 
- _expression_.**Hyperlink**
+_expression_.**Hyperlink**
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

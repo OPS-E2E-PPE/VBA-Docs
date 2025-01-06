@@ -3,12 +3,11 @@ title: ShapeNodes.Delete method (Word)
 keywords: vbawd10.chm164495371
 f1_keywords:
 - vbawd10.chm164495371
-ms.prod: word
 api_name:
 - Word.ShapeNodes.Delete
 ms.assetid: 1c90b38d-a108-83c7-675a-39fe66d3d261
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Deletes the specified shape node.
 
 ## Syntax
 
- _expression_. `Delete`( `_Index_` )
+_expression_.**Delete** (_Index_)
 
- _expression_ Required. A variable that represents a '[ShapeNodes](Word.shapenodes.md)' collection.
+_expression_ Required. A variable that represents a **[ShapeNodes](Word.shapenodes.md)** collection.
 
 
 ## Parameters

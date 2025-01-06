@@ -3,12 +3,11 @@ title: NavigationControl.Width property (Access)
 keywords: vbaac10.chm11073
 f1_keywords:
 - vbaac10.chm11073
-ms.prod: access
 api_name:
 - Access.NavigationControl.Width
 ms.assetid: 373efc78-6b33-827a-5b95-9cc9fff7f9e6
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

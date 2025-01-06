@@ -3,18 +3,17 @@ title: TextBox.Name property (Access)
 keywords: vbaac10.chm11136
 f1_keywords:
 - vbaac10.chm11136
-ms.prod: access
 api_name:
 - Access.TextBox.Name
 ms.assetid: e97043b5-216f-2c5c-a531-45b29477cb77
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

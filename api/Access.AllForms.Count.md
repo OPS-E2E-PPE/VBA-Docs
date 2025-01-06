@@ -3,18 +3,17 @@ title: AllForms.Count property (Access)
 keywords: vbaac10.chm12681
 f1_keywords:
 - vbaac10.chm12681
-ms.prod: access
 api_name:
 - Access.AllForms.Count
 ms.assetid: 1540145e-541d-10fc-249b-9fadc6861a11
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AllForms.Count property (Access)
 
-You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.
+Use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.
 
 
 ## Syntax

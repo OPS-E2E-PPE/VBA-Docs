@@ -1,29 +1,27 @@
 ---
-title: Projects.Add Method (Project)
-ms.prod: project-server
+title: Projects.Add method (Project)
+ms.service: project-server
 api_name:
 - Project.Projects.Add
 ms.assetid: 51629c33-1521-bfee-edf7-bed792d393c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Projects.Add Method (Project)
+# Projects.Add method (Project)
 
-Adds a  **Project** object to a **Projects** collection.
+Adds a **Project** object to a **Projects** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_DisplayProjectInfo_`, `_Template_`, `_FileNewDialog_` )
+_expression_.**Add** (_DisplayProjectInfo_, _Template_, _FileNewDialog_)
 
- _expression_ A variable that represents a 'Projects' object.
+_expression_ A variable that represents a 'Projects' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -3,12 +3,11 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit property (Word)
 keywords: vbawd10.chm156434554
 f1_keywords:
 - vbawd10.chm156434554
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 ms.assetid: 9792aa0e-bb31-463b-ef7c-99847f587c19
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AddSpaceBetweenFarEastAndDigit`
+_expression_. `AddSpaceBetweenFarEastAndDigit`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

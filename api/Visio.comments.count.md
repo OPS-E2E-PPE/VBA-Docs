@@ -1,22 +1,21 @@
 ---
-title: Comments.Count Property (Visio)
-ms.prod: visio
+title: Comments.Count property (Visio)
 ms.assetid: abac02d5-5047-2c9d-5c5c-e2738f99a4a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comments.Count Property (Visio)
+# Comments.Count property (Visio)
 
-Returns the number of objects in a collection. Read-only  **Long**.
+Returns the number of objects in a collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'Comments' object.
+_expression_ A variable that represents a **[Comments](Visio.Comments.md)** object.
 
 
 ## Property value

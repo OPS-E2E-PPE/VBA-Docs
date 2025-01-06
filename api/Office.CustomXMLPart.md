@@ -3,12 +3,11 @@ title: CustomXMLPart object (Office)
 keywords: vbaof11.chm297000
 f1_keywords:
 - vbaof11.chm297000
-ms.prod: office
 api_name:
 - Office.CustomXMLPart
 ms.assetid: a4f90bac-01d6-bba4-f64b-a64e2b122cfd
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

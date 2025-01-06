@@ -3,12 +3,11 @@ title: HeaderFooter.IsHeader property (Word)
 keywords: vbawd10.chm159711235
 f1_keywords:
 - vbawd10.chm159711235
-ms.prod: word
 api_name:
 - Word.HeaderFooter.IsHeader
 ms.assetid: 66c098ed-d0d6-cf58-e26a-b031bc7a6cab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsHeader`
+_expression_. `IsHeader`
 
  _expression_ An expression that returns a '[HeaderFooter](Word.HeaderFooter.md)' object.
 

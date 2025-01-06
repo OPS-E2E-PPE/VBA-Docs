@@ -3,25 +3,24 @@ title: MailMergeFields.AddSkipIf method (Word)
 keywords: vbawd10.chm153026670
 f1_keywords:
 - vbawd10.chm153026670
-ms.prod: word
 api_name:
 - Word.MailMergeFields.AddSkipIf
 ms.assetid: feaa8b59-292c-0e6f-661a-af501b395cf9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeFields.AddSkipIf method (Word)
 
-Adds a SKIPIF field to a mail merge main document. Returns a  **MailMergeField** object. .
+Adds a SKIPIF field to a mail merge main document. Returns a **MailMergeField** object. .
 
 
 ## Syntax
 
- _expression_. `AddSkipIf`( `_Range_` , `_MergeField_` , `_Comparison_` , `_CompareTo_` )
+_expression_. `AddSkipIf`( `_Range_` , `_MergeField_` , `_Comparison_` , `_CompareTo_` )
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
 ## Parameters

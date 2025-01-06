@@ -1,27 +1,26 @@
 ---
-title: Designs.Load Method (PowerPoint)
+title: Designs.Load method (PowerPoint)
 keywords: vbapp10.chm643005
 f1_keywords:
 - vbapp10.chm643005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Designs.Load
 ms.assetid: 8926e038-4b01-da8d-3e0f-6b5cdd82f1c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Designs.Load Method (PowerPoint)
+# Designs.Load method (PowerPoint)
 
-Returns a  **Design** object that represents a design loaded into the master list of the specified presentation.
+Returns a **Design** object that represents a design loaded into the master list of the specified presentation.
 
 
 ## Syntax
 
- _expression_. `Load`( `_TemplateName_`, `_Index_` )
+_expression_. `Load`( `_TemplateName_`, `_Index_` )
 
-_expression_ A variable that represents a [Designs](./PowerPoint.Designs.md) object.
+_expression_ A variable that represents a [Designs](PowerPoint.Designs.md) object.
 
 
 ## Parameters

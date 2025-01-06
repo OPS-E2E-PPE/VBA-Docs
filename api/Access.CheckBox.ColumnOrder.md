@@ -3,18 +3,17 @@ title: CheckBox.ColumnOrder property (Access)
 keywords: vbaac10.chm10723
 f1_keywords:
 - vbaac10.chm10723
-ms.prod: access
 api_name:
 - Access.CheckBox.ColumnOrder
 ms.assetid: b485afc6-b19a-cd0a-990e-9de14f6f9104
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.ColumnOrder property (Access)
 
-You can use the **ColumnOrder** property to specify the order of the columns in Datasheet view. Read/write **Integer**.
+Use the **ColumnOrder** property to specify the order of the columns in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax
@@ -47,8 +46,6 @@ The following example displays the **ProductName** and **QuantityPerUnit** field
 Forms!Products!ProductName.ColumnOrder = 1 
 Forms!Products!QuantityPerUnit.ColumnOrder = 2
 ```
-
-<br/>
 
 The following example displays the **ProductName** and **QuantityPerUnit** fields in the first two columns of the **Products** table in Datasheet view. To set the **ColumnOrder** property, the example uses the **SetFieldProperty** procedure. If this procedure is run while the table is open, changes will not be displayed until it is closed and reopened.
 

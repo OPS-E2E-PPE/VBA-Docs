@@ -1,15 +1,15 @@
 ---
-title: PjDocExportType Enumeration (Project)
-ms.prod: project-server
+title: PjDocExportType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjDocExportType
 ms.assetid: c8455b20-20d9-b4d0-b211-09d3b8a00553
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjDocExportType Enumeration (Project)
+# PjDocExportType enumeration (Project)
 
 Contains constants that specify the type of document export.
 

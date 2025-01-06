@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeAutoLetterWizard property (Word)
 keywords: vbawd10.chm162988336
 f1_keywords:
 - vbawd10.chm162988336
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeAutoLetterWizard
 ms.assetid: be49edd1-cb44-12d1-df43-ddaaddccef04
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeAutoLetterWizard`
+_expression_. `AutoFormatAsYouTypeAutoLetterWizard`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

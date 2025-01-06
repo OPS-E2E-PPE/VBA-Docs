@@ -3,20 +3,17 @@ title: AcPrintPaperBin enumeration (Access)
 keywords: vbaac10.chm13246
 f1_keywords:
 - vbaac10.chm13246
-ms.prod: access
 api_name:
 - Access.AcPrintPaperBin
 ms.assetid: b1543cc0-bc70-49cb-ceac-76f4368d6445
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPrintPaperBin enumeration (Access)
 
 Used with the **PaperBin** property to indicate which paper bin the specified printer should use.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

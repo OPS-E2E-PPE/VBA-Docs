@@ -3,18 +3,17 @@ title: OptionButton.DisplayWhen property (Access)
 keywords: vbaac10.chm10575
 f1_keywords:
 - vbaac10.chm10575
-ms.prod: access
 api_name:
 - Access.OptionButton.DisplayWhen
 ms.assetid: dc4956e8-a34b-f4b6-d7fb-a095c74d63ef
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

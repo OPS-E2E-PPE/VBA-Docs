@@ -3,12 +3,11 @@ title: Find.MatchByte property (Word)
 keywords: vbawd10.chm162529321
 f1_keywords:
 - vbawd10.chm162529321
-ms.prod: word
 api_name:
 - Word.Find.MatchByte
 ms.assetid: c7da111f-e3ea-dec9-8091-5ccd9cd63cc7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchByte`
+_expression_. `MatchByte`
 
- _expression_ A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Example

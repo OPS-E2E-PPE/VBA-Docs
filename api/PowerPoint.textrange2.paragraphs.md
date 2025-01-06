@@ -1,20 +1,19 @@
 ---
-title: TextRange2.Paragraphs Property (PowerPoint)
+title: TextRange2.Paragraphs property (PowerPoint)
 ms.assetid: 0f43072e-8f46-4094-b67a-3388b2138c14
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange2.Paragraphs Property (PowerPoint)
+# TextRange2.Paragraphs property (PowerPoint)
 
-Gets a  **TextRange2** object that represents the specified subset of text paragraphs. Read-only.
+Gets a **TextRange2** object that represents the specified subset of text paragraphs. Read-only.
 
 
 ## Syntax
 
- _expression_. `Paragraphs`( `_Start_`, `_Length_` )
+_expression_. `Paragraphs`( `_Start_`, `_Length_` )
 
  _expression_ An expression that returns a 'TextRange2' object.
 
@@ -35,15 +34,15 @@ TextRange2
 
 ## Remarks
 
-If both  **Start** and **Length** are omitted, the returned range starts with the first paragraph and ends with the last paragraph in the specified range.
+If both **Start** and **Length** are omitted, the returned range starts with the first paragraph and ends with the last paragraph in the specified range.
 
-If  **Start** is specified but **Length** is omitted, the returned range contains one paragraph.
+If **Start** is specified but **Length** is omitted, the returned range contains one paragraph.
 
-If  **Length** is specified but **Start** is omitted, the returned range starts with the first paragraph in the specified range.
+If **Length** is specified but **Start** is omitted, the returned range starts with the first paragraph in the specified range.
 
-If  **Start** is greater than the number of paragraphs in the specified text, the returned range starts with the last paragraph in the specified range.
+If **Start** is greater than the number of paragraphs in the specified text, the returned range starts with the last paragraph in the specified range.
 
-If  **Length** is greater than the number of paragraphs from the specified starting paragraph to the end of the text, the returned range contains all those paragraphs.
+If **Length** is greater than the number of paragraphs from the specified starting paragraph to the end of the text, the returned range contains all those paragraphs.
 
 
 ## Example
@@ -61,6 +60,6 @@ Application.ActivePresentation.Slides(1).Shapes(2) _
 ## See also
 
 
-[TextRange2 Object (PowerPoint)](PowerPoint.textrange2.md)
+[TextRange2 object (PowerPoint)](PowerPoint.textrange2.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

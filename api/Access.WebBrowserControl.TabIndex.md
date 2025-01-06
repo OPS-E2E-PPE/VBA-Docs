@@ -3,18 +3,17 @@ title: WebBrowserControl.TabIndex property (Access)
 keywords: vbaac10.chm143146
 f1_keywords:
 - vbaac10.chm143146
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.TabIndex
 ms.assetid: 87661ef2-ce0d-2525-2759-c115e3ac2ab5
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
 
 
 ## Syntax

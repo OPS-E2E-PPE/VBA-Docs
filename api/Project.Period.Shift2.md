@@ -1,24 +1,24 @@
 ---
-title: Period.Shift2 Property (Project)
-ms.prod: project-server
+title: Period.Shift2 property (Project)
+ms.service: project-server
 api_name:
 - Project.Period.Shift2
 ms.assetid: 48c0defc-ff50-42b8-5b63-e002709077bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Period.Shift2 Property (Project)
+# Period.Shift2 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the second work shift in a time period. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the second work shift in a time period. Read-only **Shift**.
 
 
 ## Syntax
 
- _expression_. `Shift2`
+_expression_. `Shift2`
 
- _expression_ A variable that represents a [Period](./Project.Period.md) object.
+_expression_ A variable that represents a [Period](./Project.Period.md) object.
 
 
 ## Example

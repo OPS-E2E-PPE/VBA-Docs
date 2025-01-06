@@ -1,32 +1,31 @@
 ---
-title: Workbook.Deactivate Event (Excel)
+title: Workbook.Deactivate event (Excel)
 keywords: vbaxl10.chm503075
 f1_keywords:
 - vbaxl10.chm503075
-ms.prod: excel
 api_name:
 - Excel.Workbook.Deactivate
 ms.assetid: 6bd5411c-ac43-95cf-6755-49780ac765e9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/29/2019
+ms.localizationpriority: medium
 ---
 
 
-# Workbook.Deactivate Event (Excel)
+# Workbook.Deactivate event (Excel)
 
 Occurs when the chart, worksheet, or workbook is deactivated.
 
 
 ## Syntax
 
-_expression_. `Deactivate`
+_expression_.**Deactivate**
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Example
@@ -41,9 +40,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

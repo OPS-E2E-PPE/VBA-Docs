@@ -1,27 +1,26 @@
 ---
-title: Shape.PlaceholderFormat Property (PowerPoint)
+title: Shape.PlaceholderFormat property (PowerPoint)
 keywords: vbapp10.chm547046
 f1_keywords:
 - vbapp10.chm547046
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.PlaceholderFormat
 ms.assetid: 4ccd4f93-74fc-be23-5ef4-0089d7247724
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.PlaceholderFormat Property (PowerPoint)
+# Shape.PlaceholderFormat property (PowerPoint)
 
-Returns a  **[PlaceholderFormat](PowerPoint.PlaceholderFormat.md)** object that contains the properties that are unique to placeholders. Read-only.
+Returns a **[PlaceholderFormat](PowerPoint.PlaceholderFormat.md)** object that contains the properties that are unique to placeholders. Read-only.
 
 
 ## Syntax
 
- _expression_. `PlaceholderFormat`
+_expression_. `PlaceholderFormat`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value

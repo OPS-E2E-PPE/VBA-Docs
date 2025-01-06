@@ -3,12 +3,11 @@ title: SharedWorkspaceMember.Email property (Office)
 keywords: vbaof11.chm272003
 f1_keywords:
 - vbaof11.chm272003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMember.Email
 ms.assetid: 3539becc-bde4-9331-432c-e907523975a7
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ Dim swsMember As Office.SharedWorkspaceMember
         strEmailDomain = LCase(Right(swsMember.Email, _ 
             Len(swsMember.Email) - InStr(swsMember.Email, "@"))) 
         If strEmailDomain = "example.com" Then 
-            strMemberList = strMemberList &amp; swsMember.Email &amp; vbCrLf 
+            strMemberList = strMemberList & swsMember.Email & vbCrLf 
         End If 
     Next 
     MsgBox strMemberList, vbInformation + vbOKOnly, _ 

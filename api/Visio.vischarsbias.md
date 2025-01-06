@@ -1,18 +1,17 @@
 ---
-title: VisCharsBias Enumeration (Visio)
+title: VisCharsBias enumeration (Visio)
 keywords: vis_sdr.chm70100
 f1_keywords:
 - vis_sdr.chm70100
-ms.prod: visio
 ms.assetid: b7c3e0b9-4ce7-bd82-db1c-ee7ca066e037
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisCharsBias Enumeration (Visio)
+# VisCharsBias enumeration (Visio)
 
-Bias constants to be passed to the  **Characters.CharPropsRow** property and similar properties.
+Bias constants to be passed to the **Characters.CharPropsRow** property and similar properties.
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

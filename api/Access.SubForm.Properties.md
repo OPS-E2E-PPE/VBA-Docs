@@ -3,12 +3,11 @@ title: SubForm.Properties property (Access)
 keywords: vbaac10.chm11918
 f1_keywords:
 - vbaac10.chm11918
-ms.prod: access
 api_name:
 - Access.SubForm.Properties
 ms.assetid: ad472204-659e-bd87-de99-07a2828ae274
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[SubForm](Access.SubForm.md)** objec
 
 ## Remarks
 
-The **Properties** collection object is the collection of all the properties related to a control. You can refer to individual members of the collection by using the member object's index or a string expression that is the name of the member object. 
+The **Properties** collection object is the collection of all the properties related to a control. Refer to individual members of the collection by using the member object's index or a string expression that is the name of the member object. 
 
 The first member object in the collection has an index value of 0, and the total number of member objects in the collection is the value of the **Properties** collection's **Count** property minus 1.
 

@@ -1,19 +1,16 @@
 ---
 title: MsoEncoding enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoEncoding
 ms.assetid: 286bed6e-6028-a252-5e4f-b505234d9d34
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoEncoding enumeration (Office)
 
 Specifies the document encoding (code page or character set) for the web browser to use when a user views a saved document.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|
@@ -74,7 +71,7 @@ Specifies the document encoding (code page or character set) for the web browser
 |**msoEncodingISCIIGujarati**|57010|ISCII as used with Gujarati |
 |**msoEncodingISCIIKannada**|57008|ISCII as used with Kannada |
 |**msoEncodingISCIIMalayalam**|57009|ISCII as used with Malayalam |
-|**msoEncodingISCIIOriya**|57007|ISCII as used with Oriya |
+|**msoEncodingISCIIOriya**|57007|ISCII as used with Odia (Oriya) |
 |**msoEncodingISCIIPunjabi**|57011|ISCII as used with Punjabi |
 |**msoEncodingISCIITamil**|57004|ISCII as used with Tamil |
 |**msoEncodingISCIITelugu**|57005|ISCII as used with Telugu |

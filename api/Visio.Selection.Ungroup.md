@@ -1,27 +1,26 @@
 ---
-title: Selection.Ungroup Method (Visio)
+title: Selection.Ungroup method (Visio)
 keywords: vis_sdr.chm11116625
 f1_keywords:
 - vis_sdr.chm11116625
-ms.prod: visio
 api_name:
 - Visio.Selection.Ungroup
 ms.assetid: b9f14342-e885-1399-83ed-59189f5cbec3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Ungroup Method (Visio)
+# Selection.Ungroup method (Visio)
 
 Ungroups a group.
 
 
 ## Syntax
 
- _expression_. `Ungroup`
+_expression_.**Ungroup**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Nothing
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Ungroup** method.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Ungroup** method.
 
 
 ```vb

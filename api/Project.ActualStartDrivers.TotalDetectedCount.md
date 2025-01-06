@@ -1,24 +1,24 @@
 ---
-title: ActualStartDrivers.TotalDetectedCount Property (Project)
-ms.prod: project-server
+title: ActualStartDrivers.TotalDetectedCount property (Project)
+ms.service: project-server
 api_name:
 - Project.ActualStartDrivers.TotalDetectedCount
 ms.assetid: 188d79e3-3a1b-a0ed-e11b-3998334d6a17
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ActualStartDrivers.TotalDetectedCount Property (Project)
+# ActualStartDrivers.TotalDetectedCount property (Project)
 
-Gets the total number of actual start drivers that affect the start date of a task. Read-only  **Long**.
+Gets the total number of actual start drivers that affect the start date of a task. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `TotalDetectedCount`
+_expression_. `TotalDetectedCount`
 
- _expression_ A variable that represents an 'ActualStartDrivers' object.
+_expression_ A variable that represents an 'ActualStartDrivers' object.
 
 
 ## Remarks
@@ -28,7 +28,7 @@ Actual start drivers are assignments that affect the start date of a task becaus
 
 ## Example
 
-The following example displays  **TotalDetectedCount** for each task in the active project. The example assumes there are no more than five assignments whose start dates are the same as the task's start date.
+The following example displays **TotalDetectedCount** for each task in the active project. The example assumes there are no more than five assignments whose start dates are the same as the task's start date.
 
 
 ```vb

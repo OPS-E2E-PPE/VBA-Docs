@@ -3,10 +3,9 @@ title: Can't perform requested operation since the module is hidden
 keywords: vblr6.chm1107950
 f1_keywords:
 - vblr6.chm1107950
-ms.prod: office
 ms.assetid: c19df6f0-eaa3-ea06-9cfd-a6b2db2f7605
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

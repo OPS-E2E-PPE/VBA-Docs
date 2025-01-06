@@ -3,12 +3,11 @@ title: PutInClipboard method (Microsoft Forms)
 keywords: fm20.chm5224965
 f1_keywords:
 - fm20.chm5224965
-ms.prod: office
 api_name:
 - Office.PutInClipboard
 ms.assetid: fd097450-a929-d9ce-d7a9-b93e75f4ec14
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

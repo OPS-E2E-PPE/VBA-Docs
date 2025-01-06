@@ -3,30 +3,29 @@ title: Window.Height property (Word)
 keywords: vbawd10.chm157417480
 f1_keywords:
 - vbawd10.chm157417480
-ms.prod: word
 api_name:
 - Word.Window.Height
 ms.assetid: 9b96ac83-57cc-4cb2-768b-2b5012c49bbc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Window.Height property (Word)
 
-Returns or sets the height of the window (in points). Read/write Long.
+Returns or sets the height of the window (in points). Read/write **Long**.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-You cannot set this property if the window is maximized or minimized. Use the  **UsableHeight** property of the **Application** object to determine the maximum size for the window. Use the **WindowState** property to determine the window state.
+You cannot set this property if the window is maximized or minimized. Use the **UsableHeight** property of the **Application** object to determine the maximum size for the window. Use the **WindowState** property to determine the window state.
 
 
 ## Example

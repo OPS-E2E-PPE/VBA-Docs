@@ -3,18 +3,17 @@ title: WebBrowserControl.Value property (Access)
 keywords: vbaac10.chm14358
 f1_keywords:
 - vbaac10.chm14358
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Value
 ms.assetid: bf08215c-14c7-b2b2-65d5-707478e96e5a
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.Value property (Access)
 
-Determines or specifies the text in the text box. Read/write **Variant**.
+Determines or specifies the text in the control. Read/write **Variant**.
 
 
 ## Syntax

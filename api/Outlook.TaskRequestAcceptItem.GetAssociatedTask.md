@@ -1,27 +1,26 @@
 ---
-title: TaskRequestAcceptItem.GetAssociatedTask Method (Outlook)
+title: TaskRequestAcceptItem.GetAssociatedTask method (Outlook)
 keywords: vbaol11.chm1808
 f1_keywords:
 - vbaol11.chm1808
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestAcceptItem.GetAssociatedTask
 ms.assetid: 979459e5-3f95-2e55-f5c9-92e36fc47d5d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.GetAssociatedTask Method (Outlook)
+# TaskRequestAcceptItem.GetAssociatedTask method (Outlook)
 
-Returns a  **[TaskItem](Outlook.TaskItem.md)** object that represents the requested task.
+Returns a **[TaskItem](Outlook.TaskItem.md)** object that represents the requested task.
 
 
 ## Syntax
 
 _expression_. `GetAssociatedTask`( `_AddToTaskList_` )
 
-_expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.TaskRequestAcceptItem.md) object.
+_expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.Task
 
 ## Return value
 
-A  **TaskItem** object that represents the requested task.
+A **TaskItem** object that represents the requested task.
 
 
 ## Remarks
 
-The  **GetAssociatedTask** method will not work unless the **TaskItem** is processed before the method is called. To do so, call the **[Display](Outlook.TaskItem.Display.md)** method before calling **GetAssociatedTask**.
+The **GetAssociatedTask** method will not work unless the **TaskItem** is processed before the method is called. To do so, call the **[Display](Outlook.TaskItem.Display.md)** method before calling **GetAssociatedTask**.
 
 
 ## See also

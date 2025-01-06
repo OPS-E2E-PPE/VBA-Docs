@@ -1,27 +1,26 @@
 ---
-title: FreeformBuilder.ConvertToShape Method (PowerPoint)
+title: FreeformBuilder.ConvertToShape method (PowerPoint)
 keywords: vbapp10.chm546003
 f1_keywords:
 - vbapp10.chm546003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FreeformBuilder.ConvertToShape
 ms.assetid: bc3d209e-6735-3011-9334-46049d269355
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FreeformBuilder.ConvertToShape Method (PowerPoint)
+# FreeformBuilder.ConvertToShape method (PowerPoint)
 
-Creates a shape that has the geometric characteristics of the specified  **[FreeformBuilder](PowerPoint.FreeformBuilder.md)** object. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new shape.
+Creates a shape that has the geometric characteristics of the specified **[FreeformBuilder](PowerPoint.FreeformBuilder.md)** object. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new shape.
 
 
 ## Syntax
 
- _expression_. `ConvertToShape`
+_expression_. `ConvertToShape`
 
- _expression_ A variable that represents a [FreeformBuilder](./PowerPoint.FreeformBuilder.md) object.
+_expression_ A variable that represents a [FreeformBuilder](PowerPoint.FreeformBuilder.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Shape
 
 ## Remarks
 
-You must apply the [AddNodes](PowerPoint.FreeformBuilder.AddNodes.md)method to a  **FreeformBuilder** object at least once before you use the **ConvertToShape** method.
+You must apply the [AddNodes](PowerPoint.FreeformBuilder.AddNodes.md)method to a **FreeformBuilder** object at least once before you use the **ConvertToShape** method.
 
 
 ## Example

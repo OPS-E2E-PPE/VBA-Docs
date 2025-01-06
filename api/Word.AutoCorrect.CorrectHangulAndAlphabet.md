@@ -3,12 +3,11 @@ title: AutoCorrect.CorrectHangulAndAlphabet property (Word)
 keywords: vbawd10.chm155779084
 f1_keywords:
 - vbawd10.chm155779084
-ms.prod: word
 api_name:
 - Word.AutoCorrect.CorrectHangulAndAlphabet
 ms.assetid: b6dc4a8e-9245-0c29-370f-c6fcbb3a924a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CorrectHangulAndAlphabet`
+_expression_. `CorrectHangulAndAlphabet`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 

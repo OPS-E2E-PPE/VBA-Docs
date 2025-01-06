@@ -3,25 +3,24 @@ title: ShapeRange.Duplicate method (Word)
 keywords: vbawd10.chm162856974
 f1_keywords:
 - vbawd10.chm162856974
-ms.prod: word
 api_name:
 - Word.ShapeRange.Duplicate
 ms.assetid: 98efa3b3-3405-152a-b629-d4bb654c8029
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ShapeRange.Duplicate method (Word)
 
-Creates a duplicate of the specified  **ShapeRange** object, adds the new range of shapes to the **Shapes** collection at a standard offset from the original shapes, and then returns a **Shape** object.
+Creates a duplicate of the specified **ShapeRange** object, adds the new range of shapes to the **Shapes** collection at a standard offset from the original shapes, and then returns a **Shape** object.
 
 
 ## Syntax
 
- _expression_. `Duplicate`
+_expression_.**Duplicate**
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Example

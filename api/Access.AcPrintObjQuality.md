@@ -3,20 +3,17 @@ title: AcPrintObjQuality enumeration (Access)
 keywords: vbaac10.chm13245
 f1_keywords:
 - vbaac10.chm13245
-ms.prod: access
 api_name:
 - Access.AcPrintObjQuality
 ms.assetid: 67c07d41-776a-0dc6-22dd-9bb1bdf95fdc
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPrintObjQuality enumeration (Access)
 
 Used with the **PrintQuality** property to specify the resolution at which the specified printer should print jobs.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

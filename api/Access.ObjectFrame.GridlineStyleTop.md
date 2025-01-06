@@ -3,18 +3,17 @@ title: ObjectFrame.GridlineStyleTop property (Access)
 keywords: vbaac10.chm11644
 f1_keywords:
 - vbaac10.chm11644
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineStyleTop
 ms.assetid: cf902f29-bd15-9abe-cfdb-d34fc059cf0b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.GridlineStyleTop property (Access)
 
-Gets or sets the top gridline style of the specified frame. Read/write **Byte**.
+Gets or sets the top gridline style of the specified object frame. Read/write **Byte**.
 
 
 ## Syntax

@@ -3,25 +3,24 @@ title: Column.NestingLevel property (Word)
 keywords: vbawd10.chm156172393
 f1_keywords:
 - vbawd10.chm156172393
-ms.prod: word
 api_name:
 - Word.Column.NestingLevel
 ms.assetid: 194c6759-33ec-832d-6353-83ee80a15290
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Column.NestingLevel property (Word)
 
-Returns the nesting level of the specified column. Read-only  **Long**.
+Returns the nesting level of the specified column. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `NestingLevel`
+_expression_. `NestingLevel`
 
- _expression_ Required. A variable that represents a '[Column](Word.Column.md)' object.
+_expression_ Required. A variable that represents a '[Column](Word.Column.md)' object.
 
 
 ## Remarks

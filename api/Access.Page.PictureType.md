@@ -3,18 +3,17 @@ title: Page.PictureType property (Access)
 keywords: vbaac10.chm12150
 f1_keywords:
 - vbaac10.chm12150
-ms.prod: access
 api_name:
 - Access.Page.PictureType
 ms.assetid: 113e63ec-a2d9-bd5e-8a49-82fd92339cb8
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Page.PictureType property (Access)
 
-You can use the **PictureType** property to specify whether Microsoft Access stores an object's picture as a linked or an embedded object. Read/write **Byte**.
+Use the **PictureType** property to specify whether Microsoft Access stores an object's picture as a linked or an embedded object. Read/write **Byte**.
 
 
 ## Syntax

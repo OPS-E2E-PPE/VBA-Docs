@@ -3,25 +3,24 @@ title: PageSetup.BookFoldPrintingSheets property (Word)
 keywords: vbawd10.chm158401737
 f1_keywords:
 - vbawd10.chm158401737
-ms.prod: word
 api_name:
 - Word.PageSetup.BookFoldPrintingSheets
 ms.assetid: 88431024-42a0-d92e-a62b-eeaedbe0c945
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup.BookFoldPrintingSheets property (Word)
 
-Returns or sets a  **Long** which represents the number of pages for each booklet. Read/write **Boolean**.
+Returns or sets a **Long** which represents the number of pages for each booklet. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `BookFoldPrintingSheets`
+_expression_. `BookFoldPrintingSheets`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example

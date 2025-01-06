@@ -1,10 +1,10 @@
 ---
 title: FileDialog members (Office)
 description: Provides file dialog box functionality similar to the functionality of the standard Open and Save dialog boxes found in Microsoft Office applications.
-ms.prod: office
+ms.service: office
 ms.assetid: b6b7e87e-9420-0649-2feb-6d8f36bb53bc
 ms.date: 01/30/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

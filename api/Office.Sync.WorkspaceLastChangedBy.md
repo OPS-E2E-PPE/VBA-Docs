@@ -3,12 +3,11 @@ title: Sync.WorkspaceLastChangedBy property (Office)
 keywords: vbaof11.chm277002
 f1_keywords:
 - vbaof11.chm277002
-ms.prod: office
 api_name:
 - Office.Sync.WorkspaceLastChangedBy
 ms.assetid: f2eac8a6-5e94-44a9-3d2f-1ca04cf54361
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,8 +41,8 @@ The following example checks for a conflict between the local and the server cop
     Dim strStatus As String 
     Set objSync = ActiveDocument.Sync 
     If objSync.Status = msoSyncStatusConflict Then 
-        strStatus = "The server copy has been changed." &amp; vbCrLf &amp; _ 
-            "Changes have been made by: " &amp; _ 
+        strStatus = "The server copy has been changed." & vbCrLf & _ 
+            "Changes have been made by: " & _ 
             objSync.WorkspaceLastChangedBy 
         MsgBox strStatus, vbInformation + vbOKOnly, "Server Copy Changed" 
     End If 

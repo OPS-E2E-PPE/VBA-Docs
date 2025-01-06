@@ -1,25 +1,24 @@
 ---
-title: ColorFormat Object (PowerPoint)
+title: ColorFormat object (PowerPoint)
 keywords: vbapp10.chm506000
 f1_keywords:
 - vbapp10.chm506000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorFormat
 ms.assetid: 3bfcd08d-65f4-25a3-2d05-77111fbd13e5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorFormat Object (PowerPoint)
+# ColorFormat object (PowerPoint)
 
-Represents the color of a one-color object, the foreground or background color of an object with a gradient or patterned fill, or the pointer color. You can set colors to an explicit red-green-blue value (by using the [RGB](PowerPoint.ColorFormat.RGB.md) property) or to a color in the color scheme (by using the [SchemeColor](PowerPoint.ColorFormat.SchemeColor.md) property).
+Represents the color of a one-color object, the foreground or background color of an object with a gradient or patterned fill, or the pointer color. You can set colors to an explicit red-green-blue value (by using the [RGB](PowerPoint.ColorFormat.RGB.md) property) or to a color in the theme (by using the [ObjectThemeColor]) or the legacy pre-Office 2007 color scheme (by using the [SchemeColor](PowerPoint.ColorFormat.SchemeColor.md) property).
 
 
 ## Remarks
 
-Use one of the properties listed in the following table to return a  **ColorFormat** object.
+Use one of the properties listed in the following table to return a **ColorFormat** object.
 
 
 
@@ -45,7 +44,7 @@ Use the [SchemeColor](PowerPoint.ColorFormat.SchemeColor.md) property to set the
 ActivePresentation.Slides(2).Shapes(1).TextFrame.TextRange.Font.Color.SchemeColor = ppTitle
 ```
 
-Use the [RGB](PowerPoint.ColorFormat.RGB.md) property to set a color to an explicit red-green-blue value. The following example adds a rectangle to `myDocument` and then sets the foreground color, background color, and gradient for the rectangle's fill.
+Use the [RGB](PowerPoint.ColorFormat.RGB.md) property to set a color to an explicit red-green-blue value. The following example adds a rectangle to _myDocument_ and then sets the foreground color, background color, and gradient for the rectangle's fill.
 
 
 

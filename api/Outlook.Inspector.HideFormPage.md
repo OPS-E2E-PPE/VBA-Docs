@@ -1,18 +1,17 @@
 ---
-title: Inspector.HideFormPage Method (Outlook)
+title: Inspector.HideFormPage method (Outlook)
 keywords: vbaol11.chm2967
 f1_keywords:
 - vbaol11.chm2967
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.HideFormPage
 ms.assetid: fbb0fec9-5a23-50f8-0be6-3d264859f327
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.HideFormPage Method (Outlook)
+# Inspector.HideFormPage method (Outlook)
 
 Hides a form page or a form region in the inspector.
 
@@ -21,7 +20,7 @@ Hides a form page or a form region in the inspector.
 
 _expression_. `HideFormPage`( `_PageName_` )
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) o
 
 ## Remarks
 
-You can use  **HideFormRegion** to hide a form region by specifying the **[InternalName](Outlook.FormRegion.InternalName.md)** property of the form region, if the form region is an adjoining or separate form region. Only the add-in that implements the form region can hide the form region.
+Use **HideFormRegion** to hide a form region by specifying the **[InternalName](Outlook.FormRegion.InternalName.md)** property of the form region, if the form region is an adjoining or separate form region. Only the add-in that implements the form region can hide the form region.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses  **HideFormPage** to hide the "General" page of a newly-created **[ContactItem](Outlook.ContactItem.md)** and displays the item.
+This Visual Basic for Applications (VBA) example uses **HideFormPage** to hide the "General" page of a newly-created **[ContactItem](Outlook.ContactItem.md)** and displays the item.
 
 
 ```vb

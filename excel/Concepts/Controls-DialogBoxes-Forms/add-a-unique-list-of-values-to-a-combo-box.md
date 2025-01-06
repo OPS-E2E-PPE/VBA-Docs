@@ -1,15 +1,14 @@
 ---
 title: Add a Unique List of Values to a Combo Box
-ms.prod: excel
 ms.assetid: e2fa08b1-99bd-49fa-b1a2-5b693f7015e7
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Add a Unique List of Values to a Combo Box
 
-These examples show different approaches for taking a list from a spreadsheet and using it to populate a combo box control using only the unique values. The first example uses the  **AdvancedFilter** method of the Range object and the second uses the Collection object.
+These examples show different approaches for taking a list from a spreadsheet and using it to populate a combo box control using only the unique values. The first example uses the **AdvancedFilter** method of the Range object and the second uses the Collection object.
 
  **Sample code provided by:** Dennis Wallentin, [VSTO & .NET & Excel](https://xldennis.wordpress.com/)
 

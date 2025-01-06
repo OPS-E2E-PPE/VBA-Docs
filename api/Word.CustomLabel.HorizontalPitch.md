@@ -3,25 +3,24 @@ title: CustomLabel.HorizontalPitch property (Word)
 keywords: vbawd10.chm152371208
 f1_keywords:
 - vbawd10.chm152371208
-ms.prod: word
 api_name:
 - Word.CustomLabel.HorizontalPitch
 ms.assetid: 87d0ba81-3298-ffe2-71d3-eef2301e1484
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomLabel.HorizontalPitch property (Word)
 
-Returns or sets the horizontal distance (in points) between the left edge of one custom mailing label and the left edge of the next mailing label. Read/write  **Single**.
+Returns or sets the horizontal distance (in points) between the left edge of one custom mailing label and the left edge of the next mailing label. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `HorizontalPitch`
+_expression_. `HorizontalPitch`
 
- _expression_ A variable that represents a '[CustomLabel](Word.CustomLabel.md)' object.
+_expression_ A variable that represents a '[CustomLabel](Word.CustomLabel.md)' object.
 
 
 ## Remarks

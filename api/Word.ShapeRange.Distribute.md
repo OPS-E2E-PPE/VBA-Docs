@@ -3,12 +3,11 @@ title: ShapeRange.Distribute method (Word)
 keywords: vbawd10.chm162856973
 f1_keywords:
 - vbawd10.chm162856973
-ms.prod: word
 api_name:
 - Word.ShapeRange.Distribute
 ms.assetid: fae7b87a-9542-7018-15fb-a4e4efee4c9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Evenly distributes the shapes in the specified range of shapes. .
 
 ## Syntax
 
- _expression_. `Distribute`( `_Distribute_` , `_RelativeTo_` )
+_expression_. `Distribute`( `_Distribute_` , `_RelativeTo_` )
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Parameters

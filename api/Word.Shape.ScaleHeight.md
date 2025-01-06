@@ -3,12 +3,11 @@ title: Shape.ScaleHeight method (Word)
 keywords: vbawd10.chm161480723
 f1_keywords:
 - vbawd10.chm161480723
-ms.prod: word
 api_name:
 - Word.Shape.ScaleHeight
 ms.assetid: 994aac8b-5842-5986-0d27-01e52e01066d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scales the height of the shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight`( `_Factor_` , `_RelativeToOriginalSize_` , `_Scale_` )
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _Scale_)
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ For pictures and OLE objects, you can indicate whether you want to scale the sha
 
 ## Example
 
-This example scales all pictures and OLE objects on  _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
+This example scales all pictures and OLE objects on _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
 
 
 ```vb

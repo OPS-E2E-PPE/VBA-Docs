@@ -3,18 +3,17 @@ title: CheckBox.TabIndex property (Access)
 keywords: vbaac10.chm10707
 f1_keywords:
 - vbaac10.chm10707
-ms.prod: access
 api_name:
 - Access.CheckBox.TabIndex
 ms.assetid: 094064c7-83f3-8d3d-25f2-b5b2956331ef
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
 
 
 ## Syntax

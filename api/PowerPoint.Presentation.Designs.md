@@ -1,27 +1,26 @@
 ---
-title: Presentation.Designs Property (PowerPoint)
+title: Presentation.Designs property (PowerPoint)
 keywords: vbapp10.chm583063
 f1_keywords:
 - vbapp10.chm583063
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.Designs
 ms.assetid: 5ad47ac9-aaab-3971-1102-fa48e8bcef8b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.Designs Property (PowerPoint)
+# Presentation.Designs property (PowerPoint)
 
-Returns a  **[Designs](PowerPoint.Designs.md)** object that represents a collection of designs.
+Returns a **[Designs](PowerPoint.Designs.md)** object that represents a collection of designs.
 
 
 ## Syntax
 
- _expression_. `Designs`
+_expression_. `Designs`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

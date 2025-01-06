@@ -3,12 +3,11 @@ title: CalloutFormat.CustomLength method (Word)
 keywords: vbawd10.chm163905548
 f1_keywords:
 - vbawd10.chm163905548
-ms.prod: word
 api_name:
 - Word.CalloutFormat.CustomLength
 ms.assetid: b9c2a9d5-873e-9292-04e1-c2e05388589b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Specifies that the first segment of the callout line (the segment attached to th
 
 ## Syntax
 
- _expression_. `CustomLength`( `_Length_` )
+_expression_.**CustomLength** (_Length_)
 
- _expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
 
 
 ## Parameters
@@ -34,9 +33,9 @@ Specifies that the first segment of the callout line (the segment attached to th
 
 ## Remarks
 
-Use the  **AutomaticLength** method to specify that the first segment of the callout line be scaled automatically whenever the callout is moved. Applies only to callouts whose lines consist of more than one segment (types **msoCalloutThree** and **msoCalloutFour**).
+Use the **AutomaticLength** method to specify that the first segment of the callout line be scaled automatically whenever the callout is moved. Applies only to callouts whose lines consist of more than one segment (types **msoCalloutThree** and **msoCalloutFour**).
 
-Applying this method sets the  **AutoLength** property to **False** and sets the **Length** property to the value specified for the Length argument.
+Applying this method sets the **AutoLength** property to **False** and sets the **Length** property to the value specified for the Length argument.
 
 
 ## Example

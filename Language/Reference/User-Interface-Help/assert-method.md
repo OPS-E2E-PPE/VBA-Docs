@@ -3,24 +3,21 @@ title: Assert method (Visual Basic for Applications)
 keywords: vblr6.chm1103682
 f1_keywords:
 - vblr6.chm1103682
-ms.prod: office
 api_name:
 - Office.Assert
 ms.assetid: 50bc7f70-d1d0-b23b-e449-f41815cc3178
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Assert method
 
-Conditionally suspends execution at the line on which the method appears.
+Conditionally suspends execution when _booleanexpression_ returns **False** at the line on which the method appears.
 
 ## Syntax
 
 _object_.**Assert** _booleanexpression_
-
-<br/>
 
 The **Assert** method syntax has the following object qualifier and argument:
 

@@ -3,11 +3,10 @@ title: Chart.SecondaryValuesAxisMaximum property (Access)
 keywords: vbaac10.chm6122
 f1_keywords:
 - vbaac10.chm6122
-ms.prod: access
 api_name:
 - Access.Chart.SecondaryValuesAxisMaximum
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: PictureFormat.CropRight Property (PowerPoint)
+title: PictureFormat.CropRight property (PowerPoint)
 keywords: vbapp10.chm551009
 f1_keywords:
 - vbapp10.chm551009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PictureFormat.CropRight
 ms.assetid: 217691ed-5533-707c-338d-4375dbdd3eaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PictureFormat.CropRight Property (PowerPoint)
+# PictureFormat.CropRight property (PowerPoint)
 
 Returns or sets the number of points that are cropped off the right side of the specified picture or OLE object. Read/write. 
 
 
 ## Syntax
 
- _expression_. `CropRight`
+_expression_.**CropRight**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Single
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it is 200 points wide, and then set the  **CropRight** property to 50, 100 points (not 50) will be cropped off the right side of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it is 200 points wide, and then set the **CropRight** property to 50, 100 points (not 50) will be cropped off the right side of your picture.
 
 
 ## Example
 
-This example crops 20 points off the right side of shape three on  `myDocument`. For this example to work, shape three must be either a picture or an OLE object.
+This example crops 20 points off the right side of shape three on _myDocument_. For this example to work, shape three must be either a picture or an OLE object.
 
 
 ```vb

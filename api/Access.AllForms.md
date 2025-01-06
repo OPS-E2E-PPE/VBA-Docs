@@ -3,12 +3,11 @@ title: AllForms object (Access)
 keywords: vbaac10.chm12683
 f1_keywords:
 - vbaac10.chm12683
-ms.prod: access
 api_name:
 - Access.AllForms
 ms.assetid: b90616b9-90fc-bb51-6bfa-b149dece0f1b
 ms.date: 02/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ The **AllForms** collection contains an **[AccessObject](Access.AccessObject.md)
 
 The **CurrentProject** and **CodeProject** object has an **AllForms** collection containing **AccessObject** objects that describe instances of all the forms in the database. For example, you can enumerate the **AllForms** collection in Visual Basic to set or return the values of properties of individual **AccessObject** objects in the collection.
 
-You can refer to an individual **AccessObject** object in the **AllForms** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllForms** collection, it's better to refer to the form by name because a form's collection index may change.
+Refer to an individual **AccessObject** object in the **AllForms** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllForms** collection, it's better to refer to the form by name because a form's collection index may change.
 
 The **AllForms** collection is indexed beginning with zero. If you refer to a form by its index, the first form is AllForms(0), the second form is AllForms(1), and so on.
 
@@ -49,14 +48,12 @@ Sub AllForms()
 End Sub
 ```
 
-<br/>
-
 The following example shows how to prevent a user from opening a particular form directly from the navigation pane.
 
 ```vb
 'Don't let this form be opened from the Navigator
 If Not CurrentProject.AllForms(cFormUsage).IsLoaded Then
-    MsgBox "This form cannot be opened from the Navigation Pane.", _
+    MsgBox "This form cannot be opened from the navigation pane.", _
         vbInformation + vbOKOnly, "Invalid form usage"
     Cancel = True
     Exit Sub

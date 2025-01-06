@@ -3,10 +3,9 @@ title: Out of memory (Error 7)
 keywords: vblr6.chm1011242
 f1_keywords:
 - vblr6.chm1011242
-ms.prod: office
 ms.assetid: b04a1604-738c-2425-1d4b-a5c595cd798d
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ More memory was required than is available, or a 64K segment boundary was encoun
     
 - You have many device drivers loaded. Eliminate unnecessary device drivers.
     
-- You have run out of space for **Public** [variables](../../Glossary/vbe-glossary.md#variable). Reduce the number of  **Public** variables.
+- You have run out of space for **Public** [variables](../../Glossary/vbe-glossary.md#variable). Reduce the number of **Public** variables.
     
 - You have attempted to update a property that is read-only. Do not assign values to read-only properties.
 

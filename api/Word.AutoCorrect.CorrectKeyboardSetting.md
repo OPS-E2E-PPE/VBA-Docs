@@ -3,12 +3,11 @@ title: AutoCorrect.CorrectKeyboardSetting property (Word)
 keywords: vbawd10.chm155779090
 f1_keywords:
 - vbawd10.chm155779090
-ms.prod: word
 api_name:
 - Word.AutoCorrect.CorrectKeyboardSetting
 ms.assetid: 2b611e7d-b0fe-41c2-1b93-3364c5d26c9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CorrectKeyboardSetting`
+_expression_. `CorrectKeyboardSetting`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 
 
 ## Remarks
 
-The  **[CheckLanguage](Word.Application.CheckLanguage.md)** property must be set to **True** to use the **CorrectKeyboardSetting** property.
+The **[CheckLanguage](Word.Application.CheckLanguage.md)** property must be set to **True** to use the **CorrectKeyboardSetting** property.
 
 
 ## Example

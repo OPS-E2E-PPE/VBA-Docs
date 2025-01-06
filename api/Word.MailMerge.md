@@ -3,12 +3,11 @@ title: MailMerge object (Word)
 keywords: vbawd10.chm2336
 f1_keywords:
 - vbawd10.chm2336
-ms.prod: word
 api_name:
 - Word.MailMerge
 ms.assetid: b228c4d6-9ca7-8795-12f6-d32e62844a83
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Represents the mail merge functionality in Word.
 
 ## Remarks
 
-Use the  **MailMerge** property to return the **MailMerge** object. The **MailMerge** object is always available regardless of whether the mail merge operation has begun. Use the **State** property to determine the status of the mail merge operation. The following example executes a mail merge if the active document is a main document with an attached data source.
+Use the **MailMerge** property to return the **MailMerge** object. The **MailMerge** object is always available regardless of whether the mail merge operation has begun. Use the **State** property to determine the status of the mail merge operation. The following example executes a mail merge if the active document is a main document with an attached data source.
 
 
 ```vb
@@ -53,6 +52,6 @@ End With
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

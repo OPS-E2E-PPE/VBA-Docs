@@ -3,12 +3,11 @@ title: Selection.Active property (Word)
 keywords: vbawd10.chm158663059
 f1_keywords:
 - vbawd10.chm158663059
-ms.prod: word
 api_name:
 - Word.Selection.Active
 ms.assetid: a279837e-8ae7-24ec-71f0-de82c5a33ad8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Active`
+_expression_.**Active**
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

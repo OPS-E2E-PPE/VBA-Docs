@@ -3,12 +3,11 @@ title: BeforeDragOver event
 keywords: fm20.chm5224935
 f1_keywords:
 - fm20.chm5224935
-ms.prod: office
 api_name:
 - Office.BeforeDragOver
 ms.assetid: 0c2803fc-0f69-60d8-06fb-36870aad8a27
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -82,8 +81,6 @@ The settings for _DragState_ are:
 | _fmDragStateLeave_|1|Mouse pointer is outside the range of a target.|
 | _fmDragStateOver_|2|Mouse pointer is at a new position, but remains within range of the same target.|
 
-<br/>
-
 The settings for _Effect_ are:
 
 |Constant|Value|Description|
@@ -92,8 +89,6 @@ The settings for _Effect_ are:
 | _fmDropEffectCopy_|1|Copies the drop source to the drop target.|
 | _fmDropEffectMove_|2|Moves the drop source to the drop target.|
 | _fmDropEffectCopyOrMove_|3|Copies or moves the drop source to the drop target.|
-
-<br/>
 
 The settings for _Shift_ are:
 
@@ -117,7 +112,7 @@ When  _Effect_ is set to **fmDropEffectMove**, the drop source supports a move o
 
 When  _Effect_ is set to **fmDropEffectNone**, the drop source supports a cancel operation.
 
-Most controls do not support drag-and-drop while  _Cancel_ is **False**, which is the default setting. This means that the control rejects attempts to drag or drop anything on the control, and the control does not initiate the BeforeDropOrPaste event. The **[TextBox](textbox-control.md)** and **[ComboBox](combobox-control.md)** controls are exceptions to this; these controls support drag-and-drop operations even when _Cancel_ is **False**.
+Most controls don't support drag-and-drop while  _Cancel_ is **False**, which is the default setting. This means that the control rejects attempts to drag or drop anything on the control, and the control does not initiate the BeforeDropOrPaste event. The **[TextBox](textbox-control.md)** and **[ComboBox](combobox-control.md)** controls are exceptions to this; these controls support drag-and-drop operations even when _Cancel_ is **False**.
 
 ## See also
 

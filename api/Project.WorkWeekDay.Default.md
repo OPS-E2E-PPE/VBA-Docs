@@ -1,22 +1,22 @@
 ---
-title: WorkWeekDay.Default Method (Project)
-ms.prod: project-server
+title: WorkWeekDay.Default method (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDay.Default
 ms.assetid: ebd16c59-a718-6d11-5387-7a5b816fdf35
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDay.Default Method (Project)
+# WorkWeekDay.Default method (Project)
 
-Resets the  **WorkWeekDay** item of a resource calendar to the value in the corresponding base calendar.
+Resets the **WorkWeekDay** item of a resource calendar to the value in the corresponding base calendar.
 
 
 ## Syntax
 
- _expression_. `Default`
+_expression_. `Default`
 
  _expression_ An expression that returns a [WorkWeekDay](./Project.WorkWeekDay.md) object.
 
@@ -28,7 +28,7 @@ Resets the  **WorkWeekDay** item of a resource calendar to the value in the corr
 
 ## Remarks
 
-Applying the  **Default** method to a base calendar resets the properties to their default values.
+Applying the **Default** method to a base calendar resets the properties to their default values.
 
 
 ## See also

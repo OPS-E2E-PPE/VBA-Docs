@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeApplyNumberedLists property (Word)
 keywords: vbawd10.chm165347591
 f1_keywords:
 - vbawd10.chm165347591
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeApplyNumberedLists
 ms.assetid: 39e50b47-1e1c-4ed8-197c-b99476423187
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyNumberedLists`
+_expression_. `AutoFormatAsYouTypeApplyNumberedLists`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
 
- If set to **True** , numbered lists use a numbering scheme from the **Bullets and Numbering** dialog box (**Format** menu), according to what's typed. For example, if a paragraph starts with "1.1" and a tab character, Word automatically inserts "1.2" and a tab character when the ENTER key is pressed.
+ If set to **True**, numbered lists use a numbering scheme from the **Bullets and Numbering** dialog box (**Format** menu), according to what's typed. For example, if a paragraph starts with "1.1" and a tab character, Word automatically inserts "1.2" and a tab character when the ENTER key is pressed.
 
 
 ## Example
@@ -38,7 +37,7 @@ This example causes lists to be automatically numbered as you type.
 Options.AutoFormatAsYouTypeApplyNumberedLists = True
 ```
 
-This example returns the status of the  **Automatic numbered lists** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Automatic numbered lists** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

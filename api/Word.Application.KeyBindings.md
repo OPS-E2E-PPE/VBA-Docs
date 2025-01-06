@@ -3,30 +3,29 @@ title: Application.KeyBindings property (Word)
 keywords: vbawd10.chm158335045
 f1_keywords:
 - vbawd10.chm158335045
-ms.prod: word
 api_name:
 - Word.Application.KeyBindings
 ms.assetid: 68e08a9a-6547-f722-078e-b603b9f3e9cb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.KeyBindings property (Word)
 
-Returns a  **[KeyBindings](Word.keybindings.md)** collection that represents customized key assignments, which include a key code, a key category, and a command.
+Returns a **[KeyBindings](Word.keybindings.md)** collection that represents customized key assignments, which include a key code, a key category, and a command.
 
 
 ## Syntax
 
- _expression_. `KeyBindings`
+_expression_. `KeyBindings`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example
 
-This example assigns the CTRL+ALT+W key combination to the  **FileClose** command. This keyboard customization is saved in the Normal template.
+This example assigns the CTRL+ALT+W key combination to the **FileClose** command. This keyboard customization is saved in the Normal template.
 
 
 ```vb

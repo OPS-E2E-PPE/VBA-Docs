@@ -1,32 +1,32 @@
 ---
-title: Application.Assistance Property (Project)
-ms.prod: project-server
+title: Application.Assistance property (Project)
+ms.service: project-server
 ms.assetid: f53bf107-9fd1-78f9-f8db-0b8c2acc5f72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Assistance Property (Project)
+# Application.Assistance property (Project)
 
  Gets an **Office.IAssistance** object that represents the Project Help system. Read-only **IAssistance**.
 
 
 ## Syntax
 
- _expression_. `Assistance`
+_expression_.**Assistance**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-For more information, see the  **IAssistance** object in the Microsoft Office Visual Basic Reference.
+For more information, see the **IAssistance** object in the Microsoft Office Visual Basic Reference.
 
 
 ## Example
 
-The following example displays the top-level page of the  **Project Help** window.
+The following example displays the top-level page of the **Project Help** window.
 
 
 ```vb
@@ -42,6 +42,6 @@ End Sub
 
 ## Property value
 
- **<unknown type>**
+ **\<unknown type>\**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

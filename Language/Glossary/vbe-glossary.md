@@ -1,10 +1,9 @@
 ---
 title: VBE Glossary
-ms.prod: office
 ms.assetid: b8bdf64f-5920-1ae9-16d0-b26d09524a30
 description: Glossary of terms for Visual Basic Editor (VBE).
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/11/2019
+ms.localizationpriority: high
 ---
 
 
@@ -162,8 +161,7 @@ A pane contained in a code window that is used for entering and editing code. A 
 
 ## collection
 
-An object that contains a set of related objects. An object's position in the collection can change whenever a change occurs in the collection; therefore, the position of any specific object in the collection can vary.
-
+An object that contains a set of related objects. An object's position in the collection can change whenever a change occurs in the collection; therefore, the position of any specific object in the collection can vary. The **[Collection](../reference/user-interface-help/collection-object.md)** object is the standard example of a collection class; instances of the class are collections. Collections must implement a method called **NewEnum** that accepts no arguments, returns an appropriate **IUnknown** object, and has its **VB_UserMemId** attribute set to `-4`.
 
 ## command line
 
@@ -177,7 +175,9 @@ Text added to code that explains how the code works. In Visual Basic, a comment 
 
 ## comparison operator
 
-A character or symbol indicating a relationship between two or more values or expressions. These operators include less than (**&lt;**), less than or equal to (**&lt;=**), greater than (**&gt;**), greater than or equal to (**>=**), not equal (**&lt;&gt;**), and equal (**=**). Additional comparison operators include **Is** and **Like**. Note that **Is** and **Like** can't be used as comparison operators in a **Select** **Case** statement.
+Symbol(s) or a word indicating a relationship between two or more values or expressions. These operators include less than (**&lt;**), less than or equal to (**&lt;=**), greater than (**&gt;**), greater than or equal to (**>=**), not equal (**&lt;&gt;**), and equal (**=**). Additional comparison operators include **Is** and **Like**. Note that **Is** and **Like** can't be used as comparison operators in a **Select Case** statement.
+
+See also [Comparison operators](../reference/user-interface-help/comparison-operators.md).
 
 
 ## compiler directive
@@ -197,7 +197,7 @@ A Visual Basic identifier that is defined using the **#Const** compiler directiv
 
 ## constant
 
-A named item that retains a constant value throughout the execution of a program. A constant can be a string or numeric literal, another constant, or any combination that includes arithmetic or logical operators except **Is** and exponentiation. Each host application can define its own set of constants. Additional constants can be defined by the user with the **Const** statement. You can use constants anywhere in your code in place of actual values.
+A named item that retains a constant value throughout the execution of a program. A constant can be a string or numeric literal, another constant, or any combination that includes arithmetic or logical operators except **Is** and exponentiation. Each host application can define its own set of constants. Additional constants can be defined by the user with the **Const** statement. Use constants anywhere in your code in place of actual values.
 
 
 ## container
@@ -241,7 +241,7 @@ Dates are stored as part of a real number. Values to the left of the decimal rep
 
 Any sequence of characters with a valid format that is surrounded by number signs (**#**). Valid formats include the date format specified by the locale settings for your code or the universal date format.
 
-For example,  `#12/31/92#` is the date literal that represents December 31, 1992, where English-U.S. is the locale setting for your application. Use date literals to maximize portability across national languages.
+For example, `#12/31/92#` is the date literal that represents December 31, 1992, where English-U.S. is the locale setting for your application. Use date literals to maximize portability across national languages.
 
 
 ## date separators
@@ -273,7 +273,7 @@ Nonexecutable code that names a constant, variable, or procedure, and specifies 
 
 ## designer
 
-Provides a visual design window in the Visual Basic development environment. You can use this window to design new classes visually. Visual Basic has built-in designers for forms. The Professional and Enterprise editions of Visual Basic include designers for ActiveX controls and ActiveX documents.
+Provides a visual design window in the Visual Basic development environment. Use this window to design new classes visually. Visual Basic has built-in designers for forms. The Professional and Enterprise editions of Visual Basic include designers for ActiveX controls and ActiveX documents.
 
 
 ## design time
@@ -318,7 +318,7 @@ Indicates that no beginning value has been assigned to a **Variant** variable. A
 
 ## error number
 
-A whole number in the range 0 - 65,535 that corresponds to the **Number** property setting of the **Err** object. When combined with the **Description** property setting of the **Err** object, this number represents a particular error message.
+A whole number in the range 0 - 65,535 that corresponds to the [**Number** property](../reference/user-interface-help/number-property-visual-basic-for-applications.md) setting of the **Err** object. When combined with the **Description** property setting of the **Err** object, this number represents a particular error message.
 
 
 ## event source object
@@ -566,7 +566,7 @@ An expression that specifies a particular object and can include any of the obje
 
 ## object library
 
-A file with the .olb extension that provides information to Automation controllers (like Visual Basic) about available objects. You can use the **Object Browser** to examine the contents of an object library to get information about the objects provided.
+A file with the .olb extension that provides information to Automation controllers (like Visual Basic) about available objects. Use the **Object Browser** to examine the contents of an object library to get information about the objects provided.
 
 
 ## object module
@@ -582,11 +582,6 @@ A type of object exposed by an application through Automation, for example, **Ap
 ## object variable
 
 A variable that contains a reference to an object.
-
-
-## Automation object
-
-An object that is exposed to other applications or programming tools through Automation interfaces.
 
 
 ## parameter
@@ -673,7 +668,7 @@ Variables declared using the **Public** statement are visible to all procedures 
 
 ## referenced project
 
-The project you directly create a link to from the current project you are working on. A project referenced by one of the current project's directly referenced projects is called an indirectly referenced project. Its **Public** variables are not accessible to the current project except through qualification with its project name. Any combination of direct and indirect references between projects is valid as long as they do not result in a complete cycle.
+The project you directly create a link to from the current project you are working on. A project referenced by one of the current project's directly referenced projects is called an indirectly referenced project. Its **Public** variables are not accessible to the current project except through qualification with its project name. Any combination of direct and indirect references between projects is valid as long as they don't result in a complete cycle.
 
 
 ## referencing project
@@ -782,43 +777,35 @@ Note that syntax rules for individual keywords are defined in the Syntax section
 
 The order in which the focus moves from one field to the next as you press TAB or SHIFT+TAB.
 
-
 ## time expression
 
 Any expression that can be interpreted as a time. This includes any combination of time literals, numbers that look like times, strings that look like times, and times returned from functions.
 
 Times are stored as part of a real number. Values to the right of the decimal represent the time. For example, midday (12:00 P.M.) is represented by 0.5.
 
-
 ## twip
 
 A unit of screen measurement equal to 1/20 point. A twip is a screen-independent unit used to ensure that placement and proportion of screen elements in your screen application are the same on all display systems. There are approximately 1440 twips to a logical inch or 567 twips to a logical centimeter (the length of a screen item measuring one inch or one centimeter when printed).
-
 
 ## type-declaration character
 
 A character appended to a variable name indicating the variable's data type. By default, variables are of type **Variant** unless a corresponding **Def**_type_ statement is present in the module.
 
-
 ## type library
 
 A file or component within another file that contains standard descriptions of exposed objects, properties, and methods that are available for Automation. Object library files (.olb) contain type libraries.
-
 
 ## Unicode
 
 International Standards Organization (ISO) character standard. Unicode uses a 16-bit (2-byte) coding scheme that allows for 65,536 distinct character spaces. Unicode includes representations for punctuation marks, mathematical symbols, and dingbats, with substantial room for future expansion.
 
-
 ## universal date format
 
-The universal date format is  `#yyyy-mm-dd hh:mm:ss#`. However, both the date component ( `#yyyy-mm-dd#`) and the time component ( `#hh:mm:ss#`) can be represented separately.
-
+The universal date format is `#yyyy-mm-dd hh:mm:ss#`. However, both the date component ( `#yyyy-mm-dd#`) and the time component ( `#hh:mm:ss#`) can be represented separately.
 
 ## user-defined type
 
 Any data type defined using the **Type** statement. User-defined data types can contain one or more elements of any data type. Arrays of user-defined and other data types are created using the **Dim** statement. Arrays of any type can be included within user-defined types. See [data type summary](../reference/user-interface-help/data-type-summary.md).
-
 
 ## variable
 
@@ -826,16 +813,13 @@ A named storage location that can contain data that can be modified during progr
 
 Variable names must begin with an alphabetic character, must be unique within the same scope, can't be longer than 255 characters, and can't contain an embedded period or type-declaration character.
 
-
 ## Variant data type
 
 A special data type that can contain numeric, string, or date data as well as user-defined types and the special values **Empty** and **Null**. The **Variant** data type has a numeric storage size of 16 bytes and can contain data up to the range of a **Decimal**, or a character storage size of 22 bytes (plus string length), and can store any character text. The **VarType** function defines how the data in a **Variant** is treated. All variables become **Variant** data types if not explicitly declared as some other data type. See [data type summary](../reference/user-interface-help/data-type-summary.md).
 
-
 ## variant expression
 
 Any expression that can evaluate to numeric, string, or date data, as well as the special values **Empty** and **Null**.
-
 
 ## watch expression
 

@@ -3,12 +3,11 @@ title: Options.EnableSound property (Word)
 keywords: vbawd10.chm162988053
 f1_keywords:
 - vbawd10.chm162988053
-ms.prod: word
 api_name:
 - Word.Options.EnableSound
 ms.assetid: c7934437-2d32-2a2a-9eab-c0dac74b2108
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EnableSound`
+_expression_. `EnableSound`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example
 
-This example sets the  **Provide feedback with sound** option on the **General** tab in the **Options** dialog box, based on user input.
+This example sets the **Provide feedback with sound** option on the **General** tab in the **Options** dialog box, based on user input.
 
 
 ```vb

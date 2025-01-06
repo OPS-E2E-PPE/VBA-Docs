@@ -1,29 +1,29 @@
 ---
-title: Application.StatusBar Property (Project)
-ms.prod: project-server
+title: Application.StatusBar property (Project)
+ms.service: project-server
 api_name:
 - Project.Application.StatusBar
 ms.assetid: c88965a0-302c-e0ce-ca5b-06fc2d21ff2d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.StatusBar Property (Project)
+# Application.StatusBar property (Project)
 
-Gets or sets text in the status bar. Read/write  **Variant**.
+Gets or sets text in the status bar. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `StatusBar`
+_expression_. `StatusBar`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **StatusBar** property returns **False** if the status bar is displaying the default text. Setting **StatusBar** to the Boolean value **False** restores the default text.
+The **StatusBar** property returns **False** if the status bar is displaying the default text. Setting **StatusBar** to the Boolean value **False** restores the default text.
 
 
 ## Example

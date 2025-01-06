@@ -1,27 +1,26 @@
 ---
-title: Master.UniqueID Property (Visio)
+title: Master.UniqueID property (Visio)
 keywords: vis_sdr.chm10751165
 f1_keywords:
 - vis_sdr.chm10751165
-ms.prod: visio
 api_name:
 - Visio.Master.UniqueID
 ms.assetid: 99d0655c-da5c-9d0a-4936-2fa24821e097
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.UniqueID Property (Visio)
+# Master.UniqueID property (Visio)
 
 Returns the unique ID of a master. Read-only.
 
 
 ## Syntax
 
- _expression_. `UniqueID`
+_expression_. `UniqueID`
 
- _expression_ An expression that returns a [Master](./Visio.Master.md) object.
+ _expression_ An expression that returns a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -31,13 +30,13 @@ String
 
 ## Remarks
 
-A  **Master** object always has a unique ID. If you copy a master, the new master has the same unique ID as the original master (as well as the same base ID). However, if you subsequently change the copy, Visio assigns it a new unique ID, but its base ID remains the same.
+A **Master** object always has a unique ID. If you copy a master, the new master has the same unique ID as the original master (as well as the same base ID). However, if you subsequently change the copy, Visio assigns it a new unique ID, but its base ID remains the same.
 
 Note that if you copy into a stencil a master that has the same unique ID as a master already in the stencil, Visio assigns a new unique ID to the copy. 
 
-For more information about the base ID, see the  **BaseID** property.
+For more information about the base ID, see the **BaseID** property.
 
-You can determine a  **Master** object's unique ID by using the following code:
+You can determine a **Master** object's unique ID by using the following code:
 
 
 
@@ -55,9 +54,9 @@ The value it returns is a string in the following form:
 {2287DC42-B167-11CE-88E9-0020AFDDD917}
 ```
 
-To get a master if you know its unique ID, use  **Masters.Item** ( _UniqueIDString_) .
+To get a master if you know its unique ID, use **Masters.Item** ( _UniqueIDString_) .
 
-For example, you can use the following code to retrieve the master from the  **Masters** collection of the active document:
+For example, you can use the following code to retrieve the master from the **Masters** collection of the active document:
 
 
 

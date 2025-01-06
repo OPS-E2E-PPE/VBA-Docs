@@ -3,12 +3,11 @@ title: CalculatedMember object (Excel)
 keywords: vbaxl10.chm685072
 f1_keywords:
 - vbaxl10.chm685072
-ms.prod: excel
 api_name:
 - Excel.CalculatedMember
 ms.assetid: 07a1f8df-107e-a5fd-3d15-dfc92916c4c6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/29/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,20 +18,17 @@ Represents the calculated fields, calculated items, and named sets for PivotTabl
 
 ## Remarks
 
-Use the  **[Add](Excel.CalculatedMembers.Add.md)** method or the [Item](Excel.CalculatedMembers.Item.md) property of the **[CalculatedMembers](Excel.CalculatedMembers.md)** collection to return a **CalculatedMember** object.
+Use the **Add** method or the **Item** property of the **[CalculatedMembers](Excel.CalculatedMembers.md)** collection to return a **CalculatedMember** object.
 
-With a  **CalculatedMember** object you can check the validity of a calculated field or item in a PivotTable using the **[IsValid](Excel.CalculatedMember.IsValid.md)** property.
+With a **CalculatedMember** object, you can check the validity of a calculated field or item in a PivotTable by using the **IsValid** property.
 
-
-
-
- **Note**   The **IsValid** property will return **True** if the PivotTable is not currently connected to the data source. Use the **[MakeConnection](Excel.PivotCache.MakeConnection.md)** method before testing the **IsValid** property.
+> [!NOTE] 
+> The **IsValid** property returns **True** if the PivotTable is not currently connected to the data source. Use the **[MakeConnection](Excel.PivotCache.MakeConnection.md)** method of the **PivotCache** object before testing the **IsValid** property.
 
 
 ## Example
 
-The following example notifies the user if the calculated member is valid or not. This example assumes a PivotTable exists on the active worksheet that contains either a valid or invalid calculated member.
-
+The following example notifies the user whether the calculated member is valid. This example assumes that a PivotTable exists on the active worksheet that contains either a valid or invalid calculated member.
 
 ```vb
 Sub CheckValidity() 
@@ -61,11 +57,32 @@ Sub CheckValidity()
 End Sub
 ```
 
+## Methods
+
+- [Delete](Excel.CalculatedMember.Delete.md)
+
+## Properties
+
+- [Application](Excel.CalculatedMember.Application.md)
+- [Creator](Excel.CalculatedMember.Creator.md)
+- [DisplayFolder](Excel.CalculatedMember.DisplayFolder.md)
+- [Dynamic](Excel.CalculatedMember.Dynamic.md)
+- [FlattenHierarchies](Excel.CalculatedMember.FlattenHierarchies.md)
+- [Formula](Excel.CalculatedMember.Formula.md)
+- [HierarchizeDistinct](Excel.CalculatedMember.HierarchizeDistinct.md)
+- [IsValid](Excel.CalculatedMember.IsValid.md)
+- [MeasureGroup](Excel.calculatedmember.measuregroup.md)
+- [Name](Excel.CalculatedMember.Name.md)
+- [NumberFormat](Excel.calculatedmember.numberformat.md)
+- [Parent](Excel.CalculatedMember.Parent.md)
+- [ParentHierarchy](Excel.calculatedmember.parenthierarchy.md)
+- [ParentMember](Excel.calculatedmember.parentmember.md)
+- [SolveOrder](Excel.CalculatedMember.SolveOrder.md)
+- [SourceName](Excel.CalculatedMember.SourceName.md)
+- [Type](Excel.CalculatedMember.Type.md)
 
 ## See also
 
-
-
-[Excel Object Model Reference](overview/Excel/object-model.md)
+- [Excel Object Model Reference](overview/Excel/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,27 +1,26 @@
 ---
-title: DocumentWindow.Parent Property (PowerPoint)
+title: DocumentWindow.Parent property (PowerPoint)
 keywords: vbapp10.chm511002
 f1_keywords:
 - vbapp10.chm511002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DocumentWindow.Parent
 ms.assetid: 275ed305-76f9-8dca-afb9-db206f6b128b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentWindow.Parent Property (PowerPoint)
+# DocumentWindow.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

@@ -3,18 +3,17 @@ title: WebBrowserControl.BorderColor property (Access)
 keywords: vbaac10.chm14376
 f1_keywords:
 - vbaac10.chm14376
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.BorderColor
 ms.assetid: a9b49340-7aab-64eb-7904-b2090ca44840
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

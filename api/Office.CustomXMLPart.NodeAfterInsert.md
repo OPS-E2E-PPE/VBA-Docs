@@ -3,12 +3,11 @@ title: CustomXMLPart.NodeAfterInsert event (Office)
 keywords: vbaof11.chm296001
 f1_keywords:
 - vbaof11.chm296001
-ms.prod: office
 api_name:
 - Office.CustomXMLPart.NodeAfterInsert
 ms.assetid: 7ea1ce05-9992-608b-bac9-95f5d80ff586
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ The following example displays a message telling the user the results of inserti
 
 ```vb
 Sub CustomXMLParts_NodeAfterInsert(newNode As CustomXMLNode, boolInUndoRedo As Boolean) 
-   MsgBox ("The node " &amp; newNode.BaseName &amp; " was just inserted.") 
+   MsgBox ("The node " & newNode.BaseName & " was just inserted.") 
 End Sub
 ```
 

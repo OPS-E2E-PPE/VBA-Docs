@@ -1,29 +1,27 @@
 ---
-title: Chart.ApplyDataLabels Method (Project)
-ms.prod: project-server
+title: Chart.ApplyDataLabels method (Project)
+ms.service: project-server
 ms.assetid: cda031a4-ed86-1ec8-583d-44767785e3a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ApplyDataLabels Method (Project)
+# Chart.ApplyDataLabels method (Project)
 Applies data labels to all the series in a chart.
 
 ## Syntax
 
- _expression_. `ApplyDataLabels` _(Type,_ _IMsoLegendKey,_ _AutoText,_ _HasLeaderLines,_ _ShowSeriesName,_ _ShowCategoryName,_ _ShowValue,_ _ShowPercentage,_ _ShowBubbleSize,_ _Separator)_
+_expression_.**ApplyDataLabels** (_Type,_ _IMsoLegendKey,_ _AutoText,_ _HasLeaderLines,_ _ShowSeriesName,_ _ShowCategoryName,_ _ShowValue,_ _ShowPercentage,_ _ShowBubbleSize,_ _Separator_)
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Optional|**Office.XlDataLabelsType**|The type of data label to apply. The default value is  **xlDataLabelsShowValue**.|
+| _Type_|Optional|**Office.XlDataLabelsType**|The type of data label to apply. The default value is **xlDataLabelsShowValue**.|
 | _IMsoLegendKey_|Optional|**Variant**|**True** to show the legend key next to the point. The default value is **False**.|
 | _AutoText_|Optional|**Variant**|**True** if the object automatically generates appropriate text based on content.|
 | _HasLeaderLines_|Optional|**Variant**|**True** if the series has leader lines.|

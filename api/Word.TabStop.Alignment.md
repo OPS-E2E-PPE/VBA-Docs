@@ -3,25 +3,24 @@ title: TabStop.Alignment property (Word)
 keywords: vbawd10.chm156500068
 f1_keywords:
 - vbawd10.chm156500068
-ms.prod: word
 api_name:
 - Word.TabStop.Alignment
 ms.assetid: f27f7f39-439d-0cbf-5538-8d3028abddf1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabStop.Alignment property (Word)
 
-Returns or sets a  **WdTabAlignment** constant that represents the alignment for the specified tab stop. Read/write.
+Returns or sets a **WdTabAlignment** constant that represents the alignment for the specified tab stop. Read/write.
 
 
 ## Syntax
 
- _expression_. `Alignment`
+_expression_.**Alignment**
 
- _expression_ Required. A variable that represents a '[TabStop](Word.TabStop.md)' object.
+_expression_ Required. A variable that represents a '[TabStop](Word.TabStop.md)' object.
 
 
 ## Example

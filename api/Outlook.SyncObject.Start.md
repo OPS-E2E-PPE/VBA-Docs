@@ -1,32 +1,31 @@
 ---
-title: SyncObject.Start Method (Outlook)
+title: SyncObject.Start method (Outlook)
 keywords: vbaol11.chm108
 f1_keywords:
 - vbaol11.chm108
-ms.prod: outlook
 api_name:
 - Outlook.SyncObject.Start
 ms.assetid: 3e826228-b8a4-42df-1757-3248acd26a2b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SyncObject.Start Method (Outlook)
+# SyncObject.Start method (Outlook)
 
-Begins synchronizing a user's folders using the specified  **Send\Receive** group.
+Begins synchronizing a user's folders using the specified **Send\Receive** group.
 
 
 ## Syntax
 
-_expression_. `Start`
+_expression_.**Start**
 
  _expression_ An expression that returns a '[SyncObject](Outlook.SyncObject.md)' object.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example displays all the  **Send\Receive** groups set up for the user and starts the synchronization based on user's response.
+This Microsoft Visual Basic for Applications (VBA) example displays all the **Send\Receive** groups set up for the user and starts the synchronization based on user's response.
 
 
 ```vb

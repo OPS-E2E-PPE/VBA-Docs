@@ -3,12 +3,11 @@ title: Shape.ScaleWidth method (Word)
 keywords: vbawd10.chm161480724
 f1_keywords:
 - vbawd10.chm161480724
-ms.prod: word
 api_name:
 - Word.Shape.ScaleWidth
 ms.assetid: 4fabc0eb-6962-6e31-3bba-bacaa3cd3be4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Scales the width of the shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleWidth`( `_Factor_` , `_RelativeToOriginalSize_` , `_Scale_` )
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _Scale_)
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,7 +38,7 @@ For pictures and OLE objects, you can indicate whether you want to scale the sha
 
 ## Example
 
-This example scales all pictures and OLE objects on  _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
+This example scales all pictures and OLE objects on _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
 
 
 ```vb

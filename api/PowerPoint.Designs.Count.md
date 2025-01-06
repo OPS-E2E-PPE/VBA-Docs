@@ -1,24 +1,23 @@
 ---
-title: Designs.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Designs.Count property (PowerPoint)
 api_name:
 - PowerPoint.Designs.Count
 ms.assetid: 2f575acd-0230-a13f-0331-9124d1ac5653
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Designs.Count Property (PowerPoint)
+# Designs.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents a [Designs](./PowerPoint.Designs.md) object.
+_expression_ A variable that represents a [Designs](PowerPoint.Designs.md) object.
 
 
 ## Return value

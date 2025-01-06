@@ -3,12 +3,11 @@ title: MappedDataField object (Word)
 keywords: vbawd10.chm1641
 f1_keywords:
 - vbawd10.chm1641
-ms.prod: word
 api_name:
 - Word.MappedDataField
 ms.assetid: 35b9b770-bf18-8922-7c3a-431f454561e9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ A mapped data field is a field contained within Microsoft Word that represents c
 
 ## Remarks
 
-Use the  **MappedDataFields** property to return a **MappedDataField** object. This example returns the data source field name for the **wdFirstName** mapped data field. This example assumes the current document is a mail merge document. A blank string value returned for the **DataFieldName** property indicates that the mapped data field is not mapped to a field in the data source.
+Use the **MappedDataFields** property to return a **MappedDataField** object. This example returns the data source field name for the **wdFirstName** mapped data field. This example assumes the current document is a mail merge document. A blank string value returned for the **DataFieldName** property indicates that the mapped data field is not mapped to a field in the data source.
 
 
 ```vb
@@ -45,6 +44,6 @@ End Sub
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

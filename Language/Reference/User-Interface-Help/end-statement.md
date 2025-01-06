@@ -3,10 +3,9 @@ title: End statement (VBA)
 keywords: vblr6.chm1008904
 f1_keywords:
 - vblr6.chm1008904
-ms.prod: office
 ms.assetid: 5cbb1c20-2afa-782e-52bb-7aafc604a927
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -24,8 +23,6 @@ Ends a [procedure](../../Glossary/vbe-glossary.md#procedure) or block.
 **End Sub** <br/>
 **End Type** <br/>
 **End With** 
-
-<br/>
 
 The **End** statement syntax has these forms:
 

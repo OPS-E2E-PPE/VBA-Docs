@@ -3,18 +3,17 @@ title: Attachment.ColumnHidden property (Access)
 keywords: vbaac10.chm14010
 f1_keywords:
 - vbaac10.chm14010
-ms.prod: access
 api_name:
 - Access.Attachment.ColumnHidden
 ms.assetid: 772c644e-b180-25ad-5566-c0b5dc6dbc41
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.ColumnHidden property (Access)
 
-You can use the **ColumnHidden** property to show or hide a specified column in Datasheet view. Read/write **Boolean**.
+Use the **ColumnHidden** property to show or hide a specified column in Datasheet view. Read/write **Boolean**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: MetaProperties.Item property (Office)
 keywords: vbaof11.chm274001
 f1_keywords:
 - vbaof11.chm274001
-ms.prod: office
 api_name:
 - Office.MetaProperties.Item
 ms.assetid: e1c30443-08c3-85bc-bfdd-59cd825b63e5
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

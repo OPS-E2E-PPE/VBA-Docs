@@ -1,27 +1,26 @@
 ---
-title: CalendarView.DaysInMultiDayMode Property (Outlook)
+title: CalendarView.DaysInMultiDayMode property (Outlook)
 keywords: vbaol11.chm2640
 f1_keywords:
 - vbaol11.chm2640
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.DaysInMultiDayMode
 ms.assetid: 1dcb2a69-93b9-432e-56ca-7e39b040dc6f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.DaysInMultiDayMode Property (Outlook)
+# CalendarView.DaysInMultiDayMode property (Outlook)
 
-Returns or sets a  **Long** value that represents the number of consecutive days displayed in the **[CalendarView](Outlook.CalendarView.md)** object. Read/write
+Returns or sets a **Long** value that represents the number of consecutive days displayed in the **[CalendarView](Outlook.CalendarView.md)** object. Read/write
 
 
 ## Syntax
 
 _expression_. `DaysInMultiDayMode`
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This property can be set to a value between 2 and 14. If this property is set to
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates a new  **CalendarView** object in the **Calendar** default folder, and then configures it to display 14 consecutive days in multi-day mode, with Outlook items displayed within an hourly time scale.
+The following Visual Basic for Applications (VBA) example creates a new **CalendarView** object in the **Calendar** default folder, and then configures it to display 14 consecutive days in multi-day mode, with Outlook items displayed within an hourly time scale.
 
 
 ```vb

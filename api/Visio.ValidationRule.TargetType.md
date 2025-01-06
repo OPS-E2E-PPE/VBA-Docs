@@ -1,27 +1,26 @@
 ---
-title: ValidationRule.TargetType Property (Visio)
+title: ValidationRule.TargetType property (Visio)
 keywords: vis_sdr.chm18462660
 f1_keywords:
 - vis_sdr.chm18462660
-ms.prod: visio
 api_name:
 - Visio.ValidationRule.TargetType
 ms.assetid: 818e47b6-7832-e9a3-9e29-34bd50d466b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ValidationRule.TargetType Property (Visio)
+# ValidationRule.TargetType property (Visio)
 
 Determines the type of object to which the validation rule applies. Read/write.
 
 
 ## Syntax
 
- _expression_. `TargetType`
+_expression_. `TargetType`
 
- _expression_ A variable that represents a '[ValidationRule](Visio.ValidationRule.md)' object.
+_expression_ A variable that represents a **[ValidationRule](Visio.ValidationRule.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Determines the type of object to which the validation rule applies. Read/write.
 
 ## Remarks
 
-Valid validation-rule targets include documents, pages, and shapes. The  **TargetType** property value must be one of the following **VisRuleTargets** constants.
+Valid validation-rule targets include documents, pages, and shapes. The **TargetType** property value must be one of the following **VisRuleTargets** constants.
 
 
 
@@ -41,12 +40,12 @@ Valid validation-rule targets include documents, pages, and shapes. The  **Targe
 | **visRuleTargetPage**|1|The rule applies to pages in the document.|
 | **visRuleTargetDocument**|2|The rule applies to the document itself.|
 
-If you pass any other value to the  **TargetType** property, Visio returns an invalid-parameter error.
+If you pass any other value to the **TargetType** property, Visio returns an invalid-parameter error.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example shows how to use the  **TargetType** property to specify the type of object to which the validation rule named "Unglued2DShape" should apply.
+The following Visual Basic for Applications (VBA) example shows how to use the **TargetType** property to specify the type of object to which the validation rule named "Unglued2DShape" should apply.
 
 
 ```vb

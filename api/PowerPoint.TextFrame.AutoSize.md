@@ -1,27 +1,26 @@
 ---
-title: TextFrame.AutoSize Property (PowerPoint)
+title: TextFrame.AutoSize property (PowerPoint)
 keywords: vbapp10.chm558012
 f1_keywords:
 - vbapp10.chm558012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame.AutoSize
 ms.assetid: 771f5217-abce-f70d-743d-e17532dabd9e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame.AutoSize Property (PowerPoint)
+# TextFrame.AutoSize property (PowerPoint)
 
 Returns or sets a value that indicates whether the size of the specified shape is changed automatically to fit text within its boundaries. Read/write.
 
 
 ## Syntax
 
- _expression_. `AutoSize`
+_expression_.**AutoSize**
 
- _expression_ A variable that represents an [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents an [TextFrame](PowerPoint.TextFrame.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpAutoSize
 
 ## Remarks
 
-The value of the  **AutoSize** property can be one of these **PpAutoSize** constants.
+The value of the **AutoSize** property can be one of these **PpAutoSize** constants.
 
 
 ||

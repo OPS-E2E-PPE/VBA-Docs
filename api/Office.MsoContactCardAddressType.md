@@ -3,20 +3,17 @@ title: MsoContactCardAddressType enumeration (Office)
 keywords: vbaof11.chm100125
 f1_keywords:
 - vbaof11.chm100125
-ms.prod: office
 api_name:
 - Office.MsoContactCardAddressType
 ms.assetid: 0edd8af5-1d4c-4aae-436f-8265e65620d6
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoContactCardAddressType enumeration (Office)
 
 Specifies the address type for a contact card.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

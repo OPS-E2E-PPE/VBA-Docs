@@ -3,12 +3,11 @@ title: Phonetic.Parent property (Excel)
 keywords: vbaxl10.chm627075
 f1_keywords:
 - vbaxl10.chm627075
-ms.prod: excel
 api_name:
 - Excel.Phonetic.Parent
 ms.assetid: d0d4b662-af43-70d6-356a-26f3d56ad579
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/03/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Phonetic](Excel.Phonetic.md) object.
+_expression_ A variable that represents a **[Phonetic](Excel.Phonetic.md)** object.
 
 
-## See also
 
-
-[Phonetic Object](Excel.Phonetic.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

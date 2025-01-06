@@ -1,25 +1,24 @@
 ---
-title: Guides.Add Method (PowerPoint)
+title: Guides.Add method (PowerPoint)
 keywords: vbapp10.chm742004
 f1_keywords:
 - vbapp10.chm742004
 ms.assetid: 225ed31f-897e-a2bf-fecd-a915f8e1865f
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Guides.Add Method (PowerPoint)
+# Guides.Add method (PowerPoint)
 
 Adds a new drawing guide to the presentation, slide master, or custom layout.
 
 
 ## Syntax
 
- _expression_. `Add`_(Orientation,_ _Position)_
+_expression_.**Add**_(Orientation,_ _Position)_
 
- _expression_ A variable that represents a 'Guides' object.
+_expression_ A variable that represents a 'Guides' object.
 
 
 ## Parameters

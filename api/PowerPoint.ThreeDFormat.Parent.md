@@ -1,27 +1,26 @@
 ---
-title: ThreeDFormat.Parent Property (PowerPoint)
+title: ThreeDFormat.Parent property (PowerPoint)
 keywords: vbapp10.chm557001
 f1_keywords:
 - vbapp10.chm557001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ThreeDFormat.Parent
 ms.assetid: 558d1ae3-6d40-a13b-406e-d5e322938316
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ThreeDFormat.Parent Property (PowerPoint)
+# ThreeDFormat.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

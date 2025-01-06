@@ -3,18 +3,17 @@ title: Section.SpecialEffect property (Access)
 keywords: vbaac10.chm12202
 f1_keywords:
 - vbaac10.chm12202
-ms.prod: access
 api_name:
 - Access.Section.SpecialEffect
 ms.assetid: 5143b888-5263-6ccd-1d98-3c7168ca7734
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Section.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

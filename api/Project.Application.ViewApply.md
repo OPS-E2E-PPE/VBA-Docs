@@ -1,27 +1,27 @@
 ---
-title: Application.ViewApply Method (Project)
+title: Application.ViewApply method (Project)
 keywords: vbapj.chm302
 f1_keywords:
 - vbapj.chm302
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ViewApply
 ms.assetid: 3e0d3fbd-5aa7-ceb8-b926-79646986d464
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ViewApply Method (Project)
+# Application.ViewApply method (Project)
 
 Applies a view to the active window.
 
 
 ## Syntax
 
- _expression_. `ViewApply`( `_Name_`, `_SinglePane_`, `_Toggle_` )
+_expression_. `ViewApply`( `_Name_`, `_SinglePane_`, `_Toggle_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ Applies a view to the active window.
 
 ## Remarks
 
-To apply a view where the change can be one of the built-in views and can be applied to a specified pane in a split view, use the  **[ViewApplyEx](Project.Application.ViewApplyEx.md)** method.
+To apply a view where the change can be one of the built-in views and can be applied to a specified pane in a split view, use the **[ViewApplyEx](Project.Application.ViewApplyEx.md)** method.
 
 
 ## Example

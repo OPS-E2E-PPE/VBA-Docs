@@ -1,27 +1,26 @@
 ---
-title: BulletFormat.UseTextFont Property (PowerPoint)
+title: BulletFormat.UseTextFont property (PowerPoint)
 keywords: vbapp10.chm577007
 f1_keywords:
 - vbapp10.chm577007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat.UseTextFont
 ms.assetid: 8d572d8d-bd89-ec94-2484-045306d2730e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat.UseTextFont Property (PowerPoint)
+# BulletFormat.UseTextFont property (PowerPoint)
 
 Determines whether the specified bullets are set to the font of the first text character in the paragraph. Read/write.
 
 
 ## Syntax
 
- _expression_. `UseTextFont`
+_expression_. `UseTextFont`
 
-_expression_ A variable that represents an [BulletFormat](./PowerPoint.BulletFormat.md) object.
+_expression_ A variable that represents an [BulletFormat](PowerPoint.BulletFormat.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoTriState
 
 ## Remarks
 
-You cannot explicitly set this property to  **msoFalse**. Setting the bullet format font (by using the **[Name](PowerPoint.Font.Name.md)** property of the **Font** object) sets this property to **msoFalse**. When **UseTextFont** is **msoFalse**, you can set it to **msoTrue** to reset the bullet format to the default font.
+You cannot explicitly set this property to **msoFalse**. Setting the bullet format font (by using the **[Name](PowerPoint.Font.Name.md)** property of the **Font** object) sets this property to **msoFalse**. When **UseTextFont** is **msoFalse**, you can set it to **msoTrue** to reset the bullet format to the default font.
 
-The value of the  **UseTextFont** property can be one of these **MsoTriState** constants.
+The value of the **UseTextFont** property can be one of these **MsoTriState** constants.
 
 
 

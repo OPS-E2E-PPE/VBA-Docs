@@ -3,12 +3,11 @@ title: FileDialog.InitialView property (Office)
 keywords: vbaof11.chm256007
 f1_keywords:
 - vbaof11.chm256007
-ms.prod: office
 api_name:
 - Office.FileDialog.InitialView
 ms.assetid: 17950503-6511-8159-7f9f-406dd22e4fca
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -58,9 +57,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'If the user presses Cancel... 

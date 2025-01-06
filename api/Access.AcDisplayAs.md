@@ -3,20 +3,17 @@ title: AcDisplayAs enumeration (Access)
 keywords: vbaac10.chm14054
 f1_keywords:
 - vbaac10.chm14054
-ms.prod: access
 api_name:
 - Access.AcDisplayAs
 ms.assetid: ccd8275b-d3b5-e3b1-3b0c-cad08ff71887
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcDisplayAs enumeration (Access)
 
 Use with the **DisplayAs** property to specify what is displayed in an Attachment control.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

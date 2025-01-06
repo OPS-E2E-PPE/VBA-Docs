@@ -1,27 +1,26 @@
 ---
-title: Application.FileConverters Property (PowerPoint)
+title: Application.FileConverters property (PowerPoint)
 keywords: vbapp10.chm502060
 f1_keywords:
 - vbapp10.chm502060
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.FileConverters
 ms.assetid: 2eaa06eb-e32c-cf07-03a2-880048468188
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FileConverters Property (PowerPoint)
+# Application.FileConverters property (PowerPoint)
 
-Returns information about installed file converters. Returns  **null** if there are no converters installed. Read-only **Variant**.
+Returns information about installed file converters. Returns **null** if there are no converters installed. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `FileConverters`( `_Index1_`, `_Index2_` )
+_expression_. `FileConverters`( `_Index1_`, `_Index2_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-If you do not specify the index arguments, this property returns an array that contains information about all the installed file converters. Each row in the array contains information about a single file converter, as shown in the following table.
+If you don't specify the index arguments, this property returns an array that contains information about all the installed file converters. Each row in the array contains information about a single file converter, as shown in the following table.
 
 
 

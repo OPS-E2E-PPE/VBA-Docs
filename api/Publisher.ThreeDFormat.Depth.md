@@ -1,27 +1,26 @@
 ---
-title: ThreeDFormat.Depth Property (Publisher)
+title: ThreeDFormat.Depth property (Publisher)
 keywords: vbapb10.chm3801344
 f1_keywords:
 - vbapb10.chm3801344
-ms.prod: publisher
 api_name:
 - Publisher.ThreeDFormat.Depth
 ms.assetid: b6b46ddb-e3dd-0f9a-1a67-6433bb9ea89a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# ThreeDFormat.Depth Property (Publisher)
+# ThreeDFormat.Depth property (Publisher)
 
-Returns or sets a  **Variant** indicating the depth of the shape's extrusion. Read/write.
+Returns or sets a **Variant** indicating the depth of the shape's extrusion. Read/write.
 
 
 ## Syntax
 
- _expression_. **Depth**
+_expression_.**Depth**
 
- _expression_ A variable that represents a  **ThreeDFormat** object.
+_expression_ A variable that represents a **[ThreeDFormat](Publisher.ThreeDFormat.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Variant
 
 ## Remarks
 
-Numeric values are evaluated in points; strings can be in any units supported by Microsoft Publisher (for example, "2.5 in").
+Numeric values are evaluated in [points](../language/glossary/vbe-glossary.md#point); strings can be in any units supported by Microsoft Publisher (for example, "2.5 in").
 
 Positive values produce an extrusion whose front face is the original shape; negative values produce an extrusion whose back face is the original shape. The valid range is -600 through 9600 points, or the equivalent distance in all other units.
 
@@ -39,7 +38,6 @@ Positive values produce an extrusion whose front face is the original shape; neg
 ## Example
 
 This example adds an oval to the active publication, and then specifies that the oval be extruded to a depth of 50 points and that the extrusion be purple.
-
 
 ```vb
 Dim shpNew As Shape 

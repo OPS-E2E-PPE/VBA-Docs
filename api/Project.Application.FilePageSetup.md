@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetup Method (Project)
+title: Application.FilePageSetup method (Project)
 keywords: vbapj.chm116
 f1_keywords:
 - vbapj.chm116
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetup
 ms.assetid: 441d787e-8f0d-34ab-09ee-f1e8b1fa350c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetup Method (Project)
+# Application.FilePageSetup method (Project)
 
-Displays the  **Page Setup** dialog box. Equivalent to clicking **Page Setup** on the **File** menu.
+Displays the **Page Setup** dialog box. Equivalent to clicking **Page Setup** on the **File** menu.
 
 
 ## Syntax
 
- _expression_. `FilePageSetup`( `_Name_` )
+_expression_. `FilePageSetup`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

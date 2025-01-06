@@ -1,18 +1,17 @@
 ---
-title: OlSensitivity Enumeration (Outlook)
+title: OlSensitivity enumeration (Outlook)
 keywords: vbaol11.chm3081
 f1_keywords:
 - vbaol11.chm3081
-ms.prod: outlook
 api_name:
 - Outlook.OlSensitivity
 ms.assetid: 611d23ca-40ee-17e9-2560-99c5508f6e29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlSensitivity Enumeration (Outlook)
+# OlSensitivity enumeration (Outlook)
 
 Represents the sensitivity for the Microsoft Outlook item.
 
@@ -27,6 +26,6 @@ Represents the sensitivity for the Microsoft Outlook item.
 
 ## Remarks
 
-Used by the  **Sensitivity** property of Outlook items.
+Used by the **Sensitivity** property of Outlook items.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

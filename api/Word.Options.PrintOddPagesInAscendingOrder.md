@@ -3,12 +3,11 @@ title: Options.PrintOddPagesInAscendingOrder property (Word)
 keywords: vbawd10.chm162988362
 f1_keywords:
 - vbawd10.chm162988362
-ms.prod: word
 api_name:
 - Word.Options.PrintOddPagesInAscendingOrder
 ms.assetid: c4759f97-ab6b-2df2-33b9-cf493fab1116
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintOddPagesInAscendingOrder`
+_expression_. `PrintOddPagesInAscendingOrder`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-If the ManualDuplexPrint argument of the  **[PrintOut](Word.Application.PrintOut.md)** method is **False** , this property is ignored.
+If the ManualDuplexPrint argument of the **[PrintOut](Word.Application.PrintOut.md)** method is **False**, this property is ignored.
 
 
 ## Example

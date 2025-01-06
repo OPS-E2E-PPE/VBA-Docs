@@ -3,18 +3,17 @@ title: TabControl.OldValue property (Access)
 keywords: vbaac10.chm12067
 f1_keywords:
 - vbaac10.chm12067
-ms.prod: access
 api_name:
 - Access.TabControl.OldValue
 ms.assetid: 23089d28-fb6f-1126-d508-aa7c4c83955a
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

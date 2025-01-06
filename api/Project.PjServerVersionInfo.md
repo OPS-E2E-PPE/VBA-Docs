@@ -1,15 +1,15 @@
 ---
-title: PjServerVersionInfo Enumeration (Project)
-ms.prod: project-server
+title: PjServerVersionInfo enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjServerVersionInfo
 ms.assetid: 15c0e139-c56b-9fd4-1398-6bbe6f05b6ea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjServerVersionInfo Enumeration (Project)
+# PjServerVersionInfo enumeration (Project)
 
 Contains constants that specify how to format data from Project Server versions.
 

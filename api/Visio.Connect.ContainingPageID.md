@@ -1,27 +1,26 @@
 ---
-title: Connect.ContainingPageID Property (Visio)
+title: Connect.ContainingPageID property (Visio)
 keywords: vis_sdr.chm10351930
 f1_keywords:
 - vis_sdr.chm10351930
-ms.prod: visio
 api_name:
 - Visio.Connect.ContainingPageID
 ms.assetid: 4503f9e3-74ca-5948-ddc2-a91116faa588
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Connect.ContainingPageID Property (Visio)
+# Connect.ContainingPageID property (Visio)
 
 Returns the ID of the page that contains an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ContainingPageID`
+_expression_.**ContainingPageID**
 
- _expression_ A variable that represents a [Connect](./Visio.Connect.md) object.
+_expression_ A variable that represents a **[Connect](Visio.Connect.md)** object.
 
 
 ## Return value
@@ -31,6 +30,6 @@ Long
 
 ## Remarks
 
-If the object is not in a  **Page** object, the **ContainingPageID** property returns -1. For example, if a **Shape** object belongs to a **Masters** collection, the **ContainingPageID** property returns -1.
+If the object is not in a **Page** object, the **ContainingPageID** property returns -1. For example, if a **Shape** object belongs to a **Masters** collection, the **ContainingPageID** property returns -1.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

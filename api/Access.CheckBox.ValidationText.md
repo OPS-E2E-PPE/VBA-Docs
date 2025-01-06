@@ -3,12 +3,11 @@ title: CheckBox.ValidationText property (Access)
 keywords: vbaac10.chm10699
 f1_keywords:
 - vbaac10.chm10699
-ms.prod: access
 api_name:
 - Access.CheckBox.ValidationText
 ms.assetid: 25f8d9be-1015-4ff7-c088-569b8995e80b
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -53,8 +52,6 @@ Control, field, and record validation rules are applied as follows:
     
 The following table contains expression examples for the **ValidationRule** and **ValidationText** properties.
 
-<br/>
-
 |ValidationRule property|ValidationText property|
 |:-----|:-----|
 |`<> 0`|Entry must be a nonzero value.|
@@ -97,8 +94,6 @@ Function SetFieldValidation(strTblName As String, _
  fld.ValidationText = strValidText 
 End Function
 ```
-
-<br/>
 
 The following example uses the **SetTableValidation** function to set record-level validation to ensure that the value in the **EndDate** field comes after the value in the **StartDate** field.
 

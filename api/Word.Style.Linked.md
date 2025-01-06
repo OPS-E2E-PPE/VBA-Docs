@@ -3,12 +3,11 @@ title: Style.Linked property (Word)
 keywords: vbawd10.chm153878554
 f1_keywords:
 - vbawd10.chm153878554
-ms.prod: word
 api_name:
 - Word.Style.Linked
 ms.assetid: d0b3be68-6131-39f0-1a8d-d9486755e19a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns a **Boolean** that represents whether a style is a linked style that can
 
 ## Syntax
 
- _expression_. `Linked`
+_expression_. `Linked`
 
  _expression_ An expression that returns a [Style](./Word.Style.md) object.
 

@@ -3,12 +3,11 @@ title: SubFolders property (Visual Basic for Applications)
 keywords: vblr6.chm2182070
 f1_keywords:
 - vblr6.chm2182070
-ms.prod: office
 api_name:
 - Office.SubFolders
 ms.assetid: 60bc795f-22f9-6846-00d3-05229f062099
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

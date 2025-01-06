@@ -3,25 +3,24 @@ title: TableOfFigures.Caption property (Word)
 keywords: vbawd10.chm153157633
 f1_keywords:
 - vbawd10.chm153157633
-ms.prod: word
 api_name:
 - Word.TableOfFigures.Caption
 ms.assetid: 66848200-1eaa-f0ed-f270-51339de1f213
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableOfFigures.Caption property (Word)
 
-Returns or sets the label that identifies the items to be included in a table of figures. Read/write  **String**.
+Returns or sets the label that identifies the items to be included in a table of figures. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
+_expression_ A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
 
 
 ## Remarks

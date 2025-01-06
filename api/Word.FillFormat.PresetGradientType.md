@@ -3,35 +3,34 @@ title: FillFormat.PresetGradientType property (Word)
 keywords: vbawd10.chm164102251
 f1_keywords:
 - vbawd10.chm164102251
-ms.prod: word
 api_name:
 - Word.FillFormat.PresetGradientType
 ms.assetid: b53ed5f8-61be-1abd-d3c7-e47a4ffc44b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FillFormat.PresetGradientType property (Word)
 
-Returns the preset gradient type for the specified fill. Read-only  **MsoPresetGradientType**.
+Returns the preset gradient type for the specified fill. Read-only **MsoPresetGradientType**.
 
 
 ## Syntax
 
- _expression_. `PresetGradientType`
+_expression_.**PresetGradientType**
 
- _expression_ An expression that represents a '[FillFormat](Word.FillFormat.md)' object.
+ _expression_ An expression that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[PresetGradient](Word.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
+Use the **[PresetGradient](Word.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
 
 
 ## Example
 
-This example changes the fill for all shapes in  `myDocument` with the Moss preset gradient fill to the Fog preset gradient fill.
+This example changes the fill for all shapes in _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
 
 
 ```vb

@@ -1,24 +1,23 @@
 ---
 title: Chart.SetElement method (Word)
-ms.prod: word
 api_name:
 - Word.Chart.SetElement
 ms.assetid: d172a9df-b081-0077-18ef-f75bf0d6f26a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Chart.SetElement method (Word)
 
-Sets chart elements on a chart. Read/write  **MsoChartElementType**.
+Sets chart elements on a chart. Read/write **MsoChartElementType**.
 
 
 ## Syntax
 
- _expression_. `SetElement`( `_Element_` )
+_expression_.**SetElement** (_Element_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters
@@ -31,16 +30,16 @@ Sets chart elements on a chart. Read/write  **MsoChartElementType**.
 
 ## Remarks
 
-For charts, the following commands in the  **Layout** tab correspond to the **SetElement** method:
+For charts, the following commands in the **Layout** tab correspond to the **SetElement** method:
 
 
-- Everything in the  **Labels** group.
+- Everything in the **Labels** group.
     
-- Everything in the  **Axes** group.
+- Everything in the **Axes** group.
     
-- Everything in the  **Analysis** group.
+- Everything in the **Analysis** group.
     
--  **PlotArea**,  **Chart Wall**, and  **Chart Floor** buttons.
+- **PlotArea**, **Chart Wall**, and **Chart Floor** buttons.
     
 
 

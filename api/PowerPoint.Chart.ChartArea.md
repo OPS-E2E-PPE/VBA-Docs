@@ -1,27 +1,26 @@
 ---
-title: Chart.ChartArea Property (PowerPoint)
+title: Chart.ChartArea property (PowerPoint)
 keywords: vbapp10.chm684017
 f1_keywords:
 - vbapp10.chm684017
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Chart.ChartArea
 ms.assetid: 2b3a7b7f-c27d-7f79-7625-7d9b20c049c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ChartArea Property (PowerPoint)
+# Chart.ChartArea property (PowerPoint)
 
-Returns the complete chart area for the chart. Read-only  **[ChartArea](PowerPoint.ChartArea.md)**.
+Returns the complete chart area for the chart. Read-only **[ChartArea](PowerPoint.ChartArea.md)**.
 
 
 ## Syntax
 
- _expression_. `ChartArea`
+_expression_. `ChartArea`
 
-_expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Example
@@ -29,7 +28,8 @@ _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the chart area interior color of the first chart in the active document to red and sets the border color to blue.
 

@@ -3,32 +3,31 @@ title: Document.Words property (Word)
 keywords: vbawd10.chm158007313
 f1_keywords:
 - vbawd10.chm158007313
-ms.prod: word
 api_name:
 - Word.Document.Words
 ms.assetid: 0507992a-882a-81ed-c95f-5c7e26c70ebf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Words property (Word)
 
-Returns a  **[Words](Word.words.md)** collection that represents all the words in a document. Read-only.
+Returns a **[Words](Word.words.md)** collection that represents all the words in a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Words`
+_expression_. `Words`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Punctuation and paragraph marks in a document are included in the  **Words** collection.
+Punctuation and paragraph marks in a document are included in the **Words** collection.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

@@ -1,24 +1,24 @@
 ---
-title: Exception.Shift1 Property (Project)
-ms.prod: project-server
+title: Exception.Shift1 property (Project)
+ms.service: project-server
 api_name:
 - Project.Exception.Shift1
 ms.assetid: 8b587014-c830-d346-4ba3-5add50f8e548
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exception.Shift1 Property (Project)
+# Exception.Shift1 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the first work shift in a calendar exception for a day, month, period, weekday, or throughout a year. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the first work shift in a calendar exception for a day, month, period, weekday, or throughout a year. Read-only **Shift**.
 
 
 ## Syntax
 
- _expression_. `Shift1`
+_expression_. `Shift1`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Example

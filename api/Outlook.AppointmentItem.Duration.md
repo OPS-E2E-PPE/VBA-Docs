@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.Duration Property (Outlook)
+title: AppointmentItem.Duration property (Outlook)
 keywords: vbaol11.chm878
 f1_keywords:
 - vbaol11.chm878
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.Duration
 ms.assetid: eea64bdd-c19b-01c7-4fdb-111df86de2c4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.Duration Property (Outlook)
+# AppointmentItem.Duration property (Outlook)
 
-Returns or sets a  **Long** indicating the duration (in minutes) of the **[AppointmentItem](Outlook.AppointmentItem.md)**. Read/write.
+Returns or sets a **Long** indicating the duration (in minutes) of the **[AppointmentItem](Outlook.AppointmentItem.md)**. Read/write.
 
 
 ## Syntax
 
 _expression_. `Duration`
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications example uses  **[Application.CreateItem](Outlook.Application.CreateItem.md)** to create an appointment and uses **[AppointmentItem.MeetingStatus](Outlook.AppointmentItem.MeetingStatus.md)** to set the meeting status to "Meeting" to turn it into a meeting request with both a required and an optional attendee.
+This Visual Basic for Applications example uses **[Application.CreateItem](Outlook.Application.CreateItem.md)** to create an appointment and uses **[AppointmentItem.MeetingStatus](Outlook.AppointmentItem.MeetingStatus.md)** to set the meeting status to "Meeting" to turn it into a meeting request with both a required and an optional attendee.
 
 
 ```vb

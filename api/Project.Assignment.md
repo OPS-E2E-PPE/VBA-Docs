@@ -1,24 +1,24 @@
 ---
-title: Assignment Object (Project)
-ms.prod: project-server
+title: Assignment object (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment
 ms.assetid: bfb9a505-7818-0a86-9d4b-f19a0ff465d3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment Object (Project)
+# Assignment object (Project)
 
-Represents an assignment for a task or resource. The  **Assignment** object is a member of an **[Assignments](Project.assignments.md)** or an **[OverAllocatedAssignments](./Project.overallocatedassignments.md)** collection.
+Represents an assignment for a task or resource. The **Assignment** object is a member of an **[Assignments](Project.assignments.md)** or an **[OverAllocatedAssignments](./Project.overallocatedassignments.md)** collection.
 
 
 ## Example
 
  **Using the Assignment Object**
 
-Use  **Assignments** ( _Index_ ), where _Index_ is the assignment index number, to return a single **Assignment** object. The following example displays the name of the first resource assigned to the specified task.
+Use **Assignments** (_index_), where _index_ is the assignment index number, to return a single **Assignment** object. The following example displays the name of the first resource assigned to the specified task.
 
 
 
@@ -29,7 +29,7 @@ MsgBox ActiveProject.Tasks(1).Assignments(1).ResourceName
 
  **Using the Assignments Collection**
 
-Use the  **[Assignments](./Project.Task.Assignments.md)** property to return an **Assignments** collection. The following example displays all the resources assigned to the specified task.
+Use the **[Assignments](./Project.Task.Assignments.md)** property to return an **Assignments** collection. The following example displays all the resources assigned to the specified task.
 
 
 
@@ -42,7 +42,7 @@ For Each A In ActiveProject.Tasks(1).Assignments
 Next A
 ```
 
-Use the  **[Add](./Project.Assignments.Add.md)** method to add an **Assignment** object to the **Assignments** collection. The following example adds a resource identified by the number 212 as a new assignment for the specified task.
+Use the **[Add](./Project.Assignments.Add.md)** method to add an **Assignment** object to the **Assignments** collection. The following example adds a resource identified by the number 212 as a new assignment for the specified task.
 
 
 

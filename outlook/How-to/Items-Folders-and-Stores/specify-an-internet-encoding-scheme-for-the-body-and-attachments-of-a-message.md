@@ -1,27 +1,22 @@
 ---
 title: Specify an Internet Encoding Scheme for the Body and Attachments of a Message
-ms.prod: outlook
 ms.assetid: e6207bf2-238d-2b7a-cd80-5783e49c05ec
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Specify an Internet Encoding Scheme for the Body and Attachments of a Message
 
-This topic shows how to use the MAPI property,  [PidTagInternetMailOverrideFormat](../../../api/Outlook.PropertyAccessor.md), and the Microsoft Outlook object model to specify an Internet encoding scheme for the Exchange Internet Mail Service (IMS) to encode the body and attachments of a mail item.
+This topic shows how to use the MAPI property, [PidTagInternetMailOverrideFormat](../../../api/Outlook.PropertyAccessor.md), and the Microsoft Outlook object model to specify an Internet encoding scheme for the Exchange Internet Mail Service (IMS) to encode the body and attachments of a mail item.
 
-The following code sample in Visual C# shows how to reference  **PidTagInternetMailOverrideFormat** with its MAPI proptag namespace and use the **[PropertyAccessor](../../../api/Outlook.PropertyAccessor.md)** object of the Outlook object model to specify MIME as the Internet encoding scheme for a message. **PidTagInternetMailOverrideFormat** is referenced as:
-
-
+The following code sample in Visual C# shows how to reference **PidTagInternetMailOverrideFormat** with its MAPI proptag namespace and use the **[PropertyAccessor](../../../api/Outlook.PropertyAccessor.md)** object of the Outlook object model to specify MIME as the Internet encoding scheme for a message. **PidTagInternetMailOverrideFormat** is referenced as:
 
 ```vb
-http://schemas.microsoft.com/mapi/proptag/0x59020003
+https://schemas.microsoft.com/mapi/proptag/0x59020003
 ```
 
-where  `0x59020003` is the proptag of **PidTagInternetMailOverrideFormat**.
-
-
+where `0x59020003` is the proptag of **PidTagInternetMailOverrideFormat**.
 
 ```cs
 private void SendMail_Click() 
@@ -50,7 +45,7 @@ private void SendMail_Click()
                 Outlook.OlItemType.olMailItem) as Outlook.MailItem; 
     objMailItem.Subject = MsgSubject; 
     objMailItem.Body = "body"; 
-    objMailItem.Attachments.Add(FileLocation + TextFile,  
+    objMailItem.Attachments.Add(FileLocation + TextFile, 
         Outlook.OlAttachmentType.olByValue, 1, TextFile); 
     objMailItem.Attachments.Add(FileLocation + ImageFile, 
         Outlook.OlAttachmentType.olByValue, 1, ImageFile); 
@@ -58,7 +53,7 @@ private void SendMail_Click()
     objRecipient = objMailItem.Recipients.Add(Recipient); 
     objRecipient.Resolve(); 
  
-    PropName = "http://schemas.microsoft.com/mapi/proptag/0x59020003"; 
+    PropName = "https://schemas.microsoft.com/mapi/proptag/0x59020003"; 
     oPA = objMailItem.PropertyAccessor; 
     oPA.SetProperty(PropName, EncodingFlag); 
  

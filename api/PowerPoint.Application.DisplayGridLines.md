@@ -1,27 +1,26 @@
 ---
-title: Application.DisplayGridLines Property (PowerPoint)
+title: Application.DisplayGridLines property (PowerPoint)
 keywords: vbapp10.chm502047
 f1_keywords:
 - vbapp10.chm502047
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.DisplayGridLines
 ms.assetid: b639cd4f-26d4-4f63-2fe0-18807bdeefa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DisplayGridLines Property (PowerPoint)
+# Application.DisplayGridLines property (PowerPoint)
 
 Determines whether to display gridlines in Microsoft PowerPoint. Read/write.
 
 
 ## Syntax
 
- _expression_. `DisplayGridLines`
+_expression_. `DisplayGridLines`
 
-_expression_ A variable that represents a [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value returned by the  **DisplayGridLines** property can be one of these **MsoTriState** constants.
+The value returned by the **DisplayGridLines** property can be one of these **MsoTriState** constants.
 
 
 

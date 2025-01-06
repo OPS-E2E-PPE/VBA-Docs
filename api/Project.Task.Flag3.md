@@ -1,29 +1,29 @@
 ---
-title: Task.Flag3 Property (Project)
-ms.prod: project-server
+title: Task.Flag3 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag3
 ms.assetid: 94da8958-027a-8ea3-88fd-03d901297bc8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag3 Property (Project)
+# Task.Flag3 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag3`
+_expression_. `Flag3`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: Var, VarP functions (Microsoft Access SQL)
 keywords: jetsql40.chm5278829
 f1_keywords:
 - jetsql40.chm5278829
-ms.prod: access
 ms.assetid: 2cac402d-8384-0b33-c203-f493281a95f1
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ The **VarP** function evaluates a population, and the **Var** function evaluates
 
 If the underlying query contains fewer than two records, the **Var** and **VarP** functions return a **Null** value, which indicates that a variance cannot be calculated.
 
-You can use the **Var** and **VarP** functions in a query expression or in an SQL statement.
+Use the **Var** and **VarP** functions in a query expression or in an SQL statement.
 
 
 ## Example
@@ -50,7 +49,7 @@ Sub VarX()
     Set dbs = OpenDatabase("Northwind.mdb") 
  
     ' Calculate the variance of freight costs for  
-    ' orders shipped to the United Kingdom.  
+    ' orders shipped to the United Kingdom.
     Set rst = dbs.OpenRecordset("SELECT " _ 
         & "Var(Freight) " _ 
         & "AS [UK Freight Variance] " _ 

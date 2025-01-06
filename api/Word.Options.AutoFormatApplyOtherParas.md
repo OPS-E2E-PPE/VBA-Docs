@@ -3,12 +3,11 @@ title: Options.AutoFormatApplyOtherParas property (Word)
 keywords: vbawd10.chm162988285
 f1_keywords:
 - vbawd10.chm162988285
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatApplyOtherParas
 ms.assetid: b6204429-d883-2235-f8c2-03e5d433c863
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatApplyOtherParas`
+_expression_. `AutoFormatApplyOtherParas`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.AutoFormatApplyOtherParas = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Other paragraphs** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Other paragraphs** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

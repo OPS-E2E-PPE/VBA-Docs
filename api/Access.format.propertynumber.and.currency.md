@@ -1,9 +1,8 @@
 ---
 title: Number and Currency data types (Format property)
-ms.prod: access
 ms.assetid: f48fbfad-c249-4011-9b3e-bbd6628ac1f7
 ms.date: 11/29/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -65,7 +64,7 @@ You can create custom number formats by using the following symbols.
 
 ## Remarks
 
-You can use the **DecimalPlaces** property to override the default number of decimal places for the predefined format specified for the **Format** property.
+Use the **DecimalPlaces** property to override the default number of decimal places for the predefined format specified for the **Format** property.
 
 The predefined currency and euro formats follow the settings in the regional settings of Windows. You can override these by entering your own currency format.
 

@@ -1,27 +1,26 @@
 ---
-title: Global.ActiveWindow Property (Visio)
+title: Global.ActiveWindow property (Visio)
 keywords: vis_sdr.chm12813035
 f1_keywords:
 - vis_sdr.chm12813035
-ms.prod: visio
 api_name:
 - Visio.Global.ActiveWindow
 ms.assetid: 3d804eb0-9e84-0123-e921-edfbcd79d461
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Global.ActiveWindow Property (Visio)
+# Global.ActiveWindow property (Visio)
 
-Returns the active  **Window** object. Read-only.
+Returns the active **Window** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
- _expression_ A variable that represents a [Global](./Visio.Global.md) object.
+_expression_ A variable that represents a **[Global](Visio.Global.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ Window
 
 ## Remarks
 
-The active window can be one of the following window types: Drawing, Stencil, ShapeSheet, Edit Icon, or a Drawing or Stencil window created by an add-on. The application's active window can only be an MDI frame window—it cannot be one of the floating, docked, or anchored windows. For a complete list of window types, see the  **[Type](Visio.Window.Type.md)** property.
+The active window can be one of the following window types: Drawing, Stencil, ShapeSheet, Edit Icon, or a Drawing or Stencil window created by an add-on. The application's active window can only be an MDI frame window—it cannot be one of the floating, docked, or anchored windows. For a complete list of window types, see the **[Type](Visio.Window.Type.md)** property.
 
-If a window in an instance of Microsoft Visio is not active, the  **ActiveWindow** property returns **Nothing**.
+If a window in an instance of Microsoft Visio is not active, the **ActiveWindow** property returns **Nothing**.
 
 
 ## Example

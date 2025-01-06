@@ -3,12 +3,11 @@ title: CheckBox.TopPadding property (Access)
 keywords: vbaac10.chm10769
 f1_keywords:
 - vbaac10.chm10769
-ms.prod: access
 api_name:
 - Access.CheckBox.TopPadding
 ms.assetid: e3fc7819-8cb1-44b9-dc13-6e5c75bff62b
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

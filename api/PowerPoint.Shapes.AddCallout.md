@@ -1,27 +1,26 @@
 ---
-title: Shapes.AddCallout Method (PowerPoint)
+title: Shapes.AddCallout method (PowerPoint)
 keywords: vbapp10.chm543005
 f1_keywords:
 - vbapp10.chm543005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.AddCallout
 ms.assetid: e4b468d7-793a-09ae-fcfc-6a73db93c90e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.AddCallout Method (PowerPoint)
+# Shapes.AddCallout method (PowerPoint)
 
-Creates a borderless line callout. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the new callout.
+Creates a borderless line callout. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new callout.
 
 
 ## Syntax
 
- _expression_. `AddCallout`( `_Type_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
+_expression_. `AddCallout`( `_Type_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Parameters
@@ -43,7 +42,7 @@ Shape
 
 ## Remarks
 
-You can insert a greater variety of callouts by using the  **[AddShape](PowerPoint.Shapes.AddShape.md)** method.
+You can insert a greater variety of callouts by using the **[AddShape](PowerPoint.Shapes.AddShape.md)** method.
 
 
 ## Example

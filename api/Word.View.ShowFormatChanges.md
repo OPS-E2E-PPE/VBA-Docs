@@ -3,12 +3,11 @@ title: View.ShowFormatChanges property (Word)
 keywords: vbawd10.chm161808421
 f1_keywords:
 - vbawd10.chm161808421
-ms.prod: word
 api_name:
 - Word.View.ShowFormatChanges
 ms.assetid: e431dc24-a975-958c-07dc-64062e05cb26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowFormatChanges`
+_expression_. `ShowFormatChanges`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

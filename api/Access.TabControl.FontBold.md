@@ -3,18 +3,17 @@ title: TabControl.FontBold property (Access)
 keywords: vbaac10.chm12096
 f1_keywords:
 - vbaac10.chm12096
-ms.prod: access
 api_name:
 - Access.TabControl.FontBold
 ms.assetid: a76c23ea-b15c-8d2a-cc27-f082c6d81ca9
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.FontBold property (Access)
 
-You can use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
+Use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

@@ -3,12 +3,11 @@ title: Sort object (Excel)
 keywords: vbaxl10.chm846072
 f1_keywords:
 - vbaxl10.chm846072
-ms.prod: excel
 api_name:
 - Excel.Sort
 ms.assetid: 637ee681-743c-5196-2bfc-4a5bea025295
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 04/02/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,7 @@ Represents a sort of a range of data.
 
 ## Example
 
-The following procedure builds and sorts data in a range in the active worksheet.
-
+The following procedure builds and sorts data in a range on the active worksheet.
 
 ```vb
 Sub SortData() 
@@ -62,32 +60,24 @@ End Sub
 
 ## Methods
 
-
-
-|Name|
-|:-----|
-|[Apply](Excel.Sort.Apply.md)|
-|[SetRange](Excel.Sort.SetRange.md)|
+- [Apply](Excel.Sort.Apply.md)
+- [SetRange](Excel.Sort.SetRange.md)
 
 ## Properties
 
+- [Application](Excel.Sort.Application.md)
+- [Creator](Excel.Sort.Creator.md)
+- [Header](Excel.Sort.Header.md)
+- [MatchCase](Excel.Sort.MatchCase.md)
+- [Orientation](Excel.Sort.Orientation.md)
+- [Parent](Excel.Sort.Parent.md)
+- [Rng](Excel.Sort.Rng.md)
+- [SortFields](Excel.Sort.SortFields.md)
+- [SortMethod](Excel.Sort.SortMethod.md)
 
-
-|Name|
-|:-----|
-|[Application](Excel.Sort.Application.md)|
-|[Creator](Excel.Sort.Creator.md)|
-|[Header](Excel.Sort.Header.md)|
-|[MatchCase](Excel.Sort.MatchCase.md)|
-|[Orientation](Excel.Sort.Orientation.md)|
-|[Parent](Excel.Sort.Parent.md)|
-|[Rng](Excel.Sort.Rng.md)|
-|[SortFields](Excel.Sort.SortFields.md)|
-|[SortMethod](Excel.Sort.SortMethod.md)|
 
 ## See also
 
-
-[Excel Object Model Reference](./overview/Excel/object-model.md)
+- [Excel Object Model Reference](overview/Excel/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

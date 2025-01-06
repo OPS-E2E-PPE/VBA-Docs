@@ -3,25 +3,24 @@ title: MailingLabel.CreateNewDocument method (Word)
 keywords: vbawd10.chm152502376
 f1_keywords:
 - vbawd10.chm152502376
-ms.prod: word
 api_name:
 - Word.MailingLabel.CreateNewDocument
 ms.assetid: a52831c0-42cb-e970-14e7-2c71bcc5c2f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailingLabel.CreateNewDocument method (Word)
 
-Creates a new label document using either the default label options or ones that you specify. Returns a  **Document** object that represents the new document.
+Creates a new label document using either the default label options or ones that you specify. Returns a **Document** object that represents the new document.
 
 
 ## Syntax
 
- _expression_. `CreateNewDocument`( `_Name_` , `_Address_` , `_AutoText_` , `_ExtractAddress_` , `_LaserTray_` , `_PrintEPostageLabel_` , `_Vertical_` )
+_expression_.**CreateNewDocument**( `_Name_` , `_Address_` , `_AutoText_` , `_ExtractAddress_` , `_LaserTray_` , `_PrintEPostageLabel_` , `_Vertical_` )
 
- _expression_ Required. A variable that represents a '[MailingLabel](Word.MailingLabel.md)' object.
+_expression_ Required. A variable that represents a '[MailingLabel](Word.MailingLabel.md)' object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Creates a new label document using either the default label options or ones that
 | _Address_|Optional| **Variant**|The text for the mailing label.|
 | _AutoText_|Optional| **Variant**|The name of the AutoText entry that includes the mailing label text.|
 | _ExtractAddress_|Optional| **Variant**| **True** to use the address text marked by the user-defined bookmark named "EnvelopeAddress" instead of using the Address argument.|
-| _LaserTray_|Optional| **Variant**|The laser printer tray. Can be one of the  **[WdPaperTray](Word.WdPaperTray.md)** constants.|
+| _LaserTray_|Optional| **Variant**|The laser printer tray. Can be one of the **[WdPaperTray](Word.WdPaperTray.md)** constants.|
 | _PrintEPostageLabel_|Optional| **Variant**| **True** to print postage using an Internet e-postage vendor.|
 | _Vertical_|Optional| **Variant**| **True** formats text vertically on the label. Used for Asian-language mailing labels.|
 

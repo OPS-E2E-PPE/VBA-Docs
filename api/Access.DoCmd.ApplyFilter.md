@@ -3,18 +3,17 @@ title: DoCmd.ApplyFilter method (Access)
 keywords: vbaac10.chm4142
 f1_keywords:
 - vbaac10.chm4142
-ms.prod: access
 api_name:
 - Access.DoCmd.ApplyFilter
 ms.assetid: 926c7135-131b-1a7c-465b-a9b2ed71cd7b
 ms.date: 03/06/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # DoCmd.ApplyFilter method (Access)
 
-The **ApplyFilter** method carries out the **ApplyFilter** action in Visual Basic.
+The **ApplyFilter** method carries out the ApplyFilter action in Visual Basic.
 
 
 ## Syntax
@@ -34,12 +33,12 @@ _expression_ A variable that represents a **[DoCmd](Access.DoCmd.md)** object.
 
 ## Remarks
 
-You can use the ApplyFilter action to apply a filter, a query, or an SQL WHERE clause to a table, form, or report to restrict or sort the records in the table or the records from the underlying table or query of the form or report. For reports, you can use this action only in a macro specified by the report's **OnOpen** event property.
+Use the ApplyFilter action to apply a filter, a query, or an SQL WHERE clause to a table, form, or report to restrict or sort the records in the table or the records from the underlying table or query of the form or report. For reports, you can use this action only in a macro specified by the report's **OnOpen** event property.
 
-You can use this action to apply an SQL WHERE clause only when applying a server filter. A server filter cannot be applied to a stored procedure's record source.
+Use this action to apply an SQL WHERE clause only when applying a server filter. A server filter cannot be applied to a stored procedure's record source.
 
 > [!NOTE] 
-> You can use the _FilterName_ argument if you've already defined a filter that provides the appropriate data. You can use the _WhereCondition_ argument to enter the restriction criteria directly. If you use both arguments, Microsoft Access applies the WHERE clause to the results of the filter. You must use one or both arguments.
+> Use the _FilterName_ argument if you've already defined a filter that provides the appropriate data. Use the _WhereCondition_ argument to enter the restriction criteria directly. If you use both arguments, Microsoft Access applies the WHERE clause to the results of the filter. You must use one or both arguments.
 
 You can apply a filter or query to a form in Form view or Datasheet view.
 
@@ -51,7 +50,7 @@ If you want to apply a filter automatically when a form is first opened, specify
 
 You must include at least one of the two **ApplyFilter** method arguments. If you enter a value for both arguments, the _WhereCondition_ argument is applied to the filter.
 
-The maximum length of the _WhereCondition_ argument is 32,768 characters (unlike the Where Condition action argument in the Macro window, whose maximum length is 256 characters).
+The maximum length of the _WhereCondition_ argument is 32,768 characters (unlike the _WhereCondition_ action argument in the Macro window, whose maximum length is 256 characters).
 
 
 ## Example
@@ -61,8 +60,6 @@ The following example uses the **ApplyFilter** method to display only records th
 ```vb
 DoCmd.ApplyFilter , "LastName = 'King'"
 ```
-
-<br/>
 
 The following example shows how to use the **ApplyFilter** property to filter the records displayed when a toggle button named **tglFilter** is chosen.
 

@@ -3,14 +3,13 @@ title: Circular reference caused by alias <name> in query definition's SELECT li
 keywords: jeterr40.chm5003103
 f1_keywords:
 - jeterr40.chm5003103
-ms.prod: access
 ms.assetid: b0f5d8a6-4735-367f-dd27-af3d97816430
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Circular reference caused by alias <name> in query definition's SELECT list. (Error 3103)
+# Circular reference caused by alias \<name\> in query definition's SELECT list. (Error 3103)
 
   
 
@@ -40,8 +39,8 @@ SELECT week1 + week2 as hours, hours + overtime as gross, gross + ytdpay as week
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,34 +1,33 @@
 ---
-title: Search.Filter Property (Outlook)
+title: Search.Filter property (Outlook)
 keywords: vbaol11.chm2253
 f1_keywords:
 - vbaol11.chm2253
-ms.prod: outlook
 api_name:
 - Outlook.Search.Filter
 ms.assetid: f6040465-da73-56f6-edb7-06d93bb8b531
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Search.Filter Property (Outlook)
+# Search.Filter property (Outlook)
 
-Returns a  **String** value that represents the DASL statement used to restrict the search to a specified subset of data. Read-only
+Returns a **String** value that represents the DASL statement used to restrict the search to a specified subset of data. Read-only
 
 
 ## Syntax
 
 _expression_. `Filter`
 
-_expression_ A variable that represents a [Search](./Outlook.Search.md) object.
+_expression_ A variable that represents a [Search](Outlook.Search.md) object.
 
 
 ## Remarks
 
 This property is set as the  _Filter_ argument in the **[Application](Outlook.Application.md)** object's **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method.
 
-When searching  **Text** fields, you can use either an apostrophe (') or double quotation marks ("") to delimit the values that are part of the filter. For example, all of the following lines function correctly when the field is of type **String** :
+When searching **Text** fields, you can use either an apostrophe (') or double quotation marks ("") to delimit the values that are part of the filter. For example, all of the following lines function correctly when the field is of type **String** :
 
 
 
@@ -54,7 +53,7 @@ sFilter = "[CompanyName] = " & Chr(34) & "Microsoft" & Chr(34)
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example creates a new  **[Search](Outlook.Search.md)** object. The event subroutine fires after the search has finished and displays the **[Tag](Outlook.Search.Tag.md)** and **Filter** properties of the **Search** object in addition to the results of the search.
+The following Microsoft Visual Basic for Applications (VBA) example creates a new **[Search](Outlook.Search.md)** object. The event subroutine fires after the search has finished and displays the **[Tag](Outlook.Search.Tag.md)** and **Filter** properties of the **Search** object in addition to the results of the search.
 
 
 ```vb
@@ -79,7 +78,7 @@ Sub SearchInboxFolder()
 End Sub
 ```
 
-Use an  **[AdvancedSearchComplete](Outlook.Application.AdvancedSearchComplete.md)** event subroutine to ensure the integrity of the data stored in the **Search** object.
+Use an **[AdvancedSearchComplete](Outlook.Application.AdvancedSearchComplete.md)** event subroutine to ensure the integrity of the data stored in the **Search** object.
 
 
 

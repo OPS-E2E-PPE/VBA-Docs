@@ -3,30 +3,29 @@ title: Selection.Font property (Word)
 keywords: vbawd10.chm158662661
 f1_keywords:
 - vbawd10.chm158662661
-ms.prod: word
 api_name:
 - Word.Selection.Font
 ms.assetid: c2a24190-62fa-09c4-7c47-90a7ecf20d97
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.Font property (Word)
 
-Returns or sets a  **[Font](Word.Font.md)** object that represents the character formatting of the specified object. Read/write.
+Returns or sets a **[Font](Word.Font.md)** object that represents the character formatting of the specified object. Read/write.
 
 
 ## Syntax
 
- _expression_. `Font`
+_expression_.**Font**
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-To set the  **Font** property, specify an expression that returns a **Font** object.
+To set the **Font** property, specify an expression that returns a **Font** object.
 
 
 ## Example

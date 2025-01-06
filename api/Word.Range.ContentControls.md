@@ -3,25 +3,24 @@ title: Range.ContentControls property (Word)
 keywords: vbawd10.chm157155752
 f1_keywords:
 - vbawd10.chm157155752
-ms.prod: word
 api_name:
 - Word.Range.ContentControls
 ms.assetid: e8c715af-067f-871e-7dec-28aa4302d9f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.ContentControls property (Word)
 
-Returns a  **[ContentControls](Word.ContentControls.md)** collection that represents the content controls contained within a range. Read-only.
+Returns a **[ContentControls](Word.ContentControls.md)** collection that represents the content controls contained within a range. Read-only.
 
 
 ## Syntax
 
- _expression_. `ContentControls`
+_expression_. `ContentControls`
 
- _expression_ An expression that returns a '[Range](Word.Range.md)' object.
+ _expression_ An expression that returns a **[Range](Word.Range.md)** object.
 
 
 ## Example

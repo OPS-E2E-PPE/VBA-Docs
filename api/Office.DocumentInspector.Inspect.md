@@ -3,12 +3,11 @@ title: DocumentInspector.Inspect method (Office)
 keywords: vbaof11.chm279003
 f1_keywords:
 - vbaof11.chm279003
-ms.prod: office
 api_name:
 - Office.DocumentInspector.Inspect
 ms.assetid: 5973fa7d-7218-74e3-b67c-c03fbaf4b930
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -43,8 +42,8 @@ Dim docStatus As MsoDocInspectorStatus
 Dim result As String 
 ActiveDocument.DocumentInspectors(1).Inspect docStatus, results 
  
-MsgBox ("The inspection returned the following status " &amp; docStatus &amp; _ 
-" with this result " &amp; result) 
+MsgBox ("The inspection returned the following status " & docStatus & _ 
+" with this result " & result) 
 End Sub
 ```
 

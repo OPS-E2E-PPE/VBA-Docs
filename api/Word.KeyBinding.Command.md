@@ -3,25 +3,24 @@ title: KeyBinding.Command property (Word)
 keywords: vbawd10.chm160956417
 f1_keywords:
 - vbawd10.chm160956417
-ms.prod: word
 api_name:
 - Word.KeyBinding.Command
 ms.assetid: 0693cc28-7498-03c6-0e24-53f78924db1e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # KeyBinding.Command property (Word)
 
-Returns the command assigned to the specified key combination. Read-only  **String**.
+Returns the command assigned to the specified key combination. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Command`
+_expression_. `Command`
 
- _expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Example

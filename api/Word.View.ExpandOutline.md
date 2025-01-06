@@ -3,12 +3,11 @@ title: View.ExpandOutline method (Word)
 keywords: vbawd10.chm161808486
 f1_keywords:
 - vbawd10.chm161808486
-ms.prod: word
 api_name:
 - Word.View.ExpandOutline
 ms.assetid: 46286501-3583-e931-71a6-cf5d091f0b15
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Expands the text under the selection by one heading level.
 
 ## Syntax
 
- _expression_. `ExpandOutline`( `_Range_` )
+_expression_. `ExpandOutline`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Parameters

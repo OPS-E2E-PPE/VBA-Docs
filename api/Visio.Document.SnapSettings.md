@@ -1,27 +1,26 @@
 ---
-title: Document.SnapSettings Property (Visio)
+title: Document.SnapSettings property (Visio)
 keywords: vis_sdr.chm10550890
 f1_keywords:
 - vis_sdr.chm10550890
-ms.prod: visio
 api_name:
 - Visio.Document.SnapSettings
 ms.assetid: c3ced586-d9c7-01bd-6b32-99fedda3c2b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.SnapSettings Property (Visio)
+# Document.SnapSettings property (Visio)
 
 Determines the objects that shapes snap to when snap is active in the document. Read/write.
 
 
 ## Syntax
 
- _expression_. `SnapSettings`
+_expression_.**SnapSettings**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ VisSnapSettings
 
 ## Remarks
 
-The value of the  **SnapSettings** property is equivalent to selecting check boxes under **Snap to** on the **General** tab of the **Snap & Glue** dialog box (click the **Visual Aids** arrow on the **View** tab).
+The value of the **SnapSettings** property is equivalent to selecting check boxes under **Snap to** on the **General** tab of the **Snap & Glue** dialog box (click the **Visual Aids** arrow on the **View** tab).
 
-The  **SnapSettings** property can be any combination of the following **VisSnapSettings** constants, which are declared in the Visio type library.
+The **SnapSettings** property can be any combination of the following **VisSnapSettings** constants, which are declared in the Visio type library.
 
 
 

@@ -1,10 +1,10 @@
 ---
 title: SmartArtColors members (Office)
 description: A collection of SmartArt color styles.
-ms.prod: office
+ms.service: office
 ms.assetid: c371e814-7621-2c01-c0fe-93003892646f
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

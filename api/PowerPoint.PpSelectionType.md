@@ -1,17 +1,16 @@
 ---
-title: PpSelectionType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpSelectionType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpSelectionType
 ms.assetid: 0e18d698-0c6e-ea47-213c-539037d844e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpSelectionType Enumeration (PowerPoint)
+# PpSelectionType enumeration (PowerPoint)
 
-Constants that specify the type of selection, returned by the  **Type** property of the **Selection** object.
+Constants that specify the type of selection, returned by the **Type** property of the **Selection** object.
 
 
 

@@ -3,33 +3,33 @@ title: ContentControl.LockContentControl property (Word)
 keywords: vbawd10.chm266534914
 f1_keywords:
 - vbawd10.chm266534914
-ms.prod: word
 api_name:
 - Word.ContentControl.LockContentControl
 ms.assetid: a567f2a5-a3db-446c-e694-50dbfbb3e9db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControl.LockContentControl property (Word)
 
-Returns or sets a  **Boolean** that represents whether the user can delete a content control from the active document. Read/write.
+Returns or sets a **Boolean** that represents whether the user can delete a content control from the active document. Read/write.
 
 
 ## Syntax
 
- _expression_. `LockContentControl`
+_expression_. `LockContentControl`
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-The default value of this property is  **False**. This property corresponds to the **Content control cannot be deleted** check box in the **Content Control Properties** dialog box.
+The default value of this property is **False**. This property corresponds to the **Content control cannot be deleted** check box in the **Content Control Properties** dialog box.
 
 
- **Note**  You cannot set this property if the  **[Temporary](Word.ContentControl.Temporary.md)** property is set to **True**.
+> [!NOTE] 
+> You cannot set this property if the **[Temporary](Word.ContentControl.Temporary.md)** property is set to **True**.
 
 
 ## Example

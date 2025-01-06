@@ -3,12 +3,11 @@ title: Application.DeleteReportControl method (Access)
 keywords: vbaac10.chm12523
 f1_keywords:
 - vbaac10.chm12523
-ms.prod: access
 api_name:
 - Access.Application.DeleteReportControl
 ms.assetid: 26e30033-ab56-9cfa-3c35-f6d47caf8bd7
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

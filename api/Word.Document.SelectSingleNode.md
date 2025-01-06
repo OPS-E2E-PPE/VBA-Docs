@@ -3,25 +3,24 @@ title: Document.SelectSingleNode method (Word)
 keywords: vbawd10.chm158007784
 f1_keywords:
 - vbawd10.chm158007784
-ms.prod: word
 api_name:
 - Word.Document.SelectSingleNode
 ms.assetid: 85f22e41-97e3-4413-c57e-26719155dc7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.SelectSingleNode method (Word)
 
-Returns an  **XMLNode** object that represents the first node that matches the XPath parameter in the specified document.
+Returns an **XMLNode** object that represents the first node that matches the XPath parameter in the specified document.
 
 
 ## Syntax
 
- _expression_. `SelectSingleNode`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
+_expression_. `SelectSingleNode`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ XMLNode
 
 ## Remarks
 
-Setting the FastSearchSkippingTextNodes parameter to  **False** diminishes performance because Microsoft Word searches all nodes in a document against the text contained in the node.
+Setting the FastSearchSkippingTextNodes parameter to **False** diminishes performance because Microsoft Word searches all nodes in a document against the text contained in the node.
 
 
 ## Example

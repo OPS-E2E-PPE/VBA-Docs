@@ -1,27 +1,26 @@
 ---
-title: MenuSets.Item Property (Visio)
+title: MenuSets.Item property (Visio)
 keywords: vis_sdr.chm13413765
 f1_keywords:
 - vis_sdr.chm13413765
-ms.prod: visio
 api_name:
 - Visio.MenuSets.Item
 ms.assetid: a7ad3a73-33ec-1e69-c6d6-7356876be53c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MenuSets.Item Property (Visio)
+# MenuSets.Item property (Visio)
 
-Returns a  **MenuSet** object from the **MenuSets** collection. Read-only.
+Returns a **MenuSet** object from the **MenuSets** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Item`( `_lIndex_` )
+_expression_.**Item** (_lIndex_)
 
- _expression_ A variable that represents a [MenuSets](./Visio.MenuSets.md) collection.
+_expression_ A variable that represents a **[MenuSets](Visio.MenuSets.md)** object.
 
 
 ## Parameters
@@ -40,9 +39,10 @@ MenuSet
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-When retrieving objects from a collection, you can omit  **Item** from the expression because it is the default property for all collections. The following statement is equivalent to the syntax example given above:
+When retrieving objects from a collection, you can omit **Item** from the expression because it is the default property for all collections. The following statement is equivalent to the syntax example given above:
 
 
 ```vb

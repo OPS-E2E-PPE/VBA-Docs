@@ -3,30 +3,29 @@ title: Find.Font property (Word)
 keywords: vbawd10.chm162529291
 f1_keywords:
 - vbawd10.chm162529291
-ms.prod: word
 api_name:
 - Word.Find.Font
 ms.assetid: 8a4e3cb0-5bfd-bcea-6eba-10dc21a0e4c0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Find.Font property (Word)
 
-Returns or sets a  **[Font](Word.Font.md)** object that represents the character formatting of the specified object. Read/write **Font**.
+Returns or sets a **[Font](Word.Font.md)** object that represents the character formatting of the specified object. Read/write **Font**.
 
 
 ## Syntax
 
- _expression_. `Font`
+_expression_.**Font**
 
- _expression_ A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Remarks
 
-To set this property, specify an expression that returns a  **[Font](Word.Font.md)** object.
+To set this property, specify an expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Example

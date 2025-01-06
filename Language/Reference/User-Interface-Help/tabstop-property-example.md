@@ -3,10 +3,9 @@ title: TabStop property example
 keywords: fm20.chm5225118
 f1_keywords:
 - fm20.chm5225118
-ms.prod: office
 ms.assetid: 120e875d-0dff-6b69-31e6-60da49d3be84
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

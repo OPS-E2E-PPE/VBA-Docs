@@ -1,27 +1,26 @@
 ---
-title: DisplayUnitLabel.FormulaR1C1Local Property (PowerPoint)
+title: DisplayUnitLabel.FormulaR1C1Local property (PowerPoint)
 keywords: vbapp10.chm699027
 f1_keywords:
 - vbapp10.chm699027
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DisplayUnitLabel.FormulaR1C1Local
 ms.assetid: 412bd39c-ee0c-427d-03ed-3dba8a7bb36e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DisplayUnitLabel.FormulaR1C1Local Property (PowerPoint)
+# DisplayUnitLabel.FormulaR1C1Local property (PowerPoint)
 
-Returns or sets the formula for the object, using R1C1-style notation in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using R1C1-style notation in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaR1C1Local`
+_expression_.**FormulaR1C1Local**
 
-_expression_ A variable that represents a [DisplayUnitLabel](./PowerPoint.DisplayUnitLabel.md) object.
+_expression_ A variable that represents a [DisplayUnitLabel](PowerPoint.DisplayUnitLabel.md) object.
 
 
 ## Remarks

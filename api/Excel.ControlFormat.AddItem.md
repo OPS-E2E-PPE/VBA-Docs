@@ -3,12 +3,11 @@ title: ControlFormat.AddItem method (Excel)
 keywords: vbaxl10.chm630073
 f1_keywords:
 - vbaxl10.chm630073
-ms.prod: excel
 api_name:
 - Excel.ControlFormat.AddItem
 ms.assetid: fffc243b-3f94-14ab-f7b4-83c56325aa5e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Adds an item to a list box or a combo box.
 
 ## Syntax
 
-_expression_. `AddItem`( `_Text_` , `_Index_` )
+_expression_.**AddItem** (_Text_, _Index_)
 
-_expression_ A variable that represents a [ControlFormat](Excel.ControlFormat.md) object.
+_expression_ A variable that represents a **[ControlFormat](Excel.ControlFormat.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,13 +32,12 @@ _expression_ A variable that represents a [ControlFormat](Excel.ControlFormat.md
 
 ## Remarks
 
-Using this method clears any range specified by the  **[ListFillRange](Excel.ControlFormat.ListFillRange.md)** property.
+Using this method clears any range specified by the **[ListFillRange](Excel.ControlFormat.ListFillRange.md)** property.
 
 
 ## Example
 
 This example creates a list box and fills it with integers from 1 to 10.
-
 
 ```vb
 With Worksheets(1) 
@@ -53,9 +49,5 @@ End With
 ```
 
 
-## See also
-
-
-[ControlFormat Object](Excel.ControlFormat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

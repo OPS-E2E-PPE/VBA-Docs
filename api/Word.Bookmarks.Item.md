@@ -1,24 +1,23 @@
 ---
 title: Bookmarks.Item method (Word)
-ms.prod: word
 api_name:
 - Word.Bookmarks.Item
 ms.assetid: 95650b7b-fe74-09a4-60a6-a716407e8a34
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bookmarks.Item method (Word)
 
-Returns an individual  **Bookmark** object in a collection.
+Returns an individual **Bookmark** object in a collection.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ Required. A variable that represents a '[Bookmarks](Word.bookmarks.md)' collection.
+_expression_ Required. A variable that represents a '[Bookmarks](Word.bookmarks.md)' collection.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ Returns an individual  **Bookmark** object in a collection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required| **Variant**|The individual object to be returned. Can be a  **Long** indicating the ordinal position or a **String** representing the name of the individual object.|
+| _Index_|Required| **Variant**|The individual object to be returned. Can be a **Long** indicating the ordinal position or a **String** representing the name of the individual object.|
 
 ## Return value
 

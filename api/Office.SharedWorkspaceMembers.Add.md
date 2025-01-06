@@ -3,12 +3,11 @@ title: SharedWorkspaceMembers.Add method (Office)
 keywords: vbaof11.chm273003
 f1_keywords:
 - vbaof11.chm273003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMembers.Add
 ms.assetid: 13d7c75d-a4d1-60ea-d689-c6886fb1e898
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,7 +47,7 @@ The following example adds a new member to the members collection of the shared 
         "domain\user", _ 
         "New User", _ 
         "Contributor") 
-    MsgBox "New member: " &amp; swsMember.Name, _ 
+    MsgBox "New member: " & swsMember.Name, _ 
         vbInformation + vbOKOnly, _ 
         "New Member in Shared Workspace)" 
     Set swsMember = Nothing 

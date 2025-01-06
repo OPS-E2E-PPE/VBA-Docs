@@ -1,27 +1,27 @@
 ---
-title: Application.TableApply Method (Project)
+title: Application.TableApply method (Project)
 keywords: vbapj.chm402
 f1_keywords:
 - vbapj.chm402
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TableApply
 ms.assetid: 3d335475-a0b7-dd61-1c93-a668a878d347
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TableApply Method (Project)
+# Application.TableApply method (Project)
 
 Applies a table to the active view.
 
 
 ## Syntax
 
- _expression_. `TableApply`( `_Name_` )
+_expression_. `TableApply`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

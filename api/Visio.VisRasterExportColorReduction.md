@@ -1,18 +1,17 @@
 ---
-title: VisRasterExportColorReduction Enumeration (Visio)
+title: VisRasterExportColorReduction enumeration (Visio)
 keywords: vis_sdr.chm70725
 f1_keywords:
 - vis_sdr.chm70725
-ms.prod: visio
 api_name:
 - Visio.VisRasterExportColorReduction
 ms.assetid: bd88584a-c3ff-fd2e-e90e-ce3dc1b956bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisRasterExportColorReduction Enumeration (Visio)
+# VisRasterExportColorReduction enumeration (Visio)
 
 
 

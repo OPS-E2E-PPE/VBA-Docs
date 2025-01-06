@@ -3,25 +3,24 @@ title: Axis.TickLabelPosition property (Word)
 keywords: vbawd10.chm113049648
 f1_keywords:
 - vbawd10.chm113049648
-ms.prod: word
 api_name:
 - Word.Axis.TickLabelPosition
 ms.assetid: c0284fd9-ec02-fdc9-4c8b-49efdb85be87
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.TickLabelPosition property (Word)
 
-Describes the position of tick-mark labels on the specified axis. Read/write  **[xlTickLabelPosition](Word.xlticklabelposition.md)**.
+Describes the position of tick-mark labels on the specified axis. Read/write **[XlTickLabelPosition](Word.xlticklabelposition.md)**.
 
 
 ## Syntax
 
- _expression_. `TickLabelPosition`
+_expression_. `TickLabelPosition`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Example

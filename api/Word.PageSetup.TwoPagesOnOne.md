@@ -3,12 +3,11 @@ title: PageSetup.TwoPagesOnOne property (Word)
 keywords: vbawd10.chm158400633
 f1_keywords:
 - vbawd10.chm158400633
-ms.prod: word
 api_name:
 - Word.PageSetup.TwoPagesOnOne
 ms.assetid: c9d8edac-1fea-5fdb-a4e2-193920fa89d1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `TwoPagesOnOne`
+_expression_. `TwoPagesOnOne`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example

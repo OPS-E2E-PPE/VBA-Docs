@@ -3,18 +3,17 @@ title: CustomControl.Top property (Access)
 keywords: vbaac10.chm12021
 f1_keywords:
 - vbaac10.chm12021
-ms.prod: access
 api_name:
 - Access.CustomControl.Top
 ms.assetid: a79a5dba-acdc-d17e-76fb-d90629ea84d5
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

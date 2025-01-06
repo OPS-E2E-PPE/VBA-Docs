@@ -3,12 +3,11 @@ title: CoAuthLock.Range property (Word)
 keywords: vbawd10.chm260046851
 f1_keywords:
 - vbawd10.chm260046851
-ms.prod: word
 api_name:
 - Word.CoAuthLock.Range
 ms.assetid: 092cafbc-09b1-75b7-660e-85b6cd2b5ba2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns a [Range](Word.Range.md) object that represents the portion of a documen
 
 ## Syntax
 
- _expression_. `Range`
+_expression_.**Range**
 
  _expression_ An expression that returns a '[CoAuthLock](Word.CoAuthLock.md)' object.
 

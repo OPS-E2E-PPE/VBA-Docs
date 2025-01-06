@@ -3,12 +3,11 @@ title: SharedWorkspaceTasks.Add method (Office)
 keywords: vbaof11.chm265003
 f1_keywords:
 - vbaof11.chm265003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceTasks.Add
 ms.assetid: f427945e-e699-9ba0-6d83-98f9b77b4500
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -63,7 +62,7 @@ The following example adds a new task to the tasks collection of the shared work
         msoSharedWorkspaceTaskPriorityNormal, _ 
         swsMember, _ 
         "My first shared workspace task", #12/31/2005#) 
-    MsgBox "New task: " &amp; swsTask.Title, _ 
+    MsgBox "New task: " & swsTask.Title, _ 
         vbInformation + vbOKOnly, _ 
         "New Task in Shared Workspace" 
     Set swsMember = Nothing 

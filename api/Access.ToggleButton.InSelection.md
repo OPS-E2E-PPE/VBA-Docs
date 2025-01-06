@@ -3,18 +3,17 @@ title: ToggleButton.InSelection property (Access)
 keywords: vbaac10.chm11746
 f1_keywords:
 - vbaac10.chm11746
-ms.prod: access
 api_name:
 - Access.ToggleButton.InSelection
 ms.assetid: c168b14d-c10d-1a0a-96cb-69555c8657d0
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

@@ -3,10 +3,9 @@ title: Out of string space (Error 14)
 keywords: vblr6.chm1011244
 f1_keywords:
 - vblr6.chm1011244
-ms.prod: office
 ms.assetid: b400380a-4dda-306e-b086-af201e5f2835
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

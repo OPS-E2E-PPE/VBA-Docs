@@ -3,25 +3,24 @@ title: XMLNode.ValidationErrorText property (Word)
 keywords: vbawd10.chm37748760
 f1_keywords:
 - vbawd10.chm37748760
-ms.prod: word
 api_name:
 - Word.XMLNode.ValidationErrorText
 ms.assetid: 85816e71-2629-0f5c-3775-e42f7fb7f9a5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.ValidationErrorText property (Word)
 
-Returns a  **String** that represents the description for a validation error on an **XMLNode** object.
+Returns a **String** that represents the description for a validation error on an **XMLNode** object.
 
 
 ## Syntax
 
- _expression_. `ValidationErrorText`( `_Advanced_` )
+_expression_. `ValidationErrorText`( `_Advanced_` )
 
- _expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
+_expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Returns a  **String** that represents the description for a validation error on 
 
 ## Example
 
-The following example checks each element in the active document and displays a message containing the elements and attributes that do not validate according to the schema and a description of why.
+The following example checks each element in the active document and displays a message containing the elements and attributes that don't validate according to the schema and a description of why.
 
 
 ```vb
@@ -49,7 +48,7 @@ For Each objNode In ActiveDocument.XMLNodes
  End If 
 Next 
  
-MsgBox "The following elements do not validate against " & _ 
+MsgBox "The following elements don't validate against " & _ 
  "the schema." & vbCrLf & vbCrLf & strValid & vbCrLf & _ 
  "You should fix these elements before continuing."
 ```

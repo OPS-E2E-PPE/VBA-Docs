@@ -3,12 +3,11 @@ title: DataLabel.ShowSeriesName property (Word)
 keywords: vbawd10.chm233900006
 f1_keywords:
 - vbawd10.chm233900006
-ms.prod: word
 api_name:
 - Word.DataLabel.ShowSeriesName
 ms.assetid: 6d2a8c88-be7b-711b-1f09-6bf985906fc6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowSeriesName`
+_expression_.**ShowSeriesName**
 
- _expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
+_expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
 
 
 ## Example

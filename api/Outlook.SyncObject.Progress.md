@@ -1,27 +1,26 @@
 ---
-title: SyncObject.Progress Event (Outlook)
+title: SyncObject.Progress event (Outlook)
 keywords: vbaol11.chm112
 f1_keywords:
 - vbaol11.chm112
-ms.prod: outlook
 api_name:
 - Outlook.SyncObject.Progress
 ms.assetid: 605c0243-45c1-94d9-8356-b31bb1d0d3e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SyncObject.Progress Event (Outlook)
+# SyncObject.Progress event (Outlook)
 
-Occurs periodically while Microsoft Outlook is synchronizing a user?s folders using the specified  **Send\Receive** group.
+Occurs periodically while Microsoft Outlook is synchronizing a user's folders using the specified **Send\Receive** group.
 
 
 ## Syntax
 
 _expression_. `Progress`( `_State_` , `_Description_` , `_Value_` , `_Max_` )
 
-_expression_ A variable that represents a [SyncObject](./Outlook.SyncObject.md) object.
+_expression_ A variable that represents a [SyncObject](Outlook.SyncObject.md) object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example shows the progress of synchronization. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Outlook.
+This Microsoft Visual Basic for Applications (VBA) example shows the progress of synchronization. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Outlook.
 
 
 ```vb

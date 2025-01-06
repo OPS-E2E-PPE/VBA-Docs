@@ -3,20 +3,17 @@ title: AcPrintPaperSize enumeration (Access)
 keywords: vbaac10.chm13247
 f1_keywords:
 - vbaac10.chm13247
-ms.prod: access
 api_name:
 - Access.AcPrintPaperSize
 ms.assetid: 16730547-b26d-852d-88d2-39a7a66a5463
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPrintPaperSize enumeration (Access)
 
 Used with the **PaperSize** property to indicate the paper size to use when printing.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

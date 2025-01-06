@@ -1,22 +1,21 @@
 ---
 title: Font.Underline Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: d24a6e56-bcb7-7cf4-c31c-d8a2920fbd86
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font.Underline Property (Outlook Forms Script)
 
-Returns or sets a  **Boolean** that specifies whether text is underlined. Read/write.
+Returns or sets a **Boolean** that specifies whether text is underlined. Read/write.
 
 
 ## Syntax
 
-_expression_. **Underline**
+_expression_.**Underline**
 
-_expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **Font** object.
 
 
 ## Remarks

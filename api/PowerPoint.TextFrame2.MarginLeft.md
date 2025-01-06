@@ -1,27 +1,26 @@
 ---
-title: TextFrame2.MarginLeft Property (PowerPoint)
+title: TextFrame2.MarginLeft property (PowerPoint)
 keywords: vbapp10.chm678003
 f1_keywords:
 - vbapp10.chm678003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.MarginLeft
 ms.assetid: de0de9d5-a774-eb5c-7a97-fb0c6aa8522c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.MarginLeft Property (PowerPoint)
+# TextFrame2.MarginLeft property (PowerPoint)
 
-Returns or sets the distance (in points) between the left edge of the text frame and the left edge of the inscribed rectangle of the shape that contains the text. Read/write.
+Returns or sets the distance (in [points](../language/glossary/vbe-glossary.md#point)) between the left edge of the text frame and the left edge of the inscribed rectangle of the shape that contains the text. Read/write.
 
 
 ## Syntax
 
- _expression_. `MarginLeft`
+_expression_.**MarginLeft**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value

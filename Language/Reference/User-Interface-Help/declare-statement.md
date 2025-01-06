@@ -1,12 +1,12 @@
 ---
 title: Declare statement (VBA)
+description: Learn how to use Declare statement (VBA)
 keywords: vblr6.chm1008781
 f1_keywords:
 - vblr6.chm1008781
-ms.prod: office
 ms.assetid: 82f68f6b-76c6-2efd-72d2-652000b3a083
-ms.date: 12/03/2018
-localization_priority: Priority
+ms.date: 07/20/2021
+ms.localizationpriority: medium
 ---
 
 
@@ -28,11 +28,11 @@ Declare Sub...
 
 **Syntax 1**
 
-[ **Public** | **Private** ] **Declare** **Sub**_name_**Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ]
+[ **Public** | **Private** ] **Declare** **Sub** _name_ **Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ]
 
 **Syntax 2**
 
-[ **Public** | **Private** ] **Declare** **Function**_name_**Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ] [ **As** _type_ ]
+[ **Public** | **Private** ] **Declare** **Function** _name_ **Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ] [ **As** _type_ ]
 
 VBA7 **Declare** statement syntax
 
@@ -41,11 +41,11 @@ VBA7 **Declare** statement syntax
 
 **Syntax 1 (Sub)**
 
-[ **Public** | **Private** ] **Declare** **PtrSafe** **Sub**_name_**Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ]
+[ **Public** | **Private** ] **Declare** **PtrSafe** **Sub** _name_ **Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ]
 
 **Syntax 2 (Function)**
 
-[ **Public** | **Private** ] **Declare** **PtrSafe** **Function**_name_**Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ] [ **As** _type_ ]
+[ **Public** | **Private** ] **Declare** **PtrSafe** **Function** _name_ **Lib** "_libname_" [ **Alias** "_aliasname_" ] [ ( [ _arglist_ ] ) ] [ **As** _type_ ]
 
 
 |Part|Description|
@@ -63,8 +63,6 @@ VBA7 **Declare** statement syntax
 | _arglist_|Optional. List of variables representing [arguments](../../Glossary/vbe-glossary.md#argument) that are passed to the procedure when it is called.|
 | _type_|Optional. [Data type](../../Glossary/vbe-glossary.md#data-type) of the value returned by a **Function** procedure; may be [Byte](../../Glossary/vbe-glossary.md#byte-data-type), [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type), [Integer](../../Glossary/vbe-glossary.md#integer-data-type), [Long](../../Glossary/vbe-glossary.md#long-data-type), [LongLong](longlong-data-type.md), [LongPtr](longptr-data-type.md), [Currency](../../Glossary/vbe-glossary.md#currency-data-type), [Single](../../Glossary/vbe-glossary.md#single-data-type), [Double](../../Glossary/vbe-glossary.md#double-data-type), [Decimal](../../Glossary/vbe-glossary.md#decimal-data-type) (not currently supported), [Date](../../Glossary/vbe-glossary.md#date-data-type), [String](../../Glossary/vbe-glossary.md#string-data-type) (variable length only), [Variant](../../Glossary/vbe-glossary.md#variant-data-type), a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type), or an [object type](../../Glossary/vbe-glossary.md#object-type). (**LongLong** is a valid declared type only on 64-bit platforms.)|
 
-<br/>
-
 The _arglist_ argument has the following syntax and parts:
 
 [ **Optional** ] [ **ByVal** | **ByRef** ] [ **ParamArray** ] _varname_ [ ( ) ] [ **As** _type_ ]
@@ -73,7 +71,7 @@ The _arglist_ argument has the following syntax and parts:
 |:-----|:-----|
 |**Optional**|Optional. Indicates that an argument is not required. If used, all subsequent arguments in  _arglist_ must also be optional and declared by using the **Optional** keyword. **Optional** can't be used for any argument if **ParamArray** is used.|
 |**ByVal**|Optional. Indicates that the argument is passed [by value](../../Glossary/vbe-glossary.md#by-value).|
-|**ByRef**|Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in Visual Basic.|
+|**ByRef**|Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in VBA unlike in Visual Basic .NET.|
 |**ParamArray**|Optional. Used only as the last argument in _arglist_ to indicate that the final argument is an **Optional** [array](../../Glossary/vbe-glossary.md#array) of **Variant** elements. The **ParamArray** keyword allows you to provide an arbitrary number of arguments. The **ParamArray** keyword can't be used with **ByVal**, **ByRef**, or **Optional**.|
 | _varname_|Required. Name of the variable representing the argument being passed to the procedure; follows standard variable naming conventions.|
 |**( )**|Required for array variables. Indicates that  _varname_ is an array.|
@@ -113,7 +111,7 @@ Declare Sub MessageBeep Lib "User" Alias "SomeBeep"(ByVal N As Integer)
 Declare Function GetWinFlags Lib "Kernel" Alias "#132"()As Long 
  
 ' In 32-bit Microsoft Windows systems, specify the library USER32.DLL, 
-' rather than USER.DLL. You can use conditional compilation to write 
+' rather than USER.DLL. Use conditional compilation to write 
 ' code that can run on either Win32 or Win16. 
 #If Win32 Then 
     Declare Sub MessageBeep Lib "User32" (ByVal N As Long) 

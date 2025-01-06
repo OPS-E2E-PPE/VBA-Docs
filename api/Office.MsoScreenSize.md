@@ -1,19 +1,16 @@
 ---
 title: MsoScreenSize enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoScreenSize
 ms.assetid: d5057fda-954a-819d-682f-75b8443c6f3d
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoScreenSize enumeration (Office)
 
 Specifies the ideal screen resolution to be used to view a document in a web browser.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

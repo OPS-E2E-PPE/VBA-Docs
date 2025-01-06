@@ -1,27 +1,26 @@
 ---
-title: SetEffect.Application Property (PowerPoint)
+title: SetEffect.Application property (PowerPoint)
 keywords: vbapp10.chm670001
 f1_keywords:
 - vbapp10.chm670001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SetEffect.Application
 ms.assetid: f3050f93-46a2-bc6f-d984-53807350281b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SetEffect.Application Property (PowerPoint)
+# SetEffect.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [SetEffect](./PowerPoint.SetEffect.md) object.
+_expression_ A variable that represents a [SetEffect](PowerPoint.SetEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

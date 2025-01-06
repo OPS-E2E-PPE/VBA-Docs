@@ -1,24 +1,24 @@
 ---
-title: Application.DurationValue Method (Project)
-ms.prod: project-server
+title: Application.DurationValue method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.DurationValue
 ms.assetid: 745acbd3-600c-1179-1d61-be0dab88cdf5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DurationValue Method (Project)
+# Application.DurationValue method (Project)
 
 Returns the number of minutes in a duration.
 
 
 ## Syntax
 
- _expression_. `DurationValue`( `_Duration_` )
+_expression_. `DurationValue`( `_Duration_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

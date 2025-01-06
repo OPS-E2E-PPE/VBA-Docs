@@ -1,33 +1,31 @@
 ---
-title: WebCheckBox.Value Property (Publisher)
+title: WebCheckBox.Value property (Publisher)
 keywords: vbapb10.chm4325381
 f1_keywords:
 - vbapb10.chm4325381
-ms.prod: publisher
 api_name:
 - Publisher.WebCheckBox.Value
 ms.assetid: 9fd50cd5-ecf3-30b7-c8a9-6b64b106eaec
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebCheckBox.Value Property (Publisher)
+# WebCheckBox.Value property (Publisher)
 
-Returns or sets a  **String** that represents the value of a Web check box or option button. Read/write.
+Returns or sets a **String** that represents the value of a web check box or option button. Read/write.
 
 
 ## Syntax
 
- _expression_. **Value**
+_expression_.**Value**
 
- _expression_ A variable that represents a  **WebCheckBox** object.
+_expression_ A variable that represents a **[WebCheckBox](Publisher.WebCheckBox.md)** object.
 
 
 ## Example
 
-This example creates a new Web check box control, assigns a name and value to it, and indicates its initial state is checked.
-
+This example creates a new web check box control, assigns a name and value to it, and indicates that its initial state is selected.
 
 ```vb
 Sub CreateWebButton() 

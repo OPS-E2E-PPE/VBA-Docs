@@ -3,18 +3,17 @@ title: WebBrowserControl.ControlSource property (Access)
 keywords: vbaac10.chm14359
 f1_keywords:
 - vbaac10.chm14359
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.ControlSource
 ms.assetid: f15e6d9c-fa41-8ca9-5252-fbb86139b2dc
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.ControlSource property (Access)
 
-You can use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
+Use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
 
 
 ## Syntax
@@ -57,8 +56,6 @@ The following example sets the **ControlSource** property for a text box named *
 ```vb
 Forms!Customers!AddressPart.ControlSource = "City"
 ```
-
-<br/>
 
 The following example sets the **ControlSource** property for a text box named **Expected** to the expression `=Date() + 7`.
 

@@ -1,37 +1,36 @@
 ---
-title: Path.Application Property (Visio)
+title: Path.Application property (Visio)
 keywords: vis_sdr.chm15413090
 f1_keywords:
 - vis_sdr.chm15413090
-ms.prod: visio
 api_name:
 - Visio.Path.Application
 ms.assetid: ea86ca2d-db27-6f8b-d8ec-700cdb27f9bf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Path.Application Property (Visio)
+# Path.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Path](./Visio.Path.md) object.
+_expression_ A variable that represents a **[Path](Visio.Path.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

@@ -3,12 +3,11 @@ title: ToggleButton.LabelAlign property (Access)
 keywords: vbaac10.chm11740
 f1_keywords:
 - vbaac10.chm11740
-ms.prod: access
 api_name:
 - Access.ToggleButton.LabelAlign
 ms.assetid: fa8b44e8-9e42-8088-e369-a176bb320a05
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

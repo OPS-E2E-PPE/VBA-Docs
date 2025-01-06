@@ -1,27 +1,26 @@
 ---
-title: FindReplace.MatchKashida Property (Publisher)
+title: FindReplace.MatchKashida property (Publisher)
 keywords: vbapb10.chm8323082
 f1_keywords:
 - vbapb10.chm8323082
-ms.prod: publisher
 api_name:
 - Publisher.FindReplace.MatchKashida
 ms.assetid: ec2b5fa0-0549-b5c2-d8b9-666be1cbe193
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/07/2019
+ms.localizationpriority: medium
 ---
 
 
-# FindReplace.MatchKashida Property (Publisher)
+# FindReplace.MatchKashida property (Publisher)
 
-Sets or returns a  **Boolean** representing whether or not a search operation will match kashidas. Read/write.
+Sets or returns a **Boolean** representing whether a search operation will match kashidas. Read/write.
 
 
 ## Syntax
 
- _expression_. **MatchKashida**
+_expression_.**MatchKashida**
 
- _expression_ A variable that represents a  **FindReplace** object.
+_expression_ A variable that represents a **[FindReplace](Publisher.FindReplace.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Boolean
 
 ## Remarks
 
-This property may not be available depending on the language enabled on your operating system. The default value is  **False**.
+This property may not be available depending on the language enabled on your operating system. The default value is **False**.
 
 Returns **Access denied** if Arabic is not enabled.
 
@@ -39,7 +38,6 @@ Returns **Access denied** if Arabic is not enabled.
 ## Example
 
 This example finds the first occurrence of the word "" in an Arabic document matching kashidas.
-
 
 ```vb
 Dim objDocument As Document 
@@ -54,10 +52,9 @@ End With
 
 ```
 
-This example follows from the previous one except that kashidas will not be matched. Therefore the words "" or "" will both be found because kashidas will be ignored.
+<br/>
 
-
-
+This example follows from the previous one except that kashidas will not be matched. Therefore the words "مــــحـــمـــــد" or "" will both be found because kashidas will be ignored.
 
 ```vb
 Dim objDocument As Document 

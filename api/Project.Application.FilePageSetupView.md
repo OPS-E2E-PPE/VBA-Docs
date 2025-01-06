@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetupView Method (Project)
+title: Application.FilePageSetupView method (Project)
 keywords: vbapj.chm2360
 f1_keywords:
 - vbapj.chm2360
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetupView
 ms.assetid: 46a90db8-a635-3592-77ed-c051afa36946
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetupView Method (Project)
+# Application.FilePageSetupView method (Project)
 
 Sets up view-specific options for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupView`( `_Name_`, `_AllSheetColumns_`, `_RepeatColumns_`, `_PrintNotes_`, `_PrintBlankPages_`, `_BestPageFitTimescale_`, `_PrintColumnTotals_`, `_PrintRowTotals_` )
+_expression_. `FilePageSetupView`( `_Name_`, `_AllSheetColumns_`, `_RepeatColumns_`, `_PrintNotes_`, `_PrintBlankPages_`, `_BestPageFitTimescale_`, `_PrintColumnTotals_`, `_PrintRowTotals_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -46,6 +46,6 @@ Sets up view-specific options for printing.
 
 ## Remarks
 
-Using the  **FilePageSetupView** method without specifying any arguments displays the **Page Setup** dialog box with the **View** tab selected.The **FilePageSetupView** method is not available when the Calendar is the active view.
+Using the **FilePageSetupView** method without specifying any arguments displays the **Page Setup** dialog box with the **View** tab selected.The **FilePageSetupView** method is not available when the Calendar is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

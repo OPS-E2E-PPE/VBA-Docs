@@ -1,24 +1,24 @@
 ---
-title: Resource.Group Property (Project)
-ms.prod: project-server
+title: Resource.Group property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Group
 ms.assetid: 9f5f5bd6-c104-629c-feab-455fbeaf27eb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Group Property (Project)
+# Resource.Group property (Project)
 
-Gets or sets the group to which a resource belongs. Read/write  **String**.
+Gets or sets the group to which a resource belongs. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Group`
+_expression_.**Group**
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Example

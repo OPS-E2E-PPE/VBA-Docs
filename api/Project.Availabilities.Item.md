@@ -1,24 +1,24 @@
 ---
-title: Availabilities.Item Property (Project)
-ms.prod: project-server
+title: Availabilities.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Availabilities.Item
 ms.assetid: b5add9ff-6468-1896-a6d1-3e9aac433ffb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Availabilities.Item Property (Project)
+# Availabilities.Item property (Project)
 
-Gets a single  **Availability** object from the **Availabilities** collection. Read-only **Availability**.
+Gets a single **Availability** object from the **Availabilities** collection. Read-only **Availability**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents an 'Availabilities' object.
+_expression_ A variable that represents an 'Availabilities' object.
 
 
 ## Parameters

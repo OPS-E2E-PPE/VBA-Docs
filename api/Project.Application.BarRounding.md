@@ -1,27 +1,27 @@
 ---
-title: Application.BarRounding Method (Project)
+title: Application.BarRounding method (Project)
 keywords: vbapj.chm2080
 f1_keywords:
 - vbapj.chm2080
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BarRounding
 ms.assetid: 6f776070-0a37-a72b-8cf8-ea3fd2c3fd06
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BarRounding Method (Project)
+# Application.BarRounding method (Project)
 
 Controls whether the start times of tasks are reflected by their corresponding task bars or the task bars are rounded to full days.
 
 
 ## Syntax
 
- _expression_. `BarRounding`( `_On_` )
+_expression_. `BarRounding`( `_On_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ Controls whether the start times of tasks are reflected by their corresponding t
 
 ## Remarks
 
-The  **BarRounding** method affects only how tasks display on the Gantt Chart or Calendar. The duration of the tasks is not affected.
+The **BarRounding** method affects only how tasks display on the Gantt Chart or Calendar. The duration of the tasks is not affected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

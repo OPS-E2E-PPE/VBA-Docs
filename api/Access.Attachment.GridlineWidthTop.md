@@ -3,12 +3,11 @@ title: Attachment.GridlineWidthTop property (Access)
 keywords: vbaac10.chm13997
 f1_keywords:
 - vbaac10.chm13997
-ms.prod: access
 api_name:
 - Access.Attachment.GridlineWidthTop
 ms.assetid: 734f4aef-7233-7fd1-f0e2-bb782b7b6262
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ The **GridlineWidthTop** property uses the following settings.
 |Setting|Description|
 |:-----|:-----|
 |0| Hairline. This is the narrowest border possible on your system.|
-|1 to 6|The width as indicated in points. The default setting is 1 point.|
+|1 to 6|The width as indicated in [points](../language/glossary/vbe-glossary.md#point). The default setting is 1 point.|
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: View.Type Property (PowerPoint)
+title: View.Type property (PowerPoint)
 keywords: vbapp10.chm512003
 f1_keywords:
 - vbapp10.chm512003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.View.Type
 ms.assetid: 24779d38-87e6-c416-10ec-5dadb44e30b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.Type Property (PowerPoint)
+# View.Type property (PowerPoint)
 
 Represents the type of view. Read-only.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpViewType
 
 ## Remarks
 
-The value of the  **Type** property can be one of these **PpViewType** constants.
+The value of the **Type** property can be one of these **PpViewType** constants.
 
 
 ||

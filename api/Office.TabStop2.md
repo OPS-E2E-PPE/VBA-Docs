@@ -1,11 +1,10 @@
 ---
 title: TabStop2 object (Office)
-ms.prod: office
 api_name:
 - Office.TabStop2
 ms.assetid: fee461a9-684b-e6c2-a74a-d0aa161d0d9c
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

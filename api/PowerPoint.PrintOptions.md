@@ -1,23 +1,23 @@
 ---
-title: PrintOptions Object (PowerPoint)
+title: PrintOptions object (PowerPoint)
 keywords: vbapp10.chm517000
 f1_keywords:
 - vbapp10.chm517000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintOptions
 ms.assetid: 19ce56ba-b0d0-4086-db86-e32feade70bd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintOptions Object (PowerPoint)
+# PrintOptions object (PowerPoint)
 
 Contains print options for a presentation.
 
 
- **Note**  Specifying the optional arguments From, To, Copies, and Collate for the  **[PrintOut](PowerPoint.Presentation.PrintOut.md)** method sets the corresponding properties of the **PrintOptions** object.
+> [!NOTE] 
+> Specifying the optional arguments From, To, Copies, and Collate for the **[PrintOut](PowerPoint.Presentation.PrintOut.md)** method sets the corresponding properties of the **PrintOptions** object.
 
 
 ## Example

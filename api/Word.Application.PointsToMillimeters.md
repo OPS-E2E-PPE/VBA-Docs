@@ -3,30 +3,26 @@ title: Application.PointsToMillimeters method (Word)
 keywords: vbawd10.chm158335358
 f1_keywords:
 - vbawd10.chm158335358
-ms.prod: word
 api_name:
 - Word.Application.PointsToMillimeters
 ms.assetid: b4933ff2-1d64-3ba2-8c28-69b7fa783358
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.PointsToMillimeters method (Word)
 
-Converts a measurement from points to millimeters (1 millimeter = 2.835 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from points to millimeters (1 millimeter = 2.835 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `PointsToMillimeters`( `_Points_` )
+_expression_. `PointsToMillimeters`( `_Points_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
-
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +31,6 @@ Converts a measurement from points to millimeters (1 millimeter = 2.835 points).
 ## Return value
 
 Single
-
 
 ## Example
 
@@ -46,10 +41,7 @@ This example converts 72 points to the corresponding number of millimeters.
 MsgBox PointsToMillimeters(72) & " millimeters"
 ```
 
-This example converts the value of the variable  `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
-
-
-
+This example converts the value of the variable `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
 
 ```vb
 Function ConvertPoints(ByVal intUnit As Integer, _ 
@@ -73,9 +65,7 @@ Function ConvertPoints(ByVal intUnit As Integer, _
 End Function
 ```
 
-
 ## See also
-
 
 [Application Object](Word.Application.md)
 

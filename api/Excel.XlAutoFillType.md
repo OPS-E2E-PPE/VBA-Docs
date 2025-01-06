@@ -1,11 +1,10 @@
 ---
 title: XlAutoFillType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.xlAutoFillType
 ms.assetid: bfb09be7-8922-ef4b-751e-c8972536b723
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

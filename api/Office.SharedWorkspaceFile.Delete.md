@@ -3,12 +3,11 @@ title: SharedWorkspaceFile.Delete method (Office)
 keywords: vbaof11.chm266006
 f1_keywords:
 - vbaof11.chm266006
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile.Delete
 ms.assetid: a67423f0-4b35-2a77-b495-ad4ae5cf2c25
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

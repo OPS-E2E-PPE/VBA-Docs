@@ -3,18 +3,17 @@ title: ToggleButton.Enabled property (Access)
 keywords: vbaac10.chm11712
 f1_keywords:
 - vbaac10.chm11712
-ms.prod: access
 api_name:
 - Access.ToggleButton.Enabled
 ms.assetid: 836c6553-07ae-0014-6a0a-ab1fa33cf550
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

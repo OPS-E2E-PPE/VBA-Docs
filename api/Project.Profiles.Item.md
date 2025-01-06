@@ -1,24 +1,24 @@
 ---
-title: Profiles.Item Property (Project)
-ms.prod: project-server
+title: Profiles.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Profiles.Item
 ms.assetid: 67716296-1a8c-dd6a-3dd5-beb0a23dd78a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Profiles.Item Property (Project)
+# Profiles.Item property (Project)
 
-Gets a single  **Profile** object from the **Profiles** collection. Read-only **Profile**.
+Gets a single **Profile** object from the **Profiles** collection. Read-only **Profile**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Profiles' object.
+_expression_ A variable that represents a 'Profiles' object.
 
 
 ## Parameters

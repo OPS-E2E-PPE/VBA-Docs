@@ -1,27 +1,26 @@
 ---
 title: Frame.SpecialEffect Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: e1e6a452-e57e-3d7f-cfe9-46ec5f63fd7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frame.SpecialEffect Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the visual appearance of an object. Read/write.
+Returns or sets an **Integer** that specifies the visual appearance of an object. Read/write.
 
 
 ## Syntax
 
-_expression_. **SpecialEffect**
+_expression_.**SpecialEffect**
 
-_expression_ A variable that represents a  **Frame** object.
+_expression_ A variable that represents a **Frame** object.
 
 
 ## Remarks
 
-The settings for  **SpecialEffect** are:
+The settings for **SpecialEffect** are:
 
 
 
@@ -35,7 +34,7 @@ The settings for  **SpecialEffect** are:
 
 The default value is 2.
 
-You can use either the  **SpecialEffect** or the **[BorderStyle](Outlook.frame.borderstyle.md)** property to specify the edging for a control, but not both. If you specify a nonzero value for one of these properties, the system sets the value of the other property to zero. For example, if you set **SpecialEffect** to 1, the system sets **BorderStyle** to 0.
+Use either the **SpecialEffect** or the **[BorderStyle](Outlook.frame.borderstyle.md)** property to specify the edging for a control, but not both. If you specify a nonzero value for one of these properties, the system sets the value of the other property to zero. For example, if you set **SpecialEffect** to 1, the system sets **BorderStyle** to 0.
 
  **BorderStyle** is ignored if **SpecialEffect** is 0.
 

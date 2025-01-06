@@ -3,12 +3,11 @@ title: Font.StrikeThrough property (Word)
 keywords: vbawd10.chm156369031
 f1_keywords:
 - vbawd10.chm156369031
-ms.prod: word
 api_name:
 - Word.Font.StrikeThrough
 ms.assetid: c55819cc-efb8-9981-3335-b3d6e6c26924
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `StrikeThrough`
+_expression_. `StrikeThrough`
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-The  **StrikeThrough** property returns **True** , **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**.
+The **StrikeThrough** property returns **True**, **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
-To set or return double strikethrough formatting, use the  **[DoubleStrikeThrough](Word.Font.DoubleStrikeThrough.md)** property.
+To set or return double strikethrough formatting, use the **[DoubleStrikeThrough](Word.Font.DoubleStrikeThrough.md)** property.
 
 
 ## Example

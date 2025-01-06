@@ -1,27 +1,26 @@
 ---
-title: TaskItem.BillingInformation Property (Outlook)
+title: TaskItem.BillingInformation property (Outlook)
 keywords: vbaol11.chm1688
 f1_keywords:
 - vbaol11.chm1688
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.BillingInformation
 ms.assetid: 2f777ebd-c53a-f293-9e06-f26234098d12
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.BillingInformation Property (Outlook)
+# TaskItem.BillingInformation property (Outlook)
 
-Returns or sets a  **String** representing the billing information associated with the Outlook item. Read/write.
+Returns or sets a **String** representing the billing information associated with the Outlook item. Read/write.
 
 
 ## Syntax
 
 _expression_. `BillingInformation`
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Remarks

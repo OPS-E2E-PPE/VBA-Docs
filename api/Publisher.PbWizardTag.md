@@ -1,22 +1,21 @@
 ---
-title: PbWizardTag Enumeration (Publisher)
+title: PbWizardTag enumeration (Publisher)
 keywords: vbapb10.chm65604
 f1_keywords:
 - vbapb10.chm65604
-ms.prod: publisher
 api_name:
 - Publisher.PbWizardTag
 ms.assetid: 7fbfdb61-e546-ab6f-3a75-6c5a5c30614f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbWizardTag Enumeration (Publisher)
+# PbWizardTag enumeration (Publisher)
 
 Indicates the function of a specified shape with respect to its publication design. 
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

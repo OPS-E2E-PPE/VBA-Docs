@@ -3,25 +3,24 @@ title: FileConverter.Extensions property (Word)
 keywords: vbawd10.chm161021960
 f1_keywords:
 - vbawd10.chm161021960
-ms.prod: word
 api_name:
 - Word.FileConverter.Extensions
 ms.assetid: 18a9819b-ddc3-5928-8ce7-882d00d3f5c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FileConverter.Extensions property (Word)
 
-Returns the file name extensions associated with the specified  **FileConverter** object. Read-only **String**.
+Returns the file name extensions associated with the specified **FileConverter** object. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Extensions`
+_expression_.**Extensions**
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Example

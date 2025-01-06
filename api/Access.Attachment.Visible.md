@@ -3,12 +3,11 @@ title: Attachment.Visible property (Access)
 keywords: vbaac10.chm13918
 f1_keywords:
 - vbaac10.chm13918
-ms.prod: access
 api_name:
 - Access.Attachment.Visible
 ms.assetid: 15606b3e-dffb-f179-021a-5bf8087003a7
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ _expression_ A variable that represents an **[Attachment](Access.Attachment.md)*
 
 To hide an object when printing, use the **DisplayWhen** property.
 
-You can use the **Visible** property to hide a control on a form or report by including the property in a macro or event procedure that runs when the **Current** event occurs. For example, you can show or hide a congratulatory message next to a salesperson's monthly sales total in a sales report, depending on the sales total.
+Use the **Visible** property to hide a control on a form or report by including the property in a macro or event procedure that runs when the **Current** event occurs. For example, you can show or hide a congratulatory message next to a salesperson's monthly sales total in a sales report, depending on the sales total.
 
 
 

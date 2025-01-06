@@ -1,27 +1,26 @@
 ---
-title: Comment.DateTime Property (PowerPoint)
+title: Comment.DateTime property (PowerPoint)
 keywords: vbapp10.chm642006
 f1_keywords:
 - vbapp10.chm642006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Comment.DateTime
 ms.assetid: 52e08d04-18d6-61fc-1526-ef669aa5f6c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comment.DateTime Property (PowerPoint)
+# Comment.DateTime property (PowerPoint)
 
 Returns the date and time a comment was created.
 
 
 ## Syntax
 
- _expression_. `DateTime`
+_expression_. `DateTime`
 
-_expression_ A variable that represents a [Comment](./PowerPoint.Comment.md) object.
+_expression_ A variable that represents a [Comment](PowerPoint.Comment.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Date
 
 ## Remarks
 
-Don't confuse this property with the  **[DateAndTime](PowerPoint.HeadersFooters.DateAndTime.md)** property, which applies to the headers and footers of a slide.
+Don't confuse this property with the **[DateAndTime](PowerPoint.HeadersFooters.DateAndTime.md)** property, which applies to the headers and footers of a slide.
 
 
 ## Example

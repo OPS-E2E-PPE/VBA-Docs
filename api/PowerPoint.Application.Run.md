@@ -1,37 +1,34 @@
 ---
-title: Application.Run Method (PowerPoint)
+title: Application.Run method (PowerPoint)
 keywords: vbapp10.chm502023
 f1_keywords:
 - vbapp10.chm502023
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.Run
 ms.assetid: 21b8a0c4-10c8-d8c3-9214-adffad35f7d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Run Method (PowerPoint)
+# Application.Run method (PowerPoint)
 
 Runs a Visual Basic procedure.
 
 
 ## Syntax
 
- _expression_. `Run`( `_MacroName_`, `_safeArrayOfParams_` )
+_expression_.**Run** (_MacroName_, _safeArrayOfParams_)
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _MacroName_|Required|**String**|The name of the procedure to be run. The string can contain the following: a loaded presentation or add-in file name followed by an exclamation point (!), a valid module name followed by a period (.), and the procedure name. For example, the following is a valid MacroName value: "MyPres.ppt!Module1.Test."|
-| _safeArrayOfParams()_|Required|**Variant**|The argument to be passed to the procedure. You cannot specify an object for this argument, and you cannot use named arguments with this method. Arguments must be passed by position.|
+| _MacroName_|Required|**String**|The name of the procedure to be run. The string can contain the following: a loaded presentation or add-in file name followed by an exclamation point (!), a valid module name followed by a period (.), and the procedure name. For example, the following is a valid MacroName value: "MyPres.pptm!Module1.Test."|
+| _safeArrayOfParams()_|Optional|**Variant**|The argument to be passed to the procedure. You can specify an object for this argument. You cannot use named arguments with this method. Arguments must be passed by position.|
 
 ## Return value
 
@@ -67,6 +64,41 @@ Sub TestPass(x)
 End Sub
 ```
 
+In this example, the active window is passed as an object to the procedure ShowSlideName.
+
+```vb
+Sub Main()
+
+    Application.Run "ShowSlideName", ActiveWindow.View.Slide
+
+End Sub
+
+
+
+Sub ShowSlideName(oSld As Slide)
+
+    MsgBox oSld.Name
+
+End Sub
+```
+
+In this example, multiple arguments are passed to the procedure ShowData.
+
+```vb
+Sub Main()
+
+    Application.Run "ShowData", 100, "my text", True
+
+End Sub
+
+
+
+Sub ShowData(i As Integer, t As String, b As Boolean)
+
+    Debug.Print i, t, b
+
+End Sub
+```
 
 ## See also
 

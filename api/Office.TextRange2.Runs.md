@@ -1,11 +1,10 @@
 ---
 title: TextRange2.Runs property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.Runs
 ms.assetid: 5398a676-67a9-315f-193c-62602f27c377
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

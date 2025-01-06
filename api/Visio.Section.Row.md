@@ -1,27 +1,26 @@
 ---
-title: Section.Row Property (Visio)
+title: Section.Row property (Visio)
 keywords: vis_sdr.chm15714240
 f1_keywords:
 - vis_sdr.chm15714240
-ms.prod: visio
 api_name:
 - Visio.Section.Row
 ms.assetid: 7d0d887a-3509-1602-9af6-f3d1857648c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Section.Row Property (Visio)
+# Section.Row property (Visio)
 
 Returns the row in a section specified by row index number. Read-only.
 
 
 ## Syntax
 
- _expression_. `Row`( `_Index_` )
+_expression_. `Row` (_Index_)
 
- _expression_ A variable that represents a [Section](./Visio.Section.md) object.
+_expression_ A variable that represents a **[Section](Visio.Section.md)** object.
 
 
 ## Parameters

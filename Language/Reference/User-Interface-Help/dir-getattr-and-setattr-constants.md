@@ -3,18 +3,15 @@ title: Dir, GetAttr, and SetAttr constants
 keywords: vblr6.chm1012529
 f1_keywords:
 - vblr6.chm1012529
-ms.prod: office
 ms.assetid: ca85f083-4824-1371-238b-f1ac55f8f702
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Dir, GetAttr, and SetAttr constants
 
 The following [constants](../../Glossary/vbe-glossary.md#constant) can be used anywhere in your code in place of the actual values.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

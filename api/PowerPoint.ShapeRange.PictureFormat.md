@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.PictureFormat Property (PowerPoint)
+title: ShapeRange.PictureFormat property (PowerPoint)
 keywords: vbapp10.chm548032
 f1_keywords:
 - vbapp10.chm548032
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.PictureFormat
 ms.assetid: 5d51631d-1cd4-fbfc-9198-9d883b281821
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.PictureFormat Property (PowerPoint)
+# ShapeRange.PictureFormat property (PowerPoint)
 
-Returns a  **[PictureFormat](PowerPoint.PictureFormat.md)** object that contains picture formatting properties for the specified shape. Read-only.
+Returns a **[PictureFormat](PowerPoint.PictureFormat.md)** object that contains picture formatting properties for the specified shape. Read-only.
 
 
 ## Syntax
 
- _expression_. `PictureFormat`
+_expression_.**PictureFormat**
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ PictureFormat
 
 ## Remarks
 
-This property applies to  **Shape** or **ShapeRange** objects that represent pictures or OLE objects.
+This property applies to **Shape** or **ShapeRange** objects that represent pictures or OLE objects.
 
 
 ## Example
 
-This example sets the brightness and contrast for shape one on  `myDocument`. Shape one must be a picture or an OLE object.
+This example sets the brightness and contrast for shape one on _myDocument_. Shape one must be a picture or an OLE object.
 
 
 ```vb

@@ -1,24 +1,24 @@
 ---
-title: Project.RemoveFileProperties Property (Project)
-ms.prod: project-server
+title: Project.RemoveFileProperties property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.RemoveFileProperties
 ms.assetid: 7aff624c-e9c9-f526-b233-fe0cc415e901
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.RemoveFileProperties Property (Project)
+# Project.RemoveFileProperties property (Project)
 
  **True** if Project removes user information from revisions and the project **Properties** dialog box upon saving a document. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `RemoveFileProperties`
+_expression_. `RemoveFileProperties`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

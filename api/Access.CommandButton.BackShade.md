@@ -3,12 +3,11 @@ title: CommandButton.BackShade property (Access)
 keywords: vbaac10.chm14633
 f1_keywords:
 - vbaac10.chm14633
-ms.prod: access
 api_name:
 - Access.CommandButton.BackShade
 ms.assetid: 31628a36-f0f9-92df-99ee-1540ed3831e6
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

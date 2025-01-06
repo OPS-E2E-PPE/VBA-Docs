@@ -1,18 +1,17 @@
 ---
-title: Legend Object (PowerPoint)
+title: Legend object (PowerPoint)
 keywords: vbapp10.chm709000
 f1_keywords:
 - vbapp10.chm709000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Legend
 ms.assetid: 7be25694-8694-049a-c31f-533fe6fd0562
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Legend Object (PowerPoint)
+# Legend object (PowerPoint)
 
 Represents the legend in a chart. Each chart can have only one legend.
 
@@ -21,7 +20,7 @@ Represents the legend in a chart. Each chart can have only one legend.
 
  The **Legend** object contains one or more **[LegendEntry](PowerPoint.LegendEntry.md)** objects; each **LegendEntry** object contains a **[LegendKey](PowerPoint.LegendKey.md)** object.
 
-The chart legend is not visible unless the  **[HasLegend](PowerPoint.Chart.HasLegend.md)** property is **True**. If this property is **False**, properties and methods of the **Legend** object will fail.
+The chart legend is not visible unless the **[HasLegend](PowerPoint.Chart.HasLegend.md)** property is **True**. If this property is **False**, properties and methods of the **Legend** object will fail.
 
 
 ## Example
@@ -29,9 +28,10 @@ The chart legend is not visible unless the  **[HasLegend](PowerPoint.Chart.HasLe
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-Use the  **[Legend](PowerPoint.Chart.Legend.md)** property to return the **Legend** object. The following example sets the font style for the legend of the first chart in the active document to bold.
+Use the **[Legend](PowerPoint.Chart.Legend.md)** property to return the **Legend** object. The following example sets the font style for the legend of the first chart in the active document to bold.
 
 
 

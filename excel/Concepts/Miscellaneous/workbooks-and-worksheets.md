@@ -1,9 +1,8 @@
 ---
 title: Workbooks and Worksheets
-ms.prod: excel
 ms.assetid: 63179019-ca24-4c7f-9ac4-970300121cab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

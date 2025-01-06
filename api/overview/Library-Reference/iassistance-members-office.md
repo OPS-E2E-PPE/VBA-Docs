@@ -1,9 +1,9 @@
 ---
 title: IAssistance members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 1f5ae2ce-e24a-4377-6591-86504cba749f
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Footnotes.ResetContinuationSeparator method (Word)
 keywords: vbawd10.chm155320328
 f1_keywords:
 - vbawd10.chm155320328
-ms.prod: word
 api_name:
 - Word.Footnotes.ResetContinuationSeparator
 ms.assetid: edb1dae6-3e62-b625-0982-64dec3b654c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Resets the footnote or endnote continuation separator to the default separator.
 
 ## Syntax
 
- _expression_. `ResetContinuationSeparator`
+_expression_. `ResetContinuationSeparator`
 
- _expression_ Required. A variable that represents a '[Footnotes](Word.footnotes.md)' collection.
+_expression_ Required. A variable that represents a '[Footnotes](Word.footnotes.md)' collection.
 
 
 ## Remarks

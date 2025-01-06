@@ -3,12 +3,11 @@ title: Document.CoAuthoring property (Word)
 keywords: vbawd10.chm158007896
 f1_keywords:
 - vbawd10.chm158007896
-ms.prod: word
 api_name:
 - Word.Document.CoAuthoring
 ms.assetid: b67ac270-c583-f141-bf86-6fc385987636
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns a [CoAuthoring](Word.CoAuthoring.md) object that provides the entry poin
 
 ## Syntax
 
- _expression_. `CoAuthoring`
+_expression_. `CoAuthoring`
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Remarks

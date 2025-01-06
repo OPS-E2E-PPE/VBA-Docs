@@ -3,21 +3,20 @@ title: Tasks object (Word)
 keywords: vbawd10.chm2435
 f1_keywords:
 - vbawd10.chm2435
-ms.prod: word
 ms.assetid: ff521e20-8a25-f9f6-dccf-effea9debeb7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Tasks object (Word)
 
-A collection of  **[Task](Word.Task.md)** objects that represents all the tasks currently running on the system.
+A collection of **[Task](Word.Task.md)** objects that represents all the tasks currently running on the system.
 
 
 ## Remarks
 
-Use the  **Tasks** property to return the **Tasks** collection. The following example determines whether Microsoft Excel is running. If it is, this example switches to it and maximizes it; otherwise, the example starts it.
+Use the **Tasks** property to return the **Tasks** collection. The following example determines whether Microsoft Excel is running. If it is, this example switches to it and maximizes it; otherwise, the example starts it.
 
 
 ```vb
@@ -30,9 +29,9 @@ Else
 End If
 ```
 
-Use Visual Basic's  **Shell** function to run an executable program and add the program to the **Tasks** collection.
+Use Visual Basic's **Shell** function to run an executable program and add the program to the **Tasks** collection.
 
-Use  **Tasks** (Index), where Index is the application name or the index number, to return a single **Task** object. The following example opens and resizes the application window for the first visible task in the **Tasks** collection.
+Use **Tasks** (Index), where Index is the application name or the index number, to return a single **Task** object. The following example opens and resizes the application window for the first visible task in the **Tasks** collection.
 
 
 
@@ -47,7 +46,7 @@ With Tasks(1)
 End With
 ```
 
-The following example restores the Calculator application window if the application is in the  **Tasks** collection.
+The following example restores the Calculator application window if the application is in the **Tasks** collection.
 
 
 
@@ -63,6 +62,6 @@ End If
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

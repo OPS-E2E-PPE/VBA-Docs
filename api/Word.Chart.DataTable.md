@@ -1,24 +1,23 @@
 ---
 title: Chart.DataTable property (Word)
-ms.prod: word
 api_name:
 - Word.Chart.DataTable
 ms.assetid: 1cae3588-5bc4-5ec4-c3f3-cc642d0755a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Chart.DataTable property (Word)
 
-Returns the chart data table. Read-only  **[DataTable](Word.DataTable.md)**.
+Returns the chart data table. Read-only **[DataTable](Word.DataTable.md)**.
 
 
 ## Syntax
 
- _expression_. `DataTable`
+_expression_.**DataTable**
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: Application.MillimetersToPoints method (Word)
 keywords: vbawd10.chm158335348
 f1_keywords:
 - vbawd10.chm158335348
-ms.prod: word
 api_name:
 - Word.Application.MillimetersToPoints
 ms.assetid: 13cf2786-709a-d473-0b6d-4fddabb465b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.MillimetersToPoints method (Word)
 
-Converts a measurement from millimeters to points (1 mm = 2.85 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from millimeters to points (1 mm = 2.85 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `MillimetersToPoints`( `_Millimeters_` )
+_expression_. `MillimetersToPoints`( `_Millimeters_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters

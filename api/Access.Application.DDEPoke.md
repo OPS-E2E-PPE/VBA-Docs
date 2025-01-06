@@ -3,18 +3,17 @@ title: Application.DDEPoke method (Access)
 keywords: vbaac10.chm12541
 f1_keywords:
 - vbaac10.chm12541
-ms.prod: access
 api_name:
 - Access.Application.DDEPoke
 ms.assetid: 5f24d625-bd9b-41fd-004c-dccfb0ec41b6
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DDEPoke method (Access)
 
-You can use the **DDEPoke** statement to supply text data from a client application to a server application over an open dynamic data exchange (DDE) channel.
+Use the **DDEPoke** statement to supply text data from a client application to a server application over an open dynamic data exchange (DDE) channel.
 
 
 ## Syntax

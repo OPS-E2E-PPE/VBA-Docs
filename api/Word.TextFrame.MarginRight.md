@@ -3,25 +3,24 @@ title: TextFrame.MarginRight property (Word)
 keywords: vbawd10.chm162660454
 f1_keywords:
 - vbawd10.chm162660454
-ms.prod: word
 api_name:
 - Word.TextFrame.MarginRight
 ms.assetid: 9c59758e-8813-a035-b001-5eb57371e7fd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextFrame.MarginRight property (Word)
 
-Returns or sets the distance (in points) between the right edge of the text frame and the right edge of the inscribed rectangle of the shape that contains the text. Read/write  **Single**.
+Returns or sets the distance (in [points](../language/glossary/vbe-glossary.md#point)) between the right edge of the text frame and the right edge of the inscribed rectangle of the shape that contains the text. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `MarginRight`
+_expression_.**MarginRight**
 
- _expression_ An expression that returns a '[TextFrame](Word.TextFrame.md)' object.
+ _expression_ An expression that returns a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Example

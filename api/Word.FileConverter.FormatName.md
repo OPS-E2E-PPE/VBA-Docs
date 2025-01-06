@@ -3,30 +3,29 @@ title: FileConverter.FormatName property (Word)
 keywords: vbawd10.chm161021952
 f1_keywords:
 - vbawd10.chm161021952
-ms.prod: word
 api_name:
 - Word.FileConverter.FormatName
 ms.assetid: bfae89b4-14dd-ed73-6174-52c6cc7a9017
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FileConverter.FormatName property (Word)
 
-Returns the name of the specified file converter. Read-only  **String**.
+Returns the name of the specified file converter. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `FormatName`
+_expression_. `FormatName`
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Remarks
 
-The format names appear in the  **Save as type** box in the **Save As** dialog box (**File** menu).
+The format names appear in the **Save as type** box in the **Save As** dialog box (**File** menu).
 
 
 ## Example

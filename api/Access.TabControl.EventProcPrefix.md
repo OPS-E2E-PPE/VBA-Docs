@@ -3,12 +3,11 @@ title: TabControl.EventProcPrefix property (Access)
 keywords: vbaac10.chm12072
 f1_keywords:
 - vbaac10.chm12072
-ms.prod: access
 api_name:
 - Access.TabControl.EventProcPrefix
 ms.assetid: 86c32c0c-7132-9658-411f-4a0ad91ed7ff
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,41 +1,38 @@
 ---
-title: ContainerProperties.InsertListMember Method (Visio)
+title: ContainerProperties.InsertListMember method (Visio)
 keywords: vis_sdr.chm17662320
 f1_keywords:
 - vis_sdr.chm17662320
-ms.prod: visio
 api_name:
 - Visio.ContainerProperties.InsertListMember
 ms.assetid: be9c8bc6-7e2d-fb52-dd32-370a32d12744
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContainerProperties.InsertListMember Method (Visio)
+# ContainerProperties.InsertListMember method (Visio)
 
 Adds a shape or set of shapes to the list in the container.
 
 
 ## Syntax
 
- _expression_. `InsertListMember`( `_ObjectToInsert_` , `_Position_` )
+_expression_.**InsertListMember** (_ObjectToInsert_, _Position_)
 
- _expression_ A variable that represents a '[ContainerProperties](Visio.ContainerProperties.md)' object.
+_expression_ A variable that represents a **[ContainerProperties](Visio.ContainerProperties.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ObjectToInsert_|Required| **[UNKNOWN]**|The object or selection to insert in the list. Can be a  **[Shape](Visio.Shape.md)** or **[Selection](Visio.Selection.md)** object.|
+| _ObjectToInsert_|Required| **[UNKNOWN]**|The object or selection to insert in the list. Can be a **[Shape](Visio.Shape.md)** or **[Selection](Visio.Selection.md)** object.|
 | _Position_|Required| **Long**|The insertion point in the list, which is one-based.|
 
 ## Return value
 
- **Nothing**
+**Nothing**
 
 
 ## Remarks
@@ -43,7 +40,6 @@ Adds a shape or set of shapes to the list in the container.
 If the container is not a list, Microsoft Visio returns an Invalid Source error.
 
 If the  _ObjectToInsert_ parameter contains any non-top-level shapes or, if the list is locked, Visio returns an Invalid Parameter error. You cannot insert any of the following objects into a list:
-
 
 - Another list.
     

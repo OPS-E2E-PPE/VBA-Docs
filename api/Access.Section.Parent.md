@@ -3,12 +3,11 @@ title: Section.Parent property (Access)
 keywords: vbaac10.chm12187
 f1_keywords:
 - vbaac10.chm12187
-ms.prod: access
 api_name:
 - Access.Section.Parent
 ms.assetid: ee464bb6-9bf7-15d2-df96-214a4955891b
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

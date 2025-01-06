@@ -1,13 +1,13 @@
 ---
-title: PjViewType Enumeration (Project)
-ms.prod: project-server
+title: PjViewType enumeration (Project)
+ms.service: project-server
 ms.assetid: b9173645-e4f9-e514-a5a3-1d57241e3a66
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjViewType Enumeration (Project)
+# PjViewType enumeration (Project)
 
 Contains constants that specify a view in Project.
 
@@ -44,6 +44,6 @@ Contains constants that specify a view in Project.
 |**pjViewTimeline**|25|**Timeline** view.|
 |**pjViewTrackingGantt**|26|**Tracking Gantt** view.|
 
-The  **PjViewType** enumeration is used in the [ViewApplyEx](Project.Application.ViewApplyEx.md) method.
+The **PjViewType** enumeration is used in the [ViewApplyEx](Project.Application.ViewApplyEx.md) method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

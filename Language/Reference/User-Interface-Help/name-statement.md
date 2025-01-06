@@ -3,10 +3,9 @@ title: Name statement (VBA)
 keywords: vblr6.chm1008979
 f1_keywords:
 - vblr6.chm1008979
-ms.prod: office
 ms.assetid: c248e962-1265-b871-3ef7-36effb070d2b
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Renames a disk file, directory, or folder.
 ## Syntax
 
 **Name** _oldpathname_ **As** _newpathname_
-
-<br/>
 
 The **Name** statement syntax has these parts:
 
@@ -39,12 +36,12 @@ This example uses the **Name** statement to rename a file. For purposes of this 
 
 
 ```vb
-Dim OldName, NewName 
-OldName = "OLDFILE": NewName = "NEWFILE" ' Define file names. 
-Name OldName As NewName ' Rename file. 
+Dim oldName, newName 
+oldName = "OLDFILE": newName = "NEWFILE" ' Define file names. 
+Name oldName As newName ' Rename file. 
  
-OldName = "C:\MYDIR\OLDFILE": NewName = "C:\YOURDIR\NEWFILE" 
-Name OldName As NewName ' Move and rename file. 
+oldName = "C:\MYDIR\OLDFILE": newName = "C:\YOURDIR\NEWFILE" 
+Name oldName As newName ' Move and rename file. 
 
 ```
 

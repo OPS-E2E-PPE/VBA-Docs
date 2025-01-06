@@ -1,27 +1,26 @@
 ---
-title: Slide.Comments Property (PowerPoint)
+title: Slide.Comments property (PowerPoint)
 keywords: vbapp10.chm531028
 f1_keywords:
 - vbapp10.chm531028
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.Comments
 ms.assetid: 396c2d6b-f0cb-3ed8-94ae-6ee864d194c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.Comments Property (PowerPoint)
+# Slide.Comments property (PowerPoint)
 
-Returns a  **[Comments](PowerPoint.Comments.md)** object that represents a collection of comments. Read-only.
+Returns a **[Comments](PowerPoint.Comments.md)** object that represents a collection of comments. Read-only.
 
 
 ## Syntax
 
- _expression_. `Comments`
+_expression_.**Comments**
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a **[Slide](PowerPoint.Slide.md)** object.
 
 
 ## Return value
@@ -45,9 +44,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Slide Object](PowerPoint.Slide.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: GetFile method (Visual Basic for Applications)
 keywords: vblr6.chm2182054
 f1_keywords:
 - vblr6.chm2182054
-ms.prod: office
 api_name:
 - Office.GetFile
 ms.assetid: bdb2737e-7836-4dac-9216-6f1bd8f92aa8
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,8 +19,6 @@ Returns a **[File](file-object.md)** object corresponding to the file in a speci
 
 _object_.**GetFile** (_filespec_)
 
-<br/>
-
 The **GetFile** method syntax has these parts:
 
 |Part|Description|
@@ -31,7 +28,7 @@ The **GetFile** method syntax has these parts:
 
 ## Remarks
 
-An error occurs if the specified file does not exist.
+An error occurs if the specified file does not exist or if _filespec_ is an HTTP-based path.
 
 ## See also
 

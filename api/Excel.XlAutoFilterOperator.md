@@ -1,11 +1,10 @@
 ---
 title: XlAutoFilterOperator enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.xlAutoFilterOperator
 ms.assetid: d6948582-2c47-08a7-a145-f30e3b64a6c5
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

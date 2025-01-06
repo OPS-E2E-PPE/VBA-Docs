@@ -1,18 +1,17 @@
 ---
-title: OlkCommandButton.KeyPress Event (Outlook)
+title: OlkCommandButton.KeyPress event (Outlook)
 keywords: vbaol11.chm1000128
 f1_keywords:
 - vbaol11.chm1000128
-ms.prod: outlook
 api_name:
 - Outlook.OlkCommandButton.KeyPress
 ms.assetid: c742f3e3-56e2-de6c-8ccf-e69a6096e3d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkCommandButton.KeyPress Event (Outlook)
+# OlkCommandButton.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
@@ -21,7 +20,7 @@ Occurs when the user presses an ANSI key.
 
 _expression_. `KeyPress`( `_KeyAscii_` )
 
-_expression_ A variable that represents an [OlkCommandButton](./Outlook.OlkCommandButton.md) object.
+_expression_ A variable that represents an [OlkCommandButton](Outlook.OlkCommandButton.md) object.
 
 
 ## Parameters
@@ -34,14 +33,14 @@ _expression_ A variable that represents an [OlkCommandButton](./Outlook.OlkComma
 
 ## Remarks
 
-An ANSI key is one that produces a typeable character when the user presses it. The  **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
+An ANSI key is one that produces a typeable character when the user presses it. The **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
 
-A  **KeyPress** event does not occur under the following conditions:
+A **KeyPress** event does not occur under the following conditions:
 
 
-- Pressing  **TAB**
+- Pressing **TAB**
     
-- Pressing  **ENTER**
+- Pressing **ENTER**
     
 - Pressing an arrow key
     

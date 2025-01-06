@@ -1,18 +1,17 @@
 ---
-title: OlMeetingRecipientType Enumeration (Outlook)
+title: OlMeetingRecipientType enumeration (Outlook)
 keywords: vbaol11.chm3068
 f1_keywords:
 - vbaol11.chm3068
-ms.prod: outlook
 api_name:
 - Outlook.OlMeetingRecipientType
 ms.assetid: f5636886-f1db-9f64-f36c-4314133a7d12
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlMeetingRecipientType Enumeration (Outlook)
+# OlMeetingRecipientType enumeration (Outlook)
 
 Indicates the recipient type for the meeting.
 

@@ -1,27 +1,26 @@
 ---
-title: PlaySettings.PauseAnimation Property (PowerPoint)
+title: PlaySettings.PauseAnimation property (PowerPoint)
 keywords: vbapp10.chm568008
 f1_keywords:
 - vbapp10.chm568008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PlaySettings.PauseAnimation
 ms.assetid: a27beaaa-9ed6-f7cf-8abe-9012d1337fa8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlaySettings.PauseAnimation Property (PowerPoint)
+# PlaySettings.PauseAnimation property (PowerPoint)
 
 Determines whether the slide show pauses until the specified media clip is finished playing. Read/write.
 
 
 ## Syntax
 
- _expression_. `PauseAnimation`
+_expression_. `PauseAnimation`
 
- _expression_ A variable that represents a [PlaySettings](./PowerPoint.PlaySettings.md) object.
+_expression_ A variable that represents a [PlaySettings](PowerPoint.PlaySettings.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoTriState
 
 ## Remarks
 
-For the  **PauseAnimation** property setting to take effect, the **[PlayOnEntry](PowerPoint.PlaySettings.PlayOnEntry.md)** property of the specified shape must be set to **msoTrue**.
+For the **PauseAnimation** property setting to take effect, the **[PlayOnEntry](PowerPoint.PlaySettings.PlayOnEntry.md)** property of the specified shape must be set to **msoTrue**.
 
-The value of the  **PauseAnimation** property can be one of these **MsoTriState** constants.
+The value of the **PauseAnimation** property can be one of these **MsoTriState** constants.
 
 
 

@@ -3,12 +3,11 @@ title: GetBaseName method (Visual Basic for Applications)
 keywords: vblr6.chm2182047
 f1_keywords:
 - vblr6.chm2182047
-ms.prod: office
 api_name:
 - Office.GetBaseName
 ms.assetid: 2f3af3ff-a996-e2f7-0048-1f5aa891d674
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns a string containing the base name of the last component, less any file e
 ## Syntax
 
 _object_.**GetBaseName** (_path_)
-
-<br/>
 
 The **GetBaseName** method syntax has these parts:
 

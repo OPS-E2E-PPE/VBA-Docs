@@ -1,23 +1,23 @@
 ---
-title: Group2 Object (Project)
-ms.prod: project-server
+title: Group2 object (Project)
+ms.service: project-server
 api_name:
 - Project.Group2
 ms.assetid: a7a61fa4-e752-006e-a47e-03987b04f01c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Group2 Object (Project)
+# Group2 object (Project)
 
-Represents a group definition where the group hierarchy can be maintained. A  **Group2** object is a member of a **[Groups2](Project.groups2.md)**, **[ResourceGroups2](Project.resourcegroups2(object).md)**, or **[TaskGroups2](Project.taskgroups2(object).md)** collection.
+Represents a group definition where the group hierarchy can be maintained. A **Group2** object is a member of a **[Groups2](Project.groups2.md)**, **[ResourceGroups2](Project.resourcegroups2(object).md)**, or **[TaskGroups2](Project.taskgroups2(object).md)** collection.
  
 
 
 ## Remarks
 
-The  **Group2** object includes the **[MaintainHierarchy](Project.Group2.MaintainHierarchy.md)** property.
+The **Group2** object includes the **[MaintainHierarchy](Project.Group2.MaintainHierarchy.md)** property.
  
 
  
@@ -25,7 +25,7 @@ The  **Group2** object includes the **[MaintainHierarchy](Project.Group2.Maintai
  
 
  
-Use  `TaskGroups2(Index)` or `ResourceGroups2(Index)`, where *Index* is the group definition index or group definition name, to return a **Group2** object.
+Use `TaskGroups2(Index)` or `ResourceGroups2(Index)`, where *Index* is the group definition index or group definition name, to return a **Group2** object.
  
 
  

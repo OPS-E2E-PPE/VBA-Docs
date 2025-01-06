@@ -3,10 +3,9 @@ title: OptionButton control
 keywords: fm20.chm5224984
 f1_keywords:
 - fm20.chm5224984
-ms.prod: office
 ms.assetid: 39ce3eb0-ecf1-4f1e-dbcb-a66d7d341615
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

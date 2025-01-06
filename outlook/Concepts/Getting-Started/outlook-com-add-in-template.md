@@ -3,17 +3,15 @@ title: Outlook COM add-in template
 keywords: vbaol11.chm5268747
 f1_keywords:
 - vbaol11.chm5268747
-ms.prod: outlook
 ms.assetid: 6c6b4f10-2d7d-75bc-8a0c-6888b560e569
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Outlook COM add-in template
 
 The following code example provides the empty event procedures required to implement a COM add-in.
-
 
 ```vb
 Implements IDTExtensibility2 

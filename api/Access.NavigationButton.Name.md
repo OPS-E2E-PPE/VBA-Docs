@@ -3,18 +3,17 @@ title: NavigationButton.Name property (Access)
 keywords: vbaac10.chm10506
 f1_keywords:
 - vbaac10.chm10506
-ms.prod: access
 api_name:
 - Access.NavigationButton.Name
 ms.assetid: 514d922d-e9bc-6a44-b1ac-323b9eb036c2
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

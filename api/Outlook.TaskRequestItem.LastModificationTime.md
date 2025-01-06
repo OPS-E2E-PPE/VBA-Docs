@@ -1,37 +1,36 @@
 ---
-title: TaskRequestItem.LastModificationTime Property (Outlook)
+title: TaskRequestItem.LastModificationTime property (Outlook)
 keywords: vbaol11.chm1885
 f1_keywords:
 - vbaol11.chm1885
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestItem.LastModificationTime
 ms.assetid: 224be068-c392-e62b-3a63-a1a85fe251eb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestItem.LastModificationTime Property (Outlook)
+# TaskRequestItem.LastModificationTime property (Outlook)
 
-Returns a  **Date** specifying the date and time that the Outlook item was last modified. Read-only.
+Returns a **Date** specifying the date and time that the Outlook item was last modified. Read-only.
 
 
 ## Syntax
 
 _expression_. `LastModificationTime`
 
-_expression_ A variable that represents a [TaskRequestItem](./Outlook.TaskRequestItem.md) object.
+_expression_ A variable that represents a [TaskRequestItem](Outlook.TaskRequestItem.md) object.
 
 
 ## Remarks
 
-This property corresponds to the MAPI property  **PidTagLastModificationTime**.
+This property corresponds to the MAPI property **PidTagLastModificationTime**.
 
 
 ## Example
 
-This Visual Basic for Applications example uses the  **[Items.Restrict](Outlook.Items.Restrict.md)** method to apply a filter to contact items based on the item's **LastModificationTime** property. You can apply a similar approach to filter on the **LastModificationTime** property of other Outlook items.
+This Visual Basic for Applications example uses the **[Items.Restrict](Outlook.Items.Restrict.md)** method to apply a filter to contact items based on the item's **LastModificationTime** property. You can apply a similar approach to filter on the **LastModificationTime** property of other Outlook items.
 
 
 ```vb

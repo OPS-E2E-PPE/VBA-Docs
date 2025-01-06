@@ -1,18 +1,17 @@
 ---
-title: OlPane Enumeration (Outlook)
+title: OlPane enumeration (Outlook)
 keywords: vbaol11.chm3075
 f1_keywords:
 - vbaol11.chm3075
-ms.prod: outlook
 api_name:
 - Outlook.OlPane
 ms.assetid: efbdecc7-90ae-65b2-58aa-d323c19b816e
 ms.date: 08/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlPane Enumeration (Outlook)
+# OlPane enumeration (Outlook)
 
 Specifies the pane (window).
 

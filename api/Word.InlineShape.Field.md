@@ -3,30 +3,29 @@ title: InlineShape.Field property (Word)
 keywords: vbawd10.chm162004996
 f1_keywords:
 - vbawd10.chm162004996
-ms.prod: word
 api_name:
 - Word.InlineShape.Field
 ms.assetid: cc74cfc7-5182-1447-208b-1e6166ffc915
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # InlineShape.Field property (Word)
 
-Returns a  **Field** object that represents the field associated with the specified inline shape. Read-only.
+Returns a **Field** object that represents the field associated with the specified inline shape. Read-only.
 
 
 ## Syntax
 
- _expression_. `Field`
+_expression_. `Field`
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Remarks
 
-Use the  **Fields** property to return the **Fields** collection.
+Use the **Fields** property to return the **Fields** collection.
 
 
 ## Example

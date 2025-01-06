@@ -63,11 +63,10 @@ f1_keywords:
 - vbaac10.chm6154
 - vbaac10.chm6155
 - vbaac10.chm6144
-ms.prod: access
 api_name:
 - Access.Chart
 ms.date: 11/28/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

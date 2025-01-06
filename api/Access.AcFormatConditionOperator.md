@@ -3,20 +3,17 @@ title: AcFormatConditionOperator enumeration (Access)
 keywords: vbaac10.chm10040
 f1_keywords:
 - vbaac10.chm10040
-ms.prod: access
 api_name:
 - Access.AcFormatConditionOperator
 ms.assetid: 74521f38-826e-6ada-87c3-f66782d084b4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcFormatConditionOperator enumeration (Access)
 
 Specifies the operator to apply when using the **Add** method to create a conditional format.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -3,12 +3,11 @@ title: NavigationButton.LabelY property (Access)
 keywords: vbaac10.chm10485
 f1_keywords:
 - vbaac10.chm10485
-ms.prod: access
 api_name:
 - Access.NavigationButton.LabelY
 ms.assetid: 09adfd0d-c877-564a-0ddb-a2b3caf5b085
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

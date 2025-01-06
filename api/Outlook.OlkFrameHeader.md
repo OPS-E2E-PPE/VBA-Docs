@@ -1,25 +1,24 @@
 ---
-title: OlkFrameHeader Object (Outlook)
+title: OlkFrameHeader object (Outlook)
 keywords: vbaol11.chm1000476
 f1_keywords:
 - vbaol11.chm1000476
-ms.prod: outlook
 api_name:
 - Outlook.OlkFrameHeader
 ms.assetid: 088dd9e4-7210-6465-e337-51cb1bd10172
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkFrameHeader Object (Outlook)
+# OlkFrameHeader object (Outlook)
 
 A control that provides a separator between sections in a form.
 
 
 ## Remarks
 
-Before you use this control for the first time in the forms designer, add the Microsoft Outlook Frame Header Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic  **UserForm** object in the Visual Basic Editor.
+Before you use this control for the first time in the forms designer, add the Microsoft Outlook Frame Header Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic **UserForm** object in the Visual Basic Editor.
 
 The following is an example of a frame header control at runtime. This control supports Microsoft Windows themes.
 
@@ -48,6 +47,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

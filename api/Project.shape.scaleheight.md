@@ -1,20 +1,20 @@
 ---
-title: Shape.ScaleHeight Method (Project)
-ms.prod: project-server
+title: Shape.ScaleHeight method (Project)
+ms.service: project-server
 ms.assetid: 9dd7a3ee-9149-4aa2-c4ad-5fc0ca45ee21
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ScaleHeight Method (Project)
+# Shape.ScaleHeight method (Project)
 Scales the height of the shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Parameters
@@ -43,7 +43,7 @@ A  _RelativeToOriginalSize_ parameter value of **msoTrue** scales a shape relati
 
 ## Example
 
-The following example creates two cylindrical shapes, and then scales the first shape in height and width. If you set a breakpoint on the first  **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
+The following example creates two cylindrical shapes, and then scales the first shape in height and width. If you set a breakpoint on the first **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
 
 
 ```vb

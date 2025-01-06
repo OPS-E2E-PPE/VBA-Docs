@@ -3,12 +3,11 @@ title: ServerPolicy object (Office)
 keywords: vbaof11.chm278010
 f1_keywords:
 - vbaof11.chm278010
-ms.prod: office
 api_name:
 - Office.ServerPolicy
 ms.assetid: ce2a63d2-5deb-b94b-45d7-ed84e9be7deb
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,8 +35,8 @@ Dim strPolicyItemList As String
 Set objSrvPolicy = ActiveDocument.ServerPolicy 
  
 For Each objPolicyItem In objSrvPolicy 
- strPolicyItemList = "Policy Item " &amp; objPolicyItem.Name &amp; " - " &amp; _ 
- objPolicyItem.Description &amp; vbCrLf 
+ strPolicyItemList = "Policy Item " & objPolicyItem.Name & " - " & _ 
+ objPolicyItem.Description & vbCrLf 
 Next 
 MsgBox (strPolicyItemList) 
  

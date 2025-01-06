@@ -1,22 +1,22 @@
 ---
-title: Groups2.Copy Method (Project)
-ms.prod: project-server
+title: Groups2.Copy method (Project)
+ms.service: project-server
 api_name:
 - Project.Groups2.Copy
 ms.assetid: a0b45d11-394a-4915-5eb8-62ffaab04757
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Groups2.Copy Method (Project)
+# Groups2.Copy method (Project)
 
-Makes a copy of a group definition from the  **Groups2** collection and returns a reference to the **[Group2](Project.Group2.md)** object.
+Makes a copy of a group definition from the **Groups2** collection and returns a reference to the **[Group2](Project.Group2.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Name_`, `_NewName_` )
+_expression_.**Copy** (_Name_, _NewName_)
 
  _expression_ An expression that returns a 'Groups2' object.
 

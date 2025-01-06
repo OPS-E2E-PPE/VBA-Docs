@@ -1,15 +1,15 @@
 ---
-title: PjPoolOpen Enumeration (Project)
-ms.prod: project-server
+title: PjPoolOpen enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjPoolOpen
 ms.assetid: d953d1cb-f8f9-740a-f20c-6ac1e2ee0366
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjPoolOpen Enumeration (Project)
+# PjPoolOpen enumeration (Project)
 
 Contains constants that specify the action to take when opening a resource pool or sharer file.
 

@@ -1,27 +1,26 @@
 ---
-title: OlkListBox.GetItem Method (Outlook)
+title: OlkListBox.GetItem method (Outlook)
 keywords: vbaol11.chm1000268
 f1_keywords:
 - vbaol11.chm1000268
-ms.prod: outlook
 api_name:
 - Outlook.OlkListBox.GetItem
 ms.assetid: 23c47ede-8b72-e30a-b59a-1aa722be2064
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkListBox.GetItem Method (Outlook)
+# OlkListBox.GetItem method (Outlook)
 
-Obtains a  **String** that represents an item at the specified location in the list.
+Obtains a **String** that represents an item at the specified location in the list.
 
 
 ## Syntax
 
-_expression_. `GetItem`( `_Index_` )
+_expression_. `GetItem` (_Index_)
 
-_expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md)
 
 ## Return value
 
-A  **String** value that represents the item at the specified location in the list.
+A **String** value that represents the item at the specified location in the list.
 
 
 ## Remarks

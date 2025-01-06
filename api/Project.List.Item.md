@@ -1,24 +1,24 @@
 ---
-title: List.Item Property (Project)
-ms.prod: project-server
+title: List.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.List.Item
 ms.assetid: 9dbe7805-82b7-650a-28c4-ec4d22914f66
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# List.Item Property (Project)
+# List.Item property (Project)
 
 Gets a single item from the **List** object. Read-only **String**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a [List](./Project.List.md) object.
+_expression_ A variable that represents a [List](./Project.List.md) object.
 
 
 ## Parameters

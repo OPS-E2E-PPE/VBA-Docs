@@ -1,27 +1,26 @@
 ---
-title: UserDefinedProperties.Add Method (Outlook)
+title: UserDefinedProperties.Add method (Outlook)
 keywords: vbaol11.chm588
 f1_keywords:
 - vbaol11.chm588
-ms.prod: outlook
 api_name:
 - Outlook.UserDefinedProperties.Add
 ms.assetid: e033b27e-101d-4ef8-ed84-790fd9e6107a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UserDefinedProperties.Add Method (Outlook)
+# UserDefinedProperties.Add method (Outlook)
 
-Creates a new  **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object and appends it to the collection.
+Creates a new **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object and appends it to the collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` , `_Type_` , `_DisplayFormat_` , `_Formula_` )
+_expression_.**Add** (_Name_, _Type_, _DisplayFormat_, _Formula_)
 
-_expression_ A variable that represents a [UserDefinedProperties](./Outlook.UserDefinedProperties.md) object.
+_expression_ A variable that represents a [UserDefinedProperties](Outlook.UserDefinedProperties.md) object.
 
 
 ## Parameters
@@ -32,22 +31,22 @@ _expression_ A variable that represents a [UserDefinedProperties](./Outlook.User
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name of the new user-defined property.|
 | _Type_|Required| **[OlUserPropertyType](Outlook.OlUserPropertyType.md)**|The type of the new user-defined property.|
-| _DisplayFormat_|Optional| **Variant**|The display format of the new user-defined property. This parameter can be set to a value from one of several different enumerations, determined by the  **OlUserPropertyType** constant specified in the _Type_ parameter. For more information on how _Type_ and _DisplayFormat_ interact, see [DisplayFormat Property](Outlook.UserDefinedProperty.DisplayFormat.md).|
+| _DisplayFormat_|Optional| **Variant**|The display format of the new user-defined property. This parameter can be set to a value from one of several different enumerations, determined by the **OlUserPropertyType** constant specified in the _Type_ parameter. For more information on how _Type_ and _DisplayFormat_ interact, see [DisplayFormat Property](Outlook.UserDefinedProperty.DisplayFormat.md).|
 | _Formula_|Optional| **Variant**|The formula used to calculate values for the new user-defined property. This parameter is ignored if the  _Type_ parameter is set to any value other than **olCombination** or **olFormula**.|
 
 ## Return value
 
-A  **UserDefinedProperty** object that represents the new user-defined property.
+A **UserDefinedProperty** object that represents the new user-defined property.
 
 
 ## Remarks
 
-You can create a property of a type that is defined by the  **OlUserPropertyType** enumeration, except for the following types: **olEnumeration**,  **olOutlookInternal**, and  **olSmartFrom**.
+You can create a property of a type that is defined by the **OlUserPropertyType** enumeration, except for the following types: **olEnumeration**, **olOutlookInternal**, and **olSmartFrom**.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example uses the  **Add** method to create and add several **UserDefinedProperty** objects to the **Inbox** default folder.
+The following Visual Basic for Applications (VBA) example uses the **Add** method to create and add several **UserDefinedProperty** objects to the **Inbox** default folder.
 
 
 ```vb

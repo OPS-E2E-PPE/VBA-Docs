@@ -3,10 +3,9 @@ title: SaveSetting statement (VBA)
 keywords: vblr6.chm1020904
 f1_keywords:
 - vblr6.chm1020904
-ms.prod: office
 ms.assetid: f15549da-3c84-0991-592a-9d715fd488f3
 ms.date: 12/10/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Saves or creates an application entry in the application's entry in the Windows 
 ## Syntax
 
 **SaveSetting** _appname_, _section_, _key_, _setting_
-
-<br/>
 
 The **SaveSetting** statement syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

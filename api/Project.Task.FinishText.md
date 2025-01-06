@@ -1,31 +1,31 @@
 ---
-title: Task.FinishText Property (Project)
+title: Task.FinishText property (Project)
 keywords: vbapj.chm132229
 f1_keywords:
 - vbapj.chm132229
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.FinishText
 ms.assetid: 1dac5d15-30e3-060a-9c8a-98f7de556e3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.FinishText Property (Project)
+# Task.FinishText property (Project)
 
-Gets or sets a string representation of the task finish date. Read/write  **String**.
+Gets or sets a string representation of the task finish date. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FinishText`
+_expression_. `FinishText`
 
  _expression_ An expression that returns a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The  **FinishText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **FinishText** has any value, you should convert the value to a date for the **Finish** property.
+The **FinishText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **FinishText** has any value, you should convert the value to a date for the **Finish** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

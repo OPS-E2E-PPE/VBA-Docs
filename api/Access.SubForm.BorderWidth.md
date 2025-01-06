@@ -3,18 +3,17 @@ title: SubForm.BorderWidth property (Access)
 keywords: vbaac10.chm11945
 f1_keywords:
 - vbaac10.chm11945
-ms.prod: access
 api_name:
 - Access.SubForm.BorderWidth
 ms.assetid: 08ba4fa1-1672-47b3-b1fe-21520d60b7c8
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

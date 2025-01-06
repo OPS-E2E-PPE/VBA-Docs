@@ -1,23 +1,23 @@
 ---
-title: CaptionStyle.Name Property (Publisher)
-ms.prod: publisher
+title: CaptionStyle.Name property (Publisher)
 api_name:
 - Publisher.CaptionStyle.Name
 ms.assetid: bc9ac1d6-6acc-e973-45dc-75b275891c9e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# CaptionStyle.Name Property (Publisher)
+# CaptionStyle.Name property (Publisher)
 
 A string that represents the name of the caption style. Read-only.
 
 
 ## Syntax
 
- _expression_. **Name**
+_expression_.**Name**
 
- _expression_ A variable that represents a  **CaptionStyle** object.
+_expression_ A variable that represents a **[CaptionStyle](Publisher.CaptionStyle.md)** object.
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

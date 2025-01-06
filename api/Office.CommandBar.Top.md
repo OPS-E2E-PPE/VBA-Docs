@@ -3,12 +3,11 @@ title: CommandBar.Top property (Office)
 keywords: vbaof11.chm3018
 f1_keywords:
 - vbaof11.chm3018
-ms.prod: office
 api_name:
 - Office.CommandBar.Top
 ms.assetid: 1bac668a-0caa-d185-cc07-ba55809c79fe
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

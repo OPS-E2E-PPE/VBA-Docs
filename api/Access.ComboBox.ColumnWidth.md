@@ -3,18 +3,17 @@ title: ComboBox.ColumnWidth property (Access)
 keywords: vbaac10.chm11425
 f1_keywords:
 - vbaac10.chm11425
-ms.prod: access
 api_name:
 - Access.ComboBox.ColumnWidth
 ms.assetid: 938c3d16-5c71-1c36-097f-61782b8ed358
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ColumnWidth property (Access)
 
-You can use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
+Use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax

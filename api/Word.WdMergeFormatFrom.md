@@ -1,11 +1,10 @@
 ---
 title: WdMergeFormatFrom enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdMergeFormatFrom
 ms.assetid: 024204ab-60e7-65f8-02ab-5f72ebfcd10b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

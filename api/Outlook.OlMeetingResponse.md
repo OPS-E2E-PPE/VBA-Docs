@@ -1,18 +1,17 @@
 ---
-title: OlMeetingResponse Enumeration (Outlook)
+title: OlMeetingResponse enumeration (Outlook)
 keywords: vbaol11.chm3069
 f1_keywords:
 - vbaol11.chm3069
-ms.prod: outlook
 api_name:
 - Outlook.OlMeetingResponse
 ms.assetid: 8a396dd0-5037-bf8e-52a0-caad52999df5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlMeetingResponse Enumeration (Outlook)
+# OlMeetingResponse enumeration (Outlook)
 
 Indicates the response to a meeting request.
 
@@ -26,6 +25,6 @@ Indicates the response to a meeting request.
 
 ## Remarks
 
-See [MeetingItem Object (Outlook)](Outlook.MeetingItem.md).
+See [MeetingItem object (Outlook)](Outlook.MeetingItem.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

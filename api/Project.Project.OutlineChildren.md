@@ -1,24 +1,24 @@
 ---
-title: Project.OutlineChildren Property (Project)
-ms.prod: project-server
+title: Project.OutlineChildren property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.OutlineChildren
 ms.assetid: f0feaf89-04ad-4523-7b15-eff6573f6ddd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.OutlineChildren Property (Project)
+# Project.OutlineChildren property (Project)
 
-Gets a  **[Tasks](Project.Task.md)** collection representing the children of a task in the outline structure. Read-only **Tasks**.
+Gets a **[Tasks](Project.Task.md)** collection representing the children of a task in the outline structure. Read-only **Tasks**.
 
 
 ## Syntax
 
- _expression_. `OutlineChildren`
+_expression_. `OutlineChildren`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

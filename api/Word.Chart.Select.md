@@ -3,12 +3,11 @@ title: Chart.Select method (Word)
 keywords: vbawd10.chm79364331
 f1_keywords:
 - vbawd10.chm79364331
-ms.prod: word
 api_name:
 - Word.Chart.Select
 ms.assetid: 1ad91c5a-26a2-a7ad-faa6-c824245482bb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the object.
 
 ## Syntax
 
- _expression_. `Select`( `_Replace_` )
+_expression_.**Select** (_Replace_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters

@@ -3,12 +3,11 @@ title: ComboBox.IMEMode property (Access)
 keywords: vbaac10.chm11468
 f1_keywords:
 - vbaac10.chm11468
-ms.prod: access
 api_name:
 - Access.ComboBox.IMEMode
 ms.assetid: 117b9f33-004e-40f9-7ec9-bb397fda33c0
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

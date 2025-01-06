@@ -3,25 +3,24 @@ title: MailMergeFields.AddSet method (Word)
 keywords: vbawd10.chm153026669
 f1_keywords:
 - vbawd10.chm153026669
-ms.prod: word
 api_name:
 - Word.MailMergeFields.AddSet
 ms.assetid: 6b35e6ab-e918-26bd-6cdd-547882d2bef5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeFields.AddSet method (Word)
 
-Adds a SET field to a mail merge main document. Returns a  **MailMergeField** object.
+Adds a SET field to a mail merge main document. Returns a **MailMergeField** object.
 
 
 ## Syntax
 
- _expression_. `AddSet`( `_Range_` , `_Name_` , `_ValueText_` , `_ValueAutoText_` )
+_expression_. `AddSet`( `_Range_` , `_Name_` , `_ValueText_` , `_ValueAutoText_` )
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
 ## Parameters

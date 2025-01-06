@@ -1,23 +1,23 @@
 ---
-title: Report.Delete Method (Project)
+title: Report.Delete method (Project)
 keywords: vbapj.chm132549
 f1_keywords:
 - vbapj.chm132549
-ms.prod: project-server
+ms.service: project-server
 ms.assetid: 8a6b35c1-8552-b1be-2823-913790825a82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Report.Delete Method (Project)
+# Report.Delete method (Project)
 Deletes the report.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a 'Report' object.
+_expression_ A variable that represents a 'Report' object.
 
 
 ## Return value
@@ -27,7 +27,7 @@ Deletes the report.
 
 ## Example
 
-The following example determines whether a report named  **Report 1** exists, and if so, deletes the report. If the report is active, change to another view before you delete it; otherwise, Project shows run-time error 1004: **The table "Report 1" is in use and cannot be copied or deleted.**
+The following example determines whether a report named **Report 1** exists, and if so, deletes the report. If the report is active, change to another view before you delete it; otherwise, Project shows run-time error 1004: **The table "Report 1" is in use and cannot be copied or deleted.**
 
 
 ```vb

@@ -1,15 +1,14 @@
 ---
-title: PpArrangeStyle Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpArrangeStyle enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpArrangeStyle
 ms.assetid: f93ac9f9-f707-336f-d59d-565322deb167
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpArrangeStyle Enumeration (PowerPoint)
+# PpArrangeStyle enumeration (PowerPoint)
 
 Specifies whether to cascade or tile the windows.
 

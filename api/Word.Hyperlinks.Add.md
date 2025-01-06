@@ -3,25 +3,24 @@ title: Hyperlinks.Add method (Word)
 keywords: vbawd10.chm161218661
 f1_keywords:
 - vbawd10.chm161218661
-ms.prod: word
 api_name:
 - Word.Hyperlinks.Add
 ms.assetid: b838a93c-8ec8-e591-f2e9-c22a049c5335
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Hyperlinks.Add method (Word)
 
-Returns a  **Hyperlink** object that represents a new hyperlink added to a range, selection, or document.
+Returns a **Hyperlink** object that represents a new hyperlink added to a range, selection, or document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Anchor_` , `_Address_` , `_SubAddress_` , `_ScreenTip_` , `_TextToDisplay_` , `_Target_` )
+_expression_.**Add** (_Anchor_, _Address_, _SubAddress_, _ScreenTip_, _TextToDisplay_, _Target_)
 
- _expression_ Required. A variable that represents a '[Hyperlinks](Word.hyperlinks.md)' collection.
+_expression_ Required. A variable that represents a '[Hyperlinks](Word.hyperlinks.md)' collection.
 
 
 ## Parameters

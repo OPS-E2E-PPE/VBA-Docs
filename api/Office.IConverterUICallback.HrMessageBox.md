@@ -3,18 +3,17 @@ title: IConverterUICallback.HrMessageBox method (Office)
 keywords: vbaof11.chm332002
 f1_keywords:
 - vbaof11.chm332002
-ms.prod: office
 api_name:
 - Office.IConverterUICallback.HrMessageBox
 ms.assetid: 41174ca5-0248-6f1b-23ce-54183a52ae48
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterUICallback.HrMessageBox method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

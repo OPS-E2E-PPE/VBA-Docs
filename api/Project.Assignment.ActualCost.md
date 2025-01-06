@@ -1,36 +1,36 @@
 ---
-title: Assignment.ActualCost Property (Project)
-ms.prod: project-server
+title: Assignment.ActualCost property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.ActualCost
 ms.assetid: 45bf4d44-bce7-474a-7093-ff0c97d3b7f6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.ActualCost Property (Project)
+# Assignment.ActualCost property (Project)
 
-Gets or sets the actual cost for the assignment. Read/write  **Variant**.
+Gets or sets the actual cost for the assignment. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ActualCost`
+_expression_. `ActualCost`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The  **ActualCost** property can be set for **Assignment** and **Task** objects (but not for summary tasks) if the **Actual costs are always calculated by Project** check box is cleared on the **Schedule** tab of the **Project Options** dialog box.
+The **ActualCost** property can be set for **Assignment** and **Task** objects (but not for summary tasks) if the **Actual costs are always calculated by Project** check box is cleared on the **Schedule** tab of the **Project Options** dialog box.
 
-Actual costs are also available for tasks and resources. If the  **Actual costs are always calculated by Project** check box is checked, Project calculates the current actual cost for the assignment from resource cost rate tables and actual work that the assigned resource has completed. For programmatic access to the resource cost rate tables, use the **[CostRateTables](Project.Resource.CostRateTables.md)** collection.
+Actual costs are also available for tasks and resources. If the **Actual costs are always calculated by Project** check box is checked, Project calculates the current actual cost for the assignment from resource cost rate tables and actual work that the assigned resource has completed. For programmatic access to the resource cost rate tables, use the **[CostRateTables](Project.Resource.CostRateTables.md)** collection.
 
 
 ## Example
 
-The following example prompts the user for actual costs of tasks with no resources in the active project. It assumes that the  **Actual costs are always calculated by Project** check box is cleared.
+The following example prompts the user for actual costs of tasks with no resources in the active project. It assumes that the **Actual costs are always calculated by Project** check box is cleared.
 
 
 ```vb

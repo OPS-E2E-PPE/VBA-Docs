@@ -3,12 +3,11 @@ title: Image.BorderStyle property (Access)
 keywords: vbaac10.chm10383
 f1_keywords:
 - vbaac10.chm10383
-ms.prod: access
 api_name:
 - Access.Image.BorderStyle
 ms.assetid: bec20ddf-359c-d684-6561-130c830ef62f
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

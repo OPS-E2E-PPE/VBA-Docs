@@ -3,12 +3,11 @@ title: AllDatabaseDiagrams object (Access)
 keywords: vbaac10.chm12692
 f1_keywords:
 - vbaac10.chm12692
-ms.prod: access
 api_name:
 - Access.AllDatabaseDiagrams
 ms.assetid: 417427aa-1783-29da-30c9-66a7032a0088
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ The **AllDatabaseDiagrams** collection contains an **[AccessObject](Access.Acces
 
 The **CurrentData** or **CodeData** object has an **AllDatabaseDiagrams** collection containing **AccessObject** objects that describe instances of all database diagrams specified by **CurrentData** or **CodeData**. For example, you can enumerate the **AllDatabaseDiagrams** collection in Visual Basic to set or return the values of properties of individual **AccessObject** objects in the collection.
 
-You can refer to an individual **AccessObject** object in the **AllDatabaseDiagrams** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllDatabaseDiagrams** collection, it's better to refer to the database diagram by name because a database diagram's collection index may change.
+Refer to an individual **AccessObject** object in the **AllDatabaseDiagrams** collection either by referring to the object by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllDatabaseDiagrams** collection, it's better to refer to the database diagram by name because a database diagram's collection index may change.
 
 The **AllDatabaseDiagrams** collection is indexed beginning with zero. If you refer to a database diagram by its index, the first database diagram is AllDatabaseDiagrams(0), the second database diagram is AllDatabaseDiagrams(1), and so on.
 

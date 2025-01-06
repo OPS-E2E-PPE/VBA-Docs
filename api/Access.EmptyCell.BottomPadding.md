@@ -3,12 +3,11 @@ title: EmptyCell.BottomPadding property (Access)
 keywords: vbaac10.chm14330
 f1_keywords:
 - vbaac10.chm14330
-ms.prod: access
 api_name:
 - Access.EmptyCell.BottomPadding
 ms.assetid: 8f2c023d-8a53-13a1-4809-4808958716e5
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

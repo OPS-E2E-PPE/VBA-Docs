@@ -3,10 +3,9 @@ title: ListBox control, AddItem, RemoveItem methods, ListIndex, ListCount proper
 keywords: fm20.chm5225178
 f1_keywords:
 - fm20.chm5225178
-ms.prod: office
 ms.assetid: 70bc2f0c-79a5-89f2-e987-84f673d4bf97
 ms.date: 11/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -29,8 +28,6 @@ Private Sub CommandButton1_Click()
 End Sub
 ```
 
-<br/>
-
 ```vb
 Private Sub CommandButton2_Click() 
  'Ensure ListBox contains list items 
@@ -44,8 +41,6 @@ Private Sub CommandButton2_Click()
  End If 
 End Sub
 ```
-
-<br/>
 
 ```vb
 Private Sub UserForm_Initialize() 

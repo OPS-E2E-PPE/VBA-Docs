@@ -3,12 +3,11 @@ title: NavigationButton.BorderTint property (Access)
 keywords: vbaac10.chm14602
 f1_keywords:
 - vbaac10.chm14602
-ms.prod: access
 api_name:
 - Access.NavigationButton.BorderTint
 ms.assetid: 6a980ecb-3ac5-d7d2-9f65-1dfef8546d26
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

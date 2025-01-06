@@ -3,12 +3,11 @@ title: Label.BottomPadding property (Access)
 keywords: vbaac10.chm10248
 f1_keywords:
 - vbaac10.chm10248
-ms.prod: access
 api_name:
 - Access.Label.BottomPadding
 ms.assetid: 20bdaece-cb1d-3da5-1866-4a8710fd41be
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

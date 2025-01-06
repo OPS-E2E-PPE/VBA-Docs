@@ -1,19 +1,16 @@
 ---
 title: MsoTextureAlignment enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoTextureAlignment
 ms.assetid: 1e2095c7-5312-0057-faea-ccc51a082362
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoTextureAlignment enumeration (Office)
 
 Specifies the alignment (the origin of the coordinate grid) for the tiling of the texture fill.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

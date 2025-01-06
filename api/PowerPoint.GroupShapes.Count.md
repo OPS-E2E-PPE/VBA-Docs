@@ -1,27 +1,26 @@
 ---
-title: GroupShapes.Count Property (PowerPoint)
+title: GroupShapes.Count property (PowerPoint)
 keywords: vbapp10.chm549002
 f1_keywords:
 - vbapp10.chm549002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.GroupShapes.Count
 ms.assetid: 1535f42d-43de-a9e2-0972-a1bb34b5578f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupShapes.Count Property (PowerPoint)
+# GroupShapes.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [GroupShapes](./PowerPoint.GroupShapes.md) object.
+_expression_ A variable that represents a [GroupShapes](PowerPoint.GroupShapes.md) object.
 
 
 ## Return value

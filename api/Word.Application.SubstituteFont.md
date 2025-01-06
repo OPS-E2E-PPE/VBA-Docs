@@ -3,12 +3,11 @@ title: Application.SubstituteFont method (Word)
 keywords: vbawd10.chm158335280
 f1_keywords:
 - vbawd10.chm158335280
-ms.prod: word
 api_name:
 - Word.Application.SubstituteFont
 ms.assetid: 2563bf9a-31ea-4104-b26b-538eb7e27f85
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets font-mapping options.
 
 ## Syntax
 
- _expression_. `SubstituteFont`( `_UnavailableFont_` , `_SubstituteFont_` )
+_expression_. `SubstituteFont`( `_UnavailableFont_` , `_SubstituteFont_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Sets font-mapping options.
 
 ## Remarks
 
-You can find font-mapping options in the  **Font Substitution** dialog box.
+You can find font-mapping options in the **Font Substitution** dialog box.
 
 
 ## Example

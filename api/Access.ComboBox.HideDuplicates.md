@@ -3,18 +3,17 @@ title: ComboBox.HideDuplicates property (Access)
 keywords: vbaac10.chm11400
 f1_keywords:
 - vbaac10.chm11400
-ms.prod: access
 api_name:
 - Access.ComboBox.HideDuplicates
 ms.assetid: 79b64a87-d98e-76a1-e3c7-57796cb1c173
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.HideDuplicates property (Access)
 
-You can use the **HideDuplicates** property to hide a control on a report when its value is the same as in the preceding record. Read/write **Boolean**.
+Use the **HideDuplicates** property to hide a control on a report when its value is the same as in the preceding record. Read/write **Boolean**.
 
 
 ## Syntax
@@ -39,7 +38,7 @@ The **DefaultValue** property doesn't apply to check box, option button, or togg
 
 You can set the **HideDuplicates** property only in report Design view.
 
-You can use the **HideDuplicates** property to create a grouped report by using only the detail section rather than a group header and the detail section.
+Use the **HideDuplicates** property to create a grouped report by using only the detail section rather than a group header and the detail section.
 
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: PbDirectionType Enumeration (Publisher)
+title: PbDirectionType enumeration (Publisher)
 keywords: vbapb10.chm65553
 f1_keywords:
 - vbapb10.chm65553
-ms.prod: publisher
 api_name:
 - Publisher.PbDirectionType
 ms.assetid: cb4f69e5-88a0-ab05-d61c-8b770cea147f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbDirectionType Enumeration (Publisher)
+# PbDirectionType enumeration (Publisher)
 
 Represents a global Microsoft Publisher option, indicating whether text flows from left to right or from right to left in a publication.
 

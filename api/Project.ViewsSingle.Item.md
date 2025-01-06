@@ -1,24 +1,24 @@
 ---
-title: ViewsSingle.Item Property (Project)
-ms.prod: project-server
+title: ViewsSingle.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.ViewsSingle.Item
 ms.assetid: b4b97fc0-f075-bf22-9ddb-421249f4e5ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewsSingle.Item Property (Project)
+# ViewsSingle.Item property (Project)
 
-Gets a single  **View** object from the **ViewsSingle** collection. Read-only **View**.
+Gets a single **View** object from the **ViewsSingle** collection. Read-only **View**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'ViewsSingle' object.
+_expression_ A variable that represents a 'ViewsSingle' object.
 
 
 ## Parameters

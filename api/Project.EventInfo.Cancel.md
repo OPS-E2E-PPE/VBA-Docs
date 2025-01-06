@@ -1,32 +1,32 @@
 ---
-title: EventInfo.Cancel Property (Project)
+title: EventInfo.Cancel property (Project)
 keywords: vbapj.chm131085
 f1_keywords:
 - vbapj.chm131085
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.EventInfo.Cancel
 ms.assetid: 2bd3a795-9a8f-8cdb-5358-a22487610a72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EventInfo.Cancel Property (Project)
+# EventInfo.Cancel property (Project)
 
-In an event handler, the  **Cancel** property gets or sets a value that specifies whether the operation that triggered the event should continue. If **True**, the operation is canceled. Read/write **Boolean**.
+In an event handler, the **Cancel** property gets or sets a value that specifies whether the operation that triggered the event should continue. If **True**, the operation is canceled. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Cancel`
+_expression_. `Cancel`
 
- _expression_ A variable that represents an [EventInfo](./Project.EventInfo.md) object.
+_expression_ A variable that represents an [EventInfo](./Project.EventInfo.md) object.
 
 
 ## Remarks
 
-The default value of the  **Cancel** property is **False** when an event occurs. Set **Cancel** to **True** to cancel an operation.
+The default value of the **Cancel** property is **False** when an event occurs. Set **Cancel** to **True** to cancel an operation.
 
 
 ## Example

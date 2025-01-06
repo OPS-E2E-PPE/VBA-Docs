@@ -3,12 +3,11 @@ title: Chart.ApplyLayout method (Word)
 keywords: vbawd10.chm79366564
 f1_keywords:
 - vbawd10.chm79366564
-ms.prod: word
 api_name:
 - Word.Chart.ApplyLayout
 ms.assetid: f23d8a12-65d5-3336-4381-76bfc4b73507
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Applies the layouts shown in the ribbon.
 
 ## Syntax
 
- _expression_. `ApplyLayout`( `_Layout_` , `_ChartType_` )
+_expression_. `ApplyLayout`( `_Layout_` , `_ChartType_` )
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters
@@ -31,7 +30,7 @@ Applies the layouts shown in the ribbon.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Layout_|Required| **Long**|The type of layout. The type of layout is denoted by a number from 1 to 10.|
-| _ChartType_|Optional| **Variant**|An  **[xlChartType](./Excel.XlChartType.md)** constant that represents the type of chart.|
+| _ChartType_|Optional| **Variant**|An **[XlChartType](Excel.XlChartType.md)** constant that represents the type of chart.|
 
 ## Remarks
 

@@ -3,18 +3,17 @@ title: ToggleButton.DisplayWhen property (Access)
 keywords: vbaac10.chm11711
 f1_keywords:
 - vbaac10.chm11711
-ms.prod: access
 api_name:
 - Access.ToggleButton.DisplayWhen
 ms.assetid: 881f7a17-be3d-436f-1511-d6af5a7f4c6e
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

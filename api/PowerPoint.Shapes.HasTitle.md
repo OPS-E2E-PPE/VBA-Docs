@@ -1,27 +1,26 @@
 ---
-title: Shapes.HasTitle Property (PowerPoint)
+title: Shapes.HasTitle property (PowerPoint)
 keywords: vbapp10.chm543018
 f1_keywords:
 - vbapp10.chm543018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.HasTitle
 ms.assetid: 0754bda8-7e19-6dd1-55a3-2b19541480b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.HasTitle Property (PowerPoint)
+# Shapes.HasTitle property (PowerPoint)
 
 Returns whether the collection of objects on the specified slide contains a title placeholder. Read-only.
 
 
 ## Syntax
 
- _expression_. `HasTitle`
+_expression_.**HasTitle**
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **HasTitle** property can be one of these **MsoTriState** constants.
+The value of the **HasTitle** property can be one of these **MsoTriState** constants.
 
 
 

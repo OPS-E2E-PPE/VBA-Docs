@@ -3,12 +3,11 @@ title: Subdocument.Split method (Word)
 keywords: vbawd10.chm159973477
 f1_keywords:
 - vbawd10.chm159973477
-ms.prod: word
 api_name:
 - Word.Subdocument.Split
 ms.assetid: f4548dbc-3b96-b271-8e71-0d436a1c3ecc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Divides an existing subdocument into two subdocuments at the same level in maste
 
 ## Syntax
 
- _expression_. `Split`( `_Range_` )
+_expression_.**Split** (_Range_)
 
- _expression_ Required. A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
+_expression_ Required. A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
 
 
 ## Parameters

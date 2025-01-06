@@ -1,17 +1,16 @@
 ---
 title: XlPasteSpecialOperation enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlPasteSpecialOperation
 ms.assetid: b1e01a39-61b8-a3a9-2552-58d79b10afe3
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # XlPasteSpecialOperation enumeration (Excel)
 
-Specifies how numeric data will be calculated with the destinations cells in the worksheet.
+Specifies how numeric data will be calculated with the destinations cells on the worksheet.
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

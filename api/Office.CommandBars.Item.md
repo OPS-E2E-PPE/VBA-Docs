@@ -3,12 +3,11 @@ title: CommandBars.Item property (Office)
 keywords: vbaof11.chm2008
 f1_keywords:
 - vbaof11.chm2008
-ms.prod: office
 api_name:
 - Office.CommandBars.Item
 ms.assetid: bca38d83-67cb-2cba-ddfa-918a5b2ff508
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,15 +1,15 @@
 ---
-title: PjMonth Enumeration (Project)
-ms.prod: project-server
+title: PjMonth enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjMonth
 ms.assetid: a9bc801a-d92d-bcc4-cf97-6e370ceec0aa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjMonth Enumeration (Project)
+# PjMonth enumeration (Project)
 
 Contains constants that specify a month.
 

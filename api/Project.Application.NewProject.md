@@ -1,24 +1,24 @@
 ---
-title: Application.NewProject Event (Project)
-ms.prod: project-server
+title: Application.NewProject event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.NewProject
 ms.assetid: de3c9e06-405a-8f63-6210-013f5d292c20
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.NewProject Event (Project)
+# Application.NewProject event (Project)
 
 Occurs when a new project is created, including the default project that is created each time Project starts.
 
 
 ## Syntax
 
- _expression_. `NewProject`( `_pj_` )
+_expression_. `NewProject`( `_pj_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Occurs when a new project is created, including the default project that is crea
 
 ## Remarks
 
-The  **NewProject** event for the default project is analogous to the **Open** event for existing projects. The **NewProject** event occurs before the **Activate** event for a new project. Project events do not occur when the project is embedded in another document or application. For more information and sample code for creating and testing an event handler, see [Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
+The **NewProject** event for the default project is analogous to the **Open** event for existing projects. The **NewProject** event occurs before the **Activate** event for a new project. Project events don't occur when the project is embedded in another document or application. For more information and sample code for creating and testing an event handler, see [Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
 
 
 ## Example

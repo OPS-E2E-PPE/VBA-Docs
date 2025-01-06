@@ -3,12 +3,11 @@ title: Attachment.OnLostFocus property (Access)
 keywords: vbaac10.chm13944
 f1_keywords:
 - vbaac10.chm13944
-ms.prod: access
 api_name:
 - Access.Attachment.OnLostFocus
 ms.assetid: 546d0491-ddb8-87d4-9f97-d68cfd96070c
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **[LostFocus](access.attachment.lostfocus.md)** event occurs when the object
 
 The **OnLostFocus** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Lost Focus** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Lost Focus** box is blank, the property value is an empty string.
 

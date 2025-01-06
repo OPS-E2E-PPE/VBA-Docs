@@ -3,30 +3,29 @@ title: Global.Languages property (Word)
 keywords: vbawd10.chm163119118
 f1_keywords:
 - vbawd10.chm163119118
-ms.prod: word
 api_name:
 - Word.Global.Languages
 ms.assetid: 6f0d87f8-f0f8-5865-3ba5-2a383c212998
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.Languages property (Word)
 
-Returns a  **Languages** collection that represents the proofing languages listed in the **Language** dialog box.
+Returns a **Languages** collection that represents the proofing languages listed in the **Language** dialog box.
 
 
 ## Syntax
 
- _expression_. `Languages`
+_expression_. `Languages`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

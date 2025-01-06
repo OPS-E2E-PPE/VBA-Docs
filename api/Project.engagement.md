@@ -1,20 +1,20 @@
 ---
-title: Engagement Object (Project)
+title: Engagement object (Project)
 ms.assetid: 3e7f7bed-e575-a5f4-25e5-1c1cbe1880bb
 ms.date: 06/08/2017
-ms.prod: project-server
-localization_priority: Normal
+ms.service: project-server
+ms.localizationpriority: medium
 ---
 
 
-# Engagement Object (Project)
+# Engagement object (Project)
 
-Collection of  **Engagement** objects. Introduced in Office 2016.
+Collection of **Engagement** objects. Introduced in Office 2016.
 
 
 ## Remarks
 
-Engagement objects expose a  **Resource Plan** view, enabling users to display and edit engagement data to Project when connected to Project Online.
+Engagement objects expose a **Resource Plan** view, enabling users to display and edit engagement data to Project when connected to Project Online.
 
 
 ## Methods

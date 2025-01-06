@@ -1,27 +1,26 @@
 ---
-title: TextFrame2.Ruler Property (PowerPoint)
+title: TextFrame2.Ruler property (PowerPoint)
 keywords: vbapp10.chm678018
 f1_keywords:
 - vbapp10.chm678018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.Ruler
 ms.assetid: 2fcf6db9-e34f-0dac-de6f-3b470d325ee0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.Ruler Property (PowerPoint)
+# TextFrame2.Ruler property (PowerPoint)
 
-Returns a  **Ruler2** object that represents the ruler for the specified text. Read-only.
+Returns a **Ruler2** object that represents the ruler for the specified text. Read-only.
 
 
 ## Syntax
 
- _expression_. `Ruler`
+_expression_. `Ruler`
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value

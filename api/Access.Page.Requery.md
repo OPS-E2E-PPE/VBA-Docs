@@ -3,12 +3,11 @@ title: Page.Requery method (Access)
 keywords: vbaac10.chm12142
 f1_keywords:
 - vbaac10.chm12142
-ms.prod: access
 api_name:
 - Access.Page.Requery
 ms.assetid: 011ca697-a0d5-c443-1715-05861b618a93
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[Page](Access.Page.md)** object.
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

@@ -1,27 +1,27 @@
 ---
-title: Application.SelectCellDown Method (Project)
+title: Application.SelectCellDown method (Project)
 keywords: vbapj.chm2050
 f1_keywords:
 - vbapj.chm2050
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectCellDown
 ms.assetid: 78754f19-651b-d614-fa69-5fccd6b3387c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectCellDown Method (Project)
+# Application.SelectCellDown method (Project)
 
 Selects cells directly below the current selection.
 
 
 ## Syntax
 
- _expression_. `SelectCellDown`( `_NumCells_`, `_Extend_` )
+_expression_. `SelectCellDown`( `_NumCells_`, `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,12 +40,12 @@ Selects cells directly below the current selection.
 
 ## Remarks
 
-The  **SelectCellDown** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SelectCellDown** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 
 ## Example
 
-The following example applies the Complete and Incomplete Resources grouping to the Resource Sheet view, and then uses  **SelectCellDown** to select the first cell in each row and tests whether the row is a group summary. The process continues until the row is empty, and then shows a message box with the test results for each row.
+The following example applies the Complete and Incomplete Resources grouping to the Resource Sheet view, and then uses **SelectCellDown** to select the first cell in each row and tests whether the row is a group summary. The process continues until the row is empty, and then shows a message box with the test results for each row.
 
 
 ```vb

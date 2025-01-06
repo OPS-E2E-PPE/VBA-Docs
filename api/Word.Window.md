@@ -3,12 +3,11 @@ title: Window object (Word)
 keywords: vbawd10.chm2402
 f1_keywords:
 - vbawd10.chm2402
-ms.prod: word
 api_name:
 - Word.Window
 ms.assetid: d92f83f9-ae44-56c0-4584-7a9359253c6d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Represents a window. Many document characteristics, such as scroll bars and rule
 
 ## Remarks
 
-The  **Window** object is a member of the **[Windows](Word.windows.md)** collection. The **Windows** collection for the **Application** object contains all the windows in the application, whereas the **Windows** collection for the **Document** object contains only the windows that display the specified document.
+The **Window** object is a member of the **[Windows](Word.windows.md)** collection. The **Windows** collection for the **Application** object contains all the windows in the application, whereas the **Windows** collection for the **Document** object contains only the windows that display the specified document.
 
-Use  **Windows** (Index), where Index is the window name or the index number, to return a single **Window** object. The following example maximizes the Document1 window.
+Use **Windows** (Index), where Index is the window name or the index number, to return a single **Window** object. The following example maximizes the Document1 window.
 
 
 
@@ -30,7 +29,7 @@ Use  **Windows** (Index), where Index is the window name or the index number, to
 Windows("Document1").WindowState = wdWindowStateMaximize
 ```
 
-The index number is the number to the left of the window name on the  **Window** menu. The following example displays the caption of the first window in the **Windows** collection.
+The index number is the number to the left of the window name on the **Window** menu. The following example displays the caption of the first window in the **Windows** collection.
 
 
 
@@ -39,7 +38,7 @@ The index number is the number to the left of the window name on the  **Window**
 MsgBox Windows(1).Caption
 ```
 
-Use the  **Add** method or the **NewWindow** method to add a new window to the **Windows** collection. Each of the following statements creates a new window for the document in the active window.
+Use the **Add** method or the **NewWindow** method to add a new window to the **Windows** collection. Each of the following statements creates a new window for the document in the active window.
 
 
 
@@ -52,7 +51,7 @@ Windows.Add
 
 A colon (:) and a number appear in the window caption when more than one window is open for a document.
 
-When you switch the view to print preview, a new window is created. This window is removed from the  **Windows** collection when you close print preview.
+When you switch the view to print preview, a new window is created. This window is removed from the **Windows** collection when you close print preview.
 
 
 ## Methods
@@ -125,6 +124,6 @@ When you switch the view to print preview, a new window is created. This window 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

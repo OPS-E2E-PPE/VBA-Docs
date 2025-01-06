@@ -1,27 +1,26 @@
 ---
-title: Master.DrawOval Method (Visio)
+title: Master.DrawOval method (Visio)
 keywords: vis_sdr.chm10716210
 f1_keywords:
 - vis_sdr.chm10716210
-ms.prod: visio
 api_name:
 - Visio.Master.DrawOval
 ms.assetid: 092a59d6-1b43-c094-e2ae-480ee7b32b73
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.DrawOval Method (Visio)
+# Master.DrawOval method (Visio)
 
-Adds an oval (ellipse) to the  **Shapes** collection of a master.
+Adds an oval (ellipse) to the **Shapes** collection of a master.
 
 
 ## Syntax
 
- _expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
+_expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ Shape
 
 ## Remarks
 
-Using the  **DrawOval** method is equivalent to using the **Ellipse** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the ellipse is being placed.
+Using the **DrawOval** method is equivalent to using the **Ellipse** tool in the application. The arguments are in internal drawing units with respect to the coordinate space of the page, master, or group where the ellipse is being placed.
 
 
 ## Example

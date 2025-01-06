@@ -3,10 +3,9 @@ title: GetSetting function (Visual Basic for Applications)
 keywords: vblr6.chm1020902
 f1_keywords:
 - vblr6.chm1020902
-ms.prod: office
 ms.assetid: 025f1d5d-6fc9-31ff-e59c-f5bcf47e3313
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a key setting value from an application's entry in the Windows [registry
 ## Syntax
 
 **GetSetting**(_appname_, _section_, _key_, [ _default_ ])
-
-<br/>
 
 The **GetSetting** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -31,7 +28,7 @@ The **GetSetting** function syntax has these [named arguments](../../Glossary/vb
 
 ## Remarks
 
-If any of the items named in the **GetSetting** arguments do not exist, **GetSetting** returns the value of _default_.
+If any of the items named in the **GetSetting** arguments don't exist, **GetSetting** returns the value of _default_.
 
 ## Example
 

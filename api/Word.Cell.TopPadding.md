@@ -3,30 +3,29 @@ title: Cell.TopPadding property (Word)
 keywords: vbawd10.chm156106863
 f1_keywords:
 - vbawd10.chm156106863
-ms.prod: word
 api_name:
 - Word.Cell.TopPadding
 ms.assetid: 03c8bd07-dde2-6ad3-1291-7b0c0ada424a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Cell.TopPadding property (Word)
 
-Returns or sets the amount of space (in points) to add above the contents of a single cell or all the cells in a table. Read/write  **Single**.
+Returns or sets the amount of space (in points) to add above the contents of a single cell or all the cells in a table. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_.**TopPadding**
+_expression_.**TopPadding**
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-The setting of the  **TopPadding** property for a single cell overrides the setting of the **TopPadding** property for the entire table.
+The setting of the **TopPadding** property for a single cell overrides the setting of the **TopPadding** property for the entire table.
 
 
 ## Example

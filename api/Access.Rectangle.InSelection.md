@@ -3,18 +3,17 @@ title: Rectangle.InSelection property (Access)
 keywords: vbaac10.chm10299
 f1_keywords:
 - vbaac10.chm10299
-ms.prod: access
 api_name:
 - Access.Rectangle.InSelection
 ms.assetid: 549eb50f-a2a2-1f40-3267-9490d6035058
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

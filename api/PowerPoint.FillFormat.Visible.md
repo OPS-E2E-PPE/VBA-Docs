@@ -1,27 +1,26 @@
 ---
-title: FillFormat.Visible Property (PowerPoint)
+title: FillFormat.Visible property (PowerPoint)
 keywords: vbapp10.chm552024
 f1_keywords:
 - vbapp10.chm552024
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.Visible
 ms.assetid: 8221347f-4b12-f18a-5d0b-b584ee762bff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.Visible Property (PowerPoint)
+# FillFormat.Visible property (PowerPoint)
 
 Returns or sets the visibility of the specified object or the formatting applied to the specified object. Read/write.
 
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Visible** property can be one of these **MsoTriState** constants.
+The value of the **Visible** property can be one of these **MsoTriState** constants.
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: Shape.ParentGroup Property (PowerPoint)
+title: Shape.ParentGroup property (PowerPoint)
 keywords: vbapp10.chm547067
 f1_keywords:
 - vbapp10.chm547067
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.ParentGroup
 ms.assetid: 1566110f-81dc-b73a-d658-2f6189113068
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ParentGroup Property (PowerPoint)
+# Shape.ParentGroup property (PowerPoint)
 
-Returns a  **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
+Returns a **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
 
 
 ## Syntax
 
- _expression_. `ParentGroup`
+_expression_.**ParentGroup**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value

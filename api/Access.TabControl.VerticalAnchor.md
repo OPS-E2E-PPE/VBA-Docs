@@ -3,12 +3,11 @@ title: TabControl.VerticalAnchor property (Access)
 keywords: vbaac10.chm12126
 f1_keywords:
 - vbaac10.chm12126
-ms.prod: access
 api_name:
 - Access.TabControl.VerticalAnchor
 ms.assetid: 035bbf92-a346-1fea-c7c5-b9c34c251705
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

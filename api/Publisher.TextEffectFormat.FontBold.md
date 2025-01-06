@@ -1,38 +1,36 @@
 ---
-title: TextEffectFormat.FontBold Property (Publisher)
+title: TextEffectFormat.FontBold property (Publisher)
 keywords: vbapb10.chm3735809
 f1_keywords:
 - vbapb10.chm3735809
-ms.prod: publisher
 api_name:
 - Publisher.TextEffectFormat.FontBold
 ms.assetid: ab582a4d-92b7-c2b0-e3c3-045e035f68bb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextEffectFormat.FontBold Property (Publisher)
+# TextEffectFormat.FontBold property (Publisher)
 
-Sets or returns an  **MsoTriState**constant that represents whether the font for a dropped capital letter or WordArt text effect is bold. Read/write.
+Sets or returns an **[MsoTriState](Office.MsoTriState.md)** constant that represents whether the font for a dropped capital letter or WordArt text effect is bold. Read/write.
 
 
 ## Syntax
 
- _expression_. **FontBold**
+_expression_.**FontBold**
 
- _expression_ A variable that represents a  **TextEffectFormat** object.
+_expression_ A variable that represents a **[TextEffectFormat](Publisher.TextEffectFormat.md)** object.
 
 
 ## Remarks
 
-The  **FontBold** property value can be one of the ** [MsoTriState](Office.MsoTriState.md)** constants declared in the Microsoft Office type library.
+The **FontBold** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library.
 
 
 ## Example
 
 This example applies bold formatting to the dropped capital letter in the specified text frame. This example assumes that the specified text frame is formatted with a dropped capital letter.
-
 
 ```vb
 Sub BoldDropCap() 

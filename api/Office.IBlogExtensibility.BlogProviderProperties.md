@@ -3,12 +3,11 @@ title: IBlogExtensibility.BlogProviderProperties method (Office)
 keywords: vbaof11.chm328001
 f1_keywords:
 - vbaof11.chm328001
-ms.prod: office
 api_name:
 - Office.IBlogExtensibility.BlogProviderProperties
 ms.assetid: 87e3d826-6c18-96e7-30dc-218d136b56dd
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

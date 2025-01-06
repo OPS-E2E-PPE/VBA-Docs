@@ -1,32 +1,31 @@
 ---
-title: NavigationModule.Class Property (Outlook)
+title: NavigationModule.Class property (Outlook)
 keywords: vbaol11.chm2804
 f1_keywords:
 - vbaol11.chm2804
-ms.prod: outlook
 api_name:
 - Outlook.NavigationModule.Class
 ms.assetid: a78394e2-81f9-6742-de3f-5bfe02f96969
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NavigationModule.Class Property (Outlook)
+# NavigationModule.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
 
 
 ## Syntax
 
 _expression_.**Class**
 
- _expression_ An expression that returns a [NavigationModule](./Outlook.NavigationModule.md) object.
+ _expression_ An expression that returns a [NavigationModule](Outlook.NavigationModule.md) object.
 
 
 ## Remarks
 
-This property returns  **olNavigationModule** for the **[NavigationModule](Outlook.NavigationModule.md)** object.
+This property returns **olNavigationModule** for the **[NavigationModule](Outlook.NavigationModule.md)** object.
 
 
 ## See also

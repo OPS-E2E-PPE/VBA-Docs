@@ -1,20 +1,19 @@
 ---
-title: PbColorScheme Enumeration (Publisher)
+title: PbColorScheme enumeration (Publisher)
 keywords: vbapb10.chm65580
 f1_keywords:
 - vbapb10.chm65580
-ms.prod: publisher
 api_name:
 - Publisher.PbColorScheme
 ms.assetid: c6b745c0-2233-0dce-fb58-57c42f90b918
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbColorScheme Enumeration (Publisher)
+# PbColorScheme enumeration (Publisher)
 
-Represents a color scheme returned by the  **Item** property. It is a set of coordinated colors used collectively in a publication to provide consistent color.
+Represents a color scheme returned by the **Item** property. It is a set of coordinated colors used collectively in a publication to provide consistent color.
 
 
 

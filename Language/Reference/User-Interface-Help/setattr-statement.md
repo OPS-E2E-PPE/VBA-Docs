@@ -3,10 +3,9 @@ title: SetAttr statement (VBA)
 keywords: vblr6.chm1009017
 f1_keywords:
 - vblr6.chm1009017
-ms.prod: office
 ms.assetid: dad85437-6944-a393-9f12-5827b184f42d
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Sets attribute information for a file.
 ## Syntax
 
 **SetAttr** _pathname_, _attributes_ 
-
-<br/>
 
 The **SetAttr** statement syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

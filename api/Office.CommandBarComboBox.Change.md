@@ -3,12 +3,11 @@ title: CommandBarComboBox.Change event (Office)
 keywords: vbaof11.chm229001
 f1_keywords:
 - vbaof11.chm229001
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.Change
 ms.assetid: ddf1a306-c299-36d5-9851-04d6e5185db9
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,7 @@ Occurs when the end user changes the selection in a **CommandBar** combo box.
 
 ## Syntax
 
-_expression_.**Change** (_ByVal Ctrl As CommandBarComboBox_)
+_expression_.**Change** (_Ctrl_)
 
 _expression_ A variable that represents a **[CommandBarComboBox](Office.CommandBarComboBox.md)** object.
 
@@ -69,8 +68,6 @@ Sub AddComboBox()
 End Sub
 ```
 
-<br/>
-
 The preceding example relies on the following code, which is stored in a class module in the VBA project.
 
 ```vb
@@ -78,7 +75,7 @@ Private WithEvents ComboBoxEvent As Office.CommandBarComboBox
 Public Sub SyncBox(box As Office.CommandBarComboBox) 
     Set ComboBoxEvent = box 
     If Not box Is Nothing Then 
-        MsgBox "Synced " &amp; box.Caption &amp; " ComboBox events." 
+        MsgBox "Synced " & box.Caption & " ComboBox events." 
     End If 
      
 End Sub 

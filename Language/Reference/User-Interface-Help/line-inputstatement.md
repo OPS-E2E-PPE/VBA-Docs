@@ -3,10 +3,9 @@ title: Line Input statement (VBA)
 keywords: vblr6.chm1008962
 f1_keywords:
 - vblr6.chm1008962
-ms.prod: office
 ms.assetid: 30cfc57e-0d28-b53e-c5cd-0ed99957e25d
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Reads a single line from an open sequential file and assigns it to a [String](..
 ## Syntax
 
 **Line Input** #_filenumber_, _varname_
-
-<br/>
 
 The **Line Input #** statement syntax has these parts:
 

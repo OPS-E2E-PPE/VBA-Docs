@@ -3,12 +3,11 @@ title: Chart.ShowLegendFieldButtons property (Word)
 keywords: vbawd10.chm79366941
 f1_keywords:
 - vbawd10.chm79366941
-ms.prod: word
 api_name:
 - Word.Chart.ShowLegendFieldButtons
 ms.assetid: da28865f-d513-3f43-45e7-d1cb25cda18c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns or sets whether to display legend field buttons on a PivotChart. Read/wr
 
 ## Syntax
 
- _expression_. `ShowLegendFieldButtons`
+_expression_.**ShowLegendFieldButtons**
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Remarks

@@ -1,27 +1,26 @@
 ---
-title: Document.FooterLeft Property (Visio)
+title: Document.FooterLeft property (Visio)
 keywords: vis_sdr.chm10550585
 f1_keywords:
 - vis_sdr.chm10550585
-ms.prod: visio
 api_name:
 - Visio.Document.FooterLeft
 ms.assetid: e832c09d-3ddb-4351-43ad-e1c5633b7bc9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.FooterLeft Property (Visio)
+# Document.FooterLeft property (Visio)
 
 Gets or sets the text string that appears on the left side of a document's footer. Read/write.
 
 
 ## Syntax
 
- _expression_. `FooterLeft`
+_expression_.**FooterLeft**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,15 +30,13 @@ String
 
 ## Remarks
 
-You can also set this value in the  **Left** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click  **Print Preview**, and then in the  **Preview** group, click **Header & Footer**).
+You can also set this value in the **Left** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click **Print Preview**, and then in the **Preview** group, click **Header & Footer**).
 
-Both the string returned by  **FooterLeft** and the string to which you set **FooterLeft** can contain escape codes that represent data. These escape codes can be concatenated with other text.
+Both the string returned by **FooterLeft** and the string to which you set **FooterLeft** can contain escape codes that represent data. These escape codes can be concatenated with other text.
 
 Following is a list of valid escape codes for document footers and headers.
 
-
-
-|** Escape code**|** Description**|
+|Escape code|Description|
 |:-----|:-----|
 | &p| Page number|
 | &t or &T| Current time|

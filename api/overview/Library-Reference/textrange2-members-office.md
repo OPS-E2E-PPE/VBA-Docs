@@ -1,10 +1,10 @@
 ---
 title: TextRange2 members (Office)
-description: Represents the text frame in a Shape or ShapeRange object.
-ms.prod: office
+description: Learn how TextRange2 members represents the text frame in a Shape or ShapeRange object with supporting terms and descriptions.
+ms.service: office
 ms.assetid: 26daffff-b9ef-fd94-f5b7-ed3a09840cb6
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,7 +41,7 @@ Represents the text frame in a **Shape** or **ShapeRange** object.
 
 |Name|Description|
 |:-----|:-----|
-|[Application](../../Office.TextRange2.Application.md)|Used without an object qualifier, this property returns an **Application** object that represents the current instance of the Microsoft Office application. Used with an object qualifier, this property returns an **Application** object that represents the creator of the **TextRange2** object. When used with an OLE **Automation** object, it returns the object's application. Read-only.|
+|[Application](../../Office.TextRange2.Application.md)|When used without an object qualifier, this property returns an **Application** object that represents the current instance of the Microsoft Office application. When used with an object qualifier, this property returns an **Application** object that represents the creator of the **TextRange2** object. When used with an OLE **Automation** object, it returns the object's application. Read-only.|
 |[BoundHeight](../../Office.TextRange2.BoundHeight.md)|Gets the height, in points, of the text bounding box for the specified text. Read-only.|
 |[BoundLeft](../../Office.TextRange2.BoundLeft.md)|Gets the left coordinate, in points, of the text bounding box for the specified text. Read-only.|
 |[BoundTop](../../Office.TextRange2.BoundTop.md)|Gets the top coordinate, in points, of the text bounding box for the specified text. Read-only.|

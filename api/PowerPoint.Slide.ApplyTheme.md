@@ -1,27 +1,26 @@
 ---
-title: Slide.ApplyTheme Method (PowerPoint)
+title: Slide.ApplyTheme method (PowerPoint)
 keywords: vbapp10.chm531035
 f1_keywords:
 - vbapp10.chm531035
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.ApplyTheme
 ms.assetid: 70fff6cd-0541-dff8-754e-e8ee1a46dc2b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.ApplyTheme Method (PowerPoint)
+# Slide.ApplyTheme method (PowerPoint)
 
 Applies a theme or design template to the specified slide.
 
 
 ## Syntax
 
- _expression_. `ApplyTheme`( `_themeName_` )
+_expression_. `ApplyTheme`( `_themeName_` )
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Applies a theme or design template to the specified slide.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _themeName_|Required|**String**|The path and name of the theme file (.thmx) or design template file (.pot) to apply to the  **Slide** object.|
+| _themeName_|Required|**String**|The path and name of the theme file (.thmx) or design template file (.pot) to apply to the **Slide** object.|
 
 ## Example
 

@@ -1,32 +1,31 @@
 ---
-title: TableView.ColumnFont Property (Outlook)
+title: TableView.ColumnFont property (Outlook)
 keywords: vbaol11.chm2534
 f1_keywords:
 - vbaol11.chm2534
-ms.prod: outlook
 api_name:
 - Outlook.TableView.ColumnFont
 ms.assetid: f69ff872-1823-b5c0-9a3d-d4cf72973be1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableView.ColumnFont Property (Outlook)
+# TableView.ColumnFont property (Outlook)
 
-Returns a  **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying column headers in the **[TableView](Outlook.TableView.md)** object. Read-only.
+Returns a **[ViewFont](Outlook.ViewFont.md)** object that represents the font used when displaying column headers in the **[TableView](Outlook.TableView.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `ColumnFont`
 
-_expression_ A variable that represents a [TableView](./Outlook.TableView.md) object.
+_expression_ A variable that represents a [TableView](Outlook.TableView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) sample increments the value of the  **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **ColumnFont** property for the current **TableView** object.
+The following Visual Basic for Applications (VBA) sample increments the value of the **[Size](Outlook.ViewFont.Size.md)** property for the **ViewFont** object returned from the **ColumnFont** property for the current **TableView** object.
 
 
 ```vb

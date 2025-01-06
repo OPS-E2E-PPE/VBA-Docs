@@ -1,27 +1,26 @@
 ---
-title: OlkOptionButton.Accelerator Property (Outlook)
+title: OlkOptionButton.Accelerator property (Outlook)
 keywords: vbaol11.chm1000164
 f1_keywords:
 - vbaol11.chm1000164
-ms.prod: outlook
 api_name:
 - Outlook.OlkOptionButton.Accelerator
 ms.assetid: f1b21d0d-b039-b37b-5f60-4d5acbeaf508
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkOptionButton.Accelerator Property (Outlook)
+# OlkOptionButton.Accelerator property (Outlook)
 
-Returns or sets a  **String** value that represents the accelerator or hot key for the control. Read/write.
+Returns or sets a **String** value that represents the accelerator or hot key for the control. Read/write.
 
 
 ## Syntax
 
 _expression_. `Accelerator`
 
-_expression_ A variable that represents an [OlkOptionButton](./Outlook.OlkOptionButton.md) object.
+_expression_ A variable that represents an [OlkOptionButton](Outlook.OlkOptionButton.md) object.
 
 
 ## Remarks

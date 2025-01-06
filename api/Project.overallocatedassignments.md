@@ -1,28 +1,28 @@
 ---
-title: OverAllocatedAssignments Object (Project)
-ms.prod: project-server
+title: OverAllocatedAssignments object (Project)
+ms.service: project-server
 ms.assetid: b2856ebf-cff2-04a6-53c9-123de09f2a3b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OverAllocatedAssignments Object (Project)
+# OverAllocatedAssignments object (Project)
 
-Represents a collection of  **[Assignment](Project.Assignment.md)** objects where the resource is overallocated.
+Represents a collection of **[Assignment](Project.Assignment.md)** objects where the resource is overallocated.
  
 
 
 ## Remarks
 
-Use the  **[Item](Project.OverAllocatedAssignments.Item.md)** property to get a single **Assignment** object from the **OverAllocatedAssignments** collection.
+Use the **[Item](Project.OverAllocatedAssignments.Item.md)** property to get a single **Assignment** object from the **OverAllocatedAssignments** collection.
  
 
  
 
 ## Example
 
-The following example finds assignments where the resource is overallocated. When the overPeak argument is  **False**, the overallocation is not greater than the maximum resource time available (100%). If you set overPeak to **True**, the example finds overallocated assignments that exceed maximum resource time available, such as 150%.
+The following example finds assignments where the resource is overallocated. When the overPeak argument is **False**, the overallocation is not greater than the maximum resource time available (100%). If you set overPeak to **True**, the example finds overallocated assignments that exceed maximum resource time available, such as 150%.
  
 
  
@@ -44,8 +44,8 @@ Sub FindOverallocatedAssignments()
             totalNumOver = overAlloc.TotalDetectedCount  
   
             For Each a In overAlloc  
-                Debug.Print "Resource: " &amp; a.Resource.Name &amp; " is overallocated on task: " &amp; t.Name  
-                Debug.Print vbTab &amp; "Number of overallocated assignments: " &amp; numOver  
+                Debug.Print "Resource: " & a.Resource.Name & " is overallocated on task: " & t.Name  
+                Debug.Print vbTab & "Number of overallocated assignments: " & numOver  
             Next a  
         End If  
     Next t  

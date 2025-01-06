@@ -3,25 +3,24 @@ title: Sections.PageSetup property (Word)
 keywords: vbawd10.chm156894285
 f1_keywords:
 - vbawd10.chm156894285
-ms.prod: word
 api_name:
 - Word.Sections.PageSetup
 ms.assetid: d6d86ddf-bb28-f2fc-49ff-7cfe04853fba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Sections.PageSetup property (Word)
 
-Returns a  **PageSetup** object that's associated with the specified document, range, section, sections, or selection.
+Returns a **PageSetup** object that's associated with the specified document, range, section, sections, or selection.
 
 
 ## Syntax
 
- _expression_. `PageSetup`
+_expression_.**PageSetup**
 
- _expression_ A variable that represents a '[Sections](Word.sections.md)' collection.
+_expression_ A variable that represents a '[Sections](Word.sections.md)' collection.
 
 
 ## Example

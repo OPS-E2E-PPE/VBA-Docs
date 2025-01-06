@@ -3,18 +3,17 @@ title: NavigationControl.Undo method (Access)
 keywords: vbaac10.chm11030
 f1_keywords:
 - vbaac10.chm11030
-ms.prod: access
 api_name:
 - Access.NavigationControl.Undo
 ms.assetid: d15daeaf-5c78-5833-9fed-d57d2996e60b
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.Undo method (Access)
 
-You can use the **Undo** method to reset a control or form when its value has been changed.
+Use the **Undo** method to reset a control or form when its value has been changed.
 
 
 ## Syntax
@@ -44,8 +43,6 @@ Private Sub LastName_Change()
  Me!LastName.Undo 
 End Sub
 ```
-
-<br/>
 
 The next example uses the **Undo** method to reset all changes to a form before the form is updated.
 

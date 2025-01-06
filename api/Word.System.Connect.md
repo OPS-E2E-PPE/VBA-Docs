@@ -3,12 +3,11 @@ title: System.Connect method (Word)
 keywords: vbawd10.chm154468454
 f1_keywords:
 - vbawd10.chm154468454
-ms.prod: word
 api_name:
 - Word.System.Connect
 ms.assetid: c2f2bc89-89a7-8ca0-3e78-ea558068b044
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Establishes a connection to a network drive.
 
 ## Syntax
 
- _expression_. `Connect`( `_Path_` , `_Drive_` , `_Password_` )
+_expression_. `Connect`( `_Path_` , `_Drive_` , `_Password_` )
 
- _expression_ Required. A variable that represents a '[System](Word.System.md)' object.
+_expression_ Required. A variable that represents a '[System](Word.System.md)' object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ Avoid using hard-coded passwords in your applications. If a password is required
 
 ## Remarks
 
-Use the  **Dialogs** property with the **wdDialogConnect** constant to display the **Connect To Network Drive** dialog box. The following example displays the **Connect To Network Drive** dialog box, with a preset path shown.
+Use the **Dialogs** property with the **wdDialogConnect** constant to display the **Connect To Network Drive** dialog box. The following example displays the **Connect To Network Drive** dialog box, with a preset path shown.
 
 
 ```vb

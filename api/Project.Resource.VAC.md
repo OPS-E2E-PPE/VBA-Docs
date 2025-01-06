@@ -1,24 +1,24 @@
 ---
-title: Resource.VAC Property (Project)
-ms.prod: project-server
+title: Resource.VAC property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.VAC
 ms.assetid: ad0f461c-5f8d-1bcd-e5c7-9d127030b291
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.VAC Property (Project)
+# Resource.VAC property (Project)
 
-Gets the VAC (Variance At Completion) cost for the resource. Read-only  **Variant**.
+Gets the VAC (Variance At Completion) cost for the resource. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `VAC`
+_expression_. `VAC`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks

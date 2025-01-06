@@ -1,18 +1,17 @@
 ---
-title: OlkOptionButton.AfterUpdate Event (Outlook)
+title: OlkOptionButton.AfterUpdate event (Outlook)
 keywords: vbaol11.chm1000190
 f1_keywords:
 - vbaol11.chm1000190
-ms.prod: outlook
 api_name:
 - Outlook.OlkOptionButton.AfterUpdate
 ms.assetid: aa573288-f4fb-656c-304b-f564335c8c2d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkOptionButton.AfterUpdate Event (Outlook)
+# OlkOptionButton.AfterUpdate event (Outlook)
 
 Occurs after the data in the control has been changed through the user interface.
 
@@ -21,7 +20,7 @@ Occurs after the data in the control has been changed through the user interface
 
 _expression_.**AfterUpdate**
 
-_expression_ A variable that represents an [OlkOptionButton](./Outlook.OlkOptionButton.md) object.
+_expression_ A variable that represents an [OlkOptionButton](Outlook.OlkOptionButton.md) object.
 
 
 ## Remarks
@@ -31,13 +30,13 @@ _expression_ A variable that represents an [OlkOptionButton](./Outlook.OlkOption
 
 1. User focuses on the control
     
-2.  **BeforeUpdate**
+2. **BeforeUpdate**
     
 3. Control data is updated
     
-4.  ** AfterUpdate**
+4. **AfterUpdate**
     
-5.  **Exit** : User moves focus away from control
+5. **Exit** : User moves focus away from control
     
 
 

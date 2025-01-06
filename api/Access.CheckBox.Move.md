@@ -3,12 +3,11 @@ title: CheckBox.Move method (Access)
 keywords: vbaac10.chm10751
 f1_keywords:
 - vbaac10.chm10751
-ms.prod: access
 api_name:
 - Access.CheckBox.Move
 ms.assetid: 147a42c1-4e1d-f814-e8a6-5a0d328cf79c
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

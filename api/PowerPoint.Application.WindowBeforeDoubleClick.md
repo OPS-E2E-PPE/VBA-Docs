@@ -1,27 +1,26 @@
 ---
-title: Application.WindowBeforeDoubleClick Event (PowerPoint)
+title: Application.WindowBeforeDoubleClick event (PowerPoint)
 keywords: vbapp10.chm621003
 f1_keywords:
 - vbapp10.chm621003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.WindowBeforeDoubleClick
 ms.assetid: 9b270238-1658-df56-4208-9cb98666519c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowBeforeDoubleClick Event (PowerPoint)
+# Application.WindowBeforeDoubleClick event (PowerPoint)
 
 Occurs when you double-click the items in the views listed in the following table.
 
 
 ## Syntax
 
- _expression_. `WindowBeforeDoubleClick`( `_Sel_`, `_Cancel_` )
+_expression_. `WindowBeforeDoubleClick`( `_Sel_`, `_Cancel_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 
@@ -45,16 +44,16 @@ For information about using events with the  **Application** object, see [How to
 |Slide sorter view|Slide|
 |Notes page view|Slide image|
 
-The default double-click action occurs after this event unless the Cancel argument is set to  **True**.
+The default double-click action occurs after this event unless the Cancel argument is set to **True**.
 
 
 ## Example
 
-In slide sorter view, the default double-click event for any slide is to change to slide view. In this example, if the active presentation is displayed in slide sorter view, the default action is preempted by the  **WindowBeforeDoubleClick** event. The event procedure changes the view to normal view and then cancels the change to slide view by setting the Cancel argument to **True**.
+In slide sorter view, the default double-click event for any slide is to change to slide view. In this example, if the active presentation is displayed in slide sorter view, the default action is preempted by the **WindowBeforeDoubleClick** event. The event procedure changes the view to normal view and then cancels the change to slide view by setting the Cancel argument to **True**.
 
 
 ```vb
-Private Sub App_WindowBeforeDoubleClick (ByVal Sel As Selection, ByVal Cancel As Boolean)
+Private Sub App_WindowBeforeDoubleClick (ByVal Sel As Selection, Cancel As Boolean)
 
     With Application.ActiveWindow
 

@@ -1,27 +1,26 @@
 ---
-title: Shape.Paths Property (Visio)
+title: Shape.Paths property (Visio)
 keywords: vis_sdr.chm11214055
 f1_keywords:
 - vis_sdr.chm11214055
-ms.prod: visio
 api_name:
 - Visio.Shape.Paths
 ms.assetid: 8a179059-7cab-728a-c7b8-a4d8b31476ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Paths Property (Visio)
+# Shape.Paths property (Visio)
 
-Returns a  **Paths** collection that reports the coordinates of a shape's paths in the coordinate system of the shape's parent. Read-only.
+Returns a **Paths** collection that reports the coordinates of a shape's paths in the coordinate system of the shape's parent. Read-only.
 
 
 ## Syntax
 
- _expression_. `Paths`
+_expression_. `Paths`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Paths
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro places a shape on the page, retrieves its  **Paths** collection, and then uses the **Points** property of the **Path** object to return an array of points that defines a polyline approximating the **Path** object.
+This Microsoft Visual Basic for Applications (VBA) macro places a shape on the page, retrieves its **Paths** collection, and then uses the **Points** property of the **Path** object to return an array of points that defines a polyline approximating the **Path** object.
 
 
 ```vb

@@ -3,12 +3,11 @@ title: Gridlines.Parent property (Excel)
 keywords: vbaxl10.chm602073
 f1_keywords:
 - vbaxl10.chm602073
-ms.prod: excel
 api_name:
 - Excel.Gridlines.Parent
 ms.assetid: 78d616e6-0eb1-3a9a-31b0-ce368df620a2
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/26/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,8 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Gridlines](Excel.Gridlines-graph-object.md) object.
+_expression_ A variable that represents a **[Gridlines](excel.gridlines(object).md)** object.
 
 
-## See also
-
-
-[Gridlines Object](Excel.Gridlines(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

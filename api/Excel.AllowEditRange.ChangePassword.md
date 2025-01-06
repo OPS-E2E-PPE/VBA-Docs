@@ -3,12 +3,11 @@ title: AllowEditRange.ChangePassword method (Excel)
 keywords: vbaxl10.chm725075
 f1_keywords:
 - vbaxl10.chm725075
-ms.prod: excel
 api_name:
 - Excel.AllowEditRange.ChangePassword
 ms.assetid: 1cc52121-f626-eaaa-9ea0-879634e34af7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/04/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Changes the password for a range that can be edited on a protected worksheet.
 
 ## Syntax
 
-_expression_. `ChangePassword`( `_Password_` )
+_expression_.**ChangePassword** (_Password_)
 
-_expression_ A variable that represents an [AllowEditRange](Excel.AllowEditRange.md) object.
+_expression_ A variable that represents an **[AllowEditRange](Excel.AllowEditRange.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +31,7 @@ _expression_ A variable that represents an [AllowEditRange](Excel.AllowEditRange
 
 ## Example
 
-In this example, Microsoft Excel allows edits to range "A1:A4" on the active worksheet, notifies the user, changes the password for this specified range, and notifies the user of the change. The worksheet must be unprotected before running this code.
+In this example, Microsoft Excel allows edits to range A1:A4 on the active worksheet, notifies the user, changes the password for this specified range, and then notifies the user of the change. The worksheet must be unprotected before running this code.
 
 
 ```vb
@@ -66,9 +63,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[AllowEditRange Object](Excel.AllowEditRange.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

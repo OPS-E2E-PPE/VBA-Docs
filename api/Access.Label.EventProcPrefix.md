@@ -3,12 +3,11 @@ title: Label.EventProcPrefix property (Access)
 keywords: vbaac10.chm10188
 f1_keywords:
 - vbaac10.chm10188
-ms.prod: access
 api_name:
 - Access.Label.EventProcPrefix
 ms.assetid: 089ac12e-6ad3-4c0f-1025-be4c21f036c6
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

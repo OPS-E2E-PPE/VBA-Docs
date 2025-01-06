@@ -3,10 +3,9 @@ title: AddControl event, Add method example
 keywords: fm20.chm5225176
 f1_keywords:
 - fm20.chm5225176
-ms.prod: office
 ms.assetid: 6a57bc57-7971-c6b1-72a1-78d5c835b380
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

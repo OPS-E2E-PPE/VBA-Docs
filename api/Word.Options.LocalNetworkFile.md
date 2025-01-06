@@ -3,12 +3,11 @@ title: Options.LocalNetworkFile property (Word)
 keywords: vbawd10.chm162988456
 f1_keywords:
 - vbawd10.chm162988456
-ms.prod: word
 api_name:
 - Word.Options.LocalNetworkFile
 ms.assetid: 18b14c62-f648-eede-39a1-a27d3c6c1229
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LocalNetworkFile`
+_expression_. `LocalNetworkFile`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

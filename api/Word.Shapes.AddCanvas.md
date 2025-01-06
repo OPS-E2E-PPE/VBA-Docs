@@ -3,25 +3,24 @@ title: Shapes.AddCanvas method (Word)
 keywords: vbawd10.chm161415193
 f1_keywords:
 - vbawd10.chm161415193
-ms.prod: word
 api_name:
 - Word.Shapes.AddCanvas
 ms.assetid: ff6da70f-f6ce-83f8-8e30-95b50a1f4e4f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shapes.AddCanvas method (Word)
 
-Adds a drawing canvas to a document. Returns a  **[Shape](Word.Shape.md)** object that represents the drawing canvas and adds it to the **Shapes** collection.
+Adds a drawing canvas to a document. Returns a **[Shape](Word.Shape.md)** object that represents the drawing canvas and adds it to the **Shapes** collection.
 
 
 ## Syntax
 
- _expression_. `AddCanvas`( `_Left_` , `_Top_` , `_Width_` , `_Height_` , `_Anchor_` )
+_expression_. `AddCanvas`( `_Left_` , `_Top_` , `_Width_` , `_Height_` , `_Anchor_` )
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
@@ -30,11 +29,11 @@ Adds a drawing canvas to a document. Returns a  **[Shape](Word.Shape.md)** objec
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Left_|Required| **Single**|The position, in points, of the left edge of the drawing canvas, relative to the anchor.|
-| _Top_|Required| **Single**|The position, in points, of the top edge of the drawing canvas, relative to the anchor.|
-| _Width_|Required| **Single**|The width, in points, of the drawing canvas.|
-| _Height_|Required| **Single**|The height, in points, of the drawing canvas.|
-| _Anchor_|Optional| **Variant**|A  **[Range](Word.Range.md)** object that represents the text to which the canvas is bound. If Anchor is specified, the anchor is positioned at the beginning of the first paragraph in the anchoring range. If this argument is omitted, the anchoring range is selected automatically and the canvas is positioned relative to the top and left edges of the page.|
+| _Left_|Required| **Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the left edge of the drawing canvas, relative to the anchor.|
+| _Top_|Required| **Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the top edge of the drawing canvas, relative to the anchor.|
+| _Width_|Required| **Single**|The width, in [points](../language/glossary/vbe-glossary.md#point), of the drawing canvas.|
+| _Height_|Required| **Single**|The height, in [points](../language/glossary/vbe-glossary.md#point), of the drawing canvas.|
+| _Anchor_|Optional| **Variant**|A **[Range](Word.Range.md)** object that represents the text to which the canvas is bound. If Anchor is specified, the anchor is positioned at the beginning of the first paragraph in the anchoring range. If this argument is omitted, the anchoring range is selected automatically and the canvas is positioned relative to the top and left edges of the page.|
 
 ## Return value
 

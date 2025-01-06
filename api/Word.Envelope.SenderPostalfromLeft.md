@@ -3,23 +3,22 @@ title: Envelope.SenderPostalfromLeft property (Word)
 keywords: vbawd10.chm152567837
 f1_keywords:
 - vbawd10.chm152567837
-ms.prod: word
 api_name:
 - Word.Envelope.SenderPostalfromLeft
 ms.assetid: 40cb389c-47c7-09d6-7ebf-f83babd0a517
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.SenderPostalfromLeft property (Word)
 
-Returns or sets a  **Single** that represents the position, measured in points, of the sender's postal code from the left edge of the envelope. Read/write.
+Returns or sets a **Single** that represents the position, measured in points, of the sender's postal code from the left edge of the envelope. Read/write.
 
 
 ## Syntax
 
- _expression_. `SenderPostalfromLeft`
+_expression_. `SenderPostalfromLeft`
 
  _expression_ An expression that returns an '[Envelope](Word.Envelope.md)' object.
 

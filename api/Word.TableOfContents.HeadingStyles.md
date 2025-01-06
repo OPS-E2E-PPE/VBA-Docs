@@ -3,25 +3,24 @@ title: TableOfContents.HeadingStyles property (Word)
 keywords: vbawd10.chm152240134
 f1_keywords:
 - vbawd10.chm152240134
-ms.prod: word
 api_name:
 - Word.TableOfContents.HeadingStyles
 ms.assetid: 05cf7783-6b5d-bfbb-a417-1ae12d13f78e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableOfContents.HeadingStyles property (Word)
 
-Returns a  **[HeadingStyles](Word.headingstyles.md)** object that represents additional styles used to compile a table of contents or table of figures (styles other than the Heading 1 - Heading 9 styles). Read-only.
+Returns a **[HeadingStyles](Word.headingstyles.md)** object that represents additional styles used to compile a table of contents or table of figures (styles other than the Heading 1 - Heading 9 styles). Read-only.
 
 
 ## Syntax
 
- _expression_. `HeadingStyles`
+_expression_. `HeadingStyles`
 
- _expression_ A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
+_expression_ A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
 
 
 ## Example

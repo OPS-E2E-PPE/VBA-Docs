@@ -1,34 +1,33 @@
 ---
-title: Series.ApplyDataLabels Method (PowerPoint)
+title: Series.ApplyDataLabels method (PowerPoint)
 keywords: vbapp10.chm716004
 f1_keywords:
 - vbapp10.chm716004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Series.ApplyDataLabels
 ms.assetid: d8f4752f-1ff4-8a42-4b9f-12d81814f4f2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.ApplyDataLabels Method (PowerPoint)
+# Series.ApplyDataLabels method (PowerPoint)
 
 Applies data labels to a series.
 
 
 ## Syntax
 
- _expression_. `ApplyDataLabels`(`Type`, `LegendKey`, `AutoText`, `HasLeaderLines`, `ShowSeriesName`, `ShowCategoryName`, `ShowValue`, `ShowPercentage`, `ShowBubbleSize`, `Separator`)
+_expression_.**ApplyDataLabels** (`Type`, `LegendKey`, `AutoText`, `HasLeaderLines`, `ShowSeriesName`, `ShowCategoryName`, `ShowValue`, `ShowPercentage`, `ShowBubbleSize`, `Separator`)
 
- _expression_ A variable that represents a [Series](PowerPoint.Series.md) object.
+_expression_ A variable that represents a [Series](PowerPoint.Series.md) object.
 
 
 ## Parameters
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Optional|**[xlDataLabelsType](PowerPoint.XlDataLabelsType.md)**|The type of data label to apply.|
+| _Type_|Optional|**[XlDataLabelsType](PowerPoint.XlDataLabelsType.md)**|The type of data label to apply.|
 | _LegendKey_|Optional|**Variant**|**True** to show the legend key next to the point. The default is **False**.|
 | _AutoText_|Optional|**Variant**|**True** if the object automatically generates appropriate text based on content.|
 | _HasLeaderLines_|Optional|**Variant**|For the **[Chart](PowerPoint.Chart.md)** and **[Series](PowerPoint.Series.md)** objects, **True** if the series has leader lines.|

@@ -1,27 +1,26 @@
 ---
-title: Font.AutoRotateNumbers Property (PowerPoint)
+title: Font.AutoRotateNumbers property (PowerPoint)
 keywords: vbapp10.chm575018
 f1_keywords:
 - vbapp10.chm575018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Font.AutoRotateNumbers
 ms.assetid: 621ccc86-d5cb-d2c1-262f-5652eff5800a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.AutoRotateNumbers Property (PowerPoint)
+# Font.AutoRotateNumbers property (PowerPoint)
 
 Returns or sets lateral compression. Read/write.
 
 
 ## Syntax
 
- _expression_. `AutoRotateNumbers`
+_expression_. `AutoRotateNumbers`
 
- _expression_ A variable that represents an [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents an [Font](PowerPoint.Font.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **AutoRotateNumbers** property can be one of these **MsoTriState** constants.
+The value of the **AutoRotateNumbers** property can be one of these **MsoTriState** constants.
 
 
 

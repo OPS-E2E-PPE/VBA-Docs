@@ -3,12 +3,11 @@ title: SharedWorkspaceTask.Status property (Office)
 keywords: vbaof11.chm264003
 f1_keywords:
 - vbaof11.chm264003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceTask.Status
 ms.assetid: de1e6222-67cb-107d-ad59-7d3ea38d5283
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,10 +43,10 @@ The following example displays a list of all tasks in the current shared workspa
     Dim strTaskStatus As String 
     For Each swsTask In ActiveWorkbook.SharedWorkspace.Tasks 
         If swsTask.Status <> msoSharedWorkspaceTaskStatusCompleted Then 
-            strTaskStatus = strTaskStatus &amp; swsTask.Title &amp; vbCrLf 
+            strTaskStatus = strTaskStatus & swsTask.Title & vbCrLf 
         End If 
     Next 
-    MsgBox "The following tasks have not been completed:" &amp; vbCrLf &amp; _ 
+    MsgBox "The following tasks have not been completed:" & vbCrLf & _ 
         strTaskStatus, vbInformation + vbOKOnly, "Incomplete Tasks" 
     Set swsTask = Nothing 
 

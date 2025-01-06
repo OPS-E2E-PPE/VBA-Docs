@@ -1,27 +1,26 @@
 ---
-title: HeaderFooter.Parent Property (PowerPoint)
+title: HeaderFooter.Parent property (PowerPoint)
 keywords: vbapp10.chm582002
 f1_keywords:
 - vbapp10.chm582002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.HeaderFooter.Parent
 ms.assetid: b97fbcf9-b3e9-9843-eb99-f73b63c66197
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# HeaderFooter.Parent Property (PowerPoint)
+# HeaderFooter.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [HeaderFooter](./PowerPoint.HeaderFooter.md) object.
+_expression_ A variable that represents a [HeaderFooter](PowerPoint.HeaderFooter.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

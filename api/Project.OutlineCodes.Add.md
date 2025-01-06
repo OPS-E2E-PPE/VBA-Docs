@@ -1,29 +1,27 @@
 ---
-title: OutlineCodes.Add Method (Project)
-ms.prod: project-server
+title: OutlineCodes.Add method (Project)
+ms.service: project-server
 api_name:
 - Project.OutlineCodes.Add
 ms.assetid: e33dcb6b-90a3-e52c-099a-f0a901b3f3f7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlineCodes.Add Method (Project)
+# OutlineCodes.Add method (Project)
 
-Adds an  **OutlineCode** object to an **OutlineCodes** collection.
+Adds an **OutlineCode** object to an **OutlineCodes** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_FieldID_`, `_Name_` )
+_expression_.**Add** (_FieldID_, _Name_)
 
- _expression_ A variable that represents an 'OutlineCodes' object.
+_expression_ A variable that represents an 'OutlineCodes' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

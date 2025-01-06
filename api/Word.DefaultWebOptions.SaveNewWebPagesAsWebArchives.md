@@ -3,12 +3,11 @@ title: DefaultWebOptions.SaveNewWebPagesAsWebArchives property (Word)
 keywords: vbawd10.chm165871634
 f1_keywords:
 - vbawd10.chm165871634
-ms.prod: word
 api_name:
 - Word.DefaultWebOptions.SaveNewWebPagesAsWebArchives
 ms.assetid: a2c8a225-431e-9292-d081-bd71d27aae9c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SaveNewWebPagesAsWebArchives`
+_expression_.**SaveNewWebPagesAsWebArchives**
 
- _expression_ An expression that returns a '[DefaultWebOptions](Word.DefaultWebOptions.md)' object.
+ _expression_ An expression that returns a **[DefaultWebOptions](Word.DefaultWebOptions.md)** object.
 
 
 ## Remarks
 
-Setting the  **SaveNewWebPagesAsWebArchives** property won't change the format of any saved Web pages. To change their format, you must individually open them and then use the **[SaveAs2](Word.SaveAs2.md)** method to set the Web page format.
+Setting the **SaveNewWebPagesAsWebArchives** property won't change the format of any saved Web pages. To change their format, you must individually open them and then use the **[SaveAs2](Word.SaveAs2.md)** method to set the webpage format.
 
 
 ## Example
 
-This example enables the  **SaveNewWebPagesAsWebArchives** property so that when Web pages are saved, they are saved in the Single File Web Page format.
+This example enables the **SaveNewWebPagesAsWebArchives** property so that when Web pages are saved, they are saved in the Single File Web Page format.
 
 
 ```vb

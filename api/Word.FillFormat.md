@@ -3,12 +3,11 @@ title: FillFormat object (Word)
 keywords: vbawd10.chm2504
 f1_keywords:
 - vbawd10.chm2504
-ms.prod: word
 api_name:
 - Word.FillFormat
 ms.assetid: 39205d07-9e37-1be1-ec4a-93ba8bac2f26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Represents fill formatting for a shape. A shape can have a solid, gradient, text
 
 ## Remarks
 
-Use the  **Fill** property to return a **FillFormat** object. The following example adds a rectangle to the active document and then sets the gradient and color for the rectangle's fill.
+Use the **Fill** property to return a **FillFormat** object. The following example adds a rectangle to the active document and then sets the gradient and color for the rectangle's fill.
 
 
 ```vb
@@ -30,7 +29,7 @@ With ActiveDocument.Shapes _
 End With
 ```
 
-Many of the properties of the  **FillFormat** object are read-only. To set one of these properties, you have to apply the corresponding method.
+Many of the properties of the **FillFormat** object are read-only. To set one of these properties, you have to apply the corresponding method.
 
 
 ## Methods
@@ -85,6 +84,6 @@ Many of the properties of the  **FillFormat** object are read-only. To set one o
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

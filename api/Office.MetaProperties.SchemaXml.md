@@ -3,12 +3,11 @@ title: MetaProperties.SchemaXml property (Office)
 keywords: vbaof11.chm274007
 f1_keywords:
 - vbaof11.chm274007
-ms.prod: office
 api_name:
 - Office.MetaProperties.SchemaXml
 ms.assetid: c51acc59-3014-8678-c697-425be9dc3aeb
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,15 +1,14 @@
 ---
-title: MeetingItem.AttachmentRemove Event (Outlook)
-ms.prod: outlook
+title: MeetingItem.AttachmentRemove event (Outlook)
 api_name:
 - Outlook.MeetingItem.AttachmentRemove
 ms.assetid: 418fcee8-fba8-1296-0689-75d4f84c508a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.AttachmentRemove Event (Outlook)
+# MeetingItem.AttachmentRemove event (Outlook)
 
 Occurs when an attachment has been removed from an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been removed from an instance of the parent object
 
 _expression_. `AttachmentRemove`( `_Attachment_` )
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was removed from the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was removed from the item.|
 
 ## See also
 

@@ -3,18 +3,17 @@ title: Application.CurrentObjectName property (Access)
 keywords: vbaac10.chm12502
 f1_keywords:
 - vbaac10.chm12502
-ms.prod: access
 api_name:
 - Access.Application.CurrentObjectName
 ms.assetid: 85b32556-96ed-ed3c-dc5b-4c2570639f50
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CurrentObjectName property (Access)
 
-You can use the **CurrentObjectName** property with the **Application** object to determine the name of the active database object. The active database object is the object that has the focus or in which code is running. Read-only **String**.
+Use the **CurrentObjectName** property with the **Application** object to determine the name of the active database object. The active database object is the object that has the focus or in which code is running. Read-only **String**.
 
 
 ## Syntax
@@ -43,7 +42,7 @@ The following conditions determine which object is considered the active object:
 
 ## Example
 
-You can use this property with the **[SysCmd](Access.Application.SysCmd.md)** method to determine the active object and its state (for example, if the object is open, new, or has been changed but not saved).
+Use this property with the **[SysCmd](Access.Application.SysCmd.md)** method to determine the active object and its state (for example, if the object is open, new, or has been changed but not saved).
 
 The following example uses the **CurrentObjectType** and **CurrentObjectName** properties with the **SysCmd** function to determine if the active object is the Products form and if this form is open and has been changed but not saved. If these conditions are true, the form is saved and then closed.
 

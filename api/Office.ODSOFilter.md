@@ -3,12 +3,11 @@ title: ODSOFilter object (Office)
 keywords: vbaof11.chm240000
 f1_keywords:
 - vbaof11.chm240000
-ms.prod: office
 api_name:
 - Office.ODSOFilter
 ms.assetid: 9c1babb7-31af-3c43-47ae-3864f6462c27
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -24,7 +23,7 @@ Each filter is a line in a query string. Use the **Column**, **CompareTo**, **Co
 
 ## Example
 
-The following example changes an existing filter to remove from the mail merge all records that do not have a **Region** field equal to "WA".
+The following example changes an existing filter to remove from the mail merge all records that don't have a **Region** field equal to "WA".
 
 
 ```vb
@@ -33,7 +32,7 @@ Sub SetQueryCriterion()
  Dim intItem As Integer 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  With appOffice.Filters 
@@ -50,8 +49,6 @@ Sub SetQueryCriterion()
 End Sub
 ```
 
-<br/>
-
 Use the **[Add](office.odsofilters.add.md)** method of the **ODSOFilters** object to add a new filter criterion to the query. This example adds a new line to the query string and then applies the combined filter to the data source.
 
 ```vb
@@ -59,7 +56,7 @@ Sub SetQueryCriterion()
  Dim appOffice As OfficeDataSourceObject 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  With appOffice.Filters 

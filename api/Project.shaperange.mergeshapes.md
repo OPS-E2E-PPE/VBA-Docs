@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.MergeShapes Method (Project)
-ms.prod: project-server
+title: ShapeRange.MergeShapes method (Project)
+ms.service: project-server
 ms.assetid: c470a800-6010-111b-831d-023e480fca31
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.MergeShapes Method (Project)
-The  **MergeShapes** method is not implemented in Project.
+# ShapeRange.MergeShapes method (Project)
+The **MergeShapes** method is not implemented in Project.
 
 ## Syntax
 
- _expression_. `MergeShapes` _(MergeCmd,_ _PrimaryShape)_
+_expression_. `MergeShapes` _(MergeCmd,_ _PrimaryShape)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ The  **MergeShapes** method is not implemented in Project.
 
 ## Remarks
 
-In general for applications that implement Office Art, the  **MergeShapes** method merges two or more shapes in a shape range into the specified **Shape** object. Project does not support the **MergeShapes** method.
+In general for applications that implement Office Art, the **MergeShapes** method merges two or more shapes in a shape range into the specified **Shape** object. Project does not support the **MergeShapes** method.
 
 
 ## See also

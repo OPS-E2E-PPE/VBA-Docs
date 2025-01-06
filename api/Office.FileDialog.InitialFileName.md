@@ -3,12 +3,11 @@ title: FileDialog.InitialFileName property (Office)
 keywords: vbaof11.chm256008
 f1_keywords:
 - vbaof11.chm256008
-ms.prod: office
 api_name:
 - Office.FileDialog.InitialFileName
 ms.assetid: 900970fe-1331-9b0a-3182-953cb6b583ce
 ms.date: 01/09/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[FileDialog](Office.FileDialog.md)**
 
 ## Remarks
 
-You can use the `*` and `?` wildcard characters when specifying the file name but not when specifying the path. The `*` symbol represents any number of consecutive characters, and the `?` represents a single character. For example, **.InitialFileName = "c:\c*s.txt"** returns both "charts.txt" and "checkregister.txt."
+Use the `*` and `?` wildcard characters when specifying the file name but not when specifying the path. The `*` symbol represents any number of consecutive characters, and the `?` represents a single character. For example, **.InitialFileName = "c:\c*s.txt"** returns both "charts.txt" and "checkregister.txt."
 
 If you specify a path and no file name, all files that are allowed by the file filter appear in the dialog box.
 
@@ -73,9 +72,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'If the user presses Cancel... 

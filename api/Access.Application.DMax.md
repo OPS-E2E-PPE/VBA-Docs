@@ -3,18 +3,17 @@ title: Application.DMax method (Access)
 keywords: vbaac10.chm12526
 f1_keywords:
 - vbaac10.chm12526
-ms.prod: access
 api_name:
 - Access.Application.DMax
 ms.assetid: d6d978f2-edad-f478-8c15-bc7aa5b575e0
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.DMax method (Access)
 
-You can use the **DMax** function to determine the maximum value in a specified set of records (a domain).
+Use the **DMax** function to determine the maximum value in a specified set of records (a domain).
 
 
 ## Syntax
@@ -45,10 +44,10 @@ The **DMax** function returns the maximum value that satisfies _criteria_. If _e
 
 The **DMax** function ignores **Null** values in the field referenced by _expr_. However, if no record satisfies _criteria_, or if _domain_ contains no records, the **DMax** function returns a **Null**.
 
-You can use the **DMax** function to specify criteria in the **Criteria** row of a query, in a calculated field expression in a query, or in the **Update To** row of an update query.
+Use the **DMax** function to specify criteria in the **Criteria** row of a query, in a calculated field expression in a query, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use the **DMax** function or the **Max** function in a calculated field expression of a totals query. If you use the **DMax** function, values are evaluated before the data is grouped. If you use the **Max** function, the data is grouped before values in the field expression are evaluated.
+> Use the **DMax** function or the **Max** function in a calculated field expression of a totals query. If you use the **DMax** function, values are evaluated before the data is grouped. If you use the **Max** function, the data is grouped before values in the field expression are evaluated.
 
 Use the **DMax** function in a calculated control when you need to specify criteria to restrict the range of data on which the function is performed. For example, to display the maximum freight charged for an order shipped to California, set the **ControlSource** property of a text box to the following expression:
 
@@ -73,8 +72,6 @@ curX = DMin("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 curY = DMax("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
 
-<br/>
-
 In the next example, the _criteria_ argument includes the current value of a text box called OrderDate. The text box is bound to an **OrderDate** field in an Orders table. Note that the reference to the control isn't included in the double quotation marks (") that denote the strings. This ensures that each time the **DMax** function is called, Microsoft Access obtains the current value from the control.
 
 ```vb
@@ -82,8 +79,6 @@ Dim curX As Currency
 curX = DMax("[Freight]", "Orders", "[OrderDate] = #" _ 
     & Forms!Orders!OrderDate & "#")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DMax** function.
 

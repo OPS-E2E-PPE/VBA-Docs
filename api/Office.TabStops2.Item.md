@@ -1,11 +1,10 @@
 ---
 title: TabStops2.Item method (Office)
-ms.prod: office
 api_name:
 - Office.TabStops2.Item
 ms.assetid: 9b5eeeae-3535-b21d-75b1-25c19e12c86e
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: SharedWorkspaceFile.ModifiedDate property (Office)
 keywords: vbaof11.chm266005
 f1_keywords:
 - vbaof11.chm266005
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile.ModifiedDate
 ms.assetid: c4d0f54c-db16-8a1e-a5d0-56ec9d5287fa
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,14 +41,14 @@ Dim swsFile As Office.SharedWorkspaceFile
     Dim dtmMidnight As Date 
     Dim dtmFileDate As Date 
     Dim strOlderFiles As String 
-    dtmMidnight = CDate(FormatDateTime(Now, vbShortDate) &amp; " 12:00:00 am") 
+    dtmMidnight = CDate(FormatDateTime(Now, vbShortDate) & " 12:00:00 am") 
     For Each swsFile In ActiveWorkbook.SharedWorkspace.Files 
         dtmFileDate = swsFile.ModifiedDate 
         If dtmFileDate < dtmMidnight Then 
-            strOlderFiles = strOlderFiles &amp; swsFile.URL &amp; vbCrLf 
+            strOlderFiles = strOlderFiles & swsFile.URL & vbCrLf 
         End If 
     Next 
-    MsgBox "Files not modified today: " &amp; vbCrLf &amp; strOlderFiles, _ 
+    MsgBox "Files not modified today: " & vbCrLf & strOlderFiles, _ 
         vbInformation + vbOKOnly, "Older Files" 
     Set swsFile = Nothing
 ```

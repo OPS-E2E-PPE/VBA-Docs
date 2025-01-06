@@ -1,13 +1,13 @@
 ---
-title: Views Object (Project)
-ms.prod: project-server
+title: Views object (Project)
+ms.service: project-server
 ms.assetid: 53717121-f6da-d762-af97-15a819ea5d82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Views Object (Project)
+# Views object (Project)
 
 Contains a collection of **[View](Project.View.md)** objects. The **[View](./Project.Pane.View.md)** method, which applies to the **[Pane](./Project.Pane.md)** object, returns the **View** object.
 

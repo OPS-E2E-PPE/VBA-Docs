@@ -3,12 +3,11 @@ title: Columns.AutoFit method (Word)
 keywords: vbawd10.chm155910346
 f1_keywords:
 - vbawd10.chm155910346
-ms.prod: word
 api_name:
 - Word.Columns.AutoFit
 ms.assetid: e6a62b02-56e6-55af-9a01-12665fca3dcd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Changes the width of a table column to accommodate the width of the text without
 
 ## Syntax
 
- _expression_. `AutoFit`
+_expression_. `AutoFit`
 
- _expression_ Required. A variable that represents a '[Columns](Word.columns.md)' collection.
+_expression_ Required. A variable that represents a '[Columns](Word.columns.md)' collection.
 
 
 ## Remarks

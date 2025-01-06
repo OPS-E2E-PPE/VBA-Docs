@@ -3,10 +3,9 @@ title: Date constants
 keywords: vblr6.chm1019269
 f1_keywords:
 - vblr6.chm1019269
-ms.prod: office
 ms.assetid: 42e70a4a-18e8-5d8a-8e0e-8afd5b846da4
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,8 +27,6 @@ The _firstdayofweek_ [argument](../../Glossary/vbe-glossary.md#argument) has the
 |**vbThursday**|5|Thursday|
 |**vbFriday**|6|Friday|
 |**vbSaturday**|7|Saturday|
-
-<br/>
 
 The _firstdayofyear_ argument has the following values.
 

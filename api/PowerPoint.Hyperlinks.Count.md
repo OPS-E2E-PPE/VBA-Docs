@@ -1,24 +1,23 @@
 ---
-title: Hyperlinks.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Hyperlinks.Count property (PowerPoint)
 api_name:
 - PowerPoint.Hyperlinks.Count
 ms.assetid: c16de153-87c8-2be0-7953-1838f57b5155
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks.Count Property (PowerPoint)
+# Hyperlinks.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Hyperlinks](./PowerPoint.Hyperlinks.md) object.
+_expression_ A variable that represents a [Hyperlinks](PowerPoint.Hyperlinks.md) object.
 
 
 ## Return value

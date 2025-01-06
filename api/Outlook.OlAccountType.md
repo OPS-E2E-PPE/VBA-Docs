@@ -1,20 +1,19 @@
 ---
-title: OlAccountType Enumeration (Outlook)
+title: OlAccountType enumeration (Outlook)
 keywords: vbaol11.chm3105
 f1_keywords:
 - vbaol11.chm3105
-ms.prod: outlook
 api_name:
 - Outlook.OlAccountType
 ms.assetid: 8aeafc50-3f97-8d28-7fd9-a9d8e1eafc4c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlAccountType Enumeration (Outlook)
+# OlAccountType enumeration (Outlook)
 
-Specifies the type of an  **[Account](Outlook.Account.md)**.
+Specifies the type of an **[Account](Outlook.Account.md)**.
 
 
 

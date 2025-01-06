@@ -1,24 +1,24 @@
 ---
-title: Application.ProjectTaskNew Event (Project)
-ms.prod: project-server
+title: Application.ProjectTaskNew event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.ProjectTaskNew
 ms.assetid: 40e9d8da-f863-a73e-56e9-bb89327142fb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ProjectTaskNew Event (Project)
+# Application.ProjectTaskNew event (Project)
 
 Occurs when a new task is created.
 
 
 ## Syntax
 
- _expression_. `ProjectTaskNew`( `_pj_`, `_ID_` )
+_expression_. `ProjectTaskNew`( `_pj_`, `_ID_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ Occurs when a new task is created.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
@@ -42,10 +42,10 @@ You can trap project-level events from outside VBA.
 
 ## Example
 
- The following example shows how the **ProjectTaskNew** event can trap project-level events. In this case, the **App_ProjectTaskNew** event handler sets the global **ProjTaskNew** variable that the **Change** event handler uses. You can use similar code with the **[ProjectResourceNew](Project.Application.ProjectResourceNew.md)** and **[ProjectAssignmentNew](Project.Application.ProjectAssignmentNew.md)** events.
+ The following example shows how the **ProjectTaskNew** event can trap project-level events. In this case, the **App_ProjectTaskNew** event handler sets the global **ProjTaskNew** variable that the **Change** event handler uses. Use similar code with the **[ProjectResourceNew](Project.Application.ProjectResourceNew.md)** and **[ProjectAssignmentNew](Project.Application.ProjectAssignmentNew.md)** events.
 
 
-1. Create a class module named  **EventClassModule**, and then insert the following code:
+1. Create a class module named **EventClassModule**, and then insert the following code:
     
   ```vb
   Option Explicit 
@@ -107,7 +107,7 @@ End Sub
 
     
     
-3. Run the  **Initialize_App** procedure to start listening to the events.
+3. Run the **Initialize_App** procedure to start listening to the events.
     
 4. Create a task. The event handler shows a message box every time a new task is added.
 

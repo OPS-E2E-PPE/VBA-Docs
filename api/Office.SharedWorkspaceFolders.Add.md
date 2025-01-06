@@ -3,12 +3,11 @@ title: SharedWorkspaceFolders.Add method (Office)
 keywords: vbaof11.chm269003
 f1_keywords:
 - vbaof11.chm269003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFolders.Add
 ms.assetid: 5b941034-502b-b2a5-c6b3-aed57bc2a578
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,7 +41,7 @@ The following example adds a new folder to the folders collection of the shared 
 ```vb
     Dim swsFolder As Office.SharedWorkspaceFolder 
     Set swsFolder = ActiveWorkbook.SharedWorkspace.Folders.Add("MyNewFolder") 
-    MsgBox "New folder: " &amp; swsFolder.FolderName, _ 
+    MsgBox "New folder: " & swsFolder.FolderName, _ 
         vbInformation + vbOKOnly, _ 
         "New Folder in Shared Workspace" 
     Set swsFolder = Nothing 

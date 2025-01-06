@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm5187437
 f1_keywords:
 - vbaac10.chm5187437
-ms.prod: access
 api_name:
 - Access.LogMessages
 ms.assetid: 848f215b-50aa-22f4-264c-ff7d00347aa7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the **LogMessages** property in an SQL pass-through query to specify whether messages returned from an SQL database are stored in a messages table in the current Microsoft Access database.
+Use the **LogMessages** property in an SQL pass-through query to specify whether messages returned from an SQL database are stored in a messages table in the current Microsoft Access database.
 
 > [!NOTE] 
 > The **LogMessages** property applies only to pass-through queries.
@@ -47,8 +46,8 @@ The name of the messages table where the returned messages are stored is  _usern
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

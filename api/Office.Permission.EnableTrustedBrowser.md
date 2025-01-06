@@ -3,12 +3,11 @@ title: Permission.EnableTrustedBrowser property (Office)
 keywords: vbaof11.chm261003
 f1_keywords:
 - vbaof11.chm261003
-ms.prod: office
 api_name:
 - Office.Permission.EnableTrustedBrowser
 ms.assetid: 64f087bc-8158-bc80-070e-e7c33ad57e5f
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

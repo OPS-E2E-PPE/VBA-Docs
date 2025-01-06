@@ -3,12 +3,11 @@ title: Rows.DistributeHeight method (Word)
 keywords: vbawd10.chm155975886
 f1_keywords:
 - vbawd10.chm155975886
-ms.prod: word
 api_name:
 - Word.Rows.DistributeHeight
 ms.assetid: f5fe9eea-debc-c1e4-b9a0-81c5f9a0c04a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adjusts the height of the specified rows or cells so that they're equal.
 
 ## Syntax
 
- _expression_. `DistributeHeight`
+_expression_. `DistributeHeight`
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Example

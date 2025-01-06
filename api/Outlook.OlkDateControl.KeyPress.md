@@ -1,18 +1,17 @@
 ---
-title: OlkDateControl.KeyPress Event (Outlook)
+title: OlkDateControl.KeyPress event (Outlook)
 keywords: vbaol11.chm1000370
 f1_keywords:
 - vbaol11.chm1000370
-ms.prod: outlook
 api_name:
 - Outlook.OlkDateControl.KeyPress
 ms.assetid: 59b22d35-001a-4e99-3b71-d7f95a73d821
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkDateControl.KeyPress Event (Outlook)
+# OlkDateControl.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
@@ -21,7 +20,7 @@ Occurs when the user presses an ANSI key.
 
 _expression_. `KeyPress`( `_KeyAscii_` )
 
-_expression_ A variable that represents an [OlkDateControl](./Outlook.OlkDateControl.md) object.
+_expression_ A variable that represents an [OlkDateControl](Outlook.OlkDateControl.md) object.
 
 
 ## Parameters
@@ -34,14 +33,14 @@ _expression_ A variable that represents an [OlkDateControl](./Outlook.OlkDateCon
 
 ## Remarks
 
-An ANSI key is one that produces a typeable character when the user presses it. The  **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
+An ANSI key is one that produces a typeable character when the user presses it. The **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
 
-A  **KeyPress** event does not occur under the following conditions:
+A **KeyPress** event does not occur under the following conditions:
 
 
-- Pressing  **TAB**
+- Pressing **TAB**
     
-- Pressing  **ENTER**
+- Pressing **ENTER**
     
 - Pressing an arrow key
     

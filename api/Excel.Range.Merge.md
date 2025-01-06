@@ -3,30 +3,27 @@ title: Range.Merge method (Excel)
 keywords: vbaxl10.chm144158
 f1_keywords:
 - vbaxl10.chm144158
-ms.prod: excel
 api_name:
 - Excel.Range.Merge
 ms.assetid: eff315d8-fa8f-e452-2bcd-15be4d97a077
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/11/2019
+ms.localizationpriority: medium
 ---
 
 
 # Range.Merge method (Excel)
 
-Creates a merged cell from the specified  **[Range](Excel.Range(object).md)** object.
+Creates a merged cell from the specified **Range** object.
 
 
 ## Syntax
 
-_expression_. `Merge`( `_Across_` )
+_expression_.**Merge** (_Across_)
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,9 +34,6 @@ _expression_ A variable that represents a [Range](excel.range-graph-property.md)
 The value of a merged range is specified in the cell of the range's upper-left corner.
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

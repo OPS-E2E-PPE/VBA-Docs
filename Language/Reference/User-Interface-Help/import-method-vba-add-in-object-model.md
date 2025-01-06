@@ -3,10 +3,9 @@ title: Import method (VBA Add-In Object Model)
 keywords: vbob6.chm1098974
 f1_keywords:
 - vbob6.chm1098974
-ms.prod: office
 ms.assetid: 7ca2c050-6403-bd58-03a9-05111390d398
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Adds a component to a [project](../../Glossary/vbe-glossary.md#project) from a f
 
 _object_.**Import** (_filename_) **As VBComponent**
 
-<br/>
-
 The **Import** syntax has these parts:
 
 |Part|Description|
@@ -29,7 +26,7 @@ The **Import** syntax has these parts:
 
 ## Remarks
 
-You can use the **Import** method to add a component, [form](../../Glossary/vbe-glossary.md#form), [module](../../Glossary/vbe-glossary.md#module), [class](../../Glossary/vbe-glossary.md#class), and so on, to your project.
+Use the **Import** method to add a component, [form](../../Glossary/vbe-glossary.md#form), [module](../../Glossary/vbe-glossary.md#module), [class](../../Glossary/vbe-glossary.md#class), and so on, to your project.
 
 ## See also
 

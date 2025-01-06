@@ -1,24 +1,24 @@
 ---
-title: Application.SetSidepaneStateButton Method (Project)
-ms.prod: project-server
+title: Application.SetSidepaneStateButton method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.SetSidepaneStateButton
 ms.assetid: 21603c44-d9f3-96b6-ee42-df17eb58287a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetSidepaneStateButton Method (Project)
+# Application.SetSidepaneStateButton method (Project)
 
-Sets the state of the  **Toggle** button in the Project Guide. Deprecated in Project.
+Sets the state of the **Toggle** button in the Project Guide. Deprecated in Project.
 
 
 ## Syntax
 
- _expression_. `SetSidepaneStateButton`( `_DisplayState_` )
+_expression_. `SetSidepaneStateButton`( `_DisplayState_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

@@ -3,25 +3,24 @@ title: Table.PreferredWidthType property (Word)
 keywords: vbawd10.chm156303472
 f1_keywords:
 - vbawd10.chm156303472
-ms.prod: word
 api_name:
 - Word.Table.PreferredWidthType
 ms.assetid: 92954057-5ecd-3d43-c547-e1e1a6c83904
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Table.PreferredWidthType property (Word)
 
-Returns or sets the preferred unit of measurement to use for the width of the specified table. Read/write  **[WdPreferredWidthType](Word.WdPreferredWidthType.md)**.
+Returns or sets the preferred unit of measurement to use for the width of the specified table. Read/write **[WdPreferredWidthType](Word.WdPreferredWidthType.md)**.
 
 
 ## Syntax
 
- _expression_. `PreferredWidthType`
+_expression_. `PreferredWidthType`
 
- _expression_ Required. A variable that represents a '[Table](Word.Table.md)' object.
+_expression_ Required. A variable that represents a '[Table](Word.Table.md)' object.
 
 
 ## Example

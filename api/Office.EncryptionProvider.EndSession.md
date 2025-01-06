@@ -3,12 +3,11 @@ title: EncryptionProvider.EndSession method (Office)
 keywords: vbaof11.chm327005
 f1_keywords:
 - vbaof11.chm327005
-ms.prod: office
 api_name:
 - Office.EncryptionProvider.EndSession
 ms.assetid: ce19f32e-a680-9d84-97d8-67d0f2d3b139
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

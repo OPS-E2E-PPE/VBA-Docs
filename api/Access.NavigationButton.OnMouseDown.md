@@ -3,12 +3,11 @@ title: NavigationButton.OnMouseDown property (Access)
 keywords: vbaac10.chm10499
 f1_keywords:
 - vbaac10.chm10499
-ms.prod: access
 api_name:
 - Access.NavigationButton.OnMouseDown
 ms.assetid: 249e3dd3-f239-f12e-c47f-6a0212ca2655
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **MouseDown** event occurs when the user clicks the mouse button while the m
 
 The **OnMouseDown** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Mouse Down** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Mouse Down** box is blank, the property value is an empty string.
 

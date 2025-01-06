@@ -3,12 +3,11 @@ title: PickerProperties object (Office)
 keywords: vbaof11.chm337000
 f1_keywords:
 - vbaof11.chm337000
-ms.prod: office
 api_name:
 - Office.PickerProperties
 ms.assetid: 368e2b17-1b4f-484e-483f-53c7cd16a444
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -53,7 +52,7 @@ Set objPickerResults = objPickerDialog.Show(True, objPickerExistingResult)
 ## See also
 
 - [PickerProperties object members](overview/Library-Reference/pickerproperties-members-office.md)
-- [Object Model Reference](./overview/Library-Reference/reference-object-library-reference-for-office.md)
+- [Object Model Reference](overview/Library-Reference/reference-object-library-reference-for-office.md)
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: SlideShowView.First Method (PowerPoint)
+title: SlideShowView.First method (PowerPoint)
 keywords: vbapp10.chm513017
 f1_keywords:
 - vbapp10.chm513017
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowView.First
 ms.assetid: 5f360832-2deb-b3df-7b55-5a3c964d0057
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowView.First Method (PowerPoint)
+# SlideShowView.First method (PowerPoint)
 
 Sets the specified slide show view to display the first slide in the presentation.
 
 
 ## Syntax
 
- _expression_. `First`
+_expression_. `First`
 
- _expression_ A variable that represents a [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents a [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Nothing
 
 ## Remarks
 
-If you use the  **First** method to switch from one slide to another during a slide show, when you return to the original slide, its animation picks up where it left off.
+If you use the **First** method to switch from one slide to another during a slide show, when you return to the original slide, its animation picks up where it left off.
 
 
 ## Example

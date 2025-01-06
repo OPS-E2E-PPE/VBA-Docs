@@ -3,12 +3,11 @@ title: DocumentInspector.Fix method (Office)
 keywords: vbaof11.chm279004
 f1_keywords:
 - vbaof11.chm279004
-ms.prod: office
 api_name:
 - Office.DocumentInspector.Fix
 ms.assetid: b05326b0-779c-97f5-d3fd-705f82a141ef
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -47,8 +46,8 @@ Dim docStatus As MsoDocInspectorStatus
 Dim result As String 
 ActiveDocument.DocumentInspectors(3).Fix docStatus, result 
  
-MsgBox ("The Fix method returned the following status " &amp; docStatus &amp; _ 
-" with this result " &amp; result) 
+MsgBox ("The Fix method returned the following status " & docStatus & _ 
+" with this result " & result) 
 End Sub
 ```
 

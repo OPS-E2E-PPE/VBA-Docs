@@ -3,12 +3,11 @@ title: MailMerge.HighlightMergeFields property (Word)
 keywords: vbawd10.chm153092107
 f1_keywords:
 - vbawd10.chm153092107
-ms.prod: word
 api_name:
 - Word.MailMerge.HighlightMergeFields
 ms.assetid: 1002b34a-4492-97df-bb16-bd2c4319e055
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HighlightMergeFields`
+_expression_. `HighlightMergeFields`
 
- _expression_ A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
+_expression_ A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
 ## Example

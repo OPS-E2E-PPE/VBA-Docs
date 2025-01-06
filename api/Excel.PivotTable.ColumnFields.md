@@ -3,30 +3,27 @@ title: PivotTable.ColumnFields property (Excel)
 keywords: vbaxl10.chm235074
 f1_keywords:
 - vbaxl10.chm235074
-ms.prod: excel
 api_name:
 - Excel.PivotTable.ColumnFields
 ms.assetid: caae2016-e213-31f0-5ce7-fd8593ad4266
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # PivotTable.ColumnFields property (Excel)
 
-Returns an object that represents either a single PivotTable field (a  **[PivotField](Excel.PivotField.md)** object) or a collection of all the fields (a **[PivotFields](Excel.PivotFields.md)** object) that are currently shown as column fields. Read-only.
+Returns an object that represents either a single PivotTable field (a **[PivotField](Excel.PivotField.md)** object) or a collection of all the fields (a **[PivotFields](Excel.PivotFields.md)** object) that are currently shown as column fields. Read-only.
 
 
 ## Syntax
 
-_expression_. `ColumnFields`( `_Index_` )
+_expression_.**ColumnFields** (_Index_)
 
-_expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) object.
+_expression_ A variable that represents a **[PivotTable](Excel.PivotTable.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +32,6 @@ _expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) obje
 ## Example
 
 This example adds the field names of the PivotTable report columns to a list on a new worksheet.
-
 
 ```vb
 Set nwSheet = Worksheets.Add 
@@ -49,9 +45,6 @@ Next pvtField
 ```
 
 
-## See also
 
-
-[PivotTable Object](Excel.PivotTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

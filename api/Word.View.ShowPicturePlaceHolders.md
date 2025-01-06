@@ -3,12 +3,11 @@ title: View.ShowPicturePlaceHolders property (Word)
 keywords: vbawd10.chm161808405
 f1_keywords:
 - vbawd10.chm161808405
-ms.prod: word
 api_name:
 - Word.View.ShowPicturePlaceHolders
 ms.assetid: 6a3d1529-57ab-eb56-225e-dee87ebc1185
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowPicturePlaceHolders`
+_expression_. `ShowPicturePlaceHolders`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

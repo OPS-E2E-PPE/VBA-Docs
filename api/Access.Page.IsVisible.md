@@ -3,18 +3,17 @@ title: Page.IsVisible property (Access)
 keywords: vbaac10.chm12165
 f1_keywords:
 - vbaac10.chm12165
-ms.prod: access
 api_name:
 - Access.Page.IsVisible
 ms.assetid: dae9781d-b640-47b8-3266-364678590119
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Page.IsVisible property (Access)
 
-You can use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
+Use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
 
 
 ## Syntax
@@ -28,7 +27,7 @@ _expression_ A variable that represents a **[Page](Access.Page.md)** object.
 
 You can set the **IsVisible** property only in the **Print** event of a report section that contains the control.
 
-You can use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
+Use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
 
 
 ## Example

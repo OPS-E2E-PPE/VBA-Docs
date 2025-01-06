@@ -1,9 +1,8 @@
 ---
 title: Use textual criteria from a control on a form
-ms.prod: access
 ms.assetid: 236e57eb-3523-92da-e665-281961dfb431
 ms.date: 09/25/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,17 +17,14 @@ In addition to enclosing the entire string expression in double quotation marks 
 > [!NOTE] 
 > The single quotation marks indicate to Access that the  _criteria_ argument contains a string within a string.
 
-The following example performs a lookup on an Employees table and returns the region in which an employee lives, based on the employee's last name. The current value of a list box control called LastName on the Employees form determines the criteria. Note the placement of the single quotation marks. 
-
+The following example performs a lookup on an Employees table and returns the region in which an employee lives, based on the employee's last name. The current value of a list box control called LastName on the Employees form determines the criteria. Note the placement of the single quotation marks.
 
 ```vb
 =DLookup("[Region]", "Employees", "[LastName] = '" _
     & Forms!Employees!LastName & "'")
 ```
 
-If the current value of the control is  `King`, the following  _criteria_ argument is passed to the [DLookup](../../../api/Access.Application.DLookup.md) function after Access evaluates the expression and concatenates the strings:
-
-
+If the current value of the control is `King`, the following  _criteria_ argument is passed to the [DLookup](../../../api/Access.Application.DLookup.md) function after Access evaluates the expression and concatenates the strings:
 
 ```vb
 "[LastName] = 'King'"

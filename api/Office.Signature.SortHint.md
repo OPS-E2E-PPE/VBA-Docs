@@ -3,12 +3,11 @@ title: Signature.SortHint property (Office)
 keywords: vbaof11.chm248019
 f1_keywords:
 - vbaof11.chm248019
-ms.prod: office
 api_name:
 - Office.Signature.SortHint
 ms.assetid: 9554cf10-85ab-508c-a13e-08b9504bdd1a
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

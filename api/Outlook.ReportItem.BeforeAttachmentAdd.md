@@ -1,15 +1,14 @@
 ---
-title: ReportItem.BeforeAttachmentAdd Event (Outlook)
-ms.prod: outlook
+title: ReportItem.BeforeAttachmentAdd event (Outlook)
 api_name:
 - Outlook.ReportItem.BeforeAttachmentAdd
 ms.assetid: c8b45b3b-627c-4851-b743-2612828546b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportItem.BeforeAttachmentAdd Event (Outlook)
+# ReportItem.BeforeAttachmentAdd event (Outlook)
 
 Occurs before an attachment is added to an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs before an attachment is added to an instance of the parent object.
 
 _expression_. `BeforeAttachmentAdd`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) object.
+_expression_ A variable that represents a [ReportItem](Outlook.ReportItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be added to the item.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be added.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be added to the item.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be added.|
 
 ## See also
 

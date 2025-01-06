@@ -1,27 +1,26 @@
 ---
-title: CalloutFormat.Parent Property (PowerPoint)
+title: CalloutFormat.Parent property (PowerPoint)
 keywords: vbapp10.chm559001
 f1_keywords:
 - vbapp10.chm559001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CalloutFormat.Parent
 ms.assetid: 8739b1d2-eab0-373f-7bf4-7262eae4b758
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalloutFormat.Parent Property (PowerPoint)
+# CalloutFormat.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents a [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

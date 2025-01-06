@@ -1,16 +1,15 @@
 ---
-title: VisEventCodes Enumeration (Visio)
+title: VisEventCodes enumeration (Visio)
 keywords: vis_sdr.chm70125
 f1_keywords:
 - vis_sdr.chm70125
-ms.prod: visio
 ms.assetid: e6f205ab-803a-4d91-fa8a-0952bb9753cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisEventCodes Enumeration (Visio)
+# VisEventCodes enumeration (Visio)
 
 Codes for Microsoft Visio events, event actions, and event IDs.
 
@@ -20,7 +19,7 @@ Codes for Microsoft Visio events, event actions, and event IDs.
 |:-----|:-----|:-----|
 | **visActCodeAdvise**|2| **AddAdvise** action code|
 | **visActCodeRunAddon**|1| **RunAddon** action code|
-| **visEvtAdd**|32768|Event code for adding an  **Event** object, passed to the **Add** and **AddAdvise** methods. Used in conjunction with object codes for particular objects.|
+| **visEvtAdd**|32768|Event code for adding an **Event** object, passed to the **Add** and **AddAdvise** methods. Used in conjunction with object codes for particular objects.|
 | **visEvtAfterModal**|64| **AfterModal** event|
 | **visEvtApp**|4096| **Application** object|
 | **visEvtAppActivate**|1| **AppActivated** event|
@@ -28,7 +27,7 @@ Codes for Microsoft Visio events, event actions, and event IDs.
 | **visEvtBeforeModal**|32| **BeforeModal** event|
 | **visEvtBeforeQuit**|16| **BeforeQuit** event|
 | **visEvtCell**|2048| **Cell** object|
-| **visEvtCodeAfter CoauthMerge**|14| **AfterCoautjMerge** event code|
+| **visEvtCodeAfterCoauthMerge**|14| **AfterCoauthMerge** event code|
 | **visEvtCodeAfterForcedFlush**|201| **AfterForcedFlush** event code|
 | **visEvtCodeAfterResume**|209| **AfterResume** event code|
 | **visEvtCodeAfterResumeEvents**|213| **AfterResumeEvents** event code|
@@ -99,7 +98,7 @@ Codes for Microsoft Visio events, event actions, and event IDs.
 | **visEvtCodeWinPageTurn**|704| **WindowTurnToPage** event code|
 | **visEvtCodeWinSelChange**|701| **SelectionChanged** event code|
 | **visEvtConnect**|256| **Connect** object|
-| **visEvtDel**|16384|Event code for deleting an  **Event** object, passed to the **Delete** and **AddAdvise** methods. Used in conjunction with object codes for particular objects.|
+| **visEvtDel**|16384|Event code for deleting an **Event** object, passed to the **Delete** and **AddAdvise** methods. Used in conjunction with object codes for particular objects.|
 | **visEvtDataRecordset**|32| **DataRecordset** object|
 | **visEvtDoc**|2| **Document** object|
 | **visEvtFormula**|4096| **FormulaChanged** event|
@@ -108,7 +107,7 @@ Codes for Microsoft Visio events, event actions, and event IDs.
 | **visEvtIdMostRecent**|0|The ID of the most recent event to fire.|
 | **visEvtMarker**|256| **MarkerEvent** event|
 | **visEvtMaster**|8| **Master** object|
-| **visEvtMod**|8192|Used in conjunction with object codes for particular objects to create events that report a change to an object. For example,  **visEvtMod** + **visEvtCell** consitutes the **CellChanged** event.|
+| **visEvtMod**|8192|Used in conjunction with object codes for particular objects to create events that report a change to an object. For example, **visEvtMod** + **visEvtCell** consitutes the **CellChanged** event.|
 | **visEvtNonePending**|512| **NoEventsPending** event|
 | **visEvtObjActivate**|4| **AppObjActivated** event|
 | **visEvtObjDeactivate**|8| **AppObjDeactivated**|

@@ -1,24 +1,24 @@
 ---
-title: Project.DeliverablesGetProviderProjects Method (Project)
-ms.prod: project-server
+title: Project.DeliverablesGetProviderProjects method (Project)
+ms.service: project-server
 api_name:
 - Project.Project.DeliverablesGetProviderProjects
 ms.assetid: dbe7341e-8218-73db-d03a-d39b504d8bd1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.DeliverablesGetProviderProjects Method (Project)
+# Project.DeliverablesGetProviderProjects method (Project)
 
 Returns a list of all of the projects that have deliverables.
 
 
 ## Syntax
 
- _expression_. `DeliverablesGetProviderProjects`
+_expression_. `DeliverablesGetProviderProjects`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Return value

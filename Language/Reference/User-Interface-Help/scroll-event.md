@@ -3,12 +3,11 @@ title: Scroll event
 keywords: fm20.chm5224950
 f1_keywords:
 - fm20.chm5224950
-ms.prod: office
 api_name:
 - Office.Scroll
 ms.assetid: 1b4f6243-ea9b-320c-1afd-9bb230823ffb
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,25 +17,25 @@ Occurs when the scroll box is repositioned.
 
 ## Syntax
 
-For ScrollBar <br/>
-**Private Sub**_object_ _**Scroll( )** 
+For ScrollBar:
+**Private Sub**_object_ _**Scroll( )**
 
-For MultiPage <br/>
-**Private Sub**_object_ _**Scroll(**_index_**As Long**,  <br/>
-_ActionX_**As fmScrollAction**,  <br/>
-_ActionY_**As fmScrollAction**,  <br/>
-**ByVal**_RequestDx_**As Single**, <br/> 
-**ByVal**_RequestDy_**As Single**,  <br/>
-**ByVal**_ActualDx_**As MSForms.ReturnSingle**,  <br/>
-**ByVal**_ActualDy_**As MSForms.ReturnSingle)** 
+For MultiPage:
+**Private Sub**_object_ _**Scroll(**_index_**As Long**,
+_ActionX_**As fmScrollAction**,
+_ActionY_**As fmScrollAction**,
+**ByVal**_RequestDx_**As Single**,
+**ByVal**_RequestDy_**As Single**,
+**ByVal**_ActualDx_**As MSForms.ReturnSingle**,
+**ByVal**_ActualDy_**As MSForms.ReturnSingle)**
 
-For Frame <br/>
-**Private Sub**_object_ _**Scroll(**_ActionX_**As fmScrollAction**,  <br/>
-_ActionY_**As fmScrollAction**,  <br/>
-**ByVal**_RequestDx_**As Single**,  <br/>
-**ByVal**_RequestDy_**As Single**,  <br/>
-**ByVal**_ActualDx_**As MSForms.ReturnSingle**,  <br/>
-**ByVal**_ActualDy_**As MSForms.ReturnSingle)** 
+For Frame:
+**Private Sub**_object_ _**Scroll(**_ActionX_**As fmScrollAction**,
+_ActionY_**As fmScrollAction**,
+**ByVal**_RequestDx_**As Single**,
+**ByVal**_RequestDy_**As Single**,
+**ByVal**_ActualDx_**As MSForms.ReturnSingle**,
+**ByVal**_ActualDy_**As MSForms.ReturnSingle)**
 
 The **Scroll** event syntax has these parts:
 

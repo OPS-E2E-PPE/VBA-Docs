@@ -3,18 +3,17 @@ title: CheckBox.ReadingOrder property (Access)
 keywords: vbaac10.chm10749
 f1_keywords:
 - vbaac10.chm10749
-ms.prod: access
 api_name:
 - Access.CheckBox.ReadingOrder
 ms.assetid: b0c40eaf-447a-0051-6ffe-2c7895cdbb58
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

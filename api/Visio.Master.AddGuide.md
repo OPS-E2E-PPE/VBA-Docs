@@ -1,27 +1,26 @@
 ---
-title: Master.AddGuide Method (Visio)
+title: Master.AddGuide method (Visio)
 keywords: vis_sdr.chm10716035
 f1_keywords:
 - vis_sdr.chm10716035
-ms.prod: visio
 api_name:
 - Visio.Master.AddGuide
 ms.assetid: 7beba614-244b-f559-50c7-5156ca4510b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.AddGuide Method (Visio)
+# Master.AddGuide method (Visio)
 
 Adds a guide to a master.
 
 
 ## Syntax
 
- _expression_. `AddGuide`( `_Type_` , `_xPos_` , `_yPos_` )
+_expression_. `AddGuide`( `_Type_` , `_xPos_` , `_yPos_` )
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ Shape
 
 ## Remarks
 
-To view guides you add to a master by using the  **AddGuide** method, use the **OpenDrawWindow** method to open the **Master Editing** window.
+To view guides you add to a master by using the **AddGuide** method, use the **OpenDrawWindow** method to open the **Master Editing** window.
 
 The following constants declared by the Visio type library are valid values for guide types.
 

@@ -1,27 +1,26 @@
 ---
-title: PropertyAccessor.SetProperties Method (Outlook)
+title: PropertyAccessor.SetProperties method (Outlook)
 keywords: vbaol11.chm1973
 f1_keywords:
 - vbaol11.chm1973
-ms.prod: outlook
 api_name:
 - Outlook.PropertyAccessor.SetProperties
 ms.assetid: bf7c86da-5146-9567-5b7e-3e5e63ee5587
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PropertyAccessor.SetProperties Method (Outlook)
+# PropertyAccessor.SetProperties method (Outlook)
 
-Sets the properties specified by the array  _SchemaNames_ to the values specified by the array _Values_ .
+Sets the properties specified by the array  _SchemaNames_ to the values specified by the array _Values_.
 
 
 ## Syntax
 
 _expression_. `SetProperties`( `_SchemaNames_` , `_Values_` )
 
-_expression_ A variable that represents a [PropertyAccessor](./Outlook.PropertyAccessor.md) object.
+_expression_ A variable that represents a [PropertyAccessor](Outlook.PropertyAccessor.md) object.
 
 
 ## Parameters
@@ -35,16 +34,16 @@ _expression_ A variable that represents a [PropertyAccessor](./Outlook.PropertyA
 
 ## Return value
 
-A  **Variant** that is **Null** (**Nothing** in VBA) if the operation is successful. If there is an error before any properties are set, for example, the number of elements in the _SchemaNames_ array does not match that in the _Values_ array, and an **Err** value will be returned. If there is an error during the setting of the properties, the return value is an array of **Err** objects, with the number of elements in this array being the same as that of the _SchemaNames_ array. An **Err** value in the array is mapped to the error result of setting the corresponding property in the _SchemaNames_ parameter.
+A **Variant** that is **Null** (**Nothing** in VBA) if the operation is successful. If there is an error before any properties are set, for example, the number of elements in the _SchemaNames_ array does not match that in the _Values_ array, and an **Err** value will be returned. If there is an error during the setting of the properties, the return value is an array of **Err** objects, with the number of elements in this array being the same as that of the _SchemaNames_ array. An **Err** value in the array is mapped to the error result of setting the corresponding property in the _SchemaNames_ parameter.
 
 
 ## Remarks
 
-If the property does not exist and the  _SchemaNames_ element contains a valid property specifier, then **SetProperties** creates the property and assigns the property with the value specified by _Values_ . The type of the property will be the type of the element passed in _Values_ . If the property does exist, then **SetProperties** assigns the property the value as specified by _Values_ .
+If the property does not exist and the  _SchemaNames_ element contains a valid property specifier, then **SetProperties** creates the property and assigns the property with the value specified by _Values_. The type of the property will be the type of the element passed in _Values_. If the property does exist, then **SetProperties** assigns the property the value as specified by _Values_.
 
-Note that a custom property created by using the  **[PropertyAccessor](Outlook.PropertyAccessor.md)** is not supported in a custom view. If you want to view a custom property on an item, create the property by using the **[Add](Outlook.UserProperties.Add.md)** method of the **[UserProperties](Outlook.UserProperties.md)** object.
+Note that a custom property created by using the **[PropertyAccessor](Outlook.PropertyAccessor.md)** is not supported in a custom view. If you want to view a custom property on an item, create the property by using the **[Add](Outlook.UserProperties.Add.md)** method of the **[UserProperties](Outlook.UserProperties.md)** object.
 
-If the parent object of the  **[PropertyAccessor](Outlook.PropertyAccessor.md)** supports an explicit **Save** operation, then the properties should be saved to the object with an explicit **Save** method call. If the object does not support an explicit **Save** operation, then the properties are saved to the object when **SetProperties** is called.
+If the parent object of the **[PropertyAccessor](Outlook.PropertyAccessor.md)** supports an explicit **Save** operation, then the properties should be saved to the object with an explicit **Save** method call. If the object does not support an explicit **Save** operation, then the properties are saved to the object when **SetProperties** is called.
 
 Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:
 
@@ -61,16 +60,16 @@ Use caution and ensure that all exceptions are handled correctly. Conditions whe
     
 - Cannot open the property because the client is offline.
     
-- The property is created using the  **[UserProperties.Add](Outlook.UserProperties.Add.md)** method. When setting the property for the first time, you must use the **[UserProperty.Value](Outlook.UserProperty.Value.md)** property instead of the **SetProperties** or **[SetProperty](Outlook.PropertyAccessor.SetProperty.md)** method of the **PropertyAccessor** object.
+- The property is created using the **[UserProperties.Add](Outlook.UserProperties.Add.md)** method. When setting the property for the first time, you must use the **[UserProperty.Value](Outlook.UserProperty.Value.md)** property instead of the **SetProperties** or **[SetProperty](Outlook.PropertyAccessor.SetProperty.md)** method of the **PropertyAccessor** object.
     
 
 
-For more information on setting properties using the  **PropertyAccessor** object, see [Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
+For more information on setting properties using the **PropertyAccessor** object, see [Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
 
 
 ## Example
 
-This code sample demonstrates how the  **SetProperties** method sets the values of multiple properties. If a property does not exist, then **SetProperties** will create the property as long as the parent object supports the creation of those properties. Since the **[MailItem](Outlook.MailItem.md)** object supports a **[MailItem.Save](Outlook.MailItem.Save.md)** operation, the properties here are saved with an explicit `oMail.Save`.
+This code sample demonstrates how the **SetProperties** method sets the values of multiple properties. If a property does not exist, then **SetProperties** will create the property as long as the parent object supports the creation of those properties. Since the **[MailItem](Outlook.MailItem.md)** object supports a **[MailItem.Save](Outlook.MailItem.Save.md)** operation, the properties here are saved with an explicit `oMail.Save`.
 
 
 ```vb
@@ -96,7 +95,7 @@ Sub DemoPropertyAccessorSetProperties()
  PropNames = Array(prop1, prop2, prop3, prop4) 
  myValues = Array(1020, "111-222-Kudo", Now(), False) 
  'Set values with SetProperties call 
- 'If the properties do not exist, then SetProperties 
+ 'If the properties don't exist, then SetProperties 
  'adds the properties to the object when saved. 
  'The type of the property is the type of the element 
  'passed in myValues array. 

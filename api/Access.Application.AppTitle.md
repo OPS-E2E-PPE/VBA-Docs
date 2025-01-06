@@ -3,18 +3,17 @@ title: Application.AppTitle property (Access)
 keywords: vbaac10.chm5187013
 f1_keywords:
 - vbaac10.chm5187013
-ms.prod: access
 api_name:
 - Access.Application. AppTitle
 ms.assetid: a505f465-7813-6677-dd80-21a757c9d422
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.AppTitle property (Access)
 
-You can use the **AppTitle** property to specify the text that appears in the application database's title bar. For example, you can use the **AppTitle** property to specify that the string "Inventory Control" appear in the title bar of your Inventory Control database application.
+Use the **AppTitle** property to specify the text that appears in the application database's title bar. For example, you can use the **AppTitle** property to specify that the string "Inventory Control" appear in the title bar of your Inventory Control database application.
 
 ## Syntax
 

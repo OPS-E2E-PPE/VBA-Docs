@@ -3,25 +3,24 @@ title: ThreeDFormat.PresetMaterial property (Word)
 keywords: vbawd10.chm164626539
 f1_keywords:
 - vbawd10.chm164626539
-ms.prod: word
 api_name:
 - Word.ThreeDFormat.PresetMaterial
 ms.assetid: 95cb7421-29fb-8905-7b0e-c43ec81f6dd5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ThreeDFormat.PresetMaterial property (Word)
 
-Returns or sets the extrusion surface material. Read/write  **MsoPresetMaterial**.
+Returns or sets the extrusion surface material. Read/write **MsoPresetMaterial**.
 
 
 ## Syntax
 
- _expression_. `PresetMaterial`
+_expression_. `PresetMaterial`
 
- _expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
+_expression_ Required. A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
 
 
 ## Example

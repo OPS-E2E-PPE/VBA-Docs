@@ -1,11 +1,10 @@
 ---
 title: WdStatistic enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdStatistic
 ms.assetid: 27ff627e-8f40-c9da-385b-5f3eddca5082
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

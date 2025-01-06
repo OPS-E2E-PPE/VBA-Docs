@@ -3,25 +3,24 @@ title: Range.Next method (Word)
 keywords: vbawd10.chm157155433
 f1_keywords:
 - vbawd10.chm157155433
-ms.prod: word
 api_name:
 - Word.Range.Next
 ms.assetid: 8d3a295d-543c-7e17-337d-b4fdfeda96e6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Next method (Word)
 
-Returns a  **Range** object that represents the specified unit relative to the specified range.
+Returns a **Range** object that represents the specified unit relative to the specified range.
 
 
 ## Syntax
 
- _expression_. `Next`( `_Unit_` , `_Count_` )
+_expression_.**Next** (_Unit_, _Count_)
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a  **Range** object that represents the specified unit relative to the s
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **Variant**|The type of units by which to count. Can be any  **WdUnits** constant.|
+| _Unit_|Optional| **Variant**|The type of units by which to count. Can be any **WdUnits** constant.|
 | _Count_|Optional| **Variant**|The number of units by which you want to move ahead. The default value is one.|
 
 ## Return value

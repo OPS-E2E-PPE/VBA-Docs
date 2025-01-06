@@ -1,27 +1,26 @@
 ---
-title: Timing.RewindAtEnd Property (PowerPoint)
+title: Timing.RewindAtEnd property (PowerPoint)
 keywords: vbapp10.chm653015
 f1_keywords:
 - vbapp10.chm653015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Timing.RewindAtEnd
 ms.assetid: 2055f5aa-10d4-45a7-f25d-afaa924f0937
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Timing.RewindAtEnd Property (PowerPoint)
+# Timing.RewindAtEnd property (PowerPoint)
 
 Represents whether an object returns to its beginning position after an animation has ended. Read/write.
 
 
 ## Syntax
 
- _expression_. `RewindAtEnd`
+_expression_. `RewindAtEnd`
 
- _expression_ A variable that represents a [Timing](./PowerPoint.Timing.md) object.
+_expression_ A variable that represents a [Timing](PowerPoint.Timing.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **RewindAtEnd** property can be one of these **MsoTriState** constants.
+The value of the **RewindAtEnd** property can be one of these **MsoTriState** constants.
 
 
 

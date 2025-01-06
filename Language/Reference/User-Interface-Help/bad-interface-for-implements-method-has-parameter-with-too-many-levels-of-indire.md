@@ -3,16 +3,15 @@ title: "Bad interface for Implements: method has parameter with too many levels 
 keywords: vblr6.chm1057163
 f1_keywords:
 - vblr6.chm1057163
-ms.prod: office
 ms.assetid: 77a0797e-6ba1-3436-90ab-23843a74e9ba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bad interface for Implements: method has parameter with too many levels of indirection
 
-The  **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
+The **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
 
 
 

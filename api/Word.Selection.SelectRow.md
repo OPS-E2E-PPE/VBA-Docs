@@ -3,12 +3,11 @@ title: Selection.SelectRow method (Word)
 keywords: vbawd10.chm158663181
 f1_keywords:
 - vbawd10.chm158663181
-ms.prod: word
 api_name:
 - Word.Selection.SelectRow
 ms.assetid: 0d821d49-2829-2469-4742-0355440e4775
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the row that contains the insertion point, or selects all rows that cont
 
 ## Syntax
 
- _expression_. `SelectRow`
+_expression_. `SelectRow`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks

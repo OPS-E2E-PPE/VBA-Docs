@@ -3,10 +3,9 @@ title: Customize a Toolbox icon
 keywords: fm20.chm5225210
 f1_keywords:
 - fm20.chm5225210
-ms.prod: office
 ms.assetid: f8c267e0-03b2-aa2c-262f-6bb576f4d02d
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

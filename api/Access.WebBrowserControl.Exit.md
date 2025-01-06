@@ -3,18 +3,17 @@ title: WebBrowserControl.Exit event (Access)
 keywords: vbaac10.chm143127
 f1_keywords:
 - vbaac10.chm143127
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Exit
 ms.assetid: a4a6a5bf-1cc4-a311-d4cb-51a132a99892
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/26/2019
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.Exit event (Access)
 
-The  **Exit** event occurs just before a control loses the focus to another control on the same form or report.
+The **Exit** event occurs just before a control loses the focus to another control on the same form or report.
 
 
 ## Syntax
@@ -86,9 +85,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[WebBrowserControl Object](Access.WebBrowserControl.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

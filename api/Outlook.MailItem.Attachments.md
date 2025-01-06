@@ -1,32 +1,31 @@
 ---
-title: MailItem.Attachments Property (Outlook)
+title: MailItem.Attachments property (Outlook)
 keywords: vbaol11.chm1295
 f1_keywords:
 - vbaol11.chm1295
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.Attachments
 ms.assetid: 71f82397-00f3-5660-1211-ebf8b229fff3
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Attachments Property (Outlook)
+# MailItem.Attachments property (Outlook)
 
-Returns an  **[Attachments](Outlook.Attachments.md)** object that represents all the attachments for the specified item. Read-only.
+Returns an **[Attachments](Outlook.Attachments.md)** object that represents all the attachments for the specified item. Read-only.
 
 
 ## Syntax
 
 _expression_. `Attachments`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[Attachments.Remove](Outlook.Attachments.Remove.md)** method to remove all attachments from a forwarded mail message before sending it on to 'Dan Wilson'. To run this example, replace 'Dan Wilson' with a valid recipient's name and keep an item with attachments open in an inspector window.
+This Visual Basic for Applications (VBA) example uses the **[Attachments.Remove](Outlook.Attachments.Remove.md)** method to remove all attachments from a forwarded mail message before sending it on to 'Dan Wilson'. To run this example, replace 'Dan Wilson' with a valid recipient's name and keep an item with attachments open in an inspector window.
 
 
 ```vb

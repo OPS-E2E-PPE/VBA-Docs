@@ -1,18 +1,17 @@
 ---
-title: Explorer.BeforeItemCopy Event (Outlook)
+title: Explorer.BeforeItemCopy event (Outlook)
 keywords: vbaol11.chm461
 f1_keywords:
 - vbaol11.chm461
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.BeforeItemCopy
 ms.assetid: 05ae7be8-5528-5560-f8ce-73f0afbf4cde
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.BeforeItemCopy Event (Outlook)
+# Explorer.BeforeItemCopy event (Outlook)
 
 Occurs when an Outlook item is copied.
 
@@ -21,7 +20,7 @@ Occurs when an Outlook item is copied.
 
 _expression_. `BeforeItemCopy`( `_Cancel_` )
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ _expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) obj
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the item is not copied.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the item is not copied.|
 
 ## Remarks
 
@@ -39,7 +38,7 @@ This event can be cancelled after it has started.
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example prompts the user before an item is copied. A message is displayed to the user verifying that the item should be copied. If the user clicks  **Yes**, the item is copied to the Clipboard. The sample code must be placed in a class module such as  `ThisOutlookSession`, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example prompts the user before an item is copied. A message is displayed to the user verifying that the item should be copied. If the user clicks **Yes**, the item is copied to the Clipboard. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

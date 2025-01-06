@@ -3,25 +3,24 @@ title: Tasks.Exists method (Word)
 keywords: vbawd10.chm159580162
 f1_keywords:
 - vbawd10.chm159580162
-ms.prod: word
 api_name:
 - Word.Tasks.Exists
 ms.assetid: 421a5ff6-25b5-3255-ae81-32f5decbfe93
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Tasks.Exists method (Word)
 
-Determines whether the specified task exists. Returns  **True** if the task exists.
+Determines whether the specified task exists. Returns **True** if the task exists.
 
 
 ## Syntax
 
- _expression_. `Exists`( `_Name_` )
+_expression_. `Exists`( `_Name_` )
 
- _expression_ A variable that represents a '[Tasks](Word.tasks.md)' collection.
+_expression_ A variable that represents a '[Tasks](Word.tasks.md)' collection.
 
 
 ## Parameters

@@ -1,9 +1,8 @@
 ---
 title: Working with the UndoRecord Object
-ms.prod: word
 ms.assetid: e9df1047-5a1a-91da-3673-7e64b668552d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ The resulting undo records appear on the undo stack for the actions performed by
 
 ![Undo button expanded with several entries.](../../../images/wd14_VBAConceptual_WorkingWithUndoRecord_fig01.jpg)
 
-If the end user then needs to rollback or undo the "insert metadata" task, each action associated with the task must be undone individually (by pressing CTRL+Z or clicking the dropdown arrow on the  **Undo** button and then selecting the actions to undo). In this situation, the potential exists for the end user to only partially undo the series of actions associated with the single task, possibly leaving the document in an undesired state.
+If the end user then needs to rollback or undo the "insert metadata" task, each action associated with the task must be undone individually (by pressing CTRL+Z or clicking the dropdown arrow on the **Undo** button and then selecting the actions to undo). In this situation, the potential exists for the end user to only partially undo the series of actions associated with the single task, possibly leaving the document in an undesired state.
 
 The Word object model offers a way to avoid this problem by providing developers the ability to link a series of individual actions into a custom undo record that can then be used to undo the actions as a single unit. A custom undo record is represented in the Word object model by the [UndoRecord](../../../api/Word.UndoRecord.md) object.
 
@@ -78,7 +77,7 @@ End Sub
 
 ```
 
-The [StartCustomRecord](../../../api/Word.UndoRecord.StartCustomRecord.md) method begins recording the actions that are included in the custom undo record. You can give the custom undo record a name as an argument to the [StartCustomRecord](../../../api/Word.UndoRecord.StartCustomRecord.md) method, but this is optional. If you do not specify a name, Word uses the Visual Basic name of the first command executed as the name of the record. The name of the custom undo record is the string that appears in the user interface in the dropdown next to the **Undo** button.
+The [StartCustomRecord](../../../api/Word.UndoRecord.StartCustomRecord.md) method begins recording the actions that are included in the custom undo record. You can give the custom undo record a name as an argument to the [StartCustomRecord](../../../api/Word.UndoRecord.StartCustomRecord.md) method, but this is optional. If you don't specify a name, Word uses the Visual Basic name of the first command executed as the name of the record. The name of the custom undo record is the string that appears in the user interface in the dropdown next to the **Undo** button.
 
 The [EndCustomRecord](../../../api/Word.UndoRecord.EndCustomRecord.md) method stops recording the custom undo record. All the actions taken by the code between the [StartCustomRecord](../../../api/Word.UndoRecord.StartCustomRecord.md) call and the [EndCustomRecord](../../../api/Word.UndoRecord.EndCustomRecord.md) call are linked into one [UndoRecord](../../../api/Word.UndoRecord.md) object. When you run code that creates a custom undo record, as in the previous code example, the custom undo record is listed in the undo stack as a single entry.
 
@@ -94,9 +93,9 @@ The following table lists other important members of the [UndoRecord](../../../a
 
 |**Name**|**Member Type**|**Description**|
 |:-----|:-----|:-----|
-|**[CustomRecordLevel](../../../api/Word.UndoRecord.CustomRecordLevel.md)**|Property|Returns a  **Long** that specifies the number of custom undo action calls that are currently active. Read-only.|
-|**[CustomRecordName](../../../api/Word.UndoRecord.CustomRecordName.md)**|Property|Returns a  **String** that specifies the entry that appears on the undo stack when all custom undo actions have completed. Read-only.|
-|**[IsRecordingCustomRecord](../../../api/Word.UndoRecord.IsRecordingCustomRecord.md)**|Property|Returns a  **Boolean** that specifies whether a custom undo action is being recorded. Read-only.|
+|**[CustomRecordLevel](../../../api/Word.UndoRecord.CustomRecordLevel.md)**|Property|Returns a **Long** that specifies the number of custom undo action calls that are currently active. Read-only.|
+|**[CustomRecordName](../../../api/Word.UndoRecord.CustomRecordName.md)**|Property|Returns a **String** that specifies the entry that appears on the undo stack when all custom undo actions have completed. Read-only.|
+|**[IsRecordingCustomRecord](../../../api/Word.UndoRecord.IsRecordingCustomRecord.md)**|Property|Returns a **Boolean** that specifies whether a custom undo action is being recorded. Read-only.|
 
 ## Best Practices
 
@@ -122,7 +121,7 @@ Sub UndoInUndoRecord()
 End Sub
 ```
 
-When this code is run, each action in the custom undo record prior to the  **Undo** method call is undone. Each action in the custom undo record after the **Undo** method call is placed the undo stack.
+When this code is run, each action in the custom undo record prior to the **Undo** method call is undone. Each action in the custom undo record after the **Undo** method call is placed the undo stack.
 
 - Avoid switching documents inside a custom undo record. The following code example switches from one document to another inside a custom undo record.
 

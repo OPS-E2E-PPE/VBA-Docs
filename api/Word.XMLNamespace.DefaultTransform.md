@@ -3,12 +3,11 @@ title: XMLNamespace.DefaultTransform property (Word)
 keywords: vbawd10.chm2293766
 f1_keywords:
 - vbawd10.chm2293766
-ms.prod: word
 api_name:
 - Word.XMLNamespace.DefaultTransform
 ms.assetid: a43c9869-98f0-0a18-8e3c-eb4930553367
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DefaultTransform`
+_expression_. `DefaultTransform`
 
  _expression_ An expression that returns an '[XMLNamespace](Word.XMLNamespace.md)' object.
 

@@ -1,27 +1,26 @@
 ---
-title: Presentation.DefaultLanguageID Property (PowerPoint)
+title: Presentation.DefaultLanguageID property (PowerPoint)
 keywords: vbapp10.chm583050
 f1_keywords:
 - vbapp10.chm583050
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.DefaultLanguageID
 ms.assetid: 8568c96c-b997-6a92-e93b-0f3d091383e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.DefaultLanguageID Property (PowerPoint)
+# Presentation.DefaultLanguageID property (PowerPoint)
 
-Returns or sets the default language of a presentation. Read/write.
+Returns or sets the default language of presentations. Read/write.
 
 
 ## Syntax
 
- _expression_. `DefaultLanguageID`
+_expression_. `DefaultLanguageID`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -31,9 +30,11 @@ MsoLanguageID
 
 ## Remarks
 
-When you set the  **DefaultLanguageID** property for a presentation, you set it for all subsequent new presentations as well.
+Setting the **DefaultLanguageID** property does not affect pre-existing objects within that presentation and does set the language for newly created objects.
 
-The value of the  **DefaultLanguageID** property can be one of these **MsoLanguageID** constants.
+When you set the **DefaultLanguageID** property for a single presentation, you set it for all new and all subsequently opened presentations as well.
+
+The value of the **DefaultLanguageID** property can be one of these **MsoLanguageID** constants.
 
 
 ||
@@ -218,7 +219,7 @@ The value of the  **DefaultLanguageID** property can be one of these **MsoLangua
 
 ## Example
 
-This example sets the default language for the active presentation, and all subsequent new presentations, to German.
+This example sets the default language for the active presentation, all new presentations, and all subsequently opened presentations, to German.
 
 
 ```vb

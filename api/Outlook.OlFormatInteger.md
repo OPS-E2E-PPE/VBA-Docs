@@ -1,18 +1,17 @@
 ---
-title: OlFormatInteger Enumeration (Outlook)
+title: OlFormatInteger enumeration (Outlook)
 keywords: vbaol11.chm3135
 f1_keywords:
 - vbaol11.chm3135
-ms.prod: outlook
 api_name:
 - Outlook.OlFormatInteger
 ms.assetid: f63df4f1-2d41-18bc-fccb-c2375cd23be8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormatInteger Enumeration (Outlook)
+# OlFormatInteger enumeration (Outlook)
 
 Indicates the format used to display integer Outlook item properties.
 

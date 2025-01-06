@@ -1,27 +1,26 @@
 ---
-title: Document.CanCheckIn Method (Visio)
+title: Document.CanCheckIn method (Visio)
 keywords: vis_sdr.chm10552020
 f1_keywords:
 - vis_sdr.chm10552020
-ms.prod: visio
 api_name:
 - Visio.Document.CanCheckIn
 ms.assetid: 99922339-631b-f60e-1d07-3ae9df134cf7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.CanCheckIn Method (Visio)
+# Document.CanCheckIn method (Visio)
 
 Specifies whether a document can be checked into a Microsoft SharePoint Server computer.
 
 
 ## Syntax
 
- _expression_. `CanCheckIn`
+_expression_.**CanCheckIn**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -53,10 +52,9 @@ Sub CheckDocIn (varDocCheckIn As Variant)
 End Sub
 ```
 
-To call the preceding  **CheckDocIn** subroutine, use the following subroutine and replace _servername/workspace/drawing.vdx_ with the path to and name of an actual file located on a Microsoft SharePoint Server computer.
+<br/>
 
-
-
+To call the preceding **CheckDocIn** subroutine, use the following subroutine and replace _servername/workspace/drawing.vdx_ with the path to and name of an actual file located on a Microsoft SharePoint Server computer.
 
 ```vb
  

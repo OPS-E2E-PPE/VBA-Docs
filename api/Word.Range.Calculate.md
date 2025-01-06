@@ -3,25 +3,24 @@ title: Range.Calculate method (Word)
 keywords: vbawd10.chm157155500
 f1_keywords:
 - vbawd10.chm157155500
-ms.prod: word
 api_name:
 - Word.Range.Calculate
 ms.assetid: 756d6143-bf92-7669-f686-be23246c3a29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Calculate method (Word)
 
-Calculates a mathematical expression within a range or selection. Returns the result as a  **Single**.
+Calculates a mathematical expression within a range or selection. Returns the result as a **Single**.
 
 
 ## Syntax
 
- _expression_. `Calculate`
+_expression_. `Calculate`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

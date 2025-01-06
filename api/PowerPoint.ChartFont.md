@@ -1,25 +1,24 @@
 ---
-title: ChartFont Object (PowerPoint)
+title: ChartFont object (PowerPoint)
 keywords: vbapp10.chm704000
 f1_keywords:
 - vbapp10.chm704000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartFont
 ms.assetid: 185dfaa0-4ed9-01d2-6584-b0838b50ef8c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartFont Object (PowerPoint)
+# ChartFont object (PowerPoint)
 
 Contains the font attributes (font name, font size, color, and so on) for an object chart.
 
 
 ## Remarks
 
-If you do not want to format all the text in an  **[AxisTitle](PowerPoint.AxisTitle.md)**, **[ChartTitle](PowerPoint.ChartTitle.md)**, **[DataLabel](PowerPoint.DataLabel.md)**, or **[DisplayUnitLabel](PowerPoint.DisplayUnitLabel.md)** object the same way, use the **Characters** property of that object to first return a subset of the text as a **[ChartCharacters](PowerPoint.ChartCharacters.md)** object. Then use the **[Font](PowerPoint.ChartCharacters.Font.md)** property of the **ChartCharacters** object to return a **ChartFont** object you can use to format the subset of text, as needed.
+If you don't want to format all the text in an **[AxisTitle](PowerPoint.AxisTitle.md)**, **[ChartTitle](PowerPoint.ChartTitle.md)**, **[DataLabel](PowerPoint.DataLabel.md)**, or **[DisplayUnitLabel](PowerPoint.DisplayUnitLabel.md)** object the same way, use the **Characters** property of that object to first return a subset of the text as a **[ChartCharacters](PowerPoint.ChartCharacters.md)** object. Then use the **[Font](PowerPoint.ChartCharacters.Font.md)** property of the **ChartCharacters** object to return a **ChartFont** object you can use to format the subset of text, as needed.
 
 
 ## Example
@@ -27,9 +26,10 @@ If you do not want to format all the text in an  **[AxisTitle](PowerPoint.AxisTi
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example formats the title of the first chart as bold. Use the  **Font** property to return the **ChartFont** object.
+The following example formats the title of the first chart as bold. Use the **Font** property to return the **ChartFont** object.
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: PageSetup.SlideHeight Property (PowerPoint)
+title: PageSetup.SlideHeight property (PowerPoint)
 keywords: vbapp10.chm527004
 f1_keywords:
 - vbapp10.chm527004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PageSetup.SlideHeight
 ms.assetid: 64b269cf-4b78-eabf-8963-d1971dc90637
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PageSetup.SlideHeight Property (PowerPoint)
+# PageSetup.SlideHeight property (PowerPoint)
 
 Returns or sets the slide height, in points. Read/write.
 
 
 ## Syntax
 
- _expression_. `SlideHeight`
+_expression_. `SlideHeight`
 
- _expression_ A variable that represents a [PageSetup](./PowerPoint.PageSetup.md) object.
+_expression_ A variable that represents a [PageSetup](PowerPoint.PageSetup.md) object.
 
 
 ## Return value

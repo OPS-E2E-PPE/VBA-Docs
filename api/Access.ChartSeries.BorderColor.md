@@ -3,11 +3,10 @@ title: ChartSeries.BorderColor property (Access)
 keywords: vbaac10.chm14780
 f1_keywords:
 - vbaac10.chm14780
-ms.prod: access
 api_name:
 - Access.ChartSeries.BorderColor
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -15,7 +14,7 @@ localization_priority: Normal
 
 Returns or sets the border color of a series visualization. Read/write **String**.
 
-You can use a **[system color constant](../language/reference/user-interface-help/system-color-constants.md)** or the RGB function as shown in the example.
+Use a **[system color constant](../language/reference/user-interface-help/system-color-constants.md)** or the RGB function as shown in the example.
 
 
 ## Syntax

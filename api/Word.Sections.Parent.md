@@ -3,25 +3,24 @@ title: Sections.Parent property (Word)
 keywords: vbawd10.chm156894186
 f1_keywords:
 - vbawd10.chm156894186
-ms.prod: word
 api_name:
 - Word.Sections.Parent
 ms.assetid: 3da60592-41fa-13a2-bb8a-ba066343e403
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Sections.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Sections** object.
+Returns an **Object** that represents the parent object of the specified **Sections** object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ Required. A variable that represents a '[Sections](Word.sections.md)' collection.
+_expression_ Required. A variable that represents a '[Sections](Word.sections.md)' collection.
 
 
 ## See also

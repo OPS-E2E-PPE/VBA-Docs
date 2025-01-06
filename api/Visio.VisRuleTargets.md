@@ -1,20 +1,19 @@
 ---
-title: VisRuleTargets Enumeration (Visio)
+title: VisRuleTargets enumeration (Visio)
 keywords: vis_sdr.chm70685
 f1_keywords:
 - vis_sdr.chm70685
-ms.prod: visio
 api_name:
 - Visio.VisRuleTargets
 ms.assetid: bcc34e7d-36f4-e6d9-062d-3a8e901a6609
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisRuleTargets Enumeration (Visio)
+# VisRuleTargets enumeration (Visio)
 
-Specifies contants that define the target of the validation rule; passed to and returned by the  **[ValidationRule.TargetType](Visio.ValidationRule.TargetType.md)** property.
+Specifies contants that define the target of the validation rule; passed to and returned by the **[ValidationRule.TargetType](Visio.ValidationRule.TargetType.md)** property.
 
 
 

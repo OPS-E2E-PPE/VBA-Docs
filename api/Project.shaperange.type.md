@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Type Property (Project)
-ms.prod: project-server
+title: ShapeRange.Type property (Project)
+ms.service: project-server
 ms.assetid: ade37906-b00b-80db-879b-378b36c95e32
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Type Property (Project)
-Gets the type of shape in the shape range. Read-only  **[MsoShapeType](https://msdn.microsoft.com/library/office/ff860759%28v=office.15%29)**.
+# ShapeRange.Type property (Project)
+Gets the type of shape in the shape range. Read-only **[MsoShapeType](https://msdn.microsoft.com/library/office/ff860759%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

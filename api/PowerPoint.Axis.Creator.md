@@ -1,22 +1,21 @@
 ---
-title: Axis.Creator Property (PowerPoint)
-ms.prod: powerpoint
+title: Axis.Creator property (PowerPoint)
 api_name:
 - PowerPoint.Axis.Creator
 ms.assetid: ae5c24b1-3bf4-e285-7402-12f2a4727e2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.Creator Property (PowerPoint)
+# Axis.Creator property (PowerPoint)
 
-Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only  **Long**.
+Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `Creator`
+_expression_.**Creator**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 

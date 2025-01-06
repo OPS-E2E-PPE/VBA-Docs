@@ -1,11 +1,10 @@
 ---
 title: TextFrame2.WordWrap property (Office)
-ms.prod: office
 api_name:
 - Office.TextFrame2.WordWrap
 ms.assetid: 479e5798-70fa-f9e4-0901-51cb32915a07
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,7 +26,7 @@ The value of the **WordWrap** property can be one of these **[MsoTriState](offic
 
 |Constant|Description|
 |:-----|:-----|
-|**msoFalse**|Lines of text do not break to fit within the shape boundaries.|
+|**msoFalse**|Lines of text don't break to fit within the shape boundaries.|
 |**msoTrue**|Lines of text break to fit within the shape boundaries.|
 
 ## See also

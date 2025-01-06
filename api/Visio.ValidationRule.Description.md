@@ -1,27 +1,26 @@
 ---
-title: ValidationRule.Description Property (Visio)
+title: ValidationRule.Description property (Visio)
 keywords: vis_sdr.chm18413405
 f1_keywords:
 - vis_sdr.chm18413405
-ms.prod: visio
 api_name:
 - Visio.ValidationRule.Description
 ms.assetid: 111e41fd-f6ea-c33e-a4f3-18d609e16ad1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ValidationRule.Description Property (Visio)
+# ValidationRule.Description property (Visio)
 
-Specifies the description of the  **[ValidationRule](Visio.ValidationRule.md)** object that appears in the user interface. Read/write.
+Specifies the description of the **ValidationRule** object that appears in the user interface. Read/write.
 
 
 ## Syntax
 
- _expression_. `Description`
+_expression_.**Description**
 
- _expression_ A variable that represents a [ValidationRule](./Visio.ValidationRule.md) object.
+_expression_ A variable that represents a **[ValidationRule](Visio.ValidationRule.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Specifies the description of the  **[ValidationRule](Visio.ValidationRule.md)** 
 
 ## Remarks
 
-You cannot set the  **Description** property to a value that exceeds 255 characters.
+You cannot set the **Description** property to a value that exceeds 255 characters.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example shows how to use the  **Description** property to set the description that appears in the user interface for the validation rule named "Unglued2DShape".
+The following Visual Basic for Applications (VBA) example shows how to use the **Description** property to set the description that appears in the user interface for the validation rule named "Unglued2DShape".
 
 
 ```vb

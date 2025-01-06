@@ -3,12 +3,11 @@ title: Application.BuildKeyCode method (Word)
 keywords: vbawd10.chm158335292
 f1_keywords:
 - vbawd10.chm158335292
-ms.prod: word
 api_name:
 - Word.Application.BuildKeyCode
 ms.assetid: 0bbc515d-5f39-fed8-2b86-99979af928a9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns a unique number for the specified key combination.
 
 ## Syntax
 
- _expression_. `BuildKeyCode`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
+_expression_. `BuildKeyCode` (_Arg1_, _Arg2_, _Arg3_, _Arg4_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,8 +29,8 @@ Returns a unique number for the specified key combination.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
-| _Arg2 - Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
+| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
+| _Arg2 - Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
 
 ## Example
 

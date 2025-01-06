@@ -1,27 +1,26 @@
 ---
-title: NamedSlideShows.Application Property (PowerPoint)
+title: NamedSlideShows.Application property (PowerPoint)
 keywords: vbapp10.chm515001
 f1_keywords:
 - vbapp10.chm515001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.NamedSlideShows.Application
 ms.assetid: 4f3510c2-4a77-ee75-2e56-050338c63992
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NamedSlideShows.Application Property (PowerPoint)
+# NamedSlideShows.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [NamedSlideShows](./PowerPoint.NamedSlideShows.md) object.
+_expression_ A variable that represents a [NamedSlideShows](PowerPoint.NamedSlideShows.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

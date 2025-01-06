@@ -1,9 +1,8 @@
 ---
 title: Collections (ADO/WFC syntax)
-ms.prod: access
 ms.assetid: d854bab9-5439-ebe7-2f89-b290dcaa0342
 ms.date: 10/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,15 +31,14 @@ public Parameter getItem(String s )
 public int Invalid DDUE based on source, error:link not allowed in code, link filename:mdprocount_HV10294234.xml() 
 ```
 
-
 ## Fields
 
-### Methods
+### Fields Methods
 
 ```vb
-public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthappend_HV10294078.xml(String name,  int type ) 
-public void append(String name,  int type,  int definedSize ) 
-public void append(String name,  int type,  int definedSize,  int attrib ) 
+public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthappend_HV10294078.xml(String name, int type ) 
+public void append(String name, int type, int definedSize ) 
+public void append(String name, int type, int definedSize, int attrib ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthcoldeletefield_HV10294293.xml(int n ) 
 public void delete(String s ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadorefresh_HV10294718.xml() 
@@ -48,16 +46,15 @@ public com.ms.wfc.data.Field Invalid DDUE based on source, error:link not allowe
 public com.ms.wfc.data.Field getItem(String s ) 
 ```
 
-### Properties
+### Fields Properties
 
 ```vb
 public int Invalid DDUE based on source, error:link not allowed in code, link filename:mdprocount_HV10294234.xml() 
 ```
 
-
 ## Errors
 
-### Methods
+### Errors Methods
 
 ```vb
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthclear_HV10294165.xml() 
@@ -66,7 +63,7 @@ public com.ms.wfc.data.Error Invalid DDUE based on source, error:link not allowe
 public com.ms.wfc.data.Error getItem(String s ) 
 ```
 
-### Properties
+### Errors Properties
 
 ```vb
 public int Invalid DDUE based on source, error:link not allowed in code, link filename:mdprocount_HV10294234.xml() 
@@ -77,8 +74,8 @@ public int Invalid DDUE based on source, error:link not allowed in code, link fi
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

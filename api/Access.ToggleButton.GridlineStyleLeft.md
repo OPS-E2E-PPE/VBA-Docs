@@ -3,12 +3,11 @@ title: ToggleButton.GridlineStyleLeft property (Access)
 keywords: vbaac10.chm11784
 f1_keywords:
 - vbaac10.chm11784
-ms.prod: access
 api_name:
 - Access.ToggleButton.GridlineStyleLeft
 ms.assetid: 1f5fb2ce-e8e2-f14c-d30d-0d28651aed06
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

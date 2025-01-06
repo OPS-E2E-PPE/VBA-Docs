@@ -3,12 +3,11 @@ title: Application.GoBack method (Word)
 keywords: vbawd10.chm158335304
 f1_keywords:
 - vbawd10.chm158335304
-ms.prod: word
 api_name:
 - Word.Application.GoBack
 ms.assetid: d1113bc7-4ad3-f4da-0442-c11f5e22b2a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the insertion point among the last three locations where editing occurred 
 
 ## Syntax
 
- _expression_. `GoBack`
+_expression_. `GoBack`
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

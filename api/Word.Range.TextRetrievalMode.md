@@ -3,25 +3,24 @@ title: Range.TextRetrievalMode property (Word)
 keywords: vbawd10.chm157155390
 f1_keywords:
 - vbawd10.chm157155390
-ms.prod: word
 api_name:
 - Word.Range.TextRetrievalMode
 ms.assetid: e3992479-ba69-e8d3-17e3-73b533f27d26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.TextRetrievalMode property (Word)
 
-Returns a  **[TextRetrievalMode](Word.TextRetrievalMode.md)** object that controls how text is retrieved from the specified **Range**. Read/write.
+Returns a **[TextRetrievalMode](Word.TextRetrievalMode.md)** object that controls how text is retrieved from the specified **Range**. Read/write.
 
 
 ## Syntax
 
- _expression_. `TextRetrievalMode`
+_expression_. `TextRetrievalMode`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

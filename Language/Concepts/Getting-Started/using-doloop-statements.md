@@ -3,16 +3,15 @@ title: Using Do...Loop statements (VBA)
 keywords: vbcn6.chm1076681
 f1_keywords:
 - vbcn6.chm1076681
-ms.prod: office
 ms.assetid: aa3322b6-80a6-d3c6-86b7-4ea6151f0616
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Using Do...Loop statements
 
-You can use **[Do...Loop](../../reference/user-interface-help/doloop-statement.md)** statements to run a block of [statements](../../Glossary/vbe-glossary.md#statement) an indefinite number of times. The statements are repeated either while a condition is **True** or until a condition becomes **True**.
+Use **[Do...Loop](../../reference/user-interface-help/doloop-statement.md)** statements to run a block of [statements](../../Glossary/vbe-glossary.md#statement) an indefinite number of times. The statements are repeated either while a condition is **True** or until a condition becomes **True**.
 
 
 ## Repeating statements while a condition is True

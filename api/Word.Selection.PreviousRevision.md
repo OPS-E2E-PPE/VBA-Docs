@@ -3,25 +3,24 @@ title: Selection.PreviousRevision method (Word)
 keywords: vbawd10.chm158663188
 f1_keywords:
 - vbawd10.chm158663188
-ms.prod: word
 api_name:
 - Word.Selection.PreviousRevision
 ms.assetid: e516037f-047d-5cd2-19b4-3b7870a14b5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.PreviousRevision method (Word)
 
-Locates and returns the previous tracked change as a  **Revision** object.
+Locates and returns the previous tracked change as a **Revision** object.
 
 
 ## Syntax
 
- _expression_. `PreviousRevision`( `_Wrap_` )
+_expression_. `PreviousRevision`( `_Wrap_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

@@ -1,34 +1,33 @@
 ---
-title: ExchangeDistributionList.PrimarySmtpAddress Property (Outlook)
+title: ExchangeDistributionList.PrimarySmtpAddress property (Outlook)
 keywords: vbaol11.chm2134
 f1_keywords:
 - vbaol11.chm2134
-ms.prod: outlook
 api_name:
 - Outlook.ExchangeDistributionList.PrimarySmtpAddress
 ms.assetid: f64bbc29-14c4-be68-402a-16d9ac34a727
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ExchangeDistributionList.PrimarySmtpAddress Property (Outlook)
+# ExchangeDistributionList.PrimarySmtpAddress property (Outlook)
 
-Returns a  **String** representing the primary Simple Mail Transfer Protocol (SMTP) address for the **[ExchangeDistributionList](Outlook.ExchangeDistributionList.md)**. Read-only.
+Returns a **String** representing the primary Simple Mail Transfer Protocol (SMTP) address for the **[ExchangeDistributionList](Outlook.ExchangeDistributionList.md)**. Read-only.
 
 
 ## Syntax
 
 _expression_. `PrimarySmtpAddress`
 
-_expression_ A variable that represents an [ExchangeDistributionList](./Outlook.ExchangeDistributionList.md) object.
+_expression_ A variable that represents an [ExchangeDistributionList](Outlook.ExchangeDistributionList.md) object.
 
 
 ## Remarks
 
-This property corresponds to the MAPI property  **PidTagEmailAddress**.
+This property corresponds to the MAPI property **PidTagEmailAddress**.
 
-Returns an empty string if this property has not been implemented or does not exist for the  **ExchangeDistributionList** object.
+Returns an empty string if this property has not been implemented or does not exist for the **ExchangeDistributionList** object.
 
 
 ## See also

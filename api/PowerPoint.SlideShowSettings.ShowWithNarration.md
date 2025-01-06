@@ -1,27 +1,26 @@
 ---
-title: SlideShowSettings.ShowWithNarration Property (PowerPoint)
+title: SlideShowSettings.ShowWithNarration property (PowerPoint)
 keywords: vbapp10.chm514011
 f1_keywords:
 - vbapp10.chm514011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowSettings.ShowWithNarration
 ms.assetid: 65390c53-abeb-ca9e-0697-f68dcb455324
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowSettings.ShowWithNarration Property (PowerPoint)
+# SlideShowSettings.ShowWithNarration property (PowerPoint)
 
 Determines whether the specified slide show is shown with narration. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowWithNarration`
+_expression_. `ShowWithNarration`
 
- _expression_ A variable that represents a [SlideShowSettings](./PowerPoint.SlideShowSettings.md) object.
+_expression_ A variable that represents a [SlideShowSettings](PowerPoint.SlideShowSettings.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **ShowWithNarration** property can be one of these **MsoTriState** constants.
+The value of the **ShowWithNarration** property can be one of these **MsoTriState** constants.
 
 
 

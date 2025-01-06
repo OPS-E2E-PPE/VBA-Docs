@@ -3,25 +3,24 @@ title: InlineShape.ScaleHeight property (Word)
 keywords: vbawd10.chm162005002
 f1_keywords:
 - vbawd10.chm162005002
-ms.prod: word
 api_name:
 - Word.InlineShape.ScaleHeight
 ms.assetid: c8f07ca4-4f0c-c365-1962-4404ca7a6ed4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # InlineShape.ScaleHeight property (Word)
 
-Scales the height of the specified inline shape relative to its original size. Read/write  **Single**.
+Scales the height of the specified inline shape relative to its original size. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `ScaleHeight`
+_expression_.**ScaleHeight**
 
- _expression_ Required. A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ Required. A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Example

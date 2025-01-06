@@ -1,27 +1,26 @@
 ---
-title: Hyperlinks.Application Property (PowerPoint)
+title: Hyperlinks.Application property (PowerPoint)
 keywords: vbapp10.chm525001
 f1_keywords:
 - vbapp10.chm525001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlinks.Application
 ms.assetid: 1456e6e9-5c86-2bec-907c-fdb5fd3a1496
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks.Application Property (PowerPoint)
+# Hyperlinks.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Hyperlinks](./PowerPoint.Hyperlinks.md) object.
+_expression_ A variable that represents a [Hyperlinks](PowerPoint.Hyperlinks.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

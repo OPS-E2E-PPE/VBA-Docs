@@ -1,18 +1,17 @@
 ---
-title: AssignToCategoryRuleAction Object (Outlook)
+title: AssignToCategoryRuleAction object (Outlook)
 keywords: vbaol11.chm3168
 f1_keywords:
 - vbaol11.chm3168
-ms.prod: outlook
 api_name:
 - Outlook.AssignToCategoryRuleAction
 ms.assetid: 402f4742-72ba-2559-4e4c-e2b8248cd7f6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AssignToCategoryRuleAction Object (Outlook)
+# AssignToCategoryRuleAction object (Outlook)
 
 Represents an action that assigns categories to a message.
 
@@ -41,6 +40,6 @@ For more information on specifying rule actions, see [Specify Rule Actions](../o
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,25 +3,24 @@ title: TableStyle.AllowBreakAcrossPage property (Word)
 keywords: vbawd10.chm244776973
 f1_keywords:
 - vbawd10.chm244776973
-ms.prod: word
 api_name:
 - Word.TableStyle.AllowBreakAcrossPage
 ms.assetid: 22ca3964-79ba-dd92-1898-0746f73f4d8b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableStyle.AllowBreakAcrossPage property (Word)
 
-Sets or returns a  **Long** indicating whether lines in the rows of tables formatted with a specified style break across pages. Read/write.
+Sets or returns a **Long** indicating whether lines in the rows of tables formatted with a specified style break across pages. Read/write.
 
 
 ## Syntax
 
- _expression_. `AllowBreakAcrossPage`
+_expression_. `AllowBreakAcrossPage`
 
- _expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
+_expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
 
 
 ## Remarks

@@ -1,20 +1,19 @@
 ---
-title: Account.DeliveryStore Property (Outlook)
+title: Account.DeliveryStore property (Outlook)
 keywords: vbaol11.chm3423
 f1_keywords:
 - vbaol11.chm3423
-ms.prod: outlook
 api_name:
 - Outlook.Account.DeliveryStore
 ms.assetid: 181d52ff-7c48-af7b-dbec-3562f1c8801b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Account.DeliveryStore Property (Outlook)
+# Account.DeliveryStore property (Outlook)
 
-Returns a  **[Store](Outlook.Store.md)** object that represents the default delivery store for the account. Read-only.
+Returns a **[Store](Outlook.Store.md)** object that represents the default delivery store for the account. Read-only.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents an '[Account](Outlook.Account.md)' objec
 
 ## Remarks
 
-Returns  **Null** (**Nothing** in Visual Basic) if the account does not have a default delivery store.
+Returns **Null** (**Nothing** in Visual Basic) if the account does not have a default delivery store.
 
 
 ## See also

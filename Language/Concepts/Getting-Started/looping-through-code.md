@@ -3,10 +3,9 @@ title: Looping through code (VBA)
 keywords: vbcn6.chm1076674
 f1_keywords:
 - vbcn6.chm1076674
-ms.prod: office
 ms.assetid: 47d7ca2e-6103-c210-1c80-7ce76d854907
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ Looping allows you to run a group of statements repeatedly. Some loops repeat st
     
 ## Run several statements on the same object
 
-In Visual Basic, usually you must specify an object before you can run one of its [methods](../../Glossary/vbe-glossary.md#method) or change one of its [properties](../../Glossary/vbe-glossary.md#property). You can use the **With** statement to specify an object once for an entire series of statements.
+In Visual Basic, usually you must specify an object before you can run one of its [methods](../../Glossary/vbe-glossary.md#method) or change one of its [properties](../../Glossary/vbe-glossary.md#property). Use the **With** statement to specify an object once for an entire series of statements.
 
 - [With](using-with-statements.md): Running a series of statements on the same object
     

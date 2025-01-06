@@ -3,18 +3,17 @@ title: ObjectFrame.Class property (Access)
 keywords: vbaac10.chm11574
 f1_keywords:
 - vbaac10.chm11574
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Class
 ms.assetid: 38ee5131-ffcb-3db6-0f2d-1e7f59c9a5b4
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.Class property (Access)
 
-You can use the **Class** property to specify or determine the class name of an embedded OLE object. Read/write **String**.
+Use the **Class** property to specify or determine the class name of an embedded OLE object. Read/write **String**.
 
 
 ## Syntax

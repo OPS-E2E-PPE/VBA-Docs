@@ -3,25 +3,24 @@ title: Shape.HorizontalFlip property (Word)
 keywords: vbawd10.chm161480814
 f1_keywords:
 - vbawd10.chm161480814
-ms.prod: word
 api_name:
 - Word.Shape.HorizontalFlip
 ms.assetid: b4bda66d-2826-9f12-1901-d47b824daeda
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.HorizontalFlip property (Word)
 
-Indicates that a shape has been flipped horizontally. Read-only  **MsoTriState**.
+Indicates that a shape has been flipped horizontally. Read-only **MsoTriState**.
 
 
 ## Syntax
 
- _expression_. `HorizontalFlip`
+_expression_. `HorizontalFlip`
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example

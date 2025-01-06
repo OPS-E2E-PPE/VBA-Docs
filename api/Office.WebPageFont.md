@@ -3,18 +3,17 @@ title: WebPageFont object (Office)
 keywords: vbaof11.chm224000
 f1_keywords:
 - vbaof11.chm224000
-ms.prod: office
 api_name:
 - Office.WebPageFont
 ms.assetid: daf3c079-520d-68bd-ec02-027776074505
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebPageFont object (Office)
 
-Represents the default font used when documents are saved as web pages for a particular character set.
+Represents the default font used when documents are saved as webpages for a particular character set.
 
 
 ## Remarks

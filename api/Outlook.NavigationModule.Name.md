@@ -1,27 +1,26 @@
 ---
-title: NavigationModule.Name Property (Outlook)
+title: NavigationModule.Name property (Outlook)
 keywords: vbaol11.chm2808
 f1_keywords:
 - vbaol11.chm2808
-ms.prod: outlook
 api_name:
 - Outlook.NavigationModule.Name
 ms.assetid: b02dfa63-01f0-f0e3-95fd-c928aace6cd8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NavigationModule.Name Property (Outlook)
+# NavigationModule.Name property (Outlook)
 
-Returns a  **String** value that represents the localized display name for the **[NavigationModule](Outlook.NavigationModule.md)** object. Read-only.
+Returns a **String** value that represents the localized display name for the **[NavigationModule](Outlook.NavigationModule.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Name**
 
- _expression_ An expression that returns a [NavigationModule](./Outlook.NavigationModule.md) object.
+ _expression_ An expression that returns a [NavigationModule](Outlook.NavigationModule.md) object.
 
 
 ## See also

@@ -3,12 +3,11 @@ title: ChartGroup.HasSeriesLines property (Word)
 keywords: vbawd10.chm263454736
 f1_keywords:
 - vbawd10.chm263454736
-ms.prod: word
 api_name:
 - Word.ChartGroup.HasSeriesLines
 ms.assetid: 56e85d95-4743-4afd-5bdf-d00065608708
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasSeriesLines`
+_expression_.**HasSeriesLines**
 
- _expression_ A variable that represents a '[ChartGroup](Word.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](Word.ChartGroup.md)** object.
 
 
 ## Remarks
 
-This property applies only to 2-D stacked bar, 2-D stacked column, pie-of-pie, or bar-of-pie charts. 
+This property applies only to 2D stacked bar, 2D stacked column, pie-of-pie, or bar-of-pie charts. 
 
 
 ## Example
 
-The following example enables series lines for chart group one of the first chart in the active document and then sets their line style, weight, and color. You should run the example on a 2-D stacked column chart that has two or more series.
+The following example enables series lines for chart group one of the first chart in the active document and then sets their line style, weight, and color. You should run the example on a 2D stacked column chart that has two or more series.
 
 
 ```vb

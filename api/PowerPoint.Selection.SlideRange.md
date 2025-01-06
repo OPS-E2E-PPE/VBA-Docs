@@ -1,27 +1,26 @@
 ---
-title: Selection.SlideRange Property (PowerPoint)
+title: Selection.SlideRange property (PowerPoint)
 keywords: vbapp10.chm508008
 f1_keywords:
 - vbapp10.chm508008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Selection.SlideRange
 ms.assetid: 2d853875-b0c2-ab8e-38b6-4e1397d4e669
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.SlideRange Property (PowerPoint)
+# Selection.SlideRange property (PowerPoint)
 
-Returns a  **[SlideRange](PowerPoint.SlideRange.md)** object that represents a range of selected slides. Read-only.
+Returns a **[SlideRange](PowerPoint.SlideRange.md)** object that represents a range of selected slides. Read-only.
 
 
 ## Syntax
 
- _expression_. `SlideRange`
+_expression_. `SlideRange`
 
- _expression_ A variable that represents a [Selection](./PowerPoint.Selection.md) object.
+_expression_ A variable that represents a [Selection](PowerPoint.Selection.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ SlideRange
 
 ## Remarks
 
-A slide range can be constructed in slide view, slide sorter view, normal view, notes page view, or outline view. In slide view,  **SlideRange** returns one slide — the current, displayed slide.
+A slide range can be constructed in slide view, slide sorter view, normal view, notes page view, or outline view. In slide view, **SlideRange** returns one slide — the current, displayed slide.
 
 
 ## Example

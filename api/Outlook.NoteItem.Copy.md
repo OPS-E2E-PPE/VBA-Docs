@@ -1,37 +1,36 @@
 ---
-title: NoteItem.Copy Method (Outlook)
+title: NoteItem.Copy method (Outlook)
 keywords: vbaol11.chm1493
 f1_keywords:
 - vbaol11.chm1493
-ms.prod: outlook
 api_name:
 - Outlook.NoteItem.Copy
 ms.assetid: 5d89217e-2595-64e2-a619-afb5a7120f8a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NoteItem.Copy Method (Outlook)
+# NoteItem.Copy method (Outlook)
 
 Creates another instance of an object.
 
 
 ## Syntax
 
-_expression_. `Copy`
+_expression_.**Copy**
 
- _expression_ An expression that returns a [NoteItem](./Outlook.NoteItem.md) object.
+ _expression_ An expression that returns a [NoteItem](Outlook.NoteItem.md) object.
 
 
 ## Return value
 
-A  **[NoteItem](Outlook.NoteItem.md)** object that represents a copy of the specified note.
+A **[NoteItem](Outlook.NoteItem.md)** object that represents a copy of the specified note.
 
 
 ## Example
 
-This Visual Basic for Applications example creates an email message, sets the  **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
+This Visual Basic for Applications example creates an email message, sets the **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
 
 
 ```vb

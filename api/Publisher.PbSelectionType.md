@@ -1,18 +1,17 @@
 ---
-title: PbSelectionType Enumeration (Publisher)
+title: PbSelectionType enumeration (Publisher)
 keywords: vbapb10.chm65567
 f1_keywords:
 - vbapb10.chm65567
-ms.prod: publisher
 api_name:
 - Publisher.PbSelectionType
 ms.assetid: 21e266e0-bbce-b953-aa30-65fe4389c67d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbSelectionType Enumeration (Publisher)
+# PbSelectionType enumeration (Publisher)
 
 Represents the selection type. 
 

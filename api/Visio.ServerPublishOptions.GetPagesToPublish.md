@@ -1,27 +1,26 @@
 ---
-title: ServerPublishOptions.GetPagesToPublish Method (Visio)
+title: ServerPublishOptions.GetPagesToPublish method (Visio)
 keywords: vis_sdr.chm17962380
 f1_keywords:
 - vis_sdr.chm17962380
-ms.prod: visio
 api_name:
 - Visio.ServerPublishOptions.GetPagesToPublish
 ms.assetid: e5dacddd-9b3d-7d18-afff-82ee6a042b03
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ServerPublishOptions.GetPagesToPublish Method (Visio)
+# ServerPublishOptions.GetPagesToPublish method (Visio)
 
 Returns an array of pages that are set to be published to a server.
 
 
 ## Syntax
 
- _expression_. `GetPagesToPublish`( `_Flags_` , `_PublishPages_` , `_NamesArray()_` )
+_expression_. `GetPagesToPublish`( `_Flags_` , `_PublishPages_` , `_NamesArray()_` )
 
- _expression_ A variable that represents a '[ServerPublishOptions](Visio.ServerPublishOptions.md)' object.
+_expression_ A variable that represents a **[ServerPublishOptions](Visio.ServerPublishOptions.md)** object.
 
 
 ## Parameters

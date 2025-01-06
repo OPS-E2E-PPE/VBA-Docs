@@ -3,18 +3,17 @@ title: CheckBox.DisplayWhen property (Access)
 keywords: vbaac10.chm10702
 f1_keywords:
 - vbaac10.chm10702
-ms.prod: access
 api_name:
 - Access.CheckBox.DisplayWhen
 ms.assetid: 9236d99e-df4d-5342-e60c-162abe7de8d6
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

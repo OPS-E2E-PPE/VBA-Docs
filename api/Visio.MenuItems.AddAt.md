@@ -1,27 +1,26 @@
 ---
-title: MenuItems.AddAt Method (Visio)
+title: MenuItems.AddAt method (Visio)
 keywords: vis_sdr.chm13016015
 f1_keywords:
 - vis_sdr.chm13016015
-ms.prod: visio
 api_name:
 - Visio.MenuItems.AddAt
 ms.assetid: 1a987305-29f9-4f58-758b-a89d1e1911ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MenuItems.AddAt Method (Visio)
+# MenuItems.AddAt method (Visio)
 
-Creates a new  **MenuItem** object at a specified index in the **MenuItems** collection.
+Creates a new **MenuItem** object at a specified index in the **MenuItems** collection.
 
 
 ## Syntax
 
- _expression_. `AddAt`( `_lIndex_` )
+_expression_. `AddAt`( `_lIndex_` )
 
- _expression_ A variable that represents a [MenuItems](./Visio.MenuItems.md) object.
+_expression_ A variable that represents a **[MenuItems](Visio.MenuItems.md)** object.
 
 
 ## Parameters
@@ -40,11 +39,12 @@ MenuItem
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If the index is zero (0), the object is added at the beginning of the collection.
 
-The beginning of a  **MenuItems** collection is the topmost menu item.
+The beginning of a **MenuItems** collection is the topmost menu item.
 
 
 ## Example

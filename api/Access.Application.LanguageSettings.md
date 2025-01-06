@@ -3,18 +3,17 @@ title: Application.LanguageSettings property (Access)
 keywords: vbaac10.chm12588
 f1_keywords:
 - vbaac10.chm12588
-ms.prod: access
 api_name:
 - Access.Application.LanguageSettings
 ms.assetid: f2b039bf-95a8-7820-355e-67fa5e47aaf6
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.LanguageSettings property (Access)
 
-You can use the **LanguageSettings** property to return a read-only reference to the current **LanguageSettings** object and its related properties.
+Use the **LanguageSettings** property to return a read-only reference to the current **LanguageSettings** object and its related properties.
 
 
 ## Syntax

@@ -1,18 +1,17 @@
 ---
-title: FromRssFeedRuleCondition Object (Outlook)
+title: FromRssFeedRuleCondition object (Outlook)
 keywords: vbaol11.chm3260
 f1_keywords:
 - vbaol11.chm3260
-ms.prod: outlook
 api_name:
 - Outlook.FromRssFeedRuleCondition
 ms.assetid: 8de6e629-7e3d-b4df-d758-a5bff3abd6a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FromRssFeedRuleCondition Object (Outlook)
+# FromRssFeedRuleCondition object (Outlook)
 
 Represents a rule condition that evaluates whether an item is from a specified RSS subscription.
 
@@ -41,6 +40,6 @@ For more information about specifying rule actions, see [Specify Rule Conditions
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

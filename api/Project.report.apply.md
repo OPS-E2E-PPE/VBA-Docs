@@ -1,20 +1,20 @@
 ---
-title: Report.Apply Method (Project)
-ms.prod: project-server
+title: Report.Apply method (Project)
+ms.service: project-server
 ms.assetid: 4461da82-5bd6-2d9b-0d39-35875c2cee36
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Report.Apply Method (Project)
+# Report.Apply method (Project)
 Changes the view to display the report.
 
 ## Syntax
 
- _expression_. `Apply`
+_expression_.**Apply**
 
- _expression_ A variable that represents a 'Report' object.
+_expression_ A variable that represents a 'Report' object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ Changes the view to display the report.
 
 ## Example
 
-The following example determines whether a report named  **Report 1** exists, and if so, displays the report.
+The following example determines whether a report named **Report 1** exists, and if so, displays the report.
 
 
 ```vb

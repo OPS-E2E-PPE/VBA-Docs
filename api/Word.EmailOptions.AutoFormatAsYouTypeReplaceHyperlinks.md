@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeReplaceHyperlinks property (Word)
 keywords: vbawd10.chm165347600
 f1_keywords:
 - vbawd10.chm165347600
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceHyperlinks
 ms.assetid: 902775b4-f89e-f5bd-879b-6dd3fe6f2d06
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceHyperlinks`
+_expression_. `AutoFormatAsYouTypeReplaceHyperlinks`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example enables Word to automatically replace any Internet or network paths
 Options.AutoFormatAsYouTypeReplaceHyperlinks = True
 ```
 
-This example returns the status of the  **Internet and network paths with hyperlinks** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Internet and network paths with hyperlinks** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

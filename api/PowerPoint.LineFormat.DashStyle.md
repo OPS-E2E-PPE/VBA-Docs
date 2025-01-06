@@ -1,27 +1,26 @@
 ---
-title: LineFormat.DashStyle Property (PowerPoint)
+title: LineFormat.DashStyle property (PowerPoint)
 keywords: vbapp10.chm553006
 f1_keywords:
 - vbapp10.chm553006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.LineFormat.DashStyle
 ms.assetid: 7fc898b4-1eea-21fc-52e5-0ec92bde527f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LineFormat.DashStyle Property (PowerPoint)
+# LineFormat.DashStyle property (PowerPoint)
 
 Returns or sets the dash style for the specified line. Read/write.
 
 
 ## Syntax
 
- _expression_. `DashStyle`
+_expression_.**DashStyle**
 
- _expression_ A variable that represents a [LineFormat](./PowerPoint.LineFormat.md) object.
+_expression_ A variable that represents a [LineFormat](PowerPoint.LineFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoLineDashStyle
 
 ## Remarks
 
-The value of the  **DashStyle** property can be one of these **MsoLineDashStyle** constants.
+The value of the **DashStyle** property can be one of these **MsoLineDashStyle** constants.
 
 
 ||
@@ -48,7 +47,7 @@ The value of the  **DashStyle** property can be one of these **MsoLineDashStyle*
 
 ## Example
 
-This example adds a blue dashed line to  `myDocument`.
+This example adds a blue dashed line to _myDocument_.
 
 
 ```vb

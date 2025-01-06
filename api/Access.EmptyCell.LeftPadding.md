@@ -3,12 +3,11 @@ title: EmptyCell.LeftPadding property (Access)
 keywords: vbaac10.chm14327
 f1_keywords:
 - vbaac10.chm14327
-ms.prod: access
 api_name:
 - Access.EmptyCell.LeftPadding
 ms.assetid: e0437bb1-e6cb-fe5f-3aed-f4d068aff22c
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

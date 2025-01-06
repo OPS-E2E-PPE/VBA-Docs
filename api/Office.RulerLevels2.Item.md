@@ -1,11 +1,10 @@
 ---
 title: RulerLevels2.Item method (Office)
-ms.prod: office
 api_name:
 - Office.RulerLevels2.Item
 ms.assetid: b6791181-ea32-62e3-3b9a-1b60f436bc91
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

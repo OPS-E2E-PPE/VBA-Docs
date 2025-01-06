@@ -1,27 +1,26 @@
 ---
-title: Slide.HeadersFooters Property (PowerPoint)
+title: Slide.HeadersFooters property (PowerPoint)
 keywords: vbapp10.chm531004
 f1_keywords:
 - vbapp10.chm531004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.HeadersFooters
 ms.assetid: 947eb2cf-6902-2eb1-f781-0602e96bbdef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.HeadersFooters Property (PowerPoint)
+# Slide.HeadersFooters property (PowerPoint)
 
-Returns a  **[HeadersFooters](PowerPoint.HeadersFooters.md)** collection that represents the header, footer, date and time, and slide number associated with the slide, slide master, or range of slides. Read-only.
+Returns a **[HeadersFooters](PowerPoint.HeadersFooters.md)** collection that represents the header, footer, date and time, and slide number associated with the slide, slide master, or range of slides. Read-only.
 
 
 ## Syntax
 
- _expression_. `HeadersFooters`
+_expression_. `HeadersFooters`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

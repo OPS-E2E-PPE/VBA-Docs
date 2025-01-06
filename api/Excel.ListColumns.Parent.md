@@ -3,12 +3,11 @@ title: ListColumns.Parent property (Excel)
 keywords: vbaxl10.chm735075
 f1_keywords:
 - vbaxl10.chm735075
-ms.prod: excel
 api_name:
 - Excel.ListColumns.Parent
 ms.assetid: 53182784-926e-d800-7b7b-2090d5a0ad42
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [ListColumns](Excel.ListColumns.md) object.
+_expression_ A variable that represents a **[ListColumns](Excel.ListColumns.md)** object.
 
 
-## See also
 
-
-[ListColumns Object](Excel.ListColumns.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: TextBox.KeyDown event (Access)
 keywords: vbaac10.chm14206
 f1_keywords:
 - vbaac10.chm14206
-ms.prod: access
 api_name:
 - Access.TextBox.KeyDown
 ms.assetid: 00324700-f101-48a0-242f-bdabf4f2d70d
 ms.date: 02/10/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,20 +15,18 @@ localization_priority: Priority
 
 The **KeyDown** event occurs when the user presses a key while a form or control has the focus. This event also occurs if you send a keystroke to a form or control by using the SendKeys action in a macro or the **SendKeys** statement in Visual Basic.
 
-
 ## Syntax
 
 _expression_.**KeyDown** (_KeyCode_, _Shift_)
 
 _expression_ A variable that represents a **[TextBox](Access.TextBox.md)** object.
 
-
 ## Parameters
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyCode_|Required|**Integer**|A key code, such as **vbKeyF1** (the F1 key) or **vbKeyHome** (the Home key). To specify key codes, use the intrinsic constants shown in the Object Browser. You can prevent an object from receiving a keystroke by setting _KeyCode_ to 0.|
-| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys at the time of the event. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p><b>acShiftMask</b>  The bit mask for the Shift key.</p></li><li><p><b>acCtrlMask</b>  The bit mask for the Ctrl key.</p></li><li><p><b>acAltMask</b>  The bit mask for the Alt key.</p></li></ul> |
+| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys at the time of the event. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p>**acShiftMask**  The bit mask for the Shift key.</p></li><li><p>**acCtrlMask**  The bit mask for the Ctrl key.</p></li><li><p>**acAltMask**  The bit mask for the Alt key.</p></li></ul> |
 
 ## Remarks
 
@@ -71,7 +68,6 @@ The following example determines whether you have pressed the Shift, Ctrl, or Al
 
 To try the example, add the following event procedure to a form containing a text box named **KeyHandler**.
 
-
 ```vb
 Private Sub KeyHandler_KeyDown(KeyCode As Integer, _ 
      Shift As Integer) 
@@ -83,13 +79,10 @@ Private Sub KeyHandler_KeyDown(KeyCode As Integer, _
     intAltDown = (Shift And acAltMask) > 0 
     intCtrlDown = (Shift And acCtrlMask) > 0 
     ' Display message telling user which key was pressed. 
-    If intShiftDown Then MsgBox "You pressed the SHIFT key." 
-    If intAltDown Then MsgBox "You pressed the ALT key." 
-    If intCtrlDown Then MsgBox "You pressed the CTRL key." 
+    If intShiftDown Then MsgBox "You pressed the Shift key." 
+    If intAltDown Then MsgBox "You pressed the Alt key." 
+    If intCtrlDown Then MsgBox "You pressed the Ctrl key." 
 End Sub
 ```
-
-
-
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,10 +3,10 @@ title: List Box Control
 keywords: vbaac10.chm5186557
 f1_keywords:
 - vbaac10.chm5186557
-ms.prod: access
+ms.service: access
 ms.assetid: 279e2f07-9f6d-df03-812c-d232cdeb6fd7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +22,7 @@ The list in a list box consists of rows of data. Rows can have one or more colum
 
 If a multiple-column list box is bound, Microsoft Access stores the values from one of the columns.
 
-You can use an unbound list box to store a value that you can use with another control. For example, you could use an unbound list box to limit the values in another list box or in a custom dialog box. You could also use an unbound list box to find a record based on the value you select in the list box.
+Use an unbound list box to store a value that you can use with another control. For example, you could use an unbound list box to limit the values in another list box or in a custom dialog box. You could also use an unbound list box to find a record based on the value you select in the list box.
 
 If you don't have room on your form to display a list box, or if you want to be able to type new values as well as select values from a list, use a combo box instead of a list box.
 

@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm7020
 f1_keywords:
 - vbaac10.chm7020
-ms.prod: access
 api_name:
 - Access.Required
 ms.assetid: 4aa6d0bb-4a07-9efc-4d2e-414bcc11e42e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the **Required** property to specify whether a value is required in a field. If this property is set to Yes, when you enter data in a record, you must enter a value in the field or in any control bound to the field, and the value cannot be **Null**. 
+Use the **Required** property to specify whether a value is required in a field. If this property is set to Yes, when you enter data in a record, you must enter a value in the field or in any control bound to the field, and the value cannot be **Null**. 
 
 For example, you might want to be sure that a LastName control has a value for each record. When you want to permit **Null** values in a field, you must not only set the **Required** property to No but, if there is a **ValidationRule** property setting, it must also explicitly state " _validationrule_ Or Is Null".
 
@@ -44,14 +43,14 @@ You can set this property for all table fields (except AutoNumber data type fiel
 
 The **Required** property is enforced at the table level by the Microsoft Jet database engine. If you set this property to Yes, the field must receive or already contain a value when it has the focus — when a user enters data in a table (or in a form or datasheet based on the table), when a macro or Visual Basic sets the value of the field, or when data is imported into the table.
 
-You can use the **Required** and **AllowZeroLength** properties to differentiate between information that doesn't exist (stored as a zero-length string (" ") in the field) and information that may exist but is unknown (stored as a **Null** value in the field). 
+Use the **Required** and **AllowZeroLength** properties to differentiate between information that doesn't exist (stored as a zero-length string (" ") in the field) and information that may exist but is unknown (stored as a **Null** value in the field). 
 
 If you set the **AllowZeroLength** property to Yes, a zero-length string will be a valid entry in the field regardless of the **Required** property setting. 
 
 If you set **Required** to Yes and **AllowZeroLength** to No, you must enter a value in the field, and a zero-length string won't be a valid entry.
 
 > [!TIP] 
-> You can use an input mask when data is entered in a field to distinguish between the display of a **Null** value and a zero-length string. For example, the string "None" could be displayed when a zero-length string is entered.
+> Use an input mask when data is entered in a field to distinguish between the display of a **Null** value and a zero-length string. For example, the string "None" could be displayed when a zero-length string is entered.
 
 The following table shows the results you can expect when you combine the settings of the **Required** and **AllowZeroLength** properties.
 
@@ -72,8 +71,8 @@ If you set the **Required** property to Yes for a field in a table that already 
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

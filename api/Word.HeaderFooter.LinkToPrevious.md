@@ -3,12 +3,11 @@ title: HeaderFooter.LinkToPrevious property (Word)
 keywords: vbawd10.chm159711238
 f1_keywords:
 - vbawd10.chm159711238
-ms.prod: word
 api_name:
 - Word.HeaderFooter.LinkToPrevious
 ms.assetid: edb4dbeb-bb06-e41a-aa26-f29317bb6e01
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LinkToPrevious`
+_expression_. `LinkToPrevious`
 
  _expression_ An expression that returns a '[HeaderFooter](Word.HeaderFooter.md)' object.
 
 
 ## Remarks
 
-When a header or footer is linked, its contents are the same as in the previous header or footer. Because the  **LinkToPrevious** property is set to **True** by default, you can add headers, footers, and page numbers to your entire document by working with the headers, footers, and page numbers in the first section. For instance, the following example adds page numbers to the header on all pages in all sections of the active document.
+When a header or footer is linked, its contents are the same as in the previous header or footer. Because the **LinkToPrevious** property is set to **True** by default, you can add headers, footers, and page numbers to your entire document by working with the headers, footers, and page numbers in the first section. For instance, the following example adds page numbers to the header on all pages in all sections of the active document.
 
 
 ```vb
@@ -34,7 +33,7 @@ ActiveDocument.Sections(1) _
  .Headers(wdHeaderFooterPrimary).PageNumbers.Add
 ```
 
-The  **LinkToPrevious** property applies to each header or footer individually. For example, the **LinkToPrevious** property could be set to **True** for the even-numbered-page header but **False** for the even-numbered-page footer.
+The **LinkToPrevious** property applies to each header or footer individually. For example, the **LinkToPrevious** property could be set to **True** for the even-numbered-page header but **False** for the even-numbered-page footer.
 
 
 ## Example

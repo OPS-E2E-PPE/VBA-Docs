@@ -3,25 +3,24 @@ title: Range.Case property (Word)
 keywords: vbawd10.chm157155640
 f1_keywords:
 - vbawd10.chm157155640
-ms.prod: word
 api_name:
 - Word.Range.Case
 ms.assetid: 983f7bd3-10b4-882f-5b4d-01e44127676f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Case property (Word)
 
-Returns or sets a  **WdCharacterCase** constant that represents the case of the text in the specified range. Read/write.
+Returns or sets a **WdCharacterCase** constant that represents the case of the text in the specified range. Read/write.
 
 
 ## Syntax
 
- _expression_. `Case`
+_expression_. `Case`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

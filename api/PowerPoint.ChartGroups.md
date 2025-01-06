@@ -1,18 +1,17 @@
 ---
-title: ChartGroups Object (PowerPoint)
+title: ChartGroups object (PowerPoint)
 keywords: vbapp10.chm693000
 f1_keywords:
 - vbapp10.chm693000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroups
 ms.assetid: 2db874db-91af-0b1e-7496-92a8443caade
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroups Object (PowerPoint)
+# ChartGroups object (PowerPoint)
 
 Represents one or more series plotted in a chart with the same format.
 
@@ -24,7 +23,8 @@ Represents one or more series plotted in a chart with the same format.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
  The following example displays the number of chart groups on the first chart of the active document. Use the **[ChartGroups](PowerPoint.Chart.ChartGroups.md)** method to return the **ChartGroups** collection.
 
@@ -37,7 +37,7 @@ MsgBox ActiveDocument.InlineShapes(1).Chart._
     ChartGroups.Count
 ```
 
-The following example adds drop lines to chart group 1 on chart sheet 1. Use  **ChartGroups** ( _index_ ), where _Index_ is the chart group index number, to return a single **ChartGroup** object.
+The following example adds drop lines to chart group 1 on chart sheet 1. Use **ChartGroups** (_index_), where _index_ is the chart group index number, to return a single **ChartGroup** object.
 
 
 

@@ -3,30 +3,29 @@ title: WrapFormat.DistanceLeft property (Word)
 keywords: vbawd10.chm163774568
 f1_keywords:
 - vbawd10.chm163774568
-ms.prod: word
 api_name:
 - Word.WrapFormat.DistanceLeft
 ms.assetid: 278a0056-b33e-317c-4756-5eb8e91da175
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WrapFormat.DistanceLeft property (Word)
 
-Returns or sets the distance (in points) between the document text and the left edge of the text-free area surrounding the specified shape. Read/write  **Single**.
+Returns or sets the distance (in points) between the document text and the left edge of the text-free area surrounding the specified shape. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `DistanceLeft`
+_expression_. `DistanceLeft`
 
- _expression_ A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
+_expression_ A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
 
 
 ## Remarks
 
-The size and shape of the specified shape, together with the values of the  **Type** and **Side** properties of the **WrapFormat** object, determine the size and shape of this text-free area.
+The size and shape of the specified shape, together with the values of the **Type** and **Side** properties of the **WrapFormat** object, determine the size and shape of this text-free area.
 
 
 ## Example

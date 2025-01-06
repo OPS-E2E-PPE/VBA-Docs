@@ -3,10 +3,9 @@ title: Eqv operator
 keywords: vblr6.chm1008909
 f1_keywords:
 - vblr6.chm1008909
-ms.prod: office
 ms.assetid: 6662347b-5229-3bb7-a8f2-d1216094c870
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,8 +35,6 @@ If either expression is [Null](../../Glossary/vbe-glossary.md#null), _result_ is
 |**True**|**False**|**False**|
 |**False**|**True**|**False**|
 |**False**|**False**|**True**|
-
-<br/>
 
 The **Eqv** operator performs a [bitwise comparison](../../Glossary/vbe-glossary.md#bitwise-comparison) of identically positioned bits in two [numeric expressions](../../Glossary/vbe-glossary.md#numeric-expression) and sets the corresponding bit in _result_ according to the following table.
 

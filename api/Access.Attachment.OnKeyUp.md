@@ -3,12 +3,11 @@ title: Attachment.OnKeyUp property (Access)
 keywords: vbaac10.chm13951
 f1_keywords:
 - vbaac10.chm13951
-ms.prod: access
 api_name:
 - Access.Attachment.OnKeyUp
 ms.assetid: 56e5a246-5907-f537-0c89-a746beab0865
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **[KeyUp](access.attachment.keyup.md)** event occurs when a user presses a k
 
 The **OnKeyUp** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Key Up** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Key Up** box is blank, the property value is an empty string.
 

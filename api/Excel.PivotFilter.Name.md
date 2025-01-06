@@ -3,12 +3,11 @@ title: PivotFilter.Name property (Excel)
 keywords: vbaxl10.chm770075
 f1_keywords:
 - vbaxl10.chm770075
-ms.prod: excel
 api_name:
 - Excel.PivotFilter.Name
 ms.assetid: 15261b6e-7432-fa5d-d1a9-d6534fd412b3
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/07/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ This property provides the option of naming filters for reference. You cannot re
 
 _expression_.**Name**
 
-_expression_ A variable that represents a [PivotFilter](Excel.PivotFilter.md) object.
+_expression_ A variable that represents a **[PivotFilter](Excel.PivotFilter.md)** object.
 
 
-## See also
 
-
-[PivotFilter Object](Excel.PivotFilter.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

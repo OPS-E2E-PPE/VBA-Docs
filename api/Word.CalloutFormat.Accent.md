@@ -3,25 +3,24 @@ title: CalloutFormat.Accent property (Word)
 keywords: vbawd10.chm163905636
 f1_keywords:
 - vbawd10.chm163905636
-ms.prod: word
 api_name:
 - Word.CalloutFormat.Accent
 ms.assetid: 7c6d7e02-5117-36ab-1d61-72ef9c4b0fd3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CalloutFormat.Accent property (Word)
 
- **True** if a vertical accent bar separates the callout text from the callout line. Read/write **MsoTriState**.
+**True** if a vertical accent bar separates the callout text from the callout line. Read/write **MsoTriState**.
 
 
 ## Syntax
 
- _expression_. `Accent`
+_expression_.**Accent**
 
- _expression_ A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ A variable that represents a **[CalloutFormat](Word.CalloutFormat.md)** object.
 
 
 ## Example
@@ -46,9 +45,6 @@ End With
 ```
 
 
-## See also
 
-
-[CalloutFormat Object](Word.CalloutFormat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

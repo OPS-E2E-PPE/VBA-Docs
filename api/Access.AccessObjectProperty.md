@@ -3,12 +3,11 @@ title: AccessObjectProperty object (Access)
 keywords: vbaac10.chm12693
 f1_keywords:
 - vbaac10.chm12693
-ms.prod: access
 api_name:
 - Access.AccessObjectProperty
 ms.assetid: b1a44d34-8ca1-af7d-1878-f2c14fb481f7
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,8 +41,7 @@ You can create user-defined properties for the following objects:
     - **[AllStoredProcedures](Access.AllStoredProcedures.md)**
     - **[AllDatabaseDiagrams](Access.AllDatabaseDiagrams.md)**
 
-
-> [!NOTE] 
+> [!NOTE]
 > The **AccessObjectProperties** collection isn't accessible for objects derived from the **[CurrentData](access.currentdata.md)** object (for example, CurrentData.AllTables!Table1). For objects derived in this manner, you can only access their built-in properties by direct calls to the desired property (for example, CurrentData.AllTables!Table1.Name).
 
 To add a user-defined property, use the **[Add](Access.AccessObjectProperties.Add.md)** method to create and add an **AccessObjectProperty** object with a unique **Name** property and **Value** property. The object to which you are adding the user-defined property must already be appended to a collection. 
@@ -57,9 +55,9 @@ You can delete user-defined properties from the **AccessObjectProperties** colle
 
 The **AccessObjectProperty** object has two built-in properties:
 
-- The **Name** property, a **String** that uniquely identifies the property.  
+- The **Name** property, a **String** that uniquely identifies the property.
 - The **Value** property, a **Variant** that contains the property setting.
-    
+
 To refer to a built-in or user-defined **AccessObjectProperty** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms.
 
 ```vb

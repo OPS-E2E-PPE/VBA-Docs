@@ -3,12 +3,11 @@ title: TextBox.SelLength property (Access)
 keywords: vbaac10.chm11109
 f1_keywords:
 - vbaac10.chm11109
-ms.prod: access
 api_name:
 - Access.TextBox.SelLength
 ms.assetid: 0fb2371d-0f60-b0c7-5c4b-7a0689867b21
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

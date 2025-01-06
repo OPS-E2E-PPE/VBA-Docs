@@ -1,19 +1,16 @@
 ---
 title: MsoMoveRow enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoMoveRow
 ms.assetid: d353865e-0282-a594-50d4-de7d04ba90d0
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoMoveRow enumeration (Office)
 
 This enumeration has been deprecated and should not be used.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

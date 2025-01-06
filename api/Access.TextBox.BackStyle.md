@@ -3,18 +3,17 @@ title: TextBox.BackStyle property (Access)
 keywords: vbaac10.chm11075
 f1_keywords:
 - vbaac10.chm11075
-ms.prod: access
 api_name:
 - Access.TextBox.BackStyle
 ms.assetid: 95a277c8-df48-79a5-c232-2cfe32eae8f2
 ms.date: 02/28/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

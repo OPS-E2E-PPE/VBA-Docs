@@ -1,11 +1,10 @@
 ---
 title: WdOLEType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdOLEType
 ms.assetid: 84acf306-e4aa-1d47-1509-097a6b078fd4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

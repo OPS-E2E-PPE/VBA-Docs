@@ -1,27 +1,26 @@
 ---
-title: Shape.WebCommandButton Property (Publisher)
+title: Shape.WebCommandButton property (Publisher)
 keywords: vbapb10.chm2228340
 f1_keywords:
 - vbapb10.chm2228340
-ms.prod: publisher
 api_name:
 - Publisher.Shape.WebCommandButton
 ms.assetid: c20b937b-6f53-fdc1-830a-4044831c351a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.WebCommandButton Property (Publisher)
+# Shape.WebCommandButton property (Publisher)
 
-Returns the  **[WebCommandButton](Publisher.WebCommandButton.md)** object associated with the specified shape.
+Returns the **[WebCommandButton](Publisher.WebCommandButton.md)** object associated with the specified shape.
 
 
 ## Syntax
 
- _expression_. **WebCommandButton**
+_expression_.**WebCommandButton**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ WebCommandButton
 
 ## Example
 
-This example creates a Web form Submit command button and sets the script path and file name to run when a user clicks the button.
-
+This example creates a web form **Submit** command button and sets the script path and file name to run when a user chooses the button.
 
 ```vb
 Dim shpNew As Shape 

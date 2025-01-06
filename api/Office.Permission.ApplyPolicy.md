@@ -3,12 +3,11 @@ title: Permission.ApplyPolicy method (Office)
 keywords: vbaof11.chm261005
 f1_keywords:
 - vbaof11.chm261005
-ms.prod: office
 api_name:
 - Office.Permission.ApplyPolicy
 ms.assetid: d1904d11-d212-de2f-19cb-78911136ccd7
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ _expression_ A variable that represents a **[Permission](Office.Permission.md)**
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FileName_|Required|**String**| The path and filename of the permission policy template file.|
+| _FileName_|Required|**String**| The path and file name of the permission policy template file.|
 
 ## Remarks
 
@@ -52,8 +51,8 @@ The following example enables permissions on the active document and applies an 
  .Enabled = True 
  .ApplyPolicy ("\\server\share\permissionpolicy.xml") 
  End With 
- strIRMInfo = "Permissions are now restricted on this document " &amp; _ 
- vbCrLf &amp; _ 
+ strIRMInfo = "Permissions are now restricted on this document " & _ 
+ vbCrLf & _ 
  " and the permission policy has been applied." 
  End Select 
  MsgBox strIRMInfo, vbInformation + vbOKOnly, "IRM Information" 

@@ -1,27 +1,26 @@
 ---
-title: Application.ActiveWindow Property (Visio)
+title: Application.ActiveWindow property (Visio)
 keywords: vis_sdr.chm10013035
 f1_keywords:
 - vis_sdr.chm10013035
-ms.prod: visio
 api_name:
 - Visio.Application.ActiveWindow
 ms.assetid: 6da310fd-3fb1-618b-d80f-98ee1e45d5a2
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/24/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.ActiveWindow Property (Visio)
+# Application.ActiveWindow property (Visio)
 
-Returns the active  **Window** object. Read-only.
+Returns the active **[Window](visio.window.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,20 +30,20 @@ Window
 
 ## Remarks
 
-The active window can be one of the following window types: Drawing, Stencil, ShapeSheet, Edit Icon, or a Drawing or Stencil window created by an add-on. The application's active window can only be an MDI frame window—it cannot be one of the floating, docked, or anchored windows. For a complete list of window types, see the  **[Type](Visio.Window.Type.md)** property.
+The active window can be one of the following window types: Drawing, Stencil, ShapeSheet, Edit Icon, or a Drawing or Stencil window created by an add-on. 
 
-If a window in an instance of Microsoft Visio is not active, the  **ActiveWindow** property returns **Nothing**.
+The application's active window can only be an MDI frame window—it cannot be one of the floating, docked, or anchored windows. For a complete list of window types, see the **[Window.Type](Visio.Window.Type.md)** property.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If a window in an instance of Microsoft Visio is not active, the **ActiveWindow** property returns **Nothing**.
 
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019&preserve-view=true) reference, this property maps to the following types:
 
--  **Microsoft.Office.Interop.Visio.IVApplication.ActiveWindow**
+- **Microsoft.Office.Interop.Visio.IVApplication.ActiveWindow**
     
 
 ## Example
 
 The following Microsoft Visual Basic for Applications (VBA) macro shows how to get the active window without qualification from the Microsoft Office Visio global object, which is automatically available to VBA code that is part of the VBA project of a Visio document.
-
 
 ```vb
  

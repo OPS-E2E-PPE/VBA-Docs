@@ -3,12 +3,11 @@ title: Options.CheckGrammarWithSpelling property (Word)
 keywords: vbawd10.chm162988317
 f1_keywords:
 - vbawd10.chm162988317
-ms.prod: word
 api_name:
 - Word.Options.CheckGrammarWithSpelling
 ms.assetid: b08d1bc4-bc9c-c9b3-0448-92a051809a25
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CheckGrammarWithSpelling`
+_expression_. `CheckGrammarWithSpelling`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-This property controls whether Word checks grammar when you check spelling by using the  **Spelling** command (**Tools** menu).
+This property controls whether Word checks grammar when you check spelling by using the **Spelling** command (**Tools** menu).
 
-To check spelling or grammar from a Visual Basic procedure, use the  **[CheckSpelling](Word.Application.CheckSpelling.md)** method to check only spelling and use the **[CheckGrammar](Word.Application.CheckGrammar.md)** method to check both grammar and spelling.
+To check spelling or grammar from a Visual Basic procedure, use the **[CheckSpelling](Word.Application.CheckSpelling.md)** method to check only spelling and use the **[CheckGrammar](Word.Application.CheckGrammar.md)** method to check both grammar and spelling.
 
 
 ## Example
 
-This example returns the status of the  **Check grammar with spelling** option on the **Spelling & Grammar** tab in the **Options** dialog box. If the option is selected, the procedure checks both spelling and grammar for the active document; otherwise, only spelling is checked.
+This example returns the status of the **Check grammar with spelling** option on the **Spelling & Grammar** tab in the **Options** dialog box. If the option is selected, the procedure checks both spelling and grammar for the active document; otherwise, only spelling is checked.
 
 
 ```vb

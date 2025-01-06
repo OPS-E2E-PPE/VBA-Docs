@@ -3,12 +3,11 @@ title: HPageBreaks.Parent property (Excel)
 keywords: vbaxl10.chm163075
 f1_keywords:
 - vbaxl10.chm163075
-ms.prod: excel
 api_name:
 - Excel.HPageBreaks.Parent
 ms.assetid: 5f130cc0-520c-360b-a9e9-6d6eb8f5aecb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/26/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [HPageBreaks](Excel.HPageBreaks.md) object.
+_expression_ A variable that represents an **[HPageBreaks](Excel.HPageBreaks.md)** object.
 
 
-## See also
 
-
-[HPageBreaks Object](Excel.HPageBreaks.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

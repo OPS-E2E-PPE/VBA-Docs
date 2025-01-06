@@ -3,30 +3,29 @@ title: Paragraphs.NoLineNumber property (Word)
 keywords: vbawd10.chm156762217
 f1_keywords:
 - vbawd10.chm156762217
-ms.prod: word
 api_name:
 - Word.Paragraphs.NoLineNumber
 ms.assetid: d548299c-0f1a-d823-f884-57bb8f9be104
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraphs.NoLineNumber property (Word)
 
- **True** if line numbers are repressed for the specified paragraphs. Can be **True** , **False** , or **wdUndefined**. Read/write **Long**.
+ **True** if line numbers are repressed for the specified paragraphs. Can be **True**, **False**, or **wdUndefined**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `NoLineNumber`
+_expression_. `NoLineNumber`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-Use the  **[LineNumbering](Word.PageSetup.LineNumbering.md)** property of the **[PageSetup](Word.PageSetup.md)** object to set line numbers.
+Use the **[LineNumbering](Word.PageSetup.LineNumbering.md)** property of the **[PageSetup](Word.PageSetup.md)** object to set line numbers.
 
 
 ## Example

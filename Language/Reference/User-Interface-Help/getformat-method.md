@@ -3,12 +3,11 @@ title: GetFormat method (Microsoft Forms)
 keywords: fm20.chm2012310
 f1_keywords:
 - fm20.chm2012310
-ms.prod: office
 api_name:
 - Office.GetFormat
 ms.assetid: 4d056545-08c6-ef03-2980-1db42b01e6c9
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,8 +43,8 @@ The **DataObject** currently supports only text formats.
 
 ## See also
 
-- [Standard Clipboard formats](https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats)
-- [Registered Clipboard formats](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats)
+- [Standard Clipboard formats](/windows/desktop/dataxchg/standard-clipboard-formats)
+- [Registered Clipboard formats](/windows/desktop/dataxchg/clipboard-formats)
 - [Microsoft Forms examples](examples-microsoft-forms.md)
 - [Microsoft Forms reference](reference-microsoft-forms.md)
 - [Microsoft Forms concepts](concepts-microsoft-forms.md)

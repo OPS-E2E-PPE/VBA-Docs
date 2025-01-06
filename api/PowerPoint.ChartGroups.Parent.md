@@ -1,22 +1,21 @@
 ---
-title: ChartGroups.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroups.Parent property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroups.Parent
 ms.assetid: 4dcddb95-7af2-bc28-0dbc-affb4464ced9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroups.Parent Property (PowerPoint)
+# ChartGroups.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
 _expression_ A variable that represents a '[ChartGroups](PowerPoint.ChartGroups.md)' object.
 

@@ -3,12 +3,11 @@ title: CommandButton.GridlineStyleRight property (Access)
 keywords: vbaac10.chm10530
 f1_keywords:
 - vbaac10.chm10530
-ms.prod: access
 api_name:
 - Access.CommandButton.GridlineStyleRight
 ms.assetid: 496c1c59-0111-8e2f-31b9-af2ee7ff3964
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

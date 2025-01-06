@@ -1,27 +1,26 @@
 ---
-title: Row.Cells Property (PowerPoint)
+title: Row.Cells property (PowerPoint)
 keywords: vbapp10.chm626003
 f1_keywords:
 - vbapp10.chm626003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Row.Cells
 ms.assetid: 2cbd413f-21ab-fdb1-9a88-b64af753ae4c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Row.Cells Property (PowerPoint)
+# Row.Cells property (PowerPoint)
 
-Returns a  **[CellRange](PowerPoint.CellRange.md)** collection that represents the cells in a table column or row. Read-only.
+Returns a **[CellRange](PowerPoint.CellRange.md)** collection that represents the cells in a table column or row. Read-only.
 
 
 ## Syntax
 
- _expression_. `Cells`
+_expression_.**Cells**
 
- _expression_ A variable that represents a [Row](./PowerPoint.Row.md) object.
+_expression_ A variable that represents a [Row](PowerPoint.Row.md) object.
 
 
 ## Return value

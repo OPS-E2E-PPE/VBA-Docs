@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeReplaceOrdinals property (Word)
 keywords: vbawd10.chm162988298
 f1_keywords:
 - vbawd10.chm162988298
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeReplaceOrdinals
 ms.assetid: eebf3119-8743-834f-7425-5adc60a1a7ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceOrdinals`
+_expression_. `AutoFormatAsYouTypeReplaceOrdinals`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

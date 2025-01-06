@@ -1,24 +1,24 @@
 ---
-title: Task.ActualFinish Property (Project)
-ms.prod: project-server
+title: Task.ActualFinish property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.ActualFinish
 ms.assetid: 183ce863-c7e9-77a7-1f0d-1452596b1b23
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.ActualFinish Property (Project)
+# Task.ActualFinish property (Project)
 
-Gets or sets the actual finish date of a task. Read-only for summary tasks. Read/write  **Variant**.
+Gets or sets the actual finish date of a task. Read-only for summary tasks. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ActualFinish`
+_expression_. `ActualFinish`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

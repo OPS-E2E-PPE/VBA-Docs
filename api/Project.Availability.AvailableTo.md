@@ -1,34 +1,34 @@
 ---
-title: Availability.AvailableTo Property (Project)
+title: Availability.AvailableTo property (Project)
 keywords: vbapj.chm132560
 f1_keywords:
 - vbapj.chm132560
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Availability.AvailableTo
 ms.assetid: fe1b9efc-b981-5dc0-fbaa-a29c098e2628
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Availability.AvailableTo Property (Project)
+# Availability.AvailableTo property (Project)
 
-Gets the latest date that a resource is available for work on the project, as specified in the  **Availability** row of the **Resource Availability** grid for the resource. Read/write **Variant**.
+Gets the latest date that a resource is available for work on the project, as specified in the **Availability** row of the **Resource Availability** grid for the resource. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `AvailableTo`
+_expression_. `AvailableTo`
 
- _expression_ A variable that represents an [Availability](./Project.Availability.md) object.
+_expression_ A variable that represents an [Availability](./Project.Availability.md) object.
 
 
 ## Remarks
 
-You can set availability information on the  **General** tab of the **Resource Information** dialog box, in the **Resource Availability** grid.
+You can set availability information on the **General** tab of the **Resource Information** dialog box, in the **Resource Availability** grid.
 
-The  **AvailableTo** property does not return any meaningful information for material resources.
+The **AvailableTo** property does not return any meaningful information for material resources.
 
 
 ## Example

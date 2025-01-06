@@ -3,18 +3,17 @@ title: ComboBox.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm11422
 f1_keywords:
 - vbaac10.chm11422
-ms.prod: access
 api_name:
 - Access.ComboBox.ShortcutMenuBar
 ms.assetid: e010eab3-c24c-b077-b8cd-6fbf708aa3a9
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

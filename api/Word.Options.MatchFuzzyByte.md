@@ -3,12 +3,11 @@ title: Options.MatchFuzzyByte property (Word)
 keywords: vbawd10.chm162988342
 f1_keywords:
 - vbawd10.chm162988342
-ms.prod: word
 api_name:
 - Word.Options.MatchFuzzyByte
 ms.assetid: 978d49df-a417-11b8-069e-1147067cd1ed
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchFuzzyByte`
+_expression_. `MatchFuzzyByte`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

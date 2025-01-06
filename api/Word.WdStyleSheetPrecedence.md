@@ -1,17 +1,16 @@
 ---
 title: WdStyleSheetPrecedence enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdStyleSheetPrecedence
 ms.assetid: b9f8ccd6-bb72-2a86-446c-57e755bf423a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WdStyleSheetPrecedence enumeration (Word)
 
-Specifies the level of importance of a style sheet compared with other cascading style sheets attached to the Web document.
+Specifies the level of importance of a style sheet compared with other cascading style sheets attached to the web document.
 
 
 

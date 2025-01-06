@@ -1,11 +1,10 @@
 ---
 title: TextRange2.Words property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.Words
 ms.assetid: bab78b31-ebd6-649e-0b05-5b21552f8f22
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

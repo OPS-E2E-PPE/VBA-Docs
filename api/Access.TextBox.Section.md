@@ -3,12 +3,11 @@ title: TextBox.Section property (Access)
 keywords: vbaac10.chm11103
 f1_keywords:
 - vbaac10.chm11103
-ms.prod: access
 api_name:
 - Access.TextBox.Section
 ms.assetid: 76a43ccb-a199-b640-623c-d008b7d48e1c
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,22 +1,22 @@
 ---
-title: StartDriver.EffectiveDateAdd Property (Project)
-ms.prod: project-server
+title: StartDriver.EffectiveDateAdd property (Project)
+ms.service: project-server
 api_name:
 - Project.StartDriver.EffectiveDateAdd
 ms.assetid: 5b2e2c6e-06b9-ebf4-efdb-4ca2e944b7ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# StartDriver.EffectiveDateAdd Property (Project)
+# StartDriver.EffectiveDateAdd property (Project)
 
-Gets the date and time that follows another date by a specified duration, using the effective calendar for a manually scheduled task. Read-only  **Variant**.
+Gets the date and time that follows another date by a specified duration, using the effective calendar for a manually scheduled task. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `EffectiveDateAdd`( `_Date_`, `_Duration_` )
+_expression_. `EffectiveDateAdd`( `_Date_`, `_Duration_` )
 
  _expression_ An expression that returns a [StartDriver](./Project.StartDriver.md) object.
 
@@ -32,11 +32,11 @@ Gets the date and time that follows another date by a specified duration, using 
 
 ## Remarks
 
-The  **EffectiveDateAdd** property uses the effective calendar for manually scheduled tasks, which allows tasks to start and finish on non-working times. The property and arguments have no effect on actual task dates.
+The **EffectiveDateAdd** property uses the effective calendar for manually scheduled tasks, which allows tasks to start and finish on non-working times. The property and arguments have no effect on actual task dates.
 
-You can use the  **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)**, **EffectiveDateAdd**, and **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** properties to calculate start and finish dates for manually scheduled tasks.
+Use the **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)**, **EffectiveDateAdd**, and **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** properties to calculate start and finish dates for manually scheduled tasks.
 
-To calculate a date for an automatically scheduled task, where you can also specify the calendar, use the  **[DateAdd](Project.Application.DateAdd.md)** method.
+To calculate a date for an automatically scheduled task, where you can also specify the calendar, use the **[DateAdd](Project.Application.DateAdd.md)** method.
 
 
 ## Example

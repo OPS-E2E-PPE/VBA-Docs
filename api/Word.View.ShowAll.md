@@ -3,12 +3,11 @@ title: View.ShowAll property (Word)
 keywords: vbawd10.chm161808387
 f1_keywords:
 - vbawd10.chm161808387
-ms.prod: word
 api_name:
 - Word.View.ShowAll
 ms.assetid: 21af8a5b-2110-a2e0-e705-40a66c410625
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowAll`
+_expression_. `ShowAll`
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Example

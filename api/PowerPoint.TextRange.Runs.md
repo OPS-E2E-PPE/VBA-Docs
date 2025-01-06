@@ -1,27 +1,26 @@
 ---
-title: TextRange.Runs Method (PowerPoint)
+title: TextRange.Runs method (PowerPoint)
 keywords: vbapp10.chm569015
 f1_keywords:
 - vbapp10.chm569015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Runs
 ms.assetid: 0bf2724a-0735-bd79-31e5-894d1320b9b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Runs Method (PowerPoint)
+# TextRange.Runs method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes.
+Returns a **TextRange** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes.
 
 
 ## Syntax
 
- _expression_. `Runs`( `_Start_`, `_Length_` )
+_expression_. `Runs`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters
@@ -52,11 +51,11 @@ If Length is greater than the number of runs from the specified starting run to 
 
 A run consists of all characters from the first character after a font change to the second-to-last character that has the same font attributes. For example, consider the following sentence:
 
-This italic word is not  **bold**.
+This italic word is not **bold**.
 
 In the preceding sentence, the first run consists of the word "This" only if the space after the word "This" isn't formatted as italic (if the space is italic, the first run is only the first three characters, or "Thi"). Likewise, the second run contains the word "italic" only if the space after the word is formatted as italic.
 
-For information about counting or looping through the runs in a text range, see the  **[TextRange](PowerPoint.TextRange.md)** object.
+For information about counting or looping through the runs in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
 
 
 ## Example

@@ -1,31 +1,31 @@
 ---
-title: Availability.AvailableUnit Property (Project)
-ms.prod: project-server
+title: Availability.AvailableUnit property (Project)
+ms.service: project-server
 api_name:
 - Project.Availability.AvailableUnit
 ms.assetid: a22d2325-e512-08c5-608f-0fadce9d33e5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Availability.AvailableUnit Property (Project)
+# Availability.AvailableUnit property (Project)
 
-Gets or sets the percentage of time the resource is available during the availability period. Read/write  **Double**.
+Gets or sets the percentage of time the resource is available during the availability period. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `AvailableUnit`
+_expression_. `AvailableUnit`
 
- _expression_ A variable that represents an [Availability](./Project.Availability.md) object.
+_expression_ A variable that represents an [Availability](./Project.Availability.md) object.
 
 
 ## Remarks
 
-If the  **AvailableUnit** value is 100, the resource is available 100% of the time.
+If the **AvailableUnit** value is 100, the resource is available 100% of the time.
 
-You can set availability information on the  **General** tab of the **Resource Information** dialog box, in the **Resource Availability** grid.
+You can set availability information on the **General** tab of the **Resource Information** dialog box, in the **Resource Availability** grid.
 
 
 ## Example

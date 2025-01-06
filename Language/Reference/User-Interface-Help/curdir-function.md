@@ -3,10 +3,9 @@ title: CurDir function (Visual Basic for Applications)
 keywords: vblr6.chm1008881
 f1_keywords:
 - vblr6.chm1008881
-ms.prod: office
 ms.assetid: 5abad447-9c6b-8e9c-d6bb-f43f23dc45ad
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

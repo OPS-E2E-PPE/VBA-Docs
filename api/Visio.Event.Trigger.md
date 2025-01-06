@@ -1,27 +1,26 @@
 ---
-title: Event.Trigger Method (Visio)
+title: Event.Trigger method (Visio)
 keywords: vis_sdr.chm12651190
 f1_keywords:
 - vis_sdr.chm12651190
-ms.prod: visio
 api_name:
 - Visio.Event.Trigger
 ms.assetid: 093f8ce7-4d8a-c4d6-802f-4dab98fe199e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Event.Trigger Method (Visio)
+# Event.Trigger method (Visio)
 
 Causes an event's action to be performed.
 
 
 ## Syntax
 
- _expression_. `Trigger`( `_ContextString_` )
+_expression_. `Trigger`( `_ContextString_` )
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Parameters

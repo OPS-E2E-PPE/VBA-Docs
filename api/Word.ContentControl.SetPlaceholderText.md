@@ -3,12 +3,11 @@ title: ContentControl.SetPlaceholderText method (Word)
 keywords: vbawd10.chm266534923
 f1_keywords:
 - vbawd10.chm266534923
-ms.prod: word
 api_name:
 - Word.ContentControl.SetPlaceholderText
 ms.assetid: d2684e44-61f0-e0bf-36bc-6a5eabed1b82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Sets the placeholder text that displays in the content control until a user ente
 
 ## Syntax
 
- _expression_. `SetPlaceholderText`( `_BuildingBlock_` , `_Range_` , `_Text_` )
+_expression_. `SetPlaceholderText`( `_BuildingBlock_` , `_Range_` , `_Text_` )
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 
@@ -30,8 +29,8 @@ Sets the placeholder text that displays in the content control until a user ente
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _BuildingBlock_|Optional| **BuildingBlock**|Specifies a  **BuildingBlock** object that contains the contents of the placeholder text.|
-| _Range_|Optional| **Range**|Specifies a  **Range** object that contains the contents of the placeholder text.|
+| _BuildingBlock_|Optional| **BuildingBlock**|Specifies a **BuildingBlock** object that contains the contents of the placeholder text.|
+| _Range_|Optional| **Range**|Specifies a **Range** object that contains the contents of the placeholder text.|
 | _Text_|Optional| **String**|Specifies the contents of the placeholder text.|
 
 ## Remarks

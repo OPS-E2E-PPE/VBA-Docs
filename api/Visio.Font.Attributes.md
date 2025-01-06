@@ -1,27 +1,26 @@
 ---
-title: Font.Attributes Property (Visio)
+title: Font.Attributes property (Visio)
 keywords: vis_sdr.chm12013100
 f1_keywords:
 - vis_sdr.chm12013100
-ms.prod: visio
 api_name:
 - Visio.Font.Attributes
 ms.assetid: 4d94e0d3-85a6-369f-5e04-83c9681c43c4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.Attributes Property (Visio)
+# Font.Attributes property (Visio)
 
-Returns the attributes of the a  **Font** object. Read-only.
+Returns the attributes of the a **Font** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Attributes`
+_expression_. `Attributes`
 
- _expression_ A variable that represents a [Font](./Visio.Font.md) object.
+_expression_ A variable that represents a **[Font](Visio.Font.md)** object.
 
 
 ## Return value
@@ -31,11 +30,11 @@ Integer
 
 ## Remarks
 
-When you get the  **Attributes** property of a **Font** object, the following value is returned.
+When you get the **Attributes** property of a **Font** object, the following value is returned.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visFont0Alias**|128|
 

@@ -3,10 +3,9 @@ title: Use ActiveX Controls on Slides
 keywords: vbapp10.chm5194029
 f1_keywords:
 - vbapp10.chm5194029
-ms.prod: powerpoint
 ms.assetid: c33a5c5a-b83d-3079-dc00-57b423697ea4
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: high
 ---
 
 

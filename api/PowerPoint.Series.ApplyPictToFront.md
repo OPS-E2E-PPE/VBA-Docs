@@ -1,24 +1,23 @@
 ---
-title: Series.ApplyPictToFront Property (PowerPoint)
-ms.prod: powerpoint
+title: Series.ApplyPictToFront property (PowerPoint)
 api_name:
 - PowerPoint.Series.ApplyPictToFront
 ms.assetid: babe864c-1301-a8d1-ab13-41b9ccc71824
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.ApplyPictToFront Property (PowerPoint)
+# Series.ApplyPictToFront property (PowerPoint)
 
  **True** if a picture is applied to the front of the point or all points in the series. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ApplyPictToFront`
+_expression_.**ApplyPictToFront**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Example
@@ -26,7 +25,8 @@ localization_priority: Normal
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example applies pictures to the front of all points in the first series of the first chart in the active document. The series must already have pictures applied to it (setting this property changes the picture orientation).
 

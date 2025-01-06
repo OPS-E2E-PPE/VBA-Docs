@@ -3,12 +3,11 @@ title: FileConverter.CanSave property (Word)
 keywords: vbawd10.chm161021956
 f1_keywords:
 - vbawd10.chm161021956
-ms.prod: word
 api_name:
 - Word.FileConverter.CanSave
 ms.assetid: a1de7523-5b9c-b606-4308-9445e3c4c76d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CanSave`
+_expression_. `CanSave`
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Remarks
 
-The  **[CanOpen](Word.FileConverter.CanOpen.md)** property returns **True** if the specified file converter can be used to open (import) files.
+The **[CanOpen](Word.FileConverter.CanOpen.md)** property returns **True** if the specified file converter can be used to open (import) files.
 
 
 ## Example
 
-This example determines whether the WordPerfect converter can be used to save files. If the return value is  **True** , the active document is saved in WordPerfect 6.x format.
+This example determines whether the WordPerfect converter can be used to save files. If the return value is **True**, the active document is saved in WordPerfect 6.x format.
 
 
 ```vb

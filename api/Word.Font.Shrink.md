@@ -3,12 +3,11 @@ title: Font.Shrink method (Word)
 keywords: vbawd10.chm156368997
 f1_keywords:
 - vbawd10.chm156368997
-ms.prod: word
 api_name:
 - Word.Font.Shrink
 ms.assetid: 6a4ca959-07df-2b17-f59e-c6cf1f6236c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Decreases the font size to the next available size.
 
 ## Syntax
 
- _expression_. `Shrink`
+_expression_. `Shrink`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks

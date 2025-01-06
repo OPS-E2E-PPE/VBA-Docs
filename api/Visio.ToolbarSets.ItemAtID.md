@@ -1,27 +1,26 @@
 ---
-title: ToolbarSets.ItemAtID Property (Visio)
+title: ToolbarSets.ItemAtID property (Visio)
 keywords: vis_sdr.chm14013770
 f1_keywords:
 - vis_sdr.chm14013770
-ms.prod: visio
 api_name:
 - Visio.ToolbarSets.ItemAtID
 ms.assetid: 5508ee05-03ca-547d-26dc-2b80c0c22f49
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ToolbarSets.ItemAtID Property (Visio)
+# ToolbarSets.ItemAtID property (Visio)
 
-Returns the  **ToolbarSet** object for an ID within a collection. Read-only.
+Returns the **ToolbarSet** object for an ID within a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `ItemAtID`( `_lID_` )
+_expression_. `ItemAtID`( `_lID_` )
 
- _expression_ A variable that represents a [ToolbarSets](./Visio.ToolbarSets.md) object.
+_expression_ A variable that represents a **[ToolbarSets](Visio.ToolbarSets.md)** object.
 
 
 ## Parameters
@@ -34,24 +33,25 @@ Returns the  **ToolbarSet** object for an ID within a collection. Read-only.
 
 ## Return value
 
-ToolbarSet
+**[ToolbarSet](visio.toolbarset.md)**
 
 
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-The ID corresponds to a window or context menu. Constants for IDs are prefixed with  **visUIObjectSet** and are declared by the Visio type library in **[VisUIObjSets](Visio.visuiobjsets.md)**.
+The ID corresponds to a window or context menu. Constants for IDs are prefixed with **visUIObjectSet** and are declared by the Visio type library in **[VisUIObjSets](Visio.visuiobjsets.md)**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **ItemAtID** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **ItemAtID** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
 
 Before running this code, replace  _path_ \ _filename_ with the full path to and name of a valid icon (.ico) file on your computer.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

@@ -3,25 +3,24 @@ title: Document.SelectNodes method (Word)
 keywords: vbawd10.chm158007785
 f1_keywords:
 - vbawd10.chm158007785
-ms.prod: word
 api_name:
 - Word.Document.SelectNodes
 ms.assetid: b913720e-0f22-c626-6003-61a8dfb87f00
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.SelectNodes method (Word)
 
-Returns an  **XMLNodes** collection that represents all the nodes that match the XPath parameter in the order in which they appear in the document or range.
+Returns an **XMLNodes** collection that represents all the nodes that match the XPath parameter in the order in which they appear in the document or range.
 
 
 ## Syntax
 
- _expression_. `SelectNodes`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
+_expression_. `SelectNodes`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ XMLNodes
 
 ## Remarks
 
-Setting the FastSearchSkippingTextNodes parameter to  **True** diminishes performance, because Microsoft Word searches all nodes in a document against the text contained in the node.
+Setting the FastSearchSkippingTextNodes parameter to **True** diminishes performance, because Microsoft Word searches all nodes in a document against the text contained in the node.
 
 
 ## Example

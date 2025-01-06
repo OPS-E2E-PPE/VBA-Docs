@@ -3,10 +3,9 @@ title: FormatCurrency function (Visual Basic for Applications)
 keywords: vblr6.chm1008933
 f1_keywords:
 - vblr6.chm1008933
-ms.prod: office
 ms.assetid: 4e3eb9aa-1796-63f9-d8b3-1bec4c6a9fd7
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns an expression formatted as a currency value by using the currency symbol
 ## Syntax
 
 **FormatCurrency**(_Expression_, [ _NumDigitsAfterDecimal_, [ _IncludeLeadingDigit_, [ _UseParensForNegativeNumbers_, [ _GroupDigits_ ]]]])
-
-<br/>
 
 The **FormatCurrency** function syntax has these parts:
 

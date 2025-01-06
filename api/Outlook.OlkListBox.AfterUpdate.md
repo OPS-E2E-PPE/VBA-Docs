@@ -1,18 +1,17 @@
 ---
-title: OlkListBox.AfterUpdate Event (Outlook)
+title: OlkListBox.AfterUpdate event (Outlook)
 keywords: vbaol11.chm1000291
 f1_keywords:
 - vbaol11.chm1000291
-ms.prod: outlook
 api_name:
 - Outlook.OlkListBox.AfterUpdate
 ms.assetid: 140c3cfd-ddad-a6cd-17bb-c8f5297c181e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkListBox.AfterUpdate Event (Outlook)
+# OlkListBox.AfterUpdate event (Outlook)
 
 Occurs after the data in the control has been changed through the user interface.
 
@@ -21,7 +20,7 @@ Occurs after the data in the control has been changed through the user interface
 
 _expression_.**AfterUpdate**
 
-_expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
 ## Remarks
@@ -31,13 +30,13 @@ _expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md)
 
 1. User focuses on the control
     
-2.  **BeforeUpdate**
+2. **BeforeUpdate**
     
 3. Control data is updated
     
-4.  ** AfterUpdate**
+4. **AfterUpdate**
     
-5.  **Exit** : User moves focus away from control
+5. **Exit** : User moves focus away from control
     
 
 

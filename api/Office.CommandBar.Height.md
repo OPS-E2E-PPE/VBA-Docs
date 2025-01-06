@@ -3,12 +3,11 @@ title: CommandBar.Height property (Office)
 keywords: vbaof11.chm3007
 f1_keywords:
 - vbaof11.chm3007
-ms.prod: office
 api_name:
 - Office.CommandBar.Height
 ms.assetid: 9a5c84ae-29c0-0ff3-74f4-864c978336d2
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

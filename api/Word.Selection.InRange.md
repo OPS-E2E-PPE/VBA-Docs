@@ -3,12 +3,11 @@ title: Selection.InRange method (Word)
 keywords: vbawd10.chm158662782
 f1_keywords:
 - vbawd10.chm158662782
-ms.prod: word
 api_name:
 - Word.Selection.InRange
 ms.assetid: 3759ad96-44b5-d63c-f4d5-844f937f4216
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `InRange`( `_Range_` )
+_expression_. `InRange`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

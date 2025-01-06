@@ -1,15 +1,14 @@
 ---
-title: AppointmentItem.BeforeAttachmentWriteToTempFile Event (Outlook)
-ms.prod: outlook
+title: AppointmentItem.BeforeAttachmentWriteToTempFile event (Outlook)
 api_name:
 - Outlook.AppointmentItem.BeforeAttachmentWriteToTempFile
 ms.assetid: 7754a2f9-d36b-5ba8-331c-8dfcfa9f03d3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.BeforeAttachmentWriteToTempFile Event (Outlook)
+# AppointmentItem.BeforeAttachmentWriteToTempFile event (Outlook)
 
 Occurs before an attachment associated with an instance of the parent object is written to a temporary file.
 
@@ -18,7 +17,7 @@ Occurs before an attachment associated with an instance of the parent object is 
 
 _expression_. `BeforeAttachmentWriteToTempFile`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents an [AppointmentItem](./Outlook.Appointme
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be written.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be written.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be written.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be written.|
 
 ## See also
 

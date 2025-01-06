@@ -1,27 +1,26 @@
 ---
-title: Tags.Value Method (PowerPoint)
+title: Tags.Value method (PowerPoint)
 keywords: vbapp10.chm611009
 f1_keywords:
 - vbapp10.chm611009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Tags.Value
 ms.assetid: 8d7507d2-6533-5d63-c6ff-fec9581fb44f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tags.Value Method (PowerPoint)
+# Tags.Value method (PowerPoint)
 
-Returns the value of the specified tag as a  **String**.
+Returns the value of the specified tag as a **String**.
 
 
 ## Syntax
 
- _expression_.**Value**( `_Index_` )
+_expression_.**Value** (_Index_)
 
- _expression_ A variable that represents a [Tags](./PowerPoint.Tags.md) object.
+_expression_ A variable that represents a [Tags](PowerPoint.Tags.md) object.
 
 
 ## Parameters

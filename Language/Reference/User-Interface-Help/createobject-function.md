@@ -3,10 +3,9 @@ title: CreateObject function (Visual Basic for Applications)
 keywords: vblr6.chm1010851
 f1_keywords:
 - vblr6.chm1010851
-ms.prod: office
 ms.assetid: d887c3d3-5c60-09a1-6856-49f7c4cc05ba
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -18,16 +17,12 @@ Creates and returns a reference to an [ActiveX object](../../Glossary/vbe-glossa
 
 **CreateObject**(_class_, [ _servername_ ])
 
-<br/>
-
 The **CreateObject** function syntax has these parts:
 
 |Part|Description|
 |:-----|:-----|
 | _class_|Required; **Variant** (**String**). The application name and class of the object to create.|
 | _servername_|Optional; **Variant** (**String**). The name of the network server where the object will be created. If _servername_ is an empty string (""), the local machine is used.|
-
-<br/>
 
 The _class_ [argument](../../Glossary/vbe-glossary.md#argument) uses the syntax _appname_._objecttype_ and has these parts:
 
@@ -49,8 +44,6 @@ Dim ExcelSheet As Object
 Set ExcelSheet = CreateObject("Excel.Sheet")
 ```
 
-<br/>
-
 This code starts the application creating the object, in this case, a Microsoft Excel spreadsheet. After an object is created, you reference it in code by using the object variable you defined. In the following example, you access [properties](../../Glossary/vbe-glossary.md#property) and [methods](../../Glossary/vbe-glossary.md#method) of the new object by using the object variable, `ExcelSheet`, and other Microsoft Excel objects, including the `Application` object and the `Cells` collection.
 
 ```vb
@@ -67,9 +60,7 @@ Set ExcelSheet = Nothing
 
 ```
 
-<br/>
-
-Declaring an object variable with the  `As Object` clause creates a variable that can contain a reference to any type of object. However, access to the object through that variable is late bound; that is, the binding occurs when your program is run. To create an object variable that results in early binding, that is, binding when the program is compiled, declare the object variable with a specific class ID. For example, you can declare and create the following Microsoft Excel references:
+Declaring an object variable with the `As Object` clause creates a variable that can contain a reference to any type of object. However, access to the object through that variable is late bound; that is, the binding occurs when your program is run. To create an object variable that results in early binding, that is, binding when the program is compiled, declare the object variable with a specific class ID. For example, you can declare and create the following Microsoft Excel references:
 
 ```vb
 Dim xlApp As Excel.Application 
@@ -80,8 +71,6 @@ Set xlBook = xlApp.Workbooks.Add
 Set xlSheet = xlBook.Worksheets(1)
 
 ```
-
-<br/>
 
 The reference through an early-bound variable can give better performance, but can only contain a reference to the [class](../../Glossary/vbe-glossary.md#class) specified in the [declaration](../../Glossary/vbe-glossary.md#declaration).
 
@@ -97,7 +86,7 @@ You can create an object on a remote networked computer by passing the name of t
 > [!NOTE] 
 > Refer to COM documentation (see _Microsoft Developer Network_) for additional information about making an application visible on a remote networked computer. You may have to add a registry key for your application.-->
 
-The following code returns the version number of an instance of Excel running on a remote computer named  `MyServer`:
+The following code returns the version number of an instance of Excel running on a remote computer named `MyServer`:
 
 ```vb
 Dim xlApp As Object
@@ -126,6 +115,8 @@ Set xlApp = CreateObject("excel.application")
 xlApp.Visible = True
     ' Use xlApp to access Microsoft Excel's 
     ' other objects.
+    ' Closes the application using the Quit method
+xlApp.Quit    
 
 ```
 

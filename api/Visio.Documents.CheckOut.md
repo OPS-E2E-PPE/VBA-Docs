@@ -1,27 +1,26 @@
 ---
-title: Documents.CheckOut Method (Visio)
+title: Documents.CheckOut method (Visio)
 keywords: vis_sdr.chm10652035
 f1_keywords:
 - vis_sdr.chm10652035
-ms.prod: visio
 api_name:
 - Visio.Documents.CheckOut
 ms.assetid: eda3b173-0874-47b6-e18d-a0036e6a31e5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Documents.CheckOut Method (Visio)
+# Documents.CheckOut method (Visio)
 
 Marks a specified document as checked out and assigns edit privileges to the current user.
 
 
 ## Syntax
 
- _expression_. `CheckOut`( `_FileName_` )
+_expression_.**CheckOut** (_FileName_)
 
- _expression_ A variable that represents a [Documents](./Visio.Documents.md) object.
+_expression_ A variable that represents a **[Documents](Visio.Documents.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ Nothing
 
 To check out a file, it must be stored in a document library on a computer running Microsoft SharePoint Server or Microsoft SharePoint Foundation.
 
-Unlike the behavior in the user interface, the  **CheckOut** method does not open the document. Use the **Open** method to open the document in the drawing window after checking it out.
+Unlike the behavior in the user interface, the **CheckOut** method does not open the document. Use the **Open** method to open the document in the drawing window after checking it out.
 
 
 ## Example
@@ -61,7 +60,7 @@ Sub CheckDocOut(strDocCheckOut As String)
 End Sub
 ```
 
-To call the preceding  **CheckDocOut** subroutine, use the following subroutine and replace _servername/workspace/drawing.vdx_ with the path to and name of an actual file located on a Microsoft SharePoint Server computer.
+To call the preceding **CheckDocOut** subroutine, use the following subroutine and replace _servername/workspace/drawing.vdx_ with the path to and name of an actual file located on a Microsoft SharePoint Server computer.
 
 
 

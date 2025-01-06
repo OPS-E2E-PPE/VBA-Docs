@@ -3,10 +3,9 @@ title: Len function (Visual Basic for Applications)
 keywords: vblr6.chm1011065
 f1_keywords:
 - vblr6.chm1011065
-ms.prod: office
 ms.assetid: 5b5b8789-90cc-ac2c-e6a7-1da1d684bd81
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Long](../../Glossary/vbe-glossary.md#long-data-type) containing the n
 ## Syntax
 
 **Len**(_string_ | _varname_)
-
-<br/>
 
 The **Len** function syntax has these parts:
 
@@ -60,8 +57,6 @@ MyLen = Len(MyString)    ' Returns 11.
 MyLen = Len(MyCur)    ' Returns 8.
 
 ```
-
-<br/>
 
 The second example uses **LenB** and a user-defined function (**LenMbcs**) to return the number of byte characters in a string if ANSI is used to represent the string.
 

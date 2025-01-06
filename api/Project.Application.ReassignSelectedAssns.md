@@ -1,27 +1,27 @@
 ---
-title: Application.ReassignSelectedAssns Method (Project)
+title: Application.ReassignSelectedAssns method (Project)
 keywords: vbapj.chm1512
 f1_keywords:
 - vbapj.chm1512
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ReassignSelectedAssns
 ms.assetid: ab3df7f1-bc36-2b8a-23d7-30ee0387a785
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ReassignSelectedAssns Method (Project)
+# Application.ReassignSelectedAssns method (Project)
 
 Reassigns the selected assignments in the Team Planner view.
 
 
 ## Syntax
 
- _expression_. `ReassignSelectedAssns`( `_ResourceID_` )
+_expression_. `ReassignSelectedAssns`( `_ResourceID_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,9 +39,9 @@ Reassigns the selected assignments in the Team Planner view.
 
 ## Remarks
 
-The  **ReassignSelectedAssns** method works only with the Team Planner view.
+The **ReassignSelectedAssns** method works only with the Team Planner view.
 
-If you use the Team Planner to drag an assignment from one resource to another while you are recording a macro, the macro does not show the results of the drag action. To record a macro that shows the  **ReassignSelectedAssns** method, you must right-click an assignment in the Team Planner, and then click **Reassign To** in the option menu.
+If you use the Team Planner to drag an assignment from one resource to another while you are recording a macro, the macro does not show the results of the drag action. To record a macro that shows the **ReassignSelectedAssns** method, you must right-click an assignment in the Team Planner, and then click **Reassign To** in the option menu.
 
 
 ## Example

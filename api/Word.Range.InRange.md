@@ -3,25 +3,24 @@ title: Range.InRange method (Word)
 keywords: vbawd10.chm157155454
 f1_keywords:
 - vbawd10.chm157155454
-ms.prod: word
 api_name:
 - Word.Range.InRange
 ms.assetid: 8d6b2093-7720-b100-6e9e-6be761cabaf5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.InRange method (Word)
 
-Returns  **True** if the range to which the method is applied is contained in the range specified by the Range argument.
+Returns **True** if the range to which the method is applied is contained in the range specified by the Range argument.
 
 
 ## Syntax
 
- _expression_. `InRange`( `_Range_` )
+_expression_. `InRange`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns  **True** if the range to which the method is applied is contained in th
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Range_|Required| **Range**|Specifies the range that this method uses to determine if it is contained within the specified  **Range** object.|
+| _Range_|Required| **Range**|Specifies the range that this method uses to determine if it is contained within the specified **Range** object.|
 
 ## Return value
 

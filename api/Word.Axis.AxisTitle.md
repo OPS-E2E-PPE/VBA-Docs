@@ -3,25 +3,24 @@ title: Axis.AxisTitle property (Word)
 keywords: vbawd10.chm113049603
 f1_keywords:
 - vbawd10.chm113049603
-ms.prod: word
 api_name:
 - Word.Axis.AxisTitle
 ms.assetid: 6184ae08-780c-0d39-761e-e1b8a4e140cb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.AxisTitle property (Word)
 
-Returns the title of the specified axis. Read-only  **[AxisTitle](Word.AxisTitle.md)**.
+Returns the title of the specified axis. Read-only **[AxisTitle](Word.AxisTitle.md)**.
 
 
 ## Syntax
 
- _expression_. `AxisTitle`
+_expression_.**AxisTitle**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Example

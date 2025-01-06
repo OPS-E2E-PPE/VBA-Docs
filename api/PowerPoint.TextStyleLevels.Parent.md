@@ -1,27 +1,26 @@
 ---
-title: TextStyleLevels.Parent Property (PowerPoint)
+title: TextStyleLevels.Parent property (PowerPoint)
 keywords: vbapp10.chm580002
 f1_keywords:
 - vbapp10.chm580002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextStyleLevels.Parent
 ms.assetid: fe867896-cc88-4772-abed-47d88c0f430f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextStyleLevels.Parent Property (PowerPoint)
+# TextStyleLevels.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [TextStyleLevels](./PowerPoint.TextStyleLevels.md) object.
+_expression_ A variable that represents a [TextStyleLevels](PowerPoint.TextStyleLevels.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

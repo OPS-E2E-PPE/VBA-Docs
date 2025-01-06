@@ -1,34 +1,33 @@
 ---
-title: ContactItem.Email1EntryID Property (Outlook)
+title: ContactItem.Email1EntryID property (Outlook)
 keywords: vbaol11.chm994
 f1_keywords:
 - vbaol11.chm994
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Email1EntryID
 ms.assetid: 8329e2a9-52e6-f3f1-56b4-c17752510e0b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Email1EntryID Property (Outlook)
+# ContactItem.Email1EntryID property (Outlook)
 
-Returns a  **String** representing the entry ID of the first email address for the contact. Read-only.
+Returns a **String** representing the entry ID of the first email address for the contact. Read-only.
 
 
 ## Syntax
 
 _expression_. `Email1EntryID`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Remarks
 
-This property corresponds to the MAPI named property  **dispidEmail1OriginalEntryID**.
+This property corresponds to the MAPI named property **dispidEmail1OriginalEntryID**.
 
-If you are getting this property in a Microsoft Visual Basic or Microsoft Visual Basic for Applications (VBA) solution, owing to some type issues, instead of directly referencing  **Email1EntryID** , you should get the property through the **[PropertyAccessor](Outlook.PropertyAccessor.md)** object returned by the **[ContactItem.PropertyAccessor](Outlook.ContactItem.PropertyAccessor.md)** property, specifying the MAPI property **PidLidEmail1OriginalEntryId** property and its MAPI id namespace. The following code sample in VBA shows the workaround.
+If you are getting this property in a Microsoft Visual Basic or Microsoft Visual Basic for Applications (VBA) solution, owing to some type issues, instead of directly referencing **Email1EntryID**, you should get the property through the **[PropertyAccessor](Outlook.PropertyAccessor.md)** object returned by the **[ContactItem.PropertyAccessor](Outlook.ContactItem.PropertyAccessor.md)** property, specifying the MAPI property **PidLidEmail1OriginalEntryId** property and its MAPI id namespace. The following code sample in VBA shows the workaround.
 
 
 

@@ -3,12 +3,11 @@ title: CommandButton.HoverForeThemeColorIndex property (Access)
 keywords: vbaac10.chm14616
 f1_keywords:
 - vbaac10.chm14616
-ms.prod: access
 api_name:
 - Access.CommandButton.HoverForeThemeColorIndex
 ms.assetid: 7952f076-a8ac-c6d3-72f7-23e8365d8a16
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: SlideRange.Hyperlinks Property (PowerPoint)
+title: SlideRange.Hyperlinks property (PowerPoint)
 keywords: vbapp10.chm532024
 f1_keywords:
 - vbapp10.chm532024
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.Hyperlinks
 ms.assetid: bfa4da43-4c56-e010-0848-2cb55fb68154
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.Hyperlinks Property (PowerPoint)
+# SlideRange.Hyperlinks property (PowerPoint)
 
-Returns a  **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
+Returns a **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
 
 
 ## Syntax
 
- _expression_. `Hyperlinks`
+_expression_.**Hyperlinks**
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value

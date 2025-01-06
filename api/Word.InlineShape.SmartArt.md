@@ -3,12 +3,11 @@ title: InlineShape.SmartArt property (Word)
 keywords: vbawd10.chm162005148
 f1_keywords:
 - vbawd10.chm162005148
-ms.prod: word
 api_name:
 - Word.InlineShape.SmartArt
 ms.assetid: fbc47fec-04c4-108c-3280-0931f77b4cb5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns a [SmartArt](Office.SmartArt.md) object that provides a way to work with
 
 ## Syntax
 
- _expression_. `SmartArt`
+_expression_.**SmartArt**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Remarks
 
-The  **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the inline shape.
+The **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the inline shape.
 
 
 ## Example

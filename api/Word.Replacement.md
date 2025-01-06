@@ -3,23 +3,22 @@ title: Replacement object (Word)
 keywords: vbawd10.chm2481
 f1_keywords:
 - vbawd10.chm2481
-ms.prod: word
 api_name:
 - Word.Replacement
 ms.assetid: 5d9615e4-f6ef-af5f-6e45-c382a88395c9
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Replacement object (Word)
 
-Represents the replace criteria for a find-and-replace operation. The properties and methods of the  **Replacement** object correspond to the options in the **Find and Replace** dialog box.
+Represents the replace criteria for a find-and-replace operation. The properties and methods of the **Replacement** object correspond to the options in the **Find and Replace** dialog box.
 
 
 ## Remarks
 
-Use the  **Replacement** property to return a **Replacement** object. The following example replaces the next occurrence of the word "hi" with the word "hello."
+Use the **Replacement** property to return a **Replacement** object. The following example replaces the next occurrence of the word "hi" with the word "hello."
 
 
 ```vb
@@ -32,7 +31,7 @@ With Selection.Find
 End With
 ```
 
-To find and replace formatting, set both the find text and the replace text to empty strings ("") and set the Format argument of the  **Execute** method to **True**. The following example removes all the bold formatting in the active document. The **Bold** property is **True** for the **Find** object and **False** for the **Replacement** object.
+To find and replace formatting, set both the find text and the replace text to empty strings ("") and set the Format argument of the **Execute** method to **True**. The following example removes all the bold formatting in the active document. The **Bold** property is **True** for the **Find** object and **False** for the **Replacement** object.
 
 
 
@@ -82,6 +81,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: TextBox.Format property (Access)
 keywords: vbaac10.chm11044
 f1_keywords:
 - vbaac10.chm11044
-ms.prod: access
 api_name:
 - Access.TextBox.Format
 ms.assetid: c89491e2-09f8-d928-1aed-9d839545a694
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.Format property (Access)
 
-You can use the **Format** property to customize the way numbers, dates, times, and text are displayed and printed. Read/write **String**.
+Use the **Format** property to customize the way numbers, dates, times, and text are displayed and printed. Read/write **String**.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[TextBox](Access.TextBox.md)** objec
 
 ## Remarks
 
-You can use one of the predefined formats, or you can create a custom format by using formatting symbols.
+Use one of the predefined formats, or you can create a custom format by using formatting symbols.
 
 The **Format** property uses different settings for different data types. For information about settings for a specific data type, see one of the following topics:
 
@@ -43,7 +42,7 @@ Microsoft Access provides predefined formats for Date/Time, Number and Currency,
 
 If you set a field's **Format** property in table Design view, Access uses that format to display data in datasheets. It also applies the field's **Format** property to new controls on forms and reports.
 
-You can use the following symbols in custom formats for any data type.
+Use the following symbols in custom formats for any data type.
 
 |Symbol|Meaning|
 |:-----|:-----|
@@ -71,15 +70,11 @@ Me!Time.Format = "Long Time"
 Me!Registered.Format = "Yes/No"
 ```
 
-<br/>
-
 The following example sets the **Format** property by using a custom format. This format displays a date as **Jan 2018**.
 
 ```vb
 Forms!Employees!HireDate.Format = "mmm yyyy"
 ```
-
-<br/>
 
 The following example demonstrates a Visual Basic function that formats numeric data by using the Currency format and formats text data entirely in capital letters. The function is called from the **OnLostFocus** event of an unbound control named **TaxRefund**.
 

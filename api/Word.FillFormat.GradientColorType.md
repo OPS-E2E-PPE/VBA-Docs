@@ -3,30 +3,29 @@ title: FillFormat.GradientColorType property (Word)
 keywords: vbawd10.chm164102246
 f1_keywords:
 - vbawd10.chm164102246
-ms.prod: word
 api_name:
 - Word.FillFormat.GradientColorType
 ms.assetid: 3722c4df-8091-6c66-b379-af8385ed9fc5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FillFormat.GradientColorType property (Word)
 
-Returns the gradient color type for the specified fill. Read-only  **MsoGradientColorType**.
+Returns the gradient color type for the specified fill. Read-only **MsoGradientColorType**.
 
 
 ## Syntax
 
- _expression_. `GradientColorType`
+_expression_.**GradientColorType**
 
- _expression_ An expression that represents a '[FillFormat](Word.FillFormat.md)' object.
+ _expression_ An expression that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-This property is read-only. Use the  **[OneColorGradient](Word.FillFormat.OneColorGradient.md)** , **[PresetGradient](Word.FillFormat.PresetGradient.md)** , or **[TwoColorGradient](Word.FillFormat.TwoColorGradient.md)** method to set the gradient type for the fill.
+This property is read-only. Use the **[OneColorGradient](Word.FillFormat.OneColorGradient.md)**, **[PresetGradient](Word.FillFormat.PresetGradient.md)**, or **[TwoColorGradient](Word.FillFormat.TwoColorGradient.md)** method to set the gradient type for the fill.
 
 
 ## Example

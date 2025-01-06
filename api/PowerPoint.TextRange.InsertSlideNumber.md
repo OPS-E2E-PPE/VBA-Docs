@@ -1,27 +1,26 @@
 ---
-title: TextRange.InsertSlideNumber Method (PowerPoint)
+title: TextRange.InsertSlideNumber method (PowerPoint)
 keywords: vbapp10.chm569021
 f1_keywords:
 - vbapp10.chm569021
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.InsertSlideNumber
 ms.assetid: 07489db8-9db1-9721-845a-7895ad316aca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.InsertSlideNumber Method (PowerPoint)
+# TextRange.InsertSlideNumber method (PowerPoint)
 
-Inserts the slide number of the current slide into the specified text range. Returns a  **TextRange** object that represents the slide number.
+Inserts the slide number of the current slide into the specified text range. Returns a **TextRange** object that represents the slide number.
 
 
 ## Syntax
 
- _expression_. `InsertSlideNumber`
+_expression_. `InsertSlideNumber`
 
- _expression_ A variable that represents an [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents an [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Return value

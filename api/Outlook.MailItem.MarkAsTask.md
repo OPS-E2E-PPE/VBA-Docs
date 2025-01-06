@@ -1,27 +1,26 @@
 ---
-title: MailItem.MarkAsTask Method (Outlook)
+title: MailItem.MarkAsTask method (Outlook)
 keywords: vbaol11.chm3039
 f1_keywords:
 - vbaol11.chm3039
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.MarkAsTask
 ms.assetid: ee38093d-a180-07f7-eae8-c9dbb2e8f413
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.MarkAsTask Method (Outlook)
+# MailItem.MarkAsTask method (Outlook)
 
-Marks a  **[MailItem](Outlook.MailItem.md)** object as a task and assigns a task interval for the object.
+Marks a **[MailItem](Outlook.MailItem.md)** object as a task and assigns a task interval for the object.
 
 
 ## Syntax
 
 _expression_. `MarkAsTask`( `_MarkInterval_` )
 
- _expression_ An expression that returns a [MailItem](./Outlook.MailItem.md) object.
+ _expression_ An expression that returns a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ _expression_. `MarkAsTask`( `_MarkInterval_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _MarkInterval_|Required| **[OlMarkInterval](Outlook.OlMarkInterval.md)**|The task interval for the  **MailItem**.|
+| _MarkInterval_|Required| **[OlMarkInterval](Outlook.OlMarkInterval.md)**|The task interval for the **MailItem**.|
 
 ## Remarks
 

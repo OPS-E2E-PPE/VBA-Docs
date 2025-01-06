@@ -1,33 +1,35 @@
 ---
-title: WebListBox.Application Property (Publisher)
+title: WebListBox.Application property (Publisher)
 keywords: vbapb10.chm4063233
 f1_keywords:
 - vbapb10.chm4063233
-ms.prod: publisher
 api_name:
 - Publisher.WebListBox.Application
 ms.assetid: 64bb8226-36b7-e196-856d-f947a2614fce
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebListBox.Application Property (Publisher)
+# WebListBox.Application property (Publisher)
 
-Used without an object qualifier, this property returns an  **[Application](Publisher.Application.md)** object that represents the current instance of Publisher. Used with an object qualifier, this property returns an  **Application** object that represents the creator of the specified object. When used with an OLE Automation object, it returns the object's application.
+When used without an object qualifier, this property returns an **[Application](Publisher.Application.md)** object that represents the current instance of Publisher. 
+
+When used with an object qualifier, this property returns an **Application** object that represents the creator of the specified object. 
+
+When used with an OLE Automation object, it returns the object's application.
 
 
 ## Syntax
 
- _expression_. **Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a  **WebListBox** object.
+_expression_ A variable that represents a **[WebListBox](Publisher.WebListBox.md)** object.
 
 
 ## Example
 
 This example displays the version and build information for Publisher.
-
 
 ```vb
 With Application 
@@ -36,10 +38,9 @@ With Application
 End With
 ```
 
+<br/>
+
 This example displays the name of the application that created each linked OLE object on page one of the active publication.
-
-
-
 
 ```vb
 Dim shpOle As Shape 

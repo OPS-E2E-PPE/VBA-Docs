@@ -1,18 +1,17 @@
 ---
-title: OlkComboBox.SetItem Method (Outlook)
+title: OlkComboBox.SetItem method (Outlook)
 keywords: vbaol11.chm1000225
 f1_keywords:
 - vbaol11.chm1000225
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.SetItem
 ms.assetid: 00cc1630-1423-5244-557b-acb2861401bf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.SetItem Method (Outlook)
+# OlkComboBox.SetItem method (Outlook)
 
 Sets the item at the specified location in the list of the combo box to the specified value.
 
@@ -21,7 +20,7 @@ Sets the item at the specified location in the list of the combo box to the spec
 
 _expression_. `SetItem`( `_Index_` , `_Item_` )
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Parameters

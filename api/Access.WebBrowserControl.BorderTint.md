@@ -3,12 +3,11 @@ title: WebBrowserControl.BorderTint property (Access)
 keywords: vbaac10.chm14602
 f1_keywords:
 - vbaac10.chm14602
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.BorderTint
 ms.assetid: feb247ea-127b-26fa-aae6-03590276c5c1
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

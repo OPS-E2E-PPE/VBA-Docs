@@ -3,12 +3,12 @@ title: Document.DeleteAllCommentsShown method (Word)
 keywords: vbawd10.chm158007670
 f1_keywords:
 - vbawd10.chm158007670
-ms.prod: word
 api_name:
 - Word.Document.DeleteAllCommentsShown
 ms.assetid: b0cdbc8e-973c-1921-a646-d2f5ef091ce9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/20/2017
+description: Document.DeleteAllCommentsShown method (Word)
+ms.localizationpriority: medium
 ---
 
 
@@ -16,12 +16,14 @@ localization_priority: Normal
 
 Deletes all revisions in a specified document that are displayed on the screen.
 
+> [!IMPORTANT]
+> `DeleteAllCommentsShown` deletes the visible subset of comments. This includes active comments (shown) as well as resolved comments (indicated by comment hint).
 
 ## Syntax
 
- _expression_. `DeleteAllCommentsShown`
+_expression_. `DeleteAllCommentsShown`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

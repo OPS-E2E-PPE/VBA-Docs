@@ -1,27 +1,26 @@
 ---
-title: ImportanceRuleCondition.ConditionType Property (Outlook)
+title: ImportanceRuleCondition.ConditionType property (Outlook)
 keywords: vbaol11.chm2337
 f1_keywords:
 - vbaol11.chm2337
-ms.prod: outlook
 api_name:
 - Outlook.ImportanceRuleCondition.ConditionType
 ms.assetid: c4fd234b-7a7a-dfb6-9b09-2840f254d713
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ImportanceRuleCondition.ConditionType Property (Outlook)
+# ImportanceRuleCondition.ConditionType property (Outlook)
 
-Returns a constant,  **olConditionImportance** , from the **[OlRuleConditionType](Outlook.OlRuleConditionType.md)** enumeration that indicates the type of rule condition. Read-only.
+Returns a constant, **olConditionImportance**, from the **[OlRuleConditionType](Outlook.OlRuleConditionType.md)** enumeration that indicates the type of rule condition. Read-only.
 
 
 ## Syntax
 
 _expression_. `ConditionType`
 
-_expression_ A variable that represents an [ImportanceRuleCondition](./Outlook.ImportanceRuleCondition.md) object.
+_expression_ A variable that represents an [ImportanceRuleCondition](Outlook.ImportanceRuleCondition.md) object.
 
 
 ## Remarks

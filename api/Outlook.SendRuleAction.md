@@ -1,18 +1,17 @@
 ---
-title: SendRuleAction Object (Outlook)
+title: SendRuleAction object (Outlook)
 keywords: vbaol11.chm3165
 f1_keywords:
 - vbaol11.chm3165
-ms.prod: outlook
 api_name:
 - Outlook.SendRuleAction
 ms.assetid: 4ea8f519-8bb3-b0bf-9742-8a492e7ffff7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SendRuleAction Object (Outlook)
+# SendRuleAction object (Outlook)
 
 Represents an action that sends a message to one or more recipients.
 
@@ -41,6 +40,6 @@ For more information on specifying rule actions, see [Specify Rule Actions](../o
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

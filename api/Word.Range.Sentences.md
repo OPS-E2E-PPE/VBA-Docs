@@ -3,25 +3,24 @@ title: Range.Sentences property (Word)
 keywords: vbawd10.chm157155380
 f1_keywords:
 - vbawd10.chm157155380
-ms.prod: word
 api_name:
 - Word.Range.Sentences
 ms.assetid: fe870f13-d09f-efbf-1d2f-745f2c318c28
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Sentences property (Word)
 
-Returns a  **Sentences** collection that represents all the sentences in the range. Read-only.
+Returns a **Sentences** collection that represents all the sentences in the range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Sentences`
+_expression_. `Sentences`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

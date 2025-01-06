@@ -1,27 +1,27 @@
 ---
-title: Application.SelectTPTask Method (Project)
+title: Application.SelectTPTask method (Project)
 keywords: vbapj.chm2192
 f1_keywords:
 - vbapj.chm2192
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectTPTask
 ms.assetid: ef27e878-8c80-ad09-157d-f803ec2e7352
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectTPTask Method (Project)
+# Application.SelectTPTask method (Project)
 
 Selects the specified task in the Team Planner view.
 
 
 ## Syntax
 
- _expression_. `SelectTPTask`( `_TaskUniqueID_` )
+_expression_. `SelectTPTask`( `_TaskUniqueID_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Selects the specified task in the Team Planner view.
 
 ## Remarks
 
-If the Team Planner view is not open, the  **SelectTPTask** method generates run-time error 1100, "The method is not available in this situation."
+If the Team Planner view is not open, the **SelectTPTask** method generates run-time error 1100, "The method is not available in this situation."
 
 
 ## Example

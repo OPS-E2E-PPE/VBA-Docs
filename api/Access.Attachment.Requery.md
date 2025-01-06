@@ -3,12 +3,11 @@ title: Attachment.Requery method (Access)
 keywords: vbaac10.chm13908
 f1_keywords:
 - vbaac10.chm13908
-ms.prod: access
 api_name:
 - Access.Attachment.Requery
 ms.assetid: 6af04ea8-02cb-9eda-439d-6c69cd772891
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents an **[Attachment](Access.Attachment.md)*
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.MaxLength Property (Outlook)
+title: OlkComboBox.MaxLength property (Outlook)
 keywords: vbaol11.chm1000210
 f1_keywords:
 - vbaol11.chm1000210
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.MaxLength
 ms.assetid: 87248b73-a6c5-0cc1-a711-13922195f406
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.MaxLength Property (Outlook)
+# OlkComboBox.MaxLength property (Outlook)
 
-Returns or sets a  **Long** that specifies the maximum number of characters for the **[Value](Outlook.OlkComboBox.Value.md)** of this control. Read/write.
+Returns or sets a **Long** that specifies the maximum number of characters for the **[Value](Outlook.OlkComboBox.Value.md)** of this control. Read/write.
 
 
 ## Syntax
 
 _expression_. `MaxLength`
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Remarks

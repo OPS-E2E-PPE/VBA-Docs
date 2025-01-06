@@ -3,18 +3,17 @@ title: Rectangle.BorderColor property (Access)
 keywords: vbaac10.chm10292
 f1_keywords:
 - vbaac10.chm10292
-ms.prod: access
 api_name:
 - Access.Rectangle.BorderColor
 ms.assetid: 3863c99e-b68f-42e2-b7e9-637c5f5a3b63
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

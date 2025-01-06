@@ -3,12 +3,11 @@ title: Range.PasteAppendTable method (Word)
 keywords: vbawd10.chm157155742
 f1_keywords:
 - vbawd10.chm157155742
-ms.prod: word
 api_name:
 - Word.Range.PasteAppendTable
 ms.assetid: dc3b9914-b0d6-aa85-a357-a96475680caf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Merges pasted cells into an existing table by inserting the pasted rows between 
 
 ## Syntax
 
- _expression_. `PasteAppendTable`
+_expression_. `PasteAppendTable`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

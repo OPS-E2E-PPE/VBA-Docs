@@ -1,26 +1,26 @@
 ---
-title: Application.SetAutoFilter Method (Project)
+title: Application.SetAutoFilter method (Project)
 keywords: vbapj.chm2166
 f1_keywords:
 - vbapj.chm2166
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SetAutoFilter
 ms.assetid: 4e4b4d4a-838b-f9b7-e3ab-d7bfa8efce5f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetAutoFilter Method (Project)
+# Application.SetAutoFilter method (Project)
 
 Sets the criteria for an AutoFilter for a specified field in a sheet view.
 
 ## Syntax
 
-_expression_. **SetAutoFilter** (**_FieldName_**, **_FilterType_**, **_Test1_**, **_Criteria1_**, **_Operation_**, **_Test2_**, **_Criteria2_**)
+_expression_.**SetAutoFilter** (_FieldName_, _FilterType_, _Test1_, _Criteria1_, _Operation_, _Test2_, _Criteria2_)
 
-_expression_ An expression that returns an **Application** object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_ An expression that returns an **Application** object.
 
 ### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _FieldName_ equals _Criteria1_.|
 |"does not equal"|The value of _FieldName_ does not equal _Criteria1_.|

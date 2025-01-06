@@ -3,12 +3,11 @@ title: ContactCard object (Office)
 keywords: vbaof11.chm342000
 f1_keywords:
 - vbaof11.chm342000
-ms.prod: office
 api_name:
 - Office.ContactCard
 ms.assetid: 148c7268-e12c-d9ae-d31f-b625067eb352
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

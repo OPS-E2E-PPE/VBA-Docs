@@ -3,25 +3,24 @@ title: Revision.Date property (Word)
 keywords: vbawd10.chm159449090
 f1_keywords:
 - vbawd10.chm159449090
-ms.prod: word
 api_name:
 - Word.Revision.Date
 ms.assetid: 3c8941e1-7b1e-23d0-89f6-a83db6c00f20
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Revision.Date property (Word)
 
-The date and time that the tracked change was made. Read-only  **Date**.
+The date and time that the tracked change was made. Read-only **Date**.
 
 
 ## Syntax
 
- _expression_. `Date`
+_expression_. `Date`
 
- _expression_ A variable that represents a '[Revision](Word.Revision.md)' object.
+_expression_ A variable that represents a '[Revision](Word.Revision.md)' object.
 
 
 ## Example

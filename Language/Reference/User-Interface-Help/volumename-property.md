@@ -3,12 +3,11 @@ title: VolumeName property (Visual Basic for Applications)
 keywords: vblr6.chm2181965
 f1_keywords:
 - vblr6.chm2181965
-ms.prod: office
 api_name:
 - Office.VolumeName
 ms.assetid: 8592ae63-f36e-e87a-8286-72419d7781d0
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Sets or returns the volume name of the specified drive. Read/write.
 ## Syntax
 
 _object_.**VolumeName** [= _newname_ ]
-
-<br/>
 
 The **VolumeName** property has these parts:
 

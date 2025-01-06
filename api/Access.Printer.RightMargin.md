@@ -3,12 +3,11 @@ title: Printer.RightMargin property (Access)
 keywords: vbaac10.chm12868
 f1_keywords:
 - vbaac10.chm12868
-ms.prod: access
 api_name:
 - Access.Printer.RightMargin
 ms.assetid: cd4fc2b9-5612-b16f-b58a-7b1f9da0f936
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

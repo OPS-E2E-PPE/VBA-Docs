@@ -3,25 +3,24 @@ title: InlineShape.Fill property (Word)
 keywords: vbawd10.chm162005099
 f1_keywords:
 - vbawd10.chm162005099
-ms.prod: word
 api_name:
 - Word.InlineShape.Fill
 ms.assetid: d803d3cf-095f-a545-453d-4747a6e056c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # InlineShape.Fill property (Word)
 
-Returns a  **[FillFormat](Word.FillFormat.md)** object that contains fill formatting properties for the specified shape. Read-only.
+Returns a **[FillFormat](Word.FillFormat.md)** object that contains fill formatting properties for the specified shape. Read-only.
 
 
 ## Syntax
 
- _expression_. `Fill`
+_expression_.**Fill**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: SharedWorkspaceTask.Title property (Office)
 keywords: vbaof11.chm264001
 f1_keywords:
 - vbaof11.chm264001
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceTask.Title
 ms.assetid: 038d24fe-5afa-c61d-16e7-7a8c8fca2ccf
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -46,7 +45,7 @@ The following example displays a list of the titles of all tasks in the current 
  Dim swsTask As Office.SharedWorkspaceTask 
     Dim strTasks As String 
     For Each swsTask In ActiveWorkbook.SharedWorkspace.Tasks 
-        strTasks = strTasks &amp; swsTask.Title &amp; vbCrLf 
+        strTasks = strTasks & swsTask.Title & vbCrLf 
     Next 
     MsgBox strTasks, vbInformation + vbOKOnly, _ 
         "Tasks in Shared Workspace" 

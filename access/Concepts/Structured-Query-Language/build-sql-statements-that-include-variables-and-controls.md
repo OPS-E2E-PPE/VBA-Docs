@@ -1,9 +1,8 @@
 ---
 title: Build SQL statements that include variables and controls
-ms.prod: access
 ms.assetid: e902199f-ed00-e885-3671-0705aa2b058a
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -62,7 +61,7 @@ Set qdf = dbs.CreateQueryDef("SecondQuarter", strSQL)
 
 ## Build SQL statements with ADO
 
-In this section, you will build the same statements as in the previous section, but this time using ADO as the data access method.
+In this section, you'll build the same statements as in the previous section, but this time using ADO as the data access method.
 
 The following code example shows how to create a **QueryDef** object with a simple SQL statement. This query returns all orders from an Orders table that were placed after March 31, 2006.
 

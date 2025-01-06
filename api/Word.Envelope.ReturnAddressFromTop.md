@@ -3,23 +3,22 @@ title: Envelope.ReturnAddressFromTop property (Word)
 keywords: vbawd10.chm152567824
 f1_keywords:
 - vbawd10.chm152567824
-ms.prod: word
 api_name:
 - Word.Envelope.ReturnAddressFromTop
 ms.assetid: 14738afb-17ab-c1d3-8de5-4fb7a34fa478
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.ReturnAddressFromTop property (Word)
 
-Returns or sets the distance (in points) between the top edge of the envelope and the return address. Read/write  **Single**.
+Returns or sets the distance (in points) between the top edge of the envelope and the return address. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `ReturnAddressFromTop`
+_expression_. `ReturnAddressFromTop`
 
  _expression_ An expression that returns an '[Envelope](Word.Envelope.md)' object.
 

@@ -3,12 +3,11 @@ title: BoundObjectFrame.BeforeUpdate property (Access)
 keywords: vbaac10.chm10961
 f1_keywords:
 - vbaac10.chm10961
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.BeforeUpdate
 ms.assetid: 01ee3c67-76c6-b651-042b-a7aa59e7443e
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,7 +31,7 @@ Valid values for this property are:
 
 - [Event Procedure], which indicates the event procedure associated with the **BeforeUpdate** event for the specified object.
 
-- **=** _functionname_ **()**, where _functionname_ is the name of a user-defined function.
+- _=functionname()_, where _functionname_ is the name of a user-defined function.
 
 
 ## Example

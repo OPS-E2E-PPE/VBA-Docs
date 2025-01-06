@@ -3,12 +3,11 @@ title: CalculatedMembers.Item property (Excel)
 keywords: vbaxl10.chm684074
 f1_keywords:
 - vbaxl10.chm684074
-ms.prod: excel
 api_name:
 - Excel.CalculatedMembers.Item
 ms.assetid: 82ba55c7-0c16-df11-ac32-40868f57d2e1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [CalculatedMembers](Excel.CalculatedMembers.md) object.
+_expression_ A variable that represents a **[CalculatedMembers](Excel.CalculatedMembers.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +31,7 @@ _expression_ A variable that represents a [CalculatedMembers](Excel.CalculatedMe
 
 ## Example
 
-The following example notifies the user if the calculated member is valid or not. This example assumes a PivotTable exists on the active worksheet that contains either a valid or invalid calculated member.
+The following example notifies the user if the calculated member is valid or not. This example assumes that a PivotTable exists on the active worksheet that contains either a valid or invalid calculated member.
 
 
 ```vb
@@ -69,9 +66,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[CalculatedMembers Collection](Excel.CalculatedMembers.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

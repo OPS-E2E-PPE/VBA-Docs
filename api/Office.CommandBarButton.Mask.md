@@ -3,12 +3,11 @@ title: CommandBarButton.Mask property (Office)
 keywords: vbaof11.chm6010
 f1_keywords:
 - vbaof11.chm6010
-ms.prod: office
 api_name:
 - Office.CommandBarButton.Mask
 ms.assetid: de7179ac-6b39-2323-d84a-23abe3ed3167
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -61,8 +60,6 @@ Sub ChangeButtonImage()
     End With 
 End Sub
 ```
-
-<br/>
 
 The following example gets the image and mask of the first **CommandBarButton** that the code returns and outputs each of them to a file. To make this work, specify a path for the output files.
 

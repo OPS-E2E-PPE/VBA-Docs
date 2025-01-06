@@ -3,12 +3,11 @@ title: CommandBarComboBox object (Office)
 keywords: vbaof11.chm243000
 f1_keywords:
 - vbaof11.chm243000
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox
 ms.assetid: fcfe6bde-dea0-f1f1-ad30-d0e28f97dd07
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,8 +38,6 @@ With combo
     .ListIndex = 0 
 End With
 ```
-
-<br/>
 
 You can also use the **FindControl** method to return a **CommandBarComboBox** object. The following example searches all command bars for a visible **CommandBarComboBox** object whose tag is "sheet assignments."
 

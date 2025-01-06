@@ -3,30 +3,29 @@ title: TextEffectFormat.Tracking property (Word)
 keywords: vbawd10.chm164561007
 f1_keywords:
 - vbawd10.chm164561007
-ms.prod: word
 api_name:
 - Word.TextEffectFormat.Tracking
 ms.assetid: 40e1ac58-b292-ac12-6e82-a93f87013d6d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextEffectFormat.Tracking property (Word)
 
-Returns or sets the ratio of the horizontal space allotted to each character in the specified WordArt in relation to the width of the character. Read/write  **Single**.
+Returns or sets the ratio of the horizontal space allotted to each character in the specified WordArt in relation to the width of the character. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `Tracking`
+_expression_. `Tracking`
 
- _expression_ Required. A variable that represents a '[TextEffectFormat](Word.TextEffectFormat.md)' object.
+_expression_ Required. A variable that represents a '[TextEffectFormat](Word.TextEffectFormat.md)' object.
 
 
 ## Remarks
 
-This property can be a value from 0 (zero) through 5. (Large values for this property specify ample space between characters; values less than 1 can produce character overlap.) The following table gives the values of the  **Tracking** property that correspond to the settings available in the user interface.
+This property can be a value from 0 (zero) through 5. (Large values for this property specify ample space between characters; values less than 1 can produce character overlap.) The following table gives the values of the **Tracking** property that correspond to the settings available in the user interface.
 
 
 

@@ -3,23 +3,22 @@ title: Document.HasVBProject property (Word)
 keywords: vbawd10.chm158007844
 f1_keywords:
 - vbawd10.chm158007844
-ms.prod: word
 api_name:
 - Word.Document.HasVBProject
 ms.assetid: 1338623e-5832-b77a-cf72-f09d7c8c80de
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.HasVBProject property (Word)
 
-Returns a  **Boolean** that represents whether a document has an attached Microsoft Visual Basic for Applications project. Read-only.
+Returns a **Boolean** that represents whether a document has an attached Microsoft Visual Basic for Applications project. Read-only.
 
 
 ## Syntax
 
- _expression_. `HasVBProject`
+_expression_. `HasVBProject`
 
  _expression_ An expression that returns a [Document](./Word.Document.md) object.
 

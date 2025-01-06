@@ -3,12 +3,11 @@ title: Options.AutoWordSelection property (Word)
 keywords: vbawd10.chm162988101
 f1_keywords:
 - vbawd10.chm162988101
-ms.prod: word
 api_name:
 - Word.Options.AutoWordSelection
 ms.assetid: 44b3a688-b5ef-6145-de33-00f0cf77409d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoWordSelection`
+_expression_. `AutoWordSelection`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example sets Word to select individual characters instead of entire words w
 Options.AutoWordSelection = False
 ```
 
-This example returns the status of the  **When selecting, automatically select entire word** option on the **Edit** tab in the **Options** dialog box.
+This example returns the status of the **When selecting, automatically select entire word** option on the **Edit** tab in the **Options** dialog box.
 
 
 

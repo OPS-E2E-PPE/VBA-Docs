@@ -1,25 +1,24 @@
 ---
-title: Slide.ApplyTemplate2 Method (PowerPoint)
+title: Slide.ApplyTemplate2 method (PowerPoint)
 keywords: vbapp10.chm531044
 f1_keywords:
 - vbapp10.chm531044
 ms.assetid: e4931f7b-98de-a854-3752-c1f9ca70cf3b
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.ApplyTemplate2 Method (PowerPoint)
+# Slide.ApplyTemplate2 method (PowerPoint)
 
 Applies a design template and theme variant to the slide.
 
 
 ## Syntax
 
- _expression_. `ApplyTemplate2`_(FileName,_ _Variant)_
+_expression_. `ApplyTemplate2`_(FileName,_ _Variant)_
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Parameters
@@ -30,9 +29,9 @@ Applies a design template and theme variant to the slide.
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required|**String**|Specifies the name of the design template.|
 | _Variant_|Required|**String**|Specifies the name of the variant to apply.|
-| _FileName_|Required|STRING||
-| _Variant_|Required|STRING||
-| _VariantGUID_|Required|STRING||
+| _FileName_|Required|**String**||
+| _Variant_|Required|**String**||
+| _VariantGUID_|Required|**String**||
 
 ## Return value
 

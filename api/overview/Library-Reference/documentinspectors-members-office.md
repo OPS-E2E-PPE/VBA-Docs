@@ -1,9 +1,9 @@
 ---
 title: DocumentInspectors members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 1cf21432-076c-e5fe-496c-e20048a0e62e
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

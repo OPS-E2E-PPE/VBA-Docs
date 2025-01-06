@@ -1,11 +1,10 @@
 ---
 title: XlOLEVerb enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlOLEVerb
 ms.assetid: 56664ebc-d745-2279-3f6e-b4fdbc6f599a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: TabControl.IsVisible property (Access)
 keywords: vbaac10.chm12102
 f1_keywords:
 - vbaac10.chm12102
-ms.prod: access
 api_name:
 - Access.TabControl.IsVisible
 ms.assetid: ddc5e22d-f426-a685-ab94-a1ae7c00e53a
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.IsVisible property (Access)
 
-You can use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
+Use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
 
 
 ## Syntax
@@ -28,7 +27,7 @@ _expression_ A variable that represents a **[TabControl](Access.TabControl.md)**
 
 You can set the **IsVisible** property only in the **Print** event of a report section that contains the control.
 
-You can use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
+Use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
 
 
 ## Example

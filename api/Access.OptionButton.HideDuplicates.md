@@ -3,18 +3,17 @@ title: OptionButton.HideDuplicates property (Access)
 keywords: vbaac10.chm10581
 f1_keywords:
 - vbaac10.chm10581
-ms.prod: access
 api_name:
 - Access.OptionButton.HideDuplicates
 ms.assetid: c42a89b0-2fff-e56e-0621-c2d9b6e7fc4d
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.HideDuplicates property (Access)
 
-You can use the **HideDuplicates** property to hide a control on a report when its value is the same as in the preceding record. Read/write **Boolean**.
+Use the **HideDuplicates** property to hide a control on a report when its value is the same as in the preceding record. Read/write **Boolean**.
 
 
 ## Syntax
@@ -39,7 +38,7 @@ The **DefaultValue** property doesn't apply to check box, option button, or togg
 
 You can set the **HideDuplicates** property only in report Design view.
 
-You can use the **HideDuplicates** property to create a grouped report by using only the detail section rather than a group header and the detail section.
+Use the **HideDuplicates** property to create a grouped report by using only the detail section rather than a group header and the detail section.
 
 
 ## Example

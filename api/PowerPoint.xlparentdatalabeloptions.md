@@ -1,15 +1,14 @@
 ---
-title: XlParentDataLabelOptions Enumeration (PowerPoint)
+title: XlParentDataLabelOptions enumeration (PowerPoint)
 ms.assetid: 566194d6-f4e3-53af-723c-025bf3909578
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlParentDataLabelOptions Enumeration (PowerPoint)
+# XlParentDataLabelOptions enumeration (PowerPoint)
 
-Constants passed to and returned by the  **Series.ParentDataLabelOption** property.
+Constants passed to and returned by the **Series.ParentDataLabelOption** property.
 
 
 
@@ -22,6 +21,6 @@ Constants passed to and returned by the  **Series.ParentDataLabelOption** proper
 ## See also
 
 
-[Series.ParentDataLabelOption Property (PowerPoint)](PowerPoint.series.parentdatalabeloption.md)
+[Series.ParentDataLabelOption property (PowerPoint)](PowerPoint.series.parentdatalabeloption.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

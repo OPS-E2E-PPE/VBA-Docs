@@ -1,20 +1,20 @@
 ---
-title: Shape.Callout Property (Project)
-ms.prod: project-server
+title: Shape.Callout property (Project)
+ms.service: project-server
 ms.assetid: b6ee3e73-6b50-0cbb-9208-006e9a856ed6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Callout Property (Project)
-Gets callout formatting properties for the shape, when the  **Shape** object represents a callout. Read-only **CalloutFormat**.
+# Shape.Callout property (Project)
+Gets callout formatting properties for the shape, when the **Shape** object represents a callout. Read-only **CalloutFormat**.
 
 ## Syntax
 
- _expression_. `Callout`
+_expression_.**Callout**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

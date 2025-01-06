@@ -1,27 +1,26 @@
 ---
-title: RulerLevels.Parent Property (PowerPoint)
+title: RulerLevels.Parent property (PowerPoint)
 keywords: vbapp10.chm571002
 f1_keywords:
 - vbapp10.chm571002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.RulerLevels.Parent
 ms.assetid: 80d2cdae-bbbf-4d29-ebd8-2fe5eab37737
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RulerLevels.Parent Property (PowerPoint)
+# RulerLevels.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [RulerLevels](./PowerPoint.RulerLevels.md) object.
+_expression_ A variable that represents a [RulerLevels](PowerPoint.RulerLevels.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

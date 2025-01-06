@@ -1,37 +1,36 @@
 ---
-title: Layers.Application Property (Visio)
+title: Layers.Application property (Visio)
 keywords: vis_sdr.chm11913090
 f1_keywords:
 - vis_sdr.chm11913090
-ms.prod: visio
 api_name:
 - Visio.Layers.Application
 ms.assetid: 5481a7cb-c215-4694-1f42-121db5ccdd74
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Layers.Application Property (Visio)
+# Layers.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Layers](./Visio.Layers.md) object.
+_expression_ A variable that represents a **[Layers](Visio.Layers.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

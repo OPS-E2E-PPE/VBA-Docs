@@ -3,18 +3,17 @@ title: ListBox.TabStop property (Access)
 keywords: vbaac10.chm11238
 f1_keywords:
 - vbaac10.chm11238
-ms.prod: access
 api_name:
 - Access.ListBox.TabStop
 ms.assetid: 0581f18a-7d23-2836-0959-88f84dc1a4ad
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.TabStop property (Access)
 
-You can use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
+Use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
 
 
 ## Syntax

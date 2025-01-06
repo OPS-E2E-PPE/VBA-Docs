@@ -3,10 +3,9 @@ title: Operator precedence
 keywords: vblr6.chm1008988
 f1_keywords:
 - vblr6.chm1008988
-ms.prod: office
 ms.assetid: 05bd8527-1bf6-c2ab-6dac-f060d061cace
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -29,8 +28,6 @@ Arithmetic and logical operators are evaluated in the following order of precede
 |Modulus arithmetic (`Mod`)|Less than or equal to (`< =`)|**Eqv**|
 |Addition and subtraction (`+`, `-`)|Greater than or equal to (`> =`)|**Imp**|
 |String concatenation (`&`)|**Like, Is**||
-
-<br/>
 
 When multiplication and division occur together in an expression, each operation is evaluated as it occurs from left to right. When addition and subtraction occur together in an expression, each operation is evaluated in order of appearance from left to right. 
 

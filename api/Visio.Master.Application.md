@@ -1,37 +1,36 @@
 ---
-title: Master.Application Property (Visio)
+title: Master.Application property (Visio)
 keywords: vis_sdr.chm10713090
 f1_keywords:
 - vis_sdr.chm10713090
-ms.prod: visio
 api_name:
 - Visio.Master.Application
 ms.assetid: 88b2fd6e-8f7e-3caa-5316-35a6a0060793
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Application Property (Visio)
+# Master.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

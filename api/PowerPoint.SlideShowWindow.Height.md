@@ -1,27 +1,26 @@
 ---
-title: SlideShowWindow.Height Property (PowerPoint)
+title: SlideShowWindow.Height property (PowerPoint)
 keywords: vbapp10.chm507009
 f1_keywords:
 - vbapp10.chm507009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowWindow.Height
 ms.assetid: 0108ffd6-2a91-4add-526f-9d34523ca3b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowWindow.Height Property (PowerPoint)
+# SlideShowWindow.Height property (PowerPoint)
 
 Returns or sets the height of the specified object, in points. Read/write.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a [SlideShowWindow](./PowerPoint.SlideShowWindow.md) object.
+_expression_ A variable that represents a [SlideShowWindow](PowerPoint.SlideShowWindow.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Single
 
 ## Remarks
 
-The  **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3-D effects.
+The **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3D effects.
 
 
 ## Example

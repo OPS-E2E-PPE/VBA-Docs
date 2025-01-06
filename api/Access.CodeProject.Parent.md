@@ -3,12 +3,11 @@ title: CodeProject.Parent property (Access)
 keywords: vbaac10.chm12723
 f1_keywords:
 - vbaac10.chm12723
-ms.prod: access
 api_name:
 - Access.CodeProject.Parent
 ms.assetid: 2dfa77fe-de58-15f4-da97-41da8b06c449
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: BoundObjectFrame.OLETypeAllowed property (Access)
 keywords: vbaac10.chm10919
 f1_keywords:
 - vbaac10.chm10919
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.OLETypeAllowed
 ms.assetid: 6c5ec029-043e-9828-e451-cd3507850953
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.OLETypeAllowed property (Access)
 
-You can use the **OLETypeAllowed** property to specify the type of OLE object that a control can contain. Read/write **Byte**.
+Use the **OLETypeAllowed** property to specify the type of OLE object that a control can contain. Read/write **Byte**.
 
 
 ## Syntax

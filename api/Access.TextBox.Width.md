@@ -3,12 +3,11 @@ title: TextBox.Width property (Access)
 keywords: vbaac10.chm11073
 f1_keywords:
 - vbaac10.chm11073
-ms.prod: access
 api_name:
 - Access.TextBox.Width
 ms.assetid: 0bb72524-6682-f783-e9f9-4fd34a757a40
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

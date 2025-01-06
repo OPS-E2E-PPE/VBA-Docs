@@ -3,30 +3,29 @@ title: DataLabels.Separator property (Word)
 keywords: vbawd10.chm207489003
 f1_keywords:
 - vbawd10.chm207489003
-ms.prod: word
 api_name:
 - Word.DataLabels.Separator
 ms.assetid: daf3afde-8a33-de08-a615-57537855818a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DataLabels.Separator property (Word)
 
-Sets or returns the separator for the data labels on a chart. Read/write  **Variant**.
+Sets or returns the separator for the data labels on a chart. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Separator`
+_expression_.**Separator**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Remarks
 
-If you use a string, you will get a string as the separator. If you use  **xlDataLabelSeparatorDefault** (= 1), you will get the default data label separator, which is either a comma or a newline character, depending on the data label.
+If you use a string, you will get a string as the separator. If you use **xlDataLabelSeparatorDefault** (= 1), you will get the default data label separator, which is either a comma or a newline character, depending on the data label.
 
 
 ## Example

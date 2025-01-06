@@ -1,27 +1,27 @@
 ---
-title: Application.BaseCalendarCreate Method (Project)
+title: Application.BaseCalendarCreate method (Project)
 keywords: vbapj.chm618
 f1_keywords:
 - vbapj.chm618
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BaseCalendarCreate
 ms.assetid: c9c92dff-255a-041b-c18d-49d6d75884e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BaseCalendarCreate Method (Project)
+# Application.BaseCalendarCreate method (Project)
 
 Creates a base calendar.
 
 
 ## Syntax
 
- _expression_. `BaseCalendarCreate`( `_Name_`, `_FromName_` )
+_expression_. `BaseCalendarCreate`( `_Name_`, `_FromName_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ Creates a base calendar.
 
 ## Remarks
 
-To create a local calendar when Project Professional is logged on to Project Server, you must check  **Allow projects to use local base calendars** on the Additional Server Settings page in Project Web Access. Restart Project Professional after changing the setting in Project Web Access.
+To create a local calendar when Project Professional is logged on to Project Server, you must check **Allow projects to use local base calendars** on the Additional Server Settings page in Project Web Access. Restart Project Professional after changing the setting in Project Web Access.
 
 
 ## Example

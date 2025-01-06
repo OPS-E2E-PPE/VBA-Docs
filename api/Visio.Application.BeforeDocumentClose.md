@@ -1,29 +1,26 @@
 ---
-title: Application.BeforeDocumentClose Event (Visio)
-ms.prod: visio
+title: Application.BeforeDocumentClose event (Visio)
 api_name:
 - Visio.Application.BeforeDocumentClose
 ms.assetid: c0d7815e-25bb-7b7e-f80b-81472edc47ca
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.BeforeDocumentClose Event (Visio)
+# Application.BeforeDocumentClose event (Visio)
 
 Occurs before a document is closed.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'BeforeDocumentClose'(**_ByVal doc As [IVDOCUMENT]_**)
+_expression_.**BeforeDocumentClose** (_doc_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -33,13 +30,17 @@ Private Sub  _expression_ _'BeforeDocumentClose'(**_ByVal doc As [IVDOCUMENT]_**
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this event maps to the following types:
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
 
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
 
--  **Microsoft.Office.Interop.Visio.EApplication_BeforeDocumentCloseEventHandler** (the **BeforeDocumentClose** delegate.)
-    
--  **Microsoft.Office.Interop.Visio.EApplication_Event.BeforeDocumentClose**(the  **BeforeDocumentClose** event.)
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019&preserve-view=true) reference, this event maps to the following types:
+
+- **Microsoft.Office.Interop.Visio.EApplication_BeforeDocumentCloseEventHandler** (the **BeforeDocumentClose** delegate)   
+- **Microsoft.Office.Interop.Visio.EApplication_Event.BeforeDocumentClose** (the **BeforeDocumentClose** event)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

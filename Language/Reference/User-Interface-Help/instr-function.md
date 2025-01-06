@@ -3,10 +3,9 @@ title: InStr function (Visual Basic for Applications)
 keywords: vblr6.chm1008946
 f1_keywords:
 - vblr6.chm1008946
-ms.prod: office
 ms.assetid: d83b314a-e77c-fc18-0744-266f982a82b7
-ms.date: 12/13/2018
-localization_priority: Priority
+ms.date: 08/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -14,11 +13,11 @@ localization_priority: Priority
 
 Returns a **Variant** (**Long**) specifying the position of the first occurrence of one string within another.
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
+
 ## Syntax
 
 **InStr**([ _start_ ], _string1_, _string2_, [ _compare_ ])
-
-<br/>
 
 The **InStr** function syntax has these [arguments](../../Glossary/vbe-glossary.md#argument):
 

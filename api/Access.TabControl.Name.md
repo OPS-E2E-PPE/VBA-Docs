@@ -3,18 +3,17 @@ title: TabControl.Name property (Access)
 keywords: vbaac10.chm12113
 f1_keywords:
 - vbaac10.chm12113
-ms.prod: access
 api_name:
 - Access.TabControl.Name
 ms.assetid: 6dc389b0-d609-cecc-cbf9-af5b1276b1be
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

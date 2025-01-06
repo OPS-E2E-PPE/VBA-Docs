@@ -4,12 +4,11 @@ ROBOTS: INDEX
 keywords: vbaac10.chm5187337
 f1_keywords:
 - vbaac10.chm5187337
-ms.prod: access
 api_name:
 - Access.Indexed
 ms.assetid: d410da7f-eb9d-5e03-06fa-b5756da357f4
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ localization_priority: Priority
 
 **Applies to:** Access 2013 | Access 2016
 
-You can use the **Indexed** property to set a single-field index. An index speeds up queries on the indexed fields as well as sorting and grouping operations. For example, if you search for specific employee names in a LastName field, you can create an index for this field to speed up the search for a specific name.
+Use the **Indexed** property to set a single-field index. An index speeds up queries on the indexed fields as well as sorting and grouping operations. For example, if you search for specific employee names in a LastName field, you can create an index for this field to speed up the search for a specific name.
 
 ## Setting
 
@@ -57,8 +56,8 @@ If you want to create multiple-field indexes, use the Indexes window.
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

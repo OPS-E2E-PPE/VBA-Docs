@@ -3,12 +3,11 @@ title: SharedWorkspaceLinks.Add method (Office)
 keywords: vbaof11.chm271003
 f1_keywords:
 - vbaof11.chm271003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLinks.Add
 ms.assetid: 76c1fe99-14de-7276-0c5c-fd54f6d0a6ce
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -51,7 +50,7 @@ The following example adds a new link to the links collection of the shared work
         "https://msdn.microsoft.com", _ 
         "Microsoft Developer Network Home Page", _ 
         "My favorite developer site!") 
-    MsgBox "New link: " &amp; swsLink.Description, _ 
+    MsgBox "New link: " & swsLink.Description, _ 
         vbInformation + vbOKOnly, _ 
         "New Link in Shared Workspace" 
     Set swsLink = Nothing 

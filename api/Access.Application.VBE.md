@@ -3,18 +3,17 @@ title: Application.VBE property (Access)
 keywords: vbaac10.chm12572
 f1_keywords:
 - vbaac10.chm12572
-ms.prod: access
 api_name:
 - Access.Application.VBE
 ms.assetid: b9ce562e-cfb1-4b39-a287-2c0629f38c7b
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.VBE property (Access)
 
-You can use the **VBE** property to return a reference to the current **VBE** object and its related properties. The **VBE** property of the **[Application](Access.Application.md)** object represents the Microsoft Visual Basic for Applications editor. Read-only **VBE** object.
+Use the **VBE** property to return a reference to the current **VBE** object and its related properties. The **VBE** property of the **[Application](Access.Application.md)** object represents the Microsoft Visual Basic for Applications editor. Read-only **VBE** object.
 
 
 ## Syntax

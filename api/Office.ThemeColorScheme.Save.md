@@ -1,11 +1,10 @@
 ---
 title: ThemeColorScheme.Save method (Office)
-ms.prod: office
 api_name:
 - Office.ThemeColorScheme.Save
 ms.assetid: 5ca73773-583b-dbf4-6bde-bc6fa26c66a2
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

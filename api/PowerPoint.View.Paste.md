@@ -1,34 +1,33 @@
 ---
-title: View.Paste Method (PowerPoint)
+title: View.Paste method (PowerPoint)
 keywords: vbapp10.chm512005
 f1_keywords:
 - vbapp10.chm512005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.View.Paste
 ms.assetid: e7878c74-92d7-8993-9b46-8647c1b59b15
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# View.Paste Method (PowerPoint)
+# View.Paste method (PowerPoint)
 
 Pastes the contents of the Clipboard into the active view. Attempting to paste an object into a view that won't accept it causes an error. 
 
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Remarks
 
 Attempting to paste an object into a view that won't accept it causes an error. 
 
-Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
+Use the **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set the view for a window before pasting the Clipboard contents into it. The following table shows what you can paste into each view.
 
 
 
@@ -38,9 +37,12 @@ Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set t
 |Outline view|Text or entire slides. You cannot paste shapes into outline view. A pasted slide will be inserted before the slide that contains the cursor.|
 |Slide sorter view|Entire slides. You cannot paste shapes or text into slide sorter view. A pasted slide will be inserted at the cursor or after the last slide selected in the presentation.|
 
+If the source content is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
+
+
 ## Example
 
-This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two ? for example, if you try to paste a shape into slide sorter view ? this example fails.
+This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two (for example, if you try to paste a shape into slide sorter view), this example fails.
 
 
 ```vb
@@ -73,5 +75,7 @@ End With
 
 
 [View Object](PowerPoint.View.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,29 +1,29 @@
 ---
-title: Exception.Type Property (Project)
-ms.prod: project-server
+title: Exception.Type property (Project)
+ms.service: project-server
 api_name:
 - Project.Exception.Type
 ms.assetid: a801b8a4-0a0c-f0e1-22c6-d37eab639201
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exception.Type Property (Project)
+# Exception.Type property (Project)
 
-Gets or sets the type of calendar exception. Read/write  **PjExceptionType**.
+Gets or sets the type of calendar exception. Read/write **PjExceptionType**.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-The  **Type** property can be one of the **[PjExceptionType](Project.PjExceptionType.md)** constants.
+The **Type** property can be one of the **[PjExceptionType](Project.PjExceptionType.md)** constants.
 
 
 ## See also

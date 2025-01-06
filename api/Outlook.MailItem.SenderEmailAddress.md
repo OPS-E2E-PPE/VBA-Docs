@@ -1,37 +1,36 @@
 ---
-title: MailItem.SenderEmailAddress Property (Outlook)
+title: MailItem.SenderEmailAddress property (Outlook)
 keywords: vbaol11.chm1383
 f1_keywords:
 - vbaol11.chm1383
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.SenderEmailAddress
 ms.assetid: a157894c-adf2-1cef-ec7c-8516dbef2b7f
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.SenderEmailAddress Property (Outlook)
+# MailItem.SenderEmailAddress property (Outlook)
 
-Returns a  **String** that represents the email address of the sender of the Outlook item. Read-only.
+Returns a **String** that represents the email address of the sender of the Outlook item. Read-only.
 
 
 ## Syntax
 
 _expression_. `SenderEmailAddress`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks
 
-This property corresponds to the MAPI property  **PidTagSenderEmailAddress**.
+This property corresponds to the MAPI property **PidTagSenderEmailAddress**.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example loops all items in a folder named Test in the  **Inbox** and sets the yellow flag on items sent by 'someone@example.com'. To run this example without errors, make sure the Test folder exists in the default **Inbox** folder and replace 'someone@example.com' with a valid sender email address in the Test folder.
+The following Microsoft Visual Basic for Applications (VBA) example loops all items in a folder named Test in the **Inbox** and sets the yellow flag on items sent by 'someone@example.com'. To run this example without errors, make sure the Test folder exists in the default **Inbox** folder and replace 'someone@example.com' with a valid sender email address in the Test folder.
 
 
 ```vb

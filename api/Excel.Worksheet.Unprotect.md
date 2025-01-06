@@ -3,12 +3,11 @@ title: Worksheet.Unprotect method (Excel)
 keywords: vbaxl10.chm174096
 f1_keywords:
 - vbaxl10.chm174096
-ms.prod: excel
 api_name:
 - Excel.Worksheet.Unprotect
 ms.assetid: f955872b-d6bf-5c94-d956-0e84fc7bb9aa
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Removes protection from a sheet or workbook. This method has no effect if the sh
 
 ## Syntax
 
-_expression_. `Unprotect`( `_Password_` )
+_expression_.**Unprotect** (_Password_)
 
-_expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+_expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,15 +38,11 @@ If you forget the password, you cannot unprotect the sheet or workbook. It's a g
 
 This example removes protection from the active workbook.
 
-
 ```vb
 ActiveSheet.Unprotect
 ```
 
 
-## See also
 
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

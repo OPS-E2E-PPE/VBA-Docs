@@ -1,30 +1,28 @@
 ---
-title: Application.RemoveTimelineBar Method (Project)
+title: Application.RemoveTimelineBar method (Project)
 keywords: vbapj.chm158
 f1_keywords:
 - vbapj.chm158
 ms.assetid: 8385d889-b81e-5422-a032-c7073fa7c65d
 ms.date: 06/08/2017
-ms.prod: project-server
-localization_priority: Normal
+ms.service: project-server
+ms.localizationpriority: medium
 ---
 
 
-# Application.RemoveTimelineBar Method (Project)
+# Application.RemoveTimelineBar method (Project)
 
-Removes a  **Timeline** bar from the view. Introduced in Office 2016.
+Removes a **Timeline** bar from the view. Introduced in Office 2016.
 
 
 ## Syntax
 
- _expression_. `RemoveTimelineBar` _(BarIndex) _
+_expression_.**RemoveTimelineBar** ( _BarPosition_, _TimelineViewName_)
 
- _expression_ A variable that represents a [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

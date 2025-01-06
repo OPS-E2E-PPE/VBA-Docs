@@ -1,27 +1,26 @@
 ---
-title: MotionEffect.Parent Property (PowerPoint)
+title: MotionEffect.Parent property (PowerPoint)
 keywords: vbapp10.chm658002
 f1_keywords:
 - vbapp10.chm658002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.MotionEffect.Parent
 ms.assetid: 6c46a46c-14f3-b61e-e381-87ec0eff8974
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MotionEffect.Parent Property (PowerPoint)
+# MotionEffect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [MotionEffect](./PowerPoint.MotionEffect.md) object.
+_expression_ A variable that represents a [MotionEffect](PowerPoint.MotionEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

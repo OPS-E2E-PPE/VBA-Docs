@@ -3,12 +3,11 @@ title: PickerDialog.Title property (Office)
 keywords: vbaof11.chm340002
 f1_keywords:
 - vbaof11.chm340002
-ms.prod: office
 api_name:
 - Office.PickerDialog.Title
 ms.assetid: 76531e47-91a4-4d82-7825-ab900c5bf8e2
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -54,7 +53,7 @@ Set objPickerResults = objPickerDialog.Show(True, objPickerExistingResult)
 ## See also
 
 - [PickerDialog object members](overview/Library-Reference/pickerdialog-members-office.md)
-- [PickerDialog interface](https://docs.microsoft.com/dotnet/api/microsoft.office.core.pickerdialog?view=office-pia)
-- [Object Picker dialog box interfaces](https://docs.microsoft.com/windows/desktop/ad/object-picker-dialog-box-interfaces)
+- [PickerDialog interface](/dotnet/api/microsoft.office.core.pickerdialog)
+- [Object Picker dialog box interfaces](/windows/desktop/ad/object-picker-dialog-box-interfaces)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,30 +3,29 @@ title: Axis.MaximumScale property (Word)
 keywords: vbawd10.chm113049628
 f1_keywords:
 - vbawd10.chm113049628
-ms.prod: word
 api_name:
 - Word.Axis.MaximumScale
 ms.assetid: cfd12a67-ef8b-d92c-a9c1-74353754498e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MaximumScale property (Word)
 
-Returns or sets the maximum value on the value axis. Read/write  **Double**.
+Returns or sets the maximum value on the value axis. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `MaximumScale`
+_expression_. `MaximumScale`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting this property sets the  **[MaximumScaleIsAuto](Word.Axis.MaximumScaleIsAuto.md)** property to **False**.
+Setting this property sets the **[MaximumScaleIsAuto](Word.Axis.MaximumScaleIsAuto.md)** property to **False**.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: TextFrame2.MarginTop Property (PowerPoint)
+title: TextFrame2.MarginTop property (PowerPoint)
 keywords: vbapp10.chm678005
 f1_keywords:
 - vbapp10.chm678005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.MarginTop
 ms.assetid: 4382b16a-9b86-ea38-d9f8-283bc4ee3161
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.MarginTop Property (PowerPoint)
+# TextFrame2.MarginTop property (PowerPoint)
 
- Returns or sets the distance (in points) between the top of the text frame and the top of the inscribed rectangle of the shape that contains the text. Read/write.
+ Returns or sets the distance (in [points](../language/glossary/vbe-glossary.md#point)) between the top of the text frame and the top of the inscribed rectangle of the shape that contains the text. Read/write.
 
 
 ## Syntax
 
- _expression_. `MarginTop`
+_expression_.**MarginTop**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: ListGallery.Reset method (Word)
 keywords: vbawd10.chm160694372
 f1_keywords:
 - vbawd10.chm160694372
-ms.prod: word
 api_name:
 - Word.ListGallery.Reset
 ms.assetid: 456ed895-6e6e-334d-7cab-9df4376d8025
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Resets the list template specified by Index for the specified list gallery to th
 
 ## Syntax
 
- _expression_. `Reset`( `_Index_` )
+_expression_. `Reset` (_Index_)
 
- _expression_ Required. A variable that represents a '[ListGallery](Word.ListGallery.md)' object.
+_expression_ Required. A variable that represents a '[ListGallery](Word.ListGallery.md)' object.
 
 
 ## Parameters

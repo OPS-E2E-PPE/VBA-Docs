@@ -3,25 +3,24 @@ title: ChartGroup.BubbleScale property (Word)
 keywords: vbawd10.chm263454756
 f1_keywords:
 - vbawd10.chm263454756
-ms.prod: word
 api_name:
 - Word.ChartGroup.BubbleScale
 ms.assetid: 4776723c-4d6e-1009-8d00-6f837fbd4803
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartGroup.BubbleScale property (Word)
 
-Returns or sets the scale factor for bubbles in the specified chart group. Read/write  **Long**.
+Returns or sets the scale factor for bubbles in the specified chart group. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `BubbleScale`
+_expression_.**BubbleScale**
 
- _expression_ A variable that represents a '[ChartGroup](Word.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](Word.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -29,7 +28,8 @@ Returns or sets the scale factor for bubbles in the specified chart group. Read/
 You can set this property to an integer from 0 (zero) through 300, corresponding to a percentage of the default size. 
 
 
- **Note**  This property applies only to bubble charts.
+> [!NOTE] 
+> This property applies only to bubble charts.
 
 
 ## Example

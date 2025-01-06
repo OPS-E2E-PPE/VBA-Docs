@@ -3,25 +3,24 @@ title: PageNumbers.NumberStyle property (Word)
 keywords: vbawd10.chm159776770
 f1_keywords:
 - vbawd10.chm159776770
-ms.prod: word
 api_name:
 - Word.PageNumbers.NumberStyle
 ms.assetid: 5a7a3101-3b16-a107-8790-3666fa7fba54
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageNumbers.NumberStyle property (Word)
 
-Returns or sets a  **[WdPageNumberStyle](Word.WdPageNumberStyle.md)** constant that represents the number style. Read/write.
+Returns or sets a **[WdPageNumberStyle](Word.WdPageNumberStyle.md)** constant that represents the number style. Read/write.
 
 
 ## Syntax
 
- _expression_. `NumberStyle`
+_expression_. `NumberStyle`
 
- _expression_ Required. An expression that returns a '[PageNumbers](Word.pagenumbers.md)' object.
+_expression_ Required. An expression that returns a '[PageNumbers](Word.pagenumbers.md)' object.
 
 
 ## Example

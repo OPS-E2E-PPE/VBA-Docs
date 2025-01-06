@@ -1,15 +1,14 @@
 ---
 title: Filtering Items Using Query Keywords
-ms.prod: outlook
 ms.assetid: d7e6b169-c5fd-7acc-f077-658a153a921f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Filtering Items Using Query Keywords
 
-You can use the following query keywords only in DAV Searching and Locating (DASL) queries. Keywords are case-insensitive. Microsoft Jet does not support any query keywords.
+Use the following query keywords only in DAV Searching and Locating (DASL) queries. Keywords are case-insensitive. Microsoft Jet does not support any query keywords.
 
 ## ci_startwith and ci_phrasematch
     
@@ -38,7 +37,7 @@ Evaluates if a property is null. Returns True if the property is null and False 
 The syntax of **Is Null** is as follows, where _PropertyName_ is the name of a property referenced by namespace:
 
 ```sql
-  [PropertyName] IS NULL
+ [PropertyName] IS NULL
 ```
 
 You can combine the **Is Null** keywords with the **Not** operator to evaluate if a property is not null.
@@ -47,7 +46,7 @@ The following DASL query retrieves all contacts where the custom property **Orde
     
 ```vb
   criteria = "@SQL=" & "(NOT(" _ 
-& Chr(34) & "http://schemas.microsoft.com/mapi/string/" _ 
+& Chr(34) & "https://schemas.microsoft.com/mapi/string/" _ 
 & "{00020329-0000-0000-C000-000000000046}/Order%20Date" & Chr(34) _ 
 & " IS NULL) AND " _ & Chr(34) & "urn:schemas-microsoft-com:office:office#Company" 
 & Chr(34) _ & " = 'Microsoft')"

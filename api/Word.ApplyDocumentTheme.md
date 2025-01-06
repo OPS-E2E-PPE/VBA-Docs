@@ -3,12 +3,11 @@ title: Document.ApplyDocumentTheme Method
 keywords: vbawd10.chm158007842
 f1_keywords:
 - vbawd10.chm158007842
-ms.prod: word
 api_name:
 - Word.ApplyDocumentTheme
 ms.assetid: fd376134-f6d4-b6da-8eae-671e7e3b05e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Applies a document theme to a document.
 
 ## Syntax
 
- _expression_. `ApplyDocumentTheme`( `_FileName_` )
+_expression_. `ApplyDocumentTheme`( `_FileName_` )
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Parameters

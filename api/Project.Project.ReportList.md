@@ -1,29 +1,29 @@
 ---
-title: Project.ReportList Property (Project)
-ms.prod: project-server
+title: Project.ReportList property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.ReportList
 ms.assetid: 0c688797-21cc-eaa0-0ebf-95e1e053f222
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ReportList Property (Project)
+# Project.ReportList property (Project)
 
 Deprecated in Project. 
 
 
 ## Syntax
 
- _expression_. `ReportList`
+_expression_. `ReportList`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-In Project, the  **ReportList** property returns **Nothing**. In Project, the  **ReportList** property gets a **[List](Project.List.md)** object representing the reports in the active project.
+In Project, the **ReportList** property returns **Nothing**. In Project, the **ReportList** property gets a **[List](Project.List.md)** object representing the reports in the active project.
 
 
 ## Example

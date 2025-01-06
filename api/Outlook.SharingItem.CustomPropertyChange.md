@@ -1,15 +1,14 @@
 ---
-title: SharingItem.CustomPropertyChange Event (Outlook)
-ms.prod: outlook
+title: SharingItem.CustomPropertyChange event (Outlook)
 api_name:
 - Outlook.SharingItem.CustomPropertyChange
 ms.assetid: faf015c1-aa18-67f4-e1af-b456b7c89523
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.CustomPropertyChange Event (Outlook)
+# SharingItem.CustomPropertyChange event (Outlook)
 
 Occurs when a custom property of an item (which is an instance of the parent object) is changed. 
 
@@ -18,7 +17,7 @@ Occurs when a custom property of an item (which is an instance of the parent obj
 
 _expression_. `CustomPropertyChange`( `_Name_` )
 
- _expression_ An expression that returns a [SharingItem](./Outlook.SharingItem.md) object.
+ _expression_ An expression that returns a [SharingItem](Outlook.SharingItem.md) object.
 
 
 ## Parameters

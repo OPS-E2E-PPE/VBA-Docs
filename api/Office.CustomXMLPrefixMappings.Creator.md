@@ -1,11 +1,10 @@
 ---
 title: CustomXMLPrefixMappings.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.CustomXMLPrefixMappings.Creator
 ms.assetid: 8066cf54-0415-c3d8-70de-0a9e4c73ddd0
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

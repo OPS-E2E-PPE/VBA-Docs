@@ -3,10 +3,9 @@ title: PV function (Visual Basic for Applications)
 keywords: vblr6.chm1009287
 f1_keywords:
 - vblr6.chm1009287
-ms.prod: office
 ms.assetid: b09d617d-675f-68b9-5b57-7134bed9040d
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Double](../../Glossary/vbe-glossary.md#double-data-type) specifying t
 ## Syntax
 
 **PV**(_rate_, _nper_, _pmt_, [ _fv_, [ _type_ ]])
-
-<br/>
 
 The **PV** function has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

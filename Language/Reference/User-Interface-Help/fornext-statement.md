@@ -3,16 +3,15 @@ title: For...Next statement (VBA)
 keywords: vblr6.chm1008924
 f1_keywords:
 - vblr6.chm1008924
-ms.prod: office
 ms.assetid: 53e92bd3-1933-5bc7-f7a4-4e6a3d9bef4a
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # For...Next statement
 
-Repeats a group of [statements](../../Glossary/vbe-glossary.md#statement) a specified number of times.
+Repeats a group of [statements](../../Glossary/vbe-glossary.md#statement) while the loop counter approaches its final value.
 
 ## Syntax
 
@@ -21,8 +20,6 @@ Repeats a group of [statements](../../Glossary/vbe-glossary.md#statement) a spec
 [ **Exit For** ] <br/>
 [ _statements_ ] <br/>
 **Next** [ _counter_ ]
-
-<br/>
 
 The **For…Next** statement syntax has these parts:
 

@@ -1,15 +1,15 @@
 ---
-title: PjConstraint Enumeration (Project)
-ms.prod: project-server
+title: PjConstraint enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjConstraint
 ms.assetid: 1ba4f126-18b8-0c74-a26d-d896ca5f87dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjConstraint Enumeration (Project)
+# PjConstraint enumeration (Project)
 
 Contains constants that specify the type of constraint.
 

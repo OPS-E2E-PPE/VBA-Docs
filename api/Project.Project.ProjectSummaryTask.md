@@ -1,37 +1,38 @@
 ---
-title: Project.ProjectSummaryTask Property (Project)
-ms.prod: project-server
+title: Project.ProjectSummaryTask property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.ProjectSummaryTask
 ms.assetid: 88603abc-e988-9ab3-dc83-c44221da13b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ProjectSummaryTask Property (Project)
+# Project.ProjectSummaryTask property (Project)
 
-Gets a  **[Task](Project.Task.md)** object representing the project summary task for the active project. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object representing the project summary task for the active project. Read-only **Task**.
 
 
 ## Syntax
 
- _expression_. `ProjectSummaryTask`
+_expression_. `ProjectSummaryTask`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Local custom fields can be accessed directly from  **ProjectSummaryTask** as task custom fields.
+Local custom fields can be accessed directly from **ProjectSummaryTask** as task custom fields.
 
 
- **Note**  Enterprise project fields are available when a project is opened from Project Server. To access enterprise custom fields, it is necessary to use the  **SetField** and **GetField** methods along with the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
+> [!NOTE] 
+> Enterprise project fields are available when a project is opened from Project Server. To access enterprise custom fields, it is necessary to use the **SetField** and **GetField** methods along with the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
 
 
 ## Example
 
-The following example sets the local  **Cost1** task custom field and displays it in a message box.
+The following example sets the local **Cost1** task custom field and displays it in a message box.
 
 
 ```vb

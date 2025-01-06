@@ -1,15 +1,14 @@
 ---
-title: MeetingItem.AttachmentRead Event (Outlook)
-ms.prod: outlook
+title: MeetingItem.AttachmentRead event (Outlook)
 api_name:
 - Outlook.MeetingItem.AttachmentRead
 ms.assetid: 50ec1cf8-98cc-390b-0080-74d6e145524d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.AttachmentRead Event (Outlook)
+# MeetingItem.AttachmentRead event (Outlook)
 
 Occurs when an attachment in an instance of the parent object has been opened for reading.
 
@@ -18,7 +17,7 @@ Occurs when an attachment in an instance of the parent object has been opened fo
 
 _expression_. `AttachmentRead`( `_Attachment_` )
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was opened.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was opened.|
 
 ## See also
 

@@ -1,27 +1,26 @@
 ---
-title: DistListItem.GetMember Method (Outlook)
+title: DistListItem.GetMember method (Outlook)
 keywords: vbaol11.chm1156
 f1_keywords:
 - vbaol11.chm1156
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.GetMember
 ms.assetid: 97196e1f-02a5-c1ac-be93-841702abaf52
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.GetMember Method (Outlook)
+# DistListItem.GetMember method (Outlook)
 
-Returns a  **[Recipient](Outlook.Recipient.md)** object representing a member in a distribution list.
+Returns a **[Recipient](Outlook.Recipient.md)** object representing a member in a distribution list.
 
 
 ## Syntax
 
-_expression_. `GetMember`( `_Index_` )
+_expression_. `GetMember` (_Index_)
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.
 
 ## Return value
 
-A  **Recipient** object representing the specified member.
+A **Recipient** object representing the specified member.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example locates every distribution list in the default  **Contacts** folder and determines whether the list contains the current user.
+This Microsoft Visual Basic for Applications (VBA) example locates every distribution list in the default **Contacts** folder and determines whether the list contains the current user.
 
 
 ```vb

@@ -3,25 +3,24 @@ title: PageSetup.LineNumbering property (Word)
 keywords: vbawd10.chm158400630
 f1_keywords:
 - vbawd10.chm158400630
-ms.prod: word
 api_name:
 - Word.PageSetup.LineNumbering
 ms.assetid: acdf1ef4-baaa-aa22-b7a1-81e89d1cebfa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup.LineNumbering property (Word)
 
-Returns or sets a  **[LineNumbering](Word.LineNumbering.md)** object that represents the line numbers for the specified **PageSetup** object.
+Returns or sets a **[LineNumbering](Word.LineNumbering.md)** object that represents the line numbers for the specified **PageSetup** object.
 
 
 ## Syntax
 
- _expression_. `LineNumbering`
+_expression_. `LineNumbering`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks

@@ -3,14 +3,13 @@ title: <Table-level validation text>. (Error 3316)
 keywords: jeterr40.chm5003316
 f1_keywords:
 - jeterr40.chm5003316
-ms.prod: access
 ms.assetid: f21d45a9-b30a-0917-5bd5-3e9c645927e2
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# <Table-level validation text>. (Error 3316)
+# \<Table-level validation text\>. (Error 3316)
 
   
 
@@ -23,8 +22,8 @@ A table-level validation rule was violated. Validation rules restrict what you c
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

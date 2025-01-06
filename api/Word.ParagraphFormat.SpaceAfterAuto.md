@@ -3,12 +3,11 @@ title: ParagraphFormat.SpaceAfterAuto property (Word)
 keywords: vbawd10.chm156434565
 f1_keywords:
 - vbawd10.chm156434565
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.SpaceAfterAuto
 ms.assetid: c54c024a-5c04-fca5-95cb-bcbadb4baf41
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SpaceAfterAuto`
+_expression_. `SpaceAfterAuto`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Remarks
 
-Returns  **wdUndefined** if the **SpaceAfterAuto** property is set to **True** for only some of the specified paragraphs. Can be set to either **True** or **False**.
+Returns **wdUndefined** if the **SpaceAfterAuto** property is set to **True** for only some of the specified paragraphs. Can be set to either **True** or **False**.
 
-If  **SpaceAfterAuto** is set to **True** , the **SpaceAfter** property is ignored.
+If **SpaceAfterAuto** is set to **True**, the **SpaceAfter** property is ignored.
 
 
 ## Example
 
-This example displays a report showing the  **SpaceAfterAuto** settings for the active document.
+This example displays a report showing the **SpaceAfterAuto** settings for the active document.
 
 
 ```vb

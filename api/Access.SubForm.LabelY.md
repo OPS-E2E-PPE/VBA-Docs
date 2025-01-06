@@ -3,12 +3,11 @@ title: SubForm.LabelY property (Access)
 keywords: vbaac10.chm11951
 f1_keywords:
 - vbaac10.chm11951
-ms.prod: access
 api_name:
 - Access.SubForm.LabelY
 ms.assetid: 4dc620c1-eadb-b664-62e4-ff9093527cc9
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

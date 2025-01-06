@@ -3,30 +3,29 @@ title: ContentControlListEntry.Text property (Word)
 keywords: vbawd10.chm147456000
 f1_keywords:
 - vbawd10.chm147456000
-ms.prod: word
 api_name:
 - Word.ContentControlListEntry.Text
 ms.assetid: bfe2487b-7ba6-3047-842b-0c2466919efb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControlListEntry.Text property (Word)
 
-Returns or sets a  **String** that represents the display text of a list item for a drop-down list or combo box content control. Read/write.
+Returns or sets a **String** that represents the display text of a list item for a drop-down list or combo box content control. Read/write.
 
 
 ## Syntax
 
- _expression_. `Text`
+_expression_.**Text**
 
  _expression_ An expression that returns a [ContentControlListEntry](./Word.ContentControlListEntry.md) object.
 
 
 ## Remarks
 
-List entries must have unique display names. Attempting to change the  **Text** property to a string that already exists in the list of entries raises a run-time error.
+List entries must have unique display names. Attempting to change the **Text** property to a string that already exists in the list of entries raises a run-time error.
 
 
 ## Example

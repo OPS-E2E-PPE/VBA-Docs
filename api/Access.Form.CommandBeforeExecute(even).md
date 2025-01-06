@@ -3,12 +3,11 @@ title: Form.CommandBeforeExecute event (Access)
 keywords: vbaac10.chm13673
 f1_keywords:
 - vbaac10.chm13673
-ms.prod: access
 api_name:
 - Access.Form.CommandBeforeExecute
 ms.assetid: 4fb1c072-3781-8a52-bc9a-2e26d2738789
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Occurs before a specified command is executed. Use this event when you want to i
 
 ## Syntax
 
-_expression_. `CommandBeforeExecute`( `_Command_`, `_Cancel_` )
+_expression_.**CommandBeforeExecute** (_Command_, _Cancel_)
 
 _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,18 +32,17 @@ _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 ## Return value
 
-nothing
+Nothing
 
 
 ## Remarks
 
-The  **OCCommandId**, **ChartCommandIdEnum**, and **PivotCommandId** constants contain lists of the supported commands for each of the Microsoft Office Web Components.
+The **OCCommandId**, **ChartCommandIdEnum**, and **PivotCommandId** constants contain lists of the supported commands for each of the Microsoft Office web components.
 
 
 ## Example
 
-The following example demonstrates the syntax for a subroutine that traps the  **CommandBeforeExecute** event.
-
+The following example demonstrates the syntax for a subroutine that traps the **CommandBeforeExecute** event.
 
 ```vb
 Private Sub Form_CommandBeforeExecute( _ 
@@ -67,9 +63,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Form Object](Access.Form.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,24 +1,24 @@
 ---
-title: Calendars.Application Property (Project)
-ms.prod: project-server
+title: Calendars.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.Calendars.Application
 ms.assetid: 8101846d-3996-8c44-12ad-ad63fc4ce094
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Calendars.Application Property (Project)
+# Calendars.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'Calendars' object.
+_expression_ A variable that represents a 'Calendars' object.
 
 
 ## See also

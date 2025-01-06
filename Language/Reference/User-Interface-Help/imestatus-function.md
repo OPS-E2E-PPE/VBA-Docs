@@ -3,10 +3,9 @@ title: IMEStatus function (Visual Basic for Applications)
 keywords: vblr6.chm1011064
 f1_keywords:
 - vblr6.chm1011064
-ms.prod: office
 ms.assetid: 8fb525b1-0243-79c8-32fc-4eb8d634e351
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,8 +33,6 @@ The return values for the Japanese [locale](../../Glossary/vbe-glossary.md#local
 |**vbIMEModeAlphaFull**|7|Full-width Alphanumeric mode|
 |**vbIMEModeAlpha**|8|Half-width Alphanumeric mode|
 
-<br/>
-
 The return values for the Korean locale are as follows.
 
 |Constant|Value|Description|
@@ -45,8 +42,6 @@ The return values for the Korean locale are as follows.
 |**vbIMEModeAlpha**|8|Half-width Alphanumeric mode|
 |**vbIMEModeHangulFull**|9|Full-width Hangul mode|
 |**vbIMEModeHangul**|10|Half-width Hangul mode|
-
-<br/>
 
 The return values for the Chinese locale are as follows.
 

@@ -3,25 +3,24 @@ title: Version.Comment property (Word)
 keywords: vbawd10.chm162792428
 f1_keywords:
 - vbawd10.chm162792428
-ms.prod: word
 api_name:
 - Word.Version.Comment
 ms.assetid: 52ca9077-0295-3059-b699-6fa97ad45991
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Version.Comment property (Word)
 
-Returns the comment associated with the specified version of a document. Read-only  **String**.
+Returns the comment associated with the specified version of a document. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Comment`
+_expression_.**Comment**
 
- _expression_ A variable that represents a '[Version](Word.Version.md)' object.
+_expression_ A variable that represents a '[Version](Word.Version.md)' object.
 
 
 ## Example

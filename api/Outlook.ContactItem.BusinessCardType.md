@@ -1,27 +1,26 @@
 ---
-title: ContactItem.BusinessCardType Property (Outlook)
+title: ContactItem.BusinessCardType property (Outlook)
 keywords: vbaol11.chm3230
 f1_keywords:
 - vbaol11.chm3230
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.BusinessCardType
 ms.assetid: 57de9454-83e0-976f-cb69-d472bfd9fb3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.BusinessCardType Property (Outlook)
+# ContactItem.BusinessCardType property (Outlook)
 
-Returns an  **[OlBusinessCardType](Outlook.OlBusinessCardType.md)** constant that specifies the type of Electronic Business Card used by this contact. Read-only.
+Returns an **[OlBusinessCardType](Outlook.OlBusinessCardType.md)** constant that specifies the type of Electronic Business Card used by this contact. Read-only.
 
 
 ## Syntax
 
 _expression_. `BusinessCardType`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Remarks

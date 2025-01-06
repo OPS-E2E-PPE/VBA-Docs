@@ -3,18 +3,17 @@ title: WebBrowserControl.BorderWidth property (Access)
 keywords: vbaac10.chm14377
 f1_keywords:
 - vbaac10.chm14377
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.BorderWidth
 ms.assetid: f2db066e-bd06-0d88-ecd1-5a7ac8a040d6
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

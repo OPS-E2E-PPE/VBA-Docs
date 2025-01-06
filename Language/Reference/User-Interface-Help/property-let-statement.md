@@ -3,10 +3,9 @@ title: Property Let statement (VBA)
 keywords: vblr6.chm1009540
 f1_keywords:
 - vblr6.chm1009540
-ms.prod: office
 ms.assetid: ecc8c277-ca44-add3-81c9-262219b1f7d6
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,13 +15,11 @@ Declares the name, [arguments](../../Glossary/vbe-glossary.md#argument), and cod
 
 ## Syntax
 
-[ **Public** | **Private** | **Friend** ] [ **Static** ] **Property Let**_name_ ( [ _arglist_ ], _value_ ) <br/>
+[ **Public** | **Private** | **Friend** ] [ **Static** ] **Property Let** _name_ ( [ _arglist_ ], _value_ ) <br/>
 [ _statements_ ] <br/>
 [ **Exit Property** ] <br/>
 [ _statements_ ] <br/>
 **End Property**
-
-<br/>
 
 The **Property Let** statement syntax has these parts:
 
@@ -37,26 +34,22 @@ The **Property Let** statement syntax has these parts:
 | _value_|Required. Variable to contain the value to be assigned to the property. When the procedure is called, this argument appears on the right side of the calling [expression](../../Glossary/vbe-glossary.md#expression). The data type of _value_ must be the same as the return type of the corresponding **Property Get** procedure.|
 | _statements_|Optional. Any group of [statements](../../Glossary/vbe-glossary.md#statement) to be executed within the **Property Let** procedure.|
 
-<br/>
-
 The _arglist_ argument has the following syntax and parts:
 
 [ **Optional** ] [ **ByVal** | **ByRef** ] [ **ParamArray** ] _varname_ [ ( ) ] [ **As** _type_ ] [ **=** _defaultvalue_ ]
-
-<br/>
 
 |Part|Description|
 |:-----|:-----|
 |**Optional**|Optional. Indicates that an argument is not required. If used, all subsequent arguments in _arglist_ must also be optional and declared by using the **Optional** keyword. Note that it is not possible for the right side of a **Property Let** expression to be **Optional**.|
 |**ByVal**|Optional. Indicates that the argument is passed [by value](../../Glossary/vbe-glossary.md#by-value).|
-|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in Visual Basic.|
-|**ParamArray**|Optional. Used only as the last argument in _arglist_ to indicate that the final argument is an **Optional** array of **Variant** elements. The **ParamArray** keyword allows you to provide an arbitrary number of arguments. It may not be used with **ByVal**, **ByRef**, or **Optional**.|
+|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in VBA unlike in Visual Basic .NET.|
+|**ParamArray**|Optional. Indicates that argument is an **Optional** array of **Variant** elements. The **ParamArray** keyword allows you to provide an arbitrary number of arguments. It may not be used with **ByVal**, **ByRef**, or **Optional**. This keyword can't be the last element nor the only element of the arglist. |
 | _varname_|Required. Name of the variable representing the argument; follows standard variable naming conventions.|
 | _type_|Optional. Data type of the argument passed to the procedure; may be [Byte](../../Glossary/vbe-glossary.md#byte-data-type), [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type), [Integer](../../Glossary/vbe-glossary.md#integer-data-type), [Long](../../Glossary/vbe-glossary.md#long-data-type), [Currency](../../Glossary/vbe-glossary.md#currency-data-type), [Single](../../Glossary/vbe-glossary.md#single-data-type), [Double](../../Glossary/vbe-glossary.md#double-data-type), [Decimal](../../Glossary/vbe-glossary.md#decimal-data-type) (not currently supported), [Date](../../Glossary/vbe-glossary.md#date-data-type), [String](../../Glossary/vbe-glossary.md#string-data-type) (variable length only), [Object](../../Glossary/vbe-glossary.md#object), [Variant](../../Glossary/vbe-glossary.md#variant-data-type), or a specific [object type](../../Glossary/vbe-glossary.md#object-type). If the parameter is not **Optional**, a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) may also be specified.|
 | _defaultvalue_|Optional. Any [constant](../../Glossary/vbe-glossary.md#constant) or constant expression. Valid for **Optional** parameters only. If the type is an **Object**, an explicit default value can only be **[Nothing](nothing-keyword.md)**.|
 
 > [!NOTE] 
-> Every **Property Let** statement must define at least one argument for the procedure it defines. That argument (or the last argument if there is more than one) contains the actual value to be assigned to the property when the procedure defined by the **Property Let** statement is invoked. That argument is referred to as _value_ in the preceding syntax.
+> Every **Property Let** statement must define at least one **valid** argument for the procedure it defines. The '**valid**' means it should not be modified with 'Optional' nor 'ParamArray'. That argument (or the last argument if there is more than one) contains the actual value to be assigned to the property when the procedure defined by the **Property Let** statement is invoked. That argument is referred to as _value_ in the preceding syntax.
 
 ## Remarks
 

@@ -3,18 +3,17 @@ title: ComboBox.OldValue property (Access)
 keywords: vbaac10.chm11361
 f1_keywords:
 - vbaac10.chm11361
-ms.prod: access
 api_name:
 - Access.ComboBox.OldValue
 ms.assetid: ed5ddacb-c447-02b1-3de1-3762a7540bff
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

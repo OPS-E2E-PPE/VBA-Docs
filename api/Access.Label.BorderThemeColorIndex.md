@@ -3,12 +3,11 @@ title: Label.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.Label.BorderThemeColorIndex
 ms.assetid: e75ddea1-98bc-c4f0-d4b3-9eea4f8e85e7
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

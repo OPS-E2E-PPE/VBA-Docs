@@ -1,20 +1,19 @@
 ---
 title: Columns object (Word)
-ms.prod: word
 ms.assetid: 7c2d1353-cbc4-a162-83a1-6cac1300266f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Columns object (Word)
 
-A collection of  **[Column](Word.Column.md)** objects that represent the columns in a table.
+A collection of **[Column](Word.Column.md)** objects that represent the columns in a table.
 
 
 ## Remarks
 
-Use the  **Columns** property of a **[Range](Word.Range.md)**, **[Selection](Word.Selection.md)**, or **[Table](Word.Table.md)** object to return a **Columns** collection. The following example displays the number of **Column** objects in the **Columns** collection for the first table in the active document.
+Use the **Columns** property of a **[Range](Word.Range.md)**, **[Selection](Word.Selection.md)**, or **[Table](Word.Table.md)** object to return a **Columns** collection. The following example displays the number of **Column** objects in the **Columns** collection for the first table in the active document.
 
 
 ```vb
@@ -35,7 +34,7 @@ For Each col In myTable.Columns
 Next col
 ```
 
-Use the  **[Add](Word.Columns.Add.md)** method to add a column to a table. The following example adds a column to the first table in the active document, and then it makes the column widths equal.
+Use the **[Add](Word.Columns.Add.md)** method to add a column to a table. The following example adds a column to the first table in the active document, and then it makes the column widths equal.
 
 
 
@@ -48,7 +47,7 @@ If ActiveDocument.Tables.Count >= 1 Then
 End If
 ```
 
-Use  **Columns** (Index), where Index is the index number, to return a single **Column** object. The index number represents the position of the column in the **Columns** collection (counting from left to right). The following example selects the first column in the first table.
+Use **Columns** (Index), where Index is the index number, to return a single **Column** object. The index number represents the position of the column in the **Columns** collection (counting from left to right). The following example selects the first column in the first table.
 
 
 
@@ -94,6 +93,6 @@ ActiveDocument.Tables(1).Columns(1).Select
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

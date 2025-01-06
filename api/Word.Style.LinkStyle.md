@@ -3,23 +3,22 @@ title: Style.LinkStyle property (Word)
 keywords: vbawd10.chm153878632
 f1_keywords:
 - vbawd10.chm153878632
-ms.prod: word
 api_name:
 - Word.Style.LinkStyle
 ms.assetid: 3a5c4f41-be1e-9da4-5f94-6d2db00616f5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Style.LinkStyle property (Word)
 
-Sets or returns a  **Variant** that represents a link between a paragraph and a character style. Read/write.
+Sets or returns a **Variant** that represents a link between a paragraph and a character style. Read/write.
 
 
 ## Syntax
 
- _expression_. `LinkStyle`
+_expression_. `LinkStyle`
 
  _expression_ An expression that returns a '[Style](Word.Style.md)' object.
 

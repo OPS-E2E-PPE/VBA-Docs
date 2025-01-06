@@ -3,18 +3,17 @@ title: OptionGroup.DisplayWhen property (Access)
 keywords: vbaac10.chm10828
 f1_keywords:
 - vbaac10.chm10828
-ms.prod: access
 api_name:
 - Access.OptionGroup.DisplayWhen
 ms.assetid: a69b8fd5-d388-7277-d0de-5cf0ab620a33
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

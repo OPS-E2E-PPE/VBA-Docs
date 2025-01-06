@@ -1,19 +1,16 @@
 ---
 title: MsoSoftEdgeType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoSoftEdgeType
 ms.assetid: 4c5b91d0-b7be-021c-3fa8-ef510a225b7e
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoSoftEdgeType enumeration (Office)
 
 Represents the soft edge effect in Office graphics.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

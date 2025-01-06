@@ -1,15 +1,15 @@
 ---
-title: PjVisualReportsCubeType Enumeration (Project)
-ms.prod: project-server
+title: PjVisualReportsCubeType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjVisualReportsCubeType
 ms.assetid: dd05c192-8213-e6fc-0060-c32c761ec5d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjVisualReportsCubeType Enumeration (Project)
+# PjVisualReportsCubeType enumeration (Project)
 
 Contains constants that specify the type of report cube on which to operate.
 

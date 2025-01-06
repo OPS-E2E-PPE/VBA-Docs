@@ -3,12 +3,11 @@ title: DocumentProperties.Count property (Office)
 keywords: vbaof11.chm250013
 f1_keywords:
 - vbaof11.chm250013
-ms.prod: office
 api_name:
 - Office.DocumentProperties.Count
 ms.assetid: 8f4367bd-d30a-ba45-3ec2-3c5b94ede4d8
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,9 +40,9 @@ This example displays the number of custom document properties in the active doc
 
 
 ```vb
-MsgBox ("There are " &amp; _ 
- ActiveDocument.CustomDocumentProperties.Count &amp; _ 
- " custom document properties in the " &amp; _ 
+MsgBox ("There are " & _ 
+ ActiveDocument.CustomDocumentProperties.Count & _ 
+ " custom document properties in the " & _ 
  "active document.")
 ```
 

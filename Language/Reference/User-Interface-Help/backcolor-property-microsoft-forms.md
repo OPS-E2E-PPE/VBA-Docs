@@ -3,10 +3,9 @@ title: BackColor property (Microsoft Forms)
 keywords: fm20.chm2000770
 f1_keywords:
 - fm20.chm2000770
-ms.prod: office
 ms.assetid: 70549eaf-d785-67e7-3f04-76151864d850
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,7 +26,7 @@ The **BackColor** property syntax has these parts:
 
 ## Settings
 
-You can use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as red, green, and blue color components 15, 200, 75.
+Use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as red, green, and blue color components 15, 200, 75.
 
 ## Remarks
 

@@ -1,24 +1,23 @@
 ---
-title: DocumentWindows.Item Method (PowerPoint)
-ms.prod: powerpoint
+title: DocumentWindows.Item method (PowerPoint)
 api_name:
 - PowerPoint.DocumentWindows.Item
 ms.assetid: 71e8ae25-8ef8-3495-c864-f8c0ea774f5e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentWindows.Item Method (PowerPoint)
+# DocumentWindows.Item method (PowerPoint)
 
-Returns a single  **DocumentWindow** object from the specified **DocumentWindows** collection.
+Returns a single **DocumentWindow** object from the specified **DocumentWindows** collection.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [DocumentWindows](./PowerPoint.DocumentWindows.md) object.
+_expression_ A variable that represents a [DocumentWindows](PowerPoint.DocumentWindows.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [DocumentWindows](./PowerPoint.Documen
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required|**Long**|The index number of the single  **DocumentWindow** object in the collection to be returned.|
+| _Index_|Required|**Long**|The index number of the single **DocumentWindow** object in the collection to be returned.|
 
 ## Return value
 

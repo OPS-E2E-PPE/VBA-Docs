@@ -1,27 +1,26 @@
 ---
-title: AddressRuleCondition.Class Property (Outlook)
+title: AddressRuleCondition.Class property (Outlook)
 keywords: vbaol11.chm2950
 f1_keywords:
 - vbaol11.chm2950
-ms.prod: outlook
 api_name:
 - Outlook.AddressRuleCondition.Class
 ms.assetid: 566eb9a5-2b7a-1833-f803-60a750fda257
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddressRuleCondition.Class Property (Outlook)
+# AddressRuleCondition.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
 
 
 ## Syntax
 
 _expression_.**Class**
 
-_expression_ A variable that represents an [AddressRuleCondition](./Outlook.AddressRuleCondition.md) object.
+_expression_ A variable that represents an [AddressRuleCondition](Outlook.AddressRuleCondition.md) object.
 
 
 ## See also

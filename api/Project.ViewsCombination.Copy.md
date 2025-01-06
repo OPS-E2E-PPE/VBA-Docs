@@ -1,24 +1,24 @@
 ---
-title: ViewsCombination.Copy Method (Project)
-ms.prod: project-server
+title: ViewsCombination.Copy method (Project)
+ms.service: project-server
 api_name:
 - Project.ViewsCombination.Copy
 ms.assetid: 2e28885e-6b65-8123-193a-1ac0ee883f75
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewsCombination.Copy Method (Project)
+# ViewsCombination.Copy method (Project)
 
-Makes a copy of a group definition for the  **ViewsCombination** collection and returns a reference to the **[View](Project.View.md)** object.
+Makes a copy of a group definition for the **ViewsCombination** collection and returns a reference to the **[View](Project.View.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Source_`, `_NewName_` )
+_expression_.**Copy** (_Source_, _NewName_)
 
- _expression_ A variable that represents a 'ViewsCombination' object.
+_expression_ A variable that represents a 'ViewsCombination' object.
 
 
 ## Parameters

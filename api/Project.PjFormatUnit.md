@@ -1,15 +1,15 @@
 ---
-title: PjFormatUnit Enumeration (Project)
-ms.prod: project-server
+title: PjFormatUnit enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjFormatUnit
 ms.assetid: 51cbe9ff-f4af-c02b-365a-e1db0ee1fb57
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjFormatUnit Enumeration (Project)
+# PjFormatUnit enumeration (Project)
 
 Contains constants that specify the format of the units.
 

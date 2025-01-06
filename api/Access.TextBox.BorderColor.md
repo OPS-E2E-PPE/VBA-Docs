@@ -3,18 +3,17 @@ title: TextBox.BorderColor property (Access)
 keywords: vbaac10.chm11080
 f1_keywords:
 - vbaac10.chm11080
-ms.prod: access
 api_name:
 - Access.TextBox.BorderColor
 ms.assetid: 7522b663-4ce6-34a6-51db-7de503e01f04
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

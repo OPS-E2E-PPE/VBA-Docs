@@ -1,20 +1,19 @@
 ---
-title: PbListSeparator Enumeration (Publisher)
+title: PbListSeparator enumeration (Publisher)
 keywords: vbapb10.chm65616
 f1_keywords:
 - vbapb10.chm65616
-ms.prod: publisher
 api_name:
 - Publisher.PbListSeparator
 ms.assetid: 9a9531aa-b5de-9f2c-f4c2-ebcf3b1023b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbListSeparator Enumeration (Publisher)
+# PbListSeparator enumeration (Publisher)
 
-Constants that represent the list separator of the specified paragraphs, passed to and returned by the  **ParagraphFormat.ListNumberSeparator** property.
+Constants that represent the list separator of the specified paragraphs, passed to and returned by the **ParagraphFormat.ListNumberSeparator** property.
 
 
 

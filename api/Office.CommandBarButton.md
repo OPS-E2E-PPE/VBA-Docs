@@ -3,12 +3,11 @@ title: CommandBarButton object (Office)
 keywords: vbaof11.chm244000
 f1_keywords:
 - vbaof11.chm244000
-ms.prod: office
 api_name:
 - Office.CommandBarButton
 ms.assetid: e6d8209d-2c87-f1b5-bc3f-d4e5e5d3ab73
 ms.date: 01/03/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

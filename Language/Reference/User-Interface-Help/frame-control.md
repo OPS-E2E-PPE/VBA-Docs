@@ -3,10 +3,9 @@ title: Frame control
 keywords: fm20.chm2000535
 f1_keywords:
 - fm20.chm2000535
-ms.prod: office
 ms.assetid: f7f51c75-f972-329b-4971-be22165129e0
 ms.date: 11/15/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

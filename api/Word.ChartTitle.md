@@ -3,12 +3,11 @@ title: ChartTitle object (Word)
 keywords: vbawd10.chm996
 f1_keywords:
 - vbawd10.chm996
-ms.prod: word
 api_name:
 - Word.ChartTitle
 ms.assetid: fc8ca540-0a29-123b-2fdf-b16aaa1f940c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Represents the chart title.
 
 ## Remarks
 
-Use the  **[ChartTitle](Word.Chart.ChartTitle.md)** property to return the **ChartTitle** object.
+Use the **[ChartTitle](Word.Chart.ChartTitle.md)** property to return the **ChartTitle** object.
 
-The  **ChartTitle** object does not exist and cannot be used unless the **[HasTitle](Word.Chart.HasTitle.md)** property for the chart is **True**.
+The **ChartTitle** object does not exist and cannot be used unless the **[HasTitle](Word.Chart.HasTitle.md)** property for the chart is **True**.
 
 
 ## Example
 
- The following example adds a title to embedded chart one on the worksheet named "Sheet1."
+ The following example adds a title to embedded chart one on the worksheet named **Sheet1**.
 
 
 ```vb
@@ -41,6 +40,6 @@ End With
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

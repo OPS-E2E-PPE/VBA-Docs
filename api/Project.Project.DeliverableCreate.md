@@ -1,24 +1,24 @@
 ---
-title: Project.DeliverableCreate Method (Project)
-ms.prod: project-server
+title: Project.DeliverableCreate method (Project)
+ms.service: project-server
 api_name:
 - Project.Project.DeliverableCreate
 ms.assetid: 538f8143-0c0d-b9fa-9219-5405f4bd5046
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.DeliverableCreate Method (Project)
+# Project.DeliverableCreate method (Project)
 
 Creates a deliverable for a published project that has a project workspace.
 
 
 ## Syntax
 
- _expression_. `DeliverableCreate`( `_DeliverableName_`, `_DeliverableStartDate_`, `_DeliverableFinishDate_`, `_TaskGuid_` )
+_expression_. `DeliverableCreate`( `_DeliverableName_`, `_DeliverableStartDate_`, `_DeliverableFinishDate_`, `_TaskGuid_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters

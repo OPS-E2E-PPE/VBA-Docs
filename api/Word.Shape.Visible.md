@@ -3,12 +3,11 @@ title: Shape.Visible property (Word)
 keywords: vbawd10.chm161480831
 f1_keywords:
 - vbawd10.chm161480831
-ms.prod: word
 api_name:
 - Word.Shape.Visible
 ms.assetid: b3024bf2-3015-d3ce-97dc-2dd5858bf798
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-FSome methods and properties may be unavailable if the  **Visible** property is **False**.
+FSome methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## Example

@@ -3,18 +3,17 @@ title: TextBox.FontSize property (Access)
 keywords: vbaac10.chm11085
 f1_keywords:
 - vbaac10.chm11085
-ms.prod: access
 api_name:
 - Access.TextBox.FontSize
 ms.assetid: 73bf8d74-c616-8824-c2e0-8eed072df582
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.FontSize property (Access)
 
-You can use the **FontSize** property to specify the point size for text in the following situations:
+Use the **FontSize** property to specify the point size for text in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

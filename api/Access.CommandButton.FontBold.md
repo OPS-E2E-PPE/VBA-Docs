@@ -3,18 +3,17 @@ title: CommandButton.FontBold property (Access)
 keywords: vbaac10.chm10478
 f1_keywords:
 - vbaac10.chm10478
-ms.prod: access
 api_name:
 - Access.CommandButton.FontBold
 ms.assetid: 6a736a00-6305-74cd-47b9-aa29b8a76d62
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.FontBold property (Access)
 
-You can use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
+Use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

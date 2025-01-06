@@ -3,10 +3,9 @@ title: Right function (Visual Basic for Applications)
 keywords: vblr6.chm1011365
 f1_keywords:
 - vblr6.chm1011365
-ms.prod: office
 ms.assetid: efa00f0a-8d7d-df81-f889-16de010c2f53
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**String**) containing a specified number of characters f
 ## Syntax
 
 **Right**(_string_, _length_)
-
-<br/>
 
 The **Right** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument).
 

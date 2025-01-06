@@ -1,15 +1,12 @@
 ---
 title: Financial keyword summary
-ms.prod: office
 ms.assetid: 8d08afe7-5664-03da-da6f-d0a218dc45c1
 ms.date: 11/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Financial keyword summary
-
-<br/>
 
 |Action|Keywords|
 |:-----|:-----|

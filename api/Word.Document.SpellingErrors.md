@@ -3,30 +3,29 @@ title: Document.SpellingErrors property (Word)
 keywords: vbawd10.chm158007394
 f1_keywords:
 - vbawd10.chm158007394
-ms.prod: word
 api_name:
 - Word.Document.SpellingErrors
 ms.assetid: c8a987a1-3705-ea0a-103a-99b2f17f5c6b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.SpellingErrors property (Word)
 
-Returns a  **[ProofreadingErrors](Word.proofreadingerrors.md)** collection that represents the words identified as spelling errors in the specified document or range. Read-only.
+Returns a **[ProofreadingErrors](Word.proofreadingerrors.md)** collection that represents the words identified as spelling errors in the specified document or range. Read-only.
 
 
 ## Syntax
 
- _expression_. `SpellingErrors`
+_expression_. `SpellingErrors`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

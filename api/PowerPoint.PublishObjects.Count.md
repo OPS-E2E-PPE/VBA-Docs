@@ -1,24 +1,23 @@
 ---
-title: PublishObjects.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: PublishObjects.Count property (PowerPoint)
 api_name:
 - PowerPoint.PublishObjects.Count
 ms.assetid: ab216724-767b-4107-707d-29da3661a771
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PublishObjects.Count Property (PowerPoint)
+# PublishObjects.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [PublishObjects](./PowerPoint.PublishObjects.md) object.
+_expression_ A variable that represents a [PublishObjects](PowerPoint.PublishObjects.md) object.
 
 
 ## Return value

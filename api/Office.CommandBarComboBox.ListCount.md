@@ -3,12 +3,11 @@ title: CommandBarComboBox.ListCount property (Office)
 keywords: vbaof11.chm8006
 f1_keywords:
 - vbaof11.chm8006
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.ListCount
 ms.assetid: 3ab55501-b82e-0380-d805-e4386c399131
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -49,7 +48,7 @@ With CommandBars("Custom").Controls(1)
 End With 
 If CommandBars("Custom").Controls(1).ListCount _ 
      > 4 Then 
-MsgBox ("ComboBox appears to be damaged." &amp; _ 
+MsgBox ("ComboBox appears to be damaged." & _ 
      " Please reinstall.") 
 End If
 ```

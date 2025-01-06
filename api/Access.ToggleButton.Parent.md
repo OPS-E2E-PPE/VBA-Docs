@@ -3,12 +3,11 @@ title: ToggleButton.Parent property (Access)
 keywords: vbaac10.chm11688
 f1_keywords:
 - vbaac10.chm11688
-ms.prod: access
 api_name:
 - Access.ToggleButton.Parent
 ms.assetid: 754bba9f-e1e0-2b46-601b-986637531fe0
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

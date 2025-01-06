@@ -1,34 +1,33 @@
 ---
-title: SimpleItems Object (Outlook)
+title: SimpleItems object (Outlook)
 keywords: vbaol11.chm3400
 f1_keywords:
 - vbaol11.chm3400
-ms.prod: outlook
 api_name:
 - Outlook.SimpleItems
 ms.assetid: b929ae28-fe5f-607e-37b5-ed6a304d4896
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SimpleItems Object (Outlook)
+# SimpleItems object (Outlook)
 
 Represents a set of possibly heterogeneous Microsoft Outlook items, with each member in the set tracking only a small, common set of properties that apply to Outlook items in general.
 
 
 ## Remarks
 
-The  **SimpleItems** collection is used to represent child objects of a **[Conversation](Outlook.Conversation.md)** node object. This collection has only few members and serves the purpose of providing easy access to these items, as opposed to the **[Items](Outlook.Items.md)** and **[Results](Outlook.Results.md)** collections, which have more members.
+The **SimpleItems** collection is used to represent child objects of a **[Conversation](Outlook.Conversation.md)** node object. This collection has only few members and serves the purpose of providing easy access to these items, as opposed to the **[Items](Outlook.Items.md)** and **[Results](Outlook.Results.md)** collections, which have more members.
 
-The order of items in the collection is the same as the ordering of items in the conversation. The collection is ordered by the value of the  **CreationTime** property of each item in ascending order.
+The order of items in the collection is the same as the ordering of items in the conversation. The collection is ordered by the value of the **CreationTime** property of each item in ascending order.
 
 
 ## Example
 
-The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the  `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the  **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
+The following managed code is written in C#. To run a .NET Framework managed code sample that needs to call into a Component Object Model (COM), you must use an interop assembly that defines and maps managed interfaces to the COM objects in the object model type library. For Outlook, you can use Visual Studio and the Outlook Primary Interop Assembly (PIA). Before you run managed code samples for Outlook 2013, ensure that you have installed the Outlook 2013 PIA and have added a reference to the Microsoft Outlook 15.0 Object Library component in Visual Studio. You should use the following code in the `ThisAddIn` class of an Outlook add-in (using Office Developer Tools for Visual Studio). The **Application** object in the code must be a trusted Outlook **Application** object provided by `ThisAddIn.Globals`. For more information about using the Outlook PIA to develop managed Outlook solutions, see the **Welcome to the Outlook Primary Interop Assembly Reference** on MSDN.
 
-The following code example assumes that the selected item in the explorer window is a mail item. The example obtains the conversation that the selected mail item is associated with, and enumerates each item in that conversation, displaying the subject of the item. The  `DemoConversation` method calls the **GetConversation** method of the selected mail item to obtain the associated **Conversation** object. `DemoConversation` then calls the **[GetTable](Outlook.Conversation.GetTable.md)** and **[GetRootItems](Outlook.Conversation.GetRootItems.md)** methods of the **Conversation** object to obtain a **[Table](Outlook.Table.md)** object and **[SimpleItems](Outlook.SimpleItems.md)** collection, respectively. `DemoConversation` calls the recurrent method `EnumerateConversation` to enumerate and display the subject of each item in that conversation.
+The following code example assumes that the selected item in the explorer window is a mail item. The example obtains the conversation that the selected mail item is associated with, and enumerates each item in that conversation, displaying the subject of the item. The `DemoConversation` method calls the **GetConversation** method of the selected mail item to obtain the associated **Conversation** object. `DemoConversation` then calls the **[GetTable](Outlook.Conversation.GetTable.md)** and **[GetRootItems](Outlook.Conversation.GetRootItems.md)** methods of the **Conversation** object to obtain a **[Table](Outlook.Table.md)** object and **[SimpleItems](Outlook.SimpleItems.md)** collection, respectively. `DemoConversation` calls the recurrent method `EnumerateConversation` to enumerate and display the subject of each item in that conversation.
 
 
 
@@ -156,7 +155,7 @@ void EnumerateConversation(object item,
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 [How to: Obtain and Enumerate Selected Conversations](../outlook/Concepts/Categories-and-Conversations/obtain-and-enumerate-selected-conversations.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

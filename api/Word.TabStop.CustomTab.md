@@ -3,12 +3,11 @@ title: TabStop.CustomTab property (Word)
 keywords: vbawd10.chm156500071
 f1_keywords:
 - vbawd10.chm156500071
-ms.prod: word
 api_name:
 - Word.TabStop.CustomTab
 ms.assetid: c909f223-7e5d-6a2b-317f-12f735e43921
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CustomTab`
+_expression_. `CustomTab`
 
- _expression_ A variable that represents a '[TabStop](Word.TabStop.md)' object.
+_expression_ A variable that represents a '[TabStop](Word.TabStop.md)' object.
 
 
 ## Example

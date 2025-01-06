@@ -3,18 +3,17 @@ title: ComboBox.FontBold property (Access)
 keywords: vbaac10.chm11421
 f1_keywords:
 - vbaac10.chm11421
-ms.prod: access
 api_name:
 - Access.ComboBox.FontBold
 ms.assetid: c125e323-8e4a-4814-3dd6-cc5bef6ebf96
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.FontBold property (Access)
 
-You can use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
+Use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

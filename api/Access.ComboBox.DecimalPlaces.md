@@ -3,18 +3,17 @@ title: ComboBox.DecimalPlaces property (Access)
 keywords: vbaac10.chm11376
 f1_keywords:
 - vbaac10.chm11376
-ms.prod: access
 api_name:
 - Access.ComboBox.DecimalPlaces
 ms.assetid: 5d57d9b7-12bd-2555-242e-204fd8dd48be
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.DecimalPlaces property (Access)
 
-You can use the **DecimalPlaces** property to specify the number of decimal places that Microsoft Access uses to display numbers. Read/write **Byte**.
+Use the **DecimalPlaces** property to specify the number of decimal places that Microsoft Access uses to display numbers. Read/write **Byte**.
 
 
 ## Syntax
@@ -39,7 +38,7 @@ The **DecimalPlaces** property setting has no effect if the **Format** property 
 
 The **DecimalPlaces** property affects only the number of decimal places that display, not how many decimal places are stored. To change the way that a number is stored, you must change the **FieldSize** property in table Design view.
 
-You can use the **DecimalPlaces** property to display numbers differently from the **Format** property setting or from the way that they are stored. For example, the Currency setting of the **Format** property displays only two decimal places ($5.35). To display Currency numbers with four decimal places (for example, $5.3523), set the **DecimalPlaces** property to 4.
+Use the **DecimalPlaces** property to display numbers differently from the **Format** property setting or from the way that they are stored. For example, the Currency setting of the **Format** property displays only two decimal places ($5.35). To display Currency numbers with four decimal places (for example, $5.3523), set the **DecimalPlaces** property to 4.
 
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

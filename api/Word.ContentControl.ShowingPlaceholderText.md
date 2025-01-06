@@ -3,23 +3,22 @@ title: ContentControl.ShowingPlaceholderText property (Word)
 keywords: vbawd10.chm266534931
 f1_keywords:
 - vbawd10.chm266534931
-ms.prod: word
 api_name:
 - Word.ContentControl.ShowingPlaceholderText
 ms.assetid: 1c502641-f969-10d9-ebe5-04c85f0bfe48
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControl.ShowingPlaceholderText property (Word)
 
-Returns a  **Boolean** that indicates whether the placeholder text for the content control is displayed. Read-only.
+Returns a **Boolean** that indicates whether the placeholder text for the content control is displayed. Read-only.
 
 
 ## Syntax
 
- _expression_. `ShowingPlaceholderText`
+_expression_. `ShowingPlaceholderText`
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 

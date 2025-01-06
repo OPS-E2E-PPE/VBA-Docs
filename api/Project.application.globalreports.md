@@ -1,25 +1,25 @@
 ---
-title: Application.GlobalReports Property (Project)
-ms.prod: project-server
+title: Application.GlobalReports property (Project)
+ms.service: project-server
 ms.assetid: 736be78c-2571-b07f-369c-845a06f9d1f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.GlobalReports Property (Project)
-Gets the collection of global (built-in) reports. Read-only  **Reports**.
+# Application.GlobalReports property (Project)
+Gets the collection of global (built-in) reports. Read-only **Reports**.
 
 ## Syntax
 
- _expression_. `GlobalReports`
+_expression_. `GlobalReports`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Example
 
-The following example prints a list of built-in reports in the  **Immediate** window of the VBE.
+The following example prints a list of built-in reports in the Immediate window of the VBE.
 
 
 ```vb

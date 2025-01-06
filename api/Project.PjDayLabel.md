@@ -1,15 +1,15 @@
 ---
-title: PjDayLabel Enumeration (Project)
-ms.prod: project-server
+title: PjDayLabel enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjDayLabel
 ms.assetid: 13bd572e-446a-f91d-ca6d-d759a3b79383
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjDayLabel Enumeration (Project)
+# PjDayLabel enumeration (Project)
 
 Contains constants that specify the display format for days in a timescale.
 

@@ -1,29 +1,29 @@
 ---
-title: OutlineCode.Name Property (Project)
-ms.prod: project-server
+title: OutlineCode.Name property (Project)
+ms.service: project-server
 api_name:
 - Project.OutlineCode.Name
 ms.assetid: b4814e58-2efd-18aa-4018-eb883fc64afa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlineCode.Name Property (Project)
+# OutlineCode.Name property (Project)
 
-Gets the name of the  **OutlineCode** object. Read/write **String**.
+Gets the name of the **OutlineCode** object. Read/write **String**.
 
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
- _expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
+_expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
 
 
 ## Remarks
 
-For a code example that uses the  **Task** object, see **[Name](Project.Task.Name.md)**.
+For a code example that uses the **Task** object, see **[Name](Project.Task.Name.md)**.
 
 
 ## Example

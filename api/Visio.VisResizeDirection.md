@@ -1,20 +1,19 @@
 ---
-title: VisResizeDirection Enumeration (Visio)
+title: VisResizeDirection enumeration (Visio)
 keywords: vis_sdr.chm70655
 f1_keywords:
 - vis_sdr.chm70655
-ms.prod: visio
 api_name:
 - Visio.VisResizeDirection
 ms.assetid: 912ad752-b614-b195-11fd-2c49b9dd5795
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisResizeDirection Enumeration (Visio)
+# VisResizeDirection enumeration (Visio)
 
-Specifies the resize directions that correspond to the shape handles to move; passed to the  **[Shape.Resize](Visio.Shape.Resize.md)** and **[Selection.Resize](Visio.Selection.Resize.md)** methods.
+Specifies the resize directions that correspond to the shape handles to move; passed to the **[Shape.Resize](Visio.Shape.Resize.md)** and **[Selection.Resize](Visio.Selection.Resize.md)** methods.
 
 
 

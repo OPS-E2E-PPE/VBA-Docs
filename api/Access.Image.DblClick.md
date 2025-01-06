@@ -3,12 +3,11 @@ title: Image.DblClick event (Access)
 keywords: vbaac10.chm14167
 f1_keywords:
 - vbaac10.chm14167
-ms.prod: access
 api_name:
 - Access.Image.DblClick
 ms.assetid: 605ec6dc-0159-a20e-9b02-cfd9d0a23dd1
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,6 +15,8 @@ localization_priority: Normal
 
 The **DblClick** event occurs when the user presses and releases the left mouse button twice over an object within the double-click time limit of the system.
 
+> [!NOTE] 
+> The functionality for the **Image** object's **Click** and **DoubleClick** events has been deprecated. If you want an image with click/double-click events, use instead a **Button** control and associate an image with that control to provide better accessibility. **Button** controls are part of the Tab Order loop, but **Image** controls are not. Existing applications will not be affected by this change.
 
 ## Syntax
 
@@ -56,7 +57,7 @@ When you double-click a command button, the following events occur in this order
 
 > **MouseDown** → **MouseUp** → **Click** → **DblClick** → **MouseUp** → **Click**
 
-The second click may have no effect (for example, if the **Click** macro or event procedure opens a modal dialog box in response to the first **Click** event). To prevent the second **Click** macro or event procedure from running, put a **CancelEvent** action in the **DblClick** macro, or use the _Cancel_ argument in the **DblClick** event procedure. Note that, generally speaking, double-clicking a command button should be discouraged.
+The second click may have no effect (for example, if the **Click** macro or event procedure opens a modal dialog box in response to the first **Click** event). To prevent the second **Click** macro or event procedure from running, put a CancelEvent action in the **DblClick** macro, or use the _Cancel_ argument in the **DblClick** event procedure. Note that, generally speaking, double-clicking a command button should be discouraged.
 
 If you double-click any other control besides a command button, the second **Click** event doesn't occur.
 

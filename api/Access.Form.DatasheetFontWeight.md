@@ -3,18 +3,17 @@ title: Form.DatasheetFontWeight property (Access)
 keywords: vbaac10.chm13398
 f1_keywords:
 - vbaac10.chm13398
-ms.prod: access
 api_name:
 - Access.Form.DatasheetFontWeight
 ms.assetid: 6dd2c6d3-1f27-8b86-abf5-f5581fbe7d23
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Form.DatasheetFontWeight property (Access)
 
-You can use the **DatasheetFontWeight** property to specify the line width of the font used to display and print characters for field names and data in Datasheet view. Read/write **Integer**.
+Use the **DatasheetFontWeight** property to specify the line width of the font used to display and print characters for field names and data in Datasheet view. Read/write **Integer**.
 
 ## Syntax
 
@@ -43,11 +42,9 @@ In Visual Basic, the **DatasheetFontWeight** property setting uses the following
 |800|Extra Bold|
 |900|Heavy|
 
-<br/>
-
 The following table contains the properties that don't exist in the DAO **Properties** collection until you set them by using the **Formatting (Datasheet)** toolbar, or you can add them in an Access database by using the **CreateProperty** method and append it to the DAO **Properties** collection.
 
-|||
+|Properties|Properties Continued|
 |:-----|:-----|
 |**[DatasheetFontItalic](Access.Form.DatasheetFontItalic.md)** *|**[DatasheetForeColor](Access.Form.DatasheetForeColor.md)** *|
 |**[DatasheetFontHeight](Access.Form.DatasheetFontHeight.md)** *|**[DatasheetBackColor](Access.Form.DatasheetBackColor.md)**|
@@ -101,8 +98,6 @@ Sub SetTableProperty(objTableObj As Object, strPropertyName As String, _
     objTableObj.Properties.Refresh 
 End Sub
 ```
-
-<br/>
 
 The following example makes the same changes as the preceding example in Datasheet view of the open **Products** form.
 

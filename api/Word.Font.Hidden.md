@@ -3,12 +3,11 @@ title: Font.Hidden property (Word)
 keywords: vbawd10.chm156369028
 f1_keywords:
 - vbawd10.chm156369028
-ms.prod: word
 api_name:
 - Word.Font.Hidden
 ms.assetid: a857f5e5-cda6-9402-dc82-6ed3bd93e2c4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,18 +18,18 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Hidden`
+_expression_.**Hidden**
 
- _expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-This property returns  **True** , **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle**.
+This property returns **True**, **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
-To control the display of hidden text, use the  **ShowHiddenText** property of the **View** object.
+To control the display of hidden text, use the **ShowHiddenText** property of the **View** object.
 
-To control whether properties and methods that return  **Range** objects include or exclude hidden text when hidden text isn't displayed, use the **IncludeHiddenText** property of the **TextRetrievalMode** object.
+To control whether properties and methods that return **Range** objects include or exclude hidden text when hidden text isn't displayed, use the **IncludeHiddenText** property of the **TextRetrievalMode** object.
 
 
 ## Example

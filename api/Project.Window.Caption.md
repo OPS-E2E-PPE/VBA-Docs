@@ -1,31 +1,31 @@
 ---
-title: Window.Caption Property (Project)
-ms.prod: project-server
+title: Window.Caption property (Project)
+ms.service: project-server
 api_name:
 - Project.Window.Caption
 ms.assetid: 02308676-1d72-9ac8-0654-6e510039efd1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.Caption Property (Project)
+# Window.Caption property (Project)
 
-Gets or sets the text in the title bar of a project window. Read/write  **String**.
+Gets or sets the text in the title bar of a project window. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents a [Window](./Project.Window.md) object.
+_expression_ A variable that represents a [Window](./Project.Window.md) object.
 
 
 ## Remarks
 
 When the active window is maximized, the title bar displays the caption for both the main and active windows, separating the captions with a hyphen. For example, if the caption for the main window is "Microsoft Project" and the caption for the active window is "Project1.mpp", the title bar displays "Project1.mpp - Microsoft Project" when the active window is maximized.
 
-If you set the  **Caption** property to **Empty**, the title bar displays the default caption. The default caption for the main window is "Microsoft Project".
+If you set the **Caption** property to **Empty**, the title bar displays the default caption. The default caption for the main window is "Microsoft Project".
 
 
 

@@ -3,32 +3,31 @@ title: Document.SaveFormat property (Word)
 keywords: vbawd10.chm158007355
 f1_keywords:
 - vbawd10.chm158007355
-ms.prod: word
 api_name:
 - Word.Document.SaveFormat
 ms.assetid: f8d31365-1935-307f-3663-d6e769944489
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.SaveFormat property (Word)
 
-Returns the file format of the specified document or file converter. Read-only  **Long**.
+Returns the file format of the specified document or file converter. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `SaveFormat`
+_expression_. `SaveFormat`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **SaveFormat** property will be a unique number that specifies an external file converter or a **WdSaveFormat** constant.
+The **SaveFormat** property will be a unique number that specifies an external file converter or a **WdSaveFormat** constant.
 
-Use the value of the  **SaveFormat** property for the _FileFormat_ argument of the **[SaveAs2](Word.SaveAs2.md)** method to save a document in a file format for which there isn't a corresponding **WdSaveFormat** constant.
+Use the value of the **SaveFormat** property for the _FileFormat_ argument of the **[SaveAs2](Word.SaveAs2.md)** method to save a document in a file format for which there isn't a corresponding **WdSaveFormat** constant.
 
 
 ## Example

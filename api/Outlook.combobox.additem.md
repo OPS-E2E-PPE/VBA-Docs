@@ -3,23 +3,22 @@ title: ComboBox.AddItem Method (Outlook Forms Script)
 keywords: olfm10.chm2000260
 f1_keywords:
 - olfm10.chm2000260
-ms.prod: outlook
 ms.assetid: 829a04ba-6bd8-4984-d134-e2c8e7d19c06
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.AddItem Method (Outlook Forms Script)
 
-For a single-column  **[ComboBox](Outlook.combobox.md)**, the  **AddItem** method adds an item to the list. For a multicolumn **ComboBox**, this method adds a row to the list.
+For a single-column **[ComboBox](Outlook.combobox.md)**, the **AddItem** method adds an item to the list. For a multicolumn **ComboBox**, this method adds a row to the list.
 
 
 ## Syntax
 
-_expression_. **AddItem**(**_pvargItem_**,  **_pvargIndex_**)
+_expression_.**AddItem**(**_pvargItem_**, **_pvargIndex_**)
 
-_expression_ A variable that represents a  **ComboBox** object.
+_expression_ A variable that represents a **ComboBox** object.
 
 
 ## Parameters
@@ -33,14 +32,14 @@ _expression_ A variable that represents a  **ComboBox** object.
 
 ## Remarks
 
-If you supply a valid value for  _varIndex_, the  **AddItem** method places the item or row at that position within the list. If you omit _varIndex_, the method adds the item or row at the end of the list.
+If you supply a valid value for  _varIndex_, the **AddItem** method places the item or row at that position within the list. If you omit _varIndex_, the method adds the item or row at the end of the list.
 
 The value of  _varIndex_ must not be greater than the value of the **[ListCount](Outlook.combobox.listindex.md)** property.
 
-For a multicolumn  **ComboBox**,  **AddItem** inserts an entire row, that is, it inserts an item for each column of the control. To assign values to an item beyond the first column, use the **[List](Outlook.combobox.list.md)** or **[Column](Outlook.combobox.column.md)** property and specify the row and column of the item.
+For a multicolumn **ComboBox**, **AddItem** inserts an entire row, that is, it inserts an item for each column of the control. To assign values to an item beyond the first column, use the **[List](Outlook.combobox.list.md)** or **[Column](Outlook.combobox.column.md)** property and specify the row and column of the item.
 
-If the control is bound to data, the  **AddItem** method fails.
+If the control is bound to data, the **AddItem** method fails.
 
-You can add more than one row at a time to a  **ComboBox** by using **List**.
+You can add more than one row at a time to a **ComboBox** by using **List**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

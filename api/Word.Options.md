@@ -3,23 +3,22 @@ title: Options object (Word)
 keywords: vbawd10.chm2487
 f1_keywords:
 - vbawd10.chm2487
-ms.prod: word
 api_name:
 - Word.Options
 ms.assetid: 873b7b99-3fe1-fd89-9ece-a9355cb827dc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options object (Word)
 
-Represents application and document options in Word. Many of the properties for the  **Options** object correspond to items in the **Options** dialog box.
+Represents application and document options in Word. Many of the properties for the **Options** object correspond to items in the **Options** dialog box.
 
 
 ## Remarks
 
-Use the  **Options** property to return the **Options** object. The following example sets three application options for Word.
+Use the **Options** property to return the **Options** object. The following example sets three application options for Word.
 
 
 ```vb
@@ -286,6 +285,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

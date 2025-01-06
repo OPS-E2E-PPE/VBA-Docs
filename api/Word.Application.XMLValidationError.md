@@ -1,27 +1,26 @@
 ---
-title: Application.XMLValidationError Event (Word)
+title: Application.XMLValidationError event (Word)
 keywords: vbawd10.chm4000026
 f1_keywords:
 - vbawd10.chm4000026
-ms.prod: word
 api_name:
 - Word.Application.XMLValidationError
 ms.assetid: bb75a555-fb5e-fb7b-f152-4c6436ecb1c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.XMLValidationError Event (Word)
+# Application.XMLValidationError event (Word)
 
 Occurs when there is a validation error in the document.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'XMLValidationError'(**_XMLNode As XMLNode_**)
+_expression_.**XMLValidationError'(**_XMLNode As XMLNode_**)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. An object of type **Application** that has been declared in a class module by using the **WithEvents** keyword. For more information about using events with the **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  An object of type **Application** that has been declared in a class module by using the **WithEvents** keyword. For more information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Parameters

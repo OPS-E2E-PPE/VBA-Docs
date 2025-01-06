@@ -3,12 +3,11 @@ title: Document.OptimizeForWord97 property (Word)
 keywords: vbawd10.chm158007630
 f1_keywords:
 - vbawd10.chm158007630
-ms.prod: word
 api_name:
 - Word.Document.OptimizeForWord97
 ms.assetid: 9db75633-508c-eddb-1ee9-5c8a2e9969b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `OptimizeForWord97`
+_expression_. `OptimizeForWord97`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-To optimize all new documents for Word 97 by default, use the  **[OptimizeForWord97byDefault](Word.Options.OptimizeForWord97byDefault.md)** property.
+To optimize all new documents for Word 97 by default, use the **[OptimizeForWord97byDefault](Word.Options.OptimizeForWord97byDefault.md)** property.
 
 
 ## Example

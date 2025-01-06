@@ -3,12 +3,11 @@ title: Options.CreateBackup property (Word)
 keywords: vbawd10.chm162988073
 f1_keywords:
 - vbawd10.chm162988073
-ms.prod: word
 api_name:
 - Word.Options.CreateBackup
 ms.assetid: 02933ae3-1c3b-8309-d496-09c44d28a616
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CreateBackup`
+_expression_. `CreateBackup`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-The  **CreateBackup** and **AllowFastSave** properties cannot be set to **True** concurrently.
+The **CreateBackup** and **AllowFastSave** properties cannot be set to **True** concurrently.
 
 
 ## Example
@@ -39,7 +38,7 @@ Options.CreateBackup = True
 ActiveDocument.Save
 ```
 
-This example returns the current status of the  **Always create backup copy** option on the **Save** tab in the **Options** dialog box.
+This example returns the current status of the **Always create backup copy** option on the **Save** tab in the **Options** dialog box.
 
 
 

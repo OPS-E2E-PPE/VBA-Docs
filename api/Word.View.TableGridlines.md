@@ -3,12 +3,11 @@ title: View.TableGridlines property (Word)
 keywords: vbawd10.chm161808409
 f1_keywords:
 - vbawd10.chm161808409
-ms.prod: word
 api_name:
 - Word.View.TableGridlines
 ms.assetid: 02ef1d7b-185b-ed17-e811-a752faa11b3f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `TableGridlines`
+_expression_. `TableGridlines`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

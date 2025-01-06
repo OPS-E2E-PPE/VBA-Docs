@@ -3,12 +3,11 @@ title: Folder object
 keywords: vblr6.chm2181928
 f1_keywords:
 - vblr6.chm2181928
-ms.prod: office
 api_name:
 - Office.Folder
 ms.assetid: 877e81a5-5a34-9ef9-2375-3c60d35d3255
 ms.date: 11/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -22,7 +21,7 @@ The following code illustrates how to obtain a **Folder** object and how to retu
 
 ```vb
 Sub ShowFolderInfo(folderspec)
-    Dim fs, f, s,
+    Dim fs, f, s
     Set fs = CreateObject("Scripting.FileSystemObject")
     Set f = fs.GetFolder(folderspec)
     s = f.DateCreated
@@ -35,13 +34,13 @@ End Sub
 |Collection|Description|
 |:---------|:----------|
 |[Files](files-collection.md) |Returns a collection of all the files in a specified folder. |
-|[Folders](folders-collection.md) | Collection of all **Folder** objects contained within a **Folder** object.|
+|[SubFolders](folders-collection.md) | Collection of all **Folder** objects contained within a **Folder** object.|
 
 ## Methods
 
 |Method|Description|
 |:-----|:----------|
-|[AddFolders](addfolders-method.md) | Adds a new **Folder** to a **Folders** collection.|
+|[Add](addfolders-method.md) | Adds a new **Folder** to a **Folders** collection.|
 |[Copy](copy-method-visual-basic-for-applications.md)|Copies a specified folder from one location to another. |
 |[CreateTextFile](createtextfile-method.md)|Creates a new text file in the specified folder and returns a TextStream object to access the file. |
 |[Delete](delete-method-visual-basic-for-applications.md)|Deletes a specified folder. |

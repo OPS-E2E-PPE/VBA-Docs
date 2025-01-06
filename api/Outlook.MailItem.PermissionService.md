@@ -1,27 +1,26 @@
 ---
-title: MailItem.PermissionService Property (Outlook)
+title: MailItem.PermissionService property (Outlook)
 keywords: vbaol11.chm1387
 f1_keywords:
 - vbaol11.chm1387
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.PermissionService
 ms.assetid: c999b215-f360-17b1-4915-45c3b525d3e5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.PermissionService Property (Outlook)
+# MailItem.PermissionService property (Outlook)
 
-Sets or returns an  **[OlPermissionService](Outlook.OlPermissionService.md)** constant that determines the permission service that will be used when sending a message protected by Information Rights Management (IRM). Read/write.
+Sets or returns an **[OlPermissionService](Outlook.OlPermissionService.md)** constant that determines the permission service that will be used when sending a message protected by Information Rights Management (IRM). Read/write.
 
 
 ## Syntax
 
 _expression_. `PermissionService`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks

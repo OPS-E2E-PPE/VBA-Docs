@@ -3,12 +3,11 @@ title: Axis.MaximumScaleIsAuto property (Word)
 keywords: vbawd10.chm113049630
 f1_keywords:
 - vbawd10.chm113049630
-ms.prod: word
 api_name:
 - Word.Axis.MaximumScaleIsAuto
 ms.assetid: 7ec9d4da-0851-146c-2324-bcaba7434158
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MaximumScaleIsAuto`
+_expression_. `MaximumScaleIsAuto`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting the  **[MaximumScale](Word.Axis.MaximumScale.md)** property sets this property to **False**.
+Setting the **[MaximumScale](Word.Axis.MaximumScale.md)** property sets this property to **False**.
 
 
 ## Example

@@ -3,57 +3,56 @@ title: Series.Type property (Word)
 keywords: vbawd10.chm123732076
 f1_keywords:
 - vbawd10.chm123732076
-ms.prod: word
 api_name:
 - Word.Series.Type
 ms.assetid: 3f3ed60e-5c97-d1ca-fc32-d6c4ba7ab988
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Series.Type property (Word)
 
-Returns or sets the series type. Read/write  **Long**.
+Returns or sets the series type. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks
 
-You can use the following  **[xlConstants](Word.XlConstants.md)** constants for this property:
+Use the following **[XlConstants](Word.XlConstants.md)** constants for this property:
 
 
--  **xlColumn**
+- **xlColumn**
     
--  **xlBar**
+- **xlBar**
     
--  **xl3DBar**
+- **xl3DBar**
     
--  **xlLine**
+- **xlLine**
     
--  **xlPie**
+- **xlPie**
     
--  **xlXYScatter**
+- **xlXYScatter**
     
--  **xlArea**
+- **xlArea**
     
--  **xl3DArea**
+- **xl3DArea**
     
--  **xlDoughnut**
+- **xlDoughnut**
     
--  **xlRadar**
+- **xlRadar**
     
--  **xl3DSurface**
+- **xl3DSurface**
     
--  **xl3DColumn**
+- **xl3DColumn**
     
--  **xl3DBar**
+- **xl3DBar**
     
 
 

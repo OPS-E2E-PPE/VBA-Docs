@@ -3,18 +3,17 @@ title: ListBox.FontName property (Access)
 keywords: vbaac10.chm11253
 f1_keywords:
 - vbaac10.chm11253
-ms.prod: access
 api_name:
 - Access.ListBox.FontName
 ms.assetid: 9bcab0c1-7a13-2b1a-91c1-56f784451bdf
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

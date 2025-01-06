@@ -1,37 +1,36 @@
 ---
-title: MailItem.Forward Method (Outlook)
+title: MailItem.Forward method (Outlook)
 keywords: vbaol11.chm1366
 f1_keywords:
 - vbaol11.chm1366
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.Forward
 ms.assetid: 5b8c2261-c5ac-fd80-8acf-dfa645a04a1e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Forward Method (Outlook)
+# MailItem.Forward method (Outlook)
 
-Executes the  **Forward** action for an item and returns the resulting copy as a **[MailItem](Outlook.MailItem.md)** object.
+Executes the **Forward** action for an item and returns the resulting copy as a **[MailItem](Outlook.MailItem.md)** object.
 
 
 ## Syntax
 
 _expression_. `Forward`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Return value
 
-A  **MailItem** object that represents the new mail item.
+A **MailItem** object that represents the new mail item.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[Remove](Outlook.Attachments.Remove.md)** method to remove all attachments from a forwarded message before sending it on to Dan Wilson. To run this example, replace 'Dan Wilson' with a valid recipient name and keep a mail item that contains at least one attachment open in the active window.
+This Visual Basic for Applications (VBA) example uses the **[Remove](Outlook.Attachments.Remove.md)** method to remove all attachments from a forwarded message before sending it on to Dan Wilson. To run this example, replace 'Dan Wilson' with a valid recipient name and keep a mail item that contains at least one attachment open in the active window.
 
 
 ```vb

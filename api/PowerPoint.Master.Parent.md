@@ -1,27 +1,26 @@
 ---
-title: Master.Parent Property (PowerPoint)
+title: Master.Parent property (PowerPoint)
 keywords: vbapp10.chm533002
 f1_keywords:
 - vbapp10.chm533002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Master.Parent
 ms.assetid: 315325b9-c7cd-f43c-ce92-4552ff2bdd71
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Parent Property (PowerPoint)
+# Master.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

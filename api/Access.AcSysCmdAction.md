@@ -3,20 +3,17 @@ title: AcSysCmdAction enumeration (Access)
 keywords: vbaac10.chm10027
 f1_keywords:
 - vbaac10.chm10027
-ms.prod: access
 api_name:
 - Access.AcSysCmdAction
 ms.assetid: a2879d50-9845-40b0-9e51-a022340c664b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcSysCmdAction enumeration (Access)
 
 Used with the **SysCmd** method to specify an action to take.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

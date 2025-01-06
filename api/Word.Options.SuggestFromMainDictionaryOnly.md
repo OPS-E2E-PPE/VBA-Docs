@@ -3,12 +3,11 @@ title: Options.SuggestFromMainDictionaryOnly property (Word)
 keywords: vbawd10.chm162988314
 f1_keywords:
 - vbawd10.chm162988314
-ms.prod: word
 api_name:
 - Word.Options.SuggestFromMainDictionaryOnly
 ms.assetid: d9ac9107-bf66-8f47-1101-6db4d6ec0364
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SuggestFromMainDictionaryOnly`
+_expression_. `SuggestFromMainDictionaryOnly`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-This property returns  **False** if it draws spelling suggestions from the main dictionary and any custom dictionaries that have been added.
+This property returns **False** if it draws spelling suggestions from the main dictionary and any custom dictionaries that have been added.
 
 
 ## Example

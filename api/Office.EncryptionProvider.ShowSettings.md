@@ -3,12 +3,11 @@ title: EncryptionProvider.ShowSettings method (Office)
 keywords: vbaof11.chm327009
 f1_keywords:
 - vbaof11.chm327009
-ms.prod: office
 api_name:
 - Office.EncryptionProvider.ShowSettings
 ms.assetid: 9e66ee97-54d5-9b09-ff22-810b92e63125
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ _expression_ An expression that returns an **[EncryptionProvider](Office.Encrypt
 
 ## Remarks
 
-This method can only be called on an already encrypted document. You can use this method in your COM add-in to display whatever user experience you like based on the user's permissions. 
+This method can only be called on an already encrypted document. Use this method in your COM add-in to display whatever user experience you like based on the user's permissions. 
 
 For example, in a pure encryption scenario, you can display a dialog box to change the document's password. In a rights management scenario, you can decide whether to show a dialog box for changing permissions or show the user's permissions.
 

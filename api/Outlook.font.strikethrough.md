@@ -1,22 +1,21 @@
 ---
 title: Font.Strikethrough Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: a64a3ee7-717e-c988-e2e4-200e8dfc3b38
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font.Strikethrough Property (Outlook Forms Script)
 
-Returns or sets a  **Boolean** that specifies whether the text appears with strikethrough marks. Read/write.
+Returns or sets a **Boolean** that specifies whether the text appears with strikethrough marks. Read/write.
 
 
 ## Syntax
 
-_expression_. **Strikethrough**
+_expression_.**Strikethrough**
 
-_expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **Font** object.
 
 
 ## Remarks

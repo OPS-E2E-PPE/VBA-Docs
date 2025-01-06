@@ -3,10 +3,9 @@ title: FileDateTime function (Visual Basic for Applications)
 keywords: vblr6.chm1008921
 f1_keywords:
 - vblr6.chm1008921
-ms.prod: office
 ms.assetid: d4a54c4c-dc61-cb70-38b4-9c5506cfe789
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

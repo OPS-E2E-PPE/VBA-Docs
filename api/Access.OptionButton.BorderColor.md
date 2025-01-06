@@ -3,18 +3,17 @@ title: OptionButton.BorderColor property (Access)
 keywords: vbaac10.chm10591
 f1_keywords:
 - vbaac10.chm10591
-ms.prod: access
 api_name:
 - Access.OptionButton.BorderColor
 ms.assetid: fd44b63b-d1bb-3663-8f14-08069424d022
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

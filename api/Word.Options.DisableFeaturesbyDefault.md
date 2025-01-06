@@ -3,12 +3,11 @@ title: Options.DisableFeaturesbyDefault property (Word)
 keywords: vbawd10.chm162988460
 f1_keywords:
 - vbawd10.chm162988460
-ms.prod: word
 api_name:
 - Word.Options.DisableFeaturesbyDefault
 ms.assetid: 58afcc8b-1d40-eebc-24ff-cb6bfdb5956d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisableFeaturesbyDefault`
+_expression_. `DisableFeaturesbyDefault`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-The  **DisableFeaturesByDefault** property sets a global option for the application. If you want to disable features introduced after Word 97 for Windows for the document only, use the **[DisableFeatures](Word.Document.DisableFeatures.md)** property.
+The **DisableFeaturesByDefault** property sets a global option for the application. If you want to disable features introduced after Word 97 for Windows for the document only, use the **[DisableFeatures](Word.Document.DisableFeatures.md)** property.
 
 
 ## Example

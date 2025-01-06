@@ -3,12 +3,11 @@ title: SynonymInfo.Found property (Word)
 keywords: vbawd10.chm161153026
 f1_keywords:
 - vbawd10.chm161153026
-ms.prod: word
 api_name:
 - Word.SynonymInfo.Found
 ms.assetid: a69e196b-4db1-fae7-172f-92f00264443b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Found`
+_expression_. `Found`
 
- _expression_ A variable that represents a '[SynonymInfo](Word.SynonymInfo.md)' object.
+_expression_ A variable that represents a '[SynonymInfo](Word.SynonymInfo.md)' object.
 
 
 ## Example

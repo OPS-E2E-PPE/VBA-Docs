@@ -3,25 +3,24 @@ title: Frameset.FrameName property (Word)
 keywords: vbawd10.chm165806114
 f1_keywords:
 - vbawd10.chm165806114
-ms.prod: word
 api_name:
 - Word.Frameset.FrameName
 ms.assetid: f0b22dfe-3d12-0f75-1af2-23467b83a4ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frameset.FrameName property (Word)
 
-Returns or sets the name of the specified frame on a frames page. Read/write  **String**.
+Returns or sets the name of the specified frame on a frames page. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FrameName`
+_expression_. `FrameName`
 
- _expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks

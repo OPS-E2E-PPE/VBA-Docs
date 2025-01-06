@@ -1,9 +1,8 @@
 ---
 title: Send information to the Clipboard
-ms.prod: access
 ms.assetid: 4261f071-7bff-b290-c3d3-03645fd9ada0
 ms.date: 09/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -11,7 +10,7 @@ localization_priority: Priority
 
 ## Use the RunCommand method
 
-You can use the **[RunCommand](../../../api/Access.DoCmd.RunCommand.md)** method with the **acCmdCopy** constant to copy the contents of the active control on a form or report to the Clipboard. 
+Use the **[RunCommand](../../../api/Access.DoCmd.RunCommand.md)** method with the **acCmdCopy** constant to copy the contents of the active control on a form or report to the Clipboard. 
 
 The following example illustrates how to copy the contents of a text box named txtNotes to the Clipboard.
 

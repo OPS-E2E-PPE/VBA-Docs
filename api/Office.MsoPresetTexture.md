@@ -1,19 +1,16 @@
 ---
 title: MsoPresetTexture enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoPresetTexture
 ms.assetid: fbbc897d-f5db-eb0d-20d9-f6b7e9bbcf4f
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoPresetTexture enumeration (Office)
 
 Specifies texture to be used to fill a shape.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

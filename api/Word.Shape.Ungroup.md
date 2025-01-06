@@ -3,12 +3,11 @@ title: Shape.Ungroup method (Word)
 keywords: vbawd10.chm161480727
 f1_keywords:
 - vbawd10.chm161480727
-ms.prod: word
 api_name:
 - Word.Shape.Ungroup
 ms.assetid: 0e8ead12-19a7-4caf-696e-38509e30148d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Ungroups any grouped shapes in the specified shape.
 
 ## Syntax
 
- _expression_. `Ungroup`
+_expression_.**Ungroup**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Return value
@@ -31,14 +30,14 @@ ShapeRange
 
 ## Remarks
 
-This method sisassembles pictures and OLE objects within the specified shapeand returns the ungrouped shapes as a single  **[ShapeRange](Word.shaperange.md)** object.
+This method sisassembles pictures and OLE objects within the specified shapeand returns the ungrouped shapes as a single **[ShapeRange](Word.shaperange.md)** object.
 
-Because a group of shapes is treated as a single object, grouping and ungrouping shapes changes the number of items in the  **Shapes** collection and changes the index numbers of items that come after the affected items in the collection.
+Because a group of shapes is treated as a single object, grouping and ungrouping shapes changes the number of items in the **Shapes** collection and changes the index numbers of items that come after the affected items in the collection.
 
 
 ## Example
 
-This example ungroups any grouped shapes and disassembles any pictures or OLE objects on  _myDocument_ .
+This example ungroups any grouped shapes and disassembles any pictures or OLE objects on _myDocument_.
 
 
 ```vb
@@ -48,7 +47,7 @@ For Each s In myDocument.Shapes
 Next
 ```
 
-This example ungroups any grouped shapes on  _myDocument_ without disassembling pictures or OLE objects on the document.
+This example ungroups any grouped shapes on _myDocument_ without disassembling pictures or OLE objects on the document.
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: UIObject.Clone Property (Visio)
+title: UIObject.Clone property (Visio)
 keywords: vis_sdr.chm14913245
 f1_keywords:
 - vis_sdr.chm14913245
-ms.prod: visio
 api_name:
 - Visio.UIObject.Clone
 ms.assetid: 9fd3eb9b-8b01-9397-8f9f-58e3ce4a980e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UIObject.Clone Property (Visio)
+# UIObject.Clone property (Visio)
 
-Returns a copy of the  **UIObject** object. Read-only.
+Returns a copy of the **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Clone`
+_expression_. `Clone`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ UIObject
 
 ## Example
 
-This example shows how to use the  **Clone** property to make a copy of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **Clone** property to make a copy of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
 
-To restore the built-in toolbars in Visio after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in toolbars in Visio after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

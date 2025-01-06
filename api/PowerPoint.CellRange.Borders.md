@@ -1,27 +1,26 @@
 ---
-title: CellRange.Borders Property (PowerPoint)
+title: CellRange.Borders property (PowerPoint)
 keywords: vbapp10.chm627004
 f1_keywords:
 - vbapp10.chm627004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CellRange.Borders
 ms.assetid: 06bd16b9-8d3e-d818-cdf4-44e0dfbaca5c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CellRange.Borders Property (PowerPoint)
+# CellRange.Borders property (PowerPoint)
 
-Returns a  **[Borders](PowerPoint.Borders.md)** collection that represents the borders and diagonal lines for the specified **Cell** object or **CellRange** collection. Read-only.
+Returns a **[Borders](PowerPoint.Borders.md)** collection that represents the borders and diagonal lines for the specified **Cell** object or **CellRange** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Borders`
+_expression_.**Borders**
 
-_expression_ A variable that represents a [CellRange](./PowerPoint.CellRange.md) object.
+_expression_ A variable that represents a [CellRange](PowerPoint.CellRange.md) object.
 
 
 ## Return value

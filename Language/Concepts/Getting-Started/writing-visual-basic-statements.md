@@ -3,10 +3,9 @@ title: Writing Visual Basic statements (VBA)
 keywords: vbcn6.chm1076695
 f1_keywords:
 - vbcn6.chm1076695
-ms.prod: office
 ms.assetid: a2d35638-995b-1a6f-2975-8deacddf93de
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,20 +25,20 @@ A statement usually fits on one line, but you can continue a statement onto the 
 
 ```vb
 Sub DemoBox() 'This procedure declares a string variable, 
- ' assigns it the value Claudia, and then displays 
- ' a concatenated message. 
- Dim myVar As String 
- myVar = "John" 
- MsgBox Prompt:="Hello " & myVar, _ 
- Title:="Greeting Box", _ 
- Buttons:=vbExclamation 
+    ' assigns it the value Claudia, and then displays 
+    ' a concatenated message. 
+    Dim myVar As String 
+    myVar = "John" 
+    MsgBox Prompt:="Hello " & myVar, _ 
+        Title:="Greeting Box", _ 
+        Buttons:=vbExclamation 
 End Sub
 ```
 
 
 ## Add comments
 
-Comments can explain a procedure or a particular instruction to anyone reading your code. Visual Basic ignores comments when it runs your procedures. Comment lines begin with an apostrophe (**'**) or with **Rem** followed by a space, and can be added anywhere in a procedure. To add a comment to the same line as a statement, insert an apostrophe after the statement, followed by the comment. By default, comments are displayed as green text.
+Comments can explain a procedure or a particular instruction to anyone reading your code. Visual Basic ignores comments when it runs your procedures. Comment lines begin with an apostrophe (`'`) or with `Rem` followed by a space, and can be added anywhere in a procedure. To add a comment to the same line as a statement, insert an apostrophe after the statement, followed by the comment. By default, comments are displayed as green text.
 
 
 ## Check syntax errors

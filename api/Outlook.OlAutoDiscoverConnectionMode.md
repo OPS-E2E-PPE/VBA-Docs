@@ -1,18 +1,17 @@
 ---
-title: OlAutoDiscoverConnectionMode Enumeration (Outlook)
+title: OlAutoDiscoverConnectionMode enumeration (Outlook)
 keywords: vbaol11.chm3302
 f1_keywords:
 - vbaol11.chm3302
-ms.prod: outlook
 api_name:
 - Outlook.OlAutoDiscoverConnectionMode
 ms.assetid: fee21188-a513-c272-0311-544956c03786
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlAutoDiscoverConnectionMode Enumeration (Outlook)
+# OlAutoDiscoverConnectionMode enumeration (Outlook)
 
 Specifies the type of connection to the Exchange server for the auto-discovery service.
 

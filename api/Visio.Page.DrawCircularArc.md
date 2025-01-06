@@ -1,27 +1,26 @@
 ---
-title: Page.DrawCircularArc Method (Visio)
+title: Page.DrawCircularArc method (Visio)
 keywords: vis_sdr.chm10952015
 f1_keywords:
 - vis_sdr.chm10952015
-ms.prod: visio
 api_name:
 - Visio.Page.DrawCircularArc
 ms.assetid: 2c57ec5d-418c-df3b-a599-61d5fa560467
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.DrawCircularArc Method (Visio)
+# Page.DrawCircularArc method (Visio)
 
 Creates a new shape whose path consists of a circular arc defined by its center, radius, and start and end angles.
 
 
 ## Syntax
 
- _expression_. `DrawCircularArc`( `_xCenter_` , `_yCenter_` , `_Radius_` , `_StartAngle_` , `_EndAngle_` )
+_expression_. `DrawCircularArc`( `_xCenter_` , `_yCenter_` , `_Radius_` , `_StartAngle_` , `_EndAngle_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -43,12 +42,12 @@ Shape
 
 ## Remarks
 
-By default,  **DrawCircularArc** draws a 180-degree arc on the drawing page.
+By default, **DrawCircularArc** draws a 180-degree arc on the drawing page.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **DrawCircularArc** method to draw an arc on the drawing page.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **DrawCircularArc** method to draw an arc on the drawing page.
 
 
 ```vb

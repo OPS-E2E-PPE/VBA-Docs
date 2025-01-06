@@ -1,19 +1,16 @@
 ---
 title: MsoTextFontAlign enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoTextFontAlign
 ms.assetid: ecc89bdd-458f-bf88-8887-be6bcbfe7234
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoTextFontAlign enumeration (Office)
 
 Indicates the text alignment scheme used for an object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

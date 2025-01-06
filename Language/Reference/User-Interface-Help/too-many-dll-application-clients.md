@@ -3,10 +3,9 @@ title: Too many DLL application clients
 keywords: vblr6.chm1011281
 f1_keywords:
 - vblr6.chm1011281
-ms.prod: office
 ms.assetid: 1278a56e-c5fd-294f-28ef-64dc42118fc4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

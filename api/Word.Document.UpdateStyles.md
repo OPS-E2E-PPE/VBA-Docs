@@ -3,12 +3,11 @@ title: Document.UpdateStyles method (Word)
 keywords: vbawd10.chm158007423
 f1_keywords:
 - vbawd10.chm158007423
-ms.prod: word
 api_name:
 - Word.Document.UpdateStyles
 ms.assetid: fe713979-27e1-c81c-198d-5e25564233c2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Copies all styles from the attached template into the document, overwriting any 
 
 ## Syntax
 
- _expression_. `UpdateStyles`
+_expression_. `UpdateStyles`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example
@@ -36,7 +35,7 @@ For Each aDoc In Documents
 Next aDoc
 ```
 
-This example changes the formatting of the Heading 1 style in the template attached to the active document. The  **UpdateStyles** method updates the styles in the active document, including the Heading 1 style.
+This example changes the formatting of the Heading 1 style in the template attached to the active document. The **UpdateStyles** method updates the styles in the active document, including the Heading 1 style.
 
 
 

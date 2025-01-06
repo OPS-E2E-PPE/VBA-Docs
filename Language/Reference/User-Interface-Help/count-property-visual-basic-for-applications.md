@@ -3,10 +3,9 @@ title: Count property (Visual Basic for Applications)
 keywords: vblr6.chm1014018
 f1_keywords:
 - vblr6.chm1014018
-ms.prod: office
 ms.assetid: 319907c0-9c68-0e24-cc76-c16d4386269e
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

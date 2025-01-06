@@ -3,12 +3,11 @@ title: Selection.Copy method (Word)
 keywords: vbawd10.chm158662776
 f1_keywords:
 - vbawd10.chm158662776
-ms.prod: word
 api_name:
 - Word.Selection.Copy
 ms.assetid: 5af32d69-5c0f-428a-44f3-35c75b5fb050
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Copies the specified selection to the Clipboard.
 
 ## Syntax
 
- _expression_. `Copy`
+_expression_.**Copy**
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

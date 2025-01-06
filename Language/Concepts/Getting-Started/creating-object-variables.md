@@ -3,10 +3,9 @@ title: Creating object variables (VBA)
 keywords: vbcn6.chm1011337
 f1_keywords:
 - vbcn6.chm1011337
-ms.prod: office
 ms.assetid: 6cff962e-4a3e-dfc3-8491-d31a308b1c55
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -71,8 +70,8 @@ Setting an object variable equal to **Nothing** discontinues the association of 
 
 ```vb
 If Not MyObject Is Nothing Then 
- ' Variable refers to valid object. 
- . . . 
+    ' Variable refers to valid object. 
+    . . . 
 End If 
 
 ```
@@ -85,7 +84,7 @@ Use the **[Me](../../reference/user-interface-help/me-keyword.md)** keyword to r
 
 ```vb
 Sub ChangeObjectColor(MyObjectName As Object) 
- MyObjectName.BackColor = RGB(Rnd * 256, Rnd * 256, Rnd * 256) 
+    MyObjectName.BackColor = RGB(Rnd * 256, Rnd * 256, Rnd * 256) 
 End Sub
 ```
 
@@ -94,8 +93,6 @@ You can call the procedure and pass the current instance of the object as an arg
 ```vb
 ChangeObjectColor Me 
 ```
-
-<br/>
 
 ## See also
 

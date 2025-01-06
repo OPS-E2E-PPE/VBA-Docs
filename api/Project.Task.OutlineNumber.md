@@ -1,24 +1,24 @@
 ---
-title: Task.OutlineNumber Property (Project)
-ms.prod: project-server
+title: Task.OutlineNumber property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.OutlineNumber
 ms.assetid: 68c0a85b-99e2-7624-705b-c67e8ad96fc7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.OutlineNumber Property (Project)
+# Task.OutlineNumber property (Project)
 
-Gets a value that indicates the position of the task in the outline hierarchy. Read-only  **String**.
+Gets a value that indicates the position of the task in the outline hierarchy. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `OutlineNumber`
+_expression_. `OutlineNumber`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks

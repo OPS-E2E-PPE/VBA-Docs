@@ -1,27 +1,26 @@
 ---
-title: Hyperlinks.Parent Property (PowerPoint)
+title: Hyperlinks.Parent property (PowerPoint)
 keywords: vbapp10.chm525002
 f1_keywords:
 - vbapp10.chm525002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlinks.Parent
 ms.assetid: ac7d6adf-288a-3459-a259-0dec4cbcf56b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks.Parent Property (PowerPoint)
+# Hyperlinks.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [Hyperlinks](./PowerPoint.Hyperlinks.md) object.
+_expression_ A variable that represents a [Hyperlinks](PowerPoint.Hyperlinks.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

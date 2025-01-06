@@ -3,18 +3,17 @@ title: Label.Left property (Access)
 keywords: vbaac10.chm10197
 f1_keywords:
 - vbaac10.chm10197
-ms.prod: access
 api_name:
 - Access.Label.Left
 ms.assetid: b27a17e1-daf3-45a0-3e94-790751db7ca9
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.Left property (Access)
 
-You can use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
+Use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ For reports, you can set these properties only by using a macro or event procedu
 
 For reports, the **Left** property setting is the amount that the current section is offset from the left of the page. This property is expressed in twips. 
 
-You can use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
+Use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
 
 
 ## Example

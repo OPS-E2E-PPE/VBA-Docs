@@ -3,12 +3,11 @@ title: Range.Paste method (Word)
 keywords: vbawd10.chm157155449
 f1_keywords:
 - vbawd10.chm157155449
-ms.prod: word
 api_name:
 - Word.Range.Paste
 ms.assetid: 06621016-de31-c61b-a9d0-6544b2d7e0a4
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ Inserts the contents of the Clipboard at the specified range.
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-If you don't want to replace the contents of the range, use the  **Collapse** method before using this method.
+If you don't want to replace the contents of the range, use the **Collapse** method before using this method.
 
-When you use this method with a  **Range** object, the range expands to include the contents of the Clipboard.
+When you use this method with a **Range** object, the range expands to include the contents of the Clipboard.
 
 
 ## Example

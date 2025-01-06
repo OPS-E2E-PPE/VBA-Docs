@@ -3,30 +3,25 @@ title: Application.PointsToPicas method (Word)
 keywords: vbawd10.chm158335359
 f1_keywords:
 - vbawd10.chm158335359
-ms.prod: word
 api_name:
 - Word.Application.PointsToPicas
 ms.assetid: 35d3f08b-bc4f-b65c-8b57-816146b37c77
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.PointsToPicas method (Word)
 
-Converts a measurement from points to picas (1 pica = 12 points). Returns the converted measurement as a  **Single**.
-
+Converts a measurement from points to picas (1 pica = 12 points). Returns the converted measurement as a **Single**.
 
 ## Syntax
 
- _expression_. `PointsToPicas`( `_Points_` )
+_expression_. `PointsToPicas`( `_Points_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
-
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,20 +31,15 @@ Converts a measurement from points to picas (1 pica = 12 points). Returns the co
 
 Single
 
-
 ## Example
 
 This example converts 36 points to the corresponding number of picas.
-
 
 ```vb
 MsgBox PointsToPicas(36) & " picas"
 ```
 
-This example converts the value of the variable  `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
-
-
-
+This example converts the value of the variable `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
 
 ```vb
 Function ConvertPoints(ByVal intUnit As Integer, _ 
@@ -73,9 +63,7 @@ Function ConvertPoints(ByVal intUnit As Integer, _
 End Function
 ```
 
-
 ## See also
-
 
 [Application Object](Word.Application.md)
 

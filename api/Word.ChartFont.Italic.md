@@ -3,12 +3,11 @@ title: ChartFont.Italic property (Word)
 keywords: vbawd10.chm255918090
 f1_keywords:
 - vbawd10.chm255918090
-ms.prod: word
 api_name:
 - Word.ChartFont.Italic
 ms.assetid: 8e25a2dd-2ac1-83ec-c505-fdc23b0de7d9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Italic`
+_expression_.**Italic**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

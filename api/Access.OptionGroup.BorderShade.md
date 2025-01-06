@@ -3,12 +3,11 @@ title: OptionGroup.BorderShade property (Access)
 keywords: vbaac10.chm14603
 f1_keywords:
 - vbaac10.chm14603
-ms.prod: access
 api_name:
 - Access.OptionGroup.BorderShade
 ms.assetid: 42badef3-8e9b-d730-f355-d535352a32ec
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: BoundObjectFrame.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.BorderThemeColorIndex
 ms.assetid: 89423dbf-44de-a2e6-d31a-6ea459c2f156
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

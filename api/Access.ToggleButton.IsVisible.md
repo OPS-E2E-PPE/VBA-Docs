@@ -3,18 +3,17 @@ title: ToggleButton.IsVisible property (Access)
 keywords: vbaac10.chm11745
 f1_keywords:
 - vbaac10.chm11745
-ms.prod: access
 api_name:
 - Access.ToggleButton.IsVisible
 ms.assetid: 1abe4640-f2ee-4aea-e86c-cb5e8946d156
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.IsVisible property (Access)
 
-You can use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
+Use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
 
 
 ## Syntax
@@ -28,7 +27,7 @@ _expression_ A variable that represents a **[ToggleButton](Access.ToggleButton.m
 
 You can set the **IsVisible** property only in the **Print** event of a report section that contains the control.
 
-You can use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
+Use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: PublishObject.FileName Property (PowerPoint)
+title: PublishObject.FileName property (PowerPoint)
 keywords: vbapp10.chm635009
 f1_keywords:
 - vbapp10.chm635009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PublishObject.FileName
 ms.assetid: 21bb55c1-1e0c-5ca5-5b44-668642b013a9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PublishObject.FileName Property (PowerPoint)
+# PublishObject.FileName property (PowerPoint)
 
 Returns or sets the path and file name of the Web presentation created when all or part of the active presentation is published. Read/write.
 
 
 ## Syntax
 
- _expression_. `FileName`
+_expression_.**FileName**
 
- _expression_ A variable that represents a [PublishObject](./PowerPoint.PublishObject.md) object.
+_expression_ A variable that represents a [PublishObject](PowerPoint.PublishObject.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ String
 
 ## Remarks
 
-The  **FileName** property generates an error if a folder in the specified path does not exist.
+The **FileName** property generates an error if a folder in the specified path does not exist.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: QueryTables.Item method (Excel)
 keywords: vbaxl10.chm521075
 f1_keywords:
 - vbaxl10.chm521075
-ms.prod: excel
 api_name:
 - Excel.QueryTables.Item
 ms.assetid: c7b70ccd-1049-0d50-1536-f1d42b9b1e09
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/03/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [QueryTables](Excel.QueryTables.md) object.
+_expression_ A variable that represents a **[QueryTables](Excel.QueryTables.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,22 +31,17 @@ _expression_ A variable that represents a [QueryTables](Excel.QueryTables.md) ob
 
 ## Return value
 
-A  **[QueryTable](Excel.QueryTable.md)** object contained by the collection.
+A **[QueryTable](Excel.QueryTable.md)** object contained by the collection.
 
 
 ## Example
 
-This example sets a query table so that formulas to the right of the query table are automatically updated whenever it?s refreshed.
-
+This example sets a query table so that formulas to the right of the query table are automatically updated whenever it's refreshed.
 
 ```vb
 Sheets("sheet1").QueryTables.Item(1).FillAdjacentFormulas = True
 ```
 
 
-## See also
-
-
-[QueryTables Object](Excel.QueryTables.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

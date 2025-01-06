@@ -3,10 +3,9 @@ title: Find a procedure (VBA)
 keywords: vbhw6.chm1105194
 f1_keywords:
 - vbhw6.chm1105194
-ms.prod: office
 ms.assetid: 0f954ac5-66ee-06e4-4cbd-50823268822a
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -33,7 +32,7 @@ localization_priority: Normal
     
 ## Keyboard shortcuts
 
-You can use the following keyboard shortcuts.
+Use the following keyboard shortcuts.
 
 |Press|To|
 |:-----|:-----|

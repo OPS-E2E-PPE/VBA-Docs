@@ -3,12 +3,11 @@ title: ToggleButton.Height property (Access)
 keywords: vbaac10.chm11721
 f1_keywords:
 - vbaac10.chm11721
-ms.prod: access
 api_name:
 - Access.ToggleButton.Height
 ms.assetid: 8544f955-3891-3799-5207-de7fa2a5a224
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

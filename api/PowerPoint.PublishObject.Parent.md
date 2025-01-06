@@ -1,27 +1,26 @@
 ---
-title: PublishObject.Parent Property (PowerPoint)
+title: PublishObject.Parent property (PowerPoint)
 keywords: vbapp10.chm635002
 f1_keywords:
 - vbapp10.chm635002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PublishObject.Parent
 ms.assetid: 98493b85-19f9-22ca-53f3-25ef2b409f3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PublishObject.Parent Property (PowerPoint)
+# PublishObject.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PublishObject](./PowerPoint.PublishObject.md) object.
+_expression_ A variable that represents a [PublishObject](PowerPoint.PublishObject.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

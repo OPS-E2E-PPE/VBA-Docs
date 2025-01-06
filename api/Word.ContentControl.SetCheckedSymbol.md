@@ -3,12 +3,11 @@ title: ContentControl.SetCheckedSymbol method (Word)
 keywords: vbawd10.chm266534941
 f1_keywords:
 - vbawd10.chm266534941
-ms.prod: word
 api_name:
 - Word.ContentControl.SetCheckedSymbol
 ms.assetid: 67f93aa6-a4ad-2d89-eb6d-483ff6df2db2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Sets the symbol used to represent the checked state of a check box content contr
 
 ## Syntax
 
- _expression_. `SetCheckedSymbol`( `_CharacterNumber_` , `_Font_` )
+_expression_. `SetCheckedSymbol`( `_CharacterNumber_` , `_Font_` )
 
  _expression_ An expression that returns a '[ContentControl](Word.ContentControl.md)' object.
 

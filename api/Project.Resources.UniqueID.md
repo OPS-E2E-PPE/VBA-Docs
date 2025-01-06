@@ -1,24 +1,24 @@
 ---
-title: Resources.UniqueID Property (Project)
-ms.prod: project-server
+title: Resources.UniqueID property (Project)
+ms.service: project-server
 api_name:
 - Project.Resources.UniqueID
 ms.assetid: 84c48d8e-45e7-f1d7-9284-cb7f92c3ffb0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resources.UniqueID Property (Project)
+# Resources.UniqueID property (Project)
 
-Gets a  **[Resource](Project.Resource.md)** object from its containing collection. Read-only **Resource**.
+Gets a **[Resource](Project.Resource.md)** object from its containing collection. Read-only **Resource**.
 
 
 ## Syntax
 
- _expression_. `UniqueID`( `_Index_` )
+_expression_. `UniqueID` (_Index_)
 
- _expression_ A variable that represents a 'Resources' object.
+_expression_ A variable that represents a 'Resources' object.
 
 
 ## Parameters

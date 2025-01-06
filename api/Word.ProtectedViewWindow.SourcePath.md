@@ -3,23 +3,22 @@ title: ProtectedViewWindow.SourcePath property (Word)
 keywords: vbawd10.chm231735307
 f1_keywords:
 - vbawd10.chm231735307
-ms.prod: word
 api_name:
 - Word.ProtectedViewWindow.SourcePath
 ms.assetid: 05b4e601-894a-de8f-1119-565183b244b7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ProtectedViewWindow.SourcePath property (Word)
 
-Returns the path of the source file for the specified protected view window. Read-only  **String**.
+Returns the path of the source file for the specified Protected View window. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `SourcePath`
+_expression_.**SourcePath**
 
  _expression_ An expression that returns a [ProtectedViewWindow](./Word.ProtectedViewWindow.md) object.
 
@@ -31,7 +30,7 @@ The path does not include a trailing character (for example, "C:\MSOffice"). Use
 
 ## Example
 
-The following code example returns the path and name of the document associated with the specified protected view window.
+The following code example returns the path and name of the document associated with the specified Protected View window.
 
 
 ```vb

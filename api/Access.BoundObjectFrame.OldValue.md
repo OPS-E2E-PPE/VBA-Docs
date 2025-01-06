@@ -3,18 +3,17 @@ title: BoundObjectFrame.OldValue property (Access)
 keywords: vbaac10.chm10898
 f1_keywords:
 - vbaac10.chm10898
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.OldValue
 ms.assetid: 89d4855e-9c7e-7c3f-4063-f9f74d7245ca
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

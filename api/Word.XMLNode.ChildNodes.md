@@ -3,25 +3,24 @@ title: XMLNode.ChildNodes property (Word)
 keywords: vbawd10.chm37748749
 f1_keywords:
 - vbawd10.chm37748749
-ms.prod: word
 api_name:
 - Word.XMLNode.ChildNodes
 ms.assetid: 79d5e434-be1a-6420-ac82-ecf9c7c49e32
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.ChildNodes property (Word)
 
-Returns an  **XMLNodes** collection that represents the child elements of a specified element.
+Returns an **XMLNodes** collection that represents the child elements of a specified element.
 
 
 ## Syntax
 
- _expression_. `ChildNodes`
+_expression_. `ChildNodes`
 
- _expression_ Required. A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
+_expression_ Required. A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
 
 
 ## Example

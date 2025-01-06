@@ -3,30 +3,29 @@ title: FormField.DropDown property (Word)
 keywords: vbawd10.chm153616397
 f1_keywords:
 - vbawd10.chm153616397
-ms.prod: word
 api_name:
 - Word.FormField.DropDown
 ms.assetid: b0deeb54-cdff-7397-5fd0-e4decdcaf65e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FormField.DropDown property (Word)
 
-Returns a  **[DropDown](Word.DropDown.md)** object that represents a drop-down form field. Read-only.
+Returns a **[DropDown](Word.DropDown.md)** object that represents a drop-down form field. Read-only.
 
 
 ## Syntax
 
- _expression_. `DropDown`
+_expression_. `DropDown`
 
- _expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Remarks
 
-If the  **DropDown** property is applied to a **FormField** object that isn't a drop-down form field, the property won't fail, but the **Valid** property for the returned object will be **False**.
+If the **DropDown** property is applied to a **FormField** object that isn't a drop-down form field, the property won't fail, but the **Valid** property for the returned object will be **False**.
 
 
 ## Example

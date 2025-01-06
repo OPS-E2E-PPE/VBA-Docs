@@ -3,18 +3,17 @@ title: ObjectFrame.Object property (Access)
 keywords: vbaac10.chm11550
 f1_keywords:
 - vbaac10.chm11550
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Object
 ms.assetid: db4354f5-a92d-7341-7823-a1c5f26d74b8
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.Object property (Access)
 
-You can use the **Object** property in Visual Basic to return a reference to the ActiveX object that is associated with a linked or embedded OLE object in a control. By using this reference, you can access the properties or invoke the methods of the OLE object. Read-only **Object**.
+Use the **Object** property in Visual Basic to return a reference to the ActiveX object that is associated with a linked or embedded OLE object in a control. By using this reference, you can access the properties or invoke the methods of the OLE object. Read-only **Object**.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents an **[ObjectFrame](Access.ObjectFrame.md
 
 ## Remarks
 
-The **Object** property returns a reference to an ActiveX object. You can use the **Set** statement to assign this ActiveX object to an object variable. The type of object reference returned depends on which application created the OLE object.
+The **Object** property returns a reference to an ActiveX object. Use the **Set** statement to assign this ActiveX object to an object variable. The type of object reference returned depends on which application created the OLE object.
 
 When you embed or link an OLE object in a Microsoft Access form, you can set properties that determine the type of object and the behavior of the container control. However, you can't directly set or read the OLE object's properties or apply its methods, as you can when performing Automation. 
 

@@ -3,10 +3,9 @@ title: SetFocus method (VBA Add-In Object Model)
 keywords: vbob6.chm1098991
 f1_keywords:
 - vbob6.chm1098991
-ms.prod: office
 ms.assetid: 408bf4f7-5b76-e9dc-de60-c076470f88f4
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

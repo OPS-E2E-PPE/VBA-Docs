@@ -3,30 +3,29 @@ title: ParagraphFormat.Duplicate property (Word)
 keywords: vbawd10.chm156434442
 f1_keywords:
 - vbawd10.chm156434442
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.Duplicate
 ms.assetid: cc5e9633-ea7c-8317-5321-c7bbf1288579
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ParagraphFormat.Duplicate property (Word)
 
-Returns a read-only  **ParagraphFormat** object that represents the paragraph formatting of the specified paragraph.
+Returns a read-only **ParagraphFormat** object that represents the paragraph formatting of the specified paragraph.
 
 
 ## Syntax
 
- _expression_. `Duplicate`
+_expression_.**Duplicate**
 
- _expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Remarks
 
-You can use the  **Duplicate** property to pick up the settings of all the properties of a duplicated **ParagraphFormat** object. You can assign the object returned by the **Duplicate** property to another object of the same type to apply those settings all at once. Before assigning the duplicate object to another object, you can change any of the properties of the duplicate object without affecting the original.
+Use the **Duplicate** property to pick up the settings of all the properties of a duplicated **ParagraphFormat** object. You can assign the object returned by the **Duplicate** property to another object of the same type to apply those settings all at once. Before assigning the duplicate object to another object, you can change any of the properties of the duplicate object without affecting the original.
 
 
 ## Example

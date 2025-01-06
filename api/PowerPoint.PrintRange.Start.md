@@ -1,27 +1,26 @@
 ---
-title: PrintRange.Start Property (PowerPoint)
+title: PrintRange.Start property (PowerPoint)
 keywords: vbapp10.chm519003
 f1_keywords:
 - vbapp10.chm519003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintRange.Start
 ms.assetid: 493d64b3-c2fb-7f4a-ca59-a7f657a386a0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintRange.Start Property (PowerPoint)
+# PrintRange.Start property (PowerPoint)
 
 Returns the number of the first slide in the range of slides to be printed. Read-only.
 
 
 ## Syntax
 
- _expression_. `Start`
+_expression_.**Start**
 
- _expression_ A variable that represents a [PrintRange](./PowerPoint.PrintRange.md) object.
+_expression_ A variable that represents a [PrintRange](PowerPoint.PrintRange.md) object.
 
 
 ## Return value

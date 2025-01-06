@@ -1,26 +1,26 @@
 ---
-title: Year Object (Project)
+title: Year object (Project)
 keywords: vbapj.chm131361
 f1_keywords:
 - vbapj.chm131361
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Year
 ms.assetid: 060e541f-f709-65dd-c955-5d04c1554373
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Year Object (Project)
+# Year object (Project)
 
-Represents a year in a project calendar. The  **Year** object is a member of the **[Years](Project.years.md)** collection.
+Represents a year in a project calendar. The **Year** object is a member of the **[Years](Project.years.md)** collection.
  
 
 
 ## Remarks
 
-The  **Years** collection in Project begins in 1984 and ends in 2149. In previous versions of Project, scheduling can run from 1984 to 2049.
+The **Years** collection in Project begins in 1984 and ends in 2149. In previous versions of Project, scheduling can run from 1984 to 2049.
  
 
  
@@ -31,7 +31,7 @@ The  **Years** collection in Project begins in 1984 and ends in 2149. In previou
  
 
  
-Use  **Years** ( _Index_), where  _Index_ is the year index number, to return a single **Year** object. The following example counts the number of working days in the month of September 2012 for each selected resource.
+Use **Years** ( _Index_), where  _Index_ is the year index number, to return a single **Year** object. The following example counts the number of working days in the month of September 2012 for each selected resource.
  
 
  
@@ -55,8 +55,8 @@ For Each r In ActiveSelection.Resources()
             End If
         Next d
     End With
-    MsgBox "There are " &amp; workingDays &amp; " working days in " _
-        &amp; r.Name &amp; "'s calendar for month " &amp; theMonth
+    MsgBox "There are " & workingDays & " working days in " _
+        & r.Name & "'s calendar for month " & theMonth
 Next r
 ```
 
@@ -64,7 +64,7 @@ Next r
  
 
  
-Use the  **[Years](Project.Calendar.Years.md)** property to return a **Years** collection. The following example lists all the years in the calendar of the active project.
+Use the **[Years](Project.Calendar.Years.md)** property to return a **Years** collection. The following example lists all the years in the calendar of the active project.
  
 
  
@@ -77,15 +77,15 @@ Sub CountYears()
     Dim temp As String
         
     For c = 1 To ActiveProject.Calendar.Years.Count
-        temp = temp &amp; ListSeparator &amp; " " &amp; _
+        temp = temp & ListSeparator & " " & _
             ActiveProject.Calendar.Years(c + 1983).Name
     Next c
             
-    MsgBox Right$(temp, Len(temp) - Len(ListSeparator &amp; " "))
+    MsgBox Right$(temp, Len(temp) - Len(ListSeparator & " "))
 End Sub
 ```
 
-Figure 1 shows the results of the  **CountYears** macro.
+Figure 1 shows the results of the **CountYears** macro.
  
 
  

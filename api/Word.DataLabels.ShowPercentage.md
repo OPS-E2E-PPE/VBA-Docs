@@ -3,12 +3,11 @@ title: DataLabels.ShowPercentage property (Word)
 keywords: vbawd10.chm207489001
 f1_keywords:
 - vbawd10.chm207489001
-ms.prod: word
 api_name:
 - Word.DataLabels.ShowPercentage
 ms.assetid: d13c6988-d751-e084-8fc0-830cc1382906
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowPercentage`
+_expression_.**ShowPercentage**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Example

@@ -3,10 +3,9 @@ title: Insert menu
 keywords: vbui6.chm2057559
 f1_keywords:
 - vbui6.chm2057559
-ms.prod: office
 ms.assetid: fea77c4c-11a5-5ffd-8470-644a4d3c4ec9
 ms.date: 11/24/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

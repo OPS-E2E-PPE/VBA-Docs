@@ -1,27 +1,27 @@
 ---
-title: Application.CreateComparisonReport Method (Project)
+title: Application.CreateComparisonReport method (Project)
 keywords: vbapj.chm2182
 f1_keywords:
 - vbapj.chm2182
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CreateComparisonReport
 ms.assetid: 55b423a7-4613-e1ba-c1b8-e790e74694e7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CreateComparisonReport Method (Project)
+# Application.CreateComparisonReport method (Project)
 
 Creates a comparison report between two versions of a project. 
 
 
 ## Syntax
 
- _expression_. `CreateComparisonReport`( `_Filename_`, `_TaskTable_`, `_ResourceTable_`, `_Items_`, `_Columns_`, `_ShowLegend_` )
+_expression_. `CreateComparisonReport`( `_FileName_`, `_TaskTable_`, `_ResourceTable_`, `_Items_`, `_Columns_`, `_ShowLegend_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,12 +30,12 @@ Creates a comparison report between two versions of a project.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Filename_|Optional|**String**|Full path and name of the project file to compare.|
+| _FileName_|Optional|**String**|Full path and name of the project file to compare.|
 | _TaskTable_|Optional|**String**|Name of the table to use for comparison in a task view.|
 | _ResourceTable_|Optional|**String**|Name of the table to use for comparison in a resource view.|
 | _Items_|Optional|**[PjCompareVersionItems](Project.PjCompareVersionItems.md)**|Specifies the type of items to compare.|
 | _Columns_|Optional|**[PjCompareVersionColumns](Project.PjCompareVersionColumns.md)**|Specifies whether to show only column data, only column differences, or both differences and data.|
-| _ShowLegend_|Optional|**Variant**|If  **True**, shows the legend in the comparison report.|
+| _ShowLegend_|Optional|**Variant**|If **True**, shows the legend in the comparison report.|
 
 ## Return value
 
@@ -44,7 +44,7 @@ Creates a comparison report between two versions of a project.
 
 ## Remarks
 
-The  **CreateComparisonReport** method compares task or resource information, but not assignment information.
+The **CreateComparisonReport** method compares task or resource information, but not assignment information.
 
 
 ## Example

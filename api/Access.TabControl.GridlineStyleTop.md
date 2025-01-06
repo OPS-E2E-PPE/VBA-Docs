@@ -3,12 +3,11 @@ title: TabControl.GridlineStyleTop property (Access)
 keywords: vbaac10.chm14541
 f1_keywords:
 - vbaac10.chm14541
-ms.prod: access
 api_name:
 - Access.TabControl.GridlineStyleTop
 ms.assetid: 458b9b6d-cab1-fd58-6a01-c37c045d711c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

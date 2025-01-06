@@ -3,12 +3,11 @@ title: ScopeFolder object (Office)
 keywords: vbaof11.chm259000
 f1_keywords:
 - vbaof11.chm259000
-ms.prod: office
 api_name:
 - Office.ScopeFolder
 ms.assetid: fe46c1ad-fd60-a698-23dd-04d0631ac403
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -25,7 +24,7 @@ In each **ScopeFolder** object, there is a **ScopeFolders** collection that cont
 
 For an example that demonstrates how to loop through all of the **ScopeFolder** objects in a search scope, see the **SearchFolders** collection topic.
 
-You can use the **[Add](office.searchfolders.add.md)** method of the **SearchFolders** collection to add a **ScopeFolder** object to the **SearchFolders** collection; however, it is usually simpler to use the **[AddToSearchFolders](office.scopefolder.addtosearchfolders.md)** method of the **ScopeFolder** that you want to add because there is only one **SearchFolders** collection for all searches.
+Use the **[Add](office.searchfolders.add.md)** method of the **SearchFolders** collection to add a **ScopeFolder** object to the **SearchFolders** collection; however, it is usually simpler to use the **[AddToSearchFolders](office.scopefolder.addtosearchfolders.md)** method of the **ScopeFolder** that you want to add because there is only one **SearchFolders** collection for all searches.
 
 For an example that demonstrates how to add a **ScopeFolder** to the **SearchFolders** collection, see the **SearchFolders** collection topic.
 
@@ -39,15 +38,11 @@ Use the **ScopeFolder** property of the **SearchScope** object to return the roo
 Set sf = SearchScopes.Item(1).ScopeFolder
 ```
 
-<br/>
-
 Use the **[Item](office.scopefolders.item.md)** property of the **ScopeFolders** collection to return a subfolder of a root **ScopeFolder** object; for example:
 
 ```vb
 Set sf = SearchScopes.Item(1).ScopeFolder.ScopeFolders.Item(1)
 ```
-
-<br/>
 
 The following example displays the root path of each directory in My Computer. To retrieve this information, the example first gets the **ScopeFolder** object at the root of My Computer. The path of this **ScopeFolder** object will always be "*". As with all **ScopeFolder** objects, the root object contains a **ScopeFolders** collection. This example loops through this **ScopeFolders** collection and displays the path of each **ScopeFolder** object in it. The paths of these **ScopeFolder** objects will be `A:\`, `C:\`, etc.
 
@@ -70,7 +65,7 @@ Sub DisplayRootScopeFolders()
  'the ScopeFolders collection of the 
  'SearchScope object and display the path. 
  For Each sf In ss.ScopeFolder.ScopeFolders 
- MsgBox "ScopeFolder object's path: " &amp; sf.Path 
+ MsgBox "ScopeFolder object's path: " & sf.Path 
  Next sf 
  
  Case Else 

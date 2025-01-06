@@ -3,18 +3,17 @@ title: ListBox.ItemsSelected property (Access)
 keywords: vbaac10.chm11215
 f1_keywords:
 - vbaac10.chm11215
-ms.prod: access
 api_name:
 - Access.ListBox.ItemsSelected
 ms.assetid: c2403562-00c4-12ec-4d31-9b83d081cb4d
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.ItemsSelected property (Access)
 
-You can use the **ItemsSelected** property to return a read-only reference to the hidden **ItemsSelected** collection. This hidden collection can be used to access data in the selected rows of a multiselect list box control.
+Use the **ItemsSelected** property to return a read-only reference to the hidden **ItemsSelected** collection. This hidden collection can be used to access data in the selected rows of a multiselect list box control.
 
 
 ## Syntax
@@ -53,8 +52,6 @@ Sub BoundData()
  Next varItm 
 End Sub
 ```
-
-<br/>
 
 The following example uses the same list box control, but prints the values of each column for each selected row in the list box, instead of only the values in the bound column.
 

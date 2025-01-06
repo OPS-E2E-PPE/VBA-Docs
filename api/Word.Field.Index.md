@@ -3,25 +3,24 @@ title: Field.Index property (Word)
 keywords: vbawd10.chm154075144
 f1_keywords:
 - vbawd10.chm154075144
-ms.prod: word
 api_name:
 - Word.Field.Index
 ms.assetid: 68f3f817-1415-f428-cb38-ed79aff013e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Field.Index property (Word)
 
-Returns a  **Long** that represents the position of an item in a collection. Read-only.
+Returns a **Long** that represents the position of an item in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Index`
+_expression_.**Index**
 
- _expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## Example

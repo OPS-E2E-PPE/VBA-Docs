@@ -3,12 +3,11 @@ title: CustomXMLValidationErrors object (Office)
 keywords: vbaof11.chm308000
 f1_keywords:
 - vbaof11.chm308000
-ms.prod: office
 api_name:
 - Office.CustomXMLValidationErrors
 ms.assetid: 17c7b3dc-f4ba-b247-498d-48be197bbc91
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,7 +41,7 @@ On Error Go To validation_error
  
 If ValErrors.Count > 0 then 
    For Each ValError In ValErrors 
-      DeBug.Print("Error name: " &amp; ValError.Name &amp; " Error description: " &amp; ValError.Text)  
+      DeBug.Print("Error name: " & ValError.Name & " Error description: " & ValError.Text)  
    Next 
 End If 
  

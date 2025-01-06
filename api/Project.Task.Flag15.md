@@ -1,29 +1,29 @@
 ---
-title: Task.Flag15 Property (Project)
-ms.prod: project-server
+title: Task.Flag15 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag15
 ms.assetid: 3070a2f3-a630-77db-9404-ec07fa9728df
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag15 Property (Project)
+# Task.Flag15 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag15`
+_expression_. `Flag15`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

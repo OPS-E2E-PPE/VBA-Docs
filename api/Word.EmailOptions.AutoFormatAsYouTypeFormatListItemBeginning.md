@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeFormatListItemBeginning property (Word)
 keywords: vbawd10.chm165347597
 f1_keywords:
 - vbawd10.chm165347597
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeFormatListItemBeginning
 ms.assetid: b6450b00-f073-a7f3-2ce4-6fc057a17d41
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeFormatListItemBeginning`
+_expression_. `AutoFormatAsYouTypeFormatListItemBeginning`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example sets Word to automatically repeat character formatting at the begin
 Options.AutoFormatAsYouTypeFormatListItemBeginning = True
 ```
 
-This example returns the status of the  **Format beginning of list item like the one before it** option in the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Options** menu).
+This example returns the status of the **Format beginning of list item like the one before it** option in the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Options** menu).
 
 
 

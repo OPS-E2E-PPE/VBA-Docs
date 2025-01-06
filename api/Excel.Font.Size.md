@@ -3,12 +3,11 @@ title: Font.Size property (Excel)
 keywords: vbaxl10.chm559082
 f1_keywords:
 - vbaxl10.chm559082
-ms.prod: excel
 api_name:
 - Excel.Font.Size
 ms.assetid: 45f409cd-768b-0794-4fe9-ef002fa69606
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 04/26/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -18,9 +17,9 @@ Returns or sets the size of the font. Read/write **Variant**.
 
 ## Syntax
 
-_expression_. `Size`
+_expression_.**Size**
 
-_expression_ A variable that represents a [Font](Excel.Font-graph-property.md) object.
+_expression_ A variable that represents a **[Font](excel.font(object).md)** object.
 
 ## Example
 
@@ -34,8 +33,7 @@ End With
 
 ```
 
-## See also
 
-- [Font object](Excel.Font(object).md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

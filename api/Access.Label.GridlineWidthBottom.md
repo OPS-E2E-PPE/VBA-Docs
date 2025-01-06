@@ -3,12 +3,11 @@ title: Label.GridlineWidthBottom property (Access)
 keywords: vbaac10.chm10256
 f1_keywords:
 - vbaac10.chm10256
-ms.prod: access
 api_name:
 - Access.Label.GridlineWidthBottom
 ms.assetid: b64e4f85-2b6b-44c1-ee06-7d9a6ddbadc9
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

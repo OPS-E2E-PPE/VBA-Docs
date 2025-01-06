@@ -3,10 +3,9 @@ title: DeleteSetting statement (VBA)
 keywords: vblr6.chm1020901
 f1_keywords:
 - vblr6.chm1020901
-ms.prod: office
 ms.assetid: e80dec3d-f3e3-a94f-69ae-930e62898ad6
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Deletes a section or key setting from an application's entry in the Windows [reg
 ## Syntax
 
 **DeleteSetting** _appname_, _section_, [ _key_ ]
-
-<br/>
 
 The **DeleteSetting** statement syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

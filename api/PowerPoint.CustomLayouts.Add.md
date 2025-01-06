@@ -1,27 +1,26 @@
 ---
-title: CustomLayouts.Add Method (PowerPoint)
+title: CustomLayouts.Add method (PowerPoint)
 keywords: vbapp10.chm671004
 f1_keywords:
 - vbapp10.chm671004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CustomLayouts.Add
 ms.assetid: d22dc23a-cb03-ab32-fd27-e360377369a9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CustomLayouts.Add Method (PowerPoint)
+# CustomLayouts.Add method (PowerPoint)
 
-Returns a  **CustomLayout** object that represents a new custom layout.
+Returns a **CustomLayout** object that represents a new custom layout.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Index_` )
+_expression_.**Add** (_Index_)
 
-_expression_ A variable that represents a [CustomLayouts](./PowerPoint.CustomLayouts.md) object.
+_expression_ A variable that represents a [CustomLayouts](PowerPoint.CustomLayouts.md) object.
 
 
 ## Parameters

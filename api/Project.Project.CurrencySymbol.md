@@ -1,32 +1,32 @@
 ---
-title: Project.CurrencySymbol Property (Project)
+title: Project.CurrencySymbol property (Project)
 keywords: vbapj.chm131697
 f1_keywords:
 - vbapj.chm131697
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.CurrencySymbol
 ms.assetid: 5eccebc5-5c3d-4b30-31e0-68036411bca7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.CurrencySymbol Property (Project)
+# Project.CurrencySymbol property (Project)
 
-Gets or sets the characters that denote currency values. Read/write  **String**.
+Gets or sets the characters that denote currency values. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `CurrencySymbol`
+_expression_. `CurrencySymbol`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Project sets the  **CurrencySymbol** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
+Project sets the **CurrencySymbol** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
 
 
 ## Example

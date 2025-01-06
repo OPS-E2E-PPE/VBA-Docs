@@ -1,27 +1,26 @@
 ---
-title: Columns.Application Property (PowerPoint)
+title: Columns.Application property (PowerPoint)
 keywords: vbapp10.chm623001
 f1_keywords:
 - vbapp10.chm623001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Columns.Application
 ms.assetid: 94f1daa0-5f9c-3b4f-e947-ab6546e9447d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Columns.Application Property (PowerPoint)
+# Columns.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
-_expression_ A variable that represents a [Columns](./PowerPoint.Columns.md) object.
+_expression_ A variable that represents a [Columns](PowerPoint.Columns.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

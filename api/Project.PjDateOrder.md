@@ -1,15 +1,15 @@
 ---
-title: PjDateOrder Enumeration (Project)
-ms.prod: project-server
+title: PjDateOrder enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjDateOrder
 ms.assetid: 99946a59-559d-439a-ff14-38c7be671c3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjDateOrder Enumeration (Project)
+# PjDateOrder enumeration (Project)
 
 Contains constants that specify the order of a date value.
 

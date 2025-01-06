@@ -3,25 +3,24 @@ title: Global.LinesToPoints method (Word)
 keywords: vbawd10.chm163119478
 f1_keywords:
 - vbawd10.chm163119478
-ms.prod: word
 api_name:
 - Word.Global.LinesToPoints
 ms.assetid: 3acbbbef-0aec-d6aa-138f-cdd1e79e7dc6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.LinesToPoints method (Word)
 
-Converts a measurement from lines to points (1 line = 12 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from lines to points (1 line = 12 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `LinesToPoints`( `_Lines_` )
+_expression_. `LinesToPoints`( `_Lines_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters

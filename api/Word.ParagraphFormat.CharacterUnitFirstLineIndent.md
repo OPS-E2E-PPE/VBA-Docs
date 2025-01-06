@@ -3,25 +3,24 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent property (Word)
 keywords: vbawd10.chm156434560
 f1_keywords:
 - vbawd10.chm156434560
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.CharacterUnitFirstLineIndent
 ms.assetid: f5e68ef0-7086-4d33-7ed0-3c0569d203cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ParagraphFormat.CharacterUnitFirstLineIndent property (Word)
 
-Returns or sets the value (in characters) for a first-line or hanging indent. Use a positive value to set a first-line indent, and use a negative value to set a hanging indent. Read/write  **Single**.
+Returns or sets the value (in characters) for a first-line or hanging indent. Use a positive value to set a first-line indent, and use a negative value to set a hanging indent. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `CharacterUnitFirstLineIndent`
+_expression_. `CharacterUnitFirstLineIndent`
 
- _expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

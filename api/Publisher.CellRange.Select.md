@@ -1,33 +1,31 @@
 ---
-title: CellRange.Select Method (Publisher)
+title: CellRange.Select method (Publisher)
 keywords: vbapb10.chm5177353
 f1_keywords:
 - vbapb10.chm5177353
-ms.prod: publisher
 api_name:
 - Publisher.CellRange.Select
 ms.assetid: 15b0fc0b-8cac-9ff9-bac3-cf15351c7645
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# CellRange.Select Method (Publisher)
+# CellRange.Select method (Publisher)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. **Select**
+_expression_.**Select**
 
- _expression_ A variable that represents a  **CellRange** object.
+_expression_ A variable that represents a **[CellRange](Publisher.CellRange.md)** object.
 
 
 ## Example
 
 This example selects the upper-left cell from a table that has been added to the first page in the active publication.
-
 
 ```vb
 Dim shpTable As Shape 
@@ -41,10 +39,9 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first column from a table that has been added to the first page in the active publication.
-
-
-
 
 ```vb
 Dim shpTable As Shape 
@@ -59,10 +56,9 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first five characters in shape one on page one of the active publication.
-
-
-
 
 ```vb
 ActiveDocument.Pages(1).Shapes(1).TextFrame _ 

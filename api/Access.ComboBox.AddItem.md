@@ -3,12 +3,11 @@ title: ComboBox.AddItem method (Access)
 keywords: vbaac10.chm11476
 f1_keywords:
 - vbaac10.chm11476
-ms.prod: access
 api_name:
 - Access.ComboBox.AddItem
 ms.assetid: dd247136-f29b-b5e2-1e09-c5a808da803f
 ms.date: 02/28/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -56,8 +55,6 @@ Function AddItemToEnd(ctrlListBox As ListBox, _
  
 End Function
 ```
-
-<br/>
 
 This example adds an item to the beginning of the list in a combo box control. For the function to work, you must pass it a **ComboBox** object representing a combo box control on a form and a **String** value representing the text of the item to be added.
 

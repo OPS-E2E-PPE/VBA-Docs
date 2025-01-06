@@ -1,27 +1,27 @@
 ---
-title: ViewsCombination.Add Method (Project)
+title: ViewsCombination.Add method (Project)
 keywords: vbapj.chm132807
 f1_keywords:
 - vbapj.chm132807
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.ViewsCombination.Add
 ms.assetid: 84e93698-88c3-b4a7-a754-8078fcab897a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewsCombination.Add Method (Project)
+# ViewsCombination.Add method (Project)
 
-Adds a  **ViewCombination** object to a **ViewsCombination** collection.
+Adds a **ViewCombination** object to a **ViewsCombination** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_`, `_TopView_`, `_BottomView_`, `_ShowInMenu_` )
+_expression_.**Add** (_Name_, _TopView_, _BottomView_, _ShowInMenu_)
 
- _expression_ A variable that represents a 'ViewsCombination' object.
+_expression_ A variable that represents a 'ViewsCombination' object.
 
 
 ## Parameters

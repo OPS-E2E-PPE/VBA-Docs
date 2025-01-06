@@ -1,9 +1,9 @@
 ---
 title: CustomXMLValidationError members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: b84777a9-ffea-f6e2-022e-aaeabfac49e0
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

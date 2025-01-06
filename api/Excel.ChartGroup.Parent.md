@@ -3,12 +3,11 @@ title: ChartGroup.Parent property (Excel)
 keywords: vbaxl10.chm567075
 f1_keywords:
 - vbaxl10.chm567075
-ms.prod: excel
 api_name:
 - Excel.ChartGroup.Parent
 ms.assetid: ab6946c9-2e0b-90ed-14ad-1f4f3a954b83
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/20/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [ChartGroup](Excel.ChartGroup-graph-object.md) object.
+_expression_ A variable that represents a **[ChartGroup](Excel.ChartGroup(object).md)** object.
 
 
-## See also
 
-
-[ChartGroup Object](Excel.ChartGroup(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

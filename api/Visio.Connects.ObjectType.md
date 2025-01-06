@@ -1,27 +1,26 @@
 ---
-title: Connects.ObjectType Property (Visio)
+title: Connects.ObjectType property (Visio)
 keywords: vis_sdr.chm10413960
 f1_keywords:
 - vis_sdr.chm10413960
-ms.prod: visio
 api_name:
 - Visio.Connects.ObjectType
 ms.assetid: 1d27b1c5-89f0-493c-b90c-9be46fc93ca0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Connects.ObjectType Property (Visio)
+# Connects.ObjectType property (Visio)
 
 Returns an object's type. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a [Connects](./Visio.Connects.md) object.
+_expression_ A variable that represents a **[Connects](Visio.Connects.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Integer
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Example
 
-This example shows how to use the  **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
+This example shows how to use the **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
 
 
 ```vb

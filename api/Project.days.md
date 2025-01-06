@@ -1,15 +1,15 @@
 ---
-title: Days Object (Project)
-ms.prod: project-server
+title: Days object (Project)
+ms.service: project-server
 ms.assetid: ac9cc007-a318-c9a8-2e6c-c4834a52d5c2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Days Object (Project)
+# Days object (Project)
 
-Contains a collection of  **[Day](Project.Day.md)** objects.
+Contains a collection of **[Day](Project.Day.md)** objects.
  
 
 
@@ -19,7 +19,7 @@ Contains a collection of  **[Day](Project.Day.md)** objects.
  
 
  
-Use  **Days(***Index* **)**, where*Index* is the day index number or **[PjWeekday](Project.PjWeekday.md)** constant, to return a single **Day** object. The following example counts the number of working days in the month of September 2002 for each selected resource.
+Use **Days(***Index* **)**, where*Index* is the day index number or **[PjWeekday](Project.PjWeekday.md)** constant, to return a single **Day** object. The following example counts the number of working days in the month of September 2002 for each selected resource.
  
 
  
@@ -49,9 +49,9 @@ For Each R In ActiveSelection.Resources()
 
  End With 
 
- MsgBox "There are " &amp; WorkingDays &amp; " working days in " _ 
+ MsgBox "There are " & WorkingDays & " working days in " _ 
 
- &amp; R.Name &amp; "'s calendar." 
+ & R.Name & "'s calendar." 
 
 Next R
 ```
@@ -60,7 +60,7 @@ Next R
  
 
  
-Use the  **[Days](Project.Month.Days.md)** property to return a **Days** collection. The following example counts the number of days in the month of September 2002.
+Use the **[Days](Project.Month.Days.md)** property to return a **Days** collection. The following example counts the number of days in the month of September 2002.
  
 
  

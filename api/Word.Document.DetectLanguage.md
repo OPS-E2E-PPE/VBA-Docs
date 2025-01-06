@@ -3,12 +3,11 @@ title: Document.DetectLanguage method (Word)
 keywords: vbawd10.chm158007447
 f1_keywords:
 - vbawd10.chm158007447
-ms.prod: word
 api_name:
 - Word.Document.DetectLanguage
 ms.assetid: 625cff5b-630e-bcaa-1094-57db5029ebd9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ Analyzes the specified text to determine the language that it is written in.
 
 ## Syntax
 
- _expression_. `DetectLanguage`
+_expression_. `DetectLanguage`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-When applied to a  **Document** object, the **DetectLanguage** method checks all available text in the document (headers, footers, text boxes, and so forth). If the specified text contains a partial sentence, the selection or range is extended to the end of the sentence.
+When applied to a **Document** object, the **DetectLanguage** method checks all available text in the document (headers, footers, text boxes, and so forth). If the specified text contains a partial sentence, the selection or range is extended to the end of the sentence.
 
-If the  **DetectLanguage** method has already been applied to the specified text, the **[LanguageDetected](Word.Document.LanguageDetected.md)** property is set to **True**. To re-evaluate the language of the specified text, you must first set the **LanguageDetected** property to **False**.
+If the **DetectLanguage** method has already been applied to the specified text, the **[LanguageDetected](Word.Document.LanguageDetected.md)** property is set to **True**. To re-evaluate the language of the specified text, you must first set the **LanguageDetected** property to **False**.
 
 
 ## Example

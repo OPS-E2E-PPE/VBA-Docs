@@ -1,20 +1,20 @@
 ---
-title: Report.Name Property (Project)
-ms.prod: project-server
+title: Report.Name property (Project)
+ms.service: project-server
 ms.assetid: da13696d-313a-3d78-2f1b-34d5fea4c2a9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Report.Name Property (Project)
-Gets or sets the name of the report. Read/write  **String**.
+# Report.Name property (Project)
+Gets or sets the name of the report. Read/write **String**.
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
- _expression_ A variable that represents a 'Report' object.
+_expression_ A variable that represents a 'Report' object.
 
 
 ## Example

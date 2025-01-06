@@ -3,23 +3,22 @@ title: Envelope.ReturnAddressFromLeft property (Word)
 keywords: vbawd10.chm152567823
 f1_keywords:
 - vbawd10.chm152567823
-ms.prod: word
 api_name:
 - Word.Envelope.ReturnAddressFromLeft
 ms.assetid: ab0a068b-0b66-481b-ca07-25bb17e2abcf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.ReturnAddressFromLeft property (Word)
 
-Returns or sets the distance (in points) between the left edge of the envelope and the return address. Read/write  **Single**.
+Returns or sets the distance (in points) between the left edge of the envelope and the return address. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `ReturnAddressFromLeft`
+_expression_. `ReturnAddressFromLeft`
 
  _expression_ An expression that returns an '[Envelope](Word.Envelope.md)' object.
 

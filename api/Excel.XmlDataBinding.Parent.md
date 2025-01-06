@@ -3,12 +3,11 @@ title: XmlDataBinding.Parent property (Excel)
 keywords: vbaxl10.chm747075
 f1_keywords:
 - vbaxl10.chm747075
-ms.prod: excel
 api_name:
 - Excel.XmlDataBinding.Parent
 ms.assetid: f42c8efb-8566-7e58-7bb9-c6501dcccfd5
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/21/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [XmlDataBinding](./Excel.XmlDataBinding.md) object.
+_expression_ A variable that represents an **[XmlDataBinding](Excel.XmlDataBinding.md)** object.
 
 
-## See also
 
-
-[XmlDataBinding Object](Excel.XmlDataBinding.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

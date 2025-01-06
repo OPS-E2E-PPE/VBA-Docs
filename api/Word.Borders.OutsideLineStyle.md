@@ -3,12 +3,11 @@ title: Borders.OutsideLineStyle property (Word)
 keywords: vbawd10.chm154927111
 f1_keywords:
 - vbawd10.chm154927111
-ms.prod: word
 api_name:
 - Word.Borders.OutsideLineStyle
 ms.assetid: 13e9dfa7-6168-c217-b1bb-eebc81a40fbd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns or sets the outside border for the specified object. .
 
 ## Syntax
 
- _expression_. `OutsideLineStyle`
+_expression_. `OutsideLineStyle`
 
- _expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
+_expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
 
 
 ## Remarks
 
-This property returns  **wdUndefined** if more than one kind of border is applied to the specified object; otherwise, returns **False** or a **WdLineStyle** constant. Can be set to **True** , **False** , or a **WdLineStyle** constant.
+This property returns **wdUndefined** if more than one kind of border is applied to the specified object; otherwise, returns **False** or a **WdLineStyle** constant. Can be set to **True**, **False**, or a **WdLineStyle** constant.
 
  **True** sets the line style to the default line style and the line width to the default line width. The default line style and width can be set using the **DefaultBorderLineWidth** and **DefaultBorderLineStyle** properties.
 

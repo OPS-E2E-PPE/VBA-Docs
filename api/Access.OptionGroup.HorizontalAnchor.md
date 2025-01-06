@@ -3,12 +3,11 @@ title: OptionGroup.HorizontalAnchor property (Access)
 keywords: vbaac10.chm10883
 f1_keywords:
 - vbaac10.chm10883
-ms.prod: access
 api_name:
 - Access.OptionGroup.HorizontalAnchor
 ms.assetid: 61b8b9cf-6f56-aff1-ee78-ddea0d4e5940
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

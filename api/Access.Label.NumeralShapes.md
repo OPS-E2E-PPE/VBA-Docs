@@ -3,12 +3,11 @@ title: Label.NumeralShapes property (Access)
 keywords: vbaac10.chm10232
 f1_keywords:
 - vbaac10.chm10232
-ms.prod: access
 api_name:
 - Access.Label.NumeralShapes
 ms.assetid: 3da2f917-a257-b9aa-3517-f4d65bc3af18
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

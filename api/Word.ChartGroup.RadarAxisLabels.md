@@ -3,25 +3,24 @@ title: ChartGroup.RadarAxisLabels property (Word)
 keywords: vbawd10.chm263454744
 f1_keywords:
 - vbawd10.chm263454744
-ms.prod: word
 api_name:
 - Word.ChartGroup.RadarAxisLabels
 ms.assetid: 30b37487-bef9-b333-7df7-546d85a92047
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartGroup.RadarAxisLabels property (Word)
 
-Returns the radar axis labels for the specified chart group. Read-only  **[TickLabels](Word.TickLabels.md)**.
+Returns the radar axis labels for the specified chart group. Read-only **[TickLabels](Word.TickLabels.md)**.
 
 
 ## Syntax
 
- _expression_. `RadarAxisLabels`
+_expression_.**RadarAxisLabels**
 
- _expression_ A variable that represents a '[ChartGroup](Word.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](Word.ChartGroup.md)** object.
 
 
 ## Example

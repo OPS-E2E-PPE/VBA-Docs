@@ -3,25 +3,24 @@ title: DisplayUnitLabel.FormulaLocal property (Word)
 keywords: vbawd10.chm94568490
 f1_keywords:
 - vbawd10.chm94568490
-ms.prod: word
 api_name:
 - Word.DisplayUnitLabel.FormulaLocal
 ms.assetid: 2e1ca5f6-e03e-67bb-857e-b6561b5ef304
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DisplayUnitLabel.FormulaLocal property (Word)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
- _expression_ A variable that represents a '[DisplayUnitLabel](Word.DisplayUnitLabel.md)' object.
+_expression_ A variable that represents a '[DisplayUnitLabel](Word.DisplayUnitLabel.md)' object.
 
 
 ## Remarks

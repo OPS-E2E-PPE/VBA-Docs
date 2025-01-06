@@ -1,15 +1,14 @@
 ---
-title: MailItem.BeforeAttachmentAdd Event (Outlook)
-ms.prod: outlook
+title: MailItem.BeforeAttachmentAdd event (Outlook)
 api_name:
 - Outlook.MailItem.BeforeAttachmentAdd
 ms.assetid: d053d72c-07fa-275e-6e1a-8d54e23119ec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.BeforeAttachmentAdd Event (Outlook)
+# MailItem.BeforeAttachmentAdd event (Outlook)
 
 Occurs before an attachment is added to an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs before an attachment is added to an instance of the parent object.
 
 _expression_. `BeforeAttachmentAdd`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be added to the item.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be added.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be added to the item.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be added.|
 
 ## See also
 

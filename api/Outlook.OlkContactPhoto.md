@@ -1,25 +1,24 @@
 ---
-title: OlkContactPhoto Object (Outlook)
+title: OlkContactPhoto object (Outlook)
 keywords: vbaol11.chm1000322
 f1_keywords:
 - vbaol11.chm1000322
-ms.prod: outlook
 api_name:
 - Outlook.OlkContactPhoto
 ms.assetid: eea9a5d0-c208-dbf9-39e1-93614fb98d1e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkContactPhoto Object (Outlook)
+# OlkContactPhoto object (Outlook)
 
 A control that shows the contact picture for a contact item if a contact picture has been defined, or the contact picture button if no contact picture has been assigned. 
 
 
 ## Remarks
 
-Before you use this control for the first time in the forms designer, add the Microsoft Outlook Contact Photo Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic  **UserForm** object in the Visual Basic Editor.
+Before you use this control for the first time in the forms designer, add the Microsoft Outlook Contact Photo Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic **UserForm** object in the Visual Basic Editor.
 
 The following is the contact picture button that is displayed at runtime if no contact picture has been defined. If a contact picture has been defined for a contact, the contact photo will be rescaled to fit into the control space. This control supports Microsoft Windows themes.
 
@@ -62,6 +61,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

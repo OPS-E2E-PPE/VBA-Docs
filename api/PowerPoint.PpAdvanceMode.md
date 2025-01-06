@@ -1,15 +1,14 @@
 ---
-title: PpAdvanceMode Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpAdvanceMode enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpAdvanceMode
 ms.assetid: 74cfe35b-2e12-5782-cf1f-0dda22f1889a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpAdvanceMode Enumeration (PowerPoint)
+# PpAdvanceMode enumeration (PowerPoint)
 
 Specifies how the specified animation advances.
 

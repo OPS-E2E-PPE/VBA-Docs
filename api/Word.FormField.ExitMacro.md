@@ -3,25 +3,24 @@ title: FormField.ExitMacro property (Word)
 keywords: vbawd10.chm153616388
 f1_keywords:
 - vbawd10.chm153616388
-ms.prod: word
 api_name:
 - Word.FormField.ExitMacro
 ms.assetid: b8930661-e02f-e058-571e-986da33a477d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FormField.ExitMacro property (Word)
 
-Returns or sets an exit macro name for the specified form field (CheckBox, DropDown, or TextInput). Read/write  **String**.
+Returns or sets an exit macro name for the specified form field (CheckBox, DropDown, or TextInput). Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `ExitMacro`
+_expression_. `ExitMacro`
 
- _expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Remarks

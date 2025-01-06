@@ -3,12 +3,11 @@ title: SharedWorkspaceFolders.ItemCountExceeded property (Office)
 keywords: vbaof11.chm269005
 f1_keywords:
 - vbaof11.chm269005
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFolders.ItemCountExceeded
 ms.assetid: cc8f3b36-e9cc-ad08-c94d-85c2b909ee97
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,7 +33,7 @@ Boolean
 
 ## Remarks
 
-The **Shared Workspace** task pane can only display 99 shared workspace files and folders, links, members, or tasks. If more than 99 items are added to any of these collections, the corresponding tab of the **Shared Workspace** task pane will stop displaying the list of items, and displays a link to the shared workspace site web page instead; the collection is no longer populated locally, and its **Count** property returns 0 (zero).
+The **Shared Workspace** task pane can only display 99 shared workspace files and folders, links, members, or tasks. If more than 99 items are added to any of these collections, the corresponding tab of the **Shared Workspace** task pane will stop displaying the list of items, and displays a link to the shared workspace site webpage instead; the collection is no longer populated locally, and its **Count** property returns 0 (zero).
 
 Furthermore, after the **ItemCountExceeded** property returns **True** for one of the collections listed earlier, the developer can no longer remedy the situation programmatically by deleting items from the collection to reduce the count below 99 because the collection is no longer populated.
 

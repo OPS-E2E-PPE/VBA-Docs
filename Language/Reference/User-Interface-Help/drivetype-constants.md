@@ -1,17 +1,14 @@
 ---
 title: DriveType constants
-ms.prod: office
 ms.assetid: d3e1fec9-927e-8c8d-911b-864e930801bb
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DriveType constants
 
 These constants are only available when your project has an explicit reference to the appropriate [type library](../../Glossary/vbe-glossary.md#type-library) containing these constant definitions.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

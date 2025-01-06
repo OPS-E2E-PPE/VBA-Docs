@@ -3,12 +3,11 @@ title: ToggleButton.Shape property (Access)
 keywords: vbaac10.chm14628
 f1_keywords:
 - vbaac10.chm14628
-ms.prod: access
 api_name:
 - Access.ToggleButton.Shape
 ms.assetid: 86f39f5a-ab5b-2db2-611b-53568a99ac0c
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

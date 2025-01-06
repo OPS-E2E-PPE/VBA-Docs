@@ -3,25 +3,24 @@ title: Axis.MinorUnitScale property (Word)
 keywords: vbawd10.chm113049663
 f1_keywords:
 - vbawd10.chm113049663
-ms.prod: word
 api_name:
 - Word.Axis.MinorUnitScale
 ms.assetid: 3ddf49b7-48f2-144f-bf01-3b0c16673b11
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MinorUnitScale property (Word)
 
-Returns or sets the minor unit scale value for the category axis when the  **[CategoryType](Word.Axis.CategoryType.md)** property is set to **xlTimeScale**. Read/write **[xlTimeUnit](Word.xltimeunit.md)**.
+Returns or sets the minor unit scale value for the category axis when the **[CategoryType](Word.Axis.CategoryType.md)** property is set to **xlTimeScale**. Read/write **[XlTimeUnit](Word.xltimeunit.md)**.
 
 
 ## Syntax
 
- _expression_. `MinorUnitScale`
+_expression_. `MinorUnitScale`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
@@ -29,11 +28,11 @@ Returns or sets the minor unit scale value for the category axis when the  **[Ca
  **MinorUnitScale** can be one of the following **xlTimeUnit** constants:
 
 
--  **xlMonths**
+- **xlMonths**
     
--  **xlDays**
+- **xlDays**
     
--  **xlYears**
+- **xlYears**
     
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: PbDateTimeFormat Enumeration (Publisher)
+title: PbDateTimeFormat enumeration (Publisher)
 keywords: vbapb10.chm65560
 f1_keywords:
 - vbapb10.chm65560
-ms.prod: publisher
 api_name:
 - Publisher.PbDateTimeFormat
 ms.assetid: a9cafc4a-18ab-df84-3adb-995a935bd2d0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbDateTimeFormat Enumeration (Publisher)
+# PbDateTimeFormat enumeration (Publisher)
 
 A format for the date and time.
 

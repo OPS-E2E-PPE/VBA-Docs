@@ -3,25 +3,24 @@ title: ThreeDFormat.ExtrusionColor property (Word)
 keywords: vbawd10.chm164626533
 f1_keywords:
 - vbawd10.chm164626533
-ms.prod: word
 api_name:
 - Word.ThreeDFormat.ExtrusionColor
 ms.assetid: 60c8bf56-1a6e-08e9-2100-058c7863e2fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ThreeDFormat.ExtrusionColor property (Word)
 
-Returns a  **[ColorFormat](Word.ColorFormat.md)** object that represents the color of the shape's extrusion. Read-only.
+Returns a **[ColorFormat](Word.ColorFormat.md)** object that represents the color of the shape's extrusion. Read-only.
 
 
 ## Syntax
 
- _expression_. `ExtrusionColor`
+_expression_. `ExtrusionColor`
 
- _expression_ A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
+_expression_ A variable that represents a '[ThreeDFormat](Word.ThreeDFormat.md)' object.
 
 
 ## Example

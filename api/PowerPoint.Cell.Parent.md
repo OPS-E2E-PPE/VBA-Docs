@@ -1,27 +1,26 @@
 ---
-title: Cell.Parent Property (PowerPoint)
+title: Cell.Parent property (PowerPoint)
 keywords: vbapp10.chm628002
 f1_keywords:
 - vbapp10.chm628002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Cell.Parent
 ms.assetid: 45650dd8-b51d-68ec-d117-5ddb8e8c675f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.Parent Property (PowerPoint)
+# Cell.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [Cell](./PowerPoint.Cell.md) object.
+_expression_ A variable that represents a [Cell](PowerPoint.Cell.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

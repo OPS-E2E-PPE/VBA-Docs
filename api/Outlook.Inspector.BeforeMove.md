@@ -1,27 +1,26 @@
 ---
-title: Inspector.BeforeMove Event (Outlook)
+title: Inspector.BeforeMove event (Outlook)
 keywords: vbaol11.chm470
 f1_keywords:
 - vbaol11.chm470
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.BeforeMove
 ms.assetid: 52a4445e-4d76-7b55-ce28-d972fba87a9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.BeforeMove Event (Outlook)
+# Inspector.BeforeMove event (Outlook)
 
-Occurs when the  **[Inspector](Outlook.Inspector.md)** is moved by the user.
+Occurs when the **[Inspector](Outlook.Inspector.md)** is moved by the user.
 
 
 ## Syntax
 
 _expression_. `BeforeMove`( `_Cancel_` )
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) o
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the inspector is not moved.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the inspector is not moved.|
 
 ## Remarks
 

@@ -1,20 +1,20 @@
 ---
-title: Shape.IncrementTop Method (Project)
-ms.prod: project-server
+title: Shape.IncrementTop method (Project)
+ms.service: project-server
 ms.assetid: 69804932-00eb-b446-aa99-1b83174d004d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.IncrementTop Method (Project)
+# Shape.IncrementTop method (Project)
 Moves the shape vertically by the specified number of points.
 
 ## Syntax
 
- _expression_. `IncrementTop` _(Increment)_
+_expression_.**IncrementTop** (_Increment_)
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Parameters

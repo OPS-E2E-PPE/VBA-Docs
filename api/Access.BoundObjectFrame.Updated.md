@@ -3,12 +3,11 @@ title: BoundObjectFrame.Updated event (Access)
 keywords: vbaac10.chm14089
 f1_keywords:
 - vbaac10.chm14089
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.Updated
 ms.assetid: eb730f01-1a68-8016-5d87-738ff6b2553c
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -33,7 +32,7 @@ _expression_ A variable that represents a **[BoundObjectFrame](Access.BoundObjec
 
 To run a macro or event procedure when this event occurs, set the **OnUpdated** property to the name of the macro or to [Event Procedure].
 
-You can use this event to determine if an object's data has been changed since it was last saved.
+Use this event to determine if an object's data has been changed since it was last saved.
 
 The **Updated** event occurs when the data in an OLE object has been modified. This update can come from the application in which the object was created or from one of the linked copies of this object. As a result, this event is asynchronous with other Microsoft Access control events.
 

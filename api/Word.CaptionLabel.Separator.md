@@ -3,25 +3,24 @@ title: CaptionLabel.Separator property (Word)
 keywords: vbawd10.chm158924806
 f1_keywords:
 - vbawd10.chm158924806
-ms.prod: word
 api_name:
 - Word.CaptionLabel.Separator
 ms.assetid: b49e1c5d-737e-2084-ec33-71c3a0fa58bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CaptionLabel.Separator property (Word)
 
-Returns or sets the character between the chapter number and the sequence number. Read/write  **WdSeparatorType**.
+Returns or sets the character between the chapter number and the sequence number. Read/write **WdSeparatorType**.
 
 
 ## Syntax
 
- _expression_. `Separator`
+_expression_.**Separator**
 
- _expression_ Required. A variable that represents a '[CaptionLabel](Word.CaptionLabel.md)' object.
+_expression_ Required. A variable that represents a '[CaptionLabel](Word.CaptionLabel.md)' object.
 
 
 ## Example

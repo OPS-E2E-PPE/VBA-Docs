@@ -1,27 +1,26 @@
 ---
-title: DistListItem.DLName Property (Outlook)
+title: DistListItem.DLName property (Outlook)
 keywords: vbaol11.chm1148
 f1_keywords:
 - vbaol11.chm1148
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.DLName
 ms.assetid: 38d027b7-89f9-1659-84e0-35473b07c088
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.DLName Property (Outlook)
+# DistListItem.DLName property (Outlook)
 
-Returns or sets a  **String** representing the display name of a distribution list. Read/write.
+Returns or sets a **String** representing the display name of a distribution list. Read/write.
 
 
 ## Syntax
 
 _expression_. `DLName`
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Example

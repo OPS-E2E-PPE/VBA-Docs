@@ -1,19 +1,16 @@
 ---
 title: MsoLanguageID enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoLanguageID
 ms.assetid: 65ea40f0-9a09-3d76-1519-4acddcc5f367
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoLanguageID enumeration (Office)
 
 Specifies the language identifier.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|
@@ -93,7 +90,7 @@ Specifies the language identifier.
 |**msoLanguageIDFrenchReunion**|8204|The French Reunion language |
 |**msoLanguageIDFrenchSenegal**|10252|The French Senegal language |
 |**msoLanguageIDFrenchWestIndies**|7180|The French West Indies language |
-|**msoLanguageIDFranchCongoDRC**|9228|The French Congo DRC language |
+|**msoLanguageIDFrenchCongoDRC**|9228|The French Congo DRC language |
 |**msoLanguageIDFrisianNetherlands**|1122|The Frisian Netherlands language |
 |**msoLanguageIDFulfulde**|1127|The Fulfulde language |
 |**msoLanguageIDGaelicIreland**|2108|The Irish (Ireland) language |
@@ -133,7 +130,7 @@ Specifies the language identifier.
 |**msoLanguageIDLatin**|1142|The Latin language |
 |**msoLanguageIDLatvian**|1062|The Latvian language |
 |**msoLanguageIDLithuanian**|1063|The Lithuanian language |
-|**msoLanguageIDMacedoninanFYROM**|1071|The Macedonian FYROM language |
+|**msoLanguageIDMacedonianFYROM**|1071|The Macedonian language |
 |**msoLanguageIDMalayalam**|1100|The Malayalam language |
 |**msoLanguageIDMalayBruneiDarussalam**|2110|The Malay Brunei Darussalam language |
 |**msoLanguageIDMalaysian**|1086|The Malaysian language |

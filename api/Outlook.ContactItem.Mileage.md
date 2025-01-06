@@ -1,27 +1,26 @@
 ---
-title: ContactItem.Mileage Property (Outlook)
+title: ContactItem.Mileage property (Outlook)
 keywords: vbaol11.chm946
 f1_keywords:
 - vbaol11.chm946
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Mileage
 ms.assetid: 8c88b294-8c43-386c-36c4-749377862938
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Mileage Property (Outlook)
+# ContactItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Remarks

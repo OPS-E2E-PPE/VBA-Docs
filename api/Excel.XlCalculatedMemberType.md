@@ -1,11 +1,10 @@
 ---
 title: XlCalculatedMemberType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.xlCalculatedMemberType
 ms.assetid: b0b2ef28-441f-e979-b26c-0c7e6aec9d87
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

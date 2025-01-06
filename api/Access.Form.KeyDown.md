@@ -3,12 +3,11 @@ title: Form.KeyDown event (Access)
 keywords: vbaac10.chm13655
 f1_keywords:
 - vbaac10.chm13655
-ms.prod: access
 api_name:
 - Access.Form.KeyDown
 ms.assetid: ceb66db0-695a-e3b1-f0f7-6c9bd9191b2b
 ms.date: 02/10/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -83,9 +82,9 @@ Private Sub KeyHandler_KeyDown(KeyCode As Integer, _
     intAltDown = (Shift And acAltMask) > 0 
     intCtrlDown = (Shift And acCtrlMask) > 0 
     ' Display message telling user which key was pressed. 
-    If intShiftDown Then MsgBox "You pressed the SHIFT key." 
-    If intAltDown Then MsgBox "You pressed the ALT key." 
-    If intCtrlDown Then MsgBox "You pressed the CTRL key." 
+    If intShiftDown Then MsgBox "You pressed the Shift key." 
+    If intAltDown Then MsgBox "You pressed the Alt key." 
+    If intCtrlDown Then MsgBox "You pressed the Ctrl key." 
 End Sub
 ```
 

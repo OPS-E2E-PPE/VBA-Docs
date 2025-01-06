@@ -3,12 +3,11 @@ title: CommandBar.ShowPopup method (Office)
 keywords: vbaof11.chm3017
 f1_keywords:
 - vbaof11.chm3017
-ms.prod: office
 api_name:
 - Office.CommandBar.ShowPopup
 ms.assetid: e501b7d2-2606-976c-b391-1aa8fa07f105
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,7 +35,7 @@ _expression_ A variable that represents a **[CommandBar](Office.CommandBar.md)**
 
 ## Remarks
 
-When menus are left-aligned, the shortcut menu displayed by the **ShowPopup** method has its upper left corner at (_x_, _y_ + 1); when menus are right-aligned, the shortcut menu has its upper right corner at (_x_ + 1, _y_ + 1). You can use the Windows function **GetSystemMetrics(SM_MENUDROPALIGNMENT)** to check the system metric for dropdown menu alignment.
+When menus are left-aligned, the shortcut menu displayed by the **ShowPopup** method has its upper left corner at (_x_, _y_ + 1); when menus are right-aligned, the shortcut menu has its upper right corner at (_x_ + 1, _y_ + 1). Use the Windows function **GetSystemMetrics(SM_MENUDROPALIGNMENT)** to check the system metric for dropdown menu alignment.
 
 When the screen location of the (_x_, _y_) coordinates would cause all or part of the popup menu to be displayed beyond the edge of the visible screen, the popup menu shifts to fit into the viewable area.
 

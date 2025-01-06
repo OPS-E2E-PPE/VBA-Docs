@@ -1,27 +1,26 @@
 ---
-title: MeetingItem.GetAssociatedAppointment Method (Outlook)
+title: MeetingItem.GetAssociatedAppointment method (Outlook)
 keywords: vbaol11.chm1455
 f1_keywords:
 - vbaol11.chm1455
-ms.prod: outlook
 api_name:
 - Outlook.MeetingItem.GetAssociatedAppointment
 ms.assetid: 8344d40d-5c1d-ead3-87cb-fd795b831712
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.GetAssociatedAppointment Method (Outlook)
+# MeetingItem.GetAssociatedAppointment method (Outlook)
 
-Returns an  **[AppointmentItem](Outlook.AppointmentItem.md)** object that represents the appointment associated with the meeting request.
+Returns an **[AppointmentItem](Outlook.AppointmentItem.md)** object that represents the appointment associated with the meeting request.
 
 
 ## Syntax
 
 _expression_. `GetAssociatedAppointment`( `_AddToCalendar_` )
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md
 
 ## Return value
 
-An  **AppointmentItem** object that represents the associated appointment.
+An **AppointmentItem** object that represents the associated appointment.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example finds a  **[MeetingItem](Outlook.MeetingItem.md)** in the default **Inbox** folder that has not been responded to yet and adds the associated appointment to the **Calendar** folder. It then responds to the sender by accepting the meeting.
+This Visual Basic for Applications (VBA) example finds a **[MeetingItem](Outlook.MeetingItem.md)** in the default **Inbox** folder that has not been responded to yet and adds the associated appointment to the **Calendar** folder. It then responds to the sender by accepting the meeting.
 
 
 ```vb

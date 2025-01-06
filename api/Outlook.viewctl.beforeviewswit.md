@@ -1,9 +1,8 @@
 ---
 title: ViewCtl.BeforeViewSwitch Event (Outlook View Control)
-ms.prod: outlook
 ms.assetid: f68c1cd3-7463-0e2b-7fee-d5a100b79f8c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,9 +13,9 @@ Occurs before Microsoft Outlook changes the view that is applied to the folder d
 
 ## Syntax
 
- _expression_. **BeforeViewSwitch**(**_newView_**,  **_Cancel_**)
+_expression_.**BeforeViewSwitch**(**_newView_**, **_Cancel_**)
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Parameters
@@ -26,7 +25,7 @@ _expression_ A variable that represents a  **ViewCtl** object.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |newView|Required| **String**|The name of the view that the View Control is switching to.|
-|Cancel|Optional| **Boolean**| **False** when the event occurs. If the event procedure sets this parameter to **True**, it cancels the switch and retains the current view.|
+|_Cancel_|Optional| **Boolean**| **False** when the event occurs. If the event procedure sets this parameter to **True**, it cancels the switch and retains the current view.|
 
 ## Remarks
 

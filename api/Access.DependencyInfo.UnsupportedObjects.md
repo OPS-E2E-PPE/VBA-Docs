@@ -3,12 +3,11 @@ title: DependencyInfo.UnsupportedObjects property (Access)
 keywords: vbaac10.chm13278
 f1_keywords:
 - vbaac10.chm13278
-ms.prod: access
 api_name:
 - Access.DependencyInfo.UnsupportedObjects
 ms.assetid: 9ad524f3-eb97-c078-47f6-0ad4b1ad2119
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

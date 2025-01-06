@@ -1,25 +1,25 @@
 ---
-title: Cell.FontColorEx Property (Project)
+title: Cell.FontColorEx property (Project)
 keywords: vbapj.chm131605
 f1_keywords:
 - vbapj.chm131605
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Cell.FontColorEx
 ms.assetid: 3b9761b3-f1e8-9547-7f2f-8065f6646edc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.FontColorEx Property (Project)
+# Cell.FontColorEx property (Project)
 
-Gets or sets the color of the font. Read/write  **Long**.
+Gets or sets the color of the font. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `FontColorEx`
+_expression_. `FontColorEx`
 
  _expression_ An expression that returns a [Cell](./Project.Cell.md) object.
 

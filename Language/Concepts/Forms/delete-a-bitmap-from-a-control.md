@@ -3,10 +3,9 @@ title: Delete a bitmap from a control
 keywords: fm20.chm5225261
 f1_keywords:
 - fm20.chm5225261
-ms.prod: office
 ms.assetid: eaf08912-b32a-b71e-eb45-5befc9bc69be
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

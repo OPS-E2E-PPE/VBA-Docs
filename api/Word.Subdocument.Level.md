@@ -3,25 +3,24 @@ title: Subdocument.Level property (Word)
 keywords: vbawd10.chm159973382
 f1_keywords:
 - vbawd10.chm159973382
-ms.prod: word
 api_name:
 - Word.Subdocument.Level
 ms.assetid: 5a4d20aa-8801-77b7-ad86-6c0e26179bef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Subdocument.Level property (Word)
 
-Returns the heading level used to create the subdocument. Read-only  **Long**.
+Returns the heading level used to create the subdocument. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `Level`
+_expression_. `Level`
 
- _expression_ Required. A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
+_expression_ Required. A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
 
 
 ## Example

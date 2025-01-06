@@ -3,10 +3,9 @@ title: Using Select Case statements (VBA)
 keywords: vbcn6.chm1076686
 f1_keywords:
 - vbcn6.chm1076686
-ms.prod: office
 ms.assetid: 0573a361-84d6-549f-8c51-5bc0fe17d156
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

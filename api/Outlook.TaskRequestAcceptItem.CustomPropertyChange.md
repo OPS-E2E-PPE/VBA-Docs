@@ -1,15 +1,14 @@
 ---
-title: TaskRequestAcceptItem.CustomPropertyChange Event (Outlook)
-ms.prod: outlook
+title: TaskRequestAcceptItem.CustomPropertyChange event (Outlook)
 api_name:
 - Outlook.TaskRequestAcceptItem.CustomPropertyChange
 ms.assetid: 607b04b9-d365-c9d7-91f5-05a8a15a4fea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.CustomPropertyChange Event (Outlook)
+# TaskRequestAcceptItem.CustomPropertyChange event (Outlook)
 
 Occurs when a custom property of an item (which is an instance of the parent object) is changed. 
 
@@ -18,7 +17,7 @@ Occurs when a custom property of an item (which is an instance of the parent obj
 
 _expression_. `CustomPropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.TaskRequestAcceptItem.md) object.
+_expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 
 
 ## Parameters
@@ -36,9 +35,9 @@ The property name is passed to the procedure so that you can determine which cus
 
 ## Example
 
-This Microsoft Visual Basic Scripting Edition (VBScript) example uses the  **CustomPropertyChange** event to enable a control when a **Boolean** field is set to **True**.
+This Microsoft Visual Basic Scripting Edition (VBScript) example uses the **CustomPropertyChange** event to enable a control when a **Boolean** field is set to **True**.
 
-For this example, create two custom fields on the second page of a form. The first, a  **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
+For this example, create two custom fields on the second page of a form. The first, a **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
 
 
 

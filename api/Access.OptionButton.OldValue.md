@@ -3,18 +3,17 @@ title: OptionButton.OldValue property (Access)
 keywords: vbaac10.chm10558
 f1_keywords:
 - vbaac10.chm10558
-ms.prod: access
 api_name:
 - Access.OptionButton.OldValue
 ms.assetid: ea84a877-ef29-444a-ce08-e816ee7e3dae
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

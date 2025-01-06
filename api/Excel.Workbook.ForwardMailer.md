@@ -3,12 +3,11 @@ title: Workbook.ForwardMailer method (Excel)
 keywords: vbaxl10.chm199101
 f1_keywords:
 - vbaxl10.chm199101
-ms.prod: excel
 api_name:
 - Excel.Workbook.ForwardMailer
 ms.assetid: 956b1746-26f2-5968-0ef7-fa3da2be974c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/29/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ You have requested Help for a Visual Basic keyword used only on the Macintosh. F
 
 ## Syntax
 
-_expression_. `ForwardMailer`
+_expression_.**ForwardMailer**
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
-[Workbook Object](Excel.Workbook.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

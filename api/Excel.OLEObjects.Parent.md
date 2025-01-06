@@ -3,12 +3,11 @@ title: OLEObjects.Parent property (Excel)
 keywords: vbaxl10.chm419073
 f1_keywords:
 - vbaxl10.chm419073
-ms.prod: excel
 api_name:
 - Excel.OLEObjects.Parent
 ms.assetid: ef45b22e-fc42-af65-5732-f6ac6f03a758
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/02/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents an [OLEObjects](Excel.OLEObjects.md) object.
+_expression_ A variable that represents an **[OLEObjects](Excel.OLEObjects.md)** object.
 
 
-## See also
 
-
-[OLEObjects Object](Excel.OLEObjects.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

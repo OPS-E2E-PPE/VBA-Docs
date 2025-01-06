@@ -3,18 +3,17 @@ title: PageBreak.Top property (Access)
 keywords: vbaac10.chm11675
 f1_keywords:
 - vbaac10.chm11675
-ms.prod: access
 api_name:
 - Access.PageBreak.Top
 ms.assetid: 4655b6b8-98b8-9feb-243b-1090eaedbe7b
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageBreak.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

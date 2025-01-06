@@ -3,12 +3,11 @@ title: CustomXMLParts.Add method (Office)
 keywords: vbaof11.chm298004
 f1_keywords:
 - vbaof11.chm298004
-ms.prod: office
 api_name:
 - Office.CustomXMLParts.Add
 ms.assetid: f2c1588b-c11b-49ca-5db6-4fa4c26d10c5
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

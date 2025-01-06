@@ -3,12 +3,11 @@ title: OptionButton.RightPadding property (Access)
 keywords: vbaac10.chm10643
 f1_keywords:
 - vbaac10.chm10643
-ms.prod: access
 api_name:
 - Access.OptionButton.RightPadding
 ms.assetid: e739fdd2-18be-eb96-f8ed-a9b4b82b4885
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

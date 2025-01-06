@@ -1,27 +1,26 @@
 ---
-title: Presentation.CanCheckIn Method (PowerPoint)
+title: Presentation.CanCheckIn method (PowerPoint)
 keywords: vbapp10.chm583066
 f1_keywords:
 - vbapp10.chm583066
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.CanCheckIn
 ms.assetid: 26d76ca4-4fd3-2037-e193-0d2d39f59361
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.CanCheckIn Method (PowerPoint)
+# Presentation.CanCheckIn method (PowerPoint)
 
-Returns  **True** if Microsoft PowerPoint can check in a specified presentation to a server.
+Returns **True** if Microsoft PowerPoint can check in a specified presentation to a server.
 
 
 ## Syntax
 
- _expression_. `CanCheckIn`
+_expression_. `CanCheckIn`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ To take advantage of the collaboration features built into PowerPoint, you must 
 
 ## Example
 
-This example checks the server to see if the specified presentation can be checked in and, if it can be, closes the presentation and checks it back into server.
+This example checks the server to see if the specified presentation can be checked in, and if it can be, closes the presentation and checks it back into server.
 
 
 ```vb
@@ -47,7 +46,7 @@ Sub CheckInPresentation(strPresentation As String)
         MsgBox strPresentation & " has been checked in."
     Else
         MsgBox strPresentation & " cannot be checked in " & _
-        "at this time.  Please try again later."
+        "at this time. Please try again later."
     End If
 
 End Sub

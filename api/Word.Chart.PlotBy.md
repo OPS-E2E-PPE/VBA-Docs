@@ -3,39 +3,38 @@ title: Chart.PlotBy property (Word)
 keywords: vbawd10.chm79364298
 f1_keywords:
 - vbawd10.chm79364298
-ms.prod: word
 api_name:
 - Word.Chart.PlotBy
 ms.assetid: ae2774d0-0f58-2224-9104-61d00fa63a86
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Chart.PlotBy property (Word)
 
-Returns or sets the way columns or rows are used as data series on the chart. Read/write  **Long**.
+Returns or sets the way columns or rows are used as data series on the chart. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `PlotBy`
+_expression_.**PlotBy**
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Remarks
 
-The value of this property can be one of the following  **[xlRowCol](Word.xlrowcol.md)** constants:
+The value of this property can be one of the following **[XlRowCol](Word.xlrowcol.md)** constants:
 
 
--  **xlColumns**
+- **xlColumns**
     
--  **xlRows**
+- **xlRows**
     
 
 
-For PivotChart reports, this property is read-only and always returns  **xlColumns**.
+For PivotChart reports, this property is read-only and always returns **xlColumns**.
 
 
 ## Example

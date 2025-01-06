@@ -3,12 +3,11 @@ title: Options.AutoKeyboardSwitching property (Word)
 keywords: vbawd10.chm162988431
 f1_keywords:
 - vbawd10.chm162988431
-ms.prod: word
 api_name:
 - Word.Options.AutoKeyboardSwitching
 ms.assetid: 22bc427f-20fd-107e-b3c0-c1ec9866a716
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoKeyboardSwitching`
+_expression_. `AutoKeyboardSwitching`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-To use this property, you must have the  **[CheckLanguage](Word.Application.CheckLanguage.md)** property set to **True**.
+To use this property, you must have the **[CheckLanguage](Word.Application.CheckLanguage.md)** property set to **True**.
 
 
 ## Example

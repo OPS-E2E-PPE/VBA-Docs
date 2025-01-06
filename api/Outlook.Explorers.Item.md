@@ -1,27 +1,26 @@
 ---
-title: Explorers.Item Method (Outlook)
+title: Explorers.Item method (Outlook)
 keywords: vbaol11.chm121
 f1_keywords:
 - vbaol11.chm121
-ms.prod: outlook
 api_name:
 - Outlook.Explorers.Item
 ms.assetid: b854ab0e-e966-4de8-7ccf-db4723812212
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorers.Item Method (Outlook)
+# Explorers.Item method (Outlook)
 
-Returns an  **[Explorer](Outlook.Explorer.md)** object from the collection.
+Returns an **[Explorer](Outlook.Explorer.md)** object from the collection.
 
 
 ## Syntax
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [Explorers](./Outlook.Explorers.md) object.
+_expression_ A variable that represents an [Explorers](Outlook.Explorers.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [Explorers](./Outlook.Explorers.md) o
 
 ## Return value
 
-An  **Explorer** object that represents the specified object.
+An **Explorer** object that represents the specified object.
 
 
 ## See also

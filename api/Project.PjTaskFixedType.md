@@ -1,15 +1,15 @@
 ---
-title: PjTaskFixedType Enumeration (Project)
-ms.prod: project-server
+title: PjTaskFixedType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjTaskFixedType
 ms.assetid: 6fa3e67c-eee6-0402-a176-63d7f87a058f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjTaskFixedType Enumeration (Project)
+# PjTaskFixedType enumeration (Project)
 
 Contains constants that specify the task type.
 

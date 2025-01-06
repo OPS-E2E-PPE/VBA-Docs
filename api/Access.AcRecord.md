@@ -3,20 +3,17 @@ title: AcRecord enumeration (Access)
 keywords: vbaac10.chm10025
 f1_keywords:
 - vbaac10.chm10025
-ms.prod: access
 api_name:
 - Access.AcRecord
 ms.assetid: 39ece328-d461-9f4d-a3af-205ed3228929
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcRecord enumeration (Access)
 
 Used with the [GoToRecord](Access.DoCmd.GoToRecord.md) method to specify which record to make the current record.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

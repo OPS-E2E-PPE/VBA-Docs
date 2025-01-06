@@ -1,27 +1,26 @@
 ---
-title: Effect.Parent Property (PowerPoint)
+title: Effect.Parent property (PowerPoint)
 keywords: vbapp10.chm652002
 f1_keywords:
 - vbapp10.chm652002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.Parent
 ms.assetid: 254fa25b-ef29-c2fe-313d-daadba3e8db4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.Parent Property (PowerPoint)
+# Effect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

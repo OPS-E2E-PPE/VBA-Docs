@@ -1,18 +1,17 @@
 ---
-title: PlaySoundRuleAction Object (Outlook)
+title: PlaySoundRuleAction object (Outlook)
 keywords: vbaol11.chm3169
 f1_keywords:
 - vbaol11.chm3169
-ms.prod: outlook
 api_name:
 - Outlook.PlaySoundRuleAction
 ms.assetid: 6a7a1f78-640e-8ffc-558c-c26b87638d64
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlaySoundRuleAction Object (Outlook)
+# PlaySoundRuleAction object (Outlook)
 
 Represents an action that plays a .wav file sound.
 
@@ -41,6 +40,6 @@ For more information on specifying rule actions, see [Specify Rule Actions](../o
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

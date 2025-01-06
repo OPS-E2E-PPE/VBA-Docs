@@ -3,12 +3,11 @@ title: Image.HorizontalAnchor property (Access)
 keywords: vbaac10.chm10426
 f1_keywords:
 - vbaac10.chm10426
-ms.prod: access
 api_name:
 - Access.Image.HorizontalAnchor
 ms.assetid: 33fa46ae-531c-eeb1-f7ab-51c90ef5c6c5
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

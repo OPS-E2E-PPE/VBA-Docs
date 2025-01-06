@@ -3,12 +3,11 @@ title: CommandBarComboBox.Text property (Office)
 keywords: vbaof11.chm8011
 f1_keywords:
 - vbaof11.chm8011
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.Text
 ms.assetid: 91aa73ff-260c-c241-35d0-50bebbbaf190
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

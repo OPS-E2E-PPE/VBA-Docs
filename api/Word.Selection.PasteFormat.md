@@ -3,30 +3,29 @@ title: Selection.PasteFormat method (Word)
 keywords: vbawd10.chm158663166
 f1_keywords:
 - vbawd10.chm158663166
-ms.prod: word
 api_name:
 - Word.Selection.PasteFormat
 ms.assetid: 5c8a69fa-4d07-619c-950a-5ff11fa99003
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.PasteFormat method (Word)
 
-Applies formatting copied with the  **CopyFormat** method to the selection.
+Applies formatting copied with the **CopyFormat** method to the selection.
 
 
 ## Syntax
 
- _expression_. `PasteFormat`
+_expression_. `PasteFormat`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-If a paragraph mark was selected when the  **CopyFormat** method was used, Word applies paragraph formatting in addition to character formatting.
+If a paragraph mark was selected when the **CopyFormat** method was used, Word applies paragraph formatting in addition to character formatting.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: CommandButton.GridlineWidthTop property (Access)
 keywords: vbaac10.chm10533
 f1_keywords:
 - vbaac10.chm10533
-ms.prod: access
 api_name:
 - Access.CommandButton.GridlineWidthTop
 ms.assetid: dfa6bb67-9841-ddf0-508a-9553fbf0229e
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

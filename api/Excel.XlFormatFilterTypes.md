@@ -1,11 +1,10 @@
 ---
 title: XlFormatFilterTypes enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlFormatFilterTypes
 ms.assetid: 428d568e-1fe1-bd88-acd6-1bc2c959d35b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

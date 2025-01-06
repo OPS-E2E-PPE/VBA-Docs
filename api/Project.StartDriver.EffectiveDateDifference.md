@@ -1,22 +1,22 @@
 ---
-title: StartDriver.EffectiveDateDifference Property (Project)
-ms.prod: project-server
+title: StartDriver.EffectiveDateDifference property (Project)
+ms.service: project-server
 api_name:
 - Project.StartDriver.EffectiveDateDifference
 ms.assetid: 9b825839-31de-71f8-9804-015dfd5a293c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# StartDriver.EffectiveDateDifference Property (Project)
+# StartDriver.EffectiveDateDifference property (Project)
 
-Gets the duration between two dates in minutes, using the effective calendar for a manually scheduled task. Read-only  **Long**.
+Gets the duration between two dates in minutes, using the effective calendar for a manually scheduled task. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `EffectiveDateDifference`( `_StartDate_`, `_FinishDate_` )
+_expression_. `EffectiveDateDifference`( `_StartDate_`, `_FinishDate_` )
 
  _expression_ An expression that returns a [StartDriver](./Project.StartDriver.md) object.
 
@@ -32,11 +32,11 @@ Gets the duration between two dates in minutes, using the effective calendar for
 
 ## Remarks
 
-The  **EffectiveDateDifference** property uses the effective calendar for manually scheduled tasks, which allows tasks to start and finish on non-working times. The StartDate and FinishDate arguments can be arbitrary dates. The property and arguments do not affect the task dates.
+The **EffectiveDateDifference** property uses the effective calendar for manually scheduled tasks, which allows tasks to start and finish on non-working times. The StartDate and FinishDate arguments can be arbitrary dates. The property and arguments don't affect the task dates.
 
-You can use the  **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)**, **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)**, and **EffectiveDateDifference** properties to calculate start and finish dates for manually scheduled tasks.
+Use the **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)**, **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)**, and **EffectiveDateDifference** properties to calculate start and finish dates for manually scheduled tasks.
 
-To calculate the date difference for an automatically scheduled task, where you can also specify the calendar, use the  **[DateDifference](Project.Application.DateDifference.md)** method.
+To calculate the date difference for an automatically scheduled task, where you can also specify the calendar, use the **[DateDifference](Project.Application.DateDifference.md)** method.
 
 
 ## Example

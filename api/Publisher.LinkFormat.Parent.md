@@ -1,33 +1,31 @@
 ---
-title: LinkFormat.Parent Property (Publisher)
+title: LinkFormat.Parent property (Publisher)
 keywords: vbapb10.chm4390914
 f1_keywords:
 - vbapb10.chm4390914
-ms.prod: publisher
 api_name:
 - Publisher.LinkFormat.Parent
 ms.assetid: 634b98bf-0383-3656-b1cc-452b4fd11f80
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# LinkFormat.Parent Property (Publisher)
+# LinkFormat.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **LinkFormat** object.
+_expression_ A variable that represents a **[LinkFormat](Publisher.LinkFormat.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

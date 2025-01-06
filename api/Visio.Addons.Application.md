@@ -1,38 +1,36 @@
 ---
-title: Addons.Application Property (Visio)
+title: Addons.Application property (Visio)
 keywords: vis_sdr.chm12513090
 f1_keywords:
 - vis_sdr.chm12513090
-ms.prod: visio
 api_name:
 - Visio.Addons.Application
 ms.assetid: 9ff50b95-8ac5-407b-6c93-c5c805efb3ab
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/24/2019
+ms.localizationpriority: medium
 ---
 
 
-# Addons.Application Property (Visio)
+# Addons.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents an [Addons](./Visio.Addons.md) object.
+_expression_ A variable that represents an **[Addons](Visio.Addons.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
-
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 ```vb
  

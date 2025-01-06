@@ -1,27 +1,26 @@
 ---
-title: OutlookBarShortcuts.ShortcutAdd Event (Outlook)
+title: OutlookBarShortcuts.ShortcutAdd event (Outlook)
 keywords: vbaol11.chm377
 f1_keywords:
 - vbaol11.chm377
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarShortcuts.ShortcutAdd
 ms.assetid: d5ddf2ad-0a82-39cb-5bb0-0de389d5c427
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarShortcuts.ShortcutAdd Event (Outlook)
+# OutlookBarShortcuts.ShortcutAdd event (Outlook)
 
-Occurs when a new shortcut is added to a  **Shortcuts** pane group.
+Occurs when a new shortcut is added to a **Shortcuts** pane group.
 
 
 ## Syntax
 
 _expression_. `ShortcutAdd`( `_NewShortcut_` )
 
-_expression_ A variable that represents an [OutlookBarShortcuts](./Outlook.OutlookBarShortcuts.md) object.
+_expression_ A variable that represents an [OutlookBarShortcuts](Outlook.OutlookBarShortcuts.md) object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example changes the name of a  **Calendar** shortcut when it is added to the first group in the **Shortcuts pane**. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Microsoft Visual Basic for Applications (VBA) example changes the name of a **Calendar** shortcut when it is added to the first group in the **Shortcuts pane**. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

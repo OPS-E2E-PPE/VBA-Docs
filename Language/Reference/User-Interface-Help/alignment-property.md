@@ -3,12 +3,11 @@ title: Alignment property
 keywords: fm20.chm5225002
 f1_keywords:
 - fm20.chm5225002
-ms.prod: office
 api_name:
 - Office.Alignment
 ms.assetid: d4c84882-dae6-ed8c-6dda-f042f22140cc
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

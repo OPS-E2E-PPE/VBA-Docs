@@ -3,18 +3,17 @@ title: CommandButton.Enabled property (Access)
 keywords: vbaac10.chm10464
 f1_keywords:
 - vbaac10.chm10464
-ms.prod: access
 api_name:
 - Access.CommandButton.Enabled
 ms.assetid: c48d979d-3320-d8ab-1019-c5d1bf60e01d
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

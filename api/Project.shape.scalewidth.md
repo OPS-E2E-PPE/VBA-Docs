@@ -1,20 +1,20 @@
 ---
-title: Shape.ScaleWidth Method (Project)
-ms.prod: project-server
+title: Shape.ScaleWidth method (Project)
+ms.service: project-server
 ms.assetid: 78ab4771-8364-ab1d-5d52-924d7605b833
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ScaleWidth Method (Project)
+# Shape.ScaleWidth method (Project)
 Scales the width of the shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleWidth` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Parameters
@@ -43,7 +43,7 @@ A  _RelativeToOriginalSize_ parameter value of **msoTrue** scales a shape relati
 
 ## Example
 
-The following example creates two cylindrical shapes, and then scales the first shape in height and width. If you set a breakpoint on the first  **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
+The following example creates two cylindrical shapes, and then scales the first shape in height and width. If you set a breakpoint on the first **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
 
 
 ```vb

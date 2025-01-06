@@ -3,23 +3,22 @@ title: System.PrivateProfileString property (Word)
 keywords: vbawd10.chm154468362
 f1_keywords:
 - vbawd10.chm154468362
-ms.prod: word
 api_name:
 - Word.System.PrivateProfileString
 ms.assetid: 737fb157-4665-5e31-240a-347bd7334005
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # System.PrivateProfileString property (Word)
 
-Returns or sets a string in a settings file or the Microsoft Windows registry. Read/write  **String**.
+Returns or sets a string in a settings file or the Microsoft Windows registry. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `PrivateProfileString`( `_FileName_` , `_Section_` , `_Key_` )
+_expression_. `PrivateProfileString`( `_FileName_` , `_Section_` , `_Key_` )
 
  _expression_ An expression that returns a '[System](Word.System.md)' object.
 
@@ -31,7 +30,7 @@ Returns or sets a string in a settings file or the Microsoft Windows registry. R
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The file name for the settings file. If there is no path specified, the Windows folder is assumed.|
-| _Section_|Required| **String**|The name of the section in the settings file that contains Key. In a Windows settings file, the section name appears between brackets before the associated keys (do not include the brackets with Section). If you are returning the value of an entry from the Windows registry, Section should be the complete path to the subkey, including the subtree (for example, "HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word\Options").|
+| _Section_|Required| **String**|The name of the section in the settings file that contains Key. In a Windows settings file, the section name appears between brackets before the associated keys (don't include the brackets with Section). If you are returning the value of an entry from the Windows registry, Section should be the complete path to the subkey, including the subtree (for example, "HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word\Options").|
 | _Key_|Required| **String**|The key setting or registry entry value you want to retrieve. In a Windows settings file, the key name is followed by an equal sign (=) and the setting. If you are returning the value of an entry from the Windows registry, Key should be the name of an entry in the subkey specified by Section (for example, "STARTUP-PATH").|
 
 ## Remarks

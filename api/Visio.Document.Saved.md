@@ -1,27 +1,26 @@
 ---
-title: Document.Saved Property (Visio)
+title: Document.Saved property (Visio)
 keywords: vis_sdr.chm10514285
 f1_keywords:
 - vis_sdr.chm10514285
-ms.prod: visio
 api_name:
 - Visio.Document.Saved
 ms.assetid: de3141f6-eda9-a62b-847c-e946966fae6b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.Saved Property (Visio)
+# Document.Saved property (Visio)
 
 Indicates whether a document has any unsaved changes. Read/write.
 
 
 ## Syntax
 
- _expression_. `Saved`
+_expression_.**Saved**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,14 +30,14 @@ Boolean
 
 ## Remarks
 
-Use caution when setting the  **Saved** property for a document to **True**. If you set the **Saved** property to **True** and a user, or another program, makes changes to the document before it is closed, those changes will be lost—Microsoft Visio does not provide a prompt to save the document.
+Use caution when setting the **Saved** property for a document to **True**. If you set the **Saved** property to **True** and a user, or another program, makes changes to the document before it is closed, those changes will be lost—Microsoft Visio does not provide a prompt to save the document.
 
-A document that contains embedded or linked OLE objects may report itself as unsaved even if the document's  **Saved** property is set to **True**.
+A document that contains embedded or linked OLE objects may report itself as unsaved even if the document's **Saved** property is set to **True**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Saved** property to determine whether a document has any unsaved changes. It also shows how to set the **Saved** property. Before running this macro, change _path_ to the location where you want to save the drawing, and change _filename_ to the name you'd like to assign the file.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Saved** property to determine whether a document has any unsaved changes. It also shows how to set the **Saved** property. Before running this macro, change _path_ to the location where you want to save the drawing, and change _filename_ to the name you'd like to assign the file.
 
 
 ```vb

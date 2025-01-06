@@ -1,20 +1,19 @@
 ---
-title: OlkControl.MinimumHeight Property (Outlook)
+title: OlkControl.MinimumHeight property (Outlook)
 keywords: vbaol11.chm1000508
 f1_keywords:
 - vbaol11.chm1000508
-ms.prod: outlook
 api_name:
 - Outlook.OlkControl.MinimumHeight
 ms.assetid: f1d5f220-47c4-675b-2be9-5c3d5e8e1a20
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkControl.MinimumHeight Property (Outlook)
+# OlkControl.MinimumHeight property (Outlook)
 
-Returns or sets a  **Long** that specifies the minimum height the control can be automatically sized down to. Read/write.
+Returns or sets a **Long** that specifies the minimum height the control can be automatically sized down to. Read/write.
 
 
 ## Syntax

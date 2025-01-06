@@ -3,18 +3,17 @@ title: CheckBox.TripleState property (Access)
 keywords: vbaac10.chm10705
 f1_keywords:
 - vbaac10.chm10705
-ms.prod: access
 api_name:
 - Access.CheckBox.TripleState
 ms.assetid: f2c9f398-6e1b-00cb-4033-b0fb5a83e737
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.TripleState property (Access)
 
-You can use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
+Use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
 
 
 ## Syntax

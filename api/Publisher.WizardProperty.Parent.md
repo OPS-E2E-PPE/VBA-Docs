@@ -1,33 +1,31 @@
 ---
-title: WizardProperty.Parent Property (Publisher)
+title: WizardProperty.Parent property (Publisher)
 keywords: vbapb10.chm1572866
 f1_keywords:
 - vbapb10.chm1572866
-ms.prod: publisher
 api_name:
 - Publisher.WizardProperty.Parent
 ms.assetid: 4175581f-b42e-ae5f-f7b1-463c61b5bf20
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WizardProperty.Parent Property (Publisher)
+# WizardProperty.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **WizardProperty** object.
+_expression_ A variable that represents a **[WizardProperty](Publisher.WizardProperty.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

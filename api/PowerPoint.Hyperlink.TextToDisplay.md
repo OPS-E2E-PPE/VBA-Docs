@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.TextToDisplay Property (PowerPoint)
+title: Hyperlink.TextToDisplay property (PowerPoint)
 keywords: vbapp10.chm526009
 f1_keywords:
 - vbapp10.chm526009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlink.TextToDisplay
 ms.assetid: 5f30033e-ddb8-8814-9e55-e0137ff6fa48
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.TextToDisplay Property (PowerPoint)
+# Hyperlink.TextToDisplay property (PowerPoint)
 
 Returns or sets the display text for a hyperlink not associated with a graphic. Read/write.
 
 
 ## Syntax
 
- _expression_. `TextToDisplay`
+_expression_.**TextToDisplay**
 
- _expression_ A variable that represents a [Hyperlink](./PowerPoint.Hyperlink.md) object.
+_expression_ A variable that represents a [Hyperlink](PowerPoint.Hyperlink.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ String
 
 ## Remarks
 
-This property will cause a run-time error if used with a hyperlink that is not associated with a text range. You can use code similar to the following to test whether or not a given hyperlink, represented here by  `myHyperlink`, is associated with a text range.
+This property will cause a run-time error if used with a hyperlink that is not associated with a text range. Use code similar to the following to test whether or not a given hyperlink, represented here by `myHyperlink`, is associated with a text range.
 
 ```vb
 If TypeName(myHyperlink.Parent.Parent) = "TextRange" Then

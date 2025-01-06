@@ -1,27 +1,27 @@
 ---
-title: Application.LookUpTableAddEx Method (Project)
+title: Application.LookUpTableAddEx method (Project)
 keywords: vbapj.chm635
 f1_keywords:
 - vbapj.chm635
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.LookUpTableAddEx
 ms.assetid: 5f316f1e-de4b-2fe4-6d3e-84a9944adaed
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.LookUpTableAddEx Method (Project)
+# Application.LookUpTableAddEx method (Project)
 
 Appends items to the lookup table of a custom outline code definition.
 
 
 ## Syntax
 
- _expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Description_`, `_Phonetic_` )
+_expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Description_`, `_Phonetic_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Appends items to the lookup table of a custom outline code definition.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|Specifies the custom outline code to edit. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|Specifies the custom outline code to edit. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Level_|Optional|**Long**|Specifies the level of the new code. The default value is the level of the last item in the lookup table.|
 | _Code_|Optional|**String**|The code to be added to the lookup table.|
 | _Description_|Optional|**String**|A description for the field specified in the Code argument.|
@@ -43,7 +43,7 @@ Appends items to the lookup table of a custom outline code definition.
 
 ## Remarks
 
-If only the FieldID argument is specified, the  **LookUpTableAddEx** method displays the **Lookup Table** dialog box for the specified custom outline code.
+If only the FieldID argument is specified, the **LookUpTableAddEx** method displays the **Lookup Table** dialog box for the specified custom outline code.
 
 
 ## Example

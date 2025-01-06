@@ -3,12 +3,11 @@ title: CurrentProject.WebSite property (Access)
 keywords: vbaac10.chm14663
 f1_keywords:
 - vbaac10.chm14663
-ms.prod: access
 api_name:
 - Access.CurrentProject.WebSite
 ms.assetid: ab2cc5f8-bd24-9f88-2598-1d8e6c71895e
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Hyperlink.CreateNewDocument method (Word)
 keywords: vbawd10.chm161284202
 f1_keywords:
 - vbawd10.chm161284202
-ms.prod: word
 api_name:
 - Word.Hyperlink.CreateNewDocument
 ms.assetid: e3077a0d-6a83-e36d-7199-8ec6aca8dfa7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Creates a new document linked to the specified hyperlink.
 
 ## Syntax
 
- _expression_. `CreateNewDocument`( `_FileName_` , `_EditNow_` , `_Overwrite_` )
+_expression_.**CreateNewDocument** (_FileName_, _EditNow_, _Overwrite_)
 
- _expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
+_expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,7 +33,7 @@ Creates a new document linked to the specified hyperlink.
 
 ## Example
 
-This example creates a new document based on the new hyperlink in the first document and then loads the new document into Microsoft Word for editing. The document is called ?Overview.doc,? and it overwrites any file of the same name in the  `\\Server1\Annual` folder.
+This example creates a new document based on the new hyperlink in the first document and then loads the new document into Microsoft Word for editing. The document is called Overview.doc, and it overwrites any file of the same name in the `\\Server1\Annual` folder.
 
 
 ```vb
@@ -51,9 +48,6 @@ End With
 ```
 
 
-## See also
 
-
-[Hyperlink Object](Word.Hyperlink.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

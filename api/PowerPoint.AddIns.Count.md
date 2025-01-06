@@ -1,24 +1,23 @@
 ---
-title: AddIns.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: AddIns.Count property (PowerPoint)
 api_name:
 - PowerPoint.AddIns.Count
 ms.assetid: 5ccbf78a-3585-8de5-78c9-b27f32d8f5c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddIns.Count Property (PowerPoint)
+# AddIns.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents an [AddIns](./PowerPoint.AddIns.md) object.
+_expression_ A variable that represents an [AddIns](PowerPoint.AddIns.md) object.
 
 
 ## Return value

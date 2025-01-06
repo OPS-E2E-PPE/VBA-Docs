@@ -3,14 +3,13 @@ title: You cannot modify the replication system object <name>. (Error 3665)
 keywords: jeterr40.chm5003665
 f1_keywords:
 - jeterr40.chm5003665
-ms.prod: access
 ms.assetid: 26f1dbb6-c553-d7a4-42f2-e6a282e6f91d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# You cannot modify the replication system object <name>. (Error 3665)
+# You cannot modify the replication system object \<name\>. (Error 3665)
 
   
 
@@ -23,8 +22,8 @@ You are trying to execute an invalid operation, such as deleting a system table,
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

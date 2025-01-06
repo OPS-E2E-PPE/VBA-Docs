@@ -1,27 +1,26 @@
 ---
-title: Fonts.Application Property (PowerPoint)
+title: Fonts.Application property (PowerPoint)
 keywords: vbapp10.chm528001
 f1_keywords:
 - vbapp10.chm528001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Fonts.Application
 ms.assetid: 8e40626a-d64c-4a5e-4a4b-b2bac22d931f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Fonts.Application Property (PowerPoint)
+# Fonts.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Fonts](./PowerPoint.Fonts.md) object.
+_expression_ A variable that represents a [Fonts](PowerPoint.Fonts.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: Shape.CellsSRCExists Property (Visio)
+title: Shape.CellsSRCExists property (Visio)
 keywords: vis_sdr.chm11213210
 f1_keywords:
 - vis_sdr.chm11213210
-ms.prod: visio
 api_name:
 - Visio.Shape.CellsSRCExists
 ms.assetid: 7d614820-2a64-c3ee-b61c-a7c0dcfb90c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.CellsSRCExists Property (Visio)
+# Shape.CellsSRCExists property (Visio)
 
 Determines whether a ShapeSheet cell exists in the scope of a search. Read-only.
 
 
 ## Syntax
 
- _expression_. `CellsSRCExists`( `_Section_` , `_Row_` , `_Column_` , `_fExistsLocally_` )
+_expression_. `CellsSRCExists`( `_Section_` , `_Row_` , `_Column_` , `_fExistsLocally_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ Integer
 
 ## Remarks
 
-Constants for section, row, and column indices are declared by the Visio type library as members of  **[VisSectionIndices](Visio.vissectionindices.md)** , **[VisRowIndices](Visio.visrowindices.md)** , and **[VisCellIndices](Visio.viscellindices.md)** , respectively.
+Constants for section, row, and column indices are declared by the Visio type library as members of **[VisSectionIndices](Visio.vissectionindices.md)**, **[VisRowIndices](Visio.visrowindices.md)**, and **[VisCellIndices](Visio.viscellindices.md)**, respectively.
 
 The  _fExistsLocally_ argument specifies the scope of the search:
 
@@ -55,6 +54,6 @@ The  _fExistsLocally_ argument specifies the scope of the search:
     
 
 
-To search for a cell by name, use the  **CellExists** or **CellExistsU** property.
+To search for a cell by name, use the **CellExists** or **CellExistsU** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

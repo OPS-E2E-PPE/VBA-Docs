@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Distribute Method (PowerPoint)
+title: ShapeRange.Distribute method (PowerPoint)
 keywords: vbapp10.chm548064
 f1_keywords:
 - vbapp10.chm548064
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Distribute
 ms.assetid: bbabe9db-30ba-e165-0dcc-7a15e849228e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Distribute Method (PowerPoint)
+# ShapeRange.Distribute method (PowerPoint)
 
 Evenly distributes the shapes in the specified range of shapes. You can specify whether you want to distribute the shapes horizontally or vertically and whether you want to distribute them over the entire slide or just over the space they originally occupy.
 
 
 ## Syntax
 
- _expression_. `Distribute`( `_DistributeCmd_`, `_RelativeTo_` )
+_expression_. `Distribute`( `_DistributeCmd_`, `_RelativeTo_` )
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ Nothing
 
 ## Example
 
-This example defines a shape range that contains all the AutoShapes on the  `myDocument` and then horizontally distributes the shapes in this range.
+This example defines a shape range that contains all the AutoShapes on the  _myDocument_ and then horizontally distributes the shapes in this range.
 
 
 ```vb

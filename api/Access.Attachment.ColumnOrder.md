@@ -3,18 +3,17 @@ title: Attachment.ColumnOrder property (Access)
 keywords: vbaac10.chm14009
 f1_keywords:
 - vbaac10.chm14009
-ms.prod: access
 api_name:
 - Access.Attachment.ColumnOrder
 ms.assetid: e11872da-df82-83e0-0c6f-8716989622dd
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.ColumnOrder property (Access)
 
-You can use the **ColumnOrder** property to specify the order of the columns in Datasheet view. Read/write **Integer**.
+Use the **ColumnOrder** property to specify the order of the columns in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax

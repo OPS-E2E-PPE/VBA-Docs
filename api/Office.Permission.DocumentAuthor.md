@@ -3,12 +3,11 @@ title: Permission.DocumentAuthor property (Office)
 keywords: vbaof11.chm261013
 f1_keywords:
 - vbaof11.chm261013
-ms.prod: office
 api_name:
 - Office.Permission.DocumentAuthor
 ms.assetid: d756c476-8adf-a302-9356-e491b0ae9bf7
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -43,19 +42,19 @@ The following example displays information about the permissions settings of the
  Dim strIRMInfo As String 
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
- strIRMInfo = "Permissions are enabled on this document." &amp; vbCrLf 
- strIRMInfo = strIRMInfo &amp; " View in trusted browser: " &amp; _ 
- irmPermission.EnableTrustedBrowser &amp; vbCrLf &amp; _ 
- " Document author: " &amp; irmPermission.DocumentAuthor &amp; vbCrLf &amp; _ 
- " Users with rights: " &amp; irmPermission.Count &amp; vbCrLf &amp; _ 
- " Cache licenses locally: " &amp; irmPermission.StoreLicenses &amp; vbCrLf &amp; _ 
- " Request permission URL: " &amp; irmPermission.RequestPermissionURL &amp; vbCrLf 
+ strIRMInfo = "Permissions are enabled on this document." & vbCrLf 
+ strIRMInfo = strIRMInfo & " View in trusted browser: " & _ 
+ irmPermission.EnableTrustedBrowser & vbCrLf & _ 
+ " Document author: " & irmPermission.DocumentAuthor & vbCrLf & _ 
+ " Users with rights: " & irmPermission.Count & vbCrLf & _ 
+ " Cache licenses locally: " & irmPermission.StoreLicenses & vbCrLf & _ 
+ " Request permission URL: " & irmPermission.RequestPermissionURL & vbCrLf 
  If irmPermission.PermissionFromPolicy Then 
- strIRMInfo = strIRMInfo &amp; " Permissions applied from policy:" &amp; vbCrLf &amp; _ 
- " Policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Permissions applied from policy:" & vbCrLf & _ 
+ " Policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Policy description: " & irmPermission.PolicyDescription 
  Else 
- strIRMInfo = strIRMInfo &amp; " Default permissions applied." 
+ strIRMInfo = strIRMInfo & " Default permissions applied." 
  End If 
  Else 
  strIRMInfo = "Permissions are NOT enabled on this document." 

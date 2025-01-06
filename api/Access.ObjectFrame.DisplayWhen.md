@@ -3,18 +3,17 @@ title: ObjectFrame.DisplayWhen property (Access)
 keywords: vbaac10.chm11580
 f1_keywords:
 - vbaac10.chm11580
-ms.prod: access
 api_name:
 - Access.ObjectFrame.DisplayWhen
 ms.assetid: 37e03fc6-aee9-b6cf-eafb-7af111b5b9e3
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

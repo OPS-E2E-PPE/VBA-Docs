@@ -3,12 +3,11 @@ title: NavigationControl.RightPadding property (Access)
 keywords: vbaac10.chm11154
 f1_keywords:
 - vbaac10.chm11154
-ms.prod: access
 api_name:
 - Access.NavigationControl.RightPadding
 ms.assetid: 8c2cd0df-f629-e8d1-a2df-ba0f6203ec07
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,18 +1,17 @@
 ---
-title: CardView.GoToDate Method (Outlook)
+title: CardView.GoToDate method (Outlook)
 keywords: vbaol11.chm2595
 f1_keywords:
 - vbaol11.chm2595
-ms.prod: outlook
 api_name:
 - Outlook.CardView.GoToDate
 ms.assetid: c68e379b-92cf-b93e-5f67-911767166d18
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CardView.GoToDate Method (Outlook)
+# CardView.GoToDate method (Outlook)
 
 Changes the date used by the current view to display information.
 
@@ -21,7 +20,7 @@ Changes the date used by the current view to display information.
 
 _expression_. `GoToDate`( `_Date_` )
 
-_expression_ A variable that represents a [CardView](./Outlook.CardView.md) object.
+_expression_ A variable that represents a [CardView](Outlook.CardView.md) object.
 
 
 ## Parameters

@@ -3,18 +3,17 @@ title: TextBox.InSelection property (Access)
 keywords: vbaac10.chm11114
 f1_keywords:
 - vbaac10.chm11114
-ms.prod: access
 api_name:
 - Access.TextBox.InSelection
 ms.assetid: 6ebb497c-00d0-a854-be22-6b034deae98a
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

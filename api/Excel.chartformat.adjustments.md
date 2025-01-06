@@ -3,33 +3,28 @@ title: ChartFormat.Adjustments property (Excel)
 keywords: vbaxl10.chm861081
 f1_keywords:
 - vbaxl10.chm861081
-ms.prod: excel
 ms.assetid: 4d3f15bd-b11b-8220-fd5f-5a4e6a5ddba4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/28/2019
+ms.localizationpriority: medium
 ---
 
 
 # ChartFormat.Adjustments property (Excel)
 
-Returns an [Adjustments object (Excel)](Excel.Adjustments.md) object. Read-only
+Returns an **[Adjustments](Excel.Adjustments.md)** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `Adjustments`
+_expression_.**Adjustments**
 
-_expression_ A variable that represents a [ChartFormat](Excel.ChartFormat.md) object.
+_expression_ A variable that represents a **[ChartFormat](Excel.ChartFormat.md)** object.
 
 
 ## Property value
 
- **ADJUSTMENTS**
+**ADJUSTMENTS**
 
 
-## See also
-
-
-[ChartFormat Object](Excel.ChartFormat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

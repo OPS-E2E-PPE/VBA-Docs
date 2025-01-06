@@ -3,12 +3,11 @@ title: ToggleButton.SoftEdges property (Access)
 keywords: vbaac10.chm14639
 f1_keywords:
 - vbaac10.chm14639
-ms.prod: access
 api_name:
 - Access.ToggleButton.SoftEdges
 ms.assetid: 23c63821-966c-4d9f-7304-5b6e31b85675
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

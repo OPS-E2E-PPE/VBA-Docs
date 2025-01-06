@@ -3,18 +3,17 @@ title: NavigationButton.TabIndex property (Access)
 keywords: vbaac10.chm10466
 f1_keywords:
 - vbaac10.chm10466
-ms.prod: access
 api_name:
 - Access.NavigationButton.TabIndex
 ms.assetid: 2042a31a-ae68-665b-624e-1a41ad7b7c37
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
 
 
 ## Syntax

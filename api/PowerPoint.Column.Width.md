@@ -1,27 +1,26 @@
 ---
-title: Column.Width Property (PowerPoint)
+title: Column.Width property (PowerPoint)
 keywords: vbapp10.chm624006
 f1_keywords:
 - vbapp10.chm624006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Column.Width
 ms.assetid: 7b2bcf80-25d5-b1b8-64a5-d8cdf8818978
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Column.Width Property (PowerPoint)
+# Column.Width property (PowerPoint)
 
 Returns or sets the width of the specified object, in points. Read/write.
 
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
-_expression_ A variable that represents a [Column](./PowerPoint.Column.md) object.
+_expression_ A variable that represents a [Column](PowerPoint.Column.md) object.
 
 
 ## Return value

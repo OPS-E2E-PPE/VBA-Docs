@@ -1,27 +1,26 @@
 ---
-title: ShapeNode.Points Property (PowerPoint)
+title: ShapeNode.Points property (PowerPoint)
 keywords: vbapp10.chm561003
 f1_keywords:
 - vbapp10.chm561003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeNode.Points
 ms.assetid: 1ba61c2f-708d-d2a5-aac0-68f566f19337
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeNode.Points Property (PowerPoint)
+# ShapeNode.Points property (PowerPoint)
 
-Returns a  **Variant** that represents the position of the specified node as a coordinate pair. Read-only.
+Returns a **Variant** that represents the position of the specified node as a coordinate pair. Read-only.
 
 
 ## Syntax
 
- _expression_. `Points`
+_expression_.**Points**
 
- _expression_ A variable that represents a [ShapeNode](./PowerPoint.ShapeNode.md) object.
+_expression_ A variable that represents a **[ShapeNode](PowerPoint.ShapeNode.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Variant
 
 ## Remarks
 
-Each coordinate is expressed in points. Use the  **[SetPosition](PowerPoint.ShapeNodes.SetPosition.md)** method to set the value of this property.
+Each coordinate is expressed in points. Use the **[SetPosition](PowerPoint.ShapeNodes.SetPosition.md)** method to set the value of this property.
 
 
 ## Example

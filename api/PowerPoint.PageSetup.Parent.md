@@ -1,27 +1,26 @@
 ---
-title: PageSetup.Parent Property (PowerPoint)
+title: PageSetup.Parent property (PowerPoint)
 keywords: vbapp10.chm527002
 f1_keywords:
 - vbapp10.chm527002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PageSetup.Parent
 ms.assetid: 58f34a76-6ae8-c861-f4e7-0290931fb736
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PageSetup.Parent Property (PowerPoint)
+# PageSetup.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PageSetup](./PowerPoint.PageSetup.md) object.
+_expression_ A variable that represents a [PageSetup](PowerPoint.PageSetup.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

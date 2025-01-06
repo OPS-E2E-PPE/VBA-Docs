@@ -1,27 +1,27 @@
 ---
-title: Application.EditHyperlink Method (Project)
+title: Application.EditHyperlink method (Project)
 keywords: vbapj.chm1310
 f1_keywords:
 - vbapj.chm1310
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.EditHyperlink
 ms.assetid: d652ccc4-207e-933f-c281-a2d5d7db0b76
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.EditHyperlink Method (Project)
+# Application.EditHyperlink method (Project)
 
 Edits the hyperlink of the selected assignment, resource, or task.
 
 
 ## Syntax
 
- _expression_. `EditHyperlink`( `_Name_`, `_Address_`, `_SubAddress_`, `_ScreenTip_` )
+_expression_. `EditHyperlink`( `_Name_`, `_Address_`, `_SubAddress_`, `_ScreenTip_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ Edits the hyperlink of the selected assignment, resource, or task.
 
 ## Remarks
 
-Using the  **EditHyperlink** method without specifying any arguments displays the **Edit Hyperlink** dialog box.
+Using the **EditHyperlink** method without specifying any arguments displays the **Edit Hyperlink** dialog box.
 
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: MarkAsTaskRuleAction Object (Outlook)
+title: MarkAsTaskRuleAction object (Outlook)
 keywords: vbaol11.chm3170
 f1_keywords:
 - vbaol11.chm3170
-ms.prod: outlook
 api_name:
 - Outlook.MarkAsTaskRuleAction
 ms.assetid: 639d9242-7387-2b25-9d0f-f7a14cf16790
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MarkAsTaskRuleAction Object (Outlook)
+# MarkAsTaskRuleAction object (Outlook)
 
 Represents an action that marks a message as a task.
 
@@ -42,6 +41,6 @@ For more information on specifying rule actions, see [Specify Rule Actions](../o
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

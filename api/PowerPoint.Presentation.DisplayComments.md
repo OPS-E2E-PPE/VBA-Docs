@@ -1,27 +1,26 @@
 ---
-title: Presentation.DisplayComments Property (PowerPoint)
+title: Presentation.DisplayComments property (PowerPoint)
 keywords: vbapp10.chm583042
 f1_keywords:
 - vbapp10.chm583042
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.DisplayComments
 ms.assetid: b241151a-82b5-7188-a8b8-a4a04fc37165
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.DisplayComments Property (PowerPoint)
+# Presentation.DisplayComments property (PowerPoint)
 
 Determines whether comments are displayed in the specified presentation. Read/write.
 
 
 ## Syntax
 
- _expression_. `DisplayComments`
+_expression_. `DisplayComments`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value returned by the  **DisplayComments** property can be one of these **MsoTriState** constants.
+The value returned by the **DisplayComments** property can be one of these **MsoTriState** constants.
 
 
 

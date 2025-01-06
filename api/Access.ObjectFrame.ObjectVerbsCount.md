@@ -3,18 +3,17 @@ title: ObjectFrame.ObjectVerbsCount property (Access)
 keywords: vbaac10.chm11609
 f1_keywords:
 - vbaac10.chm11609
-ms.prod: access
 api_name:
 - Access.ObjectFrame.ObjectVerbsCount
 ms.assetid: 8c7a6302-cdf0-5997-7b71-65cfb6f0a7d3
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.ObjectVerbsCount property (Access)
 
-You can use the **ObjectVerbsCount** property in Visual Basic to determine the number of verbs supported by an OLE object. Read-only **Long**.
+Use the **ObjectVerbsCount** property in Visual Basic to determine the number of verbs supported by an OLE object. Read-only **Long**.
 
 
 ## Syntax

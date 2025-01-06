@@ -3,12 +3,11 @@ title: Replacement.ClearFormatting method (Word)
 keywords: vbawd10.chm162594836
 f1_keywords:
 - vbawd10.chm162594836
-ms.prod: word
 api_name:
 - Word.Replacement.ClearFormatting
 ms.assetid: 3229f741-91f0-1175-5652-96047547d811
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Removes text and paragraph formatting from the text specified in a replace opera
 
 ## Syntax
 
- _expression_. `ClearFormatting`
+_expression_.**ClearFormatting**
 
- _expression_ A variable that represents a '[Replacement](Word.Replacement.md)' object.
+_expression_ A variable that represents a '[Replacement](Word.Replacement.md)' object.
 
 
 ## Example

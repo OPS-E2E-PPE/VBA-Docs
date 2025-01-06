@@ -3,12 +3,11 @@ title: CheckBox.Value property (Access)
 keywords: vbaac10.chm10691
 f1_keywords:
 - vbaac10.chm10691
-ms.prod: access
 api_name:
 - Access.CheckBox.Value
 ms.assetid: a19b0395-eebb-42d6-58b8-affbe56a72b5
 ms.date: 02/26/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

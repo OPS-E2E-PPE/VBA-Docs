@@ -3,12 +3,11 @@ title: Pane.DisplayRulers property (Word)
 keywords: vbawd10.chm157286404
 f1_keywords:
 - vbawd10.chm157286404
-ms.prod: word
 api_name:
 - Word.Pane.DisplayRulers
 ms.assetid: 25f30f02-41ff-1290-e10d-4b03df35e13f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayRulers`
+_expression_. `DisplayRulers`
 
- _expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Remarks
 
-The  **DisplayRulers** property is equivalent to the **Ruler** command on the **View** menu. If **DisplayRulers** is **False** , the horizontal and vertical rulers won't be displayed, regardless of the state of the **DisplayVerticalRuler** property.
+The **DisplayRulers** property is equivalent to the **Ruler** command on the **View** menu. If **DisplayRulers** is **False**, the horizontal and vertical rulers won't be displayed, regardless of the state of the **DisplayVerticalRuler** property.
 
 
 ## Example

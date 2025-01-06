@@ -3,12 +3,11 @@ title: ObjectFrame.BorderStyle property (Access)
 keywords: vbaac10.chm11595
 f1_keywords:
 - vbaac10.chm11595
-ms.prod: access
 api_name:
 - Access.ObjectFrame.BorderStyle
 ms.assetid: 243484f6-1401-cbe9-dfb9-d5c8f7e419ce
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

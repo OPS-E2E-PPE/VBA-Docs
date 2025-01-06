@@ -3,10 +3,9 @@ title: Enabled, EnterFieldBehavior, SelLength, SelStart, SelText properties exam
 keywords: fm20.chm5225191
 f1_keywords:
 - fm20.chm5225191
-ms.prod: office
 ms.assetid: 3a21ec28-9d7e-1b11-9eb9-58907020ba79
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,8 +29,6 @@ Private Sub TextBox1_KeyUp(ByVal KeyCode As _
  TextBox4.Text = TextBox1.SelText 
 End Sub
 ```
-
-<br/>
 
 
 ```vb

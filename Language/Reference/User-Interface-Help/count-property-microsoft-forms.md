@@ -3,10 +3,9 @@ title: Count property (Microsoft Forms)
 keywords: fm20.chm2001000
 f1_keywords:
 - fm20.chm2001000
-ms.prod: office
 ms.assetid: 84580b94-05da-57d9-780b-e95545a5ea37
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns the number of objects in a [collection](../../Glossary/vbe-glossary.md#c
 ## Syntax
 
 _object_.**Count**
-
-<br/>
 
 The **Count** property syntax has these parts:
 

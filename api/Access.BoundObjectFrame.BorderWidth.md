@@ -3,18 +3,17 @@ title: BoundObjectFrame.BorderWidth property (Access)
 keywords: vbaac10.chm10937
 f1_keywords:
 - vbaac10.chm10937
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.BorderWidth
 ms.assetid: f06fa232-f6cd-7736-aeb9-96461d2338fc
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax
@@ -31,7 +30,7 @@ The **BorderWidth** property uses the following settings.
 |Setting|Visual Basic|Description|
 |:-----|:-----|:-----|
 |Hairline|0|(Default) The narrowest border possible on your system.|
-|1 pt to 6 pt|1 to 6|The width as indicated in points.|
+|1 pt to 6 pt|1 to 6|The width as indicated in [points](../language/glossary/vbe-glossary.md#point).|
 
 You can set the default for this property by using the control's default control style or the **[DefaultControl](access.form.defaultcontrol.md)** property in Visual Basic.
 

@@ -3,25 +3,24 @@ title: Columns.Width property (Word)
 keywords: vbawd10.chm155910147
 f1_keywords:
 - vbawd10.chm155910147
-ms.prod: word
 api_name:
 - Word.Columns.Width
 ms.assetid: 011c3c8f-1d80-a7d1-3a05-f634779f158e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Columns.Width property (Word)
 
-Returns or sets the width of the specified columns, in points. Read/write  **Long**.
+Returns or sets the width of the specified columns, in points. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a '[Columns](Word.columns.md)' collection.
+_expression_ A variable that represents a '[Columns](Word.columns.md)' collection.
 
 
 ## Example

@@ -1,25 +1,24 @@
 ---
-title: AxisTitle.Characters Property (PowerPoint)
+title: AxisTitle.Characters property (PowerPoint)
 keywords: vbapp10.chm683002
 f1_keywords:
 - vbapp10.chm683002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AxisTitle.Characters
 ms.assetid: 8b1b9dc9-6aa3-872f-964a-fe623feff6fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AxisTitle.Characters Property (PowerPoint)
+# AxisTitle.Characters property (PowerPoint)
 
-Returns a  **[ChartCharacters](PowerPoint.ChartCharacters.md)** object that represents a range of characters within the object text. You can use the **ChartCharacters** object to format characters within a text string.
+Returns a **[ChartCharacters](PowerPoint.ChartCharacters.md)** object that represents a range of characters within the object text. Use the **ChartCharacters** object to format characters within a text string.
 
 
 ## Syntax
 
- _expression_. `Characters`( `_Start_`, `_Length_` )
+_expression_. `Characters`( `_Start_`, `_Length_` )
 
 _expression_ A variable that represents an '[AxisTitle](PowerPoint.AxisTitle.md)' object.
 
@@ -35,7 +34,7 @@ _expression_ A variable that represents an '[AxisTitle](PowerPoint.AxisTitle.md)
 
 ## Remarks
 
-The  **ChartCharacters** object is not a collection.
+The **ChartCharacters** object is not a collection.
 
 
 ## See also

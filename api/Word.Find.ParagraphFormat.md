@@ -3,25 +3,24 @@ title: Find.ParagraphFormat property (Word)
 keywords: vbawd10.chm162529298
 f1_keywords:
 - vbawd10.chm162529298
-ms.prod: word
 api_name:
 - Word.Find.ParagraphFormat
 ms.assetid: ae8bbbaa-700d-7469-30e4-f412e4a32e76
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Find.ParagraphFormat property (Word)
 
-Returns or sets a  **[ParagraphFormat](Word.ParagraphFormat.md)** object that represents the paragraph settings for the specified find operation. Read/write.
+Returns or sets a **[ParagraphFormat](Word.ParagraphFormat.md)** object that represents the paragraph settings for the specified find operation. Read/write.
 
 
 ## Syntax
 
- _expression_. `ParagraphFormat`
+_expression_. `ParagraphFormat`
 
- _expression_ A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Example

@@ -1,27 +1,27 @@
 ---
-title: Application.WindowActivate Method (Project)
+title: Application.WindowActivate method (Project)
 keywords: vbapj.chm705
 f1_keywords:
 - vbapj.chm705
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.WindowActivate
 ms.assetid: 8b9b39f8-39e5-b162-d8d9-de9838f7b39e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowActivate Method (Project)
+# Application.WindowActivate method (Project)
 
 Activates a window.
 
 
 ## Syntax
 
- _expression_. `WindowActivate`( `_WindowName_`, `_DialogID_`, `_TopPane_` )
+_expression_. `WindowActivate`( `_WindowName_`, `_DialogID_`, `_TopPane_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Activates a window.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _WindowName_|Optional|**String**|The name of the window to activate. The name of a window is the exact text that appears in the title bar of the window. The default is the name of the active window.|
-| _DialogID_|Optional|**Long**|A constant specifying the dialog box to activate. Can be the following  **[PjDialog](Project.PjDialog.md)** constant: **pjResourceAssignment**.|
+| _DialogID_|Optional|**Long**|A constant specifying the dialog box to activate. Can be the following **[PjDialog](Project.PjDialog.md)** constant: **pjResourceAssignment**.|
 | _TopPane_|Optional|**Boolean**|**True** if Project should activate the upper pane. The default value is **True**.|
 
 ## Return value
@@ -41,7 +41,7 @@ Activates a window.
 
 ## Example
 
-The following examples allow the user to specify and activate a "hot" window. If you assign the  **ActivateBookmarkedWindow** macro to a shortcut key, you can press that key to quickly activate the bookmarked window.
+The following examples allow the user to specify and activate a "hot" window. If you assign the **ActivateBookmarkedWindow** macro to a shortcut key, you can press that key to quickly activate the bookmarked window.
 
 
 ```vb

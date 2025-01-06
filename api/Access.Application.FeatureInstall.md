@@ -3,18 +3,17 @@ title: Application.FeatureInstall property (Access)
 keywords: vbaac10.chm12590
 f1_keywords:
 - vbaac10.chm12590
-ms.prod: access
 api_name:
 - Access.Application.FeatureInstall
 ms.assetid: bc9057bc-72a4-0344-a50a-7b73a2d30212
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.FeatureInstall property (Access)
 
-You can use the **FeatureInstall** property to specify or determine how Microsoft Access handles calls to methods and properties that require features not yet installed. Read/write **[MsoFeatureInstall](Office.MsoFeatureInstall.md)**.
+Use the **FeatureInstall** property to specify or determine how Microsoft Access handles calls to methods and properties that require features not yet installed. Read/write **[MsoFeatureInstall](Office.MsoFeatureInstall.md)**.
 
 
 ## Syntax

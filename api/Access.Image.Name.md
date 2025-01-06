@@ -3,18 +3,17 @@ title: Image.Name property (Access)
 keywords: vbaac10.chm10404
 f1_keywords:
 - vbaac10.chm10404
-ms.prod: access
 api_name:
 - Access.Image.Name
 ms.assetid: 6dcac8a1-037d-dad2-00bf-ed73a1b21e4a
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Image.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -1,27 +1,27 @@
 ---
-title: Application.Groups Method (Project)
+title: Application.Groups method (Project)
 keywords: vbapj.chm511
 f1_keywords:
 - vbapj.chm511
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.Groups
 ms.assetid: 28a1a91f-16e8-16de-9d8b-baee6d67c840
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Groups Method (Project)
+# Application.Groups method (Project)
 
-Displays the  **More Groups** dialog box, which prompts the user to apply a grouping.
+Displays the **More Groups** dialog box, which prompts the user to apply a grouping.
 
 
 ## Syntax
 
- _expression_. `Groups`
+_expression_. `Groups`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Displays the  **More Groups** dialog box, which prompts the user to apply a grou
 
 ## Remarks
 
-The  **Groups** method corresponds to the following command on the Ribbon: In the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **More Groups**.
+The **Groups** method corresponds to the following command on the Ribbon: In the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **More Groups**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

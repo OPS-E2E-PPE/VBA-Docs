@@ -3,18 +3,17 @@ title: Application.DDEExecute method (Access)
 keywords: vbaac10.chm12540
 f1_keywords:
 - vbaac10.chm12540
-ms.prod: access
 api_name:
 - Access.Application.DDEExecute
 ms.assetid: 9828607e-a2e3-15e2-699a-12fb2dc9e897
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DDEExecute method (Access)
 
-You can use the **DDEExecute** statement to send a command from a client application to a server application over an open dynamic data exchange (DDE) channel.
+Use the **DDEExecute** statement to send a command from a client application to a server application over an open dynamic data exchange (DDE) channel.
 
 
 ## Syntax

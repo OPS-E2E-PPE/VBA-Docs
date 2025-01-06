@@ -1,27 +1,26 @@
 ---
-title: PageSetup.SlideSize Property (PowerPoint)
+title: PageSetup.SlideSize property (PowerPoint)
 keywords: vbapp10.chm527006
 f1_keywords:
 - vbapp10.chm527006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PageSetup.SlideSize
 ms.assetid: 1f6db7f6-e9bb-e1fb-08f0-194b61733f5c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PageSetup.SlideSize Property (PowerPoint)
+# PageSetup.SlideSize property (PowerPoint)
 
 Returns or sets the slide size for the specified presentation. Read/write.
 
 
 ## Syntax
 
- _expression_. `SlideSize`
+_expression_. `SlideSize`
 
- _expression_ A variable that represents a [PageSetup](./PowerPoint.PageSetup.md) object.
+_expression_ A variable that represents a [PageSetup](PowerPoint.PageSetup.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpSlideSizeType
 
 ## Remarks
 
-The value of the  **SlideSize** property can be one of these **PpSlideSizeType** constants.
+The value of the **SlideSize** property can be one of these **PpSlideSizeType** constants.
 
 
 ||

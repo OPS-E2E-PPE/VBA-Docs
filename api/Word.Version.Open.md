@@ -3,25 +3,24 @@ title: Version.Open method (Word)
 keywords: vbawd10.chm162791527
 f1_keywords:
 - vbawd10.chm162791527
-ms.prod: word
 api_name:
 - Word.Version.Open
 ms.assetid: 97880749-0cf1-21bb-e268-8907e424127a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Version.Open method (Word)
 
-Opens the specified version of a document. Returns a  **Document** object representing the opened document.
+Opens the specified version of a document. Returns a **Document** object representing the opened document.
 
 
 ## Syntax
 
- _expression_. `Open`
+_expression_.**Open**
 
- _expression_ Required. A variable that represents a '[Version](Word.Version.md)' object.
+_expression_ Required. A variable that represents a '[Version](Word.Version.md)' object.
 
 
 ## Return value

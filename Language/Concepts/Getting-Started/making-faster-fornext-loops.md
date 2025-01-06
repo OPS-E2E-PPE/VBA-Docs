@@ -3,10 +3,9 @@ title: Making faster For...Next loops (VBA)
 keywords: vbcn6.chm1009794
 f1_keywords:
 - vbcn6.chm1009794
-ms.prod: office
 ms.assetid: 4a483362-fd6b-f0a7-5cb0-b85a2f794937
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

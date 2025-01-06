@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Table Property (PowerPoint)
+title: ShapeRange.Table property (PowerPoint)
 keywords: vbapp10.chm548069
 f1_keywords:
 - vbapp10.chm548069
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Table
 ms.assetid: 2ab10bd4-071a-8e84-cf46-1687e6661bb8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Table Property (PowerPoint)
+# ShapeRange.Table property (PowerPoint)
 
-Returns a  **[Table](PowerPoint.Table.md)** object that represents a table in a shape or in a shape range. Read-only.
+Returns a **[Table](PowerPoint.Table.md)** object that represents a table in a shape or in a shape range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Table`
+_expression_. `Table`
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

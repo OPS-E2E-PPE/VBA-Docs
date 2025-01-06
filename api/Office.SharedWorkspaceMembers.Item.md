@@ -3,12 +3,11 @@ title: SharedWorkspaceMembers.Item property (Office)
 keywords: vbaof11.chm273001
 f1_keywords:
 - vbaof11.chm273001
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMembers.Item
 ms.assetid: b4ff3efc-6329-8a59-beb7-e060ca386ab5
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

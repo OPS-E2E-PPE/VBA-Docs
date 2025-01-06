@@ -3,20 +3,17 @@ title: AcWebUserDisplay enumeration (Access)
 keywords: vbaac10.chm14599
 f1_keywords:
 - vbaac10.chm14599
-ms.prod: access
 api_name:
 - Access.AcWebUserDisplay
 ms.assetid: 4723ddf2-ceab-9313-b713-4654a2e83297
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcWebUserDisplay enumeration (Access)
 
 Specifies information about the current user of a Web database.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

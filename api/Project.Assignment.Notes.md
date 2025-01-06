@@ -1,29 +1,29 @@
 ---
-title: Assignment.Notes Property (Project)
-ms.prod: project-server
+title: Assignment.Notes property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.Notes
 ms.assetid: 91915e62-bd93-3671-a232-05cb99836428
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.Notes Property (Project)
+# Assignment.Notes property (Project)
 
-Gets or sets the notes for an assignment. Read/write  **String**.
+Gets or sets the notes for an assignment. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Notes`
+_expression_. `Notes`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The  **Notes** property does not accept characters with an ASCII value less than 32, except for the carriage return (ASCII 13) and linefeed (ASCII 10) characters.
+The **Notes** property does not accept characters with an ASCII value less than 32, except for the carriage return (ASCII 13) and linefeed (ASCII 10) characters.
 
 
 ## Example
@@ -31,7 +31,8 @@ The  **Notes** property does not accept characters with an ASCII value less than
 The following example adds a comment to the notes of the assignment in the active cell.
 
 
- **Note**  If an assignment is not selected, the code results in a run-time error 1004. 
+> [!NOTE] 
+> If an assignment is not selected, the code results in a run-time error 1004. 
 
 
 ```vb

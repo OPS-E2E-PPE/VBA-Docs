@@ -3,12 +3,11 @@ title: Options.ShowControlCharacters property (Word)
 keywords: vbawd10.chm162988438
 f1_keywords:
 - vbawd10.chm162988438
-ms.prod: word
 api_name:
 - Word.Options.ShowControlCharacters
 ms.assetid: 9fed5e7a-79b9-0517-e985-7d53a642220c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowControlCharacters`
+_expression_. `ShowControlCharacters`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

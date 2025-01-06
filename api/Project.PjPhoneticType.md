@@ -1,15 +1,15 @@
 ---
-title: PjPhoneticType Enumeration (Project)
-ms.prod: project-server
+title: PjPhoneticType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjPhoneticType
 ms.assetid: 61edaad8-bc20-507f-9e36-40e765f55cf8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjPhoneticType Enumeration (Project)
+# PjPhoneticType enumeration (Project)
 
 Contains constants that specify the type of characters used to display phonetic information.
 

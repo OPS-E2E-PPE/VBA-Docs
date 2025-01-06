@@ -1,46 +1,43 @@
 ---
-title: AppointmentItem.SaveAs Method (Outlook)
+title: AppointmentItem.SaveAs method (Outlook)
 keywords: vbaol11.chm875
 f1_keywords:
 - vbaol11.chm875
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.SaveAs
 ms.assetid: 24dc2663-ca45-395d-5c7f-6a6eaaff120f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.SaveAs Method (Outlook)
+# AppointmentItem.SaveAs method (Outlook)
 
 Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.
 
 
 ## Syntax
 
-_expression_. `SaveAs`( `_Path_` , `_Type_` )
+_expression_.**SaveAs** (_Path_, _Type_)
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The path in which to save the item.|
-| _Type_|Optional| **Variant**|The file type to save. Can be one of the following  **OlSaveAsType** constants: **olHTML** , **olMSG** , **olRTF** , **olTemplate** , **olDoc** , **olTXT** , **olVCal** , **olVCard** , **olICal** , or **olMSGUnicode**.|
+| _Type_|Optional| **Variant**|The file type to save. Can be one of the following **OlSaveAsType** constants: **olHTML**, **olMSG**, **olRTF**, **olTemplate**, **olDoc**, **olTXT**, **olVCal**, **olVCard**, **olICal**, or **olMSGUnicode**.|
 
 ## Remarks
 
-Also note that even though  **olDoc** is a valid **OlSaveAsType** constant, messages in HTML format cannot be saved in Document format, and the **olDoc** constant works only if Microsoft Word is set up as the default email editor.
+Also note that even though **olDoc** is a valid **OlSaveAsType** constant, messages in HTML format cannot be saved in Document format, and the **olDoc** constant works only if Microsoft Word is set up as the default email editor.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **SaveAs** method to save the currently open item as a text file in the Documents folder, using the subject as the file name. To run this example, make sure a mail item in plain text format is open in the active window.
+This Visual Basic for Applications (VBA) example uses the **SaveAs** method to save the currently open item as a text file in the Documents folder, using the subject as the file name. To run this example, make sure a mail item in plain text format is open in the active window.
 
 
 ```vb
@@ -67,7 +64,7 @@ Sub SaveAsTXT()
 End Sub
 ```
 
-This Visual Basic for Applications example shows you how to create a template using the  **SaveAs** method.
+This Visual Basic for Applications example shows you how to create a template using the **SaveAs** method.
 
 
 

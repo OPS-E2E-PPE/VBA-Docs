@@ -3,12 +3,11 @@ title: TextBox.LostFocus event (Access)
 keywords: vbaac10.chm14200
 f1_keywords:
 - vbaac10.chm14200
-ms.prod: access
 api_name:
 - Access.TextBox.LostFocus
 ms.assetid: 4c3a2696-5a78-5be9-7af7-205e7eb84dcd
 ms.date: 02/13/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

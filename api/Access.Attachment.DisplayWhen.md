@@ -3,18 +3,17 @@ title: Attachment.DisplayWhen property (Access)
 keywords: vbaac10.chm13919
 f1_keywords:
 - vbaac10.chm13919
-ms.prod: access
 api_name:
 - Access.Attachment.DisplayWhen
 ms.assetid: 7029a8ef-6672-7a30-deb4-581f4f66ce7f
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

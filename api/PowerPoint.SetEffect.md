@@ -1,25 +1,24 @@
 ---
-title: SetEffect Object (PowerPoint)
+title: SetEffect object (PowerPoint)
 keywords: vbapp10.chm670000
 f1_keywords:
 - vbapp10.chm670000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SetEffect
 ms.assetid: 299eff64-54d6-3689-a031-ca6a3756afca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SetEffect Object (PowerPoint)
+# SetEffect object (PowerPoint)
 
-Represents a set effect for an animation behavior. You can use the  **SetEffect** object to set the value of a property.
+Represents a set effect for an animation behavior. Use the **SetEffect** object to set the value of a property.
 
 
 ## Remarks
 
-Use the  **SetEffect** property of the **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object to return a **SetEffect** object. Set effects can be changed using the **SetEffect** object's **Property** and **To** properties.
+Use the **SetEffect** property of the **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object to return a **SetEffect** object. Set effects can be changed using the **SetEffect** object's **Property** and **To** properties.
 
 
 ## Example

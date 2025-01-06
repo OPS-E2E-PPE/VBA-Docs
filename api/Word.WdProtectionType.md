@@ -1,11 +1,10 @@
 ---
 title: WdProtectionType enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdProtectionType
 ms.assetid: 039cb76a-7ae5-e7ca-43b2-68cbed3bc9a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

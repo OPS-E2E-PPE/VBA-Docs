@@ -3,25 +3,24 @@ title: Style.Description property (Word)
 keywords: vbawd10.chm153878530
 f1_keywords:
 - vbawd10.chm153878530
-ms.prod: word
 api_name:
 - Word.Style.Description
 ms.assetid: fec1fa70-7080-e159-b20c-1a389cbaf903
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Style.Description property (Word)
 
-Returns the description of the specified style. Read-only  **String**.
+Returns the description of the specified style. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Description`
+_expression_.**Description**
 
- _expression_ A variable that represents a '[Style](Word.Style.md)' object.
+_expression_ A variable that represents a '[Style](Word.Style.md)' object.
 
 
 ## Remarks

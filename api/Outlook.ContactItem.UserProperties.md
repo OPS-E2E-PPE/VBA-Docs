@@ -1,32 +1,31 @@
 ---
-title: ContactItem.UserProperties Property (Outlook)
+title: ContactItem.UserProperties property (Outlook)
 keywords: vbaol11.chm955
 f1_keywords:
 - vbaol11.chm955
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.UserProperties
 ms.assetid: f52b8fb8-945b-a406-b3cb-1c9dcc150184
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.UserProperties Property (Outlook)
+# ContactItem.UserProperties property (Outlook)
 
-Returns the  **[UserProperties](Outlook.UserProperties.md)** collection that represents all the user properties for the Outlook item. Read-only.
+Returns the **[UserProperties](Outlook.UserProperties.md)** collection that represents all the user properties for the Outlook item. Read-only.
 
 
 ## Syntax
 
 _expression_. `UserProperties`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example finds a custom property named  `LastDateContacted` for the contact 'Jeff Smith' and displays it to the user. To run this example, you need to replace 'Jeff Smith' with a valid contact name and create a user-defined property called `LastDateContacted` for the contact.
+This Visual Basic for Applications (VBA) example finds a custom property named `LastDateContacted` for the contact 'Jeff Smith' and displays it to the user. To run this example, you need to replace 'Jeff Smith' with a valid contact name and create a user-defined property called `LastDateContacted` for the contact.
 
 
 ```vb

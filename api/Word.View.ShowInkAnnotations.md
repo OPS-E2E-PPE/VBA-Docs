@@ -3,25 +3,24 @@ title: View.ShowInkAnnotations property (Word)
 keywords: vbawd10.chm161808432
 f1_keywords:
 - vbawd10.chm161808432
-ms.prod: word
 api_name:
 - Word.View.ShowInkAnnotations
 ms.assetid: 5e022729-7e0e-4843-adbe-cd774c2d8e23
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # View.ShowInkAnnotations property (Word)
 
-Returns or sets  **Boolean** that shows or hides handwritten ink annotations. **True** displays ink annotations. **False** hides ink annotations.
+Returns or sets **Boolean** that shows or hides handwritten ink annotations. **True** displays ink annotations. **False** hides ink annotations.
 
 
 ## Syntax
 
- _expression_. `ShowInkAnnotations`
+_expression_. `ShowInkAnnotations`
 
- _expression_ A variable that represents a '[View](Word.View.md)' object.
+_expression_ A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks

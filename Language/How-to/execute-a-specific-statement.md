@@ -3,10 +3,9 @@ title: Execute a specific statement (VBA)
 keywords: vbhw6.chm1105192
 f1_keywords:
 - vbhw6.chm1105192
-ms.prod: office
 ms.assetid: 126c4d53-47a9-b36c-ef7c-d246d3f1cd5d
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

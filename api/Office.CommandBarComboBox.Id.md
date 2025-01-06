@@ -1,11 +1,10 @@
 ---
 title: CommandBarComboBox.Id property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.Id
 ms.assetid: 9cc143cb-4063-b397-05c9-d50a7c2efcb0
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,8 +38,6 @@ With ctrl
  End If 
 End With
 ```
-
-<br/>
 
 The following example changes the caption of every control on the toolbar named **Standard** to the current value of the **Id** property for that control.
 

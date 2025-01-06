@@ -3,10 +3,9 @@ title: Tabs.Remove Method (Outlook Forms Script)
 keywords: olfm10.chm2000360
 f1_keywords:
 - olfm10.chm2000360
-ms.prod: outlook
 ms.assetid: f0fa694c-112a-b85f-b1c8-74b935fe2609
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ Removes a member from a collection.
 
 ## Syntax
 
-_expression_. **Remove**(**_varg_**)
+_expression_.**Remove**(**_varg_**)
 
-_expression_ A variable that represents a  **Tabs** object.
+_expression_ A variable that represents a **Tabs** object.
 
 
 ## Parameters

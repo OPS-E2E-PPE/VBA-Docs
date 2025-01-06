@@ -1,15 +1,14 @@
 ---
-title: ReportItem.AttachmentAdd Event (Outlook)
-ms.prod: outlook
+title: ReportItem.AttachmentAdd event (Outlook)
 api_name:
 - Outlook.ReportItem.AttachmentAdd
 ms.assetid: e57a3f9b-f5a5-e345-aca7-1ab0a1c141e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportItem.AttachmentAdd Event (Outlook)
+# ReportItem.AttachmentAdd event (Outlook)
 
 Occurs when an attachment has been added to an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been added to an instance of the parent object.
 
 _expression_. `AttachmentAdd`( `_Attachment_` )
 
-_expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) object.
+_expression_ A variable that represents a [ReportItem](Outlook.ReportItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was added to the item.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was added to the item.|
 
 ## See also
 

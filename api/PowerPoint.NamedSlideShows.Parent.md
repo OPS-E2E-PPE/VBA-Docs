@@ -1,27 +1,26 @@
 ---
-title: NamedSlideShows.Parent Property (PowerPoint)
+title: NamedSlideShows.Parent property (PowerPoint)
 keywords: vbapp10.chm515002
 f1_keywords:
 - vbapp10.chm515002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.NamedSlideShows.Parent
 ms.assetid: 934b3013-1d73-adbb-0c8d-ea1e230315c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NamedSlideShows.Parent Property (PowerPoint)
+# NamedSlideShows.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [NamedSlideShows](./PowerPoint.NamedSlideShows.md) object.
+_expression_ A variable that represents a [NamedSlideShows](PowerPoint.NamedSlideShows.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

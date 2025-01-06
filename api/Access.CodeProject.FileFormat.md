@@ -3,12 +3,11 @@ title: CodeProject.FileFormat property (Access)
 keywords: vbaac10.chm12725
 f1_keywords:
 - vbaac10.chm12725
-ms.prod: access
 api_name:
 - Access.CodeProject.FileFormat
 ms.assetid: f72e13d7-58dc-3710-b1e7-798a71601ceb
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

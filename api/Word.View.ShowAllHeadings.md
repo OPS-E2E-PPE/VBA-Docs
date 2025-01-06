@@ -3,12 +3,11 @@ title: View.ShowAllHeadings method (Word)
 keywords: vbawd10.chm161808487
 f1_keywords:
 - vbawd10.chm161808487
-ms.prod: word
 api_name:
 - Word.View.ShowAllHeadings
 ms.assetid: 294aa5f0-9821-faed-aa82-ff59f7a84eb6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Switches between showing all text (headings and body text) and showing only head
 
 ## Syntax
 
- _expression_. `ShowAllHeadings`
+_expression_. `ShowAllHeadings`
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This method generates an error if the view isn't outline view or master document
 
 ## Example
 
-This example uses the  **ShowHeading** method to show all headings (without any body text) and then switches the display to show all text (headings and body text) in outline view.
+This example uses the **ShowHeading** method to show all headings (without any body text) and then switches the display to show all text (headings and body text) in outline view.
 
 
 ```vb

@@ -1,9 +1,9 @@
 ---
 title: Outlook Visual Basic for Applications (VBA) reference
-ms.prod: outlook
 description: Conceptual overviews, programming tasks, samples, and references to help you develop Outlook solutions.
 ms.date: 10/10/2018
-localization_priority: Priority
+ms.localizationpriority: medium
+ms.service: outlook
 ---
 
 # Outlook VBA reference
@@ -11,7 +11,7 @@ localization_priority: Priority
 This reference contains conceptual overviews, programming tasks, samples, and references to help you develop Outlook solutions.
 
 > [!NOTE] 
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
 
 Use the table of contents in the navigation on the left to view the topics in the following sections:
     
@@ -27,6 +27,6 @@ Use the table of contents in the navigation on the left to view the topics in th
 
 ## See also
 
-- [Outlook (Office client development)](https://docs.microsoft.com/office/client-developer/outlook/outlook-home)
+- [Outlook (Office client development)](/office/client-developer/outlook/outlook-home)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

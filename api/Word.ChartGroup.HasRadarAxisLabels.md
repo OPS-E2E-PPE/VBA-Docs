@@ -3,12 +3,11 @@ title: ChartGroup.HasRadarAxisLabels property (Word)
 keywords: vbawd10.chm263454734
 f1_keywords:
 - vbawd10.chm263454734
-ms.prod: word
 api_name:
 - Word.ChartGroup.HasRadarAxisLabels
 ms.assetid: 0b086c3c-1eaa-1e65-fcb1-969c8b2c64c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasRadarAxisLabels`
+_expression_.**HasRadarAxisLabels**
 
- _expression_ A variable that represents a '[ChartGroup](Word.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](Word.ChartGroup.md)** object.
 
 
 ## Remarks

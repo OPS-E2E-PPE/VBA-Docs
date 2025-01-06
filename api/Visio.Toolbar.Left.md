@@ -1,27 +1,26 @@
 ---
-title: Toolbar.Left Property (Visio)
+title: Toolbar.Left property (Visio)
 keywords: vis_sdr.chm13713825
 f1_keywords:
 - vis_sdr.chm13713825
-ms.prod: visio
 api_name:
 - Visio.Toolbar.Left
 ms.assetid: 2929fef2-0855-dae1-9c60-0208d1de4dee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Toolbar.Left Property (Visio)
+# Toolbar.Left property (Visio)
 
 Gets the distance in pixels between the left edge of the object and the left side of the docking area. Sets the distance in pixels between the left edge of an object and the left edge of the screen. Read/write.
 
 
 ## Syntax
 
- _expression_.**Left**
+_expression_.**Left**
 
- _expression_ A variable that represents a [Toolbar](./Visio.Toolbar.md) object.
+_expression_ A variable that represents a **[Toolbar](Visio.Toolbar.md)** object.
 
 
 ## Return value
@@ -32,16 +31,17 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-The value of  **Left** must be greater than or equal to zero.
+The value of **Left** must be greater than or equal to zero.
 
 
 ## Example
 
-This example shows how to use the  **Left** property to set the position of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **Left** property to set the position of a **UIObject** object. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
 
-To restore Visio's built-in toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore Visio's built-in toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

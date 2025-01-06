@@ -3,12 +3,11 @@ title: DocumentProperty.LinkToContent property (Office)
 keywords: vbaof11.chm250008
 f1_keywords:
 - vbaof11.chm250008
-ms.prod: office
 api_name:
 - Office.DocumentProperty.LinkToContent
 ms.assetid: 062df6df-cdee-81fc-3244-e229dacaa64e
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -52,9 +51,9 @@ Sub DisplayLinkStatus(dp As DocumentProperty)
  Else 
  tf = "not " 
  End If 
- stat = "This property is " &amp; tf &amp; "linked" 
+ stat = "This property is " & tf & "linked" 
  If dp.LinkToContent Then 
- stat = stat + Chr(13) &amp; "The link source is " &amp; dp.LinkSource 
+ stat = stat + Chr(13) & "The link source is " & dp.LinkSource 
  End If 
  MsgBox stat 
 End Sub

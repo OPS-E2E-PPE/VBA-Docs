@@ -3,12 +3,11 @@ title: ShapeRange.PickUp method (Word)
 keywords: vbawd10.chm162856980
 f1_keywords:
 - vbawd10.chm162856980
-ms.prod: word
 api_name:
 - Word.ShapeRange.PickUp
 ms.assetid: 6074168d-5cb2-2f86-fca4-c609dd2333f8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ Copies the formatting of the specified shape.
 
 ## Syntax
 
- _expression_. `PickUp`
+_expression_.**PickUp**
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
-Use the  **[Apply](Word.ShapeRange.Apply.md)** method to apply the copied formatting to another shape.
+Use the **[Apply](Word.ShapeRange.Apply.md)** method to apply the copied formatting to another shape.
 
 
 ## Example
 
-This example copies the formatting of shape one on  _myDocument_ and then applies the copied formatting to shape two.
+This example copies the formatting of shape one on _myDocument_ and then applies the copied formatting to shape two.
 
 
 ```vb

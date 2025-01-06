@@ -1,37 +1,36 @@
 ---
-title: TimelineView.ShowLabelWhenViewingByMonth Property (Outlook)
+title: TimelineView.ShowLabelWhenViewingByMonth property (Outlook)
 keywords: vbaol11.chm2666
 f1_keywords:
 - vbaol11.chm2666
-ms.prod: outlook
 api_name:
 - Outlook.TimelineView.ShowLabelWhenViewingByMonth
 ms.assetid: 6af6ff5f-6fbb-e6b7-6270-7a12cc573514
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimelineView.ShowLabelWhenViewingByMonth Property (Outlook)
+# TimelineView.ShowLabelWhenViewingByMonth property (Outlook)
 
-Returns or sets a  **Boolean** value that determines if labels for Outlook items are displayed when viewing by month in the **[TimelineView](Outlook.TimelineView.md)** object. Read/write.
+Returns or sets a **Boolean** value that determines if labels for Outlook items are displayed when viewing by month in the **[TimelineView](Outlook.TimelineView.md)** object. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowLabelWhenViewingByMonth`
+_expression_. `ShowLabelWhenViewingByMonth`
 
-_expression_ A variable that represents a [TimelineView](./Outlook.TimelineView.md) object.
+_expression_ A variable that represents a [TimelineView](Outlook.TimelineView.md) object.
 
 
 ## Remarks
 
-This property is applicable only if the  **[TimelineViewMode](Outlook.TimelineView.TimelineViewMode.md)** property is set to **olTimelineViewMonth**.
+This property is applicable only if the **[TimelineViewMode](Outlook.TimelineView.TimelineViewMode.md)** property is set to **olTimelineViewMonth**.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example configures the current  **TimelineView** object to display Outlook items by month, with week number labels on the lower portion of the timeline scale, with labels no longer than 40 characters.
+The following Visual Basic for Applications (VBA) example configures the current **TimelineView** object to display Outlook items by month, with week number labels on the lower portion of the timeline scale, with labels no longer than 40 characters.
 
 
 ```vb

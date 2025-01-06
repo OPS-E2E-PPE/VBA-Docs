@@ -3,12 +3,11 @@ title: LineNumbering.Active property (Word)
 keywords: vbawd10.chm158466152
 f1_keywords:
 - vbawd10.chm158466152
-ms.prod: word
 api_name:
 - Word.LineNumbering.Active
 ms.assetid: 31b62e8f-a254-21aa-97bf-d9114f0605a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Active`
+_expression_.**Active**
 
  _expression_ An expression that returns a '[LineNumbering](Word.LineNumbering.md)' object.
 

@@ -3,30 +3,29 @@ title: Borders.DistanceFromTop property (Word)
 keywords: vbawd10.chm154927108
 f1_keywords:
 - vbawd10.chm154927108
-ms.prod: word
 api_name:
 - Word.Borders.DistanceFromTop
 ms.assetid: 4e657225-0428-5d9f-582f-e2263fcd0437
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Borders.DistanceFromTop property (Word)
 
-Returns or sets the space (in points) between the text and the top border. Read/write  **Long**.
+Returns or sets the space (in points) between the text and the top border. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `DistanceFromTop`
+_expression_. `DistanceFromTop`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks
 
-Using this property with a page border, you can set either the space between the text and the top page border or the space between the top edge of the page and the top page border. Where the distance is measured from depends on the value of the  **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
+Using this property with a page border, you can set either the space between the text and the top page border or the space between the top edge of the page and the top page border. Where the distance is measured from depends on the value of the **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
 
 
 ## Example

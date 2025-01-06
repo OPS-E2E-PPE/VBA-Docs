@@ -3,12 +3,11 @@ title: MailMergeDataSource.SetAllErrorFlags method (Word)
 keywords: vbawd10.chm152895592
 f1_keywords:
 - vbawd10.chm152895592
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.SetAllErrorFlags
 ms.assetid: 9419781e-ca05-dac7-d11f-91e002a6cb84
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Marks all records in a mail merge data source as containing invalid data in an a
 
 ## Syntax
 
- _expression_. `SetAllErrorFlags`( `_Invalid_` , `_InvalidComment_` )
+_expression_. `SetAllErrorFlags`( `_Invalid_` , `_InvalidComment_` )
 
- _expression_ Required. A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ Required. A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Marks all records in a mail merge data source as containing invalid data in an a
 
 ## Remarks
 
-You can individually mark data source records that contain invalid data in an address field by using the  **InvalidAddress** and **InvalidComments** properties.
+You can individually mark data source records that contain invalid data in an address field by using the **InvalidAddress** and **InvalidComments** properties.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: Paragraphs.Hyphenation property (Word)
 keywords: vbawd10.chm156762225
 f1_keywords:
 - vbawd10.chm156762225
-ms.prod: word
 api_name:
 - Word.Paragraphs.Hyphenation
 ms.assetid: 0437a95c-719d-72ce-1de9-ce9d3fd166ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Hyphenation`
+_expression_. `Hyphenation`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-This property can be  **True** , **False** or **wdUndefined**.
+This property can be **True**, **False** or **wdUndefined**.
 
 
 ## Example

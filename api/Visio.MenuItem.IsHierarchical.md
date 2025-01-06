@@ -1,27 +1,26 @@
 ---
-title: MenuItem.IsHierarchical Property (Visio)
+title: MenuItem.IsHierarchical property (Visio)
 keywords: vis_sdr.chm12913740
 f1_keywords:
 - vis_sdr.chm12913740
-ms.prod: visio
 api_name:
 - Visio.MenuItem.IsHierarchical
 ms.assetid: d8643162-6d8a-4558-d4e0-c563af680cb3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MenuItem.IsHierarchical Property (Visio)
+# MenuItem.IsHierarchical property (Visio)
 
-Indicates whether a menu item is hierarchical; that is, whether it contains a drop-down menu that contains more items, which can in turn be accessed by iterating through the  **MenuItems** collection of the menu item. Read-only.
+Indicates whether a menu item is hierarchical; that is, whether it contains a drop-down menu that contains more items, which can in turn be accessed by iterating through the **MenuItems** collection of the menu item. Read-only.
 
 
 ## Syntax
 
- _expression_. `IsHierarchical`
+_expression_. `IsHierarchical`
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
 ## Return value
@@ -32,16 +31,17 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-The value of the  **CmdNum** property of a **MenuItem** object that represents a hierarchical menu should be zero (0). This corresponds to the Microsoft Visio constant **visCmdHierarchical**.
+The value of the **CmdNum** property of a **MenuItem** object that represents a hierarchical menu should be zero (0). This corresponds to the Microsoft Visio constant **visCmdHierarchical**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **IsHierarchical** property to delete a hierarchical menu.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **IsHierarchical** property to delete a hierarchical menu.
 
-To restore Visio's built-in menus after you run this macro, call the  **ThisDocument.ClearCustomMenus** method.
+To restore Visio's built-in menus after you run this macro, call the **ThisDocument.ClearCustomMenus** method.
 
 
 

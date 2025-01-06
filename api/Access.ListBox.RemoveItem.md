@@ -3,12 +3,11 @@ title: ListBox.RemoveItem method (Access)
 keywords: vbaac10.chm11302
 f1_keywords:
 - vbaac10.chm11302
-ms.prod: access
 api_name:
 - Access.ListBox.RemoveItem
 ms.assetid: 5a2f010b-9888-9aff-fee1-1e9e596464e8
 ms.date: 02/28/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

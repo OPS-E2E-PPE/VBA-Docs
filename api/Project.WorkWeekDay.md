@@ -1,23 +1,23 @@
 ---
-title: WorkWeekDay Object (Project)
-ms.prod: project-server
+title: WorkWeekDay object (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDay
 ms.assetid: b6cbbe5f-11de-de90-e0cc-82bc2027acf5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDay Object (Project)
+# WorkWeekDay object (Project)
 
-Represents a single calendar day in a work week. The  **WorkWeekDay** object is a member of the **[WorkWeekDays](Project.workweekdays.md)** collection.
+Represents a single calendar day in a work week. The **WorkWeekDay** object is a member of the **[WorkWeekDays](Project.workweekdays.md)** collection.
  
 
 
 ## Remarks
 
-Use the  **[Item](Project.WorkWeekDays.Item.md)** property of the **WorkWeekDays** collection to return a single **WorkWeekDay** object.
+Use the **[Item](Project.WorkWeekDays.Item.md)** property of the **WorkWeekDays** collection to return a single **WorkWeekDay** object.
  
 
  

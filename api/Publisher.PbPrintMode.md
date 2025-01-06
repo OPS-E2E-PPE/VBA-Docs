@@ -1,18 +1,17 @@
 ---
-title: PbPrintMode Enumeration (Publisher)
+title: PbPrintMode enumeration (Publisher)
 keywords: vbapb10.chm65581
 f1_keywords:
 - vbapb10.chm65581
-ms.prod: publisher
 api_name:
 - Publisher.PbPrintMode
 ms.assetid: d2c83c21-4d2e-c7a1-f774-1c3754f3f20d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbPrintMode Enumeration (Publisher)
+# PbPrintMode enumeration (Publisher)
 
 Represents whether the specified publication is printed as a composite or separations. 
 

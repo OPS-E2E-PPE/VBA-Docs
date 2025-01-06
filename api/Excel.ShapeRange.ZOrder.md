@@ -3,12 +3,11 @@ title: ShapeRange.ZOrder method (Excel)
 keywords: vbaxl10.chm640095
 f1_keywords:
 - vbaxl10.chm640095
-ms.prod: excel
 api_name:
 - Excel.ShapeRange.ZOrder
 ms.assetid: 3a2e8556-ddbf-312d-85a3-6cd5d2865499
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Moves the specified shape in front of or behind other shapes in the collection (
 
 ## Syntax
 
-_expression_. `ZOrder`( `_ZOrderCmd_` )
+_expression_.**ZOrder** (_ZOrderCmd_)
 
-_expression_ A variable that represents a [ShapeRange](./Excel.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](Excel.shaperange.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,23 +31,12 @@ _expression_ A variable that represents a [ShapeRange](./Excel.ShapeRange.md) ob
 
 ## Remarks
 
-
-
-| **MsoZOrderCmd** can be one of these **MsoZOrderCmd** constants.|
-| **msoBringForward**|
-| **msoBringInFrontOfText**. Used only in Microsoft Word.|
-| **msoBringToFront**|
-| **msoSendBackward**|
-| **msoSendBehindText**. Used only in Microsoft Word.|
-| **msoSendToBack**|
-
-Use the  **[ZOrderPosition](Excel.ShapeRange.ZOrderPosition.md)** property to determine a shape's current position in the z-order.
+Use the **[ZOrderPosition](Excel.ShapeRange.ZOrderPosition.md)** property to determine a shape's current position in the z-order.
 
 
 ## Example
 
-This example adds an oval to  `myDocument` and then places the oval second from the back in the z-order if there is at least one other shape on the document.
-
+This example adds an oval to _myDocument_ and then places the oval second from the back in the z-order if there is at least one other shape on the document.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -62,9 +48,6 @@ End With
 ```
 
 
-## See also
 
-
-[ShapeRange Object](Excel.ShapeRange.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

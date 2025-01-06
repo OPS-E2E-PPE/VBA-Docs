@@ -1,33 +1,31 @@
 ---
-title: ShapeRange.Hyperlink Property (Publisher)
+title: ShapeRange.Hyperlink property (Publisher)
 keywords: vbapb10.chm2293859
 f1_keywords:
 - vbapb10.chm2293859
-ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.Hyperlink
 ms.assetid: 34ec968c-af66-7629-066f-80c8e1b40e84
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Hyperlink Property (Publisher)
+# ShapeRange.Hyperlink property (Publisher)
 
-Returns a  **[Hyperlink](Publisher.Hyperlink.md)** object representing the hyperlink associated with the specified shape.
+Returns a **[Hyperlink](Publisher.Hyperlink.md)** object representing the hyperlink associated with the specified shape.
 
 
 ## Syntax
 
- _expression_. **Hyperlink**
+_expression_.**Hyperlink**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Example
 
-This example sets shape one on page one in the active publication to jump to the specified Web site when the shape is clicked.
-
+This example sets shape one on page one in the active publication to jump to the specified website when the shape is chosen.
 
 ```vb
 Dim hypTemp As Hyperlink 

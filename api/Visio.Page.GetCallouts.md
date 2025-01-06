@@ -1,27 +1,26 @@
 ---
-title: Page.GetCallouts Method (Visio)
+title: Page.GetCallouts method (Visio)
 keywords: vis_sdr.chm10962170
 f1_keywords:
 - vis_sdr.chm10962170
-ms.prod: visio
 api_name:
 - Visio.Page.GetCallouts
 ms.assetid: a0300c64-4bdd-e442-c00c-a727debbf6b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.GetCallouts Method (Visio)
+# Page.GetCallouts method (Visio)
 
 Returns the list of identifiers of the callout shapes on the page.
 
 
 ## Syntax
 
- _expression_. `GetCallouts`( `_NestedOptions_` )
+_expression_. `GetCallouts`( `_NestedOptions_` )
 
- _expression_ A variable that represents a '[Page](Visio.Page.md)' object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters

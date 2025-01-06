@@ -3,12 +3,11 @@ title: Permission.RemoveAll method (Office)
 keywords: vbaof11.chm261007
 f1_keywords:
 - vbaof11.chm261007
-ms.prod: office
 api_name:
 - Office.Permission.RemoveAll
 ms.assetid: 33dc3f62-c92f-03b0-e164-98c366bbdb32
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,9 +38,9 @@ The following example uses the **RemoveAll** method to remove all user permissio
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
  irmPermission.RemoveAll 
- MsgBox "All permissions removed." &amp; vbCrLf &amp; _ 
- "Count: " &amp; irmPermission.Count &amp; vbCrLf &amp; _ 
- "Enabled: " &amp; irmPermission.Enabled, _ 
+ MsgBox "All permissions removed." & vbCrLf & _ 
+ "Count: " & irmPermission.Count & vbCrLf & _ 
+ "Enabled: " & irmPermission.Enabled, _ 
  vbInformation + vbOKOnly, "IRM Information" 
  Else 
  MsgBox "This document is not restricted.", _ 

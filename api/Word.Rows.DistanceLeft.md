@@ -3,30 +3,29 @@ title: Rows.DistanceLeft property (Word)
 keywords: vbawd10.chm155975700
 f1_keywords:
 - vbawd10.chm155975700
-ms.prod: word
 api_name:
 - Word.Rows.DistanceLeft
 ms.assetid: 2798e176-d175-6504-7eac-4248bdb0ceb3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rows.DistanceLeft property (Word)
 
-Returns or sets the distance (in points) between the document text and the left edge of the specified table. Read/write  **Single**.
+Returns or sets the distance (in points) between the document text and the left edge of the specified table. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `DistanceLeft`
+_expression_. `DistanceLeft`
 
- _expression_ A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks
 
-This property doesn't have any effect if  **WrapAroundText** is **False**.
+This property doesn't have any effect if **WrapAroundText** is **False**.
 
 
 ## Example

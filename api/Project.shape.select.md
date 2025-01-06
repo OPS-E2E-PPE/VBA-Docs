@@ -1,20 +1,20 @@
 ---
-title: Shape.Select Method (Project)
-ms.prod: project-server
+title: Shape.Select method (Project)
+ms.service: project-server
 ms.assetid: b96be944-9388-cecc-2c3f-ec25e9f96aec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Select Method (Project)
+# Shape.Select method (Project)
 Selects the shape.
 
 ## Syntax
 
- _expression_. `Select` _(Replace)_
+_expression_.**Select** _(Replace)_
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Parameters
@@ -24,7 +24,7 @@ Selects the shape.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Replace_|Optional|**Variant**|**True** replaces the current selection with the new selection. **False** adds the new selection to the current selection. The default value is **True**.|
-| _Replace_|Optional|VARIANT||
+| _Replace_|Optional|**Variant**||
 
 ## Return value
 

@@ -1,32 +1,31 @@
 ---
-title: Folder.AddressBookName Property (Outlook)
+title: Folder.AddressBookName property (Outlook)
 keywords: vbaol11.chm2004
 f1_keywords:
 - vbaol11.chm2004
-ms.prod: outlook
 api_name:
 - Outlook.Folder.AddressBookName
 ms.assetid: e80535e9-216f-03a6-36a1-3776b5862e96
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Folder.AddressBookName Property (Outlook)
+# Folder.AddressBookName property (Outlook)
 
-Returns or sets a  **String** that indicates the Address Book name for the **[Folder](Outlook.Folder.md)** object representing a Contacts folder. Read/write.
+Returns or sets a **String** that indicates the Address Book name for the **[Folder](Outlook.Folder.md)** object representing a Contacts folder. Read/write.
 
 
 ## Syntax
 
 _expression_. `AddressBookName`
 
-_expression_ A variable that represents a [Folder](./Outlook.Folder.md) object.
+_expression_ A variable that represents a [Folder](Outlook.Folder.md) object.
 
 
 ## Remarks
 
-If you try to set the  **AddressBookName** property in a non-Contacts folder, an error will be returned.
+If you try to set the **AddressBookName** property in a non-Contacts folder, an error will be returned.
 
 
 ## Example

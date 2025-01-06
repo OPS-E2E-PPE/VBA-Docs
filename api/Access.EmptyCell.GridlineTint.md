@@ -3,12 +3,11 @@ title: EmptyCell.GridlineTint property (Access)
 keywords: vbaac10.chm14636
 f1_keywords:
 - vbaac10.chm14636
-ms.prod: access
 api_name:
 - Access.EmptyCell.GridlineTint
 ms.assetid: a8749810-6ec0-d10b-2ea8-71531e2dac0a
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

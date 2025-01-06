@@ -3,20 +3,17 @@ title: AcResourceType enumeration (Access)
 keywords: vbaac10.chm14659
 f1_keywords:
 - vbaac10.chm14659
-ms.prod: access
 api_name:
 - Access.AcResourceType
 ms.assetid: ce31a7ab-ad69-a351-2374-488203884bac
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcResourceType enumeration (Access)
 
 Specifies the type of a [SharedResource](Access.SharedResource.md) object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

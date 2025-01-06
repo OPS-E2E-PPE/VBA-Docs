@@ -1,21 +1,21 @@
 ---
-title: VisUIMenuAnimation Enumeration (Visio)
+title: VisUIMenuAnimation enumeration (Visio)
 keywords: vis_sdr.chm70280
 f1_keywords:
 - vis_sdr.chm70280
-ms.prod: visio
 ms.assetid: cd790fdb-70a4-da9c-5614-240ec597e99f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisUIMenuAnimation Enumeration (Visio)
+# VisUIMenuAnimation enumeration (Visio)
 
-Values used in conjunction with the  **UIObject.MenuAnimationStyle** property.
+Values used in conjunction with the **UIObject.MenuAnimationStyle** property.
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 

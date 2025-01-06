@@ -3,12 +3,11 @@ title: SharedWorkspaceTasks object (Office)
 keywords: vbaof11.chm265000
 f1_keywords:
 - vbaof11.chm265000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceTasks
 ms.assetid: de26341f-44d1-131e-1dbe-e31f3f68e312
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Use the **[Tasks](Office.SharedWorkspace.Tasks.md)** property of the **[SharedWo
 ```vb
     Dim swsTasks As Office.SharedWorkspaceTasks 
     Set swsTasks = ActiveWorkbook.SharedWorkspace.Tasks 
-    MsgBox "There are " &amp; swsTasks.Count &amp; _ 
+    MsgBox "There are " & swsTasks.Count & _ 
         " task(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

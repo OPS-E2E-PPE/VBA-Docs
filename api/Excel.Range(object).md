@@ -3,24 +3,36 @@ title: Range object (Excel)
 keywords: vbaxl10.chm143072
 f1_keywords:
 - vbaxl10.chm143072
-ms.prod: excel
 api_name:
 - Excel.Range
 ms.assetid: b8207778-0dcc-4570-1234-f130532cc8cd
-ms.date: 09/17/2018
-localization_priority: Priority
+ms.date: 08/14/2019
+ms.localizationpriority: high
 ---
 
 
 # Range object (Excel)
 
-Represents a cell, a row, a column, a selection of cells containing one or more contiguous blocks of cells, or a 3-D range.
+Represents a cell, a row, a column, a selection of cells containing one or more contiguous blocks of cells, or a 3D range.
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
+
+## Remarks
+
+The default member of **Range** forwards calls without parameters to the **[Value](Excel.Range.Value.md)** property and calls with parameters to the **[Item](Excel.Range.Item.md)** member. Accordingly, `someRange = someOtherRange` is equivalent to `someRange.Value = someOtherRange.Value`, `someRange(1)` to `someRange.Item(1)` and `someRange(1,1)` to `someRange.Item(1,1)`.
+
+The following properties and methods for returning a **Range** object are described in the **Example** section:
+
+- **[Range](Excel.Worksheet.Range.md)** and **[Cells](Excel.Worksheet.Cells.md)** properties of the **Worksheet** object
+- **[Range](excel.range.range.md)** and **[Cells](excel.range.cells.md)** properties of the **Range** object   
+- **[Rows](Excel.Worksheet.Rows.md)** and **[Columns](Excel.Worksheet.Columns.md)** properties of the **Worksheet** object
+- **[Rows](Excel.Range.Rows.md)** and **[Columns](Excel.Range.Columns.md)** properties of the **Range** object  
+- **[Offset](Excel.Range.Offset.md)** property of the **Range** object  
+- **[Union](Excel.Application.Union.md)** method of the **Application** object
 
 ## Example
 
-Use **Range** ( _arg_ ), where _arg_ names the range, to return a **Range** object that represents a single cell or a range of cells. The following example places the value of cell A1 in cell A5.
-
+Use **Range** (_arg_), where _arg_ names the range, to return a **Range** object that represents a single cell or a range of cells. The following example places the value of cell A1 in cell A5.
 
 ```vb
 Worksheets("Sheet1").Range("A5").Value = _ 
@@ -29,27 +41,29 @@ Worksheets("Sheet1").Range("A5").Value = _
 
 The following example fills the range A1:H8 with random numbers by setting the formula for each cell in the range. When it's used without an object qualifier (an object to the left of the period), the **Range** property returns a range on the active sheet. If the active sheet isn't a worksheet, the method fails. 
 
-Use the **[Activate](Excel.Worksheet.Activate(method).md)** method to activate a worksheet before you use the **Range** property without an explicit object qualifier.
+Use the **[Activate](Excel.Worksheet.Activate(method).md)** method of the **Worksheet** object to activate a worksheet before you use the **Range** property without an explicit object qualifier.
 
 ```vb
 Worksheets("Sheet1").Activate 
 Range("A1:H8").Formula = "=Rand()"    'Range is on the active sheet
 ```
 
-The following example clears the contents of the range named  _Criteria_.
+The following example clears the contents of the range named _Criteria_.
 
 > [!NOTE] 
 > If you use a text argument for the range address, you must specify the address in A1-style notation (you cannot use R1C1-style notation).
-
 
 ```vb
 Worksheets(1).Range("Criteria").ClearContents
 ```
 
-Use **Cells** ( _row_, _column_ ) where _row_ is the row index and _column_ is the column index, to return a single cell. The following example sets the value of cell A1 to 24.
+Use **Cells** on a worksheet to obtain a range consisting all single cells on the worksheet. You can access single cells via **Item**(_row_, _column_), where _row_ is the row index and _column_ is the column index. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**. 
+The following example sets the value of cell A1 to 24 and of cell B1 to 42 on the first sheet of the active workbook.
 
 ```vb
 Worksheets(1).Cells(1, 1).Value = 24
+Worksheets(1).Cells.Item(1, 2).Value = 42
 ```
 
 The following example sets the formula for cell A2.
@@ -61,7 +75,7 @@ ActiveSheet.Cells(2, 1).Formula = "=Sum(B1:B5)"
 Although you can also use `Range("A1")` to return cell A1, there may be times when the **Cells** property is more convenient because you can use a variable for the row or column. The following example creates column and row headings on Sheet1. Be aware that after the worksheet has been activated, the **Cells** property can be used without an explicit sheet declaration (it returns a cell on the active sheet).
 
 > [!NOTE] 
-> Although you could use Visual Basic string functions to alter A1-style references, it is easier (and better programming practice) to use the  `Cells(1, 1)` notation.
+> Although you could use Visual Basic string functions to alter A1-style references, it is easier (and better programming practice) to use the `Cells(1, 1)` notation.
 
 ```vb
 Sub SetUpTable() 
@@ -75,18 +89,20 @@ Next TheQuarter
 End Sub
 ```
 
-Use _expression_. **Cells** ( _row_, _column_ ), where _expression_ is an expression that returns a [Range](excel.range-graph-property.md) object, and _row_ and _column_ are relative to the upper-left corner of the range, to return part of a range. 
-
-The following example sets the formula for cell C5.
+Use_expression_.**Cells**, where _expression_ is an expression that returns a **Range** object, to obtain a range with the same address consisting of single cells.
+On such a range, you access single cells via **Item**(_row_, _column_), where are relative to the upper-left corner of the first area of the range. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**.
+The following example sets the formula for cell C5 and D5 of the first sheet of the active workbook.
 
 ```vb
 Worksheets(1).Range("C5:C10").Cells(1, 1).Formula = "=Rand()"
+Worksheets(1).Range("C5:C10").Cells.Item(1, 2).Formula = "=Rand()"
 ```
 
-Use **Range** ( _cell1, cell2_ ), where _cell1_ and _cell2_ are **Range** objects that specify the start and end cells, to return a **Range** object. The following example sets the border line style for cells A1:J10.
+Use **Range** (_cell1, cell2_), where _cell1_ and _cell2_ are **Range** objects that specify the start and end cells, to return a **Range** object. The following example sets the border line style for cells A1:J10.
 
 > [!NOTE] 
-> Be aware that the period in front of each occurrence of the **Cells** property. The period is required if the result of the preceding **With** statement is to be applied to the **Cells** property—in this case, to indicate that the cells are on worksheet one (without the period, the **Cells** property would return cells on the active sheet).
+> Be aware that the period in front of each occurrence of the **Cells** property is required if the result of the preceding **With** statement is to be applied to the **Cells** property. In this case, it indicates that the cells are on worksheet one (without the period, the **Cells** property would return cells on the active sheet).
 
 ```vb
 With Worksheets(1) 
@@ -95,7 +111,65 @@ With Worksheets(1)
 End With
 ```
 
-Use **Offset** ( _row, column_ ), where _row_ and _column_ are the row and column offsets, to return a range at a specified offset to another range. The following example selects the cell three rows down from and one column to the right of the cell in the upper-left corner of the current selection. You cannot select a cell that is not on the active sheet, so you must first activate the worksheet.
+Use **Rows** on a worksheet to obtain a range consisting all rows on the worksheet. You can access single rows via **Item**(_row_), where _row_ is the row index. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**. 
+
+> [!NOTE] 
+> It's not legal to provide the second parameter of **Item** for ranges consisting of rows. You first have to convert it to single cells via **Cells**. 
+
+The following example deletes row 5 and 10 of the first sheet of the active workbook.
+
+```vb
+Worksheets(1).Rows(10).Delete
+Worksheets(1).Rows.Item(5).Delete
+```
+
+Use **Columns** on a worksheet to obtain a range consisting all columns on the worksheet. You can access single columns via **Item**(_row_) [sic], where _row_ is the column index given as a number or as an A1-style column address. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**. 
+
+> [!NOTE] 
+> It's not legal to provide the second parameter of **Item** for ranges consisting of columns. You first have to convert it to single cells via **Cells**.
+
+The following example deletes column "B", "C", "E", and "J" of the first sheet of the active workbook.
+
+```vb
+Worksheets(1).Columns(10).Delete
+Worksheets(1).Columns.Item(5).Delete
+Worksheets(1).Columns("C").Delete
+Worksheets(1).Columns.Item("B").Delete
+```
+
+Use_expression_.**Rows**, where _expression_ is an expression that returns a **Range** object, to obtain a range consisting of the rows in the first area of the range.
+You can access single rows via **Item**(_row_), where _row_ is the relative row index from the top of the first area of the range. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**.
+
+> [!NOTE] 
+> It's not legal to provide the second parameter of **Item** for ranges consisting of rows. You first have to convert it to single cells via **Cells**.
+
+The following example deletes the ranges C8:D8 and C6:D6 of the first sheet of the active workbook.
+
+```vb
+Worksheets(1).Range("C5:D10").Rows(4).Delete
+Worksheets(1).Range("C5:D10").Rows.Item(2).Delete
+```
+
+Use_expression_.**Columns**, where _expression_ is an expression that returns a **Range** object, to obtain a range consisting of the columns in the first area of the range.
+You can access single columns via **Item**(_row_) [sic], where _row_ is the relative column index from the left of the first area of the range given as a number or as an A1-style column address. 
+**Item** can be omitted since the call is forwarded to it by the default member of **Range**.
+
+> [!NOTE] 
+> It's not legal to provide the second parameter of **Item** for ranges consisting of columns. You first have to convert it to single cells via **Cells**.
+
+The following example deletes the ranges L2:L10, G2:G10, F2:F10 and D2:D10 of the first sheet of the active workbook.
+
+```vb
+Worksheets(1).Range("C5:Z10").Columns(10).Delete
+Worksheets(1).Range("C5:Z10").Columns.Item(5).Delete
+Worksheets(1).Range("C5:Z10").Columns("D").Delete
+Worksheets(1).Range("C5:Z10").Columns.Item("B").Delete
+```
+
+Use **Offset** (_row, column_), where _row_ and _column_ are the row and column offsets, to return a range at a specified offset to another range. The following example selects the cell three rows down from and one column to the right of the cell in the upper-left corner of the current selection. You cannot select a cell that is not on the active sheet, so you must first activate the worksheet.
 
 ```vb
 Worksheets("Sheet1").Activate 
@@ -103,7 +177,7 @@ Worksheets("Sheet1").Activate
 Selection.Offset(3, 1).Range("A1").Select
 ```
 
-Use **Union** ( _range1, range2_, ...) to return multiple-area ranges—that is, ranges composed of two or more contiguous blocks of cells. The following example creates an object defined as the union of ranges A1:B2 and C3:D4, and then selects the defined range.
+Use **Union** (_range1, range2_, ...) to return multiple-area ranges—that is, ranges composed of two or more contiguous blocks of cells. The following example creates an object defined as the union of ranges A1:B2 and C3:D4, and then selects the defined range.
 
 ```vb
 Dim r1 As Range, r2 As Range, myMultiAreaRange As Range 
@@ -114,7 +188,7 @@ Set myMultiAreaRange = Union(r1, r2)
 myMultiAreaRange.Select
 ```
 
-If you work with selections that contain more than one area, the **[Areas](Excel.Range.Areas.md)** property is useful. It divides a multiple-area selection into individual **Range** objects and then returns the objects as a collection. You can use the **[Count](Excel.Range.Count.md)** property on the returned collection to verify a selection that contains more than one area, as shown in the following example.
+If you work with selections that contain more than one area, the **[Areas](Excel.Range.Areas.md)** property is useful. It divides a multiple-area selection into individual **Range** objects and then returns the objects as a collection. Use the **[Count](Excel.Range.Count.md)** property on the returned collection to verify a selection that contains more than one area, as shown in the following example.
 
 ```vb
 Sub NoMultiAreaSelection() 
@@ -125,8 +199,6 @@ Sub NoMultiAreaSelection()
     End If 
 End Sub
 ```
-
-**Sample code provided by:** Dennis Wallentin, [VSTO & .NET & Excel](https://xldennis.wordpress.com/)
 
 This example uses the **AdvancedFilter** method of the **Range** object to create a list of the unique values, and the number of times those unique values occur, in the range of column A.
 
@@ -193,25 +265,11 @@ End Sub
 ```
 
 
-## Remarks
-
-The following properties and methods for returning a **Range** object are described in the examples section:
-
-- **[Range](Excel.Worksheet.Range.md)** property
-    
-- **[Cells](Excel.Worksheet.Cells.md)** property
-    
-- **Range** and **Cells**
-    
-- **[Offset](Excel.Range.Offset.md)** property
-    
-- **[Union](Excel.Application.Union.md)** method
-    
-
 ## Methods
 
 - [Activate](Excel.Range.Activate.md)
 - [AddComment](Excel.Range.AddComment.md)
+- [AddCommentThreaded](Excel.Range.AddCommentThreaded.md)
 - [AdvancedFilter](Excel.Range.AdvancedFilter.md)
 - [AllocateChanges](Excel.Range.AllocateChanges.md)
 - [ApplyNames](Excel.Range.ApplyNames.md)
@@ -308,6 +366,7 @@ The following properties and methods for returning a **Range** object are descri
 - [Columns](Excel.Range.Columns.md)
 - [ColumnWidth](Excel.Range.ColumnWidth.md)
 - [Comment](Excel.Range.Comment.md)
+- [CommentThreaded](Excel.Range.CommentThreaded.md)
 - [Count](Excel.Range.Count.md)
 - [CountLarge](Excel.Range.CountLarge.md)
 - [Creator](Excel.Range.Creator.md)
@@ -394,8 +453,10 @@ The following properties and methods for returning a **Range** object are descri
 - [WrapText](Excel.Range.WrapText.md)
 - [XPath](Excel.Range.XPath.md)
 
-### About the contributor
 
-Dennis Wallentin is the author of VSTO & .NET & Excel, a blog that focuses on .NET Framework solutions for Excel and Excel Services. Dennis has been developing Excel solutions for over 20 years, and is also the coauthor of "Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA, and .NET (2nd Edition)."
+
+## See also
+
+- [Excel Object Model Reference](overview/Excel/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: GetExtensionName method (Visual Basic for Applications)
 keywords: vblr6.chm2182052
 f1_keywords:
 - vblr6.chm2182052
-ms.prod: office
 api_name:
 - Office.GetExtensionName
 ms.assetid: 0fa9da71-7938-c50c-6fed-8a23d6a680d1
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns a string containing the extension name for the last component in a path.
 ## Syntax
 
 _object_.**GetExtensionName** (_path_)
-
-<br/>
 
 The **GetExtensionName** method syntax has these parts:
 

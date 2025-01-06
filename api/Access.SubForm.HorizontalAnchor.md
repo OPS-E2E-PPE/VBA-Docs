@@ -3,12 +3,11 @@ title: SubForm.HorizontalAnchor property (Access)
 keywords: vbaac10.chm11979
 f1_keywords:
 - vbaac10.chm11979
-ms.prod: access
 api_name:
 - Access.SubForm.HorizontalAnchor
 ms.assetid: 52daba3e-ffa8-415f-e4cb-a4322bbaa11a
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

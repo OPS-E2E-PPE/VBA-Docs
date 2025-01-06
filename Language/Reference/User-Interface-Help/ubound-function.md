@@ -3,10 +3,9 @@ title: UBound function (Visual Basic for Applications)
 keywords: vblr6.chm1009050
 f1_keywords:
 - vblr6.chm1009050
-ms.prod: office
 ms.assetid: 8dda22e9-d9f9-9944-1b91-cfb8b61774a7
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Long](../../Glossary/vbe-glossary.md#long-data-type) data type contai
 ## Syntax
 
 **UBound**(_arrayname_, [ _dimension_ ])
-
-<br/>
 
 The **UBound** function syntax has these parts.
 

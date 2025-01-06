@@ -3,18 +3,17 @@ title: NavigationControl.SpecialEffect property (Access)
 keywords: vbaac10.chm11077
 f1_keywords:
 - vbaac10.chm11077
-ms.prod: access
 api_name:
 - Access.NavigationControl.SpecialEffect
 ms.assetid: ab1cb63a-d51b-cbd3-bf40-d52148925556
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

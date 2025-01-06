@@ -1,9 +1,9 @@
 ---
 title: SearchScope members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 25ef5a3c-3179-7870-f28b-7700349a3ed4
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

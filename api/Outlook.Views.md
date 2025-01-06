@@ -1,34 +1,33 @@
 ---
-title: Views Object (Outlook)
+title: Views object (Outlook)
 keywords: vbaol11.chm3013
 f1_keywords:
 - vbaol11.chm3013
-ms.prod: outlook
 api_name:
 - Outlook.Views
 ms.assetid: 5dd7edc2-12a2-f4c2-d158-8053d80e8dc9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Views Object (Outlook)
+# Views object (Outlook)
 
-Contains a collection of all  **[View](Outlook.View.md)** objects in the current folder.
+Contains a collection of all **[View](Outlook.View.md)** objects in the current folder.
 
 
 ## Remarks
 
-Use the  **Views** property of the **[Folder](Outlook.Folder.md)** object to return the **Views** collection. Use **Views** ( _index_ ),where _index_ is the object's name or position within the collection, to return a single **View** object.
+Use the **Views** property of the **[Folder](Outlook.Folder.md)** object to return the **Views** collection. Use **Views** (_index_),where _index_ is the object's name or position within the collection, to return a single **View** object.
 
-Use the  **[Add](Outlook.Views.Add.md)** method of the views collection to add a new view to the collection.
+Use the **[Add](Outlook.Views.Add.md)** method of the views collection to add a new view to the collection.
 
-Use the  **[Remove](Outlook.Views.Remove.md)** method to remove a view from the collection.
+Use the **[Remove](Outlook.Views.Remove.md)** method to remove a view from the collection.
 
 
 ## Example
 
-The following example returns a  **View** object of type **olTableView** called Table View. Before running this example, make sure a view by the name 'Table View' exists.
+The following example returns a **View** object of type **olTableView** called Table View. Before running this example, make sure a view by the name 'Table View' exists.
 
 
 ```vb
@@ -55,10 +54,11 @@ Sub GetView()
 End Sub
 ```
 
-The following example adds a new view of type  **olIconView** in the user's Notes folder.
+The following example adds a new view of type **olIconView** in the user's Notes folder.
 
 
- **Note**  The  **Add** method will fail if a view with the same name already exists.
+> [!NOTE] 
+> The **Add** method will fail if a view with the same name already exists.
 
 
 
@@ -151,6 +151,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

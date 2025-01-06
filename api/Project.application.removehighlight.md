@@ -1,23 +1,23 @@
 ---
-title: Application.RemoveHighlight Method (Project)
+title: Application.RemoveHighlight method (Project)
 keywords: vbapj.chm151
 f1_keywords:
 - vbapj.chm151
-ms.prod: project-server
+ms.service: project-server
 ms.assetid: 334f33a1-8c96-9876-0e71-495336fc947b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.RemoveHighlight Method (Project)
+# Application.RemoveHighlight method (Project)
 Removes task path highlighting on the Gantt chart.
 
 ## Syntax
 
- _expression_. `RemoveHighlight`
+_expression_. `RemoveHighlight`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -29,6 +29,6 @@ Removes task path highlighting on the Gantt chart.
 
 ## Remarks
 
-The  **RemoveHighlight** method corresponds to the **Remove Highlighting** command in the **Task Path** drop-down list, which is on the **FORMAT** tab under **GANTT CHART TOOLS** on the ribbon.
+The **RemoveHighlight** method corresponds to the **Remove Highlighting** command in the **Task Path** drop-down list, which is on the **FORMAT** tab under **GANTT CHART TOOLS** on the ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

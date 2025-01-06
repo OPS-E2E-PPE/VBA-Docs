@@ -3,12 +3,11 @@ title: Mailer.Enclosures property (Excel)
 keywords: vbaxl10.chm499075
 f1_keywords:
 - vbaxl10.chm499075
-ms.prod: excel
 api_name:
 - Excel.Mailer.Enclosures
 ms.assetid: 04f93d28-737a-eadf-7ed6-c5517a020805
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ You have requested Help for a Visual Basic keyword used only on the Macintosh. F
 
 ## Syntax
 
-_expression_. `Enclosures`
+_expression_.**Enclosures**
 
-_expression_ A variable that represents a [Mailer](Excel.Mailer.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Mailer](Excel.Mailer.md)** object.
 
 
-[Mailer Object](Excel.Mailer.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

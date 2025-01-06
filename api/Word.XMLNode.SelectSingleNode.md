@@ -3,23 +3,22 @@ title: XMLNode.SelectSingleNode method (Word)
 keywords: vbawd10.chm37748754
 f1_keywords:
 - vbawd10.chm37748754
-ms.prod: word
 api_name:
 - Word.XMLNode.SelectSingleNode
 ms.assetid: c831dba1-90f7-0af7-9e44-8f62a54de0fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.SelectSingleNode method (Word)
 
-Returns an  **XMLNode** object that represents the first child element that matches the XPath parameter within the specified XML element. .
+Returns an **XMLNode** object that represents the first child element that matches the XPath parameter within the specified XML element. .
 
 
 ## Syntax
 
- _expression_. `SelectSingleNode`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
+_expression_. `SelectSingleNode`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
 
  _expression_ An expression that returns an '[XMLNode](Word.XMLNode.md)' object.
 

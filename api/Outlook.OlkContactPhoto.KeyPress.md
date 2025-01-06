@@ -1,18 +1,17 @@
 ---
-title: OlkContactPhoto.KeyPress Event (Outlook)
+title: OlkContactPhoto.KeyPress event (Outlook)
 keywords: vbaol11.chm1000319
 f1_keywords:
 - vbaol11.chm1000319
-ms.prod: outlook
 api_name:
 - Outlook.OlkContactPhoto.KeyPress
 ms.assetid: 43b7f7e0-79c5-e02c-5d9e-a204098509c2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkContactPhoto.KeyPress Event (Outlook)
+# OlkContactPhoto.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
@@ -21,7 +20,7 @@ Occurs when the user presses an ANSI key.
 
 _expression_. `KeyPress`( `_KeyAscii_` )
 
-_expression_ A variable that represents an [OlkContactPhoto](./Outlook.OlkContactPhoto.md) object.
+_expression_ A variable that represents an [OlkContactPhoto](Outlook.OlkContactPhoto.md) object.
 
 
 ## Parameters
@@ -34,14 +33,14 @@ _expression_ A variable that represents an [OlkContactPhoto](./Outlook.OlkContac
 
 ## Remarks
 
-An ANSI key is one that produces a typeable character when the user presses it. The  **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
+An ANSI key is one that produces a typeable character when the user presses it. The **KeyPress** event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.
 
-A  **KeyPress** event does not occur under the following conditions:
+A **KeyPress** event does not occur under the following conditions:
 
 
-- Pressing  **TAB**
+- Pressing **TAB**
     
-- Pressing  **ENTER**
+- Pressing **ENTER**
     
 - Pressing an arrow key
     

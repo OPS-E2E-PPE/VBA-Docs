@@ -3,12 +3,11 @@ title: Control object (Access)
 keywords: vbaac10.chm10174
 f1_keywords:
 - vbaac10.chm10174
-ms.prod: access
 api_name:
 - Access.Control
 ms.assetid: ce2362e5-4390-590e-06c0-6f27e8d988cd
 ms.date: 03/06/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -73,7 +72,7 @@ Me.Controls(0)
 ```
 
 > [!NOTE] 
-> You can use the **Me** keyword to represent a **Form** or **Report** object within code only if you are referring to the form or report from code within the class module. If you are referring to a form or report from a standard module or a different form's or report's module, you must use the full reference to the form or report.
+> Use the **Me** keyword to represent a **Form** or **Report** object within code only if you are referring to the form or report from code within the class module. If you are referring to a form or report from a standard module or a different form's or report's module, you must use the full reference to the form or report.
 
 Each **Control** object is denoted by a particular intrinsic constant. For example, the intrinsic constant **acTextBox** is associated with a text box control, and **acCommandButton** is associated with a command button. The constants for the various Microsoft Access controls are set forth in the control's **ControlType** property.
 

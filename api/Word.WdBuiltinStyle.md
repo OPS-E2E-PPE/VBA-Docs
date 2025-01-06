@@ -1,11 +1,10 @@
 ---
 title: WdBuiltinStyle enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdBuiltinStyle
 ms.assetid: 9ef433e9-6770-0e20-e1b6-2d9929ffd616
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -73,7 +72,7 @@ Specifies a built-in Microsoft Word style.
 | **wdStyleIndex7**|-17|Index 7.|
 | **wdStyleIndex8**|-18|Index 8.|
 | **wdStyleIndex9**|-19|Index 9.|
-| **wdStyleIndexHeading**|-34|Index Heading|
+| **wdStyleIndexHeading**|-34|Index Heading.|
 | **wdStyleIntenseEmphasis**|-262|Intense Emphasis.|
 | **wdStyleIntenseQuote**|-182|Intense Quote.|
 | **wdStyleIntenseReference**|-264|Intense Reference.|

@@ -3,10 +3,9 @@ title: Reference cells and ranges
 keywords: vbaxl10.chm5201926
 f1_keywords:
 - vbaxl10.chm5201926
-ms.prod: excel
 ms.assetid: a16caa8d-21c9-ff33-347b-ce671248a92d
 ms.date: 10/10/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Shape.OpenSheetWindow Method (Visio)
+title: Shape.OpenSheetWindow method (Visio)
 keywords: vis_sdr.chm11216415
 f1_keywords:
 - vis_sdr.chm11216415
-ms.prod: visio
 api_name:
 - Visio.Shape.OpenSheetWindow
 ms.assetid: 744b72f5-381a-48fc-407f-20ffe815c54e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.OpenSheetWindow Method (Visio)
+# Shape.OpenSheetWindow method (Visio)
 
-Opens a ShapeSheet window for a  **Shape** object.
+Opens a ShapeSheet window for a **Shape** object.
 
 
 ## Syntax
 
- _expression_. `OpenSheetWindow`
+_expression_. `OpenSheetWindow`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Window
 
 ## Remarks
 
-The  **OpenSheetWindow** method opens a new ShapeSheet window for the shape even if the information is already displayed in another window.
+The **OpenSheetWindow** method opens a new ShapeSheet window for the shape even if the information is already displayed in another window.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **OpenSheetWindow** method to open the ShapeSheet window of a **Shape** object.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **OpenSheetWindow** method to open the ShapeSheet window of a **Shape** object.
 
 
 ```vb

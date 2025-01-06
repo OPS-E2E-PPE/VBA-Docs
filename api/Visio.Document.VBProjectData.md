@@ -1,27 +1,26 @@
 ---
-title: Document.VBProjectData Property (Visio)
+title: Document.VBProjectData property (Visio)
 keywords: vis_sdr.chm10550925
 f1_keywords:
 - vis_sdr.chm10550925
-ms.prod: visio
 api_name:
 - Visio.Document.VBProjectData
 ms.assetid: dca456ea-dc82-0092-35d1-68b95d51e0b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.VBProjectData Property (Visio)
+# Document.VBProjectData property (Visio)
 
 Returns the Microsoft Visual Basic project data stored with a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `VBProjectData`
+_expression_.**VBProjectData**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Byte()
 
 
 
-You can use the  **VBProjectData** property to determine whether a document has a project. The following macro shows how to get a reference to a document in Microsoft Visio to determine whether the document has a project. The code runs from a program outside the Visio document.
+Use the **VBProjectData** property to determine whether a document has a project. The following macro shows how to get a reference to a document in Microsoft Visio to determine whether the document has a project. The code runs from a program outside the Visio document.
 
 
 

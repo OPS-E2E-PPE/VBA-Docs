@@ -3,12 +3,11 @@ title: OptionButton.Tag property (Access)
 keywords: vbaac10.chm10605
 f1_keywords:
 - vbaac10.chm10605
-ms.prod: access
 api_name:
 - Access.OptionButton.Tag
 ms.assetid: 147ddd8e-6fe2-d59d-2f83-71c7cdfcd263
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,7 +29,7 @@ You can enter a string expression up to 2048 characters long. The default settin
 
 Unlike other properties, the **Tag** property setting doesn't affect any of an object's attributes.
 
-You can use this property to assign an identification string to an object without affecting any of its other property settings or causing other side effects. The **Tag** property is useful when you need to check the identity of a form, report, section, or control that is passed as a variable to a procedure.
+Use this property to assign an identification string to an object without affecting any of its other property settings or causing other side effects. The **Tag** property is useful when you need to check the identity of a form, report, section, or control that is passed as a variable to a procedure.
 
 
 ## Example

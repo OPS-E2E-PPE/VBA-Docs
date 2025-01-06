@@ -3,12 +3,11 @@ title: ScrollBars property
 keywords: fm20.chm2001780
 f1_keywords:
 - fm20.chm2001780
-ms.prod: office
 api_name:
 - Office.ScrollBars
 ms.assetid: cf925c0d-45ac-a724-6149-2aed7725b593
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -60,7 +59,7 @@ For a multiline **[TextBox](textbox-control.md)**, you can display scroll bars b
     
 - When **ScrollBars** is set to **fmScrollBarsVertical** or **fmScrollBarsBoth**, the control displays a vertical scroll bar if the text is longer than the edit region and if the control has enough room to include the scroll bar at the right edge of its edit region.
     
-- When **WordWrap** is **True**, the multiline control will not display a horizontal scroll bar. Most multiline controls do not use a horizontal scroll bar.
+- When **WordWrap** is **True**, the multiline control will not display a horizontal scroll bar. Most multiline controls don't use a horizontal scroll bar.
     
 - A multiline control can display a horizontal scroll bar if the following conditions occur simultaneously:
 

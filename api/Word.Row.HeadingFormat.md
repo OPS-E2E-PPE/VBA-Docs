@@ -3,25 +3,24 @@ title: Row.HeadingFormat property (Word)
 keywords: vbawd10.chm156237829
 f1_keywords:
 - vbawd10.chm156237829
-ms.prod: word
 api_name:
 - Word.Row.HeadingFormat
 ms.assetid: 18b0161c-ad04-57a2-02fb-870fabed158b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Row.HeadingFormat property (Word)
 
- **True** if the specified row or rows are formatted as a table heading. Rows formatted as table headings are repeated when a table spans more than one page. Can be **True** , **False** or **wdUndefined**. Read/write **Long**.
+ **True** if the specified row or rows are formatted as a table heading. Rows formatted as table headings are repeated when a table spans more than one page. Can be **True**, **False** or **wdUndefined**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `HeadingFormat`
+_expression_. `HeadingFormat`
 
- _expression_ A variable that represents a '[Row](Word.Row.md)' object.
+_expression_ A variable that represents a '[Row](Word.Row.md)' object.
 
 
 ## Example

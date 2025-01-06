@@ -1,13 +1,13 @@
 ---
-title: CostRateTables Object (Project)
-ms.prod: project-server
+title: CostRateTables object (Project)
+ms.service: project-server
 ms.assetid: f08a0a0c-d7ef-f315-5435-804897d5158a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CostRateTables Object (Project)
+# CostRateTables object (Project)
 
  Contains a collection of **[CostRateTable](Project.CostRateTable.md)** objects.
  
@@ -19,7 +19,7 @@ localization_priority: Normal
  
 
  
-Use the  **[CostRateTables](Project.Resource.CostRateTables.md)** property to return a **CostRateTables** collection. The following example lists the standard pay rates for all the cost rate tables of the resource in the active cell.
+Use the **[CostRateTables](Project.Resource.CostRateTables.md)** property to return a **CostRateTables** collection. The following example lists the standard pay rates for all the cost rate tables of the resource in the active cell.
  
 
  
@@ -37,7 +37,7 @@ For Each CRT In ActiveCell.Resource.CostRateTables
 
  For Each PR In CRT.PayRates 
 
- Rates = Rates &amp; "CostRateTable " &amp; CRT.Name &amp; ": " &amp; PR.StandardRate &amp; vbCrLf 
+ Rates = Rates & "CostRateTable " & CRT.Name & ": " & PR.StandardRate & vbCrLf 
 
  Next PR 
 

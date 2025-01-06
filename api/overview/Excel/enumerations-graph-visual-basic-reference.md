@@ -1,16 +1,21 @@
 ---
 title: Enumerations (Graph Visual Basic reference)
 description: A list of all enumerations in the Graph object model.
-ms.prod: excel
+ms.service: excel
 ms.assetid: 069c9a0f-0f51-ba87-2e83-8f8db63ad656
-ms.date: 09/05/2018
-localization_priority: Normal
+ms.date: 04/12/2019
+ms.localizationpriority: medium
 ---
 
 
 # Enumerations (Graph Visual Basic reference)
 
 This topic provides a list of all enumerations in the Graph object model.
+
+For more detailed descriptions, see the following:
+
+- [Enumerations (Excel)](../../../api/excel(enumerations).md)
+- [Enumerations (Office)](../Library-Reference/enumerations-office.md)
 
 ## XlArabicModes
 
@@ -782,7 +787,7 @@ This topic provides a list of all enumerations in the Graph object model.
 |xlSizeIsArea |1|
 |xlSizeIsWidth |2|
 
-## XlSubtototalLocationType
+## XlSubtotalLocationType
 
 
 |Name|Value|

@@ -3,10 +3,9 @@ title: Unrecognized project language
 keywords: vblr6.chm1032814
 f1_keywords:
 - vblr6.chm1032814
-ms.prod: office
 ms.assetid: deaf7459-f91f-2ad7-fb94-e954939a8b99
 ms.date: 08/24/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

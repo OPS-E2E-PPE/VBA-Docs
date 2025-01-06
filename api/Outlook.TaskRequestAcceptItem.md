@@ -1,29 +1,28 @@
 ---
-title: TaskRequestAcceptItem Object (Outlook)
+title: TaskRequestAcceptItem object (Outlook)
 keywords: vbaol11.chm3008
 f1_keywords:
 - vbaol11.chm3008
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestAcceptItem
 ms.assetid: a2905f72-0a67-b07d-7f85-84fe4de17c25
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem Object (Outlook)
+# TaskRequestAcceptItem object (Outlook)
 
-Represents a response to a  **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
+Represents a response to a **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
 
 
 ## Remarks
 
-If the delegated user accepts the task, the  **[ResponseState](Outlook.TaskItem.ResponseState.md)** property is set to **olTaskAccept**. The associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestAcceptItem** object.
+If the delegated user accepts the task, the **[ResponseState](Outlook.TaskItem.ResponseState.md)** property is set to **olTaskAccept**. The associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestAcceptItem** object.
 
 Unlike other Microsoft Outlook objects, you cannot create this object.
 
-Use the  **[GetAssociatedTask](Outlook.TaskRequestAcceptItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestAcceptItem**. Work directly with the **TaskItem** object.
+Use the **[GetAssociatedTask](Outlook.TaskRequestAcceptItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestAcceptItem**. Work directly with the **TaskItem** object.
 
 
 ## Events
@@ -125,6 +124,6 @@ Use the  **[GetAssociatedTask](Outlook.TaskRequestAcceptItem.GetAssociatedTask.m
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

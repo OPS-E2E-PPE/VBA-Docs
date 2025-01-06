@@ -1,30 +1,29 @@
 ---
-title: OutlookBarShortcuts Object (Outlook)
+title: OutlookBarShortcuts object (Outlook)
 keywords: vbaol11.chm3004
 f1_keywords:
 - vbaol11.chm3004
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarShortcuts
 ms.assetid: 5ee9f085-d2fe-c949-9edc-ad073801ea77
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarShortcuts Object (Outlook)
+# OutlookBarShortcuts object (Outlook)
 
-Contains a set of  **[OutlookBarShortcut](Outlook.OutlookBarShortcut.md)** objects representing all shortcuts in a group in the **Shortcuts** pane.
+Contains a set of **[OutlookBarShortcut](Outlook.OutlookBarShortcut.md)** objects representing all shortcuts in a group in the **Shortcuts** pane.
 
 
 ## Remarks
 
-Use the  **[Shortcuts](Outlook.OutlookBarGroup.Shortcuts.md)** property to return the **OutlookBarShortcuts** collection object from the **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** object.
+Use the **[Shortcuts](Outlook.OutlookBarGroup.Shortcuts.md)** property to return the **OutlookBarShortcuts** collection object from the **[OutlookBarGroup](Outlook.OutlookBarGroup.md)** object.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example shows how to retrieve the  **OutlookBarShortcuts** object.
+The following Microsoft Visual Basic for Applications (VBA) example shows how to retrieve the **OutlookBarShortcuts** object.
 
 
 ```vb
@@ -67,6 +66,6 @@ Set myShortcuts = myOutlookBarGroup.Shortcuts
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: WebBrowserControl.KeyPress event (Access)
 keywords: vbaac10.chm143138
 f1_keywords:
 - vbaac10.chm143138
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.KeyPress
 ms.assetid: 6419c8b0-b857-0c05-e626-e996e65d7739
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/26/2019
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.KeyPress event (Access)
 
-The  **KeyPress** event occurs when the user presses and releases a key or key combination that corresponds to an ANSI code while a form or control has the focus. This event also occurs if you send an ANSI keystroke to a form or control by using the SendKeys action in a macro or the **SendKeys** statement in Visual Basic.
+The **KeyPress** event occurs when the user presses and releases a key or key combination that corresponds to an ANSI code while a form or control has the focus. This event also occurs if you send an ANSI keystroke to a form or control by using the SendKeys action in a macro or the **SendKeys** statement in Visual Basic.
 
 
 ## Syntax
@@ -40,7 +39,7 @@ A form will also receive all keyboard events, even those that occur for controls
 
 If you press and hold down an ANSI key, the **KeyDown** and **KeyPress** events alternate repeatedly (**KeyDown**, **KeyPress**, **KeyDown**, **KeyPress**, and so on) until you release the key, and then the **KeyUp** event occurs.
 
-A **KeyPress** event can involve any printable keyboard character, the Ctrl key combined with a character from the standard alphabet or a special character, and the Enter or Backspace key. You can use the **KeyDown** and **KeyUp** event procedures to handle any keystroke not recognized by the **KeyPress** event, such as function keys, navigation keys, and any combinations of these with keyboard modifiers (Alt, Shift, or Ctrl keys). Unlike the **KeyDown** and **KeyUp** events, the **KeyPress** event doesn't indicate the physical state of the keyboard; instead, it indicates the ANSI character that corresponds to the pressed key or key combinations.
+A **KeyPress** event can involve any printable keyboard character, the Ctrl key combined with a character from the standard alphabet or a special character, and the Enter or Backspace key. Use the **KeyDown** and **KeyUp** event procedures to handle any keystroke not recognized by the **KeyPress** event, such as function keys, navigation keys, and any combinations of these with keyboard modifiers (Alt, Shift, or Ctrl keys). Unlike the **KeyDown** and **KeyUp** events, the **KeyPress** event doesn't indicate the physical state of the keyboard; instead, it indicates the ANSI character that corresponds to the pressed key or key combinations.
 
 **KeyPress** interprets the uppercase and lowercase of each character as separate key codes and, therefore, as two separate characters.
 
@@ -80,9 +79,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[WebBrowserControl Object](Access.WebBrowserControl.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

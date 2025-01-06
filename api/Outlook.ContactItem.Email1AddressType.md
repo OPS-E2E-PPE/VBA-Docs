@@ -1,27 +1,26 @@
 ---
-title: ContactItem.Email1AddressType Property (Outlook)
+title: ContactItem.Email1AddressType property (Outlook)
 keywords: vbaol11.chm992
 f1_keywords:
 - vbaol11.chm992
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Email1AddressType
 ms.assetid: f498f1be-713c-7d86-28c8-fbeb6b1d3f6d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Email1AddressType Property (Outlook)
+# ContactItem.Email1AddressType property (Outlook)
 
-Returns or sets a  **String** representing the address type (such as EX or SMTP) of the first email entry for the contact. Read/write.
+Returns or sets a **String** representing the address type (such as EX or SMTP) of the first email entry for the contact. Read/write.
 
 
 ## Syntax
 
 _expression_. `Email1AddressType`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Remarks

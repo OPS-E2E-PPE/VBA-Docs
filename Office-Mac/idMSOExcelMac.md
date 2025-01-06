@@ -1,8 +1,7 @@
 ---
 title: idMSOs supported in Excel for Mac
-ms.prod: office
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 # idMSOs supported in Excel for Mac
 
@@ -10,7 +9,7 @@ Find the idMSOs that are supported in Excel in Office 2016 for Mac.
 
 ***Applies to:*** *Excel for Mac | Office 2016 for Mac*
 
-Office 2016 for Mac apps do not support some of the idMSOs that Office for Windows supports. The following idMSOs are supported by Excel for Mac.
+Office 2016 for Mac apps don't support some of the idMSOs that Office for Windows supports. The following idMSOs are supported by Excel for Mac.
 
 |**idMSO**|**Type**|
 |:-----|:-----|

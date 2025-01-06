@@ -3,12 +3,11 @@ title: SeriesCollection.NewSeries method (Word)
 keywords: vbawd10.chm150406237
 f1_keywords:
 - vbawd10.chm150406237
-ms.prod: word
 api_name:
 - Word.SeriesCollection.NewSeries
 ms.assetid: fbfe3d37-c099-508e-367d-27314dc5c8ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Creates a new series.
 
 ## Syntax
 
- _expression_. `NewSeries`
+_expression_.**NewSeries**
 
- _expression_ A variable that represents a '[SeriesCollection](Word.SeriesCollection.md)' object.
+_expression_ A variable that represents a **[SeriesCollection](Word.SeriesCollection.md)** object.
 
 
 ## Return value
 
-A  **[Series](Word.Series.md)** object that represents the new series.
+A **[Series](Word.Series.md)** object that represents the new series.
 
 
 ## Remarks

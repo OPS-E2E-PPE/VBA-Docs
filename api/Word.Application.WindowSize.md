@@ -1,27 +1,26 @@
 ---
-title: Application.WindowSize Event (Word)
+title: Application.WindowSize event (Word)
 keywords: vbawd10.chm4000024
 f1_keywords:
 - vbawd10.chm4000024
-ms.prod: word
 api_name:
 - Word.Application.WindowSize
 ms.assetid: 96d55786-52c8-68a9-b9e9-b29c320a435a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowSize Event (Word)
+# Application.WindowSize event (Word)
 
 Occurs when the application window is resized or moved.
 
 
 ## Syntax
 
- _expression_. `Private Sub object_WindowSize`( `_ByVal Doc As Document_` , `_ByVal Wn As Window_` )
+_expression_.**WindowSize** (_Doc_, _Wn_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Parameters

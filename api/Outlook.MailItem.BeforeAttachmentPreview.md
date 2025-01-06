@@ -1,15 +1,14 @@
 ---
-title: MailItem.BeforeAttachmentPreview Event (Outlook)
-ms.prod: outlook
+title: MailItem.BeforeAttachmentPreview event (Outlook)
 api_name:
 - Outlook.MailItem.BeforeAttachmentPreview
 ms.assetid: 279e1af4-38e1-d6b5-50a5-9ebd517826ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.BeforeAttachmentPreview Event (Outlook)
+# MailItem.BeforeAttachmentPreview event (Outlook)
 
 Occurs before an attachment associated with an instance of the parent object is previewed.
 
@@ -18,7 +17,7 @@ Occurs before an attachment associated with an instance of the parent object is 
 
 _expression_. `BeforeAttachmentPreview`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be previewed.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be previewed.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
 
 ## Remarks
 

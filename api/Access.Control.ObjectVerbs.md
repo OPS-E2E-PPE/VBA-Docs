@@ -3,18 +3,17 @@ title: Control.ObjectVerbs property (Access)
 keywords: vbaac10.chm10143
 f1_keywords:
 - vbaac10.chm10143
-ms.prod: access
 api_name:
 - Access.Control.ObjectVerbs
 ms.assetid: e94a1718-0cd7-6d4a-b319-03b180233824
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Control.ObjectVerbs property (Access)
 
-You can use the **ObjectVerbs** property in Visual Basic to determine the list of verbs an OLE object supports. Read-only **String**.
+Use the **ObjectVerbs** property in Visual Basic to determine the list of verbs that an OLE object supports. Read-only **String**.
 
 
 ## Syntax
@@ -34,7 +33,7 @@ _expression_ A variable that represents a **[Control](Access.Control.md)** objec
 
 This property setting isn't available in Design view.
 
-You can use the **ObjectVerbs** property with the **ObjectVerbsCount** property to display a list of the verbs supported by an OLE object. The **ObjectVerbs** property uses this list of verbs to determine which operation to perform when an OLE object is activated (when the **Action** property is set to **acOLEActivate**).
+Use the **ObjectVerbs** property with the **ObjectVerbsCount** property to display a list of the verbs supported by an OLE object. The **ObjectVerbs** property uses this list of verbs to determine which operation to perform when an OLE object is activated (when the **Action** property is set to **acOLEActivate**).
 
 The **Verb** property setting is the position of a particular verb in the list of verbs returned by the **ObjectVerbs** property. For example, 1 specifies the first verb in the list (the Visual Basic command **ObjectVerbs(0)**, or the first verb in the **ObjectVerbs** property array), 2 specifies the second verb in the list (the Visual Basic command **ObjectVerbs(1)**, or the second verb in the **ObjectVerbs** property array), and so on.
 

@@ -3,12 +3,11 @@ title: ConditionValue.Parent property (Excel)
 keywords: vbaxl10.chm803075
 f1_keywords:
 - vbaxl10.chm803075
-ms.prod: excel
 api_name:
 - Excel.ConditionValue.Parent
 ms.assetid: d6e61746-ae2e-3704-a37a-ab755198772b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [ConditionValue](Excel.ConditionValue.md) object.
+_expression_ A variable that represents a **[ConditionValue](Excel.ConditionValue.md)** object.
 
 
-## See also
 
-
-[ConditionValue Object](Excel.ConditionValue.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

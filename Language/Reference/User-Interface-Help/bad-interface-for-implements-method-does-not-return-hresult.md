@@ -3,16 +3,15 @@ title: "Bad interface for Implements: method does not return HRESULT"
 keywords: vblr6.chm1057161
 f1_keywords:
 - vblr6.chm1057161
-ms.prod: office
 ms.assetid: 0922e3b1-e737-18d8-221c-1bd77f5ef592
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bad interface for Implements: method does not return HRESULT
 
-The  **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
+The **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
 
 
 

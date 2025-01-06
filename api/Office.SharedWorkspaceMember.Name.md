@@ -3,12 +3,11 @@ title: SharedWorkspaceMember.Name property (Office)
 keywords: vbaof11.chm272002
 f1_keywords:
 - vbaof11.chm272002
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceMember.Name
 ms.assetid: 6a7918a0-6029-4fe1-6c55-d100a360eddc
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,8 +40,8 @@ The following example displays properties of the shared workspace member.
     Dim swsWorkspaceMember As Office.SharedWorkspaceMember 
     Dim strSWSInfo As String 
     Set swsWorkspaceMember = ActiveWorkbook.SharedWorkspace.Members 
-    strSWSInfo = swsWorkspaceMember.Name &amp; vbCrLf &amp; _ 
-        " - URL: " &amp; swsWorkspaceMember.URL &amp; vbCrLf 
+    strSWSInfo = swsWorkspaceMember.Name & vbCrLf & _ 
+        " - URL: " & swsWorkspaceMember.URL & vbCrLf 
     MsgBox strSWSInfo, vbInformation + vbOKOnly, _ 
         "Shared Workspace Member Information" 
     Set swsWorkspaceMember = Nothing 

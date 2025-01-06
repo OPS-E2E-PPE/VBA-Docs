@@ -1,27 +1,26 @@
 ---
-title: OLEFormat.DoVerb Method (PowerPoint)
+title: OLEFormat.DoVerb method (PowerPoint)
 keywords: vbapp10.chm562007
 f1_keywords:
 - vbapp10.chm562007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.OLEFormat.DoVerb
 ms.assetid: 1ee39c5d-3646-81de-79e9-f8cff869308d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OLEFormat.DoVerb Method (PowerPoint)
+# OLEFormat.DoVerb method (PowerPoint)
 
 Requests that an OLE object perform one of its verbs. 
 
 
 ## Syntax
 
- _expression_. `DoVerb`( `_Index_` )
+_expression_. `DoVerb` (_Index_)
 
- _expression_ A variable that represents an [OLEFormat](./PowerPoint.OLEFormat.md) object.
+_expression_ A variable that represents an [OLEFormat](PowerPoint.OLEFormat.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Requests that an OLE object perform one of its verbs.
 
 ## Remarks
 
-Use the  **[ObjectVerbs](PowerPoint.OLEFormat.ObjectVerbs.md)** property to determine the available verbs for an OLE object.
+Use the **[ObjectVerbs](PowerPoint.OLEFormat.ObjectVerbs.md)** property to determine the available verbs for an OLE object.
 
 
 ## Example

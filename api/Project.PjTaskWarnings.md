@@ -1,15 +1,15 @@
 ---
-title: PjTaskWarnings Enumeration (Project)
-ms.prod: project-server
+title: PjTaskWarnings enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjTaskWarnings
 ms.assetid: 02bff43f-4459-3c34-5e8f-c441ffefe954
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjTaskWarnings Enumeration (Project)
+# PjTaskWarnings enumeration (Project)
 
 Contains constants that specify warnings for tasks or assignments.
 

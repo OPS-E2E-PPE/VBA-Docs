@@ -3,12 +3,11 @@ title: Chart.SaveChartTemplate method (Word)
 keywords: vbawd10.chm79364173
 f1_keywords:
 - vbawd10.chm79364173
-ms.prod: word
 api_name:
 - Word.Chart.SaveChartTemplate
 ms.assetid: d980f663-7e73-7b55-9f7c-1fc9da84c0bd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Saves a custom chart template to the list of available chart templates.
 
 ## Syntax
 
- _expression_. `SaveChartTemplate`( `_FileName_` )
+_expression_.**SaveChartTemplate** (_FileName_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters

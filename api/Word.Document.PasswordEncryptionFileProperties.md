@@ -3,12 +3,11 @@ title: Document.PasswordEncryptionFileProperties property (Word)
 keywords: vbawd10.chm158007666
 f1_keywords:
 - vbawd10.chm158007666
-ms.prod: word
 api_name:
 - Word.Document.PasswordEncryptionFileProperties
 ms.assetid: 8da8be02-636b-bcfb-e12c-14eadf72b3f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasswordEncryptionFileProperties`
+_expression_. `PasswordEncryptionFileProperties`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify whether Word encrypts file properties for password-protected documents.
+Use the **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify whether Word encrypts file properties for password-protected documents.
 
 
 ## Example

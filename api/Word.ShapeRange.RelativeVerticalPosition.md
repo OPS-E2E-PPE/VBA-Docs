@@ -3,12 +3,11 @@ title: ShapeRange.RelativeVerticalPosition property (Word)
 keywords: vbawd10.chm162857261
 f1_keywords:
 - vbawd10.chm162857261
-ms.prod: word
 api_name:
 - Word.ShapeRange.RelativeVerticalPosition
 ms.assetid: 4bcb0d85-53aa-e16d-98f3-4154de5355d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Specifies the relative vertical position of a range of shapes. Read/write **[WdR
 
 ## Syntax
 
- _expression_. `RelativeVerticalPosition`
+_expression_. `RelativeVerticalPosition`
 
- _expression_ An expression that represents a '[ShapeRange](Word.shaperange.md)' object.
+ _expression_ An expression that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Example

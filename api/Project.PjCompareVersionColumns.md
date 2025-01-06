@@ -1,15 +1,15 @@
 ---
-title: PjCompareVersionColumns Enumeration (Project)
-ms.prod: project-server
+title: PjCompareVersionColumns enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCompareVersionColumns
 ms.assetid: ae18b349-d77d-b292-306b-357b99acaefe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCompareVersionColumns Enumeration (Project)
+# PjCompareVersionColumns enumeration (Project)
 
 Contains constants that specify how to compare views of project versions.
 

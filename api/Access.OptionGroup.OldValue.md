@@ -3,18 +3,17 @@ title: OptionGroup.OldValue property (Access)
 keywords: vbaac10.chm10812
 f1_keywords:
 - vbaac10.chm10812
-ms.prod: access
 api_name:
 - Access.OptionGroup.OldValue
 ms.assetid: dc294bee-49b7-af3e-745e-63dde913c52f
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

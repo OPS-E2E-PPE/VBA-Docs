@@ -1,18 +1,17 @@
 ---
-title: OlActionResponseStyle Enumeration (Outlook)
+title: OlActionResponseStyle enumeration (Outlook)
 keywords: vbaol11.chm3050
 f1_keywords:
 - vbaol11.chm3050
-ms.prod: outlook
 api_name:
 - Outlook.OlActionResponseStyle
 ms.assetid: 9981a41c-57e4-b981-e245-075811a10cdc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlActionResponseStyle Enumeration (Outlook)
+# OlActionResponseStyle enumeration (Outlook)
 
 Specifies the response style.
 

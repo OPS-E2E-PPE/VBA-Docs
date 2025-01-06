@@ -1,15 +1,15 @@
 ---
-title: PjLayoutScheme Enumeration (Project)
-ms.prod: project-server
+title: PjLayoutScheme enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjLayoutScheme
 ms.assetid: fde6b6eb-eef4-296c-032e-8b279c1bae71
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjLayoutScheme Enumeration (Project)
+# PjLayoutScheme enumeration (Project)
 
 Contains constants that specify the positioning scheme to use for display.
 

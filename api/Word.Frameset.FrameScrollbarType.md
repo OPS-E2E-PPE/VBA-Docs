@@ -3,25 +3,24 @@ title: Frameset.FrameScrollbarType property (Word)
 keywords: vbawd10.chm165806110
 f1_keywords:
 - vbawd10.chm165806110
-ms.prod: word
 api_name:
 - Word.Frameset.FrameScrollbarType
 ms.assetid: dacd6394-872e-beac-85dc-575234f9ce29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frameset.FrameScrollbarType property (Word)
 
-Returns or sets when scroll bars are available for the specified frame when viewing its frames page in a Web browser. Read/write  **WdScrollbarType**.
+Returns or sets when scroll bars are available for the specified frame when viewing its frames page in a web browser. Read/write **WdScrollbarType**.
 
 
 ## Syntax
 
- _expression_. `FrameScrollbarType`
+_expression_. `FrameScrollbarType`
 
- _expression_ Required. A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ Required. A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks

@@ -3,25 +3,24 @@ title: Axis.DisplayUnit property (Word)
 keywords: vbawd10.chm113049671
 f1_keywords:
 - vbawd10.chm113049671
-ms.prod: word
 api_name:
 - Word.Axis.DisplayUnit
 ms.assetid: b3f8bbbb-d532-679a-fbb1-01260554425e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.DisplayUnit property (Word)
 
-Returns or sets the unit label for the value axis. Read/write  **[xlDisplayUnit](Word.xldisplayunit.md)** , **xlCustom** , or **xlNone**.
+Returns or sets the unit label for the value axis. Read/write **[XlDisplayUnit](Word.xldisplayunit.md)**, **xlCustom**, or **xlNone**.
 
 
 ## Syntax
 
- _expression_. `DisplayUnit`
+_expression_.**DisplayUnit**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks

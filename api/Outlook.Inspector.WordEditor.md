@@ -1,18 +1,17 @@
 ---
-title: Inspector.WordEditor Property (Outlook)
+title: Inspector.WordEditor property (Outlook)
 keywords: vbaol11.chm2972
 f1_keywords:
 - vbaol11.chm2972
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.WordEditor
 ms.assetid: 9e09b772-f679-19e6-905e-552ccadb0d24
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.WordEditor Property (Outlook)
+# Inspector.WordEditor property (Outlook)
 
 Returns the Microsoft Word Document Object Model of the message being displayed. Read-only.
 
@@ -21,27 +20,27 @@ Returns the Microsoft Word Document Object Model of the message being displayed.
 
 _expression_. `WordEditor`
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Remarks
 
-The  **WordEditor** property is only valid if the **[IsWordMail](Outlook.Inspector.IsWordMail.md)** method returns **True** and the **[EditorType](Outlook.Inspector.EditorType.md)** property is **olEditorWord**. The returned **WordDocument** object provides access to most of the Word object model except for the following members:
+The **WordEditor** property is only valid if the **[IsWordMail](Outlook.Inspector.IsWordMail.md)** method returns **True** and the **[EditorType](Outlook.Inspector.EditorType.md)** property is **olEditorWord**. The returned **WordDocument** object provides access to most of the Word object model except for the following members:
 
 
--  **Tables.Add**
+- **Tables.Add**
     
--  **Range.ConvertToTable**
+- **Range.ConvertToTable**
     
--  **InlineShapes.AddChart**
+- **InlineShapes.AddChart**
     
--  **Shapes.AddChart**
+- **Shapes.AddChart**
     
--  **Range.InsertXML**
+- **Range.InsertXML**
     
--  **Selection.InsertXML**
+- **Selection.InsertXML**
     
--  **Range.ImportFragment**
+- **Range.ImportFragment**
     
 
 

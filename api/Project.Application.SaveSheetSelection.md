@@ -1,27 +1,27 @@
 ---
-title: Application.SaveSheetSelection Method (Project)
+title: Application.SaveSheetSelection method (Project)
 keywords: vbapj.chm2095
 f1_keywords:
 - vbapj.chm2095
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SaveSheetSelection
 ms.assetid: ed792b68-7af2-2b42-9f92-eb77e3b1780e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SaveSheetSelection Method (Project)
+# Application.SaveSheetSelection method (Project)
 
 Saves row and column information for a selected sheet view.
 
 
 ## Syntax
 
- _expression_. `SaveSheetSelection`
+_expression_. `SaveSheetSelection`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Saves row and column information for a selected sheet view.
 
 ## Example
 
-The following example demonstrates how  **SaveSheetSelection** and **RestoreSheetSelection** work.
+The following example demonstrates how **SaveSheetSelection** and **RestoreSheetSelection** work.
 
 
 ```vb

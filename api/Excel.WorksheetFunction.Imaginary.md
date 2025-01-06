@@ -3,12 +3,11 @@ title: WorksheetFunction.Imaginary method (Excel)
 keywords: vbaxl10.chm137286
 f1_keywords:
 - vbaxl10.chm137286
-ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Imaginary
 ms.assetid: 4699b454-7bdd-42d3-b363-a7a07341de3d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Returns the imaginary coefficient of a complex number in x + yi or x + yj text f
 
 ## Syntax
 
-_expression_. `Imaginary`( `_Arg1_` )
+_expression_.**Imaginary** (_Arg1_)
 
-_expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,20 +31,14 @@ _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetF
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
-
-
-
-- Use COMPLEX to convert real and imaginary coefficients into a complex number.
+Use the **[Complex](excel.worksheetfunction.complex.md)** method to convert real and imaginary coefficients into a complex number.
     
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

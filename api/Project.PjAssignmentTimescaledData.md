@@ -1,15 +1,15 @@
 ---
-title: PjAssignmentTimescaledData Enumeration (Project)
-ms.prod: project-server
+title: PjAssignmentTimescaledData enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAssignmentTimescaledData
 ms.assetid: c753d5a9-4279-2cad-1206-2839a44d0182
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAssignmentTimescaledData Enumeration (Project)
+# PjAssignmentTimescaledData enumeration (Project)
 
 Contains constants that specify a field for timescaled data in the Project database. For more information about working with fields in Project, see the "Fields reference overview" topic in Project Help. 
 

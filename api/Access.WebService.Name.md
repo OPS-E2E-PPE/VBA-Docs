@@ -3,18 +3,17 @@ title: WebService.Name property (Access)
 keywords: vbaac10.chm14558
 f1_keywords:
 - vbaac10.chm14558
-ms.prod: access
 api_name:
 - Access.WebService.Name
 ms.assetid: e79e7961-dad9-920d-e3ea-dc05f0ecaef1
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebService.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: TableStyle object (Word)
 keywords: vbawd10.chm3735
 f1_keywords:
 - vbawd10.chm3735
-ms.prod: word
 api_name:
 - Word.TableStyle
 ms.assetid: 4f1f4489-0ef7-dff0-8f2a-77f87937f3ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Represents a single style that can be applied to a table.
 
 ## Remarks
 
-Use the  **Table** property of the **Styles** object to return a **TableStyle** object. Use the **Borders** property to apply borders to an entire table. Use the **Condition** method to apply borders or shading only to specified sections of a table. This example creates a new table style and formats the table with a surrounding border. Special borders and shading are applied to the first and last rows and the last column.
+Use the **Table** property of the **Styles** object to return a **TableStyle** object. Use the **Borders** property to apply borders to an entire table. Use the **Condition** method to apply borders or shading only to specified sections of a table. This example creates a new table style and formats the table with a surrounding border. Special borders and shading are applied to the first and last rows and the last column.
 
 
 ```vb
@@ -90,6 +89,6 @@ End Sub
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

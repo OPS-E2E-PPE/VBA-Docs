@@ -3,12 +3,11 @@ title: AcControlType enumeration (Access)
 keywords: vbaac10.chm10011
 f1_keywords:
 - vbaac10.chm10011
-ms.prod: access
 api_name:
 - Access.AcControlType
 ms.assetid: 562ecad2-5cb5-7624-8f5a-236f42bd0104
 ms.date: 02/21/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,16 +15,16 @@ localization_priority: Priority
 
 Specifies the type of control created by the **[CreateControl](Access.Application.CreateControl.md)** and **[CreateReportControl](access.application.createreportcontrol.md)** methods.
 
-<br/>
-
 |Name|Value|Description|
 |:-----|:-----|:-----|
 |**acAttachment**|126|Attachment control|
 |**acBoundObjectFrame**|108|BoundObjectFrame control|
+|**acChart**|133|Modern Chart control|
 |**acCheckBox**|106|CheckBox control|
 |**acComboBox**|111|ComboBox control|
 |**acCommandButton**|104|CommandButton control|
 |**acCustomControl**|119|ActiveX control|
+|**acEdgeBrowser**|134|Edge Browser control|
 |**acEmptyCell**|127|EmptyCell control|
 |**acImage**|103|Image control|
 |**acLabel**|100|Label control|

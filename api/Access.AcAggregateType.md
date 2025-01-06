@@ -3,19 +3,16 @@ title: AcAggregateType enumeration (Access)
 keywords: vbaac10.chm14799
 f1_keywords:
 - vbaac10.chm14799
-ms.prod: access
 api_name:
 - Access.AcAggregateType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcAggregateType enumeration (Access)
 
-Specifies the type of aggregation to apply to a set of values.
-
-<br/>
+Specifies the type of aggregation to apply for an Access Modern Chart series.
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

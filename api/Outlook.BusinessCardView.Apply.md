@@ -1,32 +1,31 @@
 ---
-title: BusinessCardView.Apply Method (Outlook)
+title: BusinessCardView.Apply method (Outlook)
 keywords: vbaol11.chm2921
 f1_keywords:
 - vbaol11.chm2921
-ms.prod: outlook
 api_name:
 - Outlook.BusinessCardView.Apply
 ms.assetid: 4a64b59e-0d52-8439-30bb-32d0624cf28a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BusinessCardView.Apply Method (Outlook)
+# BusinessCardView.Apply method (Outlook)
 
-Applies the  **[BusinessCardView](Outlook.BusinessCardView.md)** object to the current view.
+Applies the **[BusinessCardView](Outlook.BusinessCardView.md)** object to the current view.
 
 
 ## Syntax
 
-_expression_. `Apply`
+_expression_.**Apply**
 
- _expression_ An expression that returns a [BusinessCardView](./Outlook.BusinessCardView.md) object.
+ _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates, saves, and applies a new  **BusinessCardView** object.
+The following Visual Basic for Applications (VBA) example creates, saves, and applies a new **BusinessCardView** object.
 
 
 ```vb

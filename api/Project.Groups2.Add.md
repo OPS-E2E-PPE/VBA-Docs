@@ -1,29 +1,27 @@
 ---
-title: Groups2.Add Method (Project)
-ms.prod: project-server
+title: Groups2.Add method (Project)
+ms.service: project-server
 api_name:
 - Project.Groups2.Add
 ms.assetid: fc4d6dfc-87b5-b4fb-5bbb-5e3b0a47c142
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Groups2.Add Method (Project)
+# Groups2.Add method (Project)
 
-Adds a  **[Group2](Project.Group2.md)** object to a **Groups2** collection.
+Adds a **[Group2](Project.Group2.md)** object to a **Groups2** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_`, `_FieldName_` )
+_expression_.**Add** (_Name_, _FieldName_)
 
  _expression_ An expression that returns a 'Groups2' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

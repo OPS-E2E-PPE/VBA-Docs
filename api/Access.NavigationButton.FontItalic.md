@@ -3,18 +3,17 @@ title: NavigationButton.FontItalic property (Access)
 keywords: vbaac10.chm10475
 f1_keywords:
 - vbaac10.chm10475
-ms.prod: access
 api_name:
 - Access.NavigationButton.FontItalic
 ms.assetid: e4975f8e-be04-8a18-df90-9974159820fb
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.FontItalic property (Access)
 
-You can use the **FontItalic** property to specify whether text is italic in the following situations:
+Use the **FontItalic** property to specify whether text is italic in the following situations:
 
 - When displaying or printing controls on forms and reports.    
 - When using the **[Print](Access.Report.Print.md)** method on a report.

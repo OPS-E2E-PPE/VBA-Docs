@@ -1,22 +1,22 @@
 ---
-title: TaskGroups2.Application Property (Project)
-ms.prod: project-server
+title: TaskGroups2.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.TaskGroups2.Application
 ms.assetid: 240bf732-0f99-35d0-503a-812f89719f85
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskGroups2.Application Property (Project)
+# TaskGroups2.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
  _expression_ An expression that returns a 'TaskGroups2' object.
 

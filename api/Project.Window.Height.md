@@ -1,24 +1,24 @@
 ---
-title: Window.Height Property (Project)
-ms.prod: project-server
+title: Window.Height property (Project)
+ms.service: project-server
 api_name:
 - Project.Window.Height
 ms.assetid: 4ed45f1f-c325-8a51-333c-28160d6b5f26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.Height Property (Project)
+# Window.Height property (Project)
 
-Gets or sets the height of a project window in points. Read/write  **Long**.
+Gets or sets the height of a project window in points. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a [Window](./Project.Window.md) object.
+_expression_ A variable that represents a [Window](./Project.Window.md) object.
 
 
 ## Remarks

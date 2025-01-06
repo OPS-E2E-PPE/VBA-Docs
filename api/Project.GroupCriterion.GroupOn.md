@@ -1,29 +1,29 @@
 ---
-title: GroupCriterion.GroupOn Property (Project)
-ms.prod: project-server
+title: GroupCriterion.GroupOn property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriterion.GroupOn
 ms.assetid: dd36cf16-9306-4cc7-904b-9e2ae364722f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriterion.GroupOn Property (Project)
+# GroupCriterion.GroupOn property (Project)
 
-Gets or sets the type of grouping for a field used as a criterion in a group definition. Read/write  **PjGroupOn**.
+Gets or sets the type of grouping for a field used as a criterion in a group definition. Read/write **PjGroupOn**.
 
 
 ## Syntax
 
- _expression_. `GroupOn`
+_expression_. `GroupOn`
 
- _expression_ A variable that represents an [GroupCriterion](./Project.GroupCriterion.md) object.
+_expression_ A variable that represents an [GroupCriterion](./Project.GroupCriterion.md) object.
 
 
 ## Remarks
 
-The  **GroupOn** property can be one of the **[PjGroupOn](Project.PjGroupOn.md)** constants.
+The **GroupOn** property can be one of the **[PjGroupOn](Project.PjGroupOn.md)** constants.
 
 
 ## Example

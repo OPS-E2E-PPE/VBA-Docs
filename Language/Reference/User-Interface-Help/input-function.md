@@ -3,10 +3,9 @@ title: Input function (Visual Basic for Applications)
 keywords: vblr6.chm1011066
 f1_keywords:
 - vblr6.chm1011066
-ms.prod: office
 ms.assetid: 25ab9e37-4536-4cd0-2b29-985add94a489
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns [String](../../Glossary/vbe-glossary.md#string-data-type) containing cha
 ## Syntax
 
 **Input**(_number_, [ **#** ]_filenumber_)
-
-<br/>
 
 The **Input** function syntax has these parts:
 

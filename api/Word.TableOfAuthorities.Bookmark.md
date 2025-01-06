@@ -3,30 +3,29 @@ title: TableOfAuthorities.Bookmark property (Word)
 keywords: vbawd10.chm152109060
 f1_keywords:
 - vbawd10.chm152109060
-ms.prod: word
 api_name:
 - Word.TableOfAuthorities.Bookmark
 ms.assetid: 72cc5292-882c-df16-1b3e-9ed182be7ce7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableOfAuthorities.Bookmark property (Word)
 
-Returns or sets the name of the bookmark from which to collect table of authorities entries. Read/write  **String**.
+Returns or sets the name of the bookmark from which to collect table of authorities entries. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Bookmark`
+_expression_. `Bookmark`
 
- _expression_ A variable that represents a '[TableOfAuthorities](Word.TableOfAuthorities.md)' object.
+_expression_ A variable that represents a '[TableOfAuthorities](Word.TableOfAuthorities.md)' object.
 
 
 ## Remarks
 
-The  **Bookmark** property corresponds to the \b switch for a TOA (Table of Authorities) field.
+The **Bookmark** property corresponds to the \b switch for a TOA (Table of Authorities) field.
 
 
 ## Example

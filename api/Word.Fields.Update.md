@@ -3,12 +3,11 @@ title: Fields.Update method (Word)
 keywords: vbawd10.chm154140773
 f1_keywords:
 - vbawd10.chm154140773
-ms.prod: word
 api_name:
 - Word.Fields.Update
 ms.assetid: 55aaae86-015f-fc4f-ff7c-42fddad05c27
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Updates the result of the fields object.
 
 ## Syntax
 
- _expression_. `Update`
+_expression_.**Update**
 
- _expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
+_expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
 
 
 ## Return value
@@ -31,8 +30,9 @@ Long
 
 ## Remarks
 
-Returns 0 (zero) if no errors occur when the fields are updated, or returns a  **Long** that represents the index of the first field that contains an error.
+Returns 0 (zero) if no errors occur when the fields are updated, or returns a **Long** that represents the index of the first field that contains an error.
 
+Remark: When using this with Word 2016 and possibly with others, the number may be incorrect.
 
 ## Example
 

@@ -3,12 +3,11 @@ title: AccessObject object (Access)
 keywords: vbaac10.chm12743
 f1_keywords:
 - vbaac10.chm12743
-ms.prod: access
 api_name:
 - Access.AccessObject
 ms.assetid: 8a770b33-5bff-120a-6707-ca214ee5ced3
 ms.date: 02/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,12 +15,9 @@ localization_priority: Priority
 
 An **AccessObject** object refers to a particular Access object.
 
-
 ## Remarks
 
 An **AccessObject** object includes information about one instance of an object. The following table list the types of objects each **AccessObject** describes, the name of its collection, and what type of information **AccessObject** contains.
-
-<br/>
 
 |AccessObject|Collection|Contains information about|
 |:-----|:-----|:-----|
@@ -63,7 +59,5 @@ Because an **AccessObject** object corresponds to an existing object, you can't 
 ## See also
 
 - [Access Object Model Reference](overview/access/object-model.md)
-
-
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

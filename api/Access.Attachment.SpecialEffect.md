@@ -3,18 +3,17 @@ title: Attachment.SpecialEffect property (Access)
 keywords: vbaac10.chm13926
 f1_keywords:
 - vbaac10.chm13926
-ms.prod: access
 api_name:
 - Access.Attachment.SpecialEffect
 ms.assetid: 4c2a07d1-99b4-1558-7956-d4a8d4fa157d
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

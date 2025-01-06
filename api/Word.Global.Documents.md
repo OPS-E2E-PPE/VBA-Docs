@@ -3,30 +3,29 @@ title: Global.Documents property (Word)
 keywords: vbawd10.chm163119105
 f1_keywords:
 - vbawd10.chm163119105
-ms.prod: word
 api_name:
 - Word.Global.Documents
 ms.assetid: a86bad22-aabf-dd0d-4b23-fc608d5db4c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.Documents property (Word)
 
-Returns a  **[Documents](Word.documents.md)** collection that represents all the open documents. Read-only.
+Returns a **[Documents](Word.documents.md)** collection that represents all the open documents. Read-only.
 
 
 ## Syntax
 
- _expression_. `Documents`
+_expression_.**Documents**
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

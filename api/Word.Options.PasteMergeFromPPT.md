@@ -3,12 +3,11 @@ title: Options.PasteMergeFromPPT property (Word)
 keywords: vbawd10.chm162988465
 f1_keywords:
 - vbawd10.chm162988465
-ms.prod: word
 api_name:
 - Word.Options.PasteMergeFromPPT
 ms.assetid: 5e0b04ba-5dce-a3cf-9bc8-672f55b5b10e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteMergeFromPPT`
+_expression_. `PasteMergeFromPPT`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

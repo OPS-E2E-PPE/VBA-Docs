@@ -1,31 +1,29 @@
 ---
-title: Chart.Axes Method (Project)
-ms.prod: project-server
+title: Chart.Axes method (Project)
+ms.service: project-server
 ms.assetid: 0ab295f0-de68-7b8f-50a7-55a1e378080b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.Axes Method (Project)
+# Chart.Axes method (Project)
 Returns an object that represents either a single axis or a collection of the axes on the chart.
 
 ## Syntax
 
- _expression_. `Axes` _(Type,_ _AxisGroup)_
+_expression_.**Axes** (_Type_, _AxisGroup_)
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Optional|**Variant**|Specifies the axis to return. Can be one of the following  **Office.XlAxisType** constants: **xlValue**,  **xlCategory**, or  **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3-D charts).|
-| _AxisGroup_|Optional|**Office.XlAxisGroup**|Specifies the axis group. The default value is  **xlPrimary**; that is, if the  _AxisGroup_ argument is omitted, the primary group is used. 3-D charts have only one axis group.|
-| _Type_|Optional|VARIANT||
+| _Type_|Optional|**Variant**|Specifies the axis to return. Can be one of the following **Office.XlAxisType** constants: **xlValue**, **xlCategory**, or **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3D charts).|
+| _AxisGroup_|Optional|**Office.XlAxisGroup**|Specifies the axis group. The default value is **xlPrimary**; that is, if the  _AxisGroup_ argument is omitted, the primary group is used. 3D charts have only one axis group.|
+| _Type_|Optional|**Variant**||
 | _AxisGroup_|Optional|XLAXISGROUP||
 
 ## Return value
@@ -35,7 +33,7 @@ Returns an object that represents either a single axis or a collection of the ax
 
 ## Examples
 
-The  **SetAxisTitle** macro adds an axis label to the category axis in the chart.
+The **SetAxisTitle** macro adds an axis label to the category axis in the chart.
 
 
 ```vb
@@ -54,7 +52,7 @@ Sub SetAxisTitle()
 End Sub
 ```
 
-The  **AddCategoryGridlines** macro adds gridlines to the category axis in the chart.
+The **AddCategoryGridlines** macro adds gridlines to the category axis in the chart.
 
 
 

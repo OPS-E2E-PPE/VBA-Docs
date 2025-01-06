@@ -1,27 +1,26 @@
 ---
-title: OLEFormat.FollowColors Property (PowerPoint)
+title: OLEFormat.FollowColors property (PowerPoint)
 keywords: vbapp10.chm562006
 f1_keywords:
 - vbapp10.chm562006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.OLEFormat.FollowColors
 ms.assetid: 5f4c3f3d-0332-646f-de45-6854497f5782
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OLEFormat.FollowColors Property (PowerPoint)
+# OLEFormat.FollowColors property (PowerPoint)
 
 Returns or sets the extent to which the colors in the specified object follow the slide's color scheme. Read/write.
 
 
 ## Syntax
 
- _expression_. `FollowColors`
+_expression_. `FollowColors`
 
- _expression_ A variable that represents a [OLEFormat](./PowerPoint.OLEFormat.md) object.
+_expression_ A variable that represents a [OLEFormat](PowerPoint.OLEFormat.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ PpFollowColors
 
 ## Remarks
 
-The specified object must be a chart created in either Microsoft Graph or Microsoft Organization Chart. 
+The specified object must be a chart created in either Graph or Microsoft Organization Chart. 
 
-The value of the  **FollowColors** property can be one of these **PpFollowColors** constants.
+The value of the **FollowColors** property can be one of these **PpFollowColors** constants.
 
 
 
@@ -46,7 +45,7 @@ The value of the  **FollowColors** property can be one of these **PpFollowColors
 
 ## Example
 
-This example specifies that the text and background of shape two on slide one in the active presentation follow the slide's color scheme. Shape two must be a chart created in either Microsoft Graph or Microsoft Organization Chart.
+This example specifies that the text and background of shape two on slide one in the active presentation follow the slide's color scheme. Shape two must be a chart created in either Graph or Microsoft Organization Chart.
 
 
 ```vb

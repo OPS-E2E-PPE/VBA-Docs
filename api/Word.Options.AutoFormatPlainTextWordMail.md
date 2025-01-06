@@ -3,12 +3,11 @@ title: Options.AutoFormatPlainTextWordMail property (Word)
 keywords: vbawd10.chm162988303
 f1_keywords:
 - vbawd10.chm162988303
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatPlainTextWordMail
 ms.assetid: 87b5f068-772c-e37d-9370-377849138d07
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatPlainTextWordMail`
+_expression_. `AutoFormatPlainTextWordMail`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example sets Word to automatically format any plain-text email messages tha
 Options.AutoFormatPlainTextWordMail = True
 ```
 
-This example returns the status of the  **Plain text WordMail documents** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Plain text WordMail documents** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

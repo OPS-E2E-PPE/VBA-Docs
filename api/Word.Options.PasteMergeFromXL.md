@@ -3,12 +3,11 @@ title: Options.PasteMergeFromXL property (Word)
 keywords: vbawd10.chm162988466
 f1_keywords:
 - vbawd10.chm162988466
-ms.prod: word
 api_name:
 - Word.Options.PasteMergeFromXL
 ms.assetid: d09c2244-71f5-3345-fcbe-14a307f23da3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteMergeFromXL`
+_expression_. `PasteMergeFromXL`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

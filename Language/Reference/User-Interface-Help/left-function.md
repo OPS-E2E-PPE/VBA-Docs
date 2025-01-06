@@ -3,10 +3,9 @@ title: Left function (Visual Basic for Applications)
 keywords: vblr6.chm1011361
 f1_keywords:
 - vblr6.chm1011361
-ms.prod: office
 ms.assetid: 2835aa57-6273-8f72-4ee8-ec19df26c5d9
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**String**) containing a specified number of characters f
 ## Syntax
 
 **Left**(_string_, _length_)
-
-<br/>
 
 The **Left** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

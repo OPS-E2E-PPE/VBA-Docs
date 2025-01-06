@@ -3,20 +3,17 @@ title: AcImeMode enumeration (Access)
 keywords: vbaac10.chm10033
 f1_keywords:
 - vbaac10.chm10033
-ms.prod: access
 api_name:
 - Access.AcImeMode
 ms.assetid: d84e71fb-996e-f1c3-f386-eefd18da98db
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcImeMode enumeration (Access)
 
 Specifies the default startup mode for the Japanese Input Method Editor (IME). 
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -1,24 +1,24 @@
 ---
-title: Application.DateAdd Method (Project)
-ms.prod: project-server
+title: Application.DateAdd method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.DateAdd
 ms.assetid: df0da054-495c-c224-ebc8-b47acb78e2af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DateAdd Method (Project)
+# Application.DateAdd method (Project)
 
 Returns the date and time that follows another date by a specified duration, for an automatically scheduled task.
 
 
 ## Syntax
 
- _expression_. `DateAdd`( `_StartDate_`, `_Duration_`, `_Calendar_` )
+_expression_. `DateAdd`( `_StartDate_`, `_Duration_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ Returns the date and time that follows another date by a specified duration, for
 
 ## Remarks
 
-To add a duration to a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the  **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)** property.
+To add a duration to a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)** property.
 
 
 ## Example

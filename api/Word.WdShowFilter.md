@@ -1,17 +1,16 @@
 ---
 title: WdShowFilter enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdShowFilter
 ms.assetid: 6c0fdc45-b72b-7da4-523e-88a8e114797b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WdShowFilter enumeration (Word)
 
-Specifies the styles and formatting to display in the  **Styles and Formatting** task pane.
+Specifies the styles and formatting to display in the **Styles and Formatting** task pane.
 
 
 

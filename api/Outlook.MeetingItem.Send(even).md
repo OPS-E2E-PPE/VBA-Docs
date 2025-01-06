@@ -1,24 +1,23 @@
 ---
-title: MeetingItem.Send Event (Outlook)
-ms.prod: outlook
+title: MeetingItem.Send event (Outlook)
 api_name:
 - Outlook.MeetingItem.Send
 ms.assetid: 9dc87c39-d209-dc06-86e8-ce00f9cb152f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.Send Event (Outlook)
+# MeetingItem.Send event (Outlook)
 
-Occurs when the user selects the  **Send** action for an item, or when the **Send** method is called for the item, which is an instance of the parent object.
+Occurs when the user selects the **Send** action for an item, or when the **Send** method is called for the item, which is an instance of the parent object.
 
 
 ## Syntax
 
 _expression_. `Send`( `_Cancel_` )
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**|(Not used in VBScript).  **False** when the event occurs. If the event procedure sets this argument to **True** , the send operation is not completed and the inspector is left open.|
+| _Cancel_|Required| **Boolean**|(Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the send operation is not completed and the inspector is left open.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the item is not sent.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the item is not sent.
 
 
 ## See also

@@ -3,12 +3,11 @@ title: MoveFolder method (Visual Basic for Applications)
 keywords: vblr6.chm2182060
 f1_keywords:
 - vblr6.chm2182060
-ms.prod: office
 api_name:
 - Office.MoveFolder
 ms.assetid: 08a088c1-6e3c-d2a2-7708-f1682cafd91e
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Moves one or more folders from one location to another.
 ## Syntax
 
 _object_.**MoveFolder** (_source_, _destination_)
-
-<br/>
 
 The **MoveFolder** method syntax has these parts:
 

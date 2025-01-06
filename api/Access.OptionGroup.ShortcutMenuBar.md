@@ -3,18 +3,17 @@ title: OptionGroup.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10846
 f1_keywords:
 - vbaac10.chm10846
-ms.prod: access
 api_name:
 - Access.OptionGroup.ShortcutMenuBar
 ms.assetid: f08f9c3a-f267-dab7-48db-3c972131b6e8
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

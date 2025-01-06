@@ -3,12 +3,11 @@ title: ListTemplate.OutlineNumbered property (Word)
 keywords: vbawd10.chm160366593
 f1_keywords:
 - vbawd10.chm160366593
-ms.prod: word
 api_name:
 - Word.ListTemplate.OutlineNumbered
 ms.assetid: 0d728c52-b33d-7764-a0ef-6573040ed1ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `OutlineNumbered`
+_expression_. `OutlineNumbered`
 
  _expression_ An expression that returns a '[ListTemplate](Word.ListTemplate.md)' object.
 
 
 ## Remarks
 
-Setting this property to  **False** converts the list template to a single-level list that uses the formatting of the first level.
+Setting this property to **False** converts the list template to a single-level list that uses the formatting of the first level.
 
-You cannot set this property for a  **ListTemplate** object returned from a **[ListGallery](Word.ListGallery.md)** object.
+You cannot set this property for a **ListTemplate** object returned from a **[ListGallery](Word.ListGallery.md)** object.
 
 
 ## Example

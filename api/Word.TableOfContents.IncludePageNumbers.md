@@ -3,12 +3,11 @@ title: TableOfContents.IncludePageNumbers property (Word)
 keywords: vbawd10.chm152240136
 f1_keywords:
 - vbawd10.chm152240136
-ms.prod: word
 api_name:
 - Word.TableOfContents.IncludePageNumbers
 ms.assetid: 2097f009-ae18-70c3-3f3b-dbabcee06fa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IncludePageNumbers`
+_expression_. `IncludePageNumbers`
 
- _expression_ Required. A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
+_expression_ Required. A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
 
 
 ## Example

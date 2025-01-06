@@ -3,18 +3,17 @@ title: BoundObjectFrame.DisplayWhen property (Access)
 keywords: vbaac10.chm10922
 f1_keywords:
 - vbaac10.chm10922
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.DisplayWhen
 ms.assetid: ef64a05d-562f-2aff-09aa-b3d5609854b8
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

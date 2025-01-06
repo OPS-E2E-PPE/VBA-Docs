@@ -3,18 +3,17 @@ title: ListBox.DisplayWhen property (Access)
 keywords: vbaac10.chm11234
 f1_keywords:
 - vbaac10.chm11234
-ms.prod: access
 api_name:
 - Access.ListBox.DisplayWhen
 ms.assetid: d8a82522-97db-1b8d-2089-6e808be7889f
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

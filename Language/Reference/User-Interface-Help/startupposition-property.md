@@ -3,21 +3,18 @@ title: StartUpPosition property (Visual Basic for Applications)
 keywords: vblr6.chm1100523
 f1_keywords:
 - vblr6.chm1100523
-ms.prod: office
 api_name:
 - Office.StartUpPosition
 ms.assetid: 0ceb1e6d-b45e-a1df-03df-fd73ce814a79
 ms.date: 12/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # StartUpPosition property
 
 Returns or sets a value specifying the position of a **[UserForm](userform-window.md)** when it first appears.
-You can use one of four settings for **StartUpPosition**.
-
-<br/>
+Use one of four settings for **StartUpPosition**.
 
 |Setting|Value|Description|
 |:-----|:-----|:-----|

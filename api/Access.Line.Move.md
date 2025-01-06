@@ -3,12 +3,11 @@ title: Line.Move method (Access)
 keywords: vbaac10.chm10348
 f1_keywords:
 - vbaac10.chm10348
-ms.prod: access
 api_name:
 - Access.Line.Move
 ms.assetid: 1b76591e-3b2e-b3c6-8ca0-2378198a50f1
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

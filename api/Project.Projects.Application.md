@@ -1,24 +1,24 @@
 ---
-title: Projects.Application Property (Project)
-ms.prod: project-server
+title: Projects.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.Projects.Application
 ms.assetid: cbba5bfd-63d5-97da-1fca-8ea4ca8ac7cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Projects.Application Property (Project)
+# Projects.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'Projects' object.
+_expression_ A variable that represents a 'Projects' object.
 
 
 ## See also

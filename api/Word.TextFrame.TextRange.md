@@ -3,25 +3,24 @@ title: TextFrame.TextRange property (Word)
 keywords: vbawd10.chm162661353
 f1_keywords:
 - vbawd10.chm162661353
-ms.prod: word
 api_name:
 - Word.TextFrame.TextRange
 ms.assetid: fd715d4e-6995-2b28-d842-2897d7c1097f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextFrame.TextRange property (Word)
 
-Returns a  **[Range](Word.Range.md)** object that represents the text in the specified text frame.
+Returns a **[Range](Word.Range.md)** object that represents the text in the specified text frame.
 
 
 ## Syntax
 
- _expression_. `TextRange`
+_expression_.**TextRange**
 
- _expression_ An expression that returns a '[TextFrame](Word.TextFrame.md)' object.
+ _expression_ An expression that returns a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Example

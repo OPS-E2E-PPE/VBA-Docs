@@ -1,10 +1,9 @@
 ---
 title: In operator (Microsoft Access SQL)
 ROBOTS: INDEX
-ms.prod: access
 ms.assetid: ee4f1d71-82c4-3b0d-94b6-ad3f5a7608b8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 12/29/2021
+ms.localizationpriority: medium
 ---
 
 
@@ -16,8 +15,9 @@ Determines whether the value of an expression is equal to any of several values 
 
 ## Syntax
 
-_expr_ [ **Not** ] **In**( _value1, value2, …_ )
+_expr_ [ **Not** ] **In** ( _value1, value2, …_ )
 
+_expr_ [ **Not** ] **In** ( _[SELECT](/office/client-developer/access/desktop-database-reference/select-statement-microsoft-access-sql) …_ )
 
 ## Remarks
 
@@ -38,6 +38,12 @@ FROM Orders
 WHERE ShipRegion In ('Avon','Glos','Som')
 ```
 
+You can also use **In** to reference a table or query that exists in an external database file:
+
+```sql
+SELECT qryValues 
+FROM qryValues In 'c:\files\MyDB.accdb'
+```
 
 ## Example
 
@@ -78,8 +84,8 @@ End Sub
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

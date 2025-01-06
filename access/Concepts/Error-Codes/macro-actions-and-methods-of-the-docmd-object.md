@@ -3,10 +3,9 @@ title: Macro actions and methods of the DoCmd object
 keywords: vbaac10.chm5187441
 f1_keywords:
 - vbaac10.chm5187441
-ms.prod: access
 ms.assetid: aab25fbe-8ec3-5c45-dd70-a0e8c885406a
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

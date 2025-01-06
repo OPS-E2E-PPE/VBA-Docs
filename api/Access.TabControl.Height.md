@@ -3,12 +3,11 @@ title: TabControl.Height property (Access)
 keywords: vbaac10.chm12084
 f1_keywords:
 - vbaac10.chm12084
-ms.prod: access
 api_name:
 - Access.TabControl.Height
 ms.assetid: defcb681-9f95-4961-f18c-ef87b98a6602
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

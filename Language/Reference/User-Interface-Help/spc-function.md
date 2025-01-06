@@ -3,10 +3,9 @@ title: Spc function (Visual Basic for Applications)
 keywords: vblr6.chm1009027
 f1_keywords:
 - vblr6.chm1009027
-ms.prod: office
 ms.assetid: a7f2d6f4-6d27-fca5-80ad-648fbf46c002
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,8 +41,6 @@ Print #1, "10 spaces between here"; Spc(10); "and here."
 Close #1    ' Close file.
 
 ```
-
-<br/>
 
 The following statement causes the text to be printed in the Immediate window (by using the **Print** method), preceded by 30 spaces.
 

@@ -1,27 +1,26 @@
 ---
-title: SlideShowTransition.Hidden Property (PowerPoint)
+title: SlideShowTransition.Hidden property (PowerPoint)
 keywords: vbapp10.chm539007
 f1_keywords:
 - vbapp10.chm539007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowTransition.Hidden
 ms.assetid: 38e9add2-d05a-f0c3-6d8e-58e548d9789d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowTransition.Hidden Property (PowerPoint)
+# SlideShowTransition.Hidden property (PowerPoint)
 
 Determines whether the specified slide is hidden during a slide show. Read/write.
 
 
 ## Syntax
 
- _expression_. `Hidden`
+_expression_.**Hidden**
 
- _expression_ A variable that represents a [SlideShowTransition](./PowerPoint.SlideShowTransition.md) object.
+_expression_ A variable that represents a [SlideShowTransition](PowerPoint.SlideShowTransition.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Hidden** property can be one of these **MsoTriState** constants.
+The value of the **Hidden** property can be one of these **MsoTriState** constants.
 
 
 

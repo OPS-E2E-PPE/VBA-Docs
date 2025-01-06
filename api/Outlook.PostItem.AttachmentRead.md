@@ -1,15 +1,14 @@
 ---
-title: PostItem.AttachmentRead Event (Outlook)
-ms.prod: outlook
+title: PostItem.AttachmentRead event (Outlook)
 api_name:
 - Outlook.PostItem.AttachmentRead
 ms.assetid: 3e3e781e-a671-35c6-4715-1942fb1dc39a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.AttachmentRead Event (Outlook)
+# PostItem.AttachmentRead event (Outlook)
 
 Occurs when an attachment in an instance of the parent object has been opened for reading.
 
@@ -18,7 +17,7 @@ Occurs when an attachment in an instance of the parent object has been opened fo
 
 _expression_. `AttachmentRead`( `_Attachment_` )
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was opened.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** that was opened.|
 
 ## See also
 

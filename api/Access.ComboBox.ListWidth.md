@@ -3,18 +3,17 @@ title: ComboBox.ListWidth property (Access)
 keywords: vbaac10.chm11385,vbaac10.chm4418
 f1_keywords:
 - vbaac10.chm11385,vbaac10.chm4418
-ms.prod: access
 api_name:
 - Access.ComboBox.ListWidth
 ms.assetid: 488a36f0-3ab1-1bb1-ff48-3e5d33a55139
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ListWidth property (Access)
 
-You can use the **ListWidth** property to set the width of the list box portion of a combo box. Read/write **String**.
+Use the **ListWidth** property to set the width of the list box portion of a combo box. Read/write **String**.
 
 
 ## Syntax

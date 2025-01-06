@@ -3,12 +3,11 @@ title: InlineShape.IsPictureBullet property (Word)
 keywords: vbawd10.chm162005124
 f1_keywords:
 - vbawd10.chm162005124
-ms.prod: word
 api_name:
 - Word.InlineShape.IsPictureBullet
 ms.assetid: c53c7269-b6ab-beaa-41d6-105033c077b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsPictureBullet`
+_expression_. `IsPictureBullet`
 
  _expression_ An expression that returns a '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Remarks
 
-Although picture bullets are considered inline shapes, searching a document's  **InlineShapes** collection will not return picture bullets.
+Although picture bullets are considered inline shapes, searching a document's **InlineShapes** collection will not return picture bullets.
 
 
 ## Example

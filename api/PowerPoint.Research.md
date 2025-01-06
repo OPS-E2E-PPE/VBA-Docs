@@ -1,18 +1,17 @@
 ---
-title: Research Object (PowerPoint)
+title: Research object (PowerPoint)
 keywords: vbapp10.chm676000
 f1_keywords:
 - vbapp10.chm676000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Research
 ms.assetid: 92b16214-2fe4-73af-b4ba-bce6aa840449
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Research Object (PowerPoint)
+# Research object (PowerPoint)
 
 Provides access to the research service feature of Microsoft PowerPoint.
 

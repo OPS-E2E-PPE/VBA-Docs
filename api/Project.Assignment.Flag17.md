@@ -1,29 +1,29 @@
 ---
-title: Assignment.Flag17 Property (Project)
-ms.prod: project-server
+title: Assignment.Flag17 property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.Flag17
 ms.assetid: cda8dbba-c35c-86a8-348b-ed0ac4a15db5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.Flag17 Property (Project)
+# Assignment.Flag17 property (Project)
 
  **True** if the flag associated with an **Assignment** is set. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag17`
+_expression_. `Flag17`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

@@ -1,15 +1,14 @@
 ---
-title: JournalItem.CustomPropertyChange Event (Outlook)
-ms.prod: outlook
+title: JournalItem.CustomPropertyChange event (Outlook)
 api_name:
 - Outlook.JournalItem.CustomPropertyChange
 ms.assetid: bdaad359-bc21-c8a9-c934-7acf92d836ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# JournalItem.CustomPropertyChange Event (Outlook)
+# JournalItem.CustomPropertyChange event (Outlook)
 
 Occurs when a custom property of an item (which is an instance of the parent object) is changed. 
 
@@ -18,7 +17,7 @@ Occurs when a custom property of an item (which is an instance of the parent obj
 
 _expression_. `CustomPropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [JournalItem](./Outlook.JournalItem.md) object.
+_expression_ A variable that represents a [JournalItem](Outlook.JournalItem.md) object.
 
 
 ## Parameters
@@ -36,9 +35,9 @@ The property name is passed to the procedure so that you can determine which cus
 
 ## Example
 
-This Microsoft Visual Basic Scripting Edition (VBScript) example uses the  **CustomPropertyChange** event to enable a control when a **Boolean** field is set to **True**.
+This Microsoft Visual Basic Scripting Edition (VBScript) example uses the **CustomPropertyChange** event to enable a control when a **Boolean** field is set to **True**.
 
-For this example, create two custom fields on the second page of a form. The first, a  **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
+For this example, create two custom fields on the second page of a form. The first, a **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
 
 
 

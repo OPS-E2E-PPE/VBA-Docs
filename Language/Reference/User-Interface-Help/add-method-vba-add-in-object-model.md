@@ -3,10 +3,9 @@ title: Add method (VBA Add-In Object Model)
 keywords: vbob6.chm1014017
 f1_keywords:
 - vbob6.chm1014017
-ms.prod: office
 ms.assetid: 95f4b970-0b0a-a41d-6a7b-8ede6626da67
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Adds an object to a [collection](../visual-basic-add-in-model/collections-visual
 
 _object_.**Add** (_component_) 
 
-<br/>
-
 The **Add** syntax has these parts:
 
 |Part|Description|
@@ -27,9 +24,7 @@ The **Add** syntax has these parts:
 | _object_|Required. An [object expression](../../Glossary/vbe-glossary.md#object-expression) that evaluates to an object in the **Applies To** list.|
 | _component_|Required. For the **LinkedWindows** collection, an object. For the **VBComponents** collection, an enumerated [constant](../../Glossary/vbe-glossary.md#constant) representing a [class module](../../Glossary/vbe-glossary.md#class-module), a form, or a [standard module](../../Glossary/vbe-glossary.md#standard-module). For the **VBProjects** collection, an enumerated constant representing a project type.|
 
-<br/>
-
-You can use one of the following constants for the _component_ argument:
+Use one of the following constants for the _component_ argument:
 
 |Constant|Description|
 |:-----|:-----|

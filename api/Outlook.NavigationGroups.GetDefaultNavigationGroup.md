@@ -1,27 +1,26 @@
 ---
-title: NavigationGroups.GetDefaultNavigationGroup Method (Outlook)
+title: NavigationGroups.GetDefaultNavigationGroup method (Outlook)
 keywords: vbaol11.chm2860
 f1_keywords:
 - vbaol11.chm2860
-ms.prod: outlook
 api_name:
 - Outlook.NavigationGroups.GetDefaultNavigationGroup
 ms.assetid: accdd554-1aa1-b254-7489-67673b889757
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NavigationGroups.GetDefaultNavigationGroup Method (Outlook)
+# NavigationGroups.GetDefaultNavigationGroup method (Outlook)
 
-Returns the  **[NavigationGroup](Outlook.NavigationGroup.md)** that corresponds to the selected default shared folder group.
+Returns the **[NavigationGroup](Outlook.NavigationGroup.md)** that corresponds to the selected default shared folder group.
 
 
 ## Syntax
 
 _expression_. `GetDefaultNavigationGroup`( `_DefaultFolderGroup_` )
 
-_expression_ A variable that represents a [NavigationGroups](./Outlook.NavigationGroups.md) object.
+_expression_ A variable that represents a [NavigationGroups](Outlook.NavigationGroups.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [NavigationGroups](./Outlook.Navigatio
 
 ## Return value
 
-A  **NavigationGroup** object that represents the selected default folder group.
+A **NavigationGroup** object that represents the selected default folder group.
 
 
 ## Remarks

@@ -1,22 +1,21 @@
 ---
-title: PbFieldType Enumeration (Publisher)
+title: PbFieldType enumeration (Publisher)
 keywords: vbapb10.chm65559
 f1_keywords:
 - vbapb10.chm65559
-ms.prod: publisher
 api_name:
 - Publisher.PbFieldType
 ms.assetid: 24fd37d5-a9ae-7098-a19a-a0ce7eee1b5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbFieldType Enumeration (Publisher)
+# PbFieldType enumeration (Publisher)
 
 Represents the field type. 
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

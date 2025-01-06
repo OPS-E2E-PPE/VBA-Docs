@@ -3,10 +3,9 @@ title: "'Item' is a binary form and can't be loaded into Visual Basic"
 keywords: vblr6.chm50056
 f1_keywords:
 - vblr6.chm50056
-ms.prod: office
 ms.assetid: ad4c341d-e3f2-cf6f-8af3-60c22e5174c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

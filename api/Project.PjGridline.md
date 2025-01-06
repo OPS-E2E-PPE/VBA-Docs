@@ -1,15 +1,15 @@
 ---
-title: PjGridline Enumeration (Project)
-ms.prod: project-server
+title: PjGridline enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjGridline
 ms.assetid: 0cfe14fe-422a-416a-3dac-93a954bb188b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjGridline Enumeration (Project)
+# PjGridline enumeration (Project)
 
 Contains constants that specify the type of gridline.
 

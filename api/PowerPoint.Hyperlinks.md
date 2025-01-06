@@ -1,25 +1,24 @@
 ---
-title: Hyperlinks Object (PowerPoint)
+title: Hyperlinks object (PowerPoint)
 keywords: vbapp10.chm525000
 f1_keywords:
 - vbapp10.chm525000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlinks
 ms.assetid: 33a3fe49-6302-0f53-22f6-b8b1594d5d57
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks Object (PowerPoint)
+# Hyperlinks object (PowerPoint)
 
-A collection of all the  **[Hyperlink](PowerPoint.Hyperlink.md)** objects on a slide or master.
+A collection of all the **[Hyperlink](PowerPoint.Hyperlink.md)** objects on a slide or master.
 
 
 ## Example
 
-Use the [Hyperlinks](PowerPoint.Slide.Hyperlinks.md)property to return the  **Hyperlinks** collection. The following example updates all hyperlinks on slide one in the active presentation that have the specified address.
+Use the [Hyperlinks](PowerPoint.Slide.Hyperlinks.md)property to return the **Hyperlinks** collection. The following example updates all hyperlinks on slide one in the active presentation that have the specified address.
 
 
 ```vb
@@ -34,7 +33,7 @@ For Each hl In ActivePresentation.Slides(1).Hyperlinks
 Next
 ```
 
-Use the [Hyperlink](PowerPoint.ActionSetting.Hyperlink.md)property to create a hyperlink and add it to the  **Hyperlinks** collection. The following example sets a hyperlink that will be followed when the user clicks shape three on slide one in the active presentation during a slide show and adds the new hyperlink to the collection. Note that if shape three already has a mouse-click hyperlink defined, the following example will delete this hyperlink from the collection when it adds the new one, so the number of items in the **Hyperlinks** collection won't change.
+Use the [Hyperlink](PowerPoint.ActionSetting.Hyperlink.md)property to create a hyperlink and add it to the **Hyperlinks** collection. The following example sets a hyperlink that will be followed when the user clicks shape three on slide one in the active presentation during a slide show and adds the new hyperlink to the collection. Note that if shape three already has a mouse-click hyperlink defined, the following example will delete this hyperlink from the collection when it adds the new one, so the number of items in the **Hyperlinks** collection won't change.
 
 
 

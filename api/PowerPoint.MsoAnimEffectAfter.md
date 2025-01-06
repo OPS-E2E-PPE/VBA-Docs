@@ -1,15 +1,14 @@
 ---
-title: MsoAnimEffectAfter Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: MsoAnimEffectAfter enumeration (PowerPoint)
 api_name:
 - PowerPoint.MsoAnimEffectAfter
 ms.assetid: 95062204-fc8f-a3c2-69ed-57872165cd3b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MsoAnimEffectAfter Enumeration (PowerPoint)
+# MsoAnimEffectAfter enumeration (PowerPoint)
 
 Not used with PowerPoint.
 

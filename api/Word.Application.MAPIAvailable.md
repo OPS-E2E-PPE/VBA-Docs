@@ -3,12 +3,11 @@ title: Application.MAPIAvailable property (Word)
 keywords: vbawd10.chm158335074
 f1_keywords:
 - vbawd10.chm158335074
-ms.prod: word
 api_name:
 - Word.Application.MAPIAvailable
 ms.assetid: 2cb2fc8c-1ef6-98b8-fa72-0705637ad3ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MAPIAvailable`
+_expression_. `MAPIAvailable`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example

@@ -3,12 +3,11 @@ title: TabControl.PressedForeShade property (Access)
 keywords: vbaac10.chm14626
 f1_keywords:
 - vbaac10.chm14626
-ms.prod: access
 api_name:
 - Access.TabControl.PressedForeShade
 ms.assetid: ff4421d8-58aa-93a8-ab57-af686f1c44da
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

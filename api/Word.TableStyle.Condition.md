@@ -3,25 +3,24 @@ title: TableStyle.Condition method (Word)
 keywords: vbawd10.chm244776976
 f1_keywords:
 - vbawd10.chm244776976
-ms.prod: word
 api_name:
 - Word.TableStyle.Condition
 ms.assetid: f0adb8b7-434d-3134-38d0-d21d221a27d3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableStyle.Condition method (Word)
 
-Returns a  **[ConditionalStyle](Word.ConditionalStyle.md)** object that represents special style formatting for a portion of a table.
+Returns a **[ConditionalStyle](Word.ConditionalStyle.md)** object that represents special style formatting for a portion of a table.
 
 
 ## Syntax
 
- _expression_. `Condition`( `_ConditionCode_` )
+_expression_. `Condition`( `_ConditionCode_` )
 
- _expression_ Required. A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
+_expression_ Required. A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
 
 
 ## Parameters

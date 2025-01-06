@@ -3,17 +3,15 @@ title: Inserting Text in a Document
 keywords: vbawd10.chm5211121
 f1_keywords:
 - vbawd10.chm5211121
-ms.prod: word
 ms.assetid: 4903a9aa-6923-da80-fcc0-f0e2defcb77a
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Inserting Text in a Document
 
-Use the  **InsertBefore**method or the  **InsertAfter**method of the  **[Selection](../../../api/Word.Selection.md)** object or the  **[Range](../../../api/Word.Range.md)** object to insert text before or after a selection or range of text. The following example inserts text at the end of the active document.
-
+Use the **InsertBefore** method or the **InsertAfter** method of the **[Selection](../../../api/Word.Selection.md)** object or the **[Range](../../../api/Word.Range.md)** object to insert text before or after a selection or range of text. The following example inserts text at the end of the active document.
 
 ```vb
 Sub InsertTextAtEndOfDocument() 
@@ -21,11 +19,7 @@ Sub InsertTextAtEndOfDocument()
 End Sub
 ```
 
-
 The following example inserts text before the selection.
-
-
-
 
 ```vb
 Sub AddTextBeforeSelection() 
@@ -33,6 +27,6 @@ Sub AddTextBeforeSelection()
 End Sub
 ```
 
-After using the  **InsertBefore** method or the **InsertAfter** method, the **Range** or **Selection** expands to include the new text. Use the **Collapse**method to collapse a  **Selection** or **Range** to the beginning or ending point.
+After using the **InsertBefore** method or the **InsertAfter** method, the **Range** or **Selection** expands to include the new text. Use the **Collapse** method to collapse a **Selection** or **Range** to the beginning or ending point.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

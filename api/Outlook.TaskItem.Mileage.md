@@ -1,27 +1,26 @@
 ---
-title: TaskItem.Mileage Property (Outlook)
+title: TaskItem.Mileage property (Outlook)
 keywords: vbaol11.chm1702
 f1_keywords:
 - vbaol11.chm1702
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.Mileage
 ms.assetid: 3cc676b5-4817-adab-9a72-61a0214a2f64
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.Mileage Property (Outlook)
+# TaskItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Remarks

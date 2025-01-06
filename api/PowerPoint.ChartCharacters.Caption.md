@@ -1,22 +1,21 @@
 ---
-title: ChartCharacters.Caption Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartCharacters.Caption property (PowerPoint)
 api_name:
 - PowerPoint.ChartCharacters.Caption
 ms.assetid: 4bfaf504-4489-cf51-3879-dd0100a95183
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartCharacters.Caption Property (PowerPoint)
+# ChartCharacters.Caption property (PowerPoint)
 
-Returns the text of this range of characters. Read-only  **String**.
+Returns the text of this range of characters. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
 _expression_ A variable that represents a '[ChartCharacters](PowerPoint.ChartCharacters.md)' object.
 

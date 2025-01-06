@@ -3,23 +3,22 @@ title: System.ProfileString property (Word)
 keywords: vbawd10.chm154468361
 f1_keywords:
 - vbawd10.chm154468361
-ms.prod: word
 api_name:
 - Word.System.ProfileString
 ms.assetid: c682a0b6-988c-4b81-4314-787fd432afef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # System.ProfileString property (Word)
 
-Returns or sets a value for an entry in the Windows registry under the following subkey: `HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word`. Read/write  **String**.
+Returns or sets a value for an entry in the Windows registry under the following subkey: `HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word`. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `ProfileString`( `_Section_` , `_ Key_` )
+_expression_. `ProfileString`( `_Section_` , `_ Key_` )
 
  _expression_ An expression that returns a '[System](Word.System.md)' object.
 
@@ -33,7 +32,7 @@ This example retrieves and displays the startup path stored in the Windows regis
 MsgBox System.ProfileString("Options", "STARTUP-PATH")
 ```
 
-This example sets and returns the value for an entry in the Windows registry (the SubkeyName subkey is added below  `HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word`).
+This example sets and returns the value for an entry in the Windows registry (the SubkeyName subkey is added below `HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word`).
 
 
 

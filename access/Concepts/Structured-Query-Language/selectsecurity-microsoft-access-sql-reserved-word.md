@@ -3,10 +3,9 @@ title: SELECTSECURITY (Microsoft Access SQL reserved word)
 keywords: jetsql40.chm5277492
 f1_keywords:
 - jetsql40.chm5277492
-ms.prod: access
 ms.assetid: 29e48ab2-e93b-ada9-7e4c-6aca74a81560
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,8 +15,8 @@ localization_priority: Normal
 
 The SELECTSECURITY keyword is used in these contexts:
 
-- [GRANT statement](http://msdn.microsoft.com/library/50AE97AE-D5BE-57E5-D9DA-F3FC42F01D83%28Office.15%29.aspx)
-- [REVOKE statement](http://msdn.microsoft.com/library/69399FD6-C4E8-F2E2-E5F4-48AE779323F5%28Office.15%29.aspx)
+- [GRANT statement](https://msdn.microsoft.com/library/50AE97AE-D5BE-57E5-D9DA-F3FC42F01D83%28Office.15%29.aspx)
+- [REVOKE statement](https://msdn.microsoft.com/library/69399FD6-C4E8-F2E2-E5F4-48AE779323F5%28Office.15%29.aspx)
 
 
 ## See also

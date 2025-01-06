@@ -3,12 +3,11 @@ title: Read method (Visual Basic for Applications)
 keywords: vblr6.chm2182076
 f1_keywords:
 - vblr6.chm2182076
-ms.prod: office
 api_name:
 - Office.Read
 ms.assetid: 5fec09b1-ffbd-e572-4016-00343e33b797
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

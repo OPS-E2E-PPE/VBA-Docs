@@ -3,12 +3,11 @@ title: WebBrowserControl.RightPadding property (Access)
 keywords: vbaac10.chm14392
 f1_keywords:
 - vbaac10.chm14392
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.RightPadding
 ms.assetid: ac784983-260e-2ac1-4377-23a7920b038a
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

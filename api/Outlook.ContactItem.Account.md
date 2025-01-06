@@ -1,27 +1,26 @@
 ---
-title: ContactItem.Account Property (Outlook)
+title: ContactItem.Account property (Outlook)
 keywords: vbaol11.chm964
 f1_keywords:
 - vbaol11.chm964
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Account
 ms.assetid: 0d75eabd-f0f8-538d-576d-c75a0b41c84a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Account Property (Outlook)
+# ContactItem.Account property (Outlook)
 
-Returns or sets a  **String** representing the account for the contact. Read/write.
+Returns or sets a **String** representing the account for the contact. Read/write.
 
 
 ## Syntax
 
 _expression_. `Account`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## See also

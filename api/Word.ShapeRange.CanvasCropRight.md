@@ -3,12 +3,11 @@ title: ShapeRange.CanvasCropRight method (Word)
 keywords: vbawd10.chm162857102
 f1_keywords:
 - vbawd10.chm162857102
-ms.prod: word
 api_name:
 - Word.ShapeRange.CanvasCropRight
 ms.assetid: c4000f8e-3dac-ae4d-3ed3-91c2ac471fa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Crops a percentage of the width of a drawing canvas from the right side of the c
 
 ## Syntax
 
- _expression_. `CanvasCropBottom`( `_Increment_` )
+_expression_. `CanvasCropBottom`( `_Increment_` )
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Parameters

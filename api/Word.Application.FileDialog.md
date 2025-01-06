@@ -3,25 +3,24 @@ title: Application.FileDialog property (Word)
 keywords: vbawd10.chm158335426
 f1_keywords:
 - vbawd10.chm158335426
-ms.prod: word
 api_name:
 - Word.Application.FileDialog
 ms.assetid: ef478a81-db1d-4bf4-a146-3ff7dd84116b
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.FileDialog property (Word)
 
-Returns a  **FileDialog** object which represents a single instance of a file dialog box.
+Returns a **FileDialog** object which represents a single instance of a file dialog box.
 
 
 ## Syntax
 
- _expression_. `FileDialog`( `_FileDialogType_` )
+_expression_. `FileDialog`( `_FileDialogType_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,11 +29,11 @@ Returns a  **FileDialog** object which represents a single instance of a file di
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FileDialogType_|Required| **MsoFileDialogType**|The type of dialog.|
+| _FileDialogType_|Required| **[MsoFileDialogType](Office.MsoFileDialogType.md)**|The type of dialog.|
 
 ## Example
 
-This example displays the  **Save As** dialog box.
+This example displays the **Save As** dialog box.
 
 
 ```vb
@@ -46,7 +45,7 @@ Sub ShowSaveAsDialog()
 End Sub
 ```
 
-This example displays the  **Open** dialog box and allows a user to select multiple files to open.
+This example displays the **Open** dialog box and allows a user to select multiple files to open.
 
 
 

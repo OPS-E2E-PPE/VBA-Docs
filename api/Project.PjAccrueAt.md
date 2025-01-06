@@ -1,15 +1,15 @@
 ---
-title: PjAccrueAt Enumeration (Project)
-ms.prod: project-server
+title: PjAccrueAt enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAccrueAt
 ms.assetid: a86ac41f-9b7c-dd20-6d41-131b1c96af6b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAccrueAt Enumeration (Project)
+# PjAccrueAt enumeration (Project)
 
 Contains constants that specify how the cost of a resource is accrued.
 

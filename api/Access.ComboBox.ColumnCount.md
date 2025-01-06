@@ -3,18 +3,17 @@ title: ComboBox.ColumnCount property (Access)
 keywords: vbaac10.chm11380
 f1_keywords:
 - vbaac10.chm11380
-ms.prod: access
 api_name:
 - Access.ComboBox.ColumnCount
 ms.assetid: 76db2415-ee22-89c6-6753-f20d636d41f8
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ColumnCount property (Access)
 
-You can use the **ColumnCount** property to specify the number of columns displayed in a list box or in the list box portion of a combo box, or sent to OLE objects in a chart control or unbound object frame. Read/write **Integer**.
+Use the **ColumnCount** property to specify the number of columns displayed in a list box or in the list box portion of a combo box, or sent to OLE objects in a chart control or unbound object frame. Read/write **Integer**.
 
 
 ## Syntax
@@ -38,7 +37,7 @@ To display a different combination of fields, create either a new query or a new
 
 If the **RowSource** property contains a list of values (the **RowSourceType** property is set to Value List), the values are put into the rows and columns of the combo box or list box in the order they are listed in the **RowSource** property. For example, if the **RowSource** property contains the list "Red; Green; Blue; Yellow" and the **ColumnCount** property is set to 2, the first row of the combo box or list box list will contain "Red" in the first column and "Green" in the second column. The second row will contain "Blue" in the first column and "Yellow" in the second column.
 
-You can use the **ColumnWidths** property to set the width of the columns displayed in the control or to hide columns.
+Use the **ColumnWidths** property to set the width of the columns displayed in the control or to hide columns.
 
 
 ## Example
@@ -75,8 +74,6 @@ Public Sub Read_ListBox()
  
 End Sub
 ```
-
-<br/>
 
 The following example shows how to create a combo box that is bound to one column while displaying another. Setting the **ColumnCount** property to 2 specifies that the **cboDept** combo box will display the first two columns of the data source specified by the **RowSource** property. Setting the **BoundColumn** property to 1 specifies that the value stored in the first column will be returned when you inspect the value of the combo box.
 

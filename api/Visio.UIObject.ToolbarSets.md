@@ -1,27 +1,26 @@
 ---
-title: UIObject.ToolbarSets Property (Visio)
+title: UIObject.ToolbarSets property (Visio)
 keywords: vis_sdr.chm14914560
 f1_keywords:
 - vis_sdr.chm14914560
-ms.prod: visio
 api_name:
 - Visio.UIObject.ToolbarSets
 ms.assetid: 5fd4551c-3e23-920b-9dbc-76b2a79671f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UIObject.ToolbarSets Property (Visio)
+# UIObject.ToolbarSets property (Visio)
 
-Returns the  **ToolbarSets** collection of a **UIObject** object. Read-only.
+Returns the **ToolbarSets** collection of a **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ToolbarSets`
+_expression_. `ToolbarSets`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -32,22 +31,23 @@ ToolbarSets
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-If a  **UIObject** object represents toolbars (for example, if the object was retrieved by using the **BuiltInToolbars** property of an **Application** object), its **ToolbarSets** collection represents all of the toolbars for that **UIObject** object.
+If a **UIObject** object represents toolbars (for example, if the object was retrieved by using the **BuiltInToolbars** property of an **Application** object), its **ToolbarSets** collection represents all of the toolbars for that **UIObject** object.
 
-Use the  **ItemAtID** property of a **ToolbarSets** object to retrieve toolbars for a particular window context, for example, the drawing window. If a context does not include toolbars, it has no **ToolbarSets** collection.
+Use the **ItemAtID** property of a **ToolbarSets** object to retrieve toolbars for a particular window context, for example, the drawing window. If a context does not include toolbars, it has no **ToolbarSets** collection.
 
 
 ## Example
 
-This Microsoft Visual Basic macro shows how to use the  **ToolbarSets** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
+This Microsoft Visual Basic macro shows how to use the **ToolbarSets** property to get a particular object in a collection. It also shows how to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
 
 
 
-Before running this code, replace  _path\filename_ with the full path to and name of a valid icon (.ico) file on your computer.
+Before running this code, replace `path\filename` with the full path to and name of a valid icon (.ico) file on your computer.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 
@@ -80,7 +80,7 @@ Public Sub ToolbarSets_Example()
  vsoToolbarItem.CmdNum = visCmdPanZoom 
  
  'Set the toolbar button icon. 
- vsoToolbarItem.IconFileName "path\filename " 
+ vsoToolbarItem.IconFileName "path\filename" 
  
  'Use the new custom UI. 
  ThisDocument.SetCustomToolbars vsoUIObject 

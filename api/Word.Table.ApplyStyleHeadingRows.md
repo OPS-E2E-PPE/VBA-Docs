@@ -3,12 +3,11 @@ title: Table.ApplyStyleHeadingRows property (Word)
 keywords: vbawd10.chm156303562
 f1_keywords:
 - vbawd10.chm156303562
-ms.prod: word
 api_name:
 - Word.Table.ApplyStyleHeadingRows
 ms.assetid: 1c7fb6d5-9010-fded-d882-388d1e631da2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ApplyStyleHeadingRows`
+_expression_. `ApplyStyleHeadingRows`
 
  _expression_ An expression that returns a '[Table](Word.Table.md)' object.
 

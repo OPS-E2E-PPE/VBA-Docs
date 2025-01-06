@@ -3,18 +3,17 @@ title: EmptyCell.DisplayWhen property (Access)
 keywords: vbaac10.chm14306
 f1_keywords:
 - vbaac10.chm14306
-ms.prod: access
 api_name:
 - Access.EmptyCell.DisplayWhen
 ms.assetid: 571ed93a-6a13-8417-de92-5a019d895955
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmptyCell.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

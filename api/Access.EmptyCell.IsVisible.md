@@ -3,18 +3,17 @@ title: EmptyCell.IsVisible property (Access)
 keywords: vbaac10.chm14317
 f1_keywords:
 - vbaac10.chm14317
-ms.prod: access
 api_name:
 - Access.EmptyCell.IsVisible
 ms.assetid: ef61a89d-69a3-2428-352a-10bfe1b39c47
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmptyCell.IsVisible property (Access)
 
-You can use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
+Use the **IsVisible** property to determine whether a control on a report is visible. Read/write **Boolean**.
 
 
 ## Syntax
@@ -28,7 +27,7 @@ _expression_ A variable that represents an **[EmptyCell](Access.EmptyCell.md)** 
 
 You can set the **IsVisible** property only in the **Print** event of a report section that contains the control.
 
-You can use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
+Use the **IsVisible** property together with the **HideDuplicates** property to determine when a control on a report is visible and show or hide other controls as a result. For example, you could hide a line control when a text box control is hidden because it contains duplicate values.
 
 
 ## Example

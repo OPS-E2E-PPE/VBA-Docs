@@ -3,25 +3,24 @@ title: Interior.PatternColor property (Word)
 keywords: vbawd10.chm2818056
 f1_keywords:
 - vbawd10.chm2818056
-ms.prod: word
 api_name:
 - Word.Interior.PatternColor
 ms.assetid: 131f0006-6ed3-78f3-4888-8a3f47aeec78
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Interior.PatternColor property (Word)
 
-Returns or sets the color of the interior pattern as an RGB value. Read/write  **Variant**.
+Returns or sets the color of the interior pattern as an RGB value. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `PatternColor`
+_expression_.**PatternColor**
 
- _expression_ A variable that represents an '[Interior](Word.Interior.md)' object.
+_expression_ A variable that represents an '[Interior](Word.Interior.md)' object.
 
 
 ## Example

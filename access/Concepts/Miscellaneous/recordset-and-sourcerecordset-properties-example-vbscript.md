@@ -1,9 +1,8 @@
 ---
 title: Recordset and SourceRecordset properties example (VBScript)
-ms.prod: access
 ms.assetid: 235118ce-8468-18b1-ff49-8739fde69427
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,12 +43,12 @@ ID=RDC WIDTH=1 HEIGHT=1></OBJECT>
 <TABLE DATASRC=#RDC><TR>
 <TD> <INPUT DATAFLD="FirstName" SIZE=15> </TD><TD> <INPUT DATAFLD="LastName" SIZE=15></TD>
 </TR></TABLE>
-<HR><Input Size=70 Name="txtServer" Value="http://<%=Request.ServerVariables("SERVER_NAME")%>"><BR>
+<HR><Input Size=70 Name="txtServer" Value="https://<%=Request.ServerVariables("SERVER_NAME")%>"><BR>
 <Input Size=70 Name="txtConnect" Value="Provider='sqloledb';Integrated Security='SSPI';Initial Catalog='Northwind'"><BR><Input Size=70 Name="txtSQL" Value="SELECT FirstName, LastName FROM Employees">
 <HR><INPUT TYPE=BUTTON NAME="Run" VALUE="Run"><BR> 
 </Center><Script Language="VBScript"> 
 Dim rdsDFDim strServer
-strServer = "http://<%=Request.ServerVariables("SERVER_NAME")%>" 
+strServer = "https://<%=Request.ServerVariables("SERVER_NAME")%>" 
 Sub Run_OnClick() 
 Dim rs' Create RDSServer.DataFactory Object
 Set rdsDF = RDS1.CreateObject("RDSServer.DataFactory", strServer)' Get Recordset
@@ -69,8 +68,8 @@ End Sub
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

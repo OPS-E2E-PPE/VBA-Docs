@@ -3,18 +3,17 @@ title: Attachment.TabStop property (Access)
 keywords: vbaac10.chm14013
 f1_keywords:
 - vbaac10.chm14013
-ms.prod: access
 api_name:
 - Access.Attachment.TabStop
 ms.assetid: 918d81a6-a9a2-ab4e-6fb3-ad78233b6e7f
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.TabStop property (Access)
 
-You can use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control in Form view. Read/write **Boolean**.
+Use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control in Form view. Read/write **Boolean**.
 
 
 ## Syntax

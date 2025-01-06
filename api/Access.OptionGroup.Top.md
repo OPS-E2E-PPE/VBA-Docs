@@ -3,18 +3,17 @@ title: OptionGroup.Top property (Access)
 keywords: vbaac10.chm10835
 f1_keywords:
 - vbaac10.chm10835
-ms.prod: access
 api_name:
 - Access.OptionGroup.Top
 ms.assetid: 60a479aa-c9df-3eef-3752-4fc0bcbc07d6
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

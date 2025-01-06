@@ -3,12 +3,11 @@ title: EncryptionProvider.CloneSession method (Office)
 keywords: vbaof11.chm327004
 f1_keywords:
 - vbaof11.chm327004
-ms.prod: office
 api_name:
 - Office.EncryptionProvider.CloneSession
 ms.assetid: d7548ad1-caec-27d8-db55-c4e6f747111e
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

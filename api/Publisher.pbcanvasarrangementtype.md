@@ -1,17 +1,16 @@
 ---
-title: pbCanvasArrangementType Enumeration (Publisher)
-ms.prod: publisher
+title: PbCanvasArrangementType enumeration (Publisher)
 ms.assetid: 3b2037d4-eba4-478a-8b47-8c12d6a3e922
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# pbCanvasArrangementType Enumeration (Publisher)
+# PbCanvasArrangementType enumeration (Publisher)
 
-Constants passed to and returned by the  ** [Shapes.CanvasArrangementType](Publisher.Shapes.CanvasArrangementType.md)** property, specifying the arrangement type of the canvas.
+Constants passed to and returned by the **[Shapes.CanvasArrangementType](Publisher.Shapes.CanvasArrangementType.md)** property, specifying the arrangement type of the canvas.
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

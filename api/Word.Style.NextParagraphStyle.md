@@ -3,30 +3,29 @@ title: Style.NextParagraphStyle property (Word)
 keywords: vbawd10.chm153878533
 f1_keywords:
 - vbawd10.chm153878533
-ms.prod: word
 api_name:
 - Word.Style.NextParagraphStyle
 ms.assetid: f8326275-bb81-4a0e-f790-32b34ef71f78
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Style.NextParagraphStyle property (Word)
 
-Returns or sets the style to be applied automatically to a new paragraph that is inserted after a paragraph formatted with the specified style. Read/write  **Variant**.
+Returns or sets the style to be applied automatically to a new paragraph that is inserted after a paragraph formatted with the specified style. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `NextParagraphStyle`
+_expression_. `NextParagraphStyle`
 
  _expression_ An expression that returns a '[Style](Word.Style.md)' object.
 
 
 ## Remarks
 
-You can set the  **NextParagraphStyle** property by using the local name of the style, an integer or a **WdBuiltinStyle** constant, or an object that represents the next style. For a list of the **WdBuiltinStyle** constants, see the **Style** property for the object that you want to set.
+You can set the **NextParagraphStyle** property by using the local name of the style, an integer or a **WdBuiltinStyle** constant, or an object that represents the next style. For a list of the **WdBuiltinStyle** constants, see the **Style** property for the object that you want to set.
 
 
 ## Example

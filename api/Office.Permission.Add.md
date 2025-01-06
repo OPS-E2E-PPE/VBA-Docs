@@ -3,12 +3,11 @@ title: Permission.Add method (Office)
 keywords: vbaof11.chm261004
 f1_keywords:
 - vbaof11.chm261004
-ms.prod: office
 api_name:
 - Office.Permission.Add
 ms.assetid: 9674440f-8b0f-c611-3a02-f0ba1e92be94
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -42,7 +41,7 @@ The following example assigns a combination of read and edit permissions on the 
  Set objUserPerm = ActiveWorkbook.Permission.Add( _ 
  "user@domain.com", _ 
  msoPermissionRead + msoPermissionEdit, #12/31/2005#) 
- MsgBox "Permissions added for " &amp; _ 
+ MsgBox "Permissions added for " & _ 
  objUserPerm.UserId, _ 
  vbInformation + vbOKOnly, _ 
  "Permissions Added" 

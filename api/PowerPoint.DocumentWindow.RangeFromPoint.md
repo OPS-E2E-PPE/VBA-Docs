@@ -1,27 +1,26 @@
 ---
-title: DocumentWindow.RangeFromPoint Method (PowerPoint)
+title: DocumentWindow.RangeFromPoint method (PowerPoint)
 keywords: vbapp10.chm511026
 f1_keywords:
 - vbapp10.chm511026
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DocumentWindow.RangeFromPoint
 ms.assetid: 74bc61e5-6c6d-0510-b549-e325dd67c7a7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentWindow.RangeFromPoint Method (PowerPoint)
+# DocumentWindow.RangeFromPoint method (PowerPoint)
 
-Returns the  **Shape** object that is located at the point specified by the screen position coordinate pair. If no shape is located at the coordinate pair specified, then the method returns **Nothing**.
+Returns the **Shape** object that is located at the point specified by the screen position coordinate pair. If no shape is located at the coordinate pair specified, then the method returns **Nothing**.
 
 
 ## Syntax
 
- _expression_. `RangeFromPoint`( `_x_`, `_y_` )
+_expression_.**RangeFromPoint** (_x_, _y_)
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ _expression_ A variable that represents a [DocumentWindow](./PowerPoint.Document
 
 ## Example
 
-This example adds a new five-point star to slide one using the coordinates (288, 100). It then converts those coordinates from points to pixels, uses the  **RangeFromPoint** method to return a reference to the new object, and changes the fill color of the star.
+This example adds a new five-point star to slide one using the coordinates (288, 100). It then converts those coordinates from points to pixels, uses the **RangeFromPoint** method to return a reference to the new object, and changes the fill color of the star. Note that the example does not work unless you step through the code, possibly pointing to a bug with the method. The penultimate line to set a reference to the object myShape fails at runtime unless stepping through the code.
 
 
 ```vb

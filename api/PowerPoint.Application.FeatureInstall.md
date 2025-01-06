@@ -1,27 +1,26 @@
 ---
-title: Application.FeatureInstall Property (PowerPoint)
+title: Application.FeatureInstall property (PowerPoint)
 keywords: vbapp10.chm502043
 f1_keywords:
 - vbapp10.chm502043
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.FeatureInstall
 ms.assetid: 254fc432-9ee5-d978-19ac-5fa6f94daa94
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FeatureInstall Property (PowerPoint)
+# Application.FeatureInstall property (PowerPoint)
 
 Returns or sets how Microsoft PowerPoint handles calls to methods and properties that require features not yet installed. Read/write.
 
 
 ## Syntax
 
- _expression_. `FeatureInstall`
+_expression_. `FeatureInstall`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value
@@ -31,12 +30,13 @@ MsoFeatureInstall
 
 ## Remarks
 
-You can use the  **msoFeatureInstallOnDemandWithUI** constant to prevent users from believing that the application is not responding while a feature is being installed. Use the **msoFeatureInstallNone** constant with error trapping routines to exclude end-user feature installation.
+Use the **msoFeatureInstallOnDemandWithUI** constant to prevent users from believing that the application is not responding while a feature is being installed. Use the **msoFeatureInstallNone** constant with error trapping routines to exclude end-user feature installation.
 
 
- **Note**  If you refer to an uninstalled presentation design template in a string, a run-time error is generated. The template is not installed automatically regardless of your  **FeatureInstall** property setting. To use the **[ApplyTemplate](PowerPoint.Presentation.ApplyTemplate.md)** method for a template that is not currently installed, you first must install the additional design templates. To do so, install the Additional Design Templates for PowerPoint by running the Microsoft Office installation program (available by clicking the **Add/Remove Programs** icon in Windows Control Panel).
+> [!NOTE] 
+> If you refer to an uninstalled presentation design template in a string, a run-time error is generated. The template is not installed automatically regardless of your **FeatureInstall** property setting. To use the **[ApplyTemplate](PowerPoint.Presentation.ApplyTemplate.md)** method for a template that is not currently installed, you first must install the additional design templates. To do so, install the Additional Design Templates for PowerPoint by running the Microsoft Office installation program (available by clicking the **Add/Remove Programs** icon in Windows Control Panel).
 
-The value of the  **FeatureInstall** property can be one of these **MsoFeatureInstall** constants.
+The value of the **FeatureInstall** property can be one of these **MsoFeatureInstall** constants.
 
 
 
@@ -48,7 +48,7 @@ The value of the  **FeatureInstall** property can be one of these **MsoFeatureIn
 
 ## Example
 
-This example checks the value of the  **FeatureInstall** property. If the property is set to **msoFeatureInstallNone**, the code displays a message box that asks the user whether they want to change the property setting. If the user responds "Yes", the property is set to **msoFeatureInstallOnDemand**.
+This example checks the value of the **FeatureInstall** property. If the property is set to **msoFeatureInstallNone**, the code displays a message box that asks the user whether they want to change the property setting. If the user responds "Yes", the property is set to **msoFeatureInstallOnDemand**.
 
 
 ```vb

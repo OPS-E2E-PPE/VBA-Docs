@@ -3,12 +3,11 @@ title: ListTemplate.Convert method (Word)
 keywords: vbawd10.chm160366693
 f1_keywords:
 - vbawd10.chm160366693
-ms.prod: word
 api_name:
 - Word.ListTemplate.Convert
 ms.assetid: 5b25c80e-a39c-3bcb-5c5f-bb9001e1ca86
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Converts a multiple-level list to a single-level list, or vice versa.
 
 ## Syntax
 
- _expression_. `Convert`( `_Level_` )
+_expression_. `Convert`( `_Level_` )
 
- _expression_ Required. A variable that represents a '[ListTemplate](Word.ListTemplate.md)' object.
+_expression_ Required. A variable that represents a '[ListTemplate](Word.ListTemplate.md)' object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Converts a multiple-level list to a single-level list, or vice versa.
 
 ## Remarks
 
-You cannot use the  **Convert** method on a list template that is derived from the **ListGalleries** collection.
+You cannot use the **Convert** method on a list template that is derived from the **ListGalleries** collection.
 
 
 ## Example

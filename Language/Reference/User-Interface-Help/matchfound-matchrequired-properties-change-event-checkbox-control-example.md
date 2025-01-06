@@ -3,10 +3,9 @@ title: MatchFound, MatchRequired properties, Change event, CheckBox control exam
 keywords: fm20.chm5225121
 f1_keywords:
 - fm20.chm5225121
-ms.prod: office
 ms.assetid: 10f60293-1b97-faf6-e596-c29489f2439d
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: TaskItem.Recipients Property (Outlook)
+title: TaskItem.Recipients property (Outlook)
 keywords: vbaol11.chm1734
 f1_keywords:
 - vbaol11.chm1734
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.Recipients
 ms.assetid: 03743284-9753-6cb9-b5cc-20bc5cb3621e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.Recipients Property (Outlook)
+# TaskItem.Recipients property (Outlook)
 
-Returns a  **[Recipients](Outlook.Recipients.md)** collection that represents all the recipients for the Outlook item. Read-only.
+Returns a **[Recipients](Outlook.Recipients.md)** collection that represents all the recipients for the Outlook item. Read-only.
 
 
 ## Syntax
 
 _expression_. `Recipients`
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Remarks

@@ -3,12 +3,11 @@ title: Style.NoSpaceBetweenParagraphsOfSameStyle property (Word)
 keywords: vbawd10.chm153878548
 f1_keywords:
 - vbawd10.chm153878548
-ms.prod: word
 api_name:
 - Word.Style.NoSpaceBetweenParagraphsOfSameStyle
 ms.assetid: 922aa621-0c52-cc7e-9713-1e129bba77c0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `NoSpaceBetweenParagraphsOfSameStyle`
+_expression_. `NoSpaceBetweenParagraphsOfSameStyle`
 
  _expression_ An expression that returns a '[Style](Word.Style.md)' object.
 

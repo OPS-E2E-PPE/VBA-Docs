@@ -1,27 +1,26 @@
 ---
-title: Window.SelectedCell Property (Visio)
+title: Window.SelectedCell property (Visio)
 keywords: vis_sdr.chm11660125
 f1_keywords:
 - vis_sdr.chm11660125
-ms.prod: visio
 api_name:
 - Visio.Window.SelectedCell
 ms.assetid: 104a2b2d-eb12-2917-6332-9a60e4623e74
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.SelectedCell Property (Visio)
+# Window.SelectedCell property (Visio)
 
 Returns the selected cell in the ShapeSheet window. Read-only.
 
 
 ## Syntax
 
- _expression_. `SelectedCell`
+_expression_. `SelectedCell`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,14 +30,14 @@ Cell
 
 ## Remarks
 
-The  **SelectedCell** property applies only to ShapeSheet windows. If you try to access the **SelectedCell** property for any other type of window, Microsoft Visio returns the error message "Invalid window type for this action."
+The **SelectedCell** property applies only to ShapeSheet windows. If you try to access the **SelectedCell** property for any other type of window, Microsoft Visio returns the error message "Invalid window type for this action."
 
-If a ShapeSheet row is selected (instead of a cell),  **SelectedCell** returns **Nothing**. See the following example.
+If a ShapeSheet row is selected (instead of a cell), **SelectedCell** returns **Nothing**. See the following example.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SelectedCell** property to print the name, section, row, column, and formula of the selected ShapeSheet cell in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SelectedCell** property to print the name, section, row, column, and formula of the selected ShapeSheet cell in the Immediate window.
 
 
 ```vb

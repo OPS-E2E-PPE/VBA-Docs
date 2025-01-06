@@ -1,27 +1,26 @@
 ---
-title: Application.PresentationNewSlide Event (PowerPoint)
+title: Application.PresentationNewSlide event (PowerPoint)
 keywords: vbapp10.chm621008
 f1_keywords:
 - vbapp10.chm621008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.PresentationNewSlide
 ms.assetid: e9718cad-6411-d013-6c93-0370aa71a8f2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.PresentationNewSlide Event (PowerPoint)
+# Application.PresentationNewSlide event (PowerPoint)
 
-Occurs when a new slide is created in any open presentation, as the slide is added to the  **[Slides](PowerPoint.Slides.md)** collection.
+Occurs when a new slide is created in any open presentation, as the slide is added to the **[Slides](PowerPoint.Slides.md)** collection.
 
 
 ## Syntax
 
- _expression_. `PresentationNewSlide`( `_Sld_` )
+_expression_. `PresentationNewSlide`( `_Sld_` )
 
- _expression_ An expression that returns a [Application](./PowerPoint.Application.md) object.
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters

@@ -1,27 +1,26 @@
 ---
-title: AnimationSettings.ChartUnitEffect Property (PowerPoint)
+title: AnimationSettings.ChartUnitEffect property (PowerPoint)
 keywords: vbapp10.chm565016
 f1_keywords:
 - vbapp10.chm565016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationSettings.ChartUnitEffect
 ms.assetid: a2b66cf3-c8b9-6b9c-d184-13a828b474b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationSettings.ChartUnitEffect Property (PowerPoint)
+# AnimationSettings.ChartUnitEffect property (PowerPoint)
 
 Returns or sets a value that indicates whether the graph range is animated by series, category, or element. Read/write.
 
 
 ## Syntax
 
- _expression_. `ChartUnitEffect`
+_expression_. `ChartUnitEffect`
 
-_expression_ A variable that represents a [AnimationSettings](./PowerPoint.AnimationSettings.md) object.
+_expression_ A variable that represents a [AnimationSettings](PowerPoint.AnimationSettings.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ PpChartUnitEffect
 
 ## Remarks
 
-If your graph doesn't become animated, make sure that the  **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **True**
+If your graph doesn't become animated, make sure that the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **True**
 
-The value of the  **ChartUnitEffect** property can be one of these **PpChartUnitEffect** constants.
+The value of the **ChartUnitEffect** property can be one of these **PpChartUnitEffect** constants.
 
 
 ||

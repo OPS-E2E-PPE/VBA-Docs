@@ -1,27 +1,26 @@
 ---
-title: Application.SnapToGuides Property (Publisher)
+title: Application.SnapToGuides property (Publisher)
 keywords: vbapb10.chm131110
 f1_keywords:
 - vbapb10.chm131110
-ms.prod: publisher
 api_name:
 - Publisher.Application.SnapToGuides
 ms.assetid: 09894c02-3193-cd14-ff55-45920e461af9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/05/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.SnapToGuides Property (Publisher)
+# Application.SnapToGuides property (Publisher)
 
- **True** for Microsoft Publisher to use the guides to align objects on a page in a publication. Read/write **Boolean**.
+**True** for Microsoft Publisher to use the guides to align objects on a page in a publication. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **SnapToGuides**
+_expression_.**SnapToGuides**
 
- _expression_ A variable that represents a  **Application** object.
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Boolean
 ## Example
 
 This example adds horizontal and vertical ruler guides every half inch on the first page and then sets the options to align objects on the page to the guides.
-
 
 ```vb
 Sub SetSnapOptions() 
@@ -57,9 +55,5 @@ End Sub
 ```
 
 
-## See also
-
-
- [Application Object](Publisher.Application.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

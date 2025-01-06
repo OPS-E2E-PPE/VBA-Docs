@@ -1,24 +1,24 @@
 ---
-title: Application.DateSubtract Method (Project)
-ms.prod: project-server
+title: Application.DateSubtract method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.DateSubtract
 ms.assetid: 1eb05a59-271d-31d0-8945-23bc3c9600e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DateSubtract Method (Project)
+# Application.DateSubtract method (Project)
 
 Returns the date and time that precedes another date by a specified duration, for an automatically scheduled task.
 
 
 ## Syntax
 
- _expression_. `DateSubtract`( `_FinishDate_`, `_Duration_`, `_Calendar_` )
+_expression_. `DateSubtract`( `_FinishDate_`, `_Duration_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ Returns the date and time that precedes another date by a specified duration, fo
 
 ## Remarks
 
-To subtract a duration from a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the  **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)** property.
+To subtract a duration from a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the **[EffectiveDateSubtract](Project.StartDriver.EffectiveDateSubtract.md)** property.
 
 
 ## Example

@@ -3,10 +3,9 @@ title: MacID function (Visual Basic for Applications)
 keywords: vblr6.chm1009753
 f1_keywords:
 - vblr6.chm1009753
-ms.prod: office
 ms.assetid: 4df07ec9-c165-ab5a-2864-ef1d9168d7e5
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

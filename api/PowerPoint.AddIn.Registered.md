@@ -1,27 +1,26 @@
 ---
-title: AddIn.Registered Property (PowerPoint)
+title: AddIn.Registered property (PowerPoint)
 keywords: vbapp10.chm521006
 f1_keywords:
 - vbapp10.chm521006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AddIn.Registered
 ms.assetid: 693bcb7a-dabc-5933-38df-710172bbce26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddIn.Registered Property (PowerPoint)
+# AddIn.Registered property (PowerPoint)
 
 Determines whether the specified add-in is registered in the Windows registry. Read/write.
 
 
 ## Syntax
 
- _expression_. `Registered`
+_expression_. `Registered`
 
-_expression_ A variable that represents a [AddIn](./PowerPoint.AddIn.md) object.
+_expression_ A variable that represents a [AddIn](PowerPoint.AddIn.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Registered** property can be one of these **MsoTriState** constants.
+The value of the **Registered** property can be one of these **MsoTriState** constants.
 
 
 

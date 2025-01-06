@@ -3,18 +3,17 @@ title: ComboBox.ValidationRule property (Access)
 keywords: vbaac10.chm11391
 f1_keywords:
 - vbaac10.chm11391
-ms.prod: access
 api_name:
 - Access.ComboBox.ValidationRule
 ms.assetid: 3ea94f44-46fa-57a7-a9b4-a9e7b58e087b
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ValidationRule property (Access)
 
-You can use the **ValidationRule** property to specify requirements for data entered into a record, field, or control. When data is entered that violates the **ValidationRule** setting, you can use the **ValidationText** property to specify the message to be displayed to the user. Read/write **String**.
+Use the **ValidationRule** property to specify requirements for data entered into a record, field, or control. When data is entered that violates the **ValidationRule** setting, you can use the **ValidationText** property to specify the message to be displayed to the user. Read/write **String**.
 
 
 ## Syntax
@@ -49,8 +48,6 @@ Control, field, and record validation rules are applied as follows:
 - If you create validation rules for both a field and a control bound to the field, both validation rules are applied when you edit data and the focus leaves the control.
     
 The following table contains expression examples for the **ValidationRule** and **ValidationText** properties.
-
-<br/>
 
 |ValidationRule property|ValidationText property|
 |:-----|:-----|
@@ -94,8 +91,6 @@ Function SetFieldValidation(strTblName As String, _
  fld.ValidationText = strValidText 
 End Function
 ```
-
-<br/>
 
 The following example uses the **SetTableValidation** function to set record-level validation to ensure that the value in the **EndDate** field comes after the value in the **StartDate** field.
 

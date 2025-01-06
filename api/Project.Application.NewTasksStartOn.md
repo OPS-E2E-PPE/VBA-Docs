@@ -1,27 +1,27 @@
 ---
-title: Application.NewTasksStartOn Method (Project)
+title: Application.NewTasksStartOn method (Project)
 keywords: vbapj.chm2295
 f1_keywords:
 - vbapj.chm2295
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.NewTasksStartOn
 ms.assetid: c5009674-105e-a861-56f0-4847926d6c36
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.NewTasksStartOn Method (Project)
+# Application.NewTasksStartOn method (Project)
 
 Specifies how the start date of a new task is set.
 
 
 ## Syntax
 
- _expression_. `NewTasksStartOn`( `_StartOnDate_` )
+_expression_. `NewTasksStartOn`( `_StartOnDate_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Specifies how the start date of a new task is set.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _StartOnDate_|Optional|**PjNewTasksStartOnDate**|Specifies whether new tasks start on the project date, the current date, or no date. Can be one of the  **[PjNewTasksStartOnDate](Project.PjNewTasksStartOnDate.md)** constants. The default is **pjProjectDate**.|
+| _StartOnDate_|Optional|**PjNewTasksStartOnDate**|Specifies whether new tasks start on the project date, the current date, or no date. Can be one of the **[PjNewTasksStartOnDate](Project.PjNewTasksStartOnDate.md)** constants. The default is **pjProjectDate**.|
 
 ## Return value
 
@@ -39,6 +39,6 @@ Specifies how the start date of a new task is set.
 
 ## Remarks
 
-The  **NewTasksStartOn** method corresponds to the **New tasks created** setting on the **Schedule** tab of the **Project Options** dialog box.
+The **NewTasksStartOn** method corresponds to the **New tasks created** setting on the **Schedule** tab of the **Project Options** dialog box.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

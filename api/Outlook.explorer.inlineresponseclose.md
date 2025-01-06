@@ -1,16 +1,15 @@
 ---
-title: Explorer.InlineResponseClose Event (Outlook)
+title: Explorer.InlineResponseClose event (Outlook)
 keywords: vbaol11.chm3598
 f1_keywords:
 - vbaol11.chm3598
 ms.assetid: ff3f3286-995a-409c-aca5-706290e26252
 ms.date: 06/08/2017
-ms.prod: outlook
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.InlineResponseClose Event (Outlook)
+# Explorer.InlineResponseClose event (Outlook)
 Occurs when the user performs an action that causes the active inline response to close in the Reading Pane.
 
 ## Syntax
@@ -25,9 +24,9 @@ _expression_ A variable that represents an '[Explorer](Outlook.Explorer.md)' obj
 This event fires when a new inline response or draft inline response is closed for the following reasons:
 
 
-- The user selects the  **Pop Out** command.
+- The user selects the **Pop Out** command.
     
-    The user selects the  **Discard** command.
+    The user selects the **Discard** command.
     
     The user sends the inline response.
     

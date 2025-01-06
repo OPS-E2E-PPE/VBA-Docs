@@ -3,18 +3,17 @@ title: ListBox.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm11260
 f1_keywords:
 - vbaac10.chm11260
-ms.prod: access
 api_name:
 - Access.ListBox.ShortcutMenuBar
 ms.assetid: 5da48eb8-b4ce-a3e5-323b-18f1ec76e00c
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

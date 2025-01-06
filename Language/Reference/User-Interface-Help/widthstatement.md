@@ -3,10 +3,9 @@ title: Width statement (VBA)
 keywords: vblr6.chm1009060
 f1_keywords:
 - vblr6.chm1009060
-ms.prod: office
 ms.assetid: 655e73fc-c294-5f82-4c1a-59c2ebd71036
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Assigns an output line width to a file opened by using the **[Open](open-stateme
 ## Syntax
 
 **Width #**_filenumber_, _width_
-
-<br/>
 
 The **Width #** statement syntax has these parts:
 

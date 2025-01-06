@@ -1,32 +1,29 @@
 ---
-title: ColorScheme.Colors Method (PowerPoint)
+title: ColorScheme.Colors method (PowerPoint)
 keywords: vbapp10.chm537003
 f1_keywords:
 - vbapp10.chm537003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorScheme.Colors
 ms.assetid: ac910a40-9014-e709-491c-a8649fc08137
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorScheme.Colors Method (PowerPoint)
+# ColorScheme.Colors method (PowerPoint)
 
-Returns an  **[RGBColor](PowerPoint.RGBColor.md)** object that represents a single color in a color scheme.
+Returns an **[RGBColor](PowerPoint.RGBColor.md)** object that represents a single color in a color scheme.
 
 
 ## Syntax
 
- _expression_. `Colors`( `_SchemeColor_` )
+_expression_.**Colors** (_SchemeColor_)
 
-_expression_ A variable that represents a [ColorScheme](./PowerPoint.ColorScheme.md) object.
+_expression_ A variable that represents a **[ColorScheme](PowerPoint.ColorScheme.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -49,9 +46,5 @@ mySlides.ColorScheme.Colors(ppTitle).RGB = RGB(0, 255, 0)
 ```
 
 
-## See also
-
-
-[ColorScheme Object](PowerPoint.ColorScheme.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

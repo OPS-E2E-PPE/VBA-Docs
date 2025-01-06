@@ -3,12 +3,11 @@ title: Options.SavePropertiesPrompt property (Word)
 keywords: vbawd10.chm162988075
 f1_keywords:
 - vbawd10.chm162988075
-ms.prod: word
 api_name:
 - Word.Options.SavePropertiesPrompt
 ms.assetid: da2bbc7d-920d-2442-25d3-c6ee11316097
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SavePropertiesPrompt`
+_expression_. `SavePropertiesPrompt`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example causes Word to prompt for document property information when saving
 Options.SavePropertiesPrompt = True
 ```
 
-This example returns the current status of the  **Prompt for document properties** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Prompt for document properties** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
 
 
 

@@ -3,12 +3,11 @@ title: EnterFieldBehavior property
 keywords: fm20.chm5225036
 f1_keywords:
 - fm20.chm5225036
-ms.prod: office
 api_name:
 - Office.EnterFieldBehavior
 ms.assetid: 6657b5c5-d204-1c5e-c8d7-e84bc51efe15
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

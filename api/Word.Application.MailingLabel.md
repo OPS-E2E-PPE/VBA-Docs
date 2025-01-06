@@ -3,25 +3,24 @@ title: Application.MailingLabel property (Word)
 keywords: vbawd10.chm158334994
 f1_keywords:
 - vbawd10.chm158334994
-ms.prod: word
 api_name:
 - Word.Application.MailingLabel
 ms.assetid: 7eba3273-4a4c-6cdf-004a-4a0d214d6127
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.MailingLabel property (Word)
 
-Returns a  **[MailingLabel](Word.MailingLabel.md)** object that represents a mailing label.
+Returns a **[MailingLabel](Word.MailingLabel.md)** object that represents a mailing label.
 
 
 ## Syntax
 
- _expression_. `MailingLabel`
+_expression_. `MailingLabel`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: WdGoToDirection enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdGoToDirection
 ms.assetid: 5035c4af-283d-1cf2-ef68-b6102023f926
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

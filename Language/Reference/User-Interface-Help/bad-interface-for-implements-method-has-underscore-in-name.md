@@ -3,16 +3,15 @@ title: "Bad interface for Implements: method has underscore in name"
 keywords: vblr6.chm1057160
 f1_keywords:
 - vblr6.chm1057160
-ms.prod: office
 ms.assetid: 51a601e6-601b-e73b-9697-292d0bc0d9ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bad interface for Implements: method has underscore in name
 
-The  **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
+The **Implements** statement is used to specify an interface or class that will be implemented in the class module in which it appears. This error has the following cause and solution:
 
 
 

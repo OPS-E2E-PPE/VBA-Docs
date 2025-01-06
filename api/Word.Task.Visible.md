@@ -3,12 +3,11 @@ title: Task.Visible property (Word)
 keywords: vbawd10.chm159514630
 f1_keywords:
 - vbawd10.chm159514630
-ms.prod: word
 api_name:
 - Word.Task.Visible
 ms.assetid: cc1bb50d-c49d-9230-83ad-940c53c89220
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
+_expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
 
 
 ## Remarks
 
-For any object, some methods and properties may be unavailable if the  **Visible** property is **False**.
+For any object, some methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## Example

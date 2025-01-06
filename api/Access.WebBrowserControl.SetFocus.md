@@ -3,12 +3,11 @@ title: WebBrowserControl.SetFocus method (Access)
 keywords: vbaac10.chm14354
 f1_keywords:
 - vbaac10.chm14354
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.SetFocus
 ms.assetid: ef78b734-df81-60db-d569-bc9128a0ced5
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[WebBrowserControl](Access.WebBrowse
 
 ## Remarks
 
-You can use the **SetFocus** method when you want a particular field or control to have the focus so that all user input is directed to this object.
+Use the **SetFocus** method when you want a particular field or control to have the focus so that all user input is directed to this object.
 
 To read some of the properties of a control, you need to ensure that the control has the focus. For example, a text box must have the focus before you can read its **Text** property.
 
@@ -40,7 +39,7 @@ You can't move the focus to a control if its **Enabled** property is set to **Fa
 
 If a form contains controls for which the **Enabled** property is set to **True**, you can't move the focus to the form itself. You can only move the focus to controls on the form. In this case, if you try to use **SetFocus** to move the focus to a form, the focus is set to the control on the form that last received the focus.
 
-You can use the **SetFocus** method to move the focus to a subform, which is a type of control. You can also move the focus to a control on a subform by using the **SetFocus** method twice, moving the focus first to the subform and then to the control on the subform.
+Use the **SetFocus** method to move the focus to a subform, which is a type of control. You can also move the focus to a control on a subform by using the **SetFocus** method twice, moving the focus first to the subform and then to the control on the subform.
 
 
 ## Example

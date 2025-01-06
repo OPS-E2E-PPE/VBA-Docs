@@ -1,22 +1,22 @@
 ---
-title: StartDriver Object (Project)
-ms.prod: project-server
+title: StartDriver object (Project)
+ms.service: project-server
 api_name:
 - Project.StartDriver
 ms.assetid: 4df2c386-a31e-faea-e286-d510f11cca57
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# StartDriver Object (Project)
+# StartDriver object (Project)
 
-Represents the  **StartDriver** of the **Task**.
+Represents the **StartDriver** of the **Task**.
 
 
 ## Remarks
 
-Use the  **[Index](./Project.Task.Index.md)** method of the **[Task](Project.Task.md)** object to access the **StartDriver** object. For example:
+Use the **[Index](./Project.Task.Index.md)** method of the **[Task](Project.Task.md)** object to access the **StartDriver** object. For example:
 
 
 ## Properties

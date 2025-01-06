@@ -3,18 +3,17 @@ title: FormatCondition.Enabled property (Access)
 keywords: vbaac10.chm10057
 f1_keywords:
 - vbaac10.chm10057
-ms.prod: access
 api_name:
 - Access.FormatCondition.Enabled
 ms.assetid: bc60dfdf-debe-17f2-fc25-023f2bb2e0e7
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # FormatCondition.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **FormatCondition** object. Read/write **Boolean**.
 
 
 ## Syntax

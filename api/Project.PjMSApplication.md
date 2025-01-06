@@ -1,15 +1,15 @@
 ---
-title: PjMSApplication Enumeration (Project)
-ms.prod: project-server
+title: PjMSApplication enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjMSApplication
 ms.assetid: 425dda92-45dc-f5d7-5114-c5f8e2a70892
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjMSApplication Enumeration (Project)
+# PjMSApplication enumeration (Project)
 
 Contains constants that specify the Microsoft application to activate.
 

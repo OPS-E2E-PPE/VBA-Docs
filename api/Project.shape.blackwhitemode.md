@@ -1,20 +1,20 @@
 ---
-title: Shape.BlackWhiteMode Property (Project)
-ms.prod: project-server
+title: Shape.BlackWhiteMode property (Project)
+ms.service: project-server
 ms.assetid: eaa9367b-3a68-6c55-328f-766dd79ff274
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.BlackWhiteMode Property (Project)
-Gets or sets a value that indicates how the shape appears when it is viewed in black-and-white mode. Read/write  **MsoBlackWhiteMode**.
+# Shape.BlackWhiteMode property (Project)
+Gets or sets a value that indicates how the shape appears when it is viewed in black-and-white mode. Read/write **MsoBlackWhiteMode**.
 
 ## Syntax
 
- _expression_. `BlackWhiteMode`
+_expression_.**BlackWhiteMode**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

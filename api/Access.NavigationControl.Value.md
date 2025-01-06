@@ -3,12 +3,11 @@ title: NavigationControl.Value property (Access)
 keywords: vbaac10.chm11039
 f1_keywords:
 - vbaac10.chm11039
-ms.prod: access
 api_name:
 - Access.NavigationControl.Value
 ms.assetid: 9e45f505-81d3-63e9-b0c1-7182372224ad
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

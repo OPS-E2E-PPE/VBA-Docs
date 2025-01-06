@@ -1,24 +1,23 @@
 ---
-title: Shape.MoveToSubprocess Method (Visio)
+title: Shape.MoveToSubprocess method (Visio)
 keywords: vis_sdr.chm11262210
 f1_keywords:
 - vis_sdr.chm11262210
-ms.prod: visio
 api_name:
 - Visio.Shape.MoveToSubprocess
 ms.assetid: 3688c9d5-5b28-23d7-369a-332649267ffe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.MoveToSubprocess Method (Visio)
+# Shape.MoveToSubprocess method (Visio)
 
 Moves the shape to the specified page and drops a replacement shape on the source page, and then links it to the target page. Returns the selection of moved shapes on the target page.
 
 ## Syntax
 
-_expression_. **MoveToSubprocess** (**_Page_**, **_ObjectToDrop_**, **_NewShape_**)
+_expression_.**MoveToSubprocess** (**_Page_**, **_ObjectToDrop_**, **_NewShape_**)
 
 _expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 

@@ -3,12 +3,11 @@ title: ComboBox.KeyUp event (Access)
 keywords: vbaac10.chm14226
 f1_keywords:
 - vbaac10.chm14226
-ms.prod: access
 api_name:
 - Access.ComboBox.KeyUp
 ms.assetid: ab8e8950-7ed3-7c8d-340d-fd9110a103d1
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

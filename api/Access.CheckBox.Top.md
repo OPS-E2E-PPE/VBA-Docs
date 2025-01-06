@@ -3,18 +3,17 @@ title: CheckBox.Top property (Access)
 keywords: vbaac10.chm10710
 f1_keywords:
 - vbaac10.chm10710
-ms.prod: access
 api_name:
 - Access.CheckBox.Top
 ms.assetid: 61c03e90-c5cc-c316-64dc-26293db3cf13
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

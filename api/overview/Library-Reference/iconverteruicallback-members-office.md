@@ -1,15 +1,15 @@
 ---
 title: IConverterUICallback members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: ec3f2d9a-1b1a-ebb1-f003-e725dccc440d
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterUICallback members (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Methods

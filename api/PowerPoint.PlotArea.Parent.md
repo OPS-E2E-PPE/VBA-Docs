@@ -1,24 +1,23 @@
 ---
-title: PlotArea.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: PlotArea.Parent property (PowerPoint)
 api_name:
 - PowerPoint.PlotArea.Parent
 ms.assetid: e0c10047-6fe6-1610-cb49-baf29a6ecfba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlotArea.Parent Property (PowerPoint)
+# PlotArea.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
 
 
 ## See also

@@ -3,18 +3,17 @@ title: CustomControl.BorderColor property (Access)
 keywords: vbaac10.chm12027
 f1_keywords:
 - vbaac10.chm12027
-ms.prod: access
 api_name:
 - Access.CustomControl.BorderColor
 ms.assetid: 7fcfa9d0-bb08-0bdf-81c0-5f171b487138
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

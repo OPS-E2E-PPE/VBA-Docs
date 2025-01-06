@@ -1,18 +1,17 @@
 ---
-title: OlkCheckBox Object (Outlook)
+title: OlkCheckBox object (Outlook)
 keywords: vbaol11.chm1000162
 f1_keywords:
 - vbaol11.chm1000162
-ms.prod: outlook
 api_name:
 - Outlook.OlkCheckBox
 ms.assetid: 79460205-a604-7011-a9b3-14e651807f09
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkCheckBox Object (Outlook)
+# OlkCheckBox object (Outlook)
 
 A control that supports one or more selections in a defined group of check box choices.
 
@@ -74,6 +73,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,32 +1,36 @@
 ---
-title: Presentation.Password Property (PowerPoint)
+title: Presentation.Password property (PowerPoint)
 keywords: vbapp10.chm583080
 f1_keywords:
 - vbapp10.chm583080
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.Password
 ms.assetid: 977876b7-b40f-de45-c259-e91744915085
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.Password Property (PowerPoint)
+# Presentation.Password property (PowerPoint)
 
 Returns or sets the password that must be supplied to open the specified presentation. Read/write.
 
 
 ## Syntax
 
- _expression_. `Password`
+_expression_. `Password`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
 
 String
+
+
+## Remarks
+
+If the presentation is not fully downloaded, the setting of this property fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
 
 
 ## Example
@@ -55,5 +59,7 @@ End Sub
 
 
 [Presentation Object](PowerPoint.Presentation.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

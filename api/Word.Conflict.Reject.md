@@ -3,12 +3,11 @@ title: Conflict.Reject method (Word)
 keywords: vbawd10.chm78708838
 f1_keywords:
 - vbawd10.chm78708838
-ms.prod: word
 api_name:
 - Word.Conflict.Reject
 ms.assetid: 9bd4fa93-4bae-e2a8-ef6e-b3116542cad4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Rejects the user change, removes the conflict, and accepts the server copy of th
 
 ## Syntax
 
- _expression_. `Reject`
+_expression_. `Reject`
 
  _expression_ An expression that returns a [Conflict](./Word.Conflict.md) object.
 
@@ -31,7 +30,7 @@ Nothing
 
 ## Remarks
 
-The  **Reject** method rejects the user version of a conflict and accepts the version that is currently on the server.
+The **Reject** method rejects the user version of a conflict and accepts the version that is currently on the server.
 
 
 ## Example

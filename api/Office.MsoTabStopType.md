@@ -1,19 +1,16 @@
 ---
 title: MsoTabStopType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoTabStopType
 ms.assetid: 9ad9c52a-c07b-5506-4ce6-88197c15df0d
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoTabStopType enumeration (Office)
 
 Specifies the type of tab stop.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

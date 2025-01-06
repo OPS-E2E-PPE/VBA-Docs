@@ -3,12 +3,11 @@ title: WebPageFonts.Item property (Office)
 keywords: vbaof11.chm225002
 f1_keywords:
 - vbaof11.chm225002
-ms.prod: office
 api_name:
 - Office.WebPageFonts.Item
 ms.assetid: 2f7f1286-749e-3598-8091-16c896bc4842
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

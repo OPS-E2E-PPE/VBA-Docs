@@ -1,27 +1,26 @@
 ---
-title: ContactItem.Title Property (Outlook)
+title: ContactItem.Title property (Outlook)
 keywords: vbaol11.chm1068
 f1_keywords:
 - vbaol11.chm1068
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Title
 ms.assetid: 3dd64517-ccb1-fed3-4f90-c407fc09d5e4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Title Property (Outlook)
+# ContactItem.Title property (Outlook)
 
-Returns or sets a  **String** indicating the title for the contact. Read/write.
+Returns or sets a **String** indicating the title for the contact. Read/write.
 
 
 ## Syntax
 
-_expression_. `Title`
+_expression_.**Title**
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## See also

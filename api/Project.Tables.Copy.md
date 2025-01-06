@@ -1,27 +1,27 @@
 ---
-title: Tables.Copy Method (Project)
+title: Tables.Copy method (Project)
 keywords: vbapj.chm132701
 f1_keywords:
 - vbapj.chm132701
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Tables.Copy
 ms.assetid: dfc2f25b-e60c-ef25-9e7c-2808ce76a4ba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tables.Copy Method (Project)
+# Tables.Copy method (Project)
 
-Makes a copy of a group definition for the  **Tables** collection and returns a reference to the **[Table](Project.Table.md)** object.
+Makes a copy of a group definition for the **Tables** collection and returns a reference to the **[Table](Project.Table.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Source_`, `_NewName_` )
+_expression_.**Copy** (_Source_, _NewName_)
 
- _expression_ A variable that represents a 'Tables' object.
+_expression_ A variable that represents a 'Tables' object.
 
 
 ## Parameters

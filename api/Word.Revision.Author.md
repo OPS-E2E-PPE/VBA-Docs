@@ -3,25 +3,24 @@ title: Revision.Author property (Word)
 keywords: vbawd10.chm159449089
 f1_keywords:
 - vbawd10.chm159449089
-ms.prod: word
 api_name:
 - Word.Revision.Author
 ms.assetid: c56d13d8-e95e-06b7-be83-2df98dbb979c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Revision.Author property (Word)
 
-Returns the name of the user who made the specified tracked change. Read-only  **String**.
+Returns the name of the user who made the specified tracked change. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Author`
+_expression_. `Author`
 
- _expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
+_expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
 
 
 ## Example

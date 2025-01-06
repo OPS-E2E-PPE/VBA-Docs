@@ -3,10 +3,9 @@ title: Invalid use of object
 keywords: vblr6.chm1011117
 f1_keywords:
 - vblr6.chm1011117
-ms.prod: office
 ms.assetid: 63d3d9ba-3521-af29-9484-7c8aa6e65364
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ You tried to use an object in an incorrect way. This error has the following cau
     MyObject = Nothing 
   ```
 
-  Use the **Set** statement to set an object to **Nothing**. Assuming `MyObject` is an object, you must set it to **Nothing** with the **Set** statement:
+  Use the **Set** statement to set an object to **Nothing**. Assuming _MyObject_ is an object, you must set it to **Nothing** with the **Set** statement:
     
   ```vb
     Set MyObject = Nothing 

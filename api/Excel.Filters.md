@@ -3,24 +3,22 @@ title: Filters object (Excel)
 keywords: vbaxl10.chm539072
 f1_keywords:
 - vbaxl10.chm539072
-ms.prod: excel
 api_name:
 - Excel.Filters
 ms.assetid: a714ed69-7772-5ade-3acd-f3e3d98db62c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/29/2019
+ms.localizationpriority: medium
 ---
 
 
 # Filters object (Excel)
 
-A collection of  **[Filter](Excel.Filter.md)** objects that represents all the filters in an autofiltered range.
+A collection of **[Filter](Excel.Filter.md)** objects that represents all the filters in an autofiltered range.
 
 
 ## Example
 
-Use the  **[Filters](Excel.AutoFilter.Filters.md)** property to return the **Filters** collection. The following example creates a list that contains the criteria and operators for the filters in the autofiltered range on the Crew worksheet.
-
+Use the **[Filters](Excel.AutoFilter.Filters.md)** property of the **AutoFilter** object to return the **Filters** collection. The following example creates a list that contains the criteria and operators for the filters in the autofiltered range on the Crew worksheet.
 
 ```vb
 Dim f As Filter 
@@ -52,10 +50,7 @@ For Each f In w.AutoFilter.Filters
 Next
 ```
 
-Use  **Filters** ( _index_ ), where _index_ is the filter title or index number, to return a single **Filter** object. The following example sets a variable to the value of the **On** property of the filter for the first column in the filtered range on the Crew worksheet.
-
-
-
+Use **Filters** (_index_), where _index_ is the filter title or index number, to return a single **Filter** object. The following example sets a variable to the value of the **On** property of the filter for the first column in the filtered range on the Crew worksheet.
 
 ```vb
 Set w = Worksheets("Crew") 
@@ -67,19 +62,15 @@ End If
 
 ## Properties
 
+- [Application](Excel.Filters.Application.md)
+- [Count](Excel.Filters.Count.md)
+- [Creator](Excel.Filters.Creator.md)
+- [Item](Excel.Filters.Item.md)
+- [Parent](Excel.Filters.Parent.md)
 
-
-|Name|
-|:-----|
-|[Application](Excel.Filters.Application.md)|
-|[Count](Excel.Filters.Count.md)|
-|[Creator](Excel.Filters.Creator.md)|
-|[Item](Excel.Filters.Item.md)|
-|[Parent](Excel.Filters.Parent.md)|
 
 ## See also
 
-
-[Excel Object Model Reference](overview/Excel/object-model.md)
+- [Excel Object Model Reference](overview/Excel/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

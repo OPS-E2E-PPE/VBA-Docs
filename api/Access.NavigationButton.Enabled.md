@@ -3,18 +3,17 @@ title: NavigationButton.Enabled property (Access)
 keywords: vbaac10.chm10464
 f1_keywords:
 - vbaac10.chm10464
-ms.prod: access
 api_name:
 - Access.NavigationButton.Enabled
 ms.assetid: 00390d23-3088-8f92-db02-902c23ef207c
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

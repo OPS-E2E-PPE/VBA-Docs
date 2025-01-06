@@ -1,9 +1,9 @@
 ---
 title: DocumentProperty members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 568da0ff-fa90-150a-06ec-611de886334e
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

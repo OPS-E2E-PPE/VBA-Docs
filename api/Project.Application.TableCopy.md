@@ -1,27 +1,27 @@
 ---
-title: Application.TableCopy Method (Project)
+title: Application.TableCopy method (Project)
 keywords: vbapj.chm400
 f1_keywords:
 - vbapj.chm400
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TableCopy
 ms.assetid: 90e0a546-2802-5ba7-6b49-086b32051451
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TableCopy Method (Project)
+# Application.TableCopy method (Project)
 
-Makes a copy of the active table, adds it to the  **Tables** drop-down menu, and sets the view to use the new table.
+Makes a copy of the active table, adds it to the **Tables** drop-down menu, and sets the view to use the new table.
 
 
 ## Syntax
 
- _expression_. `TableCopy`( `_Name_` )
+_expression_. `TableCopy`( `_Name_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,12 +39,13 @@ Makes a copy of the active table, adds it to the  **Tables** drop-down menu, and
 
 ## Remarks
 
-The  **Tables** drop-down menu is on the **View** tab on the ribbon. If you run the **TableCopy** method without specifying the _Name_ argument, Project displays the **Save Table** dialog box.
+The **Tables** drop-down menu is on the **View** tab on the ribbon. If you run the **TableCopy** method without specifying the _Name_ argument, Project displays the **Save Table** dialog box.
 
 
- **Note**  The  **TableCopy** action is not stored in the **Undo** list.
+> [!NOTE] 
+> The **TableCopy** action is not stored in the **Undo** list.
 
-For detailed control of table features when making a copy, see the  **[TableEditEx](Project.Application.TableEditEx.md)** method.
+For detailed control of table features when making a copy, see the **[TableEditEx](Project.Application.TableEditEx.md)** method.
 
 
 ## Example

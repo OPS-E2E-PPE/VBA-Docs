@@ -3,25 +3,24 @@ title: DropCap.DistanceFromText property (Word)
 keywords: vbawd10.chm156631053
 f1_keywords:
 - vbawd10.chm156631053
-ms.prod: word
 api_name:
 - Word.DropCap.DistanceFromText
 ms.assetid: 8b86b00c-fc38-6fb3-8877-cba1eec814d7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DropCap.DistanceFromText property (Word)
 
-Returns or sets a  **Single** that represents the distance (in points) between the dropped capital letter and the paragraph text. Read/write.
+Returns or sets a **Single** that represents the distance (in points) between the dropped capital letter and the paragraph text. Read/write.
 
 
 ## Syntax
 
- _expression_. `DistanceFromText`
+_expression_. `DistanceFromText`
 
- _expression_ A variable that represents a '[DropCap](Word.DropCap.md)' object.
+_expression_ A variable that represents a '[DropCap](Word.DropCap.md)' object.
 
 
 ## Example

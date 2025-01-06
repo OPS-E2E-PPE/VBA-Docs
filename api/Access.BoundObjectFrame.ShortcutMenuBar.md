@@ -3,18 +3,17 @@ title: BoundObjectFrame.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10939
 f1_keywords:
 - vbaac10.chm10939
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.ShortcutMenuBar
 ms.assetid: 05f24e86-b02b-c55a-de10-0a6896ffefe0
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

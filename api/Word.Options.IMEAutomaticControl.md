@@ -3,12 +3,11 @@ title: Options.IMEAutomaticControl property (Word)
 keywords: vbawd10.chm162988119
 f1_keywords:
 - vbawd10.chm162988119
-ms.prod: word
 api_name:
 - Word.Options.IMEAutomaticControl
 ms.assetid: 149a6ac6-e1f6-362d-8df9-05a2f159b1b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IMEAutomaticControl`
+_expression_. `IMEAutomaticControl`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: Options.PrintDrawingObjects property (Word)
 keywords: vbawd10.chm162988070
 f1_keywords:
 - vbawd10.chm162988070
-ms.prod: word
 api_name:
 - Word.Options.PrintDrawingObjects
 ms.assetid: 366ddc26-1cb0-fe48-8d54-ff9d5d3492b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintDrawingObjects`
+_expression_. `PrintDrawingObjects`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.PrintDrawingObjects = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Drawing objects** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Drawing objects** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

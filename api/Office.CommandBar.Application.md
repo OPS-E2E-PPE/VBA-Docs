@@ -1,11 +1,10 @@
 ---
 title: CommandBar.Application property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBar.Application
 ms.assetid: afe6da31-95af-1a41-4ce7-f5b0c4d65ad7
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

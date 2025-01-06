@@ -3,18 +3,17 @@ title: CustomControl.OldValue property (Access)
 keywords: vbaac10.chm11997
 f1_keywords:
 - vbaac10.chm11997
-ms.prod: access
 api_name:
 - Access.CustomControl.OldValue
 ms.assetid: 76a696b3-1ffc-d909-e22e-51eb4fc5347f
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

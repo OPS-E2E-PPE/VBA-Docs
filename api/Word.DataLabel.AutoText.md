@@ -3,12 +3,11 @@ title: DataLabel.AutoText property (Word)
 keywords: vbawd10.chm233898119
 f1_keywords:
 - vbawd10.chm233898119
-ms.prod: word
 api_name:
 - Word.DataLabel.AutoText
 ms.assetid: de19c6ef-38a2-0555-49e9-a63b4adb3f72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoText`
+_expression_.**AutoText**
 
- _expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
+_expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
 
 
 ## Example

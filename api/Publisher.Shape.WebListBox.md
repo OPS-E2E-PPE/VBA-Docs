@@ -1,27 +1,26 @@
 ---
-title: Shape.WebListBox Property (Publisher)
+title: Shape.WebListBox property (Publisher)
 keywords: vbapb10.chm2228341
 f1_keywords:
 - vbapb10.chm2228341
-ms.prod: publisher
 api_name:
 - Publisher.Shape.WebListBox
 ms.assetid: c100dfc7-6fbd-db48-4de9-4a9a49739a8f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.WebListBox Property (Publisher)
+# Shape.WebListBox property (Publisher)
 
-Returns the  **[WebListBox](Publisher.WebListBox.md)** object associated with the specified shape.
+Returns the **[WebListBox](Publisher.WebListBox.md)** object associated with the specified shape.
 
 
 ## Syntax
 
- _expression_. **WebListBox**
+_expression_.**WebListBox**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ WebListBox
 
 ## Example
 
-This example creates a new Web list box and adds several items to it. Note that when initially created, a Web list box control contains three default items. This example includes a loop that deletes the default list box items before adding new items.
-
+This example creates a new web list box and adds several items to it. Note that when initially created, a web list box control contains three default items. This example includes a loop that deletes the default list box items before adding new items.
 
 ```vb
 Dim shpNew As Shape 

@@ -3,25 +3,24 @@ title: Axis.CategoryType property (Word)
 keywords: vbawd10.chm113049665
 f1_keywords:
 - vbawd10.chm113049665
-ms.prod: word
 api_name:
 - Word.Axis.CategoryType
 ms.assetid: 891a0cce-f5cb-6a8a-6216-fa6aaa1adac9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.CategoryType property (Word)
 
-Returns or sets the category axis type. Read/write  **[xlCategoryType](Word.xlcategorytype.md)**.
+Returns or sets the category axis type. Read/write **[XlCategoryType](Word.xlcategorytype.md)**.
 
 
 ## Syntax
 
- _expression_. `CategoryType`
+_expression_.**CategoryType**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
@@ -46,9 +45,6 @@ End With
 ```
 
 
-## See also
 
-
-[Axis Object](Word.Axis.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

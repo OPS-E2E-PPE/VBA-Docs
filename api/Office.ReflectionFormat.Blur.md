@@ -1,11 +1,10 @@
 ---
 title: ReflectionFormat.Blur property (Office)
-ms.prod: office
 api_name:
 - Office.ReflectionFormat.Blur
 ms.assetid: f6a91974-6809-a01a-23fa-c8dcda243572
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

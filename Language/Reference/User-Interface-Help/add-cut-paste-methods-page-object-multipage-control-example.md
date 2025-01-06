@@ -3,10 +3,9 @@ title: Add, Cut, Paste methods, Page object, MultiPage control example
 keywords: fm20.chm5225155
 f1_keywords:
 - fm20.chm5225155
-ms.prod: office
 ms.assetid: 938475c8-b6cb-88b0-379d-398f52e5c51d
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

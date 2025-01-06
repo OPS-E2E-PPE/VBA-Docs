@@ -1,15 +1,15 @@
 ---
-title: PjThemeElement Enumeration (Project)
-ms.prod: project-server
+title: PjThemeElement enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjThemeElement
 ms.assetid: 68a138b0-2af6-5919-69ad-3e0c71e885d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjThemeElement Enumeration (Project)
+# PjThemeElement enumeration (Project)
 
 Contains constants that specify the theme element in Project Guide pages.
 

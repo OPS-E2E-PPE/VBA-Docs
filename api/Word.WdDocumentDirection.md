@@ -1,11 +1,10 @@
 ---
 title: WdDocumentDirection enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdDocumentDirection
 ms.assetid: ce3aa3fd-93af-791e-99f1-08b39cd21fae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

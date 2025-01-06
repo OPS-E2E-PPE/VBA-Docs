@@ -3,12 +3,11 @@ title: NavigationButton.HoverForeTint property (Access)
 keywords: vbaac10.chm14617
 f1_keywords:
 - vbaac10.chm14617
-ms.prod: access
 api_name:
 - Access.NavigationButton.HoverForeTint
 ms.assetid: 3d609fbc-0828-0607-5b14-e952bd321759
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

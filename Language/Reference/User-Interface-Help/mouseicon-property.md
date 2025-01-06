@@ -3,12 +3,11 @@ title: MouseIcon property
 keywords: fm20.chm2001540
 f1_keywords:
 - fm20.chm2001540
-ms.prod: office
 api_name:
 - Office.MouseIcon
 ms.assetid: b5834d6d-76ad-73e6-b55d-0ab4caa643ef
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

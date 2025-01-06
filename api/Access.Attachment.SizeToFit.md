@@ -3,18 +3,17 @@ title: Attachment.SizeToFit method (Access)
 keywords: vbaac10.chm13907
 f1_keywords:
 - vbaac10.chm13907
-ms.prod: access
 api_name:
 - Access.Attachment.SizeToFit
 ms.assetid: 9e9b8a65-79ba-9fda-08d8-9b5444678228
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.SizeToFit method (Access)
 
-You can use the **SizeToFit** method to size a control so that it fits the text or image that it contains.
+Use the **SizeToFit** method to size a control so that it fits the text or image that it contains.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ You can apply the **SizeToFit** method to controls only in form Design view or r
 
 The **SizeToFit** method makes a control larger or smaller, depending on the size of the text or image that it contains.
 
-You can use the **SizeToFit** method in conjunction with the **[CreateControl](Access.Application.CreateControl.md)** method to size new controls that you have created in code.
+Use the **SizeToFit** method in conjunction with the **[CreateControl](Access.Application.CreateControl.md)** method to size new controls that you have created in code.
 
 
 

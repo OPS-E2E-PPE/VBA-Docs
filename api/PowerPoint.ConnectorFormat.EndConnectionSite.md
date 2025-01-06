@@ -1,27 +1,26 @@
 ---
-title: ConnectorFormat.EndConnectionSite Property (PowerPoint)
+title: ConnectorFormat.EndConnectionSite property (PowerPoint)
 keywords: vbapp10.chm555011
 f1_keywords:
 - vbapp10.chm555011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ConnectorFormat.EndConnectionSite
 ms.assetid: fa65a404-573a-939b-6e2c-d54e4de5c1f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConnectorFormat.EndConnectionSite Property (PowerPoint)
+# ConnectorFormat.EndConnectionSite property (PowerPoint)
 
 Returns an integer that specifies the connection site that the end of a connector is connected to. Read-only. 
 
 
 ## Syntax
 
- _expression_. `EndConnectionSite`
+_expression_. `EndConnectionSite`
 
-_expression_ A variable that represents an [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
+_expression_ A variable that represents an [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
 ## Return value

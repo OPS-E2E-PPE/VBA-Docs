@@ -3,12 +3,11 @@ title: Shape.Child property (Word)
 keywords: vbawd10.chm161480840
 f1_keywords:
 - vbawd10.chm161480840
-ms.prod: word
 api_name:
 - Word.Shape.Child
 ms.assetid: 86102bd1-3df1-384e-589b-c37ba07b4afe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Child`
+_expression_.**Child**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example selects the first shape in the canvas and, if the selected shape is a child shape, fills the shape with the specified color. This example assumes that the first shape in the active document is a drawing canvas that contains multiple shapes.
+This example selects the first shape in the canvas, and if the selected shape is a child shape, fills the shape with the specified color. This example assumes that the first shape in the active document is a drawing canvas that contains multiple shapes.
 
 
 ```vb

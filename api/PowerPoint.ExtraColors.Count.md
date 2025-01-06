@@ -1,24 +1,23 @@
 ---
-title: ExtraColors.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: ExtraColors.Count property (PowerPoint)
 api_name:
 - PowerPoint.ExtraColors.Count
 ms.assetid: a3e5efcd-498f-3c29-2577-25cdc7206a7b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ExtraColors.Count Property (PowerPoint)
+# ExtraColors.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents an [ExtraColors](./PowerPoint.ExtraColors.md) object.
+_expression_ A variable that represents an [ExtraColors](PowerPoint.ExtraColors.md) object.
 
 
 ## Return value

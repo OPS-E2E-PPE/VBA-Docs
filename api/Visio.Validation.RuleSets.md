@@ -1,27 +1,26 @@
 ---
-title: Validation.RuleSets Property (Visio)
+title: Validation.RuleSets property (Visio)
 keywords: vis_sdr.chm18062715
 f1_keywords:
 - vis_sdr.chm18062715
-ms.prod: visio
 api_name:
 - Visio.Validation.RuleSets
 ms.assetid: cb75f7e0-f92c-86a9-3aee-21e1b0a4b16a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Validation.RuleSets Property (Visio)
+# Validation.RuleSets property (Visio)
 
 Returns the collection of all the validation rule sets in the document. Read-only.
 
 
 ## Syntax
 
- _expression_. `RuleSets`
+_expression_. `RuleSets`
 
- _expression_ A variable that represents a '[Validation](Visio.Validation.md)' object.
+_expression_ A variable that represents a **[Validation](Visio.Validation.md)** object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Returns the collection of all the validation rule sets in the document. Read-onl
 
 The following sample code is based on code provided by: [David Parker](https://www.bvisual.net)
 
-The following Visual Basic for Applications (VBA) example shows how to use the  **RuleSets** property to get the names of all the validation rule sets in the active document and print those names in the **Immediate** window.
+The following Visual Basic for Applications (VBA) example shows how to use the **RuleSets** property to get the names of all the validation rule sets in the active document and print those names in the Immediate window.
 
 
 

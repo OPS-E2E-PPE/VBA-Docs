@@ -3,12 +3,11 @@ title: Scroll method (Microsoft Forms)
 keywords: fm20.chm2000390
 f1_keywords:
 - fm20.chm2000390
-ms.prod: office
 api_name:
 - Office.Scroll
 ms.assetid: dbbfcf37-c511-3112-55f6-b2e8ca055db3
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,18 +1,17 @@
 ---
-title: Explorer.FolderSwitch Event (Outlook)
+title: Explorer.FolderSwitch event (Outlook)
 keywords: vbaol11.chm450
 f1_keywords:
 - vbaol11.chm450
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.FolderSwitch
 ms.assetid: 5dfa1fa3-c381-8e19-0528-d70a6fd63187
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.FolderSwitch Event (Outlook)
+# Explorer.FolderSwitch event (Outlook)
 
 Occurs when the explorer goes to a new folder, either as a result of user action or through program code. 
 
@@ -21,7 +20,7 @@ Occurs when the explorer goes to a new folder, either as a result of user action
 
 _expression_. `FolderSwitch`
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the  **Inbox** folder in "Messages" view whenever the user switches to the **Inbox** folder. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example displays the **Inbox** folder in "Messages" view whenever the user switches to the **Inbox** folder. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

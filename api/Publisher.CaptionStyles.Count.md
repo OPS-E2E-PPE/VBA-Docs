@@ -1,23 +1,22 @@
 ---
-title: CaptionStyles.Count Property (Publisher)
-ms.prod: publisher
+title: CaptionStyles.Count property (Publisher)
 api_name:
 - Publisher.CaptionStyles.Count
 ms.assetid: c666dcd3-deb6-e7e4-df5e-8fea83af45b4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# CaptionStyles.Count Property (Publisher)
+# CaptionStyles.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection. Read-only.
+Returns a **Long** that represents the number of items in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **CaptionStyles** object.
+_expression_ A variable that represents a **[CaptionStyles](Publisher.CaptionStyles.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

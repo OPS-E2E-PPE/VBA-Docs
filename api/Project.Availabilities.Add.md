@@ -1,24 +1,24 @@
 ---
-title: Availabilities.Add Method (Project)
-ms.prod: project-server
+title: Availabilities.Add method (Project)
+ms.service: project-server
 api_name:
 - Project.Availabilities.Add
 ms.assetid: 4506674e-947b-905b-93bd-73a58281d676
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Availabilities.Add Method (Project)
+# Availabilities.Add method (Project)
 
-Adds an  **Availability** object to an **Availabilities** collection.
+Adds an **Availability** object to an **Availabilities** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_AvailableFrom_`, `_AvailableTo_`, `_AvailableUnit_` )
+_expression_.**Add** (_AvailableFrom_, _AvailableTo_, _AvailableUnit_)
 
- _expression_ A variable that represents an 'Availabilities' object.
+_expression_ A variable that represents an 'Availabilities' object.
 
 
 ## Parameters

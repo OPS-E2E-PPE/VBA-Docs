@@ -1,18 +1,17 @@
 ---
-title: OlTaskOwnership Enumeration (Outlook)
+title: OlTaskOwnership enumeration (Outlook)
 keywords: vbaol11.chm3084
 f1_keywords:
 - vbaol11.chm3084
-ms.prod: outlook
 api_name:
 - Outlook.OlTaskOwnership
 ms.assetid: 1b3f1b21-e928-4cc2-e6ae-81cf9db688ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlTaskOwnership Enumeration (Outlook)
+# OlTaskOwnership enumeration (Outlook)
 
 Indicates the ownership state of the task.
 
@@ -26,6 +25,6 @@ Indicates the ownership state of the task.
 
 ## Remarks
 
-Used by the [TaskItem.Ownership Property (Outlook)](Outlook.TaskItem.Ownership.md).
+Used by the [TaskItem.Ownership property (Outlook)](Outlook.TaskItem.Ownership.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

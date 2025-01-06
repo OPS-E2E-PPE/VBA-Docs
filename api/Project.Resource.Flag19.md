@@ -1,29 +1,29 @@
 ---
-title: Resource.Flag19 Property (Project)
-ms.prod: project-server
+title: Resource.Flag19 property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Flag19
 ms.assetid: f28cabc4-eb6f-e503-5975-5ee92b1c1534
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Flag19 Property (Project)
+# Resource.Flag19 property (Project)
 
  **True** if the flag associated with a **Resource** is set. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag19`
+_expression_. `Flag19`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

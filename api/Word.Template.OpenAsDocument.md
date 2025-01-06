@@ -3,25 +3,24 @@ title: Template.OpenAsDocument method (Word)
 keywords: vbawd10.chm157941860
 f1_keywords:
 - vbawd10.chm157941860
-ms.prod: word
 api_name:
 - Word.Template.OpenAsDocument
 ms.assetid: 3e73bddd-a5af-5c58-cd66-3271271633dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Template.OpenAsDocument method (Word)
 
-Opens the specified template as a document and returns a  **Document** object.
+Opens the specified template as a document and returns a **Document** object.
 
 
 ## Syntax
 
- _expression_. `OpenAsDocument`
+_expression_. `OpenAsDocument`
 
- _expression_ Required. A variable that represents a '[Template](Word.Template.md)' object.
+_expression_ Required. A variable that represents a '[Template](Word.Template.md)' object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Document
 
 ## Remarks
 
-Opening a template as a document allows the user to edit the contents of the template. This may be necessary if a property or method (the  **Styles** property, for example) isn't available from the **Template** object.
+Opening a template as a document allows the user to edit the contents of the template. This may be necessary if a property or method (the **Styles** property, for example) isn't available from the **Template** object.
 
 
 ## Example
@@ -68,7 +67,7 @@ With docNew
 End With
 ```
 
-This example changes the formatting of the Heading 1 style in the template attached to the active document. The  **UpdateStyles** method updates the styles in the active document.
+This example changes the formatting of the Heading 1 style in the template attached to the active document. The **UpdateStyles** method updates the styles in the active document.
 
 
 

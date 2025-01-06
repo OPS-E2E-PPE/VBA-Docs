@@ -3,10 +3,9 @@ title: User-defined data type (VBA)
 keywords: vblr6.chm1009052
 f1_keywords:
 - vblr6.chm1009052
-ms.prod: office
 ms.assetid: 89ef52c6-f928-d43e-ef5d-8b6b3b5a3bce
 ms.date: 11/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

@@ -3,10 +3,9 @@ title: No Help available
 keywords: vblr6.chm1107952
 f1_keywords:
 - vblr6.chm1107952
-ms.prod: office
 ms.assetid: cb82e56c-878b-e1c5-afe8-db1f78a1e32b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

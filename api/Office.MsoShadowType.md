@@ -1,19 +1,16 @@
 ---
 title: MsoShadowType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoShadowType
 ms.assetid: 736e847a-00a1-098c-25a1-15faf8acfad7
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoShadowType enumeration (Office)
 
 Specifies the type of shadow displayed with a shape.The **msoShadowType** constants are numbered according to their order (left to right, top to bottom) within the **Shadow Style** set shown in the **Drawing** toolbar.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

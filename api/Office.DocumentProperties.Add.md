@@ -3,12 +3,11 @@ title: DocumentProperties.Add method (Office)
 keywords: vbaof11.chm250014
 f1_keywords:
 - vbaof11.chm250014
-ms.prod: office
 api_name:
 - Office.DocumentProperties.Add
 ms.assetid: 80738562-8b0b-33f1-3dfa-0d66b1844ef7
 ms.date: 01/08/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -33,8 +32,6 @@ _expression_ Required. A variable that represents a **[DocumentProperties](Offic
 | _Type_|Optional|**Variant**|The data type of the **[Type](office.documentproperty.type.md)** property. Can be one of the following **[MsoDocProperties](office.msodocproperties.md)** constants: **msoPropertyTypeBoolean**, **msoPropertyTypeDate**, **msoPropertyTypeFloat**, **msoPropertyTypeNumber**, or **msoPropertyTypeString**.|
 | _Value_|Optional|**Variant**|The data value of the **[Value](office.documentproperty.value.md)** property, if it's not linked to the contents of the container document. The value is converted to match the data type specified by the _Type_ argument, and if it can't be converted, an error occurs. If _LinkToContent_ is **True**, the argument is ignored, and the new document property is assigned a default value until the linked property values are updated by the container application (usually when the document is saved).|
 | _LinkSource_|Optional|**Variant**|Ignored if _LinkToContent_ is **False**. The source of the **[LinkSource](office.documentproperty.linksource.md)** property. The container application determines what types of source linking you can use. For example, DDE links use the "Server\|Document!Item" syntax.|
-
-<br/>
 
 ## Remarks
 

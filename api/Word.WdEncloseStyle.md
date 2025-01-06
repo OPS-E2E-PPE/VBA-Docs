@@ -1,11 +1,10 @@
 ---
 title: WdEncloseStyle enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdEncloseStyle
 ms.assetid: 24c065a5-a70f-b35e-9787-e5e6b4eeb313
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,33 +1,31 @@
 ---
-title: MailMergeFilters.Count Property (Publisher)
+title: MailMergeFilters.Count property (Publisher)
 keywords: vbapb10.chm6750209
 f1_keywords:
 - vbapb10.chm6750209
-ms.prod: publisher
 api_name:
 - Publisher.MailMergeFilters.Count
 ms.assetid: 6ed658be-d3d0-ae5c-548d-ea724c9a8434
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# MailMergeFilters.Count Property (Publisher)
+# MailMergeFilters.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **MailMergeFilters** object.
+_expression_ A variable that represents a **[MailMergeFilters](Publisher.MailMergeFilters.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

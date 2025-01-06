@@ -1,43 +1,42 @@
 ---
-title: ChartTitle.HorizontalAlignment Property (PowerPoint)
+title: ChartTitle.HorizontalAlignment property (PowerPoint)
 keywords: vbapp10.chm694004
 f1_keywords:
 - vbapp10.chm694004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartTitle.HorizontalAlignment
 ms.assetid: 6af12eec-7f4b-97db-aeb0-6871fa0cc607
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartTitle.HorizontalAlignment Property (PowerPoint)
+# ChartTitle.HorizontalAlignment property (PowerPoint)
 
-Returns or sets the horizontal alignment for the specified object. Read/write  **Variant**.
+Returns or sets the horizontal alignment for the specified object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `HorizontalAlignment`
+_expression_.**HorizontalAlignment**
 
 _expression_ A variable that represents a '[ChartTitle](PowerPoint.ChartTitle.md)' object.
 
 
 ## Remarks
 
-You can set the value of this property to one of the following  **[xlConstants](PowerPoint.XlConstants.md)** constants:
+You can set the value of this property to one of the following **[XlConstants](PowerPoint.XlConstants.md)** constants:
 
 
--  **xlCenter**
+- **xlCenter**
     
--  **xlDistributed**
+- **xlDistributed**
     
--  **xlJustify**
+- **xlJustify**
     
--  **xlLeft**
+- **xlLeft**
     
--  **xlRight**
+- **xlRight**
     
 
 

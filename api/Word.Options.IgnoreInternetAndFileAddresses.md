@@ -3,12 +3,11 @@ title: Options.IgnoreInternetAndFileAddresses property (Word)
 keywords: vbawd10.chm162988310
 f1_keywords:
 - vbawd10.chm162988310
-ms.prod: word
 api_name:
 - Word.Options.IgnoreInternetAndFileAddresses
 ms.assetid: 30894aec-958d-b39c-3ef6-a251837f6bbc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IgnoreInternetAndFileAddresses`
+_expression_. `IgnoreInternetAndFileAddresses`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.IgnoreInternetAndFileAddresses = True
 ActiveDocument.CheckSpelling
 ```
 
-This example returns the current status of the  **Ignore Internet and file addresses** option on the **Spelling & Grammar** tab in the **Options** dialog box.
+This example returns the current status of the **Ignore Internet and file addresses** option on the **Spelling & Grammar** tab in the **Options** dialog box.
 
 
 

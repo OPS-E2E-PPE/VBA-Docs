@@ -1,24 +1,24 @@
 ---
-title: Project.Change Event (Project)
-ms.prod: project-server
+title: Project.Change event (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Change
 ms.assetid: ef109b59-c7be-0707-9716-13c86180c27c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Change Event (Project)
+# Project.Change event (Project)
 
 Occurs when a change is made to data in the project. An action affecting several items at once is considered to be one change.
 
 
 ## Syntax
 
- _expression_. `Change`( `_pj_` )
+_expression_. `Change`( `_pj_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -31,22 +31,22 @@ Occurs when a change is made to data in the project. An action affecting several
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-The  **Change** event does not occur for actions such as switching views, applying filters, changing formatting, and so on.
+The **Change** event does not occur for actions such as switching views, applying filters, changing formatting, and so on.
 
-Project events do not occur when the project is embedded in another document or application. 
+Project events don't occur when the project is embedded in another document or application. 
 
 
 ## Example
 
- The following example shows how the **ProjectTaskNew** event can trap project-level events. In this case, the **App_ProjectTaskNew** event handler sets the global **ProjTaskNew** variable that the **Change** event handler uses. You can use similar code with the **[ProjectResourceNew](Project.Application.ProjectResourceNew.md)** and **[ProjectAssignmentNew](Project.Application.ProjectAssignmentNew.md)** events.
+ The following example shows how the **ProjectTaskNew** event can trap project-level events. In this case, the **App_ProjectTaskNew** event handler sets the global **ProjTaskNew** variable that the **Change** event handler uses. Use similar code with the **[ProjectResourceNew](Project.Application.ProjectResourceNew.md)** and **[ProjectAssignmentNew](Project.Application.ProjectAssignmentNew.md)** events.
 
 
-1. Create a new class module named  **EventClassModule**, and then insert the following code:
+1. Create a new class module named **EventClassModule**, and then insert the following code:
     
   ```vb
   Option Explicit 
@@ -108,7 +108,7 @@ End Sub
 
     
     
-3. Run the  **Initialize_App** procedure to start listening to the events.
+3. Run the **Initialize_App** procedure to start listening to the events.
     
 4. Create a new task. The event handler shows a message box every time a new task is added.
 

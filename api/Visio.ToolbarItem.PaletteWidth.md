@@ -1,27 +1,28 @@
 ---
-title: ToolbarItem.PaletteWidth Property (Visio)
+title: ToolbarItem.PaletteWidth property (Visio)
 keywords: vis_sdr.chm13514010
 f1_keywords:
 - vis_sdr.chm13514010
-ms.prod: visio
 api_name:
 - Visio.ToolbarItem.PaletteWidth
 ms.assetid: bb3356d9-bfa3-c2e5-129f-70c0b225add6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ToolbarItem.PaletteWidth Property (Visio)
+# ToolbarItem.PaletteWidth property (Visio)
 
 Gets or sets the width of a palette in pixels. Read/write.
 
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 ## Syntax
 
- _expression_. `PaletteWidth`
+_expression_. `PaletteWidth`
 
- _expression_ A variable that represents a [ToolbarItem](./Visio.ToolbarItem.md) object.
+_expression_ A variable that represents a **[ToolbarItem](Visio.ToolbarItem.md)** object.
 
 
 ## Return value
@@ -31,20 +32,14 @@ Integer
 
 ## Remarks
 
-
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
-
 A palette, like a toolbar, is organized horizontally, and items wrap to a new row if there is not enough horizontal space available. By default, only the icons of the items are shown.
 
 
 ## Example
 
-This example shows how to use the  **PaletteWidth** property to set the width of a palette on a custom toolbar. The example adds a custom toolbar to the **Toolbars** collection and then adds a button to the toolbar. The toolbar appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **PaletteWidth** property to set the width of a palette on a custom toolbar. The example adds a custom toolbar to the **Toolbars** collection and then adds a button to the toolbar. The toolbar appears in the Microsoft Visio user interface and is available while the document is active.
 
-To restore the built-in toolbars in Visio after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
-
-
-
+To restore the built-in toolbars in Visio after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 ```vb
  

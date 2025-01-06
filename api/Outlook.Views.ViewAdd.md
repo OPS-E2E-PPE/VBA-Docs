@@ -1,27 +1,26 @@
 ---
-title: Views.ViewAdd Event (Outlook)
+title: Views.ViewAdd event (Outlook)
 keywords: vbaol11.chm551
 f1_keywords:
 - vbaol11.chm551
-ms.prod: outlook
 api_name:
 - Outlook.Views.ViewAdd
 ms.assetid: 926eb4eb-7585-5bb0-b214-6e116a01375e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Views.ViewAdd Event (Outlook)
+# Views.ViewAdd event (Outlook)
 
 Occurs when a view is added to the collection. Microsoft Outlook creates the new view and passes it to this event.
 
 
 ## Syntax
 
- _expression_. `ViewAdd`( `_View_` )
+_expression_. `ViewAdd`( `_View_` )
 
-_expression_ A variable that represents a [Views](./Outlook.Views.md) object.
+_expression_ A variable that represents a [Views](Outlook.Views.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents a [Views](./Outlook.Views.md) object.
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the view's name and saves it when the  **ViewAdd** event is fired. Use the **[Save](Outlook.View.Save.md)** method after the properties have been modified to save the changes to the view. The sample code must be placed in a class module such as `ThisOutlookSession`, and the  `AddView()` procedure should be called before the event procedure can be called by Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example displays the view's name and saves it when the **ViewAdd** event is fired. Use the **[Save](Outlook.View.Save.md)** method after the properties have been modified to save the changes to the view. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `AddView()` procedure should be called before the event procedure can be called by Outlook.
 
 
 ```vb

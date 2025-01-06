@@ -3,12 +3,11 @@ title: Window.DisplayVerticalScrollBar property (Word)
 keywords: vbawd10.chm157417491
 f1_keywords:
 - vbawd10.chm157417491
-ms.prod: word
 api_name:
 - Word.Window.DisplayVerticalScrollBar
 ms.assetid: bac2fcd6-d9b9-e922-b4ac-c891de68f6f3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayVerticalScrollBar`
+_expression_.**DisplayVerticalScrollBar**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example

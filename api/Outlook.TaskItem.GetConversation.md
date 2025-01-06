@@ -1,20 +1,19 @@
 ---
-title: TaskItem.GetConversation Method (Outlook)
+title: TaskItem.GetConversation method (Outlook)
 keywords: vbaol11.chm3408
 f1_keywords:
 - vbaol11.chm3408
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.GetConversation
 ms.assetid: aa907c9b-b074-fb3b-5134-fd9fa65fa7b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.GetConversation Method (Outlook)
+# TaskItem.GetConversation method (Outlook)
 
-Obtains a  **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
+Obtains a **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[TaskItem](Outlook.TaskItem.md)' obje
 
 ## Return value
 
-A  **Conversation** object that represents the conversation to which this item belongs.
+A **Conversation** object that represents the conversation to which this item belongs.
 
 
 ## Remarks
@@ -40,7 +39,7 @@ A  **Conversation** object that represents the conversation to which this item b
     
 - Conversations have been disabled through the Windows registry.
     
-- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the  **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
+- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
     
 
 

@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.MediaType Property (PowerPoint)
+title: ShapeRange.MediaType property (PowerPoint)
 keywords: vbapp10.chm548054
 f1_keywords:
 - vbapp10.chm548054
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.MediaType
 ms.assetid: 4d3d321c-6af5-36ce-5bf8-363dfce1a05f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.MediaType Property (PowerPoint)
+# ShapeRange.MediaType property (PowerPoint)
 
 Returns the OLE media type. Read-only.
 
 
 ## Syntax
 
- _expression_. `MediaType`
+_expression_. `MediaType`
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpMediaType
 
 ## Remarks
 
-The value of the  **MediaType** property can be one of these **PpMediaType** constants.
+The value of the **MediaType** property can be one of these **PpMediaType** constants.
 
 
 ||

@@ -1,27 +1,26 @@
 ---
-title: SharingItem.RetentionExpirationDate Property (Outlook)
+title: SharingItem.RetentionExpirationDate property (Outlook)
 keywords: vbaol11.chm3565
 f1_keywords:
 - vbaol11.chm3565
-ms.prod: outlook
 api_name:
 - Outlook.SharingItem.RetentionExpirationDate
 ms.assetid: 29a7456d-4c2d-a418-699f-3e3984d5d0a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.RetentionExpirationDate Property (Outlook)
+# SharingItem.RetentionExpirationDate property (Outlook)
 
-Returns a  **Date** that specifies the date when the **[SharingItem](Outlook.SharingItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
+Returns a **Date** that specifies the date when the **[SharingItem](Outlook.SharingItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
 
 
 ## Syntax
 
 _expression_. `RetentionExpirationDate`
 
-_expression_ A variable that represents a [SharingItem](./Outlook.SharingItem.md) object.
+_expression_ A variable that represents a [SharingItem](Outlook.SharingItem.md) object.
 
 
 ## Remarks

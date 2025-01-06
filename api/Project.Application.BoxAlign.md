@@ -1,27 +1,27 @@
 ---
-title: Application.BoxAlign Method (Project)
+title: Application.BoxAlign method (Project)
 keywords: vbapj.chm29
 f1_keywords:
 - vbapj.chm29
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BoxAlign
 ms.assetid: 2b27c9a0-36fa-1bbd-96e3-267b95ad5407
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BoxAlign Method (Project)
+# Application.BoxAlign method (Project)
 
 Aligns the specified part of the selected boxes in the active Network Diagram view with the same part of the box that has the focus.
 
 
 ## Syntax
 
- _expression_. `BoxAlign`( `_Alignment_` )
+_expression_. `BoxAlign`( `_Alignment_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Aligns the specified part of the selected boxes in the active Network Diagram vi
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Alignment_|Required|**Long**|Specifies which side or portion of a box to use for the alignment. Can be one of the  **[PjAlign](Project.PjAlign.md)** constants.|
+| _Alignment_|Required|**Long**|Specifies which side or portion of a box to use for the alignment. Can be one of the **[PjAlign](Project.PjAlign.md)** constants.|
 
 ## Return value
 
@@ -39,6 +39,6 @@ Aligns the specified part of the selected boxes in the active Network Diagram vi
 
 ## Remarks
 
-If only one box is selected, the  **BoxAlign** method has no effect.
+If only one box is selected, the **BoxAlign** method has no effect.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

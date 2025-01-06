@@ -3,12 +3,11 @@ title: Options.PrintProperties property (Word)
 keywords: vbawd10.chm162988063
 f1_keywords:
 - vbawd10.chm162988063
-ms.prod: word
 api_name:
 - Word.Options.PrintProperties
 ms.assetid: 4abdc270-2230-6ef6-456a-a571bc5345af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintProperties`
+_expression_. `PrintProperties`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ Options.PrintProperties = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Document properties** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Document properties** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

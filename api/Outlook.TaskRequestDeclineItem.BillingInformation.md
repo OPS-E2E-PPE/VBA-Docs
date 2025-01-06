@@ -1,27 +1,26 @@
 ---
-title: TaskRequestDeclineItem.BillingInformation Property (Outlook)
+title: TaskRequestDeclineItem.BillingInformation property (Outlook)
 keywords: vbaol11.chm1825
 f1_keywords:
 - vbaol11.chm1825
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestDeclineItem.BillingInformation
 ms.assetid: 42b6f652-010c-455b-f714-690ea003aca6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.BillingInformation Property (Outlook)
+# TaskRequestDeclineItem.BillingInformation property (Outlook)
 
-Returns or sets a  **String** representing the billing information associated with the Outlook item. Read/write.
+Returns or sets a **String** representing the billing information associated with the Outlook item. Read/write.
 
 
 ## Syntax
 
 _expression_. `BillingInformation`
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Remarks

@@ -3,10 +3,10 @@ title: Page Break Control
 keywords: vbaac10.chm13599
 f1_keywords:
 - vbaac10.chm13599
-ms.prod: access
+ms.service: access
 ms.assetid: 351b9de2-e2ff-c85f-193b-d5d8b3870d64
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +19,7 @@ The page break control marks the start of a new screen or printed page on a form
 
 ## Remarks
 
-In a form, a page break is active only when you set the form's  **DefaultView** property to Single Form. Page breaks don't affect a form's datasheet.
+In a form, a page break is active only when you set the form's **DefaultView** property to Single Form. Page breaks don't affect a form's datasheet.
 
 In Form view, press the PAGE UP or PAGE DOWN key to move to the previous or next page break.
 

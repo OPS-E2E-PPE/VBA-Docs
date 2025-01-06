@@ -1,24 +1,24 @@
 ---
-title: ResourceGroups.Copy Method (Project)
-ms.prod: project-server
+title: ResourceGroups.Copy method (Project)
+ms.service: project-server
 api_name:
 - Project.ResourceGroups.Copy
 ms.assetid: 0cf50d60-889b-b599-55be-288aa64f23ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ResourceGroups.Copy Method (Project)
+# ResourceGroups.Copy method (Project)
 
-Makes a copy of a group definition for the  **ResourceGroups** collection and returns a reference to the **[Group](Project.Group.md)** object.
+Makes a copy of a group definition for the **ResourceGroups** collection and returns a reference to the **[Group](Project.Group.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Name_`, `_NewName_` )
+_expression_.**Copy** (_Name_, _NewName_)
 
- _expression_ A variable that represents a 'ResourceGroups' object.
+_expression_ A variable that represents a 'ResourceGroups' object.
 
 
 ## Parameters

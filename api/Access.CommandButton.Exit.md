@@ -3,12 +3,11 @@ title: CommandButton.Exit event (Access)
 keywords: vbaac10.chm14079
 f1_keywords:
 - vbaac10.chm14079
-ms.prod: access
 api_name:
 - Access.CommandButton.Exit
 ms.assetid: d31c55ca-a2d9-7576-0a7f-a19307c36e87
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

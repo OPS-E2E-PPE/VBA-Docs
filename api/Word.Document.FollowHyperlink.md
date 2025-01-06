@@ -3,12 +3,11 @@ title: Document.FollowHyperlink method (Word)
 keywords: vbawd10.chm158007431
 f1_keywords:
 - vbawd10.chm158007431
-ms.prod: word
 api_name:
 - Word.Document.FollowHyperlink
 ms.assetid: ef9a3993-a7b5-5668-e804-c9d1f4fdb7dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Displays a cached document, if it has already been downloaded. Otherwise, this m
 
 ## Syntax
 
- _expression_. `FollowHyperlink`( `_Address_` , `_SubAddress_` , `_NewWindow_` , `_AddHistory_` , `_ExtraInfo_` , `_Method_` , `_HeaderInfo_` )
+_expression_. `FollowHyperlink`( `_Address_` , `_SubAddress_` , `_NewWindow_` , `_AddHistory_` , `_ExtraInfo_` , `_Method_` , `_HeaderInfo_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -34,8 +33,8 @@ Displays a cached document, if it has already been downloaded. Otherwise, this m
 | _SubAddress_|Optional| **Variant**|The location within the target document. The default value is an empty string.|
 | _NewWindow_|Optional| **Variant**| **True** to display the target location in a new window. The default value is **False**.|
 | _AddHistory_|Optional| **Variant**| **True** to add the link to the current day's history folder.|
-| _ExtraInfo_|Optional| **Variant**|A string or a byte array that specifies additional information for HTTP to use to resolve the hyperlink. For example, you can use ExtraInfo to specify the coordinates of an image map, the contents of a form, or a FAT file name. The string is either posted or appended, depending on the value of Method. Use the  **ExtraInfoRequired** property to determine whether extra information is required.|
-| _Method_|Optional| **Variant**|Specifies the way additional information for HTTP is handled. Can be any  **MsoExtraInfoMethod** constant.|
+| _ExtraInfo_|Optional| **Variant**|A string or a byte array that specifies additional information for HTTP to use to resolve the hyperlink. For example, you can use ExtraInfo to specify the coordinates of an image map, the contents of a form, or a FAT file name. The string is either posted or appended, depending on the value of Method. Use the **ExtraInfoRequired** property to determine whether extra information is required.|
+| _Method_|Optional| **Variant**|Specifies the way additional information for HTTP is handled. Can be any **MsoExtraInfoMethod** constant.|
 | _HeaderInfo_|Optional| **Variant**|A string that specifies header information for the HTTP request. The default value is an empty string.You can combine several header lines into a single string by using the following syntax: "string1" & vbCr & "string2". The specified string is automatically converted into ANSI characters. Note that the HeaderInfo argument may overwrite default HTTP header fields.|
 
 ## Example

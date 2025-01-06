@@ -3,12 +3,11 @@ title: Permission.PolicyName property (Office)
 keywords: vbaof11.chm261010
 f1_keywords:
 - vbaof11.chm261010
-ms.prod: office
 api_name:
 - Office.Permission.PolicyName
 ms.assetid: 2a76eac3-5012-6c6c-ab5a-388151f50e27
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,15 +38,15 @@ The following example displays permission policy information about the active do
  Dim strIRMInfo As String 
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
- strIRMInfo = "Permissions are restricted on this document." &amp; vbCrLf 
+ strIRMInfo = "Permissions are restricted on this document." & vbCrLf 
  If irmPermission.PermissionFromPolicy Then 
- strIRMInfo = strIRMInfo &amp; " Permissions applied from policy:" &amp; vbCrLf &amp; _ 
- " Policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Permissions applied from policy:" & vbCrLf & _ 
+ " Policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Policy description: " & irmPermission.PolicyDescription 
  Else 
- strIRMInfo = strIRMInfo &amp; " Default permissions applied." &amp; vbCrLf &amp; _ 
- " Default policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Default policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Default permissions applied." & vbCrLf & _ 
+ " Default policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Default policy description: " & irmPermission.PolicyDescription 
  End If 
  Else 
  strIRMInfo = "Permission are NOT restricted on this document." 

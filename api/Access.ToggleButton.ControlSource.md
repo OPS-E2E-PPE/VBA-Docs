@@ -3,18 +3,17 @@ title: ToggleButton.ControlSource property (Access)
 keywords: vbaac10.chm11700
 f1_keywords:
 - vbaac10.chm11700
-ms.prod: access
 api_name:
 - Access.ToggleButton.ControlSource
 ms.assetid: 077297e8-6911-8cef-0aa5-4c5cbebcf4a3
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.ControlSource property (Access)
 
-You can use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
+Use the **ControlSource** property to specify what data appears in a control. You can display and edit data bound to a field in a table, query, or SQL statement. You can also display the result of an expression. Read/write **String**.
 
 
 ## Syntax
@@ -55,8 +54,6 @@ The following example sets the **ControlSource** property for a text box named *
 ```vb
 Forms!Customers!AddressPart.ControlSource = "City"
 ```
-
-<br/>
 
 The following example sets the **ControlSource** property for a text box named **Expected** to the expression `=Date() + 7`.
 

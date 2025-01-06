@@ -3,12 +3,11 @@ title: ParagraphFormat.HalfWidthPunctuationOnTopOfLine property (Word)
 keywords: vbawd10.chm156434552
 f1_keywords:
 - vbawd10.chm156434552
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.HalfWidthPunctuationOnTopOfLine
 ms.assetid: f4b2a723-ec3c-d8bd-eb82-66423399c549
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HalfWidthPunctuationOnTopOfLine`
+_expression_. `HalfWidthPunctuationOnTopOfLine`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

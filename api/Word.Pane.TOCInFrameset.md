@@ -3,12 +3,11 @@ title: Pane.TOCInFrameset method (Word)
 keywords: vbawd10.chm157286507
 f1_keywords:
 - vbawd10.chm157286507
-ms.prod: word
 api_name:
 - Word.Pane.TOCInFrameset
 ms.assetid: fbc96c96-caff-b867-c468-21eec396e014
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Creates a table of contents based on the specified document and puts it in a new
 
 ## Syntax
 
- _expression_. `TOCInFrameset`
+_expression_. `TOCInFrameset`
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Remarks

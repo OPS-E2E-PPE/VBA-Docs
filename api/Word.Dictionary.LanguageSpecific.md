@@ -3,12 +3,11 @@ title: Dictionary.LanguageSpecific property (Word)
 keywords: vbawd10.chm162332677
 f1_keywords:
 - vbawd10.chm162332677
-ms.prod: word
 api_name:
 - Word.Dictionary.LanguageSpecific
 ms.assetid: 479eefb9-bd50-298b-635d-945ee7848600
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LanguageSpecific`
+_expression_. `LanguageSpecific`
 
- _expression_ A variable that represents a '[Dictionary](Word.Dictionary.md)' object.
+_expression_ A variable that represents a '[Dictionary](Word.Dictionary.md)' object.
 
 
 ## Example

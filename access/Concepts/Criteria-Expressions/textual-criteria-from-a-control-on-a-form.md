@@ -3,10 +3,9 @@ title: Textual criteria from a control on a form
 keywords: vbaac10.chm5188171
 f1_keywords:
 - vbaac10.chm5188171
-ms.prod: access
 ms.assetid: bb139d5e-0807-9492-442d-b7e569d8cecb
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

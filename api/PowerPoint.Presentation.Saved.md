@@ -1,27 +1,26 @@
 ---
-title: Presentation.Saved Property (PowerPoint)
+title: Presentation.Saved property (PowerPoint)
 keywords: vbapp10.chm583027
 f1_keywords:
 - vbapp10.chm583027
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.Saved
 ms.assetid: 52798ca6-e181-cf82-d397-647404235cb9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.Saved Property (PowerPoint)
+# Presentation.Saved property (PowerPoint)
 
 Determines whether changes have been made to a presentation since it was last saved. Read/write.
 
 
 ## Syntax
 
- _expression_. `Saved`
+_expression_.**Saved**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoTriState
 
 ## Remarks
 
-If the  **Saved** property of a modified presentation is set to **msoTrue**, the user won't be prompted to save changes when closing the presentation, and all changes made to it since it was last saved will be lost.
+If the **Saved** property of a modified presentation is set to **msoTrue**, the user won't be prompted to save changes when closing the presentation, and all changes made to it since it was last saved will be lost.
 
-The value of the  **Saved** property can be one of these **MsoTriState** constants.
+The value of the **Saved** property can be one of these **MsoTriState** constants.
 
 
 

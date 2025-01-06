@@ -3,12 +3,11 @@ title: SignatureSet.Item property (Office)
 keywords: vbaof11.chm247002
 f1_keywords:
 - vbaof11.chm247002
-ms.prod: office
 api_name:
 - Office.SignatureSet.Item
 ms.assetid: f55249e6-22e1-84bd-175f-e615533a37cd
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

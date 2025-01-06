@@ -1,24 +1,20 @@
 ---
 title: TextFrame2 members (Office)
-description: Represents the text frame in a Shape or ShapeRange object.
-ms.prod: office
+description: Learn how TextFrame2 represents the text frame in a Shape or ShapeRange object and exposes properties and methods that control the alignment and anchoring.
+ms.service: office
 ms.assetid: 35130cda-066c-ba5c-b7ec-672c0746ea76
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
-
 # TextFrame2 members (Office)
-
 Represents the text frame in a **Shape** or **ShapeRange** object. Contains the text in the text frame and exposes properties and methods that control the alignment and anchoring of the text frame.
-
 
 ## Methods
 
 |Name|Description|
 |:-----|:-----|
 |[DeleteText](../../Office.TextFrame2.DeleteText.md)|Deletes the text from a text frame and all the associated properties of the text, including font attributes.|
-
 
 ## Properties
 

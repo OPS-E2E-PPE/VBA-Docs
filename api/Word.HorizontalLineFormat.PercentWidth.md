@@ -3,30 +3,29 @@ title: HorizontalLineFormat.PercentWidth property (Word)
 keywords: vbawd10.chm165543938
 f1_keywords:
 - vbawd10.chm165543938
-ms.prod: word
 api_name:
 - Word.HorizontalLineFormat.PercentWidth
 ms.assetid: 40c51a99-aeda-9250-bb94-ee983ef3c33c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HorizontalLineFormat.PercentWidth property (Word)
 
-Returns or sets the length of the specified horizontal line expressed as a percentage of the window width. Read/write  **Single**.
+Returns or sets the length of the specified horizontal line expressed as a percentage of the window width. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `PercentWidth`
+_expression_. `PercentWidth`
 
  _expression_ An expression that returns a '[HorizontalLineFormat](Word.HorizontalLineFormat.md)' object.
 
 
 ## Remarks
 
-Setting this property also sets the  **[WidthType](Word.HorizontalLineFormat.WidthType.md)** property to **wdHorizontalLinePercentWidth**.
+Setting this property also sets the **[WidthType](Word.HorizontalLineFormat.WidthType.md)** property to **wdHorizontalLinePercentWidth**.
 
 
 ## Example

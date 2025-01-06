@@ -3,10 +3,9 @@ title: Immediate window
 keywords: vblr6.chm2058895
 f1_keywords:
 - vblr6.chm2058895
-ms.prod: office
 ms.assetid: e2e16178-0216-d91f-5c59-bd39574be84a
 ms.date: 11/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

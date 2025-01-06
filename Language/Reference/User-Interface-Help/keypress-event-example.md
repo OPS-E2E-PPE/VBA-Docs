@@ -3,10 +3,9 @@ title: KeyPress event example
 keywords: fm20.chm5225133
 f1_keywords:
 - fm20.chm5225133
-ms.prod: office
 ms.assetid: a41bc663-9be3-fc6a-87b6-baa5c0a4a526
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

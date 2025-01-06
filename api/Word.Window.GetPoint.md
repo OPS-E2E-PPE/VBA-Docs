@@ -3,12 +3,11 @@ title: Window.GetPoint method (Word)
 keywords: vbawd10.chm157417584
 f1_keywords:
 - vbawd10.chm157417584
-ms.prod: word
 api_name:
 - Word.Window.GetPoint
 ms.assetid: b0f2b558-0dfc-96f8-5177-3771f6fbb69b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns the screen coordinates of the specified range or shape.
 
 ## Syntax
 
- _expression_. `GetPoint`( `_ScreenPixelsLeft_` , `_ScreenPixelsTop_` , `_ScreenPixelsWidth_` , `_ScreenPixelsHeight_` , `_obj_` )
+_expression_. `GetPoint`( `_ScreenPixelsLeft_` , `_ScreenPixelsTop_` , `_ScreenPixelsWidth_` , `_ScreenPixelsHeight_` , `_obj_` )
 
- _expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Returns the screen coordinates of the specified range or shape.
 | _ScreenPixelsTop_|Required| **Long**|The variable name to which you want Word to return the value for the top edge of the object.|
 | _ScreenPixelsWidth_|Required| **Long**|The variable name to which you want Word to return the value for the width of the object.|
 | _ScreenPixelsHeight_|Required| **Long**|The variable name to which you want Word to return the value for the height of the object.|
-| _obj_|Required| **Object**|A  **Range** or **Shape** object.|
+| _obj_|Required| **Object**|A **Range** or **Shape** object.|
 
 ## Remarks
 

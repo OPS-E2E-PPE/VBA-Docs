@@ -3,12 +3,11 @@ title: Revision.Reject method (Word)
 keywords: vbawd10.chm159449190
 f1_keywords:
 - vbawd10.chm159449190
-ms.prod: word
 api_name:
 - Word.Revision.Reject
 ms.assetid: e97603c6-2310-ad82-7145-66a640a05c04
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Rejects the specified tracked change. The revision marks are removed, leaving th
 
 ## Syntax
 
- _expression_. `Reject`
+_expression_. `Reject`
 
- _expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
+_expression_ Required. A variable that represents a '[Revision](Word.Revision.md)' object.
 
 
 ## Remarks

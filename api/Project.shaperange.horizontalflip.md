@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.HorizontalFlip Property (Project)
-ms.prod: project-server
+title: ShapeRange.HorizontalFlip property (Project)
+ms.service: project-server
 ms.assetid: 1bfe6c4f-a9d6-7d9b-91e3-aab6ad048f7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.HorizontalFlip Property (Project)
-Gets a value that indicates whether the shape range is flipped around the horizontal axis. Read-only  **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**.
+# ShapeRange.HorizontalFlip property (Project)
+Gets a value that indicates whether the shape range is flipped around the horizontal axis. Read-only **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `HorizontalFlip`
+_expression_. `HorizontalFlip`
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

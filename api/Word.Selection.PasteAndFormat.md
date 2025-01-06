@@ -3,12 +3,11 @@ title: Selection.PasteAndFormat method (Word)
 keywords: vbawd10.chm158663669
 f1_keywords:
 - vbawd10.chm158663669
-ms.prod: word
 api_name:
 - Word.Selection.PasteAndFormat
 ms.assetid: 7ed87209-b786-280e-f3f0-dd81eda6f82d
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Pastes the selected table cells and formats them as specified.
 
 ## Syntax
 
- _expression_. `PasteAndFormat`( `_Type_` )
+_expression_. `PasteAndFormat`( `_Type_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

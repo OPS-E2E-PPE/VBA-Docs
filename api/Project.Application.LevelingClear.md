@@ -1,27 +1,27 @@
 ---
-title: Application.LevelingClear Method (Project)
+title: Application.LevelingClear method (Project)
 keywords: vbapj.chm612
 f1_keywords:
 - vbapj.chm612
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.LevelingClear
 ms.assetid: fdd537eb-f9c2-c8d9-ec26-0f4af9a63c33
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.LevelingClear Method (Project)
+# Application.LevelingClear method (Project)
 
 Removes the effects of leveling.
 
 
 ## Syntax
 
- _expression_. `LevelingClear`( `_All_` )
+_expression_. `LevelingClear`( `_All_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,8 +39,8 @@ Removes the effects of leveling.
 
 ## Remarks
 
-Using the  **LevelingClear** method without specifying any arguments displays the **Clear Leveling** dialog box.
+Using the **LevelingClear** method without specifying any arguments displays the **Clear Leveling** dialog box.
 
-The  **LevelingClear** method has no effect if a task has a priority of 1000 (do not level).
+The **LevelingClear** method has no effect if a task has a priority of 1000 (don't level).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

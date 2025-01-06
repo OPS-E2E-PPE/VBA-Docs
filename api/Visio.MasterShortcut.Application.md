@@ -1,37 +1,36 @@
 ---
-title: MasterShortcut.Application Property (Visio)
+title: MasterShortcut.Application property (Visio)
 keywords: vis_sdr.chm16013090
 f1_keywords:
 - vis_sdr.chm16013090
-ms.prod: visio
 api_name:
 - Visio.MasterShortcut.Application
 ms.assetid: ae6a5562-33b1-fe91-d7b7-56030d18c3e7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MasterShortcut.Application Property (Visio)
+# MasterShortcut.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [MasterShortcut](./Visio.MasterShortcut.md) object.
+_expression_ A variable that represents a **[MasterShortcut](Visio.MasterShortcut.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

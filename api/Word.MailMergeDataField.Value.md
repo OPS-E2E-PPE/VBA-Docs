@@ -3,30 +3,29 @@ title: MailMergeDataField.Value property (Word)
 keywords: vbawd10.chm152633344
 f1_keywords:
 - vbawd10.chm152633344
-ms.prod: word
 api_name:
 - Word.MailMergeDataField.Value
 ms.assetid: 742c8cea-3313-67d1-2f62-b4730cd753ab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataField.Value property (Word)
 
-Returns the contents of the mail merge data field or mapped data field for the current record. Read-only  **String**.
+Returns the contents of the mail merge data field or mapped data field for the current record. Read-only **String**.
 
 
 ## Syntax
 
- _expression_.**Value**
+_expression_.**Value**
 
- _expression_ Required. A variable that represents a '[MailMergeDataField](Word.MailMergeDataField.md)' object.
+_expression_ Required. A variable that represents a '[MailMergeDataField](Word.MailMergeDataField.md)' object.
 
 
 ## Remarks
 
-Use the  **[ActiveRecord](Word.MailMergeDataSource.ActiveRecord.md)** property to set the active record in a mail merge data source.
+Use the **[ActiveRecord](Word.MailMergeDataSource.ActiveRecord.md)** property to set the active record in a mail merge data source.
 
 
 ## Example

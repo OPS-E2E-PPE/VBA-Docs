@@ -1,27 +1,26 @@
 ---
-title: Document.Styles Property (Visio)
+title: Document.Styles property (Visio)
 keywords: vis_sdr.chm10514455
 f1_keywords:
 - vis_sdr.chm10514455
-ms.prod: visio
 api_name:
 - Visio.Document.Styles
 ms.assetid: 41434c49-3306-78b5-2126-0320fc05825a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.Styles Property (Visio)
+# Document.Styles property (Visio)
 
-Returns the  **Styles** collection for a document. Read-only.
+Returns the **Styles** collection for a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Styles`
+_expression_.**Styles**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Styles
 
 ## Example
 
-The following macro shows how to use the  **Styles** property to add **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style as well as how to add a new style created from scratch.
+The following macro shows how to use the **Styles** property to add **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style as well as how to add a new style created from scratch.
 
 
 ```vb

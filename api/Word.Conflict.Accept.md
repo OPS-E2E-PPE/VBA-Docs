@@ -3,12 +3,11 @@ title: Conflict.Accept method (Word)
 keywords: vbawd10.chm78708837
 f1_keywords:
 - vbawd10.chm78708837
-ms.prod: word
 api_name:
 - Word.Conflict.Accept
 ms.assetid: 3367d8cb-c1b1-3037-06d8-44c275fcfa58
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Accepts the user specified conflict change, and removes the conflict.
 
 ## Syntax
 
- _expression_. `Accept`
+_expression_. `Accept`
 
  _expression_ An expression that returns a [Conflict](./Word.Conflict.md) object.
 
@@ -31,7 +30,7 @@ Nothing
 
 ## Remarks
 
-In a conflict, a user can choose either to keep or to reject the changes they have made to the content where the conflict exists. The  **Accept** method keeps the changes that the user has made.
+In a conflict, a user can choose either to keep or to reject the changes they have made to the content where the conflict exists. The **Accept** method keeps the changes that the user has made.
 
 
 ## Example

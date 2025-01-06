@@ -1,15 +1,14 @@
 ---
-title: XlChartGallery Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlChartGallery enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlChartGallery
 ms.assetid: 2b77fffe-d02d-bdd0-5784-25370d9cf820
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlChartGallery Enumeration (PowerPoint)
+# XlChartGallery enumeration (PowerPoint)
 
 Specifies a chart gallery.
 

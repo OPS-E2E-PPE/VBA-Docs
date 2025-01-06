@@ -3,32 +3,31 @@ title: TextFrame.Orientation property (Word)
 keywords: vbawd10.chm162660456
 f1_keywords:
 - vbawd10.chm162660456
-ms.prod: word
 api_name:
 - Word.TextFrame.Orientation
 ms.assetid: 480b0ebd-c39c-0159-06a1-c909111d9486
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextFrame.Orientation property (Word)
 
-Returns or sets the orientation of the text inside the frame. Read/write  **MsoTextOrientation**.
+Returns or sets the orientation of the text inside the frame. Read/write **MsoTextOrientation**.
 
 
 ## Syntax
 
- _expression_. `Orientation`
+_expression_.**Orientation**
 
- _expression_ Required. A variable that represents a '[TextFrame](Word.TextFrame.md)' object.
+_expression_ Required. A variable that represents a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Remarks
 
-Some of the  **MsoTextOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
+Some of the **MsoTextOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 
-You can set the orientation for a text frame or for a range or selection that happens to occur inside a text frame. For information about the difference between a text frame and a text box, see the  **TextFrame** object.
+You can set the orientation for a text frame or for a range or selection that happens to occur inside a text frame. For information about the difference between a text frame and a text box, see the **TextFrame** object.
 
 
 ## Example

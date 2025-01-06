@@ -3,12 +3,11 @@ title: Workbook.PurgeChangeHistoryNow method (Excel)
 keywords: vbaxl10.chm199176
 f1_keywords:
 - vbaxl10.chm199176
-ms.prod: excel
 api_name:
 - Excel.Workbook.PurgeChangeHistoryNow
 ms.assetid: 7ea42af1-051b-400d-cb87-0736c49d74fb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/29/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Removes entries from the change log for the specified workbook.
 
 ## Syntax
 
-_expression_. `PurgeChangeHistoryNow`( `_Days_` , `_SharingPassword_` )
+_expression_.**PurgeChangeHistoryNow** (_Days_, _SharingPassword_)
 
-_expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,15 +34,10 @@ _expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object
 
 This example removes all changes that are more than one day old from the change log for the active workbook.
 
-
 ```vb
 ActiveWorkbook.PurgeChangeHistoryNow Days:=1
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

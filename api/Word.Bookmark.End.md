@@ -3,30 +3,29 @@ title: Bookmark.End property (Word)
 keywords: vbawd10.chm157810692
 f1_keywords:
 - vbawd10.chm157810692
-ms.prod: word
 api_name:
 - Word.Bookmark.End
 ms.assetid: 05531b0d-b05e-0010-9ff8-ba6d90de560d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Bookmark.End property (Word)
 
-Returns or sets the ending character position of a selection, range, or bookmark. Read/write  **Long**.
+Returns or sets the ending character position of a selection, range, or bookmark. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a '[Bookmark](Word.Bookmark.md)' object.
+_expression_ A variable that represents a **[Bookmark](Word.Bookmark.md)** object.
 
 
 ## Remarks
 
-If this property is set to a value smaller than the  **[Start](Word.Bookmark.Start.md)** property, the **Start** property is set to the same value (that is, the **Start** and **End** properties are equal).
+If this property is set to a value smaller than the **[Start](Word.Bookmark.Start.md)** property, the **Start** property is set to the same value (that is, the **Start** and **End** properties are equal).
 
 This property returns the ending character position relative to the beginning of the story. The main document story (wdMainTextStory) begins with character position 0 (zero). You can change the size of a bookmark by setting this property.
 

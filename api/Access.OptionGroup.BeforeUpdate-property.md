@@ -3,12 +3,11 @@ title: OptionGroup.BeforeUpdate property (Access)
 keywords: vbaac10.chm10862
 f1_keywords:
 - vbaac10.chm10862
-ms.prod: access
 api_name:
 - Access.OptionGroup.BeforeUpdate
 ms.assetid: 0ea86e13-03ba-9f56-ef42-e8147fa70064
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,13 +25,13 @@ _expression_ A variable that represents an **[OptionGroup](Access.OptionGroup.md
 
 ## Remarks
 
-Valid values for this property are: 
+Valid values for this property are:
 
 - _macroname_, where _macroname_ is the name of a macro.
 
 - [Event Procedure], which indicates the event procedure associated with the **BeforeUpdate** event for the specified object.
 
-- **=** _functionname_ **()**, where _functionname_ is the name of a user-defined function.
+- _=functionname()_, where _functionname_ is the name of a user-defined function.
 
 
 

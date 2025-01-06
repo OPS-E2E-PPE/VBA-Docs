@@ -3,12 +3,11 @@ title: XMLNamespace.AttachToDocument method (Word)
 keywords: vbawd10.chm2293860
 f1_keywords:
 - vbawd10.chm2293860
-ms.prod: word
 api_name:
 - Word.XMLNamespace.AttachToDocument
 ms.assetid: 18af2ed2-2806-401a-4cca-9d8746f25082
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Attaches an XML schema to a document.
 
 ## Syntax
 
- _expression_. `AttachToDocument`( `_Document_` )
+_expression_. `AttachToDocument`( `_Document_` )
 
  _expression_ An expression that represents a '[XMLNamespace](Word.XMLNamespace.md)' object.
 
@@ -37,7 +36,8 @@ Attaches an XML schema to a document.
 The following example adds the SimpleSample schema to the Schema Library and then attaches it to the active document.
 
 
- **Note**  The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
+> [!NOTE] 
+> The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
 
 
 ```vb

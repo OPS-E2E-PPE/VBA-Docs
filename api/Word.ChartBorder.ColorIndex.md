@@ -3,35 +3,34 @@ title: ChartBorder.ColorIndex property (Word)
 keywords: vbawd10.chm61014018
 f1_keywords:
 - vbawd10.chm61014018
-ms.prod: word
 api_name:
 - Word.ChartBorder.ColorIndex
 ms.assetid: e9457184-7100-9482-398e-cc7f11e4b05c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartBorder.ColorIndex property (Word)
 
-Returns or sets the color of the border. Read/write  **Variant**.
+Returns or sets the color of the border. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ColorIndex`
+_expression_.**ColorIndex**
 
- _expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
+_expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
 
 
 ## Remarks
 
-The color is specified as an index value into the current color palette, or as one of the following  **[xlColorIndex](Word.xlcolorindex.md)** constants:
+The color is specified as an index value into the current color palette, or as one of the following **[XlColorIndex](Word.xlcolorindex.md)** constants:
 
 
--  **xlColorIndexAutomatic**
+- **xlColorIndexAutomatic**
     
--  **xlColorIndexNone**
+- **xlColorIndexNone**
     
 
 ## Example

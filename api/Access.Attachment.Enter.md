@@ -3,12 +3,11 @@ title: Attachment.Enter event (Access)
 keywords: vbaac10.chm14021
 f1_keywords:
 - vbaac10.chm14021
-ms.prod: access
 api_name:
 - Access.Attachment.Enter
 ms.assetid: 0ca691d8-aace-3240-c7c7-acfb69960f4a
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

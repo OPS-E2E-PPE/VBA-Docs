@@ -1,48 +1,47 @@
 ---
-title: Store.GetRootFolder Method (Outlook)
+title: Store.GetRootFolder method (Outlook)
 keywords: vbaol11.chm806
 f1_keywords:
 - vbaol11.chm806
-ms.prod: outlook
 api_name:
 - Outlook.Store.GetRootFolder
 ms.assetid: 09da4d57-c33d-6946-cc21-7233e89efb10
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Store.GetRootFolder Method (Outlook)
+# Store.GetRootFolder method (Outlook)
 
-Returns a  **[Folder](Outlook.Folder.md)** object representing the root-level folder of the **[Store](Outlook.Store.md)**. Read-only.
+Returns a **[Folder](Outlook.Folder.md)** object representing the root-level folder of the **[Store](Outlook.Store.md)**. Read-only.
 
 
 ## Syntax
 
 _expression_. `GetRootFolder`
 
-_expression_ A variable that represents a [Store](./Outlook.Store.md) object.
+_expression_ A variable that represents a [Store](Outlook.Store.md) object.
 
 
 ## Return value
 
-A  **Folder** object that represents the folder at the root of that **Store**.
+A **Folder** object that represents the folder at the root of that **Store**.
 
 
 ## Remarks
 
-You can use the  **GetRootFolder** method to enumerate the subfolders of the root folder of the **Store**. Unlike **[NameSpace.Folders](Outlook.NameSpace.Folders.md)** which contains all folders for all stores in the current profile, **Store.GetRootFolder.Folders** allows you to enumerate all folders for a given **Store** object in the current profile.
+Use the **GetRootFolder** method to enumerate the subfolders of the root folder of the **Store**. Unlike **[NameSpace.Folders](Outlook.NameSpace.Folders.md)** which contains all folders for all stores in the current profile, **Store.GetRootFolder.Folders** allows you to enumerate all folders for a given **Store** object in the current profile.
 
-The  **[Parent](Outlook.Folder.Parent.md)** property of the root folder of a store returns the string "Mapi".
+The **[Parent](Outlook.Folder.Parent.md)** property of the root folder of a store returns the string "Mapi".
 
-The root folder for the Exchange Public Folder store is the folder  **Public Folders**. This folder is returned by the call to  `Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders)`.
+The root folder for the Exchange Public Folder store is the folder **Public Folders**. This folder is returned by the call to `Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders)`.
 
  **GetRootFolder** returns an error if the service provider does not support root folders.
 
 
 ## Example
 
-The following code sample in Microsoft Visual Basic for Applications (VBA) starts at the root-level folder of each  **Store** in a **[Stores](Outlook.Stores.md)** collection for a session, and enumerates all folders on all stores for that session.
+The following code sample in Microsoft Visual Basic for Applications (VBA) starts at the root-level folder of each **Store** in a **[Stores](Outlook.Stores.md)** collection for a session, and enumerates all folders on all stores for that session.
 
 
 ```vb

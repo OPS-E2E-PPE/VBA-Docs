@@ -3,30 +3,29 @@ title: KeyBinding.CommandParameter property (Word)
 keywords: vbawd10.chm160956424
 f1_keywords:
 - vbawd10.chm160956424
-ms.prod: word
 api_name:
 - Word.KeyBinding.CommandParameter
 ms.assetid: 041cea6f-6275-e008-43ce-9075ee6d8f8c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # KeyBinding.CommandParameter property (Word)
 
-Returns the command parameter assigned to the specified shortcut key. Read-only  **String**.
+Returns the command parameter assigned to the specified shortcut key. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `CommandParameter`
+_expression_. `CommandParameter`
 
- _expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Remarks
 
-For information about commands that take parameters, see the  **[Add](Word.KeyBindings.Add.md)** method. Use the **Command** property to return the command name assigned to the specified shortcut key.
+For information about commands that take parameters, see the **[Add](Word.KeyBindings.Add.md)** method. Use the **Command** property to return the command name assigned to the specified shortcut key.
 
 
 ## Example

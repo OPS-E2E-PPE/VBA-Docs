@@ -3,12 +3,11 @@ title: CommandButton.BottomPadding property (Access)
 keywords: vbaac10.chm10527
 f1_keywords:
 - vbaac10.chm10527
-ms.prod: access
 api_name:
 - Access.CommandButton.BottomPadding
 ms.assetid: c7806653-3e00-824e-f1af-7092369af0a7
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

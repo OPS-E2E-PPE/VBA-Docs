@@ -1,29 +1,28 @@
 ---
-title: Point.Paste Method (PowerPoint)
-ms.prod: powerpoint
+title: Point.Paste method (PowerPoint)
 api_name:
 - PowerPoint.Point.Paste
 ms.assetid: 4f6304f2-8cb6-8956-38ff-8718a25aa3ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Point.Paste Method (PowerPoint)
+# Point.Paste method (PowerPoint)
 
 Pastes a picture from the Clipboard as the marker on the selected point.
 
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## Remarks
 
-You can use this method on column, bar, line, or radar charts, and it sets the  **[MarkerStyle](PowerPoint.Point.MarkerStyle.md)** property to **xlMarkerStylePicture**.
+Use this method on column, bar, line, or radar charts, and it sets the **[MarkerStyle](PowerPoint.Point.MarkerStyle.md)** property to **xlMarkerStylePicture**.
 
 
 ## Example
@@ -31,7 +30,8 @@ You can use this method on column, bar, line, or radar charts, and it sets the  
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example pastes a picture from the Clipboard into point one in series one for the first chart in the active document.
 

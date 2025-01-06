@@ -3,10 +3,9 @@ title: Customize Control dialog box (Microsoft Forms)
 keywords: fm20.chm2010040
 f1_keywords:
 - fm20.chm2010040
-ms.prod: office
 ms.assetid: 7a02d644-1653-d212-9303-e67fd61ef25e
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

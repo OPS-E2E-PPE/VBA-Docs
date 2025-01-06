@@ -1,27 +1,26 @@
 ---
-title: MasterShortcuts.Count Property (Visio)
+title: MasterShortcuts.Count property (Visio)
 keywords: vis_sdr.chm15913330
 f1_keywords:
 - vis_sdr.chm15913330
-ms.prod: visio
 api_name:
 - Visio.MasterShortcuts.Count
 ms.assetid: 962a3f2b-9626-faef-ac4f-6ded68cfaaf1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MasterShortcuts.Count Property (Visio)
+# MasterShortcuts.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [MasterShortcuts](./Visio.MasterShortcuts.md) object.
+_expression_ A variable that represents a **[MasterShortcuts](Visio.MasterShortcuts.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb

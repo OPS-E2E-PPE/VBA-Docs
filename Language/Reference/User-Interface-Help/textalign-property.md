@@ -3,12 +3,11 @@ title: TextAlign property
 keywords: fm20.chm5225104
 f1_keywords:
 - fm20.chm5225104
-ms.prod: office
 api_name:
 - Office.TextAlign
 ms.assetid: 31904bca-6238-6807-fdbd-463cbc82b8ed
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: BoundObjectFrame.InSelection property (Access)
 keywords: vbaac10.chm10960
 f1_keywords:
 - vbaac10.chm10960
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.InSelection
 ms.assetid: 8212bebc-0d9c-6476-a8f6-f1bbd3c26066
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

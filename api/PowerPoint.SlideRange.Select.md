@@ -1,27 +1,26 @@
 ---
-title: SlideRange.Select Method (PowerPoint)
+title: SlideRange.Select method (PowerPoint)
 keywords: vbapp10.chm532011
 f1_keywords:
 - vbapp10.chm532011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.Select
 ms.assetid: bcd521aa-b107-4b49-71d1-86c936077cb1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.Select Method (PowerPoint)
+# SlideRange.Select method (PowerPoint)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Remarks

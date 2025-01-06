@@ -1,29 +1,29 @@
 ---
-title: Task.Flag7 Property (Project)
-ms.prod: project-server
+title: Task.Flag7 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag7
 ms.assetid: edfbd94c-42d4-2a93-8ff7-b7f99ac7c3dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag7 Property (Project)
+# Task.Flag7 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag7`
+_expression_. `Flag7`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

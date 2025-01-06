@@ -1,27 +1,26 @@
 ---
-title: TaskRequestUpdateItem.Mileage Property (Outlook)
+title: TaskRequestUpdateItem.Mileage property (Outlook)
 keywords: vbaol11.chm1937
 f1_keywords:
 - vbaol11.chm1937
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestUpdateItem.Mileage
 ms.assetid: e1ec810e-54e9-14db-4ddf-87393deab38c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestUpdateItem.Mileage Property (Outlook)
+# TaskRequestUpdateItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
- _expression_. `Mileage`
+_expression_. `Mileage`
 
-_expression_ A variable that represents a [TaskRequestUpdateItem](./Outlook.TaskRequestUpdateItem.md) object.
+_expression_ A variable that represents a [TaskRequestUpdateItem](Outlook.TaskRequestUpdateItem.md) object.
 
 
 ## Remarks

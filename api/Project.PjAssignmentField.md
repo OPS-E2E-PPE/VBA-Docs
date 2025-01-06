@@ -1,15 +1,15 @@
 ---
-title: PjAssignmentField Enumeration (Project)
-ms.prod: project-server
+title: PjAssignmentField enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAssignmentField
 ms.assetid: 99281262-c41e-b115-0975-da21e3d524c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAssignmentField Enumeration (Project)
+# PjAssignmentField enumeration (Project)
 
 Contains constants that specify an assignment field in the Project database. For more information about working with fields in Project, see the "Fields reference overview" topic in Project Help.
 

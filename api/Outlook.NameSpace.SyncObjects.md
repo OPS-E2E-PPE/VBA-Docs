@@ -1,27 +1,26 @@
 ---
-title: NameSpace.SyncObjects Property (Outlook)
+title: NameSpace.SyncObjects property (Outlook)
 keywords: vbaol11.chm770
 f1_keywords:
 - vbaol11.chm770
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.SyncObjects
 ms.assetid: 0948f154-022f-b12e-87e3-1b3a4ce127c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.SyncObjects Property (Outlook)
+# NameSpace.SyncObjects property (Outlook)
 
-Returns a  **[SyncObjects](Outlook.SyncObjects.md)** collection containing all Send\Receive groups. Read-only.
+Returns a **[SyncObjects](Outlook.SyncObjects.md)** collection containing all Send\Receive groups. Read-only.
 
 
 ## Syntax
 
 _expression_. `SyncObjects`
 
-_expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
 ## Example

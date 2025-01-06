@@ -3,12 +3,11 @@ title: PageSetup.BookFoldRevPrinting property (Word)
 keywords: vbawd10.chm158401736
 f1_keywords:
 - vbawd10.chm158401736
-ms.prod: word
 api_name:
 - Word.PageSetup.BookFoldRevPrinting
 ms.assetid: 3d6db95a-1c2d-424f-f704-ed7d1c05895c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `BookFoldRevPrinting`
+_expression_. `BookFoldRevPrinting`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example

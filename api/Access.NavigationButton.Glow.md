@@ -3,12 +3,11 @@ title: NavigationButton.Glow property (Access)
 keywords: vbaac10.chm14630
 f1_keywords:
 - vbaac10.chm14630
-ms.prod: access
 api_name:
 - Access.NavigationButton.Glow
 ms.assetid: d1123b17-2ee3-626f-d746-a4b0d287c3f6
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

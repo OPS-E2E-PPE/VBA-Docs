@@ -3,12 +3,11 @@ title: ParagraphFormat.DisableLineHeightGrid property (Word)
 keywords: vbawd10.chm156434557
 f1_keywords:
 - vbawd10.chm156434557
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.DisableLineHeightGrid
 ms.assetid: 8cb667e6-ce9c-8b1e-253e-bad67032ed72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisableLineHeightGrid`
+_expression_. `DisableLineHeightGrid`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

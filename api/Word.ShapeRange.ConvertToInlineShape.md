@@ -3,12 +3,11 @@ title: ShapeRange.ConvertToInlineShape method (Word)
 keywords: vbawd10.chm162856990
 f1_keywords:
 - vbawd10.chm162856990
-ms.prod: word
 api_name:
 - Word.ShapeRange.ConvertToInlineShape
 ms.assetid: 01ce99b9-408b-2bd4-fd05-21d17e2ada91
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Converts the specified shape in the drawing layer of a document to an inline sha
 
 ## Syntax
 
- _expression_. `ConvertToInlineShape`
+_expression_. `ConvertToInlineShape`
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ Converts the specified shape in the drawing layer of a document to an inline sha
 
 ## Remarks
 
-Shapes that support attached text cannot be converted to inline shapes. For these shapes, use the  **ConvertToFrame** method.
+Shapes that support attached text cannot be converted to inline shapes. For these shapes, use the **ConvertToFrame** method.
 
-If you use this method on a  **ShapeRange** object that contains more than one shape, an error occurs.
+If you use this method on a **ShapeRange** object that contains more than one shape, an error occurs.
 
 
 ## Example

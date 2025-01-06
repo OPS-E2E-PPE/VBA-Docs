@@ -1,29 +1,27 @@
 ---
-title: Project.Activate Event (Project)
-ms.prod: project-server
+title: Project.Activate event (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Activate
 ms.assetid: fd3b89be-ea9a-5574-be1e-01e3d042a4a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Activate Event (Project)
+# Project.Activate event (Project)
 
 Occurs when switching to the project from another project, including when the project is opened or created.
 
 
 ## Syntax
 
- _expression_. `Activate`( `_pj_` )
+_expression_.**Activate** (_pj_)
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -31,11 +29,11 @@ Occurs when switching to the project from another project, including when the pr
 
 ## Remarks
 
-When you switch between two windows showing the same project, the  **Activate** event for the project doesn't occur.
+When you switch between two windows showing the same project, the **Activate** event for the project doesn't occur.
 
 This event doesn't occur when you create a new window. 
 
-Project events do not occur when the project is embedded in another document or application. 
+Project events don't occur when the project is embedded in another document or application. 
 
 
 ## Example

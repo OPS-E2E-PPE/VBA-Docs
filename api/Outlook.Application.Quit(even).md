@@ -1,27 +1,26 @@
 ---
-title: Application.Quit Event (Outlook)
+title: Application.Quit event (Outlook)
 keywords: vbaol11.chm434
 f1_keywords:
 - vbaol11.chm434
-ms.prod: outlook
 api_name:
 - Outlook.Application.Quit
 ms.assetid: ecf0b50b-db6f-7eaf-90bd-bae942bf9287
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Quit Event (Outlook)
+# Application.Quit event (Outlook)
 
 Occurs when Microsoft Outlook begins to close. 
 
 
 ## Syntax
 
-_expression_. `Quit`
+_expression_.**Quit**
 
- _expression_ An expression that returns an [Application](./Outlook.Application.md) object.
+ _expression_ An expression that returns an **[Application](Outlook.Application.md)** object.
 
 
 ## Remarks

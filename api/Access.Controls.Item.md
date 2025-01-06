@@ -3,12 +3,11 @@ title: Controls.Item property (Access)
 keywords: vbaac10.chm10179
 f1_keywords:
 - vbaac10.chm10179
-ms.prod: access
 api_name:
 - Access.Controls.Item
 ms.assetid: aac9c15e-0a29-c324-299c-b692883c25ed
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

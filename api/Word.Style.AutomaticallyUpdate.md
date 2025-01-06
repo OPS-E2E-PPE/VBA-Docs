@@ -3,12 +3,11 @@ title: Style.AutomaticallyUpdate property (Word)
 keywords: vbawd10.chm153878541
 f1_keywords:
 - vbawd10.chm153878541
-ms.prod: word
 api_name:
 - Word.Style.AutomaticallyUpdate
 ms.assetid: 6b224938-9519-5cb3-4ca5-ca9e465432e9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutomaticallyUpdate`
+_expression_. `AutomaticallyUpdate`
 
- _expression_ A variable that represents a '[Style](Word.Style.md)' object.
+_expression_ A variable that represents a '[Style](Word.Style.md)' object.
 
 
 ## Remarks
 
-If the  **AutomaticallyUpdate** property is set to **False** , Microsoft Word prompts for confirmation before redefining the style based on the selection. A style can be redefined when it is applied to a selection that has the same style but different manual formatting. The AutomaticallyUpdate property applies to paragraph styles only.
+If the **AutomaticallyUpdate** property is set to **False**, Microsoft Word prompts for confirmation before redefining the style based on the selection. A style can be redefined when it is applied to a selection that has the same style but different manual formatting. The AutomaticallyUpdate property applies to paragraph styles only.
 
 
 ## Example

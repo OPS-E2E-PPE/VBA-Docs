@@ -1,27 +1,26 @@
 ---
-title: Application.SlideShowNextBuild Event (PowerPoint)
+title: Application.SlideShowNextBuild event (PowerPoint)
 keywords: vbapp10.chm621012
 f1_keywords:
 - vbapp10.chm621012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.SlideShowNextBuild
 ms.assetid: 63919ea5-57e4-853a-0e5a-94e1126cbfbf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SlideShowNextBuild Event (PowerPoint)
+# Application.SlideShowNextBuild event (PowerPoint)
 
 Occurs upon mouse-click or timing animation, but before the animated object becomes visible. .
 
 
 ## Syntax
 
- _expression_. `SlideShowNextBuild`( `_Wn_` )
+_expression_. `SlideShowNextBuild`(_Wn_)
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
 
-If the current shape on slide one is a movie, this example plays the movie continuously until stopped manually by the presenter. This code is designed to be used with the second  **SlideShowNextSlide** event example.
+If the current shape on slide one is a movie, this example plays the movie continuously until stopped manually by the presenter. This code is designed to be used with the second **SlideShowNextSlide** event example.
 
 
 ```vb

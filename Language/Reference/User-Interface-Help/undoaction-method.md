@@ -3,12 +3,11 @@ title: UndoAction method (Microsoft Forms)
 keywords: fm20.chm5224975
 f1_keywords:
 - fm20.chm5224975
-ms.prod: office
 api_name:
 - Office.UndoAction
 ms.assetid: 751fb2c5-4fa6-bab5-fb9a-5c396d05cae1
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

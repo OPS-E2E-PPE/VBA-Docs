@@ -1,9 +1,8 @@
 ---
 title: Recordset (ADO/WFC syntax)
-ms.prod: access
 ms.assetid: 28314537-2585-6e29-2014-e7fd8ae78542
 ms.date: 10/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -43,7 +42,7 @@ public void find(String criteria , int SkipRecords , int searchDirection )
 public void find(String criteria , int SkipRecords , int searchDirection , Object bmkStart ) 
 public Object[][] Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthgetrows_HV10294398.xml(int Rows , Object bmkStart , Object[] fieldList ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmove_HV10294521.xml(int numRecords ) 
-public void move(int numRecords,  Object bmkStart ) 
+public void move(int numRecords, Object bmkStart ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmovefirst_HV10294526.xml() 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmovefirst_HV10294526.xml() 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmovefirst_HV10294526.xml() 
@@ -60,9 +59,9 @@ public void open(Object source , Object activeConnection , int cursorType ,
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadorequery_HV10294728.xml() 
 public void requery(int options ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadoresync_HV10294735.xml() 
-public void resync(int affectRecords,  int resyncValues ) 
+public void resync(int affectRecords, int resyncValues ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstsave_HV10294750.xml(String fileName ) 
-public void save(String fileName,  int persistFormat ) 
+public void save(String fileName, int persistFormat ) 
 public boolean Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthsupports_HV10294844.xml(int cursorOptions ) 
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthupdate_HV10294888.xml() 
 public void update(Object[] valueList ) 
@@ -161,8 +160,8 @@ public void removeOnWillMove(RecordsetEventHandler handler )
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

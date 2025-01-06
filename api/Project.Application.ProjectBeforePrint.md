@@ -1,24 +1,24 @@
 ---
-title: Application.ProjectBeforePrint Event (Project)
-ms.prod: project-server
+title: Application.ProjectBeforePrint event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.ProjectBeforePrint
 ms.assetid: 7cc8de23-c3e3-81df-ae26-37c4e639dd81
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ProjectBeforePrint Event (Project)
+# Application.ProjectBeforePrint event (Project)
 
 Occurs before a project is printed.
 
 
 ## Syntax
 
- _expression_. `ProjectBeforePrint`( `_pj_`, `_Cancel_` )
+_expression_. `ProjectBeforePrint`( `_pj_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,11 +32,11 @@ Occurs before a project is printed.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

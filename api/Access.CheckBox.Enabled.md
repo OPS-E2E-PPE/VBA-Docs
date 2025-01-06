@@ -3,18 +3,17 @@ title: CheckBox.Enabled property (Access)
 keywords: vbaac10.chm10703
 f1_keywords:
 - vbaac10.chm10703
-ms.prod: access
 api_name:
 - Access.CheckBox.Enabled
 ms.assetid: 48bf27fa-f08e-6fc9-ad92-6ec489b80801
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

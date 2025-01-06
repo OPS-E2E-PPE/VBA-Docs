@@ -3,12 +3,11 @@ title: TabControl.Move method (Access)
 keywords: vbaac10.chm12114
 f1_keywords:
 - vbaac10.chm12114
-ms.prod: access
 api_name:
 - Access.TabControl.Move
 ms.assetid: 525b3387-b60d-ea85-b1c9-dca1751c81d3
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

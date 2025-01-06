@@ -1,19 +1,16 @@
 ---
 title: MsoReflectionType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoReflectionType
 ms.assetid: 78337972-fcdd-4a65-c9b8-b9eed981c717
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoReflectionType enumeration (Office)
 
 Specifies the type of the **ReflectionFormat** object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

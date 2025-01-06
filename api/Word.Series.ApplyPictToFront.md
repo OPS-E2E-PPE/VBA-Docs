@@ -3,12 +3,11 @@ title: Series.ApplyPictToFront property (Word)
 keywords: vbawd10.chm123733628
 f1_keywords:
 - vbawd10.chm123733628
-ms.prod: word
 api_name:
 - Word.Series.ApplyPictToFront
 ms.assetid: 85390115-161c-bc63-fbfb-25d793aff79d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ApplyPictToFront`
+_expression_.**ApplyPictToFront**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Example

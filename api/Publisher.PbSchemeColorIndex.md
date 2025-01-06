@@ -1,18 +1,17 @@
 ---
-title: PbSchemeColorIndex Enumeration (Publisher)
+title: PbSchemeColorIndex enumeration (Publisher)
 keywords: vbapb10.chm65579
 f1_keywords:
 - vbapb10.chm65579
-ms.prod: publisher
 api_name:
 - Publisher.PbSchemeColorIndex
 ms.assetid: 37dc2391-208d-195d-11b5-c2c83c348abd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbSchemeColorIndex Enumeration (Publisher)
+# PbSchemeColorIndex enumeration (Publisher)
 
 Represents the specified color of the current color scheme.
 

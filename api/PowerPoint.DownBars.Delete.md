@@ -1,22 +1,21 @@
 ---
-title: DownBars.Delete Method (PowerPoint)
-ms.prod: powerpoint
+title: DownBars.Delete method (PowerPoint)
 api_name:
 - PowerPoint.DownBars.Delete
 ms.assetid: 016fc70d-84c5-ab76-4046-bd4f7b625e90
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DownBars.Delete Method (PowerPoint)
+# DownBars.Delete method (PowerPoint)
 
 Deletes the object.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
 _expression_ A variable that represents a '[DownBars](PowerPoint.DownBars.md)' object.
 

@@ -3,12 +3,11 @@ title: Chart.Refresh method (Excel)
 keywords: vbaxl10.chm149164
 f1_keywords:
 - vbaxl10.chm149164
-ms.prod: excel
 api_name:
 - Excel.Chart.Refresh
 ms.assetid: 4ede937c-d710-521d-dfeb-0af21ee6ba7d
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 04/16/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Causes the specified chart to be redrawn immediately.
 
 ## Syntax
 
-_expression_. `Refresh`
+_expression_.**Refresh**
 
-_expression_ A variable that represents a [Chart](Excel.Chart-graph-object.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Chart](Excel.Chart(object).md)** object.
 
 
-[Chart Object](Excel.Chart(object).md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

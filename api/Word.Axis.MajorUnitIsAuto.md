@@ -3,12 +3,11 @@ title: Axis.MajorUnitIsAuto property (Word)
 keywords: vbawd10.chm113049626
 f1_keywords:
 - vbawd10.chm113049626
-ms.prod: word
 api_name:
 - Word.Axis.MajorUnitIsAuto
 ms.assetid: 582059c6-89d4-cd11-e43c-e9c7988fc765
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MajorUnitIsAuto`
+_expression_. `MajorUnitIsAuto`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting the  **[MajorUnit](Word.Axis.MajorUnit.md)** property sets this property to **False**.
+Setting the **[MajorUnit](Word.Axis.MajorUnit.md)** property sets this property to **False**.
 
 
 ## Example

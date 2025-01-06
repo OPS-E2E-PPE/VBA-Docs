@@ -3,12 +3,11 @@ title: ShapeRange.SetShapesDefaultProperties method (Excel)
 keywords: vbaxl10.chm640093
 f1_keywords:
 - vbaxl10.chm640093
-ms.prod: excel
 api_name:
 - Excel.ShapeRange.SetShapesDefaultProperties
 ms.assetid: 0ddbcaed-827c-5391-db0e-fc1cd94d7b33
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,15 +18,14 @@ Makes the formatting of the specified shape the default formatting for the shape
 
 ## Syntax
 
-_expression_. `SetShapesDefaultProperties`
+_expression_.**SetShapesDefaultProperties**
 
-_expression_ A variable that represents a [ShapeRange](./Excel.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](Excel.shaperange.md)** object.
 
 
 ## Example
 
-This example adds a rectangle to  `myDocument`, formats the rectangle's fill, sets the rectangle's formatting as the default shape formatting, and then adds another smaller rectangle to the document. The second rectangle has the same fill as the first one.
-
+This example adds a rectangle to _myDocument_, formats the rectangle's fill, sets the rectangle's formatting as the default shape formatting, and then adds another smaller rectangle to the document. The second rectangle has the same fill as the first one.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -46,10 +44,5 @@ With myDocument.Shapes
 End With
 ```
 
-
-## See also
-
-
-[ShapeRange Object](Excel.ShapeRange.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

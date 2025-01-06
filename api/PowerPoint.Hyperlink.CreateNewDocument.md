@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.CreateNewDocument Method (PowerPoint)
+title: Hyperlink.CreateNewDocument method (PowerPoint)
 keywords: vbapp10.chm526012
 f1_keywords:
 - vbapp10.chm526012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Hyperlink.CreateNewDocument
 ms.assetid: d2de9bbb-a659-3ea3-bdee-244329d88416
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.CreateNewDocument Method (PowerPoint)
+# Hyperlink.CreateNewDocument method (PowerPoint)
 
 Creates a new Web presentation associated with the specified hyperlink.
 
 
 ## Syntax
 
- _expression_. `CreateNewDocument`( `_FileName_`, `_EditNow_`, `_Overwrite_` )
+_expression_.**CreateNewDocument**( `_FileName_`, `_EditNow_`, `_Overwrite_` )
 
- _expression_ A variable that represents a [Hyperlink](./PowerPoint.Hyperlink.md) object.
+_expression_ A variable that represents a [Hyperlink](PowerPoint.Hyperlink.md) object.
 
 
 ## Parameters

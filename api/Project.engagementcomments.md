@@ -1,15 +1,15 @@
 ---
-title: EngagementComments Object (Project)
+title: EngagementComments object (Project)
 ms.assetid: 6df493a2-5580-f6bc-373e-565ce1be6828
 ms.date: 06/08/2017
-ms.prod: project-server
-localization_priority: Normal
+ms.service: project-server
+ms.localizationpriority: medium
 ---
 
 
-# EngagementComments Object (Project)
+# EngagementComments object (Project)
 
-A collection of  **EngagementComments** objects. Introduced in Office 2016.
+A collection of **EngagementComments** objects. Introduced in Office 2016.
  
 
 

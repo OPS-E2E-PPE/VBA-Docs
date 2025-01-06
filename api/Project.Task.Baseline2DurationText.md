@@ -1,31 +1,31 @@
 ---
-title: Task.Baseline2DurationText Property (Project)
+title: Task.Baseline2DurationText property (Project)
 keywords: vbapj.chm131456
 f1_keywords:
 - vbapj.chm131456
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.Baseline2DurationText
 ms.assetid: d0bacbcb-4976-451b-8b97-8bb70bb29c20
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Baseline2DurationText Property (Project)
+# Task.Baseline2DurationText property (Project)
 
-Gets or sets a string representation of the baseline duration of a task. Read/write  **String**.
+Gets or sets a string representation of the baseline duration of a task. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Baseline2DurationText`
+_expression_. `Baseline2DurationText`
 
  _expression_ An expression that returns a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The  **Baseline2DurationText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **Baseline2DurationText** has any value, you should convert the value to a date for the **Baseline2Duration** property.
+The **Baseline2DurationText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **Baseline2DurationText** has any value, you should convert the value to a date for the **Baseline2Duration** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

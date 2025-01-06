@@ -3,12 +3,11 @@ title: OptionButton.DefaultValue property (Access)
 keywords: vbaac10.chm10570
 f1_keywords:
 - vbaac10.chm10570
-ms.prod: access
 api_name:
 - Access.OptionButton.DefaultValue
 ms.assetid: 87be103a-bfe6-ccab-7349-4c3cbbeadc30
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Options.ShowFormatError property (Word)
 keywords: vbawd10.chm162988480
 f1_keywords:
 - vbawd10.chm162988480
-ms.prod: word
 api_name:
 - Word.Options.ShowFormatError
 ms.assetid: 619ccdb4-020c-d6c7-48a8-2d2e56377577
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowFormatError`
+_expression_. `ShowFormatError`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

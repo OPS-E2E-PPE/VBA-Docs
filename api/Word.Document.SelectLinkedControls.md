@@ -3,25 +3,24 @@ title: Document.SelectLinkedControls method (Word)
 keywords: vbawd10.chm158007845
 f1_keywords:
 - vbawd10.chm158007845
-ms.prod: word
 api_name:
 - Word.Document.SelectLinkedControls
 ms.assetid: cae4e00c-a34f-8581-07f9-b58722ec399e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.SelectLinkedControls method (Word)
 
-Returns a  **[ContentControls](Word.ContentControls.md)** collection that represents all content controls in a document that are linked to the specific custom XML node in the document's XML data store as specified by the Node parameter. Read-only.
+Returns a **[ContentControls](Word.ContentControls.md)** collection that represents all content controls in a document that are linked to the specific custom XML node in the document's XML data store as specified by the Node parameter. Read-only.
 
 
 ## Syntax
 
- _expression_. `SelectLinkedControls`( `_Node_` )
+_expression_. `SelectLinkedControls`( `_Node_` )
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Parameters

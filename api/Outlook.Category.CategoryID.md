@@ -1,32 +1,31 @@
 ---
-title: Category.CategoryID Property (Outlook)
+title: Category.CategoryID property (Outlook)
 keywords: vbaol11.chm2429
 f1_keywords:
 - vbaol11.chm2429
-ms.prod: outlook
 api_name:
 - Outlook.Category.CategoryID
 ms.assetid: e75ed17a-940f-2325-8739-1367329854d2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Category.CategoryID Property (Outlook)
+# Category.CategoryID property (Outlook)
 
-Returns a  **String** value that represents the unique identifier for the **[Category](Outlook.Category.md)** object. Read-only.
+Returns a **String** value that represents the unique identifier for the **[Category](Outlook.Category.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `CategoryID`
 
-_expression_ A variable that represents a [Category](./Outlook.Category.md) object.
+_expression_ A variable that represents a [Category](Outlook.Category.md) object.
 
 
 ## Remarks
 
-Because the  **[Name](Outlook.Category.Name.md)** property of a **Category** object can be changed either programmatically or by user action, each **Category** object is uniquely identified by a globally unique identifier (GUID), assigned to the object, that can be retrieved using this property. The GUID is presented as a string using the following format:
+Because the **[Name](Outlook.Category.Name.md)** property of a **Category** object can be changed either programmatically or by user action, each **Category** object is uniquely identified by a globally unique identifier (GUID), assigned to the object, that can be retrieved using this property. The GUID is presented as a string using the following format:
 
 
 ```vb
@@ -36,7 +35,7 @@ Because the  **[Name](Outlook.Category.Name.md)** property of a **Category** obj
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays a dialog box containing the names and identifiers for each  **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
+The following Visual Basic for Applications (VBA) example displays a dialog box containing the names and identifiers for each **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
 
 
 ```vb

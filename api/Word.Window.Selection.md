@@ -3,25 +3,24 @@ title: Window.Selection property (Word)
 keywords: vbawd10.chm157417476
 f1_keywords:
 - vbawd10.chm157417476
-ms.prod: word
 api_name:
 - Word.Window.Selection
 ms.assetid: 0e6812cd-8b8a-edaf-cf72-cf899c50f92a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Window.Selection property (Word)
 
-Returns the  **Selection** object that represents a selected range or the insertion point. Read-only.
+Returns the **Selection** object that represents a selected range or the insertion point. Read-only.
 
 
 ## Syntax
 
- _expression_. `Selection`
+_expression_.**Selection**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ODSOColumn.Value property (Office)
 keywords: vbaof11.chm233004
 f1_keywords:
 - vbaof11.chm233004
-ms.prod: office
 api_name:
 - Office.ODSOColumn.Value
 ms.assetid: 87220a5a-c7e8-5ddb-9354-14afa084f242
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: TextBox.ThemeFontIndex property (Access)
 keywords: vbaac10.chm14610
 f1_keywords:
 - vbaac10.chm14610
-ms.prod: access
 api_name:
 - Access.TextBox.ThemeFontIndex
 ms.assetid: 2abe2063-4658-e441-7a7d-c4d226063172
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

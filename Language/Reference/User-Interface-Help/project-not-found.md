@@ -3,10 +3,9 @@ title: Project not found
 keywords: vblr6.chm1011254
 f1_keywords:
 - vblr6.chm1011254
-ms.prod: office
 ms.assetid: 8f31dd3d-4f7f-d398-390d-239582e0459b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

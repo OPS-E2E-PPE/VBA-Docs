@@ -3,18 +3,17 @@ title: NavigationControl.FormatConditions property (Access)
 keywords: vbaac10.chm11038
 f1_keywords:
 - vbaac10.chm11038
-ms.prod: access
 api_name:
 - Access.NavigationControl.FormatConditions
 ms.assetid: 20e921d6-e800-fc75-c93a-981815d694ab
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.FormatConditions property (Access)
 
-You can use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
+Use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
 
 
 ## Syntax

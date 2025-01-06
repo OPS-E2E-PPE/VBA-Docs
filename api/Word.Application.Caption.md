@@ -3,25 +3,24 @@ title: Application.Caption property (Word)
 keywords: vbawd10.chm158335056
 f1_keywords:
 - vbawd10.chm158335056
-ms.prod: word
 api_name:
 - Word.Application.Caption
 ms.assetid: 5554fa04-0744-400d-fd8c-2fe36d4ad9a3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.Caption property (Word)
 
-Returns or sets the text displayed in the Title bar of the application window. Read/write  **String**.
+Returns or sets the text displayed in the Title bar of the application window. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks

@@ -1,24 +1,23 @@
 ---
-title: Point.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: Point.Select method (PowerPoint)
 api_name:
 - PowerPoint.Point.Select
 ms.assetid: 824bd71d-6397-d9cd-d9b4-760e711f8859
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Point.Select Method (PowerPoint)
+# Point.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## See also

@@ -3,11 +3,10 @@ title: ChartAxis.GroupType property (Access)
 keywords: vbaac10.chm14770
 f1_keywords:
 - vbaac10.chm14770
-ms.prod: access
 api_name:
 - Access.ChartAxis.GroupType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

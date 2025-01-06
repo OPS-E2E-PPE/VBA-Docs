@@ -3,12 +3,11 @@ title: COMAddIn object (Office)
 keywords: vbaof11.chm219000
 f1_keywords:
 - vbaof11.chm219000
-ms.prod: office
 api_name:
 - Office.COMAddIn
 ms.assetid: dcaa9f0c-20fb-9f53-5f74-9ec0b1cefeea
 ms.date: 01/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,9 +26,9 @@ MsgBox Application.COMAddIns.Item("msodraa9.ShapeSelect").Description
 Use the **ProgID** property of the **COMAddin** object to return the programmatic identifier for a COM add-in, and use the **Guid** property to return the globally unique identifier (GUID) for the add-in. The following example displays the ProgID and GUID for COM add-in one in a message box.
 
 ```vb
-MsgBox "My ProgID is " &amp; _ 
- Application.COMAddIns(1).ProgID &amp; _ 
- " and my GUID is " &amp; _ 
+MsgBox "My ProgID is " & _ 
+ Application.COMAddIns(1).ProgID & _ 
+ " and my GUID is " & _ 
  Application.COMAddIns(1).Guid
 ```
 

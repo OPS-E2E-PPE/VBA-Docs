@@ -1,18 +1,17 @@
 ---
-title: VisRasterExportRotation Enumeration (Visio)
+title: VisRasterExportRotation enumeration (Visio)
 keywords: vis_sdr.chm70740
 f1_keywords:
 - vis_sdr.chm70740
-ms.prod: visio
 api_name:
 - Visio.VisRasterExportRotation
 ms.assetid: 2b83245f-9012-7d49-2667-0e3febb72264
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisRasterExportRotation Enumeration (Visio)
+# VisRasterExportRotation enumeration (Visio)
 
 
 

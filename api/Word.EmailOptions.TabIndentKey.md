@@ -3,12 +3,11 @@ title: EmailOptions.TabIndentKey property (Word)
 keywords: vbawd10.chm165347637
 f1_keywords:
 - vbawd10.chm165347637
-ms.prod: word
 api_name:
 - Word.EmailOptions.TabIndentKey
 ms.assetid: 48b79b45-5bc6-f253-acef-96f80cc68e1e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `TabIndentKey`
+_expression_. `TabIndentKey`
 
- _expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example

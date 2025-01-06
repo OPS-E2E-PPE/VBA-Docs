@@ -3,16 +3,15 @@ title: Compiler constants (VBA)
 keywords: vblr6.chm1020792
 f1_keywords:
 - vblr6.chm1020792
-ms.prod: office
 ms.assetid: bde15ce4-af30-1bbf-7d34-4cfa7e396261
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Compiler constants
 
-Visual Basic for Applications defines [constants](../../Glossary/vbe-glossary.md#constant) for exclusive use with the **[#If...Then...#Else](../../reference/user-interface-help/ifthenelse-directive.md)** directive. These constants are functionally equivalent to constants defined with the **#If...Then...#Else** directive except that they are global in [scope](../../Glossary/vbe-glossary.md#scope); that is, they apply everywhere in a [project](../../Glossary/vbe-glossary.md#project).
+Visual Basic for Applications defines [constants](../../Glossary/vbe-glossary.md#constant) for exclusive use with the **[#If...Then...#Else](../../reference/user-interface-help/ifthenelse-directive.md)** directive. These constants are functionally equivalent to constants defined with the [**#Const**](../../reference/user-interface-help/const-directive.md) directive except that they are global in [scope](../../Glossary/vbe-glossary.md#scope); that is, they apply everywhere in a [project](../../Glossary/vbe-glossary.md#project).
 
 > [!NOTE] 
 > Because **Win32** returns **True** in both 32-bit and 64-bit development platforms, it is important that the order within the **#If...Then...#Else** directive returns the desired results in your code. For example, because **Win32** returns **True** in 64-bit (**Win32** is compatible in **Win64** environments), checking for **Win32** before **Win64** results in the **Win64** condition never running because **Win32** returns **True**. The following order returns predictable results (this applies to both Winx and VBAx constants):
@@ -27,8 +26,6 @@ Visual Basic for Applications defines [constants](../../Glossary/vbe-glossary.md
 >  #End If
 >  ```
 
-<br/>
-
 On 16-bit development platforms, the compiler constants are defined as follows.
 
 |Constant|Value|Indicates that the development environment... |
@@ -36,8 +33,6 @@ On 16-bit development platforms, the compiler constants are defined as follows.
 |**Win16**|**True**|Is 16-bit compatible.|
 |**Win32**|**False**|Is not 32-bit compatible.|
 |**Win64**|**False**|Is not 64-bit compatible.|
-
-<br/>
 
 On 32-bit development platforms, the compiler constants are defined as follows.
 
@@ -53,8 +48,6 @@ On 32-bit development platforms, the compiler constants are defined as follows.
 |**Mac**|**True**|Is Macintosh.|
 |**Mac**|**False**|Is not Macintosh.|
 
-
-<br/>
 
 On 64-bit development platforms, the compiler constants are defined as follows.
 

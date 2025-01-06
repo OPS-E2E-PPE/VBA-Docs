@@ -1,18 +1,17 @@
 ---
-title: VisAutoConnectDir Enumeration (Visio)
+title: VisAutoConnectDir enumeration (Visio)
 keywords: vis_sdr.chm70505
 f1_keywords:
 - vis_sdr.chm70505
-ms.prod: visio
 ms.assetid: 369eb3bd-fbf6-b657-8999-00c1540ab2f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisAutoConnectDir Enumeration (Visio)
+# VisAutoConnectDir enumeration (Visio)
 
-Auto-connect direction constants passed to the  **Shape.AutoConnect** method.
+Auto-connect direction constants passed to the **Shape.AutoConnect** method.
 
 
 

@@ -3,18 +3,17 @@ title: CustomControl.Enabled property (Access)
 keywords: vbaac10.chm12015
 f1_keywords:
 - vbaac10.chm12015
-ms.prod: access
 api_name:
 - Access.CustomControl.Enabled
 ms.assetid: d84b19c0-173d-ffbd-dfb3-47a47709d130
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

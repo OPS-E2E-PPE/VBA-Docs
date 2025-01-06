@@ -3,25 +3,24 @@ title: HeadingStyles.Add method (Word)
 keywords: vbawd10.chm160039012
 f1_keywords:
 - vbawd10.chm160039012
-ms.prod: word
 api_name:
 - Word.HeadingStyles.Add
 ms.assetid: 1ad89871-cd73-4159-e85f-e0cdbe3633af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HeadingStyles.Add method (Word)
 
-Returns a  **HeadingStyle** object that represents a new heading style added to a document. The new heading style will be included whenever you compile a table of contents or table of figures.
+Returns a **HeadingStyle** object that represents a new heading style added to a document. The new heading style will be included whenever you compile a table of contents or table of figures.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Style_` , `_Level_` )
+_expression_.**Add** (_Style_, _Level_)
 
- _expression_ Required. A variable that represents a '[HeadingStyles](Word.headingstyles.md)' collection.
+_expression_ Required. A variable that represents a '[HeadingStyles](Word.headingstyles.md)' collection.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a  **HeadingStyle** object that represents a new heading style added to 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Style_|Required| **Variant**|The style you want to add. You can specify this argument by using either the string name for the style or a  **Style** object.|
+| _Style_|Required| **Variant**|The style you want to add. You can specify this argument by using either the string name for the style or a **Style** object.|
 | _Level_|Required| **Integer**|A number that represents the level of the heading.|
 
 ## Return value

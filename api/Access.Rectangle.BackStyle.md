@@ -3,18 +3,17 @@ title: Rectangle.BackStyle property (Access)
 keywords: vbaac10.chm10287
 f1_keywords:
 - vbaac10.chm10287
-ms.prod: access
 api_name:
 - Access.Rectangle.BackStyle
 ms.assetid: e522ef3b-b397-c931-7978-2193b3f74b14
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

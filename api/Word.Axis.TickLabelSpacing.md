@@ -3,25 +3,24 @@ title: Axis.TickLabelSpacing property (Word)
 keywords: vbawd10.chm113049651
 f1_keywords:
 - vbawd10.chm113049651
-ms.prod: word
 api_name:
 - Word.Axis.TickLabelSpacing
 ms.assetid: af49728e-6c42-7846-50da-127c855264bf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.TickLabelSpacing property (Word)
 
-Returns or sets the number of categories or series between tick-mark labels. Read/write  **Long**.
+Returns or sets the number of categories or series between tick-mark labels. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `TickLabelSpacing`
+_expression_. `TickLabelSpacing`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks

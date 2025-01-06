@@ -1,9 +1,8 @@
 ---
 title: Insert, update, and delete records from a table using Access SQL
-ms.prod: access
 ms.assetid: 0d71f4f1-efc1-127e-5edc-263a3a2a30fb
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -72,7 +71,7 @@ UPDATE tblCustomers
 
 ```
 
-In most cases, you will want to qualify the **UPDATE** statement with a **[WHERE](where-clause-microsoft-access-sql.md)** clause to limit the number of records changed.
+In most cases, you'll want to qualify the **UPDATE** statement with a **[WHERE](where-clause-microsoft-access-sql.md)** clause to limit the number of records changed.
 
 
 
@@ -104,7 +103,7 @@ DELETE FROM tblInvoices
 
 ```
 
-In most cases, you will want to qualify the **DELETE** statement with a **WHERE** clause to limit the number of records to be removed.
+In most cases, you'll want to qualify the **DELETE** statement with a **WHERE** clause to limit the number of records to be removed.
 
 
 

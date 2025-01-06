@@ -1,24 +1,23 @@
 ---
-title: SeriesCollection.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: SeriesCollection.Parent property (PowerPoint)
 api_name:
 - PowerPoint.SeriesCollection.Parent
 ms.assetid: f5d40a16-5a35-3560-1f59-ffdba6d95807
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SeriesCollection.Parent Property (PowerPoint)
+# SeriesCollection.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
+_expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
 
 
 ## See also

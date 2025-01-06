@@ -3,10 +3,9 @@ title: PageSetup.ShowGrid property (Word)
 keywords: vbawd10.chm158400640
 f1_keywords:
 - vbawd10.chm158400640
-ms.prod: word
 ms.assetid: 650613c9-0b98-8552-0a6d-c82dd2613700
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowGrid`
+_expression_. `ShowGrid`
 
- _expression_ A variable that represents a [PageSetup](./Word.PageSetup.md) object.
+_expression_ A variable that represents a [PageSetup](./Word.PageSetup.md) object.
 
 
 ## Property value

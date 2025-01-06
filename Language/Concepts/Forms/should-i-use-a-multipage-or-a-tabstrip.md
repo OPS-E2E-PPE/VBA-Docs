@@ -3,10 +3,9 @@ title: Should I use a MultiPage or a TabStrip?
 keywords: fm20.chm5225198
 f1_keywords:
 - fm20.chm5225198
-ms.prod: office
 ms.assetid: 3da861ef-58ca-1993-d661-b20c3d337673
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

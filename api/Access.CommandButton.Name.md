@@ -3,18 +3,17 @@ title: CommandButton.Name property (Access)
 keywords: vbaac10.chm10506
 f1_keywords:
 - vbaac10.chm10506
-ms.prod: access
 api_name:
 - Access.CommandButton.Name
 ms.assetid: 1e0f700c-9114-4add-4a0a-4f93266951d5
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -1,9 +1,8 @@
 ---
 title: Quotation marks in string expressions
-ms.prod: access
 ms.assetid: bb4d42ee-37cb-8fbf-0489-62fdf0706b91
 ms.date: 09/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

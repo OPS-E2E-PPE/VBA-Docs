@@ -1,27 +1,27 @@
 ---
-title: Application.CalendarDateBoxesEx Method (Project)
+title: Application.CalendarDateBoxesEx method (Project)
 keywords: vbapj.chm2148
 f1_keywords:
 - vbapj.chm2148
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CalendarDateBoxesEx
 ms.assetid: a6c1fffd-ce21-d3ef-348f-1f41b5231005
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CalendarDateBoxesEx Method (Project)
+# Application.CalendarDateBoxesEx method (Project)
 
 Customizes the top and bottom bands of date boxes in the Calendar view.
 
 
 ## Syntax
 
- _expression_. `CalendarDateBoxesEx`( `_TopLeft_`, `_TopRight_`, `_BottomLeft_`, `_BottomRight_`, `_TopColor_`, `_BottomColor_`, `_TopPattern_`, `_BottomPattern_` )
+_expression_. `CalendarDateBoxesEx`( `_TopLeft_`, `_TopRight_`, `_BottomLeft_`, `_BottomRight_`, `_TopColor_`, `_BottomColor_`, `_TopPattern_`, `_BottomPattern_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,14 +30,14 @@ Customizes the top and bottom bands of date boxes in the Calendar view.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _TopLeft_|Optional|**Long**|The format for dates in the upper-left corner of each date box. Can be one of the  **[PjCalendarDateLabel](Project.PjCalendarDateLabel.md)** constants.|
-| _TopRight_|Optional|**Long**|The format for dates in the upper-right corner of each date box. Can be one of the  **PjCalendarDateLabel** constants.|
-| _BottomLeft_|Optional|**Long**|The format for dates in the lower-left corner of each date box. Can be one of the  **PjCalendarDateLabel** constants.|
-| _BottomRight_|Optional|**Long**|The format for dates in the lower-right corner of each date box. Can be one of the  **PjCalendarDateLabel** constants.|
+| _TopLeft_|Optional|**Long**|The format for dates in the upper-left corner of each date box. Can be one of the **[PjCalendarDateLabel](Project.PjCalendarDateLabel.md)** constants.|
+| _TopRight_|Optional|**Long**|The format for dates in the upper-right corner of each date box. Can be one of the **PjCalendarDateLabel** constants.|
+| _BottomLeft_|Optional|**Long**|The format for dates in the lower-left corner of each date box. Can be one of the **PjCalendarDateLabel** constants.|
+| _BottomRight_|Optional|**Long**|The format for dates in the lower-right corner of each date box. Can be one of the **PjCalendarDateLabel** constants.|
 | _TopColor_|Optional|**Long**|The color of the top band in each date box. Can be a hexadecimal value for the RGB color, where red is the last byte. For example, the value &HFF0000 is blue and &H00FFFF is yellow.|
 | _BottomColor_|Optional|**Long**|The color of the bottom band in each date box. Can be a hexadecimal value for the RGB color.|
-| _TopPattern_|Optional|**Long**|The pattern of the top band in each date box. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
-| _BottomPattern_|Optional|**Long**|The pattern of the bottom band in each date box. Can be one of the  **PjFillPattern** constants.|
+| _TopPattern_|Optional|**Long**|The pattern of the top band in each date box. Can be one of the **[PjFillPattern](Project.PjFillPattern.md)** constants.|
+| _BottomPattern_|Optional|**Long**|The pattern of the bottom band in each date box. Can be one of the **PjFillPattern** constants.|
 
 ## Return value
 
@@ -46,7 +46,7 @@ Customizes the top and bottom bands of date boxes in the Calendar view.
 
 ## Remarks
 
-Using the  **CalendarDateBoxesEx** method without specifying any arguments displays the **Timescale** dialog box with the **Date Boxes** tab selected.
+Using the **CalendarDateBoxesEx** method without specifying any arguments displays the **Timescale** dialog box with the **Date Boxes** tab selected.
 
 
 ## Example
@@ -63,6 +63,7 @@ End Sub
 ```
 
 
- **Note**  If you use any of the  **PjColor** enumeration constants for the _TopColor_ or _BottomColor_ parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **CalendarDateBoxesEx** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[CalendarDateBoxes](Project.Application.CalendarDateBoxes.md)** method.
+> [!NOTE] 
+> If you use any of the **PjColor** enumeration constants for the _TopColor_ or _BottomColor_ parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **CalendarDateBoxesEx** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[CalendarDateBoxes](Project.Application.CalendarDateBoxes.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

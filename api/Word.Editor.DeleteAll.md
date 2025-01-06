@@ -3,12 +3,11 @@ title: Editor.DeleteAll method (Word)
 keywords: vbawd10.chm225575413
 f1_keywords:
 - vbawd10.chm225575413
-ms.prod: word
 api_name:
 - Word.Editor.DeleteAll
 ms.assetid: 81e69276-99f8-6525-2b45-c9e63feb1c53
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Deletes all editing permissions in a document for a specific user.
 
 ## Syntax
 
- _expression_. `DeleteAll`
+_expression_.**DeleteAll**
 
- _expression_ Required. A variable that represents an '[Editor](Word.Editor.md)' object.
+_expression_ Required. A variable that represents an '[Editor](Word.Editor.md)' object.
 
 
 ## Example
 
-The following example deletes all editing permissions for the first user in the  **Editors** collection in the active document.
+The following example deletes all editing permissions for the first user in the **Editors** collection in the active document.
 
 
 ```vb

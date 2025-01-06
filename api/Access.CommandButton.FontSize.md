@@ -3,18 +3,17 @@ title: CommandButton.FontSize property (Access)
 keywords: vbaac10.chm10473
 f1_keywords:
 - vbaac10.chm10473
-ms.prod: access
 api_name:
 - Access.CommandButton.FontSize
 ms.assetid: 3ceff45a-fe5d-f692-7ad3-ab20143e12fc
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.FontSize property (Access)
 
-You can use the **FontSize** property to specify the point size for text in the following situations:
+Use the **FontSize** property to specify the point size for text in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

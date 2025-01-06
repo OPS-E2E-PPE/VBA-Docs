@@ -3,12 +3,11 @@ title: Selection.InStory method (Word)
 keywords: vbawd10.chm158662781
 f1_keywords:
 - vbawd10.chm158662781
-ms.prod: word
 api_name:
 - Word.Selection.InStory
 ms.assetid: 29dae109-4361-f1ee-eb71-76f57ae186a3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `InStory`( `_Range_` )
+_expression_. `InStory`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

@@ -1,29 +1,29 @@
 ---
-title: Project.AutoAddResources Property (Project)
-ms.prod: project-server
+title: Project.AutoAddResources property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.AutoAddResources
 ms.assetid: b8e048f8-5bc1-740f-d397-e6f0ddf77a3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.AutoAddResources Property (Project)
+# Project.AutoAddResources property (Project)
 
  **True** if new resources are automatically created as they are assigned. **False** if Project prompts before creating new resources. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `AutoAddResources`
+_expression_. `AutoAddResources`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The following example prompts the user to set the  **AutoAddResources**, **AutoCalculate**, **AutoLinkTasks**, **AutoSplitTasks**, and **AutoTrack** properties.
+The following example prompts the user to set the **AutoAddResources**, **AutoCalculate**, **AutoLinkTasks**, **AutoSplitTasks**, and **AutoTrack** properties.
 
 
 ```vb

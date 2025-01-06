@@ -1,10 +1,9 @@
 ---
 title: VBA Glossary
-ms.prod: office
 ms.assetid: 7ce2c60f-29fb-96e2-2516-73c99a6e7cff
 description: Glossary of terms for Visual Basic for Applications (VBA).
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -43,7 +42,7 @@ A unique number or string that corresponds to a specific object in an applicatio
 
 ## control group
 
-A set of controls that are conceptually or logically related. Controls that are conceptually related are usually viewed together but do not necessarily affect each other. Controls that are logically related affect each other. For example, setting one button in a group of option buttons sets the value of all other buttons in the group to **False**.
+A set of controls that are conceptually or logically related. Controls that are conceptually related are usually viewed together but don't necessarily affect each other. Controls that are logically related affect each other. For example, setting one button in a group of option buttons sets the value of all other buttons in the group to **False**.
 
 
 ## control tip

@@ -1,32 +1,31 @@
 ---
-title: ColorEffect.By Property (PowerPoint)
+title: ColorEffect.By property (PowerPoint)
 keywords: vbapp10.chm659003
 f1_keywords:
 - vbapp10.chm659003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorEffect.By
 ms.assetid: f0b841f0-694b-7cf0-fe71-1e54d840c099
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorEffect.By Property (PowerPoint)
+# ColorEffect.By property (PowerPoint)
 
-Returns a  **ColorFormat** object that represents a change to the color of the object by the specified number, expressed in RGB format. Read-only.
+Returns a **ColorFormat** object that represents a change to the color of the object by the specified number, expressed in RGB format. Read-only.
 
 
 ## Syntax
 
- _expression_. `By`
+_expression_. `By`
 
-_expression_ A variable that represents a [ColorEffect](./PowerPoint.ColorEffect.md) object.
+_expression_ A variable that represents a [ColorEffect](PowerPoint.ColorEffect.md) object.
 
 
 ## Remarks
 
-Do not confuse this property with the  **ByX** or **ByY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
+Do not confuse this property with the **ByX** or **ByY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
 
 
 ## Example

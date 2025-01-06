@@ -1,22 +1,21 @@
 ---
-title: ChartGroups.Creator Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroups.Creator property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroups.Creator
 ms.assetid: 6c3f50b0-9877-220a-26cc-3fb94765535a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroups.Creator Property (PowerPoint)
+# ChartGroups.Creator property (PowerPoint)
 
-Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only  **Long**.
+Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `Creator`
+_expression_.**Creator**
 
 _expression_ A variable that represents a '[ChartGroups](PowerPoint.ChartGroups.md)' object.
 

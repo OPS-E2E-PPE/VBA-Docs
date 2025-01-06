@@ -3,25 +3,24 @@ title: Hyperlink.Target property (Word)
 keywords: vbawd10.chm161285109
 f1_keywords:
 - vbawd10.chm161285109
-ms.prod: word
 api_name:
 - Word.Hyperlink.Target
 ms.assetid: 2a36ec74-fcfd-9000-8229-dcd01b8f7757
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Hyperlink.Target property (Word)
 
-Returns or sets the name of the frame or window in which to load the hyperlink. Read/write  **String**.
+Returns or sets the name of the frame or window in which to load the hyperlink. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Target`
+_expression_. `Target`
 
- _expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
+_expression_ Required. A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
 
 
 ## Example

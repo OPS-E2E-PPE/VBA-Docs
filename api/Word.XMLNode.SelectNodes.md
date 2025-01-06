@@ -3,23 +3,22 @@ title: XMLNode.SelectNodes method (Word)
 keywords: vbawd10.chm37748755
 f1_keywords:
 - vbawd10.chm37748755
-ms.prod: word
 api_name:
 - Word.XMLNode.SelectNodes
 ms.assetid: a72d1693-a5da-bf97-179f-4fba2412c4ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.SelectNodes method (Word)
 
-Returns an  **[XMLNodes](Word.XMLNodes.md)** collection that represents all the child elements that match the XPath parameter, in the order in which they appear within the specified XML element.
+Returns an **[XMLNodes](Word.XMLNodes.md)** collection that represents all the child elements that match the XPath parameter, in the order in which they appear within the specified XML element.
 
 
 ## Syntax
 
- _expression_. `SelectNodes`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
+_expression_. `SelectNodes`( `_XPath_` , `_PrefixMapping_` , `_FastSearchSkippingTextNodes_` )
 
  _expression_ An expression that returns an '[XMLNode](Word.XMLNode.md)' object.
 

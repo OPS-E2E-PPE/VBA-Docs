@@ -1,24 +1,23 @@
 ---
-title: LegendKey.MarkerForegroundColorIndex Property (PowerPoint)
-ms.prod: powerpoint
+title: LegendKey.MarkerForegroundColorIndex property (PowerPoint)
 api_name:
 - PowerPoint.LegendKey.MarkerForegroundColorIndex
 ms.assetid: 47760c8c-a791-fac5-a5cc-d91c59221026
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendKey.MarkerForegroundColorIndex Property (PowerPoint)
+# LegendKey.MarkerForegroundColorIndex property (PowerPoint)
 
-Returns or sets the marker foreground color as an index into the current color palette, or as one of the following  **[xlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
+Returns or sets the marker foreground color as an index into the current color palette, or as one of the following **[XlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `MarkerForegroundColorIndex`
+_expression_.**MarkerForegroundColorIndex**
 
- _expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
+_expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
 
 
 ## Remarks

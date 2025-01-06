@@ -3,12 +3,11 @@ title: Options.PrintFieldCodes property (Word)
 keywords: vbawd10.chm162988064
 f1_keywords:
 - vbawd10.chm162988064
-ms.prod: word
 api_name:
 - Word.Options.PrintFieldCodes
 ms.assetid: f9b69b6a-2362-0370-888b-61a566803186
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintFieldCodes`
+_expression_. `PrintFieldCodes`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.PrintFieldCodes = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Field codes** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Field codes** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

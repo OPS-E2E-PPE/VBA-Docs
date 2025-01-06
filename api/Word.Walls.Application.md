@@ -3,30 +3,29 @@ title: Walls.Application property (Word)
 keywords: vbawd10.chm25165972
 f1_keywords:
 - vbawd10.chm25165972
-ms.prod: word
 api_name:
 - Word.Walls.Application
 ms.assetid: 547f844c-a5d5-1e6a-49f7-513cf96a69cc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Walls.Application property (Word)
 
-When used without an object qualifier, returns an  **[Application](Word.Application.md)** object that represents the Microsoft Word application. When used with an object qualifier, returns an **Application** object that represents the creator of the specified object (you can use this property with an Automation object to return the application of that object). Read-only.
+When used without an object qualifier, returns an **[Application](Word.Application.md)** object that represents the Microsoft Word application. When used with an object qualifier, returns an **Application** object that represents the creator of the specified object (you can use this property with an Automation object to return the application of that object). Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a '[Walls](Word.Walls.md)' object.
+_expression_ A variable that represents a **[Walls](Word.Walls.md)** object.
 
 
 ## Example
 
-The following example displays a message about the application that created  `myObject`.
+The following example displays a message about the application that created _myObject_.
 
 
 ```vb

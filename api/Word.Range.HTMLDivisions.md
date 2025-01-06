@@ -3,25 +3,24 @@ title: Range.HTMLDivisions property (Word)
 keywords: vbawd10.chm157155734
 f1_keywords:
 - vbawd10.chm157155734
-ms.prod: word
 api_name:
 - Word.Range.HTMLDivisions
 ms.assetid: 4712d81f-7028-357b-a7ff-dc4f382cc5e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.HTMLDivisions property (Word)
 
-Returns an  **HTMLDivisions** object that represents an HTML division in a Web document.
+Returns an **HTMLDivisions** object that represents an HTML division in a web document.
 
 
 ## Syntax
 
- _expression_. `HTMLDivisions`
+_expression_. `HTMLDivisions`
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

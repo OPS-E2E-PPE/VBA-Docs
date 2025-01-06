@@ -3,18 +3,17 @@ title: BoundObjectFrame.Enabled property (Access)
 keywords: vbaac10.chm10923
 f1_keywords:
 - vbaac10.chm10923
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.Enabled
 ms.assetid: 58b19f0d-8460-0a51-739f-9fae5de20901
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.Enabled property (Access)
 
-You can use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
+Use the **Enabled** property to set or return the status of the conditional format in the **[FormatCondition](Access.FormatCondition.md)** object. Read/write **Boolean**.
 
 
 ## Syntax

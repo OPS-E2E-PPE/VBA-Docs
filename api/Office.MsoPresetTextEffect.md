@@ -1,19 +1,16 @@
 ---
 title: MsoPresetTextEffect enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoPresetTextEffect
 ms.assetid: 56a7008d-ce2c-f127-56de-851cb8fef44f
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoPresetTextEffect enumeration (Office)
 
 Specifies what text effect to use on a **WordArt** object. Refer to the **WordArt Gallery** dialog box in any Microsoft Office product that supports WordArt to see a preview of each effect. The values of the **MsoPresetTextEffect** constants correspond to the formats listed in the **WordArt Gallery** dialog box (numbered from left to right and from top to bottom).
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

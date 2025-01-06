@@ -1,15 +1,14 @@
 ---
 title: Filtering Items Using a Variable
-ms.prod: outlook
 ms.assetid: 4be50a96-a27e-ecbf-1f19-b8825a33c2eb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Filtering Items Using a Variable
 
-You can use values from variables as part of a filter in Microsoft Jet syntax or DAV Searching and Locating (DASL) syntax. The following example illustrates the use of variables as part of a filter: 
+Use values from variables as part of a filter in Microsoft Jet syntax or DAV Searching and Locating (DASL) syntax. The following example illustrates the use of variables as part of a filter: 
 
 
 ```vb

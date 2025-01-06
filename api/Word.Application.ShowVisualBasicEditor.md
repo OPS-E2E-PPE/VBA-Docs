@@ -3,12 +3,11 @@ title: Application.ShowVisualBasicEditor property (Word)
 keywords: vbawd10.chm158335082
 f1_keywords:
 - vbawd10.chm158335082
-ms.prod: word
 api_name:
 - Word.Application.ShowVisualBasicEditor
 ms.assetid: eb0a9d3f-3eba-f7fb-2939-a7274744b4b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowVisualBasicEditor`
+_expression_. `ShowVisualBasicEditor`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

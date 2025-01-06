@@ -3,30 +3,29 @@ title: PictureFormat.CropBottom property (Word)
 keywords: vbawd10.chm164298855
 f1_keywords:
 - vbawd10.chm164298855
-ms.prod: word
 api_name:
 - Word.PictureFormat.CropBottom
 ms.assetid: f7cf6d4a-cc95-f595-9382-1daf4e0cf8de
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PictureFormat.CropBottom property (Word)
 
-Returns or sets the number of points that are cropped off the bottom of the specified picture or OLE object. Read/write  **Single**.
+Returns or sets the number of points that are cropped off the bottom of the specified picture or OLE object. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `CropBottom`
+_expression_.**CropBottom**
 
- _expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
+_expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the  **CropBottom** property to 50, 100 points (not 50) will be cropped off the bottom of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the **CropBottom** property to 50, 100 points (not 50) will be cropped off the bottom of your picture.
 
 
 ## Example

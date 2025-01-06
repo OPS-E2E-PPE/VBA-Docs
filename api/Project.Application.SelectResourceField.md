@@ -1,27 +1,27 @@
 ---
-title: Application.SelectResourceField Method (Project)
+title: Application.SelectResourceField method (Project)
 keywords: vbapj.chm2064
 f1_keywords:
 - vbapj.chm2064
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectResourceField
 ms.assetid: 6942d5a5-4072-4a95-f2b7-33bf965e302f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectResourceField Method (Project)
+# Application.SelectResourceField method (Project)
 
 Selects a resource field.
 
 
 ## Syntax
 
- _expression_. `SelectResourceField`( `_Row_`, `_Column_`, `_RowRelative_`, `_Width_`, `_Height_`, `_Extend_`, `_Add_` )
+_expression_. `SelectResourceField`( `_Row_`, `_Column_`, `_RowRelative_`, `_Width_`, `_Height_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -45,7 +45,7 @@ Selects a resource field.
 
 ## Example
 
-The following example selects the  **Name** column and the next two columns of the third and fourth rows.
+The following example selects the **Name** column and the next two columns of the third and fourth rows.
 
 
 ```vb

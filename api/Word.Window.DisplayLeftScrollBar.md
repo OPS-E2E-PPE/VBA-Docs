@@ -3,12 +3,11 @@ title: Window.DisplayLeftScrollBar property (Word)
 keywords: vbawd10.chm157417506
 f1_keywords:
 - vbawd10.chm157417506
-ms.prod: word
 api_name:
 - Word.Window.DisplayLeftScrollBar
 ms.assetid: 4f9be094-144c-cb4a-20e8-b3dc550a6bd0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayLeftScrollBar`
+_expression_. `DisplayLeftScrollBar`
 
- _expression_ An expression that returns a '[Window](Word.Window.md)' object.
+ _expression_ An expression that returns a **[Window](Word.Window.md)** object.
 
 
 ## Example

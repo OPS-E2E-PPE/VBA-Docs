@@ -3,18 +3,17 @@ title: Image.DisplayWhen property (Access)
 keywords: vbaac10.chm10375
 f1_keywords:
 - vbaac10.chm10375
-ms.prod: access
 api_name:
 - Access.Image.DisplayWhen
 ms.assetid: 35638607-44a6-b16a-3b58-6490965e528e
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Image.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

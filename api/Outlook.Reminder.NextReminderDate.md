@@ -1,37 +1,36 @@
 ---
-title: Reminder.NextReminderDate Property (Outlook)
+title: Reminder.NextReminderDate property (Outlook)
 keywords: vbaol11.chm563
 f1_keywords:
 - vbaol11.chm563
-ms.prod: outlook
 api_name:
 - Outlook.Reminder.NextReminderDate
 ms.assetid: c88a2606-fe30-d8c1-b16f-fd07b5596895
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reminder.NextReminderDate Property (Outlook)
+# Reminder.NextReminderDate property (Outlook)
 
-Returns a  **Date** that indicates the next time the specified reminder will occur. Read-only.
+Returns a **Date** that indicates the next time the specified reminder will occur. Read-only.
 
 
 ## Syntax
 
 _expression_. `NextReminderDate`
 
-_expression_ A variable that represents a [Reminder](./Outlook.Reminder.md) object.
+_expression_ A variable that represents a [Reminder](Outlook.Reminder.md) object.
 
 
 ## Remarks
 
-The  **NextReminderDate** property value changes every time the object's **[Snooze](Outlook.Reminder.Snooze.md)** method is executed or when the user clicks the **Snooze** button.
+The **NextReminderDate** property value changes every time the object's **[Snooze](Outlook.Reminder.Snooze.md)** method is executed or when the user clicks the **Snooze** button.
 
 
 ## Example
 
-The following example creates a report of all reminders in the collection and the dates when they will next occur. The subroutine concatenates the  **[Caption](Outlook.Reminder.Caption.md)** and **NextReminderDate** properties into a string and displays the string in a dialog box.
+The following example creates a report of all reminders in the collection and the dates when they will next occur. The subroutine concatenates the **[Caption](Outlook.Reminder.Caption.md)** and **NextReminderDate** properties into a string and displays the string in a dialog box.
 
 
 ```vb

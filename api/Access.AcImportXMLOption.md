@@ -3,20 +3,17 @@ title: AcImportXMLOption enumeration (Access)
 keywords: vbaac10.chm13249
 f1_keywords:
 - vbaac10.chm13249
-ms.prod: access
 api_name:
 - Access.AcImportXMLOption
 ms.assetid: f51b40cc-b8bb-addd-2bc6-5a0300e2cc2a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcImportXMLOption enumeration (Access)
 
 Specifies the action to take when using the [Application.ImportXML method (Access)](Access.Application.ImportXML.md) method to import data from an XML file.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -3,12 +3,11 @@ title: Document.IsMasterDocument property (Word)
 keywords: vbawd10.chm158007342
 f1_keywords:
 - vbawd10.chm158007342
-ms.prod: word
 api_name:
 - Word.Document.IsMasterDocument
 ms.assetid: fadf30e4-9a35-40ef-0b89-ebd981577624
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsMasterDocument`
+_expression_. `IsMasterDocument`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks

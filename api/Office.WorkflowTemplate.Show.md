@@ -3,12 +3,11 @@ title: WorkflowTemplate.Show method (Office)
 keywords: vbaof11.chm282006
 f1_keywords:
 - vbaof11.chm282006
-ms.prod: office
 api_name:
 - Office.WorkflowTemplate.Show
 ms.assetid: aa4780b5-f3bd-431f-8cb3-20c6058ebc5a
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

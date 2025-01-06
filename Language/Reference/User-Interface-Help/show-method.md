@@ -3,12 +3,11 @@ title: Show method (Visual Basic for Applications)
 keywords: vblr6.chm916142
 f1_keywords:
 - vblr6.chm916142
-ms.prod: office
 api_name:
 - Office.Show
 ms.assetid: 25d05f62-8901-5592-00e0-ca7c340dfb86
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Displays a **[UserForm](userform-window.md)** object.
 ## Syntax
 
 [ _object_ ].**Show** _modal_
-
-<br/>
 
 The **Show** method syntax has these parts:
 
@@ -45,7 +42,7 @@ If the specified object isn't loaded when the **Show** method is invoked, Visual
 > [!NOTE] 
 > In Microsoft Office 97, if a **UserForm** is set to display as modeless, it causes a run-time error; Office 97 **UserForms** are always modal.
 
-When a **UserForm** is modeless, subsequent code is executed as it is encountered. Modeless forms do not appear in the task bar and are not in the window tab order.
+When a **UserForm** is modeless, subsequent code is executed as it is encountered. Modeless forms don't appear in the task bar and are not in the window tab order.
 
 > [!NOTE] 
 > You may lose data associated with a modeless **UserForm** if you make a change to the **UserForm** project that causes it to recompile, for example, removing a code module.

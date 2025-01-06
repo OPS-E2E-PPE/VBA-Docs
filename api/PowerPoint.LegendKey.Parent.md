@@ -1,24 +1,23 @@
 ---
-title: LegendKey.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: LegendKey.Parent property (PowerPoint)
 api_name:
 - PowerPoint.LegendKey.Parent
 ms.assetid: aaf91d7a-ccff-8517-1afb-5ca47bb5ac42
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendKey.Parent Property (PowerPoint)
+# LegendKey.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
+_expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
 
 
 ## See also

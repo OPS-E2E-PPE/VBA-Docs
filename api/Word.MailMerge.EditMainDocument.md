@@ -3,12 +3,11 @@ title: MailMerge.EditMainDocument method (Word)
 keywords: vbawd10.chm153092205
 f1_keywords:
 - vbawd10.chm153092205
-ms.prod: word
 api_name:
 - Word.MailMerge.EditMainDocument
 ms.assetid: 06ef9288-9434-7e75-ca6c-75c21fffd6b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ Activates the mail merge main document associated with the specified header sour
 
 ## Syntax
 
- _expression_. `EditMainDocument`
+_expression_. `EditMainDocument`
 
- _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
+_expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
 ## Remarks
 
-If the main document isn't open, an error occurs. Use the  **Open** method if the main document isn't currently open.
+If the main document isn't open, an error occurs. Use the **Open** method if the main document isn't currently open.
 
 
 ## Example
 
-This example attempts to activate the main document associated with the active data source document. If the main document isn't open, the  **Open** dialog box is displayed, with a message in the status bar.
+This example attempts to activate the main document associated with the active data source document. If the main document isn't open, the **Open** dialog box is displayed, with a message in the status bar.
 
 
 ```vb

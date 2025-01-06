@@ -3,12 +3,11 @@ title: Find.ClearAllFuzzyOptions method (Word)
 keywords: vbawd10.chm162529313
 f1_keywords:
 - vbawd10.chm162529313
-ms.prod: word
 api_name:
 - Word.Find.ClearAllFuzzyOptions
 ms.assetid: cf0b33a4-bfcc-36f9-e4b4-b98b3c628c0d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Clears all nonspecific search options associated with Japanese text.
 
 ## Syntax
 
- _expression_. `ClearAllFuzzyOptions`
+_expression_. `ClearAllFuzzyOptions`
 
- _expression_ Required. A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ Required. A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Remarks
 
-This method sets the following properties to  **False** :
+This method sets the following properties to **False** :
 
 
 

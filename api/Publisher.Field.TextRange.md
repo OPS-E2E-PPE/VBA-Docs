@@ -1,33 +1,31 @@
 ---
-title: Field.TextRange Property (Publisher)
+title: Field.TextRange property (Publisher)
 keywords: vbapb10.chm6094852
 f1_keywords:
 - vbapb10.chm6094852
-ms.prod: publisher
 api_name:
 - Publisher.Field.TextRange
 ms.assetid: 09279cc7-3911-3b8d-51f2-b26494220c68
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/07/2019
+ms.localizationpriority: medium
 ---
 
 
-# Field.TextRange Property (Publisher)
+# Field.TextRange property (Publisher)
 
-Returns a  **[TextRange](Publisher.TextRange.md)** object that represents the text that is attached to a shape and properties and methods for manipulating the text.
+Returns a **[TextRange](Publisher.TextRange.md)** object that represents the text that is attached to a shape and properties and methods for manipulating the text.
 
 
 ## Syntax
 
- _expression_. **TextRange**
+_expression_.**TextRange**
 
- _expression_ A variable that represents a  **Field** object.
+_expression_ A variable that represents a **[Field](Publisher.Field.md)** object.
 
 
 ## Example
 
-The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes there is at least one shape on the first page of the active publication.
-
+The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes that there is at least one shape on the first page of the active publication.
 
 ```vb
 Sub AddTextToTextFrame() 
@@ -42,10 +40,9 @@ Sub AddTextToTextFrame()
 End Sub
 ```
 
+<br/>
+
 The following example adds a rectangle to the active publication and adds text to it.
-
-
-
 
 ```vb
 Sub AddTextToShape() 

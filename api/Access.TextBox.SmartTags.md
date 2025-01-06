@@ -3,12 +3,11 @@ title: TextBox.SmartTags property (Access)
 keywords: vbaac10.chm11148
 f1_keywords:
 - vbaac10.chm11148
-ms.prod: access
 api_name:
 - Access.TextBox.SmartTags
 ms.assetid: 200175d1-78a2-3036-72ba-4a85dfc21864
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

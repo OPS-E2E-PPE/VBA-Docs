@@ -1,27 +1,26 @@
 ---
-title: SoundEffect.Parent Property (PowerPoint)
+title: SoundEffect.Parent property (PowerPoint)
 keywords: vbapp10.chm540002
 f1_keywords:
 - vbapp10.chm540002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SoundEffect.Parent
 ms.assetid: 1a00d850-733d-3ec7-8d37-24cd869a3f3b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SoundEffect.Parent Property (PowerPoint)
+# SoundEffect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [SoundEffect](./PowerPoint.SoundEffect.md) object.
+_expression_ A variable that represents a [SoundEffect](PowerPoint.SoundEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

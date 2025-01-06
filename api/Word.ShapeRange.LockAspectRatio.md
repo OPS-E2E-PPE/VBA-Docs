@@ -3,12 +3,11 @@ title: ShapeRange.LockAspectRatio property (Word)
 keywords: vbawd10.chm162857073
 f1_keywords:
 - vbawd10.chm162857073
-ms.prod: word
 api_name:
 - Word.ShapeRange.LockAspectRatio
 ms.assetid: a46aad1a-9e70-a312-37e3-7c272dc98045
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LockAspectRatio`
+_expression_.**LockAspectRatio**
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## See also

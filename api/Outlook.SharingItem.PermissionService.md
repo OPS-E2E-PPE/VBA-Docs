@@ -1,27 +1,26 @@
 ---
-title: SharingItem.PermissionService Property (Outlook)
+title: SharingItem.PermissionService property (Outlook)
 keywords: vbaol11.chm690
 f1_keywords:
 - vbaol11.chm690
-ms.prod: outlook
 api_name:
 - Outlook.SharingItem.PermissionService
 ms.assetid: ef50051d-420f-21db-af30-02a7d01896b6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SharingItem.PermissionService Property (Outlook)
+# SharingItem.PermissionService property (Outlook)
 
-Sets or returns an  **[OlPermissionService](Outlook.OlPermissionService.md)** constant that determines the permission service that will be used when sending a **[SharingItem](Outlook.SharingItem.md)** protected by Information Rights Management (IRM). Read/write.
+Sets or returns an **[OlPermissionService](Outlook.OlPermissionService.md)** constant that determines the permission service that will be used when sending a **[SharingItem](Outlook.SharingItem.md)** protected by Information Rights Management (IRM). Read/write.
 
 
 ## Syntax
 
 _expression_. `PermissionService`
 
-_expression_ A variable that represents a [SharingItem](./Outlook.SharingItem.md) object.
+_expression_ A variable that represents a [SharingItem](Outlook.SharingItem.md) object.
 
 
 ## Remarks

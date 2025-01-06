@@ -3,12 +3,11 @@ title: FormField.Enabled property (Word)
 keywords: vbawd10.chm153616393
 f1_keywords:
 - vbawd10.chm153616393
-ms.prod: word
 api_name:
 - Word.FormField.Enabled
 ms.assetid: 1002dfdd-387e-9c44-27aa-c855e78784bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Enabled**
+_expression_.**Enabled**
 
  _expression_ An expression that represents a '[FormField](Word.FormField.md)' object.
 

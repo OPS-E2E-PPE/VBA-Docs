@@ -1,24 +1,24 @@
 ---
-title: Resource.Hyperlink Property (Project)
-ms.prod: project-server
+title: Resource.Hyperlink property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Hyperlink
 ms.assetid: 6ca08bee-46a8-9da3-29db-54d05cfe33ce
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Hyperlink Property (Project)
+# Resource.Hyperlink property (Project)
 
-Gets or sets a friendly name representing a hyperlink address. The name may also be a URL or UNC path. Read/write  **String**.
+Gets or sets a friendly name representing a hyperlink address. The name may also be a URL or UNC path. Read/write **String**.
 
 
 ## Syntax
 
- _expression_.**Hyperlink**
+_expression_.**Hyperlink**
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Example

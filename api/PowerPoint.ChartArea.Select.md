@@ -1,22 +1,21 @@
 ---
-title: ChartArea.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: ChartArea.Select method (PowerPoint)
 api_name:
 - PowerPoint.ChartArea.Select
 ms.assetid: 6bb2d068-3a9e-f8d9-41e5-882a2b72b218
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartArea.Select Method (PowerPoint)
+# ChartArea.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
 _expression_ A variable that represents a '[ChartArea](PowerPoint.ChartArea.md)' object.
 

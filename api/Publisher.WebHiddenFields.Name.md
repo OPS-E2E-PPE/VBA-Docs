@@ -1,36 +1,33 @@
 ---
-title: WebHiddenFields.Name Method (Publisher)
+title: WebHiddenFields.Name method (Publisher)
 keywords: vbapb10.chm3997703
 f1_keywords:
 - vbapb10.chm3997703
-ms.prod: publisher
 api_name:
 - Publisher.WebHiddenFields.Name
 ms.assetid: 9dade2c9-6f6b-8686-90fa-a41c8bb6dfa2
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebHiddenFields.Name Method (Publisher)
+# WebHiddenFields.Name method (Publisher)
 
-Returns a  **String** that represents the name of a hidden Web field for a Web command button.
+Returns a **String** that represents the name of a hidden web field for a web command button.
 
 
 ## Syntax
 
- _expression_. **Name**(**_Index_**)
+_expression_.**Name** (_Index_)
 
- _expression_ A variable that represents a  **WebHiddenFields** object.
+_expression_ A variable that represents a **[WebHiddenFields](Publisher.WebHiddenFields.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Long**|The index number of the hidden field.|
+|_Index_|Required| **Long**|The index number of the hidden field.|
 
 ## Return value
 
@@ -39,8 +36,7 @@ String
 
 ## Example
 
-This example creates a Web command button with a hidden field, then displays the field's name.
-
+This example creates a web command button with a hidden field, and then displays the field's name.
 
 ```vb
 Sub GetHiddenWebFieldName() 

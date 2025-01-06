@@ -3,44 +3,33 @@ title: CalloutFormat.Accent property (Excel)
 keywords: vbaxl10.chm104006
 f1_keywords:
 - vbaxl10.chm104006
-ms.prod: excel
 api_name:
 - Excel.CalloutFormat.Accent
 ms.assetid: 9dce6821-47df-174d-c7f3-7edad9fcf77d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
 # CalloutFormat.Accent property (Excel)
 
-Allows the user to place a vertical accent bar to separate the callout text from the callout line. Read/write  **[MsoTriState](Office.MsoTriState.md)**.
+Allows the user to place a vertical accent bar to separate the callout text from the callout line. Read/write **[MsoTriState](Office.MsoTriState.md)**.
 
 
 ## Syntax
 
-_expression_. `Accent`
+_expression_.**Accent**
 
-_expression_ A variable that represents a [CalloutFormat](Excel.CalloutFormat.md) object.
+_expression_ A variable that represents a **[CalloutFormat](Excel.CalloutFormat.md)** object.
 
 
 ## Remarks
 
-
-
-
-
-| **MsoTriState** can be one of these **MsoTriState** constants.|
-| **msoCTrue**|
-| **msoFalse**|
-| **msoTriStateMixed**|
-| **msoTriStateToggle**|
-| **msoTrue**. A vertical accent bar separates the callout text from the callout line.|
+A vertical accent bar separates the callout text from the callout line.
 
 ## Example
 
-This example adds to  `myDocument` an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
-
+This example adds to _myDocument_ an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -57,9 +46,6 @@ End With
 ```
 
 
-## See also
 
-
-[CalloutFormat Object](Excel.CalloutFormat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

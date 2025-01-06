@@ -3,18 +3,17 @@ title: Control.Dropdown method (Access)
 keywords: vbaac10.chm10135
 f1_keywords:
 - vbaac10.chm10135
-ms.prod: access
 api_name:
 - Access.Control.Dropdown
 ms.assetid: 45957d42-3e81-f7eb-9579-e5e75c833f59
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Control.Dropdown method (Access)
 
-You can use the **Dropdown** method to force the list in the specified combo box to drop down.
+Use the **Dropdown** method to force the list in the specified combo box to drop down.
 
 
 ## Syntax

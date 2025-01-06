@@ -1,27 +1,26 @@
 ---
-title: CardView.Class Property (Outlook)
+title: CardView.Class property (Outlook)
 keywords: vbaol11.chm2580
 f1_keywords:
 - vbaol11.chm2580
-ms.prod: outlook
 api_name:
 - Outlook.CardView.Class
 ms.assetid: f2459359-ac20-4e35-acd8-f7269d35f829
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CardView.Class Property (Outlook)
+# CardView.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
 
 
 ## Syntax
 
 _expression_.**Class**
 
-_expression_ A variable that represents a [CardView](./Outlook.CardView.md) object.
+_expression_ A variable that represents a [CardView](Outlook.CardView.md) object.
 
 
 ## See also

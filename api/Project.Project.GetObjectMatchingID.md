@@ -1,27 +1,27 @@
 ---
-title: Project.GetObjectMatchingID Method (Project)
+title: Project.GetObjectMatchingID method (Project)
 keywords: vbapj.chm132294
 f1_keywords:
 - vbapj.chm132294
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.GetObjectMatchingID
 ms.assetid: 6e20f9a9-2090-6ea5-e476-70652e866cdf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.GetObjectMatchingID Method (Project)
+# Project.GetObjectMatchingID method (Project)
 
 Returns the matching identification name of an object.
 
 
 ## Syntax
 
- _expression_. `GetObjectMatchingID`( `_ObjectType_`, `_ObjectName_` )
+_expression_. `GetObjectMatchingID`( `_ObjectType_`, `_ObjectName_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Returns the matching identification name of an object.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ObjectType_|Required|**Long**|The type of object. Can be one of the  **[PjOrganizer](Project.PjOrganizer.md)** constants.|
+| _ObjectType_|Required|**Long**|The type of object. Can be one of the **[PjOrganizer](Project.PjOrganizer.md)** constants.|
 | _ObjectName_|Required|**String**|Display name of the object.|
 
 ## Return value
@@ -40,7 +40,7 @@ Returns the matching identification name of an object.
 
 ## Remarks
 
-You can use the  **GetObjectMatchingID** method to get the display name in a multilanguage environment that uses Object Matching Identifier (OMID) fields. For more information, see the **[UseOMIDs](Project.Application.UseOMIDs.md)** property.
+Use the **GetObjectMatchingID** method to get the display name in a multilanguage environment that uses Object Matching Identifier (OMID) fields. For more information, see the **[UseOMIDs](Project.Application.UseOMIDs.md)** property.
 
 
 ## Example

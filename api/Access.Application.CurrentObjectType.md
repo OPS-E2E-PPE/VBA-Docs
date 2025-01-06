@@ -3,18 +3,17 @@ title: Application.CurrentObjectType property (Access)
 keywords: vbaac10.chm12501
 f1_keywords:
 - vbaac10.chm12501
-ms.prod: access
 api_name:
 - Access.Application.CurrentObjectType
 ms.assetid: 10065578-b218-8b83-f210-056922a57c4b
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CurrentObjectType property (Access)
 
-You can use the **CurrentObjectType** property together with the **[Application](Access.Application.md)** object to determine the type of the active database object (table, query, form, report, macro, module, server view, database diagram, or stored procedure). The active database object is the object that has the focus or in which code is running. Read-only **[AcObjectType](Access.AcObjectType.md)**.
+Use the **CurrentObjectType** property together with the **[Application](Access.Application.md)** object to determine the type of the active database object (table, query, form, report, macro, module, server view, database diagram, or stored procedure). The active database object is the object that has the focus or in which code is running. Read-only **[AcObjectType](Access.AcObjectType.md)**.
 
 
 ## Syntax
@@ -38,7 +37,7 @@ The following conditions determine which object is considered the active object:
     
 - If the current state is ambiguous (the active object isn't a table, query, form, report, macro, or module), for example, if a dialog box has the focus, the **CurrentObjectType** property returns **True**.
     
-You can use this property with the **[SysCmd](Access.Application.SysCmd.md)** method to determine the active object and its state (for example, if the object is open, new, or has been changed but not saved).
+Use this property with the **[SysCmd](Access.Application.SysCmd.md)** method to determine the active object and its state (for example, if the object is open, new, or has been changed but not saved).
 
 
 ## Example

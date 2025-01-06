@@ -3,10 +3,9 @@ title: ScrollHeight, ScrollWidth properties
 keywords: fm20.chm2001820
 f1_keywords:
 - fm20.chm2001820
-ms.prod: office
 ms.assetid: 20cbdb25-178d-81d3-848a-58847001ad4c
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

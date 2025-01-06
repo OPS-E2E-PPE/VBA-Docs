@@ -1,15 +1,15 @@
 ---
-title: PjWorkContourType Enumeration (Project)
-ms.prod: project-server
+title: PjWorkContourType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjWorkContourType
 ms.assetid: 01e47a56-e13f-97c7-8790-34c24cc7baf7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjWorkContourType Enumeration (Project)
+# PjWorkContourType enumeration (Project)
 
 Contains constants that specify the type of a work contour.
 

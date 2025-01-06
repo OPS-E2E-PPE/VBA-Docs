@@ -1,29 +1,28 @@
 ---
 title: TableOfContents object (Word)
-ms.prod: word
 api_name:
 - Word.TableOfContents
 ms.assetid: 629a03c1-ae97-649d-7ec4-25210b4b9ecd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableOfContents object (Word)
 
-Represents a single table of contents in a document. The  **TableOfContents** object is a member of the **[TablesOfContents](Word.tablesofcontents.md)** collection. The **TablesOfContents** collection includes all the tables of contents in a document.
+Represents a single table of contents in a document. The **TableOfContents** object is a member of the **[TablesOfContents](Word.tablesofcontents.md)** collection. The **TablesOfContents** collection includes all the tables of contents in a document.
 
 
 ## Remarks
 
-Use  **TablesOfContents** (Index), where Index is the index number, to return a single **TableOfContents** object. The index number represents the position of the table of contents in the document. The following example updates the page numbers of the items in the first table of figures in the active document.
+Use **TablesOfContents** (Index), where Index is the index number, to return a single **TableOfContents** object. The index number represents the position of the table of contents in the document. The following example updates the page numbers of the items in the first table of figures in the active document.
 
 
 ```vb
 ActiveDocument.TablesOfContents(1).UpdatePageNumbers
 ```
 
-Use the  **Add** method to add a table of contents to a document. The following example adds a table of contents at the beginning of the active document. The example builds the table of contents from all paragraphs styled as either Heading 1, Heading 2, or Heading 3.
+Use the **Add** method to add a table of contents to a document. The following example adds a table of contents at the beginning of the active document. The example builds the table of contents from all paragraphs styled as either Heading 1, Heading 2, or Heading 3.
 
 
 
@@ -72,6 +71,6 @@ ActiveDocument.TablesOfContents.Add Range:=myRange, _
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,12 +3,11 @@ title: WrapFormat.DistanceRight property (Word)
 keywords: vbawd10.chm163774569
 f1_keywords:
 - vbawd10.chm163774569
-ms.prod: word
 api_name:
 - Word.WrapFormat.DistanceRight
 ms.assetid: 37aae328-abbc-e755-a402-5649a2f81e18
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DistanceRight`
+_expression_. `DistanceRight`
 
- _expression_ A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
+_expression_ A variable that represents a '[WrapFormat](Word.WrapFormat.md)' object.
 
 
 ## Remarks
 
-The size and shape of the specified shape, together with the values of the  **Type** and **Side** properties of the **WrapFormat** object, determine the size and shape of this text-free area.
+The size and shape of the specified shape, together with the values of the **Type** and **Side** properties of the **WrapFormat** object, determine the size and shape of this text-free area.
 
 
 ## Example

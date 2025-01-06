@@ -3,12 +3,11 @@ title: TakeFocusOnClick property
 keywords: fm20.chm5225047
 f1_keywords:
 - fm20.chm5225047
-ms.prod: office
 api_name:
 - Office.TakeFocusOnClick
 ms.assetid: 79768a90-398b-3224-0850-eb5a236eed7b
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

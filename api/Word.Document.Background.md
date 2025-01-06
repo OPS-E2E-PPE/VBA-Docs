@@ -3,30 +3,29 @@ title: Document.Background property (Word)
 keywords: vbawd10.chm158007365
 f1_keywords:
 - vbawd10.chm158007365
-ms.prod: word
 api_name:
 - Word.Document.Background
 ms.assetid: 0425d9e6-1c26-3df7-bac6-6bc314a3ca47
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.Background property (Word)
 
-Returns a  **Shape** object that represents the background image for the specified document. Read-only.
+Returns a **Shape** object that represents the background image for the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Background`
+_expression_.**Background**
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Backgrounds are visible only in Web layout view.
+Backgrounds are visible only in web layout view.
 
 
 ## Example

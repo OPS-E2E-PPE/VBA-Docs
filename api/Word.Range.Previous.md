@@ -3,12 +3,11 @@ title: Range.Previous method (Word)
 keywords: vbawd10.chm157155434
 f1_keywords:
 - vbawd10.chm157155434
-ms.prod: word
 api_name:
 - Word.Range.Previous
 ms.assetid: ee1135ec-6f88-ec52-c3cc-0fb8183ac4cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns the previous range a relative to the specified range.
 
 ## Syntax
 
- _expression_. `Previous`( `_Unit_` , `_Count_` )
+_expression_.**Previous** (_Unit_, _Count_)
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns the previous range a relative to the specified range.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **Variant**|The type of units by which to count. Can be any  **WdUnits** constant.|
+| _Unit_|Optional| **Variant**|The type of units by which to count. Can be any **[WdUnits](Word.WdUnits.md)** constant.|
 | _Count_|Optional| **Variant**|The number of units by which you want to move back. The default value is 1.|
 
 ## Return value
@@ -40,7 +39,7 @@ Range
 
 ## Remarks
 
-If the  **Range** object is just after the specified Unit, the **Range** object is moved to the previous unit. For example, if the **Range** object is just after a word (before the trailing space), the following instruction moves the **Range** object backward to the previous word.
+If the **Range** object is just after the specified Unit, the **Range** object is moved to the previous unit. For example, if the **Range** object is just after a word (before the trailing space), the following instruction moves the **Range** object backward to the previous word.
 
 
 ```vb

@@ -1,27 +1,27 @@
 ---
-title: Application.ColumnAlignment Method (Project)
+title: Application.ColumnAlignment method (Project)
 keywords: vbapj.chm2325
 f1_keywords:
 - vbapj.chm2325
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ColumnAlignment
 ms.assetid: 9c51eb2d-c28b-cb00-57e5-1643093e4acb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ColumnAlignment Method (Project)
+# Application.ColumnAlignment method (Project)
 
 Sets the alignment of text in the active columns.
 
 
 ## Syntax
 
- _expression_. `ColumnAlignment`( `_Align_` )
+_expression_. `ColumnAlignment`( `_Align_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Sets the alignment of text in the active columns.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Align_|Required|**Long**|The alignment of text in the active columns. Can be one of the following  **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**.|
+| _Align_|Required|**Long**|The alignment of text in the active columns. Can be one of the following **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**.|
 
 ## Return value
 

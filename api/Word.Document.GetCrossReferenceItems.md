@@ -3,12 +3,11 @@ title: Document.GetCrossReferenceItems method (Word)
 keywords: vbawd10.chm158007443
 f1_keywords:
 - vbawd10.chm158007443
-ms.prod: word
 api_name:
 - Word.Document.GetCrossReferenceItems
 ms.assetid: 380e3019-2574-f50b-d871-dcebb564b06e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns an array of items that can be cross-referenced based on the specified cr
 
 ## Syntax
 
- _expression_. `GetCrossReferenceItems`( `_ReferenceType_` )
+_expression_. `GetCrossReferenceItems`( `_ReferenceType_` )
 
- _expression_ An expression that represents a '[Document](Word.Document.md)' object.
+ _expression_ An expression that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -30,11 +29,11 @@ Returns an array of items that can be cross-referenced based on the specified cr
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ReferenceType_|Required| **Variant**|The type of item you want to insert a cross-reference to. Can be any  **[WdReferenceType](Word.WdReferenceType.md)** constant.|
+| _ReferenceType_|Required| **Variant**|The type of item you want to insert a cross-reference to. Can be any **[WdReferenceType](Word.WdReferenceType.md)** constant.|
 
 ## Remarks
 
-The array that this method returns corresponds to the items listed in the  **For which** box in the **Cross-reference** dialog box. The value returned by this method can be used as the value of the ReferenceWhich argument for the **InsertCrossReference** method of the **Range** or **Selection** object.
+The array that this method returns corresponds to the items listed in the **For which** box in the **Cross-reference** dialog box. The value returned by this method can be used as the value of the ReferenceWhich argument for the **InsertCrossReference** method of the **Range** or **Selection** object.
 
 
 ## Example
@@ -50,7 +49,7 @@ If ActiveDocument.Bookmarks.Count >= 1 Then
 End If
 ```
 
-This example uses the  **GetCrossReferenceItems** method to retrieve a list of headings that can be cross-referenced and then inserts a cross-reference to the page that includes the heading "Introduction."
+This example uses the **GetCrossReferenceItems** method to retrieve a list of headings that can be cross-referenced and then inserts a cross-reference to the page that includes the heading "Introduction."
 
 
 

@@ -3,12 +3,11 @@ title: Options.SaveNormalPrompt property (Word)
 keywords: vbawd10.chm162988076
 f1_keywords:
 - vbawd10.chm162988076
-ms.prod: word
 api_name:
 - Word.Options.SaveNormalPrompt
 ms.assetid: bc58327f-d35e-70ae-ae53-0c312d3bbc0b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SaveNormalPrompt`
+_expression_. `SaveNormalPrompt`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ Options.SaveNormalPrompt = False
 Application.Quit
 ```
 
-This example returns the current status of the  **Prompt to save Normal template** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Prompt to save Normal template** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
 
 
 

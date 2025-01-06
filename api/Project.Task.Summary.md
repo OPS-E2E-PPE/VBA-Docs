@@ -1,24 +1,24 @@
 ---
-title: Task.Summary Property (Project)
-ms.prod: project-server
+title: Task.Summary property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Summary
 ms.assetid: 252591e8-da5c-1b5e-a195-09deb44754af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Summary Property (Project)
+# Task.Summary property (Project)
 
  **True** if the task is a summary task. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Summary`
+_expression_.**Summary**
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
@@ -26,7 +26,8 @@ localization_priority: Normal
 The following example checks whether summary tasks in the active project have assignments. 
 
 
- **Note**  Assignments should not be made on summary tasks.
+> [!NOTE] 
+> Assignments should not be made on summary tasks.
 
 
 ```vb

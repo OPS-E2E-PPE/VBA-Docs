@@ -1,24 +1,23 @@
 ---
-title: ShapeNode.Creator Property (PowerPoint)
-ms.prod: powerpoint
+title: ShapeNode.Creator property (PowerPoint)
 api_name:
 - PowerPoint.ShapeNode.Creator
 ms.assetid: 25e04e52-3a5b-c2ff-a4ef-db3df3d385db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeNode.Creator Property (PowerPoint)
+# ShapeNode.Creator property (PowerPoint)
 
-Returns a  **Long** that represents the four-character creator code for the application in which the specified object was created. For example, if the object was created in Microsoft PowerPoint, this property returns the hexadecimal number 50575054. Read-only.
+Returns a **Long** that represents the four-character creator code for the application in which the specified object was created. For example, if the object was created in Microsoft PowerPoint, this property returns the hexadecimal number 50575054. Read-only.
 
 
 ## Syntax
 
- _expression_. `Creator`
+_expression_.**Creator**
 
- _expression_ A variable that represents a [ShapeNode](./PowerPoint.ShapeNode.md) object.
+_expression_ A variable that represents a **[ShapeNode](PowerPoint.ShapeNode.md)** object.
 
 
 ## Return value
@@ -28,7 +27,7 @@ Long
 
 ## Remarks
 
-The  **Creator** property is designed to be used in Microsoft Office applications for the Macintosh.
+The **Creator** property is designed to be used in Microsoft Office applications for the Macintosh.
 
 
 ## Example

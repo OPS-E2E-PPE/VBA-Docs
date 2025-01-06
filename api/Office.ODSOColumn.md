@@ -3,12 +3,11 @@ title: ODSOColumn object (Office)
 keywords: vbaof11.chm233000
 f1_keywords:
 - vbaof11.chm233000
-ms.prod: office
 api_name:
 - Office.ODSOColumn
 ms.assetid: f8fe41bd-c9bd-fb5b-8ca7-27940c9c0996
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -37,12 +36,12 @@ Sub GetDataFromSource()
  Dim appOffice As OfficeDataSourceObject 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  With appOffice.Columns 
- MsgBox "Field Name: " &amp; .Item(1).Name &amp; vbLf &amp; _ 
- "Value: " &amp; .Item(1).Value 
+ MsgBox "Field Name: " & .Item(1).Name & vbLf & _ 
+ "Value: " & .Item(1).Value 
  End With 
 End Sub
 ```

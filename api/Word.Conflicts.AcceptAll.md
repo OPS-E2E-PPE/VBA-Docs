@@ -3,12 +3,11 @@ title: Conflicts.AcceptAll method (Word)
 keywords: vbawd10.chm174391397
 f1_keywords:
 - vbawd10.chm174391397
-ms.prod: word
 api_name:
 - Word.Conflicts.AcceptAll
 ms.assetid: 8ccb2b0c-77ca-ff27-1e8d-5c1d504d8821
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Accepts all of the user's changes, removes the conflicts, and merges the changes
 
 ## Syntax
 
- _expression_. `AcceptAll`
+_expression_. `AcceptAll`
 
  _expression_ An expression that returns a [Conflicts](./Word.Conflicts.md) object.
 

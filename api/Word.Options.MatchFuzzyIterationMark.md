@@ -3,12 +3,11 @@ title: Options.MatchFuzzyIterationMark property (Word)
 keywords: vbawd10.chm162988346
 f1_keywords:
 - vbawd10.chm162988346
-ms.prod: word
 api_name:
 - Word.Options.MatchFuzzyIterationMark
 ms.assetid: 24635dfe-e48a-11b7-f8fd-a8058e31e615
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchFuzzyIterationMark`
+_expression_. `MatchFuzzyIterationMark`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

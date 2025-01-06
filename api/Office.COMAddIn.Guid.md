@@ -3,12 +3,11 @@ title: COMAddIn.Guid property (Office)
 keywords: vbaof11.chm219004
 f1_keywords:
 - vbaof11.chm219004
-ms.prod: office
 api_name:
 - Office.COMAddIn.Guid
 ms.assetid: 1e3218d9-dce7-21e2-55a7-4435ca58bb35
 ms.date: 01/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,9 +29,9 @@ The following example displays the ProgID and CLSID for the first COM add-in in 
 
 
 ```vb
-MsgBox "My ProgID is " &amp; _ 
- Application.COMAddIns(1).ProgID &amp; _ 
- " and my CLSID is " &amp; _ 
+MsgBox "My ProgID is " & _ 
+ Application.COMAddIns(1).ProgID & _ 
+ " and my CLSID is " & _ 
  Application.COMAddIns(1).Guid
 ```
 

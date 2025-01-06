@@ -3,12 +3,11 @@ title: Range.InsertFile method (Word)
 keywords: vbawd10.chm157155451
 f1_keywords:
 - vbawd10.chm157155451
-ms.prod: word
 api_name:
 - Word.Range.InsertFile
 ms.assetid: 9f35bacd-1cf3-42a4-c8ab-8c1cf183d2ab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Inserts all or part of the specified file.
 
 ## Syntax
 
- _expression_. `InsertFile`( `_FileName_` , `_Range_` , `_ConfirmConversions_` , `_Link_` , `_Attachment_` )
+_expression_.**InsertFile** (_FileName_, _Range_, _ConfirmConversions_, _Link_, _Attachment_)
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

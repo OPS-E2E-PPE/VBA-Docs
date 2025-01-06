@@ -3,41 +3,40 @@ title: DataLabels.HorizontalAlignment property (Word)
 keywords: vbawd10.chm207487112
 f1_keywords:
 - vbawd10.chm207487112
-ms.prod: word
 api_name:
 - Word.DataLabels.HorizontalAlignment
 ms.assetid: 1527b432-3aef-bff0-f4f0-1b3358aeafad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # DataLabels.HorizontalAlignment property (Word)
 
-Returns or sets the horizontal alignment for the specified object. Read/write  **Variant**.
+Returns or sets the horizontal alignment for the specified object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `HorizontalAlignment`
+_expression_.**HorizontalAlignment**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Remarks
 
-You can set the value of this property to one of the following  **[xlConstants](Word.XlConstants.md)** constants:
+You can set the value of this property to one of the following **[XlConstants](Word.XlConstants.md)** constants:
 
 
--  **xlCenter**
+- **xlCenter**
     
--  **xlDistributed**
+- **xlDistributed**
     
--  **xlJustify**
+- **xlJustify**
     
--  **xlLeft**
+- **xlLeft**
     
--  **xlRight**
+- **xlRight**
     
 
 

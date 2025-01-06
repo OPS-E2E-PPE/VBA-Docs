@@ -1,27 +1,26 @@
 ---
-title: FillFormat.GradientStops Property (PowerPoint)
+title: FillFormat.GradientStops property (PowerPoint)
 keywords: vbapp10.chm552025
 f1_keywords:
 - vbapp10.chm552025
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.GradientStops
 ms.assetid: dd0c2c5a-81f1-b008-5b2f-5248241ac0db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.GradientStops Property (PowerPoint)
+# FillFormat.GradientStops property (PowerPoint)
 
  Returns the **[GradientStops](Office.GradientStops.md)** collection associated with the specified fill format. Read-only.
 
 
 ## Syntax
 
- _expression_. `GradientStops`
+_expression_.**GradientStops**
 
- _expression_ An expression that returns a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ An expression that returns a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ GradientStops
 
 ## Remarks
 
-You can use the  **[GradientStops.Insert](Office.GradientStops.Insert.md)** method to add gradient stops to the **GradientStops** collection for the specified object.
+Use the **[GradientStops.Insert](Office.GradientStops.Insert.md)** method to add gradient stops to the **GradientStops** collection for the specified object.
 
 
 ## Example
 
-The following example shows how to add a gradient stop at the 50% position to the  **GradientStops** collection of the fill format of the first shape on the first slide of the active presentation. For this example to work, the shape must already have a gradient fill applied.
+The following example shows how to add a gradient stop at the 50% position to the **GradientStops** collection of the fill format of the first shape on the first slide of the active presentation. For this example to work, the shape must already have a gradient fill applied.
 
 
 ```vb

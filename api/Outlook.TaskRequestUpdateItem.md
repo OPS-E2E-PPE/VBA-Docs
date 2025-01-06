@@ -1,29 +1,28 @@
 ---
-title: TaskRequestUpdateItem Object (Outlook)
+title: TaskRequestUpdateItem object (Outlook)
 keywords: vbaol11.chm3011
 f1_keywords:
 - vbaol11.chm3011
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestUpdateItem
 ms.assetid: 5bc407fe-b3f6-3e46-8b91-e2ed96292cec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestUpdateItem Object (Outlook)
+# TaskRequestUpdateItem object (Outlook)
 
-Represents a response to a  **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
+Represents a response to a **[TaskRequestItem](Outlook.TaskRequestItem.md)** sent by the initiating user.
 
 
 ## Remarks
 
-If the delegated user updates the task by changing properties such as the  **[DueDate](Outlook.TaskItem.DueDate.md)** or the **[Status](Outlook.TaskItem.Status.md)**, and then sends it, the associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestUpdateItem** object.
+If the delegated user updates the task by changing properties such as the **[DueDate](Outlook.TaskItem.DueDate.md)** or the **[Status](Outlook.TaskItem.Status.md)**, and then sends it, the associated **[TaskItem](Outlook.TaskItem.md)** is received by the delegator as a **TaskRequestUpdateItem** object.
 
 Unlike other Microsoft Outlook objects, you cannot create this object.
 
-Use the  **[GetAssociatedTask](Outlook.TaskRequestUpdateItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestUpdateItem**. Work directly with the **TaskItem** object
+Use the **[GetAssociatedTask](Outlook.TaskRequestUpdateItem.GetAssociatedTask.md)** method to return the **TaskItem** object that is associated with this **TaskRequestUpdateItem**. Work directly with the **TaskItem** object
 
 
 ## Events
@@ -125,6 +124,6 @@ Use the  **[GetAssociatedTask](Outlook.TaskRequestUpdateItem.GetAssociatedTask.m
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

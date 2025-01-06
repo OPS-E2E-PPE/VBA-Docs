@@ -1,20 +1,19 @@
 ---
 title: MailMergeDataFields object (Word)
-ms.prod: word
 ms.assetid: a660288d-1a2c-53ec-20d2-c52353be90c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataFields object (Word)
 
-A collection of  **[MailMergeDataField](Word.MailMergeDataField.md)** objects that represent the data fields in a mail merge data source.
+A collection of **[MailMergeDataField](Word.MailMergeDataField.md)** objects that represent the data fields in a mail merge data source.
 
 
 ## Remarks
 
-Use the  **DataFields** property to return the **MailMergeDataFields** collection. The following example displays the names of all the fields in the attached data source.
+Use the **DataFields** property to return the **MailMergeDataFields** collection. The following example displays the names of all the fields in the attached data source.
 
 
 ```vb
@@ -23,7 +22,7 @@ For Each afield In ActiveDocument.MailMerge.DataSource.DataFields
 Next afield
 ```
 
-You cannot add fields to the  **MailMergeDataFields** collection. When a data field is added to a data source, the field is automatically included in the **MailMergeDataFields** collection. Use the **EditDataSource** method to edit the contents of a data source. The following example adds a data field named "Author" to a table in the attached data source.
+You cannot add fields to the **MailMergeDataFields** collection. When a data field is added to a data source, the field is automatically included in the **MailMergeDataFields** collection. Use the **EditDataSource** method to edit the contents of a data source. The following example adds a data field named "Author" to a table in the attached data source.
 
 
 
@@ -39,7 +38,7 @@ If ActiveDocument.MailMerge.DataSource.Type = _
 End If
 ```
 
-Use  **DataFields** (Index), where Index is the data field name or the index number, to return a single **MailMergeDataField** object. The index number represents the position of the data field in the mail merge data source. The following example retrieves the first value from the FName field in the data source attached to the active document.
+Use **DataFields** (Index), where Index is the data field name or the index number, to return a single **MailMergeDataField** object. The index number represents the position of the data field in the mail merge data source. The following example retrieves the first value from the FName field in the data source attached to the active document.
 
 
 
@@ -63,6 +62,6 @@ MsgBox ActiveDocument.MailMerge.DataSource.DataFields(1).Name
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

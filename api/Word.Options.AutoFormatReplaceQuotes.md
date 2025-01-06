@@ -3,12 +3,11 @@ title: Options.AutoFormatReplaceQuotes property (Word)
 keywords: vbawd10.chm162988286
 f1_keywords:
 - vbawd10.chm162988286
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatReplaceQuotes
 ms.assetid: 23fe2823-0aec-7deb-8fc1-ff70a79b19af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatReplaceQuotes`
+_expression_. `AutoFormatReplaceQuotes`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.AutoFormatReplaceQuotes = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Straight quotes with smart quotes** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Straight quotes with smart quotes** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

@@ -3,18 +3,17 @@ title: IConverterApplicationPreferences.HrCheckFormat method (Office)
 keywords: vbaof11.chm331004
 f1_keywords:
 - vbaof11.chm331004
-ms.prod: office
 api_name:
 - Office.IConverterApplicationPreferences.HrCheckFormat
 ms.assetid: 79f1b1d8-385a-3c69-c9c1-360610407f9b
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterApplicationPreferences.HrCheckFormat method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: TransitionEffect property
 keywords: fm20.chm5225108
 f1_keywords:
 - fm20.chm5225108
-ms.prod: office
 api_name:
 - Office.TransitionEffect
 ms.assetid: 10a65973-fa2e-5b9d-5052-ead41286e1af
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

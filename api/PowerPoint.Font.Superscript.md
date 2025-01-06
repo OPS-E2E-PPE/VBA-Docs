@@ -1,27 +1,26 @@
 ---
-title: Font.Superscript Property (PowerPoint)
+title: Font.Superscript property (PowerPoint)
 keywords: vbapp10.chm575010
 f1_keywords:
 - vbapp10.chm575010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Font.Superscript
 ms.assetid: 6f0bba73-f375-d715-3ddb-f1ab6041336c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.Superscript Property (PowerPoint)
+# Font.Superscript property (PowerPoint)
 
 Determines whether the specified text is superscript. Read/write.
 
 
 ## Syntax
 
- _expression_. `Superscript`
+_expression_.**Superscript**
 
- _expression_ A variable that represents a [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents a [Font](PowerPoint.Font.md) object.
 
 
 ## Return value
@@ -31,13 +30,13 @@ MsoTriState
 
 ## Remarks
 
-Setting the  **BaselineOffset** property to a negative value automatically sets the **Subscript** property to **msoTrue** and the **Superscript** property to **msoFalse**.
+Setting the **BaselineOffset** property to a negative value automatically sets the **Subscript** property to **msoTrue** and the **Superscript** property to **msoFalse**.
 
-Setting the  **BaselineOffset** property to a positive value automatically sets the **Subscript** property to **msoFalse** and the **Superscript** property to **msoTrue**.
+Setting the **BaselineOffset** property to a positive value automatically sets the **Subscript** property to **msoFalse** and the **Superscript** property to **msoTrue**.
 
-Setting the  **Superscript** property to **msoTrue** automatically sets the **BaselineOffset** property to 0.3 (30 percent).
+Setting the **Superscript** property to **msoTrue** automatically sets the **BaselineOffset** property to 0.3 (30 percent).
 
-The value of the  **Superscript** property can be one of these **MsoTriState** constants.
+The value of the **Superscript** property can be one of these **MsoTriState** constants.
 
 
 

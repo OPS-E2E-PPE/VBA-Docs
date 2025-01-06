@@ -3,25 +3,24 @@ title: Paragraph.Previous method (Word)
 keywords: vbawd10.chm156696901
 f1_keywords:
 - vbawd10.chm156696901
-ms.prod: word
 api_name:
 - Word.Paragraph.Previous
 ms.assetid: 0ccc928e-26c3-d5e6-ea99-a3d9776fbdd1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraph.Previous method (Word)
 
-Returns the previous paragraph as a  **Paragraph** object.
+Returns the previous paragraph as a **Paragraph** object.
 
 
 ## Syntax
 
- _expression_. `Previous`( `_Count_` )
+_expression_.**Previous** (_Count_)
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Parameters

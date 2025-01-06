@@ -1,20 +1,20 @@
 ---
-title: Chart.ApplyCustomType Method (Project)
-ms.prod: project-server
+title: Chart.ApplyCustomType method (Project)
+ms.service: project-server
 ms.assetid: 2bfe88c2-198e-a039-ace6-4ba362ce09d6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ApplyCustomType Method (Project)
+# Chart.ApplyCustomType method (Project)
 Applies a custom chart type to a chart.
 
 ## Syntax
 
- _expression_. `ApplyCustomType` _(ChartType,_ _TypeName)_
+_expression_. `ApplyCustomType` _(ChartType,_ _TypeName)_
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Parameters
@@ -26,7 +26,7 @@ Applies a custom chart type to a chart.
 | _ChartType_|Required|**Office.XlChartType**|The type of chart.|
 | _TypeName_|Optional|**Variant**|The name of the chart type.|
 | _ChartType_|Required|XLCHARTTYPE||
-| _TypeName_|Optional|VARIANT||
+| _TypeName_|Optional|**Variant**||
 
 ## Return value
 
@@ -35,7 +35,7 @@ Applies a custom chart type to a chart.
 
 ## Example
 
-The following example changes the chart type to a clustered 3-D bar chart.
+The following example changes the chart type to a clustered 3D bar chart.
 
 
 ```vb

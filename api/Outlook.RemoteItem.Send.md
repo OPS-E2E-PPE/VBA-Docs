@@ -1,24 +1,23 @@
 ---
-title: RemoteItem.Send Event (Outlook)
-ms.prod: outlook
+title: RemoteItem.Send event (Outlook)
 api_name:
 - Outlook.RemoteItem.Send
 ms.assetid: 6b2ddae1-8732-c6d2-8dff-585118c3d051
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RemoteItem.Send Event (Outlook)
+# RemoteItem.Send event (Outlook)
 
-Occurs when the user selects the  **Send** action for an item (which is an instance of the parent object).
+Occurs when the user selects the **Send** action for an item (which is an instance of the parent object).
 
 
 ## Syntax
 
 _expression_. `Send`( `_Cancel_` )
 
-_expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) object.
+_expression_ A variable that represents a [RemoteItem](Outlook.RemoteItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_ A variable that represents a [RemoteItem](./Outlook.RemoteItem.md) 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**|(Not used in VBScript).  **False** when the event occurs. If the event procedure sets this argument to **True** , the send operation is not completed and the inspector is left open.|
+| _Cancel_|Required| **Boolean**|(Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the send operation is not completed and the inspector is left open.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the item is not sent.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the item is not sent.
 
 
 ## See also

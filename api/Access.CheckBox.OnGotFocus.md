@@ -3,12 +3,11 @@ title: CheckBox.OnGotFocus property (Access)
 keywords: vbaac10.chm10739
 f1_keywords:
 - vbaac10.chm10739
-ms.prod: access
 api_name:
 - Access.CheckBox.OnGotFocus
 ms.assetid: eaa59b30-d037-2b3a-1e24-e5ea9a11f0f3
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **GotFocus** event occurs when the object receives the focus.
 
 The **OnGotFocus** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Got Focus** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Got Focus** box is blank, the property value is an empty string.
 

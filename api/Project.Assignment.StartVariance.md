@@ -1,24 +1,24 @@
 ---
-title: Assignment.StartVariance Property (Project)
-ms.prod: project-server
+title: Assignment.StartVariance property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.StartVariance
 ms.assetid: 080f4dea-76aa-5438-e44a-ab71732b30b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.StartVariance Property (Project)
+# Assignment.StartVariance property (Project)
 
-Gets the variance (in minutes) between the baseline start date and the start date of the assignment. Read-only  **Variant**.
+Gets the variance (in minutes) between the baseline start date and the start date of the assignment. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `StartVariance`
+_expression_. `StartVariance`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Example

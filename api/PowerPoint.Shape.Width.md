@@ -1,27 +1,26 @@
 ---
-title: Shape.Width Property (PowerPoint)
+title: Shape.Width property (PowerPoint)
 keywords: vbapp10.chm547042
 f1_keywords:
 - vbapp10.chm547042
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.Width
 ms.assetid: b95213f9-2689-5131-5b85-d2eb661502a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Width Property (PowerPoint)
+# Shape.Width property (PowerPoint)
 
 Returns or sets the width of the specified object, in points. Read/write.
 
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value

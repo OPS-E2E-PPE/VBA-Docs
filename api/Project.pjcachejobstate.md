@@ -1,13 +1,13 @@
 ---
-title: PjCacheJobState Enumeration (Project)
-ms.prod: project-server
+title: PjCacheJobState enumeration (Project)
+ms.service: project-server
 ms.assetid: 48572c9f-8c3d-8f6d-f633-94f7fedcfe3b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCacheJobState Enumeration (Project)
+# PjCacheJobState enumeration (Project)
 Contains constants that specify the cache status of a job that Project Professional sends to the Project Server Queue Service.
 
 ## Members
@@ -31,25 +31,11 @@ Contains constants that specify the cache status of a job that Project Professio
 |**pjCacheJobStateSleeping**|11|The queue job is sleeping.|
 |**pjCacheJobStateSuccess**|4|The queue job completed successfully.|
 |**pjCacheJobStateUnknown**|0|The queue job state is unknown.|
-|**pjCacheJobStateCancelled**|**9**||
-|**pjCacheJobStateCorrelationBlocked**|**8**||
-|**pjCacheJobStateFailed**|**5**||
-|**pjCacheJobStateFailedNotBlocking**|**6**||
-|**pjCacheJobStateInvalid**|**-1**||
-|**pjCacheJobStateLastState**|**13**||
-|**pjCacheJobStateOnHold**|**10**||
-|**pjCacheJobStateProcessing**|**3**||
-|**pjCacheJobStateReadyForLaunch**|**12**||
-|**pjCacheJobStateReadyForProcessing**|**1**||
-|**pjCacheJobStateSendIncomplete**|**2**||
-|**pjCacheJobStateSkipped**|**7**||
-|**pjCacheJobStateSleeping**|**11**||
-|**pjCacheJobStateSuccess**|**4**||
-|**pjCacheJobStateUnknown**|**0**||
+
 
 ## Remarks
 
-The  **[Application.GetCacheStatusForProject](Project.application.getcachestatusforproject.md)** property returns a **PjCacheJobState** constant. The **PjCacheJobState** constants from 0 to 13 correspond to the [JobState enumeration](https://msdn.microsoft.com/library/websvcqueuesystem.jobstate_di_pj14mref%28office.15%29.aspx) of the **QueueSystem** service in the Project Server Interface (PSI).
+The **[Application.GetCacheStatusForProject](Project.application.getcachestatusforproject.md)** property returns a **PjCacheJobState** constant. The **PjCacheJobState** constants from 0 to 13 correspond to the [JobState enumeration](https://msdn.microsoft.com/library/websvcqueuesystem.jobstate_di_pj14mref%28office.15%29.aspx) of the **QueueSystem** service in the Project Server Interface (PSI).
 
 
 ## See also

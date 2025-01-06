@@ -1,27 +1,26 @@
 ---
-title: PrintRanges.Add Method (PowerPoint)
+title: PrintRanges.Add method (PowerPoint)
 keywords: vbapp10.chm518001
 f1_keywords:
 - vbapp10.chm518001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PrintRanges.Add
 ms.assetid: e5b50370-699b-b904-8ce7-b825f29d0682
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PrintRanges.Add Method (PowerPoint)
+# PrintRanges.Add method (PowerPoint)
 
-Returns a  **[PrintRange](PowerPoint.PrintRange.md)** object that represents a new print range to be added to the **PrintRanges** collection.
+Returns a **[PrintRange](PowerPoint.PrintRange.md)** object that represents a new print range to be added to the **PrintRanges** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Start_`, `_End_` )
+_expression_.**Add** (_Start_, _End_)
 
- _expression_ A variable that represents a [PrintRanges](./PowerPoint.PrintRanges.md) object.
+_expression_ A variable that represents a [PrintRanges](PowerPoint.PrintRanges.md) object.
 
 
 ## Parameters

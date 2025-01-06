@@ -1,27 +1,26 @@
 ---
-title: CalloutFormat.Accent Property (PowerPoint)
+title: CalloutFormat.Accent property (PowerPoint)
 keywords: vbapp10.chm559006
 f1_keywords:
 - vbapp10.chm559006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CalloutFormat.Accent
 ms.assetid: 901ad22d-2690-06c2-7327-9bf463585aa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalloutFormat.Accent Property (PowerPoint)
+# CalloutFormat.Accent property (PowerPoint)
 
 Determines whether a vertical accent bar separates the callout text from the callout line. Read/write.
 
 
 ## Syntax
 
- _expression_. `Accent`
+_expression_.**Accent**
 
-_expression_ A variable that represents an [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents an [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Accent** property can be one of these **MsoTriState** constants.
+The value of the **Accent** property can be one of these **MsoTriState** constants.
 
 
 
@@ -42,7 +41,7 @@ The value of the  **Accent** property can be one of these **MsoTriState** consta
 
 ## Example
 
-This example adds to  `myDocument` an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
+This example adds to _myDocument_ an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
 
 
 ```vb

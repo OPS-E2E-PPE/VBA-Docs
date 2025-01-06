@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Flip Method (Project)
-ms.prod: project-server
+title: ShapeRange.Flip method (Project)
+ms.service: project-server
 ms.assetid: e9cc1139-de66-c49a-faf2-4e8adbbc6eab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Flip Method (Project)
+# ShapeRange.Flip method (Project)
 Flips each shape in the shape range around its horizontal or vertical axis.
 
 ## Syntax
 
- _expression_. `Flip` _(FlipCmd)_
+_expression_.**Flip** (_FlipCmd_)
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters

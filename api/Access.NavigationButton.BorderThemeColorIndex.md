@@ -3,12 +3,11 @@ title: NavigationButton.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.NavigationButton.BorderThemeColorIndex
 ms.assetid: 5f03c49f-9d93-d3c6-6f2c-b18cef67ac5d
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

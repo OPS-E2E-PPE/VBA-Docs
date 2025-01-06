@@ -1,33 +1,31 @@
 ---
-title: InlineShapes.Count Property (Publisher)
+title: InlineShapes.Count property (Publisher)
 keywords: vbapb10.chm5767171
 f1_keywords:
 - vbapb10.chm5767171
-ms.prod: publisher
 api_name:
 - Publisher.InlineShapes.Count
 ms.assetid: a78ae487-e7d6-1099-236f-6464c601686f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# InlineShapes.Count Property (Publisher)
+# InlineShapes.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents an  **InlineShapes** object.
+_expression_ A variable that represents an **[InlineShapes](Publisher.InlineShapes.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

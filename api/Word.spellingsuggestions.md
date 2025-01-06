@@ -3,21 +3,20 @@ title: SpellingSuggestions object (Word)
 keywords: vbawd10.chm2474
 f1_keywords:
 - vbawd10.chm2474
-ms.prod: word
 ms.assetid: 7e0fb008-e43c-c4cb-b7d2-9436d039a070
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SpellingSuggestions object (Word)
 
-A collection of  **SpellingSuggestion** objects that represent all the suggestions for a specified word or for the first word in the specified range.
+A collection of **SpellingSuggestion** objects that represent all the suggestions for a specified word or for the first word in the specified range.
 
 
 ## Remarks
 
-Use the  **GetSpellingSuggestions** method to return the **SpellingSuggestions** collection. The **SpellingSuggestions** method, when applied to the **Application** object, must specify the word to be checked. When the **GetSpellingSuggestions** method is applied to a range, the first word in the range is checked. The following example checks to see whether there are any spelling suggestions for any of the words in the active document. If there are, the suggestions are displayed in message boxes.
+Use the **GetSpellingSuggestions** method to return the **SpellingSuggestions** collection. The **SpellingSuggestions** method, when applied to the **Application** object, must specify the word to be checked. When the **GetSpellingSuggestions** method is applied to a range, the first word in the range is checked. The following example checks to see whether there are any spelling suggestions for any of the words in the active document. If there are, the suggestions are displayed in message boxes.
 
 
 ```vb
@@ -37,6 +36,6 @@ You cannot add suggestions to or remove suggestions from the collection of spell
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

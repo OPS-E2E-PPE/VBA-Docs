@@ -1,11 +1,10 @@
 ---
 title: WdSaveFormat enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdSaveFormat
 ms.assetid: eb8d5689-9b4b-8d09-321c-1a3c1ee777e9
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -23,7 +22,7 @@ Specifies the format to use when saving a document.
 | **wdFormatEncodedText**|7|Encoded text format.|
 | **wdFormatFilteredHTML**|10|Filtered HTML format.|
 | **wdFormatFlatXML**|19|Open XML file format saved as a single XML file.|
-| **wdFormatFlatXML**|20|Open XML file format with macros enabled saved as a single XML file.|
+| **wdFormatFlatXMLMacroEnabled**|20|Open XML file format with macros enabled saved as a single XML file.|
 | **wdFormatFlatXMLTemplate**|21|Open XML template format saved as a XML single file.|
 | **wdFormatFlatXMLTemplateMacroEnabled**|22|Open XML template format with macros enabled saved as a single XML file.|
 | **wdFormatOpenDocumentText**|23|OpenDocument Text format.|

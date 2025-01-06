@@ -1,22 +1,21 @@
 ---
 title: ViewCtl.ItemCount Property (Outlook View Control)
-ms.prod: outlook
 ms.assetid: 32c96b64-3be2-ef0b-c175-86a6f539635e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ViewCtl.ItemCount Property (Outlook View Control)
 
-Returns a  **Long** that indicates the count of objects in the current folder displayed in the control. Read-only.
+Returns a **Long** that indicates the count of objects in the current folder displayed in the control. Read-only.
 
 
 ## Syntax
 
- _expression_. **ItemCount**
+_expression_.**ItemCount**
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

@@ -3,31 +3,29 @@ title: TextEffectFormat.FontName property (Excel)
 keywords: vbaxl10.chm118005
 f1_keywords:
 - vbaxl10.chm118005
-ms.prod: excel
 api_name:
 - Excel.TextEffectFormat.FontName
 ms.assetid: d5aee022-b60b-f747-3c6b-7ae7e70cf6f8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/17/2019
+ms.localizationpriority: medium
 ---
 
 
 # TextEffectFormat.FontName property (Excel)
 
-Returns or sets the name of the font in the specified WordArt. Read/write  **String**.
+Returns or sets the name of the font in the specified WordArt. Read/write **String**.
 
 
 ## Syntax
 
-_expression_. `FontName`
+_expression_.**FontName**
 
-_expression_ A variable that represents a [TextEffectFormat](./Excel.TextEffectFormat.md) object.
+_expression_ A variable that represents a **[TextEffectFormat](Excel.TextEffectFormat.md)** object.
 
 
 ## Example
 
-This example sets the font name to "Courier New" for shape three on  `myDocument` if the shape is WordArt.
-
+This example sets the font name to Courier New for shape three on _myDocument_ if the shape is WordArt.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -39,9 +37,5 @@ End With
 ```
 
 
-## See also
-
-
-[TextEffectFormat Object](Excel.TextEffectFormat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

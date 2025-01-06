@@ -3,19 +3,16 @@ title: AcChartType enumeration (Access)
 keywords: vbaac10.chm14756
 f1_keywords:
 - vbaac10.chm14756
-ms.prod: access
 api_name:
 - Access.AcChartType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcChartType enumeration (Access)
 
 Specifies the chart type.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

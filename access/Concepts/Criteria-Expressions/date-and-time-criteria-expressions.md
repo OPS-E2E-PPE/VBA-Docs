@@ -3,10 +3,9 @@ title: Date and time criteria expressions
 keywords: vbaac10.chm10885
 f1_keywords:
 - vbaac10.chm10885
-ms.prod: access
 ms.assetid: fff89f87-444e-b275-c7b1-4c82240e57f0
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

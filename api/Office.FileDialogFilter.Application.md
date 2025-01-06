@@ -1,11 +1,10 @@
 ---
 title: FileDialogFilter.Application property (Office)
-ms.prod: office
 api_name:
 - Office.FileDialogFilter.Application
 ms.assetid: 279e26e3-0dbe-1fd2-3014-6dda0f9fb96d
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[FileDialogFilter](Office.FileDialog
 Object
 
 
-# See also
+## See also
 
 - [FileDialogFilter object members](overview/library-reference/filedialogfilter-members-office.md)
 

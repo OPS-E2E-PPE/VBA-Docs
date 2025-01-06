@@ -1,18 +1,17 @@
 ---
-title: OlkTimeZoneControl Object (Outlook)
+title: OlkTimeZoneControl object (Outlook)
 keywords: vbaol11.chm1000530
 f1_keywords:
 - vbaol11.chm1000530
-ms.prod: outlook
 api_name:
 - Outlook.OlkTimeZoneControl
 ms.assetid: 2138c4fe-1677-f4f0-1a60-dfac20cc1778
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkTimeZoneControl Object (Outlook)
+# OlkTimeZoneControl object (Outlook)
 
 A control that supports a selection from a drop-down list of time zones.
 
@@ -78,6 +77,6 @@ If an appointment item was originally created with a time zone value that no lon
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: Application.Run method (Access)
 keywords: vbaac10.chm12553
 f1_keywords:
 - vbaac10.chm12553
-ms.prod: access
 api_name:
 - Access.Application.Run
 ms.assetid: 4cdaf4cb-c25c-aaa4-96ab-52259f9f91c0
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.Run method (Access)
 
-You can use the **Run** method to carry out a specified Microsoft Access or user-defined **Function** or **Sub** procedure. **Variant**.
+Use the **Run** method to carry out a specified Microsoft Access or user-defined **Function** or **Sub** procedure. **Variant**.
 
 
 ## Syntax
@@ -69,8 +68,6 @@ Public Sub Greeting(ByVal strName As String)
  MsgBox ("Hello, " & strName & "!"), vbInformation, "Greetings" 
 End Sub
 ```
-
-<br/>
 
 After you have completed this step, run the following code from Microsoft Excel or Visual Basic. Make sure that you have added a reference to the Access type library by choosing **References** on the **Tools** menu and choosing **Microsoft Access 12.0 Object Library** in the **References** dialog box.
 

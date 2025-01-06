@@ -3,18 +3,17 @@ title: ObjectFrame.GridlineWidthTop property (Access)
 keywords: vbaac10.chm11648
 f1_keywords:
 - vbaac10.chm11648
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineWidthTop
 ms.assetid: 72f30e89-326e-ecf3-cf48-eb0a4e56f60d
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.GridlineWidthTop property (Access)
 
-Gets or sets the width of the top gridline for the specified frame. Read/write **Byte**.
+Gets or sets the width of the top gridline for the specified object frame. Read/write **Byte**.
 
 
 ## Syntax

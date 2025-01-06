@@ -3,25 +3,24 @@ title: Shape.LinkFormat property (Word)
 keywords: vbawd10.chm161481206
 f1_keywords:
 - vbawd10.chm161481206
-ms.prod: word
 api_name:
 - Word.Shape.LinkFormat
 ms.assetid: 68645111-3036-da95-eab7-3d78a6896e51
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.LinkFormat property (Word)
 
-Returns a  **LinkFormat** object that represents the link options of a shape that is linked to a file. Read/only.
+Returns a **LinkFormat** object that represents the link options of a shape that is linked to a file. Read/only.
 
 
 ## Syntax
 
- _expression_. `LinkFormat`
+_expression_. `LinkFormat`
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example

@@ -3,30 +3,29 @@ title: "How to: Specify Control Tip Text for Controls"
 keywords: olfm10.chm3077167
 f1_keywords:
 - olfm10.chm3077167
-ms.prod: outlook
 ms.assetid: 50ea26b3-763b-beed-6f06-30afbd205f02
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# How to: Specify Control Tip Text for Controls
+# Specify Control Tip Text for Controls
 
-The following example defines the  **[ControlTipText](../../../api/Outlook.page.controltiptext.md)** property for three **[CommandButton](../../../api/Outlook.commandbutton.md)** controls and two **[Page](../../../api/Outlook.page.md)** objects in a **[MultiPage](../../../api/Outlook.multipage.md)**.
-
-
- **Note**  The Microsoft Forms 2.0  **CommandButton** control includes the **ControlTipText** property.
+The following example defines the **[ControlTipText](../../../api/Outlook.page.controltiptext.md)** property for three **[CommandButton](../../../api/Outlook.commandbutton.md)** controls and two **[Page](../../../api/Outlook.page.md)** objects in a **[MultiPage](../../../api/Outlook.multipage.md)**.
 
 
-To use this example, copy this sample code to the Script Editor of a form. To run the code you need to open the form so the  **Open** event will activate. Make sure that the form contains:
+ **Note** The Microsoft Forms 2.0 **CommandButton** control includes the **ControlTipText** property.
 
 
-- A  **MultiPage** named MultiPage1.
+To use this example, copy this sample code to the Script Editor of a form. To run the code you need to open the form so the **Open** event will activate. Make sure that the form contains:
+
+
+- A **MultiPage** named MultiPage1.
     
-- Three  **CommandButton** controls named CommandButton1 through CommandButton3.
+- Three **CommandButton** controls named CommandButton1 through CommandButton3.
     
 
- **Note**  For an individual  **Page** of a **MultiPage**,  **ControlTipText** becomes enabled when the **MultiPage** or a control on the current page of the **MultiPage** has the focus.
+ **Note** For an individual **Page** of a **MultiPage**, **ControlTipText** becomes enabled when the **MultiPage** or a control on the current page of the **MultiPage** has the focus.
 
 
 

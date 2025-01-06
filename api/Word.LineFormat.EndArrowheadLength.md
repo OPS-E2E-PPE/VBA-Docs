@@ -3,25 +3,24 @@ title: LineFormat.EndArrowheadLength property (Word)
 keywords: vbawd10.chm164233321
 f1_keywords:
 - vbawd10.chm164233321
-ms.prod: word
 api_name:
 - Word.LineFormat.EndArrowheadLength
 ms.assetid: 70aa1917-01ed-8a1c-a910-bb7f1175fd52
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LineFormat.EndArrowheadLength property (Word)
 
-Returns or sets the length of the arrowhead at the end of the specified line. Read/write  **MsoArrowheadLength**.
+Returns or sets the length of the arrowhead at the end of the specified line. Read/write **MsoArrowheadLength**.
 
 
 ## Syntax
 
- _expression_. `EndArrowheadLength`
+_expression_.**EndArrowheadLength**
 
- _expression_ Required. A variable that represents a '[LineFormat](Word.LineFormat.md)' object.
+_expression_ Required. A variable that represents a **[LineFormat](Word.LineFormat.md)** object.
 
 
 ## Example

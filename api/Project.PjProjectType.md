@@ -1,15 +1,15 @@
 ---
-title: PjProjectType Enumeration (Project)
-ms.prod: project-server
+title: PjProjectType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjProjectType
 ms.assetid: 5344b92a-db82-1179-2fe0-365b96ed4d9f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjProjectType Enumeration (Project)
+# PjProjectType enumeration (Project)
 
 Contains constants that specify the project type.
 

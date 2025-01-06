@@ -3,18 +3,17 @@ title: Application.CloseCurrentDatabase method (Access)
 keywords: vbaac10.chm12506
 f1_keywords:
 - vbaac10.chm12506
-ms.prod: access
 api_name:
 - Access.Application.CloseCurrentDatabase
 ms.assetid: f5dec73c-54b4-c5ea-7cb9-25b5997f539e
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.CloseCurrentDatabase method (Access)
 
-You can use the **CloseCurrentDatabase** method to close the current database, either a Microsoft Access database or an Access project (.adp) from another application that has opened a database through Automation.
+Use the **CloseCurrentDatabase** method to close the current database, either a Microsoft Access database or an Access project (.adp) from another application that has opened a database through Automation.
 
 
 ## Syntax
@@ -49,7 +48,7 @@ When the variable pointing to the **Application** object goes out of scope, the 
 ```vb
 ' Enter the following in the Declarations section of the module. 
 Dim appAccess As Access.Application 
- 
+
 Sub CreateForm() 
  Const strConPathToSamples = "C:\Program Files\Microsoft Office\Office12\Samples\" 
  

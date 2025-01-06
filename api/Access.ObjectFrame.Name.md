@@ -3,18 +3,17 @@ title: ObjectFrame.Name property (Access)
 keywords: vbaac10.chm11624
 f1_keywords:
 - vbaac10.chm11624
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Name
 ms.assetid: d903a75a-579e-7896-a2e2-3d1688fe5145
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

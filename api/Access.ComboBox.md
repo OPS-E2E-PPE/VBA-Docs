@@ -3,12 +3,11 @@ title: ComboBox object (Access)
 keywords: vbaac10.chm11545
 f1_keywords:
 - vbaac10.chm11545
-ms.prod: access
 api_name:
 - Access.ComboBox
 ms.assetid: 1cf508d5-023e-eb38-3991-71e82b2a4e7e
 ms.date: 02/27/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -49,18 +48,18 @@ Private Sub cmdSearch_Click()
     On Error GoTo 0
     
     vWhere = Null
-    vWhere = vWhere &amp; " AND [PymtTypeID]=" + Me.cboPaymentTypes
-    vWhere = vWhere &amp; " AND [RefundTypeID]=" + Me.cboRefundType
-    vWhere = vWhere &amp; " AND [RefundCDMID]=" + Me.cboRefundCDM
-    vWhere = vWhere &amp; " AND [RefundOptionID]=" + Me.cboRefundOption
-    vWhere = vWhere &amp; " AND [RefundCodeID]=" + Me.cboRefundCode
+    vWhere = vWhere & " AND [PymtTypeID]=" & Me.cboPaymentTypes
+    vWhere = vWhere & " AND [RefundTypeID]=" & Me.cboRefundType
+    vWhere = vWhere & " AND [RefundCDMID]=" & Me.cboRefundCDM
+    vWhere = vWhere & " AND [RefundOptionID]=" & Me.cboRefundOption
+    vWhere = vWhere & " AND [RefundCodeID]=" & Me.cboRefundCode
     
     If Nz(vWhere, "") = "" Then
-        MsgBox "There are no search criteria selected." &amp; vbCrLf &amp; vbCrLf &amp; _
+        MsgBox "There are no search criteria selected." & vbCrLf & vbCrLf & _
         "Search Cancelled.", vbInformation, "Search Canceled."
         
     Else
-        Set qd = db.CreateQueryDef("Query1", "SELECT * FROM tblRefundData WHERE " &amp; _
+        Set qd = db.CreateQueryDef("Query1", "SELECT * FROM tblRefundData WHERE " & _
         Mid(vWhere, 6))
         
         db.Close
@@ -71,23 +70,19 @@ Private Sub cmdSearch_Click()
 End Sub
 ```
 
-<br/>
-
 The following example shows how to set the **RowSource** property of a combo box when a form is loaded. When the form is displayed, the items stored in the **Departments** field of the **tblDepartment** combo box are displayed in the **cboDept** combo box.
 
 ```vb
 Private Sub Form_Load()
-    Me.Caption = "Today is " &amp; Format$(Date, "dddd mmm-d-yyyy")
+    Me.Caption = "Today is " & Format$(Date, "dddd mmm-d-yyyy")
     Me.RecordSource = "tblDepartments"
     DoCmd.Maximize  
     txtDept.ControlSource = "Department"
-    cmdClose.Caption = "&amp;Close"
+    cmdClose.Caption = "&Close"
     cboDept.RowSourceType = "Table/Query"
     cboDept.RowSource = "SELECT Department FROM tblDepartments"
 End Sub
 ```
-
-<br/>
 
 The following example shows how to create a combo box that is bound to one column while displaying another. Setting the **ColumnCount** property to 2 specifies that the **cboDept** combo box will display the first two columns of the data source specified by the **RowSource** property. Setting the **BoundColumn** property to 1 specifies that the value stored in the first column will be returned when you inspect the value of the combo box.
 
@@ -104,8 +99,6 @@ Private Sub cboDept_Enter()
 End Sub
 ```
 
-<br/>
-
 The following example shows how to add an item to a bound combo box.
 
 ```vb
@@ -113,14 +106,14 @@ Private Sub cboMainCategory_NotInList(NewData As String, Response As Integer)
 
     On Error GoTo Error_Handler
     Dim intAnswer As Integer
-    intAnswer = MsgBox("""" &amp; NewData &amp; """ is not an approved category. " &amp; vbcrlf _
-        &amp; "Do you want to add it now?" _ vbYesNo + vbQuestion, "Invalid Category")
+    intAnswer = MsgBox("""" & NewData & """ is not an approved category. " & vbcrlf _
+        & "Do you want to add it now?", vbYesNo + vbQuestion, "Invalid Category")
 
     Select Case intAnswer
         Case vbYes
             DoCmd.SetWarnings False
-            DoCmd.RunSQL "INSERT INTO tlkpCategoryNotInList (Category) "
-                &amp; _ "Select """ &amp; NewData &amp; """;"
+            DoCmd.RunSQL "INSERT INTO tlkpCategoryNotInList (Category) " & _ 
+                         "Select """ & NewData & """;"
             DoCmd.SetWarnings True
             Response = acDataErrAdded
         Case vbNo
@@ -135,7 +128,7 @@ Private Sub cboMainCategory_NotInList(NewData As String, Response As Integer)
         Exit Sub
 
     Error_Handler:
-        MsgBox Err.Number &amp; ", " &amp; Error Description
+        MsgBox Err.Number & ", " & Err.Description
         Resume Exit_Procedure
         Resume
 

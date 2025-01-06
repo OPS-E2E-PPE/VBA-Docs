@@ -1,19 +1,16 @@
 ---
 title: MsoOrgChartLayoutType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoOrgChartLayoutType
 ms.assetid: 15568b83-cb8c-ffef-b241-d837817a5d62
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoOrgChartLayoutType enumeration (Office)
 
 Indicates how to format the child nodes in an organization chart.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

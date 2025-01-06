@@ -1,11 +1,10 @@
 ---
 title: SmartArtColor.Name property (Office)
-ms.prod: office
 api_name:
 - Office.SmartArtColor.Name
 ms.assetid: 7249cccf-87b2-2911-b6e5-4b62bc08a73a
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,13 +3,10 @@ title: Multiple fields in criteria expressions
 keywords: vbaac10.chm5187501
 f1_keywords:
 - vbaac10.chm5187501
-ms.prod: access
 ms.assetid: 6ed0992f-912f-10ca-27de-4e3c9d6a2f71
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
-
-
 # Multiple fields in criteria expressions
 
 You can specify multiple fields in a  _criteria_ argument.
@@ -32,7 +29,7 @@ Forms!Employees.FilterOn = True
 
 The  _criteria_ argument evaluates to the following string:
 
-    "[HireDate] >= #1-1-93# AND [Title] = 'Sales Representative'"
+`"[HireDate] >= #1-1-93# AND [Title] = 'Sales Representative'"`
 
 > [!TIP] 
 > To troubleshoot an expression in the  _criteria_ argument, break the expression into smaller components and test each individually in the Immediate window. When all of the components are working correctly, put them back together one at a time until the complete expression works correctly.

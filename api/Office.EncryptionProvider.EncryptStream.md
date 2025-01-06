@@ -3,12 +3,11 @@ title: EncryptionProvider.EncryptStream method (Office)
 keywords: vbaof11.chm327007
 f1_keywords:
 - vbaof11.chm327007
-ms.prod: office
 api_name:
 - Office.EncryptionProvider.EncryptStream
 ms.assetid: 58a379f4-fb74-4a2c-b0ed-ce3e3151c292
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

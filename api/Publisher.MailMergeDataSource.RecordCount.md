@@ -1,27 +1,26 @@
 ---
-title: MailMergeDataSource.RecordCount Property (Publisher)
+title: MailMergeDataSource.RecordCount property (Publisher)
 keywords: vbapb10.chm6291477
 f1_keywords:
 - vbapb10.chm6291477
-ms.prod: publisher
 api_name:
 - Publisher.MailMergeDataSource.RecordCount
 ms.assetid: 56b929bf-9b7f-dd83-98b7-35bf96028732
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# MailMergeDataSource.RecordCount Property (Publisher)
+# MailMergeDataSource.RecordCount property (Publisher)
 
-Returns a  **Long** that represents the number of records in the data source. Read-only.
+Returns a **Long** that represents the number of records in the data source. Read-only.
 
 
 ## Syntax
 
- _expression_. **RecordCount**
+_expression_.**RecordCount**
 
- _expression_ A variable that represents a  **MailMergeDataSource** object.
+_expression_ A variable that represents a **[MailMergeDataSource](Publisher.MailMergeDataSource.md)** object.
 
 
 ## Return value
@@ -31,8 +30,9 @@ Long
 
 ## Example
 
-This example validates ZIP Codes in the attached data source for five digits. If the length of the ZIP Code is fewer than five digits, the record is excluded from the mail merge process. This example assumes the postal codes are U.S. ZIP Codes. You could modify this example to search for ZIP Codes that have a 4-digit locator code appended to the ZIP Code, and then exclude all records that do not contain the locator code.
+This example validates ZIP Codes in the attached data source for five digits. If the length of the ZIP Code is fewer than five digits, the record is excluded from the mail merge process. 
 
+This example assumes that the postal codes are U.S. ZIP Codes. You could modify this example to search for ZIP Codes that have a 4-digit locator code appended to the ZIP Code, and then exclude all records that don't contain the locator code.
 
 ```vb
 Sub Validate 

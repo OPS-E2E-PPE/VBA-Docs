@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Parent Property (PowerPoint)
+title: ShapeRange.Parent property (PowerPoint)
 keywords: vbapp10.chm548001
 f1_keywords:
 - vbapp10.chm548001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Parent
 ms.assetid: d43d43e8-8b92-bf87-fc4e-160166f26b10
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Parent Property (PowerPoint)
+# ShapeRange.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

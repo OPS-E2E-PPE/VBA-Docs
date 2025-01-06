@@ -3,10 +3,9 @@ title: Time function (Visual Basic for Applications)
 keywords: vblr6.chm1009041
 f1_keywords:
 - vblr6.chm1009041
-ms.prod: office
 ms.assetid: 53451748-04cf-04d2-b40d-c091753c7898
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

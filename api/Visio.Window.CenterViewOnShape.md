@@ -1,27 +1,26 @@
 ---
-title: Window.CenterViewOnShape Method (Visio)
+title: Window.CenterViewOnShape method (Visio)
 keywords: vis_sdr.chm11662275
 f1_keywords:
 - vis_sdr.chm11662275
-ms.prod: visio
 api_name:
 - Visio.Window.CenterViewOnShape
 ms.assetid: 23f219be-bfb7-0f5b-89c0-855093e4bbd9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.CenterViewOnShape Method (Visio)
+# Window.CenterViewOnShape method (Visio)
 
 Pans the Microsoft Visio drawing window to place the specified shape in the center of the view.
 
 
 ## Syntax
 
- _expression_. `CenterViewOnShape`( `_SheetObject_` , `_Flags_` )
+_expression_. `CenterViewOnShape`( `_SheetObject_` , `_Flags_` )
 
- _expression_ A variable that represents a '[Window](Visio.Window.md)' object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Parameters

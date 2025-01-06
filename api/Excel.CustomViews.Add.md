@@ -3,12 +3,11 @@ title: CustomViews.Add method (Excel)
 keywords: vbaxl10.chm506075
 f1_keywords:
 - vbaxl10.chm506075
-ms.prod: excel
 api_name:
 - Excel.CustomViews.Add
 ms.assetid: 134d9969-048b-6a53-4f2c-cc83589c5a70
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Creates a new custom view.
 
 ## Syntax
 
-_expression_. `Add`( `_ViewName_` , `_PrintSettings_` , `_RowColSettings_` )
+_expression_.**Add** (_ViewName_, _PrintSettings_, _RowColSettings_)
 
-_expression_ A variable that represents a [CustomViews](Excel.CustomViews.md) object.
+_expression_ A variable that represents a **[CustomViews](Excel.CustomViews.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,22 +33,17 @@ _expression_ A variable that represents a [CustomViews](Excel.CustomViews.md) ob
 
 ## Return value
 
-A  **[CustomView](Excel.CustomView.md)** object that represents the new custom view.
+A **[CustomView](Excel.CustomView.md)** object that represents the new custom view.
 
 
 ## Example
 
-This example creates a new custom view named "Summary" in the active workbook.
-
+This example creates a new custom view named Summary in the active workbook.
 
 ```vb
 ActiveWorkbook.CustomViews.Add "Summary", True, True
 ```
 
 
-## See also
-
-
-[CustomViews Object](Excel.CustomViews.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

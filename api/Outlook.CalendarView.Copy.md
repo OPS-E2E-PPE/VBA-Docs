@@ -1,27 +1,26 @@
 ---
-title: CalendarView.Copy Method (Outlook)
+title: CalendarView.Copy method (Outlook)
 keywords: vbaol11.chm2612
 f1_keywords:
 - vbaol11.chm2612
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.Copy
 ms.assetid: ed33fd43-f36a-99e2-db61-9482423a9558
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.Copy Method (Outlook)
+# CalendarView.Copy method (Outlook)
 
-Creates a new  **[View](Outlook.View.md)** object based on the existing **[CalendarView](Outlook.CalendarView.md)** object.
+Creates a new **[View](Outlook.View.md)** object based on the existing **[CalendarView](Outlook.CalendarView.md)** object.
 
 
 ## Syntax
 
-_expression_. `Copy`( `_Name_` , `_SaveOption_` )
+_expression_.**Copy** (_Name_, _SaveOption_)
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ _expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.
 
 ## Return value
 
-A  **View** object that represents the new view.
+A **View** object that represents the new view.
 
 
 ## See also

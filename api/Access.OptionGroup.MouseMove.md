@@ -3,12 +3,11 @@ title: OptionGroup.MouseMove event (Access)
 keywords: vbaac10.chm14192
 f1_keywords:
 - vbaac10.chm14192
-ms.prod: access
 api_name:
 - Access.OptionGroup.MouseMove
 ms.assetid: 72c6d4b1-9cfe-6e34-3c87-3577e874a322
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

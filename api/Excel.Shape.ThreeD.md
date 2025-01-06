@@ -3,31 +3,29 @@ title: Shape.ThreeD property (Excel)
 keywords: vbaxl10.chm636109
 f1_keywords:
 - vbaxl10.chm636109
-ms.prod: excel
 api_name:
 - Excel.Shape.ThreeD
 ms.assetid: 4513383f-6edc-8810-4155-4188221253b6
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # Shape.ThreeD property (Excel)
 
-Returns a  **[ThreeDFormat](Excel.ThreeDFormat.md)** object that contains 3-D - effect formatting properties for the specified shape. Read-only.
+Returns a **[ThreeDFormat](Excel.ThreeDFormat.md)** object that contains 3D-effect formatting properties for the specified shape. Read-only.
 
 
 ## Syntax
 
-_expression_. `ThreeD`
+_expression_.**ThreeD**
 
-_expression_ A variable that represents a [Shape](./Excel.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Excel.Shape.md)** object.
 
 
 ## Example
 
-This example sets the depth, extrusion color, extrusion direction, and lighting direction for the 3-D effects applied to shape one on  `myDocument`.
-
+This example sets the depth, extrusion color, extrusion direction, and lighting direction for the 3D effects applied to shape one on _myDocument_.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -42,9 +40,6 @@ End With
 ```
 
 
-## See also
 
-
-[Shape Object](Excel.Shape.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

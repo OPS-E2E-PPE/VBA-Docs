@@ -1,24 +1,24 @@
 ---
-title: Project.Calculate Event (Project)
-ms.prod: project-server
+title: Project.Calculate event (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Calculate
 ms.assetid: cba7feb3-c0e4-96ec-d2fa-eaccfa640c5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Calculate Event (Project)
+# Project.Calculate event (Project)
 
 Occurs when a project schedule is recalculated.
 
 
 ## Syntax
 
- _expression_. `Calculate`( `_pj_` )
+_expression_. `Calculate`( `_pj_` )
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -31,11 +31,11 @@ Occurs when a project schedule is recalculated.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,9 +1,8 @@
 ---
 title: Form Regions
-ms.prod: outlook
 ms.assetid: 66e80f83-60db-e3b1-47e9-097f855f6512
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -25,7 +24,7 @@ A replacement form region is a page that replaces the default page of a standard
 
 Although you can create a custom form that contains a form region without using an add-in, add-ins allow you to deploy and further extend a standard Outlook form. Add-ins customize form regions of a form in a way similar to other custom pages of a form, by adding fields from the Field Chooser and controls from the control toolbox. However, while you add code behind a custom form page using the Script Editor and Visual Basic Scripting Edition (VBScript), you add code behind a form region using an add-in. 
 
-For more information on using an add-in to extend a form region, see  [Extending a Form Region with an Add-in](../Specifying-Form-Behavior/extending-a-form-region-with-an-add-in.md).
+For more information on using an add-in to extend a form region, see [Extending a Form Region with an Add-in](../Specifying-Form-Behavior/extending-a-form-region-with-an-add-in.md).
 
 Form regions allow greater flexibility in customizing and extending a standard Outlook form in the following ways:
 
@@ -33,7 +32,7 @@ Form regions allow greater flexibility in customizing and extending a standard O
     
 - If you are using adjoining or separate form regions to add user interface to a standard form, you can choose to specify the message class of the form regions as the same message class of the standard form (for example, **IPM.Contact**), or as a custom message class derived from the standard message class (for example, **IPM.Contact.PersonalContacts**).
     
-- You can use a replacement form region to replace the default page of a standard form, or a replace-all form region to replace the entire standard form. In this case, you must specify a derived message class for the form region and register the form region for that message class.
+- Use a replacement form region to replace the default page of a standard form, or a replace-all form region to replace the entire standard form. In this case, you must specify a derived message class for the form region and register the form region for that message class.
     
 - Multiple add-ins can add form regions to the same form.
     

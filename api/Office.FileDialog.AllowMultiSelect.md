@@ -3,12 +3,11 @@ title: FileDialog.AllowMultiSelect property (Office)
 keywords: vbaof11.chm256006
 f1_keywords:
 - vbaof11.chm256006
-ms.prod: office
 api_name:
 - Office.FileDialog.AllowMultiSelect
 ms.assetid: b109b0b5-1a94-c93f-a1c0-43728d7b9f30
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -63,9 +62,9 @@ Sub Main()
  For Each vrtSelectedItem In .SelectedItems 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next 
  'If the user presses Cancel... 

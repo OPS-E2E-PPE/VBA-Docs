@@ -3,18 +3,17 @@ title: CustomControl.Default property (Access)
 keywords: vbaac10.chm12045
 f1_keywords:
 - vbaac10.chm12045
-ms.prod: access
 api_name:
 - Access.CustomControl.Default
 ms.assetid: ffe92e84-4bfa-56a2-298e-00d448f8dc29
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Default property (Access)
 
-You can use the **Default** property to specify whether a command button is the default button on a form. Read/write **Boolean**.
+Use the **Default** property to specify whether a command button is the default button on a form. Read/write **Boolean**.
 
 
 ## Syntax

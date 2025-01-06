@@ -1,29 +1,27 @@
 ---
-title: Application.WindowDeactivate Event (Project)
-ms.prod: project-server
+title: Application.WindowDeactivate event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.WindowDeactivate
 ms.assetid: 141940d7-f117-d3a8-2aa5-83679a5fbfd4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowDeactivate Event (Project)
+# Application.WindowDeactivate event (Project)
 
-Occurs when any window within Project is deactivated. The  **WindowDeactivate** event does not occur when the application window is deactivated.
+Occurs when any window within Project is deactivated. The **WindowDeactivate** event does not occur when the application window is deactivated.
 
 
 ## Syntax
 
- _expression_. `WindowDeactivate`( `_deactivatedWindow_`, )
+_expression_.**WindowDeactivate** (_deactivatedWindow_)
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -31,11 +29,11 @@ Occurs when any window within Project is deactivated. The  **WindowDeactivate** 
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

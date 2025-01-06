@@ -1,24 +1,24 @@
 ---
-title: Windows2.Item Property (Project)
-ms.prod: project-server
+title: Windows2.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Windows2.Item
 ms.assetid: 79cb4bcf-f12b-fc9e-39c3-fdce0f92685e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Windows2.Item Property (Project)
+# Windows2.Item property (Project)
 
-Gets a single  **Window** object from the **Windows2** collection. Read-only **Window**.
+Gets a single **Window** object from the **Windows2** collection. Read-only **Window**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Windows2' object.
+_expression_ A variable that represents a 'Windows2' object.
 
 
 ## Parameters

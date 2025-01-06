@@ -3,12 +3,11 @@ title: Document.AddToFavorites method (Word)
 keywords: vbawd10.chm158007432
 f1_keywords:
 - vbawd10.chm158007432
-ms.prod: word
 api_name:
 - Word.Document.AddToFavorites
 ms.assetid: e810df76-18a8-d6b8-8d72-fb6386e6ce3a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Creates a shortcut to the document or hyperlink and adds it to the Favorites fol
 
 ## Syntax
 
- _expression_. `AddToFavorites`
+_expression_.**AddToFavorites**
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

@@ -3,18 +3,17 @@ title: ListBox.ListCount property (Access)
 keywords: vbaac10.chm11274
 f1_keywords:
 - vbaac10.chm11274
-ms.prod: access
 api_name:
 - Access.ListBox.ListCount
 ms.assetid: 09383f86-888e-1708-9e05-504c49eeb5a6
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.ListCount property (Access)
 
-You can use the **ListCount** property to determine the number of rows in a list box. Read/write **Long**.
+Use the **ListCount** property to determine the number of rows in a list box. Read/write **Long**.
 
 
 ## Syntax
@@ -34,7 +33,7 @@ The **ListCount** property setting contains the total number of rows in the comb
 
 If you set the **ColumnHeads** property to Yes, the row of column headings is included in the number of rows returned by the **ListCount** property. For combo boxes and list boxes based on a table or query, adding column headings adds an additional row. For combo boxes and list boxes based on a value list, adding column headings leaves the number of rows unchanged (the first row of values becomes the column headings).
 
-You can use the **ListCount** property with the **ListRows** property to specify how many rows you want to display in the list box portion of a combo box.
+Use the **ListCount** property with the **ListRows** property to specify how many rows you want to display in the list box portion of a combo box.
 
 
 ## Example

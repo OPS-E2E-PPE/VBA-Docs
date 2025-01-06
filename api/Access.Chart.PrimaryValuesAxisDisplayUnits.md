@@ -3,11 +3,10 @@ title: Chart.PrimaryValuesAxisDisplayUnits property (Access)
 keywords: vbaac10.chm6127
 f1_keywords:
 - vbaac10.chm6127
-ms.prod: access
 api_name:
 - Access.Chart.PrimaryValuesAxisDisplayUnits
 ms.date: 11/28/2018 
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

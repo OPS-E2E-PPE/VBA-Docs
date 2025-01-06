@@ -3,12 +3,11 @@ title: Image.Parent property (Access)
 keywords: vbaac10.chm10355
 f1_keywords:
 - vbaac10.chm10355
-ms.prod: access
 api_name:
 - Access.Image.Parent
 ms.assetid: f6fb685a-1934-a2f5-ce58-f2a9e46dc90b
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

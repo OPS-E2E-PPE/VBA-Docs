@@ -3,18 +3,17 @@ title: NavigationButton.ReadingOrder property (Access)
 keywords: vbaac10.chm10505
 f1_keywords:
 - vbaac10.chm10505
-ms.prod: access
 api_name:
 - Access.NavigationButton.ReadingOrder
 ms.assetid: 5d436f27-e896-15c0-3733-ec7629d58214
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax

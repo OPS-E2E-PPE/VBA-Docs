@@ -3,18 +3,17 @@ title: ListBox.ColumnHeads property (Access)
 keywords: vbaac10.chm11225
 f1_keywords:
 - vbaac10.chm11225
-ms.prod: access
 api_name:
 - Access.ListBox.ColumnHeads
 ms.assetid: cd779d07-d35b-03b2-df3a-7934615675d0
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.ColumnHeads property (Access)
 
-You can use the **ColumnHeads** property to display a single row of column headings for list boxes, combo boxes, and OLE objects that accept column headings. You can also use this property to create a label for each entry in a chart control. What is actually displayed as the first-row column heading depends on the object's **RowSourceType** property setting. Read/write **Boolean**.
+Use the **ColumnHeads** property to display a single row of column headings for list boxes, combo boxes, and OLE objects that accept column headings. You can also use this property to create a label for each entry in a chart control. What is actually displayed as the first-row column heading depends on the object's **RowSourceType** property setting. Read/write **Boolean**.
 
 
 ## Syntax

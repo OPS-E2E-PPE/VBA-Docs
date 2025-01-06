@@ -1,24 +1,24 @@
 ---
-title: Project.Activate Method (Project)
-ms.prod: project-server
+title: Project.Activate method (Project)
+ms.service: project-server
 api_name:
 - Project.Project.Activate
 ms.assetid: 965ad204-9f56-591f-91a1-7c42ded480cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.Activate Method (Project)
+# Project.Activate method (Project)
 
 Activates the project.
 
 
 ## Syntax
 
- _expression_. `Activate`
+_expression_.**Activate**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

@@ -1,20 +1,19 @@
 ---
-title: VisContainerFormatType Enumeration (Visio)
+title: VisContainerFormatType enumeration (Visio)
 keywords: vis_sdr.chm70715
 f1_keywords:
 - vis_sdr.chm70715
-ms.prod: visio
 api_name:
 - Visio.VisContainerFormatType
 ms.assetid: 3cf08cec-d1b8-e197-a7d0-f96bb6e843d0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisContainerFormatType Enumeration (Visio)
+# VisContainerFormatType enumeration (Visio)
 
-Specifies constants that determine the container format to change; passed to the  **[Selection.SetContainerFormat](Visio.Selection.SetContainerFormat.md)** method.
+Specifies constants that determine the container format to change; passed to the **[Selection.SetContainerFormat](Visio.Selection.SetContainerFormat.md)** method.
 
 Version Added: Visio 2010 
 

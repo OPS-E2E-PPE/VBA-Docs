@@ -3,12 +3,11 @@ title: SharedWorkspace.Folders property (Office)
 keywords: vbaof11.chm276005
 f1_keywords:
 - vbaof11.chm276005
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Folders
 ms.assetid: aaba6357-fff5-f3d2-e7d7-6453183864e3
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ The following example lists the subfolders in the current shared workspace.
 ```vb
     Dim swsFolders As Office.SharedWorkspaceFolders 
     Set swsFolders = ActiveWorkbook.SharedWorkspace.Folders 
-    MsgBox "There are " &amp; swsFolders.Count &amp; _ 
+    MsgBox "There are " & swsFolders.Count & _ 
         " folder(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

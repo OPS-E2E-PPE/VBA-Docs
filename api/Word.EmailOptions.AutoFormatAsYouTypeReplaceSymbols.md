@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeReplaceSymbols property (Word)
 keywords: vbawd10.chm165347593
 f1_keywords:
 - vbawd10.chm165347593
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceSymbols
 ms.assetid: d8314d95-5701-51a7-a987-10cf22f1f87e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceSymbols`
+_expression_. `AutoFormatAsYouTypeReplaceSymbols`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example turns on the replacement of hyphens with symbols as you type.
 EmailOptions.AutoFormatAsYouTypeReplaceSymbols = True
 ```
 
-This example returns the status of the  **Symbol characters (--) with symbols (—)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Symbol characters (--) with symbols (—)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

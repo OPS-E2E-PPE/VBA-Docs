@@ -3,12 +3,11 @@ title: LetterContent.IncludeHeaderFooter property (Word)
 keywords: vbawd10.chm161546342
 f1_keywords:
 - vbawd10.chm161546342
-ms.prod: word
 api_name:
 - Word.LetterContent.IncludeHeaderFooter
 ms.assetid: 365fe58d-ef60-436e-a942-d43f12bafee8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IncludeHeaderFooter`
+_expression_. `IncludeHeaderFooter`
 
  _expression_ An expression that returns '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example
 
-This example creates a new  **LetterContent** object, includes the header and footer from the Contemporary Letter template, and then runs the Letter Wizard by using the **[RunLetterWizard](Word.Document.RunLetterWizard.md)** method.
+This example creates a new **LetterContent** object, includes the header and footer from the Contemporary Letter template, and then runs the Letter Wizard by using the **[RunLetterWizard](Word.Document.RunLetterWizard.md)** method.
 
 
 ```vb

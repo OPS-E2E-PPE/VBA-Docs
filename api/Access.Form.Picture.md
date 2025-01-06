@@ -3,18 +3,17 @@ title: Form.Picture property (Access)
 keywords: vbaac10.chm13379
 f1_keywords:
 - vbaac10.chm13379
-ms.prod: access
 api_name:
 - Access.Form.Picture
 ms.assetid: 4a42a443-13f0-e7aa-848d-34faff52c9bd
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Form.Picture property (Access)
 
-You can use the **Picture** property to specify a bitmap or other type of graphic to be used as a background picture on a form. Read/write **String**.
+Use the **Picture** property to specify a bitmap or other type of graphic to be used as a background picture on a form. Read/write **String**.
 
 
 ## Syntax

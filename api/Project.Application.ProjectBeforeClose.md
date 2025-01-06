@@ -1,24 +1,24 @@
 ---
-title: Application.ProjectBeforeClose Event (Project)
-ms.prod: project-server
+title: Application.ProjectBeforeClose event (Project)
+ms.service: project-server
 api_name:
 - Project.Application.ProjectBeforeClose
 ms.assetid: 90e75c72-03f9-25ab-1339-94d9ff8933a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ProjectBeforeClose Event (Project)
+# Application.ProjectBeforeClose event (Project)
 
 Occurs before a project is closed.
 
 
 ## Syntax
 
- _expression_. `ProjectBeforeClose`( `_pj_`, `_Cancel_` )
+_expression_. `ProjectBeforeClose`( `_pj_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,11 +32,11 @@ Occurs before a project is closed.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

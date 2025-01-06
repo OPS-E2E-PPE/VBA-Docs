@@ -3,12 +3,11 @@ title: Options.PasteAdjustTableFormatting property (Word)
 keywords: vbawd10.chm162988463
 f1_keywords:
 - vbawd10.chm162988463
-ms.prod: word
 api_name:
 - Word.Options.PasteAdjustTableFormatting
 ms.assetid: 8c486ea0-d653-b82a-8507-c192d4d11ecb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteAdjustTableFormatting`
+_expression_. `PasteAdjustTableFormatting`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

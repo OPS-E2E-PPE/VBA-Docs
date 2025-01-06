@@ -1,27 +1,26 @@
 ---
-title: TaskRequestDeclineItem.Display Method (Outlook)
+title: TaskRequestDeclineItem.Display method (Outlook)
 keywords: vbaol11.chm1852
 f1_keywords:
 - vbaol11.chm1852
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestDeclineItem.Display
 ms.assetid: 84e01b8e-27df-c2a6-b02e-cff1e6cdb2b6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.Display Method (Outlook)
+# TaskRequestDeclineItem.Display method (Outlook)
 
-Displays a new  **[Inspector](Outlook.Inspector.md)** object for the item.
+Displays a new **[Inspector](Outlook.Inspector.md)** object for the item.
 
 
 ## Syntax
 
 _expression_. `Display`( `_Modal_` )
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Parameters
@@ -34,9 +33,9 @@ _expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.Tas
 
 ## Remarks
 
-The  **Display** method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the **[Activate](Outlook.Inspector.Activate(method).md)** method.
+The **Display** method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the **[Activate](Outlook.Inspector.Activate(method).md)** method.
 
-If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the  **E_FAIL** return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the **Display** method.
+If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the **E_FAIL** return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the **Display** method.
 
 
 ## See also

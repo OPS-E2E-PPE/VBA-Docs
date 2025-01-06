@@ -3,12 +3,11 @@ title: Font.AllCaps property (Word)
 keywords: vbawd10.chm156369030
 f1_keywords:
 - vbawd10.chm156369030
-ms.prod: word
 api_name:
 - Word.Font.AllCaps
 ms.assetid: ef881fd6-bb35-7cc6-b048-c9ed2111f821
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AllCaps`
+_expression_. `AllCaps`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** , or wdUndefined (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle** (reverses the current setting).
+Returns **True**, **False**, or wdUndefined (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle** (reverses the current setting).
 
-Setting  **AllCaps** to **True** sets **[SmallCaps](Word.Font.SmallCaps.md)** to **False** , and vice versa.
+Setting **AllCaps** to **True** sets **[SmallCaps](Word.Font.SmallCaps.md)** to **False**, and vice versa.
 
 
 ## Example

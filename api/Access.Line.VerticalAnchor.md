@@ -3,12 +3,11 @@ title: Line.VerticalAnchor property (Access)
 keywords: vbaac10.chm10351
 f1_keywords:
 - vbaac10.chm10351
-ms.prod: access
 api_name:
 - Access.Line.VerticalAnchor
 ms.assetid: 533343f3-e9bb-d169-e5b5-6c473cf85951
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

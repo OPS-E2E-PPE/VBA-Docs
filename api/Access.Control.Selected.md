@@ -3,18 +3,17 @@ title: Control.Selected property (Access)
 keywords: vbaac10.chm10137
 f1_keywords:
 - vbaac10.chm10137
-ms.prod: access
 api_name:
 - Access.Control.Selected
 ms.assetid: 80477eda-78aa-6cdd-062f-dd9caac816c6
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Control.Selected property (Access)
 
-You can use the **Selected** property in Visual Basic to determine if an item is selected. Read/write **Long**.
+Use the **Selected** property in Visual Basic to determine if an item is selected. Read/write **Long**.
 
 
 ## Syntax
@@ -43,7 +42,7 @@ This property is available only at run time.
 
 When a list box control's **MultiSelect** property is set to None, only one item can have its **Selected** property set to **True**. When a list box control's **MultiSelect** property is set to Simple or Extended, any or all of the items can have their **Selected** property set to **True**. A multiple-selection list box bound to a field will always have a **Value** property equal to **Null**. You use the **Selected** property or the **ItemsSelected** collection to retrieve information about which items are selected.
 
-You can use the **Selected** property to select items in a list box by using Visual Basic. For example, the following expression selects the fifth item in the list:
+Use the **Selected** property to select items in a list box by using Visual Basic. For example, the following expression selects the fifth item in the list:
 
 ```vb
 Me!Listbox.Selected(4) = True

@@ -1,25 +1,24 @@
 ---
-title: Axis.HasDisplayUnitLabel Property (PowerPoint)
+title: Axis.HasDisplayUnitLabel property (PowerPoint)
 keywords: vbapp10.chm682044
 f1_keywords:
 - vbapp10.chm682044
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.HasDisplayUnitLabel
 ms.assetid: adbbbb89-55af-12f5-ec67-1e88424f3d81
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.HasDisplayUnitLabel Property (PowerPoint)
+# Axis.HasDisplayUnitLabel property (PowerPoint)
 
  **True** if the label specified by the **[DisplayUnit](PowerPoint.Axis.DisplayUnit.md)** or **[DisplayUnitCustom](PowerPoint.Axis.DisplayUnitCustom.md)** property is displayed on the specified axis. The default is **True**. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `HasDisplayUnitLabel`
+_expression_.**HasDisplayUnitLabel**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 

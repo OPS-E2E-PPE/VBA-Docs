@@ -3,25 +3,24 @@ title: Cells.NestingLevel property (Word)
 keywords: vbawd10.chm155844710
 f1_keywords:
 - vbawd10.chm155844710
-ms.prod: word
 api_name:
 - Word.Cells.NestingLevel
 ms.assetid: 24da16e0-3713-3c74-71e9-03e886802e9f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Cells.NestingLevel property (Word)
 
-Returns the nesting level of the specified cells. Read-only  **Long**.
+Returns the nesting level of the specified cells. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `NestingLevel`
+_expression_. `NestingLevel`
 
- _expression_ A variable that represents a '[Cells](Word.cells.md)' collection.
+_expression_ A variable that represents a '[Cells](Word.cells.md)' collection.
 
 
 ## Remarks

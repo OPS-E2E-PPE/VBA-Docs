@@ -1,10 +1,10 @@
 ---
 title: ThemeColorScheme members (Office)
 description: Represents the color scheme of a Microsoft Office theme.
-ms.prod: office
+ms.service: office
 ms.assetid: 0b73a1ec-7d1e-1b94-6411-ddf0ec95d935
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

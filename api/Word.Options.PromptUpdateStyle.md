@@ -3,12 +3,11 @@ title: Options.PromptUpdateStyle property (Word)
 keywords: vbawd10.chm162988473
 f1_keywords:
 - vbawd10.chm162988473
-ms.prod: word
 api_name:
 - Word.Options.PromptUpdateStyle
 ms.assetid: 0646e8e2-3462-14c7-7e73-d35ad9a20724
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PromptUpdateStyle`
+_expression_. `PromptUpdateStyle`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks

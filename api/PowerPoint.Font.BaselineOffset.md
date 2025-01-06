@@ -1,27 +1,26 @@
 ---
-title: Font.BaselineOffset Property (PowerPoint)
+title: Font.BaselineOffset property (PowerPoint)
 keywords: vbapp10.chm575011
 f1_keywords:
 - vbapp10.chm575011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Font.BaselineOffset
 ms.assetid: aa948e2e-957c-ff4c-16b9-480d7f5f2d24
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Font.BaselineOffset Property (PowerPoint)
+# Font.BaselineOffset property (PowerPoint)
 
 Returns or sets the baseline offset for the specified superscript or subscript characters. Read/write.
 
 
 ## Syntax
 
- _expression_. `BaselineOffset`
+_expression_. `BaselineOffset`
 
- _expression_ A variable that represents a [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents a [Font](PowerPoint.Font.md) object.
 
 
 ## Return value
@@ -31,15 +30,15 @@ Single
 
 ## Remarks
 
-The  **BaselineOffset** property value be a floating-point value from - 1 through 1. A value of - 1 represents an offset of - 100 percent, and a value of 1 represents an offset of 100 percent.
+The **BaselineOffset** property value be a floating-point value from - 1 through 1. A value of - 1 represents an offset of - 100 percent, and a value of 1 represents an offset of 100 percent.
 
-Setting the  **BaselineOffset** property to a negative value automatically sets the **Subscript** property to **True** and the **Superscript** property to **False**.
+Setting the **BaselineOffset** property to a negative value automatically sets the **Subscript** property to **True** and the **Superscript** property to **False**.
 
-Setting the  **BaselineOffset** property to a positive value automatically sets the **Subscript** property to **False** and the **Superscript** property to **True**.
+Setting the **BaselineOffset** property to a positive value automatically sets the **Subscript** property to **False** and the **Superscript** property to **True**.
 
-Setting the  **Subscript** property to **True** automatically sets the **BaselineOffset** property to 0.3 (30 percent).
+Setting the **Subscript** property to **True** automatically sets the **BaselineOffset** property to 0.3 (30 percent).
 
-Setting the  **Superscript** property to **True** automatically sets the **BaselineOffset** property to - 0.25 ( - 25 percent).
+Setting the **Superscript** property to **True** automatically sets the **BaselineOffset** property to - 0.25 ( - 25 percent).
 
 
 ## Example

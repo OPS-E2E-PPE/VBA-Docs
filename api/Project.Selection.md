@@ -1,21 +1,21 @@
 ---
-title: Selection Object (Project)
-ms.prod: project-server
+title: Selection object (Project)
+ms.service: project-server
 api_name:
 - Project.Selection
 ms.assetid: 06b2fc7e-5c72-3c13-132f-769e68057b43
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection Object (Project)
+# Selection object (Project)
 
 
 
-Represents a selection in the active project. There is no collection for  **Selection** objects. The **Selection** object can be accessed only through the **[ActiveSelection](./Project.Application.ActiveSelection.md)** property of the **Application** object.
+Represents a selection in the active project. There is no collection for **Selection** objects. The **Selection** object can be accessed only through the **[ActiveSelection](./Project.Application.ActiveSelection.md)** property of the **Application** object.
  **Using the Selection Object**
-Use the  **ActiveSelection** property to return a **Selection** object. The following example lists the names of all the resources in the selection.
+Use the **ActiveSelection** property to return a **Selection** object. The following example lists the names of all the resources in the selection.
 
 ## Properties
 

@@ -3,10 +3,9 @@ title: Arrange buttons
 keywords: fm20.chm5225246
 f1_keywords:
 - fm20.chm5225246
-ms.prod: office
 ms.assetid: 7e0c9686-deab-66d1-3f7e-78e04ab36e71
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

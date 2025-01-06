@@ -3,12 +3,11 @@ title: Document.WriteReserved property (Word)
 keywords: vbawd10.chm158007384
 f1_keywords:
 - vbawd10.chm158007384
-ms.prod: word
 api_name:
 - Word.Document.WriteReserved
 ms.assetid: be5d8696-9e72-f8a3-2b47-a2fde13359f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `WriteReserved`
+_expression_. `WriteReserved`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

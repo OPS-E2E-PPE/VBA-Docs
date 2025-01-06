@@ -3,18 +3,17 @@ title: CheckBox.Undo method (Access)
 keywords: vbaac10.chm10684
 f1_keywords:
 - vbaac10.chm10684
-ms.prod: access
 api_name:
 - Access.CheckBox.Undo
 ms.assetid: e69e5d59-398d-744c-0a99-e2ca9b290c9b
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.Undo method (Access)
 
-You can use the **Undo** method to reset a control or form when its value has been changed.
+Use the **Undo** method to reset a control or form when its value has been changed.
 
 
 ## Syntax
@@ -44,8 +43,6 @@ Private Sub LastName_Change()
  Me!LastName.Undo 
 End Sub
 ```
-
-<br/>
 
 The next example uses the **Undo** method to reset all changes to a form before the form is updated.
 

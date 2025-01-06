@@ -3,10 +3,9 @@ title: Filter function (Visual Basic for Applications)
 keywords: vblr6.chm1008912
 f1_keywords:
 - vblr6.chm1008912
-ms.prod: office
 ms.assetid: 00630b25-e7b8-5c32-b6d1-9816f01c3a0f
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a zero-based array containing a subset of a string array based on a spec
 ## Syntax
 
 **Filter**(_sourcearray_, _match_, [ _include_, [ _compare_ ]])
-
-<br/>
 
 The **Filter** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

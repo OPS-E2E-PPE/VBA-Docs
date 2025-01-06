@@ -1,27 +1,26 @@
 ---
-title: Master.CreateSelection Method (Visio)
+title: Master.CreateSelection method (Visio)
 keywords: vis_sdr.chm10751430
 f1_keywords:
 - vis_sdr.chm10751430
-ms.prod: visio
 api_name:
 - Visio.Master.CreateSelection
 ms.assetid: 52db8b1b-e253-549f-c3ba-d661fa7b675e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.CreateSelection Method (Visio)
+# Master.CreateSelection method (Visio)
 
-Creates various types of  **Selection** objects.
+Creates various types of **Selection** objects.
 
 
 ## Syntax
 
- _expression_. `CreateSelection`( `_SelType_` , `_IterationMode_` , `_[Data]_` )
+_expression_. `CreateSelection`( `_SelType_` , `_IterationMode_` , `_[Data]_` )
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Parameters
@@ -38,16 +37,13 @@ Creates various types of  **Selection** objects.
 
 Selection
 
-
 ## Remarks
 
-The  **CreateSelection** method makes it possible to create complex selections programmatically. So instead of having to select all shapes on a page, for example, you can select only those on a given layer, or only those based on a certain master.
+The **CreateSelection** method makes it possible to create complex selections programmatically. So instead of having to select all shapes on a page, for example, you can select only those on a given layer, or only those based on a certain master.
 
-Calling the  **CreateSelection** method with _SelType_ equal to **visSelTypeByType** or **visSelTypeByLayer** is equivalent to selecting options in the **Select byType** dialog box (click **Select** in the **Editing** group on the **Home** tab, and then click **Select by Type**).
+Calling the **CreateSelection** method with _SelType_ equal to **visSelTypeByType** or **visSelTypeByLayer** is equivalent to selecting options in the **Select byType** dialog box (click **Select** in the **Editing** group on the **Home** tab, and then click **Select by Type**).
 
-The  _SelType_ argument should be one of the following values, which are declared in **VisSelectionTypes** in the Visio type library.
-
-
+The _SelType_ argument should be one of the following values, which are declared in **VisSelectionTypes** in the Visio type library.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -60,9 +56,7 @@ The  _SelType_ argument should be one of the following values, which are declare
 | **visSelTypeEmpty**|0|A selection that initially contains no shapes. |
 | **visSelTypeSingle**|2|A selection that initially contains one shape. |
 
-The optional  _IterationMode_ argument should be one of the following values, which are declared in **VisSelectMode** in the Visio type library. The default is **visSelModeSkipSuper**.
-
-
+The optional _IterationMode_ argument should be one of the following values, which are declared in **VisSelectMode** in the Visio type library. The default is **visSelModeSkipSuper**.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -71,13 +65,11 @@ The optional  _IterationMode_ argument should be one of the following values, wh
 | **visSelModeSkipSub**|&H0400|Selection does not report subselected shapes.|
 | **visSelModeSkipSuper**|&H0100|Selection does not report superselected shapes.|
 
-The optional  _Data_ argument should be an object that corresponds to the object type specified by _SelType_. For example, if you want to select all the masters of a certain type,  _Data_ should be of type **Master**. And if you want to select all the shapes on a certain layer, _Data_ should be of type **Layer**.
+The optional  _Data_ argument should be an object that corresponds to the object type specified by _SelType_. For example, if you want to select all the masters of a certain type, _Data_ should be of type **Master**. And if you want to select all the shapes on a certain layer, _Data_ should be of type **Layer**.
 
-When  _SelType_ is **visSelTypeByRole** , _Data_ should be a member of the **[VisRoleSelectionTypes](Visio.VisRoleSelectionTypes.md)** enumeration.
+When _SelType_ is **visSelTypeByRole**, _Data_ should be a member of the **[VisRoleSelectionTypes](Visio.VisRoleSelectionTypes.md)** enumeration.
 
-When the  _SelType_ argument is **visSelTypeByType** , possible _Data_ values should be one of the following values, which are declared in **VisTypeSelectionTypes** in the Visio type library.
-
-
+When the  _SelType_ argument is **visSelTypeByType**, possible _Data_ values should be one of the following values, which are declared in **VisTypeSelectionTypes** in the Visio type library.
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

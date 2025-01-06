@@ -3,30 +3,29 @@ title: Borders.DistanceFromRight property (Word)
 keywords: vbawd10.chm154927126
 f1_keywords:
 - vbawd10.chm154927126
-ms.prod: word
 api_name:
 - Word.Borders.DistanceFromRight
 ms.assetid: 456510ef-6746-6ef2-68a9-6917ce59144d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Borders.DistanceFromRight property (Word)
 
-Returns or sets the space (in points) between the right edge of the text and the right border. Read/write  **Long**.
+Returns or sets the space (in points) between the right edge of the text and the right border. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `DistanceFromRight`
+_expression_. `DistanceFromRight`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks
 
-Using this property with a page border, you can set either the space between the text and the right border or the space between the right edge of the page and the right border. Where the distance is measured from depends on the value of the  **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
+Using this property with a page border, you can set either the space between the text and the right border or the space between the right edge of the page and the right border. Where the distance is measured from depends on the value of the **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
 
 
 ## Example

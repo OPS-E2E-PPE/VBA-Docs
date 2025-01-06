@@ -3,16 +3,15 @@ title: OLE Programmatic Identifiers (PowerPoint)
 keywords: vbapp10.chm5193172
 f1_keywords:
 - vbapp10.chm5193172
-ms.prod: powerpoint
 ms.assetid: c0e766ee-09af-b20f-2eec-0c73ea1615a4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # OLE Programmatic Identifiers (PowerPoint)
 
-You can use an OLE programmatic identifier (sometimes called a ProgID) to create an Automation object. The following tables list OLE programmatic identifiers for ActiveX controls, Office applications, and Office Web Components.
+Use an OLE programmatic identifier (sometimes called a ProgID) to create an Automation object. The following tables list OLE programmatic identifiers for ActiveX controls, Office applications, and Office Web Components.
 
 
 ## ActiveX Controls
@@ -64,9 +63,9 @@ To create the Excel objects listed in the following table, use one of the corres
 |**Workbook**|Excel.Chart|Returns a workbook containing two worksheets; one for the chart and one for its data. The chart worksheet is the active worksheet.|
 |**Workbook**|Excel.Sheet|Returns a workbook with one worksheet.|
 
-## Microsoft Graph
+## Graph
 
-To create the Microsoft Graph objects listed in the following table, use one of the corresponding OLE programmatic identifiers. If you use an identifier without a version number suffix, you create an object in the most recent version of Graph available on the computer where the macro is running.
+To create the Graph objects listed in the following table, use one of the corresponding OLE programmatic identifiers. If you use an identifier without a version number suffix, you create an object in the most recent version of Graph available on the computer where the macro is running.
 
 
 

@@ -3,12 +3,11 @@ title: SharedWorkspace.Files property (Office)
 keywords: vbaof11.chm276004
 f1_keywords:
 - vbaof11.chm276004
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Files
 ms.assetid: e4a2f80e-5cb7-8ff2-3ab7-2b8c2d9d3cfb
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The following example lists the files saved in the current shared workspace.
 ```vb
     Dim swsFiles As Office.SharedWorkspaceFiles 
     Set swsFiles = ActiveWorkbook.SharedWorkspace.Files 
-    MsgBox "There are " &amp; swsFiles.Count &amp; _ 
+    MsgBox "There are " & swsFiles.Count & _ 
         " file(s) 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

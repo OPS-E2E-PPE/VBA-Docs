@@ -3,12 +3,11 @@ title: Options.HangulHanjaFastConversion property (Word)
 keywords: vbawd10.chm162988372
 f1_keywords:
 - vbawd10.chm162988372
-ms.prod: word
 api_name:
 - Word.Options.HangulHanjaFastConversion
 ms.assetid: 3816fb7e-61e9-e2d8-bb03-c904130b1f10
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HangulHanjaFastConversion`
+_expression_. `HangulHanjaFastConversion`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

@@ -1,25 +1,24 @@
 ---
-title: EffectParameters Object (PowerPoint)
+title: EffectParameters object (PowerPoint)
 keywords: vbapp10.chm654000
 f1_keywords:
 - vbapp10.chm654000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.EffectParameters
 ms.assetid: 78145783-800b-433b-25c2-54dd65f59556
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EffectParameters Object (PowerPoint)
+# EffectParameters object (PowerPoint)
 
-Represents various animation parameters for an  **[Effect](PowerPoint.Effect.md)** object, such as colors, fonts, sizes, and directions.
+Represents various animation parameters for an **[Effect](PowerPoint.Effect.md)** object, such as colors, fonts, sizes, and directions.
 
 
 ## Example
 
-Use the [EffectParameters](PowerPoint.Effect.EffectParameters.md)property of the  **Effect** object to return an **EffectParameters** object. The following example creates a shape, sets a fill effect, and changes the starting and ending fill colors.
+Use the [EffectParameters](PowerPoint.Effect.EffectParameters.md)property of the **Effect** object to return an **EffectParameters** object. The following example creates a shape, sets a fill effect, and changes the starting and ending fill colors.
 
 
 ```vb

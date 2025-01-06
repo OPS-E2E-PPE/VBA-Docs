@@ -3,20 +3,17 @@ title: AcPrintQuality enumeration (Access)
 keywords: vbaac10.chm10023
 f1_keywords:
 - vbaac10.chm10023
-ms.prod: access
 api_name:
 - Access.AcPrintQuality
 ms.assetid: 5a4636c4-7034-34a8-3c75-7cd059b8f10a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcPrintQuality enumeration (Access)
 
 Used with the **PrintOut** method to specify the print quality of a particular print job.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

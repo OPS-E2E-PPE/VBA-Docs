@@ -3,12 +3,11 @@ title: TableOfContents.UseFields property (Word)
 keywords: vbawd10.chm152240130
 f1_keywords:
 - vbawd10.chm152240130
-ms.prod: word
 api_name:
 - Word.TableOfContents.UseFields
 ms.assetid: 36d01961-ba9a-fe8d-d791-f892bea8b994
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `UseFields`
+_expression_. `UseFields`
 
- _expression_ Required. A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
+_expression_ Required. A variable that represents a '[TableOfContents](Word.TableOfContents.md)' collection.
 
 
 ## Example

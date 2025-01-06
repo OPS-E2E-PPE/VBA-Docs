@@ -3,12 +3,11 @@ title: Attachment.LabelAlign property (Access)
 keywords: vbaac10.chm14007
 f1_keywords:
 - vbaac10.chm14007
-ms.prod: access
 api_name:
 - Access.Attachment.LabelAlign
 ms.assetid: 328832bf-303b-1988-11b9-4e9505fe80de
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

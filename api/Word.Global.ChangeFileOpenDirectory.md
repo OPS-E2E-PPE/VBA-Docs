@@ -3,12 +3,11 @@ title: Global.ChangeFileOpenDirectory method (Word)
 keywords: vbawd10.chm163119459
 f1_keywords:
 - vbawd10.chm163119459
-ms.prod: word
 api_name:
 - Word.Global.ChangeFileOpenDirectory
 ms.assetid: 16743466-a8d2-6c4b-063a-eeb8cfb1a2c9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the folder in which Word searches for documents. .
 
 ## Syntax
 
- _expression_. `ChangeFileOpenDirectory`( `_Path_` )
+_expression_. `ChangeFileOpenDirectory`( `_Path_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Sets the folder in which Word searches for documents. .
 
 ## Remarks
 
-The contents of the specified folder are listed the next time the  **Open** dialog box (**File** menu) is displayed.Word searches the specified folder for documents until the user changes the folder in the **Open** dialog box or the current Word session ends. Use the **DefaultFilePath** property to change the default folder for documents in every Word session.
+The contents of the specified folder are listed the next time the **Open** dialog box (**File** menu) is displayed.Word searches the specified folder for documents until the user changes the folder in the **Open** dialog box or the current Word session ends. Use the **DefaultFilePath** property to change the default folder for documents in every Word session.
 
 
 ## Example

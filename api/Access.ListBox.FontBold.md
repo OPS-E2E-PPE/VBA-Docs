@@ -3,18 +3,17 @@ title: ListBox.FontBold property (Access)
 keywords: vbaac10.chm11259
 f1_keywords:
 - vbaac10.chm11259
-ms.prod: access
 api_name:
 - Access.ListBox.FontBold
 ms.assetid: b1060b7d-36ca-3048-a046-90e9bdf8f402
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.FontBold property (Access)
 
-You can use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
+Use the **FontBold** property to specify whether a font appears in a bold style in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

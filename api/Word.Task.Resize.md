@@ -3,12 +3,11 @@ title: Task.Resize method (Word)
 keywords: vbawd10.chm159514637
 f1_keywords:
 - vbawd10.chm159514637
-ms.prod: word
 api_name:
 - Word.Task.Resize
 ms.assetid: e4176266-c511-3f4c-f22c-ec5617cd41d9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sizes the specified task window.
 
 ## Syntax
 
- _expression_. `Resize`( `_Width_` , `_Height_` )
+_expression_.**Resize** (_Width_, _Height_)
 
- _expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
+_expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Sizes the specified task window.
 
 ## Remarks
 
-If the window is maximized or minimized, using this method causes an error. Use the  **Width** or **Height** property to set the window width and height independently.
+If the window is maximized or minimized, using this method causes an error. Use the **Width** or **Height** property to set the window width and height independently.
 
 
 ## Example

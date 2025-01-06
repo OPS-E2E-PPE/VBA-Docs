@@ -3,12 +3,11 @@ title: TextBox.GridlineShade property (Access)
 keywords: vbaac10.chm14637
 f1_keywords:
 - vbaac10.chm14637
-ms.prod: access
 api_name:
 - Access.TextBox.GridlineShade
 ms.assetid: 33daf4ec-1587-63c8-4b23-2abdf5087bbe
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

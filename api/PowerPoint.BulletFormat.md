@@ -1,25 +1,24 @@
 ---
-title: BulletFormat Object (PowerPoint)
+title: BulletFormat object (PowerPoint)
 keywords: vbapp10.chm577000
 f1_keywords:
 - vbapp10.chm577000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat
 ms.assetid: 8c70b2af-0175-9315-3a7e-e30aa0438798
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat Object (PowerPoint)
+# BulletFormat object (PowerPoint)
 
 Represents bullet formatting.
 
 
 ## Example
 
-Use the [Bullet](./PowerPoint.ParagraphFormat.Bullet.md)property to return the  **BulletFormat** object. The following example sets the bullet size and color for the paragraphs in shape two on slide one in the active presentation.
+Use the [Bullet](PowerPoint.ParagraphFormat.Bullet.md)property to return the **BulletFormat** object. The following example sets the bullet size and color for the paragraphs in shape two on slide one in the active presentation.
 
 
 ```vb
@@ -53,7 +52,7 @@ End With
 
 |Name|
 |:-----|
-|[Picture](./PowerPoint.BulletFormat.Picture.md)|
+|[Picture](PowerPoint.BulletFormat.Picture.md)|
 
 ## Properties
 
@@ -61,21 +60,21 @@ End With
 
 |Name|
 |:-----|
-|[Application](./PowerPoint.BulletFormat.Application.md)|
-|[Character](./PowerPoint.BulletFormat.Character.md)|
-|[Font](./PowerPoint.BulletFormat.Font.md)|
-|[Number](./PowerPoint.BulletFormat.Number.md)|
-|[Parent](./PowerPoint.BulletFormat.Parent.md)|
-|[RelativeSize](./PowerPoint.BulletFormat.RelativeSize.md)|
-|[StartValue](./PowerPoint.BulletFormat.StartValue.md)|
-|[Style](./PowerPoint.BulletFormat.Style.md)|
-|[Type](./PowerPoint.BulletFormat.Type.md)|
-|[UseTextColor](./PowerPoint.BulletFormat.UseTextColor.md)|
-|[UseTextFont](./PowerPoint.BulletFormat.UseTextFont.md)|
+|[Application](PowerPoint.BulletFormat.Application.md)|
+|[Character](PowerPoint.BulletFormat.Character.md)|
+|[Font](PowerPoint.BulletFormat.Font.md)|
+|[Number](PowerPoint.BulletFormat.Number.md)|
+|[Parent](PowerPoint.BulletFormat.Parent.md)|
+|[RelativeSize](PowerPoint.BulletFormat.RelativeSize.md)|
+|[StartValue](PowerPoint.BulletFormat.StartValue.md)|
+|[Style](PowerPoint.BulletFormat.Style.md)|
+|[Type](PowerPoint.BulletFormat.Type.md)|
+|[UseTextColor](PowerPoint.BulletFormat.UseTextColor.md)|
+|[UseTextFont](PowerPoint.BulletFormat.UseTextFont.md)|
 
 ## See also
 
 
-[PowerPoint Object Model Reference](./overview/PowerPoint/object-model.md)
+[PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

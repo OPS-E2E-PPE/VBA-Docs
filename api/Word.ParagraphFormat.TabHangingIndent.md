@@ -3,12 +3,11 @@ title: ParagraphFormat.TabHangingIndent method (Word)
 keywords: vbawd10.chm156434736
 f1_keywords:
 - vbawd10.chm156434736
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.TabHangingIndent
 ms.assetid: 918cec1a-cd94-b2d1-bdbb-99fcbb648947
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets a hanging indent to a specified number of tab stops. .
 
 ## Syntax
 
- _expression_. `TabHangingIndent`( `_Count_` )
+_expression_. `TabHangingIndent`( `_Count_` )
 
- _expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Parameters

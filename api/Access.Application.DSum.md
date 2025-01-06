@@ -3,18 +3,17 @@ title: Application.DSum method (Access)
 keywords: vbaac10.chm12527
 f1_keywords:
 - vbaac10.chm12527
-ms.prod: access
 api_name:
 - Access.Application.DSum
 ms.assetid: 53a3cfd4-a5e3-d0c5-1727-070c99d2b984
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Application.DSum method (Access)
 
-You can use the **DSum** function to calculate the sum of a set of values in a specified set of records (a domain). 
+Use the **DSum** function to calculate the sum of a set of values in a specified set of records (a domain). 
 
 
 ## Syntax
@@ -44,10 +43,10 @@ If no record satisfies the _criteria_ argument, or if domain contains no records
 
 Whether you use the **DSum** function in a macro, module, query expression, or calculated control, you must construct the _criteria_ argument carefully to ensure that it will be evaluated correctly.
 
-You can use the **DSum** function to specify criteria in the **Criteria** row of a query, in a calculated field in a query expression, or in the **Update To** row of an update query.
+Use the **DSum** function to specify criteria in the **Criteria** row of a query, in a calculated field in a query expression, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use either the **DSum** or **Sum** function in a calculated field expression in a totals query. If you use the **DSum** function, values are calculated before data is grouped. If you use the **Sum** function, the data is grouped before values in the field expression are evaluated.
+> Use either the **DSum** or **Sum** function in a calculated field expression in a totals query. If you use the **DSum** function, values are calculated before data is grouped. If you use the **Sum** function, the data is grouped before values in the field expression are evaluated.
 
 You may want to use the **DSum** function when you need to display the sum of a set of values from a field that is not in the record source for your form or report. For example, suppose you have a form that displays information about a particular product. You could use the **DSum** function to maintain a running total of sales of that product in a calculated control.
 
@@ -63,8 +62,6 @@ Dim curX As Currency
 curX = DSum("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
 
-<br/>
-
 The next example calculates a total by using two separate criteria. Note that single quotation marks (') and number signs (#) are included in the string expression, so that when the strings are concatenated, the string literal will be enclosed in single quotation marks, and the date will be enclosed in number signs.
 
 ```vb
@@ -72,8 +69,6 @@ Dim curX As Currency
 curX = DSum("[Freight]", "Orders", _ 
     "[ShipCountry] = 'UK' AND [ShippedDate] > #1-1-95#")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DSum** function.
 

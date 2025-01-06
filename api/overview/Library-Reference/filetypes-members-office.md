@@ -1,9 +1,9 @@
 ---
 title: FileTypes members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: c2ecfe17-b2bb-23ef-1c2b-e5b8b5ff4fe1
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,37 +1,37 @@
 ---
-title: Project.ProjectNotes Property (Project)
+title: Project.ProjectNotes property (Project)
 keywords: vbapj.chm132524
 f1_keywords:
 - vbapj.chm132524
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.ProjectNotes
 ms.assetid: 2a9dcdbe-50f2-544a-8aba-c2db0d6762bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ProjectNotes Property (Project)
+# Project.ProjectNotes property (Project)
 
-Gets or sets the notes for the project. Read/write  **String**.
+Gets or sets the notes for the project. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `ProjectNotes`
+_expression_. `ProjectNotes`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-To see the project  **Properties** dialog box in Project, choose the **FILE** tab on the ribbon to show the **Backstage** view, choose the **Info** tab, and then choose **Advanced Properties** in the **Project Information** drop-down menu.
+To see the project **Properties** dialog box in Project, choose the **FILE** tab on the ribbon to show the **Backstage** view, choose the **Info** tab, and then choose **Advanced Properties** in the **Project Information** drop-down menu.
 
 
 ## Example
 
-The following example adds the date and time to the  **Comments** field in the project **Properties** dialog box, and then saves the project.
+The following example adds the date and time to the **Comments** field in the project **Properties** dialog box, and then saves the project.
 
 
 ```vb

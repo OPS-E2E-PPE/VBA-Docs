@@ -3,25 +3,24 @@ title: Global.NewWindow method (Word)
 keywords: vbawd10.chm163119449
 f1_keywords:
 - vbawd10.chm163119449
-ms.prod: word
 api_name:
 - Word.Global.NewWindow
 ms.assetid: bf84590f-3a09-1f4f-3957-70a8af99686a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.NewWindow method (Word)
 
-Opens a new window with the same document as the specified window. Returns a  **Window** object.
+Opens a new window with the same document as the specified window. Returns a **Window** object.
 
 
 ## Syntax
 
- _expression_. `NewWindow`
+_expression_.**NewWindow**
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Window
 
 ## Remarks
 
-If the  **NewWindow** method is used with the **Application** object, a new window is opened for the active window. The following two instructions are functionally equivalent.
+If the **NewWindow** method is used with the **Application** object, a new window is opened for the active window. The following two instructions are functionally equivalent.
 
 
 ```vb

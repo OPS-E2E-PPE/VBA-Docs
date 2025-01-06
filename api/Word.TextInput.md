@@ -3,12 +3,11 @@ title: TextInput object (Word)
 keywords: vbawd10.chm2343
 f1_keywords:
 - vbawd10.chm2343
-ms.prod: word
 api_name:
 - Word.TextInput
 ms.assetid: d7f6531a-4da2-ccc4-29b3-ad79ca7b18de
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Represents a single text form field.
 
 ## Remarks
 
-Use  **FormFields** (Index), where Index is either the bookmark name associated with the text form field or the index number, to return a **FormField** object. Use the **TextInput** property with the **FormField** object to return a **TextInput** object. The following example deletes the contents of the text form field named "Text1" in the active document.
+Use **FormFields** (Index), where Index is either the bookmark name associated with the text form field or the index number, to return a **FormField** object. Use the **TextInput** property with the **FormField** object to return a **TextInput** object. The following example deletes the contents of the text form field named "Text1" in the active document.
 
 
 ```vb
 ActiveDocument.FormFields("Text1").TextInput.Clear
 ```
 
-The index number represents the position of the form field in the  **FormFields** collection. The following example checks the type of the first form field in the active document. If the form field is a text form field, the example sets "Mission Critical" as the value of the field.
+The index number represents the position of the form field in the **FormFields** collection. The following example checks the type of the first form field in the active document. If the form field is a text form field, the example sets "Mission Critical" as the value of the field.
 
 
 
@@ -51,7 +50,7 @@ Else
 End If
 ```
 
-Use the  **Add** method with the **[FormFields](Word.formfields.md)** object to add a text form field. The following example adds a text form field at the beginning of the active document and then sets the name of the form field to "FirstName."
+Use the **Add** method with the **[FormFields](Word.formfields.md)** object to add a text form field. The following example adds a text form field at the beginning of the active document and then sets the name of the form field to "FirstName."
 
 
 
@@ -67,6 +66,6 @@ ffield.Name = "FirstName"
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

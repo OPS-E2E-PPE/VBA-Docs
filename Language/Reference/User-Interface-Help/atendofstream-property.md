@@ -3,12 +3,11 @@ title: AtEndOfStream property (Visual Basic for Applications)
 keywords: vblr6.chm2182072
 f1_keywords:
 - vblr6.chm2182072
-ms.prod: office
 api_name:
 - Office.AtEndOfStream
 ms.assetid: 157b18dc-fdfb-a9f6-1368-aaf4654a2ef5
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,7 +31,7 @@ The following code illustrates the use of the **AtEndOfStream** property.
 Dim fs, a, retstring
 Set fs = CreateObject("Scripting.FileSystemObject")
 Set a = fs.OpenTextFile("c:\testfile.txt", ForReading, False)
-Do While a. AtEndOfStream <> True
+Do While a.AtEndOfStream <> True
     retstring = a.ReadLine
     ...
 Loop

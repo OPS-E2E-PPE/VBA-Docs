@@ -1,27 +1,26 @@
 ---
-title: Shape.DrawArcByThreePoints Method (Visio)
+title: Shape.DrawArcByThreePoints method (Visio)
 keywords: vis_sdr.chm11251415
 f1_keywords:
 - vis_sdr.chm11251415
-ms.prod: visio
 api_name:
 - Visio.Shape.DrawArcByThreePoints
 ms.assetid: 9c00cca4-548e-8f15-1747-897fa5482340
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.DrawArcByThreePoints Method (Visio)
+# Shape.DrawArcByThreePoints method (Visio)
 
 Creates a shape whose path consists of an arc defined by the three points passed as parameters.
 
 
 ## Syntax
 
- _expression_. `DrawArcByThreePoints`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` , `_xControl_` , `_yControl_` )
+_expression_. `DrawArcByThreePoints`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` , `_xControl_` , `_yControl_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -49,7 +48,7 @@ All points should be in internal drawing units with respect to the coordinate sp
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **DrawArcByThreePoints** method to draw an arc on the drawing page.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **DrawArcByThreePoints** method to draw an arc on the drawing page.
 
 
 ```vb

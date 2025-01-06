@@ -1,15 +1,15 @@
 ---
-title: PjPublishScope Enumeration (Project)
-ms.prod: project-server
+title: PjPublishScope enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjPublishScope
 ms.assetid: c19b90ca-a786-1e6c-8f62-e0399cd5ceed
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjPublishScope Enumeration (Project)
+# PjPublishScope enumeration (Project)
 
 Contains constants that specify the scope of assignments to be published.
 

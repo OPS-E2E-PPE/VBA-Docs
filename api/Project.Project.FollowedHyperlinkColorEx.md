@@ -1,27 +1,27 @@
 ---
-title: Project.FollowedHyperlinkColorEx Property (Project)
+title: Project.FollowedHyperlinkColorEx property (Project)
 keywords: vbapj.chm132288
 f1_keywords:
 - vbapj.chm132288
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.FollowedHyperlinkColorEx
 ms.assetid: 72683515-81d3-915b-6da0-2593fbca0d00
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.FollowedHyperlinkColorEx Property (Project)
+# Project.FollowedHyperlinkColorEx property (Project)
 
-Gets or sets the color used to denote followed hyperlinks. Read/write  **Long**.
+Gets or sets the color used to denote followed hyperlinks. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `FollowedHyperlinkColorEx`
+_expression_. `FollowedHyperlinkColorEx`
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 
 ## Remarks

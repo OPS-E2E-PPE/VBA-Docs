@@ -3,12 +3,11 @@ title: CommandBar.NameLocal property (Office)
 keywords: vbaof11.chm3011
 f1_keywords:
 - vbaof11.chm3011
-ms.prod: office
 api_name:
 - Office.CommandBar.NameLocal
 ms.assetid: 3afad045-aaf8-8775-574e-faaccde7d270
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -44,8 +43,8 @@ This example displays the name and localized name of the first command bar in th
 
 ```vb
 With CommandBars(1) 
-    MsgBox "The name of the command bar is " &amp; .Name 
-    MsgBox "The localized name of the command bar is " &amp; .NameLocal 
+    MsgBox "The name of the command bar is " & .Name 
+    MsgBox "The localized name of the command bar is " & .NameLocal 
 End With
 ```
 

@@ -3,12 +3,11 @@ title: XMLNamespace.XSLTransforms property (Word)
 keywords: vbawd10.chm2293765
 f1_keywords:
 - vbawd10.chm2293765
-ms.prod: word
 api_name:
 - Word.XMLNamespace.XSLTransforms
 ms.assetid: 854900ad-74cc-ee1f-5e64-c42a2a439698
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns an XSLTransforms collection that represents the Extensible Stylesheet La
 
 ## Syntax
 
- _expression_. `XSLTransforms`
+_expression_. `XSLTransforms`
 
  _expression_ An expression that returns an '[XMLNamespace](Word.XMLNamespace.md)' object.
 
@@ -29,7 +28,8 @@ Returns an XSLTransforms collection that represents the Extensible Stylesheet La
 The following example adds the simplesample.xsl transform to the transforms for the SimpleSample schema.
 
 
- **Note**  The SimpleSample schema is included in the Smart Document Software Development Kit (SDK); however, there is no corresponding simplesample.xsl file. This code was created for example purposes only. For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
+> [!NOTE] 
+> The SimpleSample schema is included in the Smart Document Software Development Kit (SDK); however, there is no corresponding simplesample.xsl file. This code was created for example purposes only. For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
 
 
 ```vb

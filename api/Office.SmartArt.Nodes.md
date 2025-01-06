@@ -1,11 +1,10 @@
 ---
 title: SmartArt.Nodes property (Office)
-ms.prod: office
 api_name:
 - Office.SmartArt.Nodes
 ms.assetid: 0495f433-9239-a3fc-e7e9-ec79bbcc75ec
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -40,7 +39,7 @@ The root node has no parent node and only contains children if there are childre
 
 ## Example
 
-The following code adds a top level node in Microsoft PowerPoint.
+The following code adds a top-level node in Microsoft PowerPoint.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: TextRange.Hyperlinks Property (Publisher)
+title: TextRange.Hyperlinks property (Publisher)
 keywords: vbapb10.chm5308485
 f1_keywords:
 - vbapb10.chm5308485
-ms.prod: publisher
 api_name:
 - Publisher.TextRange.Hyperlinks
 ms.assetid: 0cf1f043-532c-3ffc-67cf-389adc5ac02f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/15/2019
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Hyperlinks Property (Publisher)
+# TextRange.Hyperlinks property (Publisher)
 
-Returns a  **[Hyperlinks](Publisher.Hyperlinks.md)** collection representing all the hyperlinks in the specified text range.
+Returns a **[Hyperlinks](Publisher.Hyperlinks.md)** collection representing all the hyperlinks in the specified text range.
 
 
 ## Syntax
 
- _expression_. **Hyperlinks**
+_expression_.**Hyperlinks**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Hyperlinks
 ## Example
 
 The following example looks for all the shapes on page one of the active publication that have text frames and reports how many hyperlinks each shape has.
-
 
 ```vb
 Dim hypAll As Hyperlinks 

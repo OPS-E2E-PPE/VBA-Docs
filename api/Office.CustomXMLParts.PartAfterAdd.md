@@ -3,12 +3,11 @@ title: CustomXMLParts.PartAfterAdd event (Office)
 keywords: vbaof11.chm299001
 f1_keywords:
 - vbaof11.chm299001
-ms.prod: office
 api_name:
 - Office.CustomXMLParts.PartAfterAdd
 ms.assetid: c1a263a5-94cb-f563-145b-151a52a31d52
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,7 +38,7 @@ The following example displays the XML contents of a part after it has been adde
 Sub CustomXMLParts_PartAfterAdd(ByVal objPart As CustomXMLPart) 
 Dim strPartXML As String 
 strPartXML = objPart.XML 
-   MsgBox ("The part's contents are: " &amp; vbCrLf &amp; strPartXML) 
+   MsgBox ("The part's contents are: " & vbCrLf & strPartXML) 
 End Sub
 ```
 

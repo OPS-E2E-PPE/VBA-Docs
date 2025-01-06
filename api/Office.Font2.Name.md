@@ -1,11 +1,10 @@
 ---
 title: Font2.Name property (Office)
-ms.prod: office
 api_name:
 - Office.Font2.Name
 ms.assetid: febaac7b-dc8e-abd0-8883-cc8b1d2b98b5
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

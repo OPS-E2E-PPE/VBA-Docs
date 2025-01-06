@@ -1,27 +1,26 @@
 ---
-title: Shape.LengthIU Property (Visio)
+title: Shape.LengthIU property (Visio)
 keywords: vis_sdr.chm11213835
 f1_keywords:
 - vis_sdr.chm11213835
-ms.prod: visio
 api_name:
 - Visio.Shape.LengthIU
 ms.assetid: 11d57f17-5285-6b45-1da1-dc58db087395
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.LengthIU Property (Visio)
+# Shape.LengthIU property (Visio)
 
 Returns the length (perimeter) of the shape in internal units. Read-only.
 
 
 ## Syntax
 
- _expression_. `LengthIU`( `_fIncludeSubShapes_` )
+_expression_. `LengthIU`( `_fIncludeSubShapes_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters

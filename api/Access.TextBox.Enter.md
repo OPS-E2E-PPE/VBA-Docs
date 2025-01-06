@@ -3,12 +3,11 @@ title: TextBox.Enter event (Access)
 keywords: vbaac10.chm14197
 f1_keywords:
 - vbaac10.chm14197
-ms.prod: access
 api_name:
 - Access.TextBox.Enter
 ms.assetid: 970dc73b-8b8e-5811-bd4b-c23a96306bd2
 ms.date: 02/10/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

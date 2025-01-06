@@ -3,12 +3,11 @@ title: CommandBar.Position property (Office)
 keywords: vbaof11.chm3013
 f1_keywords:
 - vbaof11.chm3013
-ms.prod: office
 api_name:
 - Office.CommandBar.Position
 ms.assetid: b1e80bc0-1586-523b-a9ec-70c76fa54252
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

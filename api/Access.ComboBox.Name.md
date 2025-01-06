@@ -3,18 +3,17 @@ title: ComboBox.Name property (Access)
 keywords: vbaac10.chm11469
 f1_keywords:
 - vbaac10.chm11469
-ms.prod: access
 api_name:
 - Access.ComboBox.Name
 ms.assetid: d43da3b5-3189-b5be-37e6-6e1fdf99787b
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

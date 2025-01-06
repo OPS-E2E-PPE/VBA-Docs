@@ -1,22 +1,21 @@
 ---
 title: ListBox.IMEMode Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: c4e863d8-a581-2c45-92cc-1f6304692f76
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.IMEMode Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
+Returns or sets an **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
 
 
 ## Syntax
 
-_expression_. **IMEMode**
+_expression_.**IMEMode**
 
-_expression_ A variable that represents a  **ListBox** object.
+_expression_ A variable that represents a **ListBox** object.
 
 
 ## Remarks
@@ -41,6 +40,6 @@ The settings for fmIMEMode are:
 |9|IME on with Full-width Hangul mode.|
 |10|IME on with Half-width Hangul mode.|
 
-A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the  **IMEMode** property when the control receives focus at run time.
+A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the **IMEMode** property when the control receives focus at run time.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

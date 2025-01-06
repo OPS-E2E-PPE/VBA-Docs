@@ -1,24 +1,24 @@
 ---
-title: StartDriver.PredecessorDrivers Property (Project)
-ms.prod: project-server
+title: StartDriver.PredecessorDrivers property (Project)
+ms.service: project-server
 api_name:
 - Project.StartDriver.PredecessorDrivers
 ms.assetid: 5994a52a-7a60-4710-2c84-c1e982783579
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# StartDriver.PredecessorDrivers Property (Project)
+# StartDriver.PredecessorDrivers property (Project)
 
-Gets the  **[PredecessorDrivers](Project.predecessordrivers.md)** collection object for the task start driver. Read-only **PredecessorDrivers**.
+Gets the **[PredecessorDrivers](Project.predecessordrivers.md)** collection object for the task start driver. Read-only **PredecessorDrivers**.
 
 
 ## Syntax
 
- _expression_. `PredecessorDrivers`
+_expression_. `PredecessorDrivers`
 
- _expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
+_expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
 
 
 ## See also

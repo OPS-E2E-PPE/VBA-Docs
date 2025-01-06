@@ -3,18 +3,17 @@ title: CommandButton.ShortcutMenuBar property (Access)
 keywords: vbaac10.chm10479
 f1_keywords:
 - vbaac10.chm10479
-ms.prod: access
 api_name:
 - Access.CommandButton.ShortcutMenuBar
 ms.assetid: fea5b3e5-da70-c3b6-95f6-bc06e7b6c762
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.ShortcutMenuBar property (Access)
 
-You can use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
+Use the **ShortcutMenuBar** property to specify the shortcut menu that appears when you right-click the specified object. Read/write **String**.
 
 
 ## Syntax

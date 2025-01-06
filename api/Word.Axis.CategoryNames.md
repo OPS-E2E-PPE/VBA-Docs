@@ -3,25 +3,24 @@ title: Axis.CategoryNames property (Word)
 keywords: vbawd10.chm113049604
 f1_keywords:
 - vbawd10.chm113049604
-ms.prod: word
 api_name:
 - Word.Axis.CategoryNames
 ms.assetid: 12cb3d4e-1460-3849-5ce0-df9f0648d418
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.CategoryNames property (Word)
 
-Returns or sets all the category names as a text array for the specified axis. Read/write  **Variant**.
+Returns or sets all the category names as a text array for the specified axis. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `CategoryNames`
+_expression_.**CategoryNames**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Example

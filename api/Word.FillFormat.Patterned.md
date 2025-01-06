@@ -3,12 +3,11 @@ title: FillFormat.Patterned method (Word)
 keywords: vbawd10.chm164102156
 f1_keywords:
 - vbawd10.chm164102156
-ms.prod: word
 api_name:
 - Word.FillFormat.Patterned
 ms.assetid: 993fd302-0ba2-f540-f21c-0915bccfacaf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the specified fill to a pattern.
 
 ## Syntax
 
- _expression_. `Patterned`( `_Pattern_` )
+_expression_.**Patterned** (_Pattern_)
 
- _expression_ Required. A variable that represents a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ Required. A variable that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Sets the specified fill to a pattern.
 
 ## Remarks
 
-Use the  **BackColor** and **ForeColor** properties to set the colors used in the pattern.
+Use the **BackColor** and **ForeColor** properties to set the colors used in the pattern.
 
 
 ## Example

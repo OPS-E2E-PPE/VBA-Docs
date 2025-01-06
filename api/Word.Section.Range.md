@@ -3,25 +3,24 @@ title: Section.Range property (Word)
 keywords: vbawd10.chm156827648
 f1_keywords:
 - vbawd10.chm156827648
-ms.prod: word
 api_name:
 - Word.Section.Range
 ms.assetid: aabe43c6-4ace-af98-f773-bc547f289c9d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Section.Range property (Word)
 
-Returns a  **Range** object that represents the portion of a document that's contained in the specified object.
+Returns a **Range** object that represents the portion of a document that's contained in the specified object.
 
 
 ## Syntax
 
- _expression_. `Range`
+_expression_.**Range**
 
- _expression_ Required. A variable that represents a '[Section](Word.Section.md)' object.
+_expression_ Required. A variable that represents a '[Section](Word.Section.md)' object.
 
 
 ## Example

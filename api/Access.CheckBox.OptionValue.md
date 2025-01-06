@@ -3,12 +3,11 @@ title: CheckBox.OptionValue property (Access)
 keywords: vbaac10.chm10695
 f1_keywords:
 - vbaac10.chm10695
-ms.prod: access
 api_name:
 - Access.CheckBox.OptionValue
 ms.assetid: fffd881e-190a-aa42-b54f-f8fe629f7d02
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

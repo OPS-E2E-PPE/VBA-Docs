@@ -1,15 +1,15 @@
 ---
-title: PjBoxShape Enumeration (Project)
-ms.prod: project-server
+title: PjBoxShape enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjBoxShape
 ms.assetid: eb3ce053-24bd-39ec-e990-00bc1046d2f3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjBoxShape Enumeration (Project)
+# PjBoxShape enumeration (Project)
 
 Contains constants that specify the shape of a box.
 

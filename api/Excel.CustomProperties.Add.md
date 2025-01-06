@@ -3,12 +3,11 @@ title: CustomProperties.Add method (Excel)
 keywords: vbaxl10.chm680073
 f1_keywords:
 - vbaxl10.chm680073
-ms.prod: excel
 api_name:
 - Excel.CustomProperties.Add
 ms.assetid: 11165b03-e459-51c4-505f-67260ab8aaf9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Adds custom property information.
 
 ## Syntax
 
-_expression_. `Add`( `_Name_` , `_Value_` )
+_expression_.**Add** (_Name_, _Value_)
 
-_expression_ A variable that represents a [CustomProperties](Excel.CustomProperties.md) object.
+_expression_ A variable that represents a **[CustomProperties](Excel.CustomProperties.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,13 +32,12 @@ _expression_ A variable that represents a [CustomProperties](Excel.CustomPropert
 
 ## Return value
 
-A  **[CustomProperty](Excel.CustomProperty.md)** object that represents the custom property information.
+A **[CustomProperty](Excel.CustomProperty.md)** object that represents the custom property information.
 
 
 ## Example
 
 This example adds identifier information to the active worksheet and returns the name and value to the user.
-
 
 ```vb
 Sub CheckCustomProperties() 
@@ -63,9 +59,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[CustomProperties Object](Excel.CustomProperties.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

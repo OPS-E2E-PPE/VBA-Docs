@@ -3,10 +3,9 @@ title: Option Explicit statement (VBA)
 keywords: vblr6.chm1008808
 f1_keywords:
 - vblr6.chm1008808
-ms.prod: office
 ms.assetid: f7871e28-9577-740b-e887-1109f52be30e
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

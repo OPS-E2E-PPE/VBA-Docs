@@ -1,32 +1,29 @@
 ---
-title: Application.WindowDeactivate Event (PowerPoint)
+title: Application.WindowDeactivate event (PowerPoint)
 keywords: vbapp10.chm621010
 f1_keywords:
 - vbapp10.chm621010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.WindowDeactivate
 ms.assetid: 89bf2c09-a1a8-ed7f-74d5-49f8f7c027a7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WindowDeactivate Event (PowerPoint)
+# Application.WindowDeactivate event (PowerPoint)
 
 Occurs when the application window or any document window is deactivated.
 
 
 ## Syntax
 
- _expression_. `WindowDeactivate`( `_Pres_`, `_Wn_` )
+_expression_.**WindowDeactivate** (_Pres_, _Wn_)
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +32,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Example
 
-This example finds the file name (without its extension) for the presentation in the window that is being deactivated. It then appends the .htm extension to the file name and saves it as a web page in the same folder as the presentation.
+This example finds the file name (without its extension) for the presentation in the window that is being deactivated. It then appends the .htm extension to the file name and saves it as a webpage in the same folder as the presentation.
 
 
 ```vb

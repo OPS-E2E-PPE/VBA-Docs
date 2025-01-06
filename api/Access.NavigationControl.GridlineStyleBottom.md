@@ -3,18 +3,17 @@ title: NavigationControl.GridlineStyleBottom property (Access)
 keywords: vbaac10.chm11159
 f1_keywords:
 - vbaac10.chm11159
-ms.prod: access
 api_name:
 - Access.NavigationControl.GridlineStyleBottom
 ms.assetid: 9bd6575e-a0a5-0757-c517-a694b04130e8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.GridlineStyleBottom property (Access)
 
-Gets or sets the bottom gridline style of the specified text box. Read/write **Byte**.
+Gets or sets the bottom gridline style of the specified control. Read/write **Byte**.
 
 ## Syntax
 

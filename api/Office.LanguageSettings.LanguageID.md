@@ -3,12 +3,11 @@ title: LanguageSettings.LanguageID property (Office)
 keywords: vbaof11.chm231001
 f1_keywords:
 - vbaof11.chm231001
-ms.prod: office
 api_name:
 - Office.LanguageSettings.LanguageID
 ms.assetid: a1efbab6-000f-d87e-296b-b58be9ad5194
 ms.date: 01/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ This Microsoft Excel example checks the **LanguageID** property settings for the
 ```vb
 If Application.LanguageSettings.LanguageID(msoLanguageIDExeMode) _ 
  > Application.LanguageSettings.LanguageID(msoLanguageIDUI) _ 
- Then MsgBox "The user interface language and execution " &amp; _ 
+ Then MsgBox "The user interface language and execution " & _ 
  "mode are different."
 ```
 

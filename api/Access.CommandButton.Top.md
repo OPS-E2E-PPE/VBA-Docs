@@ -3,18 +3,17 @@ title: CommandButton.Top property (Access)
 keywords: vbaac10.chm10468
 f1_keywords:
 - vbaac10.chm10468
-ms.prod: access
 api_name:
 - Access.CommandButton.Top
 ms.assetid: 0c2207a6-5d99-0409-58e5-6a9ec2716e77
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

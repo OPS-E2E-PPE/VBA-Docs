@@ -1,11 +1,10 @@
 ---
 title: TextRange2.Lines property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.Lines
 ms.assetid: 5e20f089-c345-e22a-c136-483d13f7f658
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Reminder.Item Property (Outlook)
+title: Reminder.Item property (Outlook)
 keywords: vbaol11.chm562
 f1_keywords:
 - vbaol11.chm562
-ms.prod: outlook
 api_name:
 - Outlook.Reminder.Item
 ms.assetid: f8fb20c5-bb36-73c0-d7c3-252307e96140
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reminder.Item Property (Outlook)
+# Reminder.Item property (Outlook)
 
-Returns an  **Object** corresponding to the specified Outlook item. Read-only.
+Returns an **Object** corresponding to the specified Outlook item. Read-only.
 
 
 ## Syntax
 
-_expression_. `Item`
+_expression_.**Item**
 
-_expression_ A variable that represents a [Reminder](./Outlook.Reminder.md) object.
+_expression_ A variable that represents a [Reminder](Outlook.Reminder.md) object.
 
 
 ## See also

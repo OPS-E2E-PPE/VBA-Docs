@@ -3,10 +3,9 @@ title: Can't assign to an array
 keywords: vblr6.chm1011081
 f1_keywords:
 - vblr6.chm1011081
-ms.prod: office
 ms.assetid: cc606f0f-7e50-c144-8003-90c7f976723d
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,11 +15,11 @@ Each element of an [array](../../Glossary/vbe-glossary.md#array) must have its v
 
 - You inadvertently tried to assign a single value to an array [variable](../../Glossary/vbe-glossary.md#variable) without specifying the element to which the value should be assigned.
     
-  To assign a single value to an array element, you must specify the element in a subscript. For example, if  `MyArray` is an integer array, the [expression](../../Glossary/vbe-glossary.md#expression) `MyArray = 5` is invalid, but the following expression is valid: `MyArray(UBound(MyArray)) = 5`
+  To assign a single value to an array element, you must specify the element in a subscript. For example, if `MyArray` is an integer array, the [expression](../../Glossary/vbe-glossary.md#expression) `MyArray = 5` is invalid, but the following expression is valid: `MyArray(UBound(MyArray)) = 5`
     
 - You tried to assign a whole array to another array. 
     
-  For example, if  `Arr1` is an array and `Arr2` is another array, the following two assignments are both invalid:
+  For example, if `Arr1` is an array and `Arr2` is another array, the following two assignments are both invalid:
     
   ```vb
       Arr1 = Arr2    ' Invalid assignment. 

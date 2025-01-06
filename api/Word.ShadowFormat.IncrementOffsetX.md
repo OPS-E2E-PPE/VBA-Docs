@@ -3,12 +3,11 @@ title: ShadowFormat.IncrementOffsetX method (Word)
 keywords: vbawd10.chm164364298
 f1_keywords:
 - vbawd10.chm164364298
-ms.prod: word
 api_name:
 - Word.ShadowFormat.IncrementOffsetX
 ms.assetid: 0d564836-550d-30fa-e519-c6dc571d538d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Changes the horizontal offset of the shadow by the specified number of points.
 
 ## Syntax
 
- _expression_. `IncrementOffsetX`( `_Increment_` )
+_expression_.**IncrementOffsetX** (_Increment_)
 
- _expression_ Required. A variable that represents a '[ShadowFormat](Word.ShadowFormat.md)' object.
+_expression_ Required. A variable that represents a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Changes the horizontal offset of the shadow by the specified number of points.
 
 ## Remarks
 
-Use the  **[OffsetX](Word.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
+Use the **[OffsetX](Word.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
 
 
 ## Example

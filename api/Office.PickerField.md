@@ -3,12 +3,11 @@ title: PickerField object (Office)
 keywords: vbaof11.chm334000
 f1_keywords:
 - vbaof11.chm334000
-ms.prod: office
 api_name:
 - Office.PickerField
 ms.assetid: f0491733-f8bb-aa8f-95ff-9e844696afe4
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

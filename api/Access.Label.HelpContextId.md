@@ -3,12 +3,11 @@ title: Label.HelpContextId property (Access)
 keywords: vbaac10.chm10219
 f1_keywords:
 - vbaac10.chm10219
-ms.prod: access
 api_name:
 - Access.Label.HelpContextId
 ms.assetid: fab43591-bf88-901d-0f19-ca4fda93a578
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -27,7 +26,7 @@ _expression_ A variable that represents a **[Label](Access.Label.md)** object.
 ## Remarks
 
 > [!NOTE] 
-> If you enter the context ID of the Help file topic as a positive number, the Help topic displays in a "full" Help topic window. If you add a minus sign ("-") in front of the context ID, the Help topic displays in a "pop-up" window. It is important to note that the context ID does not have to have a negative number when authored in Microsoft Help Workshop. You must add the minus sign when setting the property to make the topic display in the pop-up window.
+> If you enter the context ID of the Help file topic as a positive number, the Help topic displays in a "full" Help topic window. If you add a minus sign ("-") in front of the context ID, the Help topic displays in a "pop-up" window. It's important to note that the context ID does not have to have a negative number when authored in Microsoft Help Workshop. You must add the minus sign when setting the property to make the topic display in the pop-up window.
 
 You can create a custom Help file to document forms, reports, or applications that you create with Microsoft Access.
 

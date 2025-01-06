@@ -1,27 +1,26 @@
 ---
-title: Layer.Delete Method (Visio)
+title: Layer.Delete method (Visio)
 keywords: vis_sdr.chm11851200
 f1_keywords:
 - vis_sdr.chm11851200
-ms.prod: visio
 api_name:
 - Visio.Layer.Delete
 ms.assetid: 817a06fd-f249-d17a-3f8c-6c132ec38823
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Layer.Delete Method (Visio)
+# Layer.Delete method (Visio)
 
-Deletes a  **Layer** object. Can also delete shapes assigned to the deleted layer.
+Deletes a **Layer** object. Can also delete shapes assigned to the deleted layer.
 
 
 ## Syntax
 
- _expression_. `Delete`( `_fDeleteShapes_` )
+_expression_.**Delete**( `_fDeleteShapes_` )
 
- _expression_ A variable that represents a [Layer](./Visio.Layer.md) object.
+_expression_ A variable that represents a **[Layer](Visio.Layer.md)** object.
 
 
 ## Parameters

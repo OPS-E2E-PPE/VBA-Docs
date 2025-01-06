@@ -3,12 +3,11 @@ title: Selection.Information property (Word)
 keywords: vbawd10.chm158663057
 f1_keywords:
 - vbawd10.chm158663057
-ms.prod: word
 api_name:
 - Word.Selection.Information
 ms.assetid: 73028751-6339-47e6-9629-9584cc4c59ec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ Returns information about the specified selection. Read-only **Variant**.
 
 _expression_. `Information`( `_Type_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

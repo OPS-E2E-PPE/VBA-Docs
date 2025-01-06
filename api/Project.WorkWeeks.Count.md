@@ -1,22 +1,22 @@
 ---
-title: WorkWeeks.Count Property (Project)
-ms.prod: project-server
+title: WorkWeeks.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeeks.Count
 ms.assetid: d8360e75-7dbe-955b-dd95-20fb3bf465e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeeks.Count Property (Project)
+# WorkWeeks.Count property (Project)
 
-Gets the number of items in the  **WorkWeeks** collection. Read-only **Long**.
+Gets the number of items in the **WorkWeeks** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
  _expression_ An expression that returns a 'WorkWeeks' object.
 

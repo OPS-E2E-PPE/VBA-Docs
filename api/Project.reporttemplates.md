@@ -1,13 +1,13 @@
 ---
-title: ReportTemplates Object (Project)
-ms.prod: project-server
+title: ReportTemplates object (Project)
+ms.service: project-server
 ms.assetid: 01928892-d57c-8344-05db-d95008b4ba74
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportTemplates Object (Project)
+# ReportTemplates object (Project)
 
  Contains a collection of **[ReportTemplate](Project.ReportTemplate.md)** objects for Visual Reports.
  
@@ -15,7 +15,7 @@ localization_priority: Normal
 
 ## Remarks
 
-Use the  **[Item](Project.ReportTemplates.Item.md)** property to return a single **ReportTemplate** object.
+Use the **[Item](Project.ReportTemplates.Item.md)** property to return a single **ReportTemplate** object.
  
 
  

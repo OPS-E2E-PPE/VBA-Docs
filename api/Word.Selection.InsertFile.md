@@ -3,12 +3,11 @@ title: Selection.InsertFile method (Word)
 keywords: vbawd10.chm158662779
 f1_keywords:
 - vbawd10.chm158662779
-ms.prod: word
 api_name:
 - Word.Selection.InsertFile
 ms.assetid: 963a5987-e6f8-824a-47d6-9788f026cf10
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Inserts all or part of the specified file.
 
 ## Syntax
 
- _expression_. `InsertFile`( `_FileName_` , `_Range_` , `_ConfirmConversions_` , `_Link_` , `_Attachment_` )
+_expression_. `InsertFile`( `_FileName_` , `_Range_` , `_ConfirmConversions_` , `_Link_` , `_Attachment_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters

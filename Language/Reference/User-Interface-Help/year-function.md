@@ -3,10 +3,9 @@ title: Year function (Visual Basic for Applications)
 keywords: vblr6.chm1009063
 f1_keywords:
 - vblr6.chm1009063
-ms.prod: office
 ms.assetid: c82b30dd-a8ce-c213-3619-7de33278a3c8
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

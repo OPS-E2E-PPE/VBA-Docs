@@ -3,12 +3,11 @@ title: Cells.DistributeHeight method (Word)
 keywords: vbawd10.chm155844814
 f1_keywords:
 - vbawd10.chm155844814
-ms.prod: word
 api_name:
 - Word.Cells.DistributeHeight
 ms.assetid: 0ae41e05-5ec1-4fcc-8ee1-c40c0a28714a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adjusts the height of the specified cells so that they are equal.
 
 ## Syntax
 
- _expression_. `DistributeHeight`
+_expression_. `DistributeHeight`
 
- _expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
+_expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
 
 
 ## Example

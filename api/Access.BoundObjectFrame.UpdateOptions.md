@@ -3,18 +3,17 @@ title: BoundObjectFrame.UpdateOptions property (Access)
 keywords: vbaac10.chm10917
 f1_keywords:
 - vbaac10.chm10917
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.UpdateOptions
 ms.assetid: 919ad3b4-1128-947a-09c0-7c7b0373698e
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.UpdateOptions property (Access)
 
-You can use the **UpdateOptions** property to specify how a linkedOLE object is updated. Read/write **Integer**.
+Use the **UpdateOptions** property to specify how a linkedOLE object is updated. Read/write **Integer**.
 
 
 ## Syntax

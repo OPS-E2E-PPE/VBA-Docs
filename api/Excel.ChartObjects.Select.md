@@ -3,12 +3,11 @@ title: ChartObjects.Select method (Excel)
 keywords: vbaxl10.chm497088
 f1_keywords:
 - vbaxl10.chm497088
-ms.prod: excel
 api_name:
 - Excel.ChartObjects.Select
 ms.assetid: ef89d037-34d4-3c17-edb7-352b52e5ae4b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/20/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Selects the object.
 
 ## Syntax
 
-_expression_. `Select`( `_Replace_` )
+_expression_.**Select** (_Replace_)
 
-_expression_ A variable that represents a [ChartObjects](Excel.ChartObjects.md) object.
+_expression_ A variable that represents a **[ChartObjects](Excel.ChartObjects.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,9 +34,6 @@ _expression_ A variable that represents a [ChartObjects](Excel.ChartObjects.md) 
 Variant
 
 
-## See also
 
-
-[ChartObjects Object](Excel.ChartObjects.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

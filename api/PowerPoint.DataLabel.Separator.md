@@ -1,29 +1,28 @@
 ---
-title: DataLabel.Separator Property (PowerPoint)
-ms.prod: powerpoint
+title: DataLabel.Separator property (PowerPoint)
 api_name:
 - PowerPoint.DataLabel.Separator
 ms.assetid: 16613cac-f04d-13fe-56e5-bb6b6c9473b3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabel.Separator Property (PowerPoint)
+# DataLabel.Separator property (PowerPoint)
 
-Returns or sets the separator used for the data labels on a chart. Read/write  **Variant**.
+Returns or sets the separator used for the data labels on a chart. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Separator`
+_expression_.**Separator**
 
 _expression_ A variable that represents a '[DataLabel](PowerPoint.DataLabel.md)' object.
 
 
 ## Remarks
 
-If you use a string, you will get a string as the separator. If you use  **xlDataLabelSeparatorDefault** (= 1), you will get the default data label separator, which is either a comma or a newline character, depending on the data label.
+If you use a string, you will get a string as the separator. If you use **xlDataLabelSeparatorDefault** (= 1), you will get the default data label separator, which is either a comma or a newline character, depending on the data label.
 
 
 ## Example
@@ -31,7 +30,8 @@ If you use a string, you will get a string as the separator. If you use  **xlDat
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the data label separator for the first series on the first chart in the active document to a semicolon.
 

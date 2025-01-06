@@ -1,24 +1,23 @@
 ---
-title: SeriesLines.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: SeriesLines.Parent property (PowerPoint)
 api_name:
 - PowerPoint.SeriesLines.Parent
 ms.assetid: 2f562fcf-0bbf-a1e2-2c76-d0b19d84d2c7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SeriesLines.Parent Property (PowerPoint)
+# SeriesLines.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a '[SeriesLines](PowerPoint.SeriesLines.md)' object.
+_expression_ A variable that represents a '[SeriesLines](PowerPoint.SeriesLines.md)' object.
 
 
 ## See also

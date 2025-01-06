@@ -3,18 +3,17 @@ title: EmptyCell.Top property (Access)
 keywords: vbaac10.chm14308
 f1_keywords:
 - vbaac10.chm14308
-ms.prod: access
 api_name:
 - Access.EmptyCell.Top
 ms.assetid: ddd720f0-441f-4ac3-ca95-ecfc4408569e
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmptyCell.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

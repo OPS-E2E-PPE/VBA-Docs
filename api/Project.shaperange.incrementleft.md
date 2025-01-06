@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.IncrementLeft Method (Project)
-ms.prod: project-server
+title: ShapeRange.IncrementLeft method (Project)
+ms.service: project-server
 ms.assetid: 82ae02d8-4480-ddee-dae8-d6b3c4e07f95
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.IncrementLeft Method (Project)
+# ShapeRange.IncrementLeft method (Project)
 Moves each shape in the shape range horizontally by the specified number of points.
 
 ## Syntax
 
- _expression_. `IncrementLeft` _(Increment)_
+_expression_. `IncrementLeft` _(Increment)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters

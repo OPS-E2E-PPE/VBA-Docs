@@ -1,37 +1,36 @@
 ---
-title: ChartGroup.SizeRepresents Property (PowerPoint)
+title: ChartGroup.SizeRepresents property (PowerPoint)
 keywords: vbapp10.chm692001
 f1_keywords:
 - vbapp10.chm692001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroup.SizeRepresents
 ms.assetid: 69570b42-c850-1381-d18d-d924bd30352a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.SizeRepresents Property (PowerPoint)
+# ChartGroup.SizeRepresents property (PowerPoint)
 
-Returns or sets what the bubble size represents on a bubble chart. Read/write  **Long**.
+Returns or sets what the bubble size represents on a bubble chart. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `SizeRepresents`
+_expression_.**SizeRepresents**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
 
-This property can be either of the following  **[xlSizeRepresents](PowerPoint.XlSizeRepresents.md)** constants:
+This property can be either of the following **[XlSizeRepresents](PowerPoint.XlSizeRepresents.md)** constants:
 
 
--  **xlSizeIsArea**
+- **xlSizeIsArea**
     
--  **xlSizeIsWidth**
+- **xlSizeIsWidth**
     
 
 
@@ -41,7 +40,8 @@ This property can be either of the following  **[xlSizeRepresents](PowerPoint.Xl
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets what the bubble size represents for chart group one of the first chart in the active document.
 

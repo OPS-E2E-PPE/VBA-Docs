@@ -3,12 +3,11 @@ title: OpenTextFile method (Visual Basic for Applications)
 keywords: vblr6.chm2182061
 f1_keywords:
 - vblr6.chm2182061
-ms.prod: office
 api_name:
 - Office.OpenTextFile
 ms.assetid: f44f7bc5-e48b-05f2-eb22-5b02701d449e
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Opens a specified file and returns a **[TextStream](textstream-object.md)** obje
 ## Syntax
 
 _object_.**OpenTextFile** (_filename_, [ _iomode_, [ _create_, [ _format_ ]]])
-
-<br/>
 
 The **OpenTextFile** method has these parts:
 
@@ -42,8 +39,6 @@ The _iomode_ argument can have any of the following settings:
 |**ForWriting**|2|Open a file for writing only. Use this mode to replace an existing file with new data. You can't read from this file.|
 |**ForAppending**|8|Open a file and write to the end of the file. You can't read from this file.|
 
-<br/>
-
 The _format_ argument can have any of the following settings:
 
 |Constant|Value|Description|
@@ -59,9 +54,10 @@ The following code illustrates the use of the **OpenTextFile** method to open a 
 ```vb
 Sub OpenTextFileTest
     Const ForReading = 1, ForWriting = 2, ForAppending = 8
+    Const TristateUseDefault = -2, TristateTrue = -1, TristateFalse = 0
     Dim fs, f
     Set fs = CreateObject("Scripting.FileSystemObject")
-    Set f = fs.OpenTextFile("c:\testfile.txt", ForAppending, TristateFalse)
+    Set f = fs.OpenTextFile("c:\testfile.txt", ForAppending, True, TristateFalse)
     f.Write "Hello world!"
     f.Close
 End Sub

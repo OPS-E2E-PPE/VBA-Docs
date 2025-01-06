@@ -1,17 +1,17 @@
 ---
-title: GroupCriterion2 Object (Project)
-ms.prod: project-server
+title: GroupCriterion2 object (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriterion2
 ms.assetid: 06047a9d-a9db-43e0-e759-e24560da7128
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriterion2 Object (Project)
+# GroupCriterion2 object (Project)
 
-Represents a criterion in a group definition where the group hierarchy can be maintained and cell color can be a hexadecimal value. The  **GroupCriterion2** object is a member of the **[GroupCriteria2](Project.groupcriteria2.md)** collection.
+Represents a criterion in a group definition where the group hierarchy can be maintained and cell color can be a hexadecimal value. The **GroupCriterion2** object is a member of the **[GroupCriteria2](Project.groupcriteria2.md)** collection.
  
 
 
@@ -21,7 +21,7 @@ Represents a criterion in a group definition where the group hierarchy can be ma
  
 
  
-Use  **GroupCriteria2(***Index* **)**, where*Index* is the criterion index, to return a single **GroupCriterion2** object. The following example sets the cell color for the first criterion in the Standard Rate resource group to blue.
+Use **GroupCriteria2(***Index* **)**, where*Index* is the criterion index, to return a single **GroupCriterion2** object. The following example sets the cell color for the first criterion in the Standard Rate resource group to blue.
  
 
  
@@ -29,14 +29,14 @@ Use  **GroupCriteria2(***Index* **)**, where*Index* is the criterion index, to r
 
 
 ```vb
-ActiveProject.ResourceGroups2("Standard Rate").GroupCriteria2(1).CellColor = &amp;HFF0000
+ActiveProject.ResourceGroups2("Standard Rate").GroupCriteria2(1).CellColor = &HFF0000
 ```
 
  **Using the GroupCriteria2 Collection**
  
 
  
-Use the  **[GroupCriteria](Project.Group2.GroupCriteria.md)** property to return a **GroupCriteria2** collection. The following example displays a list of the fields used as criteria in the specified task group and shows whether they are sorted in ascending or descending order.
+Use the **[GroupCriteria](Project.Group2.GroupCriteria.md)** property to return a **GroupCriteria2** collection. The following example displays a list of the fields used as criteria in the specified task group and shows whether they are sorted in ascending or descending order.
  
 
  
@@ -49,16 +49,16 @@ Dim Fields As String
   
 For Each GC2 In ActiveProject.TaskGroups2("Priority Keeping Outline Structure").GroupCriteria  
     If GC2.Ascending = True Then  
-        Fields = Fields &amp; GC2.Index &amp; ". " &amp; GC2.FieldName &amp; " is sorted in ascending order." &amp; vbCrLf  
+        Fields = Fields & GC2.Index & ". " & GC2.FieldName & " is sorted in ascending order." & vbCrLf  
     Else  
-        Fields = Fields &amp; GC2.Index &amp; ". " &amp; GC2.FieldName &amp; " is sorted in descending order." &amp; vbCrLf  
+        Fields = Fields & GC2.Index & ". " & GC2.FieldName & " is sorted in descending order." & vbCrLf  
     End If  
 Next GC2  
   
 MsgBox Fields
 ```
 
-Use the  **[AddEx](Project.GroupCriteria2.AddEx.md)** method to add a **GroupCriterion2** object to the **GroupCriteria2** collection, where **CellColor** can be a hexadecimal value. The following example adds another criterion to the specified resource group, grouping resources in ascending order as determined by the percentage of their work (in 25-percent increments) that is complete.
+Use the **[AddEx](Project.GroupCriteria2.AddEx.md)** method to add a **GroupCriterion2** object to the **GroupCriteria2** collection, where **CellColor** can be a hexadecimal value. The following example adds another criterion to the specified resource group, grouping resources in ascending order as determined by the percentage of their work (in 25-percent increments) that is complete.
  
 
  
@@ -67,7 +67,7 @@ Use the  **[AddEx](Project.GroupCriteria2.AddEx.md)** method to add a **GroupCri
 
 ```vb
 ActiveProject.ResourceGroups2("Response Pending").GroupCriteria2.AddEx "% Work Complete", True, _
-    CellColor:=&amp;H0101FF, GroupOn:=pjGroupOnPct1_25
+    CellColor:=&H0101FF, GroupOn:=pjGroupOnPct1_25
 ```
 
 

@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.RemoveItem Method (Outlook)
+title: OlkComboBox.RemoveItem method (Outlook)
 keywords: vbaol11.chm1000231
 f1_keywords:
 - vbaol11.chm1000231
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.RemoveItem
 ms.assetid: 3fb8d3b4-3568-0b33-0672-8cb4cea31df2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.RemoveItem Method (Outlook)
+# OlkComboBox.RemoveItem method (Outlook)
 
 Removes the specified item from the list.
 
 
 ## Syntax
 
-_expression_. `RemoveItem`( `_Index_` )
+_expression_.**RemoveItem** (_Index_)
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Parameters

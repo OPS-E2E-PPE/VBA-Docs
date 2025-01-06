@@ -1,36 +1,33 @@
 ---
-title: QueryTable.BeforeRefresh Event (Excel)
+title: QueryTable.BeforeRefresh event (Excel)
 keywords: vbaxl10.chm519073
 f1_keywords:
 - vbaxl10.chm519073
-ms.prod: excel
 api_name:
 - Excel.QueryTable.BeforeRefresh
 ms.assetid: 763cfe16-d48c-07f2-73e1-5c59021b4e58
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/03/2019
+ms.localizationpriority: medium
 ---
 
 
-# QueryTable.BeforeRefresh Event (Excel)
+# QueryTable.BeforeRefresh event (Excel)
 
-Occurs before any refreshes of the query table. This includes refreshes resulting from calling the  **Refresh** method, from the user's actions in the product, and from opening the workbook containing the query table.
+Occurs before any refreshes of the query table. This includes refreshes resulting from calling the **Refresh** method, from the user's actions in the product, and from opening the workbook containing the query table.
 
 
 ## Syntax
 
-_expression_. `BeforeRefresh`( `_Cancel_` )
+_expression_.**BeforeRefresh** (_Cancel_)
 
-_expression_ A variable that represents a [QueryTable](Excel.QueryTable.md) object.
+_expression_ A variable that represents a **[QueryTable](Excel.QueryTable.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the refresh doesn't occur when the procedure is finished.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the refresh doesn't occur when the procedure is finished.|
 
 ## Return value
 
@@ -41,7 +38,6 @@ Nothing
 
 This example runs before the query table is refreshed.
 
-
 ```vb
 Private Sub QueryTable_BeforeRefresh(Cancel As Boolean) 
  a = MsgBox("Refresh Now?", vbYesNoCancel) 
@@ -51,9 +47,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[QueryTable Object](Excel.QueryTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

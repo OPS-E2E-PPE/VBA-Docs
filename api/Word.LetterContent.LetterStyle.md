@@ -3,30 +3,29 @@ title: LetterContent.LetterStyle property (Word)
 keywords: vbawd10.chm161546344
 f1_keywords:
 - vbawd10.chm161546344
-ms.prod: word
 api_name:
 - Word.LetterContent.LetterStyle
 ms.assetid: fdb8e106-bb80-468d-4330-e601d3a52938
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LetterContent.LetterStyle property (Word)
 
-Returns or sets the layout of a letter created by the Letter Wizard. Read/write  **WdLetterStyle**.
+Returns or sets the layout of a letter created by the Letter Wizard. Read/write **WdLetterStyle**.
 
 
 ## Syntax
 
- _expression_. `LetterStyle`
+_expression_. `LetterStyle`
 
- _expression_ Required. A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ Required. A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example
 
-This example creates a new LetterContent object, selects a letter style, and then runs the Letter Wizard by using the  **RunLetterWizard** method.
+This example creates a new LetterContent object, selects a letter style, and then runs the Letter Wizard by using the **RunLetterWizard** method.
 
 
 ```vb

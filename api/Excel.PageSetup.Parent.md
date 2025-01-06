@@ -3,12 +3,11 @@ title: PageSetup.Parent property (Excel)
 keywords: vbaxl10.chm472075
 f1_keywords:
 - vbaxl10.chm472075
-ms.prod: excel
 api_name:
 - Excel.PageSetup.Parent
 ms.assetid: 9dc9d85b-5abd-a33d-c044-95f56612ddc1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/03/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [PageSetup](Excel.PageSetup.md) object.
+_expression_ A variable that represents a **[PageSetup](Excel.PageSetup.md)** object.
 
 
-## See also
 
-
-[PageSetup Object](Excel.PageSetup.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

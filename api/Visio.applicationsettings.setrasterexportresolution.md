@@ -1,22 +1,21 @@
 ---
-title: ApplicationSettings.SetRasterExportResolution Method (Visio)
+title: ApplicationSettings.SetRasterExportResolution method (Visio)
 keywords: vis_sdr.chm16262265
 f1_keywords:
 - vis_sdr.chm16262265
-ms.prod: visio
 ms.assetid: 18b28fe1-4460-940c-0de7-566a608a8f04
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ApplicationSettings.SetRasterExportResolution Method (Visio)
+# ApplicationSettings.SetRasterExportResolution method (Visio)
 
 Specifies the raster export resolution settings.
 
 ## Syntax
 
-_expression_. **SetRasterExportResolution** (**_resolution_**, **_Width_**, **_Height_**, **_resolutionUnits_**)
+_expression_.**SetRasterExportResolution** (_resolution_, _Width_, _Height_, _resolutionUnits_)
 
 _expression_ An expression that returns an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
@@ -50,7 +49,7 @@ The _resolution_ parameter must be one of the following **VisRasterExportResolut
 
 If _resolution_ is a constant other than **visRasterUseCustomResolution**, **SetRasterExportResolution** ignores all other parameters.
 
-If _resolution_ is **visRasterUseCustomResolution**, **SetRasterExportResolution** accepts values for all parameters if they meet the noted constraints. If they do not meet these constraints, **SetRasterExportResolution** returns an Invalid Parameter error.
+If _resolution_ is **visRasterUseCustomResolution**, **SetRasterExportResolution** accepts values for all parameters if they meet the noted constraints. If they don't meet these constraints, **SetRasterExportResolution** returns an Invalid Parameter error.
 
 The _resolutionUnits_ parameter must be one of the following **VisRasterExportResolutionUnits** constants.
 

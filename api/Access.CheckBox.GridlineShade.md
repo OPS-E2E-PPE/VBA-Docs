@@ -3,12 +3,11 @@ title: CheckBox.GridlineShade property (Access)
 keywords: vbaac10.chm14637
 f1_keywords:
 - vbaac10.chm14637
-ms.prod: access
 api_name:
 - Access.CheckBox.GridlineShade
 ms.assetid: 6f59985a-9b2d-e563-f0ed-dfe938e27331
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

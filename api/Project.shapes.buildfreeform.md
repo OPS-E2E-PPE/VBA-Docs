@@ -1,20 +1,20 @@
 ---
-title: Shapes.BuildFreeform Method (Project)
-ms.prod: project-server
+title: Shapes.BuildFreeform method (Project)
+ms.service: project-server
 ms.assetid: 257f76e3-3b37-5b58-cb78-f6fcebe1ca29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.BuildFreeform Method (Project)
-Creates a  **FreeformBuilder** object that represents a new freeform drawing. The freeform drawing can be converted into a **Shape** object.
+# Shapes.BuildFreeform method (Project)
+Creates a **FreeformBuilder** object that represents a new freeform drawing. The freeform drawing can be converted into a **Shape** object.
 
 ## Syntax
 
- _expression_. `BuildFreeform` _(EditingType,_ _X1,_ _Y1)_
+_expression_. `BuildFreeform` _(EditingType,_ _X1,_ _Y1)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ Creates a  **FreeformBuilder** object that represents a new freeform drawing. Th
 
 ## Remarks
 
-Use the  **AddNodes** method to add segments to the freeform. After you have added at least one segment to the freeform, you can use the **ConvertToShape** method to convert the **FreeformBuilder** object into a **Shape** object that has the geometric description that you defined.
+Use the **AddNodes** method to add segments to the freeform. After you have added at least one segment to the freeform, you can use the **ConvertToShape** method to convert the **FreeformBuilder** object into a **Shape** object that has the geometric description that you defined.
 
 
 ## Example

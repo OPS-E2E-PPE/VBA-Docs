@@ -3,12 +3,11 @@ title: Range.MoveEnd method (Word)
 keywords: vbawd10.chm157155439
 f1_keywords:
 - vbawd10.chm157155439
-ms.prod: word
 api_name:
 - Word.Range.MoveEnd
 ms.assetid: 44aa26e6-7bb1-af51-8d23-244444e0795c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the ending character position of a range. .
 
 ## Syntax
 
- _expression_. `MoveEnd`( `_Unit_` , `_Count_` )
+_expression_. `MoveEnd`( `_Unit_` , `_Count_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters

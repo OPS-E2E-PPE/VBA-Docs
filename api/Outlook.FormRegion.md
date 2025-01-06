@@ -1,27 +1,26 @@
 ---
-title: FormRegion Object (Outlook)
+title: FormRegion object (Outlook)
 keywords: vbaol11.chm3018
 f1_keywords:
 - vbaol11.chm3018
-ms.prod: outlook
 api_name:
 - Outlook.FormRegion
 ms.assetid: 3a0b83eb-4076-9cb3-86a9-68f9e44df89f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FormRegion Object (Outlook)
+# FormRegion object (Outlook)
 
 Represents a form region in an Outlook form.
 
 
 ## Remarks
 
-The  **FormRegion** object allows an add-in to add code behind a form region in a custom form to modify the appearance and behavior of the form region.
+The **FormRegion** object allows an add-in to add code behind a form region in a custom form to modify the appearance and behavior of the form region.
 
-To obtain an instance of the  **FormRegion** object, an add-in must implement the **[FormRegionStartup](Outlook.formregionstartup.md)** interface. Outlook allocates storage for the form region, instantiates an instance of the **FormRegion** object, and returns the **FormRegion** object in the **[GetFormRegionStorage](Outlook.FormRegionStartup.GetFormRegionStorage.md)** method.
+To obtain an instance of the **FormRegion** object, an add-in must implement the **[FormRegionStartup](Outlook.formregionstartup.md)** interface. Outlook allocates storage for the form region, instantiates an instance of the **FormRegion** object, and returns the **FormRegion** object in the **[GetFormRegionStorage](Outlook.FormRegionStartup.GetFormRegionStorage.md)** method.
 
 When the add-in closes the frame for the form region, the add-in must release the object for the form region.
 
@@ -73,6 +72,6 @@ For more infomation on programming a form region, see [Extending a Form Region w
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

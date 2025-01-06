@@ -3,12 +3,11 @@ title: Control.Pages property (Access)
 keywords: vbaac10.chm10149
 f1_keywords:
 - vbaac10.chm10149
-ms.prod: access
 api_name:
 - Access.Control.Pages
 ms.assetid: fd4ea2c0-ea8c-51a0-a012-8ba5848d3516
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

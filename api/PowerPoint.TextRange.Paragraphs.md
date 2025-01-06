@@ -1,27 +1,26 @@
 ---
-title: TextRange.Paragraphs Method (PowerPoint)
+title: TextRange.Paragraphs method (PowerPoint)
 keywords: vbapp10.chm569010
 f1_keywords:
 - vbapp10.chm569010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Paragraphs
 ms.assetid: 5062eccf-4db2-692f-501e-b7d214181171
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Paragraphs Method (PowerPoint)
+# TextRange.Paragraphs method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text paragraphs.
+Returns a **TextRange** object that represents the specified subset of text paragraphs.
 
 
 ## Syntax
 
- _expression_. `Paragraphs`( `_Start_`, `_Length_` )
+_expression_. `Paragraphs`( `_Start_`, `_Length_` )
 
- _expression_ An expression that returns a [TextRange](./PowerPoint.TextRange.md) object.
+ _expression_ An expression that returns a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ TextRange
 
 ## Remarks
 
-For information about counting or looping through the paragraphs in a text range, see the  **[TextRange](PowerPoint.TextRange.md)** object.
+For information about counting or looping through the paragraphs in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
 
 If both Start and Length are omitted, the returned range starts with the first paragraph and ends with the last paragraph in the specified range.
 

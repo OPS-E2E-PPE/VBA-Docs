@@ -1,11 +1,10 @@
 ---
 title: CommandBarButton.Visible property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarButton.Visible
 ms.assetid: 121d4c6d-141d-882d-c77e-2ed9357c9445
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

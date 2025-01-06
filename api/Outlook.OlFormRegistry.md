@@ -1,20 +1,19 @@
 ---
-title: OlFormRegistry Enumeration (Outlook)
+title: OlFormRegistry enumeration (Outlook)
 keywords: vbaol11.chm3060
 f1_keywords:
 - vbaol11.chm3060
-ms.prod: outlook
 api_name:
 - Outlook.OlFormRegistry
 ms.assetid: 2d1076ae-0984-da03-a7ec-f083dc9d9e46
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormRegistry Enumeration (Outlook)
+# OlFormRegistry enumeration (Outlook)
 
-Indicates the form registry (library) where the  **Form** is stored.
+Indicates the form registry (library) where the **Form** is stored.
 
 
 

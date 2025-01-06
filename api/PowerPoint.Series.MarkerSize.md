@@ -1,24 +1,23 @@
 ---
-title: Series.MarkerSize Property (PowerPoint)
-ms.prod: powerpoint
+title: Series.MarkerSize property (PowerPoint)
 api_name:
 - PowerPoint.Series.MarkerSize
 ms.assetid: 60a402b8-69f5-db47-73df-55ed75a42272
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.MarkerSize Property (PowerPoint)
+# Series.MarkerSize property (PowerPoint)
 
-Returns or sets the data-marker size, in points. Read/write  **Long**.
+Returns or sets the data-marker size, in points. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `MarkerSize`
+_expression_.**MarkerSize**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks
@@ -31,7 +30,8 @@ This property can have a value from 2 through 72.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the data-marker size for all data markers on series one for the first chart in the active document.
 

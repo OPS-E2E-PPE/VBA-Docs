@@ -3,12 +3,11 @@ title: Sync.LastSyncTime property (Office)
 keywords: vbaof11.chm277003
 f1_keywords:
 - vbaof11.chm277003
-ms.prod: office
 api_name:
 - Office.Sync.LastSyncTime
 ms.assetid: d85af059-a39e-e100-c81a-06265b43cade
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -46,9 +45,9 @@ The following example alerts the user and displays the sync status if more than 
     Set objSync = ActiveDocument.Sync 
     dtmLastSync = CDate(objSync.LastSyncTime) 
     If DateDiff("h", dtmLastSync, Now) > 24 Then 
-        strStatus = "Document has not been synced " &amp; _ 
-            " within the last 24 hours." &amp; vbCrLf &amp; _ 
-            "Document status: " &amp; objSync.Status 
+        strStatus = "Document has not been synced " & _ 
+            " within the last 24 hours." & vbCrLf & _ 
+            "Document status: " & objSync.Status 
         MsgBox strStatus, vbInformation + vbOKOnly, "Error Information" 
     End If 
     Set objSync = Nothing 

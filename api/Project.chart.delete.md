@@ -1,23 +1,23 @@
 ---
-title: Chart.Delete Method (Project)
+title: Chart.Delete method (Project)
 keywords: vbapj.chm131614
 f1_keywords:
 - vbapj.chm131614
-ms.prod: project-server
+ms.service: project-server
 ms.assetid: 46312c6b-db7b-7562-d97a-d1fc8ba2acb7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.Delete Method (Project)
+# Chart.Delete method (Project)
 Deletes a chart on an active report.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Return value

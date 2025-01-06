@@ -3,12 +3,11 @@ title: Document.Save method (Word)
 keywords: vbawd10.chm158007404
 f1_keywords:
 - vbawd10.chm158007404
-ms.prod: word
 api_name:
 - Word.Document.Save
 ms.assetid: 7e329abc-0530-7016-7712-687de2c780a8
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Saves the specified document.
 
 ## Syntax
 
- _expression_. `Save`
+_expression_.**Save**
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
  
 **Parameters:**
 
@@ -36,7 +35,7 @@ Specifies the way the documents are saved. Can be one of the WdOriginalFormat co
 
 ## Remarks
 
-If a document has not been saved before, the  **Save As** dialog box prompts the user for a file name.
+If a document has not been saved before, the **Save As** dialog box prompts the user for a file name.
 
 
 ## Example
@@ -48,7 +47,7 @@ This example saves the active document if it has changed since it was last saved
 If ActiveDocument.Saved = False Then ActiveDocument.Save
 ```
 
-This example saves each document in the  **Documents** collection without first prompting the user.
+This example saves each document in the **Documents** collection without first prompting the user.
 
 
 

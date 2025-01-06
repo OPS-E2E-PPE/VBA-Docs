@@ -3,20 +3,17 @@ title: AcProperty enumeration (Access)
 keywords: vbaac10.chm14074
 f1_keywords:
 - vbaac10.chm14074
-ms.prod: access
 api_name:
 - Access.AcProperty
 ms.assetid: d5a4b6f9-451a-9b8e-9120-18097ecdc494
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcProperty enumeration (Access)
 
 Used with the [SetProperty](Access.DoCmd.SetProperty.md) method to specify which property to set for a control.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -3,35 +3,35 @@ title: Research.FavoriteService property (Word)
 keywords: vbawd10.chm201655275
 f1_keywords:
 - vbawd10.chm201655275
-ms.prod: word
 api_name:
 - Word.Research.FavoriteService
 ms.assetid: ed8654bb-6f70-fe66-70cf-5736163028d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Research.FavoriteService property (Word)
 
-Returns or sets a  **String** that specifies the favorite research service.
+Returns or sets a **String** that specifies the favorite research service.
 
 
 ## Syntax
 
- _expression_. `FavoriteService`
+_expression_. `FavoriteService`
 
  _expression_ An expression that returns a '[Research](Word.Research.md)' object.
 
 
 ## Remarks
 
-The  **String** that is set or returned for this property specifies the GUID of the favorite research service.
+The **String** that is set or returned for this property specifies the GUID of the favorite research service.
 
 Setting this property has the same effect as choosing a favorite research service through the Research Options dialog in Word. 
 
 
- **Note**  The GUIDs for all installed research services can be located in the `HKCU\Software\Microsoft\Office\14.0\Common\Research\Sources` registry key.
+> [!NOTE] 
+> The GUIDs for all installed research services can be located in the `HKCU\Software\Microsoft\Office\14.0\Common\Research\Sources` registry key.
 
 
 ## Example

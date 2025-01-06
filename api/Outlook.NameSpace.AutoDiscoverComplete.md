@@ -1,20 +1,19 @@
 ---
-title: NameSpace.AutoDiscoverComplete Event (Outlook)
+title: NameSpace.AutoDiscoverComplete event (Outlook)
 keywords: vbaol11.chm3301
 f1_keywords:
 - vbaol11.chm3301
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.AutoDiscoverComplete
 ms.assetid: b7cac212-4d38-660e-0caf-48f97035f14a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.AutoDiscoverComplete Event (Outlook)
+# NameSpace.AutoDiscoverComplete event (Outlook)
 
-Occurs after Microsoft Outlook has finished accessing the auto-discovery service of the Microsoft Exchange server that hosts the primary Exchange account and has the related information available in  **[NameSpace.AutoDiscoverXml](Outlook.NameSpace.AutoDiscoverXml.md)**.
+Occurs after Microsoft Outlook has finished accessing the auto-discovery service of the Microsoft Exchange server that hosts the primary Exchange account and has the related information available in **[NameSpace.AutoDiscoverXml](Outlook.NameSpace.AutoDiscoverXml.md)**.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' ob
 
 ## Remarks
 
-This event is similar to the  **[AutoDiscoverComplete](Outlook.Accounts.AutoDiscoverComplete.md)** event of the **[Accounts](Outlook.Accounts.md)** object. If there are multiple Exchange accounts defined in the current profile, use the **AutoDiscoverComplete** event of the **Accounts** object that specifies the particular account.
+This event is similar to the **[AutoDiscoverComplete](Outlook.Accounts.AutoDiscoverComplete.md)** event of the **[Accounts](Outlook.Accounts.md)** object. If there are multiple Exchange accounts defined in the current profile, use the **AutoDiscoverComplete** event of the **Accounts** object that specifies the particular account.
 
 
 ## Example
@@ -34,9 +33,9 @@ This event is similar to the  **[AutoDiscoverComplete](Outlook.Accounts.AutoDisc
  **NameSpace.AutoDiscoverXml** is an XML string that is returned from the auto-discovery service of the Exchange server. The following code sample shows when this XML string is available during a normal Outlook session:
 
 
-1. When the  **[Application.Startup](Outlook.Application.Startup.md)** event occurs, if **[NameSpace.AutoDiscoverConnectionMode](Outlook.NameSpace.AutoDiscoverConnectionMode.md)** is not equal to **olAutoDiscoverConnectionUnknown**
+1. When the **[Application.Startup](Outlook.Application.Startup.md)** event occurs, if **[NameSpace.AutoDiscoverConnectionMode](Outlook.NameSpace.AutoDiscoverConnectionMode.md)** is not equal to **olAutoDiscoverConnectionUnknown**
     
-2. When the  **AutoDiscoverComplete** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**
+2. When the **AutoDiscoverComplete** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**
     
 
 

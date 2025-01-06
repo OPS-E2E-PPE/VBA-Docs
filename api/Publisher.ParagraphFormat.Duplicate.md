@@ -1,27 +1,26 @@
 ---
-title: ParagraphFormat.Duplicate Method (Publisher)
+title: ParagraphFormat.Duplicate method (Publisher)
 keywords: vbapb10.chm5439510
 f1_keywords:
 - vbapb10.chm5439510
-ms.prod: publisher
 api_name:
 - Publisher.ParagraphFormat.Duplicate
 ms.assetid: 83156999-7867-05c2-9e85-4cc0f580ac6e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/12/2019
+ms.localizationpriority: medium
 ---
 
 
-# ParagraphFormat.Duplicate Method (Publisher)
+# ParagraphFormat.Duplicate method (Publisher)
 
-Creates a duplicate of the specified  **[ParagraphFormat](Publisher.ParagraphFormat.md)** object and then returns the new **ParagraphFormat** object.
+Creates a duplicate of the specified **ParagraphFormat** object and then returns the new **ParagraphFormat** object.
 
 
 ## Syntax
 
- _expression_. **Duplicate**
+_expression_.**Duplicate**
 
- _expression_ A variable that represents a  **ParagraphFormat** object.
+_expression_ A variable that represents a **[ParagraphFormat](Publisher.ParagraphFormat.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ ParagraphFormat
 ## Example
 
 The following example duplicates the paragraph formatting information from the text range in shape one on page one of the active publication and applies it to the text range in shape two.
-
 
 ```vb
 Dim pfTemp As ParagraphFormat 

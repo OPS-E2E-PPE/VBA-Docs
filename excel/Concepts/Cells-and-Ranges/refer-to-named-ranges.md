@@ -3,10 +3,9 @@ title: Refer to Named Ranges
 keywords: vbaxl10.chm5204437
 f1_keywords:
 - vbaxl10.chm5204437
-ms.prod: excel
 ms.assetid: 74119715-2208-b932-f47c-7fad334c3fc6
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -26,7 +25,7 @@ As explained above, it is usually created entering the name into the name box to
 
 ## WorkSHEET Specific Named Range   
 
-A WorkSHEET Specific Named Range refers to a range in a specific worksheet, and it is not global to all worksheets within a workbook. You can refer to this named range by just the name in the same worksheet, but from another worksheet you must use the worksheet name including "!"  the name of the range (example: the range "Name" "=Sheet1!Name"). 
+A WorkSHEET Specific Named Range refers to a range in a specific worksheet, and it is not global to all worksheets within a workbook. Refer to this named range by just the name in the same worksheet, but from another worksheet you must use the worksheet name including "!"  the name of the range (example: the range "Name" "=Sheet1!Name"). 
 
 The benefit is that you can use VBA code to generate new sheets with the same names for the same ranges within those sheets without getting an error saying that the name is already taken.   
 
@@ -59,7 +58,7 @@ Sub FormatSales()
 End Sub
 ```
 
-To select a named range, use the  **GoTo** method, which activates the workbook and the worksheet and then selects the range.
+To select a named range, use the **GoTo** method, which activates the workbook and the worksheet and then selects the range.
 
 ```vb
 Sub ClearRange() 
@@ -129,7 +128,7 @@ End Sub
 
 ## Looping Through Cells in a Named Range
 
-The following example loops through each cell in a named range by using a  **For Each...Next** loop. If the value of any cell in the range exceeds the value of `Limit`, the cell color is changed to yellow.
+The following example loops through each cell in a named range by using a **For Each...Next** loop. If the value of any cell in the range exceeds the value of `Limit`, the cell color is changed to yellow.
 
 ```vb
 Sub ApplyColor() 

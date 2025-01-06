@@ -3,23 +3,22 @@ title: XMLMapping.CustomXMLNode property (Word)
 keywords: vbawd10.chm199688194
 f1_keywords:
 - vbawd10.chm199688194
-ms.prod: word
 api_name:
 - Word.XMLMapping.CustomXMLNode
 ms.assetid: c28e3a1e-1bc3-fbe7-7ff8-78adef326bbd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLMapping.CustomXMLNode property (Word)
 
-Returns a  **CustomXMLNode** object that represents the custom XML node in the data store to which the content control in the document maps.
+Returns a **CustomXMLNode** object that represents the custom XML node in the data store to which the content control in the document maps.
 
 
 ## Syntax
 
- _expression_. `CustomXMLNode`
+_expression_. `CustomXMLNode`
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 

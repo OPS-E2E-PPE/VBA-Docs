@@ -3,20 +3,17 @@ title: AcNavigationSpan enumeration (Access)
 keywords: vbaac10.chm14675
 f1_keywords:
 - vbaac10.chm14675
-ms.prod: access
 api_name:
 - Access.AcNavigationSpan
 ms.assetid: 355a6133-aceb-d412-07f9-842b65a03a0f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcNavigationSpan enumeration (Access)
 
 Specifies the orientation of navigation buttons.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

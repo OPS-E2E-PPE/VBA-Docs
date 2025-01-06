@@ -1,32 +1,29 @@
 ---
-title: Application.WorkbookDeactivate Event (Excel)
+title: Application.WorkbookDeactivate event (Excel)
 keywords: vbaxl10.chm504083
 f1_keywords:
 - vbaxl10.chm504083
-ms.prod: excel
 api_name:
 - Excel.Application.WorkbookDeactivate
 ms.assetid: 0a6a55ea-5374-4de7-e48e-e52d903cc749
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/05/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.WorkbookDeactivate Event (Excel)
+# Application.WorkbookDeactivate event (Excel)
 
 Occurs when any open workbook is deactivated.
 
 
 ## Syntax
 
-_expression_. `WorkbookDeactivate`( `_Wb_` )
+_expression_.**WorkbookDeactivate** (_Wb_)
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -49,9 +46,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

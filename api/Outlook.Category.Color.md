@@ -1,37 +1,36 @@
 ---
-title: Category.Color Property (Outlook)
+title: Category.Color property (Outlook)
 keywords: vbaol11.chm2427
 f1_keywords:
 - vbaol11.chm2427
-ms.prod: outlook
 api_name:
 - Outlook.Category.Color
 ms.assetid: 42814031-97ee-bb71-7c24-4ddd367d793c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Category.Color Property (Outlook)
+# Category.Color property (Outlook)
 
-Returns or sets an  **[OlCategoryColor](Outlook.OlCategoryColor.md)** constant that indicates the color used by the **[Category](Outlook.Category.md)** object. Read/write.
+Returns or sets an **[OlCategoryColor](Outlook.OlCategoryColor.md)** constant that indicates the color used by the **[Category](Outlook.Category.md)** object. Read/write.
 
 
 ## Syntax
 
-_expression_. `Color`
+_expression_.**Color**
 
-_expression_ A variable that represents a [Category](./Outlook.Category.md) object.
+_expression_ A variable that represents a [Category](Outlook.Category.md) object.
 
 
 ## Remarks
 
-You can share the same color for multiple categories, by specifying the same constant that represents the category color in the  **OlCategoryColor** enumeration for those **Category** objects.
+You can share the same color for multiple categories, by specifying the same constant that represents the category color in the **OlCategoryColor** enumeration for those **Category** objects.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays a dialog box containing color assignments for each  **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
+The following Visual Basic for Applications (VBA) example displays a dialog box containing color assignments for each **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
 
 
 ```vb

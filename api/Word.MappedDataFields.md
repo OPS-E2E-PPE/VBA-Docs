@@ -3,23 +3,22 @@ title: MappedDataFields object (Word)
 keywords: vbawd10.chm2068
 f1_keywords:
 - vbawd10.chm2068
-ms.prod: word
 api_name:
 - Word.MappedDataFields
 ms.assetid: d67de1fb-f495-ff4a-f21d-fd165a96232c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MappedDataFields object (Word)
 
-A collection of  **MappedDataField** objects that represents all the mapped data fields available in Microsoft Word.
+A collection of **MappedDataField** objects that represents all the mapped data fields available in Microsoft Word.
 
 
 ## Remarks
 
-Use the  **MappedDataFields** property of the **MailMergeDataSource** object to return the **MappedDataFields** collection. This example creates a tabbed list of the mapped data fields available in Word and the fields in the data source to which they are mapped. This example assumes that the current document is a mail merge document and that the data source fields have corresponding mapped data fields.
+Use the **MappedDataFields** property of the **MailMergeDataSource** object to return the **MappedDataFields** collection. This example creates a tabbed list of the mapped data fields available in Word and the fields in the data source to which they are mapped. This example assumes that the current document is a mail merge document and that the data source fields have corresponding mapped data fields.
 
 
 ```vb
@@ -68,6 +67,6 @@ End Sub
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

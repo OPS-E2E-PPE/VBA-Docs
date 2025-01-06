@@ -3,18 +3,17 @@ title: WebBrowserControl.SpecialEffect property (Access)
 keywords: vbaac10.chm14374
 f1_keywords:
 - vbaac10.chm14374
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.SpecialEffect
 ms.assetid: 59764207-eecc-d310-30dd-ac5173d5c2a4
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

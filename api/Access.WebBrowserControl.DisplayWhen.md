@@ -3,18 +3,17 @@ title: WebBrowserControl.DisplayWhen property (Access)
 keywords: vbaac10.chm14360
 f1_keywords:
 - vbaac10.chm14360
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.DisplayWhen
 ms.assetid: c03fdd8a-854a-8738-e904-7f857b94e52b
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

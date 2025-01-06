@@ -3,12 +3,11 @@ title: CommandButton.BackTint property (Access)
 keywords: vbaac10.chm14632
 f1_keywords:
 - vbaac10.chm14632
-ms.prod: access
 api_name:
 - Access.CommandButton.BackTint
 ms.assetid: db441cd0-bd88-2c76-aab1-ae846974b8bd
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

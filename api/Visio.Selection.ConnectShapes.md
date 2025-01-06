@@ -1,27 +1,26 @@
 ---
-title: Selection.ConnectShapes Method (Visio)
+title: Selection.ConnectShapes method (Visio)
 keywords: vis_sdr.chm11152010
 f1_keywords:
 - vis_sdr.chm11152010
-ms.prod: visio
 api_name:
 - Visio.Selection.ConnectShapes
 ms.assetid: 40e9c839-69f0-2142-6b9c-249212e373a4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.ConnectShapes Method (Visio)
+# Selection.ConnectShapes method (Visio)
 
 Connects two or more selected shapes with a dynamic connector. Returns **Nothing**.
 
 
 ## Syntax
 
- _expression_. `ConnectShapes`
+_expression_. `ConnectShapes`
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Nothing
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **ConnectShapes** method to connect two shapes.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **ConnectShapes** method to connect two shapes.
 
 
 ```vb

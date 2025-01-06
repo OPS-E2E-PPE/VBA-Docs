@@ -3,49 +3,45 @@ title: Worksheet.ChartObjects method (Excel)
 keywords: vbaxl10.chm175081
 f1_keywords:
 - vbaxl10.chm175081
-ms.prod: excel
 api_name:
 - Excel.Worksheet.ChartObjects
 ms.assetid: 234cab0e-a8a2-2174-8881-39b5fb37c743
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/30/2019
+ms.localizationpriority: medium
 ---
 
 
 # Worksheet.ChartObjects method (Excel)
 
-Returns an object that represents either a single embedded chart (a  **[ChartObject](Excel.ChartObject.md)** object) or a collection of all the embedded charts (a **[ChartObjects](Excel.ChartObjects.md)** object) on the sheet.
+Returns an object that represents either a single embedded chart (a **[ChartObject](Excel.ChartObject.md)** object) or a collection of all the embedded charts (a **[ChartObjects](Excel.ChartObjects.md)** object) on the sheet.
 
 
 ## Syntax
 
-_expression_. `ChartObjects`( `_Index_` )
+_expression_.**ChartObjects** (_Index_)
 
-_expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+_expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Optional| **Variant**|The name or number of the chart. This argument can be an array, to specify more than one chart.|
+| _Index_|Optional| **Variant**|The name or number of the chart. This argument can be an array to specify more than one chart.|
 
 ## Return value
 
-Object
+**Object**
 
 
 ## Remarks
 
-This method isn't equivalent to the  **[Charts](Excel.Workbook.Charts.md)** property. This method returns embedded charts; the **Charts** property returns chart sheets. Use the **[Chart](Excel.ChartObject.Chart.md)** property to return the **Chart** object for an embedded chart.
+This method isn't equivalent to the **[Charts](Excel.Workbook.Charts.md)** property. This method returns embedded charts; the **Charts** property returns chart sheets. Use the **[Chart](Excel.ChartObject.Chart.md)** property to return the **Chart** object for an embedded chart.
 
 
 ## Example
 
 This example adds a title to embedded chart one on Sheet1.
-
 
 ```vb
 With Worksheets("Sheet1").ChartObjects(1).Chart 
@@ -56,9 +52,6 @@ End With
 
 This example creates a new series in embedded chart one on Sheet1. The data source for the new series is the range B1:B10 on Sheet1.
 
-
-
-
 ```vb
 Worksheets("Sheet1").ChartObjects(1).Activate 
 ActiveChart.SeriesCollection.Add _ 
@@ -67,17 +60,10 @@ ActiveChart.SeriesCollection.Add _
 
 This example clears the formatting of embedded chart one on Sheet1.
 
-
-
-
 ```vb
 Worksheets("Sheet1").ChartObjects(1).Chart.ChartArea.ClearFormats
 ```
 
 
-## See also
-
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

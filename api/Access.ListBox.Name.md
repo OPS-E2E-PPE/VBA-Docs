@@ -3,18 +3,17 @@ title: ListBox.Name property (Access)
 keywords: vbaac10.chm11297
 f1_keywords:
 - vbaac10.chm11297
-ms.prod: access
 api_name:
 - Access.ListBox.Name
 ms.assetid: 86162898-8107-c6c8-7249-463ff4312671
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

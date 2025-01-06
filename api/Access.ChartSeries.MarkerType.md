@@ -3,11 +3,10 @@ title: ChartSeries.MarkerType property (Access)
 keywords: vbaac10.chm14787
 f1_keywords:
 - vbaac10.chm14787
-ms.prod: access
 api_name:
 - Access.ChartSeries.MarkerType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: ComboBox.BackStyle property (Access)
 keywords: vbaac10.chm11405
 f1_keywords:
 - vbaac10.chm11405
-ms.prod: access
 api_name:
 - Access.ComboBox.BackStyle
 ms.assetid: 1def822f-6b4a-8384-9d81-72b30e680908
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

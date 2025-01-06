@@ -1,11 +1,10 @@
 ---
 title: ThemeFontScheme.Parent property (Office)
-ms.prod: office
 api_name:
 - Office.ThemeFontScheme.Parent
 ms.assetid: 25db352c-98fe-4e37-5733-68e980e57282
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

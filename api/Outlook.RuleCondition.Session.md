@@ -1,32 +1,31 @@
 ---
-title: RuleCondition.Session Property (Outlook)
+title: RuleCondition.Session property (Outlook)
 keywords: vbaol11.chm2327
 f1_keywords:
 - vbaol11.chm2327
-ms.prod: outlook
 api_name:
 - Outlook.RuleCondition.Session
 ms.assetid: bb2163ff-72fb-5712-4618-7dd814b76f9f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RuleCondition.Session Property (Outlook)
+# RuleCondition.Session property (Outlook)
 
-Returns the  **[NameSpace](Outlook.NameSpace.md)** object for the current session. Read-only.
+Returns the **[NameSpace](Outlook.NameSpace.md)** object for the current session. Read-only.
 
 
 ## Syntax
 
-_expression_. `Session`
+_expression_.**Session**
 
-_expression_ A variable that represents a [RuleCondition](./Outlook.RuleCondition.md) object.
+_expression_ A variable that represents a [RuleCondition](Outlook.RuleCondition.md) object.
 
 
 ## Remarks
 
-The  **Session** property and the **[GetNamespace](Outlook.Application.GetNamespace.md)** method can be used interchangeably to obtain the **NameSpace** object for the current session. Both members serve the same purpose. For example, the following statements perform the same function:
+The **Session** property and the **[GetNamespace](Outlook.Application.GetNamespace.md)** method can be used interchangeably to obtain the **NameSpace** object for the current session. Both members serve the same purpose. For example, the following statements perform the same function:
 
 
 ```vb

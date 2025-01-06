@@ -3,12 +3,11 @@ title: ChartFont.Subscript property (Word)
 keywords: vbawd10.chm255918102
 f1_keywords:
 - vbawd10.chm255918102
-ms.prod: word
 api_name:
 - Word.ChartFont.Subscript
 ms.assetid: d46ee830-a4d0-3812-eca0-5b6fa86511b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Subscript`
+_expression_.**Subscript**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## See also

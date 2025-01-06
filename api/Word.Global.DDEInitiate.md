@@ -3,12 +3,11 @@ title: Global.DDEInitiate method (Word)
 keywords: vbawd10.chm163119415
 f1_keywords:
 - vbawd10.chm163119415
-ms.prod: word
 api_name:
 - Word.Global.DDEInitiate
 ms.assetid: 4b27c9dc-6d81-50e7-968b-f583cd1f23b9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Opens a dynamic data exchange (DDE) channel to another application, and returns 
 
 ## Syntax
 
- _expression_. `DDEInitiate`( `_App_` , `_Topic_` )
+_expression_. `DDEInitiate`( `_App_` , `_Topic_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters
@@ -31,16 +30,11 @@ Opens a dynamic data exchange (DDE) channel to another application, and returns 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _App_|Required| **String**|The name of the application.|
-| _Topic_|Required| **String**|The name of a DDE topic?for example, the name of an open document?recognized by the application to which you are opening a channel.|
+| _Topic_|Required| **String**|The name of a DDE topic&mdash;for example, the name of an open document&mdash;recognized by the application to which you are opening a channel.|
 
 ## Remarks
 
-
- **Security Note**  
-
-
-
-If it is successful, the  **DDEInitiate** method returns the number of the open channel. All subsequent DDE functions use this number to specify the channel.
+If it is successful, the **DDEInitiate** method returns the number of the open channel. All subsequent DDE functions use this number to specify the channel.
 
 
 ## Example

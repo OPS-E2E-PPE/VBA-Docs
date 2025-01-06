@@ -1,24 +1,24 @@
 ---
-title: Application.IsReducedFunctionalityMode Method (Project)
-ms.prod: project-server
+title: Application.IsReducedFunctionalityMode method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.IsReducedFunctionalityMode
 ms.assetid: d53320db-377d-2e78-10b2-03af8d8bded3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsReducedFunctionalityMode Method (Project)
+# Application.IsReducedFunctionalityMode method (Project)
 
 Indicates whether the installed Project application is in reduced functionality mode.
 
 
 ## Syntax
 
- _expression_. `IsReducedFunctionalityMode`
+_expression_. `IsReducedFunctionalityMode`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

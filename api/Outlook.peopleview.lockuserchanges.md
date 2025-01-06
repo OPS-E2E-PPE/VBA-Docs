@@ -1,17 +1,16 @@
 ---
-title: PeopleView.LockUserChanges Property (Outlook)
+title: PeopleView.LockUserChanges property (Outlook)
 keywords: vbaol11.chm3579
 f1_keywords:
 - vbaol11.chm3579
 ms.assetid: 28249708-e88f-a95e-0618-1361630b57be
 ms.date: 06/08/2017
-ms.prod: outlook
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PeopleView.LockUserChanges Property (Outlook)
-Returns or sets a  **Boolean** value that indicates whether a user can modify the settings of the view. Read/write.
+# PeopleView.LockUserChanges property (Outlook)
+Returns or sets a **Boolean** value that indicates whether a user can modify the settings of the view. Read/write.
 
 ## Version information
 
@@ -34,6 +33,6 @@ _expression_ A variable that represents a 'PeopleView' object.
 
 
 [PeopleView Object](Outlook.peopleview.md)
-[PeopleView Members](./overview/Outlook.md)
+[PeopleView Members](overview/Outlook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

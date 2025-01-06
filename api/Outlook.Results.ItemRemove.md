@@ -1,18 +1,17 @@
 ---
-title: Results.ItemRemove Event (Outlook)
+title: Results.ItemRemove event (Outlook)
 keywords: vbaol11.chm516
 f1_keywords:
 - vbaol11.chm516
-ms.prod: outlook
 api_name:
 - Outlook.Results.ItemRemove
 ms.assetid: 95f59319-3182-5b2e-977f-d61512106090
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Results.ItemRemove Event (Outlook)
+# Results.ItemRemove event (Outlook)
 
 Occurs when an item is deleted from the specified collection.
 
@@ -21,7 +20,7 @@ Occurs when an item is deleted from the specified collection.
 
 _expression_. `ItemRemove`
 
-_expression_ A variable that represents a [Results](./Outlook.Results.md) object.
+_expression_ A variable that represents a [Results](Outlook.Results.md) object.
 
 
 ## Remarks
@@ -33,7 +32,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example optionally sends a notification message to a workgroup when the user removes a contact from the default  **Contacts** folder. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Microsoft Visual Basic for Applications (VBA) example optionally sends a notification message to a workgroup when the user removes a contact from the default **Contacts** folder. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

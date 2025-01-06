@@ -3,12 +3,11 @@ title: Series.HasLeaderLines property (Word)
 keywords: vbawd10.chm123733362
 f1_keywords:
 - vbawd10.chm123733362
-ms.prod: word
 api_name:
 - Word.Series.HasLeaderLines
 ms.assetid: c558ffc3-939b-a237-3c6e-e10549f3c8d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasLeaderLines`
+_expression_.**HasLeaderLines**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks

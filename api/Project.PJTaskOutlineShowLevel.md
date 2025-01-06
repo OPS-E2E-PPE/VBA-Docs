@@ -1,15 +1,15 @@
 ---
-title: PJTaskOutlineShowLevel Enumeration (Project)
-ms.prod: project-server
+title: PJTaskOutlineShowLevel enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PJTaskOutlineShowLevel
 ms.assetid: 27b015dd-5983-ca49-1a5d-67d71bb3d91f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PJTaskOutlineShowLevel Enumeration (Project)
+# PJTaskOutlineShowLevel enumeration (Project)
 
 Contains constants that specify the task outline levels to display.
 

@@ -3,30 +3,29 @@ title: PictureFormat.CropRight property (Word)
 keywords: vbawd10.chm164298857
 f1_keywords:
 - vbawd10.chm164298857
-ms.prod: word
 api_name:
 - Word.PictureFormat.CropRight
 ms.assetid: 89f73474-9b52-b758-e579-adbc803a5a62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PictureFormat.CropRight property (Word)
 
-Returns or sets the number of points that are cropped off the right side of the specified picture or OLE object. Read/write  **Single**.
+Returns or sets the number of points that are cropped off the right side of the specified picture or OLE object. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `CropRight`
+_expression_.**CropRight**
 
- _expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
+_expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it is 200 points wide, and then set the  **CropRight** property to 50, 100 points (not 50) will be cropped off the right side of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it is 200 points wide, and then set the **CropRight** property to 50, 100 points (not 50) will be cropped off the right side of your picture.
 
 
 ## Example

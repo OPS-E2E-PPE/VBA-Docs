@@ -3,25 +3,24 @@ title: AxisTitle.FormulaLocal property (Word)
 keywords: vbawd10.chm98238506
 f1_keywords:
 - vbawd10.chm98238506
-ms.prod: word
 api_name:
 - Word.AxisTitle.FormulaLocal
 ms.assetid: 05995afc-63a6-58b8-e5e1-380476dfe8ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AxisTitle.FormulaLocal property (Word)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
- _expression_ A variable that represents an '[AxisTitle](Word.AxisTitle.md)' object.
+_expression_ A variable that represents an '[AxisTitle](Word.AxisTitle.md)' object.
 
 
 ## Remarks

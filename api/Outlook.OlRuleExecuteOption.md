@@ -1,18 +1,17 @@
 ---
-title: OlRuleExecuteOption Enumeration (Outlook)
+title: OlRuleExecuteOption enumeration (Outlook)
 keywords: vbaol11.chm3114
 f1_keywords:
 - vbaol11.chm3114
-ms.prod: outlook
 api_name:
 - Outlook.OlRuleExecuteOption
 ms.assetid: d654efcb-d3ef-9579-896e-fcd7859136b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlRuleExecuteOption Enumeration (Outlook)
+# OlRuleExecuteOption enumeration (Outlook)
 
 Specifies the type of messages in the specified folder or folders that a rule should be applied to.
 

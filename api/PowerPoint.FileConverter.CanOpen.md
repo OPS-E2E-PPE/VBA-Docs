@@ -1,32 +1,31 @@
 ---
-title: FileConverter.CanOpen Property (PowerPoint)
+title: FileConverter.CanOpen property (PowerPoint)
 keywords: vbapp10.chm680002
 f1_keywords:
 - vbapp10.chm680002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FileConverter.CanOpen
 ms.assetid: 9a5a2fea-0f09-9dfe-c75a-e8811d53c27f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FileConverter.CanOpen Property (PowerPoint)
+# FileConverter.CanOpen property (PowerPoint)
 
  **True** if the specified file converter is designed to open files. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `CanOpen`
+_expression_. `CanOpen`
 
- _expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
 
 
 ## Remarks
 
-The  **[CanSave](PowerPoint.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
+The **[CanSave](PowerPoint.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
 
 
 ## Example
@@ -45,7 +44,8 @@ End If
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example determines whether the WordPerfect6x file converter can be used to open files. If the CanOpen property returns True, a document named "Test.wp" is opened.
 

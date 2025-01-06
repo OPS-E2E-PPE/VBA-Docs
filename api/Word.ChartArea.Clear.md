@@ -3,12 +3,11 @@ title: ChartArea.Clear method (Word)
 keywords: vbawd10.chm160039023
 f1_keywords:
 - vbawd10.chm160039023
-ms.prod: word
 api_name:
 - Word.ChartArea.Clear
 ms.assetid: 779f38e5-4a0e-fb1e-705b-d7f2c678a933
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Clears the entire object.
 
 ## Syntax
 
- _expression_. `Clear`
+_expression_.**Clear**
 
- _expression_ A variable that represents a '[ChartArea](Word.ChartArea.md)' object.
+_expression_ A variable that represents a '[ChartArea](Word.ChartArea.md)' object.
 
 
 ## Example

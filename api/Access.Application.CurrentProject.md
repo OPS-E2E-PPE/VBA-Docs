@@ -3,18 +3,17 @@ title: Application.CurrentProject property (Access)
 keywords: vbaac10.chm12576
 f1_keywords:
 - vbaac10.chm12576
-ms.prod: access
 api_name:
 - Access.Application.CurrentProject
 ms.assetid: 4efb3378-c1ab-0d60-7617-6df335fcfa03
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CurrentProject property (Access)
 
-You can use the **CurrentProject** property to access the **[CurrentProject](Access.CurrentProject.md)** object and its related collections, properties, and methods. Read-only **CurrentProject** object.
+Use the **CurrentProject** property to access the **[CurrentProject](Access.CurrentProject.md)** object and its related collections, properties, and methods. Read-only **CurrentProject** object.
 
 
 ## Syntax

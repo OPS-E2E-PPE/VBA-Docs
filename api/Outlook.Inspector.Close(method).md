@@ -1,27 +1,26 @@
 ---
-title: Inspector.Close Method (Outlook)
+title: Inspector.Close method (Outlook)
 keywords: vbaol11.chm2965
 f1_keywords:
 - vbaol11.chm2965
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.Close
 ms.assetid: de821cf4-72f8-ba62-3d8d-96548db0b4a0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.Close Method (Outlook)
+# Inspector.Close method (Outlook)
 
-Closes the  **[Inspector](Outlook.Inspector.md)** and optionally saves changes to the displayed Outlook item.
+Closes the **[Inspector](Outlook.Inspector.md)** and optionally saves changes to the displayed Outlook item.
 
 
 ## Syntax
 
-_expression_. `Close`( `_SaveMode_` )
+_expression_.**Close** (_SaveMode_)
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Parameters
@@ -35,7 +34,8 @@ _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) o
 ## Remarks
 
 
- **Note**  Do not use this method from within the [Inspector.Activate Event (Outlook)](Outlook.Inspector.Activate(even).md) event handler.
+> [!NOTE] 
+> Do not use this method from within the [Inspector.Activate event (Outlook)](Outlook.Inspector.Activate(even).md) event handler.
 
 
 ## Example

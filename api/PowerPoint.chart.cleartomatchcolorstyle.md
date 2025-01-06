@@ -1,22 +1,21 @@
 ---
-title: Chart.ClearToMatchColorStyle Method (PowerPoint)
+title: Chart.ClearToMatchColorStyle method (PowerPoint)
 ms.assetid: 014d2148-c359-f11c-e5bf-012a769aced5
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.ClearToMatchColorStyle Method (PowerPoint)
+# Chart.ClearToMatchColorStyle method (PowerPoint)
 
-Clears all colors on the specified chart that do not follow the color style applied to the chart.
+Clears all colors on the specified chart that don't follow the color style applied to the chart.
 
 
 ## Syntax
 
- _expression_. `ClearToMatchColorStyle`
+_expression_. `ClearToMatchColorStyle`
 
-_expression_ A variable that represents a [Chart](./PowerPoint.Chart.md) object.
+_expression_ A variable that represents a [Chart](PowerPoint.Chart.md) object.
 
 
 ## Return value

@@ -3,25 +3,24 @@ title: Window.View property (Word)
 keywords: vbawd10.chm157417486
 f1_keywords:
 - vbawd10.chm157417486
-ms.prod: word
 api_name:
 - Word.Window.View
 ms.assetid: d012af14-e1cc-b13e-e1d1-48ea53ba0f0a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Window.View property (Word)
 
-Returns a  **[View](Word.View.md)** object that represents the view for the specified window or pane.
+Returns a **[View](Word.View.md)** object that represents the view for the specified window or pane.
 
 
 ## Syntax
 
- _expression_. `View`
+_expression_.**View**
 
- _expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example switches the active window to full-screen view.
 ActiveDocument.ActiveWindow.View.FullScreen = True
 ```
 
-This example sets view options for each window in the  **Windows** collection.
+This example sets view options for each window in the **Windows** collection.
 
 
 

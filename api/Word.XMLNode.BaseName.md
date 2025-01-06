@@ -3,25 +3,24 @@ title: XMLNode.BaseName property (Word)
 keywords: vbawd10.chm37748736
 f1_keywords:
 - vbawd10.chm37748736
-ms.prod: word
 api_name:
 - Word.XMLNode.BaseName
 ms.assetid: 770e276b-8bf5-9f0d-64bd-e7df29a71233
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLNode.BaseName property (Word)
 
-Returns a  **String** that represents the name of the element without any prefix.
+Returns a **String** that represents the name of the element without any prefix.
 
 
 ## Syntax
 
- _expression_. `BaseName`
+_expression_. `BaseName`
 
- _expression_ Required. A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
+_expression_ Required. A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
 
 
 ## Example

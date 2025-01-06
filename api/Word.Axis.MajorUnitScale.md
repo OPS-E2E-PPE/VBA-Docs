@@ -3,25 +3,24 @@ title: Axis.MajorUnitScale property (Word)
 keywords: vbawd10.chm113049661
 f1_keywords:
 - vbawd10.chm113049661
-ms.prod: word
 api_name:
 - Word.Axis.MajorUnitScale
 ms.assetid: cfc87c90-7aa5-86b8-1639-9b2db98ab56a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MajorUnitScale property (Word)
 
-Returns or sets the major unit scale value for the category axis when the  **[CategoryType](Word.Axis.CategoryType.md)** property is set to **xlTimeScale**. Read/write **[xlTimeUnit](Word.xltimeunit.md)**.
+Returns or sets the major unit scale value for the category axis when the **[CategoryType](Word.Axis.CategoryType.md)** property is set to **xlTimeScale**. Read/write **[XlTimeUnit](Word.xltimeunit.md)**.
 
 
 ## Syntax
 
- _expression_. `MajorUnitScale`
+_expression_. `MajorUnitScale`
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
@@ -29,11 +28,11 @@ Returns or sets the major unit scale value for the category axis when the  **[Ca
  **MajorUnitScale** can be one of the following **xlTimeUnit** constants:
 
 
--  **xlMonths**
+- **xlMonths**
     
--  **xlDays**
+- **xlDays**
     
--  **xlYears**
+- **xlYears**
     
 
 ## Example

@@ -1,38 +1,36 @@
 ---
-title: PictureFormat.TransparencyColor Property (Publisher)
+title: PictureFormat.TransparencyColor property (Publisher)
 keywords: vbapb10.chm3604743
 f1_keywords:
 - vbapb10.chm3604743
-ms.prod: publisher
 api_name:
 - Publisher.PictureFormat.TransparencyColor
 ms.assetid: 908d2e21-3e2a-b75b-a82d-454686b7ecb8
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# PictureFormat.TransparencyColor Property (Publisher)
+# PictureFormat.TransparencyColor property (Publisher)
 
-Returns or sets an  **MsoRGBType** constant that represents the transparency color. Read/write.
+Returns or sets an **[MsoColorType](office.msocolortype.md)** constant that represents the transparency color. Read/write.
 
 
 ## Syntax
 
- _expression_. **TransparencyColor**
+_expression_.**TransparencyColor**
 
- _expression_ A variable that represents a  **PictureFormat** object.
+_expression_ A variable that represents a **[PictureFormat](Publisher.PictureFormat.md)** object.
 
 
 ## Return value
 
-MsoRGBType
+MsoColorType
 
 
 ## Example
 
 This example creates a picture on the first page and sets the transparency color to black.
-
 
 ```vb
 Sub SetTransparentColor() 

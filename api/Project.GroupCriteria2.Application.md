@@ -1,22 +1,22 @@
 ---
-title: GroupCriteria2.Application Property (Project)
-ms.prod: project-server
+title: GroupCriteria2.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriteria2.Application
 ms.assetid: 6d78ec8f-6ff2-97b8-16e4-e45bc1a096a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriteria2.Application Property (Project)
+# GroupCriteria2.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
  _expression_ An expression that returns a 'GroupCriteria2' object.
 

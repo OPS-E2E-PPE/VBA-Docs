@@ -3,25 +3,24 @@ title: Point.MarkerBackgroundColorIndex property (Word)
 keywords: vbawd10.chm262144074
 f1_keywords:
 - vbawd10.chm262144074
-ms.prod: word
 api_name:
 - Word.Point.MarkerBackgroundColorIndex
 ms.assetid: 13e3de72-9090-4bd1-3dfa-51f89818ea32
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Point.MarkerBackgroundColorIndex property (Word)
 
-Returns or sets the marker background color as an index into the current color palette, or as one of the following  **[xlColorIndex](Word.xlcolorindex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
+Returns or sets the marker background color as an index into the current color palette, or as one of the following **[XlColorIndex](Word.xlcolorindex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `MarkerBackgroundColorIndex`
+_expression_.**MarkerBackgroundColorIndex**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Remarks

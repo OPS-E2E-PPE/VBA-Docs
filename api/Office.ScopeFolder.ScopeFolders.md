@@ -3,12 +3,11 @@ title: ScopeFolder.ScopeFolders property (Office)
 keywords: vbaof11.chm259003
 f1_keywords:
 - vbaof11.chm259003
-ms.prod: office
 api_name:
 - Office.ScopeFolder.ScopeFolders
 ms.assetid: e3e6ef0f-46b9-1b8c-c115-ab4832c3fb8a
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -48,7 +47,7 @@ Sub DisplayRootScopeFolders()
  'the ScopeFolders collection of the 
  'SearchScope object and display the path. 
  For Each sf In ss.ScopeFolder.ScopeFolders 
- MsgBox "Path: " &amp; sf.Path 
+ MsgBox "Path: " & sf.Path 
  Next sf 
  
  Case Else 

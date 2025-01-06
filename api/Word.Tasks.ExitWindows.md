@@ -3,12 +3,11 @@ title: Tasks.ExitWindows method (Word)
 keywords: vbawd10.chm159580163
 f1_keywords:
 - vbawd10.chm159580163
-ms.prod: word
 api_name:
 - Word.Tasks.ExitWindows
 ms.assetid: c2af5fdf-948d-c9cb-1a6a-8cde29ab630c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Closes all open applications, quits Microsoft Windows, and logs the current user
 
 ## Syntax
 
- _expression_. `ExitWindows`
+_expression_. `ExitWindows`
 
- _expression_ Required. A variable that represents a '[Tasks](Word.tasks.md)' collection.
+_expression_ Required. A variable that represents a '[Tasks](Word.tasks.md)' collection.
 
 
 ## Remarks

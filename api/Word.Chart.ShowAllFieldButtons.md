@@ -3,12 +3,11 @@ title: Chart.ShowAllFieldButtons property (Word)
 keywords: vbawd10.chm79366944
 f1_keywords:
 - vbawd10.chm79366944
-ms.prod: word
 api_name:
 - Word.Chart.ShowAllFieldButtons
 ms.assetid: 95ad77fa-fef3-3927-0f0f-9e6fd7701316
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns or sets whether to display all field buttons on a PivotChart. Read/write
 
 ## Syntax
 
- _expression_. `ShowAllFieldButtons`
+_expression_.**ShowAllFieldButtons**
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Return value

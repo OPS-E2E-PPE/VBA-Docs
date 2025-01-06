@@ -3,25 +3,24 @@ title: CanvasShapes.Count property (Word)
 keywords: vbawd10.chm7536642
 f1_keywords:
 - vbawd10.chm7536642
-ms.prod: word
 api_name:
 - Word.CanvasShapes.Count
 ms.assetid: d6f54f95-716b-1b6a-33b8-0dbbc1006a2b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CanvasShapes.Count property (Word)
 
-Returns a  **Long** that represents the number of canvas shapes in the specified collection. Read-only.
+Returns a **Long** that represents the number of canvas shapes in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## Example

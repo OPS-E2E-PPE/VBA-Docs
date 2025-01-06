@@ -3,25 +3,24 @@ title: ListFormat.CountNumberedItems method (Word)
 keywords: vbawd10.chm163578043
 f1_keywords:
 - vbawd10.chm163578043
-ms.prod: word
 api_name:
 - Word.ListFormat.CountNumberedItems
 ms.assetid: 71ce63e0-0e8d-53cc-178c-d91b0242482b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListFormat.CountNumberedItems method (Word)
 
-Returns the number of bulleted or numbered items and LISTNUM fields in the specified  **ListFormat** object.
+Returns the number of bulleted or numbered items and LISTNUM fields in the specified **ListFormat** object.
 
 
 ## Syntax
 
- _expression_. `CountNumberedItems`
+_expression_. `CountNumberedItems`
 
- _expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
+_expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Example
@@ -45,7 +44,7 @@ Msgbox ActiveDocument.Content.ListFormat _
     .CountNumberedItems(Level:=1)
 ```
 
-This example counts the number of LISTNUM fields in the variable  _myRange_ . The result is displayed in a message box.
+This example counts the number of LISTNUM fields in the variable  _myRange_. The result is displayed in a message box.
 
 
 

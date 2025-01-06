@@ -1,27 +1,26 @@
 ---
-title: Results.Sort Method (Outlook)
+title: Results.Sort method (Outlook)
 keywords: vbaol11.chm511
 f1_keywords:
 - vbaol11.chm511
-ms.prod: outlook
 api_name:
 - Outlook.Results.Sort
 ms.assetid: d897f4c9-ef58-cdb4-ca9e-d179af12f2b5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Results.Sort Method (Outlook)
+# Results.Sort method (Outlook)
 
 Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.
 
 
 ## Syntax
 
-_expression_. `Sort`( `_Property_` , `_Descending_` )
+_expression_.**Sort** (_Property_, _Descending_)
 
-_expression_ A variable that represents a [Results](./Outlook.Results.md) object.
+_expression_ A variable that represents a [Results](Outlook.Results.md) object.
 
 
 ## Parameters

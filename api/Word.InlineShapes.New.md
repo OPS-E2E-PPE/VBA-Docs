@@ -3,25 +3,24 @@ title: InlineShapes.New method (Word)
 keywords: vbawd10.chm162070728
 f1_keywords:
 - vbawd10.chm162070728
-ms.prod: word
 api_name:
 - Word.InlineShapes.New
 ms.assetid: de83ac06-2b80-69a5-168f-f5f815bfdf11
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # InlineShapes.New method (Word)
 
-Inserts an empty, 1-inch-square Word picture object surrounded by a border. This method returns the new graphic as an  **InlineShape** object.
+Inserts an empty, 1-inch-square Word picture object surrounded by a border. This method returns the new graphic as an **InlineShape** object.
 
 
 ## Syntax
 
- _expression_. `New`( `_Range_` )
+_expression_. `New`( `_Range_` )
 
- _expression_ Required. A variable that represents an '[InlineShapes](Word.inlineshapes.md)' collection.
+_expression_ Required. A variable that represents an '[InlineShapes](Word.inlineshapes.md)' collection.
 
 
 ## Parameters

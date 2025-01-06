@@ -3,12 +3,11 @@ title: Window.DisplayScreenTips property (Word)
 keywords: vbawd10.chm157417494
 f1_keywords:
 - vbawd10.chm157417494
-ms.prod: word
 api_name:
 - Word.Window.DisplayScreenTips
 ms.assetid: fc90fe70-ed5d-b02c-63fd-59696ed70465
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `DisplayScreenTips`
+_expression_. `DisplayScreenTips`
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example enables Word to display comments, footnotes, and endnotes as tips. 
 Application.DisplayScreenTips = True
 ```
 
-This example returns the current status of the  **Show document tooltips on hover** checkbox in the **Page display options** section on the **Display** tab of the **Word Options** dialog box.
+This example returns the current status of the **Show document tooltips on hover** checkbox in the **Page display options** section on the **Display** tab of the **Word Options** dialog box.
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: Page.IsTrailing Property (Publisher)
+title: Page.IsTrailing property (Publisher)
 keywords: vbapb10.chm131101
 f1_keywords:
 - vbapb10.chm131101
-ms.prod: publisher
 api_name:
 - Publisher.Page.IsTrailing
 ms.assetid: e0ed15dc-d2e8-d6b7-913d-4e72b2817e88
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Page.IsTrailing Property (Publisher)
+# Page.IsTrailing property (Publisher)
 
- **True** if the specified **Page** object is a trailing page of a two-page spread. Read-only **Boolean**.
+**True** if the specified **Page** object is a trailing page of a two-page spread. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. **IsTrailing**
+_expression_.**IsTrailing**
 
- _expression_ A variable that represents an  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ Boolean
 
 ## Example
 
-The following example diplays for each page whether the page is a trailing or leading page in the publication.
-
+The following example displays for each page whether the page is a trailing or leading page in the publication.
 
 ```vb
 Dim objPage As Page 

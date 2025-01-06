@@ -1,18 +1,17 @@
 ---
-title: JournalItem Object (Outlook)
+title: JournalItem object (Outlook)
 keywords: vbaol11.chm2999
 f1_keywords:
 - vbaol11.chm2999
-ms.prod: outlook
 api_name:
 - Outlook.JournalItem
 ms.assetid: 6e850295-39f9-47b8-e866-9622e9958c69
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# JournalItem Object (Outlook)
+# JournalItem object (Outlook)
 
 Represents a journal entry in a Journal folder. 
 
@@ -21,9 +20,9 @@ Represents a journal entry in a Journal folder.
 
 A journal entry represents a record of all Outlook-moderated transactions for any given period.
 
-Use the  **[CreateItem](Outlook.Application.CreateItem.md)** method to create a **JournalItem** object that represents a new journal entry.
+Use the **[CreateItem](Outlook.Application.CreateItem.md)** method to create a **JournalItem** object that represents a new journal entry.
 
-Use  **[Items](Outlook.Folder.Items.md)** ( _index_ ), where _index_ is the index number of a journal entry or a value used to match the default property of a journal entry, to return a single **JournalItem** object from a Journal folder.
+Use **[Items](Outlook.Folder.Items.md)** (_index_), where _index_ is the index number of a journal entry or a value used to match the default property of a journal entry, to return a single **JournalItem** object from a Journal folder.
 
 
 ## Example
@@ -148,6 +147,6 @@ Set myItem = Application.CreateItem(olJournalItem)
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

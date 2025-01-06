@@ -1,15 +1,15 @@
 ---
-title: PredecessorDrivers Object (Project)
-ms.prod: project-server
+title: PredecessorDrivers object (Project)
+ms.service: project-server
 ms.assetid: a55a655c-3f43-77db-a861-dba8059e3a21
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PredecessorDrivers Object (Project)
+# PredecessorDrivers object (Project)
 
-The  **PredecessorDrivers** object is a collection of **[TaskDependency](Project.TaskDependency.md)** objects that affect a task start date.
+The **PredecessorDrivers** object is a collection of **[TaskDependency](Project.TaskDependency.md)** objects that affect a task start date.
  
 
 
@@ -19,7 +19,7 @@ The  **PredecessorDrivers** object is a collection of **[TaskDependency](Project
  
 
  
-Use the  **[Item](Project.PredecessorDrivers.Item.md)** property to get a single task dependency from the **PredecessorDrivers** collection.
+Use the **[Item](Project.PredecessorDrivers.Item.md)** property to get a single task dependency from the **PredecessorDrivers** collection.
  
 
  

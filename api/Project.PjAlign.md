@@ -1,15 +1,15 @@
 ---
-title: PjAlign Enumeration (Project)
-ms.prod: project-server
+title: PjAlign enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAlign
 ms.assetid: 1860d747-7c4b-8592-9afd-8da13872e136
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAlign Enumeration (Project)
+# PjAlign enumeration (Project)
 
 Contains constants that specify which side or portion of a box to use for the alignment.
 

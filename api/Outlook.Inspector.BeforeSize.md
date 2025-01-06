@@ -1,27 +1,26 @@
 ---
-title: Inspector.BeforeSize Event (Outlook)
+title: Inspector.BeforeSize event (Outlook)
 keywords: vbaol11.chm471
 f1_keywords:
 - vbaol11.chm471
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.BeforeSize
 ms.assetid: ee0b12af-0edc-bd06-c67c-67469df128dd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.BeforeSize Event (Outlook)
+# Inspector.BeforeSize event (Outlook)
 
-Occurs when the user sizes the current  **[Inspector](Outlook.Inspector.md)**.
+Occurs when the user sizes the current **[Inspector](Outlook.Inspector.md)**.
 
 
 ## Syntax
 
 _expression_. `BeforeSize`( `_Cancel_` )
 
-_expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) o
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the **Inspector** is not sized.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the **Inspector** is not sized.|
 
 ## Remarks
 
@@ -39,7 +38,7 @@ This event can be cancelled after it has started. If the event is cancelled, the
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example prompts the user with a warning message before the inspector is sized. If the user clicks  **Yes**, the inspector can be sized. The sample code must be placed in a class module such as  `ThisOutlookSession`, and the  `Initialize_Handler()` subroutine should be called before the event procedure can be called by Microsoft Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example prompts the user with a warning message before the inspector is sized. If the user clicks **Yes**, the inspector can be sized. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `Initialize_Handler()` subroutine should be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

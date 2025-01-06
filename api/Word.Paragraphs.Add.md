@@ -3,25 +3,25 @@ title: Paragraphs.Add method (Word)
 keywords: vbawd10.chm156762117
 f1_keywords:
 - vbawd10.chm156762117
-ms.prod: word
 api_name:
 - Word.Paragraphs.Add
 ms.assetid: a75b7e4c-0a94-2bea-27bc-e6ad68ac075e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Paragraphs.Add method (Word)
 
-Returns a  **Paragraph** object that represents a new, blank paragraph added to a document.
+Returns a **Paragraph** object that represents a new, blank paragraph added to the document.
+When the caller is not the last paragraph in a document, **Paragraph** adds a new, blank paragraph at the insertion point. When adding a paragraph to the very end, the insertion point will be before the last paragraph, and thus the new paragraph will be inserted as the second-to-last.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` )
+_expression_.**Add** (_Range_)
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Parameters

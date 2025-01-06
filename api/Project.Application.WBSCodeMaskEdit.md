@@ -1,27 +1,27 @@
 ---
-title: Application.WBSCodeMaskEdit Method (Project)
+title: Application.WBSCodeMaskEdit method (Project)
 keywords: vbapj.chm630
 f1_keywords:
 - vbapj.chm630
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.WBSCodeMaskEdit
 ms.assetid: 37ade035-5235-54ab-92fa-962c4172dcdc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.WBSCodeMaskEdit Method (Project)
+# Application.WBSCodeMaskEdit method (Project)
 
 Edits the work breakdown structure (WBS) code mask.
 
 
 ## Syntax
 
- _expression_. `WBSCodeMaskEdit`( `_CodePrefix_`, `_Level_`, `_Sequence_`, `_Length_`, `_Separator_`, `_CodeGenerate_`, `_VerifyUniqueness_` )
+_expression_. `WBSCodeMaskEdit`( `_CodePrefix_`, `_Level_`, `_Sequence_`, `_Length_`, `_Separator_`, `_CodeGenerate_`, `_VerifyUniqueness_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ Edits the work breakdown structure (WBS) code mask.
 |:-----|:-----|:-----|:-----|
 | _CodePrefix_|Optional|**String**|The WBS code prefix for the project.|
 | _Level_|Optional|**Long**|The level of code mask to edit. The default value is one greater than the highest level currently specified for the field.|
-| _Sequence_|Optional|**Long**|The sequence for the level specified in Level. Can be one of the following  **[PjWBSSequence](Project.PjWBSSequence.md)** constants: **pjWBSOrderedNumbers**, **pjWBSOrderedLowercaseLetters**, **pjWBSOrderedUppercaseLetters**, or **pjWBSUnorderedCharacters**. The default value is **pjWBSOrderedNumbers**.|
+| _Sequence_|Optional|**Long**|The sequence for the level specified in Level. Can be one of the following **[PjWBSSequence](Project.PjWBSSequence.md)** constants: **pjWBSOrderedNumbers**, **pjWBSOrderedLowercaseLetters**, **pjWBSOrderedUppercaseLetters**, or **pjWBSUnorderedCharacters**. The default value is **pjWBSOrderedNumbers**.|
 | _Length_|Optional|**Variant**|Specifies the length for a given level. Can be the string "Any" or an integer value 1-255. The default value is "Any".|
 | _Separator_|Optional|**String**|The character that separates the level specified in Level from the next. Can be one of ".", "-", "+", or "/". The default value is ".".|
 | _CodeGenerate_|Optional|**Boolean**|**True** if a new WBS code is generated whenever a new task is created.|
@@ -45,7 +45,7 @@ Edits the work breakdown structure (WBS) code mask.
 
 ## Remarks
 
-Using the  **WBSCodeMaskEdit** method without specifying any arguments brings up the **WBS Code Definition** dialog box.
+Using the **WBSCodeMaskEdit** method without specifying any arguments brings up the **WBS Code Definition** dialog box.
 
 
 ## Example

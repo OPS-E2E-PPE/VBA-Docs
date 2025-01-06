@@ -3,12 +3,11 @@ title: Sync.Parent property (Office)
 keywords: vbaof11.chm277015
 f1_keywords:
 - vbaof11.chm277015
-ms.prod: office
 api_name:
 - Office.Sync.Parent
 ms.assetid: 16d56781-dc1e-5d02-b679-11b5ffd70269
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

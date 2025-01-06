@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Shadow Property (PowerPoint)
+title: ShapeRange.Shadow property (PowerPoint)
 keywords: vbapp10.chm548033
 f1_keywords:
 - vbapp10.chm548033
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Shadow
 ms.assetid: 01aa0a5a-341b-6764-e3ea-1f20379d0de3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Shadow Property (PowerPoint)
+# ShapeRange.Shadow property (PowerPoint)
 
-Returns a  **[ShadowFormat](PowerPoint.ShadowFormat.md)** object that contains shadow formatting properties for the specified shapes. Read-only.
+Returns a **[ShadowFormat](PowerPoint.ShadowFormat.md)** object that contains shadow formatting properties for the specified shapes. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shadow`
+_expression_.**Shadow**
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Example

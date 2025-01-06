@@ -1,15 +1,15 @@
 ---
-title: PjStatusType Enumeration (Project)
-ms.prod: project-server
+title: PjStatusType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjStatusType
 ms.assetid: 575de6df-978c-3c83-e7f4-792e6e141d93
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjStatusType Enumeration (Project)
+# PjStatusType enumeration (Project)
 
 Contains constants that specify the status of a task.
 

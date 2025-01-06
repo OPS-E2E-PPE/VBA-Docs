@@ -3,18 +3,17 @@ title: CustomControl.TabIndex property (Access)
 keywords: vbaac10.chm12019
 f1_keywords:
 - vbaac10.chm12019
-ms.prod: access
 api_name:
 - Access.CustomControl.TabIndex
 ms.assetid: 2240626f-2aa8-be76-ce5a-b706bcb70de6
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
 
 
 ## Syntax

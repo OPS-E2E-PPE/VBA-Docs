@@ -1,28 +1,28 @@
 ---
-title: Resource.Name Property (Project)
-ms.prod: project-server
+title: Resource.Name property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Name
 ms.assetid: d9c03e1b-194c-b9b0-53f7-efeabb297c7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Name Property (Project)
+# Resource.Name property (Project)
 
-Gets the name of a  **Resource** object. Read/write **String**.
+Gets the name of a **Resource** object. Read/write **String**.
 
 
 ## Syntax
 
- _expression_.**Name**
+_expression_.**Name**
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-For a code example that uses the  **Task** object, see **[Name](Project.Task.Name.md)**.
+For a code example that uses the **Task** object, see **[Name](Project.Task.Name.md)**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

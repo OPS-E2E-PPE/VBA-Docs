@@ -3,30 +3,29 @@ title: XMLMapping.XPath property (Word)
 keywords: vbawd10.chm199688198
 f1_keywords:
 - vbawd10.chm199688198
-ms.prod: word
 api_name:
 - Word.XMLMapping.XPath
 ms.assetid: 131234f2-ea3c-5b67-d10d-27c08aa94101
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLMapping.XPath property (Word)
 
-Returns a  **String** that represents the XPath for the XML mapping, which evaluates to the currently mapped XML node. Read-only.
+Returns a **String** that represents the XPath for the XML mapping, which evaluates to the currently mapped XML node. Read-only.
 
 
 ## Syntax
 
- _expression_. `XPath`
+_expression_.**XPath**
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 
 
 ## Remarks
 
-To set mapping for a content control, use the  **[SetMapping](Word.XMLMapping.SetMapping.md)** method or the **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method. If the mapping is not active, using this property returns an error.
+To set mapping for a content control, use the **[SetMapping](Word.XMLMapping.SetMapping.md)** method or the **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method. If the mapping is not active, using this property returns an error.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: Font.NameFarEast property (Word)
 keywords: vbawd10.chm156369052
 f1_keywords:
 - vbawd10.chm156369052
-ms.prod: word
 api_name:
 - Word.Font.NameFarEast
 ms.assetid: 8df21c3e-5f50-37ca-cde9-27f5b0551f8e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Font.NameFarEast property (Word)
 
-Returns or sets an East Asian font name. Read/write  **String**.
+Returns or sets an East Asian font name. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `NameFarEast`
+_expression_. `NameFarEast`
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks

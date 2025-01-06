@@ -3,18 +3,17 @@ title: Application.AppIcon property (Access)
 keywords: vbaac10.chm10110
 f1_keywords:
 - vbaac10.chm10110
-ms.prod: access
 api_name:
 - Access.Application.AppIcon
 ms.assetid: e322784a-39f4-0055-c15e-5051a382c68e
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.AppIcon property (Access)
 
-You can use the **AppIcon** property to specify the name of the bitmap (.bmp) or icon (.ico) file that contains the application's icon. For example, you can use the **AppIcon** property to specify a .bmp file that contains a picture of an automobile to represent an automotive parts application.
+Use the **AppIcon** property to specify the name of the bitmap (.bmp) or icon (.ico) file that contains the application's icon. For example, you can use the **AppIcon** property to specify a .bmp file that contains a picture of an automobile to represent an automotive parts application.
 
 ## Syntax
 

@@ -3,30 +3,27 @@ title: PivotField.VisibleItems property (Excel)
 keywords: vbaxl10.chm240099
 f1_keywords:
 - vbaxl10.chm240099
-ms.prod: excel
 api_name:
 - Excel.PivotField.VisibleItems
 ms.assetid: f5c0f367-42a4-fffe-5b27-af2c19890ad3
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/07/2019
+ms.localizationpriority: medium
 ---
 
 
 # PivotField.VisibleItems property (Excel)
 
-Returns an object that represents either a single visible PivotTable item (a  **[PivotItem](Excel.PivotItem.md)** object) or a collection of all the visible items (a **[PivotItems](Excel.PivotItems.md)** object) in the specified field. Read-only.
+Returns an object that represents either a single visible PivotTable item (a **[PivotItem](Excel.PivotItem.md)** object) or a collection of all the visible items (a **[PivotItems](Excel.PivotItems.md)** object) in the specified field. Read-only.
 
 
 ## Syntax
 
-_expression_. `VisibleItems`( `_Index_` )
+_expression_.**VisibleItems** (_Index_)
 
-_expression_ A variable that represents a [PivotField](Excel.PivotField.md) object.
+_expression_ A variable that represents a **[PivotField](Excel.PivotField.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,13 +31,12 @@ _expression_ A variable that represents a [PivotField](Excel.PivotField.md) obje
 
 ## Remarks
 
-For OLAP data sources, this property is read-only and always returns  **True**. There are no hidden items.
+For OLAP data sources, this property is read-only and always returns **True**. There are no hidden items.
 
 
 ## Example
 
-This example adds the names of all visible items in the field named "Product" to a list on a new worksheet.
-
+This example adds the names of all visible items in the field named Product to a list on a new worksheet.
 
 ```vb
 Set nwSheet = Worksheets.Add 
@@ -54,9 +50,6 @@ Next
 ```
 
 
-## See also
 
-
-[PivotField Object](Excel.PivotField.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

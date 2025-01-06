@@ -3,18 +3,17 @@ title: SubForm.Report property (Access)
 keywords: vbaac10.chm11917
 f1_keywords:
 - vbaac10.chm11917
-ms.prod: access
 api_name:
 - Access.SubForm.Report
 ms.assetid: c7c76bef-92cc-b9e4-bdcb-11046611effd
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.Report property (Access)
 
-You can use the **Report** property to refer to a report or to refer to the report associated with a subreport control. Read-only **Report**.
+Use the **Report** property to refer to a report or to refer to the report associated with a subreport control. Read-only **Report**.
 
 
 ## Syntax

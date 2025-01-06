@@ -1,32 +1,31 @@
 ---
-title: ParagraphFormat.Alignment Property (PowerPoint)
+title: ParagraphFormat.Alignment property (PowerPoint)
 keywords: vbapp10.chm576003
 f1_keywords:
 - vbapp10.chm576003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ParagraphFormat.Alignment
 ms.assetid: 1083d0da-b974-f573-3306-6a865578219b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ParagraphFormat.Alignment Property (PowerPoint)
+# ParagraphFormat.Alignment property (PowerPoint)
 
 Returns or sets the alignment for each paragraph in the specified paragraph format. Read/write.
 
 
 ## Syntax
 
- _expression_. `Alignment`
+_expression_.**Alignment**
 
- _expression_ A variable that represents a [ParagraphFormat](./PowerPoint.ParagraphFormat.md) object.
+_expression_ A variable that represents a [ParagraphFormat](PowerPoint.ParagraphFormat.md) object.
 
 
 ## Remarks
 
-The value of the  **Alignment** property can be one of these **PpParagraphAlignment** constants.
+The value of the **Alignment** property can be one of these **PpParagraphAlignment** constants.
 
 
 ||

@@ -3,25 +3,25 @@ title: TextInput.Default property (Word)
 keywords: vbawd10.chm153550849
 f1_keywords:
 - vbawd10.chm153550849
-ms.prod: word
 api_name:
 - Word.TextInput.Default
 ms.assetid: 7a1f8ed0-ac2a-f893-6a92-49afa4044a0f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextInput.Default property (Word)
 
-Returns or sets the text that represents the default text box contents. Read/write  **String**.
+Returns or sets the text that represents the default text box contents. Read/write **String**.
+The string length is limited to 255 characters.
 
 
 ## Syntax
 
- _expression_. `Default`
+_expression_. `Default`
 
- _expression_ Required. A variable that represents a '[TextInput](Word.TextInput.md)' object.
+_expression_ Required. A variable that represents a '[TextInput](Word.TextInput.md)' object.
 
 
 ## See also

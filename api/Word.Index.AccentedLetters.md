@@ -3,12 +3,11 @@ title: Index.AccentedLetters property (Word)
 keywords: vbawd10.chm159186951
 f1_keywords:
 - vbawd10.chm159186951
-ms.prod: word
 api_name:
 - Word.Index.AccentedLetters
 ms.assetid: 7358af59-a4ee-e509-2a46-d5499dc680d0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AccentedLetters`
+_expression_. `AccentedLetters`
 
- _expression_ A variable that represents a '[Index](Word.Index.md)' object.
+_expression_ A variable that represents a '[Index](Word.Index.md)' object.
 
 
 ## Example

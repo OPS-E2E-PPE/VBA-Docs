@@ -1,18 +1,17 @@
 ---
-title: PbTableDirectionType Enumeration (Publisher)
+title: PbTableDirectionType enumeration (Publisher)
 keywords: vbapb10.chm65577
 f1_keywords:
 - vbapb10.chm65577
-ms.prod: publisher
 api_name:
 - Publisher.PbTableDirectionType
 ms.assetid: 802f6e11-6502-dcb4-e13f-aebf2dfa5ac0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbTableDirectionType Enumeration (Publisher)
+# PbTableDirectionType enumeration (Publisher)
 
 Represents whether text in a table is read from left to right or from right to left. 
 

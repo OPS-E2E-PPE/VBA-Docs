@@ -3,10 +3,9 @@ title: Export method (VBA Add-In Object Model)
 keywords: vbob6.chm102194
 f1_keywords:
 - vbob6.chm102194
-ms.prod: office
 ms.assetid: 46cab37a-4390-219c-68f8-05cbb59c0450
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Saves a component as a separate file or files.
 ## Syntax
 
 _object_.**Export** (_filename_)
-
-<br/>
 
 The **Export** syntax has these parts:
 

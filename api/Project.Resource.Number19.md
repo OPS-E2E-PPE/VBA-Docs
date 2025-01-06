@@ -1,23 +1,23 @@
 ---
-title: Resource.Number19 Property (Project)
-ms.prod: project-server
+title: Resource.Number19 property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Number19
 ms.assetid: e7e1b149-f76e-97dc-b60e-a1682020a30e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Number19 Property (Project)
+# Resource.Number19 property (Project)
 
-Gets or sets a Number local custom field for a resource. Read/write  **Double**.
+Gets or sets a Number local custom field for a resource. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `Number19`
+_expression_. `Number19`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

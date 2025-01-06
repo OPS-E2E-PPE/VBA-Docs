@@ -1,27 +1,27 @@
 ---
-title: Application.CalendarTaskList Method (Project)
+title: Application.CalendarTaskList method (Project)
 keywords: vbapj.chm2354
 f1_keywords:
 - vbapj.chm2354
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.CalendarTaskList
 ms.assetid: dc37a9b6-616b-248d-d597-fcfbe5074ab1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.CalendarTaskList Method (Project)
+# Application.CalendarTaskList method (Project)
 
 Displays the list of tasks for a specific date.
 
 
 ## Syntax
 
- _expression_. `CalendarTaskList`( `_Date_` )
+_expression_. `CalendarTaskList`( `_Date_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

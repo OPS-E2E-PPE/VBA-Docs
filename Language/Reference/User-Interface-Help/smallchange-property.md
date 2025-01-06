@@ -3,12 +3,11 @@ title: SmallChange property
 keywords: fm20.chm5225094
 f1_keywords:
 - fm20.chm5225094
-ms.prod: office
 api_name:
 - Office.SmallChange
 ms.assetid: ebe0c130-8c96-77f2-709e-32f8b6d720b5
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

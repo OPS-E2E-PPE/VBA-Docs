@@ -1,27 +1,26 @@
 ---
-title: TimeLine.InteractiveSequences Property (PowerPoint)
+title: TimeLine.InteractiveSequences property (PowerPoint)
 keywords: vbapp10.chm649004
 f1_keywords:
 - vbapp10.chm649004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TimeLine.InteractiveSequences
 ms.assetid: 6dbd6b26-6715-e66c-747f-12f1a16416c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimeLine.InteractiveSequences Property (PowerPoint)
+# TimeLine.InteractiveSequences property (PowerPoint)
 
-Returns a  **[Sequences](PowerPoint.Sequences.md)** object that represents animations that are triggered by click a specified shape.
+Returns a **[Sequences](PowerPoint.Sequences.md)** object that represents animations that are triggered by click a specified shape.
 
 
 ## Syntax
 
- _expression_. `InteractiveSequences`
+_expression_. `InteractiveSequences`
 
- _expression_ A variable that represents an [TimeLine](./PowerPoint.TimeLine.md) object.
+_expression_ A variable that represents an [TimeLine](PowerPoint.TimeLine.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Sequences
 
 ## Remarks
 
-The default value of the  **InteractiveSequences** property is an empty **[Sequences](PowerPoint.Sequences.md)** collection.
+The default value of the **InteractiveSequences** property is an empty **[Sequences](PowerPoint.Sequences.md)** collection.
 
 
 ## Example

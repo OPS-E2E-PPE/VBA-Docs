@@ -3,31 +3,29 @@ title: PivotField.AutoShowRange property (Excel)
 keywords: vbaxl10.chm240116
 f1_keywords:
 - vbaxl10.chm240116
-ms.prod: excel
 api_name:
 - Excel.PivotField.AutoShowRange
 ms.assetid: b554867d-a78a-f26a-24b0-405f2d8a7c54
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/04/2019
+ms.localizationpriority: medium
 ---
 
 
 # PivotField.AutoShowRange property (Excel)
 
-Returns  **xlTop** if the top items are shown automatically in the specified PivotTable field; returns **xlBottom** if the bottom items are shown. Read-only **Long**.
+Returns the **xlTop** [constant](excel.constants.md) if the top items are shown automatically in the specified PivotTable field; returns **xlBottom** if the bottom items are shown. Read-only **Long**.
 
 
 ## Syntax
 
-_expression_. `AutoShowRange`
+_expression_.**AutoShowRange**
 
-_expression_ A variable that represents a [PivotField](Excel.PivotField.md) object.
+_expression_ A variable that represents a **[PivotField](Excel.PivotField.md)** object.
 
 
 ## Example
 
-This example displays a message box showing the  **AutoShow** parameters for the Salesman field.
-
+This example displays a message box showing the **AutoShow** parameters for the Salesman field.
 
 ```vb
 With Worksheets(1).PivotTables(1).PivotFields("salesman") 
@@ -48,9 +46,6 @@ End With
 ```
 
 
-## See also
 
-
-[PivotField Object](Excel.PivotField.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

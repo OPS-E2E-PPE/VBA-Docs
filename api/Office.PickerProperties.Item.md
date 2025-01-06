@@ -3,12 +3,11 @@ title: PickerProperties.Item property (Office)
 keywords: vbaof11.chm337001
 f1_keywords:
 - vbaof11.chm337001
-ms.prod: office
 api_name:
 - Office.PickerProperties.Item
 ms.assetid: 76bf98b8-b14d-c588-bbd0-25db8aa53048
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

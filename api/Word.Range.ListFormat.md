@@ -3,25 +3,24 @@ title: Range.ListFormat property (Word)
 keywords: vbawd10.chm157155396
 f1_keywords:
 - vbawd10.chm157155396
-ms.prod: word
 api_name:
 - Word.Range.ListFormat
 ms.assetid: 509365dc-0b93-96d9-6614-74f2d85bfd45
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.ListFormat property (Word)
 
-Returns a  **[ListFormat](Word.ListFormat.md)** object that represents all the list formatting characteristics of a range. Read-only.
+Returns a **[ListFormat](Word.ListFormat.md)** object that represents all the list formatting characteristics of a range. Read-only.
 
 
 ## Syntax
 
- _expression_. `ListFormat`
+_expression_. `ListFormat`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example
@@ -37,7 +36,7 @@ Set myRange = _
 myRange.ListFormat.ApplyOutlineNumberDefault
 ```
 
-This example applies the second list template on the  **Numbered** tab in the **Bullets and Numbering** dialog box to all the paragraphs in the selection.
+This example applies the second list template on the **Numbered** tab in the **Bullets and Numbering** dialog box to all the paragraphs in the selection.
 
 
 

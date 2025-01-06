@@ -1,32 +1,29 @@
 ---
-title: ProtectedViewWindows.Open Method (PowerPoint)
+title: ProtectedViewWindows.Open method (PowerPoint)
 keywords: vbapp10.chm733004
 f1_keywords:
 - vbapp10.chm733004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ProtectedViewWindows.Open
 ms.assetid: 864042f4-bfe7-3a70-6428-f7ab166da08d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ProtectedViewWindows.Open Method (PowerPoint)
+# ProtectedViewWindows.Open method (PowerPoint)
 
-Open and return a  **ProtectedViewWindow** object from the **ProtectedViewWindows** collection.
+Open and return a **ProtectedViewWindow** object from the **ProtectedViewWindows** collection.
 
 
 ## Syntax
 
- _expression_. `Open`( `_FileName_`, `_ReadPassword_`, `_OpenAndRepair_` )
+_expression_.**Open** (_FileName_, _ReadPassword_, _OpenAndRepair_)
 
- _expression_ A variable that represents a [ProtectedViewWindows](./PowerPoint.ProtectedViewWindows.md) object.
+_expression_ A variable that represents a [ProtectedViewWindows](PowerPoint.ProtectedViewWindows.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

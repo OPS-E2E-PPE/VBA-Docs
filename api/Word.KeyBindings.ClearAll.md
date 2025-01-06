@@ -3,12 +3,11 @@ title: KeyBindings.ClearAll method (Word)
 keywords: vbawd10.chm160825446
 f1_keywords:
 - vbawd10.chm160825446
-ms.prod: word
 api_name:
 - Word.KeyBindings.ClearAll
 ms.assetid: d03f9e7e-12e6-940b-d0f4-7d83e098eb05
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Clears all the customized key assignments and restores the original Microsoft Wo
 
 ## Syntax
 
- _expression_. `ClearAll`
+_expression_. `ClearAll`
 
- _expression_ A variable that represents a '[KeyBindings](Word.keybindings.md)' collection.
+_expression_ A variable that represents a '[KeyBindings](Word.keybindings.md)' collection.
 
 
 ## Example

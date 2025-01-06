@@ -1,22 +1,22 @@
 ---
-title: WorkWeek.Application Property (Project)
-ms.prod: project-server
+title: WorkWeek.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeek.Application
 ms.assetid: 73acae3e-5376-c4a9-cf64-1fa06341ee6a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeek.Application Property (Project)
+# WorkWeek.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Object**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
  _expression_ An expression that returns a [WorkWeek](./Project.WorkWeek.md) object.
 

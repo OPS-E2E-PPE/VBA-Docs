@@ -1,27 +1,26 @@
 ---
-title: Font.AutomaticPairKerningThreshold Property (Publisher)
+title: Font.AutomaticPairKerningThreshold property (Publisher)
 keywords: vbapb10.chm5373975
 f1_keywords:
 - vbapb10.chm5373975
-ms.prod: publisher
 api_name:
 - Publisher.Font.AutomaticPairKerningThreshold
 ms.assetid: f5f43a19-7227-b25d-9322-84a79596c525
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Font.AutomaticPairKerningThreshold Property (Publisher)
+# Font.AutomaticPairKerningThreshold property (Publisher)
 
-Returns or sets a  **Variant** value that represents the point size above which kerning is automatically adjusted for characters in the specified text range. Read/write.
+Returns or sets a **Variant** value that represents the [point](../language/glossary/vbe-glossary.md#point) size above which kerning is automatically adjusted for characters in the specified text range. Read/write.
 
 
 ## Syntax
 
- _expression_. **AutomaticPairKerningThreshold**
+_expression_.**AutomaticPairKerningThreshold**
 
- _expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **[Font](Publisher.Font.md)** object.
 
 
 ## Return value
@@ -37,7 +36,6 @@ Valid range is 0.0 points to 999.5 points. Returns -2 if the value for character
 ## Example
 
 This example sets the point size threshold to 12 points. All text in the second story above the threshold will implement auto kerning.
-
 
 ```vb
 Sub Threshold() 

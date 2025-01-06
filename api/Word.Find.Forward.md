@@ -3,12 +3,11 @@ title: Find.Forward property (Word)
 keywords: vbawd10.chm162529290
 f1_keywords:
 - vbawd10.chm162529290
-ms.prod: word
 api_name:
 - Word.Find.Forward
 ms.assetid: deacedde-ca81-6fa0-6a62-696163d8c52d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Forward`
+_expression_. `Forward`
 
- _expression_ A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Remarks

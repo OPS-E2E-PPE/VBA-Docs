@@ -3,12 +3,11 @@ title: Module.DeleteLines method (Access)
 keywords: vbaac10.chm12278
 f1_keywords:
 - vbaac10.chm12278
-ms.prod: access
 api_name:
 - Access.Module.DeleteLines
 ms.assetid: 57f65c6c-4d9c-3abd-065b-b75d1ada06cb
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/22/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -84,8 +83,6 @@ Error_DeleteWholeLine:
  Resume Exit_DeleteWholeLine 
 End Function
 ```
-
-<br/>
 
 You could call this function from a procedure such as the following, which searches the module Module1 for a constant declaration and deletes it.
 

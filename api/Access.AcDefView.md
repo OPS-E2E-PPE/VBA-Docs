@@ -3,20 +3,17 @@ title: AcDefView enumeration (Access)
 keywords: vbaac10.chm13236
 f1_keywords:
 - vbaac10.chm13236
-ms.prod: access
 api_name:
 - Access.AcDefView
 ms.assetid: e5652293-65b0-6eaa-c533-1e0912a0df25
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcDefView enumeration (Access)
 
 Use with the **DefaultView** property to set or return the opening view of a form.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

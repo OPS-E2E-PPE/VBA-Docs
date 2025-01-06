@@ -1,27 +1,26 @@
 ---
-title: Window.Close Method (Visio)
+title: Window.Close method (Visio)
 keywords: vis_sdr.chm11616125
 f1_keywords:
 - vis_sdr.chm11616125
-ms.prod: visio
 api_name:
 - Visio.Window.Close
 ms.assetid: 43cb221f-ea65-c12a-e664-0f0fb35685e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.Close Method (Visio)
+# Window.Close method (Visio)
 
 Closes a window.
 
 
 ## Syntax
 
- _expression_. `Close`
+_expression_.**Close**
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Nothing
 
 ## Remarks
 
-If the indicated window is the only window open for a document and the document contains unsaved changes, an alert appears asking if you want to save the document. You can use the  **AlertResponse** property to prevent the alert from appearing.
+If the indicated window is the only window open for a document and the document contains unsaved changes, an alert appears asking if you want to save the document. Use the **AlertResponse** property to prevent the alert from appearing.
 
 If you close a docked stencil window, only that window is closed. However, if you close a drawing window that contains docked stencils, the docked stencil window is also closed.
 

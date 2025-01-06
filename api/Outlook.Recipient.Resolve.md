@@ -1,27 +1,26 @@
 ---
-title: Recipient.Resolve Method (Outlook)
+title: Recipient.Resolve method (Outlook)
 keywords: vbaol11.chm2358
 f1_keywords:
 - vbaol11.chm2358
-ms.prod: outlook
 api_name:
 - Outlook.Recipient.Resolve
 ms.assetid: 2c4f9243-2e31-642e-78a7-fe74cd73b385
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Recipient.Resolve Method (Outlook)
+# Recipient.Resolve method (Outlook)
 
-Attempts to resolve a  **[Recipient](Outlook.Recipient.md)** object against the Address Book.
+Attempts to resolve a **[Recipient](Outlook.Recipient.md)** object against the Address Book.
 
 
 ## Syntax
 
 _expression_. `Resolve`
 
-_expression_ A variable that represents a [Recipient](./Outlook.Recipient.md) object.
+_expression_ A variable that represents a [Recipient](Outlook.Recipient.md) object.
 
 
 ## Return value
@@ -31,17 +30,15 @@ _expression_ A variable that represents a [Recipient](./Outlook.Recipient.md) ob
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses  **[CreateItem](Outlook.Application.CreateItem.md)** to create a simple task and delegate it as a task request to another user. Before running this example, replace 'Dan Wilson' with a valid recipient name.
+This Visual Basic for Applications (VBA) example uses **[CreateItem](Outlook.Application.CreateItem.md)** to create a simple task and delegate it as a task request to another user. Before running this example, replace 'Dan Wilson' with a valid recipient name.
 
 
 ```vb
-Sub AssignTask() 
+Sub CreateAssignedTask() 
  
  Dim myItem As Outlook.TaskItem 
  
  Dim myDelegate As Outlook.Recipient 
- 
- 
  
  Set MyItem = Application.CreateItem(olTaskItem) 
  
@@ -53,13 +50,9 @@ Sub AssignTask()
  
  If myDelegate.Resolved Then 
  
- myItem.Subject = "Prepare Agenda For Meeting" 
- 
- myItem.DueDate = Now + 30 
+ myItem.Subject = "Test task" 
  
  myItem.Display 
- 
- myItem.Send 
  
  End If 
  

@@ -3,12 +3,11 @@ title: Borders.JoinBorders property (Word)
 keywords: vbawd10.chm154927130
 f1_keywords:
 - vbawd10.chm154927130
-ms.prod: word
 api_name:
 - Word.Borders.JoinBorders
 ms.assetid: e25f3192-469e-ef65-e412-098d5cfb6173
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `JoinBorders`
+_expression_. `JoinBorders`
 
  _expression_ An expression that returns a '[Borders](Word.borders.md)' object.
 

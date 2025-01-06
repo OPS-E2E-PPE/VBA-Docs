@@ -3,12 +3,11 @@ title: Attachment.EventProcPrefix property (Access)
 keywords: vbaac10.chm13912
 f1_keywords:
 - vbaac10.chm13912
-ms.prod: access
 api_name:
 - Access.Attachment.EventProcPrefix
 ms.assetid: f58670ff-b42c-69eb-0561-90ce5cc40d19
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

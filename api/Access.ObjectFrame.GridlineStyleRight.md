@@ -3,18 +3,17 @@ title: ObjectFrame.GridlineStyleRight property (Access)
 keywords: vbaac10.chm11645
 f1_keywords:
 - vbaac10.chm11645
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineStyleRight
 ms.assetid: 98fe7dba-d488-3a19-7640-bab09b1aca7e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.GridlineStyleRight property (Access)
 
-Gets or sets the right gridline style of the specified frame. Read/write **Byte**.
+Gets or sets the right gridline style of the specified object frame. Read/write **Byte**.
 
 
 ## Syntax

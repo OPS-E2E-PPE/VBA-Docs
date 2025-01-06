@@ -3,18 +3,17 @@ title: ComboBox.FontUnderline property (Access)
 keywords: vbaac10.chm11418
 f1_keywords:
 - vbaac10.chm11418
-ms.prod: access
 api_name:
 - Access.ComboBox.FontUnderline
 ms.assetid: 54ee770c-4e75-fbc7-0453-99fc2c2456c1
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.FontUnderline property (Access)
 
-You can use the **FontUnderline** property to specify whether text is underlined in the following situations:
+Use the **FontUnderline** property to specify whether text is underlined in the following situations:
 
 - When displaying or printing controls on forms and reports. 
 - When using the **[Print](Access.Report.Print.md)** method on a report.

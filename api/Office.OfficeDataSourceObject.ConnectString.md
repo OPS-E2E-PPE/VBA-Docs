@@ -3,12 +3,11 @@ title: OfficeDataSourceObject.ConnectString property (Office)
 keywords: vbaof11.chm232001
 f1_keywords:
 - vbaof11.chm232001
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject.ConnectString
 ms.assetid: 56c599a5-f493-ea5a-3d2b-a3dae973d71c
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,7 +33,7 @@ Sub VerifyCorrectDataSource()
  Dim appOffice As OfficeDataSourceObject 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  If InStr(appOffice.ConnectString, "ODSOOutlook") > 0 Then 

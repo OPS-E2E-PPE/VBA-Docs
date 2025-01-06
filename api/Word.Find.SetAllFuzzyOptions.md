@@ -3,12 +3,11 @@ title: Find.SetAllFuzzyOptions method (Word)
 keywords: vbawd10.chm162529312
 f1_keywords:
 - vbawd10.chm162529312
-ms.prod: word
 api_name:
 - Word.Find.SetAllFuzzyOptions
 ms.assetid: 3fb439eb-5f98-620e-0e16-5905a2b105c6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Activates all nonspecific search options associated with Japanese text.
 
 ## Syntax
 
- _expression_. `SetAllFuzzyOptions`
+_expression_. `SetAllFuzzyOptions`
 
- _expression_ Required. A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ Required. A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Remarks
 
-This method sets the following properties to  **True** :
+This method sets the following properties to **True** :
 
 
 

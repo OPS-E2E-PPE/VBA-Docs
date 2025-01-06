@@ -3,10 +3,9 @@ title: Replace function (Visual Basic for Applications)
 keywords: vblr6.chm1008930
 f1_keywords:
 - vblr6.chm1008930
-ms.prod: office
 ms.assetid: a24e3da4-fc94-56e7-d718-f4c2d0a31072
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a string, which is a substring of a string expression beginning at the s
 ## Syntax
 
 **Replace**(_expression_, _find_, _replace_, [ _start_, [ _count_, [ _compare_ ]]])
-
-<br/>
 
 The **Replace** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -57,7 +54,7 @@ The _compare_ argument can have the following values:
 
 ## Remarks
 
-The return value of the **Replace** function is a string, with substitutions made, that begins at the position specified by _start_ and concludes at the end of the _expression_ string. It is not a copy of the original string from start to finish.
+The return value of the **Replace** function is a string, with substitutions made, that begins at the position specified by _start_ and concludes at the end of the _expression_ string. It's not a copy of the original string from start to finish.
 
 ## See also
 

@@ -1,15 +1,14 @@
 ---
-title: XlChartPictureType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlChartPictureType enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlChartPictureType
 ms.assetid: ed2a241c-1362-16c3-660a-781d7915257e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlChartPictureType Enumeration (PowerPoint)
+# XlChartPictureType enumeration (PowerPoint)
 
 Specifies how pictures are displayed on a column, bar picture chart, or legend key.
 

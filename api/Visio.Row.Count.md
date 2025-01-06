@@ -1,27 +1,26 @@
 ---
-title: Row.Count Property (Visio)
+title: Row.Count property (Visio)
 keywords: vis_sdr.chm15813330
 f1_keywords:
 - vis_sdr.chm15813330
-ms.prod: visio
 api_name:
 - Visio.Row.Count
 ms.assetid: 0fb1c315-3e65-3397-c047-2a59dfaa4e31
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Row.Count Property (Visio)
+# Row.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Row](./Visio.Row.md) object.
+_expression_ A variable that represents a **[Row](Visio.Row.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb

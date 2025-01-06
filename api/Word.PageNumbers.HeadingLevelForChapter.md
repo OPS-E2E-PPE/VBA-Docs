@@ -3,37 +3,36 @@ title: PageNumbers.HeadingLevelForChapter property (Word)
 keywords: vbawd10.chm159776772
 f1_keywords:
 - vbawd10.chm159776772
-ms.prod: word
 api_name:
 - Word.PageNumbers.HeadingLevelForChapter
 ms.assetid: 2202f3de-9ce0-e8d9-ad7c-9c95c1bc8f26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageNumbers.HeadingLevelForChapter property (Word)
 
-Returns or sets the heading level style that's applied to the chapter titles in the document. Read/write  **Long**.
+Returns or sets the heading level style that's applied to the chapter titles in the document. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `HeadingLevelForChapter`
+_expression_. `HeadingLevelForChapter`
 
- _expression_ A variable that represents a '[PageNumbers](Word.pagenumbers.md)' object.
+_expression_ A variable that represents a '[PageNumbers](Word.pagenumbers.md)' object.
 
 
 ## Remarks
 
-The  **HeadingLevelForChapter** property can be a number from 0 (zero) through 8, corresponding to heading levels 1 through 9.
+The **HeadingLevelForChapter** property can be a number from 0 (zero) through 8, corresponding to heading levels 1 through 9.
 
-Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied that uses styles from the  **Bullets and Numbering** dialog box. To do this in Visual Basic, use the **ApplyListTemplate** method.
+Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied that uses styles from the **Bullets and Numbering** dialog box. To do this in Visual Basic, use the **ApplyListTemplate** method.
 
 
 ## Example
 
-The first part of this example creates a new document, adds chapter titles and page breaks, and then formats the document by using the last numbered outline format listed in the  **Bullets and Numbering** dialog box. The second part of the example adds centered page numbers - including the chapter number - to the header; an en dash separates the chapter number and the page number. The first heading level is used for the chapter number, and lowercase roman numerals are used for the page number.
+The first part of this example creates a new document, adds chapter titles and page breaks, and then formats the document by using the last numbered outline format listed in the **Bullets and Numbering** dialog box. The second part of the example adds centered page numbers - including the chapter number - to the header; an en dash separates the chapter number and the page number. The first heading level is used for the chapter number, and lowercase roman numerals are used for the page number.
 
 
 ```vb

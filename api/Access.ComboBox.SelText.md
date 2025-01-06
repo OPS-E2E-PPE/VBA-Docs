@@ -3,12 +3,11 @@ title: ComboBox.SelText property (Access)
 keywords: vbaac10.chm11437
 f1_keywords:
 - vbaac10.chm11437
-ms.prod: access
 api_name:
 - Access.ComboBox.SelText
 ms.assetid: dc2b46d7-c688-c9b5-c44f-c490a91589fe
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

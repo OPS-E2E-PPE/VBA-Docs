@@ -1,11 +1,10 @@
 ---
 title: XlSearchOrder enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlSearchOrder
 ms.assetid: c9b65ed0-43e5-fab2-cd02-a763f9a42f6d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Find.MatchAllWordForms property (Word)
 keywords: vbawd10.chm162529293
 f1_keywords:
 - vbawd10.chm162529293
-ms.prod: word
 api_name:
 - Word.Find.MatchAllWordForms
 ms.assetid: 12244a30-2ddd-8de9-ff74-326c069e656b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchAllWordForms`
+_expression_. `MatchAllWordForms`
 
  _expression_ An expression that returns a '[Find](Word.Find.md)' object.
 
 
 ## Remarks
 
-Use the  **[Text](Word.Find.Text.md)** property of the **Find** object or use the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
+Use the **[Text](Word.Find.Text.md)** property of the **Find** object or use the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
 
 
 ## Example

@@ -1,32 +1,32 @@
 ---
-title: Cell.CellColor Property (Project)
-ms.prod: project-server
+title: Cell.CellColor property (Project)
+ms.service: project-server
 api_name:
 - Project.Cell.CellColor
 ms.assetid: 30d67933-a9ce-9e57-f7ac-c4af2f485959
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.CellColor Property (Project)
+# Cell.CellColor property (Project)
 
-Gets or sets the color of the cell background. Read/write  **PjColor**.
+Gets or sets the color of the cell background. Read/write **PjColor**.
 
 
 ## Syntax
 
- _expression_. `CellColor`
+_expression_. `CellColor`
 
- _expression_ A variable that represents a [Cell](./Project.Cell.md) object.
+_expression_ A variable that represents a [Cell](./Project.Cell.md) object.
 
 
 ## Remarks
 
-The  **CellColor** property can be one of the following **[PjColor](Project.PjColor.md)** constants:
+The **CellColor** property can be one of the following **[PjColor](Project.PjColor.md)** constants:
 
 
-|||
+|Color Constants 1|Color Constants 2|
 |:-----|:-----|
 |**pjColorAutomatic**|**pjNavy**|
 |**pjAqua**|**pjOlive**|
@@ -38,6 +38,6 @@ The  **CellColor** property can be one of the following **[PjColor](Project.PjCo
 |**pjLime**|**pjWhite**|
 |**pjMaroon**||
 
-To use a hexadecimal RGB value for the cell color, see the  **[CellColorEx](Project.Cell.CellColorEx.md)** property.
+To use a hexadecimal RGB value for the cell color, see the **[CellColorEx](Project.Cell.CellColorEx.md)** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

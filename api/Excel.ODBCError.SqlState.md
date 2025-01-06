@@ -3,36 +3,34 @@ title: ODBCError.SqlState property (Excel)
 keywords: vbaxl10.chm527073
 f1_keywords:
 - vbaxl10.chm527073
-ms.prod: excel
 api_name:
 - Excel.ODBCError.SqlState
 ms.assetid: 772a4e82-e661-5568-5fea-49a2925cb156
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/01/2019
+ms.localizationpriority: medium
 ---
 
 
 # ODBCError.SqlState property (Excel)
 
-Returns the SQL state error. Read-only  **String**.
+Returns the SQL state error. Read-only **String**.
 
 
 ## Syntax
 
-_expression_. `SqlState`
+_expression_.**SqlState**
 
-_expression_ A variable that represents an [ODBCError](Excel.ODBCError.md) object.
+_expression_ A variable that represents an **[ODBCError](Excel.ODBCError.md)** object.
 
 
 ## Remarks
 
-For an explanation of the specific error, see you SQL documentation.
+For an explanation of the specific error, see your SQL documentation.
 
 
 ## Example
 
 This example refreshes query table one and displays any ODBC errors that occur.
-
 
 ```vb
 With Worksheets(1).QueryTables(1) 
@@ -54,9 +52,6 @@ End With
 ```
 
 
-## See also
 
-
-[ODBCError Object](Excel.ODBCError.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

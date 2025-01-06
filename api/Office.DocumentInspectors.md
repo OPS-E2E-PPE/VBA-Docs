@@ -3,12 +3,11 @@ title: DocumentInspectors object (Office)
 keywords: vbaof11.chm278000
 f1_keywords:
 - vbaof11.chm278000
-ms.prod: office
 api_name:
 - Office.DocumentInspectors
 ms.assetid: 8366d7cd-e016-bb99-d27f-749ca10352f1
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,7 +33,7 @@ Dim results As String
  ActiveDocument.DocumentInspectors(3).Fix docStatus, results 
  
  MsgBox docStatus 
- MsgBox("The following items were removed " &amp; results) 
+ MsgBox("The following items were removed " & results) 
  
 End Sub 
 

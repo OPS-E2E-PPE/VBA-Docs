@@ -3,30 +3,29 @@ title: MailMergeDataSource.DataFields property (Word)
 keywords: vbawd10.chm152895499
 f1_keywords:
 - vbawd10.chm152895499
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.DataFields
 ms.assetid: 613c4bc6-bd87-fbdc-2170-8a1daf2cfd2c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataSource.DataFields property (Word)
 
-Returns a  **[MailMergeDataFields](Word.mailmergedatafields.md)** collection that represents the fields in the specified mail merge data source. Read-only.
+Returns a **[MailMergeDataFields](Word.mailmergedatafields.md)** collection that represents the fields in the specified mail merge data source. Read-only.
 
 
 ## Syntax
 
- _expression_. `DataFields`
+_expression_. `DataFields`
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

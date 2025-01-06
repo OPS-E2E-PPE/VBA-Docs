@@ -1,33 +1,31 @@
 ---
-title: Hyperlink.PageID Property (Publisher)
+title: Hyperlink.PageID property (Publisher)
 keywords: vbapb10.chm4587525
 f1_keywords:
 - vbapb10.chm4587525
-ms.prod: publisher
 api_name:
 - Publisher.Hyperlink.PageID
 ms.assetid: 1b5051eb-e6b4-a5a7-610a-5be03863a92b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.PageID Property (Publisher)
+# Hyperlink.PageID property (Publisher)
 
-Returns or sets a  **Long** indicating the page in the publication that is the destination for the specified hyperlink. Read/write.
+Returns or sets a **Long** indicating the page in the publication that is the destination for the specified hyperlink. Read/write.
 
 
 ## Syntax
 
- _expression_. **PageID**
+_expression_.**PageID**
 
- _expression_ A variable that represents a  **Hyperlink** object.
+_expression_ A variable that represents a **[Hyperlink](Publisher.Hyperlink.md)** object.
 
 
 ## Example
 
 The following example reports what page the first hyperlink in the active publication is linked to.
-
 
 ```vb
 Dim hypTemp As Hyperlink 

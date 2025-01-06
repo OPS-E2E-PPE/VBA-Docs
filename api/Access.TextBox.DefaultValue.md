@@ -3,12 +3,11 @@ title: TextBox.DefaultValue property (Access)
 keywords: vbaac10.chm11047
 f1_keywords:
 - vbaac10.chm11047
-ms.prod: access
 api_name:
 - Access.TextBox.DefaultValue
 ms.assetid: fab86da0-e865-478c-80c6-7681c5733059
 ms.date: 02/21/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

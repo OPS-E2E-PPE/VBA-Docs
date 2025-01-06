@@ -3,10 +3,9 @@ title: Mid statement (VBA)
 keywords: vblr6.chm1011353
 f1_keywords:
 - vblr6.chm1011353
-ms.prod: office
 ms.assetid: a9923853-55d5-5b50-d422-57cba84d9f47
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Replaces a specified number of characters in a **Variant** (**String**) [variabl
 ## Syntax
 
 **Mid**(_stringvar_, _start_, [ _length_ ] ) **=** _string_
-
-<br/>
 
 The **Mid** statement syntax has these parts:
 

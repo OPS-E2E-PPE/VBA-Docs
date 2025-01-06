@@ -3,10 +3,9 @@ title: ListBox control, Column, ColumnCount, List properties example
 keywords: fm20.chm5225184
 f1_keywords:
 - fm20.chm5225184
-ms.prod: office
 ms.assetid: 30706933-a979-6392-848f-1527e3ec1847
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

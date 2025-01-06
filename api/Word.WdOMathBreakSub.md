@@ -1,11 +1,10 @@
 ---
 title: WdOMathBreakSub enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdOMathBreakSub
 ms.assetid: 858bfb92-4a91-d846-21a9-e25c32d7a4b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: Form.Name property (Access)
 keywords: vbaac10.chm13509
 f1_keywords:
 - vbaac10.chm13509
-ms.prod: access
 api_name:
 - Access.Form.Name
 ms.assetid: 29cd22a8-7f38-9559-8c34-d6319a32adab
 ms.date: 02/13/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Form.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

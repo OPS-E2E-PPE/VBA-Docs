@@ -1,27 +1,26 @@
 ---
-title: RulerLevels.Item Method (PowerPoint)
+title: RulerLevels.Item method (PowerPoint)
 keywords: vbapp10.chm571003
 f1_keywords:
 - vbapp10.chm571003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.RulerLevels.Item
 ms.assetid: 95c04d29-0c1c-9df0-6d6d-43da01ea7ae2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RulerLevels.Item Method (PowerPoint)
+# RulerLevels.Item method (PowerPoint)
 
-Returns a single  **RulerLevel** object from the specified **RulerLevels** collection.
+Returns a single **RulerLevel** object from the specified **RulerLevels** collection.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a [RulerLevels](./PowerPoint.RulerLevels.md) collection.
+_expression_ A variable that represents a [RulerLevels](PowerPoint.RulerLevels.md) collection.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a single  **RulerLevel** object from the specified **RulerLevels** colle
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required|**Long**|The index number of the single  **RulerLevel** object in the collection to be returned.|
+| _Index_|Required|**Long**|The index number of the single **RulerLevel** object in the collection to be returned.|
 
 ## Return value
 

@@ -3,18 +3,17 @@ title: ComboBox.DisplayWhen property (Access)
 keywords: vbaac10.chm11394
 f1_keywords:
 - vbaac10.chm11394
-ms.prod: access
 api_name:
 - Access.ComboBox.DisplayWhen
 ms.assetid: cfe800d7-290d-3f5c-fb48-cbc0628cefcd
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

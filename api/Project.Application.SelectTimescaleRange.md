@@ -1,27 +1,27 @@
 ---
-title: Application.SelectTimescaleRange Method (Project)
+title: Application.SelectTimescaleRange method (Project)
 keywords: vbapj.chm954
 f1_keywords:
 - vbapj.chm954
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SelectTimescaleRange
 ms.assetid: 16a4bd12-7a60-c172-6a73-c3552b2baf4b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectTimescaleRange Method (Project)
+# Application.SelectTimescaleRange method (Project)
 
 Selects one or more timescale data cells in a usage view.
 
 
 ## Syntax
 
- _expression_. `SelectTimescaleRange`( `_Row_`, `_StartTime_`, `_Width_`, `_Height_` )
+_expression_. `SelectTimescaleRange`( `_Row_`, `_StartTime_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ Selects one or more timescale data cells in a usage view.
 
 ## Example
 
-The following example selects a five-day range of timescale data cells for the specified row. It assumes the timescale has not been changed from the default setting. The  **SelectRow** method is not required for this example, but is included to make the result easier to read.
+The following example selects a five-day range of timescale data cells for the specified row. It assumes the timescale has not been changed from the default setting. The **SelectRow** method is not required for this example, but is included to make the result easier to read.
 
 
 ```vb

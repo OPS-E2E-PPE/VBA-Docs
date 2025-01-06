@@ -1,27 +1,26 @@
 ---
-title: Timing.RepeatDuration Property (PowerPoint)
+title: Timing.RepeatDuration property (PowerPoint)
 keywords: vbapp10.chm653008
 f1_keywords:
 - vbapp10.chm653008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Timing.RepeatDuration
 ms.assetid: 8c69f0a7-224a-db67-2a94-0237f55f184e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Timing.RepeatDuration Property (PowerPoint)
+# Timing.RepeatDuration property (PowerPoint)
 
 Sets or returns how long repeated animations should last, in seconds. Read/write.
 
 
 ## Syntax
 
- _expression_. `RepeatDuration`
+_expression_. `RepeatDuration`
 
- _expression_ A variable that represents a [Timing](./PowerPoint.Timing.md) object.
+_expression_ A variable that represents a [Timing](PowerPoint.Timing.md) object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Single
 
 ## Remarks
 
-An animation will stop at the end of its time sequence or the value of the  **RepeatDuration** property, whichever is shorter.
+An animation will stop at the end of its time sequence or the value of the **RepeatDuration** property, whichever is shorter.
 
 
 ## Example
 
-This examples adds a shape and an animation to it, then repeats the animation ten times. However, after five seconds, the animation will be cut off, even though the animation is dimensioned for a 20-second timeline (if the  **Duration** property is not specified, an animation defaults to two seconds).
+This examples adds a shape and an animation to it, then repeats the animation ten times. However, after five seconds, the animation will be cut off, even though the animation is dimensioned for a 20-second timeline (if the **Duration** property is not specified, an animation defaults to two seconds).
 
 
 ```vb

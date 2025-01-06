@@ -1,27 +1,26 @@
 ---
-title: Presentation.SaveCopyAs Method (PowerPoint)
+title: Presentation.SaveCopyAs method (PowerPoint)
 keywords: vbapp10.chm583037
 f1_keywords:
 - vbapp10.chm583037
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.SaveCopyAs
 ms.assetid: 456415d1-845a-9e9b-45ce-98985e94aee5
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.SaveCopyAs Method (PowerPoint)
+# Presentation.SaveCopyAs method (PowerPoint)
 
 Saves a copy of the specified presentation to a file without modifying the original.
 
 
 ## Syntax
 
- _expression_. `SaveCopyAs`( `_FileName_`, `_FileFormat_`, `_EmbedTrueTypeFonts_` )
+_expression_. `SaveCopyAs`( `_FileName_`, `_FileFormat_`, `_EmbedTrueTypeFonts_` )
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
@@ -72,6 +71,8 @@ The  _EmbedTrueTypeFonts_ parameter value can be one of these **MsoTriState** co
 |**msoTriStateMixed**|Embedded fonts are a mixture of TrueType and non-TrueType. The default. |
 |**msoTrue**|TrueType fonts are embedded.|
 
+If the presentation is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
+
 ## Example
 
 This example saves a copy of the active presentation under the name "New Format Copy.ppt." By default, this copy is saved in the format of a presentation in the current version of PowerPoint. The presentation is then saved as a PowerPoint 4.0 file named "Old Format Copy."
@@ -92,5 +93,7 @@ End With
 
 
 [Presentation Object](PowerPoint.Presentation.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

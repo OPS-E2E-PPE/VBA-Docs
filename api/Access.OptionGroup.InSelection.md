@@ -3,18 +3,17 @@ title: OptionGroup.InSelection property (Access)
 keywords: vbaac10.chm10861
 f1_keywords:
 - vbaac10.chm10861
-ms.prod: access
 api_name:
 - Access.OptionGroup.InSelection
 ms.assetid: faae80ea-95ab-bcae-d923-39d264612e84
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

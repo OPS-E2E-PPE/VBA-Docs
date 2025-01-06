@@ -3,12 +3,11 @@ title: Document.TransformDocument method (Word)
 keywords: vbawd10.chm158007796
 f1_keywords:
 - vbawd10.chm158007796
-ms.prod: word
 api_name:
 - Word.Document.TransformDocument
 ms.assetid: 5829a16f-b514-479f-c227-359123611970
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Applies the specified Extensible Stylesheet Language Transformation (XSLT) file 
 
 ## Syntax
 
- _expression_. `TransformDocument`( `_Path_` , `_DataOnly_` )
+_expression_. `TransformDocument`( `_Path_` , `_DataOnly_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters

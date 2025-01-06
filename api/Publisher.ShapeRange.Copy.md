@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Copy Method (Publisher)
+title: ShapeRange.Copy method (Publisher)
 keywords: vbapb10.chm2293778
 f1_keywords:
 - vbapb10.chm2293778
-ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.Copy
 ms.assetid: 11b9da00-85e4-fc7a-fa93-4a451b7bd15a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Copy Method (Publisher)
+# ShapeRange.Copy method (Publisher)
 
 Copies the specified object to the Clipboard.
 
 
 ## Syntax
 
- _expression_. **Copy**
+_expression_.**Copy**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Return value
@@ -31,15 +30,14 @@ Nothing
 
 ## Remarks
 
-Use the  **Paste**method to paste the contents of the Clipboard.
+Use the **[Shapes.Paste](Publisher.Shapes.Paste.md)** method to paste the contents of the Clipboard.
 
-The  **Copy** method can be used on **Shape** objects, but the **Paste** method cannot.
+The **Copy** method can be used on **Shape** objects, but the **Paste** method cannot.
 
 
 ## Example
 
-This example copies shapes one and two on page one of the active publication to the Clipboard and then pastes the copies onto page two.
-
+This example copies shapes one and two on page one of the active publication to the Clipboard, and then pastes the copies onto page two.
 
 ```vb
 With ActiveDocument 
@@ -48,19 +46,17 @@ With ActiveDocument
 End With
 ```
 
+<br/>
+
 This example copies shape one on page one of the active publication to the Clipboard.
-
-
-
 
 ```vb
 ActiveDocument.Pages(1).Shapes(1).Copy
 ```
 
+<br/>
+
 This example copies the text in shape one on page one of the active publication to the Clipboard.
-
-
-
 
 ```vb
 ActiveDocument.Pages(1).Shapes(1).TextFrame.TextRange.Copy

@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.ScaleHeight Method (Project)
-ms.prod: project-server
+title: ShapeRange.ScaleHeight method (Project)
+ms.service: project-server
 ms.assetid: 5f6f353d-6045-2a50-3a55-b0c380dafd2d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.ScaleHeight Method (Project)
+# ShapeRange.ScaleHeight method (Project)
 Scales the height of the range of shapes by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters
@@ -26,10 +26,8 @@ Scales the height of the range of shapes by a specified factor.
 | _Factor_|Required|**Single**|The ratio between the height of the shape after you resize it and the current height. For example, to make a rectangle 50 percent higher, specify 1.5 for the  _Factor_ parameter.|
 | _RelativeToOriginalSize_|Required|**[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**|**msoFalse** scales each shape relative to its current size. For Project, the value must be **msoFalse**.|
 | _fScale_|Optional|**[MsoScaleFrom](https://msdn.microsoft.com/library/office/ff863348%28v=office.15%29)**|Specifies which part of the shape retains its position when the shape is scaled.|
-| _Factor_|Required|FLOAT||
-| _RelativeToOriginalSize_|Required|MSOTRISTATE||
-| _fScale_|Optional|MSOSCALEFROM||
-|Name|Required/Optional|Data type|Description|
+
+
 
 ## Return value
 
@@ -43,7 +41,7 @@ A  _RelativeToOriginalSize_ parameter value of **msoTrue** scales a shape relati
 
 ## Example
 
-The following example creates two cylindrical shapes, assigns them to a shape range, and then scales the shapes in height and width. If you set a breakpoint on the first  **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
+The following example creates two cylindrical shapes, assigns them to a shape range, and then scales the shapes in height and width. If you set a breakpoint on the first **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
 
 
 ```vb

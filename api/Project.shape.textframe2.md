@@ -1,32 +1,32 @@
 ---
-title: Shape.TextFrame2 Property (Project)
-ms.prod: project-server
+title: Shape.TextFrame2 property (Project)
+ms.service: project-server
 ms.assetid: 9f79d3a3-780c-e0b8-1255-e74e027b9902
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.TextFrame2 Property (Project)
-Gets a  **TextFrame2** object that contains the text in a text frame and the members that control the alignment, anchoring, and other features of the text frame. Read-only **[TextFrame2](https://msdn.microsoft.com/library/office/ff822136%28v=office.15%29)**.
+# Shape.TextFrame2 property (Project)
+Gets a **TextFrame2** object that contains the text in a text frame and the members that control the alignment, anchoring, and other features of the text frame. Read-only **[TextFrame2](https://msdn.microsoft.com/library/office/ff822136%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `TextFrame2`
+_expression_.**TextFrame2**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Remarks
 
-A  **TextFrame2** object contains many of the same properties as a **TextFrame** object, plus additional properties such as **AutoSize**,  **ThreeD**, and  **WordArtformat**.
+A **TextFrame2** object contains many of the same properties as a **TextFrame** object, plus additional properties such as **AutoSize**, **ThreeD**, and **WordArtformat**.
 
 
 ## Example
 
-The following example creates two text boxes and adds them to a  **ShapeRange** object, sets both text frames to automatically fit the text, sets the foreground color of text in the first text box shape to red, sets the foreground color of the shape range to a yellowish tan, and then uses the **TextEffect** property to set font properties on both text boxes in the shape range.
+The following example creates two text boxes and adds them to a **ShapeRange** object, sets both text frames to automatically fit the text, sets the foreground color of text in the first text box shape to red, sets the foreground color of the shape range to a yellowish tan, and then uses the **TextEffect** property to set font properties on both text boxes in the shape range.
 
-The  **TextFrame2** property for the individual **Shape** objects are shown in bold font.
+The **TextFrame2** property for the individual **Shape** objects are shown in bold font.
 
 
 
@@ -52,7 +52,7 @@ Sub FormatTextBox()
         
     sRange.TextFrame2.AutoSize = msoAutoSizeShapeToFitText
         
-    sRange(1).TextFrame2.TextRange.Text = "This is a test. It is only a test."
+    sRange(1).TextFrame2.TextRange.Text = "This is a test. It's only a test."
     sRange(2).TextFrame2.TextRange.Text = "This is text box 2."
     sRange(1).TextFrame2.TextRange.Characters.Font.Fill.ForeColor.RGB = &H2020CC
     sRange.Fill.ForeColor.RGB = &H88CCCC

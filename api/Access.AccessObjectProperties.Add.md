@@ -3,18 +3,17 @@ title: AccessObjectProperties.Add method (Access)
 keywords: vbaac10.chm12703
 f1_keywords:
 - vbaac10.chm12703
-ms.prod: access
 api_name:
 - Access.AccessObjectProperties.Add
 ms.assetid: 8f86d5f8-b9af-87d3-fae4-e1a24d7225b6
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AccessObjectProperties.Add method (Access)
 
-You can use the **Add** method to add a new property as an **[AccessObjectProperty](access.accessobjectproperty.md)** object to the **AccessObjectProperties** collection of an **[AccessObject](Access.AccessObject.md)** object.
+Use the **Add** method to add a new property as an **[AccessObjectProperty](access.accessobjectproperty.md)** object to the **AccessObjectProperties** collection of an **[AccessObject](Access.AccessObject.md)** object.
 
 
 ## Syntax
@@ -33,7 +32,7 @@ _expression_ A variable that represents an **[AccessObjectProperties](Access.Acc
 
 ## Remarks
 
-You can use the **Remove** method of the **AccessObjectProperties** collection to delete an existing property.
+Use the **Remove** method of the **AccessObjectProperties** collection to delete an existing property.
 
 
 

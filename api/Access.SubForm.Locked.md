@@ -3,12 +3,11 @@ title: SubForm.Locked property (Access)
 keywords: vbaac10.chm11933
 f1_keywords:
 - vbaac10.chm11933
-ms.prod: access
 api_name:
 - Access.SubForm.Locked
 ms.assetid: 30e0f94d-2a45-7185-1aa9-f0c6f42904c3
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

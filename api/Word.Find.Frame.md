@@ -3,25 +3,24 @@ title: Find.Frame property (Word)
 keywords: vbawd10.chm162529306
 f1_keywords:
 - vbawd10.chm162529306
-ms.prod: word
 api_name:
 - Word.Find.Frame
 ms.assetid: 66cfee6f-649c-cef9-1dee-d2a4a6de4a7a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Find.Frame property (Word)
 
-Returns a  **[Frame](Word.Frame.md)** object that represents the frame formatting for the specified style or find-and-replace operation. Read-only.
+Returns a **[Frame](Word.Frame.md)** object that represents the frame formatting for the specified style or find-and-replace operation. Read-only.
 
 
 ## Syntax
 
- _expression_. `Frame`
+_expression_. `Frame`
 
- _expression_ A variable that represents a '[Find](Word.Find.md)' object.
+_expression_ A variable that represents a '[Find](Word.Find.md)' object.
 
 
 ## Example

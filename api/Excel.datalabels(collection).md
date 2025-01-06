@@ -1,24 +1,28 @@
 ---
-title: DataLabels Collection (Excel)
+title: DataLabels collection (Excel Graph)
 keywords: vbagr10.chm131187
 f1_keywords:
 - vbagr10.chm131187
-ms.prod: excel
 ms.assetid: 597c7269-71ed-5dcc-af6b-34dc908e9d58
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# DataLabels Collection (Excel)
+# DataLabels collection (Excel Graph)
 
-A collection of all the  **[DataLabel](Excel.DataLabel-graph-object.md)** objects for the specified series. Each  **DataLabel** object represents a data label for a point or trendline. For a series without definable points (such as an area series), the **DataLabels** collection contains a single data label.
+A collection of all the **[DataLabel](Excel.DataLabel-graph-object.md)** objects for the specified series. Each **DataLabel** object represents a data label for a point or trendline. For a series without definable points (such as an area series), the **DataLabels** collection contains a single data label.
 
 
-## Using the DataLabels Collection
+## Remarks
 
-Use the  **DataLabels** method to return the **DataLabels** collection. The following example sets the number format for data labels in series one in the chart.
+Use the **[DataLabels](excel.datalabels-graph-method.md)** method to return the **DataLabels** collection. 
 
+Use **DataLabels** (_index_), where _index_ is the data label's index number, to return a single **DataLabel** object.
+
+## Example
+
+The following example sets the number format for data labels in series one in the chart.
 
 ```vb
 With myChart.SeriesCollection(1) 
@@ -27,13 +31,12 @@ With myChart.SeriesCollection(1)
 End With
 ```
 
-Use  **DataLabels**( _index_), where  _index_ is the data label's index number, to return a single **DataLabel** object. The following example sets the number format for the fifth data label in series one in the chart.
-
-
-
+The following example sets the number format for the fifth data label in series one in the chart.
 
 ```vb
 myChart.SeriesCollection(1).DataLabels(5).NumberFormat = "0.000"
 ```
+
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

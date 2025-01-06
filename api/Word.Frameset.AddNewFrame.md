@@ -3,12 +3,11 @@ title: Frameset.AddNewFrame method (Word)
 keywords: vbawd10.chm165806130
 f1_keywords:
 - vbawd10.chm165806130
-ms.prod: word
 api_name:
 - Word.Frameset.AddNewFrame
 ms.assetid: 81366e66-ae4e-24ce-d7ca-ae6f9273f745
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adds a new frame to a frames page.
 
 ## Syntax
 
- _expression_. `AddNewFrame`( `_Where_` )
+_expression_. `AddNewFrame`( `_Where_` )
 
- _expression_ Required. A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ Required. A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Parameters

@@ -1,27 +1,26 @@
 ---
-title: Selection.Move Method (Visio)
+title: Selection.Move method (Visio)
 keywords: vis_sdr.chm11151355
 f1_keywords:
 - vis_sdr.chm11151355
-ms.prod: visio
 api_name:
 - Visio.Selection.Move
 ms.assetid: 12e60f50-f06d-45bb-b79d-db2e0d767461
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Move Method (Visio)
+# Selection.Move method (Visio)
 
 Moves a selection a specified distance.
 
 
 ## Syntax
 
- _expression_. `Move`( `_dx_` , `_dy_` , `_UnitsNameOrCode_` )
+_expression_. `Move`( `_dx_` , `_dy_` , `_UnitsNameOrCode_` )
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -48,7 +47,7 @@ For a complete list of valid unit strings along with corresponding Automation co
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Move** method to move a selection by a specified amount.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Move** method to move a selection by a specified amount.
 
 
 ```vb

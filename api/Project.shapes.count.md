@@ -1,20 +1,20 @@
 ---
-title: Shapes.Count Property (Project)
-ms.prod: project-server
+title: Shapes.Count property (Project)
+ms.service: project-server
 ms.assetid: c198cf75-b554-5815-4b77-d2a54d60f5e6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.Count Property (Project)
-Gets the number of  **Shape** objects in the **Shapes** collection. Read-only **Long**.
+# Shapes.Count property (Project)
+Gets the number of **Shape** objects in the **Shapes** collection. Read-only **Long**.
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Property value

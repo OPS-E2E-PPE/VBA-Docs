@@ -1,27 +1,26 @@
 ---
-title: BulletFormat.RelativeSize Property (PowerPoint)
+title: BulletFormat.RelativeSize property (PowerPoint)
 keywords: vbapp10.chm577005
 f1_keywords:
 - vbapp10.chm577005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat.RelativeSize
 ms.assetid: ce90fbcb-9aa5-a286-1f91-f06a83351b97
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat.RelativeSize Property (PowerPoint)
+# BulletFormat.RelativeSize property (PowerPoint)
 
 Returns or sets the bullet size relative to the size of the first text character in the paragraph. Read/write.
 
 
 ## Syntax
 
- _expression_. `RelativeSize`
+_expression_. `RelativeSize`
 
-_expression_ A variable that represents a [BulletFormat](./PowerPoint.BulletFormat.md) object.
+_expression_ A variable that represents a **[BulletFormat](PowerPoint.BulletFormat.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Single
 
 ## Remarks
 
-The  **RelativeSize** property value can be a floating-point value from 0.25 through 4, indicating that the bullet size can be from 25 percent through 400 percent of the text-character size.
+The **RelativeSize** property value can be a floating-point value from 0.25 through 4, indicating that the bullet size can be from 25 percent through 400 percent of the text-character size.
 
 
 ## Example

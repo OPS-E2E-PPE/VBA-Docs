@@ -1,27 +1,26 @@
 ---
-title: TextRange.Words Method (PowerPoint)
+title: TextRange.Words method (PowerPoint)
 keywords: vbapp10.chm569012
 f1_keywords:
 - vbapp10.chm569012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Words
 ms.assetid: b8cd8dca-bf10-1041-dd9e-adc04b2df42d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Words Method (PowerPoint)
+# TextRange.Words method (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text words.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text words.
 
 
 ## Syntax
 
- _expression_. `Words`( `_Start_`, `_Length_` )
+_expression_. `Words`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ TextRange
 
 ## Remarks
 
-For information about counting or looping through the words in a text range, see the  **[TextRange](PowerPoint.TextRange.md)** object.
+For information about counting or looping through the words in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
 
 If both Start and Length are omitted, the returned range starts with the first word and ends with the last paragraph in the specified range.
 

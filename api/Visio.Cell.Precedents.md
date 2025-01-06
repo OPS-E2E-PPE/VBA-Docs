@@ -1,27 +1,26 @@
 ---
-title: Cell.Precedents Property (Visio)
+title: Cell.Precedents property (Visio)
 keywords: vis_sdr.chm10151690
 f1_keywords:
 - vis_sdr.chm10151690
-ms.prod: visio
 api_name:
 - Visio.Cell.Precedents
 ms.assetid: 4461b45a-6fd6-4376-f8b2-4d8a9597111a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.Precedents Property (Visio)
+# Cell.Precedents property (Visio)
 
 Returns an array of ShapeSheet cells upon which the formula of another cell depends. Read-only.
 
 
 ## Syntax
 
- _expression_. `Precedents`
+_expression_.**Precedents**
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Cell()
 
 ## Remarks
 
-The  **Precedents** property returns an array of the cells that cause the parent **Cell** object to recalculate its value when their formula or value changes.
+The **Precedents** property returns an array of the cells that cause the parent **Cell** object to recalculate its value when their formula or value changes.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Precedents** property to display a list of cells upon which the "Scratch.X1" cell of a shape depend. The macro draws a rectangle on the active page, adds a Scratch section to the ShapeSheet of the rectangle, and then enters a formula in a cell of that section that is used to bow the sides of the rectangle inward, by changing each of the rectangles sides to an arc. Because the formula used to bow the sides of the rectangle depends on the width and height of the rectangle, the cell that contains the formula, Scratch.X1, is dependent upon the Width and Height cells of the rectangle shape, making these cells precedents.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Precedents** property to display a list of cells upon which the "Scratch.X1" cell of a shape depend. The macro draws a rectangle on the active page, adds a Scratch section to the ShapeSheet of the rectangle, and then enters a formula in a cell of that section that is used to bow the sides of the rectangle inward, by changing each of the rectangles sides to an arc. Because the formula used to bow the sides of the rectangle depends on the width and height of the rectangle, the cell that contains the formula, Scratch.X1, is dependent upon the Width and Height cells of the rectangle shape, making these cells precedents.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: TextBox control
 keywords: fm20.chm2000670
 f1_keywords:
 - fm20.chm2000670
-ms.prod: office
 ms.assetid: 4de7d471-42ed-9b0e-0a21-0bd1204e2020
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

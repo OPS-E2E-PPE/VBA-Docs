@@ -3,25 +3,24 @@ title: Application.KeysBoundTo property (Word)
 keywords: vbawd10.chm158335046
 f1_keywords:
 - vbawd10.chm158335046
-ms.prod: word
 api_name:
 - Word.Application.KeysBoundTo
 ms.assetid: 55967f9f-a2e0-eaae-a371-0fed82100138
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.KeysBoundTo property (Word)
 
-Returns a  **[KeysBoundTo](Word.keysboundto.md)** object that represents all the key combinations assigned to the specified item.
+Returns a **[KeysBoundTo](Word.keysboundto.md)** object that represents all the key combinations assigned to the specified item.
 
 
 ## Syntax
 
- _expression_. `KeysBoundTo`( `_KeyCategory_` , `_Command_` , `_CommandParameter_` )
+_expression_. `KeysBoundTo`( `_KeyCategory_` , `_Command_` , `_CommandParameter_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters
@@ -32,7 +31,7 @@ Returns a  **[KeysBoundTo](Word.keysboundto.md)** object that represents all the
 |:-----|:-----|:-----|:-----|
 | _KeyCategory_|Required| **WdKeyCategory**|The category of the key combination.|
 | _Command_|Required| **String**|The name of the command.|
-| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For more information, see the "Remarks" section in the  **Add** method for the **KeyBindings** object.|
+| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For more information, see the "Remarks" section in the **Add** method for the **KeyBindings** object.|
 
 ## Example
 

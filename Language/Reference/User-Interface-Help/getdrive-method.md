@@ -3,24 +3,21 @@ title: GetDrive method (Visual Basic for Applications)
 keywords: vblr6.chm2182048
 f1_keywords:
 - vblr6.chm2182048
-ms.prod: office
 api_name:
 - Office.GetDrive
 ms.assetid: bd11dc26-b806-864c-b30b-6c74b7701901
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # GetDrive method
 
-Returns a **Drive** object corresponding to the drive in a specified path.
+Returns a **[Drive](drive-object.md)** object corresponding to the drive in a specified path.
 
 ## Syntax
 
 _object_.**GetDrive** (_drivespec_)
-
-<br/>
 
 The **GetDrive** method syntax has these parts:
 

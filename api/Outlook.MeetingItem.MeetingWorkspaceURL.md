@@ -1,27 +1,26 @@
 ---
-title: MeetingItem.MeetingWorkspaceURL Property (Outlook)
+title: MeetingItem.MeetingWorkspaceURL property (Outlook)
 keywords: vbaol11.chm1465
 f1_keywords:
 - vbaol11.chm1465
-ms.prod: outlook
 api_name:
 - Outlook.MeetingItem.MeetingWorkspaceURL
 ms.assetid: ad97f3cc-35c6-b653-73b9-7c7a0555afe2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.MeetingWorkspaceURL Property (Outlook)
+# MeetingItem.MeetingWorkspaceURL property (Outlook)
 
-Returns a  **String** value that represents the URL for the Meeting Workspace that the meeting item is linked to. Read-only.
+Returns a **String** value that represents the URL for the Meeting Workspace that the meeting item is linked to. Read-only.
 
 
 ## Syntax
 
 _expression_. `MeetingWorkspaceURL`
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Remarks

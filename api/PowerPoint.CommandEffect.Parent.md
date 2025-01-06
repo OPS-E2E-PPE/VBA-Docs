@@ -1,27 +1,26 @@
 ---
-title: CommandEffect.Parent Property (PowerPoint)
+title: CommandEffect.Parent property (PowerPoint)
 keywords: vbapp10.chm668002
 f1_keywords:
 - vbapp10.chm668002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CommandEffect.Parent
 ms.assetid: 06e0ba82-71ad-be99-adae-1ac44fd4d4bf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CommandEffect.Parent Property (PowerPoint)
+# CommandEffect.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [CommandEffect](./PowerPoint.CommandEffect.md) object.
+_expression_ A variable that represents a [CommandEffect](PowerPoint.CommandEffect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

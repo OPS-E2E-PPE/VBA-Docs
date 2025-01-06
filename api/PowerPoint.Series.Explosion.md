@@ -1,24 +1,23 @@
 ---
-title: Series.Explosion Property (PowerPoint)
-ms.prod: powerpoint
+title: Series.Explosion property (PowerPoint)
 api_name:
 - PowerPoint.Series.Explosion
 ms.assetid: c952b296-35c2-0215-228e-883a29e1b9d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.Explosion Property (PowerPoint)
+# Series.Explosion property (PowerPoint)
 
-Returns or sets the explosion value for a pie-chart or doughnut-chart slice. Read/write  **Long**.
+Returns or sets the explosion value for a pie-chart or doughnut-chart slice. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `Explosion`
+_expression_.**Explosion**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks

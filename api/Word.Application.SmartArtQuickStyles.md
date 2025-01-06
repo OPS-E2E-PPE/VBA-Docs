@@ -3,12 +3,11 @@ title: Application.SmartArtQuickStyles property (Word)
 keywords: vbawd10.chm158335458
 f1_keywords:
 - vbawd10.chm158335458
-ms.prod: word
 api_name:
 - Word.Application.SmartArtQuickStyles
 ms.assetid: 47cca923-fc88-6973-926c-2fa69c2f0f10
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns a [SmartArtQuickStyles](Office.SmartArtQuickStyles.md) object that repre
 
 ## Syntax
 
- _expression_. `SmartArtQuickStyles`
+_expression_. `SmartArtQuickStyles`
 
  _expression_ An expression that returns a '[Application](Word.Application.md)' object.
 
 
 ## Remarks
 
-The set of styles represented by the  **SmartArtQuickStyles** property correspond to the available styles in the **Styles** group on the **Design tab** on the **SmartArt Tools** contextual tab in Word.
+The set of styles represented by the **SmartArtQuickStyles** property correspond to the available styles in the **Styles** group on the **Design tab** on the **SmartArt Tools** contextual tab in Word.
 
 
 ## Example

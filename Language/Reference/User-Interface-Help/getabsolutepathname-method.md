@@ -3,12 +3,11 @@ title: GetAbsolutePathName method (Visual Basic for Applications)
 keywords: vblr6.chm2182045
 f1_keywords:
 - vblr6.chm2182045
-ms.prod: office
 api_name:
 - Office.GetAbsolutePathName
 ms.assetid: 49209a8f-6346-b32a-55d7-d72692b4defb
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns a complete and unambiguous path from a provided path specification.
 ## Syntax
 
 _object_.**GetAbsolutePathName** (_pathspec_)
-
-<br/>
 
 The **GetAbsolutePathName** method syntax has these parts:
 

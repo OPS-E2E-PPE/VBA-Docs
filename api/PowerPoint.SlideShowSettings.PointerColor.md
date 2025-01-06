@@ -1,27 +1,26 @@
 ---
-title: SlideShowSettings.PointerColor Property (PowerPoint)
+title: SlideShowSettings.PointerColor property (PowerPoint)
 keywords: vbapp10.chm514003
 f1_keywords:
 - vbapp10.chm514003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowSettings.PointerColor
 ms.assetid: 530072d6-3a2d-8236-b4ac-3ede8823e95a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowSettings.PointerColor Property (PowerPoint)
+# SlideShowSettings.PointerColor property (PowerPoint)
 
-Returns the pointer color for the specified presentation as a  **[ColorFormat](PowerPoint.ColorFormat.md)** object. Read-only.
+Returns the pointer color for the specified presentation as a **[ColorFormat](PowerPoint.ColorFormat.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `PointerColor`
+_expression_. `PointerColor`
 
- _expression_ A variable that represents a [SlideShowSettings](./PowerPoint.SlideShowSettings.md) object.
+_expression_ A variable that represents a [SlideShowSettings](PowerPoint.SlideShowSettings.md) object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ ColorFormat
 
 The pointer color is saved with the presentation and is the default pen color each time you show the presentation. 
 
-To change the pointer to a pen, set the  **[PointerType](PowerPoint.SlideShowView.PointerType.md)** property to **ppSlideShowPointerPen**.
+To change the pointer to a pen, set the **[PointerType](PowerPoint.SlideShowView.PointerType.md)** property to **ppSlideShowPointerPen**.
 
 
 ## Example

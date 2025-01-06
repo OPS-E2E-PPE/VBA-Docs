@@ -1,24 +1,24 @@
 ---
-title: Application.MailSystem Method (Project)
-ms.prod: project-server
+title: Application.MailSystem method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.MailSystem
 ms.assetid: 4ee9011c-f5f5-d0aa-0cd6-aa90130af4af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.MailSystem Method (Project)
+# Application.MailSystem method (Project)
 
 Returns the type of email system installed on the host machine.
 
 
 ## Syntax
 
- _expression_. `MailSystem`
+_expression_. `MailSystem`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: ListBox.SmartTags property (Access)
 keywords: vbaac10.chm11303
 f1_keywords:
 - vbaac10.chm11303
-ms.prod: access
 api_name:
 - Access.ListBox.SmartTags
 ms.assetid: 1f35ca6b-fde1-6dc8-4b1b-f3089eee9204
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

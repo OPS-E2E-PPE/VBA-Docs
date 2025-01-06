@@ -1,24 +1,23 @@
 ---
-title: ChartGroup.UpBars Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroup.UpBars property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroup.UpBars
 ms.assetid: c6496698-c9a3-eee4-f829-f2feec787118
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.UpBars Property (PowerPoint)
+# ChartGroup.UpBars property (PowerPoint)
 
-Returns the up bars on a line chart. Read-only  **[UpBars](PowerPoint.UpBars.md)**.
+Returns the up bars on a line chart. Read-only **[UpBars](PowerPoint.UpBars.md)**.
 
 
 ## Syntax
 
- _expression_. `UpBars`
+_expression_.**UpBars**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -31,9 +30,10 @@ This property applies only to line charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example enables up and down bars for chart group one of the first chart in the active document, and then sets their colors. You should run the example on a 2-D line chart that contains two series that cross each other at one or more data points.
+The following example enables up and down bars for chart group one of the first chart in the active document, and then sets their colors. You should run the example on a 2D line chart that contains two series that cross each other at one or more data points.
 
 
 

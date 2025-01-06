@@ -1,18 +1,17 @@
 ---
-title: MailItem.Reply Method (Outlook)
+title: MailItem.Reply method (Outlook)
 keywords: vbaol11.chm1367
 f1_keywords:
 - vbaol11.chm1367
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.Reply
 ms.assetid: c03208a4-dd31-a8ff-0dcd-4ef37a36beb2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Reply Method (Outlook)
+# MailItem.Reply method (Outlook)
 
 Creates a reply, pre-addressed to the original sender, from the original message.
 
@@ -21,12 +20,12 @@ Creates a reply, pre-addressed to the original sender, from the original message
 
 _expression_. `Reply`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Return value
 
-A  **[MailItem](Outlook.MailItem.md)** object that represents the reply.
+A **[MailItem](Outlook.MailItem.md)** object that represents the reply.
 
 
 ## See also

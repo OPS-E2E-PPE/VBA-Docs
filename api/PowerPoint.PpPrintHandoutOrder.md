@@ -1,15 +1,14 @@
 ---
-title: PpPrintHandoutOrder Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpPrintHandoutOrder enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpPrintHandoutOrder
 ms.assetid: 380b3e32-b29e-1f89-5fb0-aca875447fb6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpPrintHandoutOrder Enumeration (PowerPoint)
+# PpPrintHandoutOrder enumeration (PowerPoint)
 
 Specifies the page layout order in which slides appear on printed handouts that show multiple slides on one page.
 

@@ -1,27 +1,26 @@
 ---
-title: OlkTimeControl Object (Outlook)
+title: OlkTimeControl object (Outlook)
 keywords: vbaol11.chm1000415
 f1_keywords:
 - vbaol11.chm1000415
-ms.prod: outlook
 api_name:
 - Outlook.OlkTimeControl
 ms.assetid: b23f1741-b920-0caf-d4be-9892d8f2ae07
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkTimeControl Object (Outlook)
+# OlkTimeControl object (Outlook)
 
 A control that displays the Outlook time drop-down menu. 
 
 
 ## Remarks
 
-Before you use this control for the first time in the forms designer, add the Microsoft Outlook Time Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic  **UserForm** object in the Visual Basic Editor.
+Before you use this control for the first time in the forms designer, add the Microsoft Outlook Time Control to the control toolbox. You can only add this control to a form region in an Outlook form using the forms designer; you cannot add this control to a Visual Basic **UserForm** object in the Visual Basic Editor.
 
-The time control has several different modes which are exposed via properties on the control. It can be bound to any  **DateTime** property, and can be bound to the same property as a date control to provide the capability to select both date and time.
+The time control has several different modes which are exposed via properties on the control. It can be bound to any **DateTime** property, and can be bound to the same property as a date control to provide the capability to select both date and time.
 
 The following is an example of the time control at runtime. This control supports Microsoft Windows themes.
 
@@ -30,7 +29,7 @@ The following is an example of the time control at runtime. This control support
 
 
 
-If the  **[Click](Outlook.OlkTimeControl.Click.md)** event is implemented but the **[DropButtonClick](Outlook.OlkTimeControl.DropButtonClick.md)** event is not implemented, then clicking the drop button will fire only the **Click** event.
+If the **[Click](Outlook.OlkTimeControl.Click.md)** event is implemented but the **[DropButtonClick](Outlook.OlkTimeControl.DropButtonClick.md)** event is not implemented, then clicking the drop button will fire only the **Click** event.
 
 If you bind the time control to the start time or the end time of an appointment item, you must use an add-in to control enabling and disabling of the time control. In particular, when the user sets the appointment as an all-day event, you must use code to disable the time controls for the start time and the end time, and enable the controls only when the user clears this setting.
 
@@ -95,6 +94,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

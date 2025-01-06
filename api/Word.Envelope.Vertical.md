@@ -3,12 +3,11 @@ title: Envelope.Vertical property (Word)
 keywords: vbawd10.chm152567830
 f1_keywords:
 - vbawd10.chm152567830
-ms.prod: word
 api_name:
 - Word.Envelope.Vertical
 ms.assetid: 23f8fbf0-375e-98c2-81b4-451cc8973e85
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Vertical`
+_expression_. `Vertical`
 
- _expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
+_expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
 
 
 ## Example

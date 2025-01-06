@@ -3,12 +3,11 @@ title: Range.AutoOutline method (Excel)
 keywords: vbaxl10.chm144087
 f1_keywords:
 - vbaxl10.chm144087
-ms.prod: excel
 api_name:
 - Excel.Range.AutoOutline
 ms.assetid: a2553695-6d45-9b7c-7c45-5255fa3641f0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/10/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Automatically creates an outline for the specified range. If the range is a sing
 
 ## Syntax
 
-_expression_. `AutoOutline`
+_expression_.**AutoOutline**
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Return value
@@ -33,8 +32,8 @@ Variant
 
 This example creates an outline for the range A1:G37 on Sheet1. 
 
-
- **Note**  The range must contain either a  **summary row** or a **summary column**.
+> [!NOTE] 
+> The range must contain either a **summary row** or a **summary column**.
 
 
 ```vb
@@ -42,9 +41,6 @@ Worksheets("Sheet1").Range("A1:G37").AutoOutline
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

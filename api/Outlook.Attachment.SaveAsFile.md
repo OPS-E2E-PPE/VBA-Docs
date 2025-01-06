@@ -1,18 +1,17 @@
 ---
-title: Attachment.SaveAsFile Method (Outlook)
+title: Attachment.SaveAsFile method (Outlook)
 keywords: vbaol11.chm2373
 f1_keywords:
 - vbaol11.chm2373
-ms.prod: outlook
 api_name:
 - Outlook.Attachment.SaveAsFile
 ms.assetid: d755261a-d551-f3a1-1b20-d87d4d9c38ae
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Attachment.SaveAsFile Method (Outlook)
+# Attachment.SaveAsFile method (Outlook)
 
 Saves the attachment to the specified path.
 
@@ -21,7 +20,7 @@ Saves the attachment to the specified path.
 
 _expression_. `SaveAsFile`( `_Path_` )
 
-_expression_ A variable that represents an [Attachment](./Outlook.Attachment.md) object.
+_expression_ A variable that represents an [Attachment](Outlook.Attachment.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [Attachment](./Outlook.Attachment.md)
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[SaveAsFile](Outlook.Attachment.SaveAsFile.md)** method to save the first attachment of the currently open item as a file in the Documents folder, using the attachment's display name as the file name.
+This Visual Basic for Applications (VBA) example uses the **[SaveAsFile](Outlook.Attachment.SaveAsFile.md)** method to save the first attachment of the currently open item as a file in the Documents folder, using the attachment's display name as the file name.
 
 
 ```vb

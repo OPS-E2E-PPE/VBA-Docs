@@ -3,10 +3,9 @@ title: Using arrays (VBA)
 keywords: vbcn6.chm1076800
 f1_keywords:
 - vbcn6.chm1076800
-ms.prod: office
 ms.assetid: 23244a15-4c53-1f39-fdd5-d1fc2b394382
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -25,18 +24,18 @@ To set the value of an individual element, you specify the element's index. The 
 
 ```vb
 Sub FillArray() 
- Dim curExpense(364) As Currency 
- Dim intI As Integer 
- For intI = 0 to 364 
- curExpense(intI) = 20 
- Next 
+    Dim curExpense(364) As Currency 
+    Dim intI As Integer 
+    For intI = 0 to 364 
+        curExpense(intI) = 20 
+    Next 
 End Sub
 ```
 
 
 ## Changing the lower bound
 
-You can use the **[Option Base](../../reference/user-interface-help/option-base-statement.md)** statement at the top of a [module](../../Glossary/vbe-glossary.md#module) to change the default index of the first element from 0 to 1. In the following example, the **Option Base** statement changes the index for the first element, and the **[Dim](../../reference/user-interface-help/dim-statement.md)** statement declares the array variable with 365 elements.
+Use the **[Option Base](../../reference/user-interface-help/option-base-statement.md)** statement at the top of a [module](../../Glossary/vbe-glossary.md#module) to change the default index of the first element from 0 to 1. In the following example, the **Option Base** statement changes the index for the first element, and the **[Dim](../../reference/user-interface-help/dim-statement.md)** statement declares the array variable with 365 elements.
 
 
 ```vb
@@ -101,16 +100,16 @@ Use nested **[For...Next](../../reference/user-interface-help/fornext-statement.
 
 ```vb
 Sub FillArrayMulti() 
- Dim intI As Integer, intJ As Integer 
- Dim sngMulti(1 To 5, 1 To 10) As Single 
+    Dim intI As Integer, intJ As Integer 
+    Dim sngMulti(1 To 5, 1 To 10) As Single 
  
- ' Fill array with values. 
- For intI = 1 To 5 
- For intJ = 1 To 10 
- sngMulti(intI, intJ) = intI * intJ 
- Debug.Print sngMulti(intI, intJ) 
- Next intJ 
- Next intI 
+    ' Fill array with values. 
+    For intI = 1 To 5 
+        For intJ = 1 To 10 
+            sngMulti(intI, intJ) = intI * intJ 
+            Debug.Print sngMulti(intI, intJ) 
+        Next intJ 
+    Next intI 
 End Sub
 ```
 

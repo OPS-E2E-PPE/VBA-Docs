@@ -3,12 +3,11 @@ title: CheckBox.Section property (Access)
 keywords: vbaac10.chm10730
 f1_keywords:
 - vbaac10.chm10730
-ms.prod: access
 api_name:
 - Access.CheckBox.Section
 ms.assetid: 0b78f0d4-c34f-ef4c-8cfc-800e68e9be44
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,32 +3,31 @@ title: Frame.RedoAction Method (Outlook Forms Script)
 keywords: olfm10.chm2000340
 f1_keywords:
 - olfm10.chm2000340
-ms.prod: outlook
 ms.assetid: d681d6e8-935b-f5f0-aaba-e5f63e7491bb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frame.RedoAction Method (Outlook Forms Script)
 
-Reverses the effect of the most recent  **Undo** action.
+Reverses the effect of the most recent **Undo** action.
 
 
 ## Syntax
 
-_expression_. **RedoAction**
+_expression_.**RedoAction**
 
-_expression_ A variable that represents a  **Frame** object.
+_expression_ A variable that represents a **Frame** object.
 
 
 ## Return value
 
-A  **Boolean** that specifies **True** if the method succeeds, **False** otherwise.
+A **Boolean** that specifies **True** if the method succeeds, **False** otherwise.
 
 
 ## Remarks
 
-Redo reverses the last  **Undo**, which is not necessarily the last action taken. Not all actions can be undone.
+Redo reverses the last **Undo**, which is not necessarily the last action taken. Not all actions can be undone.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

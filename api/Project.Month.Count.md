@@ -1,24 +1,24 @@
 ---
-title: Month.Count Property (Project)
-ms.prod: project-server
+title: Month.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.Month.Count
 ms.assetid: cf17523e-9b43-ee38-3c45-15936e8d0559
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Month.Count Property (Project)
+# Month.Count property (Project)
 
-Gets the number of days in the  **Month** object. Read-only **Integer**.
+Gets the number of days in the **Month** object. Read-only **Integer**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Month](./Project.Month.md) object.
+_expression_ A variable that represents a [Month](./Project.Month.md) object.
 
 
 ## Example

@@ -3,25 +3,24 @@ title: ChartTitle.FormulaLocal property (Word)
 keywords: vbawd10.chm65273898
 f1_keywords:
 - vbawd10.chm65273898
-ms.prod: word
 api_name:
 - Word.ChartTitle.FormulaLocal
 ms.assetid: 14f73074-86d5-3cd3-8940-5ed33488bccd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartTitle.FormulaLocal property (Word)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
- _expression_ A variable that represents a '[ChartTitle](Word.ChartTitle.md)' object.
+_expression_ A variable that represents a '[ChartTitle](Word.ChartTitle.md)' object.
 
 
 ## Remarks

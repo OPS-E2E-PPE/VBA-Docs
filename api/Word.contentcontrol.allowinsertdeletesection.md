@@ -3,10 +3,9 @@ title: ContentControl.AllowInsertDeleteSection property (Word)
 keywords: vbawd10.chm266534948
 f1_keywords:
 - vbawd10.chm266534948
-ms.prod: word
 ms.assetid: 5c39b5a4-1efe-eb01-cab2-ed1273ebaf4d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,14 +16,14 @@ Gets or sets whether users can add or remove sections from the specified repeati
 
 ## Syntax
 
- _expression_. `AllowInsertDeleteSection`
+_expression_. `AllowInsertDeleteSection`
 
- _expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
+_expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-You can use this property only with repeating section content controls. Using it with other content controls will result in an error message effect.
+Use this property only with repeating section content controls. Using it with other content controls will result in an error message effect.
 
 
 ## Property value

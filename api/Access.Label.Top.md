@@ -3,18 +3,17 @@ title: Label.Top property (Access)
 keywords: vbaac10.chm10198
 f1_keywords:
 - vbaac10.chm10198
-ms.prod: access
 api_name:
 - Access.Label.Top
 ms.assetid: c8f4fbd0-bf2a-eb73-0d03-5dce19d17161
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: FillFormat.PictureEffects property (Word)
 keywords: vbawd10.chm164102266
 f1_keywords:
 - vbawd10.chm164102266
-ms.prod: word
 api_name:
 - Word.FillFormat.PictureEffects
 ms.assetid: 810143d0-ccef-5e39-68b0-7317fd29febc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns a [PictureEffects](Office.PictureEffects.md) object that can be used to 
 
 ## Syntax
 
- _expression_. `PictureEffects`
+_expression_.**PictureEffects**
 
- _expression_ An expression that returns a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ An expression that returns a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks

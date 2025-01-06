@@ -3,12 +3,11 @@ title: NavigationControl.Undo event (Access)
 keywords: vbaac10.chm14210
 f1_keywords:
 - vbaac10.chm14210
-ms.prod: access
 api_name:
 - Access.NavigationControl.Undo
 ms.assetid: ebab443e-6abc-ed4a-5f2a-4ad00c7f9d8c
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

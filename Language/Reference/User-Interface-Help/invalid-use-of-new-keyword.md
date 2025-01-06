@@ -3,10 +3,9 @@ title: Invalid use of New keyword
 keywords: vblr6.chm1040348
 f1_keywords:
 - vblr6.chm1040348
-ms.prod: office
 ms.assetid: 6bdc77a1-dde7-974e-4fee-b9279b4f3ae3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -33,7 +32,7 @@ The **New** keyword can only be applied to a creatable object (an instance of a 
     Set MyListBox = New ListBox 
   ```
 
-  **[ListBox](listbox-control.md)** and **Form** are class names, not specific object names. You can use them to specify that a [variable](../../Glossary/vbe-glossary.md#variable) will be a reference to a certain [object type](../../Glossary/vbe-glossary.md#object-type), as with the valid **Dim** statements above. But you can't use them to instantiate the objects themselves in a **Set** statement. You must specify a specific object, rather than the generic class name, in the **Set** statement:
+ **[ListBox](listbox-control.md)** and **Form** are class names, not specific object names. Use them to specify that a [variable](../../Glossary/vbe-glossary.md#variable) will be a reference to a certain [object type](../../Glossary/vbe-glossary.md#object-type), as with the valid **Dim** statements above. But you can't use them to instantiate the objects themselves in a **Set** statement. You must specify a specific object, rather than the generic class name, in the **Set** statement:
     
   ```vb
       ' Valid syntax to create new instance of a form or list box. 

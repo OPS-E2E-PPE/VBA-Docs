@@ -1,32 +1,31 @@
 ---
-title: TextFrame2.VerticalAnchor Property (PowerPoint)
+title: TextFrame2.VerticalAnchor property (PowerPoint)
 keywords: vbapp10.chm678008
 f1_keywords:
 - vbapp10.chm678008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2.VerticalAnchor
 ms.assetid: e00b1b4b-c291-fb10-be85-49e84ab0b739
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2.VerticalAnchor Property (PowerPoint)
+# TextFrame2.VerticalAnchor property (PowerPoint)
 
  Returns or sets the vertical alignment of text in a text frame. Read/write.
 
 
 ## Syntax
 
- _expression_.**VerticalAnchor**
+_expression_.**VerticalAnchor**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Remarks
 
-The value of the  **VerticalAnchor** property can be one of these **MsoVerticalAnchor** constants.
+The value of the **VerticalAnchor** property can be one of these **MsoVerticalAnchor** constants.
 
 
 ||

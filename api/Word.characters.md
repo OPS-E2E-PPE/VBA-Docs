@@ -1,9 +1,8 @@
 ---
 title: Characters object (Word)
-ms.prod: word
 ms.assetid: 6d22ae7a-128d-134d-9136-1cdd5a8d9941
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -74,6 +73,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

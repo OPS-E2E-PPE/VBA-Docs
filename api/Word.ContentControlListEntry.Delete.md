@@ -3,12 +3,11 @@ title: ContentControlListEntry.Delete method (Word)
 keywords: vbawd10.chm147456106
 f1_keywords:
 - vbawd10.chm147456106
-ms.prod: word
 api_name:
 - Word.ContentControlListEntry.Delete
 ms.assetid: fa28888a-6542-9216-e444-d43b2464cf65
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Deletes the specified item in a combo box or drop-down list content control.
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
  _expression_ An expression that returns a [ContentControlListEntry](./Word.ContentControlListEntry.md) object.
 

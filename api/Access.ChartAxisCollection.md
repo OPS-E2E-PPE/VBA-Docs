@@ -3,11 +3,10 @@ title: ChartAxisCollection object (Access)
 keywords: vbaac10.chm14753
 f1_keywords:
 - vbaac10.chm14753
-ms.prod: access
 api_name:
 - Access.ChartAxisCollection
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

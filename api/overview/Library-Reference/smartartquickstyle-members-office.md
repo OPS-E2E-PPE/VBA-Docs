@@ -1,10 +1,10 @@
 ---
 title: SmartArtQuickStyle members (Office)
 description: Represents a SmartArt quick style.
-ms.prod: office
+ms.service: office
 ms.assetid: 9121866b-1308-4024-faa6-fa9254f18dd6
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

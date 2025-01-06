@@ -1,11 +1,10 @@
 ---
 title: FileTypes.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.FileTypes.Creator
 ms.assetid: c3e9d104-e60b-4b8b-eb1c-95553dcefd89
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: SyncObject.Stop Method (Outlook)
+title: SyncObject.Stop method (Outlook)
 keywords: vbaol11.chm109
 f1_keywords:
 - vbaol11.chm109
-ms.prod: outlook
 api_name:
 - Outlook.SyncObject.Stop
 ms.assetid: ce74230f-6da7-953e-5a70-157900f4e84d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SyncObject.Stop Method (Outlook)
+# SyncObject.Stop method (Outlook)
 
-Immediately ends synchronizing a user's folders using the specified  **Send/Receive** group.
+Immediately ends synchronizing a user's folders using the specified **Send/Receive** group.
 
 
 ## Syntax
 
 _expression_. `Stop`
 
-_expression_ A variable that represents a [SyncObject](./Outlook.SyncObject.md) object.
+_expression_ A variable that represents a [SyncObject](Outlook.SyncObject.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This method does not undo any synchronization that has already occurred.
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example displays all the  **Send/Receive** groups set up for the user and starts the synchronization based on the user's response. The subroutine following the one below immediately stops the synchronization. The `syc` variable is declared as a public variable so it can be referenced by both the subroutines.
+This Microsoft Visual Basic for Applications (VBA) example displays all the **Send/Receive** groups set up for the user and starts the synchronization based on the user's response. The subroutine following the one below immediately stops the synchronization. The `syc` variable is declared as a public variable so it can be referenced by both the subroutines.
 
 
 ```vb

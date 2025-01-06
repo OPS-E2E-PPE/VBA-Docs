@@ -3,12 +3,11 @@ title: Document.EmbedTrueTypeFonts property (Word)
 keywords: vbawd10.chm158007346
 f1_keywords:
 - vbawd10.chm158007346
-ms.prod: word
 api_name:
 - Word.Document.EmbedTrueTypeFonts
 ms.assetid: ac8fb6a1-584a-2ddb-4216-53e30473ff65
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EmbedTrueTypeFonts`
+_expression_. `EmbedTrueTypeFonts`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ ActiveDocument.EmbedTrueTypeFonts = True
 ActiveDocument.Save
 ```
 
-This example returns the current status of the  **Embed TrueType** fonts check box in the **Save** options area on the **Save** tab in the **Options** dialog box.
+This example returns the current status of the **Embed TrueType** fonts check box in the **Save** options area on the **Save** tab in the **Options** dialog box.
 
 
 

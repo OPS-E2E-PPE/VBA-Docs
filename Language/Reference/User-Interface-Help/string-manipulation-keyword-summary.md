@@ -1,15 +1,12 @@
 ---
 title: String manipulation keyword summary
-ms.prod: office
 ms.assetid: 736ca4ac-3fbb-097a-1c0a-04c570b532f7
 ms.date: 11/29/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # String manipulation keyword summary
-
-<br/>
 
 |Action|Keywords|
 |:-----|:-----|
@@ -20,7 +17,7 @@ localization_priority: Priority
 |Find length of a string.|[Len](len-function.md)|
 |Format a string.|[Format](format-function-visual-basic-for-applications.md)|
 |Justify a string.|[LSet](lset-statement.md), [Rset](rset-statement.md)|
-|Manipulate strings.|[InStr](instr-function.md), [Left](left-function.md), [LTrim](ltrim-rtrim-and-trim-functions.md), [Mid](mid-function.md), [Right](right-function.md), [RTrim](ltrim-rtrim-and-trim-functions.md), [Trim](ltrim-rtrim-and-trim-functions.md)|
+|Manipulate strings.|[InStr](instr-function.md), [InStrRev](instrrev-function.md), [Left](left-function.md), [LTrim](ltrim-rtrim-and-trim-functions.md), [Mid](mid-function.md), [Right](right-function.md), [RTrim](ltrim-rtrim-and-trim-functions.md), [Trim](ltrim-rtrim-and-trim-functions.md)|
 |Set string comparison rules.|[Option Compare](option-compare-statement.md)|
 |Work with ASCII and ANSI values.|[Asc](asc-function.md), [Chr](chr-function.md)|
 

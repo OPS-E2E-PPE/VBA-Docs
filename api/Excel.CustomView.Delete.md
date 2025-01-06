@@ -3,12 +3,11 @@ title: CustomView.Delete method (Excel)
 keywords: vbaxl10.chm508077
 f1_keywords:
 - vbaxl10.chm508077
-ms.prod: excel
 api_name:
 - Excel.CustomView.Delete
 ms.assetid: bcfdea3b-0d7e-8dd2-230a-d318f638945e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Deletes the object.
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents a [CustomView](Excel.CustomView.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[CustomView](Excel.CustomView.md)** object.
 
 
-[CustomView Object](Excel.CustomView.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

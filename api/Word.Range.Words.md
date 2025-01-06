@@ -3,32 +3,31 @@ title: Range.Words property (Word)
 keywords: vbawd10.chm157155379
 f1_keywords:
 - vbawd10.chm157155379
-ms.prod: word
 api_name:
 - Word.Range.Words
 ms.assetid: ada98916-b87c-7592-ee2d-561ed7067f39
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Words property (Word)
 
-Returns a  **Words** collection that represents all the words in a range. Read-only.
+Returns a **Words** collection that represents all the words in a range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Words`
+_expression_. `Words`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-Punctuation and paragraph marks in a document are included in the  **Words** collection.
+Punctuation and paragraph marks in a document are included in the **Words** collection.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

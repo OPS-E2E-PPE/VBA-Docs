@@ -3,12 +3,11 @@ title: AutoWordSelect property
 keywords: fm20.chm2000760
 f1_keywords:
 - fm20.chm2000760
-ms.prod: office
 api_name:
 - Office.AutoWordSelect
 ms.assetid: 24e9e8ff-5988-9ed3-4a2c-f3faa99248f9
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

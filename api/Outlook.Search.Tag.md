@@ -1,37 +1,36 @@
 ---
-title: Search.Tag Property (Outlook)
+title: Search.Tag property (Outlook)
 keywords: vbaol11.chm2258
 f1_keywords:
 - vbaol11.chm2258
-ms.prod: outlook
 api_name:
 - Outlook.Search.Tag
 ms.assetid: f0341885-ea75-2277-e55b-827f62165ab2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Search.Tag Property (Outlook)
+# Search.Tag property (Outlook)
 
-Returns a  **String** specifying the name of the current search. The **Tag** property is used to identify a specific search. Read-only.
+Returns a **String** specifying the name of the current search. The **Tag** property is used to identify a specific search. Read-only.
 
 
 ## Syntax
 
 _expression_.**Tag**
 
-_expression_ A variable that represents a [Search](./Outlook.Search.md) object.
+_expression_ A variable that represents a [Search](Outlook.Search.md) object.
 
 
 ## Remarks
 
-The  **Tag** property is set by using the **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method when the **[Search](Outlook.Search.md)** object is created.
+The **Tag** property is set by using the **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method when the **[Search](Outlook.Search.md)** object is created.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example searches through the user's  **Inbox** for all items that do not have a flag. The name "FlagSearch", specified by the **Tag** property, is given to the search. The `AdvanceSearchComplete` event procedure sets the boolean `blnSearchComp` to **True** when the search is complete. This boolean variable is used by the `TestAdvancedSearchComplete()` procedure to determine when the search is complete. The sample code must be placed in a class module such as **ThisOutlookSession**, and the  `TestAdvancedSearchComplete()` subroutine must be called before the event procedure can be called by Outlook. The `AdvanceSearchComplete` event procedure displays the tag to the user so the user can identify which search was completed because usually the search is asynchronous (use the **[IsSynchronous](Outlook.Search.IsSynchronous.md)** property to determine if the search will be synchronous or asynchronous), and you can execute multiple searches simultaneously.
+The following Visual Basic for Applications (VBA) example searches through the user's **Inbox** for all items that don't have a flag. The name "FlagSearch", specified by the **Tag** property, is given to the search. The `AdvanceSearchComplete` event procedure sets the boolean `blnSearchComp` to **True** when the search is complete. This boolean variable is used by the `TestAdvancedSearchComplete()` procedure to determine when the search is complete. The sample code must be placed in a class module such as **ThisOutlookSession**, and the `TestAdvancedSearchComplete()` subroutine must be called before the event procedure can be called by Outlook. The `AdvanceSearchComplete` event procedure displays the tag to the user so the user can identify which search was completed because usually the search is asynchronous (use the **[IsSynchronous](Outlook.Search.IsSynchronous.md)** property to determine if the search will be synchronous or asynchronous), and you can execute multiple searches simultaneously.
 
 
 ```vb

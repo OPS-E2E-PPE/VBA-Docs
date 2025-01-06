@@ -1,27 +1,26 @@
 ---
-title: Trendline.Forward2 Property (PowerPoint)
+title: Trendline.Forward2 property (PowerPoint)
 keywords: vbapp10.chm68187
 f1_keywords:
 - vbapp10.chm68187
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Trendline.Forward2
 ms.assetid: d5968c1f-de77-a03f-44b2-f91d6638a6ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Trendline.Forward2 Property (PowerPoint)
+# Trendline.Forward2 property (PowerPoint)
 
-Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. Read/write  **Double**.
+Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `Forward2`
+_expression_. `Forward2`
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## Example
@@ -29,9 +28,10 @@ Returns or sets the number of periods (or units on a scatter chart) that the tre
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example sets the number of units that the trendline for the first chart in the active document extends forward and backward. You should run the example on a 2-D column chart that contains a single series that has a trendline.
+The following example sets the number of units that the trendline for the first chart in the active document extends forward and backward. You should run the example on a 2D column chart that contains a single series that has a trendline.
 
 
 

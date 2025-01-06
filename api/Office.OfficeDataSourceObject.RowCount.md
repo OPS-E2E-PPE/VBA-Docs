@@ -3,12 +3,11 @@ title: OfficeDataSourceObject.RowCount property (Office)
 keywords: vbaof11.chm232005
 f1_keywords:
 - vbaof11.chm232005
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject.RowCount
 ms.assetid: 5360a399-e2f8-b331-f62c-c110884b3c92
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ Sub OfficeFilters()
  Dim appFilters As ODSOFilters 
  
  Set appOffice = Application.OfficeDataSourceObject 
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  Set appFilters = appOffice.Filters 

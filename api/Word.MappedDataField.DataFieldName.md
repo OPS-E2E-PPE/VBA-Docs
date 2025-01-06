@@ -3,23 +3,22 @@ title: MappedDataField.DataFieldName property (Word)
 keywords: vbawd10.chm107544578
 f1_keywords:
 - vbawd10.chm107544578
-ms.prod: word
 api_name:
 - Word.MappedDataField.DataFieldName
 ms.assetid: 10356bc7-1635-8c83-984c-72a332740d89
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MappedDataField.DataFieldName property (Word)
 
-Sets or returns a  **String** that represents the name of the field in the mail merge data source to which a mapped data field maps. Read/write.
+Sets or returns a **String** that represents the name of the field in the mail merge data source to which a mapped data field maps. Read/write.
 
 
 ## Syntax
 
- _expression_. `DataFieldName`
+_expression_. `DataFieldName`
 
  _expression_ An expression that returns a '[MappedDataField](Word.MappedDataField.md)' object.
 

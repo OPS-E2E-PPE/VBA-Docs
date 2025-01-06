@@ -1,32 +1,31 @@
 ---
-title: TaskItem.Copy Method (Outlook)
+title: TaskItem.Copy method (Outlook)
 keywords: vbaol11.chm1713
 f1_keywords:
 - vbaol11.chm1713
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.Copy
 ms.assetid: 1224ae94-8c2c-70c8-234a-f3b577cd574e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.Copy Method (Outlook)
+# TaskItem.Copy method (Outlook)
 
 Creates another instance of an object.
 
 
 ## Syntax
 
-_expression_. `Copy`
+_expression_.**Copy**
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications example creates an email message, sets the  **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
+This Visual Basic for Applications example creates an email message, sets the **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
 
 
 ```vb

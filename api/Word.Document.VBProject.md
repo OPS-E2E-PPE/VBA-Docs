@@ -3,32 +3,31 @@ title: Document.VBProject property (Word)
 keywords: vbawd10.chm158007395
 f1_keywords:
 - vbawd10.chm158007395
-ms.prod: word
 api_name:
 - Word.Document.VBProject
 ms.assetid: bf9d4c60-8e7a-b076-b20c-0021e9352273
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.VBProject property (Word)
 
-Returns the  **VBProject** object for the specified template or document.
+Returns the **VBProject** object for the specified template or document.
 
 
 ## Syntax
 
- _expression_. `VBProject`
+_expression_. `VBProject`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
 Use this property to gain access to code modules and user forms.
 
-To view the  **VBProject** object in the object browser, you must select the **Microsoft Visual Basic for Applications Extensibility** check box in the **References** dialog box (**Tools** menu) in the Visual Basic Editor.
+To view the **VBProject** object in the object browser, you must select the **Microsoft Visual Basic for Applications Extensibility** check box in the **References** dialog box (**Tools** menu) in the Visual Basic Editor.
 
 
 ## Example

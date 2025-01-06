@@ -3,18 +3,15 @@ title: System Color constants
 keywords: vblr6.chm1106130
 f1_keywords:
 - vblr6.chm1106130
-ms.prod: office
 ms.assetid: d70b3279-75c4-8479-8368-2a129568b668
 ms.date: 12/11/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # System Color constants
 
 The following [constants](../../Glossary/vbe-glossary.md#constant) can be used anywhere in your code in place of the actual values.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|

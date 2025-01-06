@@ -3,12 +3,11 @@ title: MatchRequired property
 keywords: fm20.chm2001500
 f1_keywords:
 - fm20.chm2001500
-ms.prod: office
 api_name:
 - Office.MatchRequired
 ms.assetid: c2b2d308-4107-975f-9a2d-e0eaff413807
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

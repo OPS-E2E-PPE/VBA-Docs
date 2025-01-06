@@ -3,25 +3,24 @@ title: Document.CompatibilityMode property (Word)
 keywords: vbawd10.chm158007863
 f1_keywords:
 - vbawd10.chm158007863
-ms.prod: word
 api_name:
 - Word.Document.CompatibilityMode
 ms.assetid: 5e4be325-1883-7701-53a1-4d7e20e3a989
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.CompatibilityMode property (Word)
 
-Returns a  **Long** that specifies the compatibility mode that Word uses when opening the document. Read-only.
+Returns a **Long** that specifies the compatibility mode that Word uses when opening the document. Read-only.
 
 
 ## Syntax
 
- _expression_. `CompatibilityMode`
+_expression_. `CompatibilityMode`
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Remarks

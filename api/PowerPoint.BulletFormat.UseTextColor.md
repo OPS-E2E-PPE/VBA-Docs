@@ -1,27 +1,26 @@
 ---
-title: BulletFormat.UseTextColor Property (PowerPoint)
+title: BulletFormat.UseTextColor property (PowerPoint)
 keywords: vbapp10.chm577006
 f1_keywords:
 - vbapp10.chm577006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat.UseTextColor
 ms.assetid: 8242712a-051e-18fa-1b43-93a0ce1cd17b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat.UseTextColor Property (PowerPoint)
+# BulletFormat.UseTextColor property (PowerPoint)
 
 Determines whether the specified bullets are set to the color of the first text character in the paragraph. Read/write.
 
 
 ## Syntax
 
- _expression_. `UseTextColor`
+_expression_. `UseTextColor`
 
-_expression_ A variable that represents an [BulletFormat](./PowerPoint.BulletFormat.md) object.
+_expression_ A variable that represents an [BulletFormat](PowerPoint.BulletFormat.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoTriState
 
 ## Remarks
 
-You cannot explicitly set this property to  **msoFalse**. Setting the bullet format color (using the **[Color](PowerPoint.Font.Color.md)** property of the **Font** object) sets this property to **msoFalse**. When **UseTextColor** is **msoFalse**, you can set it to **msoTrue** to reset the bullet format to the default color.
+You cannot explicitly set this property to **msoFalse**. Setting the bullet format color (using the **[Color](PowerPoint.Font.Color.md)** property of the **Font** object) sets this property to **msoFalse**. When **UseTextColor** is **msoFalse**, you can set it to **msoTrue** to reset the bullet format to the default color.
 
-The value of the  **UseTextColor** property can be one of these **MsoTriState** constants.
+The value of the **UseTextColor** property can be one of these **MsoTriState** constants.
 
 
 

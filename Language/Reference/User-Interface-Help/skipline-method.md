@@ -3,12 +3,11 @@ title: SkipLine method (Visual Basic for Applications)
 keywords: vblr6.chm2182080
 f1_keywords:
 - vblr6.chm2182080
-ms.prod: office
 api_name:
 - Office.SkipLine
 ms.assetid: 77015ee6-d778-d38b-5f5b-b18f65e828fd
 ms.date: 12/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

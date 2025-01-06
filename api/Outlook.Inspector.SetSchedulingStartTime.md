@@ -1,20 +1,19 @@
 ---
-title: Inspector.SetSchedulingStartTime Method (Outlook)
+title: Inspector.SetSchedulingStartTime method (Outlook)
 keywords: vbaol11.chm3555
 f1_keywords:
 - vbaol11.chm3555
-ms.prod: outlook
 api_name:
 - Outlook.Inspector.SetSchedulingStartTime
 ms.assetid: 22e6358a-9dba-7edb-fc5f-3a2a7326bece
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Inspector.SetSchedulingStartTime Method (Outlook)
+# Inspector.SetSchedulingStartTime method (Outlook)
 
-Sets the start time for a meeting item in the free/busy grid on the  **Scheduling Assistant** tab of the inspector.
+Sets the start time for a meeting item in the free/busy grid on the **Scheduling Assistant** tab of the inspector.
 
 
 ## Syntax
@@ -30,16 +29,16 @@ _expression_ A variable that represents an '[Inspector](Outlook.Inspector.md)' o
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Start_|Required| **Date**|The beginning of the time range that the  **Scheduling Assistant** tab of the inspector displays free/busy times for meeting attendees.|
+| _Start_|Required| **Date**|The beginning of the time range that the **Scheduling Assistant** tab of the inspector displays free/busy times for meeting attendees.|
 
 ## Remarks
 
-The object specified by the  **[CurrentItem](Outlook.Inspector.CurrentItem.md)** property of the parent **[Inspector](Outlook.Inspector.md)** object must be an **[AppointmentItem](Outlook.AppointmentItem.md)** or **[MeetingItem](Outlook.MeetingItem.md)**. The **Scheduling Assistant** tab must be displayed in the inspector, otherwise Microsoft Outlook raises an error. If Outlook cannot display the **Scheduling Assistant** tab for that item type, Outlook displays the following error: **The scheduling start time can only be set when the Scheduling Assistant is displayed on a meeting item.**
+The object specified by the **[CurrentItem](Outlook.Inspector.CurrentItem.md)** property of the parent **[Inspector](Outlook.Inspector.md)** object must be an **[AppointmentItem](Outlook.AppointmentItem.md)** or **[MeetingItem](Outlook.MeetingItem.md)**. The **Scheduling Assistant** tab must be displayed in the inspector, otherwise Microsoft Outlook raises an error. If Outlook cannot display the **Scheduling Assistant** tab for that item type, Outlook displays the following error: **The scheduling start time can only be set when the Scheduling Assistant is displayed on a meeting item.**
 
 
 ## Example
 
-The following code sample in Microsoft Visual Basic for Applications (VBA) shows how to use the  **SetSchedulingStartTime** method to set the scheduling start time on the **Scheduling Assistant** tab of an **AppointmentItem**. The appointment start time is set to one month from now, and the scheduling start time is also set to one month from now.
+The following code sample in Microsoft Visual Basic for Applications (VBA) shows how to use the **SetSchedulingStartTime** method to set the scheduling start time on the **Scheduling Assistant** tab of an **AppointmentItem**. The appointment start time is set to one month from now, and the scheduling start time is also set to one month from now.
 
 
 ```vb

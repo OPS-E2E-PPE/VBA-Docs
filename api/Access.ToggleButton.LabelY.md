@@ -3,12 +3,11 @@ title: ToggleButton.LabelY property (Access)
 keywords: vbaac10.chm11739
 f1_keywords:
 - vbaac10.chm11739
-ms.prod: access
 api_name:
 - Access.ToggleButton.LabelY
 ms.assetid: 6e85e8f2-ebcb-7bf4-9c78-f83a684deebd
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

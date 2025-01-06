@@ -1,15 +1,14 @@
 ---
 title: Selecting the Item on Which to Base a Form
-ms.prod: outlook
 ms.assetid: c5d69afb-adf3-bd9c-d9fb-da1ed16d2244
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # Selecting the Item on Which to Base a Form
 
-Each Microsoft Outlook item is a collection of fields. These collections of fields are what define the various forms. Some of these forms might be more useful for some applications than for others. To see the complete list of fields for an item, click  **All** in the **Field Chooser**. For example, to see all the fields in a mail message, click  **All Mail Fields**. If the field that you want is not listed, you can create a custom field by clicking  **New** in the **Field Chooser**.
+Each Microsoft Outlook item is a collection of fields. These collections of fields are what define the various forms. Some of these forms might be more useful for some applications than for others. To see the complete list of fields for an item, click **All** in the **Field Chooser**. For example, to see all the fields in a mail message, click **All Mail Fields**. If the field that you want is not listed, you can create a custom field by clicking **New** in the **Field Chooser**.
 
 
 

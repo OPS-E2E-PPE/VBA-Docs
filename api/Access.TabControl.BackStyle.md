@@ -3,18 +3,17 @@ title: TabControl.BackStyle property (Access)
 keywords: vbaac10.chm12085
 f1_keywords:
 - vbaac10.chm12085
-ms.prod: access
 api_name:
 - Access.TabControl.BackStyle
 ms.assetid: f20c9406-7608-89ea-d0ff-d54bf4d1c526
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

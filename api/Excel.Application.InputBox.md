@@ -3,12 +3,11 @@ title: Application.InputBox method (Excel)
 keywords: vbaxl10.chm133149
 f1_keywords:
 - vbaxl10.chm133149
-ms.prod: excel
 api_name:
 - Excel.Application.InputBox
 ms.assetid: d3bd2f3a-7fed-20fa-918d-a71e2a2a1d49
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 04/05/2019
+ms.localizationpriority: high
 ---
 
 
@@ -19,17 +18,17 @@ Displays a dialog box for user input. Returns the information entered in the dia
 
 ## Syntax
 
-_expression_. `InputBox` (`_Prompt_`, `_Title_`, `_Default_`, `_Left_`, `_Top_`, `_HelpFile_`, `_HelpContextID_`, `_Type_`)
+_expression_.**InputBox** (_Prompt_, _Title_, _Default_, _Left_, _Top_, _HelpFile_, _HelpContextID_, _Type_)
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Parameters
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Prompt_|Required| **String**|The message to be displayed in the dialog box. This can be a string, a number, a date, or a Boolean value (Microsoft Excel automatically coerces the value to a **String** before it is displayed).|
-| _Title_|Optional| **Variant**|The title for the input box. If this argument is omitted, the default title is "Input."|
+| _Prompt_|Required| **String**|The message to be displayed in the dialog box. This can be a string, a number, a date, or a **Boolean** value (Microsoft Excel automatically coerces the value to a **String** before it is displayed). Maximum length is **255 characters**, otherwise there is no prompt, and Application's method immediately returns Error 2015.|
+| _Title_|Optional| **Variant**|The title for the input box. If this argument is omitted, the default title is Input.|
 | _Default_|Optional| **Variant**|Specifies a value that will appear in the text box when the dialog box is initially displayed. If this argument is omitted, the text box is left empty. This value can be a **[Range](Excel.Range(object).md)** object.|
 | _Left_|Optional| **Variant**|Specifies an *x* position for the dialog box in relation to the upper-left corner of the screen, in points.|
 | _Top_|Optional| **Variant**|Specifies a *y* position for the dialog box in relation to the upper-left corner of the screen, in points.|
@@ -44,9 +43,9 @@ Variant
 
 ## Remarks
 
-The following table lists the values that can be passed in the Type argument. Can be one or a sum of the values. For example, for an input box that can accept both text and numbers, set _Type_ to 1 + 2.
+The following table lists the values that can be passed in the _Type_ argument. Can be one or a sum of the values. For example, for an input box that can accept both text and numbers, set _Type_ to 1 + 2.
 
-|**Value**|**Meaning**|
+|Value|Description|
 |:-----|:-----|
 |0|A formula|
 |1|A number|
@@ -67,7 +66,7 @@ If _Type_ is 8, **InputBox** returns a **Range** object. You must use the **Set*
 Set myRange = Application.InputBox(prompt := "Sample", type := 8)
 ```
 
-If you do not use the **Set** statement, the variable is set to the value in the range, rather than the **Range** object itself.
+If you don't use the **Set** statement, the variable is set to the value in the range, rather than the **Range** object itself.
 
 If you use the **InputBox** method to ask the user for a formula, you must use the **[FormulaLocal](Excel.Range.FormulaLocal.md)** property to assign the formula to a **Range** object. The input formula will be in the user's language.
 
@@ -90,9 +89,7 @@ Set myCell = Application.InputBox( _
     prompt:="Select a cell", Type:=8)
 ```
 
-**Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1)
-
-This example uses an InputBox for the user to select a range to pass to the user-defined function 'MyFunction', which multiplies three values in a range together and returns the result.
+This example uses an **InputBox** for the user to select a range to pass to the user-defined function _MyFunction_, which multiplies three values in a range together and returns the result.
 
 ```vb
 Sub Cbm_Value_Select()
@@ -116,12 +113,6 @@ Function MyFunction(rng As Range) As Double
 End Function
 ```
 
-### About the contributor
 
-*Holy Macro! Books* publishes entertaining books for people who use Office. See the complete catalog at MrExcel.com. 
-
-## See also
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: SubForm.DisplayWhen property (Access)
 keywords: vbaac10.chm11931
 f1_keywords:
 - vbaac10.chm11931
-ms.prod: access
 api_name:
 - Access.SubForm.DisplayWhen
 ms.assetid: 6f45b7da-6c6f-a7cf-b79a-4537b8f74dfe
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.DisplayWhen property (Access)
 
-You can use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
+Use the **DisplayWhen** property to specify which of a form's controls you want displayed on screen and in print. Read/write **Byte**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: AutoCaption.AutoInsert property (Word)
 keywords: vbawd10.chm159055873
 f1_keywords:
 - vbawd10.chm159055873
-ms.prod: word
 api_name:
 - Word.AutoCaption.AutoInsert
 ms.assetid: eac9cee8-93d5-e707-b03d-ef1dbe906ef9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoInsert`
+_expression_. `AutoInsert`
 
- _expression_ A variable that represents an '[AutoCaption](Word.AutoCaption.md)' object.
+_expression_ A variable that represents an '[AutoCaption](Word.AutoCaption.md)' object.
 
 
 ## Example

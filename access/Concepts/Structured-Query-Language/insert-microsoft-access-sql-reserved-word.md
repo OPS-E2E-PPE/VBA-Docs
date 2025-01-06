@@ -1,9 +1,8 @@
 ---
 title: INSERT (Microsoft Access SQL reserved word)
-ms.prod: access
 ms.assetid: ff4038e1-8136-f3eb-ec02-ba3b5d849b5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -13,10 +12,10 @@ localization_priority: Normal
 
 The INSERT keyword is used in these contexts:
 
-- [INSERT INTO statement](http://msdn.microsoft.com/library/d3e44258-79f2-caba-8629-bde03f898f2d%28Office.15%29.aspx)
-- [CREATE PROCEDURE statement](http://msdn.microsoft.com/library/1fbb5267-9862-bfb4-6436-176152d7a6cd%28Office.15%29.aspx)
-- [GRANT statement](http://msdn.microsoft.com/library/50ae97ae-d5be-57e5-d9da-f3fc42f01d83%28Office.15%29.aspx)
-- [REVOKE statement](http://msdn.microsoft.com/library/69399fd6-c4e8-f2e2-e5f4-48ae779323f5%28Office.15%29.aspx)
+- [INSERT INTO statement](https://msdn.microsoft.com/library/d3e44258-79f2-caba-8629-bde03f898f2d%28Office.15%29.aspx)
+- [CREATE PROCEDURE statement](https://msdn.microsoft.com/library/1fbb5267-9862-bfb4-6436-176152d7a6cd%28Office.15%29.aspx)
+- [GRANT statement](https://msdn.microsoft.com/library/50ae97ae-d5be-57e5-d9da-f3fc42f01d83%28Office.15%29.aspx)
+- [REVOKE statement](https://msdn.microsoft.com/library/69399fd6-c4e8-f2e2-e5f4-48ae779323f5%28Office.15%29.aspx)
 
 ## See also
 

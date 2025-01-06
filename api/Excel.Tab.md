@@ -3,12 +3,11 @@ title: Tab object (Excel)
 keywords: vbaxl10.chm722072
 f1_keywords:
 - vbaxl10.chm722072
-ms.prod: excel
 api_name:
 - Excel.Tab
 ms.assetid: c6555e96-b96e-54d8-b8c6-5ab13c256d97
-ms.date: 09/05/2018
-localization_priority: Normal
+ms.date: 04/02/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,25 +20,12 @@ Represents the tab of a chart or a worksheet.
 
 Use the **Tab** property of the **[Chart](Excel.Chart(object).md)** object or **[Worksheet](Excel.Worksheet.md)** object to return a **Tab** object.
 
-Once a  **Tab** object is returned, you can use the **[ColorIndex](Excel.Tab.ColorIndex.md)** property determine the settings of a tab for a chart or worksheet.
+After a **Tab** object is returned, you can use the **ColorIndex** property to determine the settings of a tab for a chart or worksheet.
 
-
-## Properties
-
-|Name|
-|:-----|
-|[Application property](Excel.Tab.Application.md)|
-|[Color property](Excel.Tab.Color.md)|
-|[ColorIndex property](Excel.Tab.ColorIndex.md)|
-|[Creator property](Excel.Tab.Creator.md)|
-|[Parent property](Excel.Tab.Parent.md)|
-|[ThemeColor property](Excel.Tab.ThemeColor.md)|
-|[TintAndShade property](Excel.Tab.TintAndShade.md)|
 
 ## Example
 
-In the following example, Microsoft Excel determines if the worksheet's first tab color index is set to none and notifies the user.
-
+In the following example, Microsoft Excel determines if the worksheet's first tab color index is set to none, and then notifies the user.
 
 ```vb
 Sub CheckTab() 
@@ -55,6 +41,16 @@ Sub CheckTab()
  
 End Sub
 ```
+
+## Properties
+
+- [Application](Excel.Tab.Application.md)
+- [Color](Excel.Tab.Color.md)
+- [ColorIndex](Excel.Tab.ColorIndex.md)
+- [Creator](Excel.Tab.Creator.md)
+- [Parent](Excel.Tab.Parent.md)
+- [ThemeColor](Excel.Tab.ThemeColor.md)
+- [TintAndShade](Excel.Tab.TintAndShade.md)
 
 ## See also
 

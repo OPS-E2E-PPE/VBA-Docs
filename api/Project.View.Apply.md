@@ -1,24 +1,24 @@
 ---
-title: View.Apply Method (Project)
-ms.prod: project-server
+title: View.Apply method (Project)
+ms.service: project-server
 api_name:
 - Project.View.Apply
 ms.assetid: 958801ba-9ede-c60c-de79-bd2024615979
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.Apply Method (Project)
+# View.Apply method (Project)
 
 Applies the view.
 
 
 ## Syntax
 
- _expression_. `Apply`
+_expression_.**Apply**
 
- _expression_ A variable that represents a [View](./Project.View.md) object.
+_expression_ A variable that represents a [View](./Project.View.md) object.
 
 
 ## Return value

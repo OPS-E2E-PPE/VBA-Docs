@@ -3,10 +3,9 @@ title: Worksheet object events
 keywords: vbaxl10.chm5206017
 f1_keywords:
 - vbaxl10.chm5206017
-ms.prod: excel
 ms.assetid: 512e329c-92f6-a8e0-8564-b3ba57e8c296
 ms.date: 11/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -31,8 +30,6 @@ Private Sub Worksheet_Calculate()
     Columns("A:F").AutoFit 
 End Sub
 ```
-
-<br/>
 
 Some events can be used to substitute an action for the default application behavior, or to make a small change to the default behavior. The following example traps the right-click event and adds a new menu item to the shortcut menu for cells B1:B10.
 

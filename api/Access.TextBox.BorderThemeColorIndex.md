@@ -3,12 +3,11 @@ title: TextBox.BorderThemeColorIndex property (Access)
 keywords: vbaac10.chm14634
 f1_keywords:
 - vbaac10.chm14634
-ms.prod: access
 api_name:
 - Access.TextBox.BorderThemeColorIndex
 ms.assetid: 44f012fa-9021-0910-85c0-48a3b6c82141
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

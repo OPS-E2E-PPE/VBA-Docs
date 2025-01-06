@@ -3,12 +3,11 @@ title: Selection.PreviousField method (Word)
 keywords: vbawd10.chm158662833
 f1_keywords:
 - vbawd10.chm158662833
-ms.prod: word
 api_name:
 - Word.Selection.PreviousField
 ms.assetid: 9361a318-9ee2-fd72-9d52-106abfd8d44e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects and returns the previous field.
 
 ## Syntax
 
- _expression_. `PreviousField`
+_expression_. `PreviousField`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Return value

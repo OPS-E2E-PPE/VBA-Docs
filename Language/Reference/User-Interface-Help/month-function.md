@@ -3,10 +3,9 @@ title: Month function (Visual Basic for Applications)
 keywords: vblr6.chm1008977
 f1_keywords:
 - vblr6.chm1008977
-ms.prod: office
 ms.assetid: d0b3cfef-d192-166d-2dcf-c60b08213327
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

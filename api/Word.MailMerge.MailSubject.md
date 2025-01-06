@@ -3,23 +3,22 @@ title: MailMerge.MailSubject property (Word)
 keywords: vbawd10.chm153092106
 f1_keywords:
 - vbawd10.chm153092106
-ms.prod: word
 api_name:
 - Word.MailMerge.MailSubject
 ms.assetid: 75303fd3-5d9f-e790-8ade-a7433c451a66
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMerge.MailSubject property (Word)
 
-Returns or sets the subject line used when the mail merge destination is electronic mail. Read/write  **String**.
+Returns or sets the subject line used when the mail merge destination is electronic mail. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `MailSubject`
+_expression_. `MailSubject`
 
  _expression_ An expression that returns a '[MailMerge](Word.MailMerge.md)' object.
 

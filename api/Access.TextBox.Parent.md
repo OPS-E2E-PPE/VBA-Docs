@@ -3,12 +3,11 @@ title: TextBox.Parent property (Access)
 keywords: vbaac10.chm11029
 f1_keywords:
 - vbaac10.chm11029
-ms.prod: access
 api_name:
 - Access.TextBox.Parent
 ms.assetid: e07da876-e24c-0828-e986-d13a0cb1f78e
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

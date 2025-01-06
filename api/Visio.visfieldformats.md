@@ -1,22 +1,21 @@
 ---
-title: VisFieldFormats Enumeration (Visio)
+title: VisFieldFormats enumeration (Visio)
 keywords: vis_sdr.chm70145
 f1_keywords:
 - vis_sdr.chm70145
-ms.prod: visio
 ms.assetid: ae671032-b96f-6652-f527-feb194a0261d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisFieldFormats Enumeration (Visio)
+# VisFieldFormats enumeration (Visio)
 
 Text field formats.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visFmt0PlDefUnits**|3|
 | **visFmt0PlNoUnits**|2|

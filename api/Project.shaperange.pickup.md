@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.PickUp Method (Project)
-ms.prod: project-server
+title: ShapeRange.PickUp method (Project)
+ms.service: project-server
 ms.assetid: 622e3c4d-b155-b1ae-c4c2-62b4e730d392
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.PickUp Method (Project)
+# ShapeRange.PickUp method (Project)
 Copies the formatting of the shape range.
 
 ## Syntax
 
- _expression_. `PickUp`
+_expression_.**PickUp**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ Copies the formatting of the shape range.
 
 ### Remarks
 
-Use the  **[Apply](Project.shaperange.apply.md)** method to apply copied formatting to another shape or shape range.
+Use the **[Apply](Project.shaperange.apply.md)** method to apply copied formatting to another shape or shape range.
 
 
 ## Example

@@ -1,30 +1,30 @@
 ---
-title: Documents.ShapeLinkDeleted Event (Visio)
+title: Documents.ShapeLinkDeleted event (Visio)
 keywords: vis_sdr.chm10662020
 f1_keywords:
 - vis_sdr.chm10662020
-ms.prod: visio
 api_name:
 - Visio.Documents.ShapeLinkDeleted
 ms.assetid: 17c9547b-2001-0878-f17b-5c07dd4ca215
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Documents.ShapeLinkDeleted Event (Visio)
+# Documents.ShapeLinkDeleted event (Visio)
 
 Occurs after the link between a shape and a data row is deleted.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'ShapeLinkDeleted'(**_ByVal Shape As [IVSHAPE]_** , **_ByVal DataRecordsetID As Long_** , **_ByVal DataRowID As Long_**)
+_expression_.**ShapeLinkDeleted** (_Shape_, _DataRecordsetID_, _DataRowID_)
 
- _expression_ An expression that returns a [Documents](./Visio.Documents.md) object.
+ _expression_ An expression that returns a **[Documents](Visio.Documents.md)** object.
 
 
 ## Parameters
@@ -39,9 +39,9 @@ Private Sub  _expression_ _'ShapeLinkDeleted'(**_ByVal Shape As [IVSHAPE]_** , *
 
 ## Remarks
 
-The  **ShapeLinkDeleted** event is one of a group of events for which the **EventInfo** property of the **Application** object contains extra information.
+The **ShapeLinkDeleted** event is one of a group of events for which the **EventInfo** property of the **Application** object contains extra information.
 
-When the  **ShapeLinkDeleted** event is fired, the **EventInfo** property returns the following string:
+When the **ShapeLinkDeleted** event is fired, the **EventInfo** property returns the following string:
 
  `/DataRecordsetID = n /DataRowID = m`
 
@@ -49,6 +49,12 @@ where  _n_ and _m_ represent the IDs of the data recordset and data row, respect
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

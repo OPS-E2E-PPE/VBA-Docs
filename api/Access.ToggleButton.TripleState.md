@@ -3,18 +3,17 @@ title: ToggleButton.TripleState property (Access)
 keywords: vbaac10.chm11714
 f1_keywords:
 - vbaac10.chm11714
-ms.prod: access
 api_name:
 - Access.ToggleButton.TripleState
 ms.assetid: e36d31b2-25e4-ab83-4a6e-def377ec6fe7
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.TripleState property (Access)
 
-You can use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
+Use the **TripleState** property to specify how the specified control displays **Null** values. Read/write **Boolean**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: DropCap.Enable method (Word)
 keywords: vbawd10.chm156631141
 f1_keywords:
 - vbawd10.chm156631141
-ms.prod: word
 api_name:
 - Word.DropCap.Enable
 ms.assetid: 7e4bdd80-696c-c225-8f7e-0debdf071f27
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Formats the first character in the specified paragraph as a dropped capital lett
 
 ## Syntax
 
- _expression_. `Enable`
+_expression_. `Enable`
 
- _expression_ Required. A variable that represents a '[DropCap](Word.DropCap.md)' object.
+_expression_ Required. A variable that represents a '[DropCap](Word.DropCap.md)' object.
 
 
 ## Example

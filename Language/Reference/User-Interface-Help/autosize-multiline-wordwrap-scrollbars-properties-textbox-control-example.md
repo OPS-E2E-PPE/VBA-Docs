@@ -3,10 +3,9 @@ title: AutoSize, MultiLine, WordWrap, ScrollBars properties, TextBox control exa
 keywords: fm20.chm5225173
 f1_keywords:
 - fm20.chm5225173
-ms.prod: office
 ms.assetid: aeac8985-2fe9-9fe8-6ad1-74e5322bc180
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -64,8 +63,6 @@ Private Sub ToggleButton1_Click()
 End Sub
 ```
 
-<br/>
-
 ```vb
 Private Sub ToggleButton2_Click() 
 'Set WordWrap property and associated ToggleButton 
@@ -80,8 +77,6 @@ Private Sub ToggleButton2_Click()
 End Sub
 ```
 
-<br/>
-
 ```vb
 Private Sub ToggleButton3_Click() 
 'Set ScrollBars property and associated ToggleButton 
@@ -95,8 +90,6 @@ Private Sub ToggleButton3_Click()
  End If 
 End Sub
 ```
-
-<br/>
 
 ```vb
 Private Sub ToggleButton4_Click() 

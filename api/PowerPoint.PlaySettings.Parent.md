@@ -1,27 +1,26 @@
 ---
-title: PlaySettings.Parent Property (PowerPoint)
+title: PlaySettings.Parent property (PowerPoint)
 keywords: vbapp10.chm568002
 f1_keywords:
 - vbapp10.chm568002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PlaySettings.Parent
 ms.assetid: 88c43d67-7936-58b1-f5b2-22fea54de0bc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlaySettings.Parent Property (PowerPoint)
+# PlaySettings.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PlaySettings](./PowerPoint.PlaySettings.md) object.
+_expression_ A variable that represents a [PlaySettings](PowerPoint.PlaySettings.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

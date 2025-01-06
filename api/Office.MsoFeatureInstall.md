@@ -1,19 +1,16 @@
 ---
 title: MsoFeatureInstall enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoFeatureInstall
 ms.assetid: 25256738-d169-5c00-1d5d-eb8019811976
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoFeatureInstall enumeration (Office)
 
 Specifies how the application handles calls to methods and properties that require features not yet installed.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

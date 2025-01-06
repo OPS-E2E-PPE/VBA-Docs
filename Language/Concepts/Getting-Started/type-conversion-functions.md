@@ -3,10 +3,9 @@ title: Type conversion functions (VBA)
 keywords: vblr6.chm1008820
 f1_keywords:
 - vblr6.chm1008820
-ms.prod: office
 ms.assetid: fd602e34-9de2-1e8b-46fe-6a2873d6a785
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -50,7 +49,7 @@ The function name determines the return type as shown in the following:
 |**CLngLng**|[LongLong](../../reference/user-interface-help/longlong-data-type.md)|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807; fractions are rounded. (Valid on 64-bit platforms only.)|
 |**CLngPtr**|[LongPtr](../../reference/user-interface-help/longptr-data-type.md)|-2,147,483,648 to 2,147,483,647 on 32-bit systems, -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 on 64-bit systems; fractions are rounded for 32-bit and 64-bit systems.|
 |**CSng**|[Single](../../reference/user-interface-help/single-data-type.md)|-3.402823E38 to -1.401298E-45 for negative values; 1.401298E-45 to 3.402823E38 for positive values.|
-|**CStr**|[String](../../reference/user-interface-help/string-data-type.md)|Returns for CStr depend on the _expression_ argument.|
+|**CStr**|[String](../../reference/user-interface-help/string-data-type.md)|Returns for CStr depend on the _expression_ argument. See the following table.|
 |**CVar**|[Variant](../../reference/user-interface-help/variant-data-type.md)|Same range as **Double** for numerics. Same range as **String** for non-numerics.|
 
 ## Remarks
@@ -64,7 +63,7 @@ In general, you can document your code using the data-type conversion functions 
 
 You should use the data-type conversion functions instead of **Val** to provide internationally aware conversions from one data type to another. For example, when you use **CCur**, different decimal separators, different thousand separators, and various currency options are properly recognized depending on the locale setting of your computer.
 
-When the fractional part is exactly 0.5, **CInt** and **CLng** always round it to the nearest even number. For example, 0.5 rounds to 0, and 1.5 rounds to 2. **CInt** and **CLng** differ from the [**Fix** and **Int** functions]((../../Reference/User-Interface-Help/int-fix-functions.md), which truncate, rather than round, the fractional part of a number. Also, **Fix** and **Int** always return a value of the same type as is passed in.
+When the fractional part is exactly 0.5, **CInt** and **CLng** always round it to the nearest even number. For example, 0.5 rounds to 0, and 1.5 rounds to 2. **CInt** and **CLng** differ from the [**Fix** and **Int** functions](../../Reference/User-Interface-Help/int-fix-functions.md), which truncate, rather than round, the fractional part of a number. Also, **Fix** and **Int** always return a value of the same type as is passed in.
 
 Use the **IsDate** function to determine if _date_ can be converted to a date or time. **CDate** recognizes date literals and time literals as well as some numbers that fall within the range of acceptable dates. When converting a number to a date, the whole number portion is converted to a date. Any fractional part of the number is converted to a time of day, starting at midnight.
 
@@ -75,6 +74,16 @@ A **CVDate** function is also provided for compatibility with previous versions 
 > [!NOTE] 
 > The **CDec** function does not return a discrete data type; instead, it always returns a **Variant** whose value has been converted to a **Decimal** subtype.
 
+Returns for **CStr** depend on the _expression_ argument.
+
+|If _expression_ is|CStr returns|
+|:-----------------|:-----------|
+|**Boolean**|A string containing **True** or **False**.|
+|**Date**|A string containing a date in the short date format of your system.|
+|[Empty](../../Glossary/vbe-glossary.md#empty)|A zero-length string ("").|
+|**Error**|A string containing the word **Error** followed by the [error number](../../Glossary/vbe-glossary.md#error-number).|
+|[Null](../../Glossary/vbe-glossary.md#null)|A [run-time error](../../Glossary/vbe-glossary.md#run-time-error).|
+|Other numeric|A string containing the number.|
 
 ## CBool function example
 

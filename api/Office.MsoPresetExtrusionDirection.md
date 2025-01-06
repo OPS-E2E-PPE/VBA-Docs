@@ -1,19 +1,16 @@
 ---
 title: MsoPresetExtrusionDirection enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoPresetExtrusionDirection
 ms.assetid: 6842c53f-a240-249c-32aa-18cac4859ecf
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoPresetExtrusionDirection enumeration (Office)
 
 Specifies the direction that the extrusion's sweep path takes away from the extruded shape (the front face of the extrusion). Used with the **PresetExtrusionDirection** property of the **ThreeDFormat** object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

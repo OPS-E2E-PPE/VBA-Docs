@@ -1,29 +1,28 @@
 ---
-title: FormDescription Object (Outlook)
+title: FormDescription object (Outlook)
 keywords: vbaol11.chm178
 f1_keywords:
 - vbaol11.chm178
-ms.prod: outlook
 api_name:
 - Outlook.FormDescription
 ms.assetid: c88f92c4-4cac-84b3-6118-1150d42d7cff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FormDescription Object (Outlook)
+# FormDescription object (Outlook)
 
 Represents the general properties of an Outlook form.
 
 
 ## Remarks
 
-The properties of an Outlook form are displayed on the  **Properties** page of a form in design time.
+The properties of an Outlook form are displayed on the **Properties** page of a form in design time.
 
-To see the  **Properties** page in design time, open the Outlook item, on the **Developer** tab of the Microsoft Office Fluent ribbon, click **Design This Form**, and then click the  **Properties** tab in the item's window.
+To see the **Properties** page in design time, open the Outlook item, on the **Developer** tab of the Microsoft Office Fluent ribbon, click **Design This Form**, and then click the **Properties** tab in the item's window.
 
-Use the  **[FormDescription](Outlook.MailItem.FormDescription.md)** property to return the **FormDescription** object associated with an Outlook item.
+Use the **[FormDescription](Outlook.MailItem.FormDescription.md)** property to return the **FormDescription** object associated with an Outlook item.
 
 
 ## Methods
@@ -65,6 +64,6 @@ Use the  **[FormDescription](Outlook.MailItem.FormDescription.md)** property to 
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

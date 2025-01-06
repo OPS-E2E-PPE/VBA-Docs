@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.Shape Property (Visio)
+title: Hyperlink.Shape property (Visio)
 keywords: vis_sdr.chm15014320
 f1_keywords:
 - vis_sdr.chm15014320
-ms.prod: visio
 api_name:
 - Visio.Hyperlink.Shape
 ms.assetid: 554b5282-d7dd-1aca-c579-ab11daf42837
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.Shape Property (Visio)
+# Hyperlink.Shape property (Visio)
 
-Returns the  **Shape** object that owns a **Cell** , **Characters** , **Row** , or **Section** object or that is associated with a **Hyperlink** or **OLEObject** object or with the **Hyperlinks** collection. Read-only.
+Returns the **Shape** object that owns a **Cell**, **Characters**, **Row**, or **Section** object or that is associated with a **Hyperlink** or **OLEObject** object or with the **Hyperlinks** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shape`
+_expression_.**Shape**
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Shape
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Shape** property to get the **Shape** objects that own a **Cell** and a **Characters** object.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Shape** property to get the **Shape** objects that own a **Cell** and a **Characters** object.
 
 
 ```vb

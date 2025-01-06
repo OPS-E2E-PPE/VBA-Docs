@@ -1,27 +1,26 @@
 ---
-title: OlkListBox.GetSelected Method (Outlook)
+title: OlkListBox.GetSelected method (Outlook)
 keywords: vbaol11.chm1000270
 f1_keywords:
 - vbaol11.chm1000270
-ms.prod: outlook
 api_name:
 - Outlook.OlkListBox.GetSelected
 ms.assetid: f1af9a89-09aa-79da-ebbf-bce0948b4427
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkListBox.GetSelected Method (Outlook)
+# OlkListBox.GetSelected method (Outlook)
 
-Returns a  **Boolean** that indicates if the indexed item is currently selected.
+Returns a **Boolean** that indicates if the indexed item is currently selected.
 
 
 ## Syntax
 
-_expression_. `GetSelected`( `_Index_` )
+_expression_. `GetSelected` (_Index_)
 
-_expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md)
 
 ## Return value
 
-A  **Boolean** value that is **True** if the specified item is currently selected, **False** otherwise.
+A **Boolean** value that is **True** if the specified item is currently selected, **False** otherwise.
 
 
 ## Remarks

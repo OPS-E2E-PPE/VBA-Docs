@@ -1,19 +1,16 @@
 ---
 title: MsoThemeColorIndex enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoThemeColorIndex
 ms.assetid: 2281eafa-c8f0-d620-d0eb-c301dfb6a426
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoThemeColorIndex enumeration (Office)
 
 Indicates the Office theme color.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

@@ -1,24 +1,24 @@
 ---
-title: ActualStartDrivers.Item Property (Project)
-ms.prod: project-server
+title: ActualStartDrivers.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.ActualStartDrivers.Item
 ms.assetid: 609846d6-7f73-f6f0-fe4e-067df0802108
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ActualStartDrivers.Item Property (Project)
+# ActualStartDrivers.Item property (Project)
 
-Gets a single  **Assignment** object from an **ActualStartDrivers** collection. Read-only **Assignment**.
+Gets a single **Assignment** object from an **ActualStartDrivers** collection. Read-only **Assignment**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents an 'ActualStartDrivers' object.
+_expression_ A variable that represents an 'ActualStartDrivers' object.
 
 
 ## Parameters

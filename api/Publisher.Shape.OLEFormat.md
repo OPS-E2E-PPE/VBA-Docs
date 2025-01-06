@@ -1,33 +1,31 @@
 ---
-title: Shape.OLEFormat Property (Publisher)
+title: Shape.OLEFormat property (Publisher)
 keywords: vbapb10.chm2228327
 f1_keywords:
 - vbapb10.chm2228327
-ms.prod: publisher
 api_name:
 - Publisher.Shape.OLEFormat
 ms.assetid: 36bffb6b-4c7b-85f9-87b3-d7d7c1aed134
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.OLEFormat Property (Publisher)
+# Shape.OLEFormat property (Publisher)
 
-Returns an  **[OLEFormat](Publisher.OLEFormat.md)** object that contains OLE formatting properties for the specified shape. Applies to  **Shape** or **ShapeRange** objects that represent OLE objects.
+Returns an **[OLEFormat](Publisher.OLEFormat.md)** object that contains OLE formatting properties for the specified shape. Applies to **Shape** or **ShapeRange** objects that represent OLE objects.
 
 
 ## Syntax
 
- _expression_. **OLEFormat**
+_expression_.**OLEFormat**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
 This example loops through all the shapes on the first page of the active document and automatically updates all linked Excel worksheets.
-
 
 ```vb
 Sub UpdateLinkedExcelSpreadsheets() 

@@ -3,12 +3,11 @@ title: Options.AnimateScreenMovements property (Word)
 keywords: vbawd10.chm162988106
 f1_keywords:
 - vbawd10.chm162988106
-ms.prod: word
 api_name:
 - Word.Options.AnimateScreenMovements
 ms.assetid: 8f4a7986-887e-8752-4d77-6db54db58da6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AnimateScreenMovements`
+_expression_. `AnimateScreenMovements`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

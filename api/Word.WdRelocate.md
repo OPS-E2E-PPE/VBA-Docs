@@ -1,11 +1,10 @@
 ---
 title: WdRelocate enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdRelocate
 ms.assetid: 8b4f6d84-31fc-c406-a1ec-f35c9ce08751
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

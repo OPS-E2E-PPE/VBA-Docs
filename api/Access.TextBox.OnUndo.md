@@ -3,12 +3,11 @@ title: TextBox.OnUndo property (Access)
 keywords: vbaac10.chm11146
 f1_keywords:
 - vbaac10.chm11146
-ms.prod: access
 api_name:
 - Access.TextBox.OnUndo
 ms.assetid: fa62ba10-c8e8-f4d4-5d48-ab73c074f2ef
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,7 +33,7 @@ Valid values for this property are:
 
 - [Event Procedure], which indicates the event procedure associated with the **Undo** event for the specified object.
 
-- = _functionname_(), where _functionname_ is the name of a user-defined function.
+- =_functionname_(), where _functionname_ is the name of a user-defined function.
 
 
 ## Example
@@ -44,8 +43,6 @@ The following example specifies that when the **Undo** event occurs on the first
 ```vb
 Forms(0).OnUndo = "[Event Procedure]"
 ```
-
-<br/>
 
 The following example specifies that when the **Undo** event occurs in any text box on the first form of the current project, the associated event procedure should run.
 

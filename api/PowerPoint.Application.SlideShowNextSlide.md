@@ -1,27 +1,26 @@
 ---
-title: Application.SlideShowNextSlide Event (PowerPoint)
+title: Application.SlideShowNextSlide event (PowerPoint)
 keywords: vbapp10.chm621013
 f1_keywords:
 - vbapp10.chm621013
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.SlideShowNextSlide
 ms.assetid: a73d051e-9f53-43bd-1f41-b9111197e464
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Application.SlideShowNextSlide Event (PowerPoint)
+# Application.SlideShowNextSlide event (PowerPoint)
 
-Occurs immediately before the transition to the next slide. For the first slide, occurs immediately after the  **[SlideShowBegin](PowerPoint.Application.SlideShowBegin.md)** event.
+Occurs immediately before the transition to the next slide. For the first slide, occurs immediately after the **[SlideShowBegin](PowerPoint.Application.SlideShowBegin.md)** event.
 
 
 ## Syntax
 
- _expression_. `SlideShowNextSlide`( `_Wn_` )
+_expression_. `SlideShowNextSlide`(_Wn_)
 
- _expression_ An expression that returns a [Application](./PowerPoint.Application.md) object.
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ Occurs immediately before the transition to the next slide. For the first slide,
 
 ## Remarks
 
-For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
 
-This example determines the slide position for the slide following the  **SlideShowNextSlide** event. If the next slide is slide three, the example changes the type of pointer to a pen and the pen color to red.
+This example determines the slide position for the slide following the **SlideShowNextSlide** event. If the next slide is slide three, the example changes the type of pointer to a pen and the pen color to red.
 
 
 ```vb
@@ -81,7 +80,8 @@ End Sub
 This example sets a global counter variable to zero. Then it calculates the number of shapes on the slide following this event, determines which shapes have animation, and fills a global array with the animation order and the number of each shape.
 
 
- **Note**  The array created in this example is also used in the  **SlideShowNextBuild** event example.
+> [!NOTE] 
+> The array created in this example is also used in the **SlideShowNextBuild** event example.
 
 
 

@@ -3,12 +3,11 @@ title: Attachment.GotFocus event (Access)
 keywords: vbaac10.chm14025
 f1_keywords:
 - vbaac10.chm14025
-ms.prod: access
 api_name:
 - Access.Attachment.GotFocus
 ms.assetid: 9c841973-cb31-2ec6-d593-97ad8803250b
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

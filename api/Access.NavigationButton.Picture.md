@@ -3,18 +3,17 @@ title: NavigationButton.Picture property (Access)
 keywords: vbaac10.chm10451
 f1_keywords:
 - vbaac10.chm10451
-ms.prod: access
 api_name:
 - Access.NavigationButton.Picture
 ms.assetid: ba8a27c9-b288-401b-a6c1-46fb16bc1326
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationButton.Picture property (Access)
 
-You can use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
+Use the **Picture** property to specify a bitmap or other type of graphic to be displayed on the specified control. Read/write **String**.
 
 
 ## Syntax

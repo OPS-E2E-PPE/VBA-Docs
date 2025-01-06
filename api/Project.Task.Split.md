@@ -1,29 +1,27 @@
 ---
-title: Task.Split Method (Project)
-ms.prod: project-server
+title: Task.Split method (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Split
 ms.assetid: 847c5cfd-a10f-ea6a-aa49-2e2e88d1840e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Split Method (Project)
+# Task.Split method (Project)
 
 Splits the task into two portions.
 
 
 ## Syntax
 
- _expression_. `Split`( `_StartSplitOn_`, `_EndSplitOn_` )
+_expression_.**Split** (_StartSplitOn_, _EndSplitOn_)
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

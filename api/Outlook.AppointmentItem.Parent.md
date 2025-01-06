@@ -1,27 +1,26 @@
 ---
-title: AppointmentItem.Parent Property (Outlook)
+title: AppointmentItem.Parent property (Outlook)
 keywords: vbaol11.chm841
 f1_keywords:
 - vbaol11.chm841
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.Parent
 ms.assetid: 5bc7bcec-18bb-ebfb-a8e4-329a354841cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.Parent Property (Outlook)
+# AppointmentItem.Parent property (Outlook)
 
-Returns the parent  **Object** of the specified object. Read-only.
+Returns the parent **Object** of the specified object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## See also

@@ -3,30 +3,27 @@ title: CanvasShapes.AddLabel method (Word)
 keywords: vbawd10.chm7536653
 f1_keywords:
 - vbawd10.chm7536653
-ms.prod: word
 api_name:
 - Word.CanvasShapes.AddLabel
 ms.assetid: a789aa04-039c-f455-56ed-ca864e0de6ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CanvasShapes.AddLabel method (Word)
 
-Adds a text label to a drawing canvas. Returns a  **[Shapes](Word.shapes.md)** object that represents the text label.
+Adds a text label to a drawing canvas. Returns a **[Shapes](Word.shapes.md)** object that represents the text label.
 
 
 ## Syntax
 
- _expression_. `AddLabel`( `_Orientation_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_.**AddLabel** (_Orientation_, _Left_, _Top_, _Width_, _Height_)
 
- _expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -1,27 +1,26 @@
 ---
-title: Shape.Height Property (PowerPoint)
+title: Shape.Height property (PowerPoint)
 keywords: vbapp10.chm547024
 f1_keywords:
 - vbapp10.chm547024
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.Height
 ms.assetid: 3e2e7adf-9115-a903-c119-6429a10cbd9e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Height Property (PowerPoint)
+# Shape.Height property (PowerPoint)
 
 Returns or sets the height of the specified object, in points. Read/write.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Single
 
 ## Remarks
 
-The  **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3-D effects.
+The **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3D effects.
 
 
 ## Example

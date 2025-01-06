@@ -3,10 +3,9 @@ title: ContentControl.Level property (Word)
 keywords: vbawd10.chm266534945
 f1_keywords:
 - vbawd10.chm266534945
-ms.prod: word
 ms.assetid: 5e6f02bc-9a7c-6d07-507f-a9807fb0e773
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ Returns the level of the content control—whether the content control surrounds
 
 ## Syntax
 
- _expression_. `Level`
+_expression_. `Level`
 
- _expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
+_expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Property value

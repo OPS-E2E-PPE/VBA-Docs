@@ -3,34 +3,33 @@ title: Selection.FormattedText property (Word)
 keywords: vbawd10.chm158662658
 f1_keywords:
 - vbawd10.chm158662658
-ms.prod: word
 api_name:
 - Word.Selection.FormattedText
 ms.assetid: b16da3f9-1aa6-e722-0a9c-8a4c30922450
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Selection.FormattedText property (Word)
 
-Returns or sets a  **[Range](Word.Range.md)** object that includes the formatted text in the specified range or selection. Read/write.
+Returns or sets a **[Range](Word.Range.md)** object that includes the formatted text in the specified range or selection. Read/write.
 
 
 ## Syntax
 
- _expression_. `FormattedText`
+_expression_. `FormattedText`
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-This property returns a  **[Range](Word.Range.md)** object with the character formatting and text from the specified range or selection. Paragraph formatting is included in the **[Range](Word.Range.md)** object if there is a paragraph mark in the range or selection.
+This property returns a **[Range](Word.Range.md)** object with the character formatting and text from the specified range or selection. Paragraph formatting is included in the **[Range](Word.Range.md)** object if there is a paragraph mark in the range or selection.
 
 
 
-When you set this property, the text in the range is replaced with formatted text. If you don't want to replace the existing text, use the  **Collapse** method before using this property (see the first example).
+When you set this property, the text in the range is replaced with formatted text. If you don't want to replace the existing text, use the **Collapse** method before using this property (see the first example).
 
 
 

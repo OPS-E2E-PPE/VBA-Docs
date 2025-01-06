@@ -3,12 +3,11 @@ title: Report.OnKeyDown property (Access)
 keywords: vbaac10.chm13866
 f1_keywords:
 - vbaac10.chm13866
-ms.prod: access
 api_name:
 - Access.Report.OnKeyDown
 ms.assetid: 22be1d11-abbd-81ff-d83c-66aa2884560a
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **KeyDown** event occurs when a user presses a key while a report or control
 
 The **OnKeyDown** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Key Down** box in the report's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Key Down** box is blank, the property value is an empty string.
 

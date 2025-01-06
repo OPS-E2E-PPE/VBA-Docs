@@ -1,26 +1,26 @@
 ---
-title: Application.ReplaceEx Method (Project)
+title: Application.ReplaceEx method (Project)
 keywords: vbapj.chm98
 f1_keywords:
 - vbapj.chm98
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ReplaceEx
 ms.assetid: af284688-0701-abc7-4d04-b258957fa9dc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ReplaceEx Method (Project)
+# Application.ReplaceEx method (Project)
 
 Searches for an unfiltered value in a specified field, or in all available fields, and replaces it with the specified value.
 
 ## Syntax
 
-_expression_. **ReplaceEx** (**_Field_**, **_Test_**, **_Value_**, **_Replacement_**, **_ReplaceAll_**, **_Next_**, **_MatchCase_**, **_FieldID_**, **_TestID_**, **_SearchAllFields_**)
+_expression_.**ReplaceEx** (_Field_, _Test_, _Value_, _Replacement_, _ReplaceAll_, _Next_, _MatchCase_, _FieldID_, _TestID_, _SearchAllFields_)
 
-_expression_ An expression that returns an **Application** object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ _expression_ An expression that returns an **Application** object.
 
 ### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _Field_ equals _Value_.|
 |"does not equal"|The value of _Field_ does not equal _Value_.|

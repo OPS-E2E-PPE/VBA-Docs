@@ -1,11 +1,10 @@
 ---
 title: WdPaperTray enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdPaperTray
 ms.assetid: 568e9ad6-08e4-979a-8468-eb6ffec0be0a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: OptionButton.Top property (Access)
 keywords: vbaac10.chm10583
 f1_keywords:
 - vbaac10.chm10583
-ms.prod: access
 api_name:
 - Access.OptionButton.Top
 ms.assetid: 21612875-5a0d-3a13-28a1-1e087c5991cb
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

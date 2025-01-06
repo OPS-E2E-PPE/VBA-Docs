@@ -3,18 +3,17 @@ title: CustomControl.InSelection property (Access)
 keywords: vbaac10.chm12039
 f1_keywords:
 - vbaac10.chm12039
-ms.prod: access
 api_name:
 - Access.CustomControl.InSelection
 ms.assetid: 5b2a7bf0-e779-681f-f748-97798c119c6f
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

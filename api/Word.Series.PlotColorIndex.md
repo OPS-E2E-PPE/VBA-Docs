@@ -3,12 +3,11 @@ title: Series.PlotColorIndex property (Word)
 keywords: vbawd10.chm123733892
 f1_keywords:
 - vbawd10.chm123733892
-ms.prod: word
 api_name:
 - Word.Series.PlotColorIndex
 ms.assetid: d7844b4a-663a-17de-73bc-05dc92f8be80
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns an index value that is used internally to associate series formatting wi
 
 ## Syntax
 
- _expression_. `PlotColorIndex`
+_expression_.**PlotColorIndex**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Return value

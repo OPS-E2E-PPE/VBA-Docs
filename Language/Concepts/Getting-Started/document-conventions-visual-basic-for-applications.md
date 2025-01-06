@@ -1,9 +1,8 @@
 ---
 title: Document conventions (VBA)
-ms.prod: office
 ms.assetid: 1eece8df-7e11-f66d-a2b7-18985c288e81
 ms.date: 12/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -37,16 +36,12 @@ Readout.Text = _
 End Sub
 ```
 
-<br/>
-
 An apostrophe (') introduces code comments.
 
 ```vb
 ' This is a comment; these two lines
 ' are ignored when the program is running.
 ```
-
-<br/>
 
 Lines too long to fit on one line (except comments) may be continued on the next line by using a line-continuation character, which is a single leading space followed by an underscore ( _):
 

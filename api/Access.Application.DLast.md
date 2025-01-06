@@ -3,18 +3,17 @@ title: Application.DLast method (Access)
 keywords: vbaac10.chm12530
 f1_keywords:
 - vbaac10.chm12530
-ms.prod: access
 api_name:
 - Access.Application.DLast
 ms.assetid: 0a04cbcc-0dbc-4cfc-e5a3-deb9b0f343be
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DLast method (Access)
 
-You can use the **DLast** function to return a random record from a particular field in a table or query when you need any value from that field.
+Use the **DLast** function to return a random record from a particular field in a table or query when you need any value from that field.
 
 
 ## Syntax

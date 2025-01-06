@@ -3,12 +3,11 @@ title: Options.SequenceCheck property (Word)
 keywords: vbawd10.chm162988458
 f1_keywords:
 - vbawd10.chm162988458
-ms.prod: word
 api_name:
 - Word.Options.SequenceCheck
 ms.assetid: c2279189-a0ab-15bb-5c8d-00f13075b59a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SequenceCheck`
+_expression_. `SequenceCheck`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

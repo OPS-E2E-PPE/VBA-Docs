@@ -1,27 +1,26 @@
 ---
-title: Pages.Add Method (Outlook)
+title: Pages.Add method (Outlook)
 keywords: vbaol11.chm397
 f1_keywords:
 - vbaol11.chm397
-ms.prod: outlook
 api_name:
 - Outlook.Pages.Add
 ms.assetid: 4a28aac5-be6f-0892-0fc1-17ded4dff783
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Pages.Add Method (Outlook)
+# Pages.Add method (Outlook)
 
-Creates a new page in the  **[Pages](Outlook.Pages.md)** collection.
+Creates a new page in the **[Pages](Outlook.Pages.md)** collection.
 
 
 ## Syntax
 
-_expression_. `Add` `_Name_`
+_expression_.**Add** `_Name_`
 
-_expression_ A variable that represents a [Pages](./Outlook.Pages.md) object.
+_expression_ A variable that represents a [Pages](Outlook.Pages.md) object.
 
 
 ## Parameters
@@ -34,17 +33,17 @@ _expression_ A variable that represents a [Pages](./Outlook.Pages.md) object.
 
 ## Return value
 
-A  **[Page](./Outlook.page.md)** object that represents the new page.
+A **[Page](Outlook.page.md)** object that represents the new page.
 
 
 ## Remarks
 
-The  **Pages** collection is initially empty, and there is a limit of 5 customizable pages per collection.
+The **Pages** collection is initially empty, and there is a limit of 5 customizable pages per collection.
 
 
 ## See also
 
 
-[Pages Object (Outlook)](Outlook.Pages.md)
+[Pages object (Outlook)](Outlook.Pages.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

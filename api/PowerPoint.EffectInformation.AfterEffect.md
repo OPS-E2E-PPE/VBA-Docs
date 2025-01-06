@@ -1,32 +1,31 @@
 ---
-title: EffectInformation.AfterEffect Property (PowerPoint)
+title: EffectInformation.AfterEffect property (PowerPoint)
 keywords: vbapp10.chm655003
 f1_keywords:
 - vbapp10.chm655003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.EffectInformation.AfterEffect
 ms.assetid: 18fd4307-c737-2a97-09bc-ff381a18d768
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# EffectInformation.AfterEffect Property (PowerPoint)
+# EffectInformation.AfterEffect property (PowerPoint)
 
-Returns an  **PpAfterEffect** constant that indicates whether an after effect appears dimmed, hidden, or unchanged after it runs. Read-only.
+Returns an **PpAfterEffect** constant that indicates whether an after effect appears dimmed, hidden, or unchanged after it runs. Read-only.
 
 
 ## Syntax
 
- _expression_. `AfterEffect`
+_expression_. `AfterEffect`
 
-_expression_ A variable that represents an [EffectInformation](./PowerPoint.EffectInformation.md) object.
+_expression_ A variable that represents an [EffectInformation](PowerPoint.EffectInformation.md) object.
 
 
 ## Remarks
 
-The value returned by the  **AfterEffect** property can be one of these **PpAfterEffect** constants.
+The value returned by the **AfterEffect** property can be one of these **PpAfterEffect** constants.
 
 
 ||

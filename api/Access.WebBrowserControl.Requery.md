@@ -3,12 +3,11 @@ title: WebBrowserControl.Requery method (Access)
 keywords: vbaac10.chm14353
 f1_keywords:
 - vbaac10.chm14353
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Requery
 ms.assetid: 7c59af0e-2358-154e-a57a-9ad8bed723bc
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[WebBrowserControl](Access.WebBrowse
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

@@ -3,25 +3,24 @@ title: Series.Values property (Word)
 keywords: vbawd10.chm123732132
 f1_keywords:
 - vbawd10.chm123732132
-ms.prod: word
 api_name:
 - Word.Series.Values
 ms.assetid: 5dc3ebb2-9da6-59c5-c388-78dbf88551df
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Series.Values property (Word)
 
-Returns or sets a collection of all the values in the series. Read/write  **Variant**.
+Returns or sets a collection of all the values in the series. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Values`
+_expression_.**Values**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks

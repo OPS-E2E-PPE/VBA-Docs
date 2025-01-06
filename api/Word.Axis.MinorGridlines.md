@@ -3,25 +3,24 @@ title: Axis.MinorGridlines property (Word)
 keywords: vbawd10.chm113049636
 f1_keywords:
 - vbawd10.chm113049636
-ms.prod: word
 api_name:
 - Word.Axis.MinorGridlines
 ms.assetid: b234c5ca-0381-6834-b2f9-fae3048a2fbf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Axis.MinorGridlines property (Word)
 
-Returns the minor gridlines for the specified axis. Read-only  **[Gridlines](Word.GridLines.md)**.
+Returns the minor gridlines for the specified axis. Read-only **[Gridlines](Word.GridLines.md)**.
 
 
 ## Syntax
 
- _expression_. `MinorGridlines`
+_expression_.**MinorGridlines**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks

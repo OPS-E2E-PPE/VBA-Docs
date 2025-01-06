@@ -1,40 +1,39 @@
 ---
-title: DataLabels.HorizontalAlignment Property (PowerPoint)
-ms.prod: powerpoint
+title: DataLabels.HorizontalAlignment property (PowerPoint)
 api_name:
 - PowerPoint.DataLabels.HorizontalAlignment
 ms.assetid: 844d24eb-07e6-aff6-c8f5-fdb32e59e497
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabels.HorizontalAlignment Property (PowerPoint)
+# DataLabels.HorizontalAlignment property (PowerPoint)
 
-Returns or sets the horizontal alignment for the specified object. Read/write  **Variant**.
+Returns or sets the horizontal alignment for the specified object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `HorizontalAlignment`
+_expression_.**HorizontalAlignment**
 
 _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md)' object.
 
 
 ## Remarks
 
-You can set the value of this property to one of the following  **[xlConstants](PowerPoint.XlConstants.md)** constants:
+You can set the value of this property to one of the following **[XlConstants](PowerPoint.XlConstants.md)** constants:
 
 
--  **xlCenter**
+- **xlCenter**
     
--  **xlDistributed**
+- **xlDistributed**
     
--  **xlJustify**
+- **xlJustify**
     
--  **xlLeft**
+- **xlLeft**
     
--  **xlRight**
+- **xlRight**
     
 
 

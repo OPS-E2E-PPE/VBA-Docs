@@ -3,12 +3,11 @@ title: Range.FillDown method (Excel)
 keywords: vbaxl10.chm144124
 f1_keywords:
 - vbaxl10.chm144124
-ms.prod: excel
 api_name:
 - Excel.Range.FillDown
 ms.assetid: bb7c0b2d-8dd9-13e5-b90a-b2708935afa9
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/10/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Fills down from the top cell or cells in the specified range to the bottom of th
 
 ## Syntax
 
-_expression_. `FillDown`
+_expression_.**FillDown**
 
-_expression_ A variable that represents a [Range](excel.range-graph-property.md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Return value
@@ -33,15 +32,11 @@ Variant
 
 This example fills the range A1:A10 on Sheet1, based on the contents of cell A1.
 
-
 ```vb
 Worksheets("Sheet1").Range("A1:A10").FillDown
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

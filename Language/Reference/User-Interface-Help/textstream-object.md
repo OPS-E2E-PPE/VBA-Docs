@@ -3,12 +3,11 @@ title: TextStream object
 keywords: vblr6.chm2181930
 f1_keywords:
 - vblr6.chm2181930
-ms.prod: office
 api_name:
 - Office.TextStream
 ms.assetid: b1b78d3a-78b3-aee5-2efc-1e208e0858ac
 ms.date: 11/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +17,7 @@ Facilitates sequential access to file.
 
 ## Syntax
 
-**TextStream.** { _property_ | _method_ }
+**TextStream**. { _property_ | _method_ }
 
 The _property_ and _method_ arguments can be any of the properties and methods associated with the **TextStream** object. Note that in actual usage, **TextStream** is replaced by a variable placeholder representing the **TextStream** object returned from the **FileSystemObject**.
 
@@ -38,7 +37,7 @@ a.Close
 
 |Method|Description|
 |:-----|:----------|
-|[Close](close-method-filesystemobject-object.md)|Closes an open TextStream file. |
+|[Close](close-method-textstream-object.md)|Closes an open TextStream file. |
 |[Read](read-method.md)|Reads a specified number of characters from a TextStream file and returns the result. |
 |[ReadAll](readall-method.md)|Reads an entire TextStream file and returns the result. |
 |[ReadLine](readline-method.md)|Reads one line from a TextStream file and returns the result. |

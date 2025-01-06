@@ -3,18 +3,17 @@ title: CheckBox.ColumnWidth property (Access)
 keywords: vbaac10.chm10722
 f1_keywords:
 - vbaac10.chm10722
-ms.prod: access
 api_name:
 - Access.CheckBox.ColumnWidth
 ms.assetid: 8a545cee-33fd-8105-d3c2-665ec269c18e
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.ColumnWidth property (Access)
 
-You can use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
+Use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax

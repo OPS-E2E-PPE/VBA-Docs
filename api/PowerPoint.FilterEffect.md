@@ -1,25 +1,24 @@
 ---
-title: FilterEffect Object (PowerPoint)
+title: FilterEffect object (PowerPoint)
 keywords: vbapp10.chm669000
 f1_keywords:
 - vbapp10.chm669000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FilterEffect
 ms.assetid: f61235e0-5ddc-536e-1ac1-92b8b519f130
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FilterEffect Object (PowerPoint)
+# FilterEffect object (PowerPoint)
 
 Represents a filter effect for an animation behavior.
 
 
 ## Remarks
 
-Use the  **FilterEffect** property of the **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object to return a **FilterEffect** object. Filter effects can be changed using the **FilterEffect** object's **Reveal**, **SubType**, and **Type** properties.
+Use the **FilterEffect** property of the **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object to return a **FilterEffect** object. Filter effects can be changed using the **FilterEffect** object's **Reveal**, **SubType**, and **Type** properties.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: KeyBinding.Disable method (Word)
 keywords: vbawd10.chm160956518
 f1_keywords:
 - vbawd10.chm160956518
-ms.prod: word
 api_name:
 - Word.KeyBinding.Disable
 ms.assetid: 07463e08-1802-0f1b-7c3f-408f072386b5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Removes the specified key combination if it is currently assigned to a command. 
 
 ## Syntax
 
- _expression_. `Disable`
+_expression_. `Disable`
 
- _expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Remarks
 
-Using this method is the equivalent to clicking the  **Remove** button in the **Customize Keyboard** dialog box. Use the **Clear** method with a **KeyBinding** object to reset a built-in command to its default key assignment. You don't need to remove or rebind a **KeyBinding** object before adding it elsewhere.
+Using this method is the equivalent to clicking the **Remove** button in the **Customize Keyboard** dialog box. Use the **Clear** method with a **KeyBinding** object to reset a built-in command to its default key assignment. You don't need to remove or rebind a **KeyBinding** object before adding it elsewhere.
 
 
 ## Example
@@ -39,7 +38,7 @@ CustomizationContext = NormalTemplate
 FindKey(BuildKeyCode(wdKeyControl, wdKeyShift, wdKeyB)).Disable
 ```
 
-This example assigns the CTRL+SHIFT+O key combination to the  **Organizer** command. The example then uses the Disable method to remove the CTRL+SHIFT+O key combination and displays a message.
+This example assigns the CTRL+SHIFT+O key combination to the **Organizer** command. The example then uses the Disable method to remove the CTRL+SHIFT+O key combination and displays a message.
 
 
 

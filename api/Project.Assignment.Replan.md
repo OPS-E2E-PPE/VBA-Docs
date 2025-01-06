@@ -1,25 +1,25 @@
 ---
-title: Assignment.Replan Method (Project)
+title: Assignment.Replan method (Project)
 keywords: vbapj.chm131251
 f1_keywords:
 - vbapj.chm131251
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Assignment.Replan
 ms.assetid: 29ec0102-b4e4-c9dc-d930-4f8ff4069bd6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.Replan Method (Project)
+# Assignment.Replan method (Project)
 
 Replans the assignment by decreasing work or increasing duration.
 
 
 ## Syntax
 
- _expression_. `Replan`( `_action_` )
+_expression_. `Replan`( `_action_` )
 
  _expression_ An expression that returns a [Assignment](./Project.Assignment.md) object.
 
@@ -30,7 +30,7 @@ Replans the assignment by decreasing work or increasing duration.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _action_|Required|**PjAssignmentReplanAction**|Can be one of the following constants in  **[PjAssignmentReplanAction](Project.PjAssignmentReplanAction.md)**: **pjConstrainToMaxUnitsByDecreasingWork** or **pjConstrainToMaxUnitsByIncreasingDuration**.|
+| _action_|Required|**PjAssignmentReplanAction**|Can be one of the following constants in **[PjAssignmentReplanAction](Project.PjAssignmentReplanAction.md)**: **pjConstrainToMaxUnitsByDecreasingWork** or **pjConstrainToMaxUnitsByIncreasingDuration**.|
 
 ## Return value
 

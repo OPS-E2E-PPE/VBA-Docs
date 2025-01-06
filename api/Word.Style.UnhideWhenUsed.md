@@ -3,12 +3,11 @@ title: Style.UnhideWhenUsed property (Word)
 keywords: vbawd10.chm153878552
 f1_keywords:
 - vbawd10.chm153878552
-ms.prod: word
 api_name:
 - Word.Style.UnhideWhenUsed
 ms.assetid: 7064a69c-001a-2c01-e2b7-4e67949ec965
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `UnhideWhenUsed`
+_expression_. `UnhideWhenUsed`
 
  _expression_ An expression that returns a '[Style](Word.Style.md)' object.
 

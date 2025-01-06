@@ -3,18 +3,17 @@ title: ObjectFrame.GridlineStyleLeft property (Access)
 keywords: vbaac10.chm11643
 f1_keywords:
 - vbaac10.chm11643
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineStyleLeft
 ms.assetid: 09791118-77ec-c03c-00e9-d6450d1c7fe2
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.GridlineStyleLeft property (Access)
 
-Gets or sets the left gridline style of the specified frame. Read/write **Byte**.
+Gets or sets the left gridline style of the specified object frame. Read/write **Byte**.
 
 
 ## Syntax

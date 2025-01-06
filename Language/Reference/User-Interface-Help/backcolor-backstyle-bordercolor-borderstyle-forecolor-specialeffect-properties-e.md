@@ -3,10 +3,9 @@ title: BackColor, BackStyle, BorderColor, BorderStyle, ForeColor, SpecialEffect 
 keywords: fm20.chm5225183
 f1_keywords:
 - fm20.chm5225183
-ms.prod: office
 ms.assetid: c081b726-c942-b3d3-d863-808d96b11a34
 ms.date: 11/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -105,8 +104,6 @@ Else
 End If 
 End Sub
 ```
-
-<br/>
 
 
 ```vb

@@ -3,12 +3,11 @@ title: COMAddIn.Description property (Office)
 keywords: vbaof11.chm219001
 f1_keywords:
 - vbaof11.chm219001
-ms.prod: office
 api_name:
 - Office.COMAddIn.Description
 ms.assetid: f194ae48-0762-732f-7c9a-f19a92e94d9b
 ms.date: 01/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,10 +29,10 @@ The following example displays the description text of the Microsoft Accessibili
 
 
 ```vb
-MsgBox "The description of this " &amp; _ 
- "COMAddIn is """ &amp; Application.COMAddIns. _ 
+MsgBox "The description of this " & _ 
+ "COMAddIn is """ & Application.COMAddIns. _ 
  Item("msodraa9.ShapeSelect"). _ 
- Description &amp; """
+ Description & """
 ```
 
 

@@ -1,15 +1,14 @@
 ---
-title: PpAutoSize Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpAutoSize enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpAutoSize
 ms.assetid: 424c05a1-8f2b-c0da-b0ca-bbc360910274
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpAutoSize Enumeration (PowerPoint)
+# PpAutoSize enumeration (PowerPoint)
 
 Specifies whether the size of the specified shape is changed automatically to fit text within its boundaries. 
 

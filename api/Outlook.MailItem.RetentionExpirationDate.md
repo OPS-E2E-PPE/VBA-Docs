@@ -1,27 +1,26 @@
 ---
-title: MailItem.RetentionExpirationDate Property (Outlook)
+title: MailItem.RetentionExpirationDate property (Outlook)
 keywords: vbaol11.chm3559
 f1_keywords:
 - vbaol11.chm3559
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.RetentionExpirationDate
 ms.assetid: 8f251c3d-8ccc-1378-ad9c-87c6e0ee7d16
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.RetentionExpirationDate Property (Outlook)
+# MailItem.RetentionExpirationDate property (Outlook)
 
-Returns a  **Date** that specifies the date when the **[MailItem](Outlook.MailItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
+Returns a **Date** that specifies the date when the **[MailItem](Outlook.MailItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
 
 
 ## Syntax
 
 _expression_. `RetentionExpirationDate`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks

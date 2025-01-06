@@ -3,18 +3,17 @@ title: Label.ForeColor property (Access)
 keywords: vbaac10.chm10209
 f1_keywords:
 - vbaac10.chm10209
-ms.prod: access
 api_name:
 - Access.Label.ForeColor
 ms.assetid: dc1f1bcc-cd8b-2a13-a4a6-47d0c0101a4d
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Label.ForeColor property (Access)
 
-You can use the **ForeColor** property to specify the color for text in a control. Read/write **Long**.
+Use the **ForeColor** property to specify the color for text in a control. Read/write **Long**.
 
 
 ## Syntax
@@ -26,13 +25,13 @@ _expression_ A variable that represents a **[Label](Access.Label.md)** object.
 
 ## Remarks
 
-You can use this property for controls on forms or reports to make them easy to read or to convey a special meaning. For example, you can change the color of the text in the **UnitsInStock** control when its value falls below the reorder level.
+Use this property for controls on forms or reports to make them easy to read or to convey a special meaning. For example, you can change the color of the text in the **UnitsInStock** control when its value falls below the reorder level.
 
 You can also use this property on reports to create special visual effects when you print with a color printer. When used on a report, this property specifies the printing and drawing color for the **[Print](Access.Report.Print.md)**, **[Line](Access.Report.Line.md)**, and **[Circle](Access.Report.Circle.md)** methods.
 
 The **ForeColor** property contains a numeric expression that represents the value of the text color in the control.
 
-You can use the Color Builder to set this property by choosing the **Build** button to the right of the property box in the property sheet. Using the Color Builder enables you to define custom colors for text in controls.
+Use the Color Builder to set this property by choosing the **Build** button to the right of the property box in the property sheet. Using the Color Builder enables you to define custom colors for text in controls.
 
 You can set the default for this property by using a control's default control style or the **[DefaultControl](access.form.defaultcontrol.md)** property in Visual Basic.
 

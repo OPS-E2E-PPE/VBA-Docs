@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.ReminderSet Property (Outlook)
+title: AppointmentItem.ReminderSet property (Outlook)
 keywords: vbaol11.chm895
 f1_keywords:
 - vbaol11.chm895
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.ReminderSet
 ms.assetid: 575d5fb2-1672-ddae-832c-7dcc7d1da2d6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.ReminderSet Property (Outlook)
+# AppointmentItem.ReminderSet property (Outlook)
 
-Returns or sets a  **Boolean** value that is **True** if a reminder has been set for this item. Read/write.
+Returns or sets a **Boolean** value that is **True** if a reminder has been set for this item. Read/write.
 
 
 ## Syntax
 
 _expression_. `ReminderSet`
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Example
 
-This example creates an appointment item and sets the  **ReminderSet** property before saving it.
+This example creates an appointment item and sets the **ReminderSet** property before saving it.
 
 
 ```vb

@@ -1,18 +1,17 @@
 ---
-title: AccountRuleCondition Object (Outlook)
+title: AccountRuleCondition object (Outlook)
 keywords: vbaol11.chm3175
 f1_keywords:
 - vbaol11.chm3175
-ms.prod: outlook
 api_name:
 - Outlook.AccountRuleCondition
 ms.assetid: 1b746449-1357-36c2-5081-392ea85fb71e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AccountRuleCondition Object (Outlook)
+# AccountRuleCondition object (Outlook)
 
 Represents a rule condition that evaluates whether an account was used to send a message.
 
@@ -41,6 +40,6 @@ For more information on specifying rule actions, see [Specify Rule Conditions](.
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,9 +1,8 @@
 ---
 title: Working with Range Objects
-ms.prod: word
 ms.assetid: 9e240aa7-8608-9d70-aee3-2e202687459e
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -44,7 +43,7 @@ Sub SetBoldRange()
 End Sub
 ```
 
-When you need to refer to a **Range** object multiple times, you can use the **Set** statement to set a variable equal to the **Range** object. However, if you only need to perform a single action on a **Range** object, you do not need to store the object in a variable. The same result can be achieved using just one instruction that identifies the range and changes the **[Bold](../../../api/Word.Range.Bold.md)** property.
+When you need to refer to a **Range** object multiple times, you can use the **Set** statement to set a variable equal to the **Range** object. However, if you only need to perform a single action on a **Range** object, you don't need to store the object in a variable. The same result can be achieved using just one instruction that identifies the range and changes the **[Bold](../../../api/Word.Range.Bold.md)** property.
 
 
 
@@ -84,12 +83,12 @@ Sub NewRange()
 End Sub
 ```
 
-For additional information and examples, see the **[Range](../../../api/Word.Range.CheckSynonyms.md)** method.
+For additional information and examples, see the **[Range](../../../api/word.document.range.md)** method.
 
 
 ## Using the Range property
 
-The **Range** property appears on multiple objects—such as **[Paragraph](../../../api/Word.Paragraph.md)**, **[Bookmark](../../../api/Word.Bookmark.md)**, and ** [Cell](../../../api/Word.Cell.md)**—and is used to return a **Range** object. The following example returns a **Range** object that refers to the first paragraph in the active document.
+The **Range** property appears on multiple objects—such as **[Paragraph](../../../api/Word.Paragraph.md)**, **[Bookmark](../../../api/Word.Bookmark.md)**, and **[Cell](../../../api/Word.Cell.md)**—and is used to return a **Range** object. The following example returns a **Range** object that refers to the first paragraph in the active document.
 
 
 ```vb
@@ -151,7 +150,7 @@ End Sub
 For additional information and examples, see the **[Range](../../../api/Word.Range.CheckSynonyms.md)** method for the **[Document](../../../api/Word.Document.md)**.
 
 > [!NOTE] 
-> When debugging your macros, you can use the **Select**method to ensure that a **Range** object is referring to the correct range of text. For example, the following selects a **Range** object that refers to the second and third paragraphs in the active document, and then formats the font of the selection.
+> When debugging your macros, you can use the **Select** method to ensure that a **Range** object is referring to the correct range of text. For example, the following selects a **Range** object that refers to the second and third paragraphs in the active document, and then formats the font of the selection.
 
 
 

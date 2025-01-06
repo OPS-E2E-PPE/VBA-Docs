@@ -3,10 +3,9 @@ title: Split the Code window (VBA)
 keywords: vbhw6.chm1009028
 f1_keywords:
 - vbhw6.chm1009028
-ms.prod: office
 ms.assetid: 525a30a2-0eb6-5c84-2e7d-5dc60acec02f
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

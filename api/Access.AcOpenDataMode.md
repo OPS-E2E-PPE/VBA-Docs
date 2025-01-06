@@ -3,20 +3,17 @@ title: AcOpenDataMode enumeration (Access)
 keywords: vbaac10.chm10020
 f1_keywords:
 - vbaac10.chm10020
-ms.prod: access
 api_name:
 - Access.AcOpenDataMode
 ms.assetid: e50b49fd-b77e-5ee5-d973-59ef46faddd7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcOpenDataMode enumeration (Access)
 
 Specifies the data entry mode when opening a table, query, stored procedure, view, or user-defined function.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

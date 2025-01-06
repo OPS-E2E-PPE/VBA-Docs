@@ -1,21 +1,21 @@
 ---
-title: VisLinkReplaceBehavior Enumeration (Visio)
+title: VisLinkReplaceBehavior enumeration (Visio)
 keywords: vis_sdr.chm70555
 f1_keywords:
 - vis_sdr.chm70555
-ms.prod: visio
 ms.assetid: 3579129a-b908-8d5f-e694-f72cc94880cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisLinkReplaceBehavior Enumeration (Visio)
+# VisLinkReplaceBehavior enumeration (Visio)
 
-Link replacement behavior constants passed to and returned by the  **[DataRecordset.LinkReplaceBehavior](Visio.DataRecordset.LinkReplaceBehavior.md)** property.
+Link replacement behavior constants passed to and returned by the **[DataRecordset.LinkReplaceBehavior](Visio.DataRecordset.LinkReplaceBehavior.md)** property.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 

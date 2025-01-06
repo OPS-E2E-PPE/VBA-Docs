@@ -1,16 +1,15 @@
 ---
-title: Theme Object (PowerPoint)
+title: Theme object (PowerPoint)
 keywords: vbapp10.chm740000
 f1_keywords:
 - vbapp10.chm740000
 ms.assetid: f541387f-6cf4-1bae-97e4-534ef7fba040
 ms.date: 06/08/2017
-ms.prod: powerpoint
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Theme Object (PowerPoint)
+# Theme object (PowerPoint)
 
 Represents a theme (a collection of colors, fonts, and effects).
 

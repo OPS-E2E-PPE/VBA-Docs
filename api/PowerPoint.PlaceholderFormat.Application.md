@@ -1,27 +1,26 @@
 ---
-title: PlaceholderFormat.Application Property (PowerPoint)
+title: PlaceholderFormat.Application property (PowerPoint)
 keywords: vbapp10.chm545001
 f1_keywords:
 - vbapp10.chm545001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PlaceholderFormat.Application
 ms.assetid: 02251603-1827-2199-c9c5-79e06d139e06
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlaceholderFormat.Application Property (PowerPoint)
+# PlaceholderFormat.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [PlaceholderFormat](./PowerPoint.PlaceholderFormat.md) object.
+_expression_ A variable that represents a [PlaceholderFormat](PowerPoint.PlaceholderFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

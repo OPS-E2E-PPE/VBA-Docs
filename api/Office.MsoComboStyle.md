@@ -1,19 +1,16 @@
 ---
 title: MsoComboStyle enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoComboStyle
 ms.assetid: 77891fe2-e3b3-c429-0ffa-efdfc8547269
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoComboStyle enumeration (Office)
 
 Specifies whether the command bar combo box includes a label or not.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

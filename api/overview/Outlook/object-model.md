@@ -1,10 +1,10 @@
 ---
 title: Outlook object model for Visual Basic for Applications (VBA)
 description: This section of the Outlook VBA Reference contains documentation for all the objects, properties, methods, and events contained in the Outlook object model.
-ms.prod: outlook
+ms.service: outlook
 ms.assetid: 73221b13-d8d8-99b8-3394-b95dbbfd5ddc
 ms.date: 10/10/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -15,7 +15,7 @@ This section of the Outlook VBA Reference contains documentation for all the obj
 Use the table of contents in the left navigation to view the topics in this section.
 
 > [!NOTE] 
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
 
 ## See also
 

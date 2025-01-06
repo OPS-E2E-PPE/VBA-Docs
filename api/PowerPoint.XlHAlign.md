@@ -1,15 +1,14 @@
 ---
-title: XlHAlign Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlHAlign enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlHAlign
 ms.assetid: a2909b40-82e5-702f-1ddb-b7788c4a5f19
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlHAlign Enumeration (PowerPoint)
+# XlHAlign enumeration (PowerPoint)
 
 Specifies the horizontal alignment for the object.
 

@@ -3,28 +3,27 @@ title: ScrollBar.Orientation Property (Outlook Forms Script)
 keywords: olfm10.chm2001660
 f1_keywords:
 - olfm10.chm2001660
-ms.prod: outlook
 ms.assetid: 6fb33a07-b15f-8cbf-201c-026c2043f0f7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ScrollBar.Orientation Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies whether the control is oriented vertically or horizontally. Read/write.
+Returns or sets an **Integer** that specifies whether the control is oriented vertically or horizontally. Read/write.
 
 
 ## Syntax
 
-_expression_. **Orientation**
+_expression_.**Orientation**
 
-_expression_ A variable that represents a  **ScrollBar** object.
+_expression_ A variable that represents a **ScrollBar** object.
 
 
 ## Remarks
 
-The settings for  **Orientation** are:
+The settings for **Orientation** are:
 
 
 

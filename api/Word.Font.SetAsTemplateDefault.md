@@ -3,12 +3,11 @@ title: Font.SetAsTemplateDefault method (Word)
 keywords: vbawd10.chm156368999
 f1_keywords:
 - vbawd10.chm156368999
-ms.prod: word
 api_name:
 - Word.Font.SetAsTemplateDefault
 ms.assetid: 91c32f0a-52bd-cddf-9ce1-362bc205d234
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the specified font formatting as the default for the active document and al
 
 ## Syntax
 
- _expression_. `SetAsTemplateDefault`
+_expression_. `SetAsTemplateDefault`
 
- _expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks

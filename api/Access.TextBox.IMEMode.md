@@ -3,12 +3,11 @@ title: TextBox.IMEMode property (Access)
 keywords: vbaac10.chm11135
 f1_keywords:
 - vbaac10.chm11135
-ms.prod: access
 api_name:
 - Access.TextBox.IMEMode
 ms.assetid: fa4adf03-7c20-eade-4a28-e3c3ac64ebc3
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

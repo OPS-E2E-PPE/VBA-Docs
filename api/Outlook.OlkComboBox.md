@@ -1,18 +1,17 @@
 ---
-title: OlkComboBox Object (Outlook)
+title: OlkComboBox object (Outlook)
 keywords: vbaol11.chm1000249
 f1_keywords:
 - vbaol11.chm1000249
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox
 ms.assetid: 8d5e2f25-2962-af28-2523-b7b82473ea0a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox Object (Outlook)
+# OlkComboBox object (Outlook)
 
 A control that supports the display of a selection from a drop-down list of all choices.
 
@@ -28,7 +27,7 @@ The following is an example of a combo box control that has been bound to the Se
 
 
 
-If the  **[Click](Outlook.OlkComboBox.Click.md)** event is implemented but the **[DropButtonClick](Outlook.OlkComboBox.DropButtonClick.md)** event is not implemented, then clicking the drop button will fire only the **Click** event.
+If the **[Click](Outlook.OlkComboBox.Click.md)** event is implemented but the **[DropButtonClick](Outlook.OlkComboBox.DropButtonClick.md)** event is not implemented, then clicking the drop button will fire only the **Click** event.
 
 For more information about Outlook controls, see [Controls in a Custom Form](../outlook/Concepts/Forms/controls-in-a-custom-form.md). For examples of add-ins in C# and Visual Basic .NET that use Outlook controls, see code sample downloads on MSDN. 
 
@@ -106,6 +105,6 @@ For more information about Outlook controls, see [Controls in a Custom Form](../
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

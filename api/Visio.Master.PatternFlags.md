@@ -1,27 +1,26 @@
 ---
-title: Master.PatternFlags Property (Visio)
+title: Master.PatternFlags property (Visio)
 keywords: vis_sdr.chm10714065
 f1_keywords:
 - vis_sdr.chm10714065
-ms.prod: visio
 api_name:
 - Visio.Master.PatternFlags
 ms.assetid: cf7d5e0e-802e-c65b-6260-eaf68dfe6eb4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.PatternFlags Property (Visio)
+# Master.PatternFlags property (Visio)
 
 Determines whether a master behaves as a custom pattern. Read/write.
 
 
 ## Syntax
 
- _expression_. `PatternFlags`
+_expression_. `PatternFlags`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -49,7 +48,7 @@ If **visMasIsLinePat** is selected, the pattern mode should be one of the follow
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visMasLPTileDeform**|&H0 |
 | **visMasLPTile**|&H10 |
@@ -62,7 +61,7 @@ If **visMasIsLineEnd** is selected, the pattern mode should be one of the follow
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visMasLEDefault**|&H0 |
 | **visMasLEUpright**|&H100 |
@@ -73,7 +72,7 @@ If **visMasIsFillPat** is selected, the pattern mode should be one of the follow
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visMasFPTile**|&H0 |
 | **visMasFPCenter**|&H1000 |

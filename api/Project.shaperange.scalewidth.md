@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.ScaleWidth Method (Project)
-ms.prod: project-server
+title: ShapeRange.ScaleWidth method (Project)
+ms.service: project-server
 ms.assetid: 6087bb9c-c111-7f2e-95d9-334af18fe37d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.ScaleWidth Method (Project)
+# ShapeRange.ScaleWidth method (Project)
 Scales the width of the range of shapes by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleWidth` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ A  _RelativeToOriginalSize_ parameter value of **msoTrue** scales a shape relati
 
 ## Example
 
-The following example creates two cylindrical shapes, assigns them to a shape range, and then scales the shapes in height and width. If you set a breakpoint on the first  **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
+The following example creates two cylindrical shapes, assigns them to a shape range, and then scales the shapes in height and width. If you set a breakpoint on the first **ScaleHeight** statement, you can step through the code and see the changes from scaling and from using the _fScale_ parameter.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: SlideShowView.IsNamedShow Property (PowerPoint)
+title: SlideShowView.IsNamedShow property (PowerPoint)
 keywords: vbapp10.chm513013
 f1_keywords:
 - vbapp10.chm513013
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowView.IsNamedShow
 ms.assetid: a68632b2-bff4-9047-f0b8-6acb22a29071
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowView.IsNamedShow Property (PowerPoint)
+# SlideShowView.IsNamedShow property (PowerPoint)
 
 Determines whether a custom (named) slide show is displayed in the specified slide show view. Read-only.
 
 
 ## Syntax
 
- _expression_. `IsNamedShow`
+_expression_. `IsNamedShow`
 
- _expression_ A variable that represents an [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents an [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **IsNamedShow** property can be one of these **MsoTriState** constants.
+The value of the **IsNamedShow** property can be one of these **MsoTriState** constants.
 
 
 

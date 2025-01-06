@@ -3,12 +3,11 @@ title: Window.LargeScroll method (Word)
 keywords: vbawd10.chm157417575
 f1_keywords:
 - vbawd10.chm157417575
-ms.prod: word
 api_name:
 - Word.Window.LargeScroll
 ms.assetid: 380be0f2-dccf-7382-8fde-631ace1c5fee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Scrolls a window or pane by the specified number of screens.
 
 ## Syntax
 
- _expression_. `LargeScroll`( `_Down_` , `_Up_` , `_ToRight_` , `_ToLeft_` )
+_expression_.**LargeScroll** (_Down_, _Up_, _ToRight_, _ToLeft_)
 
- _expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Parameters

@@ -1,32 +1,31 @@
 ---
-title: Application.Reminders Property (Outlook)
+title: Application.Reminders property (Outlook)
 keywords: vbaol11.chm731
 f1_keywords:
 - vbaol11.chm731
-ms.prod: outlook
 api_name:
 - Outlook.Application.Reminders
 ms.assetid: 1f5428f0-6362-a691-2fad-c80e48dce3f5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.Reminders Property (Outlook)
+# Application.Reminders property (Outlook)
 
-Returns a  **[Reminders](Outlook.Reminders.md)** collection that represents all current reminders. Read-only.
+Returns a **[Reminders](Outlook.Reminders.md)** collection that represents all current reminders. Read-only.
 
 
 ## Syntax
 
 _expression_. `Reminders`
 
-_expression_ A variable that represents an [Application](./Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Example
 
-The following example returns the  **Reminders** collection and displays the captions of all reminders in the collection. If no current reminders are available, a message is displayed to the user.
+The following example returns the **Reminders** collection and displays the captions of all reminders in the collection. If no current reminders are available, a message is displayed to the user.
 
 
 ```vb

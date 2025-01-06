@@ -1,32 +1,31 @@
 ---
-title: DistListItem.Copy Method (Outlook)
+title: DistListItem.Copy method (Outlook)
 keywords: vbaol11.chm1141
 f1_keywords:
 - vbaol11.chm1141
-ms.prod: outlook
 api_name:
 - Outlook.DistListItem.Copy
 ms.assetid: c6d41be4-9c8f-a25e-9379-ef24876b6e9d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DistListItem.Copy Method (Outlook)
+# DistListItem.Copy method (Outlook)
 
 Creates another instance of an object.
 
 
 ## Syntax
 
-_expression_. `Copy`
+_expression_.**Copy**
 
-_expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications example creates an email message, sets the  **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
+This Visual Basic for Applications example creates an email message, sets the **Subject** to "Speeches", uses the **Copy** method to copy it, then moves the copy into a newly created email folder named "Saved Mail" within the Inbox folder.
 
 
 ```vb

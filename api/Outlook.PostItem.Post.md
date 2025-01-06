@@ -1,27 +1,26 @@
 ---
-title: PostItem.Post Method (Outlook)
+title: PostItem.Post method (Outlook)
 keywords: vbaol11.chm1554
 f1_keywords:
 - vbaol11.chm1554
-ms.prod: outlook
 api_name:
 - Outlook.PostItem.Post
 ms.assetid: 289b23e8-30ec-e769-e803-5db9c01b2c79
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.Post Method (Outlook)
+# PostItem.Post method (Outlook)
 
-Sends (posts) the  **[PostItem](Outlook.PostItem.md)** object.
+Sends (posts) the **[PostItem](Outlook.PostItem.md)** object.
 
 
 ## Syntax
 
 _expression_. `Post`
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Remarks

@@ -1,24 +1,23 @@
 ---
-title: TaskItem.BeforeAttachmentRead Event (Outlook)
-ms.prod: outlook
+title: TaskItem.BeforeAttachmentRead event (Outlook)
 api_name:
 - Outlook.TaskItem.BeforeAttachmentRead
 ms.assetid: 298eaece-9633-637b-3055-572d77fa3811
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.BeforeAttachmentRead Event (Outlook)
+# TaskItem.BeforeAttachmentRead event (Outlook)
 
-Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an  **[Attachment](Outlook.Attachment.md)** object.
+Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an **[Attachment](Outlook.Attachment.md)** object.
 
 
 ## Syntax
 
 _expression_. `BeforeAttachmentRead`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **Attachment**|The  **Attachment** to be read.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be read.|
+| _Attachment_|Required| **Attachment**|The **Attachment** to be read.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be read.|
 
 ## See also
 

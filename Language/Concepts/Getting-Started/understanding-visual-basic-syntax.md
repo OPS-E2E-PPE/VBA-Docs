@@ -3,10 +3,9 @@ title: Understanding Visual Basic syntax (VBA)
 keywords: vbcn6.chm1076679
 f1_keywords:
 - vbcn6.chm1076679
-ms.prod: office
 ms.assetid: 8b6f4203-f82e-5f2f-ad1e-1ad90d088700
 ms.date: 12/26/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -46,7 +45,7 @@ MsgBox Title:="Answer Box", Prompt:="Your answer is correct!"
 
 ```
 
-The syntax for functions and some methods shows the arguments enclosed in parentheses. These functions and methods return values, so you must enclose the arguments in parentheses to assign the value to a variable. If you ignore the return value or if you don't pass arguments at all, don't include the parentheses. Methods that don't return values do not need their arguments enclosed in parentheses. These guidelines apply whether you are using positional arguments or named arguments.
+The syntax for functions and some methods shows the arguments enclosed in parentheses. These functions and methods return values, so you must enclose the arguments in parentheses to assign the value to a variable. If you ignore the return value or if you don't pass arguments at all, don't include the parentheses. Methods that don't return values don't need their arguments enclosed in parentheses. These guidelines apply whether you are using positional arguments or named arguments.
 
 In the following example, the return value from the **MsgBox** function is a number indicating the selected button that is stored in the variable `myVar`. Because the return value is used, parentheses are required. Another message box then displays the value of the variable.
 
@@ -102,6 +101,15 @@ In the following statement, `x` and `y` are assigned the **Variant** data type. 
 Dim x, y, z As Integer 
 
 ```
+
+The shorthand to declare `x` and `y` as Integer in the statement above is:
+
+```vb
+Dim x%, y%, z as Integer
+
+```
+The shorthand for the types is: % -integer; & -long; @ -currency; # -double; ! -single; $ -string
+
 
 If you are declaring an [array](../../Glossary/vbe-glossary.md#array) variable, you must include parentheses. The subscripts are optional. The following statement dimensions a dynamic array, `myArray`.
 

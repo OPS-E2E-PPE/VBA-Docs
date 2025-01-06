@@ -3,18 +3,17 @@ title: CheckBox.TabStop property (Access)
 keywords: vbaac10.chm10706
 f1_keywords:
 - vbaac10.chm10706
-ms.prod: access
 api_name:
 - Access.CheckBox.TabStop
 ms.assetid: 2949f9f9-a18d-900b-cc43-05732b91eb19
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.TabStop property (Access)
 
-You can use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
+Use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
 
 
 ## Syntax

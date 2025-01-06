@@ -3,18 +3,17 @@ title: BoundObjectFrame.SizeToFit method (Access)
 keywords: vbaac10.chm10902
 f1_keywords:
 - vbaac10.chm10902
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.SizeToFit
 ms.assetid: 64f75ca9-e0bf-860c-7f62-b1f37f930893
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.SizeToFit method (Access)
 
-You can use the **SizeToFit** method to size a control so that it fits the text or image that it contains.
+Use the **SizeToFit** method to size a control so that it fits the text or image that it contains.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ You can apply the **SizeToFit** method to controls only in form Design view or r
 
 The **SizeToFit** method makes a control larger or smaller, depending on the size of the text or image that it contains.
 
-You can use the **SizeToFit** method in conjunction with the **[CreateControl](Access.Application.CreateControl.md)** method to size new controls that you have created in code.
+Use the **SizeToFit** method in conjunction with the **[CreateControl](Access.Application.CreateControl.md)** method to size new controls that you have created in code.
 
 > [!NOTE] 
 > Not all controls that contain text or an image can be sized by the **SizeToFit** method. Several controls are bound to data that can vary in size from one record to the next. These controls include the text box, list box, combo box, and bound object frame controls. The **SizeToFit** method does not apply to controls on data access pages.

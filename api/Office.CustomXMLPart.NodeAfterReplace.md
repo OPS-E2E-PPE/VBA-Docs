@@ -3,12 +3,11 @@ title: CustomXMLPart.NodeAfterReplace event (Office)
 keywords: vbaof11.chm296003
 f1_keywords:
 - vbaof11.chm296003
-ms.prod: office
 api_name:
 - Office.CustomXMLPart.NodeAfterReplace
 ms.assetid: acb4a1d6-7928-5f6b-938a-1e56ea3db1b3
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,7 +38,7 @@ The following example displays a message telling the user the results of replaci
 
 ```vb
 Sub CustomXMLParts_NodeAfterReplace(oldNode As CustomXMLNode, newNode As CustomXMLNode, boolInUndoRedo As Boolean) 
-   MsgBox ("The part's node " &amp; oldNode.BaseName &amp; " was replaced with the node " &amp; newNode.BaseName) 
+   MsgBox ("The part's node " & oldNode.BaseName & " was replaced with the node " & newNode.BaseName) 
 End Sub
 ```
 

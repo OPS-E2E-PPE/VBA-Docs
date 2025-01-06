@@ -1,10 +1,10 @@
 ---
 title: SmartArtNodes members (Office)
 description: Represents a collection of nodes within a SmartArt diagram. 
-ms.prod: office
+ms.service: office
 ms.assetid: 1ebf55b0-5b97-5c4e-5d7f-d119ba051bf4
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

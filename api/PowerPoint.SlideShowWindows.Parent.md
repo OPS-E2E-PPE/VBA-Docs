@@ -1,27 +1,26 @@
 ---
-title: SlideShowWindows.Parent Property (PowerPoint)
+title: SlideShowWindows.Parent property (PowerPoint)
 keywords: vbapp10.chm510002
 f1_keywords:
 - vbapp10.chm510002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowWindows.Parent
 ms.assetid: 964bfda5-b225-5ca2-0ca0-f41eaa4b2ade
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowWindows.Parent Property (PowerPoint)
+# SlideShowWindows.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [SlideShowWindows](./PowerPoint.SlideShowWindows.md) object.
+_expression_ A variable that represents a [SlideShowWindows](PowerPoint.SlideShowWindows.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

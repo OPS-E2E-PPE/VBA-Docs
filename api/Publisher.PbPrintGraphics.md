@@ -1,18 +1,17 @@
 ---
-title: PbPrintGraphics Enumeration (Publisher)
+title: PbPrintGraphics enumeration (Publisher)
 keywords: vbapb10.chm65589
 f1_keywords:
 - vbapb10.chm65589
-ms.prod: publisher
 api_name:
 - Publisher.PbPrintGraphics
 ms.assetid: 48ce8605-4212-2cf0-879f-accfb036fadb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbPrintGraphics Enumeration (Publisher)
+# PbPrintGraphics enumeration (Publisher)
 
 Represents the resolution at which the inserted graphics are to be printed in the specified publication.
 

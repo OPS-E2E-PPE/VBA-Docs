@@ -1,27 +1,26 @@
 ---
-title: NameSpace.CurrentProfileName Property (Outlook)
+title: NameSpace.CurrentProfileName property (Outlook)
 keywords: vbaol11.chm779
 f1_keywords:
 - vbaol11.chm779
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.CurrentProfileName
 ms.assetid: 731df710-cb42-eb68-8fbc-790b74468491
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.CurrentProfileName Property (Outlook)
+# NameSpace.CurrentProfileName property (Outlook)
 
-Returns a  **String** representing the name of the current profile. Read-only.
+Returns a **String** representing the name of the current profile. Read-only.
 
 
 ## Syntax
 
 _expression_. `CurrentProfileName`
 
-_expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
 ## Remarks

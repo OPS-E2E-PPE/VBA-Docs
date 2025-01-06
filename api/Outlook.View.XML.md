@@ -1,27 +1,26 @@
 ---
-title: View.XML Property (Outlook)
+title: View.XML property (Outlook)
 keywords: vbaol11.chm2495
 f1_keywords:
 - vbaol11.chm2495
-ms.prod: outlook
 api_name:
 - Outlook.View.XML
 ms.assetid: a933daaa-370f-2ed3-0a59-86f766a1f2c8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.XML Property (Outlook)
+# View.XML property (Outlook)
 
-Returns or sets a  **String** value that specifies the XML definition of the current view. Read/write.
+Returns or sets a **String** value that specifies the XML definition of the current view. Read/write.
 
 
 ## Syntax
 
- _expression_. `XML`
+_expression_.**XML**
 
-_expression_ A variable that represents a [View](./Outlook.View.md) object.
+_expression_ A variable that represents a [View](Outlook.View.md) object.
 
 
 ## Remarks
@@ -30,12 +29,12 @@ The XML definition describes the view type by using a series of tags and keyword
 
 To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the XML property for that view.
 
-To programmatically add a custom field to a view, use the  **[Add](Outlook.ViewFields.Add.md)** method of the **[ViewFields](Outlook.ViewFields.md)** object. This is the recommended way to dynamically change the view over setting the **[XML](Outlook.View.XML.md)** property of the **[View](Outlook.View.md)** object.
+To programmatically add a custom field to a view, use the **[Add](Outlook.ViewFields.Add.md)** method of the **[ViewFields](Outlook.ViewFields.md)** object. This is the recommended way to dynamically change the view over setting the **[XML](Outlook.View.XML.md)** property of the **[View](Outlook.View.md)** object.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example creates an instance of the  **[Views](Outlook.Views.md)** collection and displays the XML definition of a view called "Table View". If the view does not exist, it creates one.
+The following Microsoft Visual Basic for Applications (VBA) example creates an instance of the **[Views](Outlook.Views.md)** collection and displays the XML definition of a view called "Table View". If the view does not exist, it creates one.
 
 
 ```vb

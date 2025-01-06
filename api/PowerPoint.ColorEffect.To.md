@@ -1,27 +1,26 @@
 ---
-title: ColorEffect.To Property (PowerPoint)
+title: ColorEffect.To property (PowerPoint)
 keywords: vbapp10.chm659005
 f1_keywords:
 - vbapp10.chm659005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorEffect.To
 ms.assetid: c5a3a2bd-c33a-13ed-b2fd-e9ebb1f446e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorEffect.To Property (PowerPoint)
+# ColorEffect.To property (PowerPoint)
 
-Sets or returns a  **ColorFormat** object that represents the RGB color value of an animation behavior. Read/write.
+Sets or returns a **ColorFormat** object that represents the RGB color value of an animation behavior. Read/write.
 
 
 ## Syntax
 
- _expression_. `To`
+_expression_. `To`
 
-_expression_ A variable that represents a [ColorEffect](./PowerPoint.ColorEffect.md) object.
+_expression_ A variable that represents a [ColorEffect](PowerPoint.ColorEffect.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ ColorFormat
 
 ## Remarks
 
-Use this property in conjunction with the  **From** property to transition from one color to another.
+Use this property in conjunction with the **From** property to transition from one color to another.
 
-Do not confuse this property with the  **ToX** or **ToY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
+Do not confuse this property with the **ToX** or **ToY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
 
 
 ## Example

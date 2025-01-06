@@ -3,18 +3,17 @@ title: CustomControl.Name property (Access)
 keywords: vbaac10.chm12049
 f1_keywords:
 - vbaac10.chm12049
-ms.prod: access
 api_name:
 - Access.CustomControl.Name
 ms.assetid: 927f6470-53d1-c8bf-4bf0-56f0dbec8c7e
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

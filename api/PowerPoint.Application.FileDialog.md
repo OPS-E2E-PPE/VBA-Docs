@@ -1,27 +1,26 @@
 ---
-title: Application.FileDialog Property (PowerPoint)
+title: Application.FileDialog property (PowerPoint)
 keywords: vbapp10.chm502046
 f1_keywords:
 - vbapp10.chm502046
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.FileDialog
 ms.assetid: 0f0d5b6c-e478-6d15-7218-be04df978d6b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FileDialog Property (PowerPoint)
+# Application.FileDialog property (PowerPoint)
 
-Returns a  **FileDialog** object that represents a single instance of a file dialog box. Read-only.
+Returns a **FileDialog** object that represents a single instance of a file dialog box. Read-only.
 
 
 ## Syntax
 
- _expression_. `FileDialog`( `_Type_` )
+_expression_. `FileDialog`( `_Type_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ FileDialog
 
 ## Remarks
 
-The value of the Type parameter can be one of these  **MsoFileDialogType** constants.
+The value of the Type parameter can be one of these **MsoFileDialogType** constants.
 
 
 ||
@@ -51,7 +50,7 @@ The value of the Type parameter can be one of these  **MsoFileDialogType** const
 
 ## Example
 
-This example displays the  **Save As** dialog box.
+This example displays the **Save As** dialog box.
 
 
 ```vb
@@ -67,7 +66,7 @@ Sub ShowSaveAsDialog()
 End Sub
 ```
 
-This example displays the  **Open** dialog box and allows a user to select multiple files to open.
+This example displays the **Open** dialog box and allows a user to select multiple files to open.
 
 
 

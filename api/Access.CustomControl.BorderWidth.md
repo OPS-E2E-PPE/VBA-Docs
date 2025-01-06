@@ -3,18 +3,17 @@ title: CustomControl.BorderWidth property (Access)
 keywords: vbaac10.chm12028
 f1_keywords:
 - vbaac10.chm12028
-ms.prod: access
 api_name:
 - Access.CustomControl.BorderWidth
 ms.assetid: ac847423-f5ad-4d56-655d-25c468f82240
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

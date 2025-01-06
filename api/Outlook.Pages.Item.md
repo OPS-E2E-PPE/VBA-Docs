@@ -1,18 +1,17 @@
 ---
-title: Pages.Item Method (Outlook)
+title: Pages.Item method (Outlook)
 keywords: vbaol11.chm396
 f1_keywords:
 - vbaol11.chm396
-ms.prod: outlook
 api_name:
 - Outlook.Pages.Item
 ms.assetid: f2bdcbfa-33d1-04bd-7ab5-551ea779e648
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Pages.Item Method (Outlook)
+# Pages.Item method (Outlook)
 
 Returns a page from a collection.
 
@@ -21,7 +20,7 @@ Returns a page from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [Pages](./Outlook.Pages.md) object.
+_expression_ A variable that represents a [Pages](Outlook.Pages.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [Pages](./Outlook.Pages.md) object.
 
 ## Return value
 
-An  **Object** value that represents the specified object.
+An **Object** value that represents the specified object.
 
 
 ## See also
 
 
-[Pages Object (Outlook)](Outlook.Pages.md)
+[Pages object (Outlook)](Outlook.Pages.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

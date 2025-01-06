@@ -3,18 +3,17 @@ title: ObjectFrame.SizeMode property (Access)
 keywords: vbaac10.chm11560
 f1_keywords:
 - vbaac10.chm11560
-ms.prod: access
 api_name:
 - Access.ObjectFrame.SizeMode
 ms.assetid: 2aaa2f95-7982-a585-1a9f-a6ed191be79e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/23/2019
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.SizeMode property (Access)
 
-You can use the  **SizeMode** property to specify how to size a picture or other object in a bound object frame, an unbound object frame, or an image control.
+Use the **SizeMode** property to specify how to size a picture or other object in a bound object frame, an unbound object frame, or an image control.
 
 
 ## Syntax
@@ -26,9 +25,7 @@ _expression_ A variable that represents an **[ObjectFrame](Access.ObjectFrame.md
 
 ## Remarks
 
-The  **SizeMode** property uses the following settings.
-
-
+The **SizeMode** property uses the following settings.
 
 |Setting|Visual Basic|Description|
 |:-----|:-----|:-----|
@@ -36,13 +33,12 @@ The  **SizeMode** property uses the following settings.
 |Stretch|**acOLESizeStretch**|Sizes the object to fill the control. This setting may distort the proportions of the object.|
 |Zoom|**acOLESizeZoom**|Displays the entire object, resizing it as necessary without distorting the proportions of the object. This setting may leave extra space in the control if the control is resized.|
 
-Use the Clip setting for the fastest display. You can use the Stretch setting for bar graphs and line graphs without concern for size adjustments. The Stretch setting can distort circles and photos.
+Use the Clip setting for the fastest display. Use the Stretch setting for bar graphs and line graphs without concern for size adjustments. The Stretch setting can distort circles and photos.
 
 
 ## Example
 
-The following example creates a linked OLE object using an unbound object frame named **OLE1**, and sizes the control to display the object's entire contents when the user clicks a command button.
-
+The following example creates a linked OLE object by using an unbound object frame named **OLE1**, and sizes the control to display the object's entire contents when the user chooses a command button.
 
 ```vb
 Sub Command1_Click 
@@ -61,9 +57,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[ObjectFrame Object](Access.ObjectFrame.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

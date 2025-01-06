@@ -1,15 +1,15 @@
 ---
-title: PjAuthentication Enumeration (Project)
-ms.prod: project-server
+title: PjAuthentication enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAuthentication
 ms.assetid: 3af5efa4-a3a1-e233-adaa-b5f8a8ab94c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAuthentication Enumeration (Project)
+# PjAuthentication enumeration (Project)
 
 Contains constants that specify how the user is authenticated. 
 

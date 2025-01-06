@@ -3,10 +3,9 @@ title: Int, Fix functions (Visual Basic for Applications)
 keywords: vblr6.chm1008795
 f1_keywords:
 - vblr6.chm1008795
-ms.prod: office
 ms.assetid: 32ce40ac-fdf8-bd6d-e7f9-154c480a9602
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ Returns the integer portion of a number.
 
 ## Syntax
 
-**Int**(_number_)<br/>
+**Int**(_number_)
 **Fix**(_number_)
 
 The required _number_ argument is a **Double** or any valid numeric expression. If _number_ contains **Null**, **Null** is returned.
@@ -29,11 +28,9 @@ The difference between **Int** and **Fix** is that if _number_ is negative, **In
 
 **Fix**(_number_) is equivalent to **Sgn**(_number_) * **Int**(**Abs**(_number_)).
 
-
 ## Example
 
 This example illustrates how the **Int** and **Fix** functions return integer portions of numbers. In the case of a negative number argument, the **Int** function returns the first negative integer less than or equal to the number; the **Fix** function returns the first negative integer greater than or equal to the number.
-
 
 ```vb
 Dim MyNumber

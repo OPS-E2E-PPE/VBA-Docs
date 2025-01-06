@@ -3,12 +3,11 @@ title: Pane.Activate method (Word)
 keywords: vbawd10.chm157286500
 f1_keywords:
 - vbawd10.chm157286500
-ms.prod: word
 api_name:
 - Word.Pane.Activate
 ms.assetid: 48bc8f8f-3dcb-15d4-0ab6-a83e984edbb1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Activates the specified pane.
 
 ## Syntax
 
- _expression_. `Activate`
+_expression_.**Activate**
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Example

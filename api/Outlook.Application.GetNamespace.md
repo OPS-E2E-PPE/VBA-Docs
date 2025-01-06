@@ -1,27 +1,26 @@
 ---
-title: Application.GetNamespace Method (Outlook)
+title: Application.GetNamespace method (Outlook)
 keywords: vbaol11.chm717
 f1_keywords:
 - vbaol11.chm717
-ms.prod: outlook
 api_name:
 - Outlook.Application.GetNamespace
 ms.assetid: 6175d0d9-5a61-ce45-35c0-b70895d757b3
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Application.GetNamespace Method (Outlook)
+# Application.GetNamespace method (Outlook)
 
-Returns a  **[NameSpace](Outlook.NameSpace.md)** object of the specified type.
+Returns a **[NameSpace](Outlook.NameSpace.md)** object of the specified type.
 
 
 ## Syntax
 
 _expression_. `GetNamespace`( `_Type_` )
 
-_expression_ A variable that represents an [Application](./Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -34,17 +33,17 @@ _expression_ A variable that represents an [Application](./Outlook.Application.m
 
 ## Return value
 
-A  **NameSpace** object that represents the specified namespace.
+A **NameSpace** object that represents the specified namespace.
 
 
 ## Remarks
 
-The only supported name space type is "MAPI". The  **GetNameSpace** method is functionally equivalent to the **Session** property.
+The only supported name space type is "MAPI". The **GetNameSpace** method is functionally equivalent to the **Session** property.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[CurrentFolder](Outlook.Explorer.CurrentFolder.md)** property to change the displayed folder to the user's **Calendar** folder.
+This Visual Basic for Applications (VBA) example uses the **[CurrentFolder](Outlook.Explorer.CurrentFolder.md)** property to change the displayed folder to the user's **Calendar** folder.
 
 
 ```vb

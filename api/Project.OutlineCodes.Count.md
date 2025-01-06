@@ -1,24 +1,24 @@
 ---
-title: OutlineCodes.Count Property (Project)
-ms.prod: project-server
+title: OutlineCodes.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.OutlineCodes.Count
 ms.assetid: 992586f5-b4f0-3e96-1d6d-5d92bf968ca2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlineCodes.Count Property (Project)
+# OutlineCodes.Count property (Project)
 
-Gets the number of items in the  **OutlineCodes** collection. Read-only **Long**.
+Gets the number of items in the **OutlineCodes** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents an 'OutlineCodes' object.
+_expression_ A variable that represents an 'OutlineCodes' object.
 
 
 ## Example

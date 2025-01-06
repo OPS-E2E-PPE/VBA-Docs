@@ -3,12 +3,11 @@ title: Font.Emboss property (Word)
 keywords: vbawd10.chm156369044
 f1_keywords:
 - vbawd10.chm156369044
-ms.prod: word
 api_name:
 - Word.Font.Emboss
 ms.assetid: ae0cc2d0-b1ae-3208-7f61-cad731f04e29
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Emboss`
+_expression_. `Emboss`
 
- _expression_ A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** , or **wdUndefined**. Can be set to **True** , **False** , or **wdToggle**. Setting **Emboss** to **True** sets **[Engrave](Word.Font.Engrave.md)** to **False** , and vice versa.
+Returns **True**, **False**, or **wdUndefined**. Can be set to **True**, **False**, or **wdToggle**. Setting **Emboss** to **True** sets **[Engrave](Word.Font.Engrave.md)** to **False**, and vice versa.
 
 
 ## Example

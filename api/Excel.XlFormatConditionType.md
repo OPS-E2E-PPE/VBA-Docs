@@ -1,11 +1,10 @@
 ---
 title: XlFormatConditionType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlFormatConditionType
 ms.assetid: ae97c695-f56a-c9ee-91b0-dac413c93428
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Specifies whether the conditional format is based on a cell value or an expressi
 | **xlBlanksCondition**|10|Blanks condition|
 | **xlCellValue**|1|Cell value|
 | **xlColorScale**|3|Color scale|
-| **xlDatabar**|4|Databar|
+| **xlDataBar**|4|DataBar|
 | **xlErrorsCondition**|16|Errors condition|
 | **xlExpression**|2|Expression|
 | **xlIconSet**|6|Icon set|

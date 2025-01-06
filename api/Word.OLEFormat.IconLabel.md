@@ -3,23 +3,22 @@ title: OLEFormat.IconLabel property (Word)
 keywords: vbawd10.chm154337290
 f1_keywords:
 - vbawd10.chm154337290
-ms.prod: word
 api_name:
 - Word.OLEFormat.IconLabel
 ms.assetid: 8cf2aaf3-0ce0-80b4-a5ad-2561f1af4457
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OLEFormat.IconLabel property (Word)
 
-Returns or sets the text displayed below the icon for an OLE object. Read/write  **String**.
+Returns or sets the text displayed below the icon for an OLE object. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `IconLabel`
+_expression_. `IconLabel`
 
  _expression_ An expression that returns an '[OLEFormat](Word.OLEFormat.md)' object.
 

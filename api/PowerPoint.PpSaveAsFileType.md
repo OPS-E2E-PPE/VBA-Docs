@@ -1,22 +1,22 @@
 ---
-title: PpSaveAsFileType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpSaveAsFileType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpSaveAsFileType
 ms.assetid: e177538e-83bb-1b76-768f-9c8a9c51c617
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 09/08/2021
+ms.localizationpriority: medium
 ---
 
 
-# PpSaveAsFileType Enumeration (PowerPoint)
+# PpSaveAsFileType enumeration (PowerPoint)
 
-Constants that specify type of file to save as, passed to the  **SaveAs** method of the **Presentation** object.
+Constants that specify type of file to save as, passed to the **SaveAs** method of the **Presentation** object.
 
 
-|||
+|Constant|Value|
 |:-----|:-----|
 |**ppSaveAsAddIn**|8|
+|**ppSaveAsAnimatedGIF**|40|
 |**ppSaveAsBMP**|19|
 |**ppSaveAsDefault**|11|
 |**ppSaveAsEMF**|23|

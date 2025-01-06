@@ -3,30 +3,29 @@ title: ContentControl.LockContents property (Word)
 keywords: vbawd10.chm266534915
 f1_keywords:
 - vbawd10.chm266534915
-ms.prod: word
 api_name:
 - Word.ContentControl.LockContents
 ms.assetid: 8d4a68dc-01c8-0f0f-5adf-7b53b4fe3ffc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ContentControl.LockContents property (Word)
 
-Returns or sets a  **Boolean** that represents whether the user can edit the contents of a content control. Read/write.
+Returns or sets a **Boolean** that represents whether the user can edit the contents of a content control. Read/write.
 
 
 ## Syntax
 
- _expression_. `LockContents`
+_expression_. `LockContents`
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-The default value of this property is  **False**. This property corresponds to the **Contents cannot be edited** check box in the **Content Control Properties** dialog box.
+The default value of this property is **False**. This property corresponds to the **Contents cannot be edited** check box in the **Content Control Properties** dialog box.
 
 
 ## Example

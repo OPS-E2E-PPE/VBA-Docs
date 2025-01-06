@@ -1,18 +1,17 @@
 ---
-title: LegendKey Object (PowerPoint)
+title: LegendKey object (PowerPoint)
 keywords: vbapp10.chm712000
 f1_keywords:
 - vbapp10.chm712000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.LegendKey
 ms.assetid: 98e8b9c3-b53e-9595-9389-6f92a6d730f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendKey Object (PowerPoint)
+# LegendKey object (PowerPoint)
 
 Represents a legend key in a chart legend.
 
@@ -27,9 +26,10 @@ Represents a legend key in a chart legend.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-Use the  **[LegendKey](PowerPoint.LegendEntry.LegendKey.md)** property to return the **LegendKey** object. The following example changes the marker background color for the legend entry at the top of the legend for the first chart in the active document. This simultaneously changes the format of every point in the series associated with this legend entry. The associated series must support data markers.
+Use the **[LegendKey](PowerPoint.LegendEntry.LegendKey.md)** property to return the **LegendKey** object. The following example changes the marker background color for the legend entry at the top of the legend for the first chart in the active document. This simultaneously changes the format of every point in the series associated with this legend entry. The associated series must support data markers.
 
 
 

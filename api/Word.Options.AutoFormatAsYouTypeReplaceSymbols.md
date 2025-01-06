@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeReplaceSymbols property (Word)
 keywords: vbawd10.chm162988297
 f1_keywords:
 - vbawd10.chm162988297
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeReplaceSymbols
 ms.assetid: 06d104d2-d8fa-8ef5-ba94-12b48f650c2a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceSymbols`
+_expression_. `AutoFormatAsYouTypeReplaceSymbols`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

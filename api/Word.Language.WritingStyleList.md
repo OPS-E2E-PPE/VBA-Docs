@@ -3,23 +3,22 @@ title: Language.WritingStyleList property (Word)
 keywords: vbawd10.chm158138386
 f1_keywords:
 - vbawd10.chm158138386
-ms.prod: word
 api_name:
 - Word.Language.WritingStyleList
 ms.assetid: 5a91ecaa-dce0-d9ab-0e25-ec9620fa7119
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Language.WritingStyleList property (Word)
 
-Returns a string array that contains the names of all writing styles available for the specified language. Read-only  **Variant**.
+Returns a string array that contains the names of all writing styles available for the specified language. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `WritingStyleList`
+_expression_. `WritingStyleList`
 
  _expression_ An expression that returns a '[Language](Word.Language.md)' object.
 

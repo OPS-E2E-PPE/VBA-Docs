@@ -1,27 +1,26 @@
 ---
-title: Styles.Add Method (Visio)
+title: Styles.Add method (Visio)
 keywords: vis_sdr.chm11516680
 f1_keywords:
 - vis_sdr.chm11516680
-ms.prod: visio
 api_name:
 - Visio.Styles.Add
 ms.assetid: def0d922-048a-eab6-51cd-6052ba96fea8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Styles.Add Method (Visio)
+# Styles.Add method (Visio)
 
-Adds a new  **Style** object to a **Styles** collection.
+Adds a new **Style** object to a **Styles** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_StyleName_` , `_BasedOn_` , `_fIncludesText_` , `_fIncludesLine_` , `_fIncludesFill_` )
+_expression_.**Add** (_StyleName_, _BasedOn_, _fIncludesText_, _fIncludesLine_, _fIncludesFill_)
 
- _expression_ A variable that represents a [Styles](./Visio.Styles.md) object.
+_expression_ A variable that represents a **[Styles](Visio.Styles.md)** object.
 
 
 ## Parameters
@@ -48,7 +47,7 @@ To base the new style on no style, pass a zero-length string ("") for the  _Base
 
 ## Example
 
-The following macro shows how to add  **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style, as well as how to add a new style created from scratch.
+The following macro shows how to add **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style, as well as how to add a new style created from scratch.
 
 
 ```vb

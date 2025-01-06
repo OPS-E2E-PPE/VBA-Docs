@@ -1,27 +1,26 @@
 ---
-title: Shape.ClassID Property (Visio)
+title: Shape.ClassID property (Visio)
 keywords: vis_sdr.chm11213240
 f1_keywords:
 - vis_sdr.chm11213240
-ms.prod: visio
 api_name:
 - Visio.Shape.ClassID
 ms.assetid: b3cb2f9c-1247-9799-69f3-5374a112af95
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ClassID Property (Visio)
+# Shape.ClassID property (Visio)
 
 Returns the class ID string of a shape that represents an ActiveX control or an embedded or linked OLE object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ClassID`
+_expression_. `ClassID`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ String
 
 ## Remarks
 
-The  **ClassID** property raises an exception if the shape doesn't represent an ActiveX control or an OLE 2.0 embedded or linked object. A shape represents an ActiveX control or an OLE 2.0 embedded or linked object if the **visTypeIsOLE2** bit (&H8000) is set in the value returned by **Shape**. **ForeignType**.
+The **ClassID** property raises an exception if the shape doesn't represent an ActiveX control or an OLE 2.0 embedded or linked object. A shape represents an ActiveX control or an OLE 2.0 embedded or linked object if the **visTypeIsOLE2** bit (&H8000) is set in the value returned by **Shape**. **ForeignType**.
 
  **ClassID** returns a string of the form:
 
@@ -44,6 +43,6 @@ The  **ClassID** property raises an exception if the shape doesn't represent an 
 
 This identifies the application that services the object. It might, for example, identify an embedded object on a Microsoft Visio page as a Microsoft Excel object.
 
-After using a shape's  **Object** property to obtain an Automation interface on the object the shape represents, you might want to obtain the shape's **ClassID** or **ProgID** property to determine the methods and properties provided by the interface.
+After using a shape's **Object** property to obtain an Automation interface on the object the shape represents, you might want to obtain the shape's **ClassID** or **ProgID** property to determine the methods and properties provided by the interface.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

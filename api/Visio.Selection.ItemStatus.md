@@ -1,27 +1,26 @@
 ---
-title: Selection.ItemStatus Property (Visio)
+title: Selection.ItemStatus property (Visio)
 keywords: vis_sdr.chm11113780
 f1_keywords:
 - vis_sdr.chm11113780
-ms.prod: visio
 api_name:
 - Visio.Selection.ItemStatus
 ms.assetid: 2dcd9875-222d-fdb9-c2be-1a1df4ee86e7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.ItemStatus Property (Visio)
+# Selection.ItemStatus property (Visio)
 
-Indicates if an item in a  **Selection** object is subselected, if the group to which it belongs is selected, or if it is the primary item. Read-only.
+Indicates if an item in a **Selection** object is subselected, if the group to which it belongs is selected, or if it is the primary item. Read-only.
 
 
 ## Syntax
 
- _expression_. `ItemStatus`( `_Index_` )
+_expression_. `ItemStatus` (_Index_)
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Integer
 
 ## Remarks
 
-The  **ItemStatus** property reports a combination of the following values.
+The **ItemStatus** property reports a combination of the following values.
 
 
 

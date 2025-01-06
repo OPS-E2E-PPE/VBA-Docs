@@ -3,12 +3,11 @@ title: ODBCErrors.Item method (Excel)
 keywords: vbaxl10.chm529074
 f1_keywords:
 - vbaxl10.chm529074
-ms.prod: excel
 api_name:
 - Excel.ODBCErrors.Item
 ms.assetid: 694a0e7e-f6c0-8721-792b-8e82e6a8e5c1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 01/18/2022
+ms.localizationpriority: medium
 ---
 
 
@@ -21,7 +20,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [ODBCErrors](Excel.ODBCErrors.md) object.
+_expression_ A variable that represents an **[ODBCErrors](Excel.ODBCErrors.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [ODBCErrors](Excel.ODBCErrors.md) obj
 
 ## Return value
 
-An  **[ODBCError](Excel.ODBCError.md)** object contained by the collection.
+An **[ODBCError](Excel.ODBCError.md)** object contained by the collection.
 
 
 ## Example

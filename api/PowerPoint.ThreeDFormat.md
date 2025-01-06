@@ -1,30 +1,29 @@
 ---
-title: ThreeDFormat Object (PowerPoint)
+title: ThreeDFormat object (PowerPoint)
 keywords: vbapp10.chm557000
 f1_keywords:
 - vbapp10.chm557000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ThreeDFormat
 ms.assetid: d6eb7b36-57df-727e-fc5b-50b8c4790c1c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ThreeDFormat Object (PowerPoint)
+# ThreeDFormat object (PowerPoint)
 
 Represents a shape's three-dimensional formatting.
 
 
 ## Remarks
 
-You cannot apply three-dimensional formatting to some kinds of shapes, such as beveled shapes or multiple-disjoint paths. Most of the properties and methods of the  **ThreeDFormat** object for such a shape will fail.
+You cannot apply three-dimensional formatting to some kinds of shapes, such as beveled shapes or multiple-disjoint paths. Most of the properties and methods of the **ThreeDFormat** object for such a shape will fail.
 
 
 ## Example
 
-Use the  **ThreeD** property to return a **ThreeDFormat** object. The following example adds an oval to `myDocument` and then specifies that the oval be extruded to a depth of 50 points and that the extrusion be purple.
+Use the **ThreeD** property to return a **ThreeDFormat** object. The following example adds an oval to _myDocument_ and then specifies that the oval be extruded to a depth of 50 points and that the extrusion be purple.
 
 
 ```vb

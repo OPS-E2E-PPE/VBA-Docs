@@ -3,12 +3,11 @@ title: ListBox.LabelX property (Access)
 keywords: vbaac10.chm11268
 f1_keywords:
 - vbaac10.chm11268
-ms.prod: access
 api_name:
 - Access.ListBox.LabelX
 ms.assetid: 12335d2b-92e1-185b-df3e-db1e9002f757
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

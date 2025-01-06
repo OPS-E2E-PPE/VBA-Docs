@@ -3,12 +3,11 @@ title: MultiLine property
 keywords: fm20.chm2001560
 f1_keywords:
 - fm20.chm2001560
-ms.prod: office
 api_name:
 - Office.MultiLine
 ms.assetid: eadbbea9-f4ab-bb60-dff8-950d03b70842
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Cell.Selected Property (PowerPoint)
+title: Cell.Selected property (PowerPoint)
 keywords: vbapp10.chm628008
 f1_keywords:
 - vbapp10.chm628008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Cell.Selected
 ms.assetid: 3773ff08-043d-2b57-25ea-ba44cc30c77a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.Selected Property (PowerPoint)
+# Cell.Selected property (PowerPoint)
 
-Returns  **True** if the specified table cell is selected. Read-only.
+Returns **True** if the specified table cell is selected. Read-only.
 
 
 ## Syntax
 
- _expression_. `Selected`
+_expression_.**Selected**
 
-_expression_ A variable that represents a [Cell](./PowerPoint.Cell.md) object.
+_expression_ A variable that represents a [Cell](PowerPoint.Cell.md) object.
 
 
 ## Return value

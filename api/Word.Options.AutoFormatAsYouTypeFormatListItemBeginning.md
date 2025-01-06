@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeFormatListItemBeginning property (Word)
 keywords: vbawd10.chm162988301
 f1_keywords:
 - vbawd10.chm162988301
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeFormatListItemBeginning
 ms.assetid: 7fc572d7-59f2-cb23-4609-c5ba6af9065c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeFormatListItemBeginning`
+_expression_. `AutoFormatAsYouTypeFormatListItemBeginning`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

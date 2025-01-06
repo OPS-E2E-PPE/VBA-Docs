@@ -1,27 +1,26 @@
 ---
-title: SlideShowTransition.EntryEffect Property (PowerPoint)
+title: SlideShowTransition.EntryEffect property (PowerPoint)
 keywords: vbapp10.chm539006
 f1_keywords:
 - vbapp10.chm539006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowTransition.EntryEffect
 ms.assetid: 4a7bb737-a977-7a02-fccf-4bbb711a6375
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowTransition.EntryEffect Property (PowerPoint)
+# SlideShowTransition.EntryEffect property (PowerPoint)
 
 Returns or sets the special effect applied to the specified slide transition. Read/write.
 
 
 ## Syntax
 
- _expression_. `EntryEffect`
+_expression_. `EntryEffect`
 
- _expression_ A variable that represents a [SlideShowTransition](./PowerPoint.SlideShowTransition.md) object.
+_expression_ A variable that represents a [SlideShowTransition](PowerPoint.SlideShowTransition.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpEntryEffect
 
 ## Remarks
 
-If the  **[TextLevelEffect](PowerPoint.AnimationSettings.TextLevelEffect.md)** property for the specified shape is set to **ppAnimateLevelNone** (the default value) or the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **False**, you won't see the special effect you've applied with the **EntryEffect** property.
+If the **[TextLevelEffect](PowerPoint.AnimationSettings.TextLevelEffect.md)** property for the specified shape is set to **ppAnimateLevelNone** (the default value) or the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **False**, you won't see the special effect you've applied with the **EntryEffect** property.
 
 
 ## Example

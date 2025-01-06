@@ -3,12 +3,11 @@ title: ContentControlListEntry.MoveUp method (Word)
 keywords: vbawd10.chm147456107
 f1_keywords:
 - vbawd10.chm147456107
-ms.prod: word
 api_name:
 - Word.ContentControlListEntry.MoveUp
 ms.assetid: e67c7c3c-fdf0-64b4-7e93-7e6f7a47c9bd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Moves an item in a drop-down list or combo box content control up one item, so t
 
 ## Syntax
 
- _expression_. `MoveUp`
+_expression_. `MoveUp`
 
  _expression_ An expression that returns a [ContentControlListEntry](./Word.ContentControlListEntry.md) object.
 

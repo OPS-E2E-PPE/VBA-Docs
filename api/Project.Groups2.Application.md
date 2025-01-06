@@ -1,22 +1,22 @@
 ---
-title: Groups2.Application Property (Project)
-ms.prod: project-server
+title: Groups2.Application property (Project)
+ms.service: project-server
 api_name:
 - Project.Groups2.Application
 ms.assetid: b0f85bfb-2f5e-713f-5ea5-703c842ef2d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Groups2.Application Property (Project)
+# Groups2.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
  _expression_ An expression that returns a 'Groups2' object.
 

@@ -3,11 +3,10 @@ title: View.PageMovementType property (Word)
 keywords: vbawd10.chm161808449
 f1_keywords:
 - vbawd10.chm161808449
-ms.prod: word
 api_name:
 - Word.View.PageMovementType
 ms.date: 08/15/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # View.PageMovementType property (Word)
@@ -18,7 +17,7 @@ Returns or sets the page movement type. Read/write **[WdPageMovementType](Word.W
 
  _expression_ .'PageMovementType'
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 ## Example
 

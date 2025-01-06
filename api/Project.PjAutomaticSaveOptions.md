@@ -1,15 +1,15 @@
 ---
-title: PjAutomaticSaveOptions Enumeration (Project)
-ms.prod: project-server
+title: PjAutomaticSaveOptions enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAutomaticSaveOptions
 ms.assetid: f4dcf6bd-bfb0-ff80-d0f5-4ecdb9bff855
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAutomaticSaveOptions Enumeration (Project)
+# PjAutomaticSaveOptions enumeration (Project)
 
 Contains constants that specify the files to save.
 

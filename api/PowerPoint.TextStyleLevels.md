@@ -1,25 +1,24 @@
 ---
-title: TextStyleLevels Object (PowerPoint)
+title: TextStyleLevels object (PowerPoint)
 keywords: vbapp10.chm580000
 f1_keywords:
 - vbapp10.chm580000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextStyleLevels
 ms.assetid: dc61e97f-e92e-d214-47af-5830c14b1b09
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextStyleLevels Object (PowerPoint)
+# TextStyleLevels object (PowerPoint)
 
-A collection of all the outline text levels. This collection always contains five members, each of which is represented by a  **[TextStyleLevel](PowerPoint.TextStyleLevel.md)** object.
+A collection of all the outline text levels. This collection always contains five members, each of which is represented by a **[TextStyleLevel](PowerPoint.TextStyleLevel.md)** object.
 
 
 ## Example
 
-Use  **Levels** (index), where index is a number from 1 through 5 that corresponds to the outline level, to return a single **TextStyleLevel** object. The following example sets the font name and font size for level-one body text on all the slides in the active presentation.
+Use **Levels** (_index_), where _index_ is a number from 1 through 5 that corresponds to the outline level, to return a single **TextStyleLevel** object. The following example sets the font name and font size for level-one body text on all the slides in the active presentation.
 
 
 ```vb

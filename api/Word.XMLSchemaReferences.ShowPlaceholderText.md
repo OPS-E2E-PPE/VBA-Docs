@@ -3,23 +3,22 @@ title: XMLSchemaReferences.ShowPlaceholderText property (Word)
 keywords: vbawd10.chm116129799
 f1_keywords:
 - vbawd10.chm116129799
-ms.prod: word
 api_name:
 - Word.XMLSchemaReferences.ShowPlaceholderText
 ms.assetid: 432b25c0-79a1-7930-d0a5-c69a0e50bf72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XMLSchemaReferences.ShowPlaceholderText property (Word)
 
-Returns or sets a  **Boolean** that represents whether automatic placeholder text is displayed for XML elements in a document. Read/write.
+Returns or sets a **Boolean** that represents whether automatic placeholder text is displayed for XML elements in a document. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowPlaceholderText`
+_expression_. `ShowPlaceholderText`
 
  _expression_ An expression that returns an '[XMLSchemaReferences](Word.XMLSchemaReferences.md)' collection.
 

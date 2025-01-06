@@ -1,27 +1,27 @@
 ---
-title: Project.ReadWssData Method (Project)
+title: Project.ReadWssData method (Project)
 keywords: vbapj.chm132840
 f1_keywords:
 - vbapj.chm132840
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.ReadWssData
 ms.assetid: 97ff4d8e-8f0b-3b7f-9515-56376967e5bd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ReadWssData Method (Project)
+# Project.ReadWssData method (Project)
 
 Returns the Project Workspace URLs for the active enterprise project as an XML string.
 
 
 ## Syntax
 
- _expression_. `ReadWssData`( `_ProjectGuid_` )
+_expression_. `ReadWssData`( `_ProjectGuid_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters

@@ -1,27 +1,26 @@
 ---
-title: Font.Grow Method (Publisher)
+title: Font.Grow method (Publisher)
 keywords: vbapb10.chm5373990
 f1_keywords:
 - vbapb10.chm5373990
-ms.prod: publisher
 api_name:
 - Publisher.Font.Grow
 ms.assetid: 41d48db2-4a0d-6efc-80c5-c6f035e9e6ff
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Font.Grow Method (Publisher)
+# Font.Grow method (Publisher)
 
 Increases the font size to the next available size.
 
 
 ## Syntax
 
- _expression_. **Grow**
+_expression_.**Grow**
 
- _expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **[Font](Publisher.Font.md)** object.
 
 
 ## Remarks
@@ -32,7 +31,6 @@ If the selection or range contains more than one font size, each size is increas
 ## Example
 
 This example increases the font size of the fourth word in a new textbox.
-
 
 ```vb
 Sub GrowFont() 
@@ -56,10 +54,9 @@ Sub GrowFont()
 End Sub
 ```
 
+<br/>
+
 This example increases the font size of the selected text.
-
-
-
 
 ```vb
 Sub IncreaseFontSizeOfSelectedText() 

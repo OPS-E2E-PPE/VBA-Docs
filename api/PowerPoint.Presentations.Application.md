@@ -1,27 +1,26 @@
 ---
-title: Presentations.Application Property (PowerPoint)
+title: Presentations.Application property (PowerPoint)
 keywords: vbapp10.chm522001
 f1_keywords:
 - vbapp10.chm522001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentations.Application
 ms.assetid: 5c42ecee-19ce-6e00-9aed-556fe32daf8b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentations.Application Property (PowerPoint)
+# Presentations.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a [Presentations](./PowerPoint.Presentations.md) object.
+_expression_ A variable that represents a [Presentations](PowerPoint.Presentations.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

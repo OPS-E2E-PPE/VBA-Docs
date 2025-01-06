@@ -3,10 +3,9 @@ title: Can't enter break mode at this time
 keywords: vblr6.chm1107949
 f1_keywords:
 - vblr6.chm1107949
-ms.prod: office
 ms.assetid: 0abba233-b7b3-8115-7575-4cde9361dc50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,7 +15,7 @@ localization_priority: Normal
 
 
 
-- You tried to enter break mode, for example, by pressing CTRL+BREAK, pressing the  **Break** button on the **Standard** toolbar or the **Debug** toolbar, or by executing a [breakpoint](../../Glossary/vbe-glossary.md#breakpoint) in the running code.
+- You tried to enter break mode, for example, by pressing CTRL+BREAK, pressing the **Break** button on the **Standard** toolbar or the **Debug** toolbar, or by executing a [breakpoint](../../Glossary/vbe-glossary.md#breakpoint) in the running code.
     
     A change was made programmatically to the [project](../../Glossary/vbe-glossary.md#project) using the extensibility (add-in) object model. This prevents the program from having execution suspended. You can continue running, or end execution, but can't suspend execution.
     

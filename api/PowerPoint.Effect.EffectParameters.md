@@ -1,27 +1,26 @@
 ---
-title: Effect.EffectParameters Property (PowerPoint)
+title: Effect.EffectParameters property (PowerPoint)
 keywords: vbapp10.chm652011
 f1_keywords:
 - vbapp10.chm652011
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.EffectParameters
 ms.assetid: 18f43203-a16e-7779-923c-7da076d2943e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.EffectParameters Property (PowerPoint)
+# Effect.EffectParameters property (PowerPoint)
 
-Returns an  **[EffectParameters](PowerPoint.EffectParameters.md)** object that represents animation effect properties.
+Returns an **[EffectParameters](PowerPoint.EffectParameters.md)** object that represents animation effect properties.
 
 
 ## Syntax
 
- _expression_. `EffectParameters`
+_expression_. `EffectParameters`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

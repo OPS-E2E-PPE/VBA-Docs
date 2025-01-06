@@ -1,15 +1,15 @@
 ---
-title: PjPageSetupCalendarItem Enumeration (Project)
-ms.prod: project-server
+title: PjPageSetupCalendarItem enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjPageSetupCalendarItem
 ms.assetid: 2f1af0b4-7e34-fcfd-4290-5936e85275a8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjPageSetupCalendarItem Enumeration (Project)
+# PjPageSetupCalendarItem enumeration (Project)
 
 Contains constants that specify the calendar item to format.
 

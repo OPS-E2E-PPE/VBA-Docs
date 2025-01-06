@@ -1,29 +1,29 @@
 ---
-title: Exception.MonthPosition Property (Project)
-ms.prod: project-server
+title: Exception.MonthPosition property (Project)
+ms.service: project-server
 api_name:
 - Project.Exception.MonthPosition
 ms.assetid: afe3c243-5b4d-1e10-cd07-2f36f2447ba5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exception.MonthPosition Property (Project)
+# Exception.MonthPosition property (Project)
 
-Gets or sets the position of the exception in the month, for a monthly or yearly calendar exception. Read/write  **PjExceptionPosition**.
+Gets or sets the position of the exception in the month, for a monthly or yearly calendar exception. Read/write **PjExceptionPosition**.
 
 
 ## Syntax
 
- _expression_. `MonthPosition`
+_expression_. `MonthPosition`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-The  **MonthPosition** property can be one of the following **[PjExceptionPosition](Project.PjExceptionPosition.md)** constants: **pjFirst**, **pjSecond**, **pjThird**, **pjFourth**, **pjLast**. For example, if a monthly calendar exception is set for the second Wednesday every month, the value of **MonthPosition** is **pjSecond**.
+The **MonthPosition** property can be one of the following **[PjExceptionPosition](Project.PjExceptionPosition.md)** constants: **pjFirst**, **pjSecond**, **pjThird**, **pjFourth**, **pjLast**. For example, if a monthly calendar exception is set for the second Wednesday every month, the value of **MonthPosition** is **pjSecond**.
 
 
 ## See also

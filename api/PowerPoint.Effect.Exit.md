@@ -1,27 +1,26 @@
 ---
-title: Effect.Exit Property (PowerPoint)
+title: Effect.Exit property (PowerPoint)
 keywords: vbapp10.chm652016
 f1_keywords:
 - vbapp10.chm652016
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.Exit
 ms.assetid: 0f4d74d4-ce88-f9b9-7de5-0e42edf12967
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.Exit Property (PowerPoint)
+# Effect.Exit property (PowerPoint)
 
 Determines whether the animation effect is an exit effect. Read/write.
 
 
 ## Syntax
 
- _expression_. `Exit`
+_expression_. `Exit`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Exit** property can be one of these **MsoTriState** constants.
+The value of the **Exit** property can be one of these **MsoTriState** constants.
 
 
 

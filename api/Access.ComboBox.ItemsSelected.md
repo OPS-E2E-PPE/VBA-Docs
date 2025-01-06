@@ -3,18 +3,17 @@ title: ComboBox.ItemsSelected property (Access)
 keywords: vbaac10.chm11495
 f1_keywords:
 - vbaac10.chm11495
-ms.prod: access
 api_name:
 - Access.ComboBox.ItemsSelected
 ms.assetid: 7e4f6f12-3d97-b36a-1211-8c95b43642e6
 ms.date: 03/01/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ItemsSelected property (Access)
 
-You can use the **ItemsSelected** property to return a read-only reference to the hidden **ItemsSelected** collection. This hidden collection can be used to access data in the selected rows of a multiselect combo box control.
+Use the **ItemsSelected** property to return a read-only reference to the hidden **ItemsSelected** collection. This hidden collection can be used to access data in the selected rows of a multiselect combo box control.
 
 
 ## Syntax

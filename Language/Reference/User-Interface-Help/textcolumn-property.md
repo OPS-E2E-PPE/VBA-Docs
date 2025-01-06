@@ -3,12 +3,11 @@ title: TextColumn property
 keywords: fm20.chm2002090
 f1_keywords:
 - fm20.chm2002090
-ms.prod: office
 api_name:
 - Office.TextColumn
 ms.assetid: 65a18466-3a31-d3a8-4585-eb0ba3a6e473
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Attachment.AfterUpdate event (Access)
 keywords: vbaac10.chm14020
 f1_keywords:
 - vbaac10.chm14020
-ms.prod: access
 api_name:
 - Access.Attachment.AfterUpdate
 ms.assetid: 09dfe871-0e56-38fc-46d2-c517ea795907
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

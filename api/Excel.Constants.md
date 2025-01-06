@@ -1,19 +1,16 @@
 ---
 title: Constants enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.Constants
 ms.assetid: 498b9056-a7f4-ad18-0955-eacef759d5fd
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
 # Constants enumeration (Excel)
 
 This enumeration groups together constants used with various Excel methods.
-
-
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

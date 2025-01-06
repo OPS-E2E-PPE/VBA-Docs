@@ -3,30 +3,29 @@ title: Borders.InsideColorIndex property (Word)
 keywords: vbawd10.chm154927114
 f1_keywords:
 - vbawd10.chm154927114
-ms.prod: word
 api_name:
 - Word.Borders.InsideColorIndex
 ms.assetid: 9c626b1f-1696-4e73-10ef-9cec5d354559
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Borders.InsideColorIndex property (Word)
 
-Returns or sets the color of the inside borders. Read/write  **WdColorIndex**.
+Returns or sets the color of the inside borders. Read/write **WdColorIndex**.
 
 
 ## Syntax
 
- _expression_. `InsideColorIndex`
+_expression_. `InsideColorIndex`
 
- _expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
+_expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
 
 
 ## Remarks
 
-If the  **InsideLineStyle** property is set to either **wdLineStyleNone** or **False** , setting this property has no effect.
+If the **InsideLineStyle** property is set to either **wdLineStyleNone** or **False**, setting this property has no effect.
 
 
 ## Example

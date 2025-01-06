@@ -3,12 +3,11 @@ title: SubForm.Requery method (Access)
 keywords: vbaac10.chm11921
 f1_keywords:
 - vbaac10.chm11921
-ms.prod: access
 api_name:
 - Access.SubForm.Requery
 ms.assetid: cc00d50f-c898-da77-c2fc-4e44d0e3d93d
 ms.date: 02/20/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[SubForm](Access.SubForm.md)** objec
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

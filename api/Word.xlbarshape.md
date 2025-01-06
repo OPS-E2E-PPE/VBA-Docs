@@ -1,15 +1,14 @@
 ---
 title: XlBarShape enumeration (Word)
-ms.prod: word
 ms.assetid: a5f77af8-d244-9118-97d5-bb12abc88bef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlBarShape enumeration (Word)
 
-Specifies the shape used with the 3-D bar or column chart.
+Specifies the shape used with the 3D bar or column chart.
 
 
 

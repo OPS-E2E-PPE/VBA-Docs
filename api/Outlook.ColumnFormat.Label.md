@@ -1,27 +1,26 @@
 ---
-title: ColumnFormat.Label Property (Outlook)
+title: ColumnFormat.Label property (Outlook)
 keywords: vbaol11.chm2728
 f1_keywords:
 - vbaol11.chm2728
-ms.prod: outlook
 api_name:
 - Outlook.ColumnFormat.Label
 ms.assetid: cf104506-3eca-6695-3d3b-05022ce6fba4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColumnFormat.Label Property (Outlook)
+# ColumnFormat.Label property (Outlook)
 
-Returns or sets a  **String** value that represents the column label and tooltip displayed for the property to which the **[ColumnFormat](Outlook.ColumnFormat.md)** object is associated. Read/write.
+Returns or sets a **String** value that represents the column label and tooltip displayed for the property to which the **[ColumnFormat](Outlook.ColumnFormat.md)** object is associated. Read/write.
 
 
 ## Syntax
 
 _expression_. `Label`
 
-_expression_ A variable that represents a [ColumnFormat](./Outlook.ColumnFormat.md) object.
+_expression_ A variable that represents a [ColumnFormat](Outlook.ColumnFormat.md) object.
 
 
 ## Remarks
@@ -33,7 +32,7 @@ The value of this property applies only to the tooltip for Outlook properties in
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example iterates through the  **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
+The following Visual Basic for Applications (VBA) example iterates through the **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
 
 
 ```vb

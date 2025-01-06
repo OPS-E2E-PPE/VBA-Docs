@@ -3,25 +3,24 @@ title: CheckBox.Default property (Word)
 keywords: vbawd10.chm153485315
 f1_keywords:
 - vbawd10.chm153485315
-ms.prod: word
 api_name:
 - Word.CheckBox.Default
 ms.assetid: 49e27047-aee0-bf84-ce44-7d30d7f863e8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.Default property (Word)
 
-Returns or sets the default check box value.  **True** if the default value is checked. Read/write **Boolean**.
+Returns or sets the default check box value. **True** if the default value is checked. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Default`
+_expression_. `Default`
 
- _expression_ Required. A variable that represents a '[CheckBox](Word.CheckBox.md)' object.
+_expression_ Required. A variable that represents a '[CheckBox](Word.CheckBox.md)' object.
 
 
 ## Example

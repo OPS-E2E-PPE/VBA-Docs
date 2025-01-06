@@ -3,20 +3,17 @@ title: AcExportXMLOtherFlags enumeration (Access)
 keywords: vbaac10.chm13251
 f1_keywords:
 - vbaac10.chm13251
-ms.prod: access
 api_name:
 - Access.AcExportXMLOtherFlags
 ms.assetid: ebc80f42-56e8-e024-241a-a2ddc5d752ca
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcExportXMLOtherFlags enumeration (Access)
 
 Use with the **ExportXML** method to specify other behaviors associated with exporting to XML.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

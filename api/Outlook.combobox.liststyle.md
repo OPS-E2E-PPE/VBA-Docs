@@ -3,28 +3,27 @@ title: ComboBox.ListStyle Property (Outlook Forms Script)
 keywords: olfm10.chm2001450
 f1_keywords:
 - olfm10.chm2001450
-ms.prod: outlook
 ms.assetid: 9a061fe5-4c59-d051-97a1-db946a8ad8d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ListStyle Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the visual appearance of the list in a **[ComboBox](Outlook.combobox.md)**. Read/write.
+Returns or sets an **Integer** that specifies the visual appearance of the list in a **[ComboBox](Outlook.combobox.md)**. Read/write.
 
 
 ## Syntax
 
-_expression_. **ListStyle**
+_expression_.**ListStyle**
 
-_expression_ A variable that represents a  **ComboBox** object.
+_expression_ A variable that represents a **ComboBox** object.
 
 
 ## Remarks
 
-The settings for  **ListStyle** are:
+The settings for **ListStyle** are:
 
 
 
@@ -33,6 +32,6 @@ The settings for  **ListStyle** are:
 |0|Looks like a regular combo box, with the background of items highlighted.|
 |1|Shows option buttons, or check boxes for a multi-select list of the combo box (default). When the user selects an item from the group, the option button associated with that item is selected and the option buttons for the other items in the group are deselected.|
 
-The  **ListStyle** property lets you change the visual presentation of a **ComboBox**. By specifying a setting other than 0, you can present the contents of either control as a group of individual items, with each item including a visual cue to indicate whether it is selected.
+The **ListStyle** property lets you change the visual presentation of a **ComboBox**. By specifying a setting other than 0, you can present the contents of either control as a group of individual items, with each item including a visual cue to indicate whether it is selected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

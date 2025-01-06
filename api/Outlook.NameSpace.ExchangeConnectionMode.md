@@ -1,20 +1,19 @@
 ---
-title: NameSpace.ExchangeConnectionMode Property (Outlook)
+title: NameSpace.ExchangeConnectionMode property (Outlook)
 keywords: vbaol11.chm776
 f1_keywords:
 - vbaol11.chm776
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.ExchangeConnectionMode
 ms.assetid: 4b9f7917-5340-cf72-d690-ac5a7b8d4792
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.ExchangeConnectionMode Property (Outlook)
+# NameSpace.ExchangeConnectionMode property (Outlook)
 
-Returns an  **[OlExchangeConnectionMode](Outlook.OlExchangeConnectionMode.md)** constant that indicates the connection mode of the user's primary Exchange account. Read-only.
+Returns an **[OlExchangeConnectionMode](Outlook.OlExchangeConnectionMode.md)** constant that indicates the connection mode of the user's primary Exchange account. Read-only.
 
 
 ## Syntax
@@ -26,12 +25,12 @@ _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' ob
 
 ## Remarks
 
-If the  **ExchangeConnectionMode** property is **olOffline** or **olDisconnected** , the **[NameSpace.Offline](Outlook.NameSpace.Offline.md)** property returns **True**. If the **ExchangeConnectionMode** property is **olOnline** , **olConnected** , or **olConnectedHeaders** , the **NameSpace.Offline** property returns **False**.
+If the **ExchangeConnectionMode** property is **olOffline** or **olDisconnected**, the **[NameSpace.Offline](Outlook.NameSpace.Offline.md)** property returns **True**. If the **ExchangeConnectionMode** property is **olOnline**, **olConnected**, or **olConnectedHeaders**, the **NameSpace.Offline** property returns **False**.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example marks the items that are sent with high importance for download if the connection mode is 'Connected Headers' and the download state is 'Header Only' in the  **Inbox** folder.
+The following Microsoft Visual Basic for Applications (VBA) example marks the items that are sent with high importance for download if the connection mode is 'Connected Headers' and the download state is 'Header Only' in the **Inbox** folder.
 
 
 ```vb

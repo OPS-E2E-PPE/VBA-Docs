@@ -3,12 +3,11 @@ title: Options.AutoFormatDeleteAutoSpaces property (Word)
 keywords: vbawd10.chm162988328
 f1_keywords:
 - vbawd10.chm162988328
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatDeleteAutoSpaces
 ms.assetid: 45f56b46-bdb5-972b-d4f7-ba736a80d4c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatDeleteAutoSpaces`
+_expression_. `AutoFormatDeleteAutoSpaces`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

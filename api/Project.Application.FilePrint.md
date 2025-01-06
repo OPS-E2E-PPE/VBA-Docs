@@ -1,27 +1,27 @@
 ---
-title: Application.FilePrint Method (Project)
+title: Application.FilePrint method (Project)
 keywords: vbapj.chm109
 f1_keywords:
 - vbapj.chm109
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePrint
 ms.assetid: 47937a14-3c57-a597-0b67-5c095bda8ec7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePrint Method (Project)
+# Application.FilePrint method (Project)
 
 Prints the active view.
 
 
 ## Syntax
 
- _expression_. `FilePrint`( `_FromPage_`, `_ToPage_`, `_PageBreaks_`, `_Draft_`, `_Copies_`, `_FromDate_`, `_ToDate_`, `_OnePageWide_`, `_Preview_`, `_Color_`, `_ShowIEPrintDialog_` )
+_expression_. `FilePrint`( `_FromPage_`, `_ToPage_`, `_PageBreaks_`, `_Draft_`, `_Copies_`, `_FromDate_`, `_ToDate_`, `_OnePageWide_`, `_Preview_`, `_Color_`, `_ShowIEPrintDialog_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ Prints the active view.
 | _OnePageWide_|Optional|**Boolean**|**True** if Project prints only the leftmost columns of the active view. The default value is **False**.|
 | _Preview_|Optional|**Boolean**|**True** if Project previews the active view rather than printing it. The default value is **False**.|
 | _Color_|Optional|**Boolean**|**True** if Project prints the active view in color. The default value is **False**.|
-| _ShowIEPrintDialog_|Optional|**Boolean**|If  **True**, shows the Internet Explorer print dialog while printing.|
+| _ShowIEPrintDialog_|Optional|**Boolean**|If **True**, shows the Internet Explorer print dialog while printing.|
 
 ## Return value
 

@@ -3,10 +3,9 @@ title: Number property (Visual Basic for Applications)
 keywords: vblr6.chm1014186
 f1_keywords:
 - vblr6.chm1014186
-ms.prod: office
 ms.assetid: e6a671d8-0fd3-9d92-efd2-bcf3d0ff0758
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -50,8 +49,6 @@ Sub test()
     Resume
 End Sub
 ```
-
-<br/>
 
 ```vb
 ' Using Number property with an error from an 

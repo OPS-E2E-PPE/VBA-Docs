@@ -1,27 +1,26 @@
 ---
-title: TaskItem.MarkForDownload Property (Outlook)
+title: TaskItem.MarkForDownload property (Outlook)
 keywords: vbaol11.chm1763
 f1_keywords:
 - vbaol11.chm1763
-ms.prod: outlook
 api_name:
 - Outlook.TaskItem.MarkForDownload
 ms.assetid: 0dd93a32-1857-1304-b52d-1deb282984ea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskItem.MarkForDownload Property (Outlook)
+# TaskItem.MarkForDownload property (Outlook)
 
-Returns or sets an  **[OlRemoteStatus](Outlook.OlRemoteStatus.md)** constant that determines the status of an item once it is received by a remote user. Read/write.
+Returns or sets an **[OlRemoteStatus](Outlook.OlRemoteStatus.md)** constant that determines the status of an item once it is received by a remote user. Read/write.
 
 
 ## Syntax
 
 _expression_. `MarkForDownload`
 
-_expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This property gives remote users with less-than-ideal data-transfer capabilities
 
 ## Example
 
-The following example searches through the user's  **Inbox** for items that have not yet been fully downloaded. If any items are found that are not fully downloaded, a message is displayed and the item is marked for download.
+The following example searches through the user's **Inbox** for items that have not yet been fully downloaded. If any items are found that are not fully downloaded, a message is displayed and the item is marked for download.
 
 
 ```vb

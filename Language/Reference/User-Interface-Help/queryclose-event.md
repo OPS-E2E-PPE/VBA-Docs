@@ -3,12 +3,11 @@ title: QueryClose event (Visual Basic for Applications)
 keywords: vblr6.chm1107501
 f1_keywords:
 - vblr6.chm1107501
-ms.prod: office
 api_name:
 - Office.QueryClose
 ms.assetid: 8a12c265-bbb8-ed72-8bde-7b9c3bdf86bd
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Occurs before a **[UserForm](userform-window.md)** closes.
 ## Syntax
 
 **Private Sub UserForm_QueryClose**(_Cancel_ **As Integer**, _CloseMode_ **As Integer**)
-
-<br/>
 
 The **QueryClose** event syntax has these parts:
 

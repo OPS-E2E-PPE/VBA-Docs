@@ -1,19 +1,16 @@
 ---
 title: MsoTextEffectAlignment enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoTextEffectAlignment
 ms.assetid: 5a165109-c820-bbc2-235b-a24807abd0d0
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoTextEffectAlignment enumeration (Office)
 
 Specifies alignment for WordArt text.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

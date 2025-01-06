@@ -3,25 +3,24 @@ title: Series.FormulaLocal property (Word)
 keywords: vbawd10.chm123732231
 f1_keywords:
 - vbawd10.chm123732231
-ms.prod: word
 api_name:
 - Word.Series.FormulaLocal
 ms.assetid: 45d948ca-8519-1941-9dea-6a5e9fe42819
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Series.FormulaLocal property (Word)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks

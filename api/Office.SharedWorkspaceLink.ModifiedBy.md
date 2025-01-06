@@ -3,12 +3,11 @@ title: SharedWorkspaceLink.ModifiedBy property (Office)
 keywords: vbaof11.chm270006
 f1_keywords:
 - vbaof11.chm270006
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.ModifiedBy
 ms.assetid: 3070460c-c3af-ff17-19b7-25a3c6339628
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -51,11 +50,11 @@ The following example lists the links in a shared workspace site that were modif
     Set swsOwner = ActiveWorkbook.SharedWorkspace.Members(1) 
     For Each swsLink In ActiveWorkbook.SharedWorkspace.Links 
         If swsLink.ModifiedBy = strUser Then 
-            strMemberlinks = strMemberlinks &amp; swsLink.URL &amp; vbCrLf 
+            strMemberlinks = strMemberlinks & swsLink.URL & vbCrLf 
         End If 
     Next 
-    MsgBox "These links were modified by " &amp; _ 
-        strUser &amp; vbCrLf &amp; strMemberlinks, _ 
+    MsgBox "These links were modified by " & _ 
+        strUser & vbCrLf & strMemberlinks, _ 
         vbInformation + vbOKOnly, "Modified Links" 
     Set swsOwner = Nothing 
     Set swsLink = Nothing 

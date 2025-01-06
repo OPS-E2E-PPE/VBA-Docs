@@ -3,12 +3,11 @@ title: SharedWorkspace.Links property (Office)
 keywords: vbaof11.chm276006
 f1_keywords:
 - vbaof11.chm276006
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Links
 ms.assetid: 7389c657-8028-3914-cb03-5f2f50c448b5
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The following example lists the links saved in the current shared workspace.
 ```vb
   Dim swsLinks As Office.SharedWorkspaceLinks 
     Set swsLinks = ActiveWorkbook.SharedWorkspace.Links 
-    MsgBox "There are " &amp; swsLinks.Count &amp; _ 
+    MsgBox "There are " & swsLinks.Count & _ 
         " link(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

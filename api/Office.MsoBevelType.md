@@ -1,19 +1,16 @@
 ---
 title: MsoBevelType enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoBevelType
 ms.assetid: 2404d6cf-0c64-fca5-59bc-098847018f99
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoBevelType enumeration (Office)
 
 Indicates the bevel type of a **ThreeDFormat** object.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

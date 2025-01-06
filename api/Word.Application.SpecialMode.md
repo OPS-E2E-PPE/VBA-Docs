@@ -3,12 +3,11 @@ title: Application.SpecialMode property (Word)
 keywords: vbawd10.chm158335006
 f1_keywords:
 - vbawd10.chm158335006
-ms.prod: word
 api_name:
 - Word.Application.SpecialMode
 ms.assetid: aa60d4dc-4abe-e461-12c9-fc8e890536ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SpecialMode`
+_expression_. `SpecialMode`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks

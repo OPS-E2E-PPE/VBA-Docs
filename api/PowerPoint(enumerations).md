@@ -1,10 +1,10 @@
 ---
 title: Enumerations (PowerPoint)
 description: Documentation for the enumerations in the VBA PowerPoint object model.
-ms.prod: powerpoint
+ms.service: powerpoint
 ms.assetid: 11d86f40-9e35-43ee-b5d9-f80b7f8f8511
 ms.date: 09/05/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

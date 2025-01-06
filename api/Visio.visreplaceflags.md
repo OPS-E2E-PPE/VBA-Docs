@@ -1,13 +1,12 @@
 ---
-title: VisReplaceFlags Enumeration (Visio)
-ms.prod: visio
+title: VisReplaceFlags enumeration (Visio)
 ms.assetid: cf270178-f939-7eb4-b8e1-3b4153aff221
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisReplaceFlags Enumeration (Visio)
+# VisReplaceFlags enumeration (Visio)
 
 Shape-replacement flags sent to the [Shape.ReplaceShape](Visio.shape.replaceshape.md) and [Selection.ReplaceShape](Visio.selection.replaceshape.md) methods and returned by the [ReplaceShapesEvent.ReplaceFlags](Visio.replaceshapesevent.replaceflags.md) property, singly or in combination.
 

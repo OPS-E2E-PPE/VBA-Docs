@@ -1,27 +1,26 @@
 ---
-title: Shape.LayerCount Property (Visio)
+title: Shape.LayerCount property (Visio)
 keywords: vis_sdr.chm11213815
 f1_keywords:
 - vis_sdr.chm11213815
-ms.prod: visio
 api_name:
 - Visio.Shape.LayerCount
 ms.assetid: 0ebcdf53-ebf3-8e26-236f-086f2c9f3c08
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.LayerCount Property (Visio)
+# Shape.LayerCount property (Visio)
 
 Returns the number of layers to which a shape is assigned. Read-only.
 
 
 ## Syntax
 
- _expression_. `LayerCount`
+_expression_. `LayerCount`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ A shape is assigned to zero or more layers.
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **LayerCount** property to determine the number of layers to which a shape is assigned. It also uses the **Layers** property to add a layer to a drawing and the **Name** property to get the name of the current layer.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **LayerCount** property to determine the number of layers to which a shape is assigned. It also uses the **Layers** property to add a layer to a drawing and the **Name** property to get the name of the current layer.
 
 
 ```vb

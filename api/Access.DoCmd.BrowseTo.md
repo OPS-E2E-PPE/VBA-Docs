@@ -3,12 +3,11 @@ title: DoCmd.BrowseTo method (Access)
 keywords: vbaac10.chm5973
 f1_keywords:
 - vbaac10.chm5973
-ms.prod: access
 api_name:
 - Access.DoCmd.BrowseTo
 ms.assetid: 7cfd2cc5-ad2d-4bf8-ed90-1fb6adf1890a
 ms.date: 03/06/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -37,7 +36,7 @@ _expression_ A variable that represents a **[DoCmd](Access.DoCmd.md)** object.
 
 ## Remarks
 
-Use the **BrowseTo** method to navigate between objects in place. You can also change the source object of a subform control by specifying the _PathtoSubformControl_ argument. You can use **BrowseTo** to navigate from form1 to form2 without opening up a new window.
+Use the **BrowseTo** method to navigate between objects in place. You can also change the source object of a subform control by specifying the _PathtoSubformControl_ argument. Use **BrowseTo** to navigate from Form1 to Form2 without opening up a new window.
 
 The _PathtoSubformControl_ argument must be specified by using the syntax in the following example.
 

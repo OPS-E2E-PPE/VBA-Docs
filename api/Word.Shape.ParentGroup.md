@@ -3,25 +3,24 @@ title: Shape.ParentGroup property (Word)
 keywords: vbawd10.chm161480841
 f1_keywords:
 - vbawd10.chm161480841
-ms.prod: word
 api_name:
 - Word.Shape.ParentGroup
 ms.assetid: c6305148-86d4-9f86-45e9-5007d7f5b324
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.ParentGroup property (Word)
 
-Returns a  **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
+Returns a **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
 
 
 ## Syntax
 
- _expression_. `ParentGroup`
+_expression_.**ParentGroup**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example

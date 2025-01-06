@@ -3,18 +3,17 @@ title: SubForm.InSelection property (Access)
 keywords: vbaac10.chm11957
 f1_keywords:
 - vbaac10.chm11957
-ms.prod: access
 api_name:
 - Access.SubForm.InSelection
 ms.assetid: 202ce7d7-4363-b759-0ba7-f81c74dfd1f4
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

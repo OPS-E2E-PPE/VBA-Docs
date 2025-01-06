@@ -1,41 +1,33 @@
 ---
-title: GradientStyle Property
+title: GradientStyle property (Excel Graph)
 keywords: vbagr10.chm3077038
 f1_keywords:
 - vbagr10.chm3077038
-ms.prod: excel
 api_name:
 - Excel.GradientStyle
 ms.assetid: 042a271c-165c-ba10-9702-7db744654760
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/10/2019
+ms.localizationpriority: medium
 ---
 
 
-# GradientStyle Property
+# GradientStyle property (Excel Graph)
 
-Returns the gradient style for the specified fill. Read-only MsoGradientStyle .
+Returns the gradient style for the specified fill. Read-only **[MsoGradientStyle](office.msogradientstyle.md)**.
 
+## Syntax
 
+_expression_.**GradientStyle**
 
-|MsoGradientStyle can be one of these MsoGradientStyle constants.|
-| **msoGradientDiagonalDown**|
-| **msoGradientDiagonalUp**|
-| **msoGradientFromCenter**|
-| **msoGradientFromCorner**|
-| **msoGradientFromTitle**|
-| **msoGradientHorizontal**|
-| **msoGradientMixed**|
-| **msoGradientVertical**This property is read-only. Use the  **OneColorGradient** or **TwoColorGradient** method to set the gradient style for the fill.|
+_expression_ Required. An expression that returns one of the objects in the **Applies To** list.
 
-_expression_. `GradientStyle`
+## Remarks
 
- _expression_ Required. An expression that returns one of the objects in the **Applies To** list.
+This property is read-only. Use the **[OneColorGradient](excel.onecolorgradient.md)** or **[TwoColorGradient](excel.twocolorgradient.md)** method to set the gradient style for the fill.
 
 ## Example
 
-This example sets the chart's fill format so that its gradient style is changed to  **msoGradientDiagonalUp** if it was originally **msoGradientDiagonalDown**.
-
+This example sets the chart's fill format so that its gradient style is changed to **msoGradientDiagonalUp** if it was originally **msoGradientDiagonalDown**.
 
 ```vb
 With myChart.ChartArea.Fill 

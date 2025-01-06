@@ -1,29 +1,29 @@
 ---
-title: Task.Flag10 Property (Project)
-ms.prod: project-server
+title: Task.Flag10 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag10
 ms.assetid: 68ba415e-8242-986b-dd90-d7ee4dbef58b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag10 Property (Project)
+# Task.Flag10 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag10`
+_expression_. `Flag10`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.StencilPaths Property (Visio)
+title: InvisibleApp.StencilPaths property (Visio)
 keywords: vis_sdr.chm17514440
 f1_keywords:
 - vis_sdr.chm17514440
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.StencilPaths
 ms.assetid: 9cbf837e-c192-78e4-b829-a33425e82f45
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.StencilPaths Property (Visio)
+# InvisibleApp.StencilPaths property (Visio)
 
 Gets or sets the paths where Microsoft Visio looks for stencils. Read/write.
 
 
 ## Syntax
 
- _expression_. `StencilPaths`
+_expression_.**StencilPaths**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -31,13 +30,13 @@ Gets or sets the paths where Microsoft Visio looks for stencils. Read/write.
 
 ## Remarks
 
-The  **StencilPaths** property is set to an empty string ("") by default.
+The **StencilPaths** property is set to an empty string ("") by default.
 
-The string passed to and received from the  **StencilPaths** property is the same string shown in the **File Locations** dialog box. (Click the **File** tab, click **Options**, click  **Advanced**, and then, under  **General**, click  **File Locations**.) This string is stored in the  **HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Visio\Application\StencilPath** subkey.
+The string passed to and received from the **StencilPaths** property is the same string shown in the **File Locations** dialog box. (Click the **File** tab, click **Options**, click **Advanced**, and then, under **General**, click **File Locations**.) This string is stored in the **HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Visio\Application\StencilPath** subkey.
 
-When Visio looks for stencils, it looks in all paths named in the  **StencilPaths** property and all the subfolders of those paths. If you pass the **StencilPaths** property to the **EnumDirectories** method, it returns a complete list of fully qualified paths in the folders passed in.
+When Visio looks for stencils, it looks in all paths named in the **StencilPaths** property and all the subfolders of those paths. If you pass the **StencilPaths** property to the **EnumDirectories** method, it returns a complete list of fully qualified paths in the folders passed in.
 
-Setting the  **StencilPaths** property replaces existing values for **Stencils** in the **File Locations** dialog box. To retain existing values, get the existing string and then append the new file path to that string, as shown in the following code:
+Setting the **StencilPaths** property replaces existing values for **Stencils** in the **File Locations** dialog box. To retain existing values, get the existing string and then append the new file path to that string, as shown in the following code:
 
 
 
@@ -46,13 +45,12 @@ Setting the  **StencilPaths** property replaces existing values for **Stencils**
 Application.StencilPaths = Application.StencilPaths & ";" & "newpath ".
 ```
 
-
- **Caution**   Modifying the registry in any manner, whether in the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. If you are running Microsoft Windows NT or Microsoft Windows 2000, you should also update your Emergency Repair Disk (ERD).
-
+> [!WARNING] 
+> Modifying the Windows registry in any manner, whether in the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to us the  **StencilPaths** property to add a path to the stencils.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to us the **StencilPaths** property to add a path to the stencils.
 
 
 ```vb

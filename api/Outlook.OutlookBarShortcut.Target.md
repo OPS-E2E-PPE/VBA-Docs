@@ -1,37 +1,36 @@
 ---
-title: OutlookBarShortcut.Target Property (Outlook)
+title: OutlookBarShortcut.Target property (Outlook)
 keywords: vbaol11.chm343
 f1_keywords:
 - vbaol11.chm343
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarShortcut.Target
 ms.assetid: 990671c0-bfc5-6b09-26a1-1cdf9d0e143b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarShortcut.Target Property (Outlook)
+# OutlookBarShortcut.Target property (Outlook)
 
-Returns a  **Variant** indicating the target of the specified shortcut in a **Shortcuts** pane group. Read-only.
+Returns a **Variant** indicating the target of the specified shortcut in a **Shortcuts** pane group. Read-only.
 
 
 ## Syntax
 
 _expression_. `Target`
 
-_expression_ A variable that represents an [OutlookBarShortcut](./Outlook.OutlookBarShortcut.md) object.
+_expression_ A variable that represents an [OutlookBarShortcut](Outlook.OutlookBarShortcut.md) object.
 
 
 ## Remarks
 
-The return type depends on the shortcut type. If the shortcut represents an Outlook folder, the return type is  **Folder**. If the shortcut represents a file-system folder, the return type is an **Object**. If the shortcut represents a file-system path or URL, the return type is a **String**.
+The return type depends on the shortcut type. If the shortcut represents an Outlook folder, the return type is **Folder**. If the shortcut represents a file-system folder, the return type is an **Object**. If the shortcut represents a file-system path or URL, the return type is a **String**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example steps through the shortcuts in the first  **Shortcuts** pane group. It counts the number of shortcuts that are Outlook folders and displays the count.
+This Microsoft Visual Basic for Applications (VBA) example steps through the shortcuts in the first **Shortcuts** pane group. It counts the number of shortcuts that are Outlook folders and displays the count.
 
 
 ```vb

@@ -3,12 +3,11 @@ title: Attachment.GridlineStyleTop property (Access)
 keywords: vbaac10.chm13993
 f1_keywords:
 - vbaac10.chm13993
-ms.prod: access
 api_name:
 - Access.Attachment.GridlineStyleTop
 ms.assetid: bf54b66f-f16f-195a-9fcc-37cfa6b69de3
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

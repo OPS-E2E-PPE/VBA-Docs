@@ -3,30 +3,29 @@ title: Frame.VerticalPosition property (Word)
 keywords: vbawd10.chm153747466
 f1_keywords:
 - vbawd10.chm153747466
-ms.prod: word
 api_name:
 - Word.Frame.VerticalPosition
 ms.assetid: 584880c0-85e3-d96c-291f-5671b792f818
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frame.VerticalPosition property (Word)
 
-Returns or sets the vertical distance between the edge of the frame and the item specified by the  **RelativeVerticalPosition** property. Read/write **Single**.
+Returns or sets the vertical distance between the edge of the frame and the item specified by the **RelativeVerticalPosition** property. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `VerticalPosition`
+_expression_. `VerticalPosition`
 
- _expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
+_expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
 
 
 ## Remarks
 
-Can be a number that indicates a measurement in points, or can be any valid  **[WdFramePosition](Word.WdFramePosition.md)** constant.
+Can be a number that indicates a measurement in points, or can be any valid **[WdFramePosition](Word.WdFramePosition.md)** constant.
 
 
 ## Example

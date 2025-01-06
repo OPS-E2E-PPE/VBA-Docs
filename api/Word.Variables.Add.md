@@ -3,25 +3,24 @@ title: Variables.Add method (Word)
 keywords: vbawd10.chm157614087
 f1_keywords:
 - vbawd10.chm157614087
-ms.prod: word
 api_name:
 - Word.Variables.Add
 ms.assetid: 5c38d785-539b-7e6c-9cd0-cfa48e1aef33
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Variables.Add method (Word)
 
-Returns a  **Variable** object that represents a variable added to a document.
+Returns a **Variable** object that represents a variable added to a document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` , `_Value_` )
+_expression_.**Add** (_Name_, _Value_)
 
- _expression_ Required. A variable that represents a '[Variables](Word.variables.md)' collection.
+_expression_ Required. A variable that represents a '[Variables](Word.variables.md)' collection.
 
 
 ## Parameters
@@ -40,7 +39,7 @@ Variable
 
 ## Remarks
 
-Document variables are invisible to the user unless a DOCVARIABLE field is inserted with the appropriate variable name. If you try to add a variable with a name that already exists in the  **Variables** collection, an error occurs. To avoid this error, you can enumerate the collection before adding a new variable to it.
+Document variables are invisible to the user unless a DOCVARIABLE field is inserted with the appropriate variable name. If you try to add a variable with a name that already exists in the **Variables** collection, an error occurs. To avoid this error, you can enumerate the collection before adding a new variable to it.
 
 
 ## Example
@@ -73,7 +72,7 @@ Else
 End If
 ```
 
-This example stores the user name (from the  **Options** dialog box) in the template attached to the active document.
+This example stores the user name (from the **Options** dialog box) in the template attached to the active document.
 
 
 

@@ -1,27 +1,26 @@
 ---
-title: FilterEffect.Reveal Property (PowerPoint)
+title: FilterEffect.Reveal property (PowerPoint)
 keywords: vbapp10.chm669005
 f1_keywords:
 - vbapp10.chm669005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FilterEffect.Reveal
 ms.assetid: 01aaa4e5-e433-3e19-3f78-d266a1bf2890
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FilterEffect.Reveal Property (PowerPoint)
+# FilterEffect.Reveal property (PowerPoint)
 
 Determines how the embedded objects will be revealed. Read/write.
 
 
 ## Syntax
 
- _expression_. `Reveal`
+_expression_. `Reveal`
 
- _expression_ A variable that represents a [FilterEffect](./PowerPoint.FilterEffect.md) object.
+_expression_ A variable that represents a [FilterEffect](PowerPoint.FilterEffect.md) object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoTriState
 
 ## Remarks
 
-Setting a value of  **msoTrue** for the **Reveal** property when the filter effect type is **msoAnimFilterEffectTypeWipe** will make the shape appear. Setting a value of **msoFalse** will make the object disappear. In other words, if your filter is set to wipe and **Reveal** is true, you will get a wipe-in effect, and when **Reveal** is false, you will get a wipe-out effect.
+Setting a value of **msoTrue** for the **Reveal** property when the filter effect type is **msoAnimFilterEffectTypeWipe** will make the shape appear. Setting a value of **msoFalse** will make the object disappear. In other words, if your filter is set to wipe and **Reveal** is true, you will get a wipe-in effect, and when **Reveal** is false, you will get a wipe-out effect.
 
-The value of the  **Reveal** property can be one of these **MsoTriState** constants.
+The value of the **Reveal** property can be one of these **MsoTriState** constants.
 
 
 ||

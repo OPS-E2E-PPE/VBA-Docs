@@ -1,20 +1,20 @@
 ---
-title: Shape.PickUp Method (Project)
-ms.prod: project-server
+title: Shape.PickUp method (Project)
+ms.service: project-server
 ms.assetid: 954390b6-8992-f239-d891-467ec732b0b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.PickUp Method (Project)
+# Shape.PickUp method (Project)
 Copies the formatting of a shape.
 
 ## Syntax
 
- _expression_. `PickUp`
+_expression_.**PickUp**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ Copies the formatting of a shape.
 
 ### Remarks
 
-Use the  **[Apply](Project.shape.apply.md)** method to apply copied formatting to another shape.
+Use the **[Apply](Project.shape.apply.md)** method to apply copied formatting to another shape.
 
 
 ## Example

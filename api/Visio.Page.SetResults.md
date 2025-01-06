@@ -1,27 +1,26 @@
 ---
-title: Page.SetResults Method (Visio)
+title: Page.SetResults method (Visio)
 keywords: vis_sdr.chm10916580
 f1_keywords:
 - vis_sdr.chm10916580
-ms.prod: visio
 api_name:
 - Visio.Page.SetResults
 ms.assetid: 2f50a50c-3223-4948-e802-af97d1b2e815
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.SetResults Method (Visio)
+# Page.SetResults method (Visio)
 
 Sets the results or formulas of one or more cells.
 
 
 ## Syntax
 
- _expression_. `SetResults`( `_SID_SRCStream()_` , `_UnitsNamesOrCodes()_` , `_resultArray()_` , `_Flags_` )
+_expression_. `SetResults`( `_SID_SRCStream()_` , `_UnitsNamesOrCodes()_` , `_resultArray()_` , `_Flags_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -46,7 +45,7 @@ The **SetResults** method is like the **Result** method of a **Cell** object, ex
 
 For **Page** objects, you can use the **SetResults** method to set results of any set of cells in any set of shapes of the page or master.
 
-You tell the **SetResults** method which cells you want to set by passing an array of integers in _SID_SRCStream()_.  _SID_SRCStream()_ is a one-dimensional array of 2-byte integers.
+You tell the **SetResults** method which cells you want to set by passing an array of integers in _SID_SRCStream(). _SID_SRCStream()_ is a one-dimensional array of 2-byte integers.
 
 For **Page** objects, _SID_SRCStream()_ should be a one-dimensional array of 4 _n_ 2-byte integers for _n_ >= 1. The **SetResults** method interprets the stream as:
 
@@ -59,13 +58,13 @@ For **Page** objects, _SID_SRCStream()_ should be a one-dimensional array of 4 _
 
 where  _sheetID_ is the **ID** property of the **Shape** object on the page or master whose cell result is to be modified.
 
- If the _sheetID_ in an entry is **visInvalShapeID** (-1) or if the bottom byte of _sectionIdx_ is **visSectionInval** (255), the entry is ignored by the **SetResults** method. The motivation for this is that the same _SID_SRCStream()_ array can be used on several calls to **SetResults** , **GetResults** , and similar methods with the caller only needing to make minor changes to the stream between calls.
+ If the _sheetID_ in an entry is **visInvalShapeID** (-1) or if the bottom byte of _sectionIdx_ is **visSectionInval** (255), the entry is ignored by the **SetResults** method. The motivation for this is that the same _SID_SRCStream()_ array can be used on several calls to **SetResults**, **GetResults**, and similar methods with the caller only needing to make minor changes to the stream between calls.
 
-The  _UnitsNamesOrCodes()_ array controls what measurement units individual entries in results are in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Microsoft Office Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters** , **visInches** , and so on) declared by the Visio type library in **VisUnitCodes**. For a list of constants used for units of measure, see [About Units of Measure](../visio/Concepts/about-units-of-measure-visio.md). Note that the values specified in the  _UnitsNamesOrCodes()_ array have no effect if **visSetFormulas** is set in _Flags_.
+The  _UnitsNamesOrCodes()_ array controls what measurement units individual entries in results are in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Microsoft Office Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters**, **visInches**, and so on) declared by the Visio type library in **VisUnitCodes**. For a list of constants used for units of measure, see [About units of measure](../visio/Concepts/about-units-of-measure-visio.md). Note that the values specified in the  _UnitsNamesOrCodes()_ array have no effect if **visSetFormulas** is set in _Flags_.
 
 If  _UnitsNamesOrCodes()_ is not empty, we expect it to be a one-dimensional array of 1 <= _u_ variants. Each entry can be a string or integer code, or empty (nothing). If the _i_ 'th entry is empty, the _i_ 'th entry in _resultArray()_ is in the units designated by _units(j)_ , where _j_ is the most recent prior entry that is not empty. Thus, if you want all entries in _resultArray()_ to be interpreted in the same units, you need only pass a _UnitsNamesOrCodes()_ array that has one entry. If there is no prior entry that is not empty, or if no _units_ array is supplied, **visNumber** (0x20) will be used. This causes the application to default to internal units (as does the **ResultIU** property of a **Cell** object).
 
-The  _resultArray()_ parameter should be a one-dimensional array of 1 <= _m_ variants. A result can be passed as **Double** , **Integer** , **String** , or a reference to a **String**. Strings are accepted only if **visSetFormulas** is set in _Flags_, in which case strings are interpreted as formulas. If  _resultArray(i)_ is empty, the _i_ 'th cell will be set to the value in _resultArray(j)_, where  _j_ is the index of the most recent prior entry that is not empty. If there is no prior entry that is not empty, the corresponding cell is not altered. If fewer results than cells are specified (if _m < n_ ), the _i_ 'th cell, _i < m_ , will be set to the same value as the _m_ 'th cell. Thus, to set many cells to the same value, you need only pass one copy of the value.
+The  _resultArray()_ parameter should be a one-dimensional array of 1 <= _m_ variants. A result can be passed as **Double**, **Integer**, **String**, or a reference to a **String**. Strings are accepted only if **visSetFormulas** is set in _Flags_, in which case strings are interpreted as formulas. If  _resultArray(i)_ is empty, the _i_ 'th cell will be set to the value in _resultArray(j)_, where  _j_ is the index of the most recent prior entry that is not empty. If there is no prior entry that is not empty, the corresponding cell is not altered. If fewer results than cells are specified (if _m < n_ ), the _i_ 'th cell, _i < m_ , will be set to the same value as the _m_ 'th cell. Thus, to set many cells to the same value, you need only pass one copy of the value.
 
 The  _Flags_ parameter should be a bitmask of the following values.
 
@@ -78,7 +77,7 @@ The  _Flags_ parameter should be a bitmask of the following values.
 | **visSetTestCircular**|&H4|Test for establishment of circular cell references.|
 | **visSetUniversalSyntax**|&H8|Formulas are in universal syntax|
 
-The value returned by the **SetResults** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i < n_ entries are processed correctly, but an error occurs on the _i_ + 1st entry, the **SetResults** method raises an exception and returns _i_ . Otherwise, _n_ is returned.
+The value returned by the **SetResults** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i < n_ entries are processed correctly, but an error occurs on the _i_ + 1st entry, the **SetResults** method raises an exception and returns _i_. Otherwise, _n_ is returned.
 
 
 ## Example

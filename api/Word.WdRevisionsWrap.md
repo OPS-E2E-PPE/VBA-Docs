@@ -1,11 +1,10 @@
 ---
 title: WdRevisionsWrap enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdRevisionsWrap
 ms.assetid: 7e552a75-84e6-066d-c319-bb623f2fd547
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

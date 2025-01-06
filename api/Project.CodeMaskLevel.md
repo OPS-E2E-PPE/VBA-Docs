@@ -1,17 +1,17 @@
 ---
-title: CodeMaskLevel Object (Project)
-ms.prod: project-server
+title: CodeMaskLevel object (Project)
+ms.service: project-server
 api_name:
 - Project.CodeMaskLevel
 ms.assetid: cef1b15f-c7f1-3b95-49a1-00854a74d9da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CodeMaskLevel Object (Project)
+# CodeMaskLevel object (Project)
 
-Represents a level in the code mask of an outline code definition. The  **CodeMaskLevel** object is a member of the **[CodeMask](Project.codemask.md)** collection.
+Represents a level in the code mask of an outline code definition. The **CodeMaskLevel** object is a member of the **[CodeMask](Project.codemask.md)** collection.
  
 
 

@@ -3,10 +3,9 @@ title: Exit statement (VBA)
 keywords: vblr6.chm1008916
 f1_keywords:
 - vblr6.chm1008916
-ms.prod: office
 ms.assetid: 2a1f4605-8220-c5b1-3760-c710f0535aa8
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -21,8 +20,6 @@ Exits a block of **Do…Loop**, **For…Next**, **Function**, **Sub**, or **Prop
 **Exit Function** <br/>
 **Exit Property** <br/>
 **Exit Sub**
-
-<br/>
 
 The **Exit** statement syntax has these forms:
 

@@ -1,24 +1,24 @@
 ---
-title: Application.IsOfficeTaskPaneVisible Method (Project)
-ms.prod: project-server
+title: Application.IsOfficeTaskPaneVisible method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.IsOfficeTaskPaneVisible
 ms.assetid: 822ad2fd-de35-8340-7b24-56e59fb874b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsOfficeTaskPaneVisible Method (Project)
+# Application.IsOfficeTaskPaneVisible method (Project)
 
-Returns  **True** if any of the Office task panes are visible.
+Returns **True** if any of the Office task panes are visible.
 
 
 ## Syntax
 
- _expression_. `IsOfficeTaskPaneVisible`
+_expression_. `IsOfficeTaskPaneVisible`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

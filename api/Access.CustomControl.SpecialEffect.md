@@ -3,18 +3,17 @@ title: CustomControl.SpecialEffect property (Access)
 keywords: vbaac10.chm12024
 f1_keywords:
 - vbaac10.chm12024
-ms.prod: access
 api_name:
 - Access.CustomControl.SpecialEffect
 ms.assetid: cad6b92e-b927-fa6f-518c-f019dba0f879
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

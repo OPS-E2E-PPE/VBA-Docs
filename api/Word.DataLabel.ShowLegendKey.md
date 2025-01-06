@@ -3,12 +3,11 @@ title: DataLabel.ShowLegendKey property (Word)
 keywords: vbawd10.chm233898155
 f1_keywords:
 - vbawd10.chm233898155
-ms.prod: word
 api_name:
 - Word.DataLabel.ShowLegendKey
 ms.assetid: b9238117-ad3f-7dd7-bf35-d773bf713535
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowLegendKey`
+_expression_.**ShowLegendKey**
 
- _expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
+_expression_ A variable that represents a '[DataLabel](Word.DataLabel.md)' object.
 
 
 ## Example

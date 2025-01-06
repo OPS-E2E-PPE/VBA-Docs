@@ -1,25 +1,24 @@
 ---
-title: Axis.DisplayUnitCustom Property (PowerPoint)
+title: Axis.DisplayUnitCustom property (PowerPoint)
 keywords: vbapp10.chm682043
 f1_keywords:
 - vbapp10.chm682043
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.DisplayUnitCustom
 ms.assetid: bfee899d-27fd-ca15-9af7-04702ae3da52
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.DisplayUnitCustom Property (PowerPoint)
+# Axis.DisplayUnitCustom property (PowerPoint)
 
-If the value of the  **[DisplayUnit](PowerPoint.Axis.DisplayUnit.md)** property is **xlCustom**, returns or sets the value of the displayed units. Read/write **Double**.
+If the value of the **[DisplayUnit](PowerPoint.Axis.DisplayUnit.md)** property is **xlCustom**, returns or sets the value of the displayed units. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_. `DisplayUnitCustom`
+_expression_.**DisplayUnitCustom**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
@@ -36,7 +35,8 @@ Using unit labels when charting large values makes your tick-mark labels easier 
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the units displayed on the value axis of the first chart in the active document to increments of 500.
 

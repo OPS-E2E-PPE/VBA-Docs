@@ -3,12 +3,11 @@ title: WorksheetFunction.CountIf method (Excel)
 keywords: vbaxl10.chm137242
 f1_keywords:
 - vbaxl10.chm137242
-ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.CountIf
 ms.assetid: d0251b63-cc9e-a58c-1862-adbd58004126
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/22/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Counts the number of cells within a range that meet the given criteria.
 
 ## Syntax
 
-_expression_. `CountIf`( `_Arg1_` , `_Arg2_` )
+_expression_.**CountIf** (_Arg1_, _Arg2_)
 
-_expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,20 +32,14 @@ _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetF
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
-
-
-
-- You can use the wildcard characters, question mark (?) and asterisk (*), for the criteria. A question mark matches any single character; an asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) before the character.
+Use the wildcard characters, question mark (?) and asterisk (*), for the criteria. A question mark matches any single character; an asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) before the character.
     
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

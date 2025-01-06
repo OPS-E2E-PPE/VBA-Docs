@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetupFooter Method (Project)
+title: Application.FilePageSetupFooter method (Project)
 keywords: vbapj.chm2358
 f1_keywords:
 - vbapj.chm2358
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetupFooter
 ms.assetid: 0ca38a3a-4004-d32b-5a8a-0a4fdb79b68b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetupFooter Method (Project)
+# Application.FilePageSetupFooter method (Project)
 
 Sets up footers for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupFooter`( `_Name_`, `_Alignment_`, `_Text_` )
+_expression_. `FilePageSetupFooter`( `_Name_`, `_Alignment_`, `_Text_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Sets up footers for printing.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the view or report for which to set up footers for printing.|
-| _Alignment_|Optional|**Long**|The alignment of the text in the footer. Can be one of the following  **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**. The default value is **pjCenter**.|
+| _Alignment_|Optional|**Long**|The alignment of the text in the footer. Can be one of the following **PjAlignment** constants: **pjLeft**, **pjCenter**, or **pjRight**. The default value is **pjCenter**.|
 | _Text_|Optional|**String**|The text to display in the footer. The following special format codes may be included as part of the footer:
 
 |**Format Code**|**Description**|
@@ -71,7 +71,7 @@ Sets up footers for printing.
 
 ## Remarks
 
-Using the  **FilePageSetupFooter** method without specifying any arguments displays the **Page Setup** dialog box with the **Footer** tab selected.
+Using the **FilePageSetupFooter** method without specifying any arguments displays the **Page Setup** dialog box with the **Footer** tab selected.
 
 
 ## Example

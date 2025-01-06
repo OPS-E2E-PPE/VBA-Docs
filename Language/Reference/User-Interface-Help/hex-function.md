@@ -3,10 +3,9 @@ title: Hex function (Visual Basic for Applications)
 keywords: vblr6.chm1011362
 f1_keywords:
 - vblr6.chm1011362
-ms.prod: office
 ms.assetid: 79a403a9-61af-0991-8f13-60c1033f158a
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Returns a [String](../../Glossary/vbe-glossary.md#string-data-type) representing
 **Hex**(_number_)
 
 The required _number_ [argument](../../Glossary/vbe-glossary.md#argument) is any valid [numeric expression](../../Glossary/vbe-glossary.md#numeric-expression) or [string expression](../../Glossary/vbe-glossary.md#string-expression).
-
-<br/>
 
 |If _number_ is|Hex returns|
 |:-----|:-----|

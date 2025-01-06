@@ -3,25 +3,24 @@ title: OLEFormat.DoVerb method (Word)
 keywords: vbawd10.chm154337389
 f1_keywords:
 - vbawd10.chm154337389
-ms.prod: word
 api_name:
 - Word.OLEFormat.DoVerb
 ms.assetid: 9ef89849-e072-24a0-3d43-fa743154b1a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OLEFormat.DoVerb method (Word)
 
-Requests that an OLE object perform one of its available verbs ? the actions an OLE object takes to activate its contents.
+Requests that an OLE object perform one of its available verbs&mdash;the actions an OLE object takes to activate its contents.
 
 
 ## Syntax
 
- _expression_. `DoVerb`( `_VerbIndex_` )
+_expression_. `DoVerb`( `_VerbIndex_` )
 
- _expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
+_expression_ Required. A variable that represents an '[OLEFormat](Word.OLEFormat.md)' object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Requests that an OLE object perform one of its available verbs ? the actions an 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _VerbIndex_|Optional| **Variant**|The verb that the OLE object should perform. If this argument is omitted, the default verb is sent. If the OLE object does not support the requested verb, an error will occur. Can be any  **WdOLEVerb** constant.|
+| _VerbIndex_|Optional| **Variant**|The verb that the OLE object should perform. If this argument is omitted, the default verb is sent. If the OLE object does not support the requested verb, an error will occur. Can be any **WdOLEVerb** constant.|
 
 ## Remarks
 

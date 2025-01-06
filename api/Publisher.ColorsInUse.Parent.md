@@ -1,33 +1,31 @@
 ---
-title: ColorsInUse.Parent Property (Publisher)
+title: ColorsInUse.Parent property (Publisher)
 keywords: vbapb10.chm2949123
 f1_keywords:
 - vbapb10.chm2949123
-ms.prod: publisher
 api_name:
 - Publisher.ColorsInUse.Parent
 ms.assetid: 79b6be2a-ff88-c04e-7488-d3ed3bc94c1d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# ColorsInUse.Parent Property (Publisher)
+# ColorsInUse.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **ColorsInUse** object.
+_expression_ A variable that represents a **[ColorsInUse](Publisher.ColorsInUse.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

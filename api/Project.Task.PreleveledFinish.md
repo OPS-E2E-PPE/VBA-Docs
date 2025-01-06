@@ -1,24 +1,24 @@
 ---
-title: Task.PreleveledFinish Property (Project)
-ms.prod: project-server
+title: Task.PreleveledFinish property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.PreleveledFinish
 ms.assetid: edcb110a-41b7-c2ad-0382-d88cf5f3708c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.PreleveledFinish Property (Project)
+# Task.PreleveledFinish property (Project)
 
-Gets the finish date of a task before leveling occurred. Read-only  **Variant**.
+Gets the finish date of a task before leveling occurred. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `PreleveledFinish`
+_expression_. `PreleveledFinish`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

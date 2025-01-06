@@ -3,14 +3,13 @@ title: Cannot add record(s); primary key for table <name> not in result set. (Er
 keywords: jeterr40.chm5003347
 f1_keywords:
 - jeterr40.chm5003347
-ms.prod: access
 ms.assetid: 91af8a8b-bd8d-11e2-0423-4aa8542cc2a7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Cannot add record(s); primary key for table <name> not in result set. (Error 3347)
+# Cannot add record(s); primary key for table \<name\> not in result set. (Error 3347)
 
   
 
@@ -23,8 +22,8 @@ This is an unexpected error. Please contact Microsoft Product Support Services f
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

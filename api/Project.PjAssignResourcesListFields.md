@@ -1,15 +1,15 @@
 ---
-title: PjAssignResourcesListFields Enumeration (Project)
-ms.prod: project-server
+title: PjAssignResourcesListFields enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjAssignResourcesListFields
 ms.assetid: 84bd2625-c9b4-858a-8238-1a64ef51686f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjAssignResourcesListFields Enumeration (Project)
+# PjAssignResourcesListFields enumeration (Project)
 
 Contains constants that specify the fields listing data.
 

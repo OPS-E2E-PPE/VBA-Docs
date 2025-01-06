@@ -3,12 +3,11 @@ title: Border.LineWidth property (Word)
 keywords: vbawd10.chm154861572
 f1_keywords:
 - vbawd10.chm154861572
-ms.prod: word
 api_name:
 - Word.Border.LineWidth
 ms.assetid: 31e87acf-fd7f-fa5c-d869-5f46bb7ed169
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns or sets the line width of an object's border. Read/write.
 
 ## Syntax
 
- _expression_. `LineWidth`
+_expression_. `LineWidth`
 
- _expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
+_expression_ Required. A variable that represents a '[Border](Word.Border.md)' object.
 
 
 ## Remarks
 
-Returns a  **WdLineWidth** constant or **wdUndefined** if the object either has no borders or has borders with more than one line width. If the specified line width isn't available for the border's line style, this property generates an error. To determine the line widths available for a particular line style, see the **Borders and Shading** dialog box (**Format** menu).
+Returns a **WdLineWidth** constant or **wdUndefined** if the object either has no borders or has borders with more than one line width. If the specified line width isn't available for the border's line style, this property generates an error. To determine the line widths available for a particular line style, see the **Borders and Shading** dialog box (**Format** menu).
 
 
 ## Example

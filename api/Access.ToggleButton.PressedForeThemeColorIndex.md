@@ -3,12 +3,11 @@ title: ToggleButton.PressedForeThemeColorIndex property (Access)
 keywords: vbaac10.chm14624
 f1_keywords:
 - vbaac10.chm14624
-ms.prod: access
 api_name:
 - Access.ToggleButton.PressedForeThemeColorIndex
 ms.assetid: 9c2b6020-3bb5-72f5-184d-2b1453946a26
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

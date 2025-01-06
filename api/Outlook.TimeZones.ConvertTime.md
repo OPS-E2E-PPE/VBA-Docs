@@ -1,27 +1,26 @@
 ---
-title: TimeZones.ConvertTime Method (Outlook)
+title: TimeZones.ConvertTime method (Outlook)
 keywords: vbaol11.chm3297
 f1_keywords:
 - vbaol11.chm3297
-ms.prod: outlook
 api_name:
 - Outlook.TimeZones.ConvertTime
 ms.assetid: 6a935961-2030-ed9c-5c1b-4e6641ee3913
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TimeZones.ConvertTime Method (Outlook)
+# TimeZones.ConvertTime method (Outlook)
 
 Converts a date/time value from one time zone to another time zone.
 
 
 ## Syntax
 
- _expression_. `ConvertTime`( `_SourceDateTime_` , `_SourceTimeZone_` , `_DestinationTimeZone_` )
+_expression_. `ConvertTime`( `_SourceDateTime_` , `_SourceTimeZone_` , `_DestinationTimeZone_` )
 
-_expression_ A variable that represents a [TimeZones](./Outlook.TimeZones.md) object.
+_expression_ A variable that represents a [TimeZones](Outlook.TimeZones.md) object.
 
 
 ## Parameters
@@ -36,7 +35,7 @@ _expression_ A variable that represents a [TimeZones](./Outlook.TimeZones.md) ob
 
 ## Return value
 
-A  **Date** value that represents the date and time expressed in the _DestinationTimeZone_ .
+A **Date** value that represents the date and time expressed in the _DestinationTimeZone_.
 
 
 ## See also

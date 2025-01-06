@@ -1,39 +1,38 @@
 ---
-title: View.SaveOption Property (Outlook)
+title: View.SaveOption property (Outlook)
 keywords: vbaol11.chm2492
 f1_keywords:
 - vbaol11.chm2492
-ms.prod: outlook
 api_name:
 - Outlook.View.SaveOption
 ms.assetid: d7990708-5eb4-1b11-944e-127793bdb5b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.SaveOption Property (Outlook)
+# View.SaveOption property (Outlook)
 
-Returns an  **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
+Returns an **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
 
 
 ## Syntax
 
- _expression_. `SaveOption`
+_expression_. `SaveOption`
 
-_expression_ A variable that represents a [View](./Outlook.View.md) object.
+_expression_ A variable that represents a [View](Outlook.View.md) object.
 
 
 ## Remarks
 
-The  **SaveOption** property is set when the **[View](Outlook.View.md)** object is created by using the **[Views.Add](Outlook.Views.Add.md)** method.
+The **SaveOption** property is set when the **[View](Outlook.View.md)** object is created by using the **[Views.Add](Outlook.Views.Add.md)** method.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the names of all views that can be accessed by all users in the  **Notes** folder.
+The following Microsoft Visual Basic for Applications (VBA) example displays the names of all views that can be accessed by all users in the **Notes** folder.
 
-The following example locks the user interface for all views that are available to all users. The subroutine  `LockView` accepts the **View** object and a **Boolean** value that indicates if the View interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
+The following example locks the user interface for all views that are available to all users. The subroutine `LockView` accepts the **View** object and a **Boolean** value that indicates if the View interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
 
 
 

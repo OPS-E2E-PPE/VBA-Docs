@@ -3,10 +3,9 @@ title: FormatPercent function (Visual Basic for Applications)
 keywords: vblr6.chm1008936
 f1_keywords:
 - vblr6.chm1008936
-ms.prod: office
 ms.assetid: 46da0c9c-f6a7-9349-7d5f-fc8147e7a6b3
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns an expression formatted as a percentage (multipled by 100) with a traili
 ## Syntax
 
 **FormatPercent**(_Expression_, [ _NumDigitsAfterDecimal_, [ _IncludeLeadingDigit_, [ _UseParensForNegativeNumbers_, [ _GroupDigits_ ]]]])
-
-<br/>
 
 The **FormatPercent** function syntax has these parts:
 

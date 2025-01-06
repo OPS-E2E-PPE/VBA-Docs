@@ -3,12 +3,11 @@ title: SignatureInfo.CertificateVerificationResults property (Office)
 keywords: vbaof11.chm286009
 f1_keywords:
 - vbaof11.chm286009
-ms.prod: office
 api_name:
 - Office.SignatureInfo.CertificateVerificationResults
 ms.assetid: dc661f7e-f02e-79a6-91d6-c124109c6d4c
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

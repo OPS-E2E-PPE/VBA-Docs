@@ -1,27 +1,31 @@
 ---
-title: SlideRange.Cut Method (PowerPoint)
+title: SlideRange.Cut method (PowerPoint)
 keywords: vbapp10.chm532012
 f1_keywords:
 - vbapp10.chm532012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.Cut
 ms.assetid: 91d80a2b-e67a-290b-cb41-6bbeeb467d1b
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.Cut Method (PowerPoint)
+# SlideRange.Cut method (PowerPoint)
 
 Deletes the specified object and places it on the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Cut`
+_expression_.**Cut**
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
+
+
+## Remarks
+
+If any slide in the range is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
 
 
 ## Example
@@ -44,5 +48,7 @@ End With
 
 
 [SlideRange Object](PowerPoint.SlideRange.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

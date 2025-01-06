@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.CurrentScope Property (Visio)
+title: InvisibleApp.CurrentScope property (Visio)
 keywords: vis_sdr.chm17513340
 f1_keywords:
 - vis_sdr.chm17513340
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.CurrentScope
 ms.assetid: 8a2bf84d-419d-7776-2d7c-7b73c3203e66
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.CurrentScope Property (Visio)
+# InvisibleApp.CurrentScope property (Visio)
 
 Determines the ID of the scope that causes an event to fire. Read-only.
 
 
 ## Syntax
 
- _expression_. `CurrentScope`
+_expression_.**CurrentScope**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -31,17 +30,16 @@ Long
 
 ## Remarks
 
-Returns  **visScopeIDInvalid** (-1) if a scope isn't open. The scope ID could be an internal Microsoft Visio scope ID that corresponds to a Visio command or an external scope ID passed to an Automation client by the **BeginUndoScope** method.
+Returns **visScopeIDInvalid** (-1) if a scope isn't open. The scope ID could be an internal Microsoft Visio scope ID that corresponds to a Visio command or an external scope ID passed to an Automation client by the **BeginUndoScope** method.
 
-The recipients of an event consider a scope open if the  **EnterScope** event has fired but the **ExitScope** event has not fired.
+The recipients of an event consider a scope open if the **EnterScope** event has fired but the **ExitScope** event has not fired.
 
-To determine if the event queue firing is related to a particular scope internal to the application or one opened and closed by an Automation client, use the  **IsInScope** property.
+To determine if the event queue firing is related to a particular scope internal to the application or one opened and closed by an Automation client, use the **IsInScope** property.
 
 
 ## Example
 
-This example shows how to use the  **CurrentScope** property to determine the ID of the current scope.
-
+This example shows how to use the **CurrentScope** property to determine the ID of the current scope.
 
 ```vb
 Private WithEvents vsoApplication As Visio.Application 

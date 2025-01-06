@@ -3,10 +3,9 @@ title: If...Then...Else statement (VBA)
 keywords: vblr6.chm1008940
 f1_keywords:
 - vblr6.chm1008940
-ms.prod: office
 ms.assetid: 53514f63-ec20-27bf-2b61-5706540a4999
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Conditionally executes a group of [statements](../../Glossary/vbe-glossary.md#st
 
 **If** _condition_ **Then** [ _statements_ ] [ **Else** _elsestatements_ ]
 
-<br/>
-
 Or, you can use the block form syntax:
 
 **If** _condition_ **Then** <br/>
@@ -30,13 +27,11 @@ Or, you can use the block form syntax:
 [ _elsestatements_ ]] <br/>
 **End If** <br/>
 
-<br/>
-
 The **If...Then...Else** statement syntax has these parts.
 
 |Part|Description|
 |:-----|:-----|
-| _condition_|Required. One or more of the following two types of expressions: <br/><br/>A numeric expression or string expression that evaluates to **True** or **False**. If _condition_ is Null, _condition_ is treated as **False**.<br/><br/>An expression of the form **TypeOf** _objectname_ **Is** _objecttype_. The _objectname_ is any object reference, and _objecttype_ is any valid object type.  The expression is **True** if _objectname_ is of the object type specified by _objecttype_; otherwise it is **False**.| 
+| _condition_|Required. One or more of the following two types of expressions: <br/><br/>A numeric expression or string expression that evaluates to **True** or **False**. If _condition_ is Null, _condition_ is treated as **False**.<br/><br/>An expression of the form **TypeOf** _objectname_ **Is** _objecttype_. The _objectname_ is any object reference, and _objecttype_ is any valid object type.  The expression is **True** if _objectname_ is of the object type specified by _objecttype_; otherwise, it is **False**.| 
 | _statements_|Optional in block form; required in single-line form that has no **Else** clause. One or more statements separated by colons; executed if _condition_ is **True**.|
 | _condition-n_|Optional. Same as  _condition_.|
 | _elseifstatements_|Optional. One or more statements executed if associated  _condition-n_ is **True**.|
@@ -44,7 +39,7 @@ The **If...Then...Else** statement syntax has these parts.
 
 ## Remarks
 
-You can use the single-line form (first syntax) for short, simple tests. However, the block form (second syntax) provides more structure and flexibility than the single-line form and is usually easier to read, maintain, and debug.
+Use the single-line form (first syntax) for short, simple tests. However, the block form (second syntax) provides more structure and flexibility than the single-line form and is usually easier to read, maintain, and debug.
 
 > [!NOTE] 
 > With the single-line form, it is possible to have multiple statements executed as the result of an **If...Then** decision. All statements must be on the same line and separated by colons, as in the following statement:
@@ -91,8 +86,6 @@ End If
 If Digits = 1 Then MyString = "One" Else MyString = "More than one" 
 
 ```
-
-<br/>
 
 Use the **If TypeOf** construct to determine whether the Control passed into a procedure is a text box.
 

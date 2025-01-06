@@ -1,27 +1,26 @@
 ---
 title: CommandButton.MousePointer Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: b17ab36f-62f7-7305-cda7-79b195649fd4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.MousePointer Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the type of pointer displayed when the user positions the mouse over a particular object. Read/write.
+Returns or sets an **Integer** that specifies the type of pointer displayed when the user positions the mouse over a particular object. Read/write.
 
 
 ## Syntax
 
-_expression_. **MousePointer**
+_expression_.**MousePointer**
 
-_expression_ A variable that represents a  **CommandButton** object.
+_expression_ A variable that represents a **CommandButton** object.
 
 
 ## Remarks
 
-The settings for  **MousePointer** are:
+The settings for **MousePointer** are:
 
 
 
@@ -41,9 +40,9 @@ The settings for  **MousePointer** are:
 |13|Arrow with an hourglass.|
 |14|Arrow with a question mark.|
 |15|Size all cursor (arrows pointing north, south, east, and west).|
-|99|Uses the icon specified by the  **[MouseIcon](Outlook.commandbutton.mouseicon.md)** property.|
+|99|Uses the icon specified by the **[MouseIcon](Outlook.commandbutton.mouseicon.md)** property.|
 
-Use the  **MousePointer** property when you want to indicate changes in functionality as the mouse pointer passes over controls on a form. For example, the hourglass setting (11) is useful to indicate that the user must wait for a process or operation to finish.
+Use the **MousePointer** property when you want to indicate changes in functionality as the mouse pointer passes over controls on a form. For example, the hourglass setting (11) is useful to indicate that the user must wait for a process or operation to finish.
 
 Some icons vary depending on system settings, such as the icons associated with desktop themes.
 

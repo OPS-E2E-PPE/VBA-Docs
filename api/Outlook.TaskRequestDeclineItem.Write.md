@@ -1,24 +1,23 @@
 ---
-title: TaskRequestDeclineItem.Write Event (Outlook)
-ms.prod: outlook
+title: TaskRequestDeclineItem.Write event (Outlook)
 api_name:
 - Outlook.TaskRequestDeclineItem.Write
 ms.assetid: e0abe283-c3f4-fd1a-7a41-8b1dd0f6c161
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.Write Event (Outlook)
+# TaskRequestDeclineItem.Write event (Outlook)
 
-Occurs when an instance of the parent object is saved, either explicitly (for example, using the  **[Save](Outlook.TaskRequestDeclineItem.Save.md)** or **[SaveAs](Outlook.TaskRequestDeclineItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
+Occurs when an instance of the parent object is saved, either explicitly (for example, using the **[Save](Outlook.TaskRequestDeclineItem.Save.md)** or **[SaveAs](Outlook.TaskRequestDeclineItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
 
 
 ## Syntax
 
 _expression_. `Write`( `_Cancel_` )
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Parameters
@@ -27,11 +26,11 @@ _expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.Tas
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True** , the save operation is not completed.|
+| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the save operation is not completed.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the save operation is not completed.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the save operation is not completed.
 
 
 ## See also

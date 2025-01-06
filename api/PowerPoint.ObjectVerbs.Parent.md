@@ -1,27 +1,26 @@
 ---
-title: ObjectVerbs.Parent Property (PowerPoint)
+title: ObjectVerbs.Parent property (PowerPoint)
 keywords: vbapp10.chm564002
 f1_keywords:
 - vbapp10.chm564002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ObjectVerbs.Parent
 ms.assetid: 6fdcb62a-4387-2af9-d146-3a74295685c4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ObjectVerbs.Parent Property (PowerPoint)
+# ObjectVerbs.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents an [ObjectVerbs](./PowerPoint.ObjectVerbs.md) object.
+_expression_ A variable that represents an [ObjectVerbs](PowerPoint.ObjectVerbs.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

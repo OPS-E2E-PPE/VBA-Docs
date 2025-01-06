@@ -3,23 +3,22 @@ title: WebBrowserControl object (Access)
 keywords: vbaac10.chm14346
 f1_keywords:
 - vbaac10.chm14346
-ms.prod: access
 api_name:
 - Access.WebBrowserControl
 ms.assetid: d7a2fc59-e373-ea64-e877-e18f23c491a0
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 03/21/2019
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl object (Access)
 
-Represents a Web browser control on a form.
+Represents a web browser control on a form.
 
 
 ## Remarks
 
-Use the [ControlSource](Access.WebBrowserControl.ControlSource.md) property to specify the web page to load in the control.
+Use the **[ControlSource](Access.WebBrowserControl.ControlSource.md)** property to specify the webpage to load in the control.
 
 
 ## Events

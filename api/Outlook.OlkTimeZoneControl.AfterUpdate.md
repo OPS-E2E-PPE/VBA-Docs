@@ -1,18 +1,17 @@
 ---
-title: OlkTimeZoneControl.AfterUpdate Event (Outlook)
+title: OlkTimeZoneControl.AfterUpdate event (Outlook)
 keywords: vbaol11.chm1000528
 f1_keywords:
 - vbaol11.chm1000528
-ms.prod: outlook
 api_name:
 - Outlook.OlkTimeZoneControl.AfterUpdate
 ms.assetid: b34419cd-3df9-6855-032a-8ed7193a82fb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkTimeZoneControl.AfterUpdate Event (Outlook)
+# OlkTimeZoneControl.AfterUpdate event (Outlook)
 
 Occurs after the data in the control has been changed through the user interface.
 
@@ -21,7 +20,7 @@ Occurs after the data in the control has been changed through the user interface
 
 _expression_.**AfterUpdate**
 
-_expression_ A variable that represents an [OlkTimeZoneControl](./Outlook.OlkTimeZoneControl.md) object.
+_expression_ A variable that represents an [OlkTimeZoneControl](Outlook.OlkTimeZoneControl.md) object.
 
 
 ## Remarks
@@ -31,13 +30,13 @@ _expression_ A variable that represents an [OlkTimeZoneControl](./Outlook.OlkTim
 
 1. User focuses on the control
     
-2.  **BeforeUpdate** occurs
+2. **BeforeUpdate** occurs
     
 3. Control data is updated
     
-4.  **AfterUpdate** occurs
+4. **AfterUpdate** occurs
     
-5.  **[Exit](Outlook.OlkTimeZoneControl.Exit.md)** occurs: User moves focus away from control
+5. **[Exit](Outlook.OlkTimeZoneControl.Exit.md)** occurs: User moves focus away from control
     
 
 

@@ -1,36 +1,32 @@
 ---
-title: Explorer.BeforeItemCut Event (Outlook)
+title: Explorer.BeforeItemCut event (Outlook)
 keywords: vbaol11.chm462
 f1_keywords:
 - vbaol11.chm462
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.BeforeItemCut
 ms.assetid: 82861e5e-e990-aed9-4134-db9cbe63d47c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.BeforeItemCut Event (Outlook)
+# Explorer.BeforeItemCut event (Outlook)
 
 Occurs when an Outlook item is cut from a folder.
-
 
 ## Syntax
 
 _expression_. `BeforeItemCut`( `_Cancel_` )
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the item is not deleted.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the item is not deleted.|
 
 ## Remarks
 
@@ -39,7 +35,7 @@ This event can be cancelled after it has started. If the event is canceled, then
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example prompts the user with a warning message before the item is cut from the folder. If the user clicks  **Yes**, the item is cut from the folder. If the user clicks  **No**, the item will not be removed from the folder. The sample code must be placed in a class module such as  `ThisOutlookSession`, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+The following Microsoft Visual Basic for Applications (VBA) example prompts the user with a warning message before the item is cut from the folder. If the user clicks **Yes**, the item is cut from the folder. If the user clicks **No**, the item will not be removed from the folder. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

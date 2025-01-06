@@ -3,12 +3,11 @@ title: DataLabels.AutoText property (Word)
 keywords: vbawd10.chm207487111
 f1_keywords:
 - vbawd10.chm207487111
-ms.prod: word
 api_name:
 - Word.DataLabels.AutoText
 ms.assetid: fa26ac03-bf5f-579f-12b5-d7888aa9de9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoText`
+_expression_.**AutoText**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Remarks
 
-Setting the value of this property sets the  **[AutoText](Word.DataLabel.AutoText.md)** property of all **[DataLabel](Word.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True** ; otherwise, this property returns **False**.
+Setting the value of this property sets the **[AutoText](Word.DataLabel.AutoText.md)** property of all **[DataLabel](Word.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True**; otherwise, this property returns **False**.
 
 
 ## Example

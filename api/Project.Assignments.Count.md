@@ -1,24 +1,24 @@
 ---
-title: Assignments.Count Property (Project)
-ms.prod: project-server
+title: Assignments.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignments.Count
 ms.assetid: de8cee7b-a471-4c3f-2965-de6c3d47dda5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignments.Count Property (Project)
+# Assignments.Count property (Project)
 
-Gets the number of items in the  **Assignments** collection. Read-only **Long**.
+Gets the number of items in the **Assignments** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents an 'Assignments' object.
+_expression_ A variable that represents an 'Assignments' object.
 
 
 ## Example

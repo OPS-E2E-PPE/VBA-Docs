@@ -3,11 +3,10 @@ title: Chart.PrimaryValuesAxisFormat property (Access)
 keywords: vbaac10.chm6164
 f1_keywords:
 - vbaac10.chm6164
-ms.prod: access
 api_name:
 - Access.Chart.PrimaryValuesAxisFormat
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -15,7 +14,7 @@ localization_priority: Normal
 
 Returns or sets the format of the values on the primary values axis. Read/write **String**.
 
-You can use a [predefined or custom format](Access.format.propertynumber.and.currency.md).
+Use a [predefined or custom format](Access.format.propertynumber.and.currency.md).
 
 
 ## Syntax

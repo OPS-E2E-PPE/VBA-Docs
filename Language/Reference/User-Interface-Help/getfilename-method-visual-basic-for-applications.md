@@ -3,10 +3,9 @@ title: GetFileName method (Visual Basic for Applications)
 keywords: vblr6.chm2182053
 f1_keywords:
 - vblr6.chm2182053
-ms.prod: office
 ms.assetid: af5ca68f-ec3e-409c-dcb4-75202169ccb8
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns the last component of a specified path that is not part of the drive spe
 ## Syntax
 
 _object_.**GetFileName** (_pathspec_)
-
-<br/>
 
 The **GetFileName** method syntax has these parts:
 

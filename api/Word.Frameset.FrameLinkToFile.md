@@ -3,25 +3,24 @@ title: Frameset.FrameLinkToFile property (Word)
 keywords: vbawd10.chm165806117
 f1_keywords:
 - vbawd10.chm165806117
-ms.prod: word
 api_name:
 - Word.Frameset.FrameLinkToFile
 ms.assetid: a27ce637-a892-3697-a727-e7c60eb26aaf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frameset.FrameLinkToFile property (Word)
 
- **True** if the Web page or other document specified by the **[FrameDefaultURL](Word.Frameset.FrameDefaultURL.md)** property is an external file to which Microsoft Word maintains only a link from the specified frame. Read/write **Boolean**.
+ **True** if the webpage or other document specified by the **[FrameDefaultURL](Word.Frameset.FrameDefaultURL.md)** property is an external file to which Microsoft Word maintains only a link from the specified frame. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `FrameLinkToFile`
+_expression_. `FrameLinkToFile`
 
- _expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks

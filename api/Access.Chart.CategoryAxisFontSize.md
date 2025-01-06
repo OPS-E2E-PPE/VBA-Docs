@@ -3,11 +3,10 @@ title: Chart.CategoryAxisFontSize property (Access)
 keywords: vbaac10.chm6131
 f1_keywords:
 - vbaac10.chm6131
-ms.prod: access
 api_name:
 - Access.Chart.CategoryAxisFontSize
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

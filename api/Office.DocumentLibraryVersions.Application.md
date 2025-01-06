@@ -1,11 +1,10 @@
 ---
 title: DocumentLibraryVersions.Application property (Office)
-ms.prod: office
 api_name:
 - Office.DocumentLibraryVersions.Application
 ms.assetid: fca7fac9-1989-92ac-ead4-969985ba5784
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

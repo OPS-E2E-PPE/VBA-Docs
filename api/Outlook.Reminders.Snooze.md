@@ -1,27 +1,26 @@
 ---
-title: Reminders.Snooze Event (Outlook)
+title: Reminders.Snooze event (Outlook)
 keywords: vbaol11.chm580
 f1_keywords:
 - vbaol11.chm580
-ms.prod: outlook
 api_name:
 - Outlook.Reminders.Snooze
 ms.assetid: 253e3f16-6d33-e7f7-5a1f-4a8b0a82a55d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reminders.Snooze Event (Outlook)
+# Reminders.Snooze event (Outlook)
 
-Occurs when a reminder is dismissed using the  **Snooze** button.
+Occurs when a reminder is dismissed using the **Snooze** button.
 
 
 ## Syntax
 
 _expression_. `Snooze`( `_ReminderObject_` )
 
- _expression_ An expression that returns a [Reminders](./Outlook.Reminders.md) object.
+ _expression_ An expression that returns a [Reminders](Outlook.Reminders.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_. `Snooze`( `_ReminderObject_` )
 
 ## Remarks
 
-This event will fire when the  **[Snooze](Outlook.Reminder.Snooze.md)** method is executed, or when the user clicks the **Snooze** button.
+This event will fire when the **[Snooze](Outlook.Reminder.Snooze.md)** method is executed, or when the user clicks the **Snooze** button.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the original date and time set for the  **Reminder** object that has been snoozed.
+The following Microsoft Visual Basic for Applications (VBA) example displays the original date and time set for the **Reminder** object that has been snoozed.
 
 
 ```vb

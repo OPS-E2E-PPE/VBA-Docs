@@ -3,12 +3,11 @@ title: Shapes.AddLabel method (Word)
 keywords: vbawd10.chm161415181
 f1_keywords:
 - vbawd10.chm161415181
-ms.prod: word
 api_name:
 - Word.Shapes.AddLabel
 ms.assetid: c5a5ea1f-5ca3-2c8d-40e2-bad94a220609
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Adds a text label to a drawing canvas.
 
 ## Syntax
 
- _expression_. `AddLabel`( `_Orientation_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_.**AddLabel** (_Orientation_, _Left_, _Top_, _Width_, _Height_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

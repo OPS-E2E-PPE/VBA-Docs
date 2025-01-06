@@ -1,24 +1,23 @@
 ---
-title: ChartGroup.SeriesLines Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartGroup.SeriesLines property (PowerPoint)
 api_name:
 - PowerPoint.ChartGroup.SeriesLines
 ms.assetid: 40282a82-5912-b5b1-b556-a53c66483502
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.SeriesLines Property (PowerPoint)
+# ChartGroup.SeriesLines property (PowerPoint)
 
-Returns the series lines for a 2-D stacked bar, 2-D stacked column, pie-of-pie, or bar-of-pie chart. Read-only  **[SeriesLines](PowerPoint.SeriesLines.md)**.
+Returns the series lines for a 2D stacked bar, 2D stacked column, pie-of-pie, or bar-of-pie chart. Read-only **[SeriesLines](PowerPoint.SeriesLines.md)**.
 
 
 ## Syntax
 
- _expression_. `SeriesLines`
+_expression_.**SeriesLines**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Example
@@ -26,9 +25,10 @@ _expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example enables series lines for chart group one of the first chart in the active document, and then sets the line style, weight, and color of the series lines. You should run the example on a 2-D stacked column chart that has two or more series.
+The following example enables series lines for chart group one of the first chart in the active document, and then sets the line style, weight, and color of the series lines. You should run the example on a 2D stacked column chart that has two or more series.
 
 
 

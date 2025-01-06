@@ -1,27 +1,27 @@
 ---
-title: Application.ColumnEdit Method (Project)
+title: Application.ColumnEdit method (Project)
 keywords: vbapj.chm2038
 f1_keywords:
 - vbapj.chm2038
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ColumnEdit
 ms.assetid: 16fbcb23-419f-9e25-9f3b-271b0d5eda3d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ColumnEdit Method (Project)
+# Application.ColumnEdit method (Project)
 
-Displays the  **Column Definition** dialog box for the specified column.
+Displays the **Column Definition** dialog box for the specified column.
 
 
 ## Syntax
 
- _expression_. `ColumnEdit`( `_Column_` )
+_expression_. `ColumnEdit`( `_Column_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

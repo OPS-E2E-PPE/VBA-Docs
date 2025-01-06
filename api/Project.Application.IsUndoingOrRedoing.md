@@ -1,24 +1,24 @@
 ---
-title: Application.IsUndoingOrRedoing Method (Project)
-ms.prod: project-server
+title: Application.IsUndoingOrRedoing method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.IsUndoingOrRedoing
 ms.assetid: e0e5ddc7-aa22-0d43-1de6-83a260d57608
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsUndoingOrRedoing Method (Project)
+# Application.IsUndoingOrRedoing method (Project)
 
 Indicates whether Project is currently executing an undo or redo action.
 
 
 ## Syntax
 
- _expression_. `IsUndoingOrRedoing`
+_expression_. `IsUndoingOrRedoing`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

@@ -3,20 +3,17 @@ title: AcDisplayAsHyperlink enumeration (Access)
 keywords: vbaac10.chm14289
 f1_keywords:
 - vbaac10.chm14289
-ms.prod: access
 api_name:
 - Access.AcDisplayAsHyperlink
 ms.assetid: fb9d9af3-9aff-3031-2f94-6715211d6ee4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcDisplayAsHyperlink enumeration (Access)
 
 Used with the **DisplayAsHyperlink** property to specify whether to display the contents of a text box or combo box as a hyperlink.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

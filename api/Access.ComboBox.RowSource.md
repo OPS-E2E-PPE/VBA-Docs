@@ -3,18 +3,17 @@ title: ComboBox.RowSource property (Access)
 keywords: vbaac10.chm11379
 f1_keywords:
 - vbaac10.chm11379
-ms.prod: access
 api_name:
 - Access.ComboBox.RowSource
 ms.assetid: 1225e566-24e0-244d-09ae-e036c87f3141
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.RowSource property (Access)
 
-You can use the **RowSource** property (along with the **RowSourceType** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
+Use the **RowSource** property (along with the **RowSourceType** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
 
 ## Syntax
 
@@ -51,8 +50,6 @@ The following example sets the **RowSourceType** property for a combo box to Tab
 Forms!Employees!cmboNames.RowSourceType = "Table/Query" 
 Forms!Employees!cmboNames.RowSource = "EmployeeList"
 ```
-
-<br/>
 
 The following example shows how to set the **RowSource** property of a combo box when a form is loaded. When the form is displayed, the items stored in the **Departments** field of the **tblDepartment** combo box are displayed in the **cboDept** combo box.
 

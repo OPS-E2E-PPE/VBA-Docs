@@ -3,9 +3,8 @@ title: Shortcut menu
 keywords: vbui6.chm2057558
 f1_keywords:
 - vbui6.chm2057558
-ms.prod: office
 ms.date: 11/24/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -102,7 +101,7 @@ Imports and exports pages.
 
 |Command|Description|
 |:------|:----------|
-|**New Page** |Adds a new tabbed page with the name New Page. You can use the **Rename** command on the shortcut menu to change it. You can have more than one page with the name New Page. When you add a new page to the **Toolbox**, the page automatically contains the Pointer tool.|
+|**New Page** |Adds a new tabbed page with the name New Page. Use the **Rename** command on the shortcut menu to change it. You can have more than one page with the name New Page. When you add a new page to the **Toolbox**, the page automatically contains the Pointer tool.|
 
 
 ## Object Browser

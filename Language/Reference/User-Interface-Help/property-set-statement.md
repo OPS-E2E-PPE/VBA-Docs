@@ -3,10 +3,9 @@ title: Property Set statement (VBA)
 keywords: vblr6.chm1009539
 f1_keywords:
 - vblr6.chm1009539
-ms.prod: office
 ms.assetid: 462c3a14-bd67-eed7-9b5b-396283952b0b
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,13 +15,11 @@ Declares the name, [arguments](../../Glossary/vbe-glossary.md#argument), and cod
 
 ## Syntax
 
-[ **Public** | **Private** | **Friend** ] [ **Static** ] **Property Set**_name_ ( [ _arglist_ ], _reference_ ) <br/>
+[ **Public** | **Private** | **Friend** ] [ **Static** ] **Property Set** _name_ ( [ _arglist_ ], _reference_ ) <br/>
 [ _statements_ ] <br/>
 [ **Exit Property** ] <br/>
 [ _statements_ ] <br/>
 **End Property**
-
-<br/>
 
 The **Property Set** statement syntax has these parts:
 
@@ -38,26 +35,22 @@ The **Property Set** statement syntax has these parts:
 | _reference_|Required. Variable containing the object reference used on the right side of the object reference assignment.|
 | _statements_|Optional. Any group of statements to be executed within the body of the **Property** procedure.|
 
-<br/>
-
 The _arglist_ argument has the following syntax and parts:
 
 [ **Optional** ] [ **ByVal** | **ByRef** ] [ **ParamArray** ] _varname_ [ ( ) ] [ **As** _type_ ] [ **=** _defaultvalue_ ]
-
-<br/>
 
 |Part|Description|
 |:-----|:-----|
 |**Optional**|Optional. Indicates that an argument is not required. If used, all subsequent arguments in _arglist_ must also be optional and declared by using the **Optional** keyword. Note that it is not possible for the right side of a **Property Set** [expression](../../Glossary/vbe-glossary.md#expression) to be **Optional**.|
 |**ByVal**|Optional. Indicates that the argument is passed [by value](../../Glossary/vbe-glossary.md#by-value).|
-|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in Visual Basic.|
+|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in VBA unlike in Visual Basic .NET.|
 |**ParamArray**|Optional. Used only as the last argument in _arglist_ to indicate that the final argument is an **Optional** array of **Variant** elements. The **ParamArray** keyword allows you to provide an arbitrary number of arguments. It may not be used with **ByVal**, **ByRef**, or **Optional**.|
 | _varname_|Required. Name of the variable representing the argument; follows standard variable naming conventions.|
 | _type_|Optional. [Data type](../../Glossary/vbe-glossary.md#data-type) of the argument passed to the procedure; may be [Byte](../../Glossary/vbe-glossary.md#byte-data-type), [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type), [Integer](../../Glossary/vbe-glossary.md#integer-data-type), [Long](../../Glossary/vbe-glossary.md#long-data-type), [Currency](../../Glossary/vbe-glossary.md#currency-data-type), [Single](../../Glossary/vbe-glossary.md#single-data-type), [Double](../../Glossary/vbe-glossary.md#double-data-type), [Decimal](../../Glossary/vbe-glossary.md#decimal-data-type) (not currently supported), [Date](../../Glossary/vbe-glossary.md#date-data-type), [String](../../Glossary/vbe-glossary.md#string-data-type) (variable length only), [Object](../../Glossary/vbe-glossary.md#object), [Variant](../../Glossary/vbe-glossary.md#variant-data-type), or a specific [object type](../../Glossary/vbe-glossary.md#object-type). If the parameter is not **Optional**, a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) may also be specified.|
 | _defaultvalue_|Optional. Any [constant](../../Glossary/vbe-glossary.md#constant) or constant expression. Valid for **Optional** parameters only. If the type is an **Object**, an explicit default value can only be **[Nothing](nothing-keyword.md)**.|
 
 > [!NOTE] 
-> Every **Property Set** statement must define at least one argument for the procedure it defines. That argument (or the last argument if there is more than one) contains the actual object reference for the property when the procedure defined by the **Property Set** statement is invoked. It is referred to as _reference_ in the preceding syntax. It can't be **Optional**.
+> Every **Property Set** statement must define at least one argument for the procedure it defines. That argument (or the last argument if there is more than one) contains the actual object reference for the property when the procedure defined by the **Property Set** statement is invoked. It's referred to as _reference_ in the preceding syntax. It can't be **Optional**.
 
 ## Remarks
 

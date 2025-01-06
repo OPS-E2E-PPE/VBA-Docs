@@ -3,12 +3,11 @@ title: Hyperlink.ExtraInfoRequired property (Word)
 keywords: vbawd10.chm161285105
 f1_keywords:
 - vbawd10.chm161285105
-ms.prod: word
 api_name:
 - Word.Hyperlink.ExtraInfoRequired
 ms.assetid: 066a4dbf-f5ea-f708-cd57-f8e515a258d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ExtraInfoRequired`
+_expression_. `ExtraInfoRequired`
 
- _expression_ A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
+_expression_ A variable that represents a '[Hyperlink](Word.Hyperlink.md)' object.
 
 
 ## Remarks
 
-You can specify extra information by using the ExtraInfo argument with the  **[Follow](Word.Hyperlink.Follow.md)** or **[FollowHyperlink](Word.Document.FollowHyperlink.md)** method. For example, you can use ExtraInfo to specify the coordinates of an image map, the contents of a form, or a FAT file name.
+You can specify extra information by using the ExtraInfo argument with the **[Follow](Word.Hyperlink.Follow.md)** or **[FollowHyperlink](Word.Document.FollowHyperlink.md)** method. For example, you can use ExtraInfo to specify the coordinates of an image map, the contents of a form, or a FAT file name.
 
 
 ## Example

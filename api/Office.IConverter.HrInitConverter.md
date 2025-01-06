@@ -3,18 +3,17 @@ title: IConverter.HrInitConverter method (Office)
 keywords: vbaof11.chm333001
 f1_keywords:
 - vbaof11.chm333001
-ms.prod: office
 api_name:
 - Office.IConverter.HrInitConverter
 ms.assetid: bdc97478-6929-7829-b663-e02194b40e33
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverter.HrInitConverter method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

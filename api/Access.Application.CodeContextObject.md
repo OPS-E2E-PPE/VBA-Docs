@@ -3,18 +3,17 @@ title: Application.CodeContextObject property (Access)
 keywords: vbaac10.chm12497
 f1_keywords:
 - vbaac10.chm12497
-ms.prod: access
 api_name:
 - Access.Application.CodeContextObject
 ms.assetid: b675d334-33e6-b845-0dd9-6dca36f7b4ab
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CodeContextObject property (Access)
 
-You can use the **CodeContextObject** property to determine the object in which a macro or Visual Basic code is executing. Read-only **Object**.
+Use the **CodeContextObject** property to determine the object in which a macro or Visual Basic code is executing. Read-only **Object**.
 
 
 ## Syntax

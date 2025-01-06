@@ -3,18 +3,17 @@ title: Attachment.PictureAlignment property (Access)
 keywords: vbaac10.chm13916
 f1_keywords:
 - vbaac10.chm13916
-ms.prod: access
 api_name:
 - Access.Attachment.PictureAlignment
 ms.assetid: 505daae0-8321-cce0-028a-ff6c2ac16245
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.PictureAlignment property (Access)
 
-You can use the **PictureAlignment** property to specify where a background picture will appear in the **Attachment** control. Read/write **Byte**.
+Use the **PictureAlignment** property to specify where a background picture will appear in the **Attachment** control. Read/write **Byte**.
 
 
 ## Syntax

@@ -3,18 +3,17 @@ title: Label.BackStyle property (Access)
 keywords: vbaac10.chm10201
 f1_keywords:
 - vbaac10.chm10201
-ms.prod: access
 api_name:
 - Access.Label.BackStyle
 ms.assetid: 27657ddf-0bd4-d8cc-61ed-39811c4269b3
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

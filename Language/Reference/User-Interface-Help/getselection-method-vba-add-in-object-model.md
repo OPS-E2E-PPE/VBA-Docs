@@ -3,10 +3,9 @@ title: GetSelection method (VBA Add-In Object Model)
 keywords: vbob6.chm1098973
 f1_keywords:
 - vbob6.chm1098973
-ms.prod: office
 ms.assetid: f7275ba1-85a3-4939-2ab2-f39e750623f0
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns the selection in a [code pane](../../Glossary/vbe-glossary.md#code-pane)
 ## Syntax
 
 _object_.**GetSelection** (_startline_, _startcol_, _endline_, _endcol_)
-
-<br/>
 
 The **GetSelection** syntax has these parts:
 

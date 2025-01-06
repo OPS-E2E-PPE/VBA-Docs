@@ -3,18 +3,17 @@ title: BoundObjectFrame.Left property (Access)
 keywords: vbaac10.chm10927
 f1_keywords:
 - vbaac10.chm10927
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.Left
 ms.assetid: 48cc6653-15b3-3f2c-9cfe-d6701099a8dc
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.Left property (Access)
 
-You can use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
+Use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ For reports, you can set these properties only by using a macro or event procedu
 
 For reports, the **Left** property setting is the amount that the current section is offset from the left of the page. This property is expressed in twips. 
 
-You can use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
+Use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
 
 
 ## Example

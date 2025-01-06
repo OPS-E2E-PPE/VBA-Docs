@@ -3,12 +3,11 @@ title: Paragraph.FarEastLineBreakControl property (Word)
 keywords: vbawd10.chm156696693
 f1_keywords:
 - vbawd10.chm156696693
-ms.prod: word
 api_name:
 - Word.Paragraph.FarEastLineBreakControl
 ms.assetid: 974b326b-5acc-bafd-6b0a-b9e6657d0058
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `FarEastLineBreakControl`
+_expression_. `FarEastLineBreakControl`
 
- _expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Example

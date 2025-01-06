@@ -1,27 +1,26 @@
 ---
-title: Toolbar.Enabled Property (Visio)
+title: Toolbar.Enabled property (Visio)
 keywords: vis_sdr.chm13713455
 f1_keywords:
 - vis_sdr.chm13713455
-ms.prod: visio
 api_name:
 - Visio.Toolbar.Enabled
 ms.assetid: 976dc702-e8dd-f39c-58b3-ee0d0127a1cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Toolbar.Enabled Property (Visio)
+# Toolbar.Enabled property (Visio)
 
 Determines whether or not an object is currently enabled. Read/write.
 
 
 ## Syntax
 
- _expression_.**Enabled**
+_expression_.**Enabled**
 
- _expression_ A variable that represents a [Toolbar](./Visio.Toolbar.md) object.
+_expression_ A variable that represents a **[Toolbar](Visio.Toolbar.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ Boolean
 
 ## Example
 
-This example shows how to use the  **Enabled** property to enable hiding or showing a toolbar. The example adds a custom toolbar to the **Toolbars** collection. This toolbar appears in the Visio user interface and is available while the document is active.
+This example shows how to use the **Enabled** property to enable hiding or showing a toolbar. The example adds a custom toolbar to the **Toolbars** collection. This toolbar appears in the Visio user interface and is available while the document is active.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

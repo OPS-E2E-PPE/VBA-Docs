@@ -3,18 +3,17 @@ title: BoundObjectFrame.Verb property (Access)
 keywords: vbaac10.chm10918
 f1_keywords:
 - vbaac10.chm10918
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.Verb
 ms.assetid: edbca2b1-fe7a-f0d0-1baf-fedbccb6dfb7
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.Verb property (Access)
 
-You can use the **Verb** property to specify the operation to perform when an OLE object is activated, which is permitted when the control's **Action** property is set to **acOLEActivate**. Read/write **Long**.
+Use the **Verb** property to specify the operation to perform when an OLE object is activated, which is permitted when the control's **Action** property is set to **acOLEActivate**. Read/write **Long**.
 
 
 ## Syntax
@@ -37,8 +36,6 @@ If you don't use the **ObjectVerbs** property to identify a specific verb, you c
 |**acOLEVerbOpen**|Opens the object in a separate application window.|
 |**acOLEVerbHide**|For embedded objects, hides the application that was used to create the object.|
 
-<br/>
-
 With some applications' objects, you can use these additional values. 
 
 |Constant|Description|
@@ -46,7 +43,7 @@ With some applications' objects, you can use these additional values.
 |**acOLEVerbInPlaceUIActivate**|Activates the object for editing within the control. The menus and toolbars of the OLE server become available in the OLE container.|
 |**acOLEVerbInPlaceActivate**|Activates the object within the control. The menus and toolbars of the OLE server aren't available in the OLE container.|
 
-Each object supports its own set of verbs. For example, many objects support the verbs Edit and Play. You can use the **ObjectVerbs** and **ObjectVerbsCount** properties to find out which verbs are supported by an object.
+Each object supports its own set of verbs. For example, many objects support the verbs Edit and Play. Use the **ObjectVerbs** and **ObjectVerbsCount** properties to find out which verbs are supported by an object.
 
 Microsoft Access automatically uses an object's default verb if the user double-clicks an object for which the **AutoActivate** property is set to Double-Click.
 

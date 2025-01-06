@@ -3,18 +3,17 @@ title: CheckBox.InSelection property (Access)
 keywords: vbaac10.chm10734
 f1_keywords:
 - vbaac10.chm10734
-ms.prod: access
 api_name:
 - Access.CheckBox.InSelection
 ms.assetid: 0dd5f74a-fd36-8bc2-90f8-039d1f83004b
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CheckBox.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

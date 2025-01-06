@@ -3,12 +3,11 @@ title: NavigationControl.Section property (Access)
 keywords: vbaac10.chm11103
 f1_keywords:
 - vbaac10.chm11103
-ms.prod: access
 api_name:
 - Access.NavigationControl.Section
 ms.assetid: 670b7950-5f94-461e-8cd1-9c6f95169e89
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

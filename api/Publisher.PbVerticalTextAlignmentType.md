@@ -1,18 +1,17 @@
 ---
-title: PbVerticalTextAlignmentType Enumeration (Publisher)
+title: PbVerticalTextAlignmentType enumeration (Publisher)
 keywords: vbapb10.chm65548
 f1_keywords:
 - vbapb10.chm65548
-ms.prod: publisher
 api_name:
 - Publisher.PbVerticalTextAlignmentType
 ms.assetid: 7941c2b5-3b96-2abb-f942-0cb03776a0fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbVerticalTextAlignmentType Enumeration (Publisher)
+# PbVerticalTextAlignmentType enumeration (Publisher)
 
 Represents the vertical alignment of text in a text box. 
 

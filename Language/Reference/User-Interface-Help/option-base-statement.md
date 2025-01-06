@@ -3,10 +3,9 @@ title: Option Base statement (VBA)
 keywords: vblr6.chm1008990
 f1_keywords:
 - vblr6.chm1008990
-ms.prod: office
 ms.assetid: 21f45e9e-2cb2-3a45-0484-d23adae77e3e
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

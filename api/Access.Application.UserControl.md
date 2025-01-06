@@ -3,18 +3,17 @@ title: Application.UserControl property (Access)
 keywords: vbaac10.chm12514
 f1_keywords:
 - vbaac10.chm12514
-ms.prod: access
 api_name:
 - Access.Application.UserControl
 ms.assetid: e82213ac-bd7b-2669-3001-330f40cfdaaa
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.UserControl property (Access)
 
-You can use the **UserControl** property to determine whether the current Microsoft Access application was started by the user or by another application with Automation, formerly called OLE Automation. Read/write **Boolean**.
+Use the **UserControl** property to determine whether the current Microsoft Access application was started by the user or by another application with Automation, formerly called OLE Automation. Read/write **Boolean**.
 
 
 ## Syntax

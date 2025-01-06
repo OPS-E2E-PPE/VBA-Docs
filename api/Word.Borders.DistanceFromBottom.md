@@ -3,30 +3,29 @@ title: Borders.DistanceFromBottom property (Word)
 keywords: vbawd10.chm154927125
 f1_keywords:
 - vbawd10.chm154927125
-ms.prod: word
 api_name:
 - Word.Borders.DistanceFromBottom
 ms.assetid: 97184500-0536-33ed-1552-80ea829f0e30
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Borders.DistanceFromBottom property (Word)
 
-Returns or sets the space (in points) between the text and the bottom border. Read/write  **Long**.
+Returns or sets the space (in points) between the text and the bottom border. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `DistanceFromBottom`
+_expression_. `DistanceFromBottom`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks
 
-Using this property with a page border, you can set either the space between the text and the bottom page border or the space between the bottom edge of the page and the bottom page border. Where the distance is measured from depends on the value of the  **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
+Using this property with a page border, you can set either the space between the text and the bottom page border or the space between the bottom edge of the page and the bottom page border. Where the distance is measured from depends on the value of the **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
 
 
 ## Example

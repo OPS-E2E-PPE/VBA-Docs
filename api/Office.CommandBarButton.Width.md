@@ -1,11 +1,10 @@
 ---
 title: CommandBarButton.Width property (Office)
-ms.prod: office
 api_name:
 - Office.CommandBarButton.Width
 ms.assetid: f0e3f562-214b-4c0c-b239-611e710349e1
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

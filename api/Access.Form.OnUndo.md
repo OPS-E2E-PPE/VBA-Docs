@@ -3,18 +3,17 @@ title: Form.OnUndo property (Access)
 keywords: vbaac10.chm13519
 f1_keywords:
 - vbaac10.chm13519
-ms.prod: access
 api_name:
 - Access.Form.OnUndo
 ms.assetid: 30e36849-e190-3a50-a8ef-cf7aa995607c
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Form.OnUndo property (Access)
 
-Returns or sets a **String** indicating which macro, event procedure, or user-defined function runs when the **Undo** event occurs. Read/write.
+Returns or sets a **String** indicating which macro, event procedure, or user-defined function runs when the **[Undo](access.form.undo(even).md)** event occurs. Read/write.
 
 
 ## Syntax
@@ -34,7 +33,7 @@ Valid values for this property are:
 
 - [Event Procedure], which indicates the event procedure associated with the **Undo** event for the specified object.
 
-- = _functionname_(), where _functionname_ is the name of a user-defined function.
+- =_functionname_(), where _functionname_ is the name of a user-defined function.
 
 
 ## Example
@@ -44,8 +43,6 @@ The following example specifies that when the **Undo** event occurs on the first
 ```vb
 Forms(0).OnUndo = "[Event Procedure]"
 ```
-
-<br/>
 
 The following example specifies that when the **Undo** event occurs in any text box on the first form of the current project, the associated event procedure should run.
 

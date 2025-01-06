@@ -1,20 +1,19 @@
 ---
-title: NameSpace.AutoDiscoverConnectionMode Property (Outlook)
+title: NameSpace.AutoDiscoverConnectionMode property (Outlook)
 keywords: vbaol11.chm3303
 f1_keywords:
 - vbaol11.chm3303
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.AutoDiscoverConnectionMode
 ms.assetid: a73a71ca-0f40-3c7e-bb89-9d6a45775c6f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.AutoDiscoverConnectionMode Property (Outlook)
+# NameSpace.AutoDiscoverConnectionMode property (Outlook)
 
-Returns an  **[OlAutoDiscoverConnectionMode](Outlook.OlAutoDiscoverConnectionMode.md)** constant that specifies the type of connection for auto-discovery of the Microsoft Exchange server that hosts the primary Exchange account. Read-only.
+Returns an **[OlAutoDiscoverConnectionMode](Outlook.OlAutoDiscoverConnectionMode.md)** constant that specifies the type of connection for auto-discovery of the Microsoft Exchange server that hosts the primary Exchange account. Read-only.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' ob
 
 ## Remarks
 
-This property is similar to the  **[AutoDiscoverConnectionMode](Outlook.Account.AutoDiscoverConnectionMode.md)** property of the **[Account](Outlook.Account.md)** object. If there are multiple Exchange accounts defined in the current profile, use the **AutoDiscoverConnectionMode** property for the specific account.
+This property is similar to the **[AutoDiscoverConnectionMode](Outlook.Account.AutoDiscoverConnectionMode.md)** property of the **[Account](Outlook.Account.md)** object. If there are multiple Exchange accounts defined in the current profile, use the **AutoDiscoverConnectionMode** property for the specific account.
 
 
 ## Example
@@ -34,9 +33,9 @@ This property is similar to the  **[AutoDiscoverConnectionMode](Outlook.Account.
  **NameSpace.AutoDiscoverXml** is an XML string that is returned from the auto-discovery service of the Exchange server. The following code sample uses the **AutoDiscoverConnectionMode** property to show when this XML string is available during a normal Outlook session.
 
 
-- When the  **[Application.Startup](Outlook.Application.Startup.md)** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**.
+- When the **[Application.Startup](Outlook.Application.Startup.md)** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**.
     
-- When the  **[NameSpace.AutoDiscoverComplete](Outlook.NameSpace.AutoDiscoverComplete.md)** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**.
+- When the **[NameSpace.AutoDiscoverComplete](Outlook.NameSpace.AutoDiscoverComplete.md)** event occurs, if **AutoDiscoverConnectionMode** is not equal to **olAutoDiscoverConnectionUnknown**.
     
 
 

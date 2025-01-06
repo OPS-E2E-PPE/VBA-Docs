@@ -3,12 +3,11 @@ title: Form.KeyUp event (Access)
 keywords: vbaac10.chm13657
 f1_keywords:
 - vbaac10.chm13657
-ms.prod: access
 api_name:
 - Access.Form.KeyUp
 ms.assetid: dbef316c-6362-f330-0931-e109e1381907
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

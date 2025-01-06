@@ -1,27 +1,26 @@
 ---
-title: AddressLists.Item Method (Outlook)
+title: AddressLists.Item method (Outlook)
 keywords: vbaol11.chm93
 f1_keywords:
 - vbaol11.chm93
-ms.prod: outlook
 api_name:
 - Outlook.AddressLists.Item
 ms.assetid: 7a7a19d4-a622-6188-e4c0-9b43d4c8d376
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddressLists.Item Method (Outlook)
+# AddressLists.Item method (Outlook)
 
-Returns an  **[AddressList](Outlook.AddressList.md)** object from the collection.
+Returns an **[AddressList](Outlook.AddressList.md)** object from the collection.
 
 
 ## Syntax
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [AddressLists](./Outlook.AddressLists.md) object.
+_expression_ A variable that represents an [AddressLists](Outlook.AddressLists.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [AddressLists](./Outlook.AddressLists
 
 ## Return value
 
-An  **AddressList** object that represents the specified object.
+An **AddressList** object that represents the specified object.
 
 
 ## See also

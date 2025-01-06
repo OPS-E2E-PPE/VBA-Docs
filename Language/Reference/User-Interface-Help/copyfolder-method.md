@@ -3,12 +3,11 @@ title: CopyFolder method (Visual Basic for Applications)
 keywords: vblr6.chm2182033
 f1_keywords:
 - vblr6.chm2182033
-ms.prod: office
 api_name:
 - Office.CopyFolder
 ms.assetid: d94788b4-9a92-77ea-6591-5ea2b4603233
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Recursively copies a folder from one location to another.
 ## Syntax
 
 _object_.**CopyFolder** _source_, _destination_, [ _overwrite_ ]
-
-<br/>
 
 The **CopyFolder** method syntax has these parts:
 
@@ -47,7 +44,7 @@ FileSystemObject.CopyFolder "c:\mydocuments\*\*", "c:\tempfolder\"
 
 ```
 
-If _source_ contains wildcard characters, or _destination_ ends with a path separator (\), it is assumed that _destination_ is an existing folder in which to copy matching folders and subfolders. Otherwise, _destination_ is assumed to be the name of a folder to create. In either case, four things can happen when an individual folder is copied:
+If _source_ contains wildcard characters, or _destination_ ends with a path separator (`\`), it is assumed that _destination_ is an existing folder in which to copy matching folders and subfolders. Otherwise, _destination_ is assumed to be the name of a folder to create. In either case, four things can happen when an individual folder is copied:
 
 - If _destination_ does not exist, the _source_ folder and all its contents gets copied. This is the usual case.
     

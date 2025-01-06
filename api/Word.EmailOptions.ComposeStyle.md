@@ -3,25 +3,24 @@ title: EmailOptions.ComposeStyle property (Word)
 keywords: vbawd10.chm165347437
 f1_keywords:
 - vbawd10.chm165347437
-ms.prod: word
 api_name:
 - Word.EmailOptions.ComposeStyle
 ms.assetid: 0c1ada5e-7bf0-2ae1-3223-ed4f76252bb1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmailOptions.ComposeStyle property (Word)
 
-Returns a  **[Style](Word.Style.md)** object that represents the style used to compose new email messages. Read-only.
+Returns a **[Style](Word.Style.md)** object that represents the style used to compose new email messages. Read-only.
 
 
 ## Syntax
 
- _expression_. `ComposeStyle`
+_expression_. `ComposeStyle`
 
- _expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
+_expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
 
 
 ## Example

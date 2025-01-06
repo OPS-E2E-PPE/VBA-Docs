@@ -3,12 +3,11 @@ title: ProtectedViewWindows.Application property (Word)
 keywords: vbawd10.chm82314216
 f1_keywords:
 - vbawd10.chm82314216
-ms.prod: word
 api_name:
 - Word.ProtectedViewWindows.Application
 ms.assetid: 5c884f92-378b-25fc-ebcd-9ba3221559b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns an [Application](Word.Application.md) object that represents the Microso
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ An expression that returns a [ProtectedViewWindows](./Word.ProtectedViewWindows.md) object.
+_expression_ An expression that returns a **[ProtectedViewWindows](Word.ProtectedViewWindows.md)** object.
 
 
 ## See also

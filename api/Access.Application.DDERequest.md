@@ -3,18 +3,17 @@ title: Application.DDERequest method (Access)
 keywords: vbaac10.chm12542
 f1_keywords:
 - vbaac10.chm12542
-ms.prod: access
 api_name:
 - Access.Application.DDERequest
 ms.assetid: c6f5f472-aeac-6de9-8133-bebfc5887eee
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DDERequest method (Access)
 
-You can use the **DDERequest** function over an open dynamic data exchange (DDE) channel to request an item of information from a DDE server application.
+Use the **DDERequest** function over an open dynamic data exchange (DDE) channel to request an item of information from a DDE server application.
 
 
 ## Syntax

@@ -3,18 +3,17 @@ title: NavigationControl.BackStyle property (Access)
 keywords: vbaac10.chm11075
 f1_keywords:
 - vbaac10.chm11075
-ms.prod: access
 api_name:
 - Access.NavigationControl.BackStyle
 ms.assetid: 1f46ccfd-78cc-0eae-3485-b91306dc6bde
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

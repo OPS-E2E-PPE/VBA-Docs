@@ -1,27 +1,26 @@
 ---
-title: FillFormat.PresetGradientType Property (PowerPoint)
+title: FillFormat.PresetGradientType property (PowerPoint)
 keywords: vbapp10.chm552018
 f1_keywords:
 - vbapp10.chm552018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.PresetGradientType
 ms.assetid: a9a4f3fc-7350-aba1-394a-10936166ea4c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.PresetGradientType Property (PowerPoint)
+# FillFormat.PresetGradientType property (PowerPoint)
 
 Returns the preset gradient type for the specified fill. Read-only. 
 
 
 ## Syntax
 
- _expression_. `PresetGradientType`
+_expression_.**PresetGradientType**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ MsoPresetGradientType
 
 ## Remarks
 
-Use the  **[PresetGradient](PowerPoint.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
+Use the **[PresetGradient](PowerPoint.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
 
-The value of the  **PresetGradientType** property can be one of these **MsoPresetGradientType** constants.
+The value of the **PresetGradientType** property can be one of these **MsoPresetGradientType** constants.
 
 
 ||
@@ -66,7 +65,7 @@ The value of the  **PresetGradientType** property can be one of these **MsoPrese
 
 ## Example
 
-This example changes the fill for all shapes in  `myDocument` with the Moss preset gradient fill to the Fog preset gradient fill.
+This example changes the fill for all shapes in _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
 
 
 ```vb

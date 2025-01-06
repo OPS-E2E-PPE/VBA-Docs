@@ -3,12 +3,11 @@ title: TableOfFigures.Update method (Word)
 keywords: vbawd10.chm153157734
 f1_keywords:
 - vbawd10.chm153157734
-ms.prod: word
 api_name:
 - Word.TableOfFigures.Update
 ms.assetid: bab9ec6b-402d-a4d4-720f-b77fd187f95f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Updates the entries shown in a table of figures.
 
 ## Syntax
 
- _expression_. `Update`
+_expression_.**Update**
 
- _expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
+_expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
 
 
 ## Remarks

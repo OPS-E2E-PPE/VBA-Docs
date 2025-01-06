@@ -3,12 +3,11 @@ title: Bookmarks.ShowHidden property (Word)
 keywords: vbawd10.chm157745156
 f1_keywords:
 - vbawd10.chm157745156
-ms.prod: word
 api_name:
 - Word.Bookmarks.ShowHidden
 ms.assetid: 35f9a36c-ea29-93f0-1b39-c52dd3718ee8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,19 +18,19 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowHidden`
+_expression_. `ShowHidden`
 
  _expression_ An expression that returns a '[Bookmarks](Word.bookmarks.md)' collection object.
 
 
 ## Remarks
 
-The  **ShowHidden** property also controls whether hidden bookmarks are listed in the **Bookmark** dialog box (**Insert** menu). Hidden bookmarks are automatically inserted when cross-references are inserted into the document.
+The **ShowHidden** property also controls whether hidden bookmarks are listed in the **Bookmark** dialog box (**Insert** menu). Hidden bookmarks are automatically inserted when cross-references are inserted into the document.
 
 
 ## Example
 
-This example displays the  **Bookmark** dialog box with both visible and hidden bookmarks listed.
+This example displays the **Bookmark** dialog box with both visible and hidden bookmarks listed.
 
 
 ```vb

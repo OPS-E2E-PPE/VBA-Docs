@@ -3,18 +3,17 @@ title: Line.OldBorderStyle property (Access)
 keywords: vbaac10.chm10338
 f1_keywords:
 - vbaac10.chm10338
-ms.prod: access
 api_name:
 - Access.Line.OldBorderStyle
 ms.assetid: 14d67bd7-5b8e-f4e9-d80a-645b59ffb9dd
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Line.OldBorderStyle property (Access)
 
-You can use this property to set or return the unedited value of the **BorderStyle** property for a form or control. This property is useful if you need to revert to an unedited or preferred border style. Read/write **Byte**.
+Use this property to set or return the unedited value of the **BorderStyle** property for a form or control. This property is useful if you need to revert to an unedited or preferred border style. Read/write **Byte**.
 
 
 ## Syntax
@@ -47,7 +46,7 @@ The following example demonstrates the effect of changing a control's **BorderSt
 
 
 ```vb
-With Forms("Order Entry").Controls("Zip Code")
+With Forms("Order Entry").Controls("ZIP Code")
     .BorderStyle = 3 ' Short dashed border. 
   
     MsgBox "BorderStyle = " & .BorderStyle & vbCrLf & _ 

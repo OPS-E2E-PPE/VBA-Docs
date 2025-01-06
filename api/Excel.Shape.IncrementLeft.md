@@ -3,30 +3,27 @@ title: Shape.IncrementLeft method (Excel)
 keywords: vbaxl10.chm636078
 f1_keywords:
 - vbaxl10.chm636078
-ms.prod: excel
 api_name:
 - Excel.Shape.IncrementLeft
 ms.assetid: 2e9081f0-c11a-7c42-486e-53cb32d6d99c
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # Shape.IncrementLeft method (Excel)
 
-Moves the specified shape horizontally by the specified number of points.
+Moves the specified shape horizontally by the specified number of [points](../language/glossary/vbe-glossary.md#point).
 
 
 ## Syntax
 
-_expression_. `IncrementLeft`( `_Increment_` )
+_expression_.**IncrementLeft** (_Increment_)
 
-_expression_ A variable that represents a [Shape](./Excel.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Excel.Shape.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,8 +31,7 @@ _expression_ A variable that represents a [Shape](./Excel.Shape.md) object.
 
 ## Example
 
-This example duplicates shape one on  `myDocument`, sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
-
+This example duplicates shape one on _myDocument_, sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
 
 ```vb
 Set myDocument = Worksheets(1) 
@@ -48,9 +44,6 @@ End With
 ```
 
 
-## See also
 
-
-[Shape Object](Excel.Shape.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

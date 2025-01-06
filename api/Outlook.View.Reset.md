@@ -1,34 +1,33 @@
 ---
-title: View.Reset Method (Outlook)
+title: View.Reset method (Outlook)
 keywords: vbaol11.chm2487
 f1_keywords:
 - vbaol11.chm2487
-ms.prod: outlook
 api_name:
 - Outlook.View.Reset
 ms.assetid: fb909688-309d-0a70-0b67-0f1793f6a27d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# View.Reset Method (Outlook)
+# View.Reset method (Outlook)
 
 Resets a built-in Microsoft Outlook view to its original settings.
 
 
 ## Syntax
 
- _expression_. `Reset`
+_expression_. `Reset`
 
-_expression_ A variable that represents a [View](./Outlook.View.md) object.
+_expression_ A variable that represents a [View](Outlook.View.md) object.
 
 
 ## Remarks
 
 This method works only on built-in Outlook views.
 
-To properly reset the current view, you must do a  **View.Reset** and then a **[View.Apply](Outlook.View.Apply.md)**. The code sample below illustrates the order of the calls:
+To properly reset the current view, you must do a **View.Reset** and then a **[View.Apply](Outlook.View.Apply.md)**. The code sample below illustrates the order of the calls:
 
 
 
@@ -54,7 +53,7 @@ End Sub
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example resets all built-in views in the user's  **Inbox** to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
+The following Microsoft Visual Basic for Applications (VBA) example resets all built-in views in the user's **Inbox** to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
 
 
 ```vb

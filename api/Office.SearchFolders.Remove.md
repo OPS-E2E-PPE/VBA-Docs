@@ -3,12 +3,11 @@ title: SearchFolders.Remove method (Office)
 keywords: vbaof11.chm258004
 f1_keywords:
 - vbaof11.chm258004
-ms.prod: office
 api_name:
 - Office.SearchFolders.Remove
 ms.assetid: f268c0e5-17c0-4302-1ef3-3c352604b292
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

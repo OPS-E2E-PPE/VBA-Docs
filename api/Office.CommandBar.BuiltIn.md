@@ -3,12 +3,11 @@ title: CommandBar.BuiltIn property (Office)
 keywords: vbaof11.chm3001
 f1_keywords:
 - vbaof11.chm3001
-ms.prod: office
 api_name:
 - Office.CommandBar.BuiltIn
 ms.assetid: f7e4c581-2019-9fca-5e9e-15db4d656269
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -50,7 +49,7 @@ Next
 If Not foundFlag Then 
     MsgBox "No command bars have been deleted." 
 Else 
-    MsgBox deletedBars &amp; " custom command bar(s) deleted." 
+    MsgBox deletedBars & " custom command bar(s) deleted." 
 End If
 ```
 

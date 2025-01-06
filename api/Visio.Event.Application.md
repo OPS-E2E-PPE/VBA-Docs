@@ -1,37 +1,36 @@
 ---
-title: Event.Application Property (Visio)
+title: Event.Application property (Visio)
 keywords: vis_sdr.chm12613090
 f1_keywords:
 - vis_sdr.chm12613090
-ms.prod: visio
 api_name:
 - Visio.Event.Application
 ms.assetid: 1262cbe7-99f1-936a-b1d5-b9cd2cc7f68e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Event.Application Property (Visio)
+# Event.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

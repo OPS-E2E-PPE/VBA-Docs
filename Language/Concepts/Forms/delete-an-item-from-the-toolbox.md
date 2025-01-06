@@ -3,10 +3,9 @@ title: Delete an item from the Toolbox
 keywords: fm20.chm5225209
 f1_keywords:
 - fm20.chm5225209
-ms.prod: office
 ms.assetid: 86137748-fd57-ea09-399e-b42ff01fbaa1
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

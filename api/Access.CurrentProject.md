@@ -3,12 +3,11 @@ title: CurrentProject object (Access)
 keywords: vbaac10.chm12739
 f1_keywords:
 - vbaac10.chm12739
-ms.prod: access
 api_name:
 - Access.CurrentProject
 ms.assetid: e6baae73-1eeb-b48f-d35e-b3e921378561
 ms.date: 02/27/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -21,8 +20,6 @@ The **CurrentProject** object refers to the project for the current Microsoft Ac
 
 The **CurrentProject** object has several collections that contain specific **[AccessObject](Access.AccessObject.md)** objects within the current database. The following table lists the name of each collection and the types of objects it contains.
 
-<br/>
-
 |Collections|Object type|
 |:-----|:-----|
 |**[AllForms](Access.AllForms.md)**|All forms|
@@ -33,16 +30,14 @@ The **CurrentProject** object has several collections that contain specific **[A
 > [!NOTE] 
 > The collections in the preceding table contain all of the respective objects in the database regardless if they are opened or closed.
 
-For example, an **AccessObject** object representing a form is a member of the **AllForms** collection, which is a collection of **AccessObject** objects within the current database. Within the **AllForms** collection, individual members of the collection are indexed beginning with zero. You can refer to an individual **AccessObject** object in the **AllForms** collection either by referring to the form by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllForms** collection, it's better to refer to it by name because an item's collection index may change. If the object name includes a space, the name must be surrounded by brackets ([ ]).
-
-<br/>
+For example, an **AccessObject** object representing a form is a member of the **AllForms** collection, which is a collection of **AccessObject** objects within the current database. Within the **AllForms** collection, individual members of the collection are indexed beginning with zero. Refer to an individual **AccessObject** object in the **AllForms** collection either by referring to the form by name, or by referring to its index within the collection. If you want to refer to a specific object in the **AllForms** collection, it's better to refer to it by name because an item's collection index may change. If the object name includes a space, the name must be surrounded by brackets ([ ]).
 
 |Syntax|Example|
 |:-----|:-----|
-|**AllForms** !_formname_|AllForms!OrderForm|
-|**AllForms** ![_form name_]|AllForms![Order Form]|
-|**AllForms** ("_formname_")|AllForms("OrderForm")|
-|**AllForms** (_formname_)|AllForms(0)|
+|**AllForms**!_formname_|AllForms!OrderForm|
+|**AllForms**![_form name_]|AllForms![Order Form]|
+|**AllForms**("_formname_")|AllForms("OrderForm")|
+|**AllForms**(_index_)|AllForms(0)|
 
 ## Example
 
@@ -59,8 +54,6 @@ Sub ApplicationInformation()
 End Sub
 ```
 
-<br/>
-
 The next example shows how to use the **CurrentProject** object by using Automation from another Microsoft Office application. First, from the other application, create a reference to Microsoft Access by choosing **References** on the **Tools** menu in the Module window. Select the check box next to **Microsoft Access Object Library**, and then enter the following code in a Visual Basic module within that application and call the **GetAccessData** procedure.
 
 The example passes a database name and report name to a procedure that creates a new instance of the **Application** class, opens the database, and verifies that the specified report exists by using the **CurrentProject** object and **AllReports** collection.
@@ -72,15 +65,15 @@ Sub GetAccessData()
  Dim strDB As String 
  Dim strReportName As String 
  
- strDB = "C:\Program Files\Microsoft "_ 
- &amp; "Office\Office11\Samples\Northwind.mdb" 
+ strDB = "C:\Program Files\Microsoft " _ 
+          & "Office\Office11\Samples\Northwind.mdb" 
  strReportName = InputBox("Enter name of report to be verified", _ 
- "Report Verification") 
+                          "Report Verification") 
  VerifyAccessReport strDB, strReportName 
 End Sub 
  
 Sub VerifyAccessReport(strDB As String, _ 
- strReportName As String) 
+                       strReportName As String) 
  ' Return reference to Microsoft Access 
  ' Application object. 
  Set appAccess = New Access.Application 
@@ -88,15 +81,15 @@ Sub VerifyAccessReport(strDB As String, _
  appAccess.OpenCurrentDatabase strDB 
  ' Verify report exists. 
  On Error Goto ErrorHandler 
- appAccess.CurrentProject.AllReports(strReportName) 
- MsgBox "Report " &amp; strReportName &amp; _ 
- " verified within Northwind database." 
+ IsObject appAccess.CurrentProject.AllReports(strReportName) 
+ MsgBox "Report " & strReportName & _ 
+        " verified within " & appAccess.CurrentProject.Name & " database."
  appAccess.CloseCurrentDatabase 
  Set appAccess = Nothing 
 Exit Sub 
 ErrorHandler: 
- MsgBox "Report " &amp; strReportName &amp; _ 
- " does not exist within Northwind database." 
+ MsgBox "Report " & strReportName & _ 
+        " does not exist within " & appAccess.CurrentProject.Name & " database."
  appAccess.CloseCurrentDatabase 
  Set appAccess = Nothing 
 End Sub

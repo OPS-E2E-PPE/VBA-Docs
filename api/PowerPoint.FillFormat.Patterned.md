@@ -1,27 +1,26 @@
 ---
-title: FillFormat.Patterned Method (PowerPoint)
+title: FillFormat.Patterned method (PowerPoint)
 keywords: vbapp10.chm552004
 f1_keywords:
 - vbapp10.chm552004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.Patterned
 ms.assetid: 665c5b1d-e2a2-64ab-a0c3-7d22d8d3121a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.Patterned Method (PowerPoint)
+# FillFormat.Patterned method (PowerPoint)
 
 Sets the specified fill to a pattern.
 
 
 ## Syntax
 
- _expression_. `Patterned`( `_Pattern_` )
+_expression_.**Patterned** (_Pattern_)
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Parameters
@@ -34,9 +33,9 @@ Sets the specified fill to a pattern.
 
 ## Remarks
 
-Use the [BackColor](PowerPoint.FillFormat.BackColor.md)and  **[ForeColor](PowerPoint.FillFormat.ForeColor.md)** properties to set the colors used in the pattern.
+Use the [BackColor](PowerPoint.FillFormat.BackColor.md)and **[ForeColor](PowerPoint.FillFormat.ForeColor.md)** properties to set the colors used in the pattern.
 
-The value of the Pattern parameter can be one of these  **MsoPatternType** constants.
+The value of the Pattern parameter can be one of these **MsoPatternType** constants.
 
 
 ||
@@ -93,7 +92,7 @@ The value of the Pattern parameter can be one of these  **MsoPatternType** const
 
 ## Example
 
-This example adds an oval with a patterned fill to  `myDocument`.
+This example adds an oval with a patterned fill to _myDocument_.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: RevisionsFilter.View property (Word)
 keywords: vbawd10.chm40566785
 f1_keywords:
 - vbawd10.chm40566785
-ms.prod: word
 ms.assetid: b433594a-927c-57fd-a7fd-82f8c752864e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,14 +16,14 @@ Sets or returns a [WdRevisionsView](Word.WdRevisionsView.md) constant that repre
 
 ## Syntax
 
- _expression_. `View`
+_expression_.**View**
 
- _expression_ A variable that represents a 'RevisionsFilter' object.
+_expression_ A variable that represents a 'RevisionsFilter' object.
 
 
 ## Remarks
 
-The  **RevisionsFilter.View** property replaces the **View.RevisionsView** property that was in previous version of Word.
+The **RevisionsFilter.View** property replaces the **View.RevisionsView** property that was in previous version of Word.
 
 
 ## Example

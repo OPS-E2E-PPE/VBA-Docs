@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeDefineStyles property (Word)
 keywords: vbawd10.chm162988302
 f1_keywords:
 - vbawd10.chm162988302
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeDefineStyles
 ms.assetid: 16657544-0185-204f-1cee-b959c91956d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeDefineStyles`
+_expression_. `AutoFormatAsYouTypeDefineStyles`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

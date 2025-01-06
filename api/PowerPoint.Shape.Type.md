@@ -1,27 +1,26 @@
 ---
-title: Shape.Type Property (PowerPoint)
+title: Shape.Type property (PowerPoint)
 keywords: vbapp10.chm547038
 f1_keywords:
 - vbapp10.chm547038
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.Type
 ms.assetid: 3a6aa03d-8d93-9a08-ef42-8f128ada7b87
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Type Property (PowerPoint)
+# Shape.Type property (PowerPoint)
 
 Represents the type of shape or shapes in a range of shapes. Read-only.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,34 +30,8 @@ MsoShapeType
 
 ## Remarks
 
-The value of the  **Type** property can be one of these **MsoShapeType** constants.
+The value of the **Type** property can be one of the **[MsoShapeType](office.msoshapetype.md)** constants.
 
-
-||
-|:-----|
-|**msoAutoShape**|
-|**msoCallout**|
-|**msoCanvas**|
-|**msoChart**|
-|**msoComment**|
-|**msoContentApp**|
-|**msoDiagram**|
-|**msoEmbeddedOLEObject**|
-|**msoFormControl**|
-|**msoFreeform**|
-|**msoGroup**|
-|**msoLine**|
-|**msoLinkedOLEObject**|
-|**msoLinkedPicture**|
-|**msoMedia**|
-|**msoOLEControlObject**|
-|**msoPicture**|
-|**msoPlaceholder**|
-|**msoScriptAnchor**|
-|**msoShapeTypeMixed**|
-|**msoTable**|
-|**msoTextBox**|
-|**msoTextEffect**|
 
 ## Example
 
@@ -78,9 +51,6 @@ Next
 ```
 
 
-## See also
 
-
-[Shape Object](PowerPoint.Shape.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

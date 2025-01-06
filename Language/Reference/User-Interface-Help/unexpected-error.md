@@ -3,10 +3,9 @@ title: Unexpected error
 keywords: vblr6.chm50003
 f1_keywords:
 - vblr6.chm50003
-ms.prod: office
 ms.assetid: 7a39d66f-5e6c-ae9a-fdac-225bd6a35a68
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

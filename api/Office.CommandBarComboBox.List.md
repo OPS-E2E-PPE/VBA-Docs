@@ -3,12 +3,11 @@ title: CommandBarComboBox.List property (Office)
 keywords: vbaof11.chm8005
 f1_keywords:
 - vbaof11.chm8005
-ms.prod: office
 api_name:
 - Office.CommandBarComboBox.List
 ms.assetid: c90fae92-daab-1b08-6e85-8caae26d0b72
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -61,7 +60,7 @@ With CommandBars("Custom").Controls(1)
 End With 
 If CommandBars("Custom").Controls(1).List(4) _ 
      > "View News" Then 
-MsgBox ("Stock Data appears to be damaged." &amp; _ 
+MsgBox ("Stock Data appears to be damaged." & _ 
      " Please reinstall application.") 
 End If
 ```

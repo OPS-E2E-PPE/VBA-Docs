@@ -1,27 +1,26 @@
 ---
-title: Presentation.Export Method (PowerPoint)
+title: Presentation.Export method (PowerPoint)
 keywords: vbapp10.chm583038
 f1_keywords:
 - vbapp10.chm583038
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.Export
 ms.assetid: e114d86d-0400-35d3-fc89-d93748993874
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.Export Method (PowerPoint)
+# Presentation.Export method (PowerPoint)
 
 Exports each slide in the presentation, using the specified graphics filter, and saves the exported files in the specified folder.
 
 
 ## Syntax
 
- _expression_. `Export`( `_Path_`, `_FilterName_`, `_ScaleWidth_`, `_ScaleHeight_` )
+_expression_.**Export** (_Path_, _FilterName_, _ScaleWidth_, _ScaleHeight_)
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
@@ -37,9 +36,11 @@ Exports each slide in the presentation, using the specified graphics filter, and
 
 ## Remarks
 
-Exporting a presentation doesn't set the  **[Saved](PowerPoint.Presentation.Saved.md)** property of a presentation to **True**.
+Exporting a presentation doesn't set the **[Saved](PowerPoint.Presentation.Saved.md)** property of a presentation to **True**.
 
 PowerPoint uses the specified graphics filter to save each individual slide in the presentation. The names of the slides exported and saved to disk are determined by PowerPoint. They're typically saved by using names such as Slide1.wmf, Slide2.wmf. The path of the saved files is specified in the Path argument.
+
+If the presentation is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
 
 
 ## Example
@@ -61,5 +62,7 @@ End With
 
 
 [Presentation Object](PowerPoint.Presentation.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

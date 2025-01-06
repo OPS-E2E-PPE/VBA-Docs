@@ -3,12 +3,11 @@ title: Axis.AxisBetweenCategories property (Word)
 keywords: vbawd10.chm113049600
 f1_keywords:
 - vbawd10.chm113049600
-ms.prod: word
 api_name:
 - Word.Axis.AxisBetweenCategories
 ms.assetid: b99e83a2-5540-e69d-402c-224612f8e568
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AxisBetweenCategories`
+_expression_.**AxisBetweenCategories**
 
- _expression_ A variable that represents an '[Axis](Word.Axis.md)' object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-This property applies only to category axes, and it does not apply to 3-D charts.
+This property applies only to category axes, and it does not apply to 3D charts.
 
 
 ## Example

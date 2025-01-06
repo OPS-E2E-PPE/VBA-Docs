@@ -1,27 +1,26 @@
 ---
-title: AnimationBehavior.Additive Property (PowerPoint)
+title: AnimationBehavior.Additive property (PowerPoint)
 keywords: vbapp10.chm657003
 f1_keywords:
 - vbapp10.chm657003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationBehavior.Additive
 ms.assetid: 29dabc4f-a333-9b11-97a5-36237a95dcb0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationBehavior.Additive Property (PowerPoint)
+# AnimationBehavior.Additive property (PowerPoint)
 
 Sets or returns whether the current animation behavior is combined with other running animations. Read/write.
 
 
 ## Syntax
 
- _expression_. `Additive`
+_expression_. `Additive`
 
-_expression_ A variable that represents an [AnimationBehavior](./PowerPoint.AnimationBehavior.md) object.
+_expression_ A variable that represents an [AnimationBehavior](PowerPoint.AnimationBehavior.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoAnimAdditive
 
 ## Remarks
 
-The value of the  **Additive** property can be one of these **MsoAnimAdditive** constants.
+The value of the **Additive** property can be one of these **MsoAnimAdditive** constants.
 
 
 
@@ -40,7 +39,7 @@ The value of the  **Additive** property can be one of these **MsoAnimAdditive** 
 |**msoAnimAdditiveAddBase**|Does not combine current animation with other animations. The default.|
 |**msoAnimAdditiveAddSum**| Combines the current animation with other running animations.|
 
-Combining animation behaviors is particularly useful for rotation effects. For example, if the current animation changes rotation and another animation is also changing rotation, if this property is set to  **msoAnimAdditiveAddSum**, Microsoft PowerPoint adds together the rotations from both the animations.
+Combining animation behaviors is particularly useful for rotation effects. For example, if the current animation changes rotation and another animation is also changing rotation, if this property is set to **msoAnimAdditiveAddSum**, Microsoft PowerPoint adds together the rotations from both the animations.
 
 
 ## Example

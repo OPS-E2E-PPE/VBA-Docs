@@ -1,24 +1,23 @@
 ---
-title: LegendEntry.Top Property (PowerPoint)
-ms.prod: powerpoint
+title: LegendEntry.Top property (PowerPoint)
 api_name:
 - PowerPoint.LegendEntry.Top
 ms.assetid: fe6d42ff-fc2a-38ef-c1b8-26beded239da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendEntry.Top Property (PowerPoint)
+# LegendEntry.Top property (PowerPoint)
 
-Returns the distance, in points, from the top edge of the object to the top of the first row (on a worksheet) or the top of the chart area (on a chart). Read-only  **Double**.
+Returns the distance, in [points](../language/glossary/vbe-glossary.md#point), from the top edge of the object to the top of the first row (on a worksheet) or the top of the chart area (on a chart). Read-only **Double**.
 
 
 ## Syntax
 
- _expression_.**Top**
+_expression_.**Top**
 
- _expression_ A variable that represents a '[LegendEntry](PowerPoint.LegendEntry.md)' object.
+_expression_ A variable that represents a '[LegendEntry](PowerPoint.LegendEntry.md)' object.
 
 
 ## See also

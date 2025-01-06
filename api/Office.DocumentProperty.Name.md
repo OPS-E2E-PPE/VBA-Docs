@@ -3,12 +3,11 @@ title: DocumentProperty.Name property (Office)
 keywords: vbaof11.chm250005
 f1_keywords:
 - vbaof11.chm250005
-ms.prod: office
 api_name:
 - Office.DocumentProperty.Name
 ms.assetid: b609c38e-71ca-e019-9852-fc7811dc798f
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -47,9 +46,9 @@ This example displays the name, type, and value of a document property. You must
 
 ```vb
 Sub DisplayPropertyInfo(dp As DocumentProperty) 
- MsgBox "value = " &amp; dp.Value &amp; Chr(13) &amp; _ 
- "type = " &amp; dp.Type &amp; Chr(13) &amp; _ 
- "name = " &amp; dp.Name 
+ MsgBox "value = " & dp.Value & Chr(13) & _ 
+ "type = " & dp.Type & Chr(13) & _ 
+ "name = " & dp.Name 
 End Sub
 ```
 

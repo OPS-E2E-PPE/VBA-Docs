@@ -3,12 +3,11 @@ title: LeaderLines.Delete method (Excel)
 keywords: vbaxl10.chm606074
 f1_keywords:
 - vbaxl10.chm606074
-ms.prod: excel
 api_name:
 - Excel.LeaderLines.Delete
 ms.assetid: 57b6cb0c-f0fe-70b7-4958-cfdfd20ee059
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/27/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ Deletes the object.
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents a [LeaderLines](Excel.LeaderLines-graph-property.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[LeaderLines](excel.leaderlines(object).md)** object.
 
 
-[LeaderLines Object](Excel.LeaderLines(object).md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

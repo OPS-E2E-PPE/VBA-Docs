@@ -3,10 +3,9 @@ title: Declaring variables (VBA)
 keywords: vbcn6.chm1076702
 f1_keywords:
 - vbcn6.chm1076702
-ms.prod: office
 ms.assetid: 42230f9e-e02f-14d9-8f7b-75441818e6c6
 ms.date: 12/21/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -30,7 +29,7 @@ Public strName As String
 
 For information about naming your variables, see [Visual Basic naming rules](visual-basic-naming-rules.md).
 
-Variables can be declared as one of the following [data types](../../reference/user-interface-help/data-type-summary.md): **Boolean**, **Byte**, **Integer**, **Long**, **Currency**, **Single**, **Double**, **Date**, **String** (for variable-length strings), **String * _length_** (for fixed-length strings), **Object**, or **Variant**. If you do not specify a data type, the **Variant** data type is assigned by default. You can also create a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) by using the **[Type](../../reference/user-interface-help/type-statement.md)** statement. 
+Variables can be declared as one of the following [data types](../../reference/user-interface-help/data-type-summary.md): **Boolean**, **Byte**, **Integer**, **Long**, **Currency**, **Single**, **Double**, **Date**, **String** (for variable-length strings), **String * _length_** (for fixed-length strings), **Object**, or **Variant**. If you don't specify a data type, the **Variant** data type is assigned by default. You can also create a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) by using the **[Type](../../reference/user-interface-help/type-statement.md)** statement. 
 
 You can declare several variables in one statement. To specify a data type, you must include the data type for each variable. 
 
@@ -48,9 +47,16 @@ Dim intX, intY, intZ As Integer
 
 You don't have to supply the variable's data type in the declaration statement. If you omit the data type, the variable will be of type **Variant**.
 
+You may also use an [identifier type character](../../reference/user-interface-help/data-type-summary.md#identifier-type-characters) to specify the data type. In the following statement, `x` is declared as a Long, and `y` and `z` are declared as Integers:
+
+```vba
+Dim intX&, intY%, intZ as Integer
+```
+
+
 ## Public statement
 
-You can use the **Public** statement to declare public module-level variables.
+Use the **Public** statement to declare public module-level variables.
 
 ```vb
 Public strName As String 
@@ -61,7 +67,7 @@ Public variables can be used in any procedures in the project. If a public varia
 
 ## Private statement
 
-You can use the **[Private](../../reference/user-interface-help/private-statement.md)** statement to declare private module-level variables.
+Use the **[Private](../../reference/user-interface-help/private-statement.md)** statement to declare private module-level variables.
 
 ```vb
 Private MyName As String 

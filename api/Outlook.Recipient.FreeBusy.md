@@ -1,18 +1,17 @@
 ---
-title: Recipient.FreeBusy Method (Outlook)
+title: Recipient.FreeBusy method (Outlook)
 keywords: vbaol11.chm2357
 f1_keywords:
 - vbaol11.chm2357
-ms.prod: outlook
 api_name:
 - Outlook.Recipient.FreeBusy
 ms.assetid: eeb831bc-c369-10f1-fb0b-08a8105c48e6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Recipient.FreeBusy Method (Outlook)
+# Recipient.FreeBusy method (Outlook)
 
 Returns free/busy information for the recipient.
 
@@ -36,21 +35,21 @@ _expression_ A variable that represents a [Recipient](Outlook.Recipient.md) obje
 
 ## Return value
 
-A  **String** value that represents the free/busy information.
+A **String** value that represents the free/busy information.
 
 
 ## Remarks
 
  The default is to return a string representing one month of free/busy information compatible with the Microsoft Schedule+ Automation format (that is, the string contains one character for each _MinPerChar_ minute, up to one month of information from the specified _Start_ date).
 
-If the optional argument  _CompleteFormat_ is omitted or **False** , then "free" is indicated by the character 0 and all other states by the character 1.
+If the optional argument  _CompleteFormat_ is omitted or **False**, then "free" is indicated by the character 0 and all other states by the character 1.
 
-If  _CompleteFormat_ is **True** , then the same length string is returned as defined above, but the characters now correspond to the [OlBusyStatus](Outlook.OlBusyStatus.md) constants.
+If  _CompleteFormat_ is **True**, then the same length string is returned as defined above, but the characters now correspond to the [OlBusyStatus](Outlook.OlBusyStatus.md) constants.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **FreeBusy** method to return a string of free/busy information with one character for each day. This example allows for the possibility that the free/busy information for this recipient is not accessible. To run this example, you need to replace 'Nate Sun' with a valid recipient name.
+This Visual Basic for Applications (VBA) example uses the **FreeBusy** method to return a string of free/busy information with one character for each day. This example allows for the possibility that the free/busy information for this recipient is not accessible. To run this example, you need to replace 'Nate Sun' with a valid recipient name.
 
 
 ```vb

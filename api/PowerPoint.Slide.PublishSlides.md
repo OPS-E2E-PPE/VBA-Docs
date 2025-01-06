@@ -1,27 +1,26 @@
 ---
-title: Slide.PublishSlides Method (PowerPoint)
+title: Slide.PublishSlides method (PowerPoint)
 keywords: vbapp10.chm531040
 f1_keywords:
 - vbapp10.chm531040
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.PublishSlides
 ms.assetid: 76f7bd2a-f48c-33e5-52dc-ae9757a880db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.PublishSlides Method (PowerPoint)
+# Slide.PublishSlides method (PowerPoint)
 
 Publishes the specified slide to the specified location.
 
 
 ## Syntax
 
- _expression_. `PublishSlides`( `_SlideLibraryUrl_`, `_Overwrite_`, `_UseSlideOrder_` )
+_expression_. `PublishSlides`( `_SlideLibraryUrl_`, `_Overwrite_`, `_UseSlideOrder_` )
 
- _expression_ An expression that returns a [Slide](./PowerPoint.Slide.md) object.
+ _expression_ An expression that returns a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Parameters
@@ -31,8 +30,8 @@ Publishes the specified slide to the specified location.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SlideLibraryUrl_|Required|**String**|The URL to which to publish the slide library.|
-| _Overwrite_|Optional|**Boolean**|Whether to overwrite existing content at SlideLibraryURL. The default is  **False**.|
-| _UseSlideOrder_|Optional|**Boolean**|Whether to use the existing slide order. The default is  **False**.|
+| _Overwrite_|Optional|**Boolean**|Whether to overwrite existing content at SlideLibraryURL. The default is **False**.|
+| _UseSlideOrder_|Optional|**Boolean**|Whether to use the existing slide order. The default is **False**.|
 
 ## Return value
 

@@ -3,16 +3,15 @@ title: Error trapping
 keywords: vbaac10.chm5186626
 f1_keywords:
 - vbaac10.chm5186626
-ms.prod: access
 ms.assetid: 41d8de92-55ed-8537-eb31-6d72ba69c165
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Error trapping
 
-You can use the **On Error GoTo** statement to trap errors and direct procedure flow to the location of error-handling statements within a procedure. For example, the following statement directs the flow to the label line:
+Use the **On Error GoTo** statement to trap errors and direct procedure flow to the location of error-handling statements within a procedure. For example, the following statement directs the flow to the label line:
 
 ```vb
 On Error GoTo ErrorHandler

@@ -3,10 +3,9 @@ title: Not operator
 keywords: vblr6.chm1008981
 f1_keywords:
 - vblr6.chm1008981
-ms.prod: office
 ms.assetid: e5ae5a73-4f34-0071-ee67-98e4ca519748
 ms.date: 01/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

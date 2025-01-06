@@ -1,22 +1,22 @@
 ---
-title: WorkWeekDays.Item Property (Project)
-ms.prod: project-server
+title: WorkWeekDays.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDays.Item
 ms.assetid: 70633ede-db5e-4948-f9b0-2258aa141b01
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDays.Item Property (Project)
+# WorkWeekDays.Item property (Project)
 
-Gets a single  **WorkWeekDay** object from the **WorkWeekDays** collection. Read-only **WorkWeekDay**.
+Gets a single **WorkWeekDay** object from the **WorkWeekDays** collection. Read-only **WorkWeekDay**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
  _expression_ An expression that returns a 'WorkWeekDays' object.
 

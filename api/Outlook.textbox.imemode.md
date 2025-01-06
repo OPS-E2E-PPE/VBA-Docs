@@ -1,22 +1,21 @@
 ---
 title: TextBox.IMEMode Property (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 6279e6d5-b374-5e9f-880f-f468c4f97fdc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.IMEMode Property (Outlook Forms Script)
 
-Returns or sets an  **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
+Returns or sets an **Integer** that specifies the default run-time mode of the Input Method Editor (IME) for a control. Read/write.
 
 
 ## Syntax
 
- _expression_. **IMEMode**
+_expression_.**IMEMode**
 
-_expression_ A variable that represents a  **TextBox** object.
+_expression_ A variable that represents a **TextBox** object.
 
 
 ## Remarks
@@ -41,6 +40,6 @@ The settings for fmIMEMode are:
 |9|IME on with Full-width Hangul mode.|
 |10|IME on with Half-width Hangul mode.|
 
-A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the  **IMEMode** property when the control receives focus at run time.
+A setting of 0 indicates that the mode of the IME does not change when the control receives focus at run time. For any other value, the mode of the IME is set to the value specified by the **IMEMode** property when the control receives focus at run time.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

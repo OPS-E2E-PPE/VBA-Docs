@@ -1,27 +1,26 @@
 ---
-title: TaskRequestDeclineItem.Companies Property (Outlook)
+title: TaskRequestDeclineItem.Companies property (Outlook)
 keywords: vbaol11.chm1828
 f1_keywords:
 - vbaol11.chm1828
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestDeclineItem.Companies
 ms.assetid: c96aea61-7026-7a31-4f05-cab9508d82d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestDeclineItem.Companies Property (Outlook)
+# TaskRequestDeclineItem.Companies property (Outlook)
 
-Returns or sets a  **String** representing the names of the companies associated with the Outlook item. Read/write.
+Returns or sets a **String** representing the names of the companies associated with the Outlook item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Companies`
 
-_expression_ A variable that represents a [TaskRequestDeclineItem](./Outlook.TaskRequestDeclineItem.md) object.
+_expression_ A variable that represents a [TaskRequestDeclineItem](Outlook.TaskRequestDeclineItem.md) object.
 
 
 ## Remarks

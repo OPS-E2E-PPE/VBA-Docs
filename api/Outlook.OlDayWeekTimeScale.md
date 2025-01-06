@@ -1,20 +1,19 @@
 ---
-title: OlDayWeekTimeScale Enumeration (Outlook)
+title: OlDayWeekTimeScale enumeration (Outlook)
 keywords: vbaol11.chm3127
 f1_keywords:
 - vbaol11.chm3127
-ms.prod: outlook
 api_name:
 - Outlook.OlDayWeekTimeScale
 ms.assetid: 9d594154-acf4-d4b4-fdb3-70f191ac638a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlDayWeekTimeScale Enumeration (Outlook)
+# OlDayWeekTimeScale enumeration (Outlook)
 
-Specifies the scale of time periods used to display Outlook items in a  **[CalendarView](Outlook.CalendarView.md)** object.
+Specifies the scale of time periods used to display Outlook items in a **[CalendarView](Outlook.CalendarView.md)** object.
 
 
 

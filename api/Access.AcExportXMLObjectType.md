@@ -3,20 +3,17 @@ title: AcExportXMLObjectType enumeration (Access)
 keywords: vbaac10.chm13239
 f1_keywords:
 - vbaac10.chm13239
-ms.prod: access
 api_name:
 - Access.AcExportXMLObjectType
 ms.assetid: f84c49ca-bb99-705c-97ac-47f847fe060a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcExportXMLObjectType enumeration (Access)
 
 Use with the **ExportXML** method to specify the type of object to export.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

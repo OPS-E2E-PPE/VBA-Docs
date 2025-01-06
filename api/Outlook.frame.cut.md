@@ -1,9 +1,8 @@
 ---
 title: Frame.Cut Method (Outlook Forms Script)
-ms.prod: outlook
 ms.assetid: 58c11fc9-c5a1-250d-6fd3-7d6c8fbb5594
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,9 +13,9 @@ Removes selected information from an object and transfers it to the Clipboard.
 
 ## Syntax
 
-_expression_. **Cut**
+_expression_.**Cut**
 
-_expression_ A variable that represents a  **Frame** object.
+_expression_ A variable that represents a **Frame** object.
 
 
 ## Remarks

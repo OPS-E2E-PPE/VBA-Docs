@@ -1,30 +1,29 @@
 ---
-title: Columns Object (Outlook)
+title: Columns object (Outlook)
 keywords: vbaol11.chm3190
 f1_keywords:
 - vbaol11.chm3190
-ms.prod: outlook
 api_name:
 - Outlook.Columns
 ms.assetid: 628bf0cf-4ee8-5e5c-09d7-89d7adf256ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Columns Object (Outlook)
+# Columns object (Outlook)
 
-Represents the collection of  **[Column](Outlook.Column.md)** objects in a **[Table](Outlook.Table.md)** object.
+Represents the collection of **[Column](Outlook.Column.md)** objects in a **[Table](Outlook.Table.md)** object.
 
 
 ## Remarks
 
-The  **Columns** object supports enumerating **Column** objects in the **[Columns](Outlook.Columns.md)** collection object. It supports the COM interface, **IEnumerable**.
+The **Columns** object supports enumerating **Column** objects in the **[Columns](Outlook.Columns.md)** collection object. It supports the COM interface, **IEnumerable**.
 
 
 ## Example
 
-The following code sample illustrates how to obtain a  **Table** object based on the **LastModificationTime** of items in the Inbox. It also shows how to remove the default columns of the **Table**, add specific columns, and print the values of the corresponding properties of these items.
+The following code sample illustrates how to obtain a **Table** object based on the **LastModificationTime** of items in the Inbox. It also shows how to remove the default columns of the **Table**, add specific columns, and print the values of the corresponding properties of these items.
 
 
 ```vb
@@ -122,6 +121,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

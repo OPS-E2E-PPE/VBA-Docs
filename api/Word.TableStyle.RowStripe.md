@@ -3,30 +3,29 @@ title: TableStyle.RowStripe property (Word)
 keywords: vbawd10.chm244776977
 f1_keywords:
 - vbawd10.chm244776977
-ms.prod: word
 api_name:
 - Word.TableStyle.RowStripe
 ms.assetid: 4ffb0d84-d2a6-bf22-39e0-bd24d9a41ef0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TableStyle.RowStripe property (Word)
 
-Returns or sets a  **Long** that represents the number of rows to include in the banding when a style specifies odd- or even-row banding. Read/write.
+Returns or sets a **Long** that represents the number of rows to include in the banding when a style specifies odd- or even-row banding. Read/write.
 
 
 ## Syntax
 
- _expression_. `RowStripe`
+_expression_. `RowStripe`
 
- _expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
+_expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
 
 
 ## Remarks
 
-Use the  **[Condition](Word.TableStyle.Condition.md)** method to set odd- or even-column banding for a table style.
+Use the **[Condition](Word.TableStyle.Condition.md)** method to set odd- or even-column banding for a table style.
 
 
 ## Example

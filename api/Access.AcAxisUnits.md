@@ -3,19 +3,16 @@ title: AcAxisUnits enumeration (Access)
 keywords: vbaac10.chm14764
 f1_keywords:
 - vbaac10.chm14764
-ms.prod: access
 api_name:
 - Access.AcAxisUnits
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcAxisUnits enumeration (Access)
 
 Specifies the unit of measurement for values displayed on an axis.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

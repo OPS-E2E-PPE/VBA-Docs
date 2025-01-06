@@ -1,27 +1,26 @@
 ---
-title: MailMergeDataSource.ActiveRecord Property (Publisher)
+title: MailMergeDataSource.ActiveRecord property (Publisher)
 keywords: vbapb10.chm6291459
 f1_keywords:
 - vbapb10.chm6291459
-ms.prod: publisher
 api_name:
 - Publisher.MailMergeDataSource.ActiveRecord
 ms.assetid: 0f092eb4-6e65-9235-83e2-a04b813b2390
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# MailMergeDataSource.ActiveRecord Property (Publisher)
+# MailMergeDataSource.ActiveRecord property (Publisher)
 
-Returns or sets a  **Long** that represents the active mail merge record. Read/write.
+Returns or sets a **Long** that represents the active mail merge record. Read/write.
 
 
 ## Syntax
 
- _expression_. **ActiveRecord**
+_expression_.**ActiveRecord**
 
- _expression_ A variable that represents a  **MailMergeDataSource** object.
+_expression_ A variable that represents a **[MailMergeDataSource](Publisher.MailMergeDataSource.md)** object.
 
 
 ## Return value
@@ -67,7 +66,7 @@ Sub ValidateZip()
  
  'Specify the comment attached to the record explaining 
  'why the record was excluded from the mail merge 
- .InvalidComments = "The ZIP code for this record is " _ 
+ .InvalidComments = "The ZIP Code for this record is " _ 
  & "less than ten digits. It will be removed " _ 
  & "from the mail merge process." 
  

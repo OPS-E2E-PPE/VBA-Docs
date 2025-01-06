@@ -1,27 +1,26 @@
 ---
-title: Style.ID Property (Visio)
+title: Style.ID property (Visio)
 keywords: vis_sdr.chm11413675
 f1_keywords:
 - vis_sdr.chm11413675
-ms.prod: visio
 api_name:
 - Visio.Style.ID
 ms.assetid: 0eb9f8ce-302e-6749-544e-cde95fe80c72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Style.ID Property (Visio)
+# Style.ID property (Visio)
 
 Gets the ID of an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents a [Style](./Visio.Style.md) object.
+_expression_ A variable that represents a **[Style](Visio.Style.md)** object.
 
 
 ## Return value
@@ -33,6 +32,6 @@ Long
 
 The ID of a shape is unique only within the scope of the page or master. The ID of a page, master, or style is unique within the scope of the document.
 
-If a shape, page, master, or style is deleted, future objects in the same scope may be assigned the same ID. Therefore, persisting shape or style IDs in separate data stores is generally not as sound as persisting unique IDs using the  **UniqueID** property.
+If a shape, page, master, or style is deleted, future objects in the same scope may be assigned the same ID. Therefore, persisting shape or style IDs in separate data stores is generally not as sound as persisting unique IDs using the **UniqueID** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

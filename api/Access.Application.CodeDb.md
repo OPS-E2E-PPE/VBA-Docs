@@ -3,18 +3,17 @@ title: Application.CodeDb method (Access)
 keywords: vbaac10.chm12547
 f1_keywords:
 - vbaac10.chm12547
-ms.prod: access
 api_name:
 - Access.Application.CodeDb
 ms.assetid: 7f0cff23-1265-231f-9ab5-fa83c19d39cf
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CodeDb method (Access)
 
-You can use the **CodeDb** method in a code module to determine the name of the **Database** object that refers to the database in which code is currently running. Use the **CodeDb** method to access Data Access Objects (DAO) that are part of a library database.
+Use the **CodeDb** method in a code module to determine the name of the **Database** object that refers to the database in which code is currently running. Use the **CodeDb** method to access Data Access Objects (DAO) that are part of a library database.
 
 
 ## Syntax

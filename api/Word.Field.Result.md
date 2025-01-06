@@ -3,30 +3,29 @@ title: Field.Result property (Word)
 keywords: vbawd10.chm154075140
 f1_keywords:
 - vbawd10.chm154075140
-ms.prod: word
 api_name:
 - Word.Field.Result
 ms.assetid: 97b754cf-6598-63d4-5314-c1bbfacc76ab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Field.Result property (Word)
 
-Returns a  **Range** object that represents a field's result. Read/write.
+Returns a **Range** object that represents a field's result. Read/write.
 
 
 ## Syntax
 
- _expression_. `Result`
+_expression_. `Result`
 
- _expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ Required. A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## Remarks
 
-You can access a field result without changing the view from field codes. Use the  **Text** property to return text from a **Range** object.
+You can access a field result without changing the view from field codes. Use the **Text** property to return text from a **Range** object.
 
 
 ## Example

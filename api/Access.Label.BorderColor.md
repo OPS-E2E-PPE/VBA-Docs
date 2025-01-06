@@ -3,18 +3,17 @@ title: Label.BorderColor property (Access)
 keywords: vbaac10.chm10206
 f1_keywords:
 - vbaac10.chm10206
-ms.prod: access
 api_name:
 - Access.Label.BorderColor
 ms.assetid: 1144f996-1262-2dd5-edcc-ec1616a1e86c
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax
@@ -46,22 +45,22 @@ Sub Form_Current()
  Dim lngRed As Long, lngYellow As Long, lngWhite As Long 
  
  If Not IsNull(Me!txtPastDue.Value) Then 
- curAmntDue = Me!txtPastDue.Value 
+  curAmntDue = Me!txtPastDue.Value 
  Else 
- Exit Sub 
+  Exit Sub 
  End If 
  lngRed = RGB(255, 0, 0) 
  lngBlack = RGB(0, 0, 0) 
  lngYellow = RGB(255, 255, 0) 
  lngWhite = RGB(255, 255, 255) 
  If curAmntDue > 100 Then 
- Me!txtPastDue.BorderColor = lngRed 
- Me!txtPastDue.ForeColor = lngRed 
- Me!txtPastDue.BackColor = lngYellow 
+  Me!txtPastDue.BorderColor = lngRed 
+  Me!txtPastDue.ForeColor = lngRed 
+  Me!txtPastDue.BackColor = lngYellow 
  Else 
- Me!txtPastDue.BorderColor = lngBlack 
- Me!txtPastDue.ForeColor = lngBlack 
- Me!txtPastDue.BackColor = lngWhite 
+  Me!txtPastDue.BorderColor = lngBlack 
+  Me!txtPastDue.ForeColor = lngBlack 
+  Me!txtPastDue.BackColor = lngWhite 
  End If 
 End Sub
 ```

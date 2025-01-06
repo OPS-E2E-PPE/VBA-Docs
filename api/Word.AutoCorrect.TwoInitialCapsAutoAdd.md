@@ -3,12 +3,11 @@ title: AutoCorrect.TwoInitialCapsAutoAdd property (Word)
 keywords: vbawd10.chm155779082
 f1_keywords:
 - vbawd10.chm155779082
-ms.prod: word
 api_name:
 - Word.AutoCorrect.TwoInitialCapsAutoAdd
 ms.assetid: 93030da5-453a-392a-3dc4-3c30a12cbea1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `TwoInitialCapsAutoAdd`
+_expression_. `TwoInitialCapsAutoAdd`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 

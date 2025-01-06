@@ -1,18 +1,17 @@
 ---
-title: OlkListBox.SetSelected Method (Outlook)
+title: OlkListBox.SetSelected method (Outlook)
 keywords: vbaol11.chm1000271
 f1_keywords:
 - vbaol11.chm1000271
-ms.prod: outlook
 api_name:
 - Outlook.OlkListBox.SetSelected
 ms.assetid: ee8a6553-4cf4-b99d-9289-bec4d86e7c32
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkListBox.SetSelected Method (Outlook)
+# OlkListBox.SetSelected method (Outlook)
 
 Sets the selected state of an item at the specified location in the list to the given  _Selected_ value.
 
@@ -21,7 +20,7 @@ Sets the selected state of an item at the specified location in the list to the 
 
 _expression_. `SetSelected`( `_Index_` , `_Selected_` )
 
-_expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
 ## Parameters

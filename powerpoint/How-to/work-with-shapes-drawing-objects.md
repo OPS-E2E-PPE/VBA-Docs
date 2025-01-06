@@ -3,10 +3,9 @@ title: Work with Shapes (Drawing Objects)
 keywords: vbapp10.chm5194108
 f1_keywords:
 - vbapp10.chm5194108
-ms.prod: powerpoint
 ms.assetid: 3ffaaaea-6406-262b-2bc7-788699175266
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: high
 ---
 
 
@@ -37,7 +36,7 @@ In Visual Basic, there are two ways to apply properties and methods to a set of 
     
 - If the operation does not work on multiple selected shapes in the user interface, you can still perform the operation in Visual Basic by looping through the **Shapes** collection or through a **ShapeRange** collection that contains the shapes you want to work with, and applying the appropriate properties and methods to the individual **Shape** objects in the collection.
     
-Many properties and methods that apply to the **Shape** object and **ShapeRange** collection fail if applied to certain kinds of shapes. For example, the **TextFrame** property fails if applied to a shape that cannot contain text. If you are not positive that each shape in a **ShapeRange** collection can have a certain property or method applied to it, do not apply the property or method to the **ShapeRange** collection. If you want to apply one of these properties or methods to a collection of shapes, you must loop through the collection and test each individual shape to make sure it is an appropriate type of shape before applying the property or method to it.
+Many properties and methods that apply to the **Shape** object and **ShapeRange** collection fail if applied to certain kinds of shapes. For example, the **TextFrame** property fails if applied to a shape that cannot contain text. If you are not positive that each shape in a **ShapeRange** collection can have a certain property or method applied to it, don't apply the property or method to the **ShapeRange** collection. If you want to apply one of these properties or methods to a collection of shapes, you must loop through the collection and test each individual shape to make sure it is an appropriate type of shape before applying the property or method to it.
 
 
 ## Applying a property or method to a ShapeRange collection
@@ -66,12 +65,20 @@ The following are general guidelines for how properties and methods behave when 
     
 - The value of some properties can be returned or set only if there is exactly one shape in the collection. If there is more than one shape in the collection, a run-time error occurs. This is generally the case for returning or setting properties when the equivalent action in the user interface is possible only with a single shape (actions such as editing text in a shape or editing the points of a freeform).
     
-The preceding guidelines also apply when you are setting properties of shapes that are grouped under secondary objects of the **ShapeRange** collection, such as the **FillFormat** object. If the secondary object represents operations that can be performed on multiple selected objects in the user interface, you will be able to return the object from a **ShapeRange** collection and set its properties. For example, you can use the **Fill** property to return the **FillFormat** object that represents the fills of all the shapes in the **ShapeRange** collection. Setting the properties of this **FillFormat** object will set the same properties for all the individual shapes in the **ShapeRange** collection.
+The preceding guidelines also apply when you are setting properties of shapes that are grouped under secondary objects of the **ShapeRange** collection, such as the **FillFormat** object. If the secondary object represents operations that can be performed on multiple selected objects in the user interface, you'll be able to return the object from a **ShapeRange** collection and set its properties. For example, you can use the **Fill** property to return the **FillFormat** object that represents the fills of all the shapes in the **ShapeRange** collection. Setting the properties of this **FillFormat** object will set the same properties for all the individual shapes in the **ShapeRange** collection.
 
 
 ## Looping through a Shapes or ShapeRange collection
 
-Even if you cannot perform an operation on several shapes in the user interface at the same time by selecting them and then using a command, you can perform the equivalent action programmatically by looping through the **Shapes** collection or through a **ShapeRange** collection that contains the shapes you want to work with, and applying the appropriate properties and methods to the individual **Shape** objects in the collection. The following example loops through all the shapes on `myDocument` and adds text to each shape that is an AutoShape. and adds text to each shape that is an AutoShape. `Set myDocument = ActivePresentation.Slides(1) For Each sh In myDocument.Shapes If sh.Type = msoAutoShape Then sh.TextFrame.TextRange.InsertAfter " (version 1)" End If Next`
+Even if you cannot perform an operation on several shapes in the user interface at the same time by selecting them and then using a command, you can perform the equivalent action programmatically by looping through the **Shapes** collection or through a **ShapeRange** collection that contains the shapes you want to work with, and applying the appropriate properties and methods to the individual **Shape** objects in the collection. The following example loops through all the shapes on `myDocument` and adds text to each shape that is an AutoShape. 
+```vb
+Set myDocument = ActivePresentation.Slides(1) 
+For Each sh In myDocument.Shapes 
+    If sh.Type = msoAutoShape Then 
+        sh.TextFrame.TextRange.InsertAfter " (version 1)" 
+    End If 
+Next
+```
 
 The following example constructs **ShapeRange** collection that contains all the currently selected shapes in the active window and sets the text in each shape in the collection that can contain text.
 

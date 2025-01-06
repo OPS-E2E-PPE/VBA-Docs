@@ -1,27 +1,26 @@
 ---
-title: Presentation.RemoveDocumentInformation Method (PowerPoint)
+title: Presentation.RemoveDocumentInformation method (PowerPoint)
 keywords: vbapp10.chm583094
 f1_keywords:
 - vbapp10.chm583094
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.RemoveDocumentInformation
 ms.assetid: 2c9d5cc5-8fc9-d650-b1cf-9fa3e409be1c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.RemoveDocumentInformation Method (PowerPoint)
+# Presentation.RemoveDocumentInformation method (PowerPoint)
 
 Removes document information, such as personal information, comments, and document properties, from a Microsoft PowerPoint presentation.
 
 
 ## Syntax
 
- _expression_. `RemoveDocumentInformation`( `_Type_` )
+_expression_. `RemoveDocumentInformation`( `_Type_` )
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
@@ -54,7 +53,7 @@ The  _Type_ parameter value can be a combination of one or more of these **PpRem
 
 ## Example
 
-The following example shows how to use the  **RemoveDocumentInformation** method to remove comments and Ink annotations from the active presentation.
+The following example shows how to use the **RemoveDocumentInformation** method to remove comments and Ink annotations from the active presentation.
 
 
 ```vb

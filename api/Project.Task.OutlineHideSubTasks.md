@@ -1,24 +1,24 @@
 ---
-title: Task.OutlineHideSubTasks Method (Project)
-ms.prod: project-server
+title: Task.OutlineHideSubTasks method (Project)
+ms.service: project-server
 api_name:
 - Project.Task.OutlineHideSubTasks
 ms.assetid: 877e8248-3e3f-1816-0799-52fb5cda1d60
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.OutlineHideSubTasks Method (Project)
+# Task.OutlineHideSubTasks method (Project)
 
 Hides the subtasks of the selected task or tasks.
 
 
 ## Syntax
 
- _expression_. `OutlineHideSubTasks`
+_expression_. `OutlineHideSubTasks`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

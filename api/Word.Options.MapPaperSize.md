@@ -3,12 +3,11 @@ title: Options.MapPaperSize property (Word)
 keywords: vbawd10.chm162988321
 f1_keywords:
 - vbawd10.chm162988321
-ms.prod: word
 api_name:
 - Word.Options.MapPaperSize
 ms.assetid: aace2fd4-d2a5-852a-8918-a40114c450cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MapPaperSize`
+_expression_. `MapPaperSize`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -38,7 +37,7 @@ This example allows Microsoft Word to adjust paper size according to the country
 Options.MapPaperSize = True
 ```
 
-This example returns the status of the  **Allow A4/Letter paper resizing** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the status of the **Allow A4/Letter paper resizing** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

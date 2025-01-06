@@ -3,12 +3,11 @@ title: Range.IsEqual method (Word)
 keywords: vbawd10.chm157155499
 f1_keywords:
 - vbawd10.chm157155499
-ms.prod: word
 api_name:
 - Word.Range.IsEqual
 ms.assetid: cd6269d9-4693-897d-d9b2-69f45c815ba3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsEqual`( `_Range_` )
+_expression_. `IsEqual`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ localization_priority: Normal
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Range_|Required| **Range**|The range to compare with the  **Range** object defined by expression.|
+| _Range_|Required| **Range**|The range to compare with the **Range** object defined by expression.|
 
 ## Return value
 

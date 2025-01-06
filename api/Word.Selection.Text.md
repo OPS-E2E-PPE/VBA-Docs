@@ -3,30 +3,29 @@ title: Selection.Text property (Word)
 keywords: vbawd10.chm158662656
 f1_keywords:
 - vbawd10.chm158662656
-ms.prod: word
 api_name:
 - Word.Selection.Text
 ms.assetid: 2acf885b-8d4a-7ebc-79aa-902921bc33bb
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Selection.Text property (Word)
 
-Returns or sets the text in the specified selection. Read/write  **String**.
+Returns or sets the text in the specified selection. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Text`
+_expression_.**Text**
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-The  **Text** property returns the plain, unformatted text of the selection. When you set this property, the text of the range or selection is replaced.
+The **Text** property returns the plain, unformatted text of the selection. When you set this property, the text of the range or selection is replaced.
 
 
 ## Example

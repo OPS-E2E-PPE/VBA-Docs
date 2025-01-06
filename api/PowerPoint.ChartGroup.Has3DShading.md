@@ -1,32 +1,31 @@
 ---
-title: ChartGroup.Has3DShading Property (PowerPoint)
+title: ChartGroup.Has3DShading property (PowerPoint)
 keywords: vbapp10.chm692005
 f1_keywords:
 - vbapp10.chm692005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroup.Has3DShading
 ms.assetid: 6276bf7a-9d21-9eda-6ad9-6153c9a74948
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.Has3DShading Property (PowerPoint)
+# ChartGroup.Has3DShading property (PowerPoint)
 
  **True** if a chart group has three-dimensional shading. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Has3DShading`
+_expression_.**Has3DShading**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
 
-Setting  **Has3DShading** to **False** removes the 3-D shading effect from the chart (rendering it as flat). Setting **Has3DShading** to **True** sets the chart content to the default.
+Setting **Has3DShading** to **False** removes the 3D shading effect from the chart (rendering it as flat). Setting **Has3DShading** to **True** sets the chart content to the default.
 
 
 ## Example
@@ -34,9 +33,10 @@ Setting  **Has3DShading** to **False** removes the 3-D shading effect from the c
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example adds 3-D shading to the first chart group of the first chart in the active document.
+The following example adds 3D shading to the first chart group of the first chart in the active document.
 
 
 

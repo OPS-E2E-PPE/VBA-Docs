@@ -3,18 +3,17 @@ title: WebServices.Count property (Access)
 keywords: vbaac10.chm14554
 f1_keywords:
 - vbaac10.chm14554
-ms.prod: access
 api_name:
 - Access.WebServices.Count
 ms.assetid: 4d6a6de4-f6b2-32d3-0511-7117cab2ee3b
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebServices.Count property (Access)
 
-You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.
+Use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.
 
 
 ## Syntax

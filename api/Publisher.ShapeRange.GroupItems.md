@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.GroupItems Property (Publisher)
+title: ShapeRange.GroupItems property (Publisher)
 keywords: vbapb10.chm2293816
 f1_keywords:
 - vbapb10.chm2293816
-ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.GroupItems
 ms.assetid: d37c75cd-a651-51d1-42c7-59879ccbbf1d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.GroupItems Property (Publisher)
+# ShapeRange.GroupItems property (Publisher)
 
-Returns a  **[GroupShapes](Publisher.GroupShapes.md)** collection if the specified shape is a group.
+Returns a **[GroupShapes](Publisher.GroupShapes.md)** collection if the specified shape is a group.
 
 
 ## Syntax
 
- _expression_. **GroupItems**
+_expression_.**GroupItems**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Remarks
@@ -32,7 +31,6 @@ All smart objects will be treated as grouped shapes.
 ## Example
 
 This example adds three triangles to a publication, groups them, sets a color for the entire group, and then changes the color for the second triangle only.
-
 
 ```vb
 Sub Grouper() 

@@ -1,15 +1,15 @@
 ---
-title: PjBackgroundPattern Enumeration (Project)
-ms.prod: project-server
+title: PjBackgroundPattern enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjBackgroundPattern
 ms.assetid: ae452d71-3cfd-15c3-5435-4918fbaac4a1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjBackgroundPattern Enumeration (Project)
+# PjBackgroundPattern enumeration (Project)
 
 Contains constants that specify the background pattern.
 

@@ -1,24 +1,23 @@
 ---
-title: Application.SelectionChanged Event (Visio)
-ms.prod: visio
+title: Application.SelectionChanged event (Visio)
 api_name:
 - Visio.Application.SelectionChanged
 ms.assetid: d2749204-9003-f4a7-1de0-b47d5e6abb1b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SelectionChanged Event (Visio)
+# Application.SelectionChanged event (Visio)
 
 Occurs after a set of shapes selected in a window changes.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'SelectionChanged'(**_ByVal Window As [IVWINDOW]_**)
+_expression_.**SelectionChanged** (_Window_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Parameters
@@ -33,6 +32,12 @@ Private Sub  _expression_ _'SelectionChanged'(**_ByVal Window As [IVWINDOW]_**)
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

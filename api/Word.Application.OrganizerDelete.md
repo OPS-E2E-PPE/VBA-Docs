@@ -3,12 +3,11 @@ title: Application.OrganizerDelete method (Word)
 keywords: vbawd10.chm158335295
 f1_keywords:
 - vbawd10.chm158335295
-ms.prod: word
 api_name:
 - Word.Application.OrganizerDelete
 ms.assetid: 45b394fc-cdd5-18ff-f30d-7339237a1b41
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Deletes the specified style, AutoText entry, toolbar, or macro project item from
 
 ## Syntax
 
- _expression_. `OrganizerDelete`( `_Source_` , `_Name_` , `_Object_` )
+_expression_. `OrganizerDelete`( `_Source_` , `_Name_` , `_Object_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters

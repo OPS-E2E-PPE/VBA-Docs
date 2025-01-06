@@ -3,12 +3,11 @@ title: Paragraph.AutoAdjustRightIndent property (Word)
 keywords: vbawd10.chm156696700
 f1_keywords:
 - vbawd10.chm156696700
-ms.prod: word
 api_name:
 - Word.Paragraph.AutoAdjustRightIndent
 ms.assetid: 274329db-9c26-e2d2-4fb8-4f7af92b3d83
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoAdjustRightIndent`
+_expression_. `AutoAdjustRightIndent`
 
- _expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Example

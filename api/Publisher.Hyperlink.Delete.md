@@ -1,27 +1,26 @@
 ---
-title: Hyperlink.Delete Method (Publisher)
+title: Hyperlink.Delete method (Publisher)
 keywords: vbapb10.chm4587541
 f1_keywords:
 - vbapb10.chm4587541
-ms.prod: publisher
 api_name:
 - Publisher.Hyperlink.Delete
 ms.assetid: 28b7f351-c1a8-29f1-2114-ed6854fbd13a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlink.Delete Method (Publisher)
+# Hyperlink.Delete method (Publisher)
 
 Deletes the specified object.
 
 
 ## Syntax
 
- _expression_. **Delete**
+_expression_.**Delete**
 
- _expression_ A variable that represents a  **Hyperlink** object.
+_expression_ A variable that represents a **[Hyperlink](Publisher.Hyperlink.md)** object.
 
 
 ## Remarks

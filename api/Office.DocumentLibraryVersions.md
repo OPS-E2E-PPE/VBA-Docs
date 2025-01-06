@@ -3,12 +3,11 @@ title: DocumentLibraryVersions object (Office)
 keywords: vbaof11.chm277026
 f1_keywords:
 - vbaof11.chm277026
-ms.prod: office
 api_name:
 - Office.DocumentLibraryVersions
 ms.assetid: 075c0315-fade-6d45-9ab9-6c798f6f09ac
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -43,14 +42,14 @@ Dim dlvVersions As Office.DocumentLibraryVersions
  Dim strVersionInfo As String 
  Set dlvVersions = ActiveDocument.DocumentLibraryVersions 
  If dlvVersions.IsVersioningEnabled Then 
- strVersionInfo = "This document has " &amp; _ 
- dlvVersions.Count &amp; " versions: " &amp; vbCrLf 
+ strVersionInfo = "This document has " & _ 
+ dlvVersions.Count & " versions: " & vbCrLf 
  For Each dlvVersion In dlvVersions 
- strVersionInfo = strVersionInfo &amp; _ 
- " - Version #: " &amp; dlvVersion.Index &amp; vbCrLf &amp; _ 
- " - Modified by: " &amp; dlvVersion.ModifiedBy &amp; vbCrLf &amp; _ 
- " - Modified on: " &amp; dlvVersion.Modified &amp; vbCrLf &amp; _ 
- " - Comments: " &amp; dlvVersion.Comments &amp; vbCrLf 
+ strVersionInfo = strVersionInfo & _ 
+ " - Version #: " & dlvVersion.Index & vbCrLf & _ 
+ " - Modified by: " & dlvVersion.ModifiedBy & vbCrLf & _ 
+ " - Modified on: " & dlvVersion.Modified & vbCrLf & _ 
+ " - Comments: " & dlvVersion.Comments & vbCrLf 
  Next 
  Else 
  strVersionInfo = "Versioning not enabled for this document." 

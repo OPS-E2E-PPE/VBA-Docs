@@ -1,9 +1,9 @@
 ---
 title: ODSOFilter members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: 2c4eeced-e51f-fbf9-65e5-93c06f099d58
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

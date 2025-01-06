@@ -3,12 +3,11 @@ title: CommandBars.ActionControl property (Office)
 keywords: vbaof11.chm2001
 f1_keywords:
 - vbaof11.chm2001
-ms.prod: office
 api_name:
 - Office.CommandBars.ActionControl
 ms.assetid: 70097691-a771-4f7d-020b-2a9d33e18fa0
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -56,8 +55,6 @@ With buttonThree
 End With 
 myBar.Visible = True
 ```
-
-<br/>
 
 The following subroutine responds to the **OnAction** method and determines which command bar button was last clicked.
 

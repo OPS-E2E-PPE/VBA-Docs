@@ -3,18 +3,17 @@ title: ComboBox.ListRows property (Access)
 keywords: vbaac10.chm11384,vbaac10.chm4417
 f1_keywords:
 - vbaac10.chm11384,vbaac10.chm4417
-ms.prod: access
 api_name:
 - Access.ComboBox.ListRows
 ms.assetid: b418e124-71b6-2ffb-101d-b56aadebb1fc
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ListRows property (Access)
 
-You can use the **ListRows** property to set the maximum number of rows to display in the list box portion of a combo box. Read/write **Integer**.
+Use the **ListRows** property to set the maximum number of rows to display in the list box portion of a combo box. Read/write **Integer**.
 
 
 ## Syntax

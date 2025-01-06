@@ -1,18 +1,17 @@
 ---
-title: PropertyAccessor.StringToBinary Method (Outlook)
+title: PropertyAccessor.StringToBinary method (Outlook)
 keywords: vbaol11.chm1976
 f1_keywords:
 - vbaol11.chm1976
-ms.prod: outlook
 api_name:
 - Outlook.PropertyAccessor.StringToBinary
 ms.assetid: 1ea95601-a21f-47d2-7a3c-166c4984fc25
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PropertyAccessor.StringToBinary Method (Outlook)
+# PropertyAccessor.StringToBinary method (Outlook)
 
 Converts a string specified by  _Value_ to an array of bytes.
 
@@ -21,7 +20,7 @@ Converts a string specified by  _Value_ to an array of bytes.
 
 _expression_. `StringToBinary`( `_Value_` )
 
-_expression_ A variable that represents a [PropertyAccessor](./Outlook.PropertyAccessor.md) object.
+_expression_ A variable that represents a [PropertyAccessor](Outlook.PropertyAccessor.md) object.
 
 
 ## Parameters
@@ -34,12 +33,12 @@ _expression_ A variable that represents a [PropertyAccessor](./Outlook.PropertyA
 
 ## Return value
 
-A  **Variant** value that represents an array of bytes returned from the conversion.
+A **Variant** value that represents an array of bytes returned from the conversion.
 
 
 ## Remarks
 
-For more information on type conversion when using the  **PropertyAccessor** object, see [Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
+For more information on type conversion when using the **PropertyAccessor** object, see [Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
 
 
 ## See also

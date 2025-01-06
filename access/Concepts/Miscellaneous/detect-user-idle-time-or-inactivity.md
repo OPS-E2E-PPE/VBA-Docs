@@ -1,10 +1,9 @@
 ---
 title: Detect user idle time or inactivity
-ms.prod: access
 ms.assetid: 40e9c4ef-a81b-074b-0be0-8247b4ea525b
 ROBOTS: INDEX
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 

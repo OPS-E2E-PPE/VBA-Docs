@@ -1,22 +1,21 @@
 ---
-title: Comment.Delete Method (Visio)
-ms.prod: visio
+title: Comment.Delete method (Visio)
 ms.assetid: 7762f264-f680-5758-7c35-dfe9067b61ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comment.Delete Method (Visio)
+# Comment.Delete method (Visio)
 
 Deletes the specified comment.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a 'Comment' object.
+_expression_ A variable that represents a **[Comment](Visio.Comment.md)** object.
 
 
 ## Return value

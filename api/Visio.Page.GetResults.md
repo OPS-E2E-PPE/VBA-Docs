@@ -1,27 +1,26 @@
 ---
-title: Page.GetResults Method (Visio)
+title: Page.GetResults method (Visio)
 keywords: vis_sdr.chm10916320
 f1_keywords:
 - vis_sdr.chm10916320
-ms.prod: visio
 api_name:
 - Visio.Page.GetResults
 ms.assetid: 5af0a38f-fdc9-e826-99b0-6090bb372bc1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.GetResults Method (Visio)
+# Page.GetResults method (Visio)
 
 Gets the results or formulas of many cells.
 
 
 ## Syntax
 
- _expression_. `GetResults`( `_SID_SRCStream()_` , `_Flags_` , `_UnitsNamesOrCodes()_` , `_resultArray()_` )
+_expression_. `GetResults`( `_SID_SRCStream()_` , `_Flags_` , `_UnitsNamesOrCodes()_` , `_resultArray()_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -42,9 +41,9 @@ Nothing
 
 ## Remarks
 
-The  **GetResults** method is like the **Result** property for the **Cell** object, except that it can be used to get the results (values) of many cells at once, rather than one cell at a time.
+The **GetResults** method is like the **Result** property for the **Cell** object, except that it can be used to get the results (values) of many cells at once, rather than one cell at a time.
 
-For a  **Page** object, you can use the **GetResults** method to get results of any set of cells in any set of shapes of the page.
+For a **Page** object, you can use the **GetResults** method to get results of any set of cells in any set of shapes of the page.
 
  _SID_SRCStream()_ is an array of 2-byte integers. For **Page** objects, _SID_SRCStream()_ should be a one-dimensional array of 4 _n_ 2-byte integers for _n_ >= 1. The **GetResults** method interprets _SID_SRCStream()_ as:
 
@@ -60,7 +59,8 @@ where  _sheetID_ is the **ID** property of the **Shape** object on the page whos
 
 
 
- **Note**  If the  _sheetID_ in an entry is **visInvalShapeID** (-1) or if the bottom byte of _sectionIdx_ is **visSectionInval** (255), the entry will be ignored and an empty variant will be returned in the corresponding results array entry. The reason for this is that the same _SID_SRCStream()_ array can be used on several calls to **GetResults** , **SetResults** , and similar methods with the caller only needing to make minor changes to the stream between calls.
+> [!NOTE] 
+> If the  _sheetID_ in an entry is **visInvalShapeID** (-1) or if the bottom byte of _sectionIdx_ is **visSectionInval** (255), the entry will be ignored and an empty variant will be returned in the corresponding results array entry. The reason for this is that the same _SID_SRCStream()_ array can be used on several calls to **GetResults**, **SetResults**, and similar methods with the caller only needing to make minor changes to the stream between calls.
 
 The  _Flags_ parameter indicates what data type the returned results should be expressed in. Its value should be one of the following.
 
@@ -75,18 +75,18 @@ The  _Flags_ parameter indicates what data type the returned results should be e
 | **visGetFormulas**|4|Formulas returned as strings (VT_BSTR).|
 | **visGetFormulasU**|5|Formulas returned in universal syntax (VT_BSTR).|
 
-The  _UnitsNamesOrCodes()_ parameter is an array that controls what measurement units individual results are returned in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters** , **visInches** , and so on) declared by the Visio type library. Note that the values specified in the _UnitsNamesOrCodes()_ array have no effect if _Flags_ is **visGetFormulas**.
+The  _UnitsNamesOrCodes()_ parameter is an array that controls what measurement units individual results are returned in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters**, **visInches**, and so on) declared by the Visio type library. Note that the values specified in the _UnitsNamesOrCodes()_ array have no effect if _Flags_ is **visGetFormulas**.
 
 If  _UnitsNamesOrCodes()_ is not null, the application expects it to be a one-dimensional array of 1 <= _u_**Variants**. Each entry can be a string or integer code, or empty (nothing). If the _i_ 'th entry is empty, the _i_ 'th returned result is returned in the units designated by _UnitsNamesOrCodes(j)_, where  _j_ is the index of the most recent prior non-empty entry. Thus if you want all returned values to be in the same units, you need only pass a _UnitsNamesOrCodes()_ array with one entry. If there is no prior non-empty entry, or if no _UnitsNameOrCodes()_ array is supplied, **visNumber** (0x20) is used. This causes internal units (like the **ResultIU** property of a **Cell** object) to be returned.
 
-If the  **GetResults** method succeeds, results returns a one-dimensional array of _n_ variants indexed from zero (0) to _n_ - 1. The type of the returned variants is a function of _Flags_. The  _resultArray()_ parameter is an out argument that is allocated by the **GetResults** method, which passes ownership back to the caller. The caller should eventually perform **SafeArrayDestroy** on the returned array. Note that **SafeArrayDestroy** has the side effect of clearing the variants referenced by the array's entries, hence deallocating any strings the **GetResults** method returns. (Microsoft Visual Basic and Microsoft Visual Basic for Applications take care of this for you.)
+If the **GetResults** method succeeds, results returns a one-dimensional array of _n_ variants indexed from zero (0) to _n_ - 1. The type of the returned variants is a function of _Flags_. The  _resultArray()_ parameter is an out argument that is allocated by the **GetResults** method, which passes ownership back to the caller. The caller should eventually perform **SafeArrayDestroy** on the returned array. Note that **SafeArrayDestroy** has the side effect of clearing the variants referenced by the array's entries, hence deallocating any strings the **GetResults** method returns. (Microsoft Visual Basic and Microsoft Visual Basic for Applications take care of this for you.)
 
 
 ## Example
 
-The following example shows how to use the  **GetResults** method. This example assumes there is an active page that has at least 3 shapes on it. It uses the **GetResults** method to get the width of shape 1, the height of shape 2, and the angle of shape 3.
+The following example shows how to use the **GetResults** method. This example assumes there is an active page that has at least 3 shapes on it. It uses the **GetResults** method to get the width of shape 1, the height of shape 2, and the angle of shape 3.
 
-This example uses the  **GetResults** method of the **Page** object to get 3 cell formulas. The input array has 4 slots for each cell, as it also would for **Master** objects. For **Shape** or **Style** objects, only 3 slots would be needed for each cell (section, row, and cell).
+This example uses the **GetResults** method of the **Page** object to get 3 cell formulas. The input array has 4 slots for each cell, as it also would for **Master** objects. For **Shape** or **Style** objects, only 3 slots would be needed for each cell (section, row, and cell).
 
 
 

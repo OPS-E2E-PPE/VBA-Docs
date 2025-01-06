@@ -1,36 +1,33 @@
 ---
-title: Columns.Item Method (Publisher)
+title: Columns.Item method (Publisher)
 keywords: vbapb10.chm5046272
 f1_keywords:
 - vbapb10.chm5046272
-ms.prod: publisher
 api_name:
 - Publisher.Columns.Item
 ms.assetid: c16df25c-ea8d-c04e-bccd-7e642bb7198a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# Columns.Item Method (Publisher)
+# Columns.Item method (Publisher)
 
-Returns an individual  **Column** object in the specified **Columns** collection.
+Returns an individual **[Column](Publisher.Column.md)** object in the specified **Columns** collection.
 
 
 ## Syntax
 
- _expression_. **Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **Columns** object.
+_expression_ A variable that represents a **[Columns](Publisher.Columns.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Long**|The number of the object to return.|
+|_Index_|Required| **Long**|The number of the object to return.|
 
 ## Return value
 
@@ -39,8 +36,7 @@ Column
 
 ## Example
 
-This example returns the first column from a  **Columns** collection.
-
+This example returns the first column from a **Columns** collection.
 
 ```vb
 Dim colTemp As Column 

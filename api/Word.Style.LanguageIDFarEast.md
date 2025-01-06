@@ -3,25 +3,24 @@ title: Style.LanguageIDFarEast property (Word)
 keywords: vbawd10.chm153878544
 f1_keywords:
 - vbawd10.chm153878544
-ms.prod: word
 api_name:
 - Word.Style.LanguageIDFarEast
 ms.assetid: f36c06a7-82e8-f934-9566-4c1275ed3e8c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Style.LanguageIDFarEast property (Word)
 
-Returns or sets an East Asian language for the specified object. Read/write  **[WdLanguageID](Word.WdLanguageID.md)**.
+Returns or sets an East Asian language for the specified object. Read/write **[WdLanguageID](Word.WdLanguageID.md)**.
 
 
 ## Syntax
 
- _expression_. `LanguageIDFarEast`
+_expression_. `LanguageIDFarEast`
 
- _expression_ Required. A variable that represents a '[Style](Word.Style.md)' object.
+_expression_ Required. A variable that represents a '[Style](Word.Style.md)' object.
 
 
 ## Remarks

@@ -1,18 +1,17 @@
 ---
-title: OlAppointmentTimeField Enumeration (Outlook)
+title: OlAppointmentTimeField enumeration (Outlook)
 keywords: vbaol11.chm1000531
 f1_keywords:
 - vbaol11.chm1000531
-ms.prod: outlook
 api_name:
 - Outlook.OlAppointmentTimeField
 ms.assetid: 630706ba-c98a-e6de-73ce-c7071e0d1db2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlAppointmentTimeField Enumeration (Outlook)
+# OlAppointmentTimeField enumeration (Outlook)
 
 Specifies the time field in an appointment that the control is bound to.
 

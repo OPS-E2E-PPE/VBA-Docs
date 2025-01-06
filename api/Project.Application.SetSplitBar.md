@@ -1,27 +1,27 @@
 ---
-title: Application.SetSplitBar Method (Project)
+title: Application.SetSplitBar method (Project)
 keywords: vbapj.chm31
 f1_keywords:
 - vbapj.chm31
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.SetSplitBar
 ms.assetid: caf26a56-43ad-1714-79e4-cab013a55f3c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetSplitBar Method (Project)
+# Application.SetSplitBar method (Project)
 
 Positions the vertical split bar in a sheet view to display the specified number of columns.
 
 
 ## Syntax
 
- _expression_. `SetSplitBar`( `_ShowColumns_` )
+_expression_. `SetSplitBar`( `_ShowColumns_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ Positions the vertical split bar in a sheet view to display the specified number
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ShowColumns_|Optional|**Long**|Specifies the number of columns to display, including the locked  **ID** column. The value can be 1 through 75. The default value is the total number of columns currently displayed, including any partially hidden column.|
+| _ShowColumns_|Optional|**Long**|Specifies the number of columns to display, including the locked **ID** column. The value can be 1 through 75. The default value is the total number of columns currently displayed, including any partially hidden column.|
 
 ## Return value
 
@@ -39,14 +39,14 @@ Positions the vertical split bar in a sheet view to display the specified number
 
 ## Remarks
 
-If the right pane of the view has been sized so that there is no left pane, the  **SetSplitBar** method has no effect.
+If the right pane of the view has been sized so that there is no left pane, the **SetSplitBar** method has no effect.
 
-If the split bar is partially hiding the right-most column, using the  **SetSplitBar** method with no argument moves the split bar to show the complete column.
+If the split bar is partially hiding the right-most column, using the **SetSplitBar** method with no argument moves the split bar to show the complete column.
 
 
 ## Example
 
-If the standard Gantt Chart is the active view, the following statement sets the split bar to show only the  **ID**,  **Indicators**,  **Task Mode**, and  **Task Name** columns.
+If the standard Gantt Chart is the active view, the following statement sets the split bar to show only the **ID**, **Indicators**, **Task Mode**, and **Task Name** columns.
 
 
 ```vb

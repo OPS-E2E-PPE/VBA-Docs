@@ -3,12 +3,11 @@ title: PictureFormat.IncrementContrast method (Word)
 keywords: vbawd10.chm164298763
 f1_keywords:
 - vbawd10.chm164298763
-ms.prod: word
 api_name:
 - Word.PictureFormat.IncrementContrast
 ms.assetid: afde4afa-53b6-7dd2-57b2-c25a800fb69d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Changes the contrast of the picture by the specified amount.
 
 ## Syntax
 
- _expression_. `IncrementContrast`( `_Increment_` )
+_expression_.**IncrementContrast** (_Increment_)
 
- _expression_ Required. A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
+_expression_ Required. A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
 ## Parameters
@@ -30,13 +29,13 @@ Changes the contrast of the picture by the specified amount.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Increment_|Required| **Single**|Specifies how much to change the value of the  **Contrast** property for the picture. A positive value increases the contrast; a negative value decreases the contrast.|
+| _Increment_|Required| **Single**|Specifies how much to change the value of the **Contrast** property for the picture. A positive value increases the contrast; a negative value decreases the contrast.|
 
 ## Remarks
 
-Use the  **Contrast** property to set the absolute contrast for the picture.
+Use the **Contrast** property to set the absolute contrast for the picture.
 
-You cannot adjust the contrast of a picture past the upper or lower limit for the  **Contrast** property. For example, if the **Contrast** property is initially set to 0.9 and you specify 0.3 for the Increment argument, the resulting contrast level will be 1.0, which is the upper limit for the **Contrast** property, instead of 1.2.
+You cannot adjust the contrast of a picture past the upper or lower limit for the **Contrast** property. For example, if the **Contrast** property is initially set to 0.9 and you specify 0.3 for the Increment argument, the resulting contrast level will be 1.0, which is the upper limit for the **Contrast** property, instead of 1.2.
 
 
 ## Example

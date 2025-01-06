@@ -3,12 +3,11 @@ title: Window.EnvelopeVisible property (Word)
 keywords: vbawd10.chm157417505
 f1_keywords:
 - vbawd10.chm157417505
-ms.prod: word
 api_name:
 - Word.Window.EnvelopeVisible
 ms.assetid: d04d6714-ba32-39cc-4853-e9ac6696e718
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EnvelopeVisible`
+_expression_. `EnvelopeVisible`
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks

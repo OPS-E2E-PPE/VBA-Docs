@@ -3,12 +3,11 @@ title: Attachment.Width property (Access)
 keywords: vbaac10.chm13922
 f1_keywords:
 - vbaac10.chm13922
-ms.prod: access
 api_name:
 - Access.Attachment.Width
 ms.assetid: 708c9f0d-deaa-1149-2ce7-53f0b5ec8c25
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

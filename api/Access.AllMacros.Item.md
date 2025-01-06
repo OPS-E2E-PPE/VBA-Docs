@@ -3,12 +3,11 @@ title: AllMacros.Item property (Access)
 keywords: vbaac10.chm12680
 f1_keywords:
 - vbaac10.chm12680
-ms.prod: access
 api_name:
 - Access.AllMacros.Item
 ms.assetid: 5fc6b7c0-ac04-8b9b-4b8d-a40c00db4578
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

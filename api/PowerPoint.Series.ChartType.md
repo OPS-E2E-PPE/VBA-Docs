@@ -1,24 +1,23 @@
 ---
-title: Series.ChartType Property (PowerPoint)
-ms.prod: powerpoint
+title: Series.ChartType property (PowerPoint)
 api_name:
 - PowerPoint.Series.ChartType
 ms.assetid: 2ee70821-c909-bd90-a07f-7520be7b3117
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.ChartType Property (PowerPoint)
+# Series.ChartType property (PowerPoint)
 
-Returns or sets the chart type. Read/write  **[xlChartType](./Excel.XlChartType.md)**.
+Returns or sets the chart type. Read/write **[XlChartType](Excel.XlChartType.md)**.
 
 
 ## Syntax
 
- _expression_. `ChartType`
+_expression_.**ChartType**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks

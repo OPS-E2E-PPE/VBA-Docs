@@ -1,27 +1,26 @@
 ---
-title: Application.ResourceAssignment Method (Project)
+title: Application.ResourceAssignment method (Project)
 keywords: vbapj.chm212
 f1_keywords:
 - vbapj.chm212
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ResourceAssignment
 ms.assetid: aceb1802-4b5f-0ad3-bd14-ce77c24705fb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ResourceAssignment Method (Project)
+# Application.ResourceAssignment method (Project)
 
 Assigns, removes, or replaces the resources of the selected tasks, or changes the number of units for a resource.
 
 ## Syntax
 
-_expression_. **ResourceAssignment** (**_Resources_**, **_Operation_**, **_With_**)
+_expression_.**ResourceAssignment** (_Resources_, _Operation_, _With_)
 
-_expression_ A variable that represents an **Application** object.
-
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 ## Parameters
 
@@ -51,7 +50,7 @@ _expression_ A variable that represents an **Application** object.
 
 ## Remarks
 
-You can use the _Resources_ parameter to specify that a resource assignment is requested or demanded when using the Resource Substitution Wizard. For example, the following macro specifies that the assignment of r1 to the selected task is a requested assignment.
+Use the _Resources_ parameter to specify that a resource assignment is requested or demanded when using the Resource Substitution Wizard. For example, the following macro specifies that the assignment of r1 to the selected task is a requested assignment.
 
 ```vb
 Sub RequestAssignment()

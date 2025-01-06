@@ -3,12 +3,11 @@ title: Permission.StoreLicenses property (Office)
 keywords: vbaof11.chm261012
 f1_keywords:
 - vbaof11.chm261012
-ms.prod: office
 api_name:
 - Office.Permission.StoreLicenses
 ms.assetid: c08e088c-8cdf-baa0-56e4-3d4d6f3caab8
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,19 +38,19 @@ The following example displays information about the permissions settings of the
  Dim strIRMInfo As String 
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
- strIRMInfo = "Permissions are restricted on this document." &amp; vbCrLf 
- strIRMInfo = strIRMInfo &amp; " View in trusted browser: " &amp; _ 
- irmPermission.EnableTrustedBrowser &amp; vbCrLf &amp; _ 
- " Document author: " &amp; irmPermission.DocumentAuthor &amp; vbCrLf &amp; _ 
- " Users with permissions: " &amp; irmPermission.Count &amp; vbCrLf &amp; _ 
- " Cache licenses locally: " &amp; irmPermission.StoreLicenses &amp; vbCrLf &amp; _ 
- " Request permission URL: " &amp; irmPermission.RequestPermissionURL &amp; vbCrLf 
+ strIRMInfo = "Permissions are restricted on this document." & vbCrLf 
+ strIRMInfo = strIRMInfo & " View in trusted browser: " & _ 
+ irmPermission.EnableTrustedBrowser & vbCrLf & _ 
+ " Document author: " & irmPermission.DocumentAuthor & vbCrLf & _ 
+ " Users with permissions: " & irmPermission.Count & vbCrLf & _ 
+ " Cache licenses locally: " & irmPermission.StoreLicenses & vbCrLf & _ 
+ " Request permission URL: " & irmPermission.RequestPermissionURL & vbCrLf 
  If irmPermission.PermissionFromPolicy Then 
- strIRMInfo = strIRMInfo &amp; " Permissions applied from policy:" &amp; vbCrLf &amp; _ 
- " Policy name: " &amp; irmPermission.PolicyName &amp; vbCrLf &amp; _ 
- " Policy description: " &amp; irmPermission.PolicyDescription 
+ strIRMInfo = strIRMInfo & " Permissions applied from policy:" & vbCrLf & _ 
+ " Policy name: " & irmPermission.PolicyName & vbCrLf & _ 
+ " Policy description: " & irmPermission.PolicyDescription 
  Else 
- strIRMInfo = strIRMInfo &amp; " Custom permissions applied." 
+ strIRMInfo = strIRMInfo & " Custom permissions applied." 
  End If 
  Else 
  strIRMInfo = "Permissions are NOT restricted on this document." 

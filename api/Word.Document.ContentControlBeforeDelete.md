@@ -1,27 +1,26 @@
 ---
-title: Document.ContentControlBeforeDelete Event (Word)
+title: Document.ContentControlBeforeDelete event (Word)
 keywords: vbawd10.chm4001011
 f1_keywords:
 - vbawd10.chm4001011
-ms.prod: word
 api_name:
 - Word.Document.ContentControlBeforeDelete
 ms.assetid: a690fb97-0de3-de0e-7e84-edaaea756e83
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.ContentControlBeforeDelete Event (Word)
+# Document.ContentControlBeforeDelete event (Word)
 
 Occurs before removing a content control from a document.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlBeforeDelete'(**_OldContentControl_** , **_InUndoRedo_**)
+_expression_.**ContentControlBeforeDelete'(**_OldContentControl_**, **_InUndoRedo_**)
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Private Sub  _expression_ _'ContentControlBeforeDelete'(**_OldContentControl_** 
 
 ## Remarks
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

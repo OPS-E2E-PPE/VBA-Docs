@@ -3,12 +3,11 @@ title: Forms.Item property (Access)
 keywords: vbaac10.chm12358
 f1_keywords:
 - vbaac10.chm12358
-ms.prod: access
 api_name:
 - Access.Forms.Item
 ms.assetid: 6436ecae-4d12-0684-b44c-88f4172e7dcb
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

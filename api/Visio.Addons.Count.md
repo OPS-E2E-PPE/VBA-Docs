@@ -1,27 +1,26 @@
 ---
-title: Addons.Count Property (Visio)
+title: Addons.Count property (Visio)
 keywords: vis_sdr.chm12513330
 f1_keywords:
 - vis_sdr.chm12513330
-ms.prod: visio
 api_name:
 - Visio.Addons.Count
 ms.assetid: 06a4d0b5-1ec9-afbc-0be7-b03fe48bd2f9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/24/2019
+ms.localizationpriority: medium
 ---
 
 
-# Addons.Count Property (Visio)
+# Addons.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents an [Addons](./Visio.Addons.md) object.
+_expression_ A variable that represents an **[Addons](Visio.Addons.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ Integer
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
-
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 ```vb
  

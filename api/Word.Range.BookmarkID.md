@@ -3,25 +3,24 @@ title: Range.BookmarkID property (Word)
 keywords: vbawd10.chm157155636
 f1_keywords:
 - vbawd10.chm157155636
-ms.prod: word
 api_name:
 - Word.Range.BookmarkID
 ms.assetid: 11157160-6cd5-38d7-dc92-be14399509f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.BookmarkID property (Word)
 
-Returns the number of the bookmark that encloses the beginning of the specified range; returns 0 (zero) if there is no corresponding bookmark. Read-only  **Long**.
+Returns the number of the bookmark that encloses the beginning of the specified range; returns 0 (zero) if there is no corresponding bookmark. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `BookmarkID`
+_expression_. `BookmarkID`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

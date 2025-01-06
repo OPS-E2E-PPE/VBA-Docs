@@ -3,25 +3,24 @@ title: MailMergeDataSource.ConnectString property (Word)
 keywords: vbawd10.chm152895493
 f1_keywords:
 - vbawd10.chm152895493
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.ConnectString
 ms.assetid: e402bc58-89e8-f18a-f70d-d970297777be
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataSource.ConnectString property (Word)
 
-Returns the connection string for the specified mail merge data source. Read-only  **String**.
+Returns the connection string for the specified mail merge data source. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `ConnectString`
+_expression_. `ConnectString`
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Example

@@ -1,24 +1,24 @@
 ---
-title: Filters.Count Property (Project)
-ms.prod: project-server
+title: Filters.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.Filters.Count
 ms.assetid: d081c4e1-47ef-d388-a222-a2bdc958729f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Filters.Count Property (Project)
+# Filters.Count property (Project)
 
-Gets the number of items in the  **Filters** collection. Read-only **Long**.
+Gets the number of items in the **Filters** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'Filters' object.
+_expression_ A variable that represents a 'Filters' object.
 
 
 ## Example

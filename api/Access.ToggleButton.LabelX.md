@@ -3,12 +3,11 @@ title: ToggleButton.LabelX property (Access)
 keywords: vbaac10.chm11738
 f1_keywords:
 - vbaac10.chm11738
-ms.prod: access
 api_name:
 - Access.ToggleButton.LabelX
 ms.assetid: 4693ae47-a90d-6467-4e84-5ec0a78ff2e0
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

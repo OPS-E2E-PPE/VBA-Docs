@@ -1,19 +1,16 @@
 ---
 title: MsoControlOLEUsage enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoControlOLEUsage
 ms.assetid: 1c25e2f0-693b-0fdf-c269-063ea58a941a
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoControlOLEUsage enumeration (Office)
 
 Specifies the OLE client and OLE server roles in which a command bar control is used when two Microsoft Office applications are merged.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

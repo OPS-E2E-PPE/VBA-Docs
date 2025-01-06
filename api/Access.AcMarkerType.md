@@ -3,19 +3,16 @@ title: AcMarkerType enumeration (Access)
 keywords: vbaac10.chm14769
 f1_keywords:
 - vbaac10.chm14769
-ms.prod: access
 api_name:
 - Access.AcMarkerType
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcMarkerType enumeration (Access)
 
 Specifies the marker shape to use for plotting a series when its effective chart type is line-based.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

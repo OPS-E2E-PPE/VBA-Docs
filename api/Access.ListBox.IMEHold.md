@@ -3,18 +3,17 @@ title: ListBox.IMEHold property (Access)
 keywords: vbaac10.chm11229
 f1_keywords:
 - vbaac10.chm11229
-ms.prod: access
 api_name:
 - Access.ListBox.IMEHold
 ms.assetid: 22d6bd7c-704b-2b27-6b04-c6628cd83f02
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.IMEHold property (Access)
 
-You can use the **IMEHold/Hold KanjiConversionMode** property to show whether the Kanji Conversion Mode is maintained when the control loses the focus. Read/write **Boolean**.
+Use the **IMEHold/Hold KanjiConversionMode** property to show whether the Kanji Conversion Mode is maintained when the control loses the focus. Read/write **Boolean**.
 
 
 ## Syntax

@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Copy Method (Project)
-ms.prod: project-server
+title: ShapeRange.Copy method (Project)
+ms.service: project-server
 ms.assetid: b482aae6-a37f-2e54-df17-beccfd762dc1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Copy Method (Project)
+# ShapeRange.Copy method (Project)
 Copies the shape range to the Clipboard.
 
 ## Syntax
 
- _expression_. `Copy`
+_expression_.**Copy**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: Research.Query method (Word)
 keywords: vbawd10.chm201654772
 f1_keywords:
 - vbawd10.chm201654772
-ms.prod: word
 api_name:
 - Word.Research.Query
 ms.assetid: 416ad3f1-d2c4-4963-81c6-ba9a639c7965
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Specifies a research query.
 
 ## Syntax
 
- _expression_. `Query`( `_ServiceID_` , `_QueryString_` , `_QueryLanguage_` , `_UseSelection_` , `_RequeryContextXML_` , `_NewQueryContextXML_` , `_LaunchQuery_` )
+_expression_. `Query`( `_ServiceID_` , `_QueryString_` , `_QueryLanguage_` , `_UseSelection_` , `_RequeryContextXML_` , `_NewQueryContextXML_` , `_LaunchQuery_` )
 
  _expression_ An expression that returns a [Research](./Word.Research.md) object.
 

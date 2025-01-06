@@ -3,18 +3,17 @@ title: SubForm.Top property (Access)
 keywords: vbaac10.chm11939
 f1_keywords:
 - vbaac10.chm11939
-ms.prod: access
 api_name:
 - Access.SubForm.Top
 ms.assetid: c5ffd8bb-479d-81a2-cfbb-67ae1bbd2cd5
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

@@ -1,27 +1,26 @@
 ---
-title: Presentation.Container Property (PowerPoint)
+title: Presentation.Container property (PowerPoint)
 keywords: vbapp10.chm583041
 f1_keywords:
 - vbapp10.chm583041
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.Container
 ms.assetid: cc0108b7-ce95-3a1b-a400-c49700a2362c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.Container Property (PowerPoint)
+# Presentation.Container property (PowerPoint)
 
 Returns the object that contains the specified embedded presentation. Read-only.
 
 
 ## Syntax
 
- _expression_. `Container`
+_expression_. `Container`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ If the container doesn't support OLE Automation, or if the specified presentatio
 
 ## Example
 
-This example hides the second section of the Microsoft Binder file that contains the embedded active presentation. The  **Container** property of the presentation returns a **Section** object, and the **Parent** property of the **Section** object returns a **Binder** object.
+This example hides the second section of the Microsoft Binder file that contains the embedded active presentation. The **Container** property of the presentation returns a **Section** object, and the **Parent** property of the **Section** object returns a **Binder** object.
 
 
 ```vb

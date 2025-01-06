@@ -3,18 +3,17 @@ title: CurrentProject.Name property (Access)
 keywords: vbaac10.chm12717
 f1_keywords:
 - vbaac10.chm12717
-ms.prod: access
 api_name:
 - Access.CurrentProject.Name
 ms.assetid: b7eb012e-6145-d962-8884-3ccf3eaf46fd
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CurrentProject.Name property (Access)
 
-You can use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
+Use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
 
 
 ## Syntax

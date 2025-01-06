@@ -1,18 +1,17 @@
 ---
-title: PbUnderlineType Enumeration (Publisher)
+title: PbUnderlineType enumeration (Publisher)
 keywords: vbapb10.chm65562
 f1_keywords:
 - vbapb10.chm65562
-ms.prod: publisher
 api_name:
 - Publisher.PbUnderlineType
 ms.assetid: 61977d15-c7f3-f496-bc37-91eba9d9f6e7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbUnderlineType Enumeration (Publisher)
+# PbUnderlineType enumeration (Publisher)
 
 Indicates the type of underline for the selected characters in the specified font in a text range.
 

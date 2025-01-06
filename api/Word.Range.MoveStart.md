@@ -3,12 +3,11 @@ title: Range.MoveStart method (Word)
 keywords: vbawd10.chm157155438
 f1_keywords:
 - vbawd10.chm157155438
-ms.prod: word
 api_name:
 - Word.Range.MoveStart
 ms.assetid: 9097c636-594d-8a2e-8209-dc0db850812a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the start position of the specified range.
 
 ## Syntax
 
- _expression_. `MoveStart`( `_Unit_` , `_Count_` )
+_expression_. `MoveStart`( `_Unit_` , `_Count_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters

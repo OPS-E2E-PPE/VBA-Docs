@@ -3,10 +3,9 @@ title: Event statement (VBA)
 keywords: vblr6.chm1103515
 f1_keywords:
 - vblr6.chm1103515
-ms.prod: office
 ms.assetid: 14493dfc-5b73-f870-742a-cd4edcf69899
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Declares a user-defined event.
 
 [ **Public** ] **Event** _procedurename_ [ (_arglist_) ]
 
-<br/>
-
 The **Event** statement has these parts:
 
 |Part|Description|
@@ -27,18 +24,14 @@ The **Event** statement has these parts:
 |**Public**|Optional. Specifies that the **Event** is visible throughout the [project](../../Glossary/vbe-glossary.md#project). **Events** types are **Public** by default. Note that events can only be raised in the [module](../../Glossary/vbe-glossary.md#module) in which they are declared.|
 | _procedurename_|Required. Name of the event; follows standard variable naming conventions.|
 
-<br/>
-
 The _arglist_ argument has the following syntax and parts:
 
 [ **ByVal** | **ByRef** ] _varname_ [ ( ) ] [ **As** _type_ ]
 
-<br/>
-
 |Part|Description|
 |:-----|:-----|
 |**ByVal**|Optional. Indicates that the [argument](../../Glossary/vbe-glossary.md#argument) is passed [by value](../../Glossary/vbe-glossary.md#by-value).|
-|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in Visual Basic.|
+|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in VBA unlike in Visual Basic .NET.|
 | _varname_|Required. Name of the variable representing the argument being passed to the [procedure](../../Glossary/vbe-glossary.md#procedure); follows standard variable naming conventions.|
 | _type_|Optional. [Data type](../../Glossary/vbe-glossary.md#data-type) of the argument passed to the procedure; may be [Byte](../../Glossary/vbe-glossary.md#byte-data-type), [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type), [Integer](../../Glossary/vbe-glossary.md#integer-data-type), [Long](../../Glossary/vbe-glossary.md#long-data-type), [Currency](../../Glossary/vbe-glossary.md#currency-data-type), [Single](../../Glossary/vbe-glossary.md#single-data-type), [Double](../../Glossary/vbe-glossary.md#double-data-type), [Decimal](../../Glossary/vbe-glossary.md#decimal-data-type) (not currently supported), [Date](../../Glossary/vbe-glossary.md#date-data-type), [String](../../Glossary/vbe-glossary.md#string-data-type) (variable length only), [Object](../../Glossary/vbe-glossary.md#object), [Variant](../../Glossary/vbe-glossary.md#variant-data-type), a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type), or an object type.|
 
@@ -57,7 +50,7 @@ End Sub
 ```
 
 > [!NOTE] 
-> You can declare event arguments just as you do arguments of procedures, with the following exceptions: events cannot have named arguments, **Optional** arguments, or **ParamArray** arguments. Events do not have return values.
+> You can declare event arguments just as you do arguments of procedures, with the following exceptions: events cannot have named arguments, **Optional** arguments, or **ParamArray** arguments. Events don't have return values.
 
 
 ## Example
@@ -101,8 +94,6 @@ Private Sub mText_UpdateTime(ByVal dblJump As Double)
  DoEvents 
 End Sub
 ```
-
-<br/>
 
 The remaining code is in a class module named TimerState. The **Event** statements declare the procedures initiated when events are raised.
 

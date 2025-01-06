@@ -3,12 +3,11 @@ title: Column.IsLast property (Word)
 keywords: vbawd10.chm156172293
 f1_keywords:
 - vbawd10.chm156172293
-ms.prod: word
 api_name:
 - Word.Column.IsLast
 ms.assetid: 9f5e51fe-4bb7-a179-4dde-373f7798f200
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsLast`
+_expression_. `IsLast`
 
- _expression_ Required. A variable that represents a '[Column](Word.Column.md)' object.
+_expression_ Required. A variable that represents a '[Column](Word.Column.md)' object.
 
 
 ## Example

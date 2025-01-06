@@ -1,27 +1,26 @@
 ---
-title: SoundEffect.Play Method (PowerPoint)
+title: SoundEffect.Play method (PowerPoint)
 keywords: vbapp10.chm540006
 f1_keywords:
 - vbapp10.chm540006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SoundEffect.Play
 ms.assetid: d0f598cb-2c3c-936b-42a2-326ead1e995b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SoundEffect.Play Method (PowerPoint)
+# SoundEffect.Play method (PowerPoint)
 
 Plays the specified sound effect.
 
 
 ## Syntax
 
- _expression_. `Play`
+_expression_. `Play`
 
- _expression_ A variable that represents a [SoundEffect](./PowerPoint.SoundEffect.md) object.
+_expression_ A variable that represents a [SoundEffect](PowerPoint.SoundEffect.md) object.
 
 
 ## Example

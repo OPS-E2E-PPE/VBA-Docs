@@ -3,12 +3,11 @@ title: CheckBox.OnEnter property (Access)
 keywords: vbaac10.chm10737
 f1_keywords:
 - vbaac10.chm10737
-ms.prod: access
 api_name:
 - Access.CheckBox.OnEnter
 ms.assetid: 54894c2c-e0ab-8679-a55a-df44af856f8a
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **Enter** event occurs before a control actually receives the focus from a c
 
 The **OnEnter** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Enter** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Enter** box is blank, the property value is an empty string.
 

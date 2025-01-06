@@ -1,22 +1,21 @@
 ---
-title: ChartArea.Height Property (PowerPoint)
-ms.prod: powerpoint
+title: ChartArea.Height property (PowerPoint)
 api_name:
 - PowerPoint.ChartArea.Height
 ms.assetid: 01deb7e5-af03-df99-5a3b-15cfd5236f78
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartArea.Height Property (PowerPoint)
+# ChartArea.Height property (PowerPoint)
 
-Returns or sets the height, in points, of the object. Read/write  **Double**.
+Returns or sets the height, in [points](../language/glossary/vbe-glossary.md#point), of the object. Read/write **Double**.
 
 
 ## Syntax
 
- _expression_.**Height**
+_expression_.**Height**
 
 _expression_ A variable that represents a '[ChartArea](PowerPoint.ChartArea.md)' object.
 

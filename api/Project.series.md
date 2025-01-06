@@ -1,19 +1,19 @@
 ---
-title: Series Object (Project)
-ms.prod: project-server
+title: Series object (Project)
+ms.service: project-server
 ms.assetid: 38a834ec-4076-82ef-a6bd-55a1ee2624bd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series Object (Project)
+# Series object (Project)
 Represents a collection of related data that makes a row or a column in a chart.
  
 
 ## Remarks
 
-A  **Series** object is a member of the **[SeriesCollection](Project.seriescollection.md)** collection, which includes all of the data series in the chart. The name of the series is often displayed in the chart legend.
+A **Series** object is a member of the **[SeriesCollection](Project.seriescollection.md)** collection, which includes all of the data series in the chart. The name of the series is often displayed in the chart legend.
  
 
  
@@ -50,14 +50,14 @@ Sub TestChartSeries()
             Set chartSeries = seriesCollec(i)
         
             If (IsEmpty(chartSeries.Name)) Then
-                Debug.Print "Series " &amp; i &amp; " name is an empty string."
+                Debug.Print "Series " & i & " name is an empty string."
             Else
-                Debug.Print "Series " &amp; i &amp; ": " &amp; chartSeries.Name
+                Debug.Print "Series " & i & ": " & chartSeries.Name
             End If
             
             For j = 1 To seriesCollec.Count
-                Debug.Print vbTab &amp; "X, Y values(" &amp; j &amp; "): " &amp; chartSeries.XValues(j) _
-                    &amp; ", " &amp; chartSeries.Values(j); ""
+                Debug.Print vbTab & "X, Y values(" & j & "): " & chartSeries.XValues(j) _
+                    & ", " & chartSeries.Values(j); ""
             Next j
         Next i
     End If

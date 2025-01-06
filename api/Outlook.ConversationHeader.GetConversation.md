@@ -1,20 +1,19 @@
 ---
-title: ConversationHeader.GetConversation Method (Outlook)
+title: ConversationHeader.GetConversation method (Outlook)
 keywords: vbaol11.chm3541
 f1_keywords:
 - vbaol11.chm3541
-ms.prod: outlook
 api_name:
 - Outlook.ConversationHeader.GetConversation
 ms.assetid: c6a98d31-9973-1e75-3aa6-edb37d82d7d1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ConversationHeader.GetConversation Method (Outlook)
+# ConversationHeader.GetConversation method (Outlook)
 
-Obtains a  **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this conversation header belongs.
+Obtains a **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this conversation header belongs.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[ConversationHeader](Outlook.Conversa
 
 ## Return value
 
-A  **Conversation** object that represents the conversation to which this conversation header belongs.
+A **Conversation** object that represents the conversation to which this conversation header belongs.
 
 
 ## Remarks
@@ -40,7 +39,7 @@ A  **Conversation** object that represents the conversation to which this conver
     
 - Conversations are disabled through the Windows registry.
     
-- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010). Use the  **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
+- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010). Use the **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
     
 
 

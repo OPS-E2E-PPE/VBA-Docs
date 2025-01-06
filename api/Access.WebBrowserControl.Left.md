@@ -3,18 +3,17 @@ title: WebBrowserControl.Left property (Access)
 keywords: vbaac10.chm14370
 f1_keywords:
 - vbaac10.chm14370
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.Left
 ms.assetid: 4e14da0d-2b92-73b3-d942-06211e1f5e59
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # WebBrowserControl.Left property (Access)
 
-You can use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
+Use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ For reports, you can set these properties only by using a macro or event procedu
 
 For reports, the **Left** property setting is the amount that the current section is offset from the left of the page. This property is expressed in twips. 
 
-You can use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
+Use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
 
 
 ## Example

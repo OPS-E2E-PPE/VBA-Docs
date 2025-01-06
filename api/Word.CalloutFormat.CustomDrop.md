@@ -3,12 +3,11 @@ title: CalloutFormat.CustomDrop method (Word)
 keywords: vbawd10.chm163905547
 f1_keywords:
 - vbawd10.chm163905547
-ms.prod: word
 api_name:
 - Word.CalloutFormat.CustomDrop
 ms.assetid: ed727a85-78e4-44f9-a436-f65592cd4be3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the vertical distance (in points) from the edge of the text bounding box to
 
 ## Syntax
 
- _expression_. `CustomDrop`( `_Drop_` )
+_expression_.**CustomDrop** (_Drop_)
 
- _expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ Required. A variable that represents a '[CalloutFormat](Word.CalloutFormat.md)' object.
 
 
 ## Parameters
@@ -34,9 +33,9 @@ Sets the vertical distance (in points) from the edge of the text bounding box to
 
 ## Remarks
 
-This distance is measured from the top of the text box unless the  **AutoAttach** property is set to **True** and the text box is to the left of the origin of the callout line (the place that the callout points to), in which case the drop distance is measured from the bottom of the text box.
+This distance is measured from the top of the text box unless the **AutoAttach** property is set to **True** and the text box is to the left of the origin of the callout line (the place that the callout points to), in which case the drop distance is measured from the bottom of the text box.
 
-If the  **PresetDrop** method was previously used to set the drop for the specified callout, use the following statement before using the **CustomDrop** method so that the custom drop setting takes effect.
+If the **PresetDrop** method was previously used to set the drop for the specified callout, use the following statement before using the **CustomDrop** method so that the custom drop setting takes effect.
 
 
 

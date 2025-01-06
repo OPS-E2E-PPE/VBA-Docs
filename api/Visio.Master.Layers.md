@@ -1,27 +1,26 @@
 ---
-title: Master.Layers Property (Visio)
+title: Master.Layers property (Visio)
 keywords: vis_sdr.chm10713820
 f1_keywords:
 - vis_sdr.chm10713820
-ms.prod: visio
 api_name:
 - Visio.Master.Layers
 ms.assetid: 6c78d629-506c-54aa-e0cc-7fd807cdfffb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Layers Property (Visio)
+# Master.Layers property (Visio)
 
-Returns the  **Layers** collection of an object. Read-only.
+Returns the **Layers** collection of an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Layers`
+_expression_. `Layers`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Layers
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Layers** property to add shapes to layers. It also uses the **Layer** property to get a reference to a particular layer, the **LayerCount** property to determine the number of layers to which a shape is assigned, and the **Name** property to get the name of the current layer.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Layers** property to add shapes to layers. It also uses the **Layer** property to get a reference to a particular layer, the **LayerCount** property to determine the number of layers to which a shape is assigned, and the **Name** property to get the name of the current layer.
 
 
 ```vb

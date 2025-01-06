@@ -3,12 +3,11 @@ title: Application.FileDialog property (Access)
 keywords: vbaac10.chm12592
 f1_keywords:
 - vbaac10.chm12592
-ms.prod: access
 api_name:
 - Access.Application.FileDialog
 ms.assetid: 8589e1de-e6e7-f85c-0138-0690781d5ed5
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -34,6 +33,7 @@ _expression_ A variable that represents an **[Application](Access.Application.md
 
 The **msoFileDialogOpen** and **msoFileDialogSaveAs** constants are not supported in Microsoft Access.
 
+Note that when a file is selected using the File open Dialog, the directory containing the selected file will become the current directory for the process. This means that the directory will be locked until the current diectory is changed, or the process terminates. This will prevent the directory from being deleted, moved, or renamed.
 
 ## Example
 

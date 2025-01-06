@@ -3,20 +3,17 @@ title: AcWindowMode enumeration (Access)
 keywords: vbaac10.chm10030
 f1_keywords:
 - vbaac10.chm10030
-ms.prod: access
 api_name:
 - Access.AcWindowMode
 ms.assetid: 70335c3c-78a1-b3e3-cbda-bd7f7a99abd4
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcWindowMode enumeration (Access)
 
 Specifies the mode in which a form or report is opened.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

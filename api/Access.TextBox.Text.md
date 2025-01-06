@@ -3,18 +3,17 @@ title: TextBox.Text property (Access)
 keywords: vbaac10.chm11106
 f1_keywords:
 - vbaac10.chm11106
-ms.prod: access
 api_name:
 - Access.TextBox.Text
 ms.assetid: bb510c65-6d0d-468a-c5be-f325d86c2c7f
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.Text property (Access)
 
-You can use the **Text** property to set or return the text **Value** contained in a text box. Read/write **String**.
+Use the **Text** property to set or return the text **Value** contained in a text box. Read/write **String**.
 
 
 ## Syntax

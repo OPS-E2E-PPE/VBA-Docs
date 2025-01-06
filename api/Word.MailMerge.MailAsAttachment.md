@@ -3,12 +3,11 @@ title: MailMerge.MailAsAttachment property (Word)
 keywords: vbawd10.chm153092104
 f1_keywords:
 - vbawd10.chm153092104
-ms.prod: word
 api_name:
 - Word.MailMerge.MailAsAttachment
 ms.assetid: ffa6505c-e14f-9315-0bc6-ff84ffb39931
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MailAsAttachment`
+_expression_. `MailAsAttachment`
 
  _expression_ An expression that returns a '[MailMerge](Word.MailMerge.md)' object.
 

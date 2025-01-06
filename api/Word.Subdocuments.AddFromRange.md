@@ -3,25 +3,24 @@ title: Subdocuments.AddFromRange method (Word)
 keywords: vbawd10.chm159907941
 f1_keywords:
 - vbawd10.chm159907941
-ms.prod: word
 api_name:
 - Word.Subdocuments.AddFromRange
 ms.assetid: ca205880-99d4-2cc5-cb45-3fd8fd60cf36
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Subdocuments.AddFromRange method (Word)
 
-Creates one or more subdocuments from the text in the specified range and returns a  **SubDocument** object.
+Creates one or more subdocuments from the text in the specified range and returns a **SubDocument** object.
 
 
 ## Syntax
 
- _expression_. `AddFromRange`( `_Range_` )
+_expression_. `AddFromRange`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Subdocuments](Word.subdocuments.md)' collection.
+_expression_ Required. A variable that represents a '[Subdocuments](Word.subdocuments.md)' collection.
 
 
 ## Parameters

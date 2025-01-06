@@ -3,25 +3,24 @@ title: Global.AutoCorrectEmail property (Word)
 keywords: vbawd10.chm163119217
 f1_keywords:
 - vbawd10.chm163119217
-ms.prod: word
 api_name:
 - Word.Global.AutoCorrectEmail
 ms.assetid: 778d2ab6-09cb-524f-1b31-5abe467ce14c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.AutoCorrectEmail property (Word)
 
-Returns an  **[AutoCorrect](Word.AutoCorrect.md)** object that represents automatic corrections made to email messages.
+Returns an **[AutoCorrect](Word.AutoCorrect.md)** object that represents automatic corrections made to email messages.
 
 
 ## Syntax
 
- _expression_. `AutoCorrectEmail`
+_expression_. `AutoCorrectEmail`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example

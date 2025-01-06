@@ -3,12 +3,11 @@ title: Options.PasteAdjustWordSpacing property (Word)
 keywords: vbawd10.chm162988461
 f1_keywords:
 - vbawd10.chm162988461
-ms.prod: word
 api_name:
 - Word.Options.PasteAdjustWordSpacing
 ms.assetid: 28c20e9a-8ebe-323f-0fa5-63c6310e988e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PasteAdjustWordSpacing`
+_expression_. `PasteAdjustWordSpacing`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example

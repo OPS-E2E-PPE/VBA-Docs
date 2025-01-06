@@ -3,12 +3,11 @@ title: Subdocument.HasFile property (Word)
 keywords: vbawd10.chm159973381
 f1_keywords:
 - vbawd10.chm159973381
-ms.prod: word
 api_name:
 - Word.Subdocument.HasFile
 ms.assetid: dbe85127-35cf-7c5f-5ec5-8f1dd35deda1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasFile`
+_expression_. `HasFile`
 
- _expression_ A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
+_expression_ A variable that represents a '[Subdocument](Word.Subdocument.md)' object.
 
 
 ## Example

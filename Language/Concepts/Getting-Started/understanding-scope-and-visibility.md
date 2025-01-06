@@ -3,10 +3,9 @@ title: Understanding scope and visibility (VBA)
 keywords: vbcn6.chm1076771
 f1_keywords:
 - vbcn6.chm1076771
-ms.prod: office
 ms.assetid: 38f2ffcc-1bb6-3e0b-2ea5-3ca2355c8b92
 ms.date: 01/07/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -23,13 +22,13 @@ A variable or constant defined within a procedure is not visible outside that pr
 
 ```vb
 Sub LocalVariable() 
- Dim strMsg As String 
- strMsg = "This variable can't be used outside this procedure." 
- MsgBox strMsg 
+    Dim strMsg As String 
+    strMsg = "This variable can't be used outside this procedure." 
+    MsgBox strMsg 
 End Sub 
  
 Sub OutsideScope() 
- MsgBox strMsg 
+    MsgBox strMsg 
 End Sub
 ```
 
@@ -45,11 +44,11 @@ In the following example, the string variable `strMsg` is available to any proce
 Private strMsg As String 
  
 Sub InitializePrivateVariable() 
- strMsg = "This variable can't be used outside this module." 
+    strMsg = "This variable can't be used outside this module." 
 End Sub 
  
 Sub UsePrivateVariable() 
- MsgBox strMsg 
+    MsgBox strMsg 
 End Sub
 ```
 
@@ -67,9 +66,9 @@ Public strMsg As String
 
 ```
 
-All procedures are public by default, except for event procedures. When Visual Basic creates an event procedure, the **Private** [keyword](../../Glossary/vbe-glossary.md#keyword) is automatically inserted before the procedure declaration. For all other procedures, you must explicitly declare the procedure with the **Private** keyword if you do not want it to be public.
+All procedures are public by default, except for event procedures. When Visual Basic creates an event procedure, the **Private** [keyword](../../Glossary/vbe-glossary.md#keyword) is automatically inserted before the procedure declaration. For all other procedures, you must explicitly declare the procedure with the **Private** keyword if you don't want it to be public.
 
-You can use public procedures, variables, and constants defined in standard modules or class modules from referencing projects. However, you must first set a reference to the project in which they are defined.
+Use public procedures, variables, and constants defined in standard modules or class modules from referencing projects. However, you must first set a reference to the project in which they are defined.
 
 Public procedures, variables, and constants defined in other than standard or class modules, such as [form modules](../../Glossary/vbe-glossary.md#form-module) or report modules, are not available to referencing projects, because these modules are private to the project in which they reside.
 

@@ -1,11 +1,10 @@
 ---
 title: Style property
-ms.prod: office
 api_name:
 - Office.Style
 ms.assetid: b951714c-360e-47c7-85a4-c3260d898b1d
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -37,8 +36,6 @@ The settings for _fmStyle_ are:
 |:-----|:-----|:-----|
 | _fmStyleDropDownCombo_|0|The **ComboBox** behaves as a drop-down combo box. The user can type a value in the edit region or select a value from the drop-down list (default).|
 | _fmStyleDropDownList_|2|The **ComboBox** behaves as a list box. The user must choose a value from the list.|
-
-<br/>
 
 The settings for  _fmTabStyle_ are:
 

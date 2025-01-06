@@ -3,12 +3,11 @@ title: CheckBox.BottomPadding property (Access)
 keywords: vbaac10.chm10771
 f1_keywords:
 - vbaac10.chm10771
-ms.prod: access
 api_name:
 - Access.CheckBox.BottomPadding
 ms.assetid: 15c760b6-a64f-4ea7-4923-fa0783681a1d
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

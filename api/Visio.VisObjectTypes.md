@@ -1,20 +1,19 @@
 ---
-title: VisObjectTypes Enumeration (Visio)
+title: VisObjectTypes enumeration (Visio)
 keywords: vis_sdr.chm70130
 f1_keywords:
 - vis_sdr.chm70130
-ms.prod: visio
 api_name:
 - Visio.VisObjectTypes
 ms.assetid: 47d8b8f5-e402-7305-69d7-79d55d5c7f9e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisObjectTypes Enumeration (Visio)
+# VisObjectTypes enumeration (Visio)
 
-Specifies codes returned by the  **ObjectType** property.
+Specifies codes returned by the **ObjectType** property.
 
 
 

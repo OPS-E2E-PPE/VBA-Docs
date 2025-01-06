@@ -3,10 +3,9 @@ title: Dir function (Visual Basic for Applications)
 keywords: vblr6.chm1008898
 f1_keywords:
 - vblr6.chm1008898
-ms.prod: office
 ms.assetid: eaf6fe6e-342a-5038-3914-bb5e58fcad5a
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **String** representing the name of a file, directory, or folder that 
 ## Syntax
 
 **Dir** [ (_pathname_, [ _attributes_ ] ) ]
-
-<br/>
 
 The **Dir** function syntax has these parts:
 
@@ -46,9 +43,9 @@ The _attributes_ [argument](../../Glossary/vbe-glossary.md#argument) settings ar
 
 ## Remarks
 
-In Microsoft Windows, **Dir** supports the use of multiple character (**\***) and single character (**?**) wildcards to specify multiple files. On the Macintosh, these characters are treated as valid file name characters and can't be used as wildcards to specify multiple files.
+In Microsoft Windows and macOS, **Dir** supports the use of multiple character (**\***) and single character (**?**) wildcards to specify multiple files.
 
-Because the Macintosh doesn't support the wildcards, use the file type to identify groups of files. You can use the **MacID** function to specify file type instead of using the file names. For example, the following statement returns the name of the first TEXT file in the current folder:
+Because the Macintosh doesn't support the wildcards, use the file type to identify groups of files. Use the **MacID** function to specify file type instead of using the file names. For example, the following statement returns the name of the first TEXT file in the current folder:
 
 ```vb
 Dir("SomePath", MacID("TEXT"))
@@ -57,7 +54,7 @@ Dir("SomePath", MacID("TEXT"))
 To iterate over all files in a folder, specify an empty string:
 
 ```vb
-Dir("")
+Dir()
 ```
 
 If you use the **MacID** function with **Dir** in Microsoft Windows, an error occurs.
@@ -70,10 +67,8 @@ You must specify _pathname_ the first time you call the **Dir** function, or an 
 
 You can change to a new _pathname_ without retrieving all of the file names that match the current _pathname_. However, you can't call the **Dir** function recursively. Calling **Dir** with the **vbDirectory** attribute does not continually return subdirectories.
 
-With Excel for Mac 2016, the initial **Dir** function call will succeed. Subsequent calls to iterate through the specified directory will cause an error, however. This is a known bug unfortunately.
-
 > [!TIP] 
-> Because file names are retrieved in no particular order, you may want to store returned file names in an array, and then sort the array.
+> Because file names are retrieved in case-insensitive order on Windows and case-sensitive order on macOS, you may want to store returned file names in an array, and then sort the array.
 
 ## See also
 

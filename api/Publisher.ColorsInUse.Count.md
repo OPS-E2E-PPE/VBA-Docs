@@ -1,33 +1,31 @@
 ---
-title: ColorsInUse.Count Property (Publisher)
+title: ColorsInUse.Count property (Publisher)
 keywords: vbapb10.chm2949122
 f1_keywords:
 - vbapb10.chm2949122
-ms.prod: publisher
 api_name:
 - Publisher.ColorsInUse.Count
 ms.assetid: 2f1cdf49-665a-63e9-d221-a1abf756b501
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# ColorsInUse.Count Property (Publisher)
+# ColorsInUse.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **ColorsInUse** object.
+_expression_ A variable that represents a **[ColorsInUse](Publisher.ColorsInUse.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +34,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

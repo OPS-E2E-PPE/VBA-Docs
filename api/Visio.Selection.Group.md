@@ -1,27 +1,26 @@
 ---
-title: Selection.Group Method (Visio)
+title: Selection.Group method (Visio)
 keywords: vis_sdr.chm11116345
 f1_keywords:
 - vis_sdr.chm11116345
-ms.prod: visio
 api_name:
 - Visio.Selection.Group
 ms.assetid: 79afc3c4-7350-2196-7a07-3b7c5629568a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Group Method (Visio)
+# Selection.Group method (Visio)
 
 Groups the objects that are selected in a selection, or it converts a shape into a group.
 
 
 ## Syntax
 
- _expression_. `Group`
+_expression_.**Group**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Shape
 
 ## Example
 
-The following example shows how to group  **Shape** objects.
+The following example shows how to group **Shape** objects.
 
 
 ```vb

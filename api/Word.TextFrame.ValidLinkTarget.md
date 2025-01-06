@@ -3,12 +3,11 @@ title: TextFrame.ValidLinkTarget method (Word)
 keywords: vbawd10.chm162665358
 f1_keywords:
 - vbawd10.chm162665358
-ms.prod: word
 api_name:
 - Word.TextFrame.ValidLinkTarget
 ms.assetid: 09e900c9-30d8-0098-6ad1-d8c4fbaeb3cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Determines whether the text frame of one shape can be linked to the text frame o
 
 ## Syntax
 
- _expression_. `ValidLinkTarget`( `_TargetTextFrame_` )
+_expression_. `ValidLinkTarget`( `_TargetTextFrame_` )
 
- _expression_ Required. A variable that represents a '[TextFrame](Word.TextFrame.md)' object.
+_expression_ Required. A variable that represents a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Boolean
 
 ## Remarks
 
-This method returns  **True** if TargetTextFrame is a valid target and returns **False** if TargetTextFrame already contains text, is already linked, or if the shape doesn't support attached text.
+This method returns **True** if TargetTextFrame is a valid target and returns **False** if TargetTextFrame already contains text, is already linked, or if the shape doesn't support attached text.
 
 
 ## Example

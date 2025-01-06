@@ -1,29 +1,29 @@
 ---
-title: Resources.Count Property (Project)
-ms.prod: project-server
+title: Resources.Count property (Project)
+ms.service: project-server
 api_name:
 - Project.Resources.Count
 ms.assetid: 53a50d7d-beea-2bed-c2dd-67b402a27e0c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resources.Count Property (Project)
+# Resources.Count property (Project)
 
-Gets the number of items in the  **Resources** collection. Read-only **Long**.
+Gets the number of items in the **Resources** collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a 'Resources' object.
+_expression_ A variable that represents a 'Resources' object.
 
 
 ## Remarks
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 
 ## See also

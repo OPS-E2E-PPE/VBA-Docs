@@ -1,32 +1,33 @@
 ---
-title: Selection.Copy Method (PowerPoint)
+title: Selection.Copy method (PowerPoint)
 keywords: vbapp10.chm508004
 f1_keywords:
 - vbapp10.chm508004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Selection.Copy
 ms.assetid: 954106da-a2a9-0c55-114a-5a79f578e0c4
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 08/02/2022
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Copy Method (PowerPoint)
+# Selection.Copy method (PowerPoint)
 
 Copies the specified object to the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Copy`
+_expression_.**Copy**
 
- _expression_ A variable that represents a [Selection](./PowerPoint.Selection.md) object.
+_expression_ A variable that represents a [Selection](PowerPoint.Selection.md) object.
 
 
 ## Remarks
 
-Use the  **Paste** method to paste the contents of the Clipboard.
+Use the **Paste** method to paste the contents of the Clipboard.
+
+If the selected content is not fully downloaded, this method fails and an error occurs. For more information about the Partial Documents, see [Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md).
 
 
 ## Example
@@ -45,5 +46,7 @@ Windows(2).View.Paste
 
 
 [Selection Object](PowerPoint.Selection.md)
+
+[Work with Partial Documents](~/powerpoint/How-to/work-with-partial-documents.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

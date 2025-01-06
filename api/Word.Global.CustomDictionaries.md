@@ -3,32 +3,31 @@ title: Global.CustomDictionaries property (Word)
 keywords: vbawd10.chm163119199
 f1_keywords:
 - vbawd10.chm163119199
-ms.prod: word
 api_name:
 - Word.Global.CustomDictionaries
 ms.assetid: e0027537-b68d-d342-930e-9e581e112882
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.CustomDictionaries property (Word)
 
-Returns a  **[Dictionaries](Word.dictionaries.md)** object that represents the collection of active custom dictionaries. Read-only.
+Returns a **[Dictionaries](Word.dictionaries.md)** object that represents the collection of active custom dictionaries. Read-only.
 
 
 ## Syntax
 
- _expression_. `CustomDictionaries`
+_expression_. `CustomDictionaries`
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks
 
-Active custom dictionaries are marked with a check in the  **Custom Dictionaries** dialog box.
+Active custom dictionaries are marked with a check in the **Custom Dictionaries** dialog box.
 
- For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+ For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

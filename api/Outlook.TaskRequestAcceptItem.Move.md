@@ -1,18 +1,17 @@
 ---
-title: TaskRequestAcceptItem.Move Method (Outlook)
+title: TaskRequestAcceptItem.Move method (Outlook)
 keywords: vbaol11.chm1804
 f1_keywords:
 - vbaol11.chm1804
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestAcceptItem.Move
 ms.assetid: 638c934f-86c3-2a22-4998-7ebd1b0a3d43
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.Move Method (Outlook)
+# TaskRequestAcceptItem.Move method (Outlook)
 
 Moves a Microsoft Outlook item to a new folder.
 
@@ -21,7 +20,7 @@ Moves a Microsoft Outlook item to a new folder.
 
 _expression_. `Move`( `_DestFldr_` )
 
-_expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.TaskRequestAcceptItem.md) object.
+_expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 
 
 ## Parameters
@@ -30,11 +29,11 @@ _expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.Task
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _DestFldr_|Required| **[Folder](Outlook.Folder.md)**|An expression that returns a  **Folder** object. The destination folder.|
+| _DestFldr_|Required| **[Folder](Outlook.Folder.md)**|An expression that returns a **Folder** object. The destination folder.|
 
 ## Return value
 
-An  **Object** value that represents the item which has been moved to the designated folder.
+An **Object** value that represents the item which has been moved to the designated folder.
 
 
 ## See also

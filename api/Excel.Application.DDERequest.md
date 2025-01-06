@@ -3,12 +3,11 @@ title: Application.DDERequest method (Excel)
 keywords: vbaxl10.chm183093
 f1_keywords:
 - vbaxl10.chm183093
-ms.prod: excel
 api_name:
 - Excel.Application.DDERequest
 ms.assetid: 822ef77e-5f11-aced-f770-05175ce128c7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/04/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,18 +18,16 @@ Requests information from the specified application. This method always returns 
 
 ## Syntax
 
-_expression_. `DDERequest`( `_Channel_` , `_Item_` )
+_expression_.**DDERequest** (_Channel_, _Item_)
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Channel_|Required| **Long**|The channel number returned by the  **[DDEInitiate](Excel.Application.DDEInitiate.md)** method.|
+| _Channel_|Required| **Long**|The channel number returned by the **[DDEInitiate](Excel.Application.DDEInitiate.md)** method.|
 | _Item_|Required| **String**|The item to be requested.|
 
 ## Return value
@@ -40,8 +37,7 @@ Variant
 
 ## Example
 
-This example opens a channel to the System topic in Word and then uses the Topics item to return a list of all open documents. The list is returned in column A on Sheet1.
-
+This example opens a channel to the System topic in Word, and then uses the Topics item to return a list of all open documents. The list is returned in column A on Sheet1.
 
 ```vb
 channelNumber = Application.DDEInitiate( _ 
@@ -55,9 +51,6 @@ Application.DDETerminate channelNumber
 ```
 
 
-## See also
 
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

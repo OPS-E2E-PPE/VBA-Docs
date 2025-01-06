@@ -3,12 +3,11 @@ title: Dictionary object
 keywords: vblr6.chm2181922
 f1_keywords:
 - vblr6.chm2181922
-ms.prod: office
 api_name:
 - Office.Dictionary
 ms.assetid: 718dbcd4-63bc-3a75-fa55-7d1e8c65e8b9
-ms.date: 11/12/2018
-localization_priority: Priority
+ms.date: 04/02/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ The following code illustrates how to create a **Dictionary** object.
 
 ```vb
 Dim d                   'Create a variable
-Set d = CreateObject(Scripting.Dictionary)
+Set d = CreateObject("Scripting.Dictionary")
 d.Add "a", "Athens"     'Add some keys and items
 d.Add "b", "Belgrade"
 d.Add "c", "Cairo"
@@ -43,7 +42,7 @@ d.Add "c", "Cairo"
 |[Exists](exists-method.md)|Returns a Boolean value that indicates whether a specified key exists in the **Dictionary** object. |
 |[Items](items-method.md)|Returns an array of all the items in a **Dictionary** object. |
 |[Keys](keys-method.md)|Returns an array of all the keys in a **Dictionary** object. |
-|[Remove](remove-method-filesystemobject-object.md)|Removes one specified key/item pair from the **Dictionary** object. |
+|[Remove](remove-method-dictionary-object.md)|Removes one specified key/item pair from the **Dictionary** object. |
 |[RemoveAll](removeall-method.md)|Removes all the key/item pairs in the **Dictionary** object. |
 
 
@@ -52,14 +51,13 @@ d.Add "c", "Cairo"
 |Property|Description|
 |:-------|:----------|
 |[CompareMode](comparemode-property.md)|Sets or returns the comparison mode for comparing keys in a **Dictionary** object. |
-|[Count](count-property-filesystemobject-object.md)|Returns the number of key/item pairs in a **Dictionary** object. |
-|[Item](item-property-filesystemobject-object.md)|Sets or returns the value of an item in a **Dictionary** object. |
+|[Count](count-property-dictionary-object.md)|Returns the number of key/item pairs in a **Dictionary** object. |
+|[Item](item-property-dictionary-object.md)|Sets or returns the value of an item in a **Dictionary** object. |
 |[Key](key-property.md)|Sets a new key value for an existing key value in a **Dictionary** object. |
 
 ## See also
 
-
-- [Dictionary object (Windows Scripting previous version)](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x4k5wbx4(v%3dvs.84))
+- [Dictionary object (Windows Scripting previous version)](/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x4k5wbx4(v%3dvs.84))
 - [Objects (Visual Basic for Applications)](../objects-visual-basic-for-applications.md)
 - [Object library reference for Office (members, properties, methods)](../../../api/overview/library-reference/reference-object-library-reference-for-office.md)
 

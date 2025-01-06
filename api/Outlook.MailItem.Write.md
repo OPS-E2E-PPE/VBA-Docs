@@ -1,24 +1,23 @@
 ---
-title: MailItem.Write Event (Outlook)
-ms.prod: outlook
+title: MailItem.Write event (Outlook)
 api_name:
 - Outlook.MailItem.Write
 ms.assetid: b4c5fc80-e197-8d82-ebb0-148675ea7cdd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Write Event (Outlook)
+# MailItem.Write event (Outlook)
 
-Occurs when an instance of the parent object is saved, either explicitly (for example, using the  **[Save](Outlook.MailItem.Save.md)** or **[SaveAs](Outlook.MailItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
+Occurs when an instance of the parent object is saved, either explicitly (for example, using the **[Save](Outlook.MailItem.Save.md)** or **[SaveAs](Outlook.MailItem.SaveAs.md)** methods) or implicitly (for example, in response to a prompt when closing the item's inspector).
 
 
 ## Syntax
 
 _expression_. `Write`( `_Cancel_` )
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters
@@ -27,16 +26,16 @@ _expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True** , the save operation is not completed.|
+| _Cancel_|Required| **Boolean**| (Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the save operation is not completed.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the save operation is not completed.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the save operation is not completed.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **Write** event and warns the user that the item is about to be saved and will overwrite any existing item and, depending on the user's response, either allows the operation to continue or stops it. If this event is canceled, Microsoft Outlook displays an error message. Therefore, you need to capture this event in your code. One way to do this is shown below. The sample code must be placed in a class module such as `ThisOutlookSession`, and the  `Initialize_Handler()` subroutine must be called before the event procedure can be called by Outlook.
+This Visual Basic for Applications (VBA) example uses the **Write** event and warns the user that the item is about to be saved and will overwrite any existing item and, depending on the user's response, either allows the operation to continue or stops it. If this event is canceled, Microsoft Outlook displays an error message. Therefore, you need to capture this event in your code. One way to do this is shown below. The sample code must be placed in a class module such as `ThisOutlookSession`, and the `Initialize_Handler()` subroutine must be called before the event procedure can be called by Outlook.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: Customize dialog box
 keywords: vbui6.chm1077001
 f1_keywords:
 - vbui6.chm1077001
-ms.prod: office
 ms.assetid: 6192e84b-d993-89a4-a452-096435ec218b
 ms.date: 11/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -46,8 +45,6 @@ The following table describes the tab options.
 |**Commands**|Lists the controls available for the category that you select in the **Categories** list. You can drag the command to the toolbar where you want the command to reside. To add the command to a menu, drag it over the menu's title and then into the location in the menu that appears.|
 |**Description**|Displays a QuickTip for the currently selected control.|
 |**Modify Selection**|Allows you to change the selected command. See the following table for a list of commands.|
-
-<br/>
 
 The following table lists the commands available under **Modify Selection**.
 

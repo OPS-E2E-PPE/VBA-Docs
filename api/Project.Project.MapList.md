@@ -1,27 +1,27 @@
 ---
-title: Project.MapList Property (Project)
+title: Project.MapList property (Project)
 keywords: vbapj.chm132404
 f1_keywords:
 - vbapj.chm132404
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Project.MapList
 ms.assetid: b124f86e-fec6-ab92-93ff-5db4eff16892
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.MapList Property (Project)
+# Project.MapList property (Project)
 
-Gets a  **[List](Project.List.md)** object representing the list of data maps in the project. Read-only **List**.
+Gets a **[List](Project.List.md)** object representing the list of data maps in the project. Read-only **List**.
 
 
 ## Syntax
 
- _expression_. `MapList`
+_expression_. `MapList`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

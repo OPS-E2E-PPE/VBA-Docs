@@ -1,22 +1,22 @@
 ---
-title: GroupCriterion2.FontBold Property (Project)
-ms.prod: project-server
+title: GroupCriterion2.FontBold property (Project)
+ms.service: project-server
 api_name:
 - Project.GroupCriterion2.FontBold
 ms.assetid: af463796-40c0-6a4c-8a8d-251551676b1d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# GroupCriterion2.FontBold Property (Project)
+# GroupCriterion2.FontBold property (Project)
 
  **True** if the font for a field used as a criterion in a group definition is bold; otherwise, **False**. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_.**FontBold**
+_expression_.**FontBold**
 
  _expression_ An expression that returns a [GroupCriterion2](./Project.GroupCriterion2.md) object.
 

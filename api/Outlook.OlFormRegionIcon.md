@@ -1,18 +1,17 @@
 ---
-title: OlFormRegionIcon Enumeration (Outlook)
+title: OlFormRegionIcon enumeration (Outlook)
 keywords: vbaol11.chm3306
 f1_keywords:
 - vbaol11.chm3306
-ms.prod: outlook
 api_name:
 - Outlook.OlFormRegionIcon
 ms.assetid: 22a9e2aa-e264-8392-b1ad-a2ab995b6440
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormRegionIcon Enumeration (Outlook)
+# OlFormRegionIcon enumeration (Outlook)
 
 Types of icons that Outlook can display for an item that uses a specified replacement form region.
 

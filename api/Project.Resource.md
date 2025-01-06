@@ -1,28 +1,24 @@
 ---
-title: Resource Object (Project)
-ms.prod: project-server
+title: Resource object (Project)
+ms.service: project-server
 api_name:
 - Project.Resource
 ms.assetid: eb83ed2f-2415-3f5d-3856-f4451a73a128
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource Object (Project)
+# Resource object (Project)
 
-
-
-Represents a resource. The  **Resource** object is a member of the **[Resources](Project.resources(object).md)** collection.
+Represents a resource. The **Resource** object is a member of the **[Resources](Project.resources(object).md)** collection.
  **Using the Resource Object**
-Use  **Resources** ( _Index_ ), where _Index_ is the resource index number or resource name, to return a single **Resource** object. The following example lists the names of all resources in the active project.
+Use **Resources** (_index_), where _index_ is the resource index number or resource name, to return a single **Resource** object. The following example lists the names of all resources in the active project.
  **Using the Resources Collection**
-Use the  **[Resources](./Project.Project.Resources.md)** property to return a **Resources** collection. The following example generates the same list as the previous example, but does so by setting an object reference to `ActiveProject.Resources`and then by using  `R` where `ActiveProject.Resources` is used.
-Use the  **[Add](./Project.Resources.Add.md)** method to add a **Resource** object to the **Resources** collection. The following example adds a new resource named Matilda to the active project.
+Use the **[Resources](./Project.Project.Resources.md)** property to return a **Resources** collection. The following example generates the same list as the previous example, but does so by setting an object reference to `ActiveProject.Resources`and then by using `R` where `ActiveProject.Resources` is used.
+Use the **[Add](./Project.Resources.Add.md)** method to add a **Resource** object to the **Resources** collection. The following example adds a new resource named Matilda to the active project.
 
 ## Methods
-
-
 
 |Name|
 |:-----|
@@ -35,8 +31,6 @@ Use the  **[Add](./Project.Resources.Add.md)** method to add a **Resource** obje
 |[TimeScaleData](./Project.Resource.TimeScaleData.md)|
 
 ## Properties
-
-
 
 |Name|
 |:-----|

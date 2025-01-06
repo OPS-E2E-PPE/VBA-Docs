@@ -3,10 +3,9 @@ title: Object required (Error 424)
 keywords: vblr6.chm1000424
 f1_keywords:
 - vblr6.chm1000424
-ms.prod: office
 ms.assetid: 282292d7-d147-b71e-4d1e-149af7da8f7e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ References to [properties](../../Glossary/vbe-glossary.md#property) and [methods
     
 - You supplied a valid object qualifier, but some other portion of the call contained an error. An incorrect path as an [argument](../../Glossary/vbe-glossary.md#argument) to a [host application's](../../Glossary/vbe-glossary.md#host-application) **File Open** command could cause the error. Check arguments.
     
-- You didn't use the **Set** statement in assigning an object reference. If you assign the return value of a **CreateObject** call to a **Variant** variable, an error doesn't necessarily occur if the **Set** statement is omitted. In the following code example, an implicit instance of Microsoft Excel is created, and its default property (the string "Microsoft Excel") is returned and assigned to the **Variant** `RetVal`. A subsequent attempt to use  `RetVal` as an object reference causes this error:
+- You didn't use the **Set** statement in assigning an object reference. If you assign the return value of a **CreateObject** call to a **Variant** variable, an error doesn't necessarily occur if the **Set** statement is omitted. In the following code example, an implicit instance of Microsoft Excel is created, and its default property (the string "Microsoft Excel") is returned and assigned to the **Variant** `RetVal`. A subsequent attempt to use `RetVal` as an object reference causes this error:
     
   ```vb
     Dim RetVal ' Implicitly a Variant. 

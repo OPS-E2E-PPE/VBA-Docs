@@ -1,27 +1,26 @@
 ---
-title: SlideRange.DisplayMasterShapes Property (PowerPoint)
+title: SlideRange.DisplayMasterShapes property (PowerPoint)
 keywords: vbapp10.chm532020
 f1_keywords:
 - vbapp10.chm532020
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.DisplayMasterShapes
 ms.assetid: 1c30ec1d-4865-5fcd-12c5-70f3bfeffe7c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.DisplayMasterShapes Property (PowerPoint)
+# SlideRange.DisplayMasterShapes property (PowerPoint)
 
 Determines whether the specified range of slides displays the background objects on the slide master. Read/write.
 
 
 ## Syntax
 
- _expression_. `DisplayMasterShapes`
+_expression_. `DisplayMasterShapes`
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **DisplayMasterShapes** property can be one of these **MsoTriState** constants.
+The value of the **DisplayMasterShapes** property can be one of these **MsoTriState** constants.
 
 
 

@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeAutoLetterWizard property (Word)
 keywords: vbawd10.chm165347632
 f1_keywords:
 - vbawd10.chm165347632
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeAutoLetterWizard
 ms.assetid: 3a11e89f-7f02-e20c-4dcb-0bcf2724c043
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeAutoLetterWizard`
+_expression_. `AutoFormatAsYouTypeAutoLetterWizard`
 
- _expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example

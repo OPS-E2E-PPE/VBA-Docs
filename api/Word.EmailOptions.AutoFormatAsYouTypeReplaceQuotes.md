@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeReplaceQuotes property (Word)
 keywords: vbawd10.chm165347592
 f1_keywords:
 - vbawd10.chm165347592
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceQuotes
 ms.assetid: 34be4286-4d36-a338-f103-667d7b8b34a0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceQuotes`
+_expression_. `AutoFormatAsYouTypeReplaceQuotes`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example turns on the automatic replacement of straight quotation marks with
 Options.AutoFormatAsYouTypeReplaceQuotes = True
 ```
 
-This example returns the status of the  **Straight quotes with smart quotes** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Straight quotes with smart quotes** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

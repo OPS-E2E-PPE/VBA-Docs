@@ -3,12 +3,11 @@ title: Selection.SetRange method (Word)
 keywords: vbawd10.chm158662756
 f1_keywords:
 - vbawd10.chm158662756
-ms.prod: word
 api_name:
 - Word.Selection.SetRange
 ms.assetid: 232a681e-4205-05ae-f442-9dc1a2df96f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the starting and ending character positions for the selection.
 
 ## Syntax
 
- _expression_. `SetRange`( `_Start_` , `_End_` )
+_expression_. `SetRange`( `_Start_` , `_End_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -37,7 +36,7 @@ Sets the starting and ending character positions for the selection.
 
 Character position values start at the beginning of the story, with the first value being 0 (zero). All characters are counted, including nonprinting characters. Hidden characters are counted even if they're not displayed.
 
-The  **SetRange** method redefines the starting and ending positions of an existing **Selection** object. This method differs from the **Range** method, which is used to create a **Range** object, given a starting and ending position.
+The **SetRange** method redefines the starting and ending positions of an existing **Selection** object. This method differs from the **Range** method, which is used to create a **Range** object, given a starting and ending position.
 
 
 ## Example

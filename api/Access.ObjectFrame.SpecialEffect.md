@@ -3,18 +3,17 @@ title: ObjectFrame.SpecialEffect property (Access)
 keywords: vbaac10.chm11594
 f1_keywords:
 - vbaac10.chm11594
-ms.prod: access
 api_name:
 - Access.ObjectFrame.SpecialEffect
 ms.assetid: 40117a03-0640-5b5c-363d-19f1f5b9f2d0
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

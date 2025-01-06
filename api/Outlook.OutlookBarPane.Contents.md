@@ -1,27 +1,26 @@
 ---
-title: OutlookBarPane.Contents Property (Outlook)
+title: OutlookBarPane.Contents property (Outlook)
 keywords: vbaol11.chm363
 f1_keywords:
 - vbaol11.chm363
-ms.prod: outlook
 api_name:
 - Outlook.OutlookBarPane.Contents
 ms.assetid: ec7b8c50-7bf5-50d5-6c0b-32091106350e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OutlookBarPane.Contents Property (Outlook)
+# OutlookBarPane.Contents property (Outlook)
 
-Returns the  **[OutlookBarStorage](Outlook.OutlookBarStorage.md)** object for the specified Outlook Bar pane. Read-only.
+Returns the **[OutlookBarStorage](Outlook.OutlookBarStorage.md)** object for the specified Outlook Bar pane. Read-only.
 
 
 ## Syntax
 
 _expression_. `Contents`
 
-_expression_ A variable that represents an [OutlookBarPane](./Outlook.OutlookBarPane.md) object.
+_expression_ A variable that represents an [OutlookBarPane](Outlook.OutlookBarPane.md) object.
 
 
 ## Example

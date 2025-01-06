@@ -1,29 +1,29 @@
 ---
-title: Task.DeliverableType Property (Project)
-ms.prod: project-server
+title: Task.DeliverableType property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.DeliverableType
 ms.assetid: 4170340d-ea80-54ab-b65a-08ee062ad41b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.DeliverableType Property (Project)
+# Task.DeliverableType property (Project)
 
-Gets or sets the type of deliverable for the task. Read/write  **Integer**.
+Gets or sets the type of deliverable for the task. Read/write **Integer**.
 
 
 ## Syntax
 
- _expression_. `DeliverableType`
+_expression_. `DeliverableType`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The  **DeliverableType** property can have the following values:
+The **DeliverableType** property can have the following values:
 
 
 

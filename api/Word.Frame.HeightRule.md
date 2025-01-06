@@ -3,25 +3,24 @@ title: Frame.HeightRule property (Word)
 keywords: vbawd10.chm153747457
 f1_keywords:
 - vbawd10.chm153747457
-ms.prod: word
 api_name:
 - Word.Frame.HeightRule
 ms.assetid: f7b96439-6e08-ee9c-3c77-739666756c50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frame.HeightRule property (Word)
 
-Returns or sets a  **WdFrameSizeRule** that represents the rule for determining the height of the specified frame. Read/write.
+Returns or sets a **WdFrameSizeRule** that represents the rule for determining the height of the specified frame. Read/write.
 
 
 ## Syntax
 
- _expression_. `HeightRule`
+_expression_. `HeightRule`
 
- _expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
+_expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
 
 
 ## Example

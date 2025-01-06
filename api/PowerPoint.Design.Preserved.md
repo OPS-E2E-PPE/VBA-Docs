@@ -1,27 +1,26 @@
 ---
-title: Design.Preserved Property (PowerPoint)
+title: Design.Preserved property (PowerPoint)
 keywords: vbapp10.chm644009
 f1_keywords:
 - vbapp10.chm644009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Design.Preserved
 ms.assetid: c7620e5a-49f5-49bc-307b-230ead112cf6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Design.Preserved Property (PowerPoint)
+# Design.Preserved property (PowerPoint)
 
 Represents whether a design master is preserved from changes. Read/write.
 
 
 ## Syntax
 
- _expression_. `Preserved`
+_expression_. `Preserved`
 
-_expression_ A variable that represents a [Design](./PowerPoint.Design.md) object.
+_expression_ A variable that represents a [Design](PowerPoint.Design.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Preserved** property can be one of these **MsoTriState** constants.
+The value of the **Preserved** property can be one of these **MsoTriState** constants.
 
 
 

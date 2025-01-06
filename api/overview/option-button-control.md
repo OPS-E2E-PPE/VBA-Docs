@@ -3,10 +3,10 @@ title: Option Button Control
 keywords: vbaac10.chm5186558
 f1_keywords:
 - vbaac10.chm5186558
-ms.prod: access
+ms.service: access
 ms.assetid: b57e3a3f-450c-65a0-c076-96d9e047c22d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,7 +18,7 @@ An option button on a form or report is a stand-alone control used to display a 
 
 ## Remarks
 
-When you select or clear an option button that's bound to a Yes/No field, Microsoft Access displays the value in the underlying table according to the field's  **Format** property (Yes/No, **True** / **False**, or On/Off).
+When you select or clear an option button that's bound to a Yes/No field, Microsoft Access displays the value in the underlying table according to the field's **Format** property (Yes/No, **True** / **False**, or On/Off).
 
 You can also use option buttons in an option group to display values to choose from.
 

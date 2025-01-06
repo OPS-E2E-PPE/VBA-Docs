@@ -1,27 +1,26 @@
 ---
-title: ColorFormat.SchemeColor Property (PowerPoint)
+title: ColorFormat.SchemeColor property (PowerPoint)
 keywords: vbapp10.chm506004
 f1_keywords:
 - vbapp10.chm506004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ColorFormat.SchemeColor
 ms.assetid: 4c62e7a7-ce53-c93e-9ec5-b299a18f5bf7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ColorFormat.SchemeColor Property (PowerPoint)
+# ColorFormat.SchemeColor property (PowerPoint)
 
-Returns or sets the color in the applied color scheme that's associated with the specified object. Read/write.
+Returns or sets the color in the applied legacy color scheme that's associated with the specified object. Provided for backwards compatibility. Use the [ObjectThemeColor] instead for Office 2007 and later. Read/write.
 
 
 ## Syntax
 
- _expression_. `SchemeColor`
+_expression_. `SchemeColor`
 
-_expression_ A variable that represents a [ColorFormat](./PowerPoint.ColorFormat.md) object.
+_expression_ A variable that represents a [ColorFormat](PowerPoint.ColorFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ PpColorSchemeIndex
 
 ## Remarks
 
-The value of the  **SchemeColor** property can be one of these **PpColorSchemeIndex** constants.
+The value of the **SchemeColor** property can be one of these **PpColorSchemeIndex** constants.
 
 
 ||

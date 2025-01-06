@@ -1,15 +1,15 @@
 ---
-title: PjFieldType Enumeration (Project)
-ms.prod: project-server
+title: PjFieldType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjFieldType
 ms.assetid: d2290782-78bb-c361-7470-7acd776d0b76
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjFieldType Enumeration (Project)
+# PjFieldType enumeration (Project)
 
 Contains constants that specify the type of entity for a field.
 

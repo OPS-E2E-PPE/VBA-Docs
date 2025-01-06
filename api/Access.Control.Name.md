@@ -3,18 +3,17 @@ title: Control.Name property (Access)
 keywords: vbaac10.chm10173
 f1_keywords:
 - vbaac10.chm10173
-ms.prod: access
 api_name:
 - Access.Control.Name
 ms.assetid: b1e31997-1b99-0476-eda8-afef8975420b
 ms.date: 02/13/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Control.Name property (Access)
 
-You can use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
+Use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
 
 
 ## Syntax

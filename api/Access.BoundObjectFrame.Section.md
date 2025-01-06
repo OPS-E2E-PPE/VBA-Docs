@@ -3,12 +3,11 @@ title: BoundObjectFrame.Section property (Access)
 keywords: vbaac10.chm10950
 f1_keywords:
 - vbaac10.chm10950
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.Section
 ms.assetid: ad2407c1-28dc-5055-383d-8fe35d751c60
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

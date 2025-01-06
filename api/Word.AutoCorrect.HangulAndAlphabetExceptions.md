@@ -3,32 +3,31 @@ title: AutoCorrect.HangulAndAlphabetExceptions property (Word)
 keywords: vbawd10.chm155779085
 f1_keywords:
 - vbawd10.chm155779085
-ms.prod: word
 api_name:
 - Word.AutoCorrect.HangulAndAlphabetExceptions
 ms.assetid: afb525ff-be41-c260-5210-f6ef930b8b04
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AutoCorrect.HangulAndAlphabetExceptions property (Word)
 
-Returns a  **[HangulAndAlphabetExceptions](Word.hangulandalphabetexceptions.md)** collection that represents the list of Hangul and alphabet AutoCorrect exceptions.
+Returns a **[HangulAndAlphabetExceptions](Word.hangulandalphabetexceptions.md)** collection that represents the list of Hangul and alphabet AutoCorrect exceptions.
 
 
 ## Syntax
 
- _expression_. `HangulAndAlphabetExceptions`
+_expression_. `HangulAndAlphabetExceptions`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 
 
 ## Remarks
 
-This list corresponds to the list of Hangul and alphabet AutoCorrect exceptions on the  **Korean** tab in the **AutoCorrect Exceptions** dialog box.
+This list corresponds to the list of Hangul and alphabet AutoCorrect exceptions on the **Korean** tab in the **AutoCorrect Exceptions** dialog box.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

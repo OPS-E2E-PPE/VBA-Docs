@@ -3,18 +3,17 @@ title: ComboBox.FormatConditions property (Access)
 keywords: vbaac10.chm11369
 f1_keywords:
 - vbaac10.chm11369
-ms.prod: access
 api_name:
 - Access.ComboBox.FormatConditions
 ms.assetid: 0eeb11b4-453b-4a00-0a1f-92e3108ab2b9
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.FormatConditions property (Access)
 
-You can use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
+Use the **FormatConditions** property to return a read-only reference to the **[FormatConditions](Access.FormatConditions.md)** collection and its related properties.
 
 
 ## Syntax

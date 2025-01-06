@@ -3,12 +3,11 @@ title: Form.Recordset property (Access)
 keywords: vbaac10.chm13497
 f1_keywords:
 - vbaac10.chm13497
-ms.prod: access
 api_name:
 - Access.Form.Recordset
 ms.assetid: baf6c8c4-b4ac-8618-ecbf-4444ae5e88d4
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -32,8 +31,8 @@ The read/write behavior of the **Recordset** property is determined by the type 
 
 |Recordset type|Based on SQL data|Based on data stored by the Access database engine|
 |:-----|:-----|:-----|
-|**ADO**|Read/Write|Read/Write|
-|**DAO**|N/A|Read/Write|
+|**ADO**|Read/write|Read/write|
+|**DAO**|N/A|Read/write|
 
 The following example opens a form, opens a recordset, and then binds the form to the recordset by setting the form's **Recordset** property to the newly created **Recordset** object.
 
@@ -86,8 +85,6 @@ Sub Print_Field_Names()
 End Sub
 ```
 
-<br/>
-
 The following example uses the **Recordset** property and the **Recordset** object to synchronize a recordset with the form's current record. When a company name is selected from a combo box, the **FindFirst** method is used to locate the record for that company, causing the form to display the found record.
 
 ```vb
@@ -104,8 +101,6 @@ Sub SupplierID_AfterUpdate()
     rst.Close 
 End Sub
 ```
-
-<br/>
 
 The following code helps to determine what type of recordset is returned by the **Recordset** property under different conditions.
 

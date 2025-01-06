@@ -3,25 +3,24 @@ title: System.HorizontalResolution property (Word)
 keywords: vbawd10.chm154468359
 f1_keywords:
 - vbawd10.chm154468359
-ms.prod: word
 api_name:
 - Word.System.HorizontalResolution
 ms.assetid: 1e26725e-4914-b9ac-be2d-05991f4c144f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # System.HorizontalResolution property (Word)
 
-Returns the horizontal display resolution, in pixels. Read-only  **Long**.
+Returns the horizontal display resolution, in pixels. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `HorizontalResolution`
+_expression_. `HorizontalResolution`
 
- _expression_ A variable that represents a '[System](Word.System.md)' object.
+_expression_ A variable that represents a '[System](Word.System.md)' object.
 
 
 ## Example

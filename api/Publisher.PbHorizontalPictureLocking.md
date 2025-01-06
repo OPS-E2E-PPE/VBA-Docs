@@ -1,18 +1,17 @@
 ---
-title: PbHorizontalPictureLocking Enumeration (Publisher)
+title: PbHorizontalPictureLocking enumeration (Publisher)
 keywords: vbapb10.chm65570
 f1_keywords:
 - vbapb10.chm65570
-ms.prod: publisher
 api_name:
 - Publisher.PbHorizontalPictureLocking
 ms.assetid: 28877641-c8e3-b73c-dd57-4a66c25028b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbHorizontalPictureLocking Enumeration (Publisher)
+# PbHorizontalPictureLocking enumeration (Publisher)
 
 Indicates where newly inserted pictures appear in relation to the specified frame.
 

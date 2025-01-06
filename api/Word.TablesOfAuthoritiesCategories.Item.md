@@ -3,25 +3,24 @@ title: TablesOfAuthoritiesCategories.Item method (Word)
 keywords: vbawd10.chm158728192
 f1_keywords:
 - vbawd10.chm158728192
-ms.prod: word
 api_name:
 - Word.TablesOfAuthoritiesCategories.Item
 ms.assetid: 48bd569a-720a-9635-c70e-0c6e5414c165
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TablesOfAuthoritiesCategories.Item method (Word)
 
-Returns an individual  **TablesOfAuthoritiesCategory** object in a collection.
+Returns an individual **TablesOfAuthoritiesCategory** object in a collection.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ Required. A variable that represents a '[TablesOfAuthoritiesCategories](Word.tablesofauthoritiescategories.md)' collection.
+_expression_ Required. A variable that represents a '[TablesOfAuthoritiesCategories](Word.tablesofauthoritiescategories.md)' collection.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns an individual  **TablesOfAuthoritiesCategory** object in a collection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Index_|Required| **Variant**|The individual object to be returned. Can be a  **Long** indicating the ordinal position or a **String** representing the name of the individual object.|
+| _Index_|Required| **Variant**|The individual object to be returned. Can be a **Long** indicating the ordinal position or a **String** representing the name of the individual object.|
 
 ## Return value
 

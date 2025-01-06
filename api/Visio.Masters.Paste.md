@@ -1,27 +1,26 @@
 ---
-title: Masters.Paste Method (Visio)
+title: Masters.Paste method (Visio)
 keywords: vis_sdr.chm10851170
 f1_keywords:
 - vis_sdr.chm10851170
-ms.prod: visio
 api_name:
 - Visio.Masters.Paste
 ms.assetid: fb355d9b-7b5f-469e-3a75-f1b0fed7300b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Masters.Paste Method (Visio)
+# Masters.Paste method (Visio)
 
 Pastes the contents of the Clipboard into an object.
 
 
 ## Syntax
 
- _expression_. `Paste`( `_Flags_` )
+_expression_.**Paste** (_Flags_)
 
- _expression_ A variable that represents a [Masters](./Visio.Masters.md) object.
+_expression_ A variable that represents a **[Masters](Visio.Masters.md)** object.
 
 
 ## Parameters
@@ -41,7 +40,7 @@ Nothing
 
 The **Paste** method works only with **Shape** objects that are group shapes. Use the **Type** property of a shape to determine whether it is a group.
 
-Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes** , and are described in the following table.
+Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes**, and are described in the following table.
 
 
 

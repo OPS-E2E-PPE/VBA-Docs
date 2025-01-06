@@ -3,10 +3,9 @@ title: Like operator (Microsoft Access SQL)
 keywords: jetsql40.chm5277589
 f1_keywords:
 - jetsql40.chm5277589
-ms.prod: access
 ms.assetid: 70d2ecef-90d7-aff9-398e-8703fb7dfc6e
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -29,7 +28,7 @@ The **Like** operator syntax has these parts:
 
 ## Remarks
 
-You can use the **Like** operator to find values in a field that match the pattern you specify. For _pattern_, you can specify the complete value (for example, `Like "Smith"`), or you can use wildcard characters to find a range of values (for example, ), or you can use wildcard characters to find a range of values (for example,  `Like "Sm*")`.
+Use the **Like** operator to find values in a field that match the pattern you specify. For _pattern_, you can specify the complete value (for example, `Like "Smith"`), or you can use [wildcard characters](https://support.microsoft.com/office/use-wildcards-in-queries-and-parameters-in-access-ec057a45-78b1-4d16-8c20-242cde582e0b) to find a range of values (for example, ), or you can use wildcard characters to find a range of values (for example, `Like "Sm*").
 
 In an expression, you can use the **Like** operator to compare a field value to a string expression. For example, if you enter `Like "C*"` in an SQL query, the query returns all field values beginning with the letter C. In a parameter query, you can prompt the user for a pattern to search for.
 
@@ -44,7 +43,7 @@ The following table shows how you can use **Like** to test expressions for diffe
 |**Kind of match**|**Pattern**|**Match (returns True)**|**No match (returns False)**|
 |:-----|:-----|:-----|:-----|
 |Multiple characters|a*a|aa, aBa, aBBBa|aBC|
-||*ab*|abc, AABB, Xab|aZb, bac|
+|_ab_|abc, AABB, Xab|aZb, bac|
 |Special character|a[*]a|a*a|aaa|
 |Multiple characters|ab*|abcdefg, abc|cab, aab|
 |Single character|a?a|aaa, a3a, aBa|aBBBa|
@@ -57,7 +56,6 @@ The following table shows how you can use **Like** to test expressions for diffe
 ## Example
 
 This example returns a list of employees whose names begin with the letters A through D. It calls the EnumFields procedure, which you can find in the SELECT statement example.
-
 
 ```vb
 Sub LikeX() 

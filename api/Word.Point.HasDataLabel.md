@@ -3,12 +3,11 @@ title: Point.HasDataLabel property (Word)
 keywords: vbawd10.chm262144077
 f1_keywords:
 - vbawd10.chm262144077
-ms.prod: word
 api_name:
 - Word.Point.HasDataLabel
 ms.assetid: 0b386560-702f-b9d6-b8a0-b5d67189d979
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `HasDataLabel`
+_expression_.**HasDataLabel**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Example

@@ -3,10 +3,9 @@ title: One or more of the properties in 'item' was bad. Some or all of the prope
 keywords: vblr6.chm60070
 f1_keywords:
 - vblr6.chm60070
-ms.prod: office
 ms.assetid: a201707b-439a-8ba9-4645-f6eee42a273c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,18 +3,17 @@ title: ComboBox.LimitToList property (Access)
 keywords: vbaac10.chm11387
 f1_keywords:
 - vbaac10.chm11387
-ms.prod: access
 api_name:
 - Access.ComboBox.LimitToList
 ms.assetid: 885ed814-6e04-b9f1-0acb-3ded28e00f93
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.LimitToList property (Access)
 
-You can use the **LimitToList** property to limit a combo box's values to the listed items. Read/write **Boolean**.
+Use the **LimitToList** property to limit a combo box's values to the listed items. Read/write **Boolean**.
 
 
 ## Syntax

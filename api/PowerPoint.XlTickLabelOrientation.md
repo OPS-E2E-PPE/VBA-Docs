@@ -1,15 +1,14 @@
 ---
-title: XlTickLabelOrientation Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlTickLabelOrientation enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlTickLabelOrientation
 ms.assetid: 9e009015-6452-e283-e22a-c7f5dea9a0fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlTickLabelOrientation Enumeration (PowerPoint)
+# XlTickLabelOrientation enumeration (PowerPoint)
 
 Specifies the text orientation for tick-mark labels.
 

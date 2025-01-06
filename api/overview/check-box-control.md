@@ -3,10 +3,10 @@ title: Check Box Control
 keywords: vbaac10.chm4060
 f1_keywords:
 - vbaac10.chm4060
-ms.prod: access
+ms.service: access
 ms.assetid: 7d9a33e2-5ba3-89d6-4285-2c4c6d8577c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

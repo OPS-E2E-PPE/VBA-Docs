@@ -1,15 +1,15 @@
 ---
-title: PjExceptionType Enumeration (Project)
-ms.prod: project-server
+title: PjExceptionType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjExceptionType
 ms.assetid: 416764be-d734-e5cd-f269-2f21551a7599
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjExceptionType Enumeration (Project)
+# PjExceptionType enumeration (Project)
 
 Contains constants that specify a type of calendar exception.
 

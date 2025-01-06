@@ -3,18 +3,17 @@ title: OptionGroup.BorderWidth property (Access)
 keywords: vbaac10.chm10844
 f1_keywords:
 - vbaac10.chm10844
-ms.prod: access
 api_name:
 - Access.OptionGroup.BorderWidth
 ms.assetid: 520ed761-de5d-9e70-3cc8-79264f6c0f3f
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

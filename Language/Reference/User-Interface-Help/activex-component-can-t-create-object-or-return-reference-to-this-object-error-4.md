@@ -3,10 +3,9 @@ title: ActiveX component can't create object or return reference to this object 
 keywords: vblr6.chm1016046
 f1_keywords:
 - vblr6.chm1016046
-ms.prod: office
 ms.assetid: b2eb3773-bc6e-4291-8c17-19f4038fe01b
 ms.date: 12/08/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

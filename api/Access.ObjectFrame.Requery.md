@@ -3,12 +3,11 @@ title: ObjectFrame.Requery method (Access)
 keywords: vbaac10.chm11554
 f1_keywords:
 - vbaac10.chm11554
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Requery
 ms.assetid: 470a8412-a3e4-6f06-063c-84c848d73834
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents an **[ObjectFrame](Access.ObjectFrame.md
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

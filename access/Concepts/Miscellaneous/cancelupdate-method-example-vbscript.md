@@ -1,10 +1,9 @@
 ---
 title: CancelUpdate method example (VBScript)
 ROBOTS: INDEX
-ms.prod: access
 ms.assetid: 5442db02-960c-6d11-e0f3-0726c8d529bd
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -12,7 +11,7 @@ localization_priority: Normal
 
 **Applies to:** Access 2013 | Access 2016
 
-To test this example, cut and paste this code between the `<Body>` and `</Body>` tags in a normal HTML document and name it **CancelUpdateVBS.asp**. ASP script will identify your Internet server. You will need to edit the name of the server to reflect your own setup. Simply change the value in the connect string from MyServer to the name of your SQL Server installation.
+To test this example, cut and paste this code between the `<Body>` and `</Body>` tags in a normal HTML document and name it **CancelUpdateVBS.asp**. ASP script will identify your Internet server. You'll need to edit the name of the server to reflect your own setup. Simply change the value in the connect string from MyServer to the name of your SQL Server installation.
 
 ```vb
 <!-- BeginCancelUpdateVBS --><%@Language=VBScript%> 
@@ -26,7 +25,7 @@ To test this example, cut and paste this code between the `<Body>` and `</Body>`
 <HR><OBJECT ID=RDS classid="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" HEIGHT=1 WIDTH=1></OBJECT>
 <SCRIPT Language="VBScript"> 
 'set RDS properties for control just created 
-RDS.Server = "http://<%=Request.ServerVariables("SERVER_NAME")%>"RDS.SQL = "Select * from Employees"
+RDS.Server = "https://<%=Request.ServerVariables("SERVER_NAME")%>"RDS.SQL = "Select * from Employees"
 RDS.Connect = "Provider='sqloledb';Integrated Security='SSPI';Initial Catalog='Northwind';"RDS.Refresh
 </SCRIPT> 
 <TABLE DATASRC=#RDS><THEAD>
@@ -65,8 +64,8 @@ End Sub-->
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

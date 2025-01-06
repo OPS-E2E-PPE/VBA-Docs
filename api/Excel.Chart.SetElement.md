@@ -3,30 +3,27 @@ title: Chart.SetElement method (Excel)
 keywords: vbaxl10.chm149175
 f1_keywords:
 - vbaxl10.chm149175
-ms.prod: excel
 api_name:
 - Excel.Chart.SetElement
 ms.assetid: 0efff437-179b-fe16-118b-6f3cde49c5cf
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/16/2019
+ms.localizationpriority: medium
 ---
 
 
 # Chart.SetElement method (Excel)
 
-Sets chart elements on a chart. Read/write  **MsoChartElementType**.
+Sets chart elements on a chart. Read/write **[MsoChartElementType](office.msochartelementtype.md)**.
 
 
 ## Syntax
 
-_expression_. `SetElement`( `_Element_` )
+_expression_.**SetElement** (_Element_)
 
-_expression_ A variable that represents a [Chart](Excel.Chart-graph-object.md) object.
+_expression_ A variable that represents a **[Chart](Excel.Chart(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,26 +36,23 @@ Nothing
 
 ## Remarks
 
-For charts, the following commands in the  **Layout** tab correspond to the **SetElement** method:
+For charts, the following commands in the **Layout** tab correspond to the **SetElement** method:
 
+- Everything in the **Labels** group.
+    
+- Everything in the **Axes** group.
+    
+- Everything in the **Analysis** group.
+    
+- **PlotArea**, **Chart Wall**, and **Chart Floor** buttons.
+    
 
-- Everything in the  **Labels** group.
-    
-- Everything in the  **Axes** group.
-    
-- Everything in the  **Analysis** group.
-    
--  **PlotArea**,  **Chart Wall**, and  **Chart Floor** buttons.
-    
-
-
- **MsoChartElementType** is an enumeration of constants that refer to all of the above commands.
+**MsoChartElementType** is an enumeration of constants that refer to all of the above commands.
 
 
 ## Example
 
-This example sets chart elements using the various constant values to an active chart.
-
+This example sets chart elements by using the various constant values to an active chart.
 
 ```vb
 ActiveChart.Axes(xlValue).MajorGridlines.Select 
@@ -70,9 +64,5 @@ ActiveChart.Axes(xlValue).MajorGridlines.Select
 ```
 
 
-## See also
-
-
-[Chart Object](Excel.Chart(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,17 +1,16 @@
 ---
-title: Workbook.AfterRemoteChange Event (Excel)
+title: Workbook.AfterRemoteChange event (Excel)
 keywords: vbaxl10.chm504121
 f1_keywords:
 - vbaxl10.chm504121
-ms.prod: excel
 api_name:
 - Excel.Workbook.AfterRemoteChange
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# Workbook.AfterRemoteChange Event (Excel)
+# Workbook.AfterRemoteChange event (Excel)
 
 Occurs after a remote user's edits to the workbook are merged.
 
@@ -19,15 +18,12 @@ Occurs after a remote user's edits to the workbook are merged.
 
 _expression_.**AfterRemoteChange**
 
-_expression_ A variable that represents a Workbook object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
-## Parameters
-
-None
 
 ## Return value
 
-Nothing
+**Nothing**
 
 ## Example
 
@@ -40,12 +36,6 @@ Private Sub Workbook_AfterRemoteChange()
 End Sub
 ```
 
-## See also
 
-[AutoSave](../Library-Reference/Concepts/how-autosave-impacts-addins-and-macros.md)
-
-[coauthoring](../excel/Concepts/about-coauthoring-in-excel.md)
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

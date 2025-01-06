@@ -3,12 +3,11 @@ title: Application object (Access)
 keywords: vbaac10.chm12627
 f1_keywords:
 - vbaac10.chm12627
-ms.prod: access
 api_name:
 - Access.Application
 ms.assetid: aefb0713-97e6-e2c7-e530-8fd2e1316a55
 ms.date: 02/05/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,7 +19,7 @@ The **Application** object refers to the active Microsoft Access application.
 
 The **Application** object contains all Access objects and collections.
 
-You can use the **Application** object to apply methods or property settings to the entire Access application. For example, you can use the **SetOption** method of the **Application** object to set database options from Visual Basic. The following example shows how you can set the **Display Status Bar** check box on the **Current Database** tab of the **Access Options** dialog box.
+Use the **Application** object to apply methods or property settings to the entire Access application. For example, you can use the **SetOption** method of the **Application** object to set database options from Visual Basic. The following example shows how you can set the **Display Status Bar** check box on the **Current Database** tab of the **Access Options** dialog box.
 
 ```vb
 Application.SetOption "Show Status Bar", True
@@ -34,7 +33,7 @@ For example, Microsoft Visual Basic is a COM component. You can open an Access d
 Dim appAccess As New Access.Application
 ```
 
-From applications that do not support the **New** keyword, you can create a new instance of the **Application** class by using the **CreateObject** function:
+From applications that don't support the **New** keyword, you can create a new instance of the **Application** class by using the **CreateObject** function:
 
 ```vb
 Dim appAccess As Object 

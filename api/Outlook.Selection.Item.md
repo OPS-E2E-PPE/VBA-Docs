@@ -1,18 +1,17 @@
 ---
-title: Selection.Item Method (Outlook)
+title: Selection.Item method (Outlook)
 keywords: vbaol11.chm86
 f1_keywords:
 - vbaol11.chm86
-ms.prod: outlook
 api_name:
 - Outlook.Selection.Item
 ms.assetid: 981b107a-14d7-2dd3-6449-2737b2801c3c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Item Method (Outlook)
+# Selection.Item method (Outlook)
 
 Returns a Microsoft Outlook item or conversation header from the selection.
 
@@ -34,19 +33,19 @@ _expression_ A variable that represents a '[Selection](Outlook.Selection.md)' ob
 
 ## Return value
 
-An  **Object** that represents the specified item or conversation header.
+An **Object** that represents the specified item or conversation header.
 
 
 ## Remarks
 
-Do not make any assumptions about the  **Item** method return type; your code should be able to handle multiple item types or a **[ConversationHeader](Outlook.ConversationHeader.md)** object. For example, the **Item** method can return an **[AppointmentItem](Outlook.AppointmentItem.md)** , **[MailItem](Outlook.MailItem.md)** , **[MeetingItem](Outlook.MeetingItem.md)** , or **[TaskItem](Outlook.TaskItem.md)** in the Inbox folder, depending on the value of the **[Selection.Location](Outlook.Selection.Location.md)** property.
+Do not make any assumptions about the **Item** method return type; your code should be able to handle multiple item types or a **[ConversationHeader](Outlook.ConversationHeader.md)** object. For example, the **Item** method can return an **[AppointmentItem](Outlook.AppointmentItem.md)**, **[MailItem](Outlook.MailItem.md)**, **[MeetingItem](Outlook.MeetingItem.md)**, or **[TaskItem](Outlook.TaskItem.md)** in the Inbox folder, depending on the value of the **[Selection.Location](Outlook.Selection.Location.md)** property.
 
-The  **[Selection](Outlook.Selection.md)** collection contains **ConversationHeader** objects only if you specify **olConversationHeaders** in the **[GetSelection](Outlook.Selection.GetSelection.md)** method of the **Selection** object.
+The **[Selection](Outlook.Selection.md)** collection contains **ConversationHeader** objects only if you specify **olConversationHeaders** in the **[GetSelection](Outlook.Selection.GetSelection.md)** method of the **Selection** object.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example displays the sender of each selected item in the active explorer. It uses the  **[Count](Outlook.Selection.Count.md)** property and **[Item](Outlook.Selection.Item.md)** method of the **[Selection](Outlook.Selection.md)** object, returned by the **[Explorer.Selection](Outlook.Explorer.Selection.md)** property, to display the senders of all messages that are selected in the active explorer.
+The following Microsoft Visual Basic for Applications (VBA) example displays the sender of each selected item in the active explorer. It uses the **[Count](Outlook.Selection.Count.md)** property and **[Item](Outlook.Selection.Item.md)** method of the **[Selection](Outlook.Selection.md)** object, returned by the **[Explorer.Selection](Outlook.Explorer.Selection.md)** property, to display the senders of all messages that are selected in the active explorer.
 
 
 ```vb

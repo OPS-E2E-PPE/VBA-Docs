@@ -1,34 +1,33 @@
 ---
-title: AnimationSettings.AdvanceMode Property (PowerPoint)
+title: AnimationSettings.AdvanceMode property (PowerPoint)
 keywords: vbapp10.chm565008
 f1_keywords:
 - vbapp10.chm565008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationSettings.AdvanceMode
 ms.assetid: 794d867f-cd7d-eeb6-0d6c-081e2be72ee5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationSettings.AdvanceMode Property (PowerPoint)
+# AnimationSettings.AdvanceMode property (PowerPoint)
 
 Returns or sets a value that indicates whether the specified shape animation advances only when clicked or automatically after a specified amount of time. Read/write. 
 
 
 ## Syntax
 
- _expression_. `AdvanceMode`
+_expression_. `AdvanceMode`
 
-_expression_ A variable that represents an [AnimationSettings](./PowerPoint.AnimationSettings.md) object.
+_expression_ A variable that represents an [AnimationSettings](PowerPoint.AnimationSettings.md) object.
 
 
 ## Remarks
 
-If your shape doesn't become animated, make sure that the  **[TextLevelEffect](PowerPoint.AnimationSettings.TextLevelEffect.md)** property is set to a value other than **ppAnimateLevelNone** and that the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **True**.
+If your shape doesn't become animated, make sure that the **[TextLevelEffect](PowerPoint.AnimationSettings.TextLevelEffect.md)** property is set to a value other than **ppAnimateLevelNone** and that the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property is set to **True**.
 
-The value of the  **AdvanceMode** property can be one of these **PpAdvanceMode** constants.
+The value of the **AdvanceMode** property can be one of these **PpAdvanceMode** constants.
 
 
 ||

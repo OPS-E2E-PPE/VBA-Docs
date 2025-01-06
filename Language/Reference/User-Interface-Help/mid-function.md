@@ -3,10 +3,9 @@ title: Mid function (Visual Basic for Applications)
 keywords: vblr6.chm1011070
 f1_keywords:
 - vblr6.chm1011070
-ms.prod: office
 ms.assetid: 5d5e7712-459a-d504-dae6-4b52a9a90c6f
-ms.date: 12/13/2018
-localization_priority: Priority
+ms.date: 03/19/2019
+ms.localizationpriority: high
 ---
 
 
@@ -17,8 +16,6 @@ Returns a **Variant** (**String**) containing a specified number of characters f
 ## Syntax
 
 **Mid**(_string_, _start_, [ _length_ ])
-
-<br/>
 
 The **Mid** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -48,8 +45,6 @@ MidWords = Mid(MyString, 5)    ' Returns "Function Demo".
 
 ```
 
-<br/>
-
 The second example use **MidB** and a user-defined function (**MidMbcs**) to also return characters from string. The difference here is that the input string is ANSI and the length is in bytes.
 
 ```vb
@@ -62,9 +57,9 @@ MyString = "AbCdEfG"
 ' Where "A", "C", "E", and "G" are DBCS and "b", "d", 
 ' and "f" are SBCS.
 MyNewString = Mid(MyString, 3, 4)
-' Returns ""CdEf"
+' Returns "CdEf"
 MyNewString = MidB(MyString, 3, 4)
-' Returns ""bC"
+' Returns "bC"
 MyNewString = MidMbcs(MyString, 3, 4)
 ' Returns "bCd"
 

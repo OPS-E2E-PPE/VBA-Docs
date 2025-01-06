@@ -1,27 +1,26 @@
 ---
-title: Shape.ForeignType Property (Visio)
+title: Shape.ForeignType property (Visio)
 keywords: vis_sdr.chm11213555
 f1_keywords:
 - vis_sdr.chm11213555
-ms.prod: visio
 api_name:
 - Visio.Shape.ForeignType
 ms.assetid: a6cda280-bf0c-b8b0-0750-0ec5fbad90e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.ForeignType Property (Visio)
+# Shape.ForeignType property (Visio)
 
-Returns the subtype of a  **Shape** object that represents a foreign object. Read-only.
+Returns the subtype of a **Shape** object that represents a foreign object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ForeignType`
+_expression_. `ForeignType`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,11 +30,11 @@ Integer
 
 ## Remarks
 
-If the  **Type** property of a **Shape** object returns any value other than **visTypeForeignObject** , the **ForeignType** property returns the same value as the **Shape** object's **Type** property. If the **Type** property of a **Shape** object returns **visTypeForeignObject** , the **ForeignType** property returns a combination of the following values.
+If the **Type** property of a **Shape** object returns any value other than **visTypeForeignObject**, the **ForeignType** property returns the same value as the **Shape** object's **Type** property. If the **Type** property of a **Shape** object returns **visTypeForeignObject**, the **ForeignType** property returns a combination of the following values.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visTypeMetafile**|&H0010|
 | **visTypeBitmap**|&H0020|
@@ -44,6 +43,6 @@ If the  **Type** property of a **Shape** object returns any value other than **v
 | **visTypeIsControl**|&H0400|
 | **visTypeIsOLE2**|&H8000|
 
-If the shape represents an OLE 2.0 embedded object, for example, its  **ForeignType** property is &H8200.
+If the shape represents an OLE 2.0 embedded object, for example, its **ForeignType** property is &H8200.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

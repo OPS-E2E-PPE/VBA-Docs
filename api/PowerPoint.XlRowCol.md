@@ -1,15 +1,14 @@
 ---
-title: XlRowCol Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlRowCol enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlRowCol
 ms.assetid: 011d264b-6d5e-d6c6-f02e-8530dfefb186
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlRowCol Enumeration (PowerPoint)
+# XlRowCol enumeration (PowerPoint)
 
 Specifies whether the values that correspond to a particular data series are in rows or columns.
 

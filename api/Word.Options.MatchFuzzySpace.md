@@ -3,12 +3,11 @@ title: Options.MatchFuzzySpace property (Word)
 keywords: vbawd10.chm162988358
 f1_keywords:
 - vbawd10.chm162988358
-ms.prod: word
 api_name:
 - Word.Options.MatchFuzzySpace
 ms.assetid: b32a93ac-620f-ba6a-a6e9-e38d72eda5cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchFuzzySpace`
+_expression_. `MatchFuzzySpace`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

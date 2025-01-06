@@ -3,25 +3,24 @@ title: Paragraph.Format property (Word)
 keywords: vbawd10.chm156697678
 f1_keywords:
 - vbawd10.chm156697678
-ms.prod: word
 api_name:
 - Word.Paragraph.Format
 ms.assetid: d8787b8e-54c7-1adf-75b3-de7081fdff8d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraph.Format property (Word)
 
-Returns or sets a  **[ParagraphFormat](Word.ParagraphFormat.md)** object that represents the formatting of the specified paragraph or paragraphs.
+Returns or sets a **[ParagraphFormat](Word.ParagraphFormat.md)** object that represents the formatting of the specified paragraph or paragraphs.
 
 
 ## Syntax
 
- _expression_. `Format`
+_expression_.**Format**
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Example

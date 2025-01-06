@@ -3,25 +3,24 @@ title: Options.PictureWrapType property (Word)
 keywords: vbawd10.chm162988468
 f1_keywords:
 - vbawd10.chm162988468
-ms.prod: word
 api_name:
 - Word.Options.PictureWrapType
 ms.assetid: bb0cc23d-d58c-c506-c6f9-e4ccf5f2a8ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options.PictureWrapType property (Word)
 
-Sets or returns a  **WdWrapTypeMerged** that indicates how Microsoft Word wraps text around pictures. Read/write.
+Sets or returns a **WdWrapTypeMerged** that indicates how Microsoft Word wraps text around pictures. Read/write.
 
 
 ## Syntax
 
- _expression_. `PictureWrapType`
+_expression_. `PictureWrapType`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks

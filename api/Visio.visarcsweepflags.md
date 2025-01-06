@@ -1,18 +1,17 @@
 ---
-title: VisArcSweepFlags Enumeration (Visio)
+title: VisArcSweepFlags enumeration (Visio)
 keywords: vis_sdr.chm70455
 f1_keywords:
 - vis_sdr.chm70455
-ms.prod: visio
 ms.assetid: c7abc454-d677-76cf-3d71-404ea34cad8d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisArcSweepFlags Enumeration (Visio)
+# VisArcSweepFlags enumeration (Visio)
 
-Sweep flag constants used in conjunction with the  **DrawQuarterArc** method.
+Sweep flag constants used in conjunction with the **DrawQuarterArc** method.
 
 
 

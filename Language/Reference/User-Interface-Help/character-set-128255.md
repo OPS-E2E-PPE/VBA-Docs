@@ -3,10 +3,9 @@ title: Character set (128 - 255)
 keywords: vblr6.chm1009271
 f1_keywords:
 - vblr6.chm1009271
-ms.prod: office
 ms.assetid: fef53aff-a726-fcaf-d109-a5e92d97bb4b
 ms.date: 08/24/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

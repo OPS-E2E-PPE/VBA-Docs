@@ -1,15 +1,15 @@
 ---
-title: PjVerticalAlignment Enumeration (Project)
-ms.prod: project-server
+title: PjVerticalAlignment enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjVerticalAlignment
 ms.assetid: 4c49f78c-7ebd-a158-9574-c06dcfeeafd8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjVerticalAlignment Enumeration (Project)
+# PjVerticalAlignment enumeration (Project)
 
 Contains constants that specify the vertical alignment.
 

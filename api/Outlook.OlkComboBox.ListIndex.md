@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.ListIndex Property (Outlook)
+title: OlkComboBox.ListIndex property (Outlook)
 keywords: vbaol11.chm1000219
 f1_keywords:
 - vbaol11.chm1000219
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.ListIndex
 ms.assetid: 1d016281-6b41-8a6b-075c-33ff1bcde28c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.ListIndex Property (Outlook)
+# OlkComboBox.ListIndex property (Outlook)
 
-Returns or sets a  **Long** that indicates the location of the currently selected element in the list of the combo box control. Read/write.
+Returns or sets a **Long** that indicates the location of the currently selected element in the list of the combo box control. Read/write.
 
 
 ## Syntax
 
-_expression_. `ListIndex`
+_expression_.**ListIndex**
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Remarks

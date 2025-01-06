@@ -1,24 +1,24 @@
 ---
-title: Group.GroupCriteria Property (Project)
-ms.prod: project-server
+title: Group.GroupCriteria property (Project)
+ms.service: project-server
 api_name:
 - Project.Group.GroupCriteria
 ms.assetid: c021a7ca-1e80-4318-7612-3d2bf579b683
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Group.GroupCriteria Property (Project)
+# Group.GroupCriteria property (Project)
 
-Gets or sets a  **[GroupCriteria](Project.GroupCriterion.md)** collection representing the fields in a group definition. Read/write **GroupCriteria**.
+Gets or sets a **[GroupCriteria](Project.GroupCriterion.md)** collection representing the fields in a group definition. Read/write **GroupCriteria**.
 
 
 ## Syntax
 
- _expression_. `GroupCriteria`
+_expression_. `GroupCriteria`
 
- _expression_ A variable that represents a [Group](./Project.Group.md) object.
+_expression_ A variable that represents a [Group](./Project.Group.md) object.
 
 
 ## Example

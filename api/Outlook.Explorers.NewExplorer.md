@@ -1,18 +1,17 @@
 ---
-title: Explorers.NewExplorer Event (Outlook)
+title: Explorers.NewExplorer event (Outlook)
 keywords: vbaol11.chm306
 f1_keywords:
 - vbaol11.chm306
-ms.prod: outlook
 api_name:
 - Outlook.Explorers.NewExplorer
 ms.assetid: 701409f3-ead3-2707-b3de-baa053e8d5c2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorers.NewExplorer Event (Outlook)
+# Explorers.NewExplorer event (Outlook)
 
 Occurs whenever a new explorer window is opened, either as a result of user action or through program code. 
 
@@ -21,7 +20,7 @@ Occurs whenever a new explorer window is opened, either as a result of user acti
 
 _expression_. `NewExplorer`( `_Explorer_` )
 
-_expression_ A variable that represents an [Explorers](./Outlook.Explorers.md) object.
+_expression_ A variable that represents an [Explorers](Outlook.Explorers.md) object.
 
 
 ## Parameters
@@ -36,12 +35,12 @@ _expression_ A variable that represents an [Explorers](./Outlook.Explorers.md) o
 
 This event is not available in Microsoft Visual Basic Scripting Edition (VBScript).
 
-The event occurs after the new  **[Explorer](Outlook.Explorer.md)** object is created but before the explorer window appears.
+The event occurs after the new **[Explorer](Outlook.Explorer.md)** object is created but before the explorer window appears.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example minimizes the currently active explorer window when a new explorer is about to appear. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Microsoft Visual Basic for Applications (VBA) example minimizes the currently active explorer window when a new explorer is about to appear. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

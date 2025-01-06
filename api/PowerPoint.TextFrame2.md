@@ -1,27 +1,26 @@
 ---
-title: TextFrame2 Object (PowerPoint)
+title: TextFrame2 object (PowerPoint)
 keywords: vbapp10.chm678000
 f1_keywords:
 - vbapp10.chm678000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextFrame2
 ms.assetid: ae017598-8330-4673-db1a-53b284acb709
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextFrame2 Object (PowerPoint)
+# TextFrame2 object (PowerPoint)
 
-Represents the text frame in a  **[Shape](PowerPoint.Shape.md)** or **[ShapeRange](PowerPoint.ShapeRange.md)** object. Contains the text in the text frame and exposes properties and methods that control the alignment and anchoring of the text frame.
+Represents the text frame in a **[Shape](PowerPoint.Shape.md)** or **[ShapeRange](PowerPoint.ShapeRange.md)** object. Contains the text in the text frame and exposes properties and methods that control the alignment and anchoring of the text frame.
 
 
 ## Remarks
 
-Use the  **TextFrame2** property of the **Shape** and **ShapeRange** objects to return a **TextFrame2** object.
+Use the **TextFrame2** property of the **Shape** and **ShapeRange** objects to return a **TextFrame2** object.
 
-Use the  **HasTextFrame** property to determine whether a shape or shape range has a text frame, and use the **HasText** property to determine whether the text frame contains text.
+Use the **HasTextFrame** property to determine whether a shape or shape range has a text frame, and use the **HasText** property to determine whether the text frame contains text.
 
 
 ## Example
@@ -55,7 +54,7 @@ Public Sub TextFrame2_Example()
 End Sub
 ```
 
-The following example shows how to use the  **HasTextFrame** property to determine whether a shape has a text frame, and then how to use the **HasText** property to determine whether the text frame contains text.
+The following example shows how to use the **HasTextFrame** property to determine whether a shape has a text frame, and then how to use the **HasText** property to determine whether the text frame contains text.
 
 
 

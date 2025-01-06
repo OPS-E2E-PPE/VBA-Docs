@@ -3,35 +3,34 @@ title: Line.Rectangles property (Word)
 keywords: vbawd10.chm49610760
 f1_keywords:
 - vbawd10.chm49610760
-ms.prod: word
 api_name:
 - Word.Line.Rectangles
 ms.assetid: 2cc7988f-de81-5461-5fd0-a0ce29fdadaa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Line.Rectangles property (Word)
 
-Returns a  **Rectangles** collection that represents a portion of text or graphics in a page in a document.
+Returns a **Rectangles** collection that represents a portion of text or graphics in a page in a document.
 
 
 ## Syntax
 
- _expression_. `Rectangles`
+_expression_. `Rectangles`
 
- _expression_ Required. A variable that represents a '[Line](Word.Line.md)' object.
+_expression_ Required. A variable that represents a '[Line](Word.Line.md)' object.
 
 
 ## Remarks
 
-Use the  **Rectangles** collection and related objects and properties for programmatically defining page layout in a document. Rectangles correspond to portions of text or graphics on a page in a document.
+Use the **Rectangles** collection and related objects and properties for programmatically defining page layout in a document. Rectangles correspond to portions of text or graphics on a page in a document.
 
 
 ## Example
 
-The following example returns the  **Rectangles** collection for the first page in the active document.
+The following example returns the **Rectangles** collection for the first page in the active document.
 
 
 ```vb

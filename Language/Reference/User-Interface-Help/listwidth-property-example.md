@@ -3,10 +3,9 @@ title: ListWidth property example
 keywords: fm20.chm5225141
 f1_keywords:
 - fm20.chm5225141
-ms.prod: office
 ms.assetid: c0247082-8767-be2a-9713-40942d0a0afd
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

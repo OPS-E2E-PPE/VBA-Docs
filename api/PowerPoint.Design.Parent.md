@@ -1,27 +1,26 @@
 ---
-title: Design.Parent Property (PowerPoint)
+title: Design.Parent property (PowerPoint)
 keywords: vbapp10.chm644002
 f1_keywords:
 - vbapp10.chm644002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Design.Parent
 ms.assetid: 36d567d4-9aac-17c3-43ab-af167376d3f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Design.Parent Property (PowerPoint)
+# Design.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
-_expression_ A variable that represents a [Design](./PowerPoint.Design.md) object.
+_expression_ A variable that represents a [Design](PowerPoint.Design.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

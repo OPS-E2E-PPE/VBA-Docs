@@ -1,18 +1,17 @@
 ---
-title: TableView.Reset Method (Outlook)
+title: TableView.Reset method (Outlook)
 keywords: vbaol11.chm2506
 f1_keywords:
 - vbaol11.chm2506
-ms.prod: outlook
 api_name:
 - Outlook.TableView.Reset
 ms.assetid: bb164b86-804c-8b4f-4dd7-505d400e8b08
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableView.Reset Method (Outlook)
+# TableView.Reset method (Outlook)
 
 Resets a built-in Microsoft Outlook view to its original settings.
 
@@ -21,7 +20,7 @@ Resets a built-in Microsoft Outlook view to its original settings.
 
 _expression_. `Reset`
 
-_expression_ A variable that represents a [TableView](./Outlook.TableView.md) object.
+_expression_ A variable that represents a [TableView](Outlook.TableView.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This method works only on built-in Outlook views.
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example resets all built-in views in the user's  **Inbox** default folder to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
+The following Visual Basic for Applications (VBA) example resets all built-in views in the user's **Inbox** default folder to their original settings. The **[Standard](Outlook.View.Standard.md)** property is returned to determine if the view is a built-in Outlook view.
 
 
 ```vb

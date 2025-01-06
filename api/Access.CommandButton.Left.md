@@ -3,18 +3,17 @@ title: CommandButton.Left property (Access)
 keywords: vbaac10.chm10467
 f1_keywords:
 - vbaac10.chm10467
-ms.prod: access
 api_name:
 - Access.CommandButton.Left
 ms.assetid: 8cae225d-1919-0c6c-7980-48294fbe8c7a
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CommandButton.Left property (Access)
 
-You can use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
+Use the **Left** property to specify an object's location on a form or report. Read/write **Integer**.
 
 
 ## Syntax
@@ -32,7 +31,7 @@ For reports, you can set these properties only by using a macro or event procedu
 
 For reports, the **Left** property setting is the amount that the current section is offset from the left of the page. This property is expressed in twips. 
 
-You can use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
+Use this property to specify how far down the page you want a section to print in the section's **Format** event procedure.
 
 
 ## Example

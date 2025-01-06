@@ -1,32 +1,31 @@
 ---
-title: AutoFormatRule.Enabled Property (Outlook)
+title: AutoFormatRule.Enabled property (Outlook)
 keywords: vbaol11.chm2709
 f1_keywords:
 - vbaol11.chm2709
-ms.prod: outlook
 api_name:
 - Outlook.AutoFormatRule.Enabled
 ms.assetid: b3a99916-83b8-68b8-5541-e4db7d0c9bb1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AutoFormatRule.Enabled Property (Outlook)
+# AutoFormatRule.Enabled property (Outlook)
 
-Returns or sets a  **Boolean** value that indicates whether the formatting rule represented by the **[AutoFormatRule](Outlook.AutoFormatRule.md)** object is enabled. Read/write.
+Returns or sets a **Boolean** value that indicates whether the formatting rule represented by the **[AutoFormatRule](Outlook.AutoFormatRule.md)** object is enabled. Read/write.
 
 
 ## Syntax
 
 _expression_.**Enabled**
 
-_expression_ A variable that represents an [AutoFormatRule](./Outlook.AutoFormatRule.md) object.
+_expression_ A variable that represents an [AutoFormatRule](Outlook.AutoFormatRule.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example enumerates the  **[AutoFormatRules](Outlook.TableView.AutoFormatRules.md)** collection for the current **TableView** object, disabling any custom formatting rule contained by the collection.
+The following Visual Basic for Applications (VBA) example enumerates the **[AutoFormatRules](Outlook.TableView.AutoFormatRules.md)** collection for the current **TableView** object, disabling any custom formatting rule contained by the collection.
 
 
 ```vb

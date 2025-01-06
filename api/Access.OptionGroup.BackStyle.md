@@ -3,18 +3,17 @@ title: OptionGroup.BackStyle property (Access)
 keywords: vbaac10.chm10838
 f1_keywords:
 - vbaac10.chm10838
-ms.prod: access
 api_name:
 - Access.OptionGroup.BackStyle
 ms.assetid: f93a9b31-e806-b45b-5f23-9ede92a23ba5
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionGroup.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

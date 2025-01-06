@@ -1,15 +1,14 @@
 ---
-title: PostItem.Read Event (Outlook)
-ms.prod: outlook
+title: PostItem.Read event (Outlook)
 api_name:
 - Outlook.PostItem.Read
 ms.assetid: 404c9b17-c5b6-a802-420a-f8fd279b5f9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.Read Event (Outlook)
+# PostItem.Read event (Outlook)
 
 Occurs when an instance of the parent object is opened for editing by the user. 
 
@@ -18,12 +17,12 @@ Occurs when an instance of the parent object is opened for editing by the user.
 
 _expression_. `Read`
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Remarks
 
-The  **Read** event differs from the **[Open](Outlook.PostItem.Open.md)** event in that **Read** occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an **[Inspector](Outlook.Inspector.md)**.
+The **Read** event differs from the **[Open](Outlook.PostItem.Open.md)** event in that **Read** occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an **[Inspector](Outlook.Inspector.md)**.
 
 
 ## See also

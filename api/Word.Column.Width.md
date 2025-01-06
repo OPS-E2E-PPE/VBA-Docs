@@ -3,12 +3,11 @@ title: Column.Width property (Word)
 keywords: vbawd10.chm156172291
 f1_keywords:
 - vbawd10.chm156172291
-ms.prod: word
 api_name:
 - Word.Column.Width
 ms.assetid: 7501f959-b1e3-45cd-25fd-b00b9919fc0e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_.**Width**
+_expression_.**Width**
 
- _expression_ A variable that represents a '[Column](Word.Column.md)' object.
+_expression_ A variable that represents a '[Column](Word.Column.md)' object.
 
 
 ## See also

@@ -1,27 +1,26 @@
 ---
-title: Application.ShowStatusBar Property (Visio)
+title: Application.ShowStatusBar property (Visio)
 keywords: vis_sdr.chm10014380
 f1_keywords:
 - vis_sdr.chm10014380
-ms.prod: visio
 api_name:
 - Visio.Application.ShowStatusBar
 ms.assetid: a6eade7f-b056-92ef-0a57-acd466f6a99a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ShowStatusBar Property (Visio)
+# Application.ShowStatusBar property (Visio)
 
 Determines whether the status bar is shown. Read/write.
 
 
 ## Syntax
 
- _expression_. `ShowStatusBar`
+_expression_.**ShowStatusBar**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Remarks
 
-The  **ShowStatusBar** property persists each time you run the application. The **ShowToolbar** property is valid for a Microsoft Visio instance only.
+The **ShowStatusBar** property persists each time you run the application. The **ShowToolbar** property is valid for a Microsoft Visio instance only.
 
 
 ## Example

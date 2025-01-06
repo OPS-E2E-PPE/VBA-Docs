@@ -1,11 +1,10 @@
 ---
 title: TextColumn2.TextDirection property (Office)
-ms.prod: office
 api_name:
 - Office.TextColumn2.TextDirection
 ms.assetid: cd1b3ddf-52ec-50ff-8b95-ce3dcb4383b9
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

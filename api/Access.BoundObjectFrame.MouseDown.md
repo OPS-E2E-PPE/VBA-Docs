@@ -3,12 +3,11 @@ title: BoundObjectFrame.MouseDown event (Access)
 keywords: vbaac10.chm14098
 f1_keywords:
 - vbaac10.chm14098
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.MouseDown
 ms.assetid: c1715e90-2f97-4778-6b4c-ceff7f813a9f
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,8 +27,8 @@ _expression_ A variable that represents a **[BoundObjectFrame](Access.BoundObjec
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Button_|Required|**Integer**|The button that was pressed to trigger the event. If you need to test for the _Button_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p><b>acLeftButton</b>  The bit mask for the left mouse button.</p></li><li><p><b>acRightButton</b>  The bit mask for the right mouse button.</p></li><li><p><b>acMiddleButton</b>  The bit mask for the middle mouse button.</p></li></ul>|
-| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys when the button specified by the _Button_ argument was pressed or released. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p><b>acShiftMask</b>  The bit mask for the Shift key.</p></li><li><p><b>acCtrlMask</b>  The bit mask for the Ctrl key.</p></li><li><p><b>acAltMask</b>  The bit mask for the Alt key.</p></li></ul>|  
+| _Button_|Required|**Integer**|The button that was pressed to trigger the event. If you need to test for the _Button_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p>**acLeftButton**  The bit mask for the left mouse button.</p></li><li><p>**acRightButton**  The bit mask for the right mouse button.</p></li><li><p>**acMiddleButton**  The bit mask for the middle mouse button.</p></li></ul>|
+| _Shift_|Required|**Integer**|The state of the Shift, Ctrl, and Alt keys when the button specified by the _Button_ argument was pressed or released. If you need to test for the _Shift_ argument, you can use one of the following intrinsic constants as bit masks:<ul><li><p>**acShiftMask**  The bit mask for the Shift key.</p></li><li><p>**acCtrlMask**  The bit mask for the Ctrl key.</p></li><li><p>**acAltMask**  The bit mask for the Alt key.</p></li></ul>|  
 | _X_|Required|**Single**|The _x_ coordinate for the current location of the mouse pointer, in [twips](../language/glossary/vbe-glossary.md#twip). |
 | _Y_|Required|**Single**|The _y_ coordinate for the current location of the mouse pointer, in twips. |
 
@@ -42,7 +41,7 @@ This event does not apply to a label attached to another control, such as the la
     
 To run a macro or event procedure when these events occur, set the **OnMouseDown** property to the name of the macro or to [Event Procedure].
 
-You can use a **MouseDown** event to specify what happens when a particular mouse button is pressed or released. Unlike the **Click** and **DblClick** events, the **MouseDown** event enables you to distinguish between the left, right, and middle mouse buttons. You can also write code for mouse-keyboard combinations that use the Shift, Ctrl, and Alt keys.
+Use a **MouseDown** event to specify what happens when a particular mouse button is pressed or released. Unlike the **Click** and **DblClick** events, the **MouseDown** event enables you to distinguish between the left, right, and middle mouse buttons. You can also write code for mouse-keyboard combinations that use the Shift, Ctrl, and Alt keys.
 
 To cause a **MouseDown** event for a form to occur, press the mouse button in a blank area or record selector on the form. To cause a **MouseDown** event for a form section to occur, press the mouse button in a blank area of the form section.
 

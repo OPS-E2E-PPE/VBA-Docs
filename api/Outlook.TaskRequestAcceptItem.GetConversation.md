@@ -1,20 +1,19 @@
 ---
-title: TaskRequestAcceptItem.GetConversation Method (Outlook)
+title: TaskRequestAcceptItem.GetConversation method (Outlook)
 keywords: vbaol11.chm3500
 f1_keywords:
 - vbaol11.chm3500
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestAcceptItem.GetConversation
 ms.assetid: bf64cf33-ce6d-a37a-09e4-f2970f669983
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.GetConversation Method (Outlook)
+# TaskRequestAcceptItem.GetConversation method (Outlook)
 
-Obtains a  **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
+Obtains a **[Conversation](Outlook.Conversation.md)** object that represents the conversation to which this item belongs.
 
 
 ## Syntax
@@ -26,7 +25,7 @@ _expression_ A variable that represents a '[TaskRequestAcceptItem](Outlook.TaskR
 
 ## Return value
 
-A  **Conversation** object that represents the conversation to which this item belongs.
+A **Conversation** object that represents the conversation to which this item belongs.
 
 
 ## Remarks
@@ -40,7 +39,7 @@ A  **Conversation** object that represents the conversation to which this item b
     
 - Conversations have been disabled through the Windows registry.
     
-- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the  **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
+- The store does not support Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange earlier than Microsoft Exchange Server 2010). Use the **[IsConversationEnabled](Outlook.Store.IsConversationEnabled.md)** property of the **[Store](Outlook.Store.md)** object to determine whether the store supports Conversation view.
     
 
 

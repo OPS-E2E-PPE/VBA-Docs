@@ -3,34 +3,31 @@ title: Form.CurrentView property (Access)
 keywords: vbaac10.chm13466
 f1_keywords:
 - vbaac10.chm13466
-ms.prod: access
 api_name:
 - Access.Form.CurrentView
 ms.assetid: d173222e-99d1-704e-ee3c-246263725706
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 03/12/2019
+ms.localizationpriority: medium
 ---
 
 
 # Form.CurrentView property (Access)
 
-You can use the  **CurrentView** property to determine how a form is currently displayed. Read/write **Integer**.
+Use the **CurrentView** property to determine how a form is currently displayed. Read/write **Integer**.
 
 
 ## Syntax
 
-_expression_. `CurrentView`
+_expression_.**CurrentView**
 
 _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 
 ## Remarks
 
-The  **CurrentView** property uses the following settings.
+The **CurrentView** property uses the following settings.
 
-
-
-|**Setting**|**Form Displayed In:**|
+|Setting|Form displayed in:|
 |:-----|:-----|
 |0|Design view|
 |1|Form view|
@@ -43,7 +40,6 @@ Use this property to perform different tasks depending on the current view. For 
 ## Example
 
 The following example uses the GetCurrentView subroutine to determine whether a form is in Form or Datasheet view. If it's in Form view, a message to the user is displayed in a text box on the form; if it's in Datasheet view, the same message is displayed in a message box.
-
 
 ```vb
 GetCurrentView Me, "Please contact system administrator." 
@@ -66,9 +62,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Form Object](Access.Form.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

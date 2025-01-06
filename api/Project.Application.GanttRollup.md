@@ -1,27 +1,27 @@
 ---
-title: Application.GanttRollup Method (Project)
+title: Application.GanttRollup method (Project)
 keywords: vbapj.chm2119
 f1_keywords:
 - vbapj.chm2119
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.GanttRollup
 ms.assetid: 8bb5ef38-d0c7-7425-a6ac-e50c7ae979d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.GanttRollup Method (Project)
+# Application.GanttRollup method (Project)
 
 Specifies the rollup behavior of bars on the Gantt Chart.
 
 
 ## Syntax
 
- _expression_. `GanttRollup`( `_AlwaysRollup_`, `_HideWhenSummaryExpanded_` )
+_expression_. `GanttRollup`( `_AlwaysRollup_`, `_HideWhenSummaryExpanded_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

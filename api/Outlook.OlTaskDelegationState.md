@@ -1,18 +1,17 @@
 ---
-title: OlTaskDelegationState Enumeration (Outlook)
+title: OlTaskDelegationState enumeration (Outlook)
 keywords: vbaol11.chm3083
 f1_keywords:
 - vbaol11.chm3083
-ms.prod: outlook
 api_name:
 - Outlook.OlTaskDelegationState
 ms.assetid: c6374297-d9ec-dbd0-f6b3-5b8c95127f33
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlTaskDelegationState Enumeration (Outlook)
+# OlTaskDelegationState enumeration (Outlook)
 
 Indicates the delegation state of a task.
 
@@ -27,6 +26,6 @@ Indicates the delegation state of a task.
 
 ## Remarks
 
-Used by the [TaskItem.DelegationState Property (Outlook)](Outlook.TaskItem.DelegationState.md).
+Used by the [TaskItem.DelegationState property (Outlook)](Outlook.TaskItem.DelegationState.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

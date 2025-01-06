@@ -3,12 +3,11 @@ title: WebPageFont.ProportionalFont property (Office)
 keywords: vbaof11.chm224001
 f1_keywords:
 - vbaof11.chm224001
-ms.prod: office
 api_name:
 - Office.WebPageFont.ProportionalFont
 ms.assetid: fcefea5f-4c9f-c050-9599-fdf4c9269bdd
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

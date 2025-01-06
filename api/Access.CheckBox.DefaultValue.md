@@ -3,12 +3,11 @@ title: CheckBox.DefaultValue property (Access)
 keywords: vbaac10.chm10697
 f1_keywords:
 - vbaac10.chm10697
-ms.prod: access
 api_name:
 - Access.CheckBox.DefaultValue
 ms.assetid: 3bbeaae3-3f94-0841-306d-a73e56cac461
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

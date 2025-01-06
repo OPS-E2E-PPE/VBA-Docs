@@ -3,20 +3,17 @@ title: AcDataObjectType enumeration (Access)
 keywords: vbaac10.chm10012
 f1_keywords:
 - vbaac10.chm10012
-ms.prod: access
 api_name:
 - Access.AcDataObjectType
 ms.assetid: 0e9f8481-ef01-2415-414a-64788c18e6ef
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcDataObjectType enumeration (Access)
 
 Used with the **GoToRecord** method to specify the type of object that contains the record to make current.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

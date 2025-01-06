@@ -3,12 +3,11 @@ title: CommandBarButton.Style property (Office)
 keywords: vbaof11.chm6007
 f1_keywords:
 - vbaof11.chm6007
-ms.prod: office
 api_name:
 - Office.CommandBarButton.Style
 ms.assetid: 5a9d5a5e-8893-14db-71f2-e007e1f9249f
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,23 +1,23 @@
 ---
-title: Application.ApplyReportLayoutTemplate Method (Project)
+title: Application.ApplyReportLayoutTemplate method (Project)
 keywords: vbapj.chm1524
 f1_keywords:
 - vbapj.chm1524
-ms.prod: project-server
+ms.service: project-server
 ms.assetid: cbc233c9-b955-3cd2-b1b8-99e4257bfea0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ApplyReportLayoutTemplate Method (Project)
+# Application.ApplyReportLayoutTemplate method (Project)
 Applies the specified report template to the active report.
 
 ## Syntax
 
- _expression_. `ApplyReportLayoutTemplate` _(TemplateId)_
+_expression_. `ApplyReportLayoutTemplate` _(TemplateId)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -26,7 +26,7 @@ Applies the specified report template to the active report.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _TemplateId_|Optional|**[PjReportLayoutTemplateId](Project.pjreportlayouttemplateid.md)**|Specifies the kind of report; can be one of the following constants:  **pjReportLayoutComparison**,  **pjReportLayoutTitleAndChart**,  **pjReportLayoutTitleAndTable**, or  **pjReportLayoutTitleOnly**.|
+| _TemplateId_|Optional|**[PjReportLayoutTemplateId](Project.pjreportlayouttemplateid.md)**|Specifies the kind of report; can be one of the following constants: **pjReportLayoutComparison**, **pjReportLayoutTitleAndChart**, **pjReportLayoutTitleAndTable**, or **pjReportLayoutTitleOnly**.|
 | _TemplateId_|Optional|PJREPORTLAYOUTTEMPLATEID||
 
 ## Return value
@@ -36,7 +36,7 @@ Applies the specified report template to the active report.
 
 ## Remarks
 
-For an existing report, the  **ApplyReportLayoutTemplate** method adds the specified report elements on top of other shapes in the report. For example, if the built-in Task Cost Overview report is active, the `ApplyReportLayoutTemplate pjReportLayoutTitleAndChart` statement adds a new text box with the report title and a new default chart to the report.
+For an existing report, the **ApplyReportLayoutTemplate** method adds the specified report elements on top of other shapes in the report. For example, if the built-in Task Cost Overview report is active, the `ApplyReportLayoutTemplate pjReportLayoutTitleAndChart` statement adds a new text box with the report title and a new default chart to the report.
 
 
 ## Example

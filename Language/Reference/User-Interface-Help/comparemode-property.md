@@ -3,12 +3,11 @@ title: CompareMode property (Visual Basic for Applications)
 keywords: vblr6.chm2181931
 f1_keywords:
 - vblr6.chm2181931
-ms.prod: office
 api_name:
 - Office.CompareMode
 ms.assetid: 75893886-8bed-4685-b483-18b3d39569da
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,8 +18,6 @@ Sets and returns the comparison mode for comparing string keys in a **[Dictionar
 ## Syntax
 
 _object_.**CompareMode** [ = _compare_ ]
-
-<br/>
 
 The **CompareMode** property has the following parts:
 

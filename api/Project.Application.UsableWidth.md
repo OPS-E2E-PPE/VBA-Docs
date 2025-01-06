@@ -1,32 +1,32 @@
 ---
-title: Application.UsableWidth Property (Project)
+title: Application.UsableWidth property (Project)
 keywords: vbapj.chm132778
 f1_keywords:
 - vbapj.chm132778
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.UsableWidth
 ms.assetid: ccc312da-6794-657d-7c76-e3e8549e2da7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.UsableWidth Property (Project)
+# Application.UsableWidth property (Project)
 
 Gets the maximum width available for a project window in points. Read-only Double.
 
 
 ## Syntax
 
- _expression_. `UsableWidth`
+_expression_.**UsableWidth**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **UsableWidth** property equals the total amount of horizontal space inside the main window minus the space taken up by scroll bars.
+The **UsableWidth** property equals the total amount of horizontal space inside the main window minus the space taken up by scroll bars.
 
 
 ## Example

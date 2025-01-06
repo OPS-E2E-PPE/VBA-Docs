@@ -1,27 +1,26 @@
 ---
-title: AddIns.Application Property (PowerPoint)
+title: AddIns.Application property (PowerPoint)
 keywords: vbapp10.chm520001
 f1_keywords:
 - vbapp10.chm520001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AddIns.Application
 ms.assetid: c7b137d6-3e9b-924b-a8b0-6c1a53155317
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddIns.Application Property (PowerPoint)
+# AddIns.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
-_expression_ A variable that represents an [AddIns](./PowerPoint.AddIns.md) object.
+_expression_ A variable that represents an [AddIns](PowerPoint.AddIns.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Application
 
 ## Example
 
-In this example, a  **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
+In this example, a **[Presentation](PowerPoint.Presentation.md)** object is passed to the procedure. The procedure adds a slide to the presentation and then saves the presentation in the folder where Microsoft PowerPoint is running.
 
 
 ```vb

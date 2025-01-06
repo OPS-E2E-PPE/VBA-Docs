@@ -3,10 +3,9 @@ title: Use the Immediate window (VBA)
 keywords: vbhw6.chm1009054
 f1_keywords:
 - vbhw6.chm1009054
-ms.prod: office
 ms.assetid: 0a63fef5-6c39-df04-87b2-59827a366eda
 ms.date: 12/27/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

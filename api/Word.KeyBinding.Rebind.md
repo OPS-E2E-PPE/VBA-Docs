@@ -3,12 +3,11 @@ title: KeyBinding.Rebind method (Word)
 keywords: vbawd10.chm160956520
 f1_keywords:
 - vbawd10.chm160956520
-ms.prod: word
 api_name:
 - Word.KeyBinding.Rebind
 ms.assetid: edc938ff-5ee5-3134-5808-a861ef37a2da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Changes the command assigned to the specified key binding.
 
 ## Syntax
 
- _expression_. `Rebind`( `_KeyCategory_` , `_Command_` , `_CommandParameter_` )
+_expression_. `Rebind`( `_KeyCategory_` , `_Command_` , `_CommandParameter_` )
 
- _expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Parameters
@@ -32,11 +31,11 @@ Changes the command assigned to the specified key binding.
 |:-----|:-----|:-----|:-----|
 | _KeyCategory_|Required| **WdKeyCategory**|The key category of the specified key binding.|
 | _Command_|Required| **String**|The name of the specified command.|
-| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For information about values for this argument, see the  **[Add](Word.KeyBindings.Add.md)** method.|
+| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For information about values for this argument, see the **[Add](Word.KeyBindings.Add.md)** method.|
 
 ## Example
 
-This example reassigns the CTRL+SHIFT+S key binding to the  **FileSaveAs** command.
+This example reassigns the CTRL+SHIFT+S key binding to the **FileSaveAs** command.
 
 
 ```vb

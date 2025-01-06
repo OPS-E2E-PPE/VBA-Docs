@@ -3,12 +3,11 @@ title: ListFormat.RemoveNumbers method (Word)
 keywords: vbawd10.chm163578041
 f1_keywords:
 - vbawd10.chm163578041
-ms.prod: word
 api_name:
 - Word.ListFormat.RemoveNumbers
 ms.assetid: 80c0e408-683d-4639-733d-843d5fd323e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Removes numbers or bullets from the specified list.
 
 ## Syntax
 
- _expression_. `RemoveNumbers`( `_NumberType_` )
+_expression_. `RemoveNumbers`( `_NumberType_` )
 
- _expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
+_expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Parameters

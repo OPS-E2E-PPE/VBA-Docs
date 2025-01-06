@@ -1,11 +1,10 @@
 ---
 title: WdFramesetNewFrameLocation enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdFramesetNewFrameLocation
 ms.assetid: a03e6aa0-5b58-de2b-706e-de05de683d0b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

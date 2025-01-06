@@ -3,12 +3,11 @@ title: Cells.DistributeWidth method (Word)
 keywords: vbawd10.chm155844815
 f1_keywords:
 - vbawd10.chm155844815
-ms.prod: word
 api_name:
 - Word.Cells.DistributeWidth
 ms.assetid: b617deaf-b84a-eed1-176d-9d38f2d10db8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Adjusts the width of the specified cells so that they are equal.
 
 ## Syntax
 
- _expression_. `DistributeWidth`
+_expression_. `DistributeWidth`
 
- _expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
+_expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
 
 
 ## Example

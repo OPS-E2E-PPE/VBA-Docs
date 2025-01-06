@@ -3,30 +3,29 @@ title: ListLevel.NumberStyle property (Word)
 keywords: vbawd10.chm160235524
 f1_keywords:
 - vbawd10.chm160235524
-ms.prod: word
 api_name:
 - Word.ListLevel.NumberStyle
 ms.assetid: 1118eb25-3b57-3a9b-6323-ba8233636f3b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListLevel.NumberStyle property (Word)
 
-Returns or sets the number style for the  **ListLevel** object. Read/write **WdListNumberStyle**.
+Returns or sets the number style for the **ListLevel** object. Read/write **WdListNumberStyle**.
 
 
 ## Syntax
 
- _expression_. `NumberStyle`
+_expression_. `NumberStyle`
 
- _expression_ Required. A variable that represents a '[ListLevel](Word.ListLevel.md)' object.
+_expression_ Required. A variable that represents a '[ListLevel](Word.ListLevel.md)' object.
 
 
 ## Remarks
 
-Some of the  **WdListNumberStyle** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
+Some of the **WdListNumberStyle** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
 
 
 ## Example

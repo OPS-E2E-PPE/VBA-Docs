@@ -3,16 +3,15 @@ title: The specified region has been searched
 keywords: vblr6.chm1015671
 f1_keywords:
 - vblr6.chm1015671
-ms.prod: office
 ms.assetid: 1fbad072-24ca-7b4c-b3a1-b7fc546e9e90
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # The specified region has been searched
 
-When you click the  **Find Next** and **Replace** buttons in the **Replace** dialog box, the total number of replacements isn't specified. This condition has the following cause and effect:
+When you click the **Find Next** and **Replace** buttons in the **Replace** dialog box, the total number of replacements isn't specified. This condition has the following cause and effect:
 
 
 

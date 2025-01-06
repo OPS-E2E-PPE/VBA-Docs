@@ -3,10 +3,9 @@ title: Function statement (VBA)
 keywords: vblr6.chm1008927
 f1_keywords:
 - vblr6.chm1008927
-ms.prod: office
 ms.assetid: 407a6e70-b3e4-f13a-bda9-59296b288287
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -24,8 +23,6 @@ Declares the name, [arguments](../../Glossary/vbe-glossary.md#argument), and cod
 [ _name_ **=** _expression_ ]<br/>
 **End Function**
 
-<br/>
-
 The **Function** statement syntax has these parts:
 
 |Part|Description|
@@ -40,19 +37,15 @@ The **Function** statement syntax has these parts:
 | _statements_|Optional. Any group of statements to be executed within the **Function** procedure.|
 | _expression_|Optional. Return value of the **Function**.|
 
-<br/>
-
 The _arglist_ argument has the following syntax and parts:
 
 [ **Optional** ] [ **ByVal** | **ByRef** ] [ **ParamArray** ] _varname_ [ ( ) ] [ **As** _type_ ] [ **=** _defaultvalue_ ]
-
-<br/>
 
 |Part|Description|
 |:-----|:-----|
 |**Optional**|Optional. Indicates that an argument is not required. If used, all subsequent arguments in _arglist_ must also be optional and declared by using the **Optional** keyword. **Optional** can't be used for any argument if **ParamArray** is used.|
 |**ByVal**|Optional. Indicates that the argument is passed [by value](../../Glossary/vbe-glossary.md#by-value).|
-|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in Visual Basic.|
+|**ByRef**|Optional. Indicates that the argument is passed [by reference](../../Glossary/vbe-glossary.md#by-reference). **ByRef** is the default in VBA unlike in Visual Basic .NET.|
 |**ParamArray**|Optional. Used only as the last argument in _arglist_ to indicate that the final argument is an **Optional** array of **Variant** elements. The **ParamArray** keyword allows you to provide an arbitrary number of arguments. It may not be used with **ByVal**, **ByRef**, or **Optional**.|
 | _varname_|Required. Name of the variable representing the argument; follows standard variable naming conventions.|
 | _type_|Optional. Data type of the argument passed to the procedure; may be **Byte**, **Boolean**, **Integer**, **Long**, **Currency**, **Single**, **Double**, **Decimal** (not currently supported) **Date**, **String** (variable length only), **Object**, **Variant**, or a specific [object type](../../Glossary/vbe-glossary.md#object-type). If the parameter is not **Optional**, a user-defined type may also be specified.|
@@ -96,7 +89,7 @@ Variables used in **Function** procedures fall into two categories: those that a
 
 Variables that are explicitly declared in a procedure (using **Dim** or the equivalent) are always local to the procedure. Variables that are used but not explicitly declared in a procedure are also local unless they are explicitly declared at some higher level outside the procedure.
 
-A procedure can use a variable that is not explicitly declared in the procedure, but a naming conflict can occur if anything you defined at the [module level](../../Glossary/vbe-glossary.md#module-level) has the same name. If your procedure refers to an undeclared variable that has the same name as another procedure, constant, or variable, it is assumed that your procedure refers to that module-level name. Explicitly declare variables to avoid this kind of conflict. You can use an **[Option Explicit](option-explicit-statement.md)** statement to force explicit declaration of variables.
+A procedure can use a variable that is not explicitly declared in the procedure, but a naming conflict can occur if anything you defined at the [module level](../../Glossary/vbe-glossary.md#module-level) has the same name. If your procedure refers to an undeclared variable that has the same name as another procedure, constant, or variable, it is assumed that your procedure refers to that module-level name. Explicitly declare variables to avoid this kind of conflict. Use an **[Option Explicit](option-explicit-statement.md)** statement to force explicit declaration of variables.
 
 Visual Basic may rearrange arithmetic expressions to increase internal efficiency. Avoid using a **Function** procedure in an arithmetic expression when the function changes the value of variables in the same expression. For more information about arithmetic operators, see [Operators](operator-summary.md).
 
@@ -116,8 +109,6 @@ Function CalculateSquareRoot(NumberArg As Double) As Double
 End Function
 ```
 
-<br/>
-
 Using the **ParamArray** keyword enables a function to accept a variable number of arguments. In the following definition, it is passed by value.
 
 ```vb
@@ -130,8 +121,6 @@ ReturnValue = CalcSum(4, 3, 2, 1)
 ' lower bound for arrays = 1. 
 
 ```
-
-<br/>
 
 **Optional** arguments can have default values and types other than **Variant**.
 

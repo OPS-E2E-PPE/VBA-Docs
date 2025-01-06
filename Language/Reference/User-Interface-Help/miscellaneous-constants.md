@@ -3,18 +3,15 @@ title: Miscellaneous constants
 keywords: vblr6.chm1092146
 f1_keywords:
 - vblr6.chm1092146
-ms.prod: office
 ms.assetid: ef7f52d8-5707-c7db-ca47-e7eaec37276d
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Miscellaneous constants
 
 The following [constants](../../Glossary/vbe-glossary.md#constant) are defined in the Visual Basic for Applications [type library](../../Glossary/vbe-glossary.md#type-library) and can be used anywhere in your code in place of the actual values.
-
-<br/>
 
 |Constant|Equivalent|Description|
 |:-----|:-----|:-----|

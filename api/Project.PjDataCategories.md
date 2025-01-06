@@ -1,15 +1,15 @@
 ---
-title: PjDataCategories Enumeration (Project)
-ms.prod: project-server
+title: PjDataCategories enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjDataCategories
 ms.assetid: 0d1d96b6-80be-028d-781c-47bc43148ea8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjDataCategories Enumeration (Project)
+# PjDataCategories enumeration (Project)
 
 Contains constants that specify the category of data.
 

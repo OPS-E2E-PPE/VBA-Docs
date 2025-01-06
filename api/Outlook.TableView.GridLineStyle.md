@@ -1,32 +1,31 @@
 ---
-title: TableView.GridLineStyle Property (Outlook)
+title: TableView.GridLineStyle property (Outlook)
 keywords: vbaol11.chm2528
 f1_keywords:
 - vbaol11.chm2528
-ms.prod: outlook
 api_name:
 - Outlook.TableView.GridLineStyle
 ms.assetid: b3a95e34-4d22-e208-255d-43fc2456f0e6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TableView.GridLineStyle Property (Outlook)
+# TableView.GridLineStyle property (Outlook)
 
-Returns or sets an  **[OlGridLineStyle](Outlook.OlGridLineStyle.md)** constant that represents the line style used for grid lines in the **[TableView](Outlook.TableView.md)** object. Read/write.
+Returns or sets an **[OlGridLineStyle](Outlook.OlGridLineStyle.md)** constant that represents the line style used for grid lines in the **[TableView](Outlook.TableView.md)** object. Read/write.
 
 
 ## Syntax
 
 _expression_. `GridLineStyle`
 
-_expression_ A variable that represents a [TableView](./Outlook.TableView.md) object.
+_expression_ A variable that represents a [TableView](Outlook.TableView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example sets the  **GridLineStyle** property of the current **TableView** object to display the grid with small dotted lines.
+The following Visual Basic for Applications (VBA) example sets the **GridLineStyle** property of the current **TableView** object to display the grid with small dotted lines.
 
 
 ```vb

@@ -1,11 +1,10 @@
 ---
 title: TextRange2.Parent property (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.Parent
 ms.assetid: 692dc869-1525-ffa5-023d-83cea9cec19e
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

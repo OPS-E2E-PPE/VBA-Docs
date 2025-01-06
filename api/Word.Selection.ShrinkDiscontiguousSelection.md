@@ -3,12 +3,11 @@ title: Selection.ShrinkDiscontiguousSelection method (Word)
 keywords: vbawd10.chm158663675
 f1_keywords:
 - vbawd10.chm158663675
-ms.prod: word
 api_name:
 - Word.Selection.ShrinkDiscontiguousSelection
 ms.assetid: ce703cb4-8a20-b59d-ccf7-c0c93327a9ca
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Cancels the selection of all but the most recently selected text when a selectio
 
 ## Syntax
 
- _expression_. `ShrinkDiscontiguousSelection`
+_expression_. `ShrinkDiscontiguousSelection`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example

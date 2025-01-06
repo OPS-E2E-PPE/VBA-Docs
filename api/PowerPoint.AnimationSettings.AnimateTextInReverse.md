@@ -1,27 +1,26 @@
 ---
-title: AnimationSettings.AnimateTextInReverse Property (PowerPoint)
+title: AnimationSettings.AnimateTextInReverse property (PowerPoint)
 keywords: vbapp10.chm565015
 f1_keywords:
 - vbapp10.chm565015
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AnimationSettings.AnimateTextInReverse
 ms.assetid: cceba8ad-9896-10ef-5c11-7c93d370c82c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationSettings.AnimateTextInReverse Property (PowerPoint)
+# AnimationSettings.AnimateTextInReverse property (PowerPoint)
 
 Determines whether the specified shape is built in reverse order. Applies only to shapes (such as shapes containing lists) that can be built in more than one step. Read/write.
 
 
 ## Syntax
 
- _expression_. `AnimateTextInReverse`
+_expression_. `AnimateTextInReverse`
 
-_expression_ A variable that represents an [AnimationSettings](./PowerPoint.AnimationSettings.md) object.
+_expression_ A variable that represents an [AnimationSettings](PowerPoint.AnimationSettings.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **AnimateTextInReverse Property** property can be one of these **MsoTriState** constants.
+The value of the **AnimateTextInReverse Property** property can be one of these **MsoTriState** constants.
 
 
 
@@ -40,7 +39,7 @@ The value of the  **AnimateTextInReverse Property** property can be one of these
 |**msoFalse**|The specified shape is not built in reverse order.|
 |**msoTrue**| The specified shape is built in reverse order.|
 
-You do not see the effects of setting this property unless the specified shape gets animated. For a shape to be animated, the  **TextLevelEffect** property of the **AnimationSettings** object for the shape must be set to something other than **ppAnimateLevelNone** and the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property must be set to **True**.
+You don't see the effects of setting this property unless the specified shape gets animated. For a shape to be animated, the **TextLevelEffect** property of the **AnimationSettings** object for the shape must be set to something other than **ppAnimateLevelNone** and the **[Animate](PowerPoint.AnimationSettings.Animate.md)** property must be set to **True**.
 
 
 ## Example

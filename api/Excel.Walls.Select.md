@@ -3,12 +3,11 @@ title: Walls.Select method (Excel)
 keywords: vbaxl10.chm614075
 f1_keywords:
 - vbaxl10.chm614075
-ms.prod: excel
 api_name:
 - Excel.Walls.Select
 ms.assetid: 4851d3e4-b119-8c40-47f6-60d21766ffb1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/18/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the object.
 
 ## Syntax
 
-_expression_. `Select`
+_expression_.**Select**
 
-_expression_ A variable that represents a [Walls](./Excel.Walls-graph-property.md) object.
+_expression_ A variable that represents a **[Walls](Excel.Walls(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,6 @@ _expression_ A variable that represents a [Walls](./Excel.Walls-graph-property.m
 Variant
 
 
-## See also
 
-
-[Walls Object](Excel.Walls(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

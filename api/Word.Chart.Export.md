@@ -3,12 +3,11 @@ title: Chart.Export method (Word)
 keywords: vbawd10.chm79364170
 f1_keywords:
 - vbawd10.chm79364170
-ms.prod: word
 api_name:
 - Word.Chart.Export
 ms.assetid: 49660450-ae9f-c59e-8974-b04327a72dc0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Exports the chart in a graphic format.
 
 ## Syntax
 
- _expression_. `Export`( `_FileName_` , `_FilterName_` , `_Interactive_` )
+_expression_.**Export** (_FileName_, _FilterName_, _Interactive_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Parameters
@@ -36,7 +35,7 @@ Exports the chart in a graphic format.
 
 ## Return value
 
-A  **Boolean** value that indicates whether the export was successful.
+A **Boolean** value that indicates whether the export was successful.
 
 
 ## Example

@@ -1,36 +1,36 @@
 ---
-title: Availability Object (Project)
-ms.prod: project-server
+title: Availability object (Project)
+ms.service: project-server
 api_name:
 - Project.Availability
 ms.assetid: 2b832aed-2b58-f020-2a2c-8756ec7ec1a4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Availability Object (Project)
+# Availability object (Project)
 
 
  
 
-Represents a line from the  **Resource Availability** grid for a resource. The **Availability** object is a member of the **[Availabilities](Project.availabilities.md)** collection.
+Represents a line from the **Resource Availability** grid for a resource. The **Availability** object is a member of the **[Availabilities](Project.availabilities.md)** collection.
  
  **Using the Availability Object**
  
-Use  **Availabilities(***Index* **)**, where*Index* is the availability index number, to return a single **Availability** object. The following example returns the availability information from the first line of the **Resource Availability** grid for the specified resource.
+Use **Availabilities(***Index* **)**, where*Index* is the availability index number, to return a single **Availability** object. The following example returns the availability information from the first line of the **Resource Availability** grid for the specified resource.
  
 
 
 
 ```vb
-MsgBox ActiveProject.Resources("Tom").Name &amp; " is available from " &amp; _ 
-    ActiveProject.Resources("Tom").Availabilities(1).AvailableFrom &amp; " to " &amp; _ 
-    ActiveProject.Resources("Tom").Availabilities(1).AvailableTo &amp; "." 
+MsgBox ActiveProject.Resources("Tom").Name & " is available from " & _ 
+    ActiveProject.Resources("Tom").Availabilities(1).AvailableFrom & " to " & _ 
+    ActiveProject.Resources("Tom").Availabilities(1).AvailableTo & "." 
 
 ```
 
-Use the  **[Availabilities](Project.Resource.Availabilities.md)** property to return an **Availabilities** collection. The following example displays the range of dates during which the specified resource is available for work.
+Use the **[Availabilities](Project.Resource.Availabilities.md)** property to return an **Availabilities** collection. The following example displays the range of dates during which the specified resource is available for work.
  
 
 
@@ -39,12 +39,12 @@ Use the  **[Availabilities](Project.Resource.Availabilities.md)** property to re
 Dim Avail As Availability 
  
 For Each Avail In ActiveProject.Resources("Tom").Availabilities 
-    MsgBox "From " &amp; Avail.AvailableFrom &amp; " to " &amp; Avail.AvailableTo 
+    MsgBox "From " & Avail.AvailableFrom & " to " & Avail.AvailableTo 
 Next Avail 
 
 ```
 
-Use the  **[Add](Project.Availabilities.Add.md)** method to add an **Availability** object to the **Availabilities** collection. The following example adds a line to the **Resource Availability** grid showing that the specified resource is available only half-time during the month of April.
+Use the **[Add](Project.Availabilities.Add.md)** method to add an **Availability** object to the **Availabilities** collection. The following example adds a line to the **Resource Availability** grid showing that the specified resource is available only half-time during the month of April.
  
 
 

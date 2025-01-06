@@ -1,32 +1,31 @@
 ---
-title: TaskRequestItem Object (Outlook)
+title: TaskRequestItem object (Outlook)
 keywords: vbaol11.chm3010
 f1_keywords:
 - vbaol11.chm3010
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestItem
 ms.assetid: 2908a28a-634c-e786-aa53-f3e32038b727
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestItem Object (Outlook)
+# TaskRequestItem object (Outlook)
 
 Represents a change to the recipient's Tasks list initiated by another party or as a result of a group tasking.
 
 
 ## Remarks
 
-Unlike other Microsoft Outlook objects, you cannot create this object. When the sender applies the  **[Assign](Outlook.TaskItem.Assign.md)** and **[Send](Outlook.TaskItem.Send(method).md)** methods to a **[TaskItem](Outlook.TaskItem.md)** object to assign (delegate) the associated task to another user, the **TaskRequestItem** object is created when the item is received in the recipient's Inbox.
+Unlike other Microsoft Outlook objects, you cannot create this object. When the sender applies the **[Assign](Outlook.TaskItem.Assign.md)** and **[Send](Outlook.TaskItem.Send(method).md)** methods to a **[TaskItem](Outlook.TaskItem.md)** object to assign (delegate) the associated task to another user, the **TaskRequestItem** object is created when the item is received in the recipient's Inbox.
 
-Use the  **[GetAssociatedTask](Outlook.TaskRequestItem.GetAssociatedTask.md)** method to return the **TaskItem** object, and work directly with the **TaskItem** object to respond to the request.
+Use the **[GetAssociatedTask](Outlook.TaskRequestItem.GetAssociatedTask.md)** method to return the **TaskItem** object, and work directly with the **TaskItem** object to respond to the request.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates a simple task, assigns it to another user, and sends it. When the task request arrives in the recipient's Inbox, it is received as a  **TaskRequestItem**.
+The following Visual Basic for Applications (VBA) example creates a simple task, assigns it to another user, and sends it. When the task request arrives in the recipient's Inbox, it is received as a **TaskRequestItem**.
 
 
 
@@ -157,6 +156,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

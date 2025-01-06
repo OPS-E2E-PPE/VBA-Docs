@@ -1,15 +1,14 @@
 ---
-title: XlDisplayUnit Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlDisplayUnit enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlDisplayUnit
 ms.assetid: 21d841e6-95bd-ac4e-b998-11d5f7b26d69
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlDisplayUnit Enumeration (PowerPoint)
+# XlDisplayUnit enumeration (PowerPoint)
 
 Specifies the display unit label for an axis.
 

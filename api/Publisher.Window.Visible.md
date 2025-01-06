@@ -1,33 +1,31 @@
 ---
-title: Window.Visible Property (Publisher)
+title: Window.Visible property (Publisher)
 keywords: vbapb10.chm262153
 f1_keywords:
 - vbapb10.chm262153
-ms.prod: publisher
 api_name:
 - Publisher.Window.Visible
 ms.assetid: 608db1b6-2eb0-4f00-86c8-9d0537ae4f31
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# Window.Visible Property (Publisher)
+# Window.Visible property (Publisher)
 
- **True** if the window is visible. Read/write **Boolean**.
+**True** if the window is visible. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **Visible**
+_expression_.**Visible**
 
- _expression_ A variable that represents a  **Window** object.
+_expression_ A variable that represents a **[Window](Publisher.Window.md)** object.
 
 
 ## Example
 
 This example hides the Publisher window.
-
 
 ```vb
 ActiveWindow.Visible = False

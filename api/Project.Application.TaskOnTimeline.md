@@ -1,27 +1,27 @@
 ---
-title: Application.TaskOnTimeline Method (Project)
+title: Application.TaskOnTimeline method (Project)
 keywords: vbapj.chm60
 f1_keywords:
 - vbapj.chm60
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TaskOnTimeline
 ms.assetid: 8201380b-f0ae-4e53-7461-e323ad6fe5e2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TaskOnTimeline Method (Project)
+# Application.TaskOnTimeline method (Project)
 
 Manages tasks on the Timeline pane or for a specified custom timeline.
 
 
 ## Syntax
 
- _expression_. `TaskOnTimeline`( `_TaskID_`, `_Remove_`, `_TimelineViewName_` )
+_expression_. `TaskOnTimeline`( `_TaskID_`, `_Remove_`, `_TimelineViewName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ Manages tasks on the Timeline pane or for a specified custom timeline.
 
 ## Remarks
 
-Running  **TaskOnTimeline** with no arguments puts selected tasks on the active timeline.
+Running **TaskOnTimeline** with no arguments puts selected tasks on the active timeline.
 
 If the project includes custom timeline views, using the  _TimelineViewName_ argument activates the specified timeline, and then applies changes specified by the other arguments. If the specified timeline does not exist, **TaskOnTimeline** takes no action, but still returns **True**.
 

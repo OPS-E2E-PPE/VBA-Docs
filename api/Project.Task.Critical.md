@@ -1,27 +1,27 @@
 ---
-title: Task.Critical Property (Project)
+title: Task.Critical property (Project)
 keywords: vbapj.chm131694
 f1_keywords:
 - vbapj.chm131694
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.Critical
 ms.assetid: 2282f751-adb3-d891-8d93-7e55723e2e7d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Critical Property (Project)
+# Task.Critical property (Project)
 
  **True** if the task is on the critical path. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Critical`
+_expression_. `Critical`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

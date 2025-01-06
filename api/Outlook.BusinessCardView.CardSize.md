@@ -1,27 +1,26 @@
 ---
-title: BusinessCardView.CardSize Property (Outlook)
+title: BusinessCardView.CardSize property (Outlook)
 keywords: vbaol11.chm2937
 f1_keywords:
 - vbaol11.chm2937
-ms.prod: outlook
 api_name:
 - Outlook.BusinessCardView.CardSize
 ms.assetid: 0a1cbe6d-cc1a-1701-fe43-8704002b2212
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BusinessCardView.CardSize Property (Outlook)
+# BusinessCardView.CardSize property (Outlook)
 
-Returns or sets a  **Long** value that represents the size, as a percentage, of an Electronic Business Card (EBC) in the view. Read/write.
+Returns or sets a **Long** value that represents the size, as a percentage, of an Electronic Business Card (EBC) in the view. Read/write.
 
 
 ## Syntax
 
 _expression_. `CardSize`
 
- _expression_ An expression that returns a [BusinessCardView](./Outlook.BusinessCardView.md) object.
+ _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 
 
 ## Remarks

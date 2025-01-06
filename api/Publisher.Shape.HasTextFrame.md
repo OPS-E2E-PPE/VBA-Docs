@@ -1,36 +1,33 @@
 ---
-title: Shape.HasTextFrame Property (Publisher)
+title: Shape.HasTextFrame property (Publisher)
 keywords: vbapb10.chm2228322
 f1_keywords:
 - vbapb10.chm2228322
-ms.prod: publisher
 api_name:
 - Publisher.Shape.HasTextFrame
 ms.assetid: faf9514a-438b-ad12-a830-ed34cea8ba03
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.HasTextFrame Property (Publisher)
+# Shape.HasTextFrame property (Publisher)
 
-Returns an  **MsoTriState** constant if the specified shape has a **TextFrame** object associated with it. Read-only.
+Returns an **[MsoTriState](office.msotristate.md)** constant if the specified shape has a **[TextFrame](publisher.textframe.md)** object associated with it. Read-only.
 
 
 ## Syntax
 
- _expression_. **HasTextFrame**
+_expression_.**HasTextFrame**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Remarks
 
-If the  **HasTextFrame** property is true, clients must check the value of the **HasText** property of the **TextFrame** object to determine if there is any text on the shape.
+If the **HasTextFrame** property is true, clients must check the value of the **HasText** property of the **TextFrame** object to determine if there is any text on the shape.
 
-The  **HasTextFrame** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library and shown in the following table.
-
-
+The **HasTextFrame** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library and shown in the following table.
 
 |Constant|Description|
 |:-----|:-----|
@@ -40,8 +37,7 @@ The  **HasTextFrame** property value can be one of the **MsoTriState** constants
 
 ## Example
 
-This example tests all the shapes in the selection and if none have text frames associated with them, they are left aligned.
-
+This example tests all the shapes in the selection, and if none have text frames associated with them, they are left aligned.
 
 ```vb
 Sub MoveLeft() 

@@ -3,12 +3,11 @@ title: PageNumbers.ShowFirstPageNumber property (Word)
 keywords: vbawd10.chm159776776
 f1_keywords:
 - vbawd10.chm159776776
-ms.prod: word
 api_name:
 - Word.PageNumbers.ShowFirstPageNumber
 ms.assetid: 5f7c88cc-ddb7-08d6-880d-f55a9591fdea
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowFirstPageNumber`
+_expression_. `ShowFirstPageNumber`
 
  _expression_ An expression that returns a '[PageNumbers](Word.pagenumbers.md)' collection object.
 
 
 ## Remarks
 
-Setting this property to  **True** automatically adds page numbers to a section.
+Setting this property to **True** automatically adds page numbers to a section.
 
 
 ## Example

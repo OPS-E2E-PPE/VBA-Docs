@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Duplicate Method (Project)
-ms.prod: project-server
+title: ShapeRange.Duplicate method (Project)
+ms.service: project-server
 ms.assetid: c7af186e-616a-f20c-e2f3-8b0319e6af44
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Duplicate Method (Project)
+# ShapeRange.Duplicate method (Project)
 Duplicates a shape range and returns a reference to the copy.
 
 ## Syntax
 
- _expression_. `Duplicate`
+_expression_.**Duplicate**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value
@@ -29,7 +29,7 @@ The horizontal offset and vertical offset of the duplicated shape range are both
 
 ### Example
 
-The following example uses the report created by the code example in the  **[ShapeRange.Apply](Project.shaperange.apply.md)** method. The example duplicates a shape range that contains two shapes, and then vertically flips and selects the new shape range.
+The following example uses the report created by the code example in the **[ShapeRange.Apply](Project.shaperange.apply.md)** method. The example duplicates a shape range that contains two shapes, and then vertically flips and selects the new shape range.
 
 
 ```vb

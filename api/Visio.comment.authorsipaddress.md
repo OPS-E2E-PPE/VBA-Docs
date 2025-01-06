@@ -1,22 +1,21 @@
 ---
-title: Comment.AuthorSipAddress Property (Visio)
-ms.prod: visio
+title: Comment.AuthorSipAddress property (Visio)
 ms.assetid: f8d185a9-91b6-471a-3c0e-ffa8a06b36b3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Comment.AuthorSipAddress Property (Visio)
+# Comment.AuthorSipAddress property (Visio)
 
-Returns the SIP (Session Initiation Protocol) address of the author of the comment. Read-only  **String**.
+Returns the SIP (Session Initiation Protocol) address of the author of the comment. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `AuthorSipAddress`
+_expression_.**AuthorSipAddress**
 
- _expression_ A variable that represents a 'Comment' object.
+_expression_ A variable that represents a **[Comment](Visio.Comment.md)** object.
 
 
 ## Property value

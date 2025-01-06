@@ -3,10 +3,9 @@ title: Comment.Replies property (Word)
 keywords: vbawd10.chm154993657
 f1_keywords:
 - vbawd10.chm154993657
-ms.prod: word
 ms.assetid: a52838be-d6ca-c4e0-56c4-0faf6e86f748
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,9 +16,9 @@ Returns a [Comments](Word.comments.md) collection of **Comment** objects that ar
 
 ## Syntax
 
- _expression_. `Replies`
+_expression_. `Replies`
 
- _expression_ A variable that represents a [Comment](./Word.Comment.md) object.
+_expression_ A variable that represents a [Comment](./Word.Comment.md) object.
 
 
 ## Remarks

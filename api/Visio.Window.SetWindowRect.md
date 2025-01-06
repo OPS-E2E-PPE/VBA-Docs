@@ -1,27 +1,26 @@
 ---
-title: Window.SetWindowRect Method (Visio)
+title: Window.SetWindowRect method (Visio)
 keywords: vis_sdr.chm11616590
 f1_keywords:
 - vis_sdr.chm11616590
-ms.prod: visio
 api_name:
 - Visio.Window.SetWindowRect
 ms.assetid: f9f24c79-9c8f-ec0d-f894-1c10150db75e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Window.SetWindowRect Method (Visio)
+# Window.SetWindowRect method (Visio)
 
 Sets the size and position of the client area of a window.
 
 
 ## Syntax
 
- _expression_. `SetWindowRect`( `_nLeft_` , `_nTop_` , `_nWidth_` , `_nHeight_` )
+_expression_. `SetWindowRect`( `_nLeft_` , `_nTop_` , `_nWidth_` , `_nHeight_` )
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Parameters
@@ -42,14 +41,14 @@ Nothing
 
 ## Remarks
 
-The  **SetWindowRect** method sets the size and position of the client area of the window with respect to the window that owns the **Windows** collection to which it belongs. For the **Windows** collection of an **Application** object, the "with respect to" window is the MDICLIENT window of the Visio main window. For the **Windows** collection of a **Window** object, the "with respect to" window is the client area of the drawing window.
+The **SetWindowRect** method sets the size and position of the client area of the window with respect to the window that owns the **Windows** collection to which it belongs. For the **Windows** collection of an **Application** object, the "with respect to" window is the MDICLIENT window of the Visio main window. For the **Windows** collection of a **Window** object, the "with respect to" window is the client area of the drawing window.
 
  **SetWindowRect** has no effect when the window is docked.
 
 
 ## Example
 
-The following example shows how to use the  **SetWindowRect** method to set the size and position of a **Window** object. It opens the **Pan & Zoom** window and prints the window's coordinates, width, and height in the **Immediate** window. Then it uses **SetWindowRect** to change the height of the window, and prints the new values.
+The following example shows how to use the **SetWindowRect** method to set the size and position of a **Window** object. It opens the **Pan & Zoom** window and prints the window's coordinates, width, and height in the Immediate window. It then uses **SetWindowRect** to change the height of the window, and prints the new values.
 
 
 ```vb

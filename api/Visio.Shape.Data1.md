@@ -1,27 +1,26 @@
 ---
-title: Shape.Data1 Property (Visio)
+title: Shape.Data1 property (Visio)
 keywords: vis_sdr.chm11213365
 f1_keywords:
 - vis_sdr.chm11213365
-ms.prod: visio
 api_name:
 - Visio.Shape.Data1
 ms.assetid: ca9dda75-4ae2-70f0-46bd-ff5afbba84fc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Data1 Property (Visio)
+# Shape.Data1 property (Visio)
 
-Gets or sets the value of the  **Data1** field for a **Shape** object. Read/write.
+Gets or sets the value of the **Data1** field for a **Shape** object. Read/write.
 
 
 ## Syntax
 
- _expression_. `Data1`
+_expression_. `Data1`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ String
 
 ## Remarks
 
-Use the  **Data1** property to supply additional information about a shape. The property can contain up to 64 KB of characters. Text controls should be used with care with a string that is greater than 3,000 characters. Setting the **Data1** property is equivalent to entering information in the **Data 1** box in the **Special** dialog box (click **Shape Name** in the **Shape Design** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab).
+Use the **Data1** property to supply additional information about a shape. The property can contain up to 64 KB of characters. Text controls should be used with care with a string that is greater than 3,000 characters. Setting the **Data1** property is equivalent to entering information in the **Data 1** box in the **Special** dialog box (click **Shape Name** in the **Shape Design** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab).
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to set a shape's  **Data1** , **Data2** , and **Data3** properties. It prints the values of these properties in the **Immediate** window. You can also verify that these values have been set by opening the **Special** dialog box.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to set a shape's **Data1**, **Data2**, and **Data3** properties. It prints the values of these properties in the Immediate window. You can also verify that these values have been set by opening the **Special** dialog box.
 
 
 ```vb

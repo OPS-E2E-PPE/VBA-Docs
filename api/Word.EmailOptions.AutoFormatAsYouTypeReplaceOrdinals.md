@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeReplaceOrdinals property (Word)
 keywords: vbawd10.chm165347594
 f1_keywords:
 - vbawd10.chm165347594
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceOrdinals
 ms.assetid: c3f60ea8-1949-6247-98d1-d8d386507341
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceOrdinals`
+_expression_. `AutoFormatAsYouTypeReplaceOrdinals`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +32,7 @@ This example turns on the automatic replacement of ordinals with superscript let
 Options.AutoFormatAsYouTypeReplaceOrdinals = True
 ```
 
-This example returns the status of the  **Ordinals (1st) with superscript** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Ordinals (1st) with superscript** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

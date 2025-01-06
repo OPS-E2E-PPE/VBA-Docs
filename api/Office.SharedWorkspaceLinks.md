@@ -3,12 +3,11 @@ title: SharedWorkspaceLinks object (Office)
 keywords: vbaof11.chm271000
 f1_keywords:
 - vbaof11.chm271000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceLinks
 ms.assetid: b226b376-9d8c-659a-9551-6341bbebed6f
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Use the **[Links](Office.SharedWorkspace.Links.md)** property of the **[SharedWo
 ```vb
     Dim swsLinks As Office.SharedWorkspaceLinks 
     Set swsLinks = ActiveWorkbook.SharedWorkspace.Links 
-    MsgBox "There are " &amp; swsLinks.Count &amp; _ 
+    MsgBox "There are " & swsLinks.Count & _ 
         " link(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

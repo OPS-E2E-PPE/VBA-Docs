@@ -3,23 +3,22 @@ title: OMathFunctions.Add method (Word)
 keywords: vbawd10.chm44302440
 f1_keywords:
 - vbawd10.chm44302440
-ms.prod: word
 api_name:
 - Word.OMathFunctions.Add
 ms.assetid: 2292e297-6d24-cd73-971b-146be1edcb0a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OMathFunctions.Add method (Word)
 
-Inserts a new structure, such as a fraction, into an equation at the specified position and returns an  **OMathFunction** object that represents the structure.
+Inserts a new structure, such as a fraction, into an equation at the specified position and returns an **OMathFunction** object that represents the structure.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` , `_Type_` , `_NumArgs_` , `_NumCols_` )
+_expression_.**Add** (_Range_, _Type_, _NumArgs_, _NumCols_)
 
  _expression_ An expression that returns a [OMathFunctions](./Word.OMathFunctions.md) object.
 

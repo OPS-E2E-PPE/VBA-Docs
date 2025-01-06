@@ -3,12 +3,11 @@ title: Options.WarnBeforeSavingPrintingSendingMarkup property (Word)
 keywords: vbawd10.chm162988478
 f1_keywords:
 - vbawd10.chm162988478
-ms.prod: word
 api_name:
 - Word.Options.WarnBeforeSavingPrintingSendingMarkup
 ms.assetid: 3d507ad6-5d8f-f20e-eefe-2499f0507b6f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `WarnBeforeSavingPrintingSendingMarkup`
+_expression_. `WarnBeforeSavingPrintingSendingMarkup`
 
  _expression_ An expression that returns a '[Options](Word.Options.md)' object.
 

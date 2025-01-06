@@ -3,12 +3,11 @@ title: Frame.LockAnchor property (Word)
 keywords: vbawd10.chm153747462
 f1_keywords:
 - vbawd10.chm153747462
-ms.prod: word
 api_name:
 - Word.Frame.LockAnchor
 ms.assetid: 654dc51d-12bb-4168-f737-69f8de7da17a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `LockAnchor`
+_expression_. `LockAnchor`
 
- _expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
+_expression_ Required. A variable that represents a '[Frame](Word.Frame.md)' object.
 
 
 ## Remarks

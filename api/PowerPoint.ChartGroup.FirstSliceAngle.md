@@ -1,32 +1,31 @@
 ---
-title: ChartGroup.FirstSliceAngle Property (PowerPoint)
+title: ChartGroup.FirstSliceAngle property (PowerPoint)
 keywords: vbapp10.chm692010
 f1_keywords:
 - vbapp10.chm692010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroup.FirstSliceAngle
 ms.assetid: fb09ab99-9a85-3932-f569-56b5bbb87b50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ChartGroup.FirstSliceAngle Property (PowerPoint)
+# ChartGroup.FirstSliceAngle property (PowerPoint)
 
-Returns or sets the angle, in degrees (clockwise from vertical), of the first pie-chart or doughnut-chart slice. Read/write  **Long**.
+Returns or sets the angle, in degrees (clockwise from vertical), of the first pie-chart or doughnut-chart slice. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `FirstSliceAngle`
+_expression_.**FirstSliceAngle**
 
-_expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
 
-This property applies only to pie, 3-D pie, and doughnut charts. It can be a value from 0 through 360. 
+This property applies only to pie, 3D pie, and doughnut charts. It can be a value from 0 through 360. 
 
 
 ## Example
@@ -34,9 +33,10 @@ This property applies only to pie, 3-D pie, and doughnut charts. It can be a val
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example sets the angle for the first slice in chart group one for the first chart in the active document. You should run the example on a 2-D pie chart.
+The following example sets the angle for the first slice in chart group one for the first chart in the active document. You should run the example on a 2D pie chart.
 
 
 

@@ -1,24 +1,23 @@
 ---
-title: UpBars.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: UpBars.Select method (PowerPoint)
 api_name:
 - PowerPoint.UpBars.Select
 ms.assetid: 56e285f9-4753-d9dc-3be3-32538a574ecc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UpBars.Select Method (PowerPoint)
+# UpBars.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
+_expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
 
 
 ## See also

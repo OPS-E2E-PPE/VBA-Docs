@@ -3,12 +3,11 @@ title: Options.AutoFormatReplaceFractions property (Word)
 keywords: vbawd10.chm162988289
 f1_keywords:
 - vbawd10.chm162988289
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatReplaceFractions
 ms.assetid: e6ee4446-6ec0-766d-cb73-1fdbdb755118
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatReplaceFractions`
+_expression_. `AutoFormatReplaceFractions`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +33,7 @@ Options.AutoFormatReplaceFractions = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Fractions (1/2) with fraction character (½)** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Fractions (1/2) with fraction character (½)** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

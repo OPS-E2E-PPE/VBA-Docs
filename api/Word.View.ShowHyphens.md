@@ -3,12 +3,11 @@ title: View.ShowHyphens property (Word)
 keywords: vbawd10.chm161808402
 f1_keywords:
 - vbawd10.chm161808402
-ms.prod: word
 api_name:
 - Word.View.ShowHyphens
 ms.assetid: 2294ea01-1ddc-0d29-4fa4-a5285d6d7cfb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ShowHyphens`
+_expression_. `ShowHyphens`
 
  _expression_ An expression that returns a '[View](Word.View.md)' object.
 

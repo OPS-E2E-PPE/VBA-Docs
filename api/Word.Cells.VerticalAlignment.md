@@ -3,25 +3,24 @@ title: Cells.VerticalAlignment property (Word)
 keywords: vbawd10.chm155845712
 f1_keywords:
 - vbawd10.chm155845712
-ms.prod: word
 api_name:
 - Word.Cells.VerticalAlignment
 ms.assetid: c60fcbdb-b443-6b5a-8dd2-1c4c1e4a71d4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Cells.VerticalAlignment property (Word)
 
-Returns or sets the vertical alignment of text in one or more cells of a table. Read/write  **WdCellVerticalAlignment**.
+Returns or sets the vertical alignment of text in one or more cells of a table. Read/write **WdCellVerticalAlignment**.
 
 
 ## Syntax
 
- _expression_. `VerticalAlignment`
+_expression_.**VerticalAlignment**
 
- _expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
+_expression_ Required. A variable that represents a '[Cells](Word.cells.md)' collection.
 
 
 ## Example

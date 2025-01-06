@@ -1,6 +1,5 @@
 ---
 title: Events (Visual Basic Add-In Model)
-ms.prod: office
 keywords: vbob6.chm1098932
 f1_keywords:
 - vbob6.chm1098932
@@ -8,7 +7,7 @@ f1_keywords:
 - vbob6.chm100150
 ms.assetid: ae90ce4d-7f61-4e7d-a4ab-7cf78028281a
 ms.date: 12/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -21,8 +20,6 @@ Occurs when the **OnAction** [property](../../Glossary/vbe-glossary.md#property)
 ### Syntax
 
 **Sub**_object_**\_Click** (**ByVal** _ctrl_ **As Object**, **ByRef** _handled_ **As Boolean**, **ByRef** _canceldefault_ **As Boolean**)
-
-<br/>
 
 The **Click** event syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -69,6 +66,6 @@ The required _item_ [argument](../../Glossary/vbe-glossary.md#argument) specifie
 - [Events (Visual Basic for Applications)](../events-visual-basic-for-applications.md)
 - [Visual Basic Add-in Model reference](../user-interface-help/visual-basic-add-in-model-reference.md)
 - [Visual Basic language reference](../user-interface-help/visual-basic-language-reference.md)
-- [Office client development reference](https://docs.microsoft.com/office/client-developer/office-client-development)
+- [Office client development reference](/office/client-developer/office-client-development)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,11 +1,10 @@
 ---
 title: WdPrintOutRange enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdPrintOutRange
 ms.assetid: 27d0fecc-7eb1-de0b-5f76-e256e8e9f5bb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

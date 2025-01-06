@@ -1,27 +1,26 @@
 ---
-title: Shape.Copy Method (Visio)
+title: Shape.Copy method (Visio)
 keywords: vis_sdr.chm11251005
 f1_keywords:
 - vis_sdr.chm11251005
-ms.prod: visio
 api_name:
 - Visio.Shape.Copy
 ms.assetid: 2579682b-1dd3-7579-271d-a9994b91a933
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Copy Method (Visio)
+# Shape.Copy method (Visio)
 
 Copies a shape to the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Flags_` )
+_expression_.**Copy** (_Flags_)
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Nothing
 
 ## Remarks
 
-Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes** , and are described in the following table.
+Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes**, and are described in the following table.
 
 
 
@@ -56,12 +55,12 @@ Possible values for  _Flags_ are declared by the Visio type library in **VisCutC
 
 Setting  _Flags_ to **visCopyPasteNormal** is the equivalent of the behavior in the user interface. You should use **visCopyPasteNormal** and the other flags consistently. For example, if you use the value **visCopyPasteNoTranslate** to copy, you should also use that value to paste, because that is the only way to ensure that shapes are pasted to their original coordinate location.
 
-To make a copy without using the Clipboard, use the  **Duplicate** method.
+To make a copy without using the Clipboard, use the **Duplicate** method.
 
 
 ## Example
 
-The following example shows how to use the  **Copy** method. It draws a rectangle and then copies it to the Clipboard.
+The following example shows how to use the **Copy** method. It draws a rectangle and then copies it to the Clipboard.
 
 
 ```vb

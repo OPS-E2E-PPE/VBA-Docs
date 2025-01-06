@@ -3,18 +3,17 @@ title: Line.BorderWidth property (Access)
 keywords: vbaac10.chm10340
 f1_keywords:
 - vbaac10.chm10340
-ms.prod: access
 api_name:
 - Access.Line.BorderWidth
 ms.assetid: 06e29c22-43a6-de44-20d7-4b73e0742763
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Line.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

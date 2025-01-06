@@ -1,17 +1,16 @@
 ---
-title: PpTextLevelEffect Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpTextLevelEffect enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpTextLevelEffect
 ms.assetid: 8624d540-8728-d65d-6e26-a3065e351265
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpTextLevelEffect Enumeration (PowerPoint)
+# PpTextLevelEffect enumeration (PowerPoint)
 
-Constants that specify the paragraph level by which text effects are animated, passed to and returned by the  **TextLevelEffect** property of the **AnimationSettings** object.
+Constants that specify the paragraph level by which text effects are animated, passed to and returned by the **TextLevelEffect** property of the **AnimationSettings** object.
 
 
 

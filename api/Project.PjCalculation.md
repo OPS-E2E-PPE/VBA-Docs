@@ -1,15 +1,15 @@
 ---
-title: PjCalculation Enumeration (Project)
-ms.prod: project-server
+title: PjCalculation enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCalculation
 ms.assetid: cc8ca005-7ba3-6387-ba3c-bb8ba75b1255
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCalculation Enumeration (Project)
+# PjCalculation enumeration (Project)
 
 Contains constants that specify the calculation mode.
 

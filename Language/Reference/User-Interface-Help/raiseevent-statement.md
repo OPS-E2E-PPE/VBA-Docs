@@ -3,10 +3,9 @@ title: RaiseEvent statement (VBA)
 keywords: vblr6.chm1103516
 f1_keywords:
 - vblr6.chm1103516
-ms.prod: office
 ms.assetid: 4de2ad26-cb93-19b1-9f44-e6c1b5d619f3
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,11 +15,9 @@ Fires an event declared at the [module level](../../Glossary/vbe-glossary.md#mod
 
 ## Syntax
 
-**RaiseEvent**_eventname_ [ ( _argumentlist_ ) ]
+**RaiseEvent** _eventname_ [ ( _argumentlist_ ) ]
 
 The required _eventname_ is the name of an event declared within the [module](../../Glossary/vbe-glossary.md#module) and follows Basic variable naming conventions.
-
-<br/>
 
 The **RaiseEvent** statement syntax has these parts:
 
@@ -37,7 +34,7 @@ If the event has not been declared within the module in which it is raised, an e
 ' Declare an event at module level of a class module 
 Event LogonCompleted (UserName as String) 
  
-Sub 
+Sub Demo()
  ' Raise the event. 
  RaiseEvent LogonCompleted ("AntoineJan") 
 End Sub
@@ -88,8 +85,6 @@ Private Sub ts_DisplayFinalTime()
     Text2.Text = CStr(FinalTime)
 End Sub
 ```
-
-<br/>
 
 
 The remaining code is in a class module named TimerState. Included among the commands in this module are the **Raise Event** statements.

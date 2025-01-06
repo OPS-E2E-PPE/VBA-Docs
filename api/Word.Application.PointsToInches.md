@@ -3,26 +3,23 @@ title: Application.PointsToInches method (Word)
 keywords: vbawd10.chm158335356
 f1_keywords:
 - vbawd10.chm158335356
-ms.prod: word
 api_name:
 - Word.Application.PointsToInches
 ms.assetid: cabbab9b-ad04-576f-ee7c-921a38b4948c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.PointsToInches method (Word)
 
-Converts a measurement from points to inches (1 inch = 72 points). Returns the converted measurement as a  **Single**.
-
+Converts a measurement from points to inches (1 inch = 72 points). Returns the converted measurement as a **Single**.
 
 ## Syntax
 
- _expression_. `PointsToInches`( `_Points_` )
+_expression_. `PointsToInches`( `_Points_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
-
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 ## Parameters
 
@@ -36,20 +33,16 @@ Converts a measurement from points to inches (1 inch = 72 points). Returns the c
 
 Single
 
-
 ## Example
 
 This example converts the measurement of the top margin for the active document to inches and displays the result in a message box.
-
 
 ```vb
 MsgBox PointsToInches(ActiveDocument.Sections(1) _ 
  .PageSetup.TopMargin)
 ```
 
-This example converts the value of the variable  `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
-
-
+This example converts the value of the variable `sngData` (a measurement in points) to centimeters, inches, lines, millimeters, or picas, depending on the value of the variable `intUnit` (a value from 1 through 5 that indicates the resulting unit of measurement).
 
 
 ```vb

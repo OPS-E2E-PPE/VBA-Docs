@@ -3,18 +3,17 @@ title: EmptyCell.Name property (Access)
 keywords: vbaac10.chm14321
 f1_keywords:
 - vbaac10.chm14321
-ms.prod: access
 api_name:
 - Access.EmptyCell.Name
 ms.assetid: 08aad149-294b-691c-64bd-57ffa949df19
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmptyCell.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -3,30 +3,29 @@ title: ShapeNode.Points property (Word)
 keywords: vbawd10.chm164429925
 f1_keywords:
 - vbawd10.chm164429925
-ms.prod: word
 api_name:
 - Word.ShapeNode.Points
 ms.assetid: 2d64956f-1ba5-66d0-c4db-cf54c594ca0c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ShapeNode.Points property (Word)
 
-Returns the position of the specified node as a coordinate pair. Read-only  **Variant**.
+Returns the position of the specified node as a coordinate pair. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `Points`
+_expression_.**Points**
 
- _expression_ A variable that represents a '[ShapeNode](Word.ShapeNode.md)' object.
+_expression_ A variable that represents a **[ShapeNode](Word.ShapeNode.md)** object.
 
 
 ## Remarks
 
-Each coordinate is expressed in points. Use the  **[SetPosition](Word.ShapeNodes.SetPosition.md)** method to set the location of the node.
+Each coordinate is expressed in points. Use the **[SetPosition](Word.ShapeNodes.SetPosition.md)** method to set the location of the node.
 
 
 ## Example

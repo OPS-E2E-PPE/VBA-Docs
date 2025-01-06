@@ -1,20 +1,19 @@
 ---
-title: OlCategoryShortcutKey Enumeration (Outlook)
+title: OlCategoryShortcutKey enumeration (Outlook)
 keywords: vbaol11.chm3120
 f1_keywords:
 - vbaol11.chm3120
-ms.prod: outlook
 api_name:
 - Outlook.OlCategoryShortcutKey
 ms.assetid: 11e3f075-514c-f34c-453e-cf70ee128af5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlCategoryShortcutKey Enumeration (Outlook)
+# OlCategoryShortcutKey enumeration (Outlook)
 
-Identifies the shortcut key specified for the  **[ShortcutKey](Outlook.Category.ShortcutKey.md)** property of the **[Category](Outlook.Category.md)** object.
+Identifies the shortcut key specified for the **[ShortcutKey](Outlook.Category.ShortcutKey.md)** property of the **[Category](Outlook.Category.md)** object.
 
 
 

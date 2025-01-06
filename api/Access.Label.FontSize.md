@@ -3,18 +3,17 @@ title: Label.FontSize property (Access)
 keywords: vbaac10.chm10211
 f1_keywords:
 - vbaac10.chm10211
-ms.prod: access
 api_name:
 - Access.Label.FontSize
 ms.assetid: 9b669364-ba6e-8b1a-7750-bf0c25b42e40
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Label.FontSize property (Access)
 
-You can use the **FontSize** property to specify the point size for text in the following situations:
+Use the **FontSize** property to specify the point size for text in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

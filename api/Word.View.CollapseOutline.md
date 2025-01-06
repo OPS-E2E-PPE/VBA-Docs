@@ -3,12 +3,11 @@ title: View.CollapseOutline method (Word)
 keywords: vbawd10.chm161808485
 f1_keywords:
 - vbawd10.chm161808485
-ms.prod: word
 api_name:
 - Word.View.CollapseOutline
 ms.assetid: b22ac567-ef40-e47e-f0fc-311263675045
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Collapses the text under the selection or the specified range by one heading lev
 
 ## Syntax
 
- _expression_. `CollapseOutline`( `_Range_` )
+_expression_. `CollapseOutline`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Parameters

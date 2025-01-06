@@ -1,18 +1,17 @@
 ---
-title: NameSpace.AddStoreEx Method (Outlook)
+title: NameSpace.AddStoreEx method (Outlook)
 keywords: vbaol11.chm777
 f1_keywords:
 - vbaol11.chm777
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.AddStoreEx
 ms.assetid: 15b8948d-cbe4-a499-ec03-b1bbf56ead82
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.AddStoreEx Method (Outlook)
+# NameSpace.AddStoreEx method (Outlook)
 
 Adds a Personal Folders file (.pst) in the specified format to the current profile.
 
@@ -21,7 +20,7 @@ Adds a Personal Folders file (.pst) in the specified format to the current profi
 
 _expression_. `AddStoreEx`( `_Store_` , `_Type_` )
 
-_expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
 ## Parameters
@@ -35,12 +34,12 @@ _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) ob
 
 ## Remarks
 
-Use the  **olStoreUnicode** constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile. The **olStoreANSI** constant allows you to create .pst files that do not provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook. The **olStoreDefault** constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.
+Use the **olStoreUnicode** constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile. The **olStoreANSI** constant allows you to create .pst files that don't provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook. The **olStoreDefault** constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example adds a new Personal Folders (.pst) file that has greater storage capacity for items and folders and supports Unicode to the user?s profile.
+This Microsoft Visual Basic for Applications (VBA) example adds a new Personal Folders (.pst) file that has greater storage capacity for items and folders and supports Unicode to the user's profile.
 
 
 ```vb

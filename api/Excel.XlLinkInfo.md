@@ -1,11 +1,10 @@
 ---
 title: XlLinkInfo enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlLinkInfo
 ms.assetid: b36bfd31-d52e-2520-1a65-1327657b9216
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

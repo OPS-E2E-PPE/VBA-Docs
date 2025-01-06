@@ -3,12 +3,11 @@ title: OptionButton.KeyDown event (Access)
 keywords: vbaac10.chm14144
 f1_keywords:
 - vbaac10.chm14144
-ms.prod: access
 api_name:
 - Access.OptionButton.KeyDown
 ms.assetid: 9a21c03b-9806-d0ee-8c44-9edbba49b4b8
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -83,9 +82,9 @@ Private Sub KeyHandler_KeyDown(KeyCode As Integer, _
     intAltDown = (Shift And acAltMask) > 0 
     intCtrlDown = (Shift And acCtrlMask) > 0 
     ' Display message telling user which key was pressed. 
-    If intShiftDown Then MsgBox "You pressed the SHIFT key." 
-    If intAltDown Then MsgBox "You pressed the ALT key." 
-    If intCtrlDown Then MsgBox "You pressed the CTRL key." 
+    If intShiftDown Then MsgBox "You pressed the Shift key." 
+    If intAltDown Then MsgBox "You pressed the Alt key." 
+    If intCtrlDown Then MsgBox "You pressed the Ctrl key." 
 End Sub
 ```
 

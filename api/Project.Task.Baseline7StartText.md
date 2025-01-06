@@ -1,28 +1,28 @@
 ---
-title: Task.Baseline7StartText Property (Project)
-ms.prod: project-server
+title: Task.Baseline7StartText property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Baseline7StartText
 ms.assetid: 684af7b4-b7e5-bf33-1492-feb4004d6cad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Baseline7StartText Property (Project)
+# Task.Baseline7StartText property (Project)
 
-Gets or sets a string representation of the baseline start date of a task. Read/write  **String**.
+Gets or sets a string representation of the baseline start date of a task. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `Baseline7StartText`
+_expression_. `Baseline7StartText`
 
  _expression_ An expression that returns a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The  **Baseline7StartText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **Baseline7StartText** has any value, you should convert the value to a date for the **Baseline7Start** property.
+The **Baseline7StartText** property is used for manually scheduled tasks. When you convert a manually scheduled task to an auto-scheduled task, if **Baseline7StartText** has any value, you should convert the value to a date for the **Baseline7Start** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: ObjectFrame.RowSourceType property (Access)
 keywords: vbaac10.chm11563
 f1_keywords:
 - vbaac10.chm11563
-ms.prod: access
 api_name:
 - Access.ObjectFrame.RowSourceType
 ms.assetid: d450ce8b-c2e9-f51b-61af-b46a64ab7d32
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.RowSourceType property (Access)
 
-You can use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
+Use the **RowSourceType** property (along with the **RowSource** property) to tell Microsoft Access how to provide data to the specified object. Read/write **String**.
 
 
 ## Syntax

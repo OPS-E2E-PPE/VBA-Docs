@@ -3,25 +3,24 @@ title: Chart.Legend property (Word)
 keywords: vbawd10.chm79364180
 f1_keywords:
 - vbawd10.chm79364180
-ms.prod: word
 api_name:
 - Word.Chart.Legend
 ms.assetid: b1ffdbfb-854c-bd65-dd63-d3b8d0547f67
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Chart.Legend property (Word)
 
-Returns the legend for the chart. Read-only  **[Legend](Word.Legend.md)**.
+Returns the legend for the chart. Read-only **[Legend](Word.Legend.md)**.
 
 
 ## Syntax
 
- _expression_. `Legend`
+_expression_.**Legend**
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
 ## Example

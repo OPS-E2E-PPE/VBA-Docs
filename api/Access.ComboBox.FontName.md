@@ -3,18 +3,17 @@ title: ComboBox.FontName property (Access)
 keywords: vbaac10.chm11414
 f1_keywords:
 - vbaac10.chm11414
-ms.prod: access
 api_name:
 - Access.ComboBox.FontName
 ms.assetid: 0869818d-225e-c46b-39f3-5d500374361b
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.FontName property (Access)
 
-You can use the **FontName** property to specify the font for text in the following situations:
+Use the **FontName** property to specify the font for text in the following situations:
 
 - When displaying or printing controls on forms and reports.  
 - When using the **[Print](Access.Report.Print.md)** method on a report.

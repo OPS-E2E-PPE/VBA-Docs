@@ -1,27 +1,26 @@
 ---
-title: Selection.BringToFront Method (Visio)
+title: Selection.BringToFront method (Visio)
 keywords: vis_sdr.chm11116100
 f1_keywords:
 - vis_sdr.chm11116100
-ms.prod: visio
 api_name:
 - Visio.Selection.BringToFront
 ms.assetid: f7e0b949-9f16-e4c1-8443-941abd3495db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.BringToFront Method (Visio)
+# Selection.BringToFront method (Visio)
 
 Brings the shape or selected shapes to the front of the z-order.
 
 
 ## Syntax
 
- _expression_. `BringToFront`
+_expression_.**BringToFront**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: SharedWorkspace object (Office)
 keywords: vbaof11.chm276000
 f1_keywords:
 - vbaof11.chm276000
-ms.prod: office
 api_name:
 - Office.SharedWorkspace
 ms.assetid: 7512f0ff-382d-d344-9424-aa10549d14f9
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -60,14 +59,14 @@ The following example displays the properties of the shared workspace to which t
     Dim swsWorkspace As Office.SharedWorkspace 
     Dim strSWSInfo As String 
     Set swsWorkspace = ActiveWorkbook.SharedWorkspace 
-    strSWSInfo = swsWorkspace.Name &amp; vbCrLf &amp; _ 
-        " - URL: " &amp; swsWorkspace.URL &amp; vbCrLf &amp; _ 
-        "The shared workspace contains " &amp; vbCrLf &amp; _ 
-        " - Files: " &amp; swsWorkspace.Files.Count &amp; vbCrLf &amp; _ 
-        " - Folders: " &amp; swsWorkspace.Folders.Count &amp; vbCrLf &amp; _ 
-        " - Links: " &amp; swsWorkspace.Links.Count &amp; vbCrLf &amp; _ 
-        " - Members: " &amp; swsWorkspace.Members.Count &amp; vbCrLf &amp; _ 
-        " - Tasks: " &amp; swsWorkspace.Tasks.Count &amp; vbCrLf 
+    strSWSInfo = swsWorkspace.Name & vbCrLf & _ 
+        " - URL: " & swsWorkspace.URL & vbCrLf & _ 
+        "The shared workspace contains " & vbCrLf & _ 
+        " - Files: " & swsWorkspace.Files.Count & vbCrLf & _ 
+        " - Folders: " & swsWorkspace.Folders.Count & vbCrLf & _ 
+        " - Links: " & swsWorkspace.Links.Count & vbCrLf & _ 
+        " - Members: " & swsWorkspace.Members.Count & vbCrLf & _ 
+        " - Tasks: " & swsWorkspace.Tasks.Count & vbCrLf 
     MsgBox strSWSInfo, vbInformation + vbOKOnly, _ 
         "Shared Workspace Information" 
     Set swsWorkspace = Nothing

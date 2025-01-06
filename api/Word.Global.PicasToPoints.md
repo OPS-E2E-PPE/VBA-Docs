@@ -3,25 +3,24 @@ title: Global.PicasToPoints method (Word)
 keywords: vbawd10.chm163119477
 f1_keywords:
 - vbawd10.chm163119477
-ms.prod: word
 api_name:
 - Word.Global.PicasToPoints
 ms.assetid: c1fb493b-d63d-484f-9d9b-c6781a0ff027
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global.PicasToPoints method (Word)
 
-Converts a measurement from picas to points (1 pica = 12 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from picas to points (1 pica = 12 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. `PicasToPoints`( `_Picas_` )
+_expression_. `PicasToPoints`( `_Picas_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters

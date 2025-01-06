@@ -1,20 +1,19 @@
 ---
-title: AccountSelector.Class Property (Outlook)
+title: AccountSelector.Class property (Outlook)
 keywords: vbaol11.chm3450
 f1_keywords:
 - vbaol11.chm3450
-ms.prod: outlook
 api_name:
 - Outlook.AccountSelector.Class
 ms.assetid: df7fe41b-70a2-2098-e885-7aaa743dc5fe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AccountSelector.Class Property (Outlook)
+# AccountSelector.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the class of the object. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant that indicates the class of the object. Read-only.
 
 
 ## Syntax

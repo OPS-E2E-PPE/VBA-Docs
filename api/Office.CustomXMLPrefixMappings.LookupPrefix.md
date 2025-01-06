@@ -3,12 +3,11 @@ title: CustomXMLPrefixMappings.LookupPrefix method (Office)
 keywords: vbaof11.chm290006
 f1_keywords:
 - vbaof11.chm290006
-ms.prod: office
 api_name:
 - Office.CustomXMLPrefixMappings.LookupPrefix
 ms.assetid: 49af8a41-d5d5-58e8-672f-db561c5c7688
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

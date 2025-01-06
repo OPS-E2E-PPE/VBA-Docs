@@ -1,27 +1,26 @@
 ---
-title: Presentations.Open2007 Method (PowerPoint)
+title: Presentations.Open2007 method (PowerPoint)
 keywords: vbapp10.chm522009
 f1_keywords:
 - vbapp10.chm522009
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentations.Open2007
 ms.assetid: 45bbbe1f-461c-d908-0d3b-8b4e8aa681a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentations.Open2007 Method (PowerPoint)
+# Presentations.Open2007 method (PowerPoint)
 
-Opens the specified presentation and provides the option to repair the presentation file. Returns a  **[Presentation](PowerPoint.Presentation.md)** object that represents the opened presentation.
+Opens the specified presentation and provides the option to repair the presentation file. Returns a **[Presentation](PowerPoint.Presentation.md)** object that represents the opened presentation.
 
 
 ## Syntax
 
- _expression_. `Open2007`( `_FileName_`, `_ReadOnly_`, `_Untitled_`, `_WithWindow_`, `_OpenAndRepair_` )
+_expression_. `Open2007`( `_FileName_`, `_ReadOnly_`, `_Untitled_`, `_WithWindow_`, `_OpenAndRepair_` )
 
- _expression_ A variable that represents a [Presentations](./PowerPoint.Presentations.md) object.
+_expression_ A variable that represents a [Presentations](PowerPoint.Presentations.md) object.
 
 
 ## Parameters
@@ -43,7 +42,7 @@ Presentation
 
 ## Remarks
 
-With the proper file converters installed, Microsoft Office PowerPoint 2003 and earlier versions open files with the following MS-DOS filename extensions: .ch3, .cht, .doc, .htm, .html, .mcw, .pot, .ppa, .pps, .ppt, .pre, .rtf, .sh3, .shw, .txt, .wk1, .wk3, .wk4, .wpd, .wpf, .wps, and .xls. PowerPoint also opens files with the following filename extensions: .docm, .docx, .mhtml, .potm, .potx, .ppam, .pptm, .pptx, .ppsm, .ppsx, .thmx, .xlsm, and .xlsx.
+With the proper file converters installed, Microsoft Office PowerPoint 2003 and earlier versions open files with the following MS-DOS file name extensions: .ch3, .cht, .doc, .htm, .html, .mcw, .pot, .ppa, .pps, .ppt, .pre, .rtf, .sh3, .shw, .txt, .wk1, .wk3, .wk4, .wpd, .wpf, .wps, and .xls. PowerPoint also opens files with the following file name extensions: .docm, .docx, .mhtml, .potm, .potx, .ppam, .pptm, .pptx, .ppsm, .ppsx, .thmx, .xlsm, and .xlsx.
 
 The  _ReadOnly_ parameter value can be one of these **MsoTriState** constants.
 

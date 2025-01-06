@@ -3,12 +3,11 @@ title: Selection.InsertXML method (Word)
 keywords: vbawd10.chm158663684
 f1_keywords:
 - vbawd10.chm158663684
-ms.prod: word
 api_name:
 - Word.Selection.InsertXML
 ms.assetid: 7a9e52b5-9b05-f939-6fd0-33a923989f48
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Inserts the specified XML into the document at the cursor, replacing any selecte
 
 ## Syntax
 
- _expression_. `InsertXML`( `_XML_` , `_Transform_` )
+_expression_. `InsertXML`( `_XML_` , `_Transform_` )
 
  _expression_ An expression that returns a [Selection](./Word.Selection.md) object.
 
@@ -46,7 +45,7 @@ The following example inserts the specified XML string into the document at the 
 ```vb
 Dim strXML As String 
  
-strXML = "<?xml version=""1.0""?><abc:books xmlns:abc=""urn:books"" " & _ 
+strXML = "<"xml version=""1.0""><abc:books xmlns:abc=""urn:books"" " & _ 
  "xmlns:xsi=""https://www.w3.org/2001/XMLSchema-instance"" " & _ 
  "xsi:schemaLocation=""urn:books books.xsd""><book>" & _ 
  "<author>Matt Hink</author><title>Migration Paths of the Red " & _ 

@@ -1,24 +1,23 @@
 ---
-title: UpBars.Parent Property (PowerPoint)
-ms.prod: powerpoint
+title: UpBars.Parent property (PowerPoint)
 api_name:
 - PowerPoint.UpBars.Parent
 ms.assetid: 65b7baf1-88dd-cf8e-93a8-8c0d3980fc18
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UpBars.Parent Property (PowerPoint)
+# UpBars.Parent property (PowerPoint)
 
-Returns the parent for the specified object. Read-only  **Object**.
+Returns the parent for the specified object. Read-only **Object**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
+_expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
 
 
 ## See also

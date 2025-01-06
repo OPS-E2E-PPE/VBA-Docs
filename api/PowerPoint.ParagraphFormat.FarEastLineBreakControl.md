@@ -1,40 +1,34 @@
 ---
-title: ParagraphFormat.FarEastLineBreakControl Property (PowerPoint)
+title: ParagraphFormat.FarEastLineBreakControl property (PowerPoint)
 keywords: vbapp10.chm576012
 f1_keywords:
 - vbapp10.chm576012
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ParagraphFormat.FarEastLineBreakControl
 ms.assetid: ffc0cb13-b547-5a33-e661-8a2cc4237e88
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 09/08/2021
+ms.localizationpriority: medium
 ---
 
-
-# ParagraphFormat.FarEastLineBreakControl Property (PowerPoint)
+# ParagraphFormat.FarEastLineBreakControl property (PowerPoint)
 
 Returns or sets the line break control option if you have an Asian language setting specified. Read/write.
 
-
 ## Syntax
 
- _expression_. `FarEastLineBreakControl`
+_expression_. `FarEastLineBreakControl`
 
- _expression_ A variable that represents a [ParagraphFormat](./PowerPoint.ParagraphFormat.md) object.
-
+_expression_ A variable that represents a [ParagraphFormat](PowerPoint.ParagraphFormat.md) object.
 
 ## Return value
 
 MsoTriState
 
-
 ## Remarks
 
-The value of the  **FarEastLineBreakControl** property can be one of these **MsoTriState** constants.
+The value of the **FarEastLineBreakControl** property can be one of these **MsoTriState** constants.
 
-
-|||
+|Value|Description|
 |:-----|:-----|
 |**msoFalse**|The line break control option is not selected.|
 |**msoTrue**|The line break control option is selected.|
@@ -48,9 +42,7 @@ This example selects the line break option for the text in shape one on the firs
 ActivePresentation.Slides(1).Shapes(1).TextFrame.TextRange.ParagraphFormat.FarEastLineBreakControl = msoTrue
 ```
 
-
 ## See also
-
 
 [ParagraphFormat Object](PowerPoint.ParagraphFormat.md)
 

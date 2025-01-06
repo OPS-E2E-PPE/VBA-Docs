@@ -3,12 +3,11 @@ title: AccessObject.DateModified property (Access)
 keywords: vbaac10.chm12753
 f1_keywords:
 - vbaac10.chm12753
-ms.prod: access
 api_name:
 - Access.AccessObject.DateModified
 ms.assetid: a5392776-febe-de09-103d-2d2683f2d0bf
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

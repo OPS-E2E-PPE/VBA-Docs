@@ -3,18 +3,17 @@ title: Application.DDEInitiate method (Access)
 keywords: vbaac10.chm12539
 f1_keywords:
 - vbaac10.chm12539
-ms.prod: access
 api_name:
 - Access.Application.DDEInitiate
 ms.assetid: 7b05c3ad-574e-d904-5d50-ff646486ef07
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DDEInitiate method (Access)
 
-You can use the **DDEInitiate** function to begin a dynamic data exchange (DDE) conversation with another application. The **DDEInitiate** function opens a DDE channel for transfer of data between a DDE server and a client application.
+Use the **DDEInitiate** function to begin a dynamic data exchange (DDE) conversation with another application. The **DDEInitiate** function opens a DDE channel for transfer of data between a DDE server and a client application.
 
 
 ## Syntax
@@ -47,7 +46,7 @@ If the application isn't already running or if it's running but doesn't recogniz
 The value of the _topic_ argument depends on the application specified by the _application_ argument. For applications that use documents or data files, valid topic names often include the names of those files.
 
 > [!NOTE] 
-> The maximum number of channels that can be open simultaneously is determined by Microsoft Windows and your computer's memory and resources. If you aren't using a channel, you should conserve resources by terminating it with a **DDETerminate** or **DDETerminateAll** statement.
+> The maximum number of channels that can be open simultaneously is determined by Windows and your computer's memory and resources. If you aren't using a channel, you should conserve resources by terminating it with a **DDETerminate** or **DDETerminateAll** statement.
 
 If you need to manipulate another application's objects from Microsoft Access, you may want to consider using Automation.
 

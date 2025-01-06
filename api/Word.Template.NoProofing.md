@@ -3,12 +3,11 @@ title: Template.NoProofing property (Word)
 keywords: vbawd10.chm157941777
 f1_keywords:
 - vbawd10.chm157941777
-ms.prod: word
 api_name:
 - Word.Template.NoProofing
 ms.assetid: 201b9df1-a290-1d7a-569f-956b7bc2da4a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `NoProofing`
+_expression_. `NoProofing`
 
- _expression_ A variable that represents a '[Template](Word.Template.md)' object.
+_expression_ A variable that represents a '[Template](Word.Template.md)' object.
 
 
 ## See also

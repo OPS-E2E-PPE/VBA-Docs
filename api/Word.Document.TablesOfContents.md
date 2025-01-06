@@ -3,30 +3,29 @@ title: Document.TablesOfContents property (Word)
 keywords: vbawd10.chm158007327
 f1_keywords:
 - vbawd10.chm158007327
-ms.prod: word
 api_name:
 - Word.Document.TablesOfContents
 ms.assetid: 8c9e923d-c363-281f-d287-3501b980804e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Document.TablesOfContents property (Word)
 
-Returns a  **[TablesOfContents](Word.tablesofcontents.md)** collection that represents the tables of contents in the specified document. Read-only.
+Returns a **[TablesOfContents](Word.tablesofcontents.md)** collection that represents the tables of contents in the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `TablesOfContents`
+_expression_. `TablesOfContents`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

@@ -3,18 +3,17 @@ title: Attachment.BorderColor property (Access)
 keywords: vbaac10.chm13929
 f1_keywords:
 - vbaac10.chm13929
-ms.prod: access
 api_name:
 - Access.Attachment.BorderColor
 ms.assetid: cd43f030-f832-c58a-a374-67a349c3d499
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.BorderColor property (Access)
 
-You can use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
+Use the **BorderColor** property to specify the color of a control's border. Read/write **Long**.
 
 
 ## Syntax

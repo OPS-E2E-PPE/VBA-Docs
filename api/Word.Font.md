@@ -3,12 +3,11 @@ title: Font object (Word)
 keywords: vbawd10.chm2386
 f1_keywords:
 - vbawd10.chm2386
-ms.prod: word
 api_name:
 - Word.Font
 ms.assetid: bc97f4df-fc81-d6c8-e99a-d50dc793b7ae
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Contains font attributes (such as font name, font size and color) for an object.
 
 ## Remarks
 
-Use the  **Font** property to return the **Font** object. The following instruction applies bold formatting to the selection.
+Use the **Font** property to return the **Font** object. The following instruction applies bold formatting to the selection.
 
 
 ```vb
@@ -52,7 +51,7 @@ With ActiveDocument.Styles(wdStyleHeading2).Font
 End With
 ```
 
-You can use the  **New** keyword to create a new, stand-alone **Font** object. The following example creates a **Font** object, sets some formatting properties, and then applies the **Font** object to the first paragraph in the active document.
+Use the **New** keyword to create a new, stand-alone **Font** object. The following example creates a **Font** object, sets some formatting properties, and then applies the **Font** object to the first paragraph in the active document.
 
 
 
@@ -64,7 +63,7 @@ myFont.Name = "Arial"
 ActiveDocument.Paragraphs(1).Range.Font = myFont
 ```
 
-You can also duplicate a  **Font** object by using the **Duplicate** property. The following example creates a new character style with the character formatting from the selection and italic formatting. The formatting of the selection is not changed.
+You can also duplicate a **Font** object by using the **Duplicate** property. The following example creates a new character style with the character formatting from the selection and italic formatting. The formatting of the selection is not changed.
 
 
 
@@ -81,6 +80,6 @@ ActiveDocument.Styles.Add(Name:="Italics", _
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,29 +1,29 @@
 ---
-title: Assignment.Flag8 Property (Project)
-ms.prod: project-server
+title: Assignment.Flag8 property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.Flag8
 ms.assetid: 053c6f11-3881-8872-39b8-40c61ab621f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.Flag8 Property (Project)
+# Assignment.Flag8 property (Project)
 
  **True** if the flag associated with an **Assignment** is set. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag8`
+_expression_. `Flag8`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

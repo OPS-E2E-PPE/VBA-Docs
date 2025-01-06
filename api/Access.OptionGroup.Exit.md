@@ -3,12 +3,11 @@ title: OptionGroup.Exit event (Access)
 keywords: vbaac10.chm14188
 f1_keywords:
 - vbaac10.chm14188
-ms.prod: access
 api_name:
 - Access.OptionGroup.Exit
 ms.assetid: 2c8000f7-256d-232a-c2ac-f027eac7bc6a
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

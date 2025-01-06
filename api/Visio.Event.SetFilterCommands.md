@@ -1,27 +1,26 @@
 ---
-title: Event.SetFilterCommands Method (Visio)
+title: Event.SetFilterCommands method (Visio)
 keywords: vis_sdr.chm12650830
 f1_keywords:
 - vis_sdr.chm12650830
-ms.prod: visio
 api_name:
 - Visio.Event.SetFilterCommands
 ms.assetid: ef4550c8-e77b-032f-52b2-7e2d18b2316f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Event.SetFilterCommands Method (Visio)
+# Event.SetFilterCommands method (Visio)
 
-Specifies an array of command ranges and a  **True** or **False** value indicating how to filter events for each command range.
+Specifies an array of command ranges and a **True** or **False** value indicating how to filter events for each command range.
 
 
 ## Syntax
 
- _expression_. `SetFilterCommands`( `_Commands()_` )
+_expression_. `SetFilterCommands`( `_Commands()_` )
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Specifies an array of command ranges and a  **True** or **False** value indicati
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Commands()_|Required| **Long**|An array of command ranges and a  **True** or **False** value specifying how to filter events for each command range.|
+| _Commands()_|Required| **Long**|An array of command ranges and a **True** or **False** value specifying how to filter events for each command range.|
 
 ## Return value
 
@@ -39,18 +38,18 @@ Nothing
 
 ## Remarks
 
-When an  **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterCommands** method provides a way of ignoring selected events based on command ID.
+When an **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterCommands** method provides a way of ignoring selected events based on command ID.
 
 The  _Commands()_ parameter passed to **SetFilterCommands** is an array defined in the following way.
 
 The number of elements in  _Commands()_ is a multiple of 3:
 
 
-- The first element contains the beginning command ID of the range (any member of  **VisUICmds**).
+- The first element contains the beginning command ID of the range (any member of **VisUICmds**).
     
-- The second element contains the end command ID of the range (any member of  **VisUICmds**).
+- The second element contains the end command ID of the range (any member of **VisUICmds**).
     
-- The third element contains a  **True** or **False** value, which indicates whether you are listening to events for that command range (**True** to listen to events; **False** to exclude events).
+- The third element contains a **True** or **False** value, which indicates whether you are listening to events for that command range (**True** to listen to events; **False** to exclude events).
     
 
 
@@ -61,15 +60,15 @@ For an event to successfully pass through a command filter, it must satisfy the 
 
 - It must have a valid command ID.
     
-- If all filters are  **True** , the event must match at least one filter.
+- If all filters are **True**, the event must match at least one filter.
     
-- If all filters are  **False** , the event must not match any filter.
+- If all filters are **False**, the event must not match any filter.
     
-- If the filters are a mixture of  **True** and **False** , the event must match at least one **True** filter and not match any **False** filters.
+- If the filters are a mixture of **True** and **False**, the event must match at least one **True** filter and not match any **False** filters.
     
 
 
-If there are no  **True** ranges in the array, events are considered **True**.
+If there are no **True** ranges in the array, events are considered **True**.
 
 For example, to set up an array that blocks out a single command, use the following: 
 
@@ -87,7 +86,7 @@ For example, to set up an array that blocks out a single command, use the follow
 
 ```
 
-Or, to set up an array that listens only to the  **Send to Back** command:
+Or, to set up an array that listens only to the **Send to Back** command:
 
 
 

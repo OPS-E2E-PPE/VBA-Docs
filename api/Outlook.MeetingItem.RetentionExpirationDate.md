@@ -1,27 +1,26 @@
 ---
-title: MeetingItem.RetentionExpirationDate Property (Outlook)
+title: MeetingItem.RetentionExpirationDate property (Outlook)
 keywords: vbaol11.chm3560
 f1_keywords:
 - vbaol11.chm3560
-ms.prod: outlook
 api_name:
 - Outlook.MeetingItem.RetentionExpirationDate
 ms.assetid: 81ce85c5-0b0e-40b0-563a-8654cd3dece4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.RetentionExpirationDate Property (Outlook)
+# MeetingItem.RetentionExpirationDate property (Outlook)
 
-Returns a  **Date** that specifies the date when the **[MeetingItem](Outlook.MeetingItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
+Returns a **Date** that specifies the date when the **[MeetingItem](Outlook.MeetingItem.md)** object expires, after which the Messaging Records Management (MRM) Assistant will delete the item. Read-only.
 
 
 ## Syntax
 
 _expression_. `RetentionExpirationDate`
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Remarks

@@ -1,24 +1,24 @@
 ---
-title: Tasks.Item Property (Project)
-ms.prod: project-server
+title: Tasks.Item property (Project)
+ms.service: project-server
 api_name:
 - Project.Tasks.Item
 ms.assetid: 2bbdddae-38f7-6740-0694-73e0cf838e90
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tasks.Item Property (Project)
+# Tasks.Item property (Project)
 
-Gets a single  **Task** object from the **Tasks** collection. Read-only **Task**.
+Gets a single **Task** object from the **Tasks** collection. Read-only **Task**.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a 'Tasks' object.
+_expression_ A variable that represents a 'Tasks' object.
 
 
 ## Parameters

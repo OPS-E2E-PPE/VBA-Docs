@@ -3,18 +3,17 @@ title: Report.Pages property (Access)
 keywords: vbaac10.chm13722
 f1_keywords:
 - vbaac10.chm13722
-ms.prod: access
 api_name:
 - Access.Report.Pages
 ms.assetid: b97a6878-0a2c-3834-8f3d-6f4460dab3bd
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Report.Pages property (Access)
 
-You can use the **Pages** property to return information needed to print page numbers in a report. Read/write **Integer**.
+Use the **Pages** property to return information needed to print page numbers in a report. Read/write **Integer**.
 
 
 ## Syntax

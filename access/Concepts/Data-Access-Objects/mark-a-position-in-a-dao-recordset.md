@@ -1,9 +1,8 @@
 ---
 title: Mark a position in a DAO Recordset
-ms.prod: access
 ms.assetid: 52e378ab-0e03-cc5f-b215-834efe0f2667
 ms.date: 09/21/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -153,6 +152,6 @@ Dim varBookMark As Variant
 You can also use the DAO **Bookmark** property on the **Recordset** object underlying a form. With this property, your code can mark which record is currently displayed on the form, and then change the record that is being displayed. For example, on a form containing employee information, you may want to include a button that a user can click to show the record for an employee's supervisor.
 
 > [!NOTE] 
-> Dynasets based on certain linked tables, such as Paradox tables that have no primary key, do not support bookmarks, nor do forward-only-type **Recordset** objects. You can determine whether a given **Recordset** object supports bookmarks by checking the value of the **[Bookmarkable](../../../api/overview/Access.md)** property.
+> Dynasets based on certain linked tables, such as Paradox tables that have no primary key, don't support bookmarks, nor do forward-only-type **Recordset** objects. You can determine whether a given **Recordset** object supports bookmarks by checking the value of the **[Bookmarkable](../../../api/overview/Access.md)** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

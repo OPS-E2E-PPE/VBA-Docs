@@ -3,12 +3,11 @@ title: TextBox.OnChange property (Access)
 keywords: vbaac10.chm11117
 f1_keywords:
 - vbaac10.chm11117
-ms.prod: access
 api_name:
 - Access.TextBox.OnChange
 ms.assetid: ea25341f-fd30-62b1-476d-29febf4db4b4
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -32,11 +31,11 @@ The **[Change](access.TextBox.change.md)** event occurs when the contents of a t
 
 The **OnChange** value will be one of the following, depending on the selection chosen in the Choose Builder window (accessed by choosing the **Build** button next to the **On Change** box in the object's Properties window):
 
-- If Expression Builder is chosen, the value will be "=_expression_", where _expression_ is the expression from the Expression Builder window.
+- If you choose Expression Builder, the value will be =_expression_, where _expression_ is the expression from the Expression Builder window.
     
-- If Macro Builder is chosen, the value is the name of the macro. 
+- If you choose Macro Builder, the value is the name of the macro. 
     
-- If Code Builder is chosen, the value will be "[Event Procedure]". 
+- If you choose Code Builder, the value will be [Event Procedure]. 
     
 If the **On Change** box is blank, the property value is an empty string.
 

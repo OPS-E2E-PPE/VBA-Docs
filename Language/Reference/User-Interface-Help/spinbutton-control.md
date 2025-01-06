@@ -3,10 +3,9 @@ title: SpinButton control
 keywords: fm20.chm5224986
 f1_keywords:
 - fm20.chm5224986
-ms.prod: office
 ms.assetid: 4fca5573-f581-3e1c-55d5-a1e34ec96b04
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

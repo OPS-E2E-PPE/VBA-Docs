@@ -3,25 +3,24 @@ title: HangulHanjaConversionDictionaries.ActiveCustomDictionary property (Word)
 keywords: vbawd10.chm165675011
 f1_keywords:
 - vbawd10.chm165675011
-ms.prod: word
 api_name:
 - Word.HangulHanjaConversionDictionaries.ActiveCustomDictionary
 ms.assetid: 3e1d8fd9-eee8-eb18-f4db-6a9e5379436e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HangulHanjaConversionDictionaries.ActiveCustomDictionary property (Word)
 
-Returns or sets a  **[Dictionary](Word.Dictionary.md)** object that represents the custom dictionary to which words will be added. Read/write.
+Returns or sets a **[Dictionary](Word.Dictionary.md)** object that represents the custom dictionary to which words will be added. Read/write.
 
 
 ## Syntax
 
- _expression_. `ActiveCustomDictionary`
+_expression_. `ActiveCustomDictionary`
 
- _expression_ A variable that represents a '[HangulHanjaConversionDictionaries](Word.hangulhanjaconversiondictionaries.md)' collection.
+_expression_ A variable that represents a '[HangulHanjaConversionDictionaries](Word.hangulhanjaconversiondictionaries.md)' collection.
 
 
 ## Example

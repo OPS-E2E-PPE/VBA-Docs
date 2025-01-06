@@ -3,18 +3,17 @@ title: BoundObjectFrame.TabStop property (Access)
 keywords: vbaac10.chm10925
 f1_keywords:
 - vbaac10.chm10925
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.TabStop
 ms.assetid: 9bcec2a4-c1b1-88db-e7b4-15e744c1e340
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.TabStop property (Access)
 
-You can use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
+Use the **TabStop** property to specify whether you can use the Tab key to move the focus to a control. Read/write **Boolean**.
 
 
 ## Syntax

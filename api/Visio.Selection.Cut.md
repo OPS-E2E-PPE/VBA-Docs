@@ -1,27 +1,26 @@
 ---
-title: Selection.Cut Method (Visio)
+title: Selection.Cut method (Visio)
 keywords: vis_sdr.chm11116160
 f1_keywords:
 - vis_sdr.chm11116160
-ms.prod: visio
 api_name:
 - Visio.Selection.Cut
 ms.assetid: 1f5d6f8a-81ab-3948-870c-a46a21f6b005
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Cut Method (Visio)
+# Selection.Cut method (Visio)
 
 Deletes a selection and places it on the Clipboard.
 
 
 ## Syntax
 
- _expression_. `Cut`( `_Flags_` )
+_expression_.**Cut** (_Flags_)
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -39,7 +38,7 @@ Nothing
 
 ## Remarks
 
-Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes** , and are described in the following table.
+Possible values for  _Flags_ are declared by the Visio type library in **VisCutCopyPasteCodes**, and are described in the following table.
 
 
 

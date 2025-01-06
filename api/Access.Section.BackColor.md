@@ -3,12 +3,11 @@ title: Section.BackColor property (Access)
 keywords: vbaac10.chm12201
 f1_keywords:
 - vbaac10.chm12201
-ms.prod: access
 api_name:
 - Access.Section.BackColor
 ms.assetid: 48f0287f-65e3-3cda-21a4-c062c71a710c
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

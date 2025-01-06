@@ -1,27 +1,26 @@
 ---
-title: Effect.MoveAfter Method (PowerPoint)
+title: Effect.MoveAfter method (PowerPoint)
 keywords: vbapp10.chm652006
 f1_keywords:
 - vbapp10.chm652006
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Effect.MoveAfter
 ms.assetid: 1d19f90c-51a6-d9bd-5593-53c67c7df415
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Effect.MoveAfter Method (PowerPoint)
+# Effect.MoveAfter method (PowerPoint)
 
 Moves one animation effect to after another animation effect.
 
 
 ## Syntax
 
- _expression_. `MoveAfter`( `_Effect_` )
+_expression_. `MoveAfter`( `_Effect_` )
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Example

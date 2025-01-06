@@ -1,18 +1,17 @@
 ---
-title: VisFlipTypes Enumeration (Visio)
+title: VisFlipTypes enumeration (Visio)
 keywords: vis_sdr.chm70405
 f1_keywords:
 - vis_sdr.chm70405
-ms.prod: visio
 ms.assetid: 002d1aff-3cc6-514d-c309-34fe128a7d15
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisFlipTypes Enumeration (Visio)
+# VisFlipTypes enumeration (Visio)
 
-Type constants to pass to the  **Selection.Flip** method.
+Type constants to pass to the **Selection.Flip** method.
 
 
 

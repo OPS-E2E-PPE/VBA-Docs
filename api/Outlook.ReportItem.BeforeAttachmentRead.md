@@ -1,24 +1,23 @@
 ---
-title: ReportItem.BeforeAttachmentRead Event (Outlook)
-ms.prod: outlook
+title: ReportItem.BeforeAttachmentRead event (Outlook)
 api_name:
 - Outlook.ReportItem.BeforeAttachmentRead
 ms.assetid: 65377c41-b51a-779c-9892-a61cc6e9b9da
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ReportItem.BeforeAttachmentRead Event (Outlook)
+# ReportItem.BeforeAttachmentRead event (Outlook)
 
-Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an  **[Attachment](Outlook.Attachment.md)** object.
+Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an **[Attachment](Outlook.Attachment.md)** object.
 
 
 ## Syntax
 
 _expression_. `BeforeAttachmentRead`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) object.
+_expression_ A variable that represents a [ReportItem](Outlook.ReportItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [ReportItem](./Outlook.ReportItem.md) 
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **Attachment**|The  **Attachment** to be read.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be read.|
+| _Attachment_|Required| **Attachment**|The **Attachment** to be read.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be read.|
 
 ## See also
 

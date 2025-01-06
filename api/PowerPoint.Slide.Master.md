@@ -1,27 +1,26 @@
 ---
-title: Slide.Master Property (PowerPoint)
+title: Slide.Master property (PowerPoint)
 keywords: vbapp10.chm531023
 f1_keywords:
 - vbapp10.chm531023
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Slide.Master
 ms.assetid: cec5385d-f6af-dd8d-7989-251a70c4937e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Slide.Master Property (PowerPoint)
+# Slide.Master property (PowerPoint)
 
-Returns a  **[Master](PowerPoint.Master.md)** object that represents the slide master. Read-only.
+Returns a **[Master](PowerPoint.Master.md)** object that represents the slide master. Read-only.
 
 
 ## Syntax
 
- _expression_. `Master`
+_expression_. `Master`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

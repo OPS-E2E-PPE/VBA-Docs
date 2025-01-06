@@ -1,11 +1,10 @@
 ---
 title: EffectParameter.Application property (Office)
-ms.prod: office
 api_name:
 - Office.EffectParameter.Application
 ms.assetid: bc93ff0c-f592-feb6-8116-55ae6a4c98f6
 ms.date: 01/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

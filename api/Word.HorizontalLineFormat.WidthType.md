@@ -3,25 +3,24 @@ title: HorizontalLineFormat.WidthType property (Word)
 keywords: vbawd10.chm165543941
 f1_keywords:
 - vbawd10.chm165543941
-ms.prod: word
 api_name:
 - Word.HorizontalLineFormat.WidthType
 ms.assetid: 41d2ecc7-625e-5a62-8f68-f2982e04c6db
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # HorizontalLineFormat.WidthType property (Word)
 
-Returns or sets the width type for the specified  **HorizontalLineFormat** object. Read/write **WdHorizontalLineWidthType**.
+Returns or sets the width type for the specified **HorizontalLineFormat** object. Read/write **WdHorizontalLineWidthType**.
 
 
 ## Syntax
 
- _expression_. `WidthType`
+_expression_. `WidthType`
 
- _expression_ Required. A variable that represents a '[HorizontalLineFormat](Word.HorizontalLineFormat.md)' object.
+_expression_ Required. A variable that represents a '[HorizontalLineFormat](Word.HorizontalLineFormat.md)' object.
 
 
 ## Example

@@ -1,29 +1,29 @@
 ---
-title: Resource.Overallocated Property (Project)
-ms.prod: project-server
+title: Resource.Overallocated property (Project)
+ms.service: project-server
 api_name:
 - Project.Resource.Overallocated
 ms.assetid: 4cb06be7-0140-1bd0-3314-2a6b50d5a51b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resource.Overallocated Property (Project)
+# Resource.Overallocated property (Project)
 
  **True** if a resource is overallocated. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Overallocated`
+_expression_. `Overallocated`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **Overallocated** property does not return any meaningful information for material resources.
+The **Overallocated** property does not return any meaningful information for material resources.
 
 
 ## Example

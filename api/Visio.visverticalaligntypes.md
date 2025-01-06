@@ -1,18 +1,17 @@
 ---
-title: VisVerticalAlignTypes Enumeration (Visio)
+title: VisVerticalAlignTypes enumeration (Visio)
 keywords: vis_sdr.chm70385
 f1_keywords:
 - vis_sdr.chm70385
-ms.prod: visio
 ms.assetid: 6676eedb-bdb6-6205-41a1-2cbecd5f51fc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisVerticalAlignTypes Enumeration (Visio)
+# VisVerticalAlignTypes enumeration (Visio)
 
-Vertical alignment type values to pass to the  **Selection.Align** method.
+Vertical alignment type values to pass to the **Selection.Align** method.
 
 
 

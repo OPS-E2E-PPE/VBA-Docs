@@ -1,10 +1,11 @@
 ---
 title: Enumerations (Excel)
 description: Documentation for the enumerations in the VBA Excel object model.
-ms.prod: excel
+ms.service: excel
 ms.assetid: c4e092c8-b843-44e1-bd87-419e545d1d10
 ms.date: 09/05/2018
-localization_priority: Priority
+ms.localizationpriority: medium
+ms.service: excel
 ---
 
 
@@ -119,8 +120,10 @@ This section contains documentation for the enumerations in the Excel object mod
 - [XlFormatConditionOperator](Excel.XlFormatConditionOperator.md)   
 - [XlFormatConditionType](Excel.XlFormatConditionType.md)           
 - [XlFormatFilterTypes](Excel.XlFormatFilterTypes.md)               
-- [XlFormulaLabel](Excel.XlFormulaLabel.md)                         
-- [XlGenerateTableRefs](Excel.XlGenerateTableRefs.md)               
+- [XlFormulaLabel](Excel.XlFormulaLabel.md)
+- [XlGenerateTableRefs](Excel.XlGenerateTableRefs.md)
+- [XLGeoMappingLevel](Excel.XLGeoMappingLevel.md)
+- [XlGeoProjectionType](Excel.XLGeoProjectionType.md)
 - [XlGradientFillType](Excel.XlGradientFillType.md)                 
 - [XlHAlign](Excel.XlHAlign.md)                                     
 - [XlHebrewModes](Excel.XlHebrewModes.md)                           
@@ -205,7 +208,8 @@ This section contains documentation for the enumerations in the Excel object mod
 - [XlRangeAutoFormat](Excel.XlRangeAutoFormat.md)                   
 - [XlRangeValueDataType](Excel.XlRangeValueDataType.md)             
 - [XlReferenceStyle](Excel.XlReferenceStyle.md)                     
-- [XlReferenceType](Excel.XlReferenceType.md)                       
+- [XlReferenceType](Excel.XlReferenceType.md)
+- [XlRegionLabelOptions](Excel.XlRegionLabelOptions.md)                  
 - [XlRemoveDocInfoType](Excel.XlRemoveDocInfoType.md)               
 - [XlRgbColor](Excel.XlRgbColor.md)                                 
 - [XlRobustConnect](Excel.XlRobustConnect.md)                       
@@ -245,7 +249,7 @@ This section contains documentation for the enumerations in the Excel object mod
 - [XlSpecialCellsValue](Excel.XlSpecialCellsValue.md)               
 - [XlStdColorScale](Excel.XlStdColorScale.md)                       
 - [XlSubscribeToFormat](Excel.XlSubscribeToFormat.md)               
-- [XlSubtototalLocationType](Excel.XlSubtototalLocationType.md)     
+- [XlSubtotalLocationType](Excel.XlSubtotalLocationType.md)     
 - [XlSummaryColumn](Excel.XlSummaryColumn.md)                       
 - [XlSummaryReportType](Excel.XlSummaryReportType.md)               
 - [XlSummaryRow](Excel.XlSummaryRow.md)                             

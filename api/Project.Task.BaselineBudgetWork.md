@@ -1,23 +1,23 @@
 ---
-title: Task.BaselineBudgetWork Property (Project)
-ms.prod: project-server
+title: Task.BaselineBudgetWork property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.BaselineBudgetWork
 ms.assetid: 5c08cb4f-001a-f3cd-02d1-ed44f53c1ecf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.BaselineBudgetWork Property (Project)
+# Task.BaselineBudgetWork property (Project)
 
-Gets or sets the baseline budget work hours for all non-cost resources assigned to the project summary task. Read/write  **Variant**.
+Gets or sets the baseline budget work hours for all non-cost resources assigned to the project summary task. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `BaselineBudgetWork`
+_expression_. `BaselineBudgetWork`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

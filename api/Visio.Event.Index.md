@@ -1,27 +1,26 @@
 ---
-title: Event.Index Property (Visio)
+title: Event.Index property (Visio)
 keywords: vis_sdr.chm12613695
 f1_keywords:
 - vis_sdr.chm12613695
-ms.prod: visio
 api_name:
 - Visio.Event.Index
 ms.assetid: 256aaa57-b69b-4d10-63af-088d455ee851
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Event.Index Property (Visio)
+# Event.Index property (Visio)
 
-Gets the ordinal position of an  **Event** object in the **EventList** collection. Read-only.
+Gets the ordinal position of an **Event** object in the **EventList** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Index`
+_expression_.**Index**
 
- _expression_ A variable that represents a [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value
@@ -31,6 +30,6 @@ Integer
 
 ## Remarks
 
-Most collections are indexed starting with 1 rather than zero (0), so the index of the first element is 1, the index of the second element is 2, and so forth. The index of the last element in a collection is the same as the value of that collection's  **Count** property. You can iterate through a collection by using these index values. Adding objects to or deleting objects from a collection can change the index values of other objects in the collection.
+Most collections are indexed starting with 1 rather than zero (0), so the index of the first element is 1, the index of the second element is 2, and so forth. The index of the last element in a collection is the same as the value of that collection's **Count** property. You can iterate through a collection by using these index values. Adding objects to or deleting objects from a collection can change the index values of other objects in the collection.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

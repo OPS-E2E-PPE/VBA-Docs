@@ -3,23 +3,22 @@ title: SynonymInfo.RelatedExpressionList property (Word)
 keywords: vbawd10.chm161153033
 f1_keywords:
 - vbawd10.chm161153033
-ms.prod: word
 api_name:
 - Word.SynonymInfo.RelatedExpressionList
 ms.assetid: a7ce0fa7-cffb-a569-0a2a-894ede869f26
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SynonymInfo.RelatedExpressionList property (Word)
 
-Returns a list of expressions related to the specified word or phrase. The list is returned as an array of strings. Read-only  **Variant**.
+Returns a list of expressions related to the specified word or phrase. The list is returned as an array of strings. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `RelatedExpressionList`
+_expression_. `RelatedExpressionList`
 
  _expression_ An expression that returns a '[SynonymInfo](Word.SynonymInfo.md)' object.
 

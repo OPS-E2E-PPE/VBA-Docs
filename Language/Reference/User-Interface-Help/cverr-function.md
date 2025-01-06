@@ -3,10 +3,9 @@ title: CVErr function (Visual Basic for Applications)
 keywords: vblr6.chm1008821
 f1_keywords:
 - vblr6.chm1008821
-ms.prod: office
 ms.assetid: 244ab040-3816-a744-7afb-06675a4b076d
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Note that implicit conversion of an **Error** is not allowed. For example, you c
 
 ## Example
 
-This example uses the **CVErr** function to return a **Variant** whose **VarType** is **vbError** (10). The user-defined function `CalculateDouble` returns an error if the argument passed to it isn't a number. You can use **CVErr** to return user-defined errors from user-defined procedures or to defer handling of a run-time error. Use the **[IsError](iserror-function.md)** function to test if the value represents an error.
+This example uses the **CVErr** function to return a **Variant** whose **VarType** is **vbError** (10). The user-defined function `CalculateDouble` returns an error if the argument passed to it isn't a number. Use **CVErr** to return user-defined errors from user-defined procedures or to defer handling of a run-time error. Use the **[IsError](iserror-function.md)** function to test if the value represents an error.
 
 
 ```vb

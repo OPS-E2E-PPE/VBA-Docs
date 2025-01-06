@@ -3,23 +3,22 @@ title: Pane object (Word)
 keywords: vbawd10.chm2400
 f1_keywords:
 - vbawd10.chm2400
-ms.prod: word
 api_name:
 - Word.Pane
 ms.assetid: 4a0c2690-d9d2-4e34-fef4-cc41365f5251
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Pane object (Word)
 
-Represents a window pane. The  **Pane** object is a member of the **Panes** collection. The **[Panes](Word.panes.md)** collection includes all the window panes for a single window.
+Represents a window pane. The **Pane** object is a member of the **Panes** collection. The **[Panes](Word.panes.md)** collection includes all the window panes for a single window.
 
 
 ## Remarks
 
-Use  **Panes** (Index), where Index is the index number, to return a single **Pane** object. The following example closes the active pane.
+Use **Panes** (Index), where Index is the index number, to return a single **Pane** object. The following example closes the active pane.
 
 
 ```vb
@@ -27,7 +26,7 @@ If ActiveDocument.ActiveWindow.Panes.Count >= 2 Then _
  ActiveDocument.ActiveWindow.ActivePane.Close
 ```
 
-Use the  **Add** method or the **Split** property to add a window pane. The following example splits the active window at 20 percent of the current window size.
+Use the **Add** method or the **Split** property to add a window pane. The following example splits the active window at 20 percent of the current window size.
 
 
 
@@ -45,7 +44,7 @@ The following example splits the active window in half.
 ActiveDocument.ActiveWindow.Split = True
 ```
 
-You can use the  **SplitSpecial** property to show comments, footnotes, or endnotes in a separate pane.
+Use the **SplitSpecial** property to show comments, footnotes, or endnotes in a separate pane.
 
 A window has more than one pane if the window is split or the view is not print layout view and information such as footnotes or comments are displayed. The following example displays the comments pane in normal view and then prompts to close the pane.
 
@@ -67,6 +66,6 @@ End If
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,10 +3,9 @@ title: Environ function (Visual Basic for Applications)
 keywords: vblr6.chm1013110
 f1_keywords:
 - vblr6.chm1013110
-ms.prod: office
 ms.assetid: ad8cb911-5dab-a327-bd9c-ee57818a713a
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns the **String** associated with an operating system environment variable.
 ## Syntax
 
 **Environ**( { _envstring_ | _number_ } )
-
-<br/>
 
 The **Environ** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

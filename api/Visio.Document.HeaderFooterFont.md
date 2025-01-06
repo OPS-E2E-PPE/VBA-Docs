@@ -1,27 +1,26 @@
 ---
-title: Document.HeaderFooterFont Property (Visio)
+title: Document.HeaderFooterFont property (Visio)
 keywords: vis_sdr.chm10550640
 f1_keywords:
 - vis_sdr.chm10550640
-ms.prod: visio
 api_name:
 - Visio.Document.HeaderFooterFont
 ms.assetid: cd4b1f35-c3a2-d48c-fc0d-37f9626ecdab
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.HeaderFooterFont Property (Visio)
+# Document.HeaderFooterFont property (Visio)
 
 Specifies the font used for the header and footer text. Read/write.
 
 
 ## Syntax
 
- _expression_. `HeaderFooterFont`
+_expression_.**HeaderFooterFont**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ COM provides a standard implementation of a font object with the **IFontDisp** i
 To get information about the **StdFont** object that supports the **IFontDisp** interface:
 
 
-1. In the **Code** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
+1. In the **Code** group on the **[Developer](../visio/How-to/run-visio-in-developer-mode.md)** tab, click **Visual Basic**.
     
 2. On the **View** menu, click **Object Browser**.
     

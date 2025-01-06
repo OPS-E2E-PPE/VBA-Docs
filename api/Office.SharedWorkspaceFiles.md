@@ -3,12 +3,11 @@ title: SharedWorkspaceFiles object (Office)
 keywords: vbaof11.chm267000
 f1_keywords:
 - vbaof11.chm267000
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFiles
 ms.assetid: 5e2937f7-f794-dffb-a1ec-69ea9a9e3546
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -28,7 +27,7 @@ Use the **[Files](Office.SharedWorkspace.Files.md)** property of the **[SharedWo
 ```vb
     Dim swsFiles As Office.SharedWorkspaceFiles 
     Set swsFiles = ActiveWorkbook.SharedWorkspace.Files 
-    MsgBox "There are " &amp; swsFiles.Count &amp; _ 
+    MsgBox "There are " & swsFiles.Count & _ 
         " file(s) 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

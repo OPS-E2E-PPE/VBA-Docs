@@ -1,32 +1,29 @@
 ---
-title: ShadowFormat.IncrementOffsetX Method (PowerPoint)
+title: ShadowFormat.IncrementOffsetX method (PowerPoint)
 keywords: vbapp10.chm554002
 f1_keywords:
 - vbapp10.chm554002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShadowFormat.IncrementOffsetX
 ms.assetid: 29fbda10-d3ed-963f-364d-5a5bbce92f34
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShadowFormat.IncrementOffsetX Method (PowerPoint)
+# ShadowFormat.IncrementOffsetX method (PowerPoint)
 
 Changes the horizontal offset of the shadow by the specified number of points. 
 
 
 ## Syntax
 
- _expression_. `IncrementOffsetX`( `_Increment_` )
+_expression_.**IncrementOffsetX** (_Increment_)
 
- _expression_ A variable that represents an [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents an [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,12 +31,12 @@ Changes the horizontal offset of the shadow by the specified number of points.
 
 ## Remarks
 
-Use the  **[OffsetX](PowerPoint.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
+Use the **[OffsetX](PowerPoint.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
 
 
 ## Example
 
-This example moves the shadow for shape three on  `myDocument` to the left by 3 points.
+This example moves the shadow for shape three on _myDocument_ to the left by 3 points.
 
 
 ```vb

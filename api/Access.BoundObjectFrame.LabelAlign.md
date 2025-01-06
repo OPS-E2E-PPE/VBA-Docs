@@ -3,12 +3,11 @@ title: BoundObjectFrame.LabelAlign property (Access)
 keywords: vbaac10.chm10949
 f1_keywords:
 - vbaac10.chm10949
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.LabelAlign
 ms.assetid: 760ec42b-01ee-eb3f-2998-79ea7caf5578
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

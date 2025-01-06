@@ -3,10 +3,9 @@ title: Hour function (Visual Basic for Applications)
 keywords: vblr6.chm1008939
 f1_keywords:
 - vblr6.chm1008939
-ms.prod: office
 ms.assetid: cf0800d1-6e26-71ad-ec8d-09e4876bf469
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

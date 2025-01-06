@@ -3,12 +3,11 @@ title: Options.SendMailAttach property (Word)
 keywords: vbawd10.chm162988056
 f1_keywords:
 - vbawd10.chm162988056
-ms.prod: word
 api_name:
 - Word.Options.SendMailAttach
 ms.assetid: e749ca30-089f-5116-ce70-a3d760006a2c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `SendMailAttach`
+_expression_. `SendMailAttach`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ Options.SendMailAttach = True
 ActiveDocument.SendMail
 ```
 
-This example returns the state of the  **Mail as attachment** option on the **General** tab of the **Options** dialog box.
+This example returns the state of the **Mail as attachment** option on the **General** tab of the **Options** dialog box.
 
 
 

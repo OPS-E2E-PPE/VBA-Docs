@@ -3,12 +3,11 @@ title: Application.ColumnHistory method (Access)
 keywords: vbaac10.chm12620
 f1_keywords:
 - vbaac10.chm12620
-ms.prod: access
 api_name:
 - Access.Application.ColumnHistory
 ms.assetid: e2c1b71f-6561-b38d-8173-9926bc4bd9da
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,7 +29,7 @@ _expression_ A variable that represents an **[Application](Access.Application.md
 |:-----|:-----|:-----|:-----|
 | _TableName_|Required|**String**|The name of the table that contains the **Append Only** field.|
 | _ColumnName_|Required|**String**|The name of the field to display the history for.|
-| _queryString_|Required|**String**|A **String** used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.|
+| _queryString_|Required|**String**|A **String** used to locate the record. It's like the WHERE clause in an SQL statement, but without the word WHERE.|
 
 ## Return value
 

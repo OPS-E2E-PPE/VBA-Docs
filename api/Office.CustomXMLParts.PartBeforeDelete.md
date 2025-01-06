@@ -3,12 +3,11 @@ title: CustomXMLParts.PartBeforeDelete event (Office)
 keywords: vbaof11.chm299002
 f1_keywords:
 - vbaof11.chm299002
-ms.prod: office
 api_name:
 - Office.CustomXMLParts.PartBeforeDelete
 ms.assetid: 50fa1172-3eac-e091-660e-693a91aaf330
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -39,7 +38,7 @@ The following example confirms that the user wants to delete the custom XML part
 Sub CustomXMLParts_PartBeforeDelete(ByVal oldPart As CustomXMLPart) 
 Dim result As Boolean 
  
-result = MsgBox("Are you sure you want to delete the " &amp; oldPart.ID &amp; " part?", vbYesNo) 
+result = MsgBox("Are you sure you want to delete the " & oldPart.ID & " part?", vbYesNo) 
  
 If result Then 
    oldPart.Delete 

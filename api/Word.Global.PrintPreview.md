@@ -3,12 +3,11 @@ title: Global.PrintPreview property (Word)
 keywords: vbawd10.chm163119131
 f1_keywords:
 - vbawd10.chm163119131
-ms.prod: word
 api_name:
 - Word.Global.PrintPreview
 ms.assetid: f9da7e12-0d4b-4d1c-fd53-219f0f9c146f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintPreview`
+_expression_. `PrintPreview`
 
- _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Example

@@ -1,38 +1,37 @@
 ---
-title: RotationEffect.By Property (PowerPoint)
+title: RotationEffect.By property (PowerPoint)
 keywords: vbapp10.chm661003
 f1_keywords:
 - vbapp10.chm661003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.RotationEffect.By
 ms.assetid: 508d7a3e-ac92-af60-9f68-d394e78db363
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# RotationEffect.By Property (PowerPoint)
+# RotationEffect.By property (PowerPoint)
 
-Sets or returns a  **Single** that represents the rotation of an object by the specified number of degrees; for example, a value of 180 means to rotate the object by 180 degrees. Read/write.
+Sets or returns a **Single** that represents the rotation of an object by the specified number of degrees; for example, a value of 180 means to rotate the object by 180 degrees. Read/write.
 
 
 ## Syntax
 
- _expression_. `By`
+_expression_. `By`
 
- _expression_ A variable that represents a [RotationEffect](./PowerPoint.RotationEffect.md) object.
+_expression_ A variable that represents a [RotationEffect](PowerPoint.RotationEffect.md) object.
 
 
 ## Remarks
 
 The specified object will be rotated with the center of the object remaining in the same position on the screen.
 
-If both the  **By** and **[To](PowerPoint.RotationEffect.To.md)** properties are set for a rotation effect, then the value of the **By** property is ignored.
+If both the **By** and **[To](PowerPoint.RotationEffect.To.md)** properties are set for a rotation effect, then the value of the **By** property is ignored.
 
 Floating point numbers (for example, 55.5) are valid, but negative numbers are not.
 
-Do not confuse this property with the  **ByX** or **ByY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
+Do not confuse this property with the **ByX** or **ByY** properties of the **[ScaleEffect](PowerPoint.ScaleEffect.md)** and **[MotionEffect](PowerPoint.MotionEffect.md)** objects, which are only used for scaling or motion effects.
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: WdOriginalFormat enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdOriginalFormat
 ms.assetid: d315f553-b84f-364d-35d0-1fe0340435e0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,25 +3,24 @@ title: ListFormat.ConvertNumbersToText method (Word)
 keywords: vbawd10.chm163578042
 f1_keywords:
 - vbawd10.chm163578042
-ms.prod: word
 api_name:
 - Word.ListFormat.ConvertNumbersToText
 ms.assetid: 5ba6d823-dadb-1059-d439-0e556d91058f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListFormat.ConvertNumbersToText method (Word)
 
-Changes the list numbers and LISTNUM fields in the specified  **ListFormat** object to text.
+Changes the list numbers and LISTNUM fields in the specified **ListFormat** object to text.
 
 
 ## Syntax
 
- _expression_. `ConvertNumbersToText`
+_expression_. `ConvertNumbersToText`
 
- _expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
+_expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Example

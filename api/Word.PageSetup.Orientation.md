@@ -3,30 +3,29 @@ title: PageSetup.Orientation property (Word)
 keywords: vbawd10.chm158400619
 f1_keywords:
 - vbawd10.chm158400619
-ms.prod: word
 api_name:
 - Word.PageSetup.Orientation
 ms.assetid: 7761b95d-b6dc-7f2f-94b9-7e1d45a85498
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageSetup.Orientation property (Word)
 
-Returns or sets the orientation of the page. Read/write  **[WdOrientation](Word.WdOrientation.md)**.
+Returns or sets the orientation of the page. Read/write **[WdOrientation](Word.WdOrientation.md)**.
 
 
 ## Syntax
 
- _expression_. `Orientation`
+_expression_.**Orientation**
 
- _expression_ Required. A variable that represents a '[PageSetup](Word.PageSetup.md)' object.
+_expression_ Required. A variable that represents a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-Some of the  **WdOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
+Some of the **WdOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 
 
 ## Example

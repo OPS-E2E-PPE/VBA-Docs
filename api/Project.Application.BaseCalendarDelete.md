@@ -1,27 +1,27 @@
 ---
-title: Application.BaseCalendarDelete Method (Project)
+title: Application.BaseCalendarDelete method (Project)
 keywords: vbapj.chm619
 f1_keywords:
 - vbapj.chm619
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.BaseCalendarDelete
 ms.assetid: f9583bd7-6ddb-7115-b7ca-c0e4e8b033e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.BaseCalendarDelete Method (Project)
+# Application.BaseCalendarDelete method (Project)
 
 Deletes a base calendar.
 
 
 ## Syntax
 
- _expression_. `BaseCalendarDelete`( `_Name_` )
+_expression_. `BaseCalendarDelete`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

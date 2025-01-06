@@ -3,12 +3,11 @@ title: OfficeDataSourceObject.SetSortOrder method (Office)
 keywords: vbaof11.chm232008
 f1_keywords:
 - vbaof11.chm232008
-ms.prod: office
 api_name:
 - Office.OfficeDataSourceObject.SetSortOrder
 ms.assetid: 427d3a81-1863-4e52-02d4-7485553a4d2f
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -46,7 +45,7 @@ Sub SetDataSortOrder()
  
  Set appOffice = Application.OfficeDataSourceObject 
  
- appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" &amp; _ 
+ appOffice.Open bstrConnect:="DRIVER=SQL Server;SERVER=ServerName;" & _ 
  "UID=user;PWD=;DATABASE=Northwind", bstrTable:="Employees" 
  
  appOffice.SetSortOrder SortField1:="ZipCode", _ 

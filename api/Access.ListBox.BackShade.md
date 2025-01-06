@@ -3,12 +3,11 @@ title: ListBox.BackShade property (Access)
 keywords: vbaac10.chm14633
 f1_keywords:
 - vbaac10.chm14633
-ms.prod: access
 api_name:
 - Access.ListBox.BackShade
 ms.assetid: 6608aa85-9301-1c3f-fbac-825010ade03e
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

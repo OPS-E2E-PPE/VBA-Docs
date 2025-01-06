@@ -3,12 +3,11 @@ title: RootFolder property (Visual Basic for Applications)
 keywords: vblr6.chm2181961
 f1_keywords:
 - vblr6.chm2181961
-ms.prod: office
 api_name:
 - Office.RootFolder
 ms.assetid: 2fbd6ddd-50da-6250-e706-1f43876e506f
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

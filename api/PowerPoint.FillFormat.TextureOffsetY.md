@@ -1,34 +1,33 @@
 ---
-title: FillFormat.TextureOffsetY Property (PowerPoint)
+title: FillFormat.TextureOffsetY property (PowerPoint)
 keywords: vbapp10.chm552027
 f1_keywords:
 - vbapp10.chm552027
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FillFormat.TextureOffsetY
 ms.assetid: f1ba83a3-65ca-dd4c-cb70-f6cb453b824c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FillFormat.TextureOffsetY Property (PowerPoint)
+# FillFormat.TextureOffsetY property (PowerPoint)
 
  Returns or sets the vertical offset of the texture from the origin in points. Read/write.
 
 
 ## Syntax
 
- _expression_. `TextureOffsetY`
+_expression_.**TextureOffsetY**
 
- _expression_ An expression that returns a [FillFormat](./PowerPoint.FillFormat.md) object.
+ _expression_ An expression that returns a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Remarks
 
-The position of the origin is determined by the setting of the  **[TextureAlignment](PowerPoint.FillFormat.TextureAlignment.md)** property.
+The position of the origin is determined by the setting of the **[TextureAlignment](PowerPoint.FillFormat.TextureAlignment.md)** property.
 
-The setting of the  **TextureHorizontalScale** property corresponds to the setting of the **Scale X** box under **Tiling Options** on the **Fill** pane of the **Format Picture** dialog box in the Microsoft PowerPoint user interface (under **Drawing Tools**, on the  **Format Tab**, in the  **Shape Styles** group, click **Format Shape**.)
+The setting of the **TextureHorizontalScale** property corresponds to the setting of the **Scale X** box under **Tiling Options** on the **Fill** pane of the **Format Picture** dialog box in the Microsoft PowerPoint user interface (under **Drawing Tools**, on the **Format Tab**, in the **Shape Styles** group, click **Format Shape**.)
 
 
 ## See also

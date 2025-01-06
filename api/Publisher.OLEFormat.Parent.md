@@ -1,33 +1,31 @@
 ---
-title: OLEFormat.Parent Property (Publisher)
+title: OLEFormat.Parent property (Publisher)
 keywords: vbapb10.chm4456450
 f1_keywords:
 - vbapb10.chm4456450
-ms.prod: publisher
 api_name:
 - Publisher.OLEFormat.Parent
 ms.assetid: 2ac5f8d6-336a-e8ce-cfa0-460955ed62e1
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# OLEFormat.Parent Property (Publisher)
+# OLEFormat.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents an  **OLEFormat** object.
+_expression_ A variable that represents an **[OLEFormat](Publisher.OLEFormat.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -42,10 +40,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 

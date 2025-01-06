@@ -1,25 +1,24 @@
 ---
-title: PlaceholderFormat Object (PowerPoint)
+title: PlaceholderFormat object (PowerPoint)
 keywords: vbapp10.chm545000
 f1_keywords:
 - vbapp10.chm545000
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PlaceholderFormat
 ms.assetid: 5e204d07-7ec0-b08c-497c-7f0174d28782
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PlaceholderFormat Object (PowerPoint)
+# PlaceholderFormat object (PowerPoint)
 
 Contains properties that apply specifically to placeholders, such as placeholder type.
 
 
 ## Example
 
-Use the [PlaceholderFormat](PowerPoint.Shape.PlaceholderFormat.md)property to return a  **PlaceholderFormat** object. The following example adds text to placeholder one on slide one in the active presentation if that placeholder exists and is a horizontal title placeholder.
+Use the [PlaceholderFormat](PowerPoint.Shape.PlaceholderFormat.md)property to return a **PlaceholderFormat** object. The following example adds text to placeholder one on slide one in the active presentation if that placeholder exists and is a horizontal title placeholder.
 
 
 ```vb

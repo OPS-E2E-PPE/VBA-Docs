@@ -1,34 +1,33 @@
 ---
-title: BusinessCardView Object (Outlook)
+title: BusinessCardView object (Outlook)
 keywords: vbaol11.chm3212
 f1_keywords:
 - vbaol11.chm3212
-ms.prod: outlook
 api_name:
 - Outlook.BusinessCardView
 ms.assetid: 83706cf8-080c-fbf0-9381-5801a2dd4dfd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BusinessCardView Object (Outlook)
+# BusinessCardView object (Outlook)
 
 Represents a view that displays data as a series of Electronic Business Card (EBC) images.
 
 
 ## Remarks
 
-The  **BusinessCardView** object, derived from the **[View](Outlook.View.md)** object, allows you to create customizable views that allow you to better sort, group and ultimately view contact items in Outlook as a series of Electronic Business Cards, each of which displays the contact information for an Outlook contact item based on the EBC design associated with the contact item.
+The **BusinessCardView** object, derived from the **[View](Outlook.View.md)** object, allows you to create customizable views that allow you to better sort, group and ultimately view contact items in Outlook as a series of Electronic Business Cards, each of which displays the contact information for an Outlook contact item based on the EBC design associated with the contact item.
 
-Use the  **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection to add a new **BusinessCardView** to a **[Folder](Outlook.Folder.md)** object.
+Use the **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection to add a new **BusinessCardView** to a **[Folder](Outlook.Folder.md)** object.
 
-Use the  **[Filter](Outlook.BusinessCardView.Filter.md)** property to determine which Outlook contact items to display in the view, the **[CardSize](Outlook.BusinessCardView.CardSize.md)** property to specify the size of each Electronic Business Card in the view, and the **[HeadingsFont](Outlook.BusinessCardView.HeadingsFont.md)** to retrieve the **[ViewFont](Outlook.ViewFont.md)** object for the view. Use the **[LockUserChanges](Outlook.BusinessCardView.LockUserChanges.md)** property to allow or prevent changes to the user interface for the view.
+Use the **[Filter](Outlook.BusinessCardView.Filter.md)** property to determine which Outlook contact items to display in the view, the **[CardSize](Outlook.BusinessCardView.CardSize.md)** property to specify the size of each Electronic Business Card in the view, and the **[HeadingsFont](Outlook.BusinessCardView.HeadingsFont.md)** to retrieve the **[ViewFont](Outlook.ViewFont.md)** object for the view. Use the **[LockUserChanges](Outlook.BusinessCardView.LockUserChanges.md)** property to allow or prevent changes to the user interface for the view.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates, saves, and applies a new  **BusinessCardView** object.
+The following Visual Basic for Applications (VBA) example creates, saves, and applies a new **BusinessCardView** object.
 
 
 ```vb
@@ -114,6 +113,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

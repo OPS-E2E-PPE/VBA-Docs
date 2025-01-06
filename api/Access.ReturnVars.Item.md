@@ -3,12 +3,11 @@ title: ReturnVars.Item property (Access)
 keywords: vbaac10.chm14695
 f1_keywords:
 - vbaac10.chm14695
-ms.prod: access
 api_name:
 - Access.ReturnVars.Item
 ms.assetid: b6bdac31-e39d-434b-8ec4-28cee04389b8
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

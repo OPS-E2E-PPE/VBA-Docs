@@ -3,12 +3,11 @@ title: Document.UndoClear method (Word)
 keywords: vbawd10.chm158007550
 f1_keywords:
 - vbawd10.chm158007550
-ms.prod: word
 api_name:
 - Word.Document.UndoClear
 ms.assetid: 4ff5856a-ee8d-a9c8-a0a5-1d9c0a0dc9e9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Clears the list of actions that can be undone for the specified document.
 
 ## Syntax
 
- _expression_. `UndoClear`
+_expression_. `UndoClear`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-This method corresponds to the list of items that appears when you click the arrow beside the  **Undo** button on the **Standard** toolbar. Include this method at the end of a macro to keep Visual Basic actions from appearing in the **Undo** box (for example, "VBA-Selection.InsertAfter").
+This method corresponds to the list of items that appears when you click the arrow beside the **Undo** button on the **Standard** toolbar. Include this method at the end of a macro to keep Visual Basic actions from appearing in the **Undo** box (for example, "VBA-Selection.InsertAfter").
 
 
 ## Example

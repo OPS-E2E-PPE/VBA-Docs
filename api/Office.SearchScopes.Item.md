@@ -3,12 +3,11 @@ title: SearchScopes.Item property (Office)
 keywords: vbaof11.chm252001
 f1_keywords:
 - vbaof11.chm252001
-ms.prod: office
 api_name:
 - Office.SearchScopes.Item
 ms.assetid: a1592811-44dc-ec7f-a546-dde5669123a7
 ms.date: 01/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

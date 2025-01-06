@@ -3,18 +3,17 @@ title: Application.DFirst method (Access)
 keywords: vbaac10.chm12535
 f1_keywords:
 - vbaac10.chm12535
-ms.prod: access
 api_name:
 - Access.Application.DFirst
 ms.assetid: 670e54ac-a18f-e381-2ca7-257411f92865
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DFirst method (Access)
 
-You can use the **DFirst** function to return a random record from a particular field in a table or query when you need any value from that field.
+Use the **DFirst** function to return a random record from a particular field in a table or query when you need any value from that field.
 
 
 ## Syntax

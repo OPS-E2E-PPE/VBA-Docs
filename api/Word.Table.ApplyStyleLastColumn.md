@@ -3,12 +3,11 @@ title: Table.ApplyStyleLastColumn property (Word)
 keywords: vbawd10.chm156303565
 f1_keywords:
 - vbawd10.chm156303565
-ms.prod: word
 api_name:
 - Word.Table.ApplyStyleLastColumn
 ms.assetid: db47720e-0351-c48d-6ebe-a149f2b8c84f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `ApplyStyleLastColumn`
+_expression_. `ApplyStyleLastColumn`
 
  _expression_ An expression that returns a '[Table](Word.Table.md)' object.
 

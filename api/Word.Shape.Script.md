@@ -3,30 +3,29 @@ title: Shape.Script property (Word)
 keywords: vbawd10.chm161481207
 f1_keywords:
 - vbawd10.chm161481207
-ms.prod: word
 api_name:
 - Word.Shape.Script
 ms.assetid: d98f64f8-e097-fb56-736f-1247dcbdd3af
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.Script property (Word)
 
-Returns a  **Script** object, which represents a block of script or code for an image on a Web page.
+Returns a **Script** object, which represents a block of script or code for an image on a webpage.
 
 
 ## Syntax
 
- _expression_. `Script`
+_expression_. `Script`
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-If the Web page contains no script, nothing is returned.
+If the webpage contains no script, nothing is returned.
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: XlThemeColor enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlThemeColor
 ms.assetid: d19cf07f-83df-8a95-7521-756513a81372
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

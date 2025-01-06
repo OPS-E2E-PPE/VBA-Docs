@@ -3,32 +3,31 @@ title: Shape.Vertices property (Word)
 keywords: vbawd10.chm161480830
 f1_keywords:
 - vbawd10.chm161480830
-ms.prod: word
 api_name:
 - Word.Shape.Vertices
 ms.assetid: e51e17dd-9e4e-28ab-4efd-7913cab45ca9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.Vertices property (Word)
 
-Returns the coordinates of the specified freeform drawing's vertices (and control points for Bézier curves) as a series of coordinate pairs. Read-only  **Variant**.
+Returns the coordinates of the specified freeform drawing's vertices (and control points for Bézier curves) as a series of coordinate pairs. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `Vertices`
+_expression_.**Vertices**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-You can use the array returned by this property as an argument for the  **AddCurve** or **AddPolyLine** method.
+Use the array returned by this property as an argument for the **AddCurve** or **AddPolyLine** method.
 
-The following table shows how the  **Vertices** property associates values in the array _vertArray()_ with the coordinates of a triangle's vertices.
+The following table shows how the **Vertices** property associates values in the array _vertArray()_ with the coordinates of a triangle's vertices.
 
 
 

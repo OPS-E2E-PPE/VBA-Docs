@@ -3,18 +3,17 @@ title: Application.DMin method (Access)
 keywords: vbaac10.chm12525
 f1_keywords:
 - vbaac10.chm12525
-ms.prod: access
 api_name:
 - Access.Application.DMin
 ms.assetid: d41b1852-7d97-ddfe-d071-8a1a7b42359b
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.DMin method (Access)
 
-You can use the **DMin** function to determine the minimum value in a specified set of records (a domain).
+Use the **DMin** function to determine the minimum value in a specified set of records (a domain).
 
 
 ## Syntax
@@ -45,10 +44,10 @@ The **DMin** function returns the minimum values that satisfy _criteria_. If _ex
 
 The **DMin** function ignores **Null** values in the field referenced by _expr_. However, if no record satisfies _criteria_, or if _domain_ contains no records, the **DMin** function returns a **Null**.
 
-You can use the **DMin** function to specify criteria in the **Criteria** row of a query, in a calculated field expression in a query, or in the **Update To** row of an update query.
+Use the **DMin** function to specify criteria in the **Criteria** row of a query, in a calculated field expression in a query, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use the **DMin** function or the **Min** function in a calculated field expression of a totals query. If you use the **DMin** function, values are evaluated before the data is grouped. If you use the **Min** function, the data is grouped before values in the field expression are evaluated.
+> Use the **DMin** function or the **Min** function in a calculated field expression of a totals query. If you use the **DMin** function, values are evaluated before the data is grouped. If you use the **Min** function, the data is grouped before values in the field expression are evaluated.
 
 If you simply want to find the minimum or maximum value of all records in _domain_, use the **Min** or **Max** function.
 
@@ -67,8 +66,6 @@ curX = DMin("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 curY = DMax("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
 
-<br/>
-
 In the next example, the criteria expression includes a variable, `dteOrderDate`. Note that number signs (#) are included in the string expression, so that when the strings are concatenated, they will enclose the date.
 
 ```vb
@@ -79,8 +76,6 @@ dteOrderDate = #03/30/2000#
 curX = DMin("[Freight]", "Orders", _ 
     "[OrderDate] = #" & dteOrderDate & "#")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DMin** function.
 

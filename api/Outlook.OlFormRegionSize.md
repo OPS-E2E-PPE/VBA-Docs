@@ -1,18 +1,17 @@
 ---
-title: OlFormRegionSize Enumeration (Outlook)
+title: OlFormRegionSize enumeration (Outlook)
 keywords: vbaol11.chm3104
 f1_keywords:
 - vbaol11.chm3104
-ms.prod: outlook
 api_name:
 - Outlook.OlFormRegionSize
 ms.assetid: a52c7e73-b6f1-ddb0-2307-55107912bc44
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlFormRegionSize Enumeration (Outlook)
+# OlFormRegionSize enumeration (Outlook)
 
 Identifies the type of form region.
 

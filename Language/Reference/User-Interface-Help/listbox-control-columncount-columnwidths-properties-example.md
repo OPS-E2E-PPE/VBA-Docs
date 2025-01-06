@@ -3,10 +3,9 @@ title: ListBox control, ColumnCount, ColumnWidths properties example
 keywords: fm20.chm5225185
 f1_keywords:
 - fm20.chm5225185
-ms.prod: office
 ms.assetid: f2f6e0f7-504d-1565-4dcb-d8bd2ff129c7
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -34,8 +33,6 @@ Private Sub CommandButton1_Click()
 End Sub
 ```
 
-<br/>
-
 ```vb
 Private Sub TextBox1_Exit(ByVal Cancel As _ 
  MSForms.ReturnBoolean) 
@@ -47,8 +44,6 @@ Private Sub TextBox1_Exit(ByVal Cancel As _
  End If 
 End Sub
 ```
-
-<br/>
 
 ```vb
 Private Sub TextBox2_Exit(ByVal Cancel As _ 
@@ -62,8 +57,6 @@ Private Sub TextBox2_Exit(ByVal Cancel As _
 End Sub
 ```
 
-<br/>
-
 
 ```vb
 Private Sub TextBox3_Exit(ByVal Cancel as MSForms.ReturnBoolean) 
@@ -75,8 +68,6 @@ Private Sub TextBox3_Exit(ByVal Cancel as MSForms.ReturnBoolean)
  End If 
 End Sub
 ```
-
-<br/>
 
 
 ```vb

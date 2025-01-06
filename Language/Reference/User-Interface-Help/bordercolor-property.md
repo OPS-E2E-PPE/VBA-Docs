@@ -3,12 +3,11 @@ title: BorderColor property
 keywords: fm20.chm5225009
 f1_keywords:
 - fm20.chm5225009
-ms.prod: office
 api_name:
 - Office.BorderColor
 ms.assetid: f5718e93-55fa-e3c6-5359-c9ccc7c7a76c
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -29,7 +28,7 @@ The **BorderColor** property syntax has these parts:
 
 ## Settings
 
-You can use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as RGB color component values 15, 200, 75.
+Use any integer that represents a valid color. You can also specify a color by using the [RGB](../../Glossary/glossary-vba.md#rgb) function with red, green, and blue color components. The value of each color component is an integer that ranges from zero to 255. For example, you can specify teal blue as the integer value 4966415 or as RGB color component values 15, 200, 75.
 
 ## Remarks
 

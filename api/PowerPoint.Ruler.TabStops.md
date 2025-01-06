@@ -1,27 +1,26 @@
 ---
-title: Ruler.TabStops Property (PowerPoint)
+title: Ruler.TabStops property (PowerPoint)
 keywords: vbapp10.chm570003
 f1_keywords:
 - vbapp10.chm570003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Ruler.TabStops
 ms.assetid: 11cc74dc-8efe-3327-87a1-0880e925040d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Ruler.TabStops Property (PowerPoint)
+# Ruler.TabStops property (PowerPoint)
 
-Returns a  **[TabStops](PowerPoint.TabStops.md)** collection that represents the tab stops for the specified text. Read-only.
+Returns a **[TabStops](PowerPoint.TabStops.md)** collection that represents the tab stops for the specified text. Read-only.
 
 
 ## Syntax
 
- _expression_. `TabStops`
+_expression_. `TabStops`
 
- _expression_ A variable that represents a [Ruler](./PowerPoint.Ruler.md) object.
+_expression_ A variable that represents a [Ruler](PowerPoint.Ruler.md) object.
 
 
 ## Return value

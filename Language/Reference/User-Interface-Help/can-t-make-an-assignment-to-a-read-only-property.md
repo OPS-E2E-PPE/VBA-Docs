@@ -3,10 +3,9 @@ title: Can't make an assignment to a read-only property
 keywords: vblr6.chm1057094
 f1_keywords:
 - vblr6.chm1057094
-ms.prod: office
 ms.assetid: c65ff85a-1aae-a620-29c8-ea56c74e9259
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

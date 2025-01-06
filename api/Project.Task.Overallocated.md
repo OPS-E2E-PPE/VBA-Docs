@@ -1,24 +1,24 @@
 ---
-title: Task.Overallocated Property (Project)
-ms.prod: project-server
+title: Task.Overallocated property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Overallocated
 ms.assetid: bf030017-2774-939b-e0dd-70d66fb3dfa3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Overallocated Property (Project)
+# Task.Overallocated property (Project)
 
  **True** if any of the assignments for a task is overallocated. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Overallocated`
+_expression_. `Overallocated`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

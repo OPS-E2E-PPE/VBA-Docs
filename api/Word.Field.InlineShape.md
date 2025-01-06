@@ -3,30 +3,29 @@ title: Field.InlineShape property (Word)
 keywords: vbawd10.chm154075148
 f1_keywords:
 - vbawd10.chm154075148
-ms.prod: word
 api_name:
 - Word.Field.InlineShape
 ms.assetid: 2fbaa2a5-3c31-e7ff-45db-044c62cde951
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Field.InlineShape property (Word)
 
-Returns an  **[InlineShape](Word.InlineShape.md)** object that represents the picture, OLE object, or ActiveX control that is the result of an INCLUDEPICTURE or EMBED field.
+Returns an **[InlineShape](Word.InlineShape.md)** object that represents the picture, OLE object, or ActiveX control that is the result of an INCLUDEPICTURE or EMBED field.
 
 
 ## Syntax
 
- _expression_. `InlineShape`
+_expression_. `InlineShape`
 
  _expression_ An expression that returns a '[Field](Word.Field.md)' object.
 
 
 ## Remarks
 
-An  **InlineShape** object is treated like a character and is positioned as a character within a line of text.
+An **InlineShape** object is treated like a character and is positioned as a character within a line of text.
 
 
 ## Example

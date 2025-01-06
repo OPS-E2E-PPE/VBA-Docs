@@ -3,25 +3,24 @@ title: Rows.First property (Word)
 keywords: vbawd10.chm155975690
 f1_keywords:
 - vbawd10.chm155975690
-ms.prod: word
 api_name:
 - Word.Rows.First
 ms.assetid: 9e879fdf-bc21-cd19-37e9-bf44c06b3416
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rows.First property (Word)
 
-Returns a  **[Row](Word.Row.md)** object that represents the first item in the **Rows** collection.
+Returns a **[Row](Word.Row.md)** object that represents the first item in the **Rows** collection.
 
 
 ## Syntax
 
- _expression_. `First`
+_expression_. `First`
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Example

@@ -1,15 +1,15 @@
 ---
-title: PjBarType Enumeration (Project)
-ms.prod: project-server
+title: PjBarType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjBarType
 ms.assetid: abc6a0b2-90bd-48d4-283a-a53618856692
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjBarType Enumeration (Project)
+# PjBarType enumeration (Project)
 
 Contains constants that specify the bar type.
 

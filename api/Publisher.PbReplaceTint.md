@@ -1,20 +1,19 @@
 ---
-title: PbReplaceTint Enumeration (Publisher)
+title: PbReplaceTint enumeration (Publisher)
 keywords: vbapb10.chm65629
 f1_keywords:
 - vbapb10.chm65629
-ms.prod: publisher
 api_name:
 - Publisher.PbReplaceTint
 ms.assetid: 91950561-224f-285e-6dee-7d2bdbd3a589
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbReplaceTint Enumeration (Publisher)
+# PbReplaceTint enumeration (Publisher)
 
-Constants passed to the  **Plate.Delete** method specifying how to replace the colors in a deleted plate.
+Constants passed to the **Plate.Delete** method specifying how to replace the colors in a deleted plate.
 
 
 

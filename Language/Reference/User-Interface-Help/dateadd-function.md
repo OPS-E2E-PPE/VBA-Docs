@@ -3,10 +3,9 @@ title: DateAdd function (Visual Basic for Applications)
 keywords: vblr6.chm1013094
 f1_keywords:
 - vblr6.chm1013094
-ms.prod: office
 ms.assetid: 68d4e339-67b2-37e7-214d-318edd683b23
 ms.date: 12/12/2018
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # DateAdd function
@@ -29,8 +28,6 @@ The **DateAdd** function syntax has these [named arguments](../../Glossary/vbe-g
 
 The _interval_ [argument](../../Glossary/vbe-glossary.md#argument) has these settings:
 
-<br/>
-
 |Setting|Description|
 |:-----|:-----|
 |yyyy|Year|
@@ -46,7 +43,7 @@ The _interval_ [argument](../../Glossary/vbe-glossary.md#argument) has these set
 
 ## Remarks
 
-You can use the **DateAdd** function to add or subtract a specified time interval from a date. For example, you can use **DateAdd** to calculate a date 30 days from today or a time 45 minutes from now.
+Use the **DateAdd** function to add or subtract a specified time interval from a date. For example, you can use **DateAdd** to calculate a date 30 days from today or a time 45 minutes from now.
 
 To add days to _date_, you can use Day of Year ("y"), Day ("d"), or Weekday ("w").
 

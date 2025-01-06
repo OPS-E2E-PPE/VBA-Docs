@@ -3,30 +3,27 @@ title: Application.MailLogon method (Excel)
 keywords: vbaxl10.chm133158
 f1_keywords:
 - vbaxl10.chm133158
-ms.prod: excel
 api_name:
 - Excel.Application.MailLogon
 ms.assetid: 0a6c8752-739d-b996-1426-4d3021ea5323
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/05/2019
+ms.localizationpriority: medium
 ---
 
 
 # Application.MailLogon method (Excel)
 
-Logs in to MAPI Mail or Microsoft Exchange and establishes a mail session. If Microsoft Mail isn't already running, you must use this method to establish a mail session before mail or document routing functions can be used.
+Logs on to MAPI Mail or Microsoft Exchange and establishes a mail session. If Microsoft Mail isn't already running, you must use this method to establish a mail session before mail or document routing functions can be used.
 
 
 ## Syntax
 
-_expression_. `MailLogon`( `_Name_` , `_Password_` , `_DownloadNewMail_` )
+_expression_.**MailLogon** (_Name_, _Password_, _DownloadNewMail_)
 
-_expression_ A variable that represents an [Application](Excel.Application-graph-property.md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,15 +33,14 @@ _expression_ A variable that represents an [Application](Excel.Application-graph
 
 ## Remarks
 
-Microsoft Excel logs off any mail sessions it previously established before attempting to establish the new session.
+Microsoft Excel logs off from any mail sessions it previously established before attempting to establish the new session.
 
 To piggyback on the system default mail session, omit both the name and password parameters.
 
 
 ## Example
 
-This example logs in to the default mail account.
-
+This example logs on to the default mail account.
 
 ```vb
 If IsNull(Application.MailSession) Then 
@@ -53,9 +49,6 @@ End If
 ```
 
 
-## See also
 
-
-[Application Object](Excel.Application(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

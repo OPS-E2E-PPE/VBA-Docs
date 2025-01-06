@@ -3,18 +3,17 @@ title: ToggleButton.ColumnWidth property (Access)
 keywords: vbaac10.chm11733
 f1_keywords:
 - vbaac10.chm11733
-ms.prod: access
 api_name:
 - Access.ToggleButton.ColumnWidth
 ms.assetid: ac3f6bd8-22ae-5a3d-2646-2350a7e3be85
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.ColumnWidth property (Access)
 
-You can use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
+Use the **ColumnWidth** property to specify the width of a column in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax

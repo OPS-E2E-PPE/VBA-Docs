@@ -3,12 +3,11 @@ title: TextRetrievalMode.IncludeFieldCodes property (Word)
 keywords: vbawd10.chm154730499
 f1_keywords:
 - vbawd10.chm154730499
-ms.prod: word
 api_name:
 - Word.TextRetrievalMode.IncludeFieldCodes
 ms.assetid: 9055d78b-ddf4-3e58-a42d-813ef838cdf2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,21 +18,21 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IncludeFieldCodes`
+_expression_. `IncludeFieldCodes`
 
  _expression_ An expression that returns a '[TextRetrievalMode](Word.TextRetrievalMode.md)' object.
 
 
 ## Remarks
 
-The default value is the same as the setting of the  **Field codes** option on the **View** tab in the **Options** dialog box (**Tools** menu) until this property has been set.
+The default value is the same as the setting of the **Field codes** option on the **View** tab in the **Options** dialog box (**Tools** menu) until this property has been set.
 
-Use the  **[Text](Word.Find.Text.md)** property with a **[Range](Word.Range.md)** object to retrieve text from the specified range.
+Use the **[Text](Word.Find.Text.md)** property with a **[Range](Word.Range.md)** object to retrieve text from the specified range.
 
 
 ## Example
 
-This example displays the text of the first paragraph in the active document in a message box. The example uses the  **IncludeFieldCodes** property to exclude field codes.
+This example displays the text of the first paragraph in the active document in a message box. The example uses the **IncludeFieldCodes** property to exclude field codes.
 
 
 ```vb

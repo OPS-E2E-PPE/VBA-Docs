@@ -3,12 +3,11 @@ title: SharedWorkspaceFile.CreatedDate property (Office)
 keywords: vbaof11.chm266003
 f1_keywords:
 - vbaof11.chm266003
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile.CreatedDate
 ms.assetid: c3a45dbd-c6b2-3046-2388-ed23ca7e36f0
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,14 +40,14 @@ The following example returns a list of shared workspace files whose date and ti
  Dim dtmMidnight As Date 
  Dim dtmFileDate As Date 
  Dim strOlderFiles As String 
- dtmMidnight = CDate(FormatDateTime(Now, vbShortDate) &amp; " 12:00:00 am") 
+ dtmMidnight = CDate(FormatDateTime(Now, vbShortDate) & " 12:00:00 am") 
  For Each swsFile In ActiveWorkbook.SharedWorkspace.Files 
  dtmFileDate = swsFile.CreatedDate 
  If dtmFileDate < dtmMidnight Then 
- strOlderFiles = strOlderFiles &amp; swsFile.URL &amp; vbCrLf 
+ strOlderFiles = strOlderFiles & swsFile.URL & vbCrLf 
  End If 
  Next 
- MsgBox "Files older than today: " &amp; vbCrLf &amp; strOlderFiles, _ 
+ MsgBox "Files older than today: " & vbCrLf & strOlderFiles, _ 
  vbInformation + vbOKOnly, "Older Files" 
  Set swsFile = Nothing 
  

@@ -3,12 +3,11 @@ title: Application.Assistance property (Access)
 keywords: vbaac10.chm12621
 f1_keywords:
 - vbaac10.chm12621
-ms.prod: access
 api_name:
 - Access.Application.Assistance
 ms.assetid: 34a5bdb9-8487-49ab-47f1-7c19ace4a633
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

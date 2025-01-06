@@ -3,30 +3,26 @@ title: AutoFilter.FilterMode property (Excel)
 keywords: vbaxl10.chm538075
 f1_keywords:
 - vbaxl10.chm538075
-ms.prod: excel
 api_name:
 - Excel.AutoFilter.FilterMode
 ms.assetid: 0ddb62ff-9474-7226-5ad6-a07a4970aff0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
 # AutoFilter.FilterMode property (Excel)
 
-Returns  **True** if the worksheet is in the AutoFilter filter mode. Read-only **Boolean**.
+Returns **True** if the worksheet is in the **AutoFilter** filter mode. Read-only **Boolean**.
 
 
 ## Syntax
 
-_expression_. `FilterMode`
+_expression_.**FilterMode**
 
-_expression_ A variable that represents an [AutoFilter](Excel.AutoFilter.md) object.
-
-
-## See also
+_expression_ A variable that represents an **[AutoFilter](Excel.AutoFilter.md)** object.
 
 
-[AutoFilter Object](Excel.AutoFilter.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

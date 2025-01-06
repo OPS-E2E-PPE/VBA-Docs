@@ -1,18 +1,18 @@
 ---
-title: Application.FontBold Method (Project)
+title: Application.FontBold method (Project)
 keywords: vbapj.chm2320
 f1_keywords:
 - vbapj.chm2320
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FontBold
 ms.assetid: 6bd38edc-a2af-d6d5-8e46-898b700135b2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FontBold Method (Project)
+# Application.FontBold method (Project)
 
 Applies or removes bold formatting from the selected text.
 
@@ -21,7 +21,7 @@ Applies or removes bold formatting from the selected text.
 
 _expression_.**FontBold** (_Set_)
 
-_expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

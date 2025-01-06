@@ -3,32 +3,31 @@ title: View.Type property (Word)
 keywords: vbawd10.chm161808384
 f1_keywords:
 - vbawd10.chm161808384
-ms.prod: word
 api_name:
 - Word.View.Type
 ms.assetid: 0168c7cd-147f-b81b-2a56-3c3f751cc4b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # View.Type property (Word)
 
-Returns or sets the view type. Read/write  **[WdViewType](Word.WdViewType.md)**.
+Returns or sets the view type. Read/write **[WdViewType](Word.WdViewType.md)**.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks
 
-The  **Type** property returns **wdMasterView** for all documents where the current view is an outline or a master document. The current view will never return **wdOutlineView** unless explicitly set first in code.
+The **Type** property returns **wdMasterView** for all documents where the current view is an outline or a master document. The current view will never return **wdOutlineView** unless explicitly set first in code.
 
-To check whether the current document is an outline, use the  **Type** property and the **Subdocuments** collection's **Count** property. If the **Type** property returns either **wdOutlineView** or **wdMasterView** and the **Count** property returns zero, the document is an outline. For example:
+To check whether the current document is an outline, use the **Type** property and the **Subdocuments** collection's **Count** property. If the **Type** property returns either **wdOutlineView** or **wdMasterView** and the **Count** property returns zero, the document is an outline. For example:
 
 
 
@@ -52,7 +51,7 @@ End Sub
 
 ## Example
 
-This example switches the active window to print preview. The  **Type** property creates a new print preview window.
+This example switches the active window to print preview. The **Type** property creates a new print preview window.
 
 
 ```vb

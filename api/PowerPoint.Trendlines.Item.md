@@ -1,24 +1,23 @@
 ---
-title: Trendlines.Item Method (PowerPoint)
-ms.prod: powerpoint
+title: Trendlines.Item method (PowerPoint)
 api_name:
 - PowerPoint.Trendlines.Item
 ms.assetid: ddda769f-ffc2-c03f-4087-755a5530f156
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Trendlines.Item Method (PowerPoint)
+# Trendlines.Item method (PowerPoint)
 
 Returns a single object from a collection.
 
 
 ## Syntax
 
- _expression_.**Item** (_Index_)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[Trendlines](PowerPoint.Trendlines.md)' object.
+_expression_ A variable that represents a '[Trendlines](PowerPoint.Trendlines.md)' object.
 
 
 ## Parameters
@@ -31,7 +30,7 @@ Returns a single object from a collection.
 
 ## Return value
 
-A  **[Trendline](PowerPoint.Trendline.md)** object that the collection contains.
+A **[Trendline](PowerPoint.Trendline.md)** object that the collection contains.
 
 
 ## Example
@@ -39,9 +38,10 @@ A  **[Trendline](PowerPoint.Trendline.md)** object that the collection contains.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example sets the number of units that the trendline on the first chart in the active document extends forward and backward. The example should be run on a 2-D column chart that contains a single series with a trendline.
+The following example sets the number of units that the trendline on the first chart in the active document extends forward and backward. The example should be run on a 2D column chart that contains a single series with a trendline.
 
 
 

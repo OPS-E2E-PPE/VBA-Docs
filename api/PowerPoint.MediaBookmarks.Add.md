@@ -1,27 +1,26 @@
 ---
-title: MediaBookmarks.Add Method (PowerPoint)
+title: MediaBookmarks.Add method (PowerPoint)
 keywords: vbapp10.chm730002
 f1_keywords:
 - vbapp10.chm730002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.MediaBookmarks.Add
 ms.assetid: 2b796284-c172-9841-2af5-5f351e4acb01
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MediaBookmarks.Add Method (PowerPoint)
+# MediaBookmarks.Add method (PowerPoint)
 
-Adds a new  **MediaBookmark** at the specified time and using the specified name.
+Adds a new **MediaBookmark** at the specified time and using the specified name.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Position_`, `_Name_` )
+_expression_.**Add** (_Position_, _Name_)
 
- _expression_ A variable that represents a [MediaBookmarks](./PowerPoint.MediaBookmarks.md) object.
+_expression_ A variable that represents a [MediaBookmarks](PowerPoint.MediaBookmarks.md) object.
 
 
 ## Parameters
@@ -30,8 +29,8 @@ Adds a new  **MediaBookmark** at the specified time and using the specified name
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Position_|Required|**Long**|The position of the  **MediaBookmark**.|
-| _Name_|Required|**String**|The name of the  **MediaBookmark**.|
+| _Position_|Required|**Long**|The position of the **MediaBookmark**.|
+| _Name_|Required|**String**|The name of the **MediaBookmark**.|
 
 ## Return value
 

@@ -3,30 +3,27 @@ title: Shapes.AddCurve method (Word)
 keywords: vbawd10.chm161415180
 f1_keywords:
 - vbawd10.chm161415180
-ms.prod: word
 api_name:
 - Word.Shapes.AddCurve
 ms.assetid: 105f6ff1-b8a9-aec5-285b-6bf7399ecdc7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shapes.AddCurve method (Word)
 
-Returns a  **[Shape](Word.Shape.md)** object that represents a Bézier curve in a drawing canvas.
+Returns a **[Shape](Word.Shape.md)** object that represents a Bézier curve in a drawing canvas.
 
 
 ## Syntax
 
- _expression_. `AddCurve`( `_SafeArrayOfPoints_` )
+_expression_.**AddCurve** (_SafeArrayOfPoints_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

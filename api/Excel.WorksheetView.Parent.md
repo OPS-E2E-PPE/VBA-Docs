@@ -3,12 +3,11 @@ title: WorksheetView.Parent property (Excel)
 keywords: vbaxl10.chm777075
 f1_keywords:
 - vbaxl10.chm777075
-ms.prod: excel
 api_name:
 - Excel.WorksheetView.Parent
 ms.assetid: fc7f2258-0b36-c18f-e324-1eaac5b99494
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/18/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [WorksheetView](./Excel.WorksheetView.md) object.
+_expression_ A variable that represents a **[WorksheetView](Excel.WorksheetView.md)** object.
 
 
-## See also
 
-
-[WorksheetView Object](Excel.WorksheetView.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

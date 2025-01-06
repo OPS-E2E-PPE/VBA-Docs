@@ -3,25 +3,24 @@ title: Fields.ToggleShowCodes method (Word)
 keywords: vbawd10.chm154140772
 f1_keywords:
 - vbawd10.chm154140772
-ms.prod: word
 api_name:
 - Word.Fields.ToggleShowCodes
 ms.assetid: 71f5aabf-7570-3594-d97c-de9cfcee0650
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Fields.ToggleShowCodes method (Word)
 
-Switches the display of the fields between field codes and field results. Use the  **ShowCodes** property to control the display of an individual field.
+Switches the display of the fields between field codes and field results. Use the **ShowCodes** property to control the display of an individual field.
 
 
 ## Syntax
 
- _expression_. `ToggleShowCodes`
+_expression_. `ToggleShowCodes`
 
- _expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
+_expression_ Required. A variable that represents a '[Fields](Word.fields.md)' collection.
 
 
 ## Example

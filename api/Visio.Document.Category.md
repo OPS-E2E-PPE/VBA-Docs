@@ -1,27 +1,26 @@
 ---
-title: Document.Category Property (Visio)
+title: Document.Category property (Visio)
 keywords: vis_sdr.chm10513175
 f1_keywords:
 - vis_sdr.chm10513175
-ms.prod: visio
 api_name:
 - Visio.Document.Category
 ms.assetid: da312b56-6232-9077-e47b-47144aa603c5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Document.Category Property (Visio)
+# Document.Category property (Visio)
 
 Gets or sets the value of a document's category, one of the document properties. Read/write.
 
 
 ## Syntax
 
- _expression_. `Category`
+_expression_.**Category**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,22 +30,13 @@ String
 
 ## Remarks
 
-Setting the  **Category** property is equivalent to entering information in the **Categories** box in the **Properties** dialog box (click the **File** tab, click **Info**, click  **Properties**, and then click  **Advanced Properties**).
-
-
- **Security Note**  
-
-
-
+Setting the **Category** property is equivalent to entering information in the **Categories** box in the **Properties** dialog box (click the **File** tab, click **Info**, click **Properties**, and then click **Advanced Properties**).
 
 ## Example
 
-This Microsoft Visual Basic macro shows how to use the  **Category** property to categorize a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Category** property as well as other properties.
+This Microsoft Visual Basic macro shows how to use the **Category** property to categorize a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Category** property as well as other properties.
 
-Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the  **Properties** dialog box.
-
-
-
+Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the **Properties** dialog box.
 
 ```vb
  

@@ -1,27 +1,26 @@
 ---
-title: FileConverter.ClassName Property (PowerPoint)
+title: FileConverter.ClassName property (PowerPoint)
 keywords: vbapp10.chm680004
 f1_keywords:
 - vbapp10.chm680004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.FileConverter.ClassName
 ms.assetid: dd024749-07e0-477c-2bba-5c78f2f222a6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# FileConverter.ClassName Property (PowerPoint)
+# FileConverter.ClassName property (PowerPoint)
 
-Returns a unique name that identifies the file converter. Read-only  **String**.
+Returns a unique name that identifies the file converter. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `ClassName`
+_expression_. `ClassName`
 
- _expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
 
 
 ## Example
@@ -29,7 +28,8 @@ Returns a unique name that identifies the file converter. Read-only  **String**.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example displays the class name and format name of the first converter in the FileConverters collection.
 

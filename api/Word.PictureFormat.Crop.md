@@ -3,12 +3,11 @@ title: PictureFormat.Crop property (Word)
 keywords: vbawd10.chm164298861
 f1_keywords:
 - vbawd10.chm164298861
-ms.prod: word
 api_name:
 - Word.PictureFormat.Crop
 ms.assetid: 431cc1a8-dd05-d813-6ba6-a6a78ee2472b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Returns or sets a [Crop](Office.Crop.md) object that represents an image croppin
 
 ## Syntax
 
- _expression_. `Crop`
+_expression_.**Crop**
 
  _expression_ An expression that returns a [PictureFormat](./Word.PictureFormat.md) object.
 
 
 ## Remarks
 
-Use the  **Crop** property to work with an image cropping.
+Use the **Crop** property to work with an image cropping.
 
 
 ## Example

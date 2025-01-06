@@ -3,12 +3,11 @@ title: TextColumns.EvenlySpaced property (Word)
 keywords: vbawd10.chm158531684
 f1_keywords:
 - vbawd10.chm158531684
-ms.prod: word
 api_name:
 - Word.TextColumns.EvenlySpaced
 ms.assetid: 9498889e-0f61-ddad-df6b-6defb11dc566
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,16 +18,16 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `EvenlySpaced`
+_expression_. `EvenlySpaced`
 
- _expression_ A variable that represents a '[TextColumns](Word(textcolumns).md)' object.
+_expression_ A variable that represents a '[TextColumns](Word(textcolumns).md)' object.
 
 
 ## Remarks
 
-The  **EvenlySpaced** property can be **True** , **False** , or **wdUndefined**.
+The **EvenlySpaced** property can be **True**, **False**, or **wdUndefined**.
 
-If you set the  **[Spacing](Word.TextColumns.Spacing.md)** or **[Width](Word.TextColumns.Width.md)** property of the **TextColumns** object, the **EvenlySpaced** property is automatically set to **True**. Also, setting the **EvenlySpaced** property may change the settings for the **Spacing** and **Width** properties of the **TextColumns** object.
+If you set the **[Spacing](Word.TextColumns.Spacing.md)** or **[Width](Word.TextColumns.Width.md)** property of the **TextColumns** object, the **EvenlySpaced** property is automatically set to **True**. Also, setting the **EvenlySpaced** property may change the settings for the **Spacing** and **Width** properties of the **TextColumns** object.
 
 
 ## Example
@@ -46,7 +45,7 @@ If colTextColumns.Count > 1 Then _
 End If
 ```
 
-This example returns the status of the  **Equal column width** option in the **Columns** dialog box (**Format** menu).
+This example returns the status of the **Equal column width** option in the **Columns** dialog box (**Format** menu).
 
 
 

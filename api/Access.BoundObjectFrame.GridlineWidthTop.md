@@ -3,12 +3,11 @@ title: BoundObjectFrame.GridlineWidthTop property (Access)
 keywords: vbaac10.chm11004
 f1_keywords:
 - vbaac10.chm11004
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.GridlineWidthTop
 ms.assetid: 1427956f-17ec-9195-a754-ffa2f2968ed0
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ The **GridlineWidthTop** property uses the following settings.
 |Setting|Description|
 |:-----|:-----|
 |0| Hairline. This is the narrowest border possible on your system.|
-|1 to 6|The width as indicated in points. The default setting is 1 point.|
+|1 to 6|The width as indicated in [points](../language/glossary/vbe-glossary.md#point). The default setting is 1 point.|
 
 
 

@@ -3,12 +3,11 @@ title: SharedWorkspaceFiles.Parent property (Office)
 keywords: vbaof11.chm267004
 f1_keywords:
 - vbaof11.chm267004
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFiles.Parent
 ms.assetid: cfbdc81e-90f5-de3d-b477-ea40971bf9fd
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,27 +1,26 @@
 ---
-title: Master.PasteSpecial Method (Visio)
+title: Master.PasteSpecial method (Visio)
 keywords: vis_sdr.chm10751020
 f1_keywords:
 - vis_sdr.chm10751020
-ms.prod: visio
 api_name:
 - Visio.Master.PasteSpecial
 ms.assetid: 6ca1994b-feb4-6b0d-c2c4-8a134eb284f1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.PasteSpecial Method (Visio)
+# Master.PasteSpecial method (Visio)
 
 Inserts the contents of the Clipboard, allowing you to control the format of the pasted information and (optionally) establish a link to the source file (for example, a Microsoft Word document).
 
 
 ## Syntax
 
- _expression_. `PasteSpecial`( `_Format_` , `_Link_` , `_DisplayAsIcon_` )
+_expression_.**PasteSpecial** (_Format_, _Link_, _DisplayAsIcon_)
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Parameters
@@ -41,25 +40,26 @@ Nothing
 
 ## Remarks
 
-To simply paste the contents of the Clipboard into an object, use the  **Paste** method.
+To simply paste the contents of the Clipboard into an object, use the **Paste** method.
 
 The value of the  _Format_ argument can be any of the following:
 
 
 
 
-- A value from  **VisPasteSpecialCodes** (see the following table).
+- A value from **VisPasteSpecialCodes** (see the following table).
     
 - Any of the standard Clipboard formats, for example, CF_TEXT. For details, see the Microsoft Platform SDK on MSDN, the Microsoft Developer Network Web site.
     
-- Any value returned from a call to the  **RegisterClipboardFormat** function. For details, see the Microsoft Platform SDK on MSDN.
+- Any value returned from a call to the **RegisterClipboardFormat** function. For details, see the Microsoft Platform SDK on MSDN.
     
 
 
 
 
 
- **Note**  Before calling Microsoft Windows functions, you should understand how arguments and data types are handled by the Windows API DLLs. Incorrectly calling Windows functions may result in invalid page faults or other unexpected behaviors. For more information on calling Windows functions, search for "Windows API" on MSDN.
+> [!NOTE] 
+> Before calling Microsoft Windows functions, you should understand how arguments and data types are handled by the Windows API DLLs. Incorrectly calling Windows functions may result in invalid page faults or other unexpected behaviors. For more information on calling Windows functions, search for "Windows API" on MSDN.
 
 Possible values for  _Format_ declared by the Visio type library in **VisPasteSpecialCodes** are described in the following table.
 

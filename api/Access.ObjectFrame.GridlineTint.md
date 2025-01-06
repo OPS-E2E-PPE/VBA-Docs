@@ -3,12 +3,11 @@ title: ObjectFrame.GridlineTint property (Access)
 keywords: vbaac10.chm14636
 f1_keywords:
 - vbaac10.chm14636
-ms.prod: access
 api_name:
 - Access.ObjectFrame.GridlineTint
 ms.assetid: f32466e0-0924-97c7-2454-7632730ffcfa
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

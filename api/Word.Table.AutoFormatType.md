@@ -3,30 +3,29 @@ title: Table.AutoFormatType property (Word)
 keywords: vbawd10.chm156303466
 f1_keywords:
 - vbawd10.chm156303466
-ms.prod: word
 api_name:
 - Word.Table.AutoFormatType
 ms.assetid: 366dbfab-f40e-b570-d174-96f4fe07a063
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Table.AutoFormatType property (Word)
 
-Returns the type of automatic formatting that's been applied to the specified table. Read-only  **Long**.
+Returns the type of automatic formatting that's been applied to the specified table. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `AutoFormatType`
+_expression_. `AutoFormatType`
 
- _expression_ A variable that represents a '[Table](Word.Table.md)' object.
+_expression_ A variable that represents a '[Table](Word.Table.md)' object.
 
 
 ## Remarks
 
-This property can be one of the  **WdTableFormat** constants. Use the **AutoFormat** method to apply automatic formatting to a table.
+This property can be one of the **WdTableFormat** constants. Use the **AutoFormat** method to apply automatic formatting to a table.
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: WdIndexFormat enumeration (Word)
-ms.prod: word
 api_name:
 - Word.WdIndexFormat
 ms.assetid: beb08f74-fa0d-418a-eabd-e3792b20c697
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

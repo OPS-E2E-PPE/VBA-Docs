@@ -1,9 +1,8 @@
 ---
 title: Find the current position in a DAO Recordset
-ms.prod: access
 ms.assetid: 1f08caa7-b671-b844-59a0-f924a5220cf4
 ms.date: 09/21/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -11,7 +10,7 @@ localization_priority: Priority
 
 In some situations, you need to determine how far through a **[Recordset](../../../api/overview/Access.md)** object you have moved the current record position, and perhaps indicate the current record position to a user. For example, you may want to indicate the current position on a dial, meter, or similar type of control. Two properties are available to indicate the current position: the **[AbsolutePosition](../../../api/overview/Access.md)** property and the **[PercentPosition](../../../api/overview/Access.md)** property.
 
-The **AbsolutePosition** property value is the position of the current record relative to 0. However, do not think of this property as a record number; if the current record is undefined, the **AbsolutePosition** property returns 1. In addition, there is no assurance that a record will have the same absolute position if the **Recordset** object is recreated because the order of individual records within a **Recordset** object is not guaranteed unless it is created with an SQL statement that includes an ORDER BY clause.
+The **AbsolutePosition** property value is the position of the current record relative to 0. However, don't think of this property as a record number; if the current record is undefined, the **AbsolutePosition** property returns 1. In addition, there is no assurance that a record will have the same absolute position if the **Recordset** object is recreated because the order of individual records within a **Recordset** object is not guaranteed unless it is created with an SQL statement that includes an ORDER BY clause.
 
 The **PercentPosition** property shows the current position expressed as a percentage of the total number of records indicated by the **[RecordCount](../../../api/overview/Access.md)** property. Because the **RecordCount** property does not reflect the total number of records in the **Recordset** object until the **Recordset** has been fully populated, the **PercentPosition** property reflects only the current record position as a percentage of the number of records that have been accessed since the **Recordset** was opened. 
 

@@ -1,27 +1,26 @@
 ---
-title: ShadowFormat.Visible Property (PowerPoint)
+title: ShadowFormat.Visible property (PowerPoint)
 keywords: vbapp10.chm554010
 f1_keywords:
 - vbapp10.chm554010
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShadowFormat.Visible
 ms.assetid: 83508398-55b9-8ac4-1724-f97247006664
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShadowFormat.Visible Property (PowerPoint)
+# ShadowFormat.Visible property (PowerPoint)
 
 Returns or sets the visibility of the specified object or the formatting applied to the specified object. Read/write.
 
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ A variable that represents a [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents a [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **Visible** property can be one of these **MsoTriState** constants.
+The value of the **Visible** property can be one of these **MsoTriState** constants.
 
 
 

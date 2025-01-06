@@ -1,20 +1,19 @@
 ---
-title: VisContainerFlags Enumeration (Visio)
+title: VisContainerFlags enumeration (Visio)
 keywords: vis_sdr.chm70620
 f1_keywords:
 - vis_sdr.chm70620
-ms.prod: visio
 api_name:
 - Visio.VisContainerFlags
 ms.assetid: c440c15a-5dd9-7ece-9175-dd92283455a4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisContainerFlags Enumeration (Visio)
+# VisContainerFlags enumeration (Visio)
 
-Specifies which container member shape IDs to return; constants passed to the  **[ContainerProperties.GetMemberShapes](Visio.ContainerProperties.GetMemberShapes.md)** method.
+Specifies which container member shape IDs to return; constants passed to the **[ContainerProperties.GetMemberShapes](Visio.ContainerProperties.GetMemberShapes.md)** method.
 
 
 

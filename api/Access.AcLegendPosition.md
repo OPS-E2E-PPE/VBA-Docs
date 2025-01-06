@@ -3,19 +3,16 @@ title: AcLegendPosition enumeration (Access)
 keywords: vbaac10.chm6123
 f1_keywords:
 - vbaac10.chm6123
-ms.prod: access
 api_name:
 - Access.AcLegendPosition
 ms.date: 11/28/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # AcLegendPosition enumeration (Access)
 
 Specifies the position of a legend relative to its associated chart.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

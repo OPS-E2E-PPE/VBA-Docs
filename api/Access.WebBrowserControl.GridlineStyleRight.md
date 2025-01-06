@@ -3,12 +3,11 @@ title: WebBrowserControl.GridlineStyleRight property (Access)
 keywords: vbaac10.chm14396
 f1_keywords:
 - vbaac10.chm14396
-ms.prod: access
 api_name:
 - Access.WebBrowserControl.GridlineStyleRight
 ms.assetid: e1781daa-5b1b-a4e9-ff41-3bf7a436f56e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

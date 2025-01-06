@@ -3,23 +3,22 @@ title: Frame.CanRedo Property (Outlook Forms Script)
 keywords: olfm10.chm2000860
 f1_keywords:
 - olfm10.chm2000860
-ms.prod: outlook
 ms.assetid: ec4cff9e-6a48-7055-4e28-9c4c5cb46b24
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Frame.CanRedo Property (Outlook Forms Script)
 
-Returns a  **Boolean** that specifies if the most recent **Undo** can be reversed. Read-only.
+Returns a **Boolean** that specifies if the most recent **Undo** can be reversed. Read-only.
 
 
 ## Syntax
 
-_expression_. **CanRedo**
+_expression_.**CanRedo**
 
-_expression_ A variable that represents a  **Frame** object.
+_expression_ A variable that represents a **Frame** object.
 
 
 ## Remarks
@@ -28,6 +27,6 @@ _expression_ A variable that represents a  **Frame** object.
 
  **CanRedo** is read-only.
 
-To  **Redo** means to reverse an **Undo**; it does not necessrily mean to repeat the last user action.
+To **Redo** means to reverse an **Undo**; it does not necessrily mean to repeat the last user action.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

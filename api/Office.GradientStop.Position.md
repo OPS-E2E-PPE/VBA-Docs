@@ -1,11 +1,10 @@
 ---
 title: GradientStop.Position property (Office)
-ms.prod: office
 api_name:
 - Office.GradientStop.Position
 ms.assetid: df35c432-3ded-f6e0-e2fb-f0740588765f
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

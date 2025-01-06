@@ -1,18 +1,17 @@
 ---
-title: Explorer.ViewSwitch Event (Outlook)
+title: Explorer.ViewSwitch event (Outlook)
 keywords: vbaol11.chm452
 f1_keywords:
 - vbaol11.chm452
-ms.prod: outlook
 api_name:
 - Outlook.Explorer.ViewSwitch
 ms.assetid: ab981f42-d429-ccd7-a25c-142e52683020
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Explorer.ViewSwitch Event (Outlook)
+# Explorer.ViewSwitch event (Outlook)
 
 Occurs when the view in the explorer changes, either as a result of user action or through program code. 
 
@@ -21,7 +20,7 @@ Occurs when the view in the explorer changes, either as a result of user action 
 
 _expression_. `ViewSwitch`
 
-_expression_ A variable that represents an [Explorer](./Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This event is not available in Microsoft Visual Basic Scripting Edition (VBScrip
 
 ## Example
 
-This Visual Basic for Applications (VBA) example hides the preview pane if it is visible when the user switches to Messages with AutoPreview view. The sample code must be placed in a class module, and the  `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
+This Visual Basic for Applications (VBA) example hides the preview pane if it is visible when the user switches to Messages with AutoPreview view. The sample code must be placed in a class module, and the `Initialize_handler` routine must be called before the event procedure can be called by Microsoft Outlook.
 
 
 ```vb

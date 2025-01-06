@@ -1,27 +1,26 @@
 ---
-title: Selection.AddToGroup Method (Visio)
+title: Selection.AddToGroup method (Visio)
 keywords: vis_sdr.chm11116070
 f1_keywords:
 - vis_sdr.chm11116070
-ms.prod: visio
 api_name:
 - Visio.Selection.AddToGroup
 ms.assetid: 8bef7960-271c-245d-dec0-eeea4af66097
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.AddToGroup Method (Visio)
+# Selection.AddToGroup method (Visio)
 
 Adds the selected shapes to the selected group.
 
 
 ## Syntax
 
- _expression_. `AddToGroup`
+_expression_.**AddToGroup**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value
@@ -36,12 +35,9 @@ The current selection must contain both the shapes to add and the group to which
 
 ## Example
 
-The following macro shows how to use the  **AddToGroup** method to add selected shapes to a selected group.
+The following macro shows how to use the **AddToGroup** method to add selected shapes to a selected group.
 
-Before running this macro, open the  **Basic Shapes** stencil or a document based on the **Basic Diagram** template.
-
-
-
+Before running this macro, open the **Basic Shapes** stencil or a document based on the **Basic Diagram** template.
 
 ```vb
  

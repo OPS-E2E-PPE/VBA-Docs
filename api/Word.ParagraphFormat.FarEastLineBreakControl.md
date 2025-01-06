@@ -3,12 +3,11 @@ title: ParagraphFormat.FarEastLineBreakControl property (Word)
 keywords: vbawd10.chm156434549
 f1_keywords:
 - vbawd10.chm156434549
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.FarEastLineBreakControl
 ms.assetid: 554a0097-5402-2b40-face-c9ec942ad3e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `FarEastLineBreakControl`
+_expression_. `FarEastLineBreakControl`
 
- _expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Example

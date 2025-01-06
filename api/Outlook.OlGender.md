@@ -1,18 +1,17 @@
 ---
-title: OlGender Enumeration (Outlook)
+title: OlGender enumeration (Outlook)
 keywords: vbaol11.chm3061
 f1_keywords:
 - vbaol11.chm3061
-ms.prod: outlook
 api_name:
 - Outlook.OlGender
 ms.assetid: 5d0db92c-276c-bf50-b192-c33d7aee5409
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlGender Enumeration (Outlook)
+# OlGender enumeration (Outlook)
 
 Constants representing gender.
 

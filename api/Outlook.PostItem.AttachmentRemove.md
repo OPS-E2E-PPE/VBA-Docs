@@ -1,15 +1,14 @@
 ---
-title: PostItem.AttachmentRemove Event (Outlook)
-ms.prod: outlook
+title: PostItem.AttachmentRemove event (Outlook)
 api_name:
 - Outlook.PostItem.AttachmentRemove
 ms.assetid: 9fb7c1c3-e339-1dca-7c89-58c44e4435d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PostItem.AttachmentRemove Event (Outlook)
+# PostItem.AttachmentRemove event (Outlook)
 
 Occurs when an attachment has been removed from an instance of the parent object.
 
@@ -18,7 +17,7 @@ Occurs when an attachment has been removed from an instance of the parent object
 
 _expression_. `AttachmentRemove`( `_Attachment_` )
 
-_expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) object.
+_expression_ A variable that represents a [PostItem](Outlook.PostItem.md) object.
 
 
 ## Parameters
@@ -27,7 +26,7 @@ _expression_ A variable that represents a [PostItem](./Outlook.PostItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **Attachment**|The  **[Attachment](Outlook.Attachment.md)** that was removed from the item.|
+| _Attachment_|Required| **Attachment**|The **[Attachment](Outlook.Attachment.md)** that was removed from the item.|
 
 ## See also
 

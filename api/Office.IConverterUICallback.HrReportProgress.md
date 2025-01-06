@@ -3,18 +3,17 @@ title: IConverterUICallback.HrReportProgress method (Office)
 keywords: vbaof11.chm332001
 f1_keywords:
 - vbaof11.chm332001
-ms.prod: office
 api_name:
 - Office.IConverterUICallback.HrReportProgress
 ms.assetid: 585f52bc-755a-e360-8220-a97d1b7a697a
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # IConverterUICallback.HrReportProgress method (Office)
 
-This feature is only available in the [Open XML Format SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk).
+This feature is only available in the [Open XML Format SDK](/office/open-xml/open-xml-sdk).
 
 
 ## Syntax

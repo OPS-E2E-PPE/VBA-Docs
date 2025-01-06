@@ -3,12 +3,11 @@ title: Selection.TypeText method (Word)
 keywords: vbawd10.chm158663163
 f1_keywords:
 - vbawd10.chm158663163
-ms.prod: word
 api_name:
 - Word.Selection.TypeText
 ms.assetid: fb8e58cc-0c49-0efa-d60a-8be6c3d4435c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,12 +15,14 @@ localization_priority: Priority
 
 Inserts the specified text.
 
+> [!IMPORTANT]
+> This method has changed. Using VBA Selection commands like `Selection.BoldRun` on user selection with Comments no longer applies bold formatting on user-selected text or `Selection.TypeText` command or on user selection with Comments no longer inserts text.
 
 ## Syntax
 
- _expression_. `TypeText`( `_Text_` )
+_expression_. `TypeText`( `_Text_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -34,7 +35,7 @@ Inserts the specified text.
 
 ## Remarks
 
-If the  **ReplaceSelection** property is **True** , the selection is replaced by the specified text. If **ReplaceSelection** is **False** , the specified text is inserted before the selection.
+If the **ReplaceSelection** property is **True**, the selection is replaced by the specified text. If **ReplaceSelection** is **False**, the specified text is inserted before the selection.
 
 
 ## Example

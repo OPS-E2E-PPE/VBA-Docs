@@ -1,32 +1,31 @@
 ---
-title: Axis.MaximumScaleIsAuto Property (PowerPoint)
+title: Axis.MaximumScaleIsAuto property (PowerPoint)
 keywords: vbapp10.chm682018
 f1_keywords:
 - vbapp10.chm682018
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.MaximumScaleIsAuto
 ms.assetid: f25fd6a9-4ca7-2f06-3db4-35002f1c91ae
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.MaximumScaleIsAuto Property (PowerPoint)
+# Axis.MaximumScaleIsAuto property (PowerPoint)
 
  **True** if Microsoft Word calculates the maximum value for the value axis. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `MaximumScaleIsAuto`
+_expression_. `MaximumScaleIsAuto`
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 
 ## Remarks
 
-Setting the  **[MaximumScale](PowerPoint.Axis.MaximumScale.md)** property sets this property to **False**.
+Setting the **[MaximumScale](PowerPoint.Axis.MaximumScale.md)** property sets this property to **False**.
 
 
 ## Example
@@ -34,7 +33,8 @@ Setting the  **[MaximumScale](PowerPoint.Axis.MaximumScale.md)** property sets t
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example automatically calculates the minimum scale and the maximum scale for the value axis of the first chart in the active document.
 

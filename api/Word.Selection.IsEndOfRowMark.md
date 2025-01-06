@@ -3,12 +3,11 @@ title: Selection.IsEndOfRowMark property (Word)
 keywords: vbawd10.chm158662963
 f1_keywords:
 - vbawd10.chm158662963
-ms.prod: word
 api_name:
 - Word.Selection.IsEndOfRowMark
 ms.assetid: 0729a8f2-628c-902b-fca1-488742234873
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsEndOfRowMark`
+_expression_. `IsEndOfRowMark`
 
- _expression_ A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks

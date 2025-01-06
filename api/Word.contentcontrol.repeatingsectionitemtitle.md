@@ -3,10 +3,9 @@ title: ContentControl.RepeatingSectionItemTitle property (Word)
 keywords: vbawd10.chm266534947
 f1_keywords:
 - vbawd10.chm266534947
-ms.prod: word
 ms.assetid: 797ecfd0-c0d1-91c3-97b9-5fc838a569b7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,14 +16,14 @@ Returns or sets the name of the repeating section items used in the context menu
 
 ## Syntax
 
- _expression_. `RepeatingSectionItemTitle`
+_expression_. `RepeatingSectionItemTitle`
 
- _expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
+_expression_ A variable that represents a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-You can use this property with repeating section content controls only. Using it with other content controls will result in an error.
+Use this property with repeating section content controls only. Using it with other content controls will result in an error.
 
 
 ## Property value

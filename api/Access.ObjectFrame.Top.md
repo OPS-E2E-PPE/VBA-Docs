@@ -3,18 +3,17 @@ title: ObjectFrame.Top property (Access)
 keywords: vbaac10.chm11589
 f1_keywords:
 - vbaac10.chm11589
-ms.prod: access
 api_name:
 - Access.ObjectFrame.Top
 ms.assetid: b9a6e2fc-7b71-580c-1483-69ff799c0f0f
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ObjectFrame.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

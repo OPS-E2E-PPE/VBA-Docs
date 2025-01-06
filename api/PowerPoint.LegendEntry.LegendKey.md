@@ -1,27 +1,26 @@
 ---
-title: LegendEntry.LegendKey Property (PowerPoint)
+title: LegendEntry.LegendKey property (PowerPoint)
 keywords: vbapp10.chm65710
 f1_keywords:
 - vbapp10.chm65710
-ms.prod: powerpoint
 api_name:
 - PowerPoint.LegendEntry.LegendKey
 ms.assetid: 6265569c-fc7c-5fe8-864e-d543a08b33f4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# LegendEntry.LegendKey Property (PowerPoint)
+# LegendEntry.LegendKey property (PowerPoint)
 
-Returns the legend key that is associated with the entry. Read-only  **[LegendKey](PowerPoint.LegendKey.md)**.
+Returns the legend key that is associated with the entry. Read-only **[LegendKey](PowerPoint.LegendKey.md)**.
 
 
 ## Syntax
 
- _expression_. `LegendKey`
+_expression_. `LegendKey`
 
- _expression_ A variable that represents a '[LegendEntry](PowerPoint.LegendEntry.md)' object.
+_expression_ A variable that represents a '[LegendEntry](PowerPoint.LegendEntry.md)' object.
 
 
 ## Example
@@ -29,9 +28,10 @@ Returns the legend key that is associated with the entry. Read-only  **[LegendKe
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
-The following example sets the legend key for legend entry one on the first chart in the active document to be a triangle. You should run the example on a 2-D line chart.
+The following example sets the legend key for legend entry one on the first chart in the active document to be a triangle. You should run the example on a 2D line chart.
 
 
 

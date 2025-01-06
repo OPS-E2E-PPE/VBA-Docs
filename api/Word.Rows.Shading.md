@@ -3,25 +3,24 @@ title: Rows.Shading property (Word)
 keywords: vbawd10.chm155975782
 f1_keywords:
 - vbawd10.chm155975782
-ms.prod: word
 api_name:
 - Word.Rows.Shading
 ms.assetid: 79c5240c-2845-e038-49cb-8a9b1f8f2a71
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rows.Shading property (Word)
 
-Returns a  **[Shading](Word.Shading.md)** object that refers to the shading formatting for the specified object.
+Returns a **[Shading](Word.Shading.md)** object that refers to the shading formatting for the specified object.
 
 
 ## Syntax
 
- _expression_. `Shading`
+_expression_. `Shading`
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Example

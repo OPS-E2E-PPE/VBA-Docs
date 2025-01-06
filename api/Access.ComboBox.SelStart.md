@@ -3,12 +3,11 @@ title: ComboBox.SelStart property (Access)
 keywords: vbaac10.chm11438
 f1_keywords:
 - vbaac10.chm11438
-ms.prod: access
 api_name:
 - Access.ComboBox.SelStart
 ms.assetid: 056196b5-828a-f276-da26-983c8b47cd05
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

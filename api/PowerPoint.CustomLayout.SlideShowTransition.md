@@ -1,27 +1,26 @@
 ---
-title: CustomLayout.SlideShowTransition Property (PowerPoint)
+title: CustomLayout.SlideShowTransition property (PowerPoint)
 keywords: vbapp10.chm672013
 f1_keywords:
 - vbapp10.chm672013
-ms.prod: powerpoint
 api_name:
 - PowerPoint.CustomLayout.SlideShowTransition
 ms.assetid: f165346b-4ad3-035b-a9be-141dc7666958
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CustomLayout.SlideShowTransition Property (PowerPoint)
+# CustomLayout.SlideShowTransition property (PowerPoint)
 
-Returns a  **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified custom layout. Read-only.
+Returns a **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified custom layout. Read-only.
 
 
 ## Syntax
 
- _expression_. `SlideShowTransition`
+_expression_. `SlideShowTransition`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

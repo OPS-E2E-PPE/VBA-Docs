@@ -3,30 +3,29 @@ title: Application.MailSystem property (Word)
 keywords: vbawd10.chm158335080
 f1_keywords:
 - vbawd10.chm158335080
-ms.prod: word
 api_name:
 - Word.Application.MailSystem
 ms.assetid: d8f97baa-2c50-c2af-0e50-f2de5d017b62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.MailSystem property (Word)
 
-Returns the mail system (or systems) installed on the host computer. Read-only  **WdMailSystem**.
+Returns the mail system (or systems) installed on the host computer. Read-only **WdMailSystem**.
 
 
 ## Syntax
 
- _expression_. `MailSystem`
+_expression_. `MailSystem`
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Some of the  **WdMailSystem** constants are available only in Microsoft Office Macintosh Edition. For additional information about these constants, consult the language reference Help included with Microsoft Office Macintosh Edition.
+Some of the **WdMailSystem** constants are available only in Microsoft Office Macintosh Edition. For additional information about these constants, consult the language reference Help included with Microsoft Office Macintosh Edition.
 
 
 ## Example

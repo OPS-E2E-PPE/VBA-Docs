@@ -3,12 +3,11 @@ title: AllStoredProcedures.Item property (Access)
 keywords: vbaac10.chm12680
 f1_keywords:
 - vbaac10.chm12680
-ms.prod: access
 api_name:
 - Access.AllStoredProcedures.Item
 ms.assetid: 883c84fd-5186-1944-334b-f2e7f595755b
 ms.date: 02/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

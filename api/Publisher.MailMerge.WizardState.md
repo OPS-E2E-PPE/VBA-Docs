@@ -1,27 +1,26 @@
 ---
-title: MailMerge.WizardState Property (Publisher)
+title: MailMerge.WizardState property (Publisher)
 keywords: vbapb10.chm6225929
 f1_keywords:
 - vbapb10.chm6225929
-ms.prod: publisher
 api_name:
 - Publisher.MailMerge.WizardState
 ms.assetid: a237cb3f-2c03-5f62-fa67-d4aa7703389d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
-# MailMerge.WizardState Property (Publisher)
+# MailMerge.WizardState property (Publisher)
 
-Returns or sets a  **Long** indicating the current Mail Merge wizard step for a publication. The **WizardState** property returns a number that equates to the current Mail Merge wizard step; a zero (0) means the Mail Merge wizard is closed. Read/write.
+Returns or sets a **Long** indicating the current mail merge wizard step for a publication. The **WizardState** property returns a number that equates to the current mail merge wizard step; a zero (0) means that the mail merge wizard is closed. Read/write.
 
 
 ## Syntax
 
- _expression_. **WizardState**
+_expression_.**WizardState**
 
- _expression_ A variable that represents a  **MailMerge** object.
+_expression_ A variable that represents a **[MailMerge](Publisher.MailMerge.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ Long
 
 ## Example
 
-This example displays the Mail Merge wizard if it is closed.
-
+This example displays the mail merge wizard if it is closed.
 
 ```vb
 Sub ShowMergeWizard() 

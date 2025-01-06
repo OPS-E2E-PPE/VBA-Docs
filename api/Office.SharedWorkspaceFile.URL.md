@@ -3,12 +3,11 @@ title: SharedWorkspaceFile.URL property (Office)
 keywords: vbaof11.chm266001
 f1_keywords:
 - vbaof11.chm266001
-ms.prod: office
 api_name:
 - Office.SharedWorkspaceFile.URL
 ms.assetid: cbdcb807-235b-2904-8407-0cb276c6d342
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,7 +35,7 @@ String
 
 The **URL** property returns the address of the shared workspace file in this format: `https://server/sites/user/workspace/Shared%Documents/MyWorkbook.xls`. 
 
-The **URL** property returns a URL-encoded string. For example, a space in the folder name is represented by `%20`. The **SharedWorkspaceFile** object does not have a **Name** or **FileName** property. The filename must be extracted from the **URL** property.
+The **URL** property returns a URL-encoded string. For example, a space in the folder name is represented by `%20`. The **SharedWorkspaceFile** object does not have a **Name** or **FileName** property. The file name must be extracted from the **URL** property.
 
 
 ## Example
@@ -45,7 +44,7 @@ The following example displays the URL of the shared workspace file.
 
 
 ```vb
-MsgBox "URL: " &amp; ActiveWorkbook.SharedWorkspaceFile.URL, _ 
+MsgBox "URL: " & ActiveWorkbook.SharedWorkspaceFile.URL, _ 
         vbInformation + vbOKOnly, "Shared Workspace File URL"
 ```
 

@@ -1,27 +1,26 @@
 ---
-title: Shape.AddRow Method (Visio)
+title: Shape.AddRow method (Visio)
 keywords: vis_sdr.chm11216050
 f1_keywords:
 - vis_sdr.chm11216050
-ms.prod: visio
 api_name:
 - Visio.Shape.AddRow
 ms.assetid: 8b8dcf65-9b42-b3bf-0da3-61d3fbd02996
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.AddRow Method (Visio)
+# Shape.AddRow method (Visio)
 
 Adds a row to a ShapeSheet section at a specified position.
 
 
 ## Syntax
 
- _expression_. `AddRow`( `_Section_` , `_Row_` , `_RowTag_` )
+_expression_. `AddRow`( `_Section_` , `_Row_` , `_RowTag_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -43,17 +42,17 @@ Integer
 
 If the ShapeSheet section does not already exist, it is created with a blank row. New cells in new rows are initialized with default formulas, if applicable. Otherwise, a program must include statements to set the formulas for the new cells. If the new row cannot be added, an error is generated.
 
-The Visio type library declares row constants prefixed with  **visRow** in **[VisRowIndices](Visio.visrowindices.md)**.
+The Visio type library declares row constants prefixed with **visRow** in **[VisRowIndices](Visio.visrowindices.md)**.
 
-Constants for rows in the Geometry, Connection Points, and Controls sections are prefixed with  **visTag** and declared by the type library in **[VisRowTags](Visio.visrowtags.md)**. To see a list of these constants, see the **RowType** property.
+Constants for rows in the Geometry, Connection Points, and Controls sections are prefixed with **visTag** and declared by the type library in **[VisRowTags](Visio.visrowtags.md)**. To see a list of these constants, see the **RowType** property.
 
-The row constants declared by the Visio type library serve as base positions at which a section's rows begin. Add offsets to these constants to specify the first row and beyond, for example,  **visRowFirst** +0, **visRowFirst** +1, and so on. To add rows at the end of a section, pass the constant **visRowLast** for the _Row_ argument. The value returned is the actual row index.
+The row constants declared by the Visio type library serve as base positions at which a section's rows begin. Add offsets to these constants to specify the first row and beyond, for example, **visRowFirst** +0, **visRowFirst** +1, and so on. To add rows at the end of a section, pass the constant **visRowLast** for the _Row_ argument. The value returned is the actual row index.
 
 The  _RowTag_ argument specifies the type of row to add. To generate a section's default row type, pass **visTagDefault** (0) as the _RowTag_ argument. Explicit tags are useful when adding rows to Geometry, Connection Points, and Controls sections. See the **RowType** property for descriptions of valid row types for these sections. Passing an invalid row type generates an error.
 
 If you try to add a row to a Character, Tabs, or Paragraph section, an error occurs.
 
-The  **AddRow** method cannot add named rows. To add named rows, use the **AddNamedRow** method.
+The **AddRow** method cannot add named rows. To add named rows, use the **AddNamedRow** method.
 
 If you add rows to a section that has nameable rows (for example, the Connection Points or Controls section), the  _Row_ argument is ignored. By default, named rows are named in the order added, for example, Row_1, Row_2, and so forth. Naming order is influenced, however, by any existing rows or previously deleted rows.
 

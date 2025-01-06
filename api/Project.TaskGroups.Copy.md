@@ -1,24 +1,24 @@
 ---
-title: TaskGroups.Copy Method (Project)
-ms.prod: project-server
+title: TaskGroups.Copy method (Project)
+ms.service: project-server
 api_name:
 - Project.TaskGroups.Copy
 ms.assetid: e69fe06d-3855-a8ac-32fe-752ff280fe85
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskGroups.Copy Method (Project)
+# TaskGroups.Copy method (Project)
 
-Makes a copy of a group definition for the  **TaskGroups** collection and returns a reference to the **[Group](Project.Group.md)** object.
+Makes a copy of a group definition for the **TaskGroups** collection and returns a reference to the **[Group](Project.Group.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Name_`, `_NewName_` )
+_expression_.**Copy** (_Name_, _NewName_)
 
- _expression_ A variable that represents a 'TaskGroups' object.
+_expression_ A variable that represents a 'TaskGroups' object.
 
 
 ## Parameters

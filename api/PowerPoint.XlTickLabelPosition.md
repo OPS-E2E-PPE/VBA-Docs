@@ -1,15 +1,14 @@
 ---
-title: XlTickLabelPosition Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlTickLabelPosition enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlTickLabelPosition
 ms.assetid: 1ec6b42b-3f77-4958-58ec-702b484af216
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlTickLabelPosition Enumeration (PowerPoint)
+# XlTickLabelPosition enumeration (PowerPoint)
 
 Specifies the position of tick-mark labels on the specified axis.
 

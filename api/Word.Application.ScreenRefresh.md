@@ -3,12 +3,11 @@ title: Application.ScreenRefresh method (Word)
 keywords: vbawd10.chm158335277
 f1_keywords:
 - vbawd10.chm158335277
-ms.prod: word
 api_name:
 - Word.Application.ScreenRefresh
 ms.assetid: 303db23c-492c-5e33-0363-7ef6433dc90e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ Updates the display on the monitor with the current information in the video mem
 
 ## Syntax
 
- _expression_. `ScreenRefresh`
+_expression_.**ScreenRefresh**
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-You can use this method after using the  **ScreenUpdating** property to disable screen updates. **ScreenRefresh** turns on screen updating for just one instruction and then immediately turns it off. Subsequent instructions don't update the screen until screen updating is turned on again with the **ScreenUpdating** property.
+Use this method after using the **ScreenUpdating** property to disable screen updates. **ScreenRefresh** turns on screen updating for just one instruction and then immediately turns it off. Subsequent instructions don't update the screen until screen updating is turned on again with the **ScreenUpdating** property.
 
 
 ## Example

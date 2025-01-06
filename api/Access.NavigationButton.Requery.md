@@ -3,12 +3,11 @@ title: NavigationButton.Requery method (Access)
 keywords: vbaac10.chm10443
 f1_keywords:
 - vbaac10.chm10443
-ms.prod: access
 api_name:
 - Access.NavigationButton.Requery
 ms.assetid: 4beb0efc-2e95-469e-21be-e546d0a66414
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[NavigationButton](Access.Navigation
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

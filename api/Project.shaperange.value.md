@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.Value Property (Project)
-ms.prod: project-server
+title: ShapeRange.Value property (Project)
+ms.service: project-server
 ms.assetid: 19793067-571a-38b9-30b0-7b84b0864290
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Value Property (Project)
-Gets an individual  **Shape** object in the **ShapeRange** collection. Read-only **Shape**.
+# ShapeRange.Value property (Project)
+Gets an individual **Shape** object in the **ShapeRange** collection. Read-only **Shape**.
 
 ## Syntax
 
- _expression_.**Value**
+_expression_.**Value**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Remarks
@@ -24,7 +24,7 @@ Gets an individual  **Shape** object in the **ShapeRange** collection. Read-only
 
 ## Example
 
-The following example creates a report named "Test Report", creates two shapes, and then adds the shapes to a  **ShapeRange** object. The statement that begins with `sRange.Value(1)` gets the first shape in the shape range. The statement that begins with `sRange(2)` invokes the default **Value** property and gets the second shape in the shape range.
+The following example creates a report named "Test Report", creates two shapes, and then adds the shapes to a **ShapeRange** object. The statement that begins with `sRange.Value(1)` gets the first shape in the shape range. The statement that begins with `sRange(2)` invokes the default **Value** property and gets the second shape in the shape range.
 
 
 ```vb
@@ -48,7 +48,7 @@ Sub TestShapeRangeValue()
     
     sRange.TextFrame2.AutoSize = msoAutoSizeShapeToFitText
         
-    sRange.Value(1).TextFrame2.TextRange.Text = "This is a test. It is only a test."
+    sRange.Value(1).TextFrame2.TextRange.Text = "This is a test. It's only a test."
     sRange(2).TextFrame2.TextRange.Text = "This is text box 2."
 End Sub
 ```

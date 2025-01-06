@@ -1,32 +1,31 @@
 ---
-title: SlideRange.Layout Property (PowerPoint)
+title: SlideRange.Layout property (PowerPoint)
 keywords: vbapp10.chm532014
 f1_keywords:
 - vbapp10.chm532014
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.Layout
 ms.assetid: 0aa40bd1-9493-ed4c-dd09-fb0b35086e7c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.Layout Property (PowerPoint)
+# SlideRange.Layout property (PowerPoint)
 
-Returns or sets a  **PpSlideLayout** constant that represents the slide layout. Read/write.
+Returns or sets a **PpSlideLayout** constant that represents the slide layout. Read/write.
 
 
 ## Syntax
 
- _expression_.**Layout**
+_expression_.**Layout**
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Remarks
 
-The value of the  **Layout** property can be one of these **PpSlideLayout** constants.
+The value of the **Layout** property can be one of these **PpSlideLayout** constants.
 
 
 ||

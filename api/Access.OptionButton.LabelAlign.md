@@ -3,12 +3,11 @@ title: OptionButton.LabelAlign property (Access)
 keywords: vbaac10.chm10602
 f1_keywords:
 - vbaac10.chm10602
-ms.prod: access
 api_name:
 - Access.OptionButton.LabelAlign
 ms.assetid: 3ecb4d1f-7e32-9699-b2c3-6918d7b2eb61
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

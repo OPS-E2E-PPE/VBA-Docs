@@ -3,10 +3,9 @@ title: A procedure with a ParamArray argument cannot be called with named argume
 keywords: vblr6.chm1040130
 f1_keywords:
 - vblr6.chm1040130
-ms.prod: office
 ms.assetid: 59cbcba9-b3bf-5e5d-1002-5529fa6226ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,7 +16,7 @@ All [arguments](../../Glossary/vbe-glossary.md#argument) in a call to a [procedu
 
 - [Named-argument](../../Glossary/vbe-glossary.md#named-argument) syntax appears in a procedure call.
     
-    The named-argument calling syntax can't be used to call a procedure that includes a  **ParamArray** parameter. To supply only some elements of the **ParamArray**, use commas as placeholders for those elements you want to omit. For example, in the following call, if the **ParamArray** arguments begin after `Arg2`, values are being passed only for the first, third, and sixth values in the  **ParamArray**:
+    The named-argument calling syntax can't be used to call a procedure that includes a **ParamArray** parameter. To supply only some elements of the **ParamArray**, use commas as placeholders for those elements you want to omit. For example, in the following call, if the **ParamArray** arguments begin after `Arg2`, values are being passed only for the first, third, and sixth values in the **ParamArray**:
     
 
 
@@ -26,7 +25,7 @@ All [arguments](../../Glossary/vbe-glossary.md#argument) in a call to a [procedu
   ```
 
 
-     **Note**  The  **ParamArray** always represents the last items in the argument list.
+   **Note**  The **ParamArray** always represents the last items in the argument list.
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 

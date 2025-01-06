@@ -1,27 +1,26 @@
 ---
-title: PageSetup.FirstSlideNumber Property (PowerPoint)
+title: PageSetup.FirstSlideNumber property (PowerPoint)
 keywords: vbapp10.chm527003
 f1_keywords:
 - vbapp10.chm527003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.PageSetup.FirstSlideNumber
 ms.assetid: 277f613b-8c3a-d8bb-593c-a66ca41b4fa0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PageSetup.FirstSlideNumber Property (PowerPoint)
+# PageSetup.FirstSlideNumber property (PowerPoint)
 
 Returns or sets the slide number for the first slide in the presentation. Read/write.
 
 
 ## Syntax
 
- _expression_. `FirstSlideNumber`
+_expression_. `FirstSlideNumber`
 
- _expression_ A variable that represents a [PageSetup](./PowerPoint.PageSetup.md) object.
+_expression_ A variable that represents a [PageSetup](PowerPoint.PageSetup.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Long
 
 ## Remarks
 
-The slide number is the actual number that will appear in the lower-right corner of the slide when you display slide numbers. This number is determined by the number (order) of the slide within the presentation (the  **SlideIndex** property value) and the starting slide number for the presentation (the **FirstSlideNumber** property value). The slide number will always be equal to the starting slide number + the slide index number - 1. The **SlideNumber** property returns the slide number.
+The slide number is the actual number that will appear in the lower-right corner of the slide when you display slide numbers. This number is determined by the number (order) of the slide within the presentation (the **SlideIndex** property value) and the starting slide number for the presentation (the **FirstSlideNumber** property value). The slide number will always be equal to the starting slide number + the slide index number - 1. The **SlideNumber** property returns the slide number.
 
 
 ## Example

@@ -1,27 +1,26 @@
 ---
-title: Selection.SendBackward Method (Visio)
+title: Selection.SendBackward method (Visio)
 keywords: vis_sdr.chm11116540
 f1_keywords:
 - vis_sdr.chm11116540
-ms.prod: visio
 api_name:
 - Visio.Selection.SendBackward
 ms.assetid: 645a5686-6421-f8dd-425f-3cb5b0b7de85
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.SendBackward Method (Visio)
+# Selection.SendBackward method (Visio)
 
 Moves a shape or selected shapes back one position in the z-order.
 
 
 ## Syntax
 
- _expression_. `SendBackward`
+_expression_. `SendBackward`
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value

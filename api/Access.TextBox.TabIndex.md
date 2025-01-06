@@ -3,18 +3,17 @@ title: TextBox.TabIndex property (Access)
 keywords: vbaac10.chm11065
 f1_keywords:
 - vbaac10.chm11065
-ms.prod: access
 api_name:
 - Access.TextBox.TabIndex
 ms.assetid: d52e0839-e0aa-1b67-b075-115ad7b2f774
 ms.date: 02/26/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # TextBox.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form or report. Read/write **Integer**.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: CommandButton.Properties property (Access)
 keywords: vbaac10.chm10441
 f1_keywords:
 - vbaac10.chm10441
-ms.prod: access
 api_name:
 - Access.CommandButton.Properties
 ms.assetid: 2d819871-1a93-c835-7c2b-c42797dceaf8
 ms.date: 02/23/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[CommandButton](Access.CommandButton
 
 ## Remarks
 
-The **Properties** collection object is the collection of all the properties related to a control. You can refer to individual members of the collection by using the member object's index or a string expression that is the name of the member object. 
+The **Properties** collection object is the collection of all the properties related to a control. Refer to individual members of the collection by using the member object's index or a string expression that is the name of the member object. 
 
 The first member object in the collection has an index value of 0, and the total number of member objects in the collection is the value of the **Properties** collection's **Count** property minus 1.
 

@@ -1,27 +1,27 @@
 ---
-title: Task.ConstraintDate Property (Project)
+title: Task.ConstraintDate property (Project)
 keywords: vbapj.chm131666
 f1_keywords:
 - vbapj.chm131666
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.ConstraintDate
 ms.assetid: 6985581b-82a1-6ab2-02ce-94d33e6d0336
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.ConstraintDate Property (Project)
+# Task.ConstraintDate property (Project)
 
-Gets or sets a constraint date for a task. Read/write  **Variant**.
+Gets or sets a constraint date for a task. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ConstraintDate`
+_expression_. `ConstraintDate`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

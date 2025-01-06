@@ -3,12 +3,11 @@ title: RedoAction method (Microsoft Forms)
 keywords: fm20.chm5224966
 f1_keywords:
 - fm20.chm5224966
-ms.prod: office
 api_name:
 - Office.RedoAction
 ms.assetid: a4aba525-5cbe-1a68-aec6-731fb5f78464
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

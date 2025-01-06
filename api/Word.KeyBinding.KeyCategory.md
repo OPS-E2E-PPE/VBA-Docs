@@ -3,25 +3,24 @@ title: KeyBinding.KeyCategory property (Word)
 keywords: vbawd10.chm160956420
 f1_keywords:
 - vbawd10.chm160956420
-ms.prod: word
 api_name:
 - Word.KeyBinding.KeyCategory
 ms.assetid: 293371f6-7057-b579-b039-13e762f5ea62
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # KeyBinding.KeyCategory property (Word)
 
-Returns the type of item assigned to the specified key binding. Read-only  **WdKeyCategory**.
+Returns the type of item assigned to the specified key binding. Read-only **WdKeyCategory**.
 
 
 ## Syntax
 
- _expression_. `KeyCategory`
+_expression_. `KeyCategory`
 
- _expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ Required. A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Example

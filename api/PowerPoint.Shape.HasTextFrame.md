@@ -1,27 +1,26 @@
 ---
-title: Shape.HasTextFrame Property (PowerPoint)
+title: Shape.HasTextFrame property (PowerPoint)
 keywords: vbapp10.chm547055
 f1_keywords:
 - vbapp10.chm547055
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.HasTextFrame
 ms.assetid: ea1a53e4-32d8-e51f-9e60-9ef719c0d973
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.HasTextFrame Property (PowerPoint)
+# Shape.HasTextFrame property (PowerPoint)
 
 Returns whether the specified shape has a text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. `HasTextFrame`
+_expression_. `HasTextFrame`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ MsoTriState
 
 ## Remarks
 
-The value of the  **HasTextFrame** property can be one of these **MsoTriState** constants.
+The value of the **HasTextFrame** property can be one of these **MsoTriState** constants.
 
 
 

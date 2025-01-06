@@ -3,12 +3,11 @@ title: TabControl.BorderShade property (Access)
 keywords: vbaac10.chm14603
 f1_keywords:
 - vbaac10.chm14603
-ms.prod: access
 api_name:
 - Access.TabControl.BorderShade
 ms.assetid: 1b71c426-775f-1246-a659-e68faedee62a
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

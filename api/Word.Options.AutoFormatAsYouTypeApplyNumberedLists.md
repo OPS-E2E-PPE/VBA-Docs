@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeApplyNumberedLists property (Word)
 keywords: vbawd10.chm162988295
 f1_keywords:
 - vbawd10.chm162988295
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeApplyNumberedLists
 ms.assetid: a20be170-7297-0f55-4650-04540fc6f4f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyNumberedLists`
+_expression_. `AutoFormatAsYouTypeApplyNumberedLists`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

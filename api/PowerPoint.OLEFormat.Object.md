@@ -1,27 +1,26 @@
 ---
-title: OLEFormat.Object Property (PowerPoint)
+title: OLEFormat.Object property (PowerPoint)
 keywords: vbapp10.chm562004
 f1_keywords:
 - vbapp10.chm562004
-ms.prod: powerpoint
 api_name:
 - PowerPoint.OLEFormat.Object
 ms.assetid: fcaef43d-590e-179f-6698-4a8c191b92f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OLEFormat.Object Property (PowerPoint)
+# OLEFormat.Object property (PowerPoint)
 
 Returns the object that represents the specified OLE object's top-level interface. Read-only.
 
 
 ## Syntax
 
- _expression_.**Object**
+_expression_.**Object**
 
- _expression_ A variable that represents an [OLEFormat](./PowerPoint.OLEFormat.md) object.
+_expression_ A variable that represents an [OLEFormat](PowerPoint.OLEFormat.md) object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Object
 
 This property allows you to access the properties and methods of the application in which an OLE object was created.
 
-Use the  **TypeName** function to determine the type of object this property returns for a specific OLE object.
+Use the **TypeName** function to determine the type of object this property returns for a specific OLE object.
 
 
 ## Example

@@ -1,11 +1,10 @@
 ---
 title: TextFrame2.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.TextFrame2.Creator
 ms.assetid: 12c1e3ee-4c76-907a-2606-661108f8a6ae
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -31,7 +30,7 @@ Sub FindCreator()
  
  Dim myObject As Excel.Workbook 
  Set myObject = ActiveWorkbook 
- If myObject.TextFrame2.Creator = &amp;h5843454c Then 
+ If myObject.TextFrame2.Creator = &h5843454c Then 
  MsgBox "This is a Microsoft Excel object." 
  Else 
  MsgBox "This is not a Microsoft Excel object." 

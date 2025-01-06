@@ -1,30 +1,30 @@
 ---
 title: Fields object (Word)
-ms.prod: word
 ms.assetid: c79065bb-ba29-22fd-a9d7-90bb10550035
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Fields object (Word)
 
-A collection of  **Field** objects that represent all the fields in a selection, range, or document.
+A collection of **Field** objects that represent all the fields in a selection, range, or document.
 
 
 ## Remarks
 
-Use the  **Fields** property to return the **Fields** collection. The following example updates all the fields in the selection.
+Use the **Fields** property to return the **Fields** collection. The following example updates all the fields in the selection.
 
 
- **Note**  Use the  **Fields** property with a **[MailMerge](Word.MailMerge.md)** object to return a **[MailMergeFields](Word.mailmergefields.md)** collection.
+> [!NOTE] 
+> Use the **Fields** property with a **[MailMerge](Word.MailMerge.md)** object to return a **[MailMergeFields](Word.mailmergefields.md)** collection.
 
 
 ```vb
 Selection.Fields.Update
 ```
 
-Use the  **Add** method to add a field to the **Fields** collection. The following example inserts a DATE field at the beginning of the selection and then displays the result.
+Use the **Add** method to add a field to the **Fields** collection. The following example inserts a DATE field at the beginning of the selection and then displays the result.
 
 
 
@@ -36,7 +36,7 @@ Set myField = ActiveDocument.Fields.Add(Range:=Selection.Range, _
 MsgBox myField.Result
 ```
 
-Use  **Fields** (Index), where Index is the index number, to return a single **[Field](Word.Field.md)** object. The index number represents the position of the field in the selection, range, or document. The following example displays the field code and the result of the first field in the active document.
+Use **Fields** (Index), where Index is the index number, to return a single **[Field](Word.Field.md)** object. The index number represents the position of the field in the selection, range, or document. The following example displays the field code and the result of the first field in the active document.
 
 
 
@@ -48,12 +48,12 @@ If ActiveDocument.Fields.Count >= 1 Then
 End If
 ```
 
-The  **Count** property for this collection in a document returns the number of items in the main story only. To count items in other stories use the collection with the **Range** object.
+The **Count** property for this collection in a document returns the number of items in the main story only. To count items in other stories use the collection with the **Range** object.
 
 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

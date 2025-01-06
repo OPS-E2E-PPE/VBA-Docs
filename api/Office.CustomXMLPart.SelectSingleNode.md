@@ -3,12 +3,11 @@ title: CustomXMLPart.SelectSingleNode method (Office)
 keywords: vbaof11.chm295013
 f1_keywords:
 - vbaof11.chm295013
-ms.prod: office
 api_name:
 - Office.CustomXMLPart.SelectSingleNode
 ms.assetid: 2bd4c25b-d4e6-08db-b2ce-c74adf16336f
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -47,9 +46,9 @@ Dim cxn As CustomXMLNode
 
 ' Add a custom XML part.
 ActiveDocument.CustomXMLParts.Add ( _
-    "<suppliers>" &amp; _
-    "<supplier ID='1'>Contoso</supplier>" &amp; _
-    "<supplier ID='2'>Wingtip Toys</supplier>" &amp; _
+    "<suppliers>" & _
+    "<supplier ID='1'>Contoso</supplier>" & _
+    "<supplier ID='2'>Wingtip Toys</supplier>" & _
     "</suppliers>")
 
 ' Return the last custom XML part added to the document.

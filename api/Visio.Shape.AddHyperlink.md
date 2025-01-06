@@ -1,24 +1,23 @@
 ---
-title: Shape.AddHyperlink Method (Visio)
-ms.prod: visio
+title: Shape.AddHyperlink method (Visio)
 api_name:
 - Visio.Shape.AddHyperlink
 ms.assetid: fbf77a65-88a1-e710-60a2-efde9e7df968
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.AddHyperlink Method (Visio)
+# Shape.AddHyperlink method (Visio)
 
-Adds a  **Hyperlink** object to a Microsoft Visio shape.
+Adds a **Hyperlink** object to a Microsoft Visio shape.
 
 
 ## Syntax
 
- _expression_. `AddHyperlink`
+_expression_. `AddHyperlink`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -28,14 +27,14 @@ Hyperlink
 
 ## Remarks
 
-Using the  **AddHyperlink** method is equivalent to adding a hyperlink to a shape by clicking **Hyperlink** on the **Insert** tab.
+Using the **AddHyperlink** method is equivalent to adding a hyperlink to a shape by clicking **Hyperlink** on the **Insert** tab.
 
-If a  **Hyperlink** object already exists for the shape, the method returns a reference to the existing **Hyperlink** object.
+If a **Hyperlink** object already exists for the shape, the method returns a reference to the existing **Hyperlink** object.
 
 
 ## Example
 
-This example shows how to use the  **AddHyperlink** method to add a hyperlink to a shape. It also shows how to trap errors that arise when you try to access nonexistent hyperlinks. It first attempts to access a hyperlink that does not exist, thereby throwing an error. Then it adds the hyperlink, and when it attempts to access the hyperlink a second time, no error is thrown. Before running this example, replace _address_ with a valid Internet or intranet address.
+This example shows how to use the **AddHyperlink** method to add a hyperlink to a shape. It also shows how to trap errors that arise when you try to access nonexistent hyperlinks. It first attempts to access a hyperlink that does not exist, thereby throwing an error. Then it adds the hyperlink, and when it attempts to access the hyperlink a second time, no error is thrown. Before running this example, replace _address_ with a valid Internet or intranet address.
 
 
 ```vb

@@ -1,17 +1,16 @@
 ---
-title: PpMouseActivation Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpMouseActivation enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpMouseActivation
 ms.assetid: 0495c83d-c2ec-67fa-12bf-8c6c466d9693
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpMouseActivation Enumeration (PowerPoint)
+# PpMouseActivation enumeration (PowerPoint)
 
-The action setting for a  **MouseClick** or **MouseOver** event.
+The action setting for a **MouseClick** or **MouseOver** event.
 
 
 

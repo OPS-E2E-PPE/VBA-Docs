@@ -1,15 +1,15 @@
 ---
-title: PjImportMethods Enumeration (Project)
-ms.prod: project-server
+title: PjImportMethods enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjImportMethods
 ms.assetid: 9e2787b4-48c3-7257-d737-8eae6abca873
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjImportMethods Enumeration (Project)
+# PjImportMethods enumeration (Project)
 
 Contains constants that specify the method to use when importing data.
 

@@ -3,18 +3,17 @@ title: EmptyCell.BackStyle property (Access)
 keywords: vbaac10.chm14311
 f1_keywords:
 - vbaac10.chm14311
-ms.prod: access
 api_name:
 - Access.EmptyCell.BackStyle
 ms.assetid: 8ee86ae2-c554-8825-0faf-b3f5056fba0f
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmptyCell.BackStyle property (Access)
 
-You can use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
+Use the **BackStyle** property to specify whether a control will be transparent. Read/write **Byte**.
 
 
 ## Syntax

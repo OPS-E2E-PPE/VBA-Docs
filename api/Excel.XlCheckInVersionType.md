@@ -1,17 +1,16 @@
 ---
 title: XlCheckInVersionType enumeration (Excel)
-ms.prod: excel
 api_name:
 - Excel.XlCheckInVersionType
 ms.assetid: 08e26c85-bfa6-f125-70aa-ce31eb684d5a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # XlCheckInVersionType enumeration (Excel)
 
-Specifies the type of version for the document checked in when using the  **CheckIn** method. Applies to workbooks stored in a SharePoint library.
+Specifies the type of version for the document checked in when using the **CheckIn** method. Applies to workbooks stored in a SharePoint library.
 
 
 

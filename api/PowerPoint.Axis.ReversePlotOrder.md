@@ -1,25 +1,24 @@
 ---
-title: Axis.ReversePlotOrder Property (PowerPoint)
+title: Axis.ReversePlotOrder property (PowerPoint)
 keywords: vbapp10.chm682025
 f1_keywords:
 - vbapp10.chm682025
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Axis.ReversePlotOrder
 ms.assetid: 630d989b-1f9b-5258-d0be-479f362d2c66
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Axis.ReversePlotOrder Property (PowerPoint)
+# Axis.ReversePlotOrder property (PowerPoint)
 
  **True** if Microsoft Word plots data points from last to first. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ReversePlotOrder`
+_expression_.**ReversePlotOrder**
 
 _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
@@ -34,7 +33,8 @@ You cannot use this property on radar charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example plots data points from last to first on the value axis for the first chart in the active document.
 

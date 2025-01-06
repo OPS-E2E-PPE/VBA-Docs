@@ -3,12 +3,11 @@ title: Range.CombineCharacters property (Word)
 keywords: vbawd10.chm157155595
 f1_keywords:
 - vbawd10.chm157155595
-ms.prod: word
 api_name:
 - Word.Range.CombineCharacters
 ms.assetid: 4852ebb7-b6cc-0bed-d1db-8a2efe14fc17
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CombineCharacters`
+_expression_. `CombineCharacters`
 
- _expression_ An expression that returns a '[Range](Word.Range.md)' object.
+ _expression_ An expression that returns a **[Range](Word.Range.md)** object.
 
 
 ## Example

@@ -3,30 +3,29 @@ title: Options.DefaultTextEncoding property (Word)
 keywords: vbawd10.chm162988475
 f1_keywords:
 - vbawd10.chm162988475
-ms.prod: word
 api_name:
 - Word.Options.DefaultTextEncoding
 ms.assetid: 068f0ddd-efb4-9bb3-4544-79d390e87f59
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Options.DefaultTextEncoding property (Word)
 
-Returns or sets an  **MsoEncoding** constant representing the code page, or character set, that Microsoft Word uses for all documents saved as encoded text files. Read/write.
+Returns or sets an **MsoEncoding** constant representing the code page, or character set, that Microsoft Word uses for all documents saved as encoded text files. Read/write.
 
 
 ## Syntax
 
- _expression_. `DefaultTextEncoding`
+_expression_. `DefaultTextEncoding`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Use the  **TextEncoding** property to set the encoding for an individual document. To set encoding for HTML documents, use the **Encoding** property.
+Use the **TextEncoding** property to set the encoding for an individual document. To set encoding for HTML documents, use the **Encoding** property.
 
 
 ## Example

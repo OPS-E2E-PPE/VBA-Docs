@@ -3,12 +3,11 @@ title: OptionButton.BeforeUpdate event (Access)
 keywords: vbaac10.chm14134
 f1_keywords:
 - vbaac10.chm14134
-ms.prod: access
 api_name:
 - Access.OptionButton.BeforeUpdate
 ms.assetid: 9c887502-2d9c-6f21-e5ef-adc164cde095
 ms.date: 02/12/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -60,7 +59,7 @@ You often use the **BeforeUpdate** event to validate data, especially when you p
 > [!NOTE] 
 > To perform simple validations, or more complex validations such as requiring a value in a field or validating more than one control on a form, you can use the **ValidationRule** property for controls and the **ValidationRule** and **Required** properties for fields and records in tables.
 
-A run-time error will occur if you attempt to modify the data contained in the control that fired the **BeforeUpdate** event in the event's procedure.
+A run-time error occurs if you attempt to modify the data contained in the control that fired the **BeforeUpdate** event in the event's procedure.
 
 
 ## Example

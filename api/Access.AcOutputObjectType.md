@@ -3,20 +3,17 @@ title: AcOutputObjectType enumeration (Access)
 keywords: vbaac10.chm10022
 f1_keywords:
 - vbaac10.chm10022
-ms.prod: access
 api_name:
 - Access.AcOutputObjectType
 ms.assetid: 07352409-f01a-84d0-495d-87c318223e5c
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcOutputObjectType enumeration (Access)
 
 Specifies the type of object to output when using the **OutputTo** method.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

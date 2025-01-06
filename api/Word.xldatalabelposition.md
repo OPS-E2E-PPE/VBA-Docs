@@ -1,9 +1,8 @@
 ---
 title: XlDataLabelPosition enumeration (Word)
-ms.prod: word
 ms.assetid: d177e309-b43a-85cd-b84c-13865c6eaeba
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

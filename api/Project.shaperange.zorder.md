@@ -1,20 +1,20 @@
 ---
-title: ShapeRange.ZOrder Method (Project)
-ms.prod: project-server
+title: ShapeRange.ZOrder method (Project)
+ms.service: project-server
 ms.assetid: d713d882-a137-7fa2-0b2c-5b31f400eaa5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.ZOrder Method (Project)
+# ShapeRange.ZOrder method (Project)
 Moves the shape range in front of or behind other shapes (that is, changes the position in the z-order).
 
 ## Syntax
 
- _expression_. `ZOrder` _(ZOrderCmd)_
+_expression_. `ZOrder` _(ZOrderCmd)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters
@@ -33,7 +33,7 @@ Moves the shape range in front of or behind other shapes (that is, changes the p
 
 ## Remarks
 
-Use the  **ZOrderPosition** property to determine the current position of a shape in the z-order.
+Use the **ZOrderPosition** property to determine the current position of a shape in the z-order.
 
 
 ## See also

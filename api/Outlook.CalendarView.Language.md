@@ -1,39 +1,38 @@
 ---
-title: CalendarView.Language Property (Outlook)
+title: CalendarView.Language property (Outlook)
 keywords: vbaol11.chm2616
 f1_keywords:
 - vbaol11.chm2616
-ms.prod: outlook
 api_name:
 - Outlook.CalendarView.Language
 ms.assetid: e8d1a39b-c0f7-bd62-5831-d4ac02a0f2ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# CalendarView.Language Property (Outlook)
+# CalendarView.Language property (Outlook)
 
-Returns or sets a  **String** value that represents the language setting for the view. Read/write.
+Returns or sets a **String** value that represents the language setting for the view. Read/write.
 
 
 ## Syntax
 
-_expression_. `Language`
+_expression_.**Language**
 
-_expression_ A variable that represents a [CalendarView](./Outlook.CalendarView.md) object.
+_expression_ A variable that represents a [CalendarView](Outlook.CalendarView.md) object.
 
 
 ## Remarks
 
-The  **Language** property uses a **String** to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."
+The **Language** property uses a **String** to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."
 
-If a valid language code is specified, the object will only be available in the  **View** menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.
+If a valid language code is specified, the object will only be available in the **View** menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example sets the language type of all  **[View](Outlook.View.md)** objects of type **olTableView** to U.S. English.
+The following Microsoft Visual Basic for Applications (VBA) example sets the language type of all **[View](Outlook.View.md)** objects of type **olTableView** to U.S. English.
 
 
 ```vb

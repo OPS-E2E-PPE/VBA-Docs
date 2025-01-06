@@ -1,18 +1,17 @@
 ---
-title: VisFieldCodes Enumeration (Visio)
+title: VisFieldCodes enumeration (Visio)
 keywords: vis_sdr.chm70140
 f1_keywords:
 - vis_sdr.chm70140
-ms.prod: visio
 ms.assetid: 3bcc4aef-21c1-b152-47dc-74e6c58cd24e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisFieldCodes Enumeration (Visio)
+# VisFieldCodes enumeration (Visio)
 
-Text-field codes passed to the  **AddField** and **AddFieldEx** methods.
+Text-field codes passed to the **AddField** and **AddFieldEx** methods.
 
 
 

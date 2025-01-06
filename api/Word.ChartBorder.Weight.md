@@ -3,25 +3,24 @@ title: ChartBorder.Weight property (Word)
 keywords: vbawd10.chm61014022
 f1_keywords:
 - vbawd10.chm61014022
-ms.prod: word
 api_name:
 - Word.ChartBorder.Weight
 ms.assetid: f1fc8001-0437-0e4c-d158-8aed3d254360
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartBorder.Weight property (Word)
 
-Returns or sets the weight of the border. Read/write  **[xlBorderWeight](Word.xlborderweight.md)**.
+Returns or sets the weight of the border. Read/write **[XlBorderWeight](Word.xlborderweight.md)**.
 
 
 ## Syntax
 
- _expression_. `Weight`
+_expression_.**Weight**
 
- _expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
+_expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
 
 
 ## Example

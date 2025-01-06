@@ -3,18 +3,17 @@ title: OptionButton.Name property (Access)
 keywords: vbaac10.chm10623
 f1_keywords:
 - vbaac10.chm10623
-ms.prod: access
 api_name:
 - Access.OptionButton.Name
 ms.assetid: 8ab3e829-5414-de39-adcd-b67cb27fc197
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -1,24 +1,23 @@
 ---
-title: Tags.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Tags.Count property (PowerPoint)
 api_name:
 - PowerPoint.Tags.Count
 ms.assetid: 4a6ae9cb-65f8-c273-e50c-e75d6a785767
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Tags.Count Property (PowerPoint)
+# Tags.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Tags](./PowerPoint.Tags.md) object.
+_expression_ A variable that represents a [Tags](PowerPoint.Tags.md) object.
 
 
 ## Return value

@@ -3,12 +3,11 @@ title: PageSetup.CenterHeaderPicture property (Excel)
 keywords: vbaxl10.chm473106
 f1_keywords:
 - vbaxl10.chm473106
-ms.prod: excel
 api_name:
 - Excel.PageSetup.CenterHeaderPicture
 ms.assetid: c4c6e0b5-96e3-eaea-2dfe-807f286029ec
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/03/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,22 +18,21 @@ Returns a **[Graphic](Excel.Graphic.md)** object that represents the picture for
 
 ## Syntax
 
-_expression_. `CenterHeaderPicture`
+_expression_.**CenterHeaderPicture**
 
-_expression_ A variable that represents a [PageSetup](Excel.PageSetup.md) object.
+_expression_ A variable that represents a **[PageSetup](Excel.PageSetup.md)** object.
 
 
 ## Remarks
 
 The **CenterHeaderPicture** property is read-only, but the properties on it are not all read-only.
 
-It is required that "&G" is a part of the **CenterHeader** property string in order for the image to show up in the center header.
+It's required that `"&G"` be a part of the **CenterHeader** property string for the image to show up in the center header.
 
 
 ## Example
 
-The following example adds a picture titled: Sample.jpg from the C:\ drive to the center section of the header. This example assumes that a file called Sample.jpg exists on the C:\ drive.
-
+The following example adds a picture titled Sample.jpg from the C:\ drive to the center section of the header. This example assumes that a file called Sample.jpg exists on the C:\ drive.
 
 ```vb
 Sub InsertPicture() 
@@ -59,9 +57,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[PageSetup Object](Excel.PageSetup.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,18 +1,17 @@
 ---
-title: PbWindowState Enumeration (Publisher)
+title: PbWindowState enumeration (Publisher)
 keywords: vbapb10.chm65561
 f1_keywords:
 - vbapb10.chm65561
-ms.prod: publisher
 api_name:
 - Publisher.PbWindowState
 ms.assetid: 8e04e01b-0bf8-faa2-7a0d-b38ea2c92deb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbWindowState Enumeration (Publisher)
+# PbWindowState enumeration (Publisher)
 
 Indicates the state of the Microsoft Publisher window. 
 

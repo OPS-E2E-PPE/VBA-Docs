@@ -1,27 +1,26 @@
 ---
-title: ServerPublishOptions.SetPagesToPublish Method (Visio)
+title: ServerPublishOptions.SetPagesToPublish method (Visio)
 keywords: vis_sdr.chm17962375
 f1_keywords:
 - vis_sdr.chm17962375
-ms.prod: visio
 api_name:
 - Visio.ServerPublishOptions.SetPagesToPublish
 ms.assetid: 9d874876-e053-d6fb-04c2-8e162a0457ec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ServerPublishOptions.SetPagesToPublish Method (Visio)
+# ServerPublishOptions.SetPagesToPublish method (Visio)
 
 Specifies the pages to publish to a server.
 
 
 ## Syntax
 
- _expression_. `SetPagesToPublish`( `_PublishPages_` , `_NamesArray()_` , `_ Flags_` )
+_expression_. `SetPagesToPublish`( `_PublishPages_` , `_NamesArray()_` , `_ Flags_` )
 
- _expression_ A variable that represents a '[ServerPublishOptions](Visio.ServerPublishOptions.md)' object.
+_expression_ A variable that represents a **[ServerPublishOptions](Visio.ServerPublishOptions.md)** object.
 
 
 ## Parameters

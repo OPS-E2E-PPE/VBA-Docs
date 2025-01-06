@@ -3,12 +3,11 @@ title: ShapeRange.Child property (Word)
 keywords: vbawd10.chm162857096
 f1_keywords:
 - vbawd10.chm162857096
-ms.prod: word
 api_name:
 - Word.ShapeRange.Child
 ms.assetid: 7d721776-4c39-787e-2a78-a3c3010f24ff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `Child`
+_expression_.**Child**
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## See also

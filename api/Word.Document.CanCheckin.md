@@ -3,12 +3,11 @@ title: Document.CanCheckin method (Word)
 keywords: vbawd10.chm158007647
 f1_keywords:
 - vbawd10.chm158007647
-ms.prod: word
 api_name:
 - Word.Document.CanCheckin
 ms.assetid: 7021b14b-3e45-9850-bc59-d76c267f2934
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CanCheckin`
+_expression_. `CanCheckin`
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Return value
@@ -36,7 +35,7 @@ To take advantage of the collaboration features built into Word, documents must 
 
 ## Example
 
-This example checks the server to see if the specified document can be checked in and, if it can be, closes the document and checks it back into the server.
+This example checks the server to see if the specified document can be checked in, and if it can be, closes the document and checks it back into the server.
 
 
 ```vb

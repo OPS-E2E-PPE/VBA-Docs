@@ -3,12 +3,11 @@ title: TextBox.ValidationText property (Access)
 keywords: vbaac10.chm11052
 f1_keywords:
 - vbaac10.chm11052
-ms.prod: access
 api_name:
 - Access.TextBox.ValidationText
 ms.assetid: 5d3ab2a3-9166-714f-a0c2-d56d42b19ebc
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -49,8 +48,6 @@ Control, field, and record validation rules are applied as follows:
 - If you create validation rules for both a field and a control bound to the field, both validation rules are applied when you edit data and the focus leaves the control.
     
 The following table contains expression examples for the **ValidationRule** and **ValidationText** properties.
-
-<br/>
 
 |ValidationRule property|ValidationText property|
 |:-----|:-----|
@@ -94,8 +91,6 @@ Function SetFieldValidation(strTblName As String, _
  fld.ValidationText = strValidText 
 End Function
 ```
-
-<br/>
 
 The following example uses the **SetTableValidation** function to set record-level validation to ensure that the value in the **EndDate** field comes after the value in the **StartDate** field.
 

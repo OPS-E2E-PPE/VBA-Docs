@@ -3,33 +3,33 @@ title: Range.Locks property (Word)
 keywords: vbawd10.chm157155832
 f1_keywords:
 - vbawd10.chm157155832
-ms.prod: word
 api_name:
 - Word.Range.Locks
 ms.assetid: 102673f2-8cb0-d235-c158-c65759592d56
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Range.Locks property (Word)
 
-Returns a  **[CoAuthLocks](Word.CoAuthLocks.md)** collection object that represents all the locks in the range. Read-only.
+Returns a **[CoAuthLocks](Word.CoAuthLocks.md)** collection object that represents all the locks in the range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Locks`
+_expression_. `Locks`
 
- _expression_ An expression that returns a '[Range](Word.Range.md)' object.
+ _expression_ An expression that returns a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-Use the  **Locks** property to return the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
+Use the **Locks** property to return the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
 
 
- **Note**  This property is only available for co authoring enabled documents. If you attempt to access this property on a document that is not enabled for co authoring, you will receive a run-time error.
+> [!NOTE] 
+> This property is only available for co authoring enabled documents. If you attempt to access this property on a document that is not enabled for co authoring, you will receive a run-time error.
 
 
 ## Example

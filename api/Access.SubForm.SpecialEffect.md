@@ -3,18 +3,17 @@ title: SubForm.SpecialEffect property (Access)
 keywords: vbaac10.chm11942
 f1_keywords:
 - vbaac10.chm11942
-ms.prod: access
 api_name:
 - Access.SubForm.SpecialEffect
 ms.assetid: b2959ab7-c66d-99a4-e7df-716556ec56b1
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SubForm.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

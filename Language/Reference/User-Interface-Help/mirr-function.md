@@ -3,10 +3,9 @@ title: MIRR function (Visual Basic for Applications)
 keywords: vblr6.chm1009283
 f1_keywords:
 - vblr6.chm1009283
-ms.prod: office
 ms.assetid: defc1846-572b-ae88-a845-f732b0a2a15a
 ms.date: 12/13/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Returns a [Double](../../Glossary/vbe-glossary.md#double-data-type) specifying t
 ## Syntax
 
 **MIRR**(_values_( ), _finance\_rate_, _reinvest\_rate_)
-
-<br/>
 
 The **MIRR** function has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

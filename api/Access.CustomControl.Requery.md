@@ -3,12 +3,11 @@ title: CustomControl.Requery method (Access)
 keywords: vbaac10.chm12002
 f1_keywords:
 - vbaac10.chm12002
-ms.prod: access
 api_name:
 - Access.CustomControl.Requery
 ms.assetid: 0055d270-ce36-40da-4eaf-7851da6d5dec
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ _expression_ A variable that represents a **[CustomControl](Access.CustomControl
 
 ## Remarks
 
-You can use this method to ensure that a form or control displays the most recent data.
+Use this method to ensure that a form or control displays the most recent data.
 
 The **Requery** method does one of the following:
 

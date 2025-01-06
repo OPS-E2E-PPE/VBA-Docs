@@ -1,20 +1,20 @@
 ---
-title: Reports.Application Property (Project)
-ms.prod: project-server
+title: Reports.Application property (Project)
+ms.service: project-server
 ms.assetid: cf1b16b3-dfad-0bf4-df9c-78f5b7fd0c24
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reports.Application Property (Project)
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+# Reports.Application property (Project)
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 ## Syntax
 
- _expression_.**Application**
+_expression_.**Application**
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Property value

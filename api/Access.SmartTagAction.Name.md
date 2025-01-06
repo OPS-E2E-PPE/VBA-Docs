@@ -3,18 +3,17 @@ title: SmartTagAction.Name property (Access)
 keywords: vbaac10.chm13292
 f1_keywords:
 - vbaac10.chm13292
-ms.prod: access
 api_name:
 - Access.SmartTagAction.Name
 ms.assetid: 237a54cf-48d6-2fa2-e9b5-0c06ab967c7f
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SmartTagAction.Name property (Access)
 
-You can use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
+Use the **Name** property to determine the string expression that identifies the name of an object. Read-only **String**.
 
 
 ## Syntax

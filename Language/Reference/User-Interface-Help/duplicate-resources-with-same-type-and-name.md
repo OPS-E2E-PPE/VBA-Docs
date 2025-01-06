@@ -3,10 +3,9 @@ title: Duplicate resources with same type and name
 keywords: vblr6.chm1118903
 f1_keywords:
 - vblr6.chm1118903
-ms.prod: office
 ms.assetid: 901ee38d-6723-33e7-02b9-b98a5dbeb7b6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

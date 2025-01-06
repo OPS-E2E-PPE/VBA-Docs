@@ -1,18 +1,17 @@
 ---
-title: OlTrackingStatus Enumeration (Outlook)
+title: OlTrackingStatus enumeration (Outlook)
 keywords: vbaol11.chm3088
 f1_keywords:
 - vbaol11.chm3088
-ms.prod: outlook
 api_name:
 - Outlook.OlTrackingStatus
 ms.assetid: a2253862-b1a1-6d99-81ad-1984ba615919
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlTrackingStatus Enumeration (Outlook)
+# OlTrackingStatus enumeration (Outlook)
 
 Indicates the most recent tracking status change for the recipient.
 
@@ -31,6 +30,6 @@ Indicates the most recent tracking status change for the recipient.
 
 ## Remarks
 
-Used by the [Recipient.TrackingStatus Property (Outlook)](Outlook.Recipient.TrackingStatus.md).
+Used by the [Recipient.TrackingStatus property (Outlook)](Outlook.Recipient.TrackingStatus.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,39 +1,38 @@
 ---
-title: MailItem.IsConflict Property (Outlook)
+title: MailItem.IsConflict property (Outlook)
 keywords: vbaol11.chm1377
 f1_keywords:
 - vbaol11.chm1377
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.IsConflict
 ms.assetid: 648e6b53-81fb-03ec-0029-edbdd05c663b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.IsConflict Property (Outlook)
+# MailItem.IsConflict property (Outlook)
 
-Returns a  **Boolean** that determines if the item is in conflict. Read-only.
+Returns a **Boolean** that determines if the item is in conflict. Read-only.
 
 
 ## Syntax
 
 _expression_. `IsConflict`
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks
 
-Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the  **IsConflict** property will return **True**.
+Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the **IsConflict** property will return **True**.
 
-If  **True** , the specified item is in conflict.
+If **True**, the specified item is in conflict.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example creates a new mail item and attempts to send it. If the  **IsConflict** property returns **True** , the item will not be sent.
+The following Microsoft Visual Basic for Applications (VBA) example creates a new mail item and attempts to send it. If the **IsConflict** property returns **True**, the item will not be sent.
 
 
 ```vb

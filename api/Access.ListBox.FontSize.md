@@ -3,18 +3,17 @@ title: ListBox.FontSize property (Access)
 keywords: vbaac10.chm11254
 f1_keywords:
 - vbaac10.chm11254
-ms.prod: access
 api_name:
 - Access.ListBox.FontSize
 ms.assetid: 4abc5ab0-8d34-1f87-6e23-706e4d3c9e88
 ms.date: 03/01/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ListBox.FontSize property (Access)
 
-You can use the **FontSize** property to specify the point size for text in the following situations:
+Use the **FontSize** property to specify the point size for text in the following situations:
 
 - When displaying or printing controls on forms and reports.   
 - When using the **[Print](Access.Report.Print.md)** method on a report.

@@ -3,25 +3,24 @@ title: Dialog.Display method (Word)
 keywords: vbawd10.chm163053906
 f1_keywords:
 - vbawd10.chm163053906
-ms.prod: word
 api_name:
 - Word.Dialog.Display
 ms.assetid: a9aaa413-ed2f-6fcd-c03e-d76f97783f9a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Dialog.Display method (Word)
 
-Displays the specified built-in Word dialog box until either the user closes it or the specified amount of time has passed. Returns a  **Long** that indicates which button was clicked to close the dialog box.
+Displays the specified built-in Word dialog box until either the user closes it or the specified amount of time has passed. Returns a **Long** that indicates which button was clicked to close the dialog box.
 
 
 ## Syntax
 
- _expression_. `Display`( `_TimeOut_` )
+_expression_. `Display`( `_TimeOut_` )
 
- _expression_ Required. A variable that represents a '[Dialog](Word.Dialog.md)' object.
+_expression_ Required. A variable that represents a '[Dialog](Word.Dialog.md)' object.
 
 
 ## Parameters
@@ -39,20 +38,20 @@ Long
 
 ## Remarks
 
-The  **Display** method returns the following possible values.
+The **Display** method returns the following possible values.
 
 
 
 |**Return value**|**Description**|
 |:-----|:-----|
-|-2|The  **Close** button.|
-|-1|The  **OK** button.|
-|0 (zero)|The  **Cancel** button.|
+|-2|The **Close** button.|
+|-1|The **OK** button.|
+|0 (zero)|The **Cancel** button.|
 |> 0 (zero)|A command button: 1 is the first button, 2 is the second button, and so on.|
 
 ## Example
 
-This example displays the  **About** dialog box for approximately ten seconds.
+This example displays the **About** dialog box for approximately ten seconds.
 
 
 ```vb
@@ -62,7 +61,7 @@ Set dlgAbout = Dialogs(wdDialogHelpAbout)
 dlgAbout.Display TimeOut:=10000
 ```
 
-This example displays the  **Customize** dialog box.
+This example displays the **Customize** dialog box.
 
 
 

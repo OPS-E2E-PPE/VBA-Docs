@@ -1,27 +1,26 @@
 ---
-title: WebCommandButton.ActionURL Property (Publisher)
+title: WebCommandButton.ActionURL property (Publisher)
 keywords: vbapb10.chm3932163
 f1_keywords:
 - vbapb10.chm3932163
-ms.prod: publisher
 api_name:
 - Publisher.WebCommandButton.ActionURL
 ms.assetid: ede9b18f-1be1-9572-9b78-7dbe0817cfe7
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/18/2019
+ms.localizationpriority: medium
 ---
 
 
-# WebCommandButton.ActionURL Property (Publisher)
+# WebCommandButton.ActionURL property (Publisher)
 
-Returns or sets a  **String** that represents the URL of the server-side script to execute in response to a Submit button click. Read/write.
+Returns or sets a **String** that represents the URL of the server-side script to execute in response to a **Submit** button click. Read/write.
 
 
 ## Syntax
 
- _expression_. **ActionURL**
+_expression_.**ActionURL**
 
- _expression_ A variable that represents a  **WebCommandButton** object.
+_expression_ A variable that represents a **[WebCommandButton](Publisher.WebCommandButton.md)** object.
 
 
 ## Return value
@@ -31,13 +30,12 @@ String
 
 ## Remarks
 
-The default value for the  **ActionURL** property is "https://example.microsoft.com/~user/ispscript.cgi". This property is ignored for Reset command buttons.
+The default value for the **ActionURL** property is `https://example.microsoft.com/~user/ispscript.cgi`. This property is ignored for **Reset** command buttons.
 
 
 ## Example
 
-This example creates a Web form Submit command button and sets the script path and file name to run when a user clicks the button.
-
+This example creates a web form **Submit** command button and sets the script path and file name to run when a user chooses the button.
 
 ```vb
 Sub CreateActionWebButton() 

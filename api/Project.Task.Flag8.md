@@ -1,29 +1,29 @@
 ---
-title: Task.Flag8 Property (Project)
-ms.prod: project-server
+title: Task.Flag8 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag8
 ms.assetid: 50e174bb-93fd-074b-ded7-a49ef55d87b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag8 Property (Project)
+# Task.Flag8 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag8`
+_expression_. `Flag8`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

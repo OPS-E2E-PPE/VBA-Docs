@@ -3,12 +3,11 @@ title: Document.CopyStylesFromTemplate method (Word)
 keywords: vbawd10.chm158007422
 f1_keywords:
 - vbawd10.chm158007422
-ms.prod: word
 api_name:
 - Word.Document.CopyStylesFromTemplate
 ms.assetid: f02fbce7-f5aa-d71d-9043-f151f26bc9ec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Copies styles from the specified template to a document.
 
 ## Syntax
 
- _expression_. `CopyStylesFromTemplate`( `_Template_` )
+_expression_. `CopyStylesFromTemplate`( `_Template_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters

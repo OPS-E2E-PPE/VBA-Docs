@@ -1,27 +1,26 @@
 ---
-title: Shapes.Count Property (PowerPoint)
+title: Shapes.Count property (PowerPoint)
 keywords: vbapp10.chm543002
 f1_keywords:
 - vbapp10.chm543002
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shapes.Count
 ms.assetid: bc313541-1e87-cc85-e489-80d53f18abe5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shapes.Count Property (PowerPoint)
+# Shapes.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Return value

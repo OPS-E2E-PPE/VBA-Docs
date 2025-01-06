@@ -3,12 +3,11 @@ title: ToggleButton.Glow property (Access)
 keywords: vbaac10.chm14630
 f1_keywords:
 - vbaac10.chm14630
-ms.prod: access
 api_name:
 - Access.ToggleButton.Glow
 ms.assetid: f279f51c-11f7-de6c-0f47-369e9b5cb3a6
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

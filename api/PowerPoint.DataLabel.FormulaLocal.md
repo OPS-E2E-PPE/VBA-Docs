@@ -1,27 +1,26 @@
 ---
-title: DataLabel.FormulaLocal Property (PowerPoint)
+title: DataLabel.FormulaLocal property (PowerPoint)
 keywords: vbapp10.chm696007
 f1_keywords:
 - vbapp10.chm696007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.DataLabel.FormulaLocal
 ms.assetid: bbc415cf-89b4-b2be-4b24-085c6e20edf1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DataLabel.FormulaLocal Property (PowerPoint)
+# DataLabel.FormulaLocal property (PowerPoint)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String**.
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
-_expression_ A variable that represents a [DataLabel](./PowerPoint.DataLabel.md) object.
+_expression_ A variable that represents a [DataLabel](PowerPoint.DataLabel.md) object.
 
 
 ## Remarks

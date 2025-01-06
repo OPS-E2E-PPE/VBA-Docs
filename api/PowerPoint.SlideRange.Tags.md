@@ -1,27 +1,26 @@
 ---
-title: SlideRange.Tags Property (PowerPoint)
+title: SlideRange.Tags property (PowerPoint)
 keywords: vbapp10.chm532017
 f1_keywords:
 - vbapp10.chm532017
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideRange.Tags
 ms.assetid: 47e0db24-3805-788b-75a0-89c433a9e66c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideRange.Tags Property (PowerPoint)
+# SlideRange.Tags property (PowerPoint)
 
-Returns a  **[Tags](PowerPoint.Tags.md)** object that represents the tags for the specified object. Read-only.
+Returns a **[Tags](PowerPoint.Tags.md)** object that represents the tags for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Tags`
+_expression_. `Tags`
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value
@@ -32,7 +31,8 @@ Tags
 ## Example
 
 
- **Note**  Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
+> [!NOTE] 
+> Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
 
 This example adds a tag named "REGION" and a tag named "PRIORITY" to slide one in the active presentation.
 

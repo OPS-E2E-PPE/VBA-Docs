@@ -3,16 +3,15 @@ title: Cell Error Values
 keywords: vbaxl10.chm5199688
 f1_keywords:
 - vbaxl10.chm5199688
-ms.prod: excel
 ms.assetid: cc4ccabf-37f0-b33d-c03f-13763b85e440
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Cell Error Values
 
-You can insert a cell error value into a cell or test the value of a cell for an error value by using the  **CVErr** function. The cell error values can be one of the following **xlCVError** constants.
+You can insert a cell error value into a cell or test the value of a cell for an error value by using the **CVErr** function. The cell error values can be one of the following **xlCVError** constants.
 
 
 
@@ -39,7 +38,7 @@ For i = 1 To 7
 Next i
 ```
 
-This example displays a message if the active cell on Sheet1 contains a cell error value. You can use this example as a framework for a cell-error-value error handler.
+This example displays a message if the active cell on Sheet1 contains a cell error value. Use this example as a framework for a cell-error-value error handler.
 
 
 

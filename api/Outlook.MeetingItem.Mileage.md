@@ -1,27 +1,26 @@
 ---
-title: MeetingItem.Mileage Property (Outlook)
+title: MeetingItem.Mileage property (Outlook)
 keywords: vbaol11.chm1418
 f1_keywords:
 - vbaol11.chm1418
-ms.prod: outlook
 api_name:
 - Outlook.MeetingItem.Mileage
 ms.assetid: 42bcb344-a9d5-bb3e-f346-d41cc1f30055
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MeetingItem.Mileage Property (Outlook)
+# MeetingItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
 ## Remarks

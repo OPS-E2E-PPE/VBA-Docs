@@ -3,18 +3,17 @@ title: PageBreak.Name property (Access)
 keywords: vbaac10.chm11682
 f1_keywords:
 - vbaac10.chm11682
-ms.prod: access
 api_name:
 - Access.PageBreak.Name
 ms.assetid: ddb134f6-91b8-4565-8c6b-b1ac1d498fbb
 ms.date: 02/13/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageBreak.Name property (Access)
 
-You can use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
+Use the **Name** property to specify or determine the string expression that identifies the name of an object. Read/write **String**.
 
 
 ## Syntax

@@ -3,25 +3,24 @@ title: Pane.Frameset property (Word)
 keywords: vbawd10.chm157286418
 f1_keywords:
 - vbawd10.chm157286418
-ms.prod: word
 api_name:
 - Word.Pane.Frameset
 ms.assetid: 6bab63ae-aa83-e2b8-9b92-e472c2433246
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Pane.Frameset property (Word)
 
-Returns a  **[Frameset](Word.Frameset.md)** object that represents an entire frames page or a single frame on a frames page. Read-only.
+Returns a **[Frameset](Word.Frameset.md)** object that represents an entire frames page or a single frame on a frames page. Read-only.
 
 
 ## Syntax
 
- _expression_. `Frameset`
+_expression_. `Frameset`
 
- _expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Remarks

@@ -3,10 +3,9 @@ title: Xor operator
 keywords: vblr6.chm1009062
 f1_keywords:
 - vblr6.chm1009062
-ms.prod: office
 ms.assetid: 30f2f390-e777-8793-a287-038fb9a18ce6
 ms.date: 11/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,8 +37,6 @@ When neither expression is **Null**, _result_ is determined according to the fol
 |**True**|**False**|**True**|
 |**False**|**True**|**True**|
 |**False**|**False**|**False**|
-
-<br/>
 
 The **Xor** operator performs as both a logical and bitwise operator. A [bitwise comparison](../../Glossary/vbe-glossary.md#bitwise-comparison) of two [expressions](../../Glossary/vbe-glossary.md#expression) using exclusive-or logic to form the result, is shown in the following table.
 

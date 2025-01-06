@@ -1,18 +1,17 @@
 ---
-title: KeyboardEvent.KeyButtonState Property (Visio)
+title: KeyboardEvent.KeyButtonState property (Visio)
 keywords: vis_sdr.chm17051715
 f1_keywords:
 - vis_sdr.chm17051715
-ms.prod: visio
 api_name:
 - Visio.KeyboardEvent.KeyButtonState
 ms.assetid: c2ab3fa3-39c6-fb34-1f56-342cf080d9d5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# KeyboardEvent.KeyButtonState Property (Visio)
+# KeyboardEvent.KeyButtonState property (Visio)
 
 Returns the state of mouse buttons and the SHIFT and CTRL keys associated with a keyboard event. Read-only.
 
@@ -21,7 +20,7 @@ Returns the state of mouse buttons and the SHIFT and CTRL keys associated with a
 
 _expression_. `KeyButtonState`
 
-_expression_ A variable that represents a [KeyboardEvent](./Visio.KeyboardEvent.md) object.
+_expression_ A variable that represents a **[KeyboardEvent](Visio.KeyboardEvent.md)** object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Long
 
 Possible values for **KeyButtonState** can be a combination of any of the values shown in the following table, which are declared in **VisKeyButtonFlags** in the Visio type library. For example, if **KeyButtonState** returns 9, it indicates that the user clicked the left mouse button while pressing CTRL.
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visKeyControl**|8|
 | **visKeyShift**|4|
@@ -85,7 +84,7 @@ End Sub
 
 <br/>
 
-Then, insert the following code in the **ThisDocument** project.
+Then, insert the following code in the **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** project.
 
 ```vb
 Dim myKeyboardListener As KeyboardListener 

@@ -3,12 +3,11 @@ title: CheckBox.Valid property (Word)
 keywords: vbawd10.chm153485312
 f1_keywords:
 - vbawd10.chm153485312
-ms.prod: word
 api_name:
 - Word.CheckBox.Valid
 ms.assetid: 5f14faf3-8025-709d-67a4-7ba0ae46b467
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -16,18 +15,15 @@ localization_priority: Normal
 
  **True** if the specified form field object is a valid check box form field. Read-only **Boolean**.
 
-
 ## Syntax
 
- _expression_. `Valid`
+_expression_. `Valid`
 
- _expression_ A variable that represents a '[CheckBox](Word.CheckBox.md)' object.
-
+_expression_ A variable that represents a '[CheckBox](Word.CheckBox.md)' object.
 
 ## Example
 
-This example adds a text form field at the insertion point. Because  `myFormField` is a text input field and not a check box, the message box displays "False."
-
+This example adds a text form field at the insertion point. Because `myFormField` is a text input field and not a check box, the message box displays "False."
 
 ```vb
 Selection.Collapse Direction:=wdCollapseStart 
@@ -36,9 +32,7 @@ Set myFormField = ActiveDocument.FormFields.Add(Range:= _
 MsgBox myFormField.CheckBox.Valid
 ```
 
-
 ## See also
-
 
 [CheckBox Object](Word.CheckBox.md)
 

@@ -1,27 +1,26 @@
 ---
-title: BulletFormat.Number Property (PowerPoint)
+title: BulletFormat.Number property (PowerPoint)
 keywords: vbapp10.chm577013
 f1_keywords:
 - vbapp10.chm577013
-ms.prod: powerpoint
 api_name:
 - PowerPoint.BulletFormat.Number
 ms.assetid: 90f92c4e-4a15-7efe-1251-5394a148db72
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BulletFormat.Number Property (PowerPoint)
+# BulletFormat.Number property (PowerPoint)
 
-Returns the bullet number of a paragraph when the  **[Type](PowerPoint.BulletFormat.Type.md)** property of the **BulletFormat** object is set to **ppBulletNumbered**. Read-only.
+Returns the bullet number of a paragraph when the **[Type](PowerPoint.BulletFormat.Type.md)** property of the **BulletFormat** object is set to **ppBulletNumbered**. Read-only.
 
 
 ## Syntax
 
- _expression_. `Number`
+_expression_.**Number**
 
-_expression_ A variable that represents a [BulletFormat](./PowerPoint.BulletFormat.md) object.
+_expression_ A variable that represents a **[BulletFormat](PowerPoint.BulletFormat.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Long
 
 ## Remarks
 
-If this property is queried for multiple paragraphs with different numbers, then the value  **ppBulletMixed** is returned. If this property is queried for a paragraph with a type other than **ppBulletNumbered**, then a run-time error occurs.
+If this property is queried for multiple paragraphs with different numbers, then the value **ppBulletMixed** is returned. If this property is queried for a paragraph with a type other than **ppBulletNumbered**, then a run-time error occurs.
 
 
 ## Example
 
-This example returns the bullet number of paragraph one in the selected text range to a variable named  `myParnum`.
+This example returns the bullet number of paragraph one in the selected text range to a variable named `myParnum`.
 
 
 ```vb

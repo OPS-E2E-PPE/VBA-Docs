@@ -1,6 +1,5 @@
 ---
 title: Objects (Visual Basic Add-In Model)
-ms.prod: office
 keywords: vbob6.chm100000
 f1_keywords:
 - vbob6.chm100000
@@ -17,7 +16,7 @@ f1_keywords:
 - vbob6.chm102256
 ms.assetid: d92a32be-3e40-4ce2-ba11-fa797840984a
 ms.date: 12/26/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -55,7 +54,7 @@ Represents a [code pane](../../Glossary/vbe-glossary.md#code-pane).
 
 Use the **CodePane** object to manipulate the position of visible text or the text selection displayed in the code pane.
 
-You can use the **[Show](../user-interface-help/show-method-vba-add-in-object-model.md)** method to make the code pane you specify visible. 
+Use the **[Show](../user-interface-help/show-method-vba-add-in-object-model.md)** method to make the code pane you specify visible. 
 
 Use the **[SetSelection](../user-interface-help/setselection-method-vba-add-in-object-model.md)** method to set the selection in a code pane. 
 
@@ -137,7 +136,7 @@ Represents a component, such as a [class module](../../Glossary/vbe-glossary.md#
 
 Use the **VBComponent** object to access the **[CodeModule](#codemodule)** object associated with a component or to change a component's property settings.
 
-You can use the **[Type](properties-visual-basic-add-in-model.md#type)** property to find out what type of component the **VBComponent** object refers to. 
+Use the **[Type](properties-visual-basic-add-in-model.md#type)** property to find out what type of component the **VBComponent** object refers to. 
 
 Use the **[Collection](properties-visual-basic-add-in-model.md#collection)** property to find out what [collection](../../Glossary/vbe-glossary.md#collection) the component is in.
 
@@ -147,7 +146,7 @@ The root object that contains all other [objects](../../Glossary/vbe-glossary.md
 
 ### Remarks
 
-You can use the following [collections](collections-visual-basic-add-in-model.md) to access the objects contained in the **VBE** object:
+Use the following [collections](collections-visual-basic-add-in-model.md) to access the objects contained in the **VBE** object:
 
 - Use the **VBProjects** collection to access the collection of [projects](../../Glossary/vbe-glossary.md#project).
     
@@ -162,7 +161,7 @@ You can use the following [collections](collections-visual-basic-add-in-model.md
 
 Use the **[Events](#events)** object to access properties that enable [add-ins](../../Glossary/vbe-glossary.md#add-in) to connect to all events in Visual Basic for Applications. The properties of the **Events** object return objects of the same type as the property name. For example, the **CommandBarEvents** property returns the **CommandBarEvents** object.
 
-You can use the **[SelectedVBComponent](properties-visual-basic-add-in-model.md#selectedvbcomponent)** property to return the active component. The active component is the component that is being tracked in the [Project window](../../Glossary/vbe-glossary.md#project-window). If the selected item in the Project window isn't a component, **SelectedVBComponent** returns **[Nothing](../user-interface-help/nothing-keyword.md)**.
+Use the **[SelectedVBComponent](properties-visual-basic-add-in-model.md#selectedvbcomponent)** property to return the active component. The active component is the component that is being tracked in the [Project window](../../Glossary/vbe-glossary.md#project-window). If the selected item in the Project window isn't a component, **SelectedVBComponent** returns **[Nothing](../user-interface-help/nothing-keyword.md)**.
 
 > [!NOTE] 
 > All objects in this object model have a **[VBE](properties-visual-basic-add-in-model.md#vbe)** property that points to the **VBE** object.
@@ -186,7 +185,7 @@ Use the **Window** object to show, hide, or position windows.
 > [!IMPORTANT] 
 > Objects, properties, and methods for controlling linked windows, linked window frames, and docked windows are included on the Macintosh for compatibility with code written in Windows. However, these language elements will generate run-time errors when run on the Macintosh.
 
-You can use the **[Close](../user-interface-help/close-method-vba-add-in-object-model.md)** method to close a window in the **[Windows](collections-visual-basic-add-in-model.md#windows)** collection. The **Close** method affects different types of windows as follows:
+Use the **[Close](../user-interface-help/close-method-vba-add-in-object-model.md)** method to close a window in the **[Windows](collections-visual-basic-add-in-model.md#windows)** collection. The **Close** method affects different types of windows as follows:
 
 |Window|Result of using Close method|
 |:-----|:-----|
@@ -197,9 +196,9 @@ You can use the **[Close](../user-interface-help/close-method-vba-add-in-object-
 > [!NOTE] 
 > Using the **Close** method with code windows and designers actually closes the window. Setting the **[Visible](properties-visual-basic-add-in-model.md#visible)** property to **False** hides the window but doesn't close the window. Using the **Close** method with development environment windows, such as the [Project window](../../Glossary/vbe-glossary.md#project-window) or [Properties window](../../Glossary/vbe-glossary.md#properties-window), is the same as setting the **Visible** property to **False**.
 
-You can use the **[SetFocus](../user-interface-help/setfocus-method-vba-add-in-object-model.md)** method to move the [focus](../../Glossary/vbe-glossary.md#focus) to a window.
+Use the **[SetFocus](../user-interface-help/setfocus-method-vba-add-in-object-model.md)** method to move the [focus](../../Glossary/vbe-glossary.md#focus) to a window.
 
-You can use the **[Visible](properties-visual-basic-add-in-model.md#visible)** property to return or set the visibility of a window.
+Use the **[Visible](properties-visual-basic-add-in-model.md#visible)** property to return or set the visibility of a window.
 
 To find out what type of window you are working with, you can use the **[Type](properties-visual-basic-add-in-model.md#type)** property. If you have more than one window of a type, for example, multiple designers, you can use the **[Caption](properties-visual-basic-add-in-model.md#caption)** property to determine the window you are working with. 
 
@@ -211,6 +210,6 @@ You can also find the window you want to work with by using the **DesignerWindow
 - [Objects and collections (Visual Basic for Applications)](../objects-visual-basic-for-applications.md)
 - [Visual Basic Add-in Model reference](../user-interface-help/visual-basic-add-in-model-reference.md)
 - [Visual Basic language reference](../user-interface-help/visual-basic-language-reference.md)
-- [Office client development reference](https://docs.microsoft.com/office/client-developer/office-client-development)
+- [Office client development reference](/office/client-developer/office-client-development)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

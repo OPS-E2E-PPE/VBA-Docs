@@ -1,24 +1,23 @@
 ---
-title: Legend.Select Method (PowerPoint)
-ms.prod: powerpoint
+title: Legend.Select method (PowerPoint)
 api_name:
 - PowerPoint.Legend.Select
 ms.assetid: 75f1b399-1e8b-b15f-0e81-4501316d38c1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Legend.Select Method (PowerPoint)
+# Legend.Select method (PowerPoint)
 
 Selects the object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
+_expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
 
 
 ## See also

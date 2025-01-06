@@ -3,12 +3,11 @@ title: Application.DVarP method (Access)
 keywords: vbaac10.chm12532
 f1_keywords:
 - vbaac10.chm12532
-ms.prod: access
 api_name:
 - Access.Application.DVarP
 ms.assetid: 99a2d948-0f38-85fa-6f68-5568262595ae
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -43,10 +42,10 @@ If _domain_ refers to fewer than two records, or if fewer than two records satis
 
 Whether you use the **DVarP** function in a macro, module, query expression, or calculated control, you must construct the _criteria_ argument carefully to ensure that it will be evaluated correctly.
 
-You can use the **DVarP** function to specify criteria in the **Criteria** row of a select query, in a calculated field expression in a query, or in the **Update To** row of an update query.
+Use the **DVarP** function to specify criteria in the **Criteria** row of a select query, in a calculated field expression in a query, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use the **DVarP** function or the **VarP** function in a calculated field expression in a totals query. If you use the **DVarP** function, values are calculated before data is grouped. If you use the **VarP** function, the data is grouped before values in the field expression are evaluated.
+> Use the **DVarP** function or the **VarP** function in a calculated field expression in a totals query. If you use the **DVarP** function, values are calculated before data is grouped. If you use the **VarP** function, the data is grouped before values in the field expression are evaluated.
 
 If you simply want to find the standard deviation across all records in _domain_, use the **Var** or **VarP** function.
 
@@ -65,8 +64,6 @@ dblX = DVar("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ' Population estimate. 
 dblY = DVarP("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DVarP** function.
 

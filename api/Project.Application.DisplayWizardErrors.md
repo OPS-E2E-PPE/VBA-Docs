@@ -1,27 +1,27 @@
 ---
-title: Application.DisplayWizardErrors Property (Project)
+title: Application.DisplayWizardErrors property (Project)
 keywords: vbapj.chm131754
 f1_keywords:
 - vbapj.chm131754
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.DisplayWizardErrors
 ms.assetid: b0af54ec-392f-b84d-3dcc-cc52c991b66d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DisplayWizardErrors Property (Project)
+# Application.DisplayWizardErrors property (Project)
 
  **True** if the **Planning Wizard** displays messages about errors. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `DisplayWizardErrors`
+_expression_. `DisplayWizardErrors`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Example

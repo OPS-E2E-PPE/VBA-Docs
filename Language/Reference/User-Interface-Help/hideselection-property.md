@@ -3,12 +3,11 @@ title: HideSelection property
 keywords: fm20.chm2001270
 f1_keywords:
 - fm20.chm2001270
-ms.prod: office
 api_name:
 - Office.HideSelection
 ms.assetid: fe840b76-7f50-8801-642f-3cce6707bb62
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ The settings for _Boolean_ are:
 
 ## Remarks
 
-You can use the **HideSelection** property to maintain highlighted text when another form or a dialog box receives the focus, such as in a spell-checking procedure.
+Use the **HideSelection** property to maintain highlighted text when another form or a dialog box receives the focus, such as in a spell-checking procedure.
 
 ## See also
 

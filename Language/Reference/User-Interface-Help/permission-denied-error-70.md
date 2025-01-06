@@ -3,10 +3,9 @@ title: Permission denied (Error 70)
 keywords: vblr6.chm50029
 f1_keywords:
 - vblr6.chm50029
-ms.prod: office
 ms.assetid: b6822e40-c7e7-13e1-575e-632a99ad9926
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -16,9 +15,9 @@ An attempt was made to write to a write-protected disk or to access a locked fil
 
 
 
-- You tried to open a write-protected file for sequential  **Output** or **Append**. Open the file for **Input** or change the write-protection attribute of the file.
+- You tried to open a write-protected file for sequential **Output** or **Append**. Open the file for **Input** or change the write-protection attribute of the file.
     
-- You tried to open a file on a disk that is write-protected for sequential  **Output** or **Append**. Remove the write-protection device from the disk or open the file for **Input**.
+- You tried to open a file on a disk that is write-protected for sequential **Output** or **Append**. Remove the write-protection device from the disk or open the file for **Input**.
     
 - You tried to write to a file that another process locked. Wait to open the file until the other process releases it.
     

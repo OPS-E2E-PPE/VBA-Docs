@@ -1,24 +1,23 @@
 ---
-title: Placeholders.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Placeholders.Count property (PowerPoint)
 api_name:
 - PowerPoint.Placeholders.Count
 ms.assetid: 8f20feee-b574-a5f1-1499-655495056178
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Placeholders.Count Property (PowerPoint)
+# Placeholders.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Placeholders](./PowerPoint.Placeholders.md) object.
+_expression_ A variable that represents a [Placeholders](PowerPoint.Placeholders.md) object.
 
 
 ## Return value

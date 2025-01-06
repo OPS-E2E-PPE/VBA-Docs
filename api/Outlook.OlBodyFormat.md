@@ -1,18 +1,17 @@
 ---
-title: OlBodyFormat Enumeration (Outlook)
+title: OlBodyFormat enumeration (Outlook)
 keywords: vbaol11.chm3092
 f1_keywords:
 - vbaol11.chm3092
-ms.prod: outlook
 api_name:
 - Outlook.OlBodyFormat
 ms.assetid: 502d9b3c-1a52-3153-675f-cf1b9b9ef67b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlBodyFormat Enumeration (Outlook)
+# OlBodyFormat enumeration (Outlook)
 
 Specifies the format of the body text of an item.
 

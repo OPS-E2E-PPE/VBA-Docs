@@ -3,12 +3,11 @@ title: CustomXMLNode.InsertSubtreeBefore method (Office)
 keywords: vbaof11.chm294024
 f1_keywords:
 - vbaof11.chm294024
-ms.prod: office
 api_name:
 - Office.CustomXMLNode.InsertSubtreeBefore
 ms.assetid: 5d9e9303-e427-a092-3960-eee90a53970d
 ms.date: 01/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

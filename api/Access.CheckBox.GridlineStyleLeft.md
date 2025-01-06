@@ -3,12 +3,11 @@ title: CheckBox.GridlineStyleLeft property (Access)
 keywords: vbaac10.chm10772
 f1_keywords:
 - vbaac10.chm10772
-ms.prod: access
 api_name:
 - Access.CheckBox.GridlineStyleLeft
 ms.assetid: c4a0cf6d-488c-5978-d3db-184909c79723
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 

@@ -1,15 +1,14 @@
 ---
-title: MsoAnimAdditive Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: MsoAnimAdditive enumeration (PowerPoint)
 api_name:
 - PowerPoint.MsoAnimAdditive
 ms.assetid: 2190cb21-5d1c-142a-edd8-c454ff6da6ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MsoAnimAdditive Enumeration (PowerPoint)
+# MsoAnimAdditive enumeration (PowerPoint)
 
 Specifies whether the current animation behavior is combined with other running animations. 
 

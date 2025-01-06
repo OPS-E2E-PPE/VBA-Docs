@@ -1,27 +1,26 @@
 ---
-title: ContactItem.Email2AddressType Property (Outlook)
+title: ContactItem.Email2AddressType property (Outlook)
 keywords: vbaol11.chm996
 f1_keywords:
 - vbaol11.chm996
-ms.prod: outlook
 api_name:
 - Outlook.ContactItem.Email2AddressType
 ms.assetid: 09e1448e-87d7-5040-a13f-ae8d7ae67cb9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ContactItem.Email2AddressType Property (Outlook)
+# ContactItem.Email2AddressType property (Outlook)
 
-Returns or sets a  **String** representing the address type (such as EX or SMTP) of the second email entry for the contact. Read/write.
+Returns or sets a **String** representing the address type (such as EX or SMTP) of the second email entry for the contact. Read/write.
 
 
 ## Syntax
 
 _expression_. `Email2AddressType`
 
-_expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
 ## Remarks

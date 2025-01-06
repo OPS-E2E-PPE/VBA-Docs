@@ -3,25 +3,24 @@ title: EmailOptions.EmailSignature property (Word)
 keywords: vbawd10.chm165347436
 f1_keywords:
 - vbawd10.chm165347436
-ms.prod: word
 api_name:
 - Word.EmailOptions.EmailSignature
 ms.assetid: 853e0b8d-8e25-4626-154f-1d634e485929
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # EmailOptions.EmailSignature property (Word)
 
-Returns an  **[EmailSignature](Word.EmailSignature.md)** object that represents the signatures Microsoft Word appends to outgoing email messages. Read-only.
+Returns an **[EmailSignature](Word.EmailSignature.md)** object that represents the signatures Microsoft Word appends to outgoing email messages. Read-only.
 
 
 ## Syntax
 
- _expression_. `EmailSignature`
+_expression_. `EmailSignature`
 
- _expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
+_expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
 
 
 ## Example

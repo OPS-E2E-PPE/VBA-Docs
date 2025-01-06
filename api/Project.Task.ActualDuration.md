@@ -1,27 +1,27 @@
 ---
-title: Task.ActualDuration Property (Project)
+title: Task.ActualDuration property (Project)
 keywords: vbapj.chm131381
 f1_keywords:
 - vbapj.chm131381
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Task.ActualDuration
 ms.assetid: c0f56a31-acc1-215c-0737-d7ad755e0a96
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.ActualDuration Property (Project)
+# Task.ActualDuration property (Project)
 
-Gets or sets the actual duration (in minutes) of a task. Read-only for summary tasks. Read/write  **Variant**.
+Gets or sets the actual duration (in minutes) of a task. Read-only for summary tasks. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `ActualDuration`
+_expression_. `ActualDuration`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

@@ -1,18 +1,17 @@
 ---
-title: OlHorizontalLayout Enumeration (Outlook)
+title: OlHorizontalLayout enumeration (Outlook)
 keywords: vbaol11.chm1000538
 f1_keywords:
 - vbaol11.chm1000538
-ms.prod: outlook
 api_name:
 - Outlook.OlHorizontalLayout
 ms.assetid: 97d132c7-658a-28d4-b0e4-4352e5341987
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlHorizontalLayout Enumeration (Outlook)
+# OlHorizontalLayout enumeration (Outlook)
 
 Specifies the alignment of controls in the horizontal direction.
 

@@ -3,10 +3,9 @@ title: Oct function (Visual Basic for Applications)
 keywords: vblr6.chm1008983
 f1_keywords:
 - vblr6.chm1008983
-ms.prod: office
 ms.assetid: 178a6099-9181-2160-2b97-e08c97f8b2bb
 ms.date: 12/12/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

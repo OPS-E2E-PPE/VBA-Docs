@@ -3,23 +3,22 @@ title: Global object (Word)
 keywords: vbawd10.chm2489
 f1_keywords:
 - vbawd10.chm2489
-ms.prod: word
 api_name:
 - Word.Global
 ms.assetid: b91e7459-08d5-ea8c-42e0-f7b9bfd1a72c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Global object (Word)
 
-Contains top-level properties and methods that do not need to be preceded by the  **Application** property.
+Contains top-level properties and methods that don't need to be preceded by the **Application** property.
 
 
 ## Remarks
 
-The following two statements have the same result. One statement uses the  **Application** property to access the **Documents** collection, and one does not. Both statements are equal and achieve the same result.
+The following two statements have the same result. One statement uses the **Application** property to access the **Documents** collection, and one does not. Both statements are equal and achieve the same result.
 
 
 ```vb
@@ -119,6 +118,6 @@ Application.Documents(1).Content.Bold = True
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

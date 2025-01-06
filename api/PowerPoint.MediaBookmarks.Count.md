@@ -1,24 +1,23 @@
 ---
-title: MediaBookmarks.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: MediaBookmarks.Count property (PowerPoint)
 api_name:
 - PowerPoint.MediaBookmarks.Count
 ms.assetid: f9aecfa7-2723-d281-fe16-28cecedebb86
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MediaBookmarks.Count Property (PowerPoint)
+# MediaBookmarks.Count property (PowerPoint)
 
 Returns the number of bookmarks. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [MediaBookmarks](./PowerPoint.MediaBookmarks.md) object.
+_expression_ A variable that represents a [MediaBookmarks](PowerPoint.MediaBookmarks.md) object.
 
 
 ## Remarks

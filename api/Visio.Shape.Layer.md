@@ -1,27 +1,26 @@
 ---
-title: Shape.Layer Property (Visio)
+title: Shape.Layer property (Visio)
 keywords: vis_sdr.chm11213810
 f1_keywords:
 - vis_sdr.chm11213810
-ms.prod: visio
 api_name:
 - Visio.Shape.Layer
 ms.assetid: fb076dda-fa1f-a1fe-c97b-03ba3c7041f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Layer Property (Visio)
+# Shape.Layer property (Visio)
 
 Returns the layer to which a shape is assigned. Read-only.
 
 
 ## Syntax
 
- _expression_. `Layer`( `_Index_` )
+_expression_. `Layer` (_Index_)
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -39,14 +38,14 @@ Layer
 
 ## Remarks
 
-If a shape is assigned to three layers, the valid indexes that can be passed to its  **Layer** property are 1 through 3.
+If a shape is assigned to three layers, the valid indexes that can be passed to its **Layer** property are 1 through 3.
 
-To get the number of layers to which a shape is assigned, use the  **LayerCount** property.
+To get the number of layers to which a shape is assigned, use the **LayerCount** property.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Layer** property to get a reference to a particular layer. It also uses the **LayerCount** property to determine the number of layers to which a shape is assigned and the **Name** property to get the name of the current layer.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Layer** property to get a reference to a particular layer. It also uses the **LayerCount** property to determine the number of layers to which a shape is assigned and the **Name** property to get the name of the current layer.
 
 
 ```vb

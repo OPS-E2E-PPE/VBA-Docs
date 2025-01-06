@@ -3,12 +3,11 @@ title: Attachment.BackColor property (Access)
 keywords: vbaac10.chm13925
 f1_keywords:
 - vbaac10.chm13925
-ms.prod: access
 api_name:
 - Access.Attachment.BackColor
 ms.assetid: 7a96f656-4ca5-ebf8-47d9-7fe1f4939517
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

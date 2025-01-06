@@ -3,12 +3,11 @@ title: Options.AllowCompoundNounProcessing property (Word)
 keywords: vbawd10.chm162988379
 f1_keywords:
 - vbawd10.chm162988379
-ms.prod: word
 api_name:
 - Word.Options.AllowCompoundNounProcessing
 ms.assetid: 78da1977-2d44-7686-5e31-2e7c340f726f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AllowCompoundNounProcessing`
+_expression_. `AllowCompoundNounProcessing`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks

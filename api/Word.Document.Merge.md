@@ -3,12 +3,11 @@ title: Document.Merge method (Word)
 keywords: vbawd10.chm158007658
 f1_keywords:
 - vbawd10.chm158007658
-ms.prod: word
 api_name:
 - Word.Document.Merge
 ms.assetid: e7ab537d-dfd3-177b-722a-6fe693c158d8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Merges the changes marked with revision marks from one document to another.
 
 ## Syntax
 
- _expression_. `Merge`( `_Name_` , `_MergeTarget_` , `_DetectFormatChanges_` , `_UseFormattingFrom_` , `_AddToRecentFiles_` )
+_expression_.**Merge** (_Name_, _MergeTarget_, _DetectFormatChanges_, _UseFormattingFrom_, _AddToRecentFiles_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

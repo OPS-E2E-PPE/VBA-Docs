@@ -3,12 +3,11 @@ title: ObjectFrame.EventProcPrefix property (Access)
 keywords: vbaac10.chm11557
 f1_keywords:
 - vbaac10.chm11557
-ms.prod: access
 api_name:
 - Access.ObjectFrame.EventProcPrefix
 ms.assetid: a38ca887-8d70-eb89-a1ac-fd7308d17c0d
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

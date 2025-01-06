@@ -1,33 +1,31 @@
 ---
-title: Shape.Shadow Property (Publisher)
+title: Shape.Shadow property (Publisher)
 keywords: vbapb10.chm2228296
 f1_keywords:
 - vbapb10.chm2228296
-ms.prod: publisher
 api_name:
 - Publisher.Shape.Shadow
 ms.assetid: cfb908ae-ef1d-9539-1f82-2693cbe38d97
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/13/2019
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Shadow Property (Publisher)
+# Shape.Shadow property (Publisher)
 
-Returns a  **[ShadowFormat](Publisher.ShadowFormat.md)** object that represents the shadow formatting for the specified shape.
+Returns a **[ShadowFormat](Publisher.ShadowFormat.md)** object that represents the shadow formatting for the specified shape.
 
 
 ## Syntax
 
- _expression_. **Shadow**
+_expression_.**Shadow**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
 This example adds an arrow with shadow formatting and fill color to the first page in the active document.
-
 
 ```vb
 Sub SetShapeShadow() 

@@ -3,10 +3,9 @@ title: Private statement (VBA)
 keywords: vblr6.chm1010962
 f1_keywords:
 - vblr6.chm1010962
-ms.prod: office
 ms.assetid: f578a258-aac1-3dc5-ab1d-e74baaaf7244
 ms.date: 12/03/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -18,8 +17,6 @@ Used at the [module level](../../Glossary/vbe-glossary.md#module-level) to decla
 
 **Private** [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ]<br/>
 [ , [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ]] **. . .**
-
-<br/>
 
 The **Private** statement syntax has these parts:
 

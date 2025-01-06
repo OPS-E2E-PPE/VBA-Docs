@@ -3,10 +3,9 @@ title: For Each...Next statement (VBA)
 keywords: vblr6.chm1009275
 f1_keywords:
 - vblr6.chm1009275
-ms.prod: office
 ms.assetid: bbff57d3-3655-3426-02a1-ae6748736fb1
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -21,8 +20,6 @@ Repeats a group of [statements](../../Glossary/vbe-glossary.md#statement) for ea
  [ **Exit For** ] <br/>
  [ _statements_ ] <br/>
 **Next** [ _element_ ]
-
-<br/>
 
 The **For...Each...Next** statement syntax has these parts:
 
@@ -47,7 +44,7 @@ You can't use the **For...Each...Next** statement with an array of user-defined 
 
 ## Example
 
-This example uses the **For Each...Next** statement to search the **Text** property of all elements in a collection for the existence of the string "Hello". In the example, `MyObject` is a text-related object and is an element of the collection `MyCollection`. Both are generic names used for illustration purposes only.
+This example uses the **For Each...Next** statement to search the **Text** property of all elements in a collection for the existence of the string "Hello". In the example, _MyObject_ is a text-related object and is an element of the collection _MyCollection_. Both are generic names used for illustration purposes only.
 
 
 ```vb

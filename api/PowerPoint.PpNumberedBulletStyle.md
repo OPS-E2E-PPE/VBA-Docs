@@ -1,15 +1,14 @@
 ---
-title: PpNumberedBulletStyle Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpNumberedBulletStyle enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpNumberedBulletStyle
 ms.assetid: e94c69d3-20c4-102c-491c-c3f99217d5f6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpNumberedBulletStyle Enumeration (PowerPoint)
+# PpNumberedBulletStyle enumeration (PowerPoint)
 
 Specifies the bullet style.
 

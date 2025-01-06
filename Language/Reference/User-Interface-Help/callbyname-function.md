@@ -3,10 +3,9 @@ title: CallByName function (Visual Basic for Applications)
 keywords: vblr6.chm1020905
 f1_keywords:
 - vblr6.chm1020905
-ms.prod: office
 ms.assetid: e76dece5-244f-9514-4ccf-d993d6476061
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Executes a method of an object, or sets or returns a property of an [object](../
 ## Syntax
 
 **CallByName** (_object_, _procname_, _calltype_, [args()]_)
-
-<br/>
 
 The **CallByName** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 

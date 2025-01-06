@@ -3,12 +3,11 @@ title: MsoEnvelope.EnvelopeHide event (Office)
 keywords: vbaof11.chm246002
 f1_keywords:
 - vbaof11.chm246002
-ms.prod: office
 api_name:
 - Office.MsoEnvelope.EnvelopeHide
 ms.assetid: 066b0ed0-bd5d-f37e-6c04-66e0a59733d4
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

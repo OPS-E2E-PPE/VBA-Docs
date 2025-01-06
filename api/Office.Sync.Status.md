@@ -3,12 +3,11 @@ title: Sync.Status property (Office)
 keywords: vbaof11.chm277001
 f1_keywords:
 - vbaof11.chm277001
-ms.prod: office
 api_name:
 - Office.Sync.Status
 ms.assetid: fdddff38-268b-835a-7c8d-db76d862e392
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -81,7 +80,7 @@ The following example examines the **Status** property and takes an appropriate 
                 objSync.ResolveConflict msoSyncConflictClientWins 
                 strStatus = "Conflict resolved by merging changes." 
             Case msoSyncStatusError 
-                strStatus = "Last error type: " &amp; objSync.ErrorType 
+                strStatus = "Last error type: " & objSync.ErrorType 
             Case msoSyncStatusLatest 
                 strStatus = "Document copies already in sync." 
             Case msoSyncStatusLocalChanges 

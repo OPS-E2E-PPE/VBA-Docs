@@ -1,18 +1,17 @@
 ---
-title: OlEnterFieldBehavior Enumeration (Outlook)
+title: OlEnterFieldBehavior enumeration (Outlook)
 keywords: vbaol11.chm1000023
 f1_keywords:
 - vbaol11.chm1000023
-ms.prod: outlook
 api_name:
 - Outlook.OlEnterFieldBehavior
 ms.assetid: 4f9271f9-32db-08c7-f452-12e9793d1f9b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlEnterFieldBehavior Enumeration (Outlook)
+# OlEnterFieldBehavior enumeration (Outlook)
 
 Specifies the behavior when focus enters a control.
 

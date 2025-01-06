@@ -3,10 +3,9 @@ title: Const statement (VBA)
 keywords: vblr6.chm1008877
 f1_keywords:
 - vblr6.chm1008877
-ms.prod: office
 ms.assetid: 99e2d1e1-ed30-77d3-3366-6438e9373308
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Declares [constants](../../Glossary/vbe-glossary.md#constant) for use in place o
 ## Syntax
 
 [ **Public** | **Private** ] **Const** _constname_ [ **As** _type_ ] **=** _expression_
-
-<br/>
 
 The **Const** statement syntax has these parts:
 
@@ -43,7 +40,7 @@ You can't use variables, user-defined functions, or intrinsic Visual Basic funct
 
 If you don't explicitly declare the constant type by using **As** _type_, the constant has the data type that is most appropriate for _expression_.
 
-Constants declared in a **[Sub](sub-statement.md)**, **[Function](function-statement.md)**, or **Property** procedure are local to that procedure. A constant declared outside a procedure is defined throughout the module in which it is declared. You can use constants anywhere you can use an expression.
+Constants declared in a **[Sub](sub-statement.md)**, **[Function](function-statement.md)**, or **Property** procedure are local to that procedure. A constant declared outside a procedure is defined throughout the module in which it is declared. Use constants anywhere you can use an expression.
 
 ## Example
 

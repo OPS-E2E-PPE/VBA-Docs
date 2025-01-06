@@ -1,27 +1,26 @@
 ---
-title: Application.DataFeaturesEnabled Property (Visio)
+title: Application.DataFeaturesEnabled property (Visio)
 keywords: vis_sdr.chm10060055
 f1_keywords:
 - vis_sdr.chm10060055
-ms.prod: visio
 api_name:
 - Visio.Application.DataFeaturesEnabled
 ms.assetid: 3ff6eb4e-1ea8-3f53-c86b-133d4960516e
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/25/2019
+ms.localizationpriority: medium
 ---
 
 
-# Application.DataFeaturesEnabled Property (Visio)
+# Application.DataFeaturesEnabled property (Visio)
 
 Gets whether the data features in Microsoft Visio are enabled for the current instance of Visio. Read-only.
 
 
 ## Syntax
 
- _expression_. `DataFeaturesEnabled`
+_expression_.**DataFeaturesEnabled**
 
- _expression_ An expression that returns a [Application](./Visio.Application.md) object.
+_expression_ An expression that returns an **[Application](Visio.Application.md)** object.
 
 
 ## Return value

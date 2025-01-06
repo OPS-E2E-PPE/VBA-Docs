@@ -3,12 +3,11 @@ title: FileDialogFilters object (Office)
 keywords: vbaof11.chm255000
 f1_keywords:
 - vbaof11.chm255000
-ms.prod: office
 api_name:
 - Office.FileDialogFilters
 ms.assetid: a74663cf-ad63-e41a-8d5e-e51e8a20c173
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -26,7 +25,7 @@ Application.FileDialog(msoFileDialogOpen).Filters
 
 Use the **Add** method to add **FileDialogFilter** objects to the **FileDialogFilters** collection. 
 
-The following example uses the **Clear** method to clear the collection and then adds filters to the collection. The **Clear** method completely empties the collection; however, if you do not add any filters to the collection after you clear it, the "All files (*.*)" filter is added automatically.
+The following example uses the **Clear** method to clear the collection and then adds filters to the collection. The **Clear** method completely empties the collection; however, if you don't add any filters to the collection after you clear it, the "All files (*.*)" filter is added automatically.
 
 ```vb
 Sub Main() 
@@ -64,9 +63,9 @@ Sub Main()
             For Each vrtSelectedItem In .SelectedItems 
  
                 'vrtSelectedItem is aString that contains the path of each selected item. 
-                'You can use any file I/O functions that you want to work with this path. 
+                'Use any file I/O functions that you want to work with this path. 
                 'This example displays the path in a message box. 
-                MsgBox "Path name: " &amp; vrtSelectedItem 
+                MsgBox "Path name: " & vrtSelectedItem 
  
             Next vrtSelectedItem 
         'The user pressed Cancel. 
@@ -79,8 +78,6 @@ Sub Main()
  
 End Sub
 ```
-
-<br/>
 
 When changing the **FileDialogFilters** collection, remember that each application can only create an instance of a single **FileDialog** object. This means that the **FileDialogFilters** collection resets to its default filters whenever you call the **FileDialog** method with a new dialog box type. The following example iterates through the default filters of the **SaveAs** dialog box and displays the description of each filter that includes a Microsoft Excel file.
 
@@ -104,7 +101,7 @@ Sub Main()
         'Display the description of filters that include 
         'Microsoft Excel files 
         If InStr(1, fdf.Extensions, "xls", vbTextCompare) > 0 Then 
-            MsgBox "Description of filter: " &amp; fdf.Description 
+            MsgBox "Description of filter: " & fdf.Description 
         End If 
     Next fdf 
  
@@ -112,7 +109,7 @@ End Sub
 ```
 
 > [!NOTE] 
-> A run-time error will occur if the **Filters** property is used in conjunction with the **Clear**, **Add**, or **Delete** methods when applied to a Save As **FileDialog** object. For example, **Application.FileDialog([msoFileDialogSaveAs](office.msofiledialogtype.md)).Filters.Clear** will result in a run-time error.
+> A run-time error occurs if the **Filters** property is used in conjunction with the **Clear**, **Add**, or **Delete** methods when applied to a Save As **FileDialog** object. For example, **Application.FileDialog([msoFileDialogSaveAs](office.msofiledialogtype.md)).Filters.Clear** will result in a run-time error.
 
 
 ## See also

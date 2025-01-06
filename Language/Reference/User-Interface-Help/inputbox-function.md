@@ -3,10 +3,9 @@ title: InputBox function (Visual Basic for Applications)
 keywords: vblr6.chm1008945
 f1_keywords:
 - vblr6.chm1008945
-ms.prod: office
 ms.assetid: 701fb7bb-3663-93ae-df74-a2fd401215f6
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Displays a prompt in a dialog box, waits for the user to input text or click a b
 ## Syntax
 
 **InputBox**(_prompt_, [ _title_ ], [ _default_ ], [ _xpos_ ], [ _ypos_ ], [ _helpfile_, _context_ ])
-
-<br/>
 
 The **InputBox** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -35,6 +32,10 @@ The **InputBox** function syntax has these [named arguments](../../Glossary/vbe-
 ## Remarks
 
 When both _helpfile_ and _context_ are provided, the user can press F1 (Windows) or HELP (Macintosh) to view the Help topic corresponding to the _context_. Some [host applications](../../Glossary/vbe-glossary.md#host-application), for example, Microsoft Excel, also automatically add a **Help** button to the dialog box. If the user chooses **OK** or presses ENTER, the **InputBox** function returns whatever is in the text box. If the user chooses **Cancel**, the function returns a zero-length string ("").
+
+The text box accepts only 255 characters. The return string is truncated to 254 characters.
+
+The text box does not accept line breaks, such as **Shift+Enter**. If the user pastes text with a line break in the text box, the text is truncated at the line break.
 
 > [!NOTE] 
 > To specify more than the first named argument, you must use **InputBox** in an [expression](../../Glossary/vbe-glossary.md#expression). To omit some positional [arguments](../../Glossary/vbe-glossary.md#argument), you must include the corresponding comma delimiter.

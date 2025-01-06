@@ -1,15 +1,14 @@
 ---
-title: Borders.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: Borders.Count property (PowerPoint)
 api_name:
 - PowerPoint.Borders.Count
 ms.assetid: 0665b077-e1e4-37b2-8812-87a19b78f138
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Borders.Count Property (PowerPoint)
+# Borders.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
@@ -18,7 +17,7 @@ Returns the number of objects in the specified collection. Read-only.
 
 _expression_.**Count**
 
-_expression_ A variable that represents a [Borders](./PowerPoint.Borders.md) object.
+_expression_ A variable that represents a [Borders](PowerPoint.Borders.md) object.
 
 
 ## Return value

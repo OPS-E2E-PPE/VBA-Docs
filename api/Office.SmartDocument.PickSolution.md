@@ -3,12 +3,11 @@ title: SmartDocument.PickSolution method (Office)
 keywords: vbaof11.chm262003
 f1_keywords:
 - vbaof11.chm262003
-ms.prod: office
 api_name:
 - Office.SmartDocument.PickSolution
 ms.assetid: ea50c7a4-4b52-10c4-8b1a-86c7ef80dec1
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -38,7 +37,7 @@ The **PickSolution** method does not return a value to indicate whether the user
 
 If the smart document developer has failed to specify "targetApplication" in the XML expansion pack manifest file, the list displayed by **PickSolution** may include XML expansion packs that are not targeted to the active application; for example, an Excel user may see XML expansion packs targeted exclusively to Word. In these circumstances, the user may select an XML expansion pack that is not appropriate for the active application.
 
-For more information about smart documents or XML expansion packs for smart documents, see the [Smart Document Software Development Kit (SDK)](https://docs.microsoft.com/previous-versions/office/developer/office-2003/aa193924(v%3doffice.11)).
+For more information about smart documents or XML expansion packs for smart documents, see the [Smart Document Software Development Kit (SDK)](/previous-versions/office/developer/office-2003/aa193924(v%3doffice.11)).
 
 
 ## Example
@@ -54,8 +53,8 @@ The following example checks the **SolutionID** property to determine whether th
  objSmartDoc.PickSolution True 
  End If 
  If objSmartDoc.SolutionID > "None" And objSmartDoc.SolutionID > "" Then 
- strSmartDocInfo = "SolutionID: " &amp; objSmartDoc.SolutionID &amp; vbCrLf &amp; _ 
- "SolutionURL: " &amp; objSmartDoc.SolutionURL 
+ strSmartDocInfo = "SolutionID: " & objSmartDoc.SolutionID & vbCrLf & _ 
+ "SolutionURL: " & objSmartDoc.SolutionURL 
  MsgBox strSmartDocInfo, vbInformation + vbOKOnly, "Smart Doc Properties" 
  Else 
  MsgBox "The user clicked Cancel." 

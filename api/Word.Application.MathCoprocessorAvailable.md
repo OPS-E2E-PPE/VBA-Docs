@@ -3,12 +3,11 @@ title: Application.MathCoprocessorAvailable property (Word)
 keywords: vbawd10.chm158335012
 f1_keywords:
 - vbawd10.chm158335012
-ms.prod: word
 api_name:
 - Word.Application.MathCoprocessorAvailable
 ms.assetid: 207b7f3f-4113-7069-51e3-10658ec3654f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MathCoprocessorAvailable`
+_expression_. `MathCoprocessorAvailable`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example

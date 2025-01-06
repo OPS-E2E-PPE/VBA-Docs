@@ -3,25 +3,24 @@ title: Rows.NestingLevel property (Word)
 keywords: vbawd10.chm155975783
 f1_keywords:
 - vbawd10.chm155975783
-ms.prod: word
 api_name:
 - Word.Rows.NestingLevel
 ms.assetid: 54a34d92-08bc-fb66-3a29-5e491d370307
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rows.NestingLevel property (Word)
 
-Returns the nesting level of the specified table rows. Read-only  **Long**.
+Returns the nesting level of the specified table rows. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `NestingLevel`
+_expression_. `NestingLevel`
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks

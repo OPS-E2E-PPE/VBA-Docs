@@ -1,24 +1,23 @@
 ---
-title: DrawingControl.QueryCancelMasterDelete Event (Visio)
-ms.prod: visio
+title: DrawingControl.QueryCancelMasterDelete event (Visio)
 api_name:
 - Visio.DrawingControl.QueryCancelMasterDelete
 ms.assetid: 148dfdc8-6d30-37b8-5346-3210fc43bc69
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DrawingControl.QueryCancelMasterDelete Event (Visio)
+# DrawingControl.QueryCancelMasterDelete event (Visio)
 
-Occurs before the application deletes a master in response to a user action in the interface. If any event handler returns  **True** , the operation is canceled.
+Occurs before the application deletes a master in response to a user action in the interface. If any event handler returns **True**, the operation is canceled.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'QueryCancelMasterDelete'(**_ByVal master As [IVMASTER]_**)
+_expression_.**QueryCancelMasterDelete** (_Master_)
 
- _expression_ A variable that represents a [DrawingControl](./Visio.DrawingControl.md) object.
+_expression_ A variable that represents a **[DrawingControl](Visio.DrawingControl.md)** object.
 
 
 ## Parameters
@@ -31,14 +30,14 @@ Private Sub  _expression_ _'QueryCancelMasterDelete'(**_ByVal master As [IVMASTE
 
 ## Remarks
 
-A Microsoft Visio instance fires  **QueryCancelMasterDelete** after the user has directed the instance to delete a master.
+A Microsoft Visio instance fires **QueryCancelMasterDelete** after the user has directed the instance to delete a master.
 
 
 
 
-- If any event handler returns  **True** (cancel), the instance fires **MasterDeleteCanceled** and does not delete the master.
+- If any event handler returns **True** (cancel), the instance fires **MasterDeleteCanceled** and does not delete the master.
     
-- If all handlers return  **False** (don't cancel), the instance fires **BeforeMasterDelete** and then deletes the master.
+- If all handlers return **False** (don't cancel), the instance fires **BeforeMasterDelete** and then deletes the master.
     
 
 
@@ -46,6 +45,12 @@ While a Visio instance is firing a query or cancel event, it responds to inquiri
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

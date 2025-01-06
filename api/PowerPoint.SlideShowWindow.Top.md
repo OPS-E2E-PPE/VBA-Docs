@@ -1,27 +1,26 @@
 ---
-title: SlideShowWindow.Top Property (PowerPoint)
+title: SlideShowWindow.Top property (PowerPoint)
 keywords: vbapp10.chm507007
 f1_keywords:
 - vbapp10.chm507007
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowWindow.Top
 ms.assetid: 32022226-15ac-01d4-4e66-f9115e477826
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowWindow.Top Property (PowerPoint)
+# SlideShowWindow.Top property (PowerPoint)
 
-Returns or sets a  **Single** that represents the distance in points from the top edge of the document, application, and slide show window to the top edge of the application window's client area. Read/write.
+Returns or sets a **Single** that represents the distance in points from the top edge of the document, application, and slide show window to the top edge of the application window's client area. Read/write.
 
 
 ## Syntax
 
- _expression_.**Top**
+_expression_.**Top**
 
- _expression_ A variable that represents a [SlideShowWindow](./PowerPoint.SlideShowWindow.md) object.
+_expression_ A variable that represents a [SlideShowWindow](PowerPoint.SlideShowWindow.md) object.
 
 
 ## Return value

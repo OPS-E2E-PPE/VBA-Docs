@@ -3,12 +3,11 @@ title: WorksheetFunction.ImDiv method (Excel)
 keywords: vbaxl10.chm137274
 f1_keywords:
 - vbaxl10.chm137274
-ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.ImDiv
 ms.assetid: 6379d38c-032c-da1e-b71d-cb32f59df51d
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Returns the quotient of two complex numbers in x + yi or x + yj text format.
 
 ## Syntax
 
-_expression_. `ImDiv`( `_Arg1_` , `_Arg2_` )
+_expression_.**ImDiv** (_Arg1_, _Arg2_)
 
-_expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,25 +32,15 @@ _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetF
 
 ## Return value
 
-String
+**String**
 
 
 ## Remarks
 
-
-
-
-- Use COMPLEX to convert real and imaginary coefficients into a complex number.
+Use the **[Complex](excel.worksheetfunction.complex.md)** method to convert real and imaginary coefficients into a complex number.
     
-- The quotient of two complex numbers is:
-![Formula](../images/awfimdiv_ZA06051158.gif)
+The quotient of two complex numbers is &nbsp; ![Formula](../images/awfimdiv_ZA06051158.gif)
 
 
-    
-
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,11 +1,10 @@
 ---
 title: ThemeEffectScheme object (Office)
-ms.prod: office
 api_name:
 - Office.ThemeEffectScheme
 ms.assetid: 3fad64c0-94ca-8749-0282-3ed903e2aa84
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

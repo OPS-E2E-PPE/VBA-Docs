@@ -1,27 +1,27 @@
 ---
-title: Application.ProjectStatistics Method (Project)
+title: Application.ProjectStatistics method (Project)
 keywords: vbapj.chm602
 f1_keywords:
 - vbapj.chm602
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.ProjectStatistics
 ms.assetid: aa3cbba5-5c06-7daf-0b07-035faf72015d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.ProjectStatistics Method (Project)
+# Application.ProjectStatistics method (Project)
 
-Displays the  **Project Statistics** dialog box.
+Displays the **Project Statistics** dialog box.
 
 
 ## Syntax
 
- _expression_. `ProjectStatistics`( `_Project_` )
+_expression_. `ProjectStatistics`( `_Project_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ Displays the  **Project Statistics** dialog box.
 
 ## Remarks
 
-The  **ProjectStatistics** method has the same effect as clicking **Project Information** on the **Project** tab of the Ribbon, and then clicking **Statistics**.
+The **ProjectStatistics** method has the same effect as clicking **Project Information** on the **Project** tab of the Ribbon, and then clicking **Statistics**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

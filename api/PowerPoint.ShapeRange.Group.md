@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Group Method (PowerPoint)
+title: ShapeRange.Group method (PowerPoint)
 keywords: vbapp10.chm548061
 f1_keywords:
 - vbapp10.chm548061
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Group
 ms.assetid: f70f3986-3a39-78f9-476e-b72ef000c469
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Group Method (PowerPoint)
+# ShapeRange.Group method (PowerPoint)
 
-Groups the shapes in the specified range. Returns the grouped shapes as a single  **[Shape](PowerPoint.Shape.md)** object.
+Groups the shapes in the specified range. Returns the grouped shapes as a single **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Syntax
 
- _expression_. `Group`
+_expression_.**Group**
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -31,12 +30,12 @@ Shape
 
 ## Remarks
 
-Because a group of shapes is treated as a single shape, grouping and ungrouping shapes changes the number of items in the  **[Shapes](PowerPoint.Shapes.md)** collection and changes the index numbers of items that come after the affected items in the collection.
+Because a group of shapes is treated as a single shape, grouping and ungrouping shapes changes the number of items in the **[Shapes](PowerPoint.Shapes.md)** collection and changes the index numbers of items that come after the affected items in the collection.
 
 
 ## Example
 
-This example adds two shapes to  `myDocument`, groups the two new shapes, sets the fill for the group, rotates the group, and sends the group to the back of the drawing layer.
+This example adds two shapes to _myDocument_, groups the two new shapes, sets the fill for the group, rotates the group, and sends the group to the back of the drawing layer.
 
 
 ```vb

@@ -3,10 +3,9 @@ title: Dim statement (VBA)
 keywords: vblr6.chm1008897
 f1_keywords:
 - vblr6.chm1008897
-ms.prod: office
 ms.assetid: 674a6797-5827-9ce6-6375-e24b21977a6d
-ms.date: 12/03/2018
-localization_priority: Priority
+ms.date: 05/24/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -18,15 +17,13 @@ Declares [variables](../../Glossary/vbe-glossary.md#variable) and allocates stor
 
 **Dim** [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ] [ , [ **WithEvents** ] _varname_ [ ( [ _subscripts_ ] ) ] [ **As** [ **New** ] _type_ ]] **. . .**
 
-<br/>
-
 The **Dim** statement syntax has these parts:
 
 |Part|Description|
 |:-----|:-----|
 |**WithEvents**|Optional. [Keyword](../../Glossary/vbe-glossary.md#keyword) that specifies that _varname_ is an [object variable](../../Glossary/vbe-glossary.md#object-variable) used to respond to events triggered by an [ActiveX object](../../Glossary/vbe-glossary.md#activex-object). **WithEvents** is valid only in [class modules](../../Glossary/vbe-glossary.md#class-module). You can declare as many individual variables as you like by using **WithEvents**, but you can't create [arrays](../../Glossary/vbe-glossary.md#array) with **WithEvents**. You can't use **New** with **WithEvents**.|
 | _varname_|Required. Name of the variable; follows standard variable naming conventions.|
-| _subscripts_|Optional. Dimensions of an array variable; up to 60 multiple dimensions may be declared. The  _subscripts_ argument uses the following syntax: [ _lower_**To** ] _upper_ [ , [ _lower_**To** ] _upper_ ] **. . .**.<br/><br/>When not explicitly stated in _lower_, the lower bound of an array is controlled by the **[Option Base](option-base-statement.md)** statement. The lower bound is zero if no **Option Base** statement is present.|
+| _subscripts_|Optional. Dimensions of an array variable; up to 60 multiple dimensions may be declared. The  _subscripts_ argument uses the following syntax: [ _lower_ **To** ] _upper_ [ , [ _lower_ **To** ] _upper_ ] **. . .**.<br/><br/>When not explicitly stated in _lower_, the lower bound of an array is controlled by the **[Option Base](option-base-statement.md)** statement. The lower bound is zero if no **Option Base** statement is present.|
 |**New**|Optional. Keyword that enables implicit creation of an object. If you use **New** when declaring the object variable, a new instance of the object is created on first reference to it, so you don't have to use the **[Set](set-statement.md)** statement to assign the object reference.<br/><br/>The **New** keyword can't be used to declare variables of any intrinsic [data type](../../Glossary/vbe-glossary.md#data-type) or to declare instances of dependent objects, and it can't be used with **WithEvents**.|
 | _type_|Optional. Data type of the variable; may be [Byte](../../Glossary/vbe-glossary.md#byte-data-type), [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type), [Integer](../../Glossary/vbe-glossary.md#integer-data-type), [Long](../../Glossary/vbe-glossary.md#long-data-type), [Currency](../../Glossary/vbe-glossary.md#currency-data-type), [Single](../../Glossary/vbe-glossary.md#single-data-type), [Double](../../Glossary/vbe-glossary.md#double-data-type), [Decimal](../../Glossary/vbe-glossary.md#decimal-data-type) (not currently supported), [Date](../../Glossary/vbe-glossary.md#date-data-type), [String](../../Glossary/vbe-glossary.md#string-data-type) (for variable-length strings), **String** _length_ (for fixed-length strings), [Object](../../Glossary/vbe-glossary.md#object), [Variant](../../Glossary/vbe-glossary.md#variant-data-type), a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type), or an [object type](../../Glossary/vbe-glossary.md#object-type). Use a separate **As** _type_ clause for each variable you declare.|
 

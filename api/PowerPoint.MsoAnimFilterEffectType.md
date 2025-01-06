@@ -1,17 +1,16 @@
 ---
-title: MsoAnimFilterEffectType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: MsoAnimFilterEffectType enumeration (PowerPoint)
 api_name:
 - PowerPoint.MsoAnimFilterEffectType
 ms.assetid: 763d5cc1-a0ea-4394-6567-8a5837ae4707
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MsoAnimFilterEffectType Enumeration (PowerPoint)
+# MsoAnimFilterEffectType enumeration (PowerPoint)
 
-Constants that specify the type of animation filter effect, passed to and returned by the  **Type** property of the **FilterEffect** object.
+Constants that specify the type of animation filter effect, passed to and returned by the **Type** property of the **FilterEffect** object.
 
 
 

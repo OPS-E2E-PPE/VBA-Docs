@@ -1,20 +1,20 @@
 ---
-title: Shape.HorizontalFlip Property (Project)
-ms.prod: project-server
+title: Shape.HorizontalFlip property (Project)
+ms.service: project-server
 ms.assetid: 57862ea8-62b9-0e01-b7c5-017cc7b8e5ef
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.HorizontalFlip Property (Project)
-Gets a value that indicates whether the shape is flipped around the horizontal axis. Read-only  **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**.
+# Shape.HorizontalFlip property (Project)
+Gets a value that indicates whether the shape is flipped around the horizontal axis. Read-only **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `HorizontalFlip`
+_expression_. `HorizontalFlip`
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

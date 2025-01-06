@@ -1,11 +1,10 @@
 ---
 title: ThemeFontScheme.Creator property (Office)
-ms.prod: office
 api_name:
 - Office.ThemeFontScheme.Creator
 ms.assetid: bfe1af42-d652-1ccf-49b2-1f27aa37b7a1
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

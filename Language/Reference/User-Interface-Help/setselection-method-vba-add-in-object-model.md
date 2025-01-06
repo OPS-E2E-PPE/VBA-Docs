@@ -3,10 +3,9 @@ title: SetSelection method (VBA Add-In Object Model)
 keywords: vbob6.chm104035
 f1_keywords:
 - vbob6.chm104035
-ms.prod: office
 ms.assetid: c6408c78-b41e-e0d7-1817-41f887ce2d50
 ms.date: 12/06/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Sets the selection in the [code pane](../../Glossary/vbe-glossary.md#code-pane).
 ## Syntax
 
 _object_.**SetSelection** (_startline_, _startcol_, _endline_, _endcol_)
-
-<br/>
 
 The **SetSelection** syntax has these parts:
 

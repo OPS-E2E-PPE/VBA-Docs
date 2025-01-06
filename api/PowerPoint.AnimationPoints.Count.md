@@ -1,24 +1,23 @@
 ---
-title: AnimationPoints.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: AnimationPoints.Count property (PowerPoint)
 api_name:
 - PowerPoint.AnimationPoints.Count
 ms.assetid: 41d338d8-e45c-347c-d4a4-5695098e98ac
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AnimationPoints.Count Property (PowerPoint)
+# AnimationPoints.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
-_expression_ A variable that represents an [AnimationPoints](./PowerPoint.AnimationPoints.md) object.
+_expression_ A variable that represents an [AnimationPoints](PowerPoint.AnimationPoints.md) object.
 
 
 ## Return value

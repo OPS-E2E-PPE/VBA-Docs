@@ -3,12 +3,11 @@ title: TextBox.CanGrow property (Access)
 keywords: vbaac10.chm11068
 f1_keywords:
 - vbaac10.chm11068
-ms.prod: access
 api_name:
 - Access.TextBox.CanGrow
 ms.assetid: 5e96e693-9e1a-1f1f-5d5d-672e6232c330
 ms.date: 02/28/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The **CanGrow** property uses the following settings.
 
 This property setting is read-only in a macro or Visual Basic in any view but Design view.
 
-You can use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control grows, the controls below it move down the page.
+Use this property to control the appearance of printed forms and reports. When you set the property to Yes, the object automatically adjusts so that any amount of data can be printed. When a control grows, the controls below it move down the page.
 
 If you set a control's **CanGrow** property to Yes, Microsoft Access automatically sets the **CanGrow** property of the section containing the control to Yes.
 

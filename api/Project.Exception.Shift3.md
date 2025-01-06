@@ -1,24 +1,24 @@
 ---
-title: Exception.Shift3 Property (Project)
-ms.prod: project-server
+title: Exception.Shift3 property (Project)
+ms.service: project-server
 api_name:
 - Project.Exception.Shift3
 ms.assetid: e7a320de-d140-81f9-e0ff-6bf6c4452c31
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Exception.Shift3 Property (Project)
+# Exception.Shift3 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the third work shift in a calendar exception for a day, month, period, weekday, or throughout a year. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the third work shift in a calendar exception for a day, month, period, weekday, or throughout a year. Read-only **Shift**.
 
 
 ## Syntax
 
- _expression_. `Shift3`
+_expression_. `Shift3`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Example

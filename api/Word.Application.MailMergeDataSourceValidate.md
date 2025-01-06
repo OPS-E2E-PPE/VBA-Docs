@@ -1,27 +1,26 @@
 ---
-title: Application.MailMergeDataSourceValidate Event (Word)
+title: Application.MailMergeDataSourceValidate event (Word)
 keywords: vbawd10.chm4000021
 f1_keywords:
 - vbawd10.chm4000021
-ms.prod: word
 api_name:
 - Word.Application.MailMergeDataSourceValidate
 ms.assetid: 31e03b87-b76c-9cfe-afb0-c9ee5cbcd13b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.MailMergeDataSourceValidate Event (Word)
+# Application.MailMergeDataSourceValidate event (Word)
 
-Occurs when a user validates mail merge recipients by clicking  **Validate** in the **Mail Merge Recipients** dialog box.
+Occurs when a user validates mail merge recipients by clicking **Validate** in the **Mail Merge Recipients** dialog box.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'MailMergeDataSourceValidate'(**_ByVal Doc As Document_** , **_Handled As Boolean_**)
+_expression_.**MailMergeDataSourceValidate** (_Doc As Document_**, **_Handled As Boolean_**)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module.
+_expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module.
 
 
 ## Parameters
@@ -35,12 +34,13 @@ Private Sub  _expression_ _'MailMergeDataSourceValidate'(**_ByVal Doc As Documen
 
 ## Remarks
 
-If you do not have address verification software installed on your computer, the  **MailMergeDataSourceValidate** event allows you to create simple filtering routines, such as looping through records to check the postal codes and removing any that are non-U.S.
+If you don't have address verification software installed on your computer, the **MailMergeDataSourceValidate** event allows you to create simple filtering routines, such as looping through records to check the postal codes and removing any that are non-U.S.
 
 
- **Note**  The Handled parameter does not function correctly in this version of the event; use the  **[MailMergeDataSourceValidate2](Word.Application.MailMergeDataSourceValidate2.md)** event. In addition, you cannot raise this event from within a Microsoft Visual Basic for Applications (VBA) project. This event functions correctly only in COM add-ins. For managed add-ins and external applications, use the **MailMergeDataSourceValidate2** event.
+> [!NOTE] 
+> The Handled parameter does not function correctly in this version of the event; use the **[MailMergeDataSourceValidate2](Word.Application.MailMergeDataSourceValidate2.md)** event. In addition, you cannot raise this event from within a Microsoft Visual Basic for Applications (VBA) project. This event functions correctly only in COM add-ins. For managed add-ins and external applications, use the **MailMergeDataSourceValidate2** event.
 
-For information about using events with the  **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## See also

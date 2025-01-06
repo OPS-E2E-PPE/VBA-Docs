@@ -1,27 +1,26 @@
 ---
-title: Shape.Parent Property (PowerPoint)
+title: Shape.Parent property (PowerPoint)
 keywords: vbapp10.chm547001
 f1_keywords:
 - vbapp10.chm547001
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Shape.Parent
 ms.assetid: a88b1ec0-79de-4aef-9b71-a21bf8de2f44
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Shape.Parent Property (PowerPoint)
+# Shape.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Object
 
 ## Example
 
-This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the  **Shape** object that contains the text.
+This example adds an oval containing text to slide one in the active presentation and rotates the oval and the text 45 degrees. The parent object for the text frame is the **Shape** object that contains the text.
 
 
 ```vb

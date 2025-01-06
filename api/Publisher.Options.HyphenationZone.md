@@ -1,27 +1,26 @@
 ---
-title: Options.HyphenationZone Property (Publisher)
+title: Options.HyphenationZone property (Publisher)
 keywords: vbapb10.chm1048593
 f1_keywords:
 - vbapb10.chm1048593
-ms.prod: publisher
 api_name:
 - Publisher.Options.HyphenationZone
 ms.assetid: ed0e90de-4a2a-3c8a-27f1-e8c7c1f0e174
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Options.HyphenationZone Property (Publisher)
+# Options.HyphenationZone property (Publisher)
 
-Returns or sets a  **Variant** that represents the maximum amount of space that Microsoft Publisher leaves between the end of the last word in a line and the right margin. Read/write.
+Returns or sets a **Variant** that represents the maximum amount of space that Microsoft Publisher leaves between the end of the last word in a line and the right margin. Read/write.
 
 
 ## Syntax
 
- _expression_. **HyphenationZone**
+_expression_.**HyphenationZone**
 
- _expression_ A variable that represents a  **Options** object.
+_expression_ A variable that represents an **[Options](Publisher.Options.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Variant
 ## Example
 
 This example turns on automatic hyphenation and specifies the maximum amount of space between the end of the last word and the right margin equal to one inch (72 points).
-
 
 ```vb
 Sub SetHyphenationZone() 

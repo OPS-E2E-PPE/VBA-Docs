@@ -1,21 +1,21 @@
 ---
-title: VisDataColumnProperties Enumeration (Visio)
+title: VisDataColumnProperties enumeration (Visio)
 keywords: vis_sdr.chm70500
 f1_keywords:
 - vis_sdr.chm70500
-ms.prod: visio
 ms.assetid: b2cf84b8-fa84-7084-520c-3c01b9ef6cf9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisDataColumnProperties Enumeration (Visio)
+# VisDataColumnProperties enumeration (Visio)
 
-Data-column-property constants passed to the  **[DataColumn.SetProperty](Visio.DataColumn.SetProperty.md)** and **[DataColumns.SetColumnProperties](Visio.DataColumns.SetColumnProperties.md)** methods and returned by the **[DataColumn.GetProperty](Visio.DataColumn.GetProperty.md)** method.
+Data-column-property constants passed to the **[DataColumn.SetProperty](Visio.DataColumn.SetProperty.md)** and **[DataColumns.SetColumnProperties](Visio.DataColumns.SetColumnProperties.md)** methods and returned by the **[DataColumn.GetProperty](Visio.DataColumn.GetProperty.md)** method.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 

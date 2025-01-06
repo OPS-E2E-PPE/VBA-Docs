@@ -3,12 +3,11 @@ title: SharedWorkspace.Members property (Office)
 keywords: vbaof11.chm276002
 f1_keywords:
 - vbaof11.chm276002
-ms.prod: office
 api_name:
 - Office.SharedWorkspace.Members
 ms.assetid: a53cfd41-36ca-73e4-08b2-306569f26979
 ms.date: 01/24/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,7 +34,7 @@ The following example lists the members in the current shared workspace.
 ```vb
 Dim swsMembers As Office.SharedWorkspaceMembers 
     Set swsMembers = ActiveWorkbook.SharedWorkspace.Members 
-    MsgBox "There are " &amp; swsMembers.Count &amp; _ 
+    MsgBox "There are " & swsMembers.Count & _ 
         " member(s) in the current shared workspace.", _ 
         vbInformation + vbOKOnly, _ 
         "Collection Information" 

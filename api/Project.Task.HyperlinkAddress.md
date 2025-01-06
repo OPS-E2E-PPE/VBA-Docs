@@ -1,15 +1,15 @@
 ---
-title: Task.HyperlinkAddress Property (Project)
-ms.prod: project-server
+title: Task.HyperlinkAddress property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.HyperlinkAddress
 ms.assetid: 0fd6c70e-df9e-1d6e-df65-aa1de2f98b44
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.HyperlinkAddress Property (Project)
+# Task.HyperlinkAddress property (Project)
 
 Gets or sets the URL or UNC path of a document. Read/write **String**.
 

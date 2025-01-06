@@ -3,12 +3,11 @@ title: Initialize event (Visual Basic for Applications)
 keywords: vblr6.chm916308
 f1_keywords:
 - vblr6.chm916308
-ms.prod: office
 api_name:
 - Office.Initialize
 ms.assetid: b6405bb0-21f6-2654-010b-2a14b418c43d
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

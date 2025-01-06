@@ -1,29 +1,29 @@
 ---
-title: ViewsCombination.Parent Property (Project)
-ms.prod: project-server
+title: ViewsCombination.Parent property (Project)
+ms.service: project-server
 api_name:
 - Project.ViewsCombination.Parent
 ms.assetid: adaafd40-7d97-a169-078c-11ef6b22678a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewsCombination.Parent Property (Project)
+# ViewsCombination.Parent property (Project)
 
-Gets the parent of the  **ViewsCombination** object. Read-only **Project**.
+Gets the parent of the **ViewsCombination** object. Read-only **Project**.
 
 
 ## Syntax
 
- _expression_.**Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a 'ViewsCombination' object.
+_expression_ A variable that represents a 'ViewsCombination' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

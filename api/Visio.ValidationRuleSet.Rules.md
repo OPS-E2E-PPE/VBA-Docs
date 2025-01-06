@@ -1,27 +1,26 @@
 ---
-title: ValidationRuleSet.Rules Property (Visio)
+title: ValidationRuleSet.Rules property (Visio)
 keywords: vis_sdr.chm18262645
 f1_keywords:
 - vis_sdr.chm18262645
-ms.prod: visio
 api_name:
 - Visio.ValidationRuleSet.Rules
 ms.assetid: 7890ca86-74b3-1dd6-8322-f3fbde235115
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ValidationRuleSet.Rules Property (Visio)
+# ValidationRuleSet.Rules property (Visio)
 
 Returns the collection of validation rules in the validation rule set. Read-only.
 
 
 ## Syntax
 
- _expression_. `Rules`
+_expression_. `Rules`
 
- _expression_ A variable that represents a '[ValidationRuleSet](Visio.ValidationRuleSet.md)' object.
+_expression_ A variable that represents a **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object.
 
 
 ## Return value
@@ -33,7 +32,7 @@ Returns the collection of validation rules in the validation rule set. Read-only
 
 The following sample code is based on code provided by: [David Parker](https://www.bvisual.net)
 
-The following Visual Basic for Applications (VBA) example shows how to use the  **Rules** property to get the names of all the validation rules in an existing validation rule set named "Fault Tree Analysis" in the active document. The example then prints those names in the **Immediate** window.
+The following Visual Basic for Applications (VBA) example shows how to use the **Rules** property to get the names of all the validation rules in an existing validation rule set named "Fault Tree Analysis" in the active document. The example then prints those names in the Immediate window.
 
 
 

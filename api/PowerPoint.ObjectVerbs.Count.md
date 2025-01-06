@@ -1,24 +1,23 @@
 ---
-title: ObjectVerbs.Count Property (PowerPoint)
-ms.prod: powerpoint
+title: ObjectVerbs.Count property (PowerPoint)
 api_name:
 - PowerPoint.ObjectVerbs.Count
 ms.assetid: 8aabdb50-1e4a-655b-5336-5ae7be5a65b1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ObjectVerbs.Count Property (PowerPoint)
+# ObjectVerbs.Count property (PowerPoint)
 
 Returns the number of objects in the specified collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents an [ObjectVerbs](./PowerPoint.ObjectVerbs.md) object.
+_expression_ A variable that represents an [ObjectVerbs](PowerPoint.ObjectVerbs.md) object.
 
 
 ## Return value

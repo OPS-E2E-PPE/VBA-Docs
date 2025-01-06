@@ -1,27 +1,26 @@
 ---
-title: Toolbar.Visible Property (Visio)
+title: Toolbar.Visible property (Visio)
 keywords: vis_sdr.chm13714650
 f1_keywords:
 - vis_sdr.chm13714650
-ms.prod: visio
 api_name:
 - Visio.Toolbar.Visible
 ms.assetid: f6d0771a-c40f-b11b-1355-50510506b98f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Toolbar.Visible Property (Visio)
+# Toolbar.Visible property (Visio)
 
 Determines whether an object is visible. Read/write.
 
 
 ## Syntax
 
- _expression_.**Visible**
+_expression_.**Visible**
 
- _expression_ A variable that represents a [Toolbar](./Visio.Toolbar.md) object.
+_expression_ A variable that represents a **[Toolbar](Visio.Toolbar.md)** object.
 
 
 ## Return value
@@ -31,9 +30,9 @@ Boolean
 
 ## Example
 
-This example shows how to use the  **Visible** property to determine if a **UIObject** object is visible in the user interface. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **Visible** property to determine if a **UIObject** object is visible in the user interface. The example adds a custom toolbar to the cloned toolbars collection. This toolbar appears in the Microsoft Visio user interface and is available while the document is active.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 
 

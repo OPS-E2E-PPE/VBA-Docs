@@ -1,15 +1,14 @@
 ---
-title: AppointmentItem.CustomPropertyChange Event (Outlook)
-ms.prod: outlook
+title: AppointmentItem.CustomPropertyChange event (Outlook)
 api_name:
 - Outlook.AppointmentItem.CustomPropertyChange
 ms.assetid: f40abc41-efb5-d36e-229b-0b9fbbcf63cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.CustomPropertyChange Event (Outlook)
+# AppointmentItem.CustomPropertyChange event (Outlook)
 
 Occurs when a custom property of an item (which is an instance of the parent object) is changed. 
 
@@ -18,7 +17,7 @@ Occurs when a custom property of an item (which is an instance of the parent obj
 
 _expression_. `CustomPropertyChange`( `_Name_` )
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Parameters
@@ -36,9 +35,9 @@ The property name is passed to the procedure so that you can determine which cus
 
 ## Example
 
-This Microsoft Visual Basic Scripting Edition (VBScript) example uses the  **CustomPropertyChange** event to enable a control when a Boolean field is set to **True**.
+This Microsoft Visual Basic Scripting Edition (VBScript) example uses the **CustomPropertyChange** event to enable a control when a Boolean field is set to **True**.
 
-For this example, create two custom fields on the second page of a form. The first, a  **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
+For this example, create two custom fields on the second page of a form. The first, a **Boolean** field, is named "RespondBy". The second field is named "DateToRespond".
 
 
 

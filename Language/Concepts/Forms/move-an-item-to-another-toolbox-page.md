@@ -3,10 +3,9 @@ title: Move an item to another Toolbox page
 keywords: fm20.chm5225219
 f1_keywords:
 - fm20.chm5225219
-ms.prod: office
 ms.assetid: a60f61e6-202f-5915-4b62-39cda190ecec
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

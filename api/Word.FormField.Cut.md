@@ -3,12 +3,11 @@ title: FormField.Cut method (Word)
 keywords: vbawd10.chm153616486
 f1_keywords:
 - vbawd10.chm153616486
-ms.prod: word
 api_name:
 - Word.FormField.Cut
 ms.assetid: 92b8862d-6463-0bbd-cffd-8e76f5add5b4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Removes the specified form field from the document and places it on the Clipboar
 
 ## Syntax
 
- _expression_. `Cut`
+_expression_.**Cut**
 
- _expression_ Required. A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ Required. A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Example

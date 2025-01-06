@@ -3,12 +3,11 @@ title: Attachment.BackThemeColorIndex property (Access)
 keywords: vbaac10.chm14631
 f1_keywords:
 - vbaac10.chm14631
-ms.prod: access
 api_name:
 - Access.Attachment.BackThemeColorIndex
 ms.assetid: c1f88ca4-825e-4a35-2896-60d982a36819
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

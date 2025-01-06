@@ -3,18 +3,17 @@ title: ComboBox.ListIndex property (Access)
 keywords: vbaac10.chm11444
 f1_keywords:
 - vbaac10.chm11444
-ms.prod: access
 api_name:
 - Access.ComboBox.ListIndex
 ms.assetid: 2165ba25-f129-3378-fb49-ea26ca446e9e
 ms.date: 03/02/2019
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ListIndex property (Access)
 
-You can use the **ListIndex** property to determine which item is selected in a combo box. Read-only **Long**.
+Use the **ListIndex** property to determine which item is selected in a combo box. Read-only **Long**.
 
 
 ## Syntax

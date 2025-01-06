@@ -1,26 +1,26 @@
 ---
-title: Application.TextStylesEx Method (Project)
+title: Application.TextStylesEx method (Project)
 keywords: vbapj.chm901
 f1_keywords:
 - vbapj.chm901
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TextStylesEx
 ms.assetid: 674c16c8-8ba5-604f-494c-3b59017e1207
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TextStylesEx Method (Project)
+# Application.TextStylesEx method (Project)
 
 Sets the text styles for tasks and resources in the active view.
 
 ## Syntax
 
-_expression_. **TextStylesEx** (**_Item_**, **_Font_**, **_Size_**, **_Bold_**, **_Italic_**, **_Underline_**, **_Color_**, **_CellColor_**, **_Pattern_**)
+_expression_.**TextStylesEx** (_Item_, _Font_, _Size_, _Bold_, _Italic_, _Underline_, _Color_, _CellColor_, _Pattern_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_ A variable that represents an **Application** object.
 
 ### If the Gantt Chart is active
 
-|||
+|Gantt Chart Active|Gantt Chart Active Continued|
 |:-----|:-----|
 |**pjAll**|**pjGanttMajorTimescale**|
 |**pjNoncritical**|**pjGanttMinorTimescale**|
@@ -57,7 +57,7 @@ _expression_ A variable that represents an **Application** object.
 
 ### If the Task Usage view is active
 
-|||
+|Task Usage|Task Usage Continued|
 |:-----|:-----|
 |**pjAll**|**pjTaskFilterHighlight**|
 |**pjCritical**|**pjTaskMajorTimescale**|
@@ -71,7 +71,7 @@ _expression_ A variable that represents an **Application** object.
 
 ### If the Task Sheet is active
 
-|||
+|Task Sheet 1|Task Sheet 2|
 |:-----|:-----|
 |**pjAll**|**pjGanttMajorTimescale**|
 |**pjNoncritical**|**pjGanttMinorTimescale**|
@@ -83,7 +83,7 @@ _expression_ A variable that represents an **Application** object.
 |**pjTaskFilterHighlight**|**pjGanttExternalTask**|
 |**pjTaskRowColumnTitles**||
 
-|||
+|Task Sheet 3|Task Sheet 4|
 |:-----|:-----|
 |**pjAll**|**pjTaskFilterHighlight**|
 |**pjCritical**|**pjTaskMajorTimescale**|
@@ -93,7 +93,7 @@ _expression_ A variable that represents an **Application** object.
 |**pjProjectSummary**|**pjTaskUsageExternalTask**|
 |**pjSummary**||
 
-|||
+|Task Sheet 5|Task Sheet 6|
 |:-----|:-----|
 |**pjAll**|**pjProjectSummary**|
 |**pjCritical**|**pjSummary**|
@@ -105,7 +105,7 @@ _expression_ A variable that represents an **Application** object.
 
 ### PjColor constants
 
-|||
+|PjColor|Pj Color Continued|
 |:-----|:-----|
 |**pjColorAutomatic**|**pjNavy**|
 |**pjAqua**|**pjOlive**|

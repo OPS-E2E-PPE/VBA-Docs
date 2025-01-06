@@ -3,30 +3,29 @@ title: Shape.Left property (Word)
 keywords: vbawd10.chm161480815
 f1_keywords:
 - vbawd10.chm161480815
-ms.prod: word
 api_name:
 - Word.Shape.Left
 ms.assetid: 9c14ebc2-70fa-027b-63f0-6e44e60f8eed
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Shape.Left property (Word)
 
-Returns or sets a  **Single** that represents the horizontal position, measured in points, of the specified shape or shape range. Can also be any valid **[WdShapePosition](Word.WdShapePosition.md)** constant. Read/write.
+Returns or sets a **Single** that represents the horizontal position, measured in points, of the specified shape or shape range. Can also be any valid **[WdShapePosition](Word.WdShapePosition.md)** constant. Read/write.
 
 
 ## Syntax
 
- _expression_.**Left**
+_expression_.**Left**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The  **RelativeHorizontalPosition** property controls whether the anchor is positioned alongside a character, column, margin, or the edge of the page.
+The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The **RelativeHorizontalPosition** property controls whether the anchor is positioned alongside a character, column, margin, or the edge of the page.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: ListBox.GridlineTint property (Access)
 keywords: vbaac10.chm14636
 f1_keywords:
 - vbaac10.chm14636
-ms.prod: access
 api_name:
 - Access.ListBox.GridlineTint
 ms.assetid: 409eec01-384c-742c-f1d4-59a54fbaa4d6
 ms.date: 02/14/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

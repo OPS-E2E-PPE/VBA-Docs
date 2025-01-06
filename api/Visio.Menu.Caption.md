@@ -1,27 +1,26 @@
 ---
-title: Menu.Caption Property (Visio)
+title: Menu.Caption property (Visio)
 keywords: vis_sdr.chm13113170
 f1_keywords:
 - vis_sdr.chm13113170
-ms.prod: visio
 api_name:
 - Visio.Menu.Caption
 ms.assetid: e89db3a6-59cc-a87a-dfbd-f8c18e7c4c58
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Menu.Caption Property (Visio)
+# Menu.Caption property (Visio)
 
 Gets or sets the caption for a menu. Read/write.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents a [Menu](./Visio.Menu.md) object.
+_expression_ A variable that represents a **[Menu](Visio.Menu.md)** object.
 
 
 ## Return value
@@ -32,7 +31,8 @@ String
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 
@@ -48,9 +48,9 @@ String
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Caption** property. It adds a menu and menu item to the **Add-ins** tab and sets the menu and menu item's **Caption** properties.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Caption** property. It adds a menu and menu item to the **Add-ins** tab and sets the menu and menu item's **Caption** properties.
 
-To restore the built-in user interface in Microsoft Visio after you run this macro, call the  **ThisDocument.ClearCustomMenus** method.
+To restore the built-in user interface in Microsoft Visio after you run this macro, call the **ThisDocument.ClearCustomMenus** method.
 
 
 

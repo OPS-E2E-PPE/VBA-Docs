@@ -1,15 +1,14 @@
 ---
-title: XlErrorBarDirection Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: XlErrorBarDirection enumeration (PowerPoint)
 api_name:
 - PowerPoint.XlErrorBarDirection
 ms.assetid: dde32437-fc46-0a20-f2b8-1f547ac15bff
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# XlErrorBarDirection Enumeration (PowerPoint)
+# XlErrorBarDirection enumeration (PowerPoint)
 
 Specifies which axis values are to receive error bars.
 

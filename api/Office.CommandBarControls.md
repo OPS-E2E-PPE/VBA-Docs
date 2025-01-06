@@ -3,12 +3,11 @@ title: CommandBarControls object (Office)
 keywords: vbaof11.chm4000
 f1_keywords:
 - vbaof11.chm4000
-ms.prod: office
 api_name:
 - Office.CommandBarControls
 ms.assetid: 7ccae243-2870-95c2-1e08-140a3e638fe6
 ms.date: 01/04/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,15 +29,11 @@ For Each ctl In CommandBars("Standard").Controls
 Next ctl
 ```
 
-<br/>
-
 Use the **Add** method to add a new command bar control to the **CommandBarControls** collection. This example adds a new, blank button to the command bar named **Custom**.
 
 ```vb
 Set myBlankBtn = CommandBars("Custom").Controls.Add
 ```
-
-<br/>
 
 Use **Controls**(_index_), where _index_ is the caption or index number of a control, to return a **CommandBarControl**, **CommandBarButton**, **CommandBarComboBox**, or **CommandBarPopup** object. The following example copies the first control from the command bar named **Standard** to the command bar named **Custom**.
 

@@ -1,20 +1,20 @@
 ---
-title: Application.IsCheckedOut Property (Project)
-ms.prod: project-server
+title: Application.IsCheckedOut property (Project)
+ms.service: project-server
 ms.assetid: 616f9342-9d9b-dd85-873c-3e40abfec019
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.IsCheckedOut Property (Project)
-Gets whether an open project is checked out from Project Web App by the user. Read-only  **Boolean**.
+# Application.IsCheckedOut property (Project)
+Gets whether an open project is checked out from Project Web App by the user. Read-only **Boolean**.
 
 ## Syntax
 
- _expression_. `IsCheckedOut`
+_expression_. `IsCheckedOut`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -27,9 +27,9 @@ Gets whether an open project is checked out from Project Web App by the user. Re
 
 ## Remarks
 
-For a project that is open in Project Professional, the  **IsCheckedOut** property value is **True** if the project is checked out by the current user. If the specified project is not checked out by the current user (that is, the project is open but in a read-only mode), or is checked out by a different user, the **IsCheckedOut** value is **False**.
+For a project that is open in Project Professional, the **IsCheckedOut** property value is **True** if the project is checked out by the current user. If the specified project is not checked out by the current user (that is, the project is open but in a read-only mode), or is checked out by a different user, the **IsCheckedOut** value is **False**.
 
-The  **IsCheckedOut** property returns run-time error 1004, "An unexpected error occurred with the method" in the following cases:
+The **IsCheckedOut** property returns run-time error 1004, "An unexpected error occurred with the method" in the following cases:
 
 
 - The specified project is not open in Project Professional.

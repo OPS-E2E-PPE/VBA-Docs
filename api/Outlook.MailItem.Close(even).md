@@ -1,24 +1,23 @@
 ---
-title: MailItem.Close Event (Outlook)
-ms.prod: outlook
+title: MailItem.Close event (Outlook)
 api_name:
 - Outlook.MailItem.Close
 ms.assetid: 95caf7b5-d139-8b8b-bcd2-874243c4ed50
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Close Event (Outlook)
+# MailItem.Close event (Outlook)
 
 Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.
 
 
 ## Syntax
 
-_expression_. `Close`( `_Cancel_` )
+_expression_.**Close** (_Cancel_)
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters
@@ -27,18 +26,18 @@ _expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) obje
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**|(Not used in VBScript).  **False** when the event occurs. If the event procedure sets this argument to **True** , the close operation is not completed and the inspector is left open.|
+| _Cancel_|Required| **Boolean**|(Not used in VBScript). **False** when the event occurs. If the event procedure sets this argument to **True**, the close operation is not completed and the inspector is left open.|
 
 ## Remarks
 
-In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to  **False** , the close operation isn't completed and the inspector is left open.
+In Microsoft Visual Basic Scripting Edition (VBScript), if you set the return value of this function to **False**, the close operation isn't completed and the inspector is left open.
 
-If you use the  **[Close](Outlook.MailItem.Close(method).md)** method to fire this event, it can only be canceled if the **Close** method uses the **olPromptForSave** argument.
+If you use the **[Close](Outlook.MailItem.Close(method).md)** method to fire this event, it can only be canceled if the **Close** method uses the **olPromptForSave** argument.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example tests for the  **Close** event and if the item has not been **[Saved](Outlook.MailItem.Saved.md)** , it uses the **[Save](Outlook.MailItem.Save.md)** method to save the item without prompting the user.
+This Microsoft Visual Basic for Applications (VBA) example tests for the **Close** event and if the item has not been **[Saved](Outlook.MailItem.Saved.md)**, it uses the **[Save](Outlook.MailItem.Save.md)** method to save the item without prompting the user.
 
 
 ```vb

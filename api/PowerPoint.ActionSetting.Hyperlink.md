@@ -1,27 +1,26 @@
 ---
-title: ActionSetting.Hyperlink Property (PowerPoint)
+title: ActionSetting.Hyperlink property (PowerPoint)
 keywords: vbapp10.chm567008
 f1_keywords:
 - vbapp10.chm567008
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ActionSetting.Hyperlink
 ms.assetid: 8654000a-bbc5-6d23-e5a7-d689bc767b1b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ActionSetting.Hyperlink Property (PowerPoint)
+# ActionSetting.Hyperlink property (PowerPoint)
 
-Returns a  **[Hyperlink](PowerPoint.Hyperlink.md)** object that represents the hyperlink for the specified shape. Read-only.
+Returns a **[Hyperlink](PowerPoint.Hyperlink.md)** object that represents the hyperlink for the specified shape. Read-only.
 
 
 ## Syntax
 
- _expression_.**Hyperlink**
+_expression_.**Hyperlink**
 
-_expression_ A variable that represents a [ActionSetting](./PowerPoint.ActionSetting.md) object.
+_expression_ A variable that represents an **[ActionSetting](PowerPoint.ActionSetting.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Hyperlink
 
 ## Remarks
 
-For the hyperlink to be active during a slide show, the  **[Action](PowerPoint.ActionSetting.Action.md)** property must be set to **ppActionHyperlink**.
+For the hyperlink to be active during a slide show, the **[Action](PowerPoint.ActionSetting.Action.md)** property must be set to **ppActionHyperlink**.
 
 
 ## Example
@@ -48,9 +47,6 @@ End With
 ```
 
 
-## See also
 
-
-[ActionSetting Object](PowerPoint.ActionSetting.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

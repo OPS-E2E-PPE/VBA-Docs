@@ -1,22 +1,21 @@
 ---
-title: PbWizardPageType Enumeration (Publisher)
+title: PbWizardPageType enumeration (Publisher)
 keywords: vbapb10.chm65603
 f1_keywords:
 - vbapb10.chm65603
-ms.prod: publisher
 api_name:
 - Publisher.PbWizardPageType
 ms.assetid: 8b34efb9-0091-e30f-9bb9-02310edccbb6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbWizardPageType Enumeration (Publisher)
+# PbWizardPageType enumeration (Publisher)
 
 The type of wizard page to add.
 
-
+<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

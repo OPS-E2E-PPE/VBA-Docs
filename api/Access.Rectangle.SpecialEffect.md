@@ -3,18 +3,17 @@ title: Rectangle.SpecialEffect property (Access)
 keywords: vbaac10.chm10289
 f1_keywords:
 - vbaac10.chm10289
-ms.prod: access
 api_name:
 - Access.Rectangle.SpecialEffect
 ms.assetid: c46e207a-123b-7ec2-b21c-99c6d507aee7
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Rectangle.SpecialEffect property (Access)
 
-You can use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
+Use the **SpecialEffect** property to specify whether special formatting will apply to the specified object. Read/write **Byte**.
 
 
 ## Syntax

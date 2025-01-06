@@ -3,12 +3,11 @@ title: OptionButton.BottomPadding property (Access)
 keywords: vbaac10.chm10644
 f1_keywords:
 - vbaac10.chm10644
-ms.prod: access
 api_name:
 - Access.OptionButton.BottomPadding
 ms.assetid: 4813c3b0-03c2-9f43-bb1c-e28d7eff542b
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

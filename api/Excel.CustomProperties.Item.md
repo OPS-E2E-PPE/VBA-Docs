@@ -3,12 +3,11 @@ title: CustomProperties.Item property (Excel)
 keywords: vbaxl10.chm680076
 f1_keywords:
 - vbaxl10.chm680076
-ms.prod: excel
 api_name:
 - Excel.CustomProperties.Item
 ms.assetid: f2b9890b-2a25-e192-323b-dca72b461229
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/23/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [CustomProperties](Excel.CustomProperties.md) object.
+_expression_ A variable that represents a **[CustomProperties](Excel.CustomProperties.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,7 +32,6 @@ _expression_ A variable that represents a [CustomProperties](Excel.CustomPropert
 ## Example
 
 The following example demonstrates this feature. In this example, Microsoft Excel adds identifier information to the active worksheet and returns the name and value to the user.
-
 
 ```vb
 Sub CheckCustomProperties() 
@@ -57,9 +53,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[CustomProperties Object](Excel.CustomProperties.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

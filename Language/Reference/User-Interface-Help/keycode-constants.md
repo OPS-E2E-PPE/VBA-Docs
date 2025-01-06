@@ -3,18 +3,15 @@ title: Keycode constants
 keywords: vblr6.chm1106124
 f1_keywords:
 - vblr6.chm1106124
-ms.prod: office
 ms.assetid: 9014afdc-a5ab-8f25-529f-45c9adf27eef
 ms.date: 12/11/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Keycode constants
 
 The following [constants](../../Glossary/vbe-glossary.md#constant) can be used anywhere in your code in place of the actual values.
-
-<br/>
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -50,7 +47,7 @@ The following [constants](../../Glossary/vbe-glossary.md#constant) can be used a
 |**vbKeyHelp**|0x2F|HELP key|
 |**vbKeyNumlock**|0x90|NUM LOCK key|
 
-<br/>
+## A key - Z key
 
 The A key through the Z key are the same as the ASCII equivalents A&ndash;Z.
 
@@ -83,7 +80,7 @@ The A key through the Z key are the same as the ASCII equivalents A&ndash;Z.
 |**vbKeyY**|89|Y key|
 |**vbKeyZ**|90|Z key|
 
-<br/>
+## 0 key - 9 key
 
 The 0 key through 9 key are the same as their ASCII equivalents 0&ndash;9.
 
@@ -100,7 +97,7 @@ The 0 key through 9 key are the same as their ASCII equivalents 0&ndash;9.
 |**vbKey8**|56|8 key|
 |**vbKey9**|57|9 key|
 
-<br/>
+## Numeric keypad keys
 
 The following constants represent keys on the numeric keypad.
 
@@ -123,7 +120,7 @@ The following constants represent keys on the numeric keypad.
 |**vbKeyDecimal**|0x6E|DECIMAL POINT (**.**) key|
 |**vbKeyDivide**|0x6F|DIVISION SIGN (**/**) key|
 
-<br/>
+## Function keys
 
 The following constants represent function keys.
 

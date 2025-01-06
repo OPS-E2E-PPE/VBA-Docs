@@ -1,18 +1,17 @@
 ---
-title: OlRemoteStatus Enumeration (Outlook)
+title: OlRemoteStatus enumeration (Outlook)
 keywords: vbaol11.chm3078
 f1_keywords:
 - vbaol11.chm3078
-ms.prod: outlook
 api_name:
 - Outlook.OlRemoteStatus
 ms.assetid: 2df0404c-26c9-87d4-6916-d75aff8e3fbc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlRemoteStatus Enumeration (Outlook)
+# OlRemoteStatus enumeration (Outlook)
 
 Indicates the status of an item after it is received by a remote user.
 
@@ -28,6 +27,6 @@ Indicates the status of an item after it is received by a remote user.
 
 ## Remarks
 
-See  **MarkForDownLoad** property.
+See **MarkForDownLoad** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

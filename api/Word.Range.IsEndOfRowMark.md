@@ -3,12 +3,11 @@ title: Range.IsEndOfRowMark property (Word)
 keywords: vbawd10.chm157155635
 f1_keywords:
 - vbawd10.chm157155635
-ms.prod: word
 api_name:
 - Word.Range.IsEndOfRowMark
 ms.assetid: 0b1a7638-75ea-fb03-3a52-8bc759794408
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IsEndOfRowMark`
+_expression_. `IsEndOfRowMark`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

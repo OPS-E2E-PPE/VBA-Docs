@@ -3,20 +3,17 @@ title: AcLayoutType enumeration (Access)
 keywords: vbaac10.chm14040
 f1_keywords:
 - vbaac10.chm14040
-ms.prod: access
 api_name:
 - Access.AcLayoutType
 ms.assetid: ee963ed0-9293-8ad8-5694-4b93a5e4d89a
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcLayoutType enumeration (Access)
 
 Specifies the type of layout that the control is part of.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

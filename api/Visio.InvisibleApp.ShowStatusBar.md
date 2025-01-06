@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.ShowStatusBar Property (Visio)
+title: InvisibleApp.ShowStatusBar property (Visio)
 keywords: vis_sdr.chm17514380
 f1_keywords:
 - vis_sdr.chm17514380
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.ShowStatusBar
 ms.assetid: e58097a2-a5e9-00ca-c3b3-74a3d7717907
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.ShowStatusBar Property (Visio)
+# InvisibleApp.ShowStatusBar property (Visio)
 
 Determines whether the status bar is shown. Read/write. 
 
 
 ## Syntax
 
- _expression_. `ShowStatusBar`
+_expression_.**ShowStatusBar**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Integer
 
 ## Remarks
 
-The  **ShowStatusBar** property persists each time you run the application. The **ShowToolbar** property is valid for a Microsoft Visio instance only.
+The **ShowStatusBar** property persists each time you run the application. The **ShowToolbar** property is valid for a Microsoft Visio instance only.
 
 
 ## Example

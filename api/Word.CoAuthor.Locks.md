@@ -3,12 +3,11 @@ title: CoAuthor.Locks property (Word)
 keywords: vbawd10.chm81068036
 f1_keywords:
 - vbawd10.chm81068036
-ms.prod: word
 api_name:
 - Word.CoAuthor.Locks
 ms.assetid: 9f502e4e-2414-0232-78d0-5ce64d4297f0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ Returns a [CoAuthLocks](Word.CoAuthLocks.md) collection that represents the lock
 
 ## Syntax
 
- _expression_. `Locks`
+_expression_. `Locks`
 
  _expression_ An expression that returns a [CoAuthor](./Word.CoAuthor.md) object.
 

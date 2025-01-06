@@ -1,15 +1,15 @@
 ---
-title: PjCostRateTable Enumeration (Project)
-ms.prod: project-server
+title: PjCostRateTable enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjCostRateTable
 ms.assetid: fa3c2db8-776b-2834-2f1e-92e8464d25e3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjCostRateTable Enumeration (Project)
+# PjCostRateTable enumeration (Project)
 
 Contains constants that specify one of the five resource cost rate tables.
 

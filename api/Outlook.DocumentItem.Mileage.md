@@ -1,27 +1,26 @@
 ---
-title: DocumentItem.Mileage Property (Outlook)
+title: DocumentItem.Mileage property (Outlook)
 keywords: vbaol11.chm1199
 f1_keywords:
 - vbaol11.chm1199
-ms.prod: outlook
 api_name:
 - Outlook.DocumentItem.Mileage
 ms.assetid: d8c24cd6-2c1d-1785-5403-b3230227a439
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# DocumentItem.Mileage Property (Outlook)
+# DocumentItem.Mileage property (Outlook)
 
-Returns or sets a  **String** representing the mileage for an item. Read/write.
+Returns or sets a **String** representing the mileage for an item. Read/write.
 
 
 ## Syntax
 
 _expression_. `Mileage`
 
-_expression_ A variable that represents a [DocumentItem](./Outlook.DocumentItem.md) object.
+_expression_ A variable that represents a [DocumentItem](Outlook.DocumentItem.md) object.
 
 
 ## Remarks

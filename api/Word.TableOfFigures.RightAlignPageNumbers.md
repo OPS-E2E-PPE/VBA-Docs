@@ -3,12 +3,11 @@ title: TableOfFigures.RightAlignPageNumbers property (Word)
 keywords: vbawd10.chm153157635
 f1_keywords:
 - vbawd10.chm153157635
-ms.prod: word
 api_name:
 - Word.TableOfFigures.RightAlignPageNumbers
 ms.assetid: 0c9388b6-d6d7-9d41-547d-35d1345c1d38
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `RightAlignPageNumbers`
+_expression_. `RightAlignPageNumbers`
 
- _expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
+_expression_ Required. A variable that represents a '[TableOfFigures](Word.TableOfFigures.md)' collection.
 
 
 ## Example

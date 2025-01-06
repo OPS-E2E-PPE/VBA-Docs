@@ -3,12 +3,11 @@ title: AutoCorrect.CorrectTableCells property (Word)
 keywords: vbawd10.chm155779091
 f1_keywords:
 - vbawd10.chm155779091
-ms.prod: word
 api_name:
 - Word.AutoCorrect.CorrectTableCells
 ms.assetid: 8bb5dfdd-9c54-b49e-609f-18b4d8b556ee
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CorrectTableCells`
+_expression_. `CorrectTableCells`
 
  _expression_ An expression that returns an '[AutoCorrect](Word.AutoCorrect.md)' object.
 

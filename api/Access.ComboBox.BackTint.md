@@ -3,12 +3,11 @@ title: ComboBox.BackTint property (Access)
 keywords: vbaac10.chm14632
 f1_keywords:
 - vbaac10.chm14632
-ms.prod: access
 api_name:
 - Access.ComboBox.BackTint
 ms.assetid: 37f48215-abce-1628-7efc-ace0d4761873
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

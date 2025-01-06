@@ -1,27 +1,26 @@
 ---
-title: ShapeRange.Select Method (PowerPoint)
+title: ShapeRange.Select method (PowerPoint)
 keywords: vbapp10.chm548052
 f1_keywords:
 - vbapp10.chm548052
-ms.prod: powerpoint
 api_name:
 - PowerPoint.ShapeRange.Select
 ms.assetid: 475f035e-a266-c263-eb62-542c51bb4087
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Select Method (PowerPoint)
+# ShapeRange.Select method (PowerPoint)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. `Select`( `_Replace_` )
+_expression_.**Select** (_Replace_)
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Parameters

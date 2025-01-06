@@ -3,18 +3,17 @@ title: ComboBox.Top property (Access)
 keywords: vbaac10.chm11402
 f1_keywords:
 - vbaac10.chm11402
-ms.prod: access
 api_name:
 - Access.ComboBox.Top
 ms.assetid: 17e9ca79-0b35-0c50-09f5-bbbc36482081
 ms.date: 02/26/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.Top property (Access)
 
-You can use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
+Use the **Top** property to specify an object's location on a form or report. Read/write **Integer**. 
 
 
 ## Syntax

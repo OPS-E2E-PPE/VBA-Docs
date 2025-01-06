@@ -3,12 +3,11 @@ title: FileDialogSelectedItems.Count property (Office)
 keywords: vbaof11.chm253002
 f1_keywords:
 - vbaof11.chm253002
-ms.prod: office
 api_name:
 - Office.FileDialogSelectedItems.Count
 ms.assetid: c571c03e-02de-f0a3-0e3f-1fdf9f0d221c
 ms.date: 01/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -64,9 +63,9 @@ Sub Main()
  For cnt = 0 To .SelectedItems.Count - 1 
  
  'vrtSelectedItem is aString that contains the path of each selected item. 
- 'You can use any file I/O functions that you want to work with this path. 
+ 'Use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem(cnt) 
+ MsgBox "Selected item's path: " & vrtSelectedItem(cnt) 
  
  Next 
  'The user pressed Cancel. 

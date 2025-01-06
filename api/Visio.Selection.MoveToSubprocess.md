@@ -1,27 +1,26 @@
 ---
-title: Selection.MoveToSubprocess Method (Visio)
+title: Selection.MoveToSubprocess method (Visio)
 keywords: vis_sdr.chm11162210
 f1_keywords:
 - vis_sdr.chm11162210
-ms.prod: visio
 api_name:
 - Visio.Selection.MoveToSubprocess
 ms.assetid: a61f1e93-06a3-6ddc-8cae-f92212078c96
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.MoveToSubprocess Method (Visio)
+# Selection.MoveToSubprocess method (Visio)
 
 Moves the selection to the specified page, and drops a replacement shape on the source page and links it to the target page. Returns the selection of moved shapes on the target page.
 
 
 ## Syntax
 
- _expression_. `MoveToSubprocess`( `_Page_` , `_ObjectToDrop_` , `_NewShape_` )
+_expression_. `MoveToSubprocess`( `_Page_` , `_ObjectToDrop_` , `_NewShape_` )
 
- _expression_ A variable that represents a '[Selection](Visio.Selection.md)' object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters

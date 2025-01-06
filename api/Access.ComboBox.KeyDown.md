@@ -3,12 +3,11 @@ title: ComboBox.KeyDown event (Access)
 keywords: vbaac10.chm14224
 f1_keywords:
 - vbaac10.chm14224
-ms.prod: access
 api_name:
 - Access.ComboBox.KeyDown
 ms.assetid: 948985ea-6a7b-ec42-1f09-1ac900962136
 ms.date: 02/10/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -82,9 +81,9 @@ Private Sub KeyHandler_KeyDown(KeyCode As Integer, _
     intAltDown = (Shift And acAltMask) > 0 
     intCtrlDown = (Shift And acCtrlMask) > 0 
     ' Display message telling user which key was pressed. 
-    If intShiftDown Then MsgBox "You pressed the SHIFT key." 
-    If intAltDown Then MsgBox "You pressed the ALT key." 
-    If intCtrlDown Then MsgBox "You pressed the CTRL key." 
+    If intShiftDown Then MsgBox "You pressed the Shift key." 
+    If intAltDown Then MsgBox "You pressed the Alt key." 
+    If intCtrlDown Then MsgBox "You pressed the Ctrl key." 
 End Sub
 ```
 

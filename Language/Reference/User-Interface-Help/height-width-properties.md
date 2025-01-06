@@ -3,10 +3,9 @@ title: Height, Width properties
 keywords: fm20.chm916664
 f1_keywords:
 - fm20.chm916664
-ms.prod: office
 ms.assetid: b8fc82f0-c08f-c04a-58b7-062d8767e147
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

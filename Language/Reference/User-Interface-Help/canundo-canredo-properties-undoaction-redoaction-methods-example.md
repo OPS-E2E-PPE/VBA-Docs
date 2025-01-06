@@ -3,10 +3,9 @@ title: CanUndo, CanRedo properties, UndoAction, RedoAction methods example
 keywords: fm20.chm5225169
 f1_keywords:
 - fm20.chm5225169
-ms.prod: office
 ms.assetid: 4c32245c-e209-9343-8351-9fc709b31e66
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

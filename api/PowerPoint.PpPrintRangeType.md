@@ -1,15 +1,14 @@
 ---
-title: PpPrintRangeType Enumeration (PowerPoint)
-ms.prod: powerpoint
+title: PpPrintRangeType enumeration (PowerPoint)
 api_name:
 - PowerPoint.PpPrintRangeType
 ms.assetid: 8dca3a7a-f9ce-f39f-e565-eac07b3b103a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PpPrintRangeType Enumeration (PowerPoint)
+# PpPrintRangeType enumeration (PowerPoint)
 
 Specifies the type of print range for the presentation.
 

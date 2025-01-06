@@ -3,25 +3,24 @@ title: LineFormat.BeginArrowheadStyle property (Word)
 keywords: vbawd10.chm164233318
 f1_keywords:
 - vbawd10.chm164233318
-ms.prod: word
 api_name:
 - Word.LineFormat.BeginArrowheadStyle
 ms.assetid: 16aa1b91-5126-bbe5-be7d-ce26245f50a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LineFormat.BeginArrowheadStyle property (Word)
 
-Returns or sets the style of the arrowhead at the beginning of the specified line. Read/write  **MsoArrowheadStyle**.
+Returns or sets the style of the arrowhead at the beginning of the specified line. Read/write **MsoArrowheadStyle**.
 
 
 ## Syntax
 
- _expression_. `BeginArrowheadStyle`
+_expression_.**BeginArrowheadStyle**
 
- _expression_ Required. A variable that represents a '[LineFormat](Word.LineFormat.md)' object.
+_expression_ Required. A variable that represents a **[LineFormat](Word.LineFormat.md)** object.
 
 
 ## Example

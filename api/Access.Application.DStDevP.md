@@ -3,12 +3,11 @@ title: Application.DStDevP method (Access)
 keywords: vbaac10.chm12534
 f1_keywords:
 - vbaac10.chm12534
-ms.prod: access
 api_name:
 - Access.Application.DStDevP
 ms.assetid: ca5fb7ad-d91e-1222-e99a-8c55f34482f3
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -41,12 +40,12 @@ Variant
 
 If _domain_ refers to fewer than two records, or if fewer than two records satisfy _criteria_, the **DStDevP** function returns a **Null**, indicating that a standard deviation can't be calculated.
 
-You can use the **DStDevP** function to specify criteria in the **Criteria** row of a select query. For example, you could create a query on an Orders table and a Products table to display all products for which the freight cost fell above the mean plus the standard deviation for freight cost.
+Use the **DStDevP** function to specify criteria in the **Criteria** row of a select query. For example, you could create a query on an Orders table and a Products table to display all products for which the freight cost fell above the mean plus the standard deviation for freight cost.
 
-You can use the **DStDevP** function in a calculated field expression of a query, or in the **Update To** row of an update query.
+Use the **DStDevP** function in a calculated field expression of a query, or in the **Update To** row of an update query.
 
 > [!NOTE] 
-> You can use the **DStDev** and **DStDevP** functions or the **StDev** and **StDevP** functions in a calculated field expression of a totals query. If you use the **DStDev** or **DStDevP** function, values are calculated before data is grouped. If you use the **StDev** or **StDevP** function, the data is grouped before values in the field expression are evaluated.
+> Use the **DStDev** and **DStDevP** functions or the **StDev** and **StDevP** functions in a calculated field expression of a totals query. If you use the **DStDev** or **DStDevP** function, values are calculated before data is grouped. If you use the **StDev** or **StDevP** function, the data is grouped before values in the field expression are evaluated.
 
 Use the **DStDev** function in a calculated control when you need to specify criteria to restrict the range of data on which the function is performed.
 
@@ -70,8 +69,6 @@ dblX = DStDev("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 dblY = DStDevP("[Freight]", "Orders", "[ShipCountry] = 'UK'")
 ```
 
-<br/>
-
 The next example calculates the same estimates by using the variable `strCountry` in the _criteria_ argument. Note that single quotation marks (') are included in the string expression, so that when the strings are concatenated, the string literal `UK` will be enclosed in single quotation marks.
 
 ```vb
@@ -87,8 +84,6 @@ dblX = DStDev("[Freight]", "Orders", _
 dblY = DStDevP("[Freight]", "Orders", _ 
     "[ShipCountry] = '" & strCountry & "'")
 ```
-
-<br/>
 
 The following examples show how to use various types of criteria with the **DStDevP** function.
 

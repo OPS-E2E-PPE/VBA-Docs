@@ -3,25 +3,24 @@ title: MailMerge.MainDocumentType property (Word)
 keywords: vbawd10.chm153092097
 f1_keywords:
 - vbawd10.chm153092097
-ms.prod: word
 api_name:
 - Word.MailMerge.MainDocumentType
 ms.assetid: 6275d472-b513-1879-e48a-326f21d6321d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMerge.MainDocumentType property (Word)
 
-Returns or sets the mail merge main document type. Read/write  **WdMailMergeMainDocType**.
+Returns or sets the mail merge main document type. Read/write **WdMailMergeMainDocType**.
 
 
 ## Syntax
 
- _expression_. `MainDocumentType`
+_expression_. `MainDocumentType`
 
- _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
+_expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
 ## Example

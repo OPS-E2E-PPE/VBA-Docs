@@ -3,12 +3,11 @@ title: Options.PrintDraft property (Word)
 keywords: vbawd10.chm162988319
 f1_keywords:
 - vbawd10.chm162988319
-ms.prod: word
 api_name:
 - Word.Options.PrintDraft
 ms.assetid: 23be1e0a-784b-5b0f-107c-78e200e31159
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintDraft`
+_expression_. `PrintDraft`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +38,7 @@ Options.PrintDraft = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Draft output** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Draft output** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

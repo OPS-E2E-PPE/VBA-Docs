@@ -3,12 +3,11 @@ title: ComboBox.EventProcPrefix property (Access)
 keywords: vbaac10.chm11371
 f1_keywords:
 - vbaac10.chm11371
-ms.prod: access
 api_name:
 - Access.ComboBox.EventProcPrefix
 ms.assetid: 79af6ac6-8876-ff72-16a8-5ec81ab6a0f8
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -1,20 +1,20 @@
 ---
-title: Reports.Copy Method (Project)
-ms.prod: project-server
+title: Reports.Copy method (Project)
+ms.service: project-server
 ms.assetid: fd930e98-4200-05e0-67e3-f4d34ae26928
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reports.Copy Method (Project)
+# Reports.Copy method (Project)
 Copies a custom report and creates a new report with the same content.
 
 ## Syntax
 
- _expression_. `Copy` _(Source,_ _NewName)_
+_expression_.**Copy** (_Source_, _NewName_)
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Parameters
@@ -23,10 +23,10 @@ Copies a custom report and creates a new report with the same content.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Source_|Required|**Variant**|Name or  **Report** object of the report to copy.|
+| _Source_|Required|**Variant**|Name or **Report** object of the report to copy.|
 | _NewName_|Required|**String**|Name of the new report.|
-| _Source_|Required|VARIANT||
-| _NewName_|Required|STRING||
+| _Source_|Required|**Variant**||
+| _NewName_|Required|**String**||
 
 ## Return value
 
@@ -37,7 +37,7 @@ The new report.
 
 ## Example
 
-The  **CopyAReport** macro checks whether the specified report to copy exists, and checks whether the new report already exists. The macro then uses one of the variants of the _Source_ parameter to create a copy of the report, and then displays the new report.
+The **CopyAReport** macro checks whether the specified report to copy exists, and checks whether the new report already exists. The macro then uses one of the variants of the _Source_ parameter to create a copy of the report, and then displays the new report.
 
 
 ```vb
@@ -59,7 +59,7 @@ Sub CopyAReport()
     If oldExists And Not newExists Then
         Set report2Copy = ActiveProject.Reports(reportName)
         
-        ' You can use either of the following two statements.
+        ' Use either of the following two statements.
         'Set newReport = ActiveProject.Reports.Copy(report2Copy, newReportName)
         Set newReport = ActiveProject.Reports.Copy(reportName, newReportName)
        

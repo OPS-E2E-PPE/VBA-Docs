@@ -3,12 +3,11 @@ title: Rows.SetLeftIndent method (Word)
 keywords: vbawd10.chm155975882
 f1_keywords:
 - vbawd10.chm155975882
-ms.prod: word
 api_name:
 - Word.Rows.SetLeftIndent
 ms.assetid: 4ce8093a-dcb9-4d2c-e841-176818d991b8
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the indentation for a row or rows in a table.
 
 ## Syntax
 
- _expression_. `SetLeftIndent`( `_LeftIndent_` , `_RulerStyle_` )
+_expression_. `SetLeftIndent`( `_LeftIndent_` , `_RulerStyle_` )
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Parameters
@@ -31,7 +30,7 @@ Sets the indentation for a row or rows in a table.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _LeftIndent_|Required| **Single**|The distance (in points) between the current left edge of the specified row or rows and the desired left edge.|
-| _RulerStyle_|Required| **WdRulerStyle**|Controls the way Microsoft Word adjusts the table when the left indent is changed. The  **WdRulerStyle** behavior applies to left-aligned tables. The **WdRulerStyle** behavior for center- and right-aligned tables can be unexpected; in these cases, use the **SetLeftIndent** method with care.|
+| _RulerStyle_|Required| **WdRulerStyle**|Controls the way Microsoft Word adjusts the table when the left indent is changed. The **WdRulerStyle** behavior applies to left-aligned tables. The **WdRulerStyle** behavior for center- and right-aligned tables can be unexpected; in these cases, use the **SetLeftIndent** method with care.|
 
 ## Example
 

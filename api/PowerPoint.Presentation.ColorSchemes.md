@@ -1,27 +1,26 @@
 ---
-title: Presentation.ColorSchemes Property (PowerPoint)
+title: Presentation.ColorSchemes property (PowerPoint)
 keywords: vbapp10.chm583013
 f1_keywords:
 - vbapp10.chm583013
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.ColorSchemes
 ms.assetid: 4782ee52-3bdd-4459-56da-609a92816692
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.ColorSchemes Property (PowerPoint)
+# Presentation.ColorSchemes property (PowerPoint)
 
-Returns a  **[ColorSchemes](PowerPoint.ColorSchemes.md)** collection that represents the color schemes in the specified presentation. Read-only.
+Returns a **[ColorSchemes](PowerPoint.ColorSchemes.md)** collection that represents the color schemes in the specified presentation. Read-only.
 
 
 ## Syntax
 
- _expression_. `ColorSchemes`
+_expression_. `ColorSchemes`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

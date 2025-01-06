@@ -1,27 +1,26 @@
 ---
-title: MailItem.Close Method (Outlook)
+title: MailItem.Close method (Outlook)
 keywords: vbaol11.chm1320
 f1_keywords:
 - vbaol11.chm1320
-ms.prod: outlook
 api_name:
 - Outlook.MailItem.Close
 ms.assetid: 00a8a4e8-9bdc-d1bc-cb61-c6d925fb754f
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# MailItem.Close Method (Outlook)
+# MailItem.Close method (Outlook)
 
 Closes and optionally saves changes to the Outlook item.
 
 
 ## Syntax
 
-_expression_. `Close`( `_SaveMode_` )
+_expression_.**Close** (_SaveMode_)
 
-_expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Parameters

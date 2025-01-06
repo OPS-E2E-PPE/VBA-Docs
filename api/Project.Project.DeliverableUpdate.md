@@ -1,24 +1,24 @@
 ---
-title: Project.DeliverableUpdate Method (Project)
-ms.prod: project-server
+title: Project.DeliverableUpdate method (Project)
+ms.service: project-server
 api_name:
 - Project.Project.DeliverableUpdate
 ms.assetid: 665e79a0-b3b4-e36e-6369-627e526f7db0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.DeliverableUpdate Method (Project)
+# Project.DeliverableUpdate method (Project)
 
 Updates the properties of a deliverable.
 
 
 ## Syntax
 
- _expression_. `DeliverableUpdate`( `_DeliverableGuid_`, `_DeliverableName_`, `_DeliverableStartDate_`, `_DeliverableFinishDate_` )
+_expression_. `DeliverableUpdate`( `_DeliverableGuid_`, `_DeliverableName_`, `_DeliverableStartDate_`, `_DeliverableFinishDate_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters

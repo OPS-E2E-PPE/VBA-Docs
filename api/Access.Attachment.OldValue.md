@@ -3,18 +3,17 @@ title: Attachment.OldValue property (Access)
 keywords: vbaac10.chm13905
 f1_keywords:
 - vbaac10.chm13905
-ms.prod: access
 api_name:
 - Access.Attachment.OldValue
 ms.assetid: f3c20114-fc68-98ab-03de-0e023aacaaf1
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.OldValue property (Access)
 
-You can use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
+Use the **OldValue** property to determine the unedited value of a bound control. Read-only **Variant**.
 
 
 ## Syntax

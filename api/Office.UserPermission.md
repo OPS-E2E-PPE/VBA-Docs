@@ -3,12 +3,11 @@ title: UserPermission object (Office)
 keywords: vbaof11.chm260000
 f1_keywords:
 - vbaof11.chm260000
-ms.prod: office
 api_name:
 - Office.UserPermission
 ms.assetid: 24378204-2fdd-47ba-2080-fbc409955325
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -36,9 +35,9 @@ The following example determines whether the active document has restricted perm
  Set irmPermission = ActiveWorkbook.Permission 
  If irmPermission.Enabled Then 
  For Each irmUserPerm In irmPermission 
- strIRMInfo = strIRMInfo &amp; irmUserPerm.UserId &amp; vbCrLf &amp; _ 
- " - Permissions: " &amp; irmUserPerm.Permission &amp; vbCrLf &amp; _ 
- " - Expiration Date: " &amp; irmUserPerm.ExpirationDate &amp; vbCrLf 
+ strIRMInfo = strIRMInfo & irmUserPerm.UserId & vbCrLf & _ 
+ " - Permissions: " & irmUserPerm.Permission & vbCrLf & _ 
+ " - Expiration Date: " & irmUserPerm.ExpirationDate & vbCrLf 
  Next 
  MsgBox strIRMInfo, _ 
  vbInformation + vbOKOnly, "IRM Information" 

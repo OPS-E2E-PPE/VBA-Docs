@@ -3,25 +3,24 @@ title: LineFormat.BeginArrowheadWidth property (Word)
 keywords: vbawd10.chm164233319
 f1_keywords:
 - vbawd10.chm164233319
-ms.prod: word
 api_name:
 - Word.LineFormat.BeginArrowheadWidth
 ms.assetid: f15fdfd3-dd6c-a47e-8fad-ee8367c72341
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # LineFormat.BeginArrowheadWidth property (Word)
 
-Returns or sets the width of the arrowhead at the beginning of the specified line. Read/write  **MsoArrowheadWidth**.
+Returns or sets the width of the arrowhead at the beginning of the specified line. Read/write **MsoArrowheadWidth**.
 
 
 ## Syntax
 
- _expression_. `BeginArrowheadWidth`
+_expression_.**BeginArrowheadWidth**
 
- _expression_ Required. A variable that represents a '[LineFormat](Word.LineFormat.md)' object.
+_expression_ Required. A variable that represents a **[LineFormat](Word.LineFormat.md)** object.
 
 
 ## Example

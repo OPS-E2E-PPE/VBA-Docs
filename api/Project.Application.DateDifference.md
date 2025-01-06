@@ -1,27 +1,27 @@
 ---
-title: Application.DateDifference Method (Project)
+title: Application.DateDifference method (Project)
 keywords: vbapj.chm131207
 f1_keywords:
 - vbapj.chm131207
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.DateDifference
 ms.assetid: 7f34e866-5cd3-971d-42ee-39e7768c1273
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DateDifference Method (Project)
+# Application.DateDifference method (Project)
 
 Returns the duration between two dates in minutes, for an automatically scheduled task.
 
 
 ## Syntax
 
- _expression_. `DateDifference`( `_StartDate_`, `_FinishDate_`, `_Calendar_` )
+_expression_. `DateDifference`( `_StartDate_`, `_FinishDate_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ Returns the duration between two dates in minutes, for an automatically schedule
 
 ## Remarks
 
-To get a difference between two dates for a manually scheduled task, which uses an effective calendar that can include non-working time, use the  **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** property.
+To get a difference between two dates for a manually scheduled task, which uses an effective calendar that can include non-working time, use the **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** property.
 
 
 ## Example

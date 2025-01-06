@@ -3,12 +3,11 @@ title: SeriesLines.Select method (Excel)
 keywords: vbaxl10.chm598075
 f1_keywords:
 - vbaxl10.chm598075
-ms.prod: excel
 api_name:
 - Excel.SeriesLines.Select
 ms.assetid: 006ff5c4-6f82-2fc7-1349-5a3a737b8ed3
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/14/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Selects the object.
 
 ## Syntax
 
-_expression_. `Select`
+_expression_.**Select**
 
-_expression_ A variable that represents a [SeriesLines](./Excel.SeriesLines-graph-property.md) object.
+_expression_ A variable that represents a **[SeriesLines](Excel.SeriesLines(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,6 @@ _expression_ A variable that represents a [SeriesLines](./Excel.SeriesLines-grap
 Variant
 
 
-## See also
 
-
-[SeriesLines Object](Excel.SeriesLines(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

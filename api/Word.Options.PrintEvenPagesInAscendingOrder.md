@@ -3,12 +3,11 @@ title: Options.PrintEvenPagesInAscendingOrder property (Word)
 keywords: vbawd10.chm162988363
 f1_keywords:
 - vbawd10.chm162988363
-ms.prod: word
 api_name:
 - Word.Options.PrintEvenPagesInAscendingOrder
 ms.assetid: 355f973c-d60f-5953-8b0d-0b8c5798dce1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `PrintEvenPagesInAscendingOrder`
+_expression_. `PrintEvenPagesInAscendingOrder`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-If the ManualDuplexPrint argument of the  **[PrintOut](Word.Application.PrintOut.md)** method is **False** , this property is ignored.
+If the ManualDuplexPrint argument of the **[PrintOut](Word.Application.PrintOut.md)** method is **False**, this property is ignored.
 
 
 ## Example

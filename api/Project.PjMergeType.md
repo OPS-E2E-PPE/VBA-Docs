@@ -1,15 +1,15 @@
 ---
-title: PjMergeType Enumeration (Project)
-ms.prod: project-server
+title: PjMergeType enumeration (Project)
+ms.service: project-server
 api_name:
 - Project.PjMergeType
 ms.assetid: 040c6814-1631-40c6-6444-1ad7e9405082
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PjMergeType Enumeration (Project)
+# PjMergeType enumeration (Project)
 
 Contains constants that specify how to merge data.
 

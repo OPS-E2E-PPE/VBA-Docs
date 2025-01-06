@@ -3,12 +3,11 @@ title: Document.ConvertVietDoc method (Word)
 keywords: vbawd10.chm158007743
 f1_keywords:
 - vbawd10.chm158007743
-ms.prod: word
 api_name:
 - Word.Document.ConvertVietDoc
 ms.assetid: d03f0ad4-0e40-45a7-5189-1cbfa7328b2c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Reconverts a Vietnamese document to Unicode using a code page other than the def
 
 ## Syntax
 
- _expression_. `ConvertVietDoc`( `_CodePageOrigin_` )
+_expression_. `ConvertVietDoc`( `_CodePageOrigin_` )
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Reconverts a Vietnamese document to Unicode using a code page other than the def
 
 ## Remarks
 
-Use the  **ConvertVietDoc** method if you want a document to be viewable on another computer or platform.
+Use the **ConvertVietDoc** method if you want a document to be viewable on another computer or platform.
 
 
 ## Example

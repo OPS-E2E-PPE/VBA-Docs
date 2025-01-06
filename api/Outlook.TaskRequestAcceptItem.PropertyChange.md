@@ -1,24 +1,23 @@
 ---
-title: TaskRequestAcceptItem.PropertyChange Event (Outlook)
-ms.prod: outlook
+title: TaskRequestAcceptItem.PropertyChange event (Outlook)
 api_name:
 - Outlook.TaskRequestAcceptItem.PropertyChange
 ms.assetid: 4b26e4b6-607c-c9e6-088f-2e7605b0681f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestAcceptItem.PropertyChange Event (Outlook)
+# TaskRequestAcceptItem.PropertyChange event (Outlook)
 
-Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
+Occurs when an explicit built-in property (for example, **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
 _expression_. `PropertyChange`( `_Name_` )
 
-_expression_ A variable that represents a [TaskRequestAcceptItem](./Outlook.TaskRequestAcceptItem.md) object.
+_expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 
 
 ## Parameters

@@ -3,12 +3,11 @@ title: AxisTitle.Delete method (Excel)
 keywords: vbaxl10.chm565075
 f1_keywords:
 - vbaxl10.chm565075
-ms.prod: excel
 api_name:
 - Excel.AxisTitle.Delete
 ms.assetid: 5d5aa06a-3626-a92b-b0d9-158522ab1643
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/13/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Deletes the object.
 
 ## Syntax
 
-_expression_. `Delete`
+_expression_.**Delete**
 
-_expression_ A variable that represents an [AxisTitle](Excel.AxisTitle-graph-property.md) object.
+_expression_ A variable that represents an **[AxisTitle](Excel.AxisTitle(object).md)** object.
 
 
 ## Return value
@@ -29,9 +28,6 @@ _expression_ A variable that represents an [AxisTitle](Excel.AxisTitle-graph-pro
 Variant
 
 
-## See also
 
-
-[AxisTitle Object](Excel.AxisTitle(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,25 +3,24 @@ title: Rows.Add method (Word)
 keywords: vbawd10.chm155975780
 f1_keywords:
 - vbawd10.chm155975780
-ms.prod: word
 api_name:
 - Word.Rows.Add
 ms.assetid: d84286cb-42b5-a717-f152-0d9c3f1c6d9c
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # Rows.Add method (Word)
 
-Returns a  **Row** object that represents a row added to a table.
+Returns a **Row** object that represents a row added to a table.
 
 
 ## Syntax
 
- _expression_. `Add`( `_BeforeRow_` )
+_expression_.**Add** ( `_BeforeRow_` )
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Returns a  **Row** object that represents a row added to a table.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _BeforeRow_|Optional| **Variant**|A  **Row** object that represents the row that will appear immediately below the new row.|
+| _BeforeRow_|Optional| **Variant**|A **Row** object that represents the row that will appear immediately below the new row.|
 
 ## Return value
 

@@ -1,27 +1,26 @@
 ---
-title: Application.PresentationSave Event (PowerPoint)
+title: Application.PresentationSave event (PowerPoint)
 keywords: vbapp10.chm621005
 f1_keywords:
 - vbapp10.chm621005
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Application.PresentationSave
 ms.assetid: 229a02a7-58e4-2445-3bd5-963e88438d7e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.PresentationSave Event (PowerPoint)
+# Application.PresentationSave event (PowerPoint)
 
 Occurs before any open presentation is saved.
 
 
 ## Syntax
 
- _expression_. `PresentationSave`( `_Pres_` )
+_expression_. `PresentationSave`( `_Pres_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 ## Remarks
 
-For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example

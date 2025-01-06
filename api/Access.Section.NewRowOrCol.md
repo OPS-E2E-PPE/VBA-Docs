@@ -3,18 +3,17 @@ title: Section.NewRowOrCol property (Access)
 keywords: vbaac10.chm12193,vbaac10.chm4436
 f1_keywords:
 - vbaac10.chm12193,vbaac10.chm4436
-ms.prod: access
 api_name:
 - Access.Section.NewRowOrCol
 ms.assetid: c14c669a-9aff-6fc1-9bcc-b7bf011abed1
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Section.NewRowOrCol property (Access)
 
-You can use the **NewRowOrCol** property to specify whether a section and its associated data is printed in a new row or column within a multiple-column report or multiple-column form. Read/write **Byte**.
+Use the **NewRowOrCol** property to specify whether a section and its associated data is printed in a new row or column within a multiple-column report or multiple-column form. Read/write **Byte**.
 
 
 ## Syntax
@@ -56,8 +55,6 @@ Dim intGetVal As Integer
 intGetVal = Me.Section(1).NewRowOrCol
 ```
 
-<br/>
-
 The next example presents two layouts for a report that divides data into four groups (Head1 to Head4). Each group includes three to six records, and each record has field a and field b. The layouts differ only in their settings under **Column Layout** on the **Columns** tab of the **Page Setup** dialog box and the values of their **NewRowOrCol** properties. Note that the **Width** box under **Column Size** on the **Columns** tab must be set to the actual width of the field. Also, the Before Section setting of the **NewRowOrCol** property requires a page header section greater than zero for the **Down, then Across** option to function correctly.
 
 |Column Layout | Across, then Down|
@@ -68,8 +65,6 @@ The next example presents two layouts for a report that divides data into four g
 |Head4 |1a 1b 2a 2b 3a 3b 4a 4b 5a 5b 6a 6b|
 |Grid settings |**Number of Columns** set to 4|
 |**NewRowOrCol** property setting for group header section | Before & After|
-
-<br/>
 
 |Column Layout | Down, then Across|
 |:-------------|:-----------------|

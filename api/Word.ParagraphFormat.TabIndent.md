@@ -3,12 +3,11 @@ title: ParagraphFormat.TabIndent method (Word)
 keywords: vbawd10.chm156434738
 f1_keywords:
 - vbawd10.chm156434738
-ms.prod: word
 api_name:
 - Word.ParagraphFormat.TabIndent
 ms.assetid: db62f9c2-e205-4f57-5baf-2c06bbd30644
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Sets the left indent for the specified paragraphs to a specified number of tab s
 
 ## Syntax
 
- _expression_. `TabIndent`( `_Count_` )
+_expression_. `TabIndent`( `_Count_` )
 
- _expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
+_expression_ Required. A variable that represents a '[ParagraphFormat](Word.ParagraphFormat.md)' object.
 
 
 ## Parameters

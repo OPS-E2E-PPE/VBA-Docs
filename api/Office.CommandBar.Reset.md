@@ -3,12 +3,11 @@ title: CommandBar.Reset method (Office)
 keywords: vbaof11.chm3016
 f1_keywords:
 - vbaof11.chm3016
-ms.prod: office
 api_name:
 - Office.CommandBar.Reset
 ms.assetid: 96dfb3cc-a53c-ea7f-eb98-96a983faa681
 ms.date: 01/03/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

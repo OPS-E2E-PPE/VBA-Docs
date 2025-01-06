@@ -1,37 +1,36 @@
 ---
-title: Category.ShortcutKey Property (Outlook)
+title: Category.ShortcutKey property (Outlook)
 keywords: vbaol11.chm2428
 f1_keywords:
 - vbaol11.chm2428
-ms.prod: outlook
 api_name:
 - Outlook.Category.ShortcutKey
 ms.assetid: c78f882a-ab02-5218-e71f-362c86b4dfe1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Category.ShortcutKey Property (Outlook)
+# Category.ShortcutKey property (Outlook)
 
-Returns or sets an  **[OlCategoryShortcutKey](Outlook.OlCategoryShortcutKey.md)** constant that specifies the shortcut key used by the **[Category](Outlook.Category.md)** object. Read/write.
+Returns or sets an **[OlCategoryShortcutKey](Outlook.OlCategoryShortcutKey.md)** constant that specifies the shortcut key used by the **[Category](Outlook.Category.md)** object. Read/write.
 
 
 ## Syntax
 
-_expression_. `ShortcutKey`
+_expression_.**ShortcutKey**
 
-_expression_ A variable that represents a [Category](./Outlook.Category.md) object.
+_expression_ A variable that represents a [Category](Outlook.Category.md) object.
 
 
 ## Remarks
 
-Any  **OlCategoryShortcutKey** constant other than **olCategoryShortcutKeyNone** can only be used by one **Category** object at any given time. Setting the value of this property to an **OlCategoryShortcutKey** constant already in use sets the **ShortcutKey** property of the **Category** object already using the specified value to **olCategoryShortcutKeyNone**.
+Any **OlCategoryShortcutKey** constant other than **olCategoryShortcutKeyNone** can only be used by one **Category** object at any given time. Setting the value of this property to an **OlCategoryShortcutKey** constant already in use sets the **ShortcutKey** property of the **Category** object already using the specified value to **olCategoryShortcutKeyNone**.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays a dialog box containing shortcut key assignments for each  **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
+The following Visual Basic for Applications (VBA) example displays a dialog box containing shortcut key assignments for each **Category** object contained in the **[Categories](Outlook.NameSpace.Categories.md)** collection associated with the default **[NameSpace](Outlook.NameSpace.md)** object.
 
 
 ```vb

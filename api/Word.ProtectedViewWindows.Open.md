@@ -3,30 +3,27 @@ title: ProtectedViewWindows.Open method (Word)
 keywords: vbawd10.chm82313218
 f1_keywords:
 - vbawd10.chm82313218
-ms.prod: word
 api_name:
 - Word.ProtectedViewWindows.Open
 ms.assetid: 38a11e87-bc8e-4a3b-3b0d-aa51eef941b5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ProtectedViewWindows.Open method (Word)
 
-Opens the specified document in a new protected view window.
+Opens the specified document in a new Protected View window.
 
 
 ## Syntax
 
- _expression_. `Open`( `_FileName_` , `_AddToRecentFiles_` , `_PasswordDocument_` , `_Visible_` , `_OpenAndRepair_` )
+_expression_.**Open** (_FileName_, _AddToRecentFiles_, _PasswordDocument_, _Visible_, _OpenAndRepair_)
 
- _expression_ An expression that returns a [ProtectedViewWindows](./Word.ProtectedViewWindows.md) object.
+_expression_ An expression that returns a **[ProtectedViewWindows](Word.ProtectedViewWindows.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +45,7 @@ Avoid using hard-coded passwords in your applications. If a password is required
 
 ## Example
 
-The following code example opens a document in a new protected view window.
+The following code example opens a document in a new Protected View window.
 
 
 ```vb

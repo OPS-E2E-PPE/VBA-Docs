@@ -1,29 +1,29 @@
 ---
-title: Project.ReadOnlyRecommended Property (Project)
-ms.prod: project-server
+title: Project.ReadOnlyRecommended property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.ReadOnlyRecommended
 ms.assetid: f35003bc-97fb-3acd-f629-7bb8addc5261
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.ReadOnlyRecommended Property (Project)
+# Project.ReadOnlyRecommended property (Project)
 
  **True** if the project should be opened with read-only access. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ReadOnlyRecommended`
+_expression_. `ReadOnlyRecommended`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-To change the value of the  **ReadOnlyRecommended** property, use the **[FileSaveAs](Project.Application.FileSaveAs.md)** method with the ReadOnly argument set to **True**.
+To change the value of the **ReadOnlyRecommended** property, use the **[FileSaveAs](Project.Application.FileSaveAs.md)** method with the ReadOnly argument set to **True**.
 
 
 ## Example

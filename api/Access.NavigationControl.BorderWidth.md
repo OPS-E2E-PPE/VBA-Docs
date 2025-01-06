@@ -3,18 +3,17 @@ title: NavigationControl.BorderWidth property (Access)
 keywords: vbaac10.chm11081
 f1_keywords:
 - vbaac10.chm11081
-ms.prod: access
 api_name:
 - Access.NavigationControl.BorderWidth
 ms.assetid: a0a39f30-18c5-2073-b463-1ffcb385357c
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # NavigationControl.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

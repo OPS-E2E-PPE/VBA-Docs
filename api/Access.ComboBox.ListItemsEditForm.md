@@ -3,12 +3,11 @@ title: ComboBox.ListItemsEditForm property (Access)
 keywords: vbaac10.chm11518
 f1_keywords:
 - vbaac10.chm11518
-ms.prod: access
 api_name:
 - Access.ComboBox.ListItemsEditForm
 ms.assetid: 5db884d4-4d9f-23b5-9e3a-f6de953a4800
 ms.date: 03/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

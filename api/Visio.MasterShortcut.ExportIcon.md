@@ -1,27 +1,26 @@
 ---
-title: MasterShortcut.ExportIcon Method (Visio)
+title: MasterShortcut.ExportIcon method (Visio)
 keywords: vis_sdr.chm16016270
 f1_keywords:
 - vis_sdr.chm16016270
-ms.prod: visio
 api_name:
 - Visio.MasterShortcut.ExportIcon
 ms.assetid: 763f6dac-98fb-377d-484b-08bac9b55d90
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# MasterShortcut.ExportIcon Method (Visio)
+# MasterShortcut.ExportIcon method (Visio)
 
-Exports the icon for a  **Master** object to a named file or the Clipboard.
+Exports the icon for a **Master** object to a named file or the Clipboard.
 
 
 ## Syntax
 
- _expression_. `ExportIcon`( `_FileName_` , `_Flags_` , `_TransparentRGB_` )
+_expression_. `ExportIcon`( `_FileName_` , `_Flags_` , `_TransparentRGB_` )
 
- _expression_ A variable that represents a [MasterShortcut](./Visio.MasterShortcut.md) object.
+_expression_ A variable that represents a **[MasterShortcut](Visio.MasterShortcut.md)** object.
 
 
 ## Parameters

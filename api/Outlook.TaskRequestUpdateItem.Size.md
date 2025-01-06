@@ -1,27 +1,26 @@
 ---
-title: TaskRequestUpdateItem.Size Property (Outlook)
+title: TaskRequestUpdateItem.Size property (Outlook)
 keywords: vbaol11.chm1943
 f1_keywords:
 - vbaol11.chm1943
-ms.prod: outlook
 api_name:
 - Outlook.TaskRequestUpdateItem.Size
 ms.assetid: a5e4f4ba-decf-b95b-6ae6-d4139f1df6fd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestUpdateItem.Size Property (Outlook)
+# TaskRequestUpdateItem.Size property (Outlook)
 
-Returns a  **Long** indicating the size (in bytes) of the Outlook item. Read-only.
+Returns a **Long** indicating the size (in bytes) of the Outlook item. Read-only.
 
 
 ## Syntax
 
- _expression_. `Size`
+_expression_.**Size**
 
-_expression_ A variable that represents a [TaskRequestUpdateItem](./Outlook.TaskRequestUpdateItem.md) object.
+_expression_ A variable that represents a [TaskRequestUpdateItem](Outlook.TaskRequestUpdateItem.md) object.
 
 
 ## See also

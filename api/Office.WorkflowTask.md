@@ -3,12 +3,11 @@ title: WorkflowTask object (Office)
 keywords: vbaof11.chm280000
 f1_keywords:
 - vbaof11.chm280000
-ms.prod: office
 api_name:
 - Office.WorkflowTask
 ms.assetid: 9d17947e-f12a-2f97-7888-8d5ec9f85011
 ms.date: 01/29/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -45,7 +44,7 @@ End Sub
 ## See also
 
 - [WorkflowTask object members](overview/Library-Reference/workflowtask-members-office.md)
-- [Object Model Reference](./overview/Library-Reference/reference-object-library-reference-for-office.md)
+- [Object Model Reference](overview/Library-Reference/reference-object-library-reference-for-office.md)
 
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

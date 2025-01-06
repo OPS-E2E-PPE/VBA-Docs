@@ -1,35 +1,35 @@
 ---
-title: Cell.FieldID Property (Project)
+title: Cell.FieldID property (Project)
 keywords: vbapj.chm132205
 f1_keywords:
 - vbapj.chm132205
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Cell.FieldID
 ms.assetid: fe7d7a7a-ebc8-4423-31de-48977cc248e1
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Cell.FieldID Property (Project)
+# Cell.FieldID property (Project)
 
-Gets the identification number of the task or resource field in the active cell. Read-only  **Long**.
+Gets the identification number of the task or resource field in the active cell. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `FieldID`
+_expression_. `FieldID`
 
- _expression_ A variable that represents a [Cell](./Project.Cell.md) object.
+_expression_ A variable that represents a [Cell](./Project.Cell.md) object.
 
 
 ## Remarks
 
-If the active cell contains a task, can be one of the following  **[PjField](Project.PjField.md)** constants:
+If the active cell contains a task, can be one of the following **[PjField](Project.PjField.md)** constants:
 
 
-|||
+|PjField Constants (task)|PjField Constants (task) Continued|
 |:-----|:-----|
 |**pjTaskActualCost**|**pjTaskHyperlinkSubAddress**|
 |**pjTaskActualDuration**|**pjTaskID**|
@@ -116,10 +116,10 @@ If the active cell contains a task, can be one of the following  **[PjField](Pro
 |**pjTaskHyperlinkHref**|**pjTaskWorkVariance**|
 |**pjTaskHyperlinkScreenTip**||
 
-If the active cell contains a resource, can be one of the following  **PjField** constants:
+If the active cell contains a resource, can be one of the following **PjField** constants:
 
 
-|||
+|PjField Constants (resource)|PjField Constants (resource) Continued|
 |:-----|:-----|
 |**pjResourceAccrueAt**|**pjResourceEnterpriseUniqueID**|
 |**pjResourceActualCost**|**pjResourceFinish**|

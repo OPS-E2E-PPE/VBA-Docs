@@ -3,12 +3,11 @@ title: Application.CheckLanguage property (Word)
 keywords: vbawd10.chm158335088
 f1_keywords:
 - vbawd10.chm158335088
-ms.prod: word
 api_name:
 - Word.Application.CheckLanguage
 ms.assetid: 25c2a119-2cae-48e4-1d54-cafc763b90fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `CheckLanguage`
+_expression_. `CheckLanguage`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-If you haven't set up Word for multilingual editing, the  **CheckLanguage** property always returns **False**.
+If you haven't set up Word for multilingual editing, the **CheckLanguage** property always returns **False**.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: IsReady property (Visual Basic for Applications)
 keywords: vblr6.chm2181959
 f1_keywords:
 - vblr6.chm2181959
-ms.prod: office
 api_name:
 - Office.IsReady
 ms.assetid: e4c0771b-ea30-1431-2106-ca53a13543f2
 ms.date: 12/19/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

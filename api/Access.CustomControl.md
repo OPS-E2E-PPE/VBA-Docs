@@ -3,12 +3,11 @@ title: CustomControl object (Access)
 keywords: vbaac10.chm12062
 f1_keywords:
 - vbaac10.chm12062
-ms.prod: access
 api_name:
 - Access.CustomControl
 ms.assetid: a6ded8cf-4cf8-26ff-bade-f37a7ac52b02
 ms.date: 03/06/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,14 +3,13 @@ title: <Path> is not a valid path. Make sure that the path name is spelled corre
 keywords: jeterr40.chm5003044
 f1_keywords:
 - jeterr40.chm5003044
-ms.prod: access
 ms.assetid: 59002281-7344-e8ef-b500-5eb4647d2d7d
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
+ms.localizationpriority: high
 ---
 
 
-# <Path> is not a valid path. Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides. (Error 3044)
+# \<Path\> is not a valid path. Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides. (Error 3044)
 
   
 
@@ -30,8 +29,8 @@ Possible causes:
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,18 +3,17 @@ title: TabIndex property example
 keywords: fm20.chm5225127
 f1_keywords:
 - fm20.chm5225127
-ms.prod: office
 ms.assetid: 8329d3f8-0cbd-c520-9659-ff257e4c18d2
 ms.date: 11/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
 # TabIndex property example
 
-The following example uses the **[TabIndex](tabindex-property.md)** property to display and set the tab order for individual controls. The user can press Tab to reach the next control in the tab order and to display the **TabIndex** of that control. 
+The following example uses the **[TabIndex](tabindex-property.md)** property to display and set the tab order for individual controls. You can press Tab to reach the next control in the tab order and to display the **TabIndex** of that control. 
 
-The user can also click on a control to display its **TabIndex**. The User can change the **TabIndex** of a control by specifying a new index value in the **[TextBox](textbox-control.md)** and clicking CommandButton3. Changing the **TabIndex** for one control also updates the **TabIndex** for other controls in the **[Frame](frame-control.md)**.
+You can also click on a control to display its **TabIndex**. You can change the **TabIndex** of a control by specifying a new index value in the **[TextBox](textbox-control.md)** and clicking CommandButton3. Changing the **TabIndex** for one control also updates the **TabIndex** for other controls in the **[Frame](frame-control.md)**.
 
 To use this example, copy this sample code to the Declarations portion of a form. Make sure that the form contains:
 

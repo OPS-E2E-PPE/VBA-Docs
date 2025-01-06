@@ -1,27 +1,27 @@
 ---
-title: Application.TaskMoveToStatusDate Method (Project)
+title: Application.TaskMoveToStatusDate method (Project)
 keywords: vbapj.chm2290
 f1_keywords:
 - vbapj.chm2290
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.TaskMoveToStatusDate
 ms.assetid: 100ec970-ca52-2ac8-f367-c346c40e4c61
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.TaskMoveToStatusDate Method (Project)
+# Application.TaskMoveToStatusDate method (Project)
 
 Moves completed or incomplete parts of one or more selected tasks to the status date. 
 
 
 ## Syntax
 
- _expression_. `TaskMoveToStatusDate`( `_MoveCompleted_`, `_MoveIncomplete_` )
+_expression_. `TaskMoveToStatusDate`( `_MoveCompleted_`, `_MoveIncomplete_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,10 +40,10 @@ Moves completed or incomplete parts of one or more selected tasks to the status 
 
 ## Remarks
 
-To set or change the status date, click  **Project Information** on the Project tab on the Ribbon. The Project Information dialog box includes the **Status date** field. If the status date value is "NA", no status date is set. In that case, the current date is the status date.
+To set or change the status date, click **Project Information** on the Project tab on the Ribbon. The Project Information dialog box includes the **Status date** field. If the status date value is "NA", no status date is set. In that case, the current date is the status date.
 
 If both the  _MoveCompleted_ and _MoveIncomplete_ arguments are **False**, **TaskMoveToStatusDate** takes no action but still returns **True**. If both arguments are **True**, **TaskMoveToStatusDate** moves only the incomplete parts to the status date.
 
-The  **TaskMoveToStatusDate** method corresponds to the **Incomplete Parts to Status Date** or **Completed Parts to Status Date** commands in the **Move Task** drop-down menu on the **TASK** ribbon. The **[TaskMove](Project.Application.TaskMove.md)** method corresponds to other commands on the **Move Task** drop-down menu.
+The **TaskMoveToStatusDate** method corresponds to the **Incomplete Parts to Status Date** or **Completed Parts to Status Date** commands in the **Move Task** drop-down menu on the **TASK** ribbon. The **[TaskMove](Project.Application.TaskMove.md)** method corresponds to other commands on the **Move Task** drop-down menu.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

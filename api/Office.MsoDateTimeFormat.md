@@ -1,19 +1,16 @@
 ---
 title: MsoDateTimeFormat enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoDateTimeFormat
 ms.assetid: 87cb55b6-6ad8-9f7b-91cb-d958353fe175
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoDateTimeFormat enumeration (Office)
 
 Specifies the format of a date/time data type.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

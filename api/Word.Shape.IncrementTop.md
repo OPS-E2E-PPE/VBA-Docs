@@ -3,12 +3,11 @@ title: Shape.IncrementTop method (Word)
 keywords: vbawd10.chm161480720
 f1_keywords:
 - vbawd10.chm161480720
-ms.prod: word
 api_name:
 - Word.Shape.IncrementTop
 ms.assetid: 9aa5edb1-192f-5ccf-7513-3b9f660826ad
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves the specified shape vertically by the specified number of points.
 
 ## Syntax
 
- _expression_. `IncrementTop`( `_Increment_` )
+_expression_. `IncrementTop`( `_Increment_` )
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ Moves the specified shape vertically by the specified number of points.
 
 ## Example
 
-This example duplicates shape one on  _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
+This example duplicates shape one on _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
 
 
 ```vb

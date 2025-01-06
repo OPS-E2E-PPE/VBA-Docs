@@ -3,30 +3,29 @@ title: CustomLabel.PageSize property (Word)
 keywords: vbawd10.chm152371212
 f1_keywords:
 - vbawd10.chm152371212
-ms.prod: word
 api_name:
 - Word.CustomLabel.PageSize
 ms.assetid: b2a9e63e-041a-d4fc-6135-0e1e294886a2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomLabel.PageSize property (Word)
 
-Returns or sets the page size for the specified custom mailing label. Read/write  **WdCustomLabelPageSize**.
+Returns or sets the page size for the specified custom mailing label. Read/write **WdCustomLabelPageSize**.
 
 
 ## Syntax
 
- _expression_. `PageSize`
+_expression_. `PageSize`
 
- _expression_ Required. A variable that represents a '[CustomLabel](Word.CustomLabel.md)' object.
+_expression_ Required. A variable that represents a '[CustomLabel](Word.CustomLabel.md)' object.
 
 
 ## Remarks
 
-Some of the  **WdCustomLabelPageSize** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
+Some of the **WdCustomLabelPageSize** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 
 
 ## Example

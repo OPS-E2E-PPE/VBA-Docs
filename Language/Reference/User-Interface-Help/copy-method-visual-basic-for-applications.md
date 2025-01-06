@@ -3,10 +3,9 @@ title: Copy method (Visual Basic for Applications)
 keywords: vblr6.chm2182004
 f1_keywords:
 - vblr6.chm2182004
-ms.prod: office
 ms.assetid: 3477c158-643a-5e29-e4c2-b451e8603542
 ms.date: 12/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Copies a specified file or folder from one location to another.
 ## Syntax
 
 _object_.**Copy** _destination_, [ _overwrite_ ]
-
-<br/>
 
 The **Copy** method syntax has these parts:
 

@@ -1,27 +1,26 @@
 ---
-title: Hyperlinks.Add Method (Visio)
+title: Hyperlinks.Add method (Visio)
 keywords: vis_sdr.chm15616005
 f1_keywords:
 - vis_sdr.chm15616005
-ms.prod: visio
 api_name:
 - Visio.Hyperlinks.Add
 ms.assetid: 4f2f4649-ecb7-1287-4bd7-8d2e819e4108
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Hyperlinks.Add Method (Visio)
+# Hyperlinks.Add method (Visio)
 
 Adds a new object to a collection.
 
 
 ## Syntax
 
- _expression_. `Add`
+_expression_.**Add**
 
- _expression_ A variable that represents a [Hyperlinks](./Visio.Hyperlinks.md) object.
+_expression_ A variable that represents a **[Hyperlinks](Visio.Hyperlinks.md)** object.
 
 
 ## Return value

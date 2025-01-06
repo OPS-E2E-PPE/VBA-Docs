@@ -3,12 +3,11 @@ title: Line.Height property (Access)
 keywords: vbaac10.chm10335
 f1_keywords:
 - vbaac10.chm10335
-ms.prod: access
 api_name:
 - Access.Line.Height
 ms.assetid: 51a38ab5-c631-6707-6db5-8cdbc8c5a97f
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

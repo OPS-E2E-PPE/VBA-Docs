@@ -1,29 +1,29 @@
 ---
-title: Task.Flag6 Property (Project)
-ms.prod: project-server
+title: Task.Flag6 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag6
 ms.assetid: db6f085e-b829-63bd-1335-d9080ba46b42
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag6 Property (Project)
+# Task.Flag6 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag6`
+_expression_. `Flag6`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

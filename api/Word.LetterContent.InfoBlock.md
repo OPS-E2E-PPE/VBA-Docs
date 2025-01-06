@@ -3,12 +3,11 @@ title: LetterContent.InfoBlock property (Word)
 keywords: vbawd10.chm161546365
 f1_keywords:
 - vbawd10.chm161546365
-ms.prod: word
 api_name:
 - Word.LetterContent.InfoBlock
 ms.assetid: 2b639ef1-2c5c-f746-da04-1b8fcfaf5330
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Associated with the Letter Wizard in Microsoft Word. Not used in the U.S. Englis
 
 ## Syntax
 
- _expression_. `InfoBlock`
+_expression_. `InfoBlock`
 
- _expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Remarks

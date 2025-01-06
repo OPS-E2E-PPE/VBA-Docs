@@ -3,18 +3,17 @@ title: ToggleButton.ControlTipText property (Access)
 keywords: vbaac10.chm11731
 f1_keywords:
 - vbaac10.chm11731
-ms.prod: access
 api_name:
 - Access.ToggleButton.ControlTipText
 ms.assetid: b15ebb7a-70cd-1a0c-cdfc-17cbd965e8f6
 ms.date: 02/21/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.ControlTipText property (Access)
 
-You can use the **ControlTipText** property to specify the text that appears in a ScreenTip when you hold the mouse pointer over a control. Read/write **String**.
+Use the **ControlTipText** property to specify the text that appears in a ScreenTip when you hold the mouse pointer over a control. Read/write **String**.
 
 
 ## Syntax
@@ -34,7 +33,7 @@ You can set the **ControlTipText** property in any view.
 
 The **ControlTipText** property provides an easy way to provide helpful information about controls on a form.
 
-There are other ways to provide information about a form or a control on a form. You can use the **StatusBarText** property to display information in the status bar about a control. To provide more extensive help for a form or control, use the **[HelpFile](access.form.helpfile.md)** and **[HelpContextID](access.form.helpcontextid.md)** properties.
+There are other ways to provide information about a form or a control on a form. Use the **StatusBarText** property to display information in the status bar about a control. To provide more extensive help for a form or control, use the **[HelpFile](access.form.helpfile.md)** and **[HelpContextID](access.form.helpcontextid.md)** properties.
 
 
 

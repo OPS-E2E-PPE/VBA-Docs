@@ -1,24 +1,24 @@
 ---
-title: Resources.Add Method (Project)
-ms.prod: project-server
+title: Resources.Add method (Project)
+ms.service: project-server
 api_name:
 - Project.Resources.Add
 ms.assetid: 4fb69f50-4ba6-89a4-f586-3df268ae7fd5
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Resources.Add Method (Project)
+# Resources.Add method (Project)
 
-Adds a  **Resource** object to a **Resources** collection.
+Adds a **Resource** object to a **Resources** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_`, `_Before_` )
+_expression_.**Add** (_Name_, _Before_)
 
- _expression_ A variable that represents a 'Resources' object.
+_expression_ A variable that represents a 'Resources' object.
 
 
 ## Parameters

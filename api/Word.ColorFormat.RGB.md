@@ -3,25 +3,24 @@ title: ColorFormat.RGB property (Word)
 keywords: vbawd10.chm163971072
 f1_keywords:
 - vbawd10.chm163971072
-ms.prod: word
 api_name:
 - Word.ColorFormat.RGB
 ms.assetid: 78158429-359c-bc6e-9e81-a119aace776c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ColorFormat.RGB property (Word)
 
-Returns or sets the red-green-blue (RGB) value of the specified color. Read/write  **Long**.
+Returns or sets the red-green-blue (RGB) value of the specified color. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `RGB`
+_expression_. `RGB`
 
- _expression_ A variable that represents a '[ColorFormat](Word.ColorFormat.md)' object.
+_expression_ A variable that represents a '[ColorFormat](Word.ColorFormat.md)' object.
 
 
 ## Example

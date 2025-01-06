@@ -3,10 +3,9 @@ title: Mod operator
 keywords: vblr6.chm1008976
 f1_keywords:
 - vblr6.chm1008976
-ms.prod: office
 ms.assetid: cc1afd5d-ea12-a1df-3ffe-0d58f4d1e0ac
 ms.date: 11/19/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -52,7 +51,7 @@ MyResult = 12.6 Mod 5    ' Returns 3.
 
 ## See also
 
-- [Mod operator examples (previous versions)](https://docs.microsoft.com/previous-versions/office/office-10/aa263659(v=office.10))
+- [Mod operator examples (previous versions)](/previous-versions/office/office-10/aa263659(v=office.10))
 - [Data types](data-type-summary.md)
 - [Operator summary](operator-summary.md)
 

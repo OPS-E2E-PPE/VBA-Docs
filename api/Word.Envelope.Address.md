@@ -3,25 +3,24 @@ title: Envelope.Address property (Word)
 keywords: vbawd10.chm152567809
 f1_keywords:
 - vbawd10.chm152567809
-ms.prod: word
 api_name:
 - Word.Envelope.Address
 ms.assetid: 01d6d211-a4f1-c3cd-470c-f49d6bb22fe6
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Envelope.Address property (Word)
 
-Returns the envelope delivery address as a  **Range** object. Read-only.
+Returns the envelope delivery address as a **Range** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Address`
+_expression_.**Address**
 
- _expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
+_expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
 
 
 ## Example

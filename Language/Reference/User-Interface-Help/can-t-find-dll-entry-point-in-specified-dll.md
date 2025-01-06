@@ -3,10 +3,9 @@ title: Can't find DLL entry point in specified DLL
 keywords: vblr6.chm1120082
 f1_keywords:
 - vblr6.chm1120082
-ms.prod: office
 ms.assetid: beb29a93-7477-8202-6acc-7d26d7589c89
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

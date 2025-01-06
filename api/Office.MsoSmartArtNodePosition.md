@@ -1,19 +1,16 @@
 ---
 title: MsoSmartArtNodePosition enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoSmartArtNodePosition
 ms.assetid: aa62c238-4309-d4df-7317-289e2d3cdc80
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoSmartArtNodePosition enumeration (Office)
 
 Specifies constants that define the different ways to add a new node to the data model in SmartArt.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

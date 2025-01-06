@@ -3,12 +3,11 @@ title: Endnotes.ResetContinuationSeparator method (Word)
 keywords: vbawd10.chm155254792
 f1_keywords:
 - vbawd10.chm155254792
-ms.prod: word
 api_name:
 - Word.Endnotes.ResetContinuationSeparator
 ms.assetid: 92de72c3-ab86-77e8-5047-928c145560cf
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Resets the endnote continuation separator to the default separator.
 
 ## Syntax
 
- _expression_. `ResetContinuationSeparator`
+_expression_. `ResetContinuationSeparator`
 
- _expression_ Required. A variable that represents an '[Endnotes](Word.endnotes.md)' collection.
+_expression_ Required. A variable that represents an '[Endnotes](Word.endnotes.md)' collection.
 
 
 ## Remarks

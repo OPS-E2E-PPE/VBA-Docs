@@ -3,18 +3,17 @@ title: BoundObjectFrame.SourceItem property (Access)
 keywords: vbaac10.chm10914
 f1_keywords:
 - vbaac10.chm10914
-ms.prod: access
 api_name:
 - Access.BoundObjectFrame.SourceItem
 ms.assetid: ab802b9b-d17c-695b-aaf5-4f84d1935615
 ms.date: 02/08/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # BoundObjectFrame.SourceItem property (Access)
 
-You can use the **SourceItem** property to specify the data within a file to be linked when you create a linked OLE object. Read/write **String**.
+Use the **SourceItem** property to specify the data within a file to be linked when you create a linked OLE object. Read/write **String**.
 
 
 ## Syntax

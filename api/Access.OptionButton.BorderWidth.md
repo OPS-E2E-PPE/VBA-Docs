@@ -3,18 +3,17 @@ title: OptionButton.BorderWidth property (Access)
 keywords: vbaac10.chm10589
 f1_keywords:
 - vbaac10.chm10589
-ms.prod: access
 api_name:
 - Access.OptionButton.BorderWidth
 ms.assetid: cd4a5e9d-6444-7cac-aa04-c62b42887a16
 ms.date: 02/20/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # OptionButton.BorderWidth property (Access)
 
-You can use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
+Use the **BorderWidth** property to specify the width of a control's border. Read/write **Byte**.
 
 
 ## Syntax

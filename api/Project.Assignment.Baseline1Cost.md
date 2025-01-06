@@ -1,23 +1,23 @@
 ---
-title: Assignment.Baseline1Cost Property (Project)
-ms.prod: project-server
+title: Assignment.Baseline1Cost property (Project)
+ms.service: project-server
 api_name:
 - Project.Assignment.Baseline1Cost
 ms.assetid: 9c20db71-484d-810f-24e5-a972e86f29a9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Assignment.Baseline1Cost Property (Project)
+# Assignment.Baseline1Cost property (Project)
 
-Gets or sets the baseline cost for an  **Assignment**. Read/write **Variant**.
+Gets or sets the baseline cost for an **Assignment**. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Baseline1Cost`
+_expression_. `Baseline1Cost`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

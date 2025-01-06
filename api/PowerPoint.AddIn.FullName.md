@@ -1,27 +1,26 @@
 ---
-title: AddIn.FullName Property (PowerPoint)
+title: AddIn.FullName property (PowerPoint)
 keywords: vbapp10.chm521003
 f1_keywords:
 - vbapp10.chm521003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.AddIn.FullName
 ms.assetid: 0e442ae8-ac67-d28c-d38f-b3d7e4ba9d34
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# AddIn.FullName Property (PowerPoint)
+# AddIn.FullName property (PowerPoint)
 
 Returns the name of the specified add-in or saved presentation, including the path, the current file system separator, and the file name extension. Read-only.
 
 
 ## Syntax
 
- _expression_. `FullName`
+_expression_.**FullName**
 
-_expression_ A variable that represents an [AddIn](./PowerPoint.AddIn.md) object.
+_expression_ A variable that represents an [AddIn](PowerPoint.AddIn.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ String
 
 ## Remarks
 
-This property is equivalent to the  **Path** property, followed by the current file system separator, followed by the **Name** property.
+This property is equivalent to the **Path** property, followed by the current file system separator, followed by the **Name** property.
 
 
 ## Example

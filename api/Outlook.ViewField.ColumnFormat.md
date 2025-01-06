@@ -1,32 +1,31 @@
 ---
-title: ViewField.ColumnFormat Property (Outlook)
+title: ViewField.ColumnFormat property (Outlook)
 keywords: vbaol11.chm2544
 f1_keywords:
 - vbaol11.chm2544
-ms.prod: outlook
 api_name:
 - Outlook.ViewField.ColumnFormat
 ms.assetid: 0014f1d8-5380-3301-558a-7fd8d49afff9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewField.ColumnFormat Property (Outlook)
+# ViewField.ColumnFormat property (Outlook)
 
-Returns a  **[ColumnFormat](Outlook.ColumnFormat.md)** object that represents the formatting information for the **[ViewField](Outlook.ViewField.md)** object. Read-only.
+Returns a **[ColumnFormat](Outlook.ColumnFormat.md)** object that represents the formatting information for the **[ViewField](Outlook.ViewField.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ColumnFormat`
+_expression_. `ColumnFormat`
 
-_expression_ A variable that represents a [ViewField](./Outlook.ViewField.md) object.
+_expression_ A variable that represents a [ViewField](Outlook.ViewField.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example iterates through the  **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
+The following Visual Basic for Applications (VBA) example iterates through the **[ViewFields](Outlook.TableView.ViewFields.md)** collection of the current **[TableView](Outlook.TableView.md)** object, displaying the label and XML schema names of each **ViewField** object in the collection.
 
 
 ```vb

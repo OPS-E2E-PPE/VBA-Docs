@@ -3,18 +3,17 @@ title: CurrentProject.CloseConnection method (Access)
 keywords: vbaac10.chm12716
 f1_keywords:
 - vbaac10.chm12716
-ms.prod: access
 api_name:
 - Access.CurrentProject.CloseConnection
 ms.assetid: f2feac44-e509-48d7-e815-e0cf2935d7b9
 ms.date: 02/27/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CurrentProject.CloseConnection method (Access)
 
-You can use the **CloseConnection** method to close the current connection between the **CurrentProject** object in a Microsoft Access project (.adp) or Access database and the database specified in the project's base connection string.
+Use the **CloseConnection** method to close the current connection between the **CurrentProject** object in a Microsoft Access project (.adp) or Access database and the database specified in the project's base connection string.
 
 
 ## Syntax

@@ -3,12 +3,11 @@ title: KeyPress event
 keywords: fm20.chm2000130
 f1_keywords:
 - fm20.chm2000130
-ms.prod: office
 api_name:
 - Office.KeyPress
 ms.assetid: b77da9a6-a87c-a44c-ab44-02495af3fa5e
 ms.date: 11/15/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

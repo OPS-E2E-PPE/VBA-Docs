@@ -1,27 +1,26 @@
 ---
-title: UserProperties.Remove Method (Outlook)
+title: UserProperties.Remove method (Outlook)
 keywords: vbaol11.chm211
 f1_keywords:
 - vbaol11.chm211
-ms.prod: outlook
 api_name:
 - Outlook.UserProperties.Remove
 ms.assetid: 47b77e76-3164-12d1-bf08-fa11847eafcb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# UserProperties.Remove Method (Outlook)
+# UserProperties.Remove method (Outlook)
 
 Removes an object from the collection.
 
 
 ## Syntax
 
- _expression_. `Remove` `_Index_`
+_expression_.**Remove** (_Index_)
 
-_expression_ A variable that represents an [UserProperties](./Outlook.UserProperties.md) object.
+_expression_ A variable that represents a **[UserProperties](Outlook.UserProperties.md)** object.
 
 
 ## Parameters

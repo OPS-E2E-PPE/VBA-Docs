@@ -3,12 +3,11 @@ title: Options.IgnoreUppercase property (Word)
 keywords: vbawd10.chm162988312
 f1_keywords:
 - vbawd10.chm162988312
-ms.prod: word
 api_name:
 - Word.Options.IgnoreUppercase
 ms.assetid: 4eff2832-3c66-0274-5403-d2fd8d31d04d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `IgnoreUppercase`
+_expression_. `IgnoreUppercase`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example

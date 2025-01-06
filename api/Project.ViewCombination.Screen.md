@@ -1,28 +1,28 @@
 ---
-title: ViewCombination.Screen Property (Project)
-ms.prod: project-server
+title: ViewCombination.Screen property (Project)
+ms.service: project-server
 api_name:
 - Project.ViewCombination.Screen
 ms.assetid: 69cdee63-88eb-1c6e-f73e-627b8b896904
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# ViewCombination.Screen Property (Project)
+# ViewCombination.Screen property (Project)
 
-Gets the screen type for the combination view. Read-only  **PjViewScreen**.
+Gets the screen type for the combination view. Read-only **PjViewScreen**.
 
 
 ## Syntax
 
- _expression_. `Screen`
+_expression_. `Screen`
 
- _expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
+_expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
 
 
 ## Remarks
 
-The  **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
+The **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

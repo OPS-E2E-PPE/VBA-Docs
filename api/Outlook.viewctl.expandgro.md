@@ -1,9 +1,8 @@
 ---
 title: ViewCtl.ExpandGroup Method (Outlook View Control)
-ms.prod: outlook
 ms.assetid: 5cb0afbe-763c-2afb-5760-ea64c6f16637
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,9 +13,9 @@ Expands (opens) the group that is currently selected in the control.
 
 ## Syntax
 
- _expression_. **ExpandGroup**
+_expression_.**ExpandGroup**
 
-_expression_ A variable that represents a  **ViewCtl** object.
+_expression_ A variable that represents a **ViewCtl** object.
 
 
 ## Remarks

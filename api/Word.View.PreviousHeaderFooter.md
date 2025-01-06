@@ -3,12 +3,11 @@ title: View.PreviousHeaderFooter method (Word)
 keywords: vbawd10.chm161808489
 f1_keywords:
 - vbawd10.chm161808489
-ms.prod: word
 api_name:
 - Word.View.PreviousHeaderFooter
 ms.assetid: fee57f18-348d-a671-2fb2-1f9797c39727
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Moves to the previous header or footer, depending on whether a header or footer 
 
 ## Syntax
 
- _expression_. `PreviousHeaderFooter`
+_expression_. `PreviousHeaderFooter`
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks
@@ -29,7 +28,8 @@ Moves to the previous header or footer, depending on whether a header or footer 
 If the view displays a header, this method moves to the previous header within the current section (for example, from an even header to an odd header) or to the last header in the previous section. If the view displays a footer, this method moves to the previous footer.
 
 
- **Note**  If the view displays the first header or footer in the first section of the document, or if it is not displaying a header or footer at all, an error occurs.
+> [!NOTE] 
+> If the view displays the first header or footer in the first section of the document, or if it is not displaying a header or footer at all, an error occurs.
 
 
 ## Example

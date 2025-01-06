@@ -1,25 +1,25 @@
 ---
-title: Report.Shapes Property (Project)
-ms.prod: project-server
+title: Report.Shapes property (Project)
+ms.service: project-server
 ms.assetid: 2f62c406-3845-79f8-3d17-e5891c1e23f9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Report.Shapes Property (Project)
-Gets the collection of  **Shape** objects in the report. Read-only **Shapes**.
+# Report.Shapes property (Project)
+Gets the collection of **Shape** objects in the report. Read-only **Shapes**.
 
 ## Syntax
 
- _expression_. `Shapes`
+_expression_.**Shapes**
 
- _expression_ A variable that represents a 'Report' object.
+_expression_ A variable that represents a 'Report' object.
 
 
 ## Example
 
-The following example lists the shapes in a custom report. The report must be the active view to get the  **Shapes** collection; otherwise, you get a run-time error 424 (Object required) in the `For Each oShape In oReport.Shapes` statement.
+The following example lists the shapes in a custom report. The report must be the active view to get the **Shapes** collection; otherwise, you get a run-time error 424 (Object required) in the `For Each oShape In oReport.Shapes` statement.
 
 
 ```vb

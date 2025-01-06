@@ -1,27 +1,26 @@
 ---
-title: Application.SetCustomToolbars Method (Visio)
+title: Application.SetCustomToolbars method (Visio)
 keywords: vis_sdr.chm10016565
 f1_keywords:
 - vis_sdr.chm10016565
-ms.prod: visio
 api_name:
 - Visio.Application.SetCustomToolbars
 ms.assetid: fe5a3e40-83ea-d02f-03cd-d0ad758aa408
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.SetCustomToolbars Method (Visio)
+# Application.SetCustomToolbars method (Visio)
 
 Replaces the current built-in or custom toolbars of an application or document.
 
 
 ## Syntax
 
- _expression_. `SetCustomToolbars`( `_ToolbarsObject_` )
+_expression_.**SetCustomToolbars** (_ToolbarsObject_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Replaces the current built-in or custom toolbars of an application or document.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a  **UIObject** object that represents the new custom toolbars.|
+| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a **UIObject** object that represents the new custom toolbars.|
 
 ## Return value
 
@@ -44,7 +43,7 @@ If the  _ToolbarsObject_ object was created in a separate process by using the V
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
 
 Before running this macro, replace  _path\filename_ in the code with the full path to and filename of an icon file (.ico) on your computer.
 

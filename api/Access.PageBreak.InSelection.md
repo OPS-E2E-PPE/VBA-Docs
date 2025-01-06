@@ -3,18 +3,17 @@ title: PageBreak.InSelection property (Access)
 keywords: vbaac10.chm11680
 f1_keywords:
 - vbaac10.chm11680
-ms.prod: access
 api_name:
 - Access.PageBreak.InSelection
 ms.assetid: 3d680238-bb28-de45-e798-4fb9de405ccc
 ms.date: 02/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # PageBreak.InSelection property (Access)
 
-You can use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
+Use the **InSelection** property to determine or specify whether a control on a form in Design view is selected. Read/write **Boolean**.
 
 
 ## Syntax

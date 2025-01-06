@@ -1,27 +1,26 @@
 ---
-title: OlkComboBox.GetItem Method (Outlook)
+title: OlkComboBox.GetItem method (Outlook)
 keywords: vbaol11.chm1000224
 f1_keywords:
 - vbaol11.chm1000224
-ms.prod: outlook
 api_name:
 - Outlook.OlkComboBox.GetItem
 ms.assetid: 650fa823-fbb9-9013-86af-4f55367475c3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# OlkComboBox.GetItem Method (Outlook)
+# OlkComboBox.GetItem method (Outlook)
 
-Obtains a  **String** that represents an item at the specified location in the list of the combo box control.
+Obtains a **String** that represents an item at the specified location in the list of the combo box control.
 
 
 ## Syntax
 
-_expression_. `GetItem`( `_Index_` )
+_expression_. `GetItem` (_Index_)
 
-_expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
 ## Parameters
@@ -34,7 +33,7 @@ _expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.m
 
 ## Return value
 
-A  **String** value that represents the item at the specified location in the list.
+A **String** value that represents the item at the specified location in the list.
 
 
 ## Remarks

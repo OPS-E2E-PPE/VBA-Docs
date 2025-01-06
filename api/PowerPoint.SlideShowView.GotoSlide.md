@@ -1,27 +1,26 @@
 ---
-title: SlideShowView.GotoSlide Method (PowerPoint)
+title: SlideShowView.GotoSlide method (PowerPoint)
 keywords: vbapp10.chm513021
 f1_keywords:
 - vbapp10.chm513021
-ms.prod: powerpoint
 api_name:
 - PowerPoint.SlideShowView.GotoSlide
 ms.assetid: f733f46d-a632-02cb-3dbf-f29122fe347a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# SlideShowView.GotoSlide Method (PowerPoint)
+# SlideShowView.GotoSlide method (PowerPoint)
 
 Switches to the specified slide during a slide show. You can specify whether you want the animation effects to be rerun.
 
 
 ## Syntax
 
- _expression_. `GotoSlide`( `_Index_`, `_ResetSlide_` )
+_expression_. `GotoSlide`( `_Index_`, `_ResetSlide_` )
 
- _expression_ A variable that represents a [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents a [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ Switches to the specified slide during a slide show. You can specify whether you
 
 ## Remarks
 
-The value of the ResetSlide parameter can be one of these  **MsoTriState** constants. The default is **msoTrue**.
+The value of the ResetSlide parameter can be one of these **MsoTriState** constants. The default is **msoTrue**.
 
 
 ||
@@ -43,7 +42,7 @@ The value of the ResetSlide parameter can be one of these  **MsoTriState** const
 |**msoFalse**|
 |**msoTrue**|
 
-If you switch from one slide to another during a slide show with ResetSlide set to  **msoFalse**, when you return to the first slide, its animation picks up where it left off. If you switch from one slide to another with ResetSlide set to **msoTrue**, when you return to the first slide, its entire animation starts over.
+If you switch from one slide to another during a slide show with ResetSlide set to **msoFalse**, when you return to the first slide, its animation picks up where it left off. If you switch from one slide to another with ResetSlide set to **msoTrue**, when you return to the first slide, its entire animation starts over.
 
 
 ## Example

@@ -3,12 +3,11 @@ title: Image.BottomPadding property (Access)
 keywords: vbaac10.chm10416
 f1_keywords:
 - vbaac10.chm10416
-ms.prod: access
 api_name:
 - Access.Image.BottomPadding
 ms.assetid: c5b6a87d-8eac-5840-2bbe-cd491b035cea
 ms.date: 02/28/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

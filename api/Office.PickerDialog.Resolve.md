@@ -3,12 +3,11 @@ title: PickerDialog.Resolve method (Office)
 keywords: vbaof11.chm340006
 f1_keywords:
 - vbaof11.chm340006
-ms.prod: office
 api_name:
 - Office.PickerDialog.Resolve
 ms.assetid: 50b1792a-ecf0-ab66-6a9d-7f72c788d859
 ms.date: 01/22/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -64,7 +63,7 @@ Set objPickerResults = objPickerDialog.Resolve("johndoe", False)
 ## See also
 
 - [PickerDialog object members](overview/Library-Reference/pickerdialog-members-office.md)
-- [PickerDialog interface](https://docs.microsoft.com/dotnet/api/microsoft.office.core.pickerdialog?view=office-pia)
-- [Object Picker dialog box interfaces](https://docs.microsoft.com/windows/desktop/ad/object-picker-dialog-box-interfaces)
+- [PickerDialog interface](/dotnet/api/microsoft.office.core.pickerdialog)
+- [Object Picker dialog box interfaces](/windows/desktop/ad/object-picker-dialog-box-interfaces)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

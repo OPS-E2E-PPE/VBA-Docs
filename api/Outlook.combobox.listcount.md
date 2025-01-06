@@ -3,23 +3,22 @@ title: ComboBox.ListCount Property (Outlook Forms Script)
 keywords: olfm10.chm2001410
 f1_keywords:
 - olfm10.chm2001410
-ms.prod: outlook
 ms.assetid: 8ea1e997-470f-1336-5a72-ce66ece1f292
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ComboBox.ListCount Property (Outlook Forms Script)
 
-Returns a  **Long** that represents the number of list entries in a control. Read-only.
+Returns a **Long** that represents the number of list entries in a control. Read-only.
 
 
 ## Syntax
 
-_expression_. **ListCount**
+_expression_.**ListCount**
 
-_expression_ A variable that represents a  **ComboBox** object.
+_expression_ A variable that represents a **ComboBox** object.
 
 
 ## Remarks

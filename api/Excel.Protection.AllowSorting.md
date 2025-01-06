@@ -3,38 +3,36 @@ title: Protection.AllowSorting property (Excel)
 keywords: vbaxl10.chm719081
 f1_keywords:
 - vbaxl10.chm719081
-ms.prod: excel
 api_name:
 - Excel.Protection.AllowSorting
 ms.assetid: cffdb62d-2fbb-111a-ed06-e295b722ee75
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 05/09/2019
+ms.localizationpriority: medium
 ---
 
 
 # Protection.AllowSorting property (Excel)
 
-Returns  **True** if the sorting option is allowed on a protected worksheet. Read-only **Boolean**.
+Returns **True** if the sorting option is allowed on a protected worksheet. Read-only **Boolean**.
 
 
 ## Syntax
 
-_expression_. `AllowSorting`
+_expression_.**AllowSorting**
 
-_expression_ A variable that represents a [Protection](Excel.Protection.md) object.
+_expression_ A variable that represents a **[Protection](Excel.Protection.md)** object.
 
 
 ## Remarks
 
 Sorting can only be performed on unlocked or unprotected cells in a protected worksheet.
 
-The  **AllowSorting** property can be set by using the **[Protect](Excel.Worksheet.Protect.md)** method arguments.
+The **AllowSorting** property can be set by using the **[Protect](Excel.Worksheet.Protect.md)** method arguments.
 
 
 ## Example
 
 This example allows the user to sort unlocked or unprotected cells on the protected worksheet and notifies the user.
-
 
 ```vb
 Sub ProtectionOptions() 
@@ -55,9 +53,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[Protection Object](Excel.Protection.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

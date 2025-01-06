@@ -3,10 +3,9 @@ title: Change the size of the Toolbox
 keywords: fm20.chm5225220
 f1_keywords:
 - fm20.chm5225220
-ms.prod: office
 ms.assetid: ca7dbb07-3653-bf61-e0f1-d9b9b95fec34
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

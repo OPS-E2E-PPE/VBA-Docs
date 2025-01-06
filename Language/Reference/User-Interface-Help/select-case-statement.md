@@ -3,10 +3,9 @@ title: Select Case statement (VBA)
 keywords: vblr6.chm1008810
 f1_keywords:
 - vblr6.chm1008810
-ms.prod: office
 ms.assetid: 8e885f14-c722-5217-705e-474516fa416b
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -20,8 +19,6 @@ Executes one of several groups of [statements](../../Glossary/vbe-glossary.md#st
  [ **Case** _expressionlist-n_ [ _statements-n_ ]] <br/>
  [ **Case Else** [ _elsestatements_ ]] <br/>
 **End Select**
-
-<br/>
 
 The **Select Case** statement syntax has these parts:
 
@@ -38,7 +35,7 @@ If _testexpression_ matches any **Case** _expressionlist_ expression, the _state
 
 The **Case Else** clause is used to indicate the _elsestatements_ to be executed if no match is found between the _testexpression_ and an _expressionlist_ in any of the other **Case** selections. Although not required, it is a good idea to have a **Case Else** statement in your **Select Case** block to handle unforeseen _testexpression_ values. If no **Case** _expressionlist_ matches _testexpression_ and there is no **Case Else** statement, execution continues at the statement following **End Select**.
 
-You can use multiple expressions or ranges in each **Case** clause. For example, the following line is valid:
+Use multiple expressions or ranges in each **Case** clause. For example, the following line is valid:
 
 ```vb
 Case 1 To 4, 7 To 9, 11, 13, Is > MaxNumber 
@@ -72,7 +69,7 @@ Case 1 To 5    ' Number between 1 and 5, inclusive.
 Case 6, 7, 8    ' Number between 6 and 8. 
     Debug.Print "Between 6 and 8" 
 Case 9 To 10    ' Number is 9 or 10. 
-Debug.Print "Greater than 8" 
+    Debug.Print "Greater than 8" 
 Case Else    ' Other values. 
     Debug.Print "Not between 1 and 10" 
 End Select

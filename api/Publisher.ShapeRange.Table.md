@@ -1,33 +1,31 @@
 ---
-title: ShapeRange.Table Property (Publisher)
+title: ShapeRange.Table property (Publisher)
 keywords: vbapb10.chm2293864
 f1_keywords:
 - vbapb10.chm2293864
-ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.Table
 ms.assetid: 68221d37-505a-4701-8c9d-b8e695c8eb8f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/14/2019
+ms.localizationpriority: medium
 ---
 
 
-# ShapeRange.Table Property (Publisher)
+# ShapeRange.Table property (Publisher)
 
-Returns a  **Table** object that represents a table in Microsoft Publisher.
+Returns a **[Table](publisher.table.md)** object that represents a table in Microsoft Publisher.
 
 
 ## Syntax
 
- _expression_. **Table**
+_expression_.**Table**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Example
 
 The following example adds a 5x5 table on the first page of the active publication, and then selects the first column of the new table.
-
 
 ```vb
 Sub NewTable() 
@@ -39,10 +37,9 @@ Sub NewTable()
 End Sub
 ```
 
+<br/>
+
 The following example selects the specified table in the active publication. This example assumes that there is at least one shape on the first page of the active publication.
-
-
-
 
 ```vb
 Sub SelectTable() 

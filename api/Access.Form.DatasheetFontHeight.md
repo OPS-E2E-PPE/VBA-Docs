@@ -3,23 +3,22 @@ title: Form.DatasheetFontHeight property (Access)
 keywords: vbaac10.chm13397
 f1_keywords:
 - vbaac10.chm13397
-ms.prod: access
 api_name:
 - Access.Form.DatasheetFontHeight
 ms.assetid: 5cfcf818-eda0-f7ec-f224-ee52ae7d39c9
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 03/12/2019
+ms.localizationpriority: medium
 ---
 
 
 # Form.DatasheetFontHeight property (Access)
 
-You can use the **DatasheetFontHeight** property to specify the font point size used to display and print field names and data in Datasheet view. Read/write **Integer**.
+Use the **DatasheetFontHeight** property to specify the font point size used to display and print field names and data in Datasheet view. Read/write **Integer**.
 
 
 ## Syntax
 
-_expression_. `DatasheetFontHeight`
+_expression_.**DatasheetFontHeight**
 
 _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
@@ -28,12 +27,11 @@ _expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 This property is only available within a Microsoft Access database.
 
-For the **DatasheetFontHeight** property, the font size you specify must be valid for the font specified by the **DatasheetFontName** property. For example, MS Sans Serif is available only in sizes 8, 10, 12, 14, 18, and 24 points.
+For the **DatasheetFontHeight** property, the font size that you specify must be valid for the font specified by the **DatasheetFontName** property. For example, MS Sans Serif is available only in sizes 8, 10, 12, 14, 18, and 24 points.
 
-The following table contains the properties that don't exist in the DAO **Properties** collection of until you set them by using the **Formatting (Datasheet)** toolbar or you can add them in an Access database (.mdb) by using the **CreateProperty** method and append it to the **DAO Properties** collection.
+The following table contains the properties that don't exist in the DAO **Properties** collection until you set them by using the **Formatting (Datasheet)** toolbar, or you can add them in an Access database (.mdb) by using the **CreateProperty** method and append it to the **DAO Properties** collection.
 
-
-|||
+|Properties|Properties Continued|
 |:-----|:-----|
 |**[DatasheetFontItalic](Access.Form.DatasheetFontItalic.md)** *|**[DatasheetForeColor](Access.Form.DatasheetForeColor.md)** *|
 |**[DatasheetFontHeight](Access.Form.DatasheetFontHeight.md)** *|**[DatasheetBackColor](Access.Form.DatasheetBackColor.md)**|
@@ -41,13 +39,13 @@ The following table contains the properties that don't exist in the DAO **Proper
 |**[DatasheetFontUnderline](Access.Form.DatasheetFontUnderline.md)** *|**[DatasheetGridlinesBehavior](Access.Form.DatasheetGridlinesBehavior.md)**|
 |**[DatasheetFontWeight](Access.Form.DatasheetFontWeight.md)** *|**[DatasheetCellsEffect](Access.Form.DatasheetCellsEffect.md)**|
 
- **Note**  When you add or set any property listed with an asterisk, Microsoft Access automatically adds all the properties listed with an asterisk to the **Properties** collection of the database.
+> [!NOTE] 
+> When you add or set any property listed with an asterisk, Microsoft Access automatically adds all the properties listed with an asterisk to the **Properties** collection of the database.
 
 
 ## Example
 
-The following example sets the font to MS Serif, the font size to 10 points, and the font weight to medium (500) in Datasheet view of the Products table.
-
+The following example sets the font to MS Serif, the font size to 10 points, and the font weight to medium (500) in Datasheet view of the **Products** table.
 
 ```vb
 Sub SetDatasheetFont 
@@ -63,9 +61,7 @@ Sub SetDatasheetFont
  SetTableProperty objProducts, "DatasheetFontWeight", DB_Integer, 500 
  
 End Sub 
- 
- 
- 
+
 Sub SetTableProperty(objTableObj As Object, strPropertyName As String, _ 
  intPropertyType As Integer, varPropertyValue As Variant) 
  ' Set Microsoft Access-defined table property without causing 
@@ -90,10 +86,7 @@ Sub SetTableProperty(objTableObj As Object, strPropertyName As String, _
 End Sub
 ```
 
-The next example makes the same changes as the preceding example in Datasheet view of the open Products form.
-
-
-
+The following example makes the same changes as the preceding example in Datasheet view of the open **Products** form.
 
 ```vb
 Forms!Products.DatasheetFontName = "MS Serif" 
@@ -102,9 +95,6 @@ Forms!Products.DatasheetFontWeight = 500
 ```
 
 
-## See also
 
-
-[Form Object](Access.Form.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

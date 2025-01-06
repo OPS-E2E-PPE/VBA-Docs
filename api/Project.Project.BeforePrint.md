@@ -1,24 +1,24 @@
 ---
-title: Project.BeforePrint Event (Project)
-ms.prod: project-server
+title: Project.BeforePrint event (Project)
+ms.service: project-server
 api_name:
 - Project.Project.BeforePrint
 ms.assetid: df66b52b-4c7b-e3e1-d8ff-66416edcb378
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.BeforePrint Event (Project)
+# Project.BeforePrint event (Project)
 
 Occurs before a project is printed.
 
 
 ## Syntax
 
- _expression_. `BeforePrint`( `_pj_` )
+_expression_. `BeforePrint`( `_pj_` )
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -31,11 +31,11 @@ Occurs before a project is printed.
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-Project events do not occur when the project is embedded in another document or application.
+Project events don't occur when the project is embedded in another document or application.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

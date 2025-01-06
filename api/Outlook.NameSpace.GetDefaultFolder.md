@@ -1,27 +1,26 @@
 ---
-title: NameSpace.GetDefaultFolder Method (Outlook)
+title: NameSpace.GetDefaultFolder method (Outlook)
 keywords: vbaol11.chm761
 f1_keywords:
 - vbaol11.chm761
-ms.prod: outlook
 api_name:
 - Outlook.NameSpace.GetDefaultFolder
 ms.assetid: 761b8b53-dd4d-43e4-c8f0-69cefdf0c77a
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# NameSpace.GetDefaultFolder Method (Outlook)
+# NameSpace.GetDefaultFolder method (Outlook)
 
-Returns a  **[Folder](Outlook.Folder.md)** object that represents the default folder of the requested type for the current profile; for example, obtains the default **Calendar** folder for the user who is currently logged on.
+Returns a **[Folder](Outlook.Folder.md)** object that represents the default folder of the requested type for the current profile; for example, obtains the default **Calendar** folder for the user who is currently logged on.
 
 
 ## Syntax
 
 _expression_. `GetDefaultFolder`( `_FolderType_` )
 
-_expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
 ## Parameters
@@ -34,19 +33,19 @@ _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) ob
 
 ## Return value
 
-A  **Folder** object that represents the default folder of the requested type for the current profile.
+A **Folder** object that represents the default folder of the requested type for the current profile.
 
 
 ## Remarks
 
-To return a specific non-default folder, use the  **[Folders](Outlook.Folders.md)** collection.
+To return a specific non-default folder, use the **[Folders](Outlook.Folders.md)** collection.
 
-If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error. For example, if  **olFolderManagedEmail** is specified as the _FolderType_ but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.
+If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error. For example, if **olFolderManagedEmail** is specified as the _FolderType_ but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses the  **[CurrentFolder](Outlook.Explorer.CurrentFolder.md)** property to change the displayed folder to the user's default **Calendar** folder.
+This Visual Basic for Applications (VBA) example uses the **[CurrentFolder](Outlook.Explorer.CurrentFolder.md)** property to change the displayed folder to the user's default **Calendar** folder.
 
 
 ```vb

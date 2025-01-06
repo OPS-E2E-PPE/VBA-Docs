@@ -3,18 +3,17 @@ title: Attachment.TabIndex property (Access)
 keywords: vbaac10.chm14014
 f1_keywords:
 - vbaac10.chm14014
-ms.prod: access
 api_name:
 - Access.Attachment.TabIndex
 ms.assetid: bca68c61-a795-34d9-9e42-97113f1d4387
 ms.date: 02/07/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Attachment.TabIndex property (Access)
 
-You can use the **TabIndex** property to specify a control's place in the tab order on a form. Read/write **Integer**.
+Use the **TabIndex** property to specify a control's place in the tab order on a form. Read/write **Integer**.
 
 
 ## Syntax

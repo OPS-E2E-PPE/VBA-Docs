@@ -3,25 +3,24 @@ title: MailMergeFields.AddFillIn method (Word)
 keywords: vbawd10.chm153026663
 f1_keywords:
 - vbawd10.chm153026663
-ms.prod: word
 api_name:
 - Word.MailMergeFields.AddFillIn
 ms.assetid: aefd78e5-3439-473c-1b9b-7f58a3a45d55
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeFields.AddFillIn method (Word)
 
-Adds a FILLIN field to a mail merge main document. Returns a  **MailMergeField** object.
+Adds a FILLIN field to a mail merge main document. Returns a **MailMergeField** object.
 
 
 ## Syntax
 
- _expression_. `AddFillIn`( `_Range_` , `_Prompt_` , `_DefaultFillInText_` , `_AskOnce_` )
+_expression_. `AddFillIn`( `_Range_` , `_Prompt_` , `_DefaultFillInText_` , `_AskOnce_` )
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
 ## Parameters
@@ -42,7 +41,7 @@ MailMergeField
 
 ## Remarks
 
-When updated, a FILLIN field displays a dialog box that prompts you for text to insert into the document at the location of the FILLIN field. Use the  **Add** method with the **Fields** collection object to add a FILLIN field to a document other than a mail merge main document.
+When updated, a FILLIN field displays a dialog box that prompts you for text to insert into the document at the location of the FILLIN field. Use the **Add** method with the **Fields** collection object to add a FILLIN field to a document other than a mail merge main document.
 
 
 ## Example

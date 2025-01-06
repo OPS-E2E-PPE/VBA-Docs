@@ -1,9 +1,9 @@
 ---
 title: ServerPolicy members (Office)
-ms.prod: office
+ms.service: office
 ms.assetid: ed14d9a8-6159-f175-9078-181331ebfb03
 ms.date: 01/30/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

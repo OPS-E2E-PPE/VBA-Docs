@@ -3,10 +3,9 @@ title: Tag property example
 keywords: fm20.chm5225129
 f1_keywords:
 - fm20.chm5225129
-ms.prod: office
 ms.assetid: 23ace8e6-5d8a-6b61-d69d-eb403be6e605
 ms.date: 11/14/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

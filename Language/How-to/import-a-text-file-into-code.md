@@ -3,10 +3,9 @@ title: Import a text file into code (VBA)
 keywords: vbhw6.chm1008942
 f1_keywords:
 - vbhw6.chm1008942
-ms.prod: office
 ms.assetid: 83d1d2f0-26a0-c411-db5d-4233086f9f98
 ms.date: 12/27/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

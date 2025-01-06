@@ -1,24 +1,24 @@
 ---
-title: Project.HyperlinkColorEx Property (Project)
-ms.prod: project-server
+title: Project.HyperlinkColorEx property (Project)
+ms.service: project-server
 api_name:
 - Project.Project.HyperlinkColorEx
 ms.assetid: ee305b13-9375-47d4-4cae-c81af86f3606
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Project.HyperlinkColorEx Property (Project)
+# Project.HyperlinkColorEx property (Project)
 
-Gets or sets a hexadecimal representation of the color used to denote unfollowed hyperlinks. Read/write  **Long**.
+Gets or sets a hexadecimal representation of the color used to denote unfollowed hyperlinks. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `HyperlinkColorEx`
+_expression_. `HyperlinkColorEx`
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 
 ## Remarks

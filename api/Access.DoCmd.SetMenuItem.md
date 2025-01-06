@@ -3,12 +3,11 @@ title: DoCmd.SetMenuItem method (Access)
 keywords: vbaac10.chm4181
 f1_keywords:
 - vbaac10.chm4181
-ms.prod: access
 api_name:
 - Access.DoCmd.SetMenuItem
 ms.assetid: 690263c1-5e0f-54cd-1032-b2f718d82075
 ms.date: 02/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -35,10 +34,10 @@ _expression_ A variable that represents a **[DoCmd](Access.DoCmd.md)** object.
 
 ## Remarks
 
-You can use the **SetMenuItem** method to set the state of menu items (enabled or disabled, checked or unchecked) on the custom menu bar or global menu bar for the active window.
+Use the **SetMenuItem** method to set the state of menu items (enabled or disabled, checked or unchecked) on the custom menu bar or global menu bar for the active window.
 
 > [!NOTE] 
-> The **SetMenuItem** method works only with custom menu bars and global menu bars created by using menu bar macros. The **SetMenuItem** method is included in this version of Microsoft Access only for compatibility with versions prior to Microsoft Access 97. It doesn't work with the new command bars functionality.
+> The **SetMenuItem** method works only with custom menu bars and global menu bars created by using menu bar macros. The **SetMenuItem** method is included in this version of Access only for compatibility with versions prior to Access 97. It doesn't work with the new command bars functionality.
 
 
 

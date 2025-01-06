@@ -3,25 +3,24 @@ title: TabStops.Before method (Word)
 keywords: vbawd10.chm156565606
 f1_keywords:
 - vbawd10.chm156565606
-ms.prod: word
 api_name:
 - Word.TabStops.Before
 ms.assetid: 7a6ff83f-a1cc-1f60-6a29-08bc1f94ef7f
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # TabStops.Before method (Word)
 
-Returns the next  **TabStop** object to the left of Position.
+Returns the next **TabStop** object to the left of Position.
 
 
 ## Syntax
 
- _expression_. `Before`( `_Position_` )
+_expression_. `Before`( `_Position_` )
 
- _expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md)' collection.
+_expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md)' collection.
 
 
 ## Parameters

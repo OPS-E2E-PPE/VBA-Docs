@@ -1,19 +1,16 @@
 ---
 title: MsoClipboardFormat enumeration (Office)
-ms.prod: office
 api_name:
 - Office.MsoClipboardFormat
 ms.assetid: 25afca4d-9802-01a0-6120-480e989e5e9d
 ms.date: 01/31/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MsoClipboardFormat enumeration (Office)
 
 Specifies Clipboard formats.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

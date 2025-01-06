@@ -1,27 +1,26 @@
 ---
-title: JournalItem.MarkForDownload Property (Outlook)
+title: JournalItem.MarkForDownload property (Outlook)
 keywords: vbaol11.chm1284
 f1_keywords:
 - vbaol11.chm1284
-ms.prod: outlook
 api_name:
 - Outlook.JournalItem.MarkForDownload
 ms.assetid: 4fae4f9a-00ac-71d9-0d72-83209c475bf0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# JournalItem.MarkForDownload Property (Outlook)
+# JournalItem.MarkForDownload property (Outlook)
 
-Returns or sets an  **[OlRemoteStatus](Outlook.OlRemoteStatus.md)** constant that determines the status of an item once it is received by a remote user. Read/write.
+Returns or sets an **[OlRemoteStatus](Outlook.OlRemoteStatus.md)** constant that determines the status of an item once it is received by a remote user. Read/write.
 
 
 ## Syntax
 
 _expression_. `MarkForDownload`
 
-_expression_ A variable that represents a [JournalItem](./Outlook.JournalItem.md) object.
+_expression_ A variable that represents a [JournalItem](Outlook.JournalItem.md) object.
 
 
 ## Remarks
@@ -31,7 +30,7 @@ This property gives remote users with less-than-ideal data-transfer capabilities
 
 ## Example
 
-The following example searches through the user's  **Inbox** for items that have not yet been fully downloaded. If any items are found that are not fully downloaded, a message is displayed and the item is marked for download.
+The following example searches through the user's **Inbox** for items that have not yet been fully downloaded. If any items are found that are not fully downloaded, a message is displayed and the item is marked for download.
 
 
 ```vb

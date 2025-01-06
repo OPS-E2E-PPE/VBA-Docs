@@ -1,22 +1,22 @@
 ---
-title: WorkWeek.Finish Property (Project)
-ms.prod: project-server
+title: WorkWeek.Finish property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeek.Finish
 ms.assetid: d66fac85-0644-4f7d-445f-c4712aee6dbe
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeek.Finish Property (Project)
+# WorkWeek.Finish property (Project)
 
 Gets or sets the finish date of a work week represented by the **WorkWeek** object. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Finish`
+_expression_. `Finish`
 
  _expression_ An expression that returns a [WorkWeek](./Project.WorkWeek.md) object.
 

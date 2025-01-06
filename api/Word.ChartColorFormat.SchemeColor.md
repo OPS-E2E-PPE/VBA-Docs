@@ -3,25 +3,24 @@ title: ChartColorFormat.SchemeColor property (Word)
 keywords: vbawd10.chm12060270
 f1_keywords:
 - vbawd10.chm12060270
-ms.prod: word
 api_name:
 - Word.ChartColorFormat.SchemeColor
 ms.assetid: 56832016-dcd9-5627-d0e4-8cce040c24f7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartColorFormat.SchemeColor property (Word)
 
-Returns or sets the index of a color in the current color scheme. Read/write  **Long**.
+Returns or sets the index of a color in the current color scheme. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `SchemeColor`
+_expression_. `SchemeColor`
 
- _expression_ A variable that represents a '[ChartColorFormat](Word.ChartColorFormat.md)' object.
+_expression_ A variable that represents a '[ChartColorFormat](Word.ChartColorFormat.md)' object.
 
 
 ## Example

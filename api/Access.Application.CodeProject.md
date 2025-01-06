@@ -3,18 +3,17 @@ title: Application.CodeProject property (Access)
 keywords: vbaac10.chm12578
 f1_keywords:
 - vbaac10.chm12578
-ms.prod: access
 api_name:
 - Access.Application.CodeProject
 ms.assetid: 881eeb80-7e78-6ae6-3bb5-e7d67731c48c
 ms.date: 02/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.CodeProject property (Access)
 
-You can use the **CodeProject** property to access the **[CodeProject](Access.CodeProject.md)** object and its related collections, properties, and methods. Read-only **CodeProject** object.
+Use the **CodeProject** property to access the **[CodeProject](Access.CodeProject.md)** object and its related collections, properties, and methods. Read-only **CodeProject** object.
 
 
 ## Syntax

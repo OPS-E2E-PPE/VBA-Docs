@@ -1,27 +1,27 @@
 ---
-title: Application.FilePageSetupCalendarTextEx Method (Project)
+title: Application.FilePageSetupCalendarTextEx method (Project)
 keywords: vbapj.chm2162
 f1_keywords:
 - vbapj.chm2162
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.FilePageSetupCalendarTextEx
 ms.assetid: 370cfaa4-4a7b-e40e-be9e-d562bf9947d7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.FilePageSetupCalendarTextEx Method (Project)
+# Application.FilePageSetupCalendarTextEx method (Project)
 
 Formats the text of calendar views for printing, where the text color can be a hexadecimal value.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupCalendarTextEx`( `_Name_`, `_Item_`, `_Font_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_` )
+_expression_. `FilePageSetupCalendarTextEx`( `_Name_`, `_Item_`, `_Font_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ Formats the text of calendar views for printing, where the text color can be a h
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the calendar to edit.|
-| _Item_|Optional|**Long**|The text item to format. Can be one of the  **[PjPageSetupCalendarItem](Project.PjPageSetupCalendarItem.md)** constants.|
+| _Item_|Optional|**Long**|The text item to format. Can be one of the **[PjPageSetupCalendarItem](Project.PjPageSetupCalendarItem.md)** constants.|
 | _Font_|Optional|**String**|The name of the font.|
 | _Size_|Optional|**Integer**|The size of the font in points|
 | _Bold_|Optional|**Boolean**|**True** if the font is bold; otherwise, **False**.|
@@ -46,10 +46,11 @@ Formats the text of calendar views for printing, where the text color can be a h
 
 ## Remarks
 
-Using the  **FilePageSetupCalendarTextEx** method without any arguments displays the **Text Styles** dialog box.
+Using the **FilePageSetupCalendarTextEx** method without any arguments displays the **Text Styles** dialog box.
 
 
- **Note**   **FilePageSetupCalendarTextEx** works only for printing calendar views.
+> [!NOTE] 
+> **FilePageSetupCalendarTextEx** works only for printing calendar views.
 
 
 ## Example

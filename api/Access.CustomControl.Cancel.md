@@ -3,18 +3,17 @@ title: CustomControl.Cancel property (Access)
 keywords: vbaac10.chm12046
 f1_keywords:
 - vbaac10.chm12046
-ms.prod: access
 api_name:
 - Access.CustomControl.Cancel
 ms.assetid: 013feb6d-44e9-dbdf-0342-c07ff743f747
 ms.date: 03/05/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # CustomControl.Cancel property (Access)
 
-You can use the **Cancel** property to specify whether a command button is also the **Cancel** button on a form. Read/write **Boolean**.
+Use the **Cancel** property to specify whether a command button is also the **Cancel** button on a form. Read/write **Boolean**.
 
 
 ## Syntax

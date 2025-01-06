@@ -3,12 +3,11 @@ title: Range.NoProofing property (Word)
 keywords: vbawd10.chm157155651
 f1_keywords:
 - vbawd10.chm157155651
-ms.prod: word
 api_name:
 - Word.Range.NoProofing
 ms.assetid: 0344239d-10bc-0e3e-9601-41c3c3bb6227
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `NoProofing`
+_expression_. `NoProofing`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-This property returns  **wdUndefined** if the **NoProofing** property is set to **True** for only some of the specified text.
+This property returns **wdUndefined** if the **NoProofing** property is set to **True** for only some of the specified text.
 
 
 ## Example

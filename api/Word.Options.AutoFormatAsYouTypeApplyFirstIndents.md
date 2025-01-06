@@ -3,12 +3,11 @@ title: Options.AutoFormatAsYouTypeApplyFirstIndents property (Word)
 keywords: vbawd10.chm162988329
 f1_keywords:
 - vbawd10.chm162988329
-ms.prod: word
 api_name:
 - Word.Options.AutoFormatAsYouTypeApplyFirstIndents
 ms.assetid: d6995d25-194f-8792-38c6-57db562c332b
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeApplyFirstIndents`
+_expression_. `AutoFormatAsYouTypeApplyFirstIndents`
 
- _expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

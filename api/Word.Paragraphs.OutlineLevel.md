@@ -3,25 +3,24 @@ title: Paragraphs.OutlineLevel property (Word)
 keywords: vbawd10.chm156762314
 f1_keywords:
 - vbawd10.chm156762314
-ms.prod: word
 api_name:
 - Word.Paragraphs.OutlineLevel
 ms.assetid: ed44b494-84aa-3419-cc3f-69b330ec6aeb
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Paragraphs.OutlineLevel property (Word)
 
-Returns or sets the outline level for the specified paragraphs. Read/write  **[WdOutlineLevel](Word.WdOutlineLevel.md)**.
+Returns or sets the outline level for the specified paragraphs. Read/write **[WdOutlineLevel](Word.WdOutlineLevel.md)**.
 
 
 ## Syntax
 
- _expression_. `OutlineLevel`
+_expression_.**OutlineLevel**
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks

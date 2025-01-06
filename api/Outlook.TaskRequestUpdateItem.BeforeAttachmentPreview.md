@@ -1,24 +1,23 @@
 ---
-title: TaskRequestUpdateItem.BeforeAttachmentPreview Event (Outlook)
-ms.prod: outlook
+title: TaskRequestUpdateItem.BeforeAttachmentPreview event (Outlook)
 api_name:
 - Outlook.TaskRequestUpdateItem.BeforeAttachmentPreview
 ms.assetid: 3f071f28-40ba-53af-82de-23fff1b2a521
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TaskRequestUpdateItem.BeforeAttachmentPreview Event (Outlook)
+# TaskRequestUpdateItem.BeforeAttachmentPreview event (Outlook)
 
 Occurs before an attachment associated with an instance of the parent object is previewed.
 
 
 ## Syntax
 
- _expression_. `BeforeAttachmentPreview`( `_Attachment_` , `_Cancel_` )
+_expression_. `BeforeAttachmentPreview`( `_Attachment_` , `_Cancel_` )
 
-_expression_ A variable that represents a [TaskRequestUpdateItem](./Outlook.TaskRequestUpdateItem.md) object.
+_expression_ A variable that represents a [TaskRequestUpdateItem](Outlook.TaskRequestUpdateItem.md) object.
 
 
 ## Parameters
@@ -27,8 +26,8 @@ _expression_ A variable that represents a [TaskRequestUpdateItem](./Outlook.Task
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** to be previewed.|
-| _Cancel_|Required| **Boolean**|Set to  **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
+| _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The **Attachment** to be previewed.|
+| _Cancel_|Required| **Boolean**|Set to **True** to cancel the operation; otherwise, set to **False** to allow the **Attachment** to be previewed.|
 
 ## Remarks
 

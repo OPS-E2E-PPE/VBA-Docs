@@ -3,25 +3,24 @@ title: SeriesCollection.Count property (Word)
 keywords: vbawd10.chm150405238
 f1_keywords:
 - vbawd10.chm150405238
-ms.prod: word
 api_name:
 - Word.SeriesCollection.Count
 ms.assetid: 9a79979f-2cd8-c5f9-92aa-f7a9ed80089e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # SeriesCollection.Count property (Word)
 
-Returns the number of objects in the collection. Read-only  **Long**.
+Returns the number of objects in the collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a '[SeriesCollection](Word.SeriesCollection.md)' object.
+_expression_ A variable that represents a **[SeriesCollection](Word.SeriesCollection.md)** object.
 
 
 ## See also

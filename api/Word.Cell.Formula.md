@@ -3,12 +3,11 @@ title: Cell.Formula method (Word)
 keywords: vbawd10.chm156106953
 f1_keywords:
 - vbawd10.chm156106953
-ms.prod: word
 api_name:
 - Word.Cell.Formula
 ms.assetid: 0fec018a-5a6f-f5ec-ed1c-a963e53c27b3
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,12 @@ Inserts an = (Formula) field that contains the specified formula into a table ce
 
 ## Syntax
 
- _expression_. `Formula`( `_Formula_` , `_NumFormat_` )
+_expression_.**Formula** (_Formula_, _NumFormat_)
 
- _expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ Required. A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -44,7 +41,7 @@ Inserts an = (Formula) field that contains the specified formula into a table ce
     
 - If neither adjoining cell contains a value, Word inserts {=SUM(ABOVE)}.
     
-- If you don't specify  **Formula** and all the cells above and to the left of the insertion point are empty, the result of the field is an error.
+- If you don't specify **Formula** and all the cells above and to the left of the insertion point are empty, the result of the field is an error.
     
 
 ## Example

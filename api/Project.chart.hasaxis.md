@@ -1,20 +1,20 @@
 ---
-title: Chart.HasAxis Property (Project)
-ms.prod: project-server
+title: Chart.HasAxis property (Project)
+ms.service: project-server
 ms.assetid: f1059a7e-01ac-cd41-78d6-dc88f52943f2
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Chart.HasAxis Property (Project)
-Gets or sets which axes exist on a chart. Read/write  **Variant**.
+# Chart.HasAxis property (Project)
+Gets or sets which axes exist on a chart. Read/write **Variant**.
 
 ## Syntax
 
- _expression_. `HasAxis`
+_expression_.**HasAxis**
 
- _expression_ A variable that represents a 'Chart' object.
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Parameters
@@ -23,8 +23,8 @@ Gets or sets which axes exist on a chart. Read/write  **Variant**.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _axisType_|Required|**Variant**|The axis type. Series axes apply only to 3-D charts. Can be one of the  **Office.XlAxisType** constants.|
-| _AxisGroup_|Optional|**Variant**|The axis group. 3-D charts have only one set of axes. Can be one of the  **Office.XlAxisGroup** constants.|
+| _axisType_|Required|**Variant**|The axis type. Series axes apply only to 3D charts. Can be one of the **Office.XlAxisType** constants.|
+| _AxisGroup_|Optional|**Variant**|The axis group. 3D charts have only one set of axes. Can be one of the **Office.XlAxisGroup** constants.|
 
 ## Return value
 
@@ -33,9 +33,9 @@ Gets or sets which axes exist on a chart. Read/write  **Variant**.
 
 ## Remarks
 
-You must enter a value for at least one of the parameters when setting the  **HasAxis** property.
+You must enter a value for at least one of the parameters when setting the **HasAxis** property.
 
-Project may create or delete axes if you change the chart type or the  **IMsoAxis.AxisGroup**,  **IMsoChartGroup.AxisGroup**, or  **IMsoSeries.AxisGroup** properties.
+Project may create or delete axes if you change the chart type or the **IMsoAxis.AxisGroup**, **IMsoChartGroup.AxisGroup**, or **IMsoSeries.AxisGroup** properties.
 
 
 ## Example

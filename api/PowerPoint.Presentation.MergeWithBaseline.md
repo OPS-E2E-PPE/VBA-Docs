@@ -1,27 +1,26 @@
 ---
-title: Presentation.MergeWithBaseline Method (PowerPoint)
+title: Presentation.MergeWithBaseline method (PowerPoint)
 keywords: vbapp10.chm583113
 f1_keywords:
 - vbapp10.chm583113
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Presentation.MergeWithBaseline
 ms.assetid: 13d9c680-fedc-7c69-5630-b814e6a7463e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Presentation.MergeWithBaseline Method (PowerPoint)
+# Presentation.MergeWithBaseline method (PowerPoint)
 
 Merges a presentation into another presentation.
 
 
 ## Syntax
 
- _expression_. `MergeWithBaseline`( `_withPresentation_`, `_baselinePresentation_` )
+_expression_. `MergeWithBaseline`( `_withPresentation_`, `_baselinePresentation_` )
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters

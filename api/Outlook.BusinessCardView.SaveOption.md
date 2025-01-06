@@ -1,37 +1,36 @@
 ---
-title: BusinessCardView.SaveOption Property (Outlook)
+title: BusinessCardView.SaveOption property (Outlook)
 keywords: vbaol11.chm2929
 f1_keywords:
 - vbaol11.chm2929
-ms.prod: outlook
 api_name:
 - Outlook.BusinessCardView.SaveOption
 ms.assetid: d8d54e07-b050-f070-1ac0-0af3ef026f63
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# BusinessCardView.SaveOption Property (Outlook)
+# BusinessCardView.SaveOption property (Outlook)
 
-Returns an  **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
+Returns an **[OlViewSaveOption](Outlook.OlViewSaveOption.md)** constant that specifies the folders in which the specified view is available and the read permissions attached to the view. Read-only.
 
 
 ## Syntax
 
 _expression_. `SaveOption`
 
- _expression_ An expression that returns a [BusinessCardView](./Outlook.BusinessCardView.md) object.
+ _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 
 
 ## Remarks
 
-The value of the  **SaveOption** property is set when the **[BusinessCardView](Outlook.businesscardView.md)** object is created by using the **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection.
+The value of the **SaveOption** property is set when the **[BusinessCardView](Outlook.businesscardView.md)** object is created by using the **[Add](Outlook.Views.Add.md)** method of the **[Views](Outlook.Views.md)** collection.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example locks the user interface for all views that are available to all users. The subroutine  `LockView` accepts the **[View](Outlook.View.md)** object and a **Boolean** value that indicates if the **View** user interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
+The following Visual Basic for Applications (VBA) example locks the user interface for all views that are available to all users. The subroutine `LockView` accepts the **[View](Outlook.View.md)** object and a **Boolean** value that indicates if the **View** user interface will be locked. In this example the procedure is always called with the **Boolean** value set to **True**.
 
 
 ```vb

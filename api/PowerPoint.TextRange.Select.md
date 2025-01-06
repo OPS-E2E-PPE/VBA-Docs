@@ -1,27 +1,26 @@
 ---
-title: TextRange.Select Method (PowerPoint)
+title: TextRange.Select method (PowerPoint)
 keywords: vbapp10.chm569026
 f1_keywords:
 - vbapp10.chm569026
-ms.prod: powerpoint
 api_name:
 - PowerPoint.TextRange.Select
 ms.assetid: cd6fb1ba-ac49-a7d8-2777-fda2ce2746a4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# TextRange.Select Method (PowerPoint)
+# TextRange.Select method (PowerPoint)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. `Select`
+_expression_.**Select**
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Remarks

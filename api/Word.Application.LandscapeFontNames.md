@@ -3,25 +3,24 @@ title: Application.LandscapeFontNames property (Word)
 keywords: vbawd10.chm158334988
 f1_keywords:
 - vbawd10.chm158334988
-ms.prod: word
 api_name:
 - Word.Application.LandscapeFontNames
 ms.assetid: 59599ca0-0c6f-8d4a-9f4e-e98c5c241944
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # Application.LandscapeFontNames property (Word)
 
-Returns a  **[FontNames](Word.FontNames.md)** object that includes the names of all the available landscape fonts.
+Returns a **[FontNames](Word.FontNames.md)** object that includes the names of all the available landscape fonts.
 
 
 ## Syntax
 
- _expression_. `LandscapeFontNames`
+_expression_. `LandscapeFontNames`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

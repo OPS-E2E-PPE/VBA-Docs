@@ -3,10 +3,9 @@ title: IsArray function (Visual Basic for Applications)
 keywords: vblr6.chm1008823
 f1_keywords:
 - vblr6.chm1008823
-ms.prod: office
 ms.assetid: b7926cce-3e55-4074-1a04-99dac608fcb1
 ms.date: 12/13/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 

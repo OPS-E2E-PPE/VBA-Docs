@@ -1,11 +1,10 @@
 ---
 title: GlowFormat.Color property (Office)
-ms.prod: office
 api_name:
 - Office.GlowFormat.Color
 ms.assetid: a25f8237-7a2a-db91-0989-737720a2c052
 ms.date: 01/16/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

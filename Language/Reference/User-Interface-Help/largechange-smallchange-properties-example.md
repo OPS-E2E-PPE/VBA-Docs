@@ -3,10 +3,9 @@ title: LargeChange, SmallChange properties example
 keywords: fm20.chm5225136
 f1_keywords:
 - fm20.chm5225136
-ms.prod: office
 ms.assetid: f108dfbc-bf8e-b019-3082-07401e188fbe
 ms.date: 11/14/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

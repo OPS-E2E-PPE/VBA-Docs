@@ -1,18 +1,17 @@
 ---
-title: VisGuideTypes Enumeration (Visio)
+title: VisGuideTypes enumeration (Visio)
 keywords: vis_sdr.chm70110
 f1_keywords:
 - vis_sdr.chm70110
-ms.prod: visio
 ms.assetid: b33865f4-6994-1140-e43d-645206ead0e9
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# VisGuideTypes Enumeration (Visio)
+# VisGuideTypes enumeration (Visio)
 
-Guide type codes to be passed to the  **Page.AddGuide** method.
+Guide type codes to be passed to the **Page.AddGuide** method.
 
 
 

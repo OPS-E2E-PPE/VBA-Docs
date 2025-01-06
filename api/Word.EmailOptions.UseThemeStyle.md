@@ -3,12 +3,11 @@ title: EmailOptions.UseThemeStyle property (Word)
 keywords: vbawd10.chm165347431
 f1_keywords:
 - vbawd10.chm165347431
-ms.prod: word
 api_name:
 - Word.EmailOptions.UseThemeStyle
 ms.assetid: e34f27c6-4222-aa9a-dfbc-40c7c5c55a67
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `UseThemeStyle`
+_expression_. `UseThemeStyle`
 
- _expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
+_expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
 
 
 ## Remarks
 
-If no default email message theme has been specified, the  **UseThemeStyle** property has no effect.
+If no default email message theme has been specified, the **UseThemeStyle** property has no effect.
 
 
 ## Example

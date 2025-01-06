@@ -1,29 +1,29 @@
 ---
-title: WorkWeekDay.Calendar Property (Project)
-ms.prod: project-server
+title: WorkWeekDay.Calendar property (Project)
+ms.service: project-server
 api_name:
 - Project.WorkWeekDay.Calendar
 ms.assetid: 969e8ecd-f7cd-c87d-6d43-1b893841c5dc
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# WorkWeekDay.Calendar Property (Project)
+# WorkWeekDay.Calendar property (Project)
 
-Gets a  **[Calendar](Project.Calendar.md)** object representing the calendar that contains the **WorkWeekDay** object. Read-only **Calendar**.
+Gets a **[Calendar](Project.Calendar.md)** object representing the calendar that contains the **WorkWeekDay** object. Read-only **Calendar**.
 
 
 ## Syntax
 
- _expression_. `Calendar`
+_expression_. `Calendar`
 
  _expression_ An expression that returns a [WorkWeekDay](./Project.WorkWeekDay.md) object.
 
 
 ## Remarks
 
-For an example that resets the project calendar, see the  **[Calendar](Project.Project.Calendar.md)** property of the **Project** object.
+For an example that resets the project calendar, see the **[Calendar](Project.Project.Calendar.md)** property of the **Project** object.
 
 
 ## See also

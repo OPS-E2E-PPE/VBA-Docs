@@ -3,12 +3,11 @@ title: PivotFormula.Parent property (Excel)
 keywords: vbaxl10.chm230075
 f1_keywords:
 - vbaxl10.chm230075
-ms.prod: excel
 api_name:
 - Excel.PivotFormula.Parent
 ms.assetid: d284b184-bfbd-4c7f-874f-58e8146d171c
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 05/07/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -21,12 +20,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [PivotFormula](Excel.PivotFormula.md) object.
+_expression_ A variable that represents a **[PivotFormula](Excel.PivotFormula.md)** object.
 
 
-## See also
 
-
-[PivotFormula Object](Excel.PivotFormula.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

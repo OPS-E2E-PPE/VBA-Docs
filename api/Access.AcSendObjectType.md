@@ -3,20 +3,17 @@ title: AcSendObjectType enumeration (Access)
 keywords: vbaac10.chm10014
 f1_keywords:
 - vbaac10.chm10014
-ms.prod: access
 api_name:
 - Access.AcSendObjectType
 ms.assetid: 36c260a4-69a5-becd-f9f9-7b0346c983df
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/08/2019
+ms.localizationpriority: medium
 ---
 
 
 # AcSendObjectType enumeration (Access)
 
 Used with the [DoCmd.SendObject method (Access)](Access.DoCmd.SendObject.md) method to specify the type of object to send.
-
-<br/>
 
 |Name|Value|Description|
 |:-----|:-----|:-----|

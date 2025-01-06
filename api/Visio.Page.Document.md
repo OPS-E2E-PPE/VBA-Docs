@@ -1,27 +1,26 @@
 ---
-title: Page.Document Property (Visio)
+title: Page.Document property (Visio)
 keywords: vis_sdr.chm10913430
 f1_keywords:
 - vis_sdr.chm10913430
-ms.prod: visio
 api_name:
 - Visio.Page.Document
 ms.assetid: 3616486c-4c54-698f-19ff-ddde2f5e7bec
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Page.Document Property (Visio)
+# Page.Document property (Visio)
 
-Gets the  **Document** object that is associated with an object. Read-only.
+Gets the **Document** object that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Document`
+_expression_.**Document**
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Return value
@@ -31,24 +30,24 @@ Document
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019&preserve-view=true) reference, this property maps to the following types:
 
 
--  **Microsoft.Office.Interop.Visio.IVPage.Document**
+- **Microsoft.Office.Interop.Visio.IVPage.Document**
     
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Document** property of various objects to retrieve data about those objects, and does the following:
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Document** property of various objects to retrieve data about those objects, and does the following:
 
 
 
 
-- It adds a  **Document** object to the **Documents** collection and sets several of the **Document** object's properties.
+- It adds a **Document** object to the **Documents** collection and sets several of the **Document** object's properties.
     
-- It gets the active window and active page, draws a rectangle on the page, and drops a master on the  **Document** object to provide various objects to work on.
+- It gets the active window and active page, draws a rectangle on the page, and drops a master on the **Document** object to provide various objects to work on.
     
-- It uses the  **Document** property to get the **Document** object associated with each of these other objects.
+- It uses the **Document** property to get the **Document** object associated with each of these other objects.
     
 
 

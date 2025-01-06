@@ -1,27 +1,27 @@
 ---
-title: Application.DocSize Method (Project)
+title: Application.DocSize method (Project)
 keywords: vbapj.chm2017
 f1_keywords:
 - vbapj.chm2017
-ms.prod: project-server
+ms.service: project-server
 api_name:
 - Project.Application.DocSize
 ms.assetid: 03eb42ef-748e-ef42-a453-8305b0e2835c
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.DocSize Method (Project)
+# Application.DocSize method (Project)
 
 Sets the width and height of the active window.
 
 
 ## Syntax
 
- _expression_. `DocSize`( `_Width_`, `_Height_`, `_Points_` )
+_expression_. `DocSize`( `_Width_`, `_Height_`, `_Points_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

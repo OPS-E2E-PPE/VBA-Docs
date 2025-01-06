@@ -3,12 +3,11 @@ title: WordWrap property
 keywords: fm20.chm5225114
 f1_keywords:
 - fm20.chm5225114
-ms.prod: office
 api_name:
 - Office.WordWrap
 ms.assetid: c68f3da4-d930-62cc-b9fb-5f2de42d413f
 ms.date: 11/16/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

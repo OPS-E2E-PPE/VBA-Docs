@@ -1,11 +1,10 @@
 ---
 title: TextRange2.Cut method (Office)
-ms.prod: office
 api_name:
 - Office.TextRange2.Cut
 ms.assetid: 64f09c8a-a4cb-2770-0efc-a79e19f51e05
 ms.date: 01/25/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

@@ -3,12 +3,11 @@ title: Paragraphs.KeepWithNext property (Word)
 keywords: vbawd10.chm156762215
 f1_keywords:
 - vbawd10.chm156762215
-ms.prod: word
 api_name:
 - Word.Paragraphs.KeepWithNext
 ms.assetid: a0083251-893b-5323-7b4f-03df6ac32822
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `KeepWithNext`
+_expression_. `KeepWithNext`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-This property can be  **True** , **False** , or **wdUndefined**.
+This property can be **True**, **False**, or **wdUndefined**.
 
 
 ## Example

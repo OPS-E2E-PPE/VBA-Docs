@@ -3,12 +3,11 @@ title: EmailOptions.AutoFormatAsYouTypeInsertOvers property (Word)
 keywords: vbawd10.chm165347633
 f1_keywords:
 - vbawd10.chm165347633
-ms.prod: word
 api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeInsertOvers
 ms.assetid: 0c8b77a9-f6ed-1be5-bab8-dbab886812cd
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeInsertOvers`
+_expression_. `AutoFormatAsYouTypeInsertOvers`
 
- _expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ Required. A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example

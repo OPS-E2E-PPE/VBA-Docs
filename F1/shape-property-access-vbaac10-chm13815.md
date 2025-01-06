@@ -3,10 +3,10 @@ title: Shape Property, Access [vbaac10.chm13815]
 keywords: vbaac10.chm13815
 f1_keywords:
 - vbaac10.chm13815
-ms.prod: office
+ms.service: office
 ms.assetid: 700508f5-4885-48ff-8f5b-534ce541e929
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -14,8 +14,8 @@ localization_priority: Normal
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[Report.Shape property (Access)](http://msdn.microsoft.com/library/1fd2eb3c-5473-b239-d0c6-4e0ded950df6%28Office.15%29.aspx)
+[Report.Shape property (Access)](https://msdn.microsoft.com/library/1fd2eb3c-5473-b239-d0c6-4e0ded950df6%28Office.15%29.aspx)
 
-[CommandButton.Shape property (Access) Reference](http://msdn.microsoft.com/library/a22ca4ec-584d-46c8-2a11-aeb1503ec07f%28Office.15%29.aspx)
+[CommandButton.Shape property (Access) Reference](https://msdn.microsoft.com/library/a22ca4ec-584d-46c8-2a11-aeb1503ec07f%28Office.15%29.aspx)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

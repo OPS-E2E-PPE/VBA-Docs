@@ -3,10 +3,9 @@ title: Align a picture on a control
 keywords: fm20.chm5225263
 f1_keywords:
 - fm20.chm5225263
-ms.prod: office
 ms.assetid: 30584c25-3cb7-86b9-91ad-9704b996ef32
 ms.date: 12/29/2018
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 

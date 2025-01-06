@@ -3,25 +3,24 @@ title: MailMergeDataSource.HeaderSourceName property (Word)
 keywords: vbawd10.chm152895490
 f1_keywords:
 - vbawd10.chm152895490
-ms.prod: word
 api_name:
 - Word.MailMergeDataSource.HeaderSourceName
 ms.assetid: 80380230-3f88-f08d-780b-923287d359fa
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # MailMergeDataSource.HeaderSourceName property (Word)
 
-Returns the path and file name of the header source attached to the specified mail merge main document. Read-only  **String**.
+Returns the path and file name of the header source attached to the specified mail merge main document. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `HeaderSourceName`
+_expression_. `HeaderSourceName`
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Example

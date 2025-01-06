@@ -1,27 +1,26 @@
 ---
-title: Master.Shapes Property (PowerPoint)
+title: Master.Shapes property (PowerPoint)
 keywords: vbapp10.chm533003
 f1_keywords:
 - vbapp10.chm533003
-ms.prod: powerpoint
 api_name:
 - PowerPoint.Master.Shapes
 ms.assetid: a4620f02-d3d2-da87-6bbc-430557365c2d
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Master.Shapes Property (PowerPoint)
+# Master.Shapes property (PowerPoint)
 
-Returns a  **[Shapes](PowerPoint.Shapes.md)** collection that represents all the elements that have been placed or inserted on the specified slide, slide master, or range of slides. Read-only.
+Returns a **[Shapes](PowerPoint.Shapes.md)** collection that represents all the elements that have been placed or inserted on the specified slide, slide master, or range of slides. Read-only.
 
 
 ## Syntax
 
- _expression_. `Shapes`
+_expression_.**Shapes**
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Shapes
 
 ## Remarks
 
-The  **Shapes** collection returned can contain the drawings, shapes, OLE objects, pictures, text objects, titles, headers, footers, slide numbers, and date and time objects on a slide, or on the slide image on a notes page.
+The **Shapes** collection returned can contain the drawings, shapes, OLE objects, pictures, text objects, titles, headers, footers, slide numbers, and date and time objects on a slide, or on the slide image on a notes page.
 
 
 ## Example
@@ -69,7 +68,7 @@ firstSl.Shapes.Title.TextFrame.TextRange.Text = "Some title text"
 firstSl.Shapes(1).TextFrame.TextRange.Text = "Other title text"
 ```
 
-Assuming that shape two on slide two in the active presentation contains a text frame, the following example adds a series of paragraphs to the slide. Note that  `Chr(13)` is used to insert paragraph marks within the text.
+Assuming that shape two on slide two in the active presentation contains a text frame, the following example adds a series of paragraphs to the slide. Note that `Chr(13)` is used to insert paragraph marks within the text.
 
 
 

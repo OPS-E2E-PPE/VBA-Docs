@@ -3,10 +3,9 @@ title: SendKeys statement (VBA)
 keywords: vblr6.chm1009015
 f1_keywords:
 - vblr6.chm1009015
-ms.prod: office
 ms.assetid: 8da3e83d-333a-444f-a660-917350fe2bc6
 ms.date: 12/03/2018
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
@@ -17,8 +16,6 @@ Sends one or more keystrokes to the active window as if typed at the keyboard.
 ## Syntax
 
 **SendKeys** _string_, [ _wait_ ]
-
-<br/>
 
 The **SendKeys** statement syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -75,8 +72,6 @@ To specify characters that aren't displayed when you press a key, such as ENTER 
 |F14| `{F14}`|
 |F15| `{F15}`|
 |F16| `{F16}`|
-
-<br/>
 
 To specify keys combined with any combination of the SHIFT, CTRL, and ALT keys, precede the key code with one or more of the following codes:
 

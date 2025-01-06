@@ -3,25 +3,24 @@ title: ChartCharacters.Count property (Word)
 keywords: vbawd10.chm250740854
 f1_keywords:
 - vbawd10.chm250740854
-ms.prod: word
 api_name:
 - Word.ChartCharacters.Count
 ms.assetid: 8ee2abf3-4d80-a235-8fbc-a011842da718
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ChartCharacters.Count property (Word)
 
-Returns the number of objects in the collection. Read-only  **Long**.
+Returns the number of objects in the collection. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a '[ChartCharacters](Word.ChartCharacters.md)' object.
+_expression_ A variable that represents a '[ChartCharacters](Word.ChartCharacters.md)' object.
 
 
 ## Example

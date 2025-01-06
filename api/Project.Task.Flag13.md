@@ -1,29 +1,29 @@
 ---
-title: Task.Flag13 Property (Project)
-ms.prod: project-server
+title: Task.Flag13 property (Project)
+ms.service: project-server
 api_name:
 - Project.Task.Flag13
 ms.assetid: 0c4a2194-f491-d471-826f-6d16f171d5e4
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Task.Flag13 Property (Project)
+# Task.Flag13 property (Project)
 
-Gets or sets the value of a task flag custom field. Read/write  **Variant**.
+Gets or sets the value of a task flag custom field. Read/write **Variant**.
 
 
 ## Syntax
 
- _expression_. `Flag13`
+_expression_. `Flag13`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

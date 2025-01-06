@@ -1,18 +1,17 @@
 ---
-title: Application.GetObjectReference Method (Outlook)
+title: Application.GetObjectReference method (Outlook)
 keywords: vbaol11.chm734
 f1_keywords:
 - vbaol11.chm734
-ms.prod: outlook
 api_name:
 - Outlook.Application.GetObjectReference
 ms.assetid: 426ade68-155b-9076-b3f8-4108f44688b0
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.GetObjectReference Method (Outlook)
+# Application.GetObjectReference method (Outlook)
 
 Creates a strong or weak object reference for a specified Outlook object.
 
@@ -21,7 +20,7 @@ Creates a strong or weak object reference for a specified Outlook object.
 
 _expression_. `GetObjectReference`( `_Item_` , `_ReferenceType_` )
 
- _expression_ An expression that returns an [Application](./Outlook.Application.md) object.
+ _expression_ An expression that returns an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +34,7 @@ _expression_. `GetObjectReference`( `_Item_` , `_ReferenceType_` )
 
 ## Return value
 
-An  **Object** that represents a strong or weak object reference for the specified object.
+An **Object** that represents a strong or weak object reference for the specified object.
 
 
 ## Remarks
@@ -43,7 +42,8 @@ An  **Object** that represents a strong or weak object reference for the specifi
 This method returns a weak or strong object reference for the object specified in  _Item_.
 
 
- **Note**  Outlook can fail to close successfully if an add-in retains strong object references. Always dereference a strong object reference once it is no longer needed by the add-in.
+> [!NOTE] 
+> Outlook can fail to close successfully if an add-in retains strong object references. Always dereference a strong object reference once it is no longer needed by the add-in.
 
 
 ## See also

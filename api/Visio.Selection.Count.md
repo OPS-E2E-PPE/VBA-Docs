@@ -1,27 +1,26 @@
 ---
-title: Selection.Count Property (Visio)
+title: Selection.Count property (Visio)
 keywords: vis_sdr.chm11113330
 f1_keywords:
 - vis_sdr.chm11113330
-ms.prod: visio
 api_name:
 - Visio.Selection.Count
 ms.assetid: 89432479-5457-838f-a85d-20eb0dd61547
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Selection.Count Property (Visio)
+# Selection.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_.**Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Return value
@@ -31,7 +30,7 @@ Long
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb

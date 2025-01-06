@@ -1,27 +1,26 @@
 ---
-title: InvisibleApp.SetCustomToolbars Method (Visio)
+title: InvisibleApp.SetCustomToolbars method (Visio)
 keywords: vis_sdr.chm17516565
 f1_keywords:
 - vis_sdr.chm17516565
-ms.prod: visio
 api_name:
 - Visio.InvisibleApp.SetCustomToolbars
 ms.assetid: d9979327-5997-3517-fde5-91faa647be17
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# InvisibleApp.SetCustomToolbars Method (Visio)
+# InvisibleApp.SetCustomToolbars method (Visio)
 
 Replaces the current built-in or custom toolbars of an application or document.
 
 
 ## Syntax
 
- _expression_. `SetCustomToolbars`( `_ToolbarsObject_` )
+_expression_.**SetCustomToolbars** (_ToolbarsObject_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Parameters
@@ -30,7 +29,7 @@ Replaces the current built-in or custom toolbars of an application or document.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a  **UIObject** object that represents the new custom toolbars.|
+| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a **UIObject** object that represents the new custom toolbars.|
 
 ## Return value
 
@@ -40,14 +39,15 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If the  _ToolbarsObject_ object was created in a separate process by using the VBA **CreateObject** method instead of getting the appropriate property of an **Application** or **Document** object, the **SetCustomToolbars** method returns an error.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
 
 Before running this macro, replace  _path\filename_ in the code with the full path to and filename of an icon file (.ico) on your computer.
 

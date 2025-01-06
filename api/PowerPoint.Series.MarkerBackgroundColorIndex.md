@@ -1,24 +1,23 @@
 ---
-title: Series.MarkerBackgroundColorIndex Property (PowerPoint)
-ms.prod: powerpoint
+title: Series.MarkerBackgroundColorIndex property (PowerPoint)
 api_name:
 - PowerPoint.Series.MarkerBackgroundColorIndex
 ms.assetid: 18640945-ac4a-c661-46fa-804a66f57502
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Series.MarkerBackgroundColorIndex Property (PowerPoint)
+# Series.MarkerBackgroundColorIndex property (PowerPoint)
 
-Returns or sets the marker background color as an index into the current color palette, or as one of the following  **[xlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
+Returns or sets the marker background color as an index into the current color palette, or as one of the following **[XlColorIndex](PowerPoint.XlColorIndex.md)** constants: **xlColorIndexAutomatic** or **xlColorIndexNone**. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `MarkerBackgroundColorIndex`
+_expression_.**MarkerBackgroundColorIndex**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks

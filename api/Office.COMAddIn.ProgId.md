@@ -3,12 +3,11 @@ title: COMAddIn.ProgId property (Office)
 keywords: vbaof11.chm219003
 f1_keywords:
 - vbaof11.chm219003
-ms.prod: office
 api_name:
 - Office.COMAddIn.ProgId
 ms.assetid: eb917d53-512e-35dd-ff70-ac7b976e6500
 ms.date: 01/02/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -30,9 +29,9 @@ The following example displays the ProgID and GUID for COM add-in one in a messa
 
 
 ```vb
-MsgBox "My ProgID is " &amp; _ 
- Application.COMAddIns(1).ProgID &amp; _ 
- " and my GUID is " &amp; _ 
+MsgBox "My ProgID is " & _ 
+ Application.COMAddIns(1).ProgID & _ 
+ " and my GUID is " & _ 
  Application.COMAddIns(1).Guid
 ```
 

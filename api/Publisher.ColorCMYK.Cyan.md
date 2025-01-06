@@ -1,27 +1,26 @@
 ---
-title: ColorCMYK.Cyan Property (Publisher)
+title: ColorCMYK.Cyan property (Publisher)
 keywords: vbapb10.chm2621443
 f1_keywords:
 - vbapb10.chm2621443
-ms.prod: publisher
 api_name:
 - Publisher.ColorCMYK.Cyan
 ms.assetid: 47729474-40f4-e336-a92c-62f3ac19ed8f
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/06/2019
+ms.localizationpriority: medium
 ---
 
 
-# ColorCMYK.Cyan Property (Publisher)
+# ColorCMYK.Cyan property (Publisher)
 
-Sets or returns a  **Long** that represents the cyan component of a CMYK color. Value can be any number between 0 and 255. Read/write.
+Sets or returns a **Long** that represents the cyan component of a CMYK color. Value can be any number between 0 and 255. Read/write.
 
 
 ## Syntax
 
- _expression_. **Cyan**
+_expression_.**Cyan**
 
- _expression_ A variable that represents a  **ColorCMYK** object.
+_expression_ A variable that represents a **[ColorCMYK](Publisher.ColorCMYK.md)** object.
 
 
 ## Return value
@@ -31,8 +30,7 @@ Long
 
 ## Example
 
-This example creates two new shapes and then sets the CMYK fill color for one shape and sets the CMYK values of the second shape to the same CMYK values.
-
+This example creates two new shapes, and then sets the CMYK fill color for one shape and the CMYK values of the second shape to the same CMYK values.
 
 ```vb
 Sub ReturnAndSetCMYK() 

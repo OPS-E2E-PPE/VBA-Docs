@@ -3,12 +3,11 @@ title: Mailer.Sender property (Excel)
 keywords: vbaxl10.chm499078
 f1_keywords:
 - vbaxl10.chm499078
-ms.prod: excel
 api_name:
 - Excel.Mailer.Sender
 ms.assetid: 90056f2c-20c5-af69-980b-d824671d44e0
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 04/30/2019
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,11 @@ You have requested Help for a Visual Basic keyword used only on the Macintosh. F
 
 ## Syntax
 
-_expression_. `Sender`
+_expression_.**Sender**
 
-_expression_ A variable that represents a [Mailer](Excel.Mailer.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Mailer](Excel.Mailer.md)** object.
 
 
-[Mailer Object](Excel.Mailer.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

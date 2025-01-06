@@ -1,27 +1,26 @@
 ---
-title: Options.ShowTipPages Property (Publisher)
+title: Options.ShowTipPages property (Publisher)
 keywords: vbapb10.chm1048609
 f1_keywords:
 - vbapb10.chm1048609
-ms.prod: publisher
 api_name:
 - Publisher.Options.ShowTipPages
 ms.assetid: 44f91cf1-68e3-0755-3114-5dc41a2e4eba
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/11/2019
+ms.localizationpriority: medium
 ---
 
 
-# Options.ShowTipPages Property (Publisher)
+# Options.ShowTipPages property (Publisher)
 
- **True** for Microsoft Publisher to display tippages in balloons. Read/write **Boolean**.
+**True** for Microsoft Publisher to display tippages in balloons. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **ShowTipPages**
+_expression_.**ShowTipPages**
 
- _expression_ A variable that represents a  **Options** object.
+_expression_ A variable that represents an **[Options](Publisher.Options.md)** object.
 
 
 ## Return value
@@ -32,7 +31,6 @@ Boolean
 ## Example
 
 This example disables displaying tippages in balloons.
-
 
 ```vb
 Sub DontShowTipPages() 

@@ -1,27 +1,26 @@
 ---
-title: Addon.Enabled Property (Visio)
+title: Addon.Enabled property (Visio)
 keywords: vis_sdr.chm12413455
 f1_keywords:
 - vis_sdr.chm12413455
-ms.prod: visio
 api_name:
 - Visio.Addon.Enabled
 ms.assetid: fcc719d3-7b1c-e356-6f92-7717ecea10df
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 06/24/2019
+ms.localizationpriority: medium
 ---
 
 
-# Addon.Enabled Property (Visio)
+# Addon.Enabled property (Visio)
 
-Determines whether or not an  **Addon** object is currently enabled. Read/write.
+Determines whether an **Addon** object is currently enabled. Read/write.
 
 
 ## Syntax
 
- _expression_.**Enabled**
+_expression_.**Enabled**
 
- _expression_ A variable that represents an [Addon](./Visio.Addon.md) object.
+_expression_ A variable that represents an **[Addon](Visio.Addon.md)** object.
 
 
 ## Return value

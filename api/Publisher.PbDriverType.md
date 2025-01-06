@@ -1,20 +1,19 @@
 ---
-title: PbDriverType Enumeration (Publisher)
+title: PbDriverType enumeration (Publisher)
 keywords: vbapb10.chm65634
 f1_keywords:
 - vbapb10.chm65634
-ms.prod: publisher
 api_name:
 - Publisher.PbDriverType
 ms.assetid: d6f699cc-34c7-00fe-9c18-da5cdd6b98e7
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# PbDriverType Enumeration (Publisher)
+# PbDriverType enumeration (Publisher)
 
-Driver-type constants returned by the  ** [Printer.DriverType](Publisher.Printer.DriverType.md)** property.
+Driver-type constants returned by the **[Printer.DriverType](Publisher.Printer.DriverType.md)** property.
 
 
 

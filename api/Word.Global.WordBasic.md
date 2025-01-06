@@ -3,12 +3,11 @@ title: Global.WordBasic property (Word)
 keywords: vbawd10.chm163119110
 f1_keywords:
 - vbawd10.chm163119110
-ms.prod: word
 api_name:
 - Word.Global.WordBasic
 ms.assetid: be6209eb-d06c-3399-23b2-31b62642fe83
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,9 +18,9 @@ Returns an Automation object (Word.Basic) that includes methods for all the Word
 
 ## Syntax
 
- _expression_. `WordBasic`
+_expression_. `WordBasic`
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object.
 
 
 ## Remarks

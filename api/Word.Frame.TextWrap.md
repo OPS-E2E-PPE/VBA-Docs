@@ -3,12 +3,11 @@ title: Frame.TextWrap property (Word)
 keywords: vbawd10.chm153747468
 f1_keywords:
 - vbawd10.chm153747468
-ms.prod: word
 api_name:
 - Word.Frame.TextWrap
 ms.assetid: 457175c6-4b32-539a-c78d-889647459724
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,7 +18,7 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `TextWrap`
+_expression_. `TextWrap`
 
  _expression_ An expression that returns a '[Frame](Word.Frame.md)' object.
 

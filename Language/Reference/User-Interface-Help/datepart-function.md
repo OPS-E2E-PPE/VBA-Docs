@@ -3,21 +3,19 @@ title: DatePart function (Visual Basic for Applications)
 keywords: vblr6.chm1012951
 f1_keywords:
 - vblr6.chm1012951
-ms.prod: office
 ms.assetid: 65476ecc-c1d6-333e-b8b5-417a96373594
-ms.date: 12/12/2018
-localization_priority: Priority
+ms.date: 12/10/2019
+ms.localizationpriority: medium
 ---
 
 # DatePart function
-
+> [!WARNING]
+> There is an issue with the use of this function. The last Monday in some calendar years can be returned as week 53 when it should be week 1. For more information and a workaround, see [Format or DatePart functions can return wrong week number for last Monday in Year](/office/troubleshoot/access/functions-return-wrong-week-number).
 Returns a **Variant** (**Integer**) containing the specified part of a given date.
 
 ## Syntax
 
 **DatePart**(_interval_, _date_, [ _firstdayofweek_, [ _firstweekofyear_ ]])
-
-<br/>
 
 The **DatePart** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
@@ -45,8 +43,6 @@ The _interval_ [argument](../../Glossary/vbe-glossary.md#argument) has these set
 |n|Minute|
 |s|Second|
 
-<br/>
-
 The _firstdayofweek_ argument has these settings:
 
 |Constant|Value|Description|
@@ -60,8 +56,6 @@ The _firstdayofweek_ argument has these settings:
 |**vbFriday**|6|Friday|
 |**vbSaturday**|7|Saturday|
 
-<br/>
-
 The _firstweekofyear_ argument has these settings:
 
 |Constant|Value|Description|
@@ -73,7 +67,7 @@ The _firstweekofyear_ argument has these settings:
 
 ## Remarks
 
-You can use the **DatePart** function to evaluate a date and return a specific interval of time. For example, you might use **DatePart** to calculate the day of the week or the current hour.
+Use the **DatePart** function to evaluate a date and return a specific interval of time. For example, you might use **DatePart** to calculate the day of the week or the current hour.
 
 The _firstdayofweek_ argument affects calculations that use the "w" and "ww" interval symbols.
 
@@ -102,3 +96,5 @@ MsgBox Msg
 - [Functions (Visual Basic for Applications)](../functions-visual-basic-for-applications.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]
+
+[Format or DatePart functions can return wrong week number for last Monday in Year](/office/troubleshoot/access/functions-return-wrong-week-number)

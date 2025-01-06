@@ -1,32 +1,31 @@
 ---
-title: AppointmentItem.Start Property (Outlook)
+title: AppointmentItem.Start property (Outlook)
 keywords: vbaol11.chm902
 f1_keywords:
 - vbaol11.chm902
-ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.Start
 ms.assetid: 1b869a9d-fe08-6efb-48b1-f33cf9ea0024
 ms.date: 06/08/2017
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 
-# AppointmentItem.Start Property (Outlook)
+# AppointmentItem.Start property (Outlook)
 
-Returns or sets a  **Date** indicating the starting date and time for the Outlook item. Read/write.
+Returns or sets a **Date** indicating the starting date and time for the Outlook item. Read/write.
 
 
 ## Syntax
 
-_expression_. `Start`
+_expression_.**Start**
 
-_expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
 ## Example
 
-This Visual Basic for Applications (VBA) example uses  **[CreateItem](Outlook.Application.CreateItem.md)** to create an appointment and uses **[MeetingStatus](Outlook.AppointmentItem.MeetingStatus.md)** to set the meeting status to "Meeting" and to make it a meeting request with both a required and an optional attendee.
+This Visual Basic for Applications (VBA) example uses **[CreateItem](Outlook.Application.CreateItem.md)** to create an appointment and uses **[MeetingStatus](Outlook.AppointmentItem.MeetingStatus.md)** to set the meeting status to "Meeting" and to make it a meeting request with both a required and an optional attendee.
 
 
 ```vb

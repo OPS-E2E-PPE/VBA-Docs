@@ -1,24 +1,24 @@
 ---
-title: Application.GetProjectServerSettingsEx Method (Project)
-ms.prod: project-server
+title: Application.GetProjectServerSettingsEx method (Project)
+ms.service: project-server
 api_name:
 - Project.Application.GetProjectServerSettingsEx
 ms.assetid: cd630197-60e0-0ba8-e01e-114b82fe9f1e
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Application.GetProjectServerSettingsEx Method (Project)
+# Application.GetProjectServerSettingsEx method (Project)
 
 Returns global Project settings in a single XML string. You can obtain settings specific to the active project, or you can obtain settings specific to the current project manager by calling a server-side object.
 
 
 ## Syntax
 
- _expression_. `GetProjectServerSettingsEx`
+_expression_. `GetProjectServerSettingsEx`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -28,7 +28,7 @@ Returns global Project settings in a single XML string. You can obtain settings 
 
 ## Remarks
 
-Following is the format of the XML string returned by  **GetProjectServerSettingsEx** method.
+Following is the format of the XML string returned by **GetProjectServerSettingsEx** method.
 
 
 ```xml
@@ -50,7 +50,7 @@ Following is the format of the XML string returned by  **GetProjectServerSetting
 
  **ProjectIDInProjectServer -** The class identifier of the active project.
 
- **AdminDefaultTrackingMethod -** Default tracking method for task status. You can see this on Microsoft Project Web Access by going to **Server Settings**->(**Time and task management section**)  **Task Settings and Display**-> **Tracking Method** property. It can be one of the following:
+ **AdminDefaultTrackingMethod -** Default tracking method for task status. You can see this on Microsoft Project Web Access by going to **Server Settings**->(**Time and task management section**) **Task Settings and Display**-> **Tracking Method** property. It can be one of the following:
 
 
 - 1 = Hours of work done per day. Resources report their hours worked on each task per day.)

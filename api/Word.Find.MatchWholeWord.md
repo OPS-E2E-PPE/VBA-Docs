@@ -3,12 +3,11 @@ title: Find.MatchWholeWord property (Word)
 keywords: vbawd10.chm162529297
 f1_keywords:
 - vbawd10.chm162529297
-ms.prod: word
 api_name:
 - Word.Find.MatchWholeWord
 ms.assetid: a4ce7e5f-c84b-b13a-e21c-14051a0f4a6a
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
@@ -19,14 +18,14 @@ localization_priority: Normal
 
 ## Syntax
 
- _expression_. `MatchWholeWord`
+_expression_. `MatchWholeWord`
 
  _expression_ An expression that returns a '[Find](Word.Find.md)' object.
 
 
 ## Remarks
 
-Use the  **[Text](Word.Find.Text.md)** property of the **Find** object or the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
+Use the **[Text](Word.Find.Text.md)** property of the **Find** object or the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
 
 
 ## Example

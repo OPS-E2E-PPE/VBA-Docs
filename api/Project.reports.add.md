@@ -1,20 +1,20 @@
 ---
-title: Reports.Add Method (Project)
-ms.prod: project-server
+title: Reports.Add method (Project)
+ms.service: project-server
 ms.assetid: 3ce8e51c-54c6-6cc7-f5ec-c27e0a657f04
 ms.date: 06/08/2017
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
-# Reports.Add Method (Project)
-Adds a custom report to the  **Reports** collection.
+# Reports.Add method (Project)
+Adds a custom report to the **Reports** collection.
 
 ## Syntax
 
- _expression_. `Add` _(Name)_
+_expression_.**Add** _(Name)_
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Parameters
@@ -24,7 +24,7 @@ Adds a custom report to the  **Reports** collection.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|The name of the report.|
-| _Name_|Required|STRING||
+| _Name_|Required|**String**||
 
 ## Return value
 
@@ -35,12 +35,12 @@ The custom report object that is added.
 
 ## Remarks
 
-The new report is empty; it does not contain any shapes such as tables or charts. To add shapes to the report, you can use methods in the  **[Shapes](Project.shapes.md)** object such as **AddChart** and **AddTable**.
+The new report is empty; it does not contain any shapes such as tables or charts. To add shapes to the report, you can use methods in the **[Shapes](Project.shapes.md)** object such as **AddChart** and **AddTable**.
 
 
 ## Examples
 
-The following example adds an empty report named  **Report 1**, and displays the report.
+The following example adds an empty report named **Report 1**, and displays the report.
 
 
 ```vb

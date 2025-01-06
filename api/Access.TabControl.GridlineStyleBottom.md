@@ -3,18 +3,17 @@ title: TabControl.GridlineStyleBottom property (Access)
 keywords: vbaac10.chm14543
 f1_keywords:
 - vbaac10.chm14543
-ms.prod: access
 api_name:
 - Access.TabControl.GridlineStyleBottom
 ms.assetid: 06c42eb1-5123-24a0-2b39-59371b0b23bf
-ms.date: 06/08/2017
-localization_priority: Normal
+ms.date: 02/14/2019
+ms.localizationpriority: medium
 ---
 
 
 # TabControl.GridlineStyleBottom property (Access)
 
-Gets or sets the bottom gridline style of the specified text box. Read/write **Byte**.
+Gets or sets the bottom gridline style of the specified control. Read/write **Byte**.
 
 ## Syntax
 

@@ -3,18 +3,17 @@ title: ToggleButton.ReadingOrder property (Access)
 keywords: vbaac10.chm11761
 f1_keywords:
 - vbaac10.chm11761
-ms.prod: access
 api_name:
 - Access.ToggleButton.ReadingOrder
 ms.assetid: 172e40bd-bdd2-a4e8-3e96-d4bd8d3c40c8
 ms.date: 02/23/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 
 # ToggleButton.ReadingOrder property (Access)
 
-You can use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
+Use the **ReadingOrder** property to specify or determine the reading order of words in text. Read/write **Byte**.
 
 
 ## Syntax
